@@ -1,17 +1,19 @@
 // Apply Drizzle migrations to the SQLite DB.
-//   npm run db:generate   # author migrations after editing schema.ts
-//   npm run db:migrate    # apply them
-import { loadEnvConfig } from '@next/env';
+//   npm run db:migrate
+//
+// Plain CommonJS so production deploys can run it with `node` without needing
+// `tsx` from devDependencies.
+const { loadEnvConfig } = require('@next/env');
 loadEnvConfig(process.cwd());
 
-import Database from 'better-sqlite3';
-import { drizzle } from 'drizzle-orm/better-sqlite3';
-import { migrate } from 'drizzle-orm/better-sqlite3/migrator';
-import { existsSync, mkdirSync } from 'node:fs';
-import path from 'node:path';
+const Database = require('better-sqlite3');
+const { drizzle } = require('drizzle-orm/better-sqlite3');
+const { migrate } = require('drizzle-orm/better-sqlite3/migrator');
+const { existsSync, mkdirSync } = require('node:fs');
+const path = require('node:path');
 
-function resolveDbPath(): string {
-  const url = process.env.DATABASE_URL ?? 'file:./data/promptsmith.db';
+function resolveDbPath() {
+  const url = process.env.DATABASE_URL || 'file:./data/promptsmith.db';
   if (!url.startsWith('file:')) throw new Error('DATABASE_URL must start with file:');
   const raw = url.slice('file:'.length);
   return path.isAbsolute(raw) ? raw : path.join(process.cwd(), raw);

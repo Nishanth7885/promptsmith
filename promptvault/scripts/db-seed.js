@@ -1,26 +1,27 @@
 // Seed default settings (prices, product name). Idempotent — safe to re-run.
-import { loadEnvConfig } from '@next/env';
+//
+// Plain CommonJS, runs with `node` (no tsx needed in production).
+const { loadEnvConfig } = require('@next/env');
 loadEnvConfig(process.cwd());
 
-import Database from 'better-sqlite3';
-import { drizzle } from 'drizzle-orm/better-sqlite3';
-import { sql } from 'drizzle-orm';
-import path from 'node:path';
-import * as schema from '../src/db/schema';
+const Database = require('better-sqlite3');
+const { drizzle } = require('drizzle-orm/better-sqlite3');
+const { sql } = require('drizzle-orm');
+const path = require('node:path');
 
-function resolveDbPath(): string {
-  const url = process.env.DATABASE_URL ?? 'file:./data/promptsmith.db';
+function resolveDbPath() {
+  const url = process.env.DATABASE_URL || 'file:./data/promptsmith.db';
   const raw = url.slice('file:'.length);
   return path.isAbsolute(raw) ? raw : path.join(process.cwd(), raw);
 }
 
 const sqlite = new Database(resolveDbPath());
 sqlite.pragma('foreign_keys = ON');
-const db = drizzle(sqlite, { schema });
+const db = drizzle(sqlite);
 
-const defaults: Array<[string, string]> = [
-  ['price_inr', String(process.env.DEFAULT_PRICE_INR ?? '249')],
-  ['price_usd', String(process.env.DEFAULT_PRICE_USD ?? '2.99')],
+const defaults = [
+  ['price_inr', String(process.env.DEFAULT_PRICE_INR || '249')],
+  ['price_usd', String(process.env.DEFAULT_PRICE_USD || '2.99')],
   ['product_name', 'Prompt Smith — 4,000+ Expert AI Prompts'],
   ['cross_border_enabled', 'false'],
 ];

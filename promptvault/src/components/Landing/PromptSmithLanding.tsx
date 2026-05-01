@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { useSession } from 'next-auth/react';
 import { hasAccess } from '@/lib/access';
 import CheckoutModal from '@/components/CheckoutModal';
 
@@ -174,6 +175,7 @@ const formatSnippet = (text: string) =>
 
 export default function PromptSmithLanding() {
   const router = useRouter();
+  const { data: session } = useSession();
   const [activeTab, setActiveTab] = useState(0);
   const [activeFilter, setActiveFilter] = useState<'all' | VaultEntry['cat']>('all');
   const [statusLive, setStatusLive] = useState(false);
@@ -182,18 +184,22 @@ export default function PromptSmithLanding() {
   const [checkoutOpen, setCheckoutOpen] = useState(false);
   const [unlocked, setUnlocked] = useState(false);
 
-  // Read localStorage unlock flag once on mount.
+  // Read localStorage unlock flag once on mount (legacy device-bound access).
   useEffect(() => {
     setUnlocked(hasAccess());
   }, []);
 
-  // Wire the paid CTA — opens the same Cashfree modal used by BuyButton.
-  // If the buyer already has access (localStorage flag set after a successful
-  // /payment/return), we route them straight into the library instead of
-  // re-prompting for payment.
+  // Wire the paid CTA. Three paths:
+  //   - Already legacy-unlocked on this device → straight to /browse.
+  //   - Logged in → open the checkout modal (uses session email).
+  //   - Anonymous → route to /signup with a callback so they bounce back.
   const onUnlockClick = () => {
     if (unlocked) {
       router.push('/browse');
+      return;
+    }
+    if (!session?.user) {
+      router.push('/signup?callbackUrl=' + encodeURIComponent('/?buy=1'));
       return;
     }
     setCheckoutOpen(true);
@@ -399,7 +405,7 @@ export default function PromptSmithLanding() {
 
       <header className="nav">
         <div className="nav-inner">
-          <a className="logo" href="#">
+          <a className="logo" href="/">
             <span className="logo-mark"><span>PS</span></span>
             Prompt Smith
           </a>
@@ -410,10 +416,10 @@ export default function PromptSmithLanding() {
           >
             <a href="#vault" onClick={() => setMenuOpen(false)}>Vault</a>
             <a href="#pricing" onClick={() => setMenuOpen(false)}>Pricing</a>
-            <a href="#" onClick={() => setMenuOpen(false)}>Docs</a>
-            <a href="#" onClick={() => setMenuOpen(false)}>Sign in</a>
+            <a href="/preview" onClick={() => setMenuOpen(false)}>Free preview</a>
+            <a href="/login" onClick={() => setMenuOpen(false)}>Sign in</a>
           </nav>
-          <a className="nav-cta" href="#pricing">Get access →</a>
+          <a className="nav-cta" href="/signup">Get access →</a>
           <button
             className="menu-btn"
             aria-label="Menu"
@@ -672,24 +678,23 @@ export default function PromptSmithLanding() {
             </div>
             <div>
               <h4>Product</h4>
-              <a href="#vault">Vault</a>
+              <a href="/browse">Browse</a>
+              <a href="/search">Search</a>
+              <a href="/preview">Free preview</a>
               <a href="#pricing">Pricing</a>
-              <a href="#">Changelog</a>
-              <a href="#">API</a>
             </div>
             <div>
-              <h4>Resources</h4>
-              <a href="#">Docs</a>
-              <a href="#">Guides</a>
-              <a href="#">Discord</a>
-              <a href="#">Status</a>
+              <h4>Account</h4>
+              <a href="/signup">Sign up</a>
+              <a href="/login">Log in</a>
+              <a href="/account">Your account</a>
             </div>
             <div>
               <h4>Company</h4>
-              <a href="#">About</a>
-              <a href="#">Contact</a>
-              <a href="#">Privacy</a>
-              <a href="#">Terms</a>
+              <a href="mailto:hello@promptsmith.ink">Contact</a>
+              <a href="/privacy">Privacy</a>
+              <a href="/terms">Terms</a>
+              <a href="/refund">Refund policy</a>
             </div>
           </div>
           <div className="footer-base">

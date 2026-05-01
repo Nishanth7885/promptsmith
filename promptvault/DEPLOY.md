@@ -60,11 +60,14 @@ sudo -u promptsmith bash -c '
   set -e
   RELEASE_DIR=/opt/promptsmith/releases/$(date +%Y%m%d%H%M%S)
   mkdir -p "$RELEASE_DIR"
-  rsync -a --exclude=node_modules --exclude=.next --exclude=/data /tmp/promptsmith/promptvault/ "$RELEASE_DIR"/
+  cp -r /tmp/promptsmith/promptvault/. "$RELEASE_DIR"/
   cd "$RELEASE_DIR"
-  npm ci --omit=dev
-  npm run prompts:build
+  rm -rf node_modules .next data
+  # IMPORTANT: install with dev deps. Next 14 needs tailwindcss/postcss/etc.
+  # from devDependencies to compile client components. After build we prune.
+  npm ci
   npm run build
+  npm prune --omit=dev
   # Standalone bundle excludes static + public — copy them over.
   cp -r .next/static .next/standalone/.next/static
   cp -r public .next/standalone/public
@@ -74,7 +77,9 @@ sudo -u promptsmith bash -c '
 
 `/opt/promptsmith/current` is now the symlink the systemd unit will use.
 
-> **Why `--exclude=/data`** (with leading slash) and not `--exclude=data`: rsync treats an unanchored pattern like `data` as "match any directory named `data` anywhere" — which would also exclude `src/data/prompts/` where the 4,029 prompt JSONs live, and the build would fail. The leading slash anchors the pattern to the rsync source root so only top-level `data/` (holding the SQLite file + legacy `orders.jsonl`) is skipped.
+> **Why `cp -r` instead of rsync with excludes:** rsync's exclude patterns are easy to get wrong (e.g. `--exclude data` matches `src/data/prompts/` too). A plain `cp -r` of the cleaned working tree, then explicit `rm -rf node_modules .next data` of the bits we don't want, is foolproof.
+>
+> **Why `npm ci` without `--omit=dev`:** Next.js 14's build pipeline needs `tailwindcss`, `postcss`, `autoprefixer`, and friends — all in `devDependencies` — to compile client components. Running `--omit=dev` here makes the build succeed silently for server components but fail with confusing `Module not found` errors on client components (browse, category, payment-return, etc.). We install everything, build, then `npm prune --omit=dev` afterwards to slim the release down.
 
 ## 5. Drop in the env file
 
@@ -98,15 +103,31 @@ Save. Re-confirm `chmod 600 /etc/promptsmith.env` so it's not world-readable.
 
 ## 6. Initialize the database
 
+The env file is `chmod 600` (root-only) by default. Make it readable to the
+service user's group so it can `source` the file:
+
 ```bash
-cd /opt/promptsmith/current
-sudo -u promptsmith DATABASE_URL="file:/var/lib/promptsmith/promptsmith.db" \
-  node -e 'require("dotenv").config({path:"/etc/promptsmith.env"})' || true
-sudo -u promptsmith env $(grep -v '^#' /etc/promptsmith.env | xargs) npm run db:migrate
-sudo -u promptsmith env $(grep -v '^#' /etc/promptsmith.env | xargs) npm run db:seed
+sudo chown root:promptsmith /etc/promptsmith.env
+sudo chmod 640 /etc/promptsmith.env
 ```
 
-(The `env $(grep …)` pattern loads the env file into the subprocess so the migrate/seed scripts see `DATABASE_URL`.)
+Run migrate + seed as the `promptsmith` user, sourcing the env file properly
+(the `set -a` / `source` / `set +a` pattern handles values with spaces and
+shell metacharacters cleanly — `env $(grep …)` does NOT):
+
+```bash
+sudo -u promptsmith bash -c '
+  cd /opt/promptsmith/current
+  set -a
+  source /etc/promptsmith.env
+  set +a
+  npm run db:migrate
+  npm run db:seed
+'
+```
+
+You should see `[migrate] db: /var/lib/promptsmith/promptsmith.db` then
+`[migrate] done`, and `[seed] settings seeded: price_inr, price_usd, …`.
 
 ## 7. Install + start the systemd unit
 
@@ -183,20 +204,25 @@ Sign up at `https://promptsmith.ink/signup` with the email you set in `ADMIN_BOO
 ```bash
 # On your laptop, scp the new code to /tmp/promptsmith on the VM, then:
 ssh promptsmith-vm
+cd /tmp/promptsmith && git pull
 sudo -u promptsmith bash -c '
   set -e
   RELEASE_DIR=/opt/promptsmith/releases/$(date +%Y%m%d%H%M%S)
   mkdir -p "$RELEASE_DIR"
-  rsync -a --exclude=node_modules --exclude=.next --exclude=/data /tmp/promptsmith/promptvault/ "$RELEASE_DIR"/
+  cp -r /tmp/promptsmith/promptvault/. "$RELEASE_DIR"/
   cd "$RELEASE_DIR"
-  npm ci --omit=dev
-  npm run prompts:build
+  rm -rf node_modules .next data
+  npm ci
   npm run build
+  npm prune --omit=dev
   cp -r .next/static .next/standalone/.next/static
   cp -r public .next/standalone/public
 '
-sudo -u promptsmith env $(grep -v '^#' /etc/promptsmith.env | xargs) bash -c '
+sudo -u promptsmith bash -c '
   cd /opt/promptsmith/releases/$(ls -t /opt/promptsmith/releases | head -1)
+  set -a
+  source /etc/promptsmith.env
+  set +a
   npm run db:migrate
 '
 sudo ln -sfn /opt/promptsmith/releases/$(ls -t /opt/promptsmith/releases | head -1) /opt/promptsmith/current
