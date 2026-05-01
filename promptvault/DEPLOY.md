@@ -60,7 +60,7 @@ sudo -u promptsmith bash -c '
   set -e
   RELEASE_DIR=/opt/promptsmith/releases/$(date +%Y%m%d%H%M%S)
   mkdir -p "$RELEASE_DIR"
-  rsync -a --exclude node_modules --exclude .next --exclude data /tmp/promptsmith/promptvault/ "$RELEASE_DIR"/
+  rsync -a --exclude=node_modules --exclude=.next --exclude=/data /tmp/promptsmith/promptvault/ "$RELEASE_DIR"/
   cd "$RELEASE_DIR"
   npm ci --omit=dev
   npm run prompts:build
@@ -73,6 +73,8 @@ sudo -u promptsmith bash -c '
 ```
 
 `/opt/promptsmith/current` is now the symlink the systemd unit will use.
+
+> **Why `--exclude=/data`** (with leading slash) and not `--exclude=data`: rsync treats an unanchored pattern like `data` as "match any directory named `data` anywhere" — which would also exclude `src/data/prompts/` where the 4,029 prompt JSONs live, and the build would fail. The leading slash anchors the pattern to the rsync source root so only top-level `data/` (holding the SQLite file + legacy `orders.jsonl`) is skipped.
 
 ## 5. Drop in the env file
 
@@ -185,7 +187,7 @@ sudo -u promptsmith bash -c '
   set -e
   RELEASE_DIR=/opt/promptsmith/releases/$(date +%Y%m%d%H%M%S)
   mkdir -p "$RELEASE_DIR"
-  rsync -a --exclude node_modules --exclude .next --exclude data /tmp/promptsmith/promptvault/ "$RELEASE_DIR"/
+  rsync -a --exclude=node_modules --exclude=.next --exclude=/data /tmp/promptsmith/promptvault/ "$RELEASE_DIR"/
   cd "$RELEASE_DIR"
   npm ci --omit=dev
   npm run prompts:build
