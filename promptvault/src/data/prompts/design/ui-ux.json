@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "design-ui-ux-001",
+      "title": "Bharat Tier-3 User Persona for Fintech App",
+      "prompt": "Act as a senior UX researcher with 8 years of experience designing for Bharat users at companies like PhonePe and Meesho. I need you to create a detailed user persona for a tier-3 first-time smartphone user in a fintech app context. Here is the context: we are launching a UPI-based savings app targeting users in towns like Gorakhpur, Siliguri, and Warangal, with monthly household incomes of INR 15,000-30,000, primarily Hindi/regional language speakers, using entry-level Android phones on 2G/3G networks. Please provide: (1) persona name, age, occupation, and city with cultural details, (2) device and data context including phone model, RAM, storage, and typical data pack, (3) digital literacy level and trust barriers toward financial apps, (4) top 5 motivations and top 5 anxieties around money and digital payments, (5) preferred language, script, and content format (voice vs text), (6) a day-in-the-life narrative of 150 words showing when and why they open financial apps, (7) 3 \"jobs to be done\" statements using the JTBD framework. Format the output as a structured persona card with clearly labeled sections. Consider these constraints: avoid metro stereotypes, reference actual Indian cultural touchpoints like chit funds, gold savings, and family financial decision-making, and ensure the persona reflects RBI's financial inclusion priorities.",
+      "tags": [
+        "persona",
+        "bharat",
+        "fintech",
+        "user-research"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-002",
+      "title": "UPI Checkout Journey Map for D2C Brand",
+      "prompt": "Act as a product designer with 6 years of experience mapping payment flows for Indian D2C and quick-commerce apps like Zepto and Swiggy Instamart. I need you to create a detailed user journey map for a UPI checkout flow on a D2C skincare brand's mobile website. Here is the context: the user is a 28-year-old working woman in Pune buying a INR 1,499 serum for the first time, accessing the site from an Instagram ad on a mid-range Android phone. Please provide: (1) a 7-stage journey from ad click to post-purchase, covering awareness, product page, cart, address, payment method selection, UPI intent handoff, and confirmation, (2) user actions, thoughts, and emotions at each stage, (3) friction points specific to Indian checkout such as pincode serviceability, COD toggle, OTP delays, and UPI app switching, (4) the exact UPI intent deep-link behavior when switching to GPay or PhonePe and returning, (5) opportunities to reduce drop-off at each stage with specific UI interventions, (6) 3 measurable success metrics per stage. Format the output as a table with columns: Stage, Action, Thought, Emotion, Pain Point, Opportunity, Metric. Consider these constraints: reference RBI's UPI guidelines, handle the 2-minute UPI collect timeout, and account for users who abandon mid-flow to check bank balance in another app.",
+      "tags": [
+        "journey-map",
+        "upi",
+        "checkout",
+        "d2c"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-003",
+      "title": "Nielsen Heuristic Evaluation of Zomato Home Screen",
+      "prompt": "Act as a UX consultant with 7 years of experience auditing Indian consumer apps. I need you to conduct a Nielsen heuristic evaluation of the Zomato app home screen as it exists today. Here is the context: I am preparing a design critique deck for a food delivery startup team in Bengaluru that wants to benchmark against Zomato. Please provide: (1) an evaluation against all 10 Nielsen heuristics, (2) for each heuristic, a specific observation on the Zomato home screen (search bar, filter chips, restaurant cards, Gold banner, cart FAB), (3) a severity rating from 0 to 4 per finding, (4) at least one positive example and one violation per heuristic where applicable, (5) a prioritized list of the top 5 issues to fix first, (6) recommendations grounded in Indian user behavior such as vegetarian filters, Jain mode, and festival menus. Format the output as a structured audit report with heuristic name, observation, severity, and recommendation. Consider these constraints: focus only on the home screen, do not speculate about backend logic, and reference Indian personas from tier-1 metros who order 3-5 times per week.",
+      "tags": [
+        "heuristic",
+        "nielsen",
+        "audit",
+        "zomato"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-004",
+      "title": "Wireframe Critique for KYC Onboarding Screen",
+      "prompt": "Act as a senior product designer with 5 years of experience at Razorpay working on KYC and merchant onboarding. I need you to critique a wireframe for a KYC document upload screen in a new lending app. Here is the context: the screen asks users to upload PAN, Aadhaar front, Aadhaar back, and a selfie, targeting salaried professionals in tier-1 and tier-2 cities applying for personal loans up to INR 5 lakh. The current wireframe shows a single long scroll with 4 upload buttons, a terms checkbox, and a submit button. Please provide: (1) 5 specific wireframe issues with reasoning, (2) problems related to DigiLocker integration opportunities, (3) concerns around progress feedback during OCR, (4) accessibility issues for users with low vision or older Android WebView, (5) an improved wireframe described in text with section-by-section layout, (6) microcopy suggestions in English and Hindi for the trust and consent sections. Format the output as a critique document with before, issue, after, and rationale for each point. Consider these constraints: comply with RBI digital lending guidelines 2022, mask Aadhaar numbers per UIDAI masking rules, and avoid dark patterns around consent.",
+      "tags": [
+        "wireframe",
+        "kyc",
+        "onboarding",
+        "critique"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-005",
+      "title": "Design System Documentation for Button Component",
+      "prompt": "Act as a design systems lead with 6 years of experience building component libraries for Indian SaaS companies like Freshworks and Zoho. I need you to write the documentation page for a Button component in a new design system called \"Setu\". Here is the context: the design system is being adopted by 4 product teams across web and mobile, all using Figma and React. The button must support primary, secondary, tertiary, and destructive variants across small, medium, and large sizes. Please provide: (1) component overview and when to use vs avoid, (2) anatomy diagram described in text with labeled parts, (3) all variants with use-case guidance, (4) states including default, hover, pressed, focused, disabled, and loading, (5) accessibility specs covering WCAG 2.1 AA contrast, 44x44 touch target, and screen reader labels, (6) do's and don'ts with 5 examples each, (7) Figma usage notes and React prop table. Format the output as a markdown documentation page ready to paste into Zeroheight or Storybook. Consider these constraints: keep the tone practical for Indian engineering teams, include Hindi label examples like \"जारी रखें\", and ensure touch targets work on budget Android devices.",
+      "tags": [
+        "design-system",
+        "documentation",
+        "button",
+        "component"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-006",
+      "title": "Tier-2 Homemaker Persona for Social Commerce",
+      "prompt": "Act as a UX researcher with 5 years of experience designing for social commerce platforms like Meesho and DealShare. I need you to build a detailed persona for a tier-2 homemaker who resells products through WhatsApp groups. Here is the context: we are redesigning a reseller dashboard and need to ground decisions in a real user profile from cities like Indore, Jaipur, or Coimbatore. Please provide: (1) name, age, family structure, and monthly household income in INR, (2) smartphone and data usage patterns, (3) reselling workflow from discovering products to sharing catalogs to collecting payments, (4) her content creation habits on WhatsApp, Instagram Reels, and ShareChat, (5) top 5 pain points around returns, margins, and customer trust, (6) her goals for the next 12 months both financial and personal, (7) a quote in her voice mixing Hindi and English. Format the output as a persona card. Consider these constraints: reflect realistic margins of 10-20 percent on Meesho-style products, incorporate family dynamics where husbands may control bank accounts, and highlight her reliance on voice notes over typing.",
+      "tags": [
+        "persona",
+        "bharat",
+        "social-commerce",
+        "reseller"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-007",
+      "title": "Regional Language Toggle UX Pattern",
+      "prompt": "Act as an interaction designer with 6 years of experience localizing Indian consumer apps for 10+ regional languages. I need you to design the UX pattern for a language toggle in a government services app. Here is the context: the app serves citizens applying for ration cards, driving licenses, and property records across 12 Indian languages including Hindi, Tamil, Telugu, Bengali, Marathi, and Gujarati. The current design hides language settings 3 taps deep. Please provide: (1) three alternative placement strategies for the language toggle with pros and cons, (2) first-run language selection screen layout with script previews, (3) persistence behavior across sessions and devices, (4) fallback strategy when translations are missing, (5) typography and line-height considerations for Devanagari vs Tamil vs Bengali scripts, (6) microcopy for the toggle label in all 12 languages. Format the output as a design rationale document. Consider these constraints: follow Digital India accessibility guidelines, support users who may not recognize the English word \"Language\", and ensure the pattern works on 360px screens with 2GB RAM devices.",
+      "tags": [
+        "localization",
+        "regional-language",
+        "pattern",
+        "accessibility"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-008",
+      "title": "Low Data Mode Design Guidelines",
+      "prompt": "Act as a product designer with 5 years of experience designing lite versions of Indian apps like Facebook Lite and JioCinema Lite. I need you to create design guidelines for a \"Low Data Mode\" feature in an e-commerce app. Here is the context: 40 percent of our users are on prepaid 2G/3G plans with data caps of 1.5GB per day and the team wants to reduce data usage by 60 percent without losing conversions. Please provide: (1) a checklist of 10 design decisions that reduce data usage, (2) image strategy covering formats, compression, and lazy loading, (3) font loading strategy including system fonts vs web fonts, (4) animation and video policies, (5) a toggle UX for enabling and disabling low data mode, (6) a visible indicator showing data saved in MB during a session, (7) fallback behavior when a user tries to view a high-resolution product image. Format the output as a guidelines document with rationale per decision. Consider these constraints: target sub-100KB initial payload, support Android WebView 70+, and ensure product photos remain trustworthy enough to complete a purchase.",
+      "tags": [
+        "low-data",
+        "performance",
+        "guidelines",
+        "bharat"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-009",
+      "title": "Empty State Copy for Indian EdTech App",
+      "prompt": "Act as a UX writer with 4 years of experience writing for Indian edtech brands like Byju's and Unacademy. I need you to write empty state copy for 6 screens in a Class 10 CBSE math learning app. Here is the context: the app is used by students in tier-2 and tier-3 cities preparing for board exams, with parents often watching over their shoulder. The 6 empty states are: no lessons started, no homework assigned, no doubts asked, no bookmarks, no test history, and no progress report. Please provide: (1) a headline under 8 words per state, (2) a subheading under 20 words, (3) a primary CTA, (4) an illustration concept in one sentence, (5) an optional Hindi version of the headline, (6) a tone rationale tied to student motivation. Format the output as a table with all 6 states. Consider these constraints: avoid guilt-tripping language, reference NCERT chapters where relevant, keep tone encouraging without being patronizing, and ensure copy works for a 15-year-old reader.",
+      "tags": [
+        "empty-state",
+        "ux-writing",
+        "edtech",
+        "copy"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-010",
+      "title": "Color Token Naming Convention",
+      "prompt": "Act as a design systems engineer with 5 years of experience at CRED and Razorpay. I need you to propose a color token naming convention for a new fintech design system. Here is the context: we have a palette of 60 colors across brand, semantic, and neutral scales, and the system must work in Figma variables, Tailwind, and iOS/Android native. Please provide: (1) a 3-tier token structure covering primitive, semantic, and component tokens, (2) naming pattern with examples such as color-bg-primary-default, (3) rules for light and dark themes, (4) handling of transparency and overlay tokens, (5) a migration plan from hex values to tokens, (6) 15 example tokens mapped to use cases like credit success, debit failure, and KYC pending. Format the output as a specification document. Consider these constraints: keep token names platform-agnostic, avoid referencing hex values in names, and ensure the convention scales to 200 tokens without breaking.",
+      "tags": [
+        "design-system",
+        "tokens",
+        "color",
+        "naming"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-011",
+      "title": "Onboarding Flow Critique for Healthtech App",
+      "prompt": "Act as a UX designer with 5 years of experience designing healthcare apps like Practo and 1mg. I need you to critique a 5-screen onboarding flow for a chronic disease management app. Here is the context: the app helps diabetic patients aged 45-65 log glucose, order medicines, and book lab tests. The current flow asks for phone number, OTP, name, age, diabetes type, and medications in 5 separate screens. Please provide: (1) analysis of cognitive load per screen, (2) issues with mandatory vs optional fields, (3) trust and privacy concerns given sensitive medical data, (4) drop-off risk points, (5) an improved flow with screen count and field sequencing, (6) copy suggestions in simple English suitable for a 55-year-old first-time app user. Format the output as a critique with before, issue, and after for each screen. Consider these constraints: comply with India's DPDP Act 2023 for health data, support large tap targets for older users, and minimize typing in favor of selection.",
+      "tags": [
+        "onboarding",
+        "critique",
+        "healthtech",
+        "accessibility"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-012",
+      "title": "Usability Test Script for UPI Feature",
+      "prompt": "Act as a UX researcher with 6 years of experience running moderated usability tests for Indian fintech apps. I need you to write a usability test script for testing a new UPI AutoPay cancellation flow. Here is the context: we suspect users cannot find where to cancel recurring mandates in our app, leading to RBI complaints and churn. We will test with 8 participants in Bengaluru aged 25-45. Please provide: (1) research objectives and 3 hypotheses, (2) screener criteria including UPI usage frequency, (3) pre-test interview questions on current mandate awareness, (4) 4 task scenarios with success criteria, (5) post-task probe questions, (6) a system usability scale adapted to Indian context, (7) session logistics including duration, incentive in INR, and recording consent. Format the output as a moderator-ready script. Consider these constraints: follow RBI's e-mandate guidelines, ensure consent for screen recording, and avoid leading questions about competitor apps.",
+      "tags": [
+        "usability-test",
+        "research",
+        "upi",
+        "script"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-013",
+      "title": "Information Architecture for Govt Services App",
+      "prompt": "Act as an information architect with 6 years of experience restructuring large content apps like UMANG and DigiLocker. I need you to propose an IA for a state government services app. Here is the context: the Maharashtra government app currently has 120 services across 18 departments jumbled in a flat list. Users complain they cannot find anything. Please provide: (1) a card-sort approach to group services, (2) a 3-level hierarchy of top categories, subcategories, and services, (3) 6 top-level categories with rationale tied to user intent, (4) a labeling strategy in Marathi and English, (5) a search and filter strategy, (6) navigation pattern recommendation comparing tabs vs drawer vs hub-and-spoke, (7) a sample mapping of 20 services into the new IA. Format the output as an IA document. Consider these constraints: reference Digital India accessibility standards, support tier-3 users unfamiliar with bureaucratic terms, and handle services that span multiple departments.",
+      "tags": [
+        "information-architecture",
+        "govtech",
+        "navigation",
+        "ia"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-014",
+      "title": "Icon System Specification for Fintech",
+      "prompt": "Act as a visual designer with 5 years of experience building icon systems for Indian fintech apps. I need you to specify an icon system for a neobank app. Here is the context: we need 80 icons covering banking, investments, insurance, rewards, and support, used on mobile screens ranging from 360px to 430px wide. Please provide: (1) grid system with keyline shapes, (2) stroke weight and corner radius rules, (3) two styles outlined and filled with use-case guidance, (4) naming convention, (5) SVG export specifications, (6) accessibility requirements including minimum size and contrast, (7) 10 example icons described in text covering UPI, FD, mutual fund, gold, insurance, cashback, statement, rewards, chat, and logout. Format the output as an icon system spec document. Consider these constraints: icons must feel Indian without being cliched, avoid currency-specific symbols where possible, and work on both light and dark themes.",
+      "tags": [
+        "icons",
+        "design-system",
+        "visual",
+        "spec"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-015",
+      "title": "User Flow for Aadhaar OTP Authentication",
+      "prompt": "Act as a UX designer with 5 years of experience at Razorpay or Signzy building Aadhaar-based KYC flows. I need you to design the user flow for Aadhaar OTP authentication in a mutual fund app. Here is the context: users need to complete eKYC to start SIPs, and the flow must handle cases where the mobile number linked to Aadhaar is not the same as the one used to log in. Please provide: (1) a happy path flow with 6 steps from consent to success, (2) edge cases including OTP not received, mismatched mobile, expired Aadhaar, and offline Aadhaar XML fallback, (3) consent screen copy aligned with UIDAI guidelines, (4) error message copy for 5 common failures, (5) retry logic with rate limits, (6) a post-success state showing what data was captured. Format the output as a flow diagram described in text plus copy deck. Consider these constraints: comply with UIDAI regulations 2021, mask Aadhaar in UI, and handle the 10-minute OTP validity window gracefully.",
+      "tags": [
+        "aadhaar",
+        "kyc",
+        "user-flow",
+        "authentication"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-016",
+      "title": "Design Critique Framework for Team Reviews",
+      "prompt": "Act as a design manager with 8 years of experience leading design teams at Flipkart and Swiggy. I need you to create a design critique framework for a team of 10 designers. Here is the context: our critiques currently devolve into personal taste debates and junior designers feel defensive. We want a structured weekly critique ritual that produces actionable feedback. Please provide: (1) a 60-minute critique agenda with time blocks, (2) 5 ground rules for givers and receivers of feedback, (3) a feedback template with 4 sections context, observations, questions, and suggestions, (4) role definitions for facilitator, presenter, and participants, (5) a rubric covering clarity, user value, consistency, and craft, (6) a follow-up mechanism to track decisions. Format the output as a playbook document. Consider these constraints: respect Indian workplace hierarchy where juniors may hesitate to critique seniors, keep critiques async-friendly for hybrid teams, and avoid turning critiques into approval gates.",
+      "tags": [
+        "critique",
+        "team",
+        "process",
+        "framework"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-017",
+      "title": "Multi-Persona Matrix for Q-Commerce App",
+      "prompt": "Act as a lead UX researcher with 8 years of experience at Swiggy Instamart and Zepto. I need you to build a multi-persona matrix for a quick commerce app. Here is the context: we serve 6 distinct user segments in metros and tier-1 cities and need to align the team on whom we design for. Please provide: (1) 6 personas covering young professional, new parent, cook in a joint family, bachelor, senior citizen, and small business owner, (2) for each, demographics, order frequency in INR, top 3 categories, time-of-day patterns, and device, (3) a prioritization matrix ranking personas by LTV and strategic fit, (4) conflicting needs across personas with design trade-offs, (5) 3 design principles that balance all 6 personas, (6) recommendations on which persona to optimize the default experience for. Format the output as a matrix plus rationale. Consider these constraints: reflect realistic Indian basket sizes of INR 200-800, account for joint family decision-making, and incorporate ONDC relevance.",
+      "tags": [
+        "persona",
+        "matrix",
+        "q-commerce",
+        "research"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-018",
+      "title": "End-to-End KYC Journey Map for Stock Broker",
+      "prompt": "Act as a senior experience designer with 7 years of experience at Zerodha and Groww. I need you to map the end-to-end journey of a first-time investor opening a Demat account. Here is the context: the user is a 24-year-old software engineer in Hyderabad opening her first Demat account to start investing in Nifty 50 stocks. The process includes PAN, Aadhaar eKYC, bank verification, in-person verification alternative, nominee, and activation. Please provide: (1) an 8-stage journey from ad click to first trade, (2) channel switches between web, email, and app, (3) regulatory touchpoints and their UX implications, (4) waiting periods and what the user does during them, (5) emotional lows around rejection and document re-upload, (6) 10 opportunities to reduce abandonment, (7) benchmarks against Groww and Zerodha. Format the output as a detailed journey map with swimlanes. Consider these constraints: comply with SEBI KYC guidelines, handle CKYC lookups, and account for users who abandon to compare brokerage fees.",
+      "tags": [
+        "journey-map",
+        "kyc",
+        "demat",
+        "fintech"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-019",
+      "title": "Heuristic Audit of CRED Home Screen",
+      "prompt": "Act as a principal designer with 10 years of experience auditing premium Indian consumer apps. I need you to conduct a heuristic audit of the CRED app home screen. Here is the context: I am preparing a masterclass for the Figma India community showing how Nielsen's heuristics apply to a highly stylized Indian product. Please provide: (1) an evaluation of CRED's home screen against all 10 Nielsen heuristics, (2) specific observations on visibility of status, match with real world, user control, consistency, error prevention, recognition, flexibility, aesthetic minimalism, error recovery, and help, (3) tension points where CRED's brand-led design conflicts with traditional heuristics, (4) severity ratings, (5) 3 lessons Indian designers can learn from CRED's choices, (6) 3 criticisms that junior designers should not blindly copy. Format the output as a teaching-ready audit. Consider these constraints: stay objective, reference specific CRED components like the rewards wheel and Mint, and avoid fanboy praise.",
+      "tags": [
+        "heuristic",
+        "cred",
+        "audit",
+        "critique"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-020",
+      "title": "Wireframe Critique for Bill Payment Dashboard",
+      "prompt": "Act as a senior product designer with 7 years of experience at PhonePe and Paytm. I need you to critique a wireframe for a bill payment dashboard. Here is the context: the wireframe shows 8 biller categories as a 2x4 grid, recent billers in a horizontal list, reminders at the bottom, and autopay status as a single banner. Target users are 30-50 year olds paying electricity, water, gas, DTH, mobile, broadband, credit card, and insurance. Please provide: (1) 7 specific wireframe critiques with reasoning, (2) information hierarchy issues, (3) missing states such as overdue and failed, (4) scalability problems as billers grow to 15 categories, (5) an improved wireframe described in text with grid adjustments, (6) microcopy improvements, (7) a redesigned autopay section. Format the output as a structured critique with before, issue, and after. Consider these constraints: follow BBPS guidelines, handle bill due dates across multiple billers, and reduce cognitive load for users paying 5+ bills monthly.",
+      "tags": [
+        "wireframe",
+        "critique",
+        "bill-payment",
+        "dashboard"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-021",
+      "title": "Design System Governance Model",
+      "prompt": "Act as a design systems lead with 8 years of experience scaling systems at Freshworks and Razorpay. I need you to define a governance model for a design system used by 6 product teams. Here is the context: contributions are ad-hoc, components drift, and designers bypass the system for speed. We need a model that balances velocity and consistency. Please provide: (1) a contribution workflow from proposal to release, (2) RACI matrix across core team, product designers, and engineers, (3) 3 contribution paths standard, experimental, and product-specific, (4) a review rubric with 6 criteria, (5) versioning strategy using semver, (6) deprecation policy, (7) 5 health metrics tracked monthly. Format the output as a governance playbook. Consider these constraints: respect that product teams ship under tight deadlines, avoid bottlenecking the core team, and support both Figma and code contributions.",
+      "tags": [
+        "design-system",
+        "governance",
+        "process",
+        "scaling"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-022",
+      "title": "Bharat Persona for Agri-Tech App",
+      "prompt": "Act as a UX researcher with 7 years of experience designing for agri-tech startups like DeHaat and AgroStar. I need you to create a detailed persona for a small landholding farmer using a crop advisory app. Here is the context: we are building an app for farmers with 1-3 acres growing cotton and soybean in Vidarbha, Maharashtra, currently dependent on local mandi rates and WhatsApp forwards. Please provide: (1) persona name, age, land size, and annual income in INR, (2) crop cycle and seasonal decisions, (3) smartphone usage including which apps he opens daily, (4) literacy and language comfort in Marathi and Hindi, (5) trust hierarchy from local dealer to government to app, (6) 5 pain points and 5 aspirations, (7) his decision-making process for buying seeds, fertilizers, and pesticides. Format the output as a rich persona document. Consider these constraints: avoid urban projections, reference real MSP and mandi dynamics, and acknowledge his distrust of digital payments post-demonetization.",
+      "tags": [
+        "persona",
+        "bharat",
+        "agritech",
+        "research"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-023",
+      "title": "Onboarding Journey for Bharat Delivery Partner",
+      "prompt": "Act as a product designer with 6 years of experience at Swiggy and Dunzo working on delivery partner apps. I need you to map the onboarding journey for a new delivery partner in Lucknow. Here is the context: the partner is a 26-year-old migrant from Gonda who speaks Hindi and basic English, has a used Hero Splendor, and is joining as his first formal gig work. The journey spans 3 days from signup to first delivery. Please provide: (1) a day-by-day journey with touchpoints, (2) document collection stages Aadhaar, driving license, RC, PAN, bank account, (3) training modules and assessments, (4) kit and insurance pickup, (5) first delivery assignment logic, (6) emotional highs and lows with intervention opportunities, (7) drop-off risks at each stage. Format the output as a detailed journey map. Consider these constraints: comply with gig worker welfare regulations, design for low literacy users, and prioritize voice-based instructions over text.",
+      "tags": [
+        "journey-map",
+        "onboarding",
+        "gig-worker",
+        "bharat"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-024",
+      "title": "Heuristic Evaluation of IRCTC Rail Connect",
+      "prompt": "Act as a UX consultant with 8 years of experience auditing government and public sector apps. I need you to conduct a Nielsen heuristic evaluation of the IRCTC Rail Connect app focusing on the train booking flow. Here is the context: the app is used by 3 crore monthly users booking tickets across general, tatkal, and premium tatkal quotas. Please provide: (1) evaluation against all 10 heuristics with specific examples from the search, passenger details, and payment screens, (2) severity ratings 0-4, (3) 5 most critical issues especially around tatkal time pressure, (4) copy problems related to error prevention and recovery, (5) a prioritized fix list for a 2-sprint improvement cycle, (6) benchmarks against ConfirmTkt and ixigo. Format the output as a structured audit report. Consider these constraints: respect the scale and reliability constraints of IRCTC, reference actual tatkal window behavior, and avoid superficial cosmetic critiques.",
+      "tags": [
+        "heuristic",
+        "irctc",
+        "audit",
+        "government"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-025",
+      "title": "Design System Typography Scale for Indic Scripts",
+      "prompt": "Act as a typography specialist with 6 years of experience working on Indic fonts at Ek Type or Google Fonts India. I need you to define a typography scale for a design system supporting English, Hindi, Tamil, and Bengali. Here is the context: the design system will be used across web and mobile for a news app serving 5 crore users, and current typography breaks when switching languages due to different x-heights and ascenders. Please provide: (1) a modular scale with 10 sizes from 12 to 48, (2) line-height ratios per script, (3) font family recommendations pairing a Latin font with Devanagari, Tamil, and Bengali counterparts, (4) weight mapping across scripts, (5) fallback stack, (6) usage tokens such as display, heading, body, and caption, (7) accessibility notes for 200 percent zoom. Format the output as a typography specification. Consider these constraints: prefer open-source fonts, keep total web font weight under 400KB, and ensure visual harmony across scripts.",
+      "tags": [
+        "typography",
+        "design-system",
+        "indic",
+        "localization"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-026",
+      "title": "Wireframe Critique for Insurance Claim Flow",
+      "prompt": "Act as a senior UX designer with 7 years of experience at Acko or Digit Insurance. I need you to critique a wireframe for a motor insurance claim filing flow. Here is the context: the wireframe shows 6 screens covering incident details, photo upload, damage description, garage selection, estimate review, and submission. The target user is a 35-year-old car owner filing her first claim after a minor accident in Bengaluru. Please provide: (1) 6 specific critiques per screen, (2) missing states such as saving draft and resuming later, (3) photo upload UX issues including lighting guidance and damage angles, (4) trust and anxiety touchpoints with copy suggestions, (5) an improved flow with reduced screens where possible, (6) an error state when the user's policy is expired, (7) a post-submission waiting experience. Format the output as a critique with before, issue, and after. Consider these constraints: comply with IRDAI claim guidelines, handle cashless vs reimbursement paths, and support users under stress after an accident.",
+      "tags": [
+        "wireframe",
+        "critique",
+        "insurance",
+        "claims"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-027",
+      "title": "Persona for Tier-1 Gen Z Creator",
+      "prompt": "Act as a UX researcher with 6 years of experience at ShareChat and Josh. I need you to create a persona for a Gen Z content creator in tier-1 India. Here is the context: we are launching a monetization feature for short video creators and need a persona grounded in current Gen Z behavior in Mumbai, Delhi, and Bengaluru. Please provide: (1) name, age, college, and city, (2) content niches and posting frequency, (3) platform stack across Instagram, YouTube Shorts, and Snap, (4) monetization expectations in INR per month, (5) creative tools she uses including CapCut and VN, (6) pain points around discoverability, brand deals, and burnout, (7) aspirations beyond creator life. Format the output as a persona document with a quote. Consider these constraints: reflect realistic creator earnings of INR 5,000-50,000 monthly, avoid stereotyping Gen Z as shallow, and incorporate her Hinglish communication style.",
+      "tags": [
+        "persona",
+        "gen-z",
+        "creator",
+        "research"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-028",
+      "title": "Journey Map for Festival Sale Shopping",
+      "prompt": "Act as a CX designer with 7 years of experience at Flipkart Big Billion Days and Amazon Great Indian Festival. I need you to map the shopping journey of a customer during a festival sale. Here is the context: the user is a 32-year-old married man in Jaipur buying a 55-inch smart TV worth INR 45,000 during Diwali sale, comparing prices across Flipkart, Amazon, and Croma. Please provide: (1) a 10-stage journey from pre-sale teaser to post-delivery, (2) multi-channel touchpoints including email, push, SMS, and WhatsApp, (3) cart-building behavior with deal stacking, no-cost EMI, and bank offers, (4) decision triggers and anxieties around price drops, (5) payment flow with UPI, credit card EMI, and bank offers, (6) post-purchase stages including delivery tracking and installation, (7) 8 opportunities to increase conversion and retention. Format the output as a detailed journey map with emotions. Consider these constraints: reflect real festival pricing psychology, incorporate bank offer complexity, and handle delivery expectations.",
+      "tags": [
+        "journey-map",
+        "festival",
+        "e-commerce",
+        "sale"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-029",
+      "title": "Heuristic Evaluation of Ola Auto Booking",
+      "prompt": "Act as a UX consultant with 7 years of experience auditing mobility apps like Ola, Uber, and Rapido. I need you to conduct a heuristic evaluation of the Ola auto booking flow. Here is the context: we are benchmarking for a Bengaluru-based ride-hailing startup targeting college students. Please provide: (1) evaluation against all 10 Nielsen heuristics, (2) specific observations on the pickup selection, fare display, driver matching, and payment screens, (3) issues specific to auto category such as metered vs fixed fare confusion, (4) severity ratings, (5) comparison with Uber Auto, (6) 5 critical fixes, (7) lessons on handling driver cancellations. Format the output as an audit report. Consider these constraints: reference real Bengaluru traffic and surge patterns, respect auto driver preferences for cash, and acknowledge the regulatory landscape around aggregator rules.",
+      "tags": [
+        "heuristic",
+        "ola",
+        "mobility",
+        "audit"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-030",
+      "title": "Component Spec for Bottom Sheet Modal",
+      "prompt": "Act as a design systems engineer with 6 years of experience building component libraries for mobile-first Indian apps. I need you to write the specification for a Bottom Sheet component. Here is the context: the component is used for action menus, filters, form inputs, and confirmations across 4 product teams on Android and iOS. Please provide: (1) anatomy including handle, header, body, and actions, (2) 3 variants peek, half, and full with use cases, (3) interaction spec covering drag, snap points, and dismiss, (4) accessibility spec with focus trap and screen reader behavior, (5) motion spec with easing and duration, (6) content guidelines for title and body copy, (7) 5 do's and don'ts. Format the output as a Storybook-ready spec. Consider these constraints: work on 4-inch screens with software keyboards, handle RTL for future Urdu support, and avoid blocking the status bar.",
+      "tags": [
+        "design-system",
+        "bottom-sheet",
+        "component",
+        "spec"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-031",
+      "title": "UX Strategy for Regional Language Expansion",
+      "prompt": "Act as a design director with 8 years of experience leading localization at ShareChat and Dailyhunt. I need you to draft a UX strategy for expanding a fintech app from English and Hindi to 8 additional Indian languages. Here is the context: we have 2 crore users, want to reach 5 crore in 18 months, and localization owners are scattered across content, product, and engineering. Please provide: (1) a phased rollout plan across 4 quarters, (2) language prioritization based on market size and CAC, (3) content pipeline from source English to target languages with human review, (4) design adjustments for text expansion and script differences, (5) QA process with native speakers, (6) metrics to measure localization ROI, (7) risks and mitigations. Format the output as a strategy document. Consider these constraints: respect budget limits of INR 1.5 crore, reference Google's Indic typography guidelines, and account for legal disclosures in regulated financial content.",
+      "tags": [
+        "strategy",
+        "localization",
+        "expansion",
+        "fintech"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-032",
+      "title": "Accessibility Audit for Banking App",
+      "prompt": "Act as an accessibility specialist with 6 years of experience auditing Indian banking apps against WCAG 2.1 AA. I need you to audit a retail banking app's login and account summary screens. Here is the context: the bank serves 4 crore customers including senior citizens and users with visual impairments, and we have received complaints about TalkBack compatibility and small tap targets. Please provide: (1) a WCAG 2.1 AA checklist applied to both screens, (2) color contrast findings with exact ratios, (3) screen reader issues for TalkBack and VoiceOver, (4) tap target and focus order problems, (5) form label and error handling issues, (6) 10 prioritized fixes, (7) acceptance criteria for engineering handoff. Format the output as an audit report. Consider these constraints: comply with RBI's accessibility circular 2023, reference the Rights of Persons with Disabilities Act 2016, and prioritize fixes that unblock screen reader users first.",
+      "tags": [
+        "accessibility",
+        "audit",
+        "banking",
+        "wcag"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-033",
+      "title": "Advanced Persona System for Multi-Product Suite",
+      "prompt": "Act as a head of research with 12 years of experience at Razorpay and Zoho designing persona systems across multi-product suites. I need you to design a reusable persona system for a fintech suite with 6 products covering payments, lending, payroll, capital, magic checkout, and X. Here is the context: each product team maintains its own personas leading to conflicting definitions of the same merchant. We want a shared persona system with product-specific extensions. Please provide: (1) a core persona schema with 12 attributes, (2) 4 base personas from nano merchant to enterprise, (3) an extension pattern where products add product-specific lenses, (4) governance of updates and sunset, (5) a tooling recommendation for maintaining personas in Notion or Dovetail, (6) validation cadence through quarterly research, (7) anti-patterns to avoid. Format the output as a research ops playbook. Consider these constraints: support both B2B and B2B2C products, align with RBI merchant classifications, and keep the system usable by PMs who are not researchers.",
+      "tags": [
+        "persona",
+        "research-ops",
+        "advanced",
+        "system"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-034",
+      "title": "Service Blueprint for Cross-Border Remittance",
+      "prompt": "Act as a service designer with 10 years of experience at Wise, Instarem, and Indian remittance players. I need you to create a service blueprint for a cross-border remittance service from UAE to India. Here is the context: we serve NRIs sending INR 50,000-5 lakh monthly to family in Kerala, Tamil Nadu, and Punjab, and we compete with bank wires and hawala. Please provide: (1) a front-stage, back-stage, and support process view, (2) 8 customer actions mapped to system touchpoints, (3) employee actions in compliance, treasury, and support, (4) systems including KYC vendor, core banking, SWIFT, and IMPS, (5) regulatory checkpoints with RBI LRS, FEMA, and FATF, (6) failure points and recovery flows, (7) time and cost per stage. Format the output as a service blueprint with swimlanes. Consider these constraints: comply with RBI inward remittance rules, handle forex rate locking, and support Malayalam and Tamil communication.",
+      "tags": [
+        "service-blueprint",
+        "remittance",
+        "advanced",
+        "journey-map"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-035",
+      "title": "Heuristic Framework Beyond Nielsen for Bharat",
+      "prompt": "Act as a design researcher with 12 years of experience publishing on Obvious.in and speaking at Figma Config India. I need you to propose a heuristic framework that extends Nielsen's 10 for Bharat-first products. Here is the context: Nielsen's heuristics were authored in 1994 in a Western desktop context, and Indian designers need a localized lens for apps used by first-time internet users, multilingual users, and low-trust contexts. Please provide: (1) 5 new heuristics specific to Bharat covering language parity, trust scaffolding, data frugality, voice primacy, and joint decision-making, (2) rationale grounded in research, (3) examples of apps that embody or violate each, (4) a severity rubric adapted for Bharat, (5) a workshop format to train teams on the new heuristics, (6) how to combine with Nielsen's original 10, (7) open questions for the community. Format the output as a thought leadership essay with a framework section. Consider these constraints: avoid colonial framing, cite Indian case studies, and keep the framework practical not academic.",
+      "tags": [
+        "heuristic",
+        "framework",
+        "bharat",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-036",
+      "title": "Design System ROI Model",
+      "prompt": "Act as a design operations lead with 10 years of experience at Swiggy and Freshworks. I need you to build a design system ROI model for a CFO audience. Here is the context: we are proposing a 6-person design systems team costing INR 2.5 crore annually and the CFO wants to see payback within 18 months. Please provide: (1) inputs model with designer hours saved, engineer hours saved, and defects avoided, (2) assumptions with realistic Indian salary benchmarks, (3) benefit calculation per quarter, (4) sensitivity analysis on adoption rate, (5) qualitative benefits such as brand consistency and accessibility, (6) a break-even chart described in text, (7) a 3-slide summary pitch. Format the output as a financial model spec plus narrative. Consider these constraints: use conservative estimates, reference market salary data for senior designers at INR 35-45 lakh, and include risks such as low adoption and tooling costs.",
+      "tags": [
+        "design-system",
+        "roi",
+        "advanced",
+        "business"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-037",
+      "title": "Expert Wireframe Critique for Wealthtech Dashboard",
+      "prompt": "Act as a principal product designer with 12 years of experience at Groww, Zerodha, and INDmoney. I need you to conduct an expert critique of a wealthtech dashboard wireframe. Here is the context: the wireframe shows net worth hero, asset allocation donut, holdings by category, goals tracker, and recent transactions, targeting HNI users with INR 50 lakh to 5 crore portfolios. Please provide: (1) a 12-point critique covering visual hierarchy, data density, and cognitive load, (2) issues around live market data refresh and stale state handling, (3) benchmarking against Bloomberg Terminal and INDmoney, (4) tax optimization visibility missing from current wireframe, (5) mobile vs desktop parity concerns, (6) an improved wireframe described in text with 4 key changes, (7) research hypotheses to validate. Format the output as an expert critique memo. Consider these constraints: respect SEBI disclosure requirements, reflect HNI expectations of premium craft, and avoid oversimplifying complex data.",
+      "tags": [
+        "wireframe",
+        "critique",
+        "wealthtech",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-038",
+      "title": "Tokenized Theming Architecture for White-Label",
+      "prompt": "Act as a staff design engineer with 10 years of experience building white-label design systems for B2B2C fintech. I need you to architect a tokenized theming system that supports 20 client brands. Here is the context: our SaaS lending platform is embedded in 20 NBFC and bank partners, each with distinct brand colors, typography, and tone, and we need a theming architecture that scales without forking the codebase. Please provide: (1) a token hierarchy separating primitive, alias, and component tokens, (2) a theming strategy using CSS variables and Figma variables, (3) a build pipeline from Figma to code via Style Dictionary, (4) a client onboarding workflow for new themes, (5) contrast and accessibility validation gates, (6) fallback behavior when a token is missing, (7) versioning across themes. Format the output as a technical architecture document. Consider these constraints: support both web and React Native, comply with RBI digital lending outsourcing rules on branding, and keep build artifacts under 50KB per theme.",
+      "tags": [
+        "design-system",
+        "theming",
+        "white-label",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-039",
+      "title": "Research Operations Model for 50-Designer Org",
+      "prompt": "Act as a head of design operations with 12 years of experience at Flipkart and Swiggy. I need you to design a research operations model for a 50-designer organization. Here is the context: research is currently ad-hoc, recruitment is slow, insights are lost in Google Drive, and PMs bypass designers to run their own surveys. Please provide: (1) a ResearchOps pillar model covering participants, tooling, knowledge, governance, and advocacy, (2) a participant panel strategy across 6 cities and 12 personas, (3) a tooling stack recommendation with Indian vendor options, (4) a knowledge repository structure using Dovetail or Notion, (5) a democratization framework for non-researchers, (6) 6 KPIs including insight reuse and time to insight, (7) a 12-month rollout plan with budget in INR. Format the output as a research ops playbook. Consider these constraints: respect DPDP Act consent requirements, handle vernacular participants, and budget under INR 2 crore annually.",
+      "tags": [
+        "research-ops",
+        "advanced",
+        "process",
+        "team"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    },
+    {
+      "id": "design-ui-ux-040",
+      "title": "Journey Orchestration for Omnichannel Bank",
+      "prompt": "Act as a chief experience officer with 15 years of experience at HDFC and Kotak. I need you to design a journey orchestration model for an omnichannel retail bank. Here is the context: customers interact across app, web, branch, ATM, call center, and WhatsApp, and journeys like home loan application currently break when users switch channels. Please provide: (1) a journey taxonomy with 8 core journeys, (2) an orchestration layer connecting channels via a unified customer context, (3) event model with 30 key events, (4) handoff rules across channels, (5) personalization strategy using segmentation and intent signals, (6) measurement framework with journey NPS and completion rates, (7) a 3-year roadmap from MVP to full orchestration. Format the output as a strategic blueprint. Consider these constraints: comply with RBI data localization, respect branch staff workflows, and support Hindi and 5 regional languages across channels.",
+      "tags": [
+        "journey-map",
+        "orchestration",
+        "advanced",
+        "banking"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "ui-ux"
+    }
+  ]
+}

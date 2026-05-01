@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "students-pharmacy-001",
+      "title": "Formulate Immediate-Release Paracetamol Tablets",
+      "prompt": "Act as a formulation scientist with 15 years experience in Indian generic tablet manufacturing. I am a B.Pharm 3rd year student working on an Industrial Pharmacy assignment and need help developing a complete formulation sheet for Paracetamol 500 mg immediate-release uncoated tablets manufactured by wet granulation, batch size 100,000 tablets, compliant with Indian Pharmacopoeia (IP) 2022 monograph. Here is the context: the product will be manufactured at a Schedule M compliant facility in Baddi, Himachal Pradesh, and must meet IP dissolution (Q = 80% in 30 min, Apparatus II at 50 rpm, phosphate buffer pH 5.8). Please provide: (1) Quantitative master formula in mg/tablet and kg/batch including API, diluent (starch/MCC), binder (PVP K30), disintegrant (sodium starch glycolate), lubricant (magnesium stearate), glidant (talc); (2) Step-by-step manufacturing process with critical process parameters (granulation endpoint, LOD target, compression force); (3) Proposed in-process quality control checks (weight variation, hardness, friability, disintegration per IP); (4) Finished product specification table aligned with IP limits; (5) Key risk points under ICH Q8 QbD thinking. Format as structured sections with tables. Note this is for educational purposes only, not for actual commercial manufacturing.",
+      "tags": [
+        "tablet-formulation",
+        "wet-granulation",
+        "indian-pharmacopoeia",
+        "schedule-m",
+        "b-pharm"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-002",
+      "title": "Calculate Pharmacokinetic Parameters From Plasma Data",
+      "prompt": "Act as a clinical pharmacokinetics tutor preparing a Pharm.D student for GPAT and university viva. I have plasma concentration-time data from a single IV bolus dose of 500 mg of a hypothetical antibiotic given to a 60 kg Indian adult male: t (h) = 0.5, 1, 2, 4, 6, 8, 12 and Cp (mcg/mL) = 42, 35, 24, 12, 6.2, 3.1, 0.8. Assume a one-compartment open model. Here is the context: this is an academic exercise for educational purposes, not clinical prescribing, and I need to show full working suitable for a university answer sheet. Please provide: (1) Semi-log interpretation to justify one-compartment fit; (2) Calculation of elimination rate constant K_el using linear regression of ln Cp vs t, with the regression equation; (3) Biological half-life (t1/2); (4) Volume of distribution (Vd) by back-extrapolation to C0; (5) Total body clearance (CL); (6) AUC0-inf by trapezoidal rule plus Clast/K_el; (7) Suggested maintenance dose every 8 hours to achieve Css average of 10 mcg/mL; (8) Brief comment on how dose should change if creatinine clearance drops to 30 mL/min. Format answers with formulas, substituted values, units, and final boxed results.",
+      "tags": [
+        "pharmacokinetics",
+        "one-compartment-model",
+        "gpat",
+        "dose-calculation",
+        "clinical-pharmacy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-003",
+      "title": "Design Hard Gelatin Capsule Formulation",
+      "prompt": "Act as a senior formulation development pharmacist with experience at an Indian generics company like Sun Pharma or Cipla. I am an M.Pharm (Pharmaceutics) student and need a complete development report for Omeprazole 20 mg hard gelatin capsule filled with enteric-coated pellets, intended for Indian market under DPCO-regulated pricing. Please provide: (1) Rationale for enteric coating using Eudragit L30 D-55 given omeprazole acid instability; (2) Composition of drug layered pellets on sugar spheres (drug load, binder HPMC, subcoat, enteric coat, overcoat) with % w/w; (3) Capsule shell specification (size 2, Indian-sourced gelatin, TSE/BSE certificate note); (4) Manufacturing flow (fluid bed coating parameters - inlet temp, spray rate, atomization); (5) IP/USP relevant tests including acid stage and buffer stage dissolution (Apparatus I, 100 rpm); (6) Stability protocol as per ICH Zone IVb applicable to India (30C/75% RH long term, 40C/75% RH accelerated); (7) Packaging suggestion (Alu-Alu blister vs HDPE bottle) with moisture protection rationale. Format as a development report with clearly numbered sections and summary tables. Educational exercise only.",
+      "tags": [
+        "capsule-formulation",
+        "enteric-coating",
+        "stability-studies",
+        "ich-zone-ivb",
+        "m-pharm"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-004",
+      "title": "Develop Topical Diclofenac Gel Formulation",
+      "prompt": "Act as a topical product formulation expert familiar with Indian OTC and Schedule H analgesic gels. I am a B.Pharm final year student and need to formulate Diclofenac Diethylamine 1.16% w/w topical gel (equivalent to diclofenac sodium 1%) comparable to marketed Voveran Emulgel for a project report. Please provide: (1) Complete quantitative formula per 100 g including API, Carbopol 940, triethanolamine, propylene glycol, isopropyl alcohol, liquid paraffin, benzyl alcohol, perfume, purified water; (2) Justification for each excipient function; (3) Stepwise manufacturing procedure including gel hydration, neutralization and homogenization with critical parameters; (4) Quality control tests - pH (target 6.0-7.5), viscosity (Brookfield RVT), spreadability, drug content assay by UV/HPLC, in vitro release using Franz diffusion cell; (5) Microbial limit test per IP; (6) Tube filling and packaging (LDPE lined collapsible aluminium tube, 30 g); (7) Labelling requirements as per Drugs and Cosmetics Rules including \"Schedule H\" warning, manufacturing licence number format. Format as structured formulation report with tables. For academic educational use only, not for clinical supply.",
+      "tags": [
+        "topical-gel",
+        "carbopol",
+        "schedule-h",
+        "drugs-cosmetics-rules",
+        "formulation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-005",
+      "title": "Large Volume Parenteral Manufacturing Process",
+      "prompt": "Act as a sterile products manufacturing specialist with 12 years experience in Indian LVP plants manufacturing IV fluids. I am a Pharm.D 4th year student preparing a seminar on aseptic manufacturing. I need a detailed process description for Dextrose 5% w/v Injection IP, 500 mL in Type II glass bottle, terminally sterilized, compliant with Schedule M and Indian Pharmacopoeia 2022. Please provide: (1) Facility classification (Grade A/B/C/D areas) and HVAC requirements; (2) Water system - WFI generation by multiple effect distillation, conductivity and TOC limits per IP; (3) Compounding steps with order of addition and bioburden control; (4) Filtration strategy (0.22 micron PES) and integrity testing (bubble point); (5) Filling, stoppering, sealing with environmental monitoring; (6) Terminal sterilization cycle (autoclave 121C, F0 greater than 8, load mapping); (7) IP tests - sterility, bacterial endotoxin by LAL, particulate matter, pH (3.5-5.5), assay; (8) Rejection criteria and batch release per Schedule M. Format as SOP-style numbered sections with critical parameter tables. Educational purposes only.",
+      "tags": [
+        "parenterals",
+        "aseptic-manufacturing",
+        "schedule-m",
+        "wfi",
+        "terminal-sterilization"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-006",
+      "title": "Renal Dose Adjustment Case Study",
+      "prompt": "Act as a clinical pharmacist running a ward round teaching session in an Indian tertiary hospital (AIIMS-style). I am a Pharm.D intern and need to analyze dose adjustment for a 68-year-old Indian male patient, weight 65 kg, serum creatinine 2.4 mg/dL, admitted with community acquired pneumonia. He is currently prescribed Piperacillin-Tazobactam 4.5 g IV q6h, Vancomycin 1 g IV q12h, and Amikacin 500 mg IV q8h. Please provide: (1) Estimation of creatinine clearance using Cockcroft-Gault with shown working; (2) Interpretation of renal function category; (3) Evidence-based dose adjustment for each antibiotic with literature/UpToDate style references (note for educational purposes, not prescribing); (4) Recommended therapeutic drug monitoring plan for vancomycin (trough target) and amikacin (peak/trough) with sampling times; (5) Key drug-drug and nephrotoxicity interactions to monitor; (6) Patient monitoring parameters daily; (7) Points to be documented in pharmacist intervention note as per Indian hospital clinical pharmacy service guidelines. Format as a structured SOAP note plus tabular dose adjustment summary. This is an educational case for learning, not actual clinical prescribing.",
+      "tags": [
+        "renal-dose-adjustment",
+        "clinical-pharmacy",
+        "cockcroft-gault",
+        "tdm",
+        "pharm-d"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-007",
+      "title": "Dissolution Test Method Development",
+      "prompt": "Act as a QC analytical development chemist at an Indian generic formulation unit. I am an M.Pharm (Pharmaceutical Analysis) student working on dissolution method development for Metformin HCl 500 mg SR tablets, to be submitted as a project to the university. Please provide: (1) Regulatory background comparing IP, USP and FDA dissolution methodology for metformin SR; (2) Justification for Apparatus I (basket) at 100 rpm vs Apparatus II (paddle) at 50/75 rpm; (3) Dissolution medium selection (phosphate buffer pH 6.8, 1000 mL) with degassing procedure; (4) Sampling time points (1, 3, 10 hours) and acceptance criteria per USP Acceptance Table 2; (5) UV spectrophotometric method at 233 nm vs HPLC method, with linearity, accuracy, precision protocol; (6) Method validation parameters per ICH Q2(R1) including specificity against placebo; (7) f1 and f2 similarity factor calculation example comparing test vs reference (Glycomet SR); (8) Troubleshooting common issues (coning, floating, sticking). Format as a structured analytical development report with tables for acceptance criteria. For educational use only.",
+      "tags": [
+        "dissolution-testing",
+        "method-validation",
+        "ich-q2",
+        "quality-control",
+        "indian-pharmacopoeia"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-008",
+      "title": "ADR Reporting Under PvPI",
+      "prompt": "Act as a pharmacovigilance associate working at an AMC (ADR Monitoring Centre) under the Pharmacovigilance Programme of India (PvPI) coordinated by IPC Ghaziabad. I am a Pharm.D student rotating through the hospital pharmacovigilance unit. I need help documenting a suspected adverse drug reaction: a 45-year-old Indian female developed Stevens-Johnson Syndrome 14 days after starting Carbamazepine 200 mg BD for trigeminal neuralgia, prescribed at a government hospital in Lucknow. Please provide: (1) Complete fill-up of the Suspected Adverse Drug Reaction Reporting Form (CDSCO Form) field by field using plausible synthetic patient data; (2) Narrative summary of the case in WHO-UMC format; (3) Causality assessment using WHO-UMC scale AND Naranjo algorithm with scoring table; (4) Severity grading (Hartwig scale) and seriousness criteria; (5) Preventability assessment (Schumock-Thornton); (6) Recommended action - dechallenge, rechallenge risk, HLA-B*1502 testing relevance in Indian population; (7) Reporting timeline and submission pathway to PvPI/VigiFlow. Format as completed form fields followed by assessment tables. For educational purposes only, not actual clinical reporting.",
+      "tags": [
+        "adr-reporting",
+        "pharmacovigilance",
+        "pvpi",
+        "naranjo-scale",
+        "clinical-pharmacy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-009",
+      "title": "CDSCO New Drug Approval Pathway",
+      "prompt": "Act as a regulatory affairs consultant with 10 years of experience in CDSCO submissions at an Indian pharma major like Dr Reddy's or Zydus. I am an M.Pharm (Pharmaceutical Regulatory Affairs) student preparing a term paper on the Indian new drug approval process under the New Drugs and Clinical Trials Rules 2019. Please provide: (1) Definition of \"new drug\" under Rule 2(x) with examples; (2) Step-by-step flowchart from pre-IND meeting through Form CT-04 clinical trial permission, to Form CT-21 new drug permission, to final marketing authorization; (3) Required documents for each stage (chemistry, non-clinical, clinical) aligned with CTD structure; (4) Role of Subject Expert Committee (SEC) and timelines; (5) Special provisions for drugs already approved in other countries (waiver of local Phase III under Rule 101); (6) Post-approval commitments - PSUR, Phase IV studies, risk management plan; (7) Differences between small molecule NCE, biosimilar (as per 2016 guidelines), and fixed dose combination approvals; (8) Key fees in INR. Format as a structured white paper with flowchart description and tables. Educational purposes only.",
+      "tags": [
+        "cdsco",
+        "new-drug-approval",
+        "regulatory-affairs",
+        "ct-rules-2019",
+        "schedule-y"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-010",
+      "title": "Patient Counselling Script For Diabetes",
+      "prompt": "Act as a clinical pharmacist running a diabetes patient counselling clinic at a tertiary care hospital in Chennai. I am a Pharm.D student and need a complete counselling script and checklist for a newly diagnosed Type 2 diabetic Indian patient (55-year-old Tamil-speaking male, small business owner) prescribed Metformin 500 mg BD, Glimepiride 1 mg OD, and Atorvastatin 10 mg HS. Please provide: (1) A 10-minute structured counselling script using Indian Health Pharmacists Association (IHPA) recommended sequence - greeting, introduction, assessment, information, summary; (2) Key points on each medication (indication in simple terms, timing with meals, common side effects, what to do on missed dose); (3) Lifestyle counselling culturally adapted to South Indian diet (rice, idli, dosa portion control, millets substitution); (4) Hypoglycemia recognition and management with jaggery/glucose; (5) SMBG frequency and record maintenance; (6) Red flag symptoms warranting ER visit; (7) Indian context affordability note on Jan Aushadhi generics; (8) Teach-back questions to verify understanding. Format as script on the left and counselling checklist on the right. Educational use only, not clinical prescribing.",
+      "tags": [
+        "patient-counselling",
+        "diabetes",
+        "clinical-pharmacy",
+        "jan-aushadhi",
+        "health-literacy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-011",
+      "title": "Multi-Compartment PK Model Exercise",
+      "prompt": "Act as a pharmacokinetics postgraduate tutor at an Indian pharmacy college. I am an M.Pharm (Pharmacology) student preparing for internals and need to solve a two-compartment open IV bolus model problem step-by-step. Data: a 70 kg patient receives 100 mg IV bolus of a drug; plasma concentrations (mcg/mL) at t (h) 0.25, 0.5, 1, 2, 4, 8, 12 are 8.9, 6.3, 4.1, 2.6, 1.7, 1.0, 0.62. Please provide: (1) Method of residuals with full tabulation showing distribution and elimination phases; (2) Determination of hybrid constants alpha and beta with regression equations; (3) Intercepts A and B and the biexponential equation Cp = A e^(-alpha t) + B e^(-beta t); (4) Micro rate constants k10, k12, k21 with formulas and values; (5) Volume of central compartment Vc and steady-state volume Vss; (6) AUC, total clearance and distribution half-life vs elimination half-life; (7) Clinical significance of the distribution phase for loading dose decisions. Format with tabulated calculations, formulas and a brief interpretation paragraph. Educational exercise only.",
+      "tags": [
+        "two-compartment-model",
+        "pharmacokinetics",
+        "method-of-residuals",
+        "m-pharm",
+        "gpat"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-012",
+      "title": "IP Assay Method For Ibuprofen Tablets",
+      "prompt": "Act as a senior QC analyst at an Indian pharma company validating compendial methods. I am a B.Pharm student writing a practical record on assay of Ibuprofen 400 mg tablets as per Indian Pharmacopoeia 2022 monograph. Please provide: (1) Principle of the IP titrimetric assay method (non-aqueous titration with sodium hydroxide in methanol or alternate HPLC method); (2) Detailed reagent preparation including 0.1 M NaOH standardization against potassium hydrogen phthalate; (3) Sample preparation - weigh 20 tablets, determine average weight, powder, take equivalent to 0.4 g ibuprofen; (4) Stepwise titration procedure with phenolphthalein indicator and blank; (5) Calculation formula showing equivalence factor (1 mL 0.1 M NaOH = 0.02063 g C13H18O2) and percent label claim with worked example using synthetic weights; (6) IP acceptance limit (95.0 to 105.0 percent); (7) Sources of error and precautions; (8) Comparison with HPLC alternative method briefly. Format as a practical record with aim, principle, requirements, procedure, observations table, calculation, result and inference. Educational purposes only.",
+      "tags": [
+        "assay",
+        "indian-pharmacopoeia",
+        "titrimetry",
+        "quality-control",
+        "b-pharm-practical"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-013",
+      "title": "GMP Gap Audit Checklist Schedule M",
+      "prompt": "Act as a GMP auditor with experience in WHO-GMP and revised Schedule M (Drugs and Cosmetics Rules 1945, as amended 2023) compliance for Indian MSME pharma units. I am an M.Pharm QA student preparing a mock audit report for a small oral solid dosage facility in Ahmedabad seeking WHO-GMP certification. Please provide: (1) A 60-point Schedule M gap assessment checklist covering: premises and facility, HVAC and environmental monitoring, water system, personnel and training, documentation (SMF, VMP, SOPs), production (cross contamination control), QC laboratory, stability studies, complaints and recall, self inspection, contract manufacturing; (2) Scoring scale (Critical, Major, Minor, Observation); (3) Top 10 likely critical findings in a typical Indian MSME plant based on CDSCO risk based inspections; (4) CAPA framework for each finding with owner, timeline and verification method; (5) Mapping of Schedule M clauses to corresponding WHO TRS 986 Annex 2 clauses; (6) Summary audit report template. Format as a checklist table plus CAPA matrix. Educational purposes only, not for actual regulatory submission.",
+      "tags": [
+        "gmp-schedule-m",
+        "who-gmp",
+        "audit-checklist",
+        "capa",
+        "regulatory-compliance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-014",
+      "title": "Drug Interaction Review Polypharmacy Case",
+      "prompt": "Act as a clinical pharmacist conducting a medication review in a geriatric OPD at a Mumbai teaching hospital. I am a Pharm.D student and need to review a 72-year-old Indian female (weight 58 kg, eGFR 45 mL/min/1.73 m2) on polypharmacy: Warfarin 3 mg OD, Amiodarone 200 mg OD, Atorvastatin 40 mg HS, Metformin 500 mg BD, Omeprazole 20 mg OD, Clopidogrel 75 mg OD, Amlodipine 5 mg OD, Alprazolam 0.25 mg HS, and recently added Clarithromycin 500 mg BD for H pylori. Please provide: (1) Systematic drug-drug interaction assessment using Lexicomp/Stockley style with mechanism, severity, onset and clinical management for each pair; (2) Major CYP3A4, CYP2C9, P-gp mediated interactions highlighted; (3) Anticholinergic burden and fall risk assessment; (4) STOPP/START criteria application; (5) Beers criteria 2023 flags; (6) Pharmacist intervention recommendations with priority ranking; (7) Suggested monitoring plan (INR, LFT, renal panel, ECG); (8) Patient-facing counselling points. Format as a structured medication review report with DDI matrix table. Educational case for learning, not clinical prescribing.",
+      "tags": [
+        "drug-interactions",
+        "geriatric-pharmacy",
+        "stopp-start",
+        "beers-criteria",
+        "medication-review"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-015",
+      "title": "Solid Dispersion For Solubility Enhancement",
+      "prompt": "Act as a novel drug delivery research supervisor at an Indian pharmacy institute (e.g., NIPER). I am an M.Pharm (Pharmaceutics) student planning a dissertation on solubility enhancement of BCS Class II drug Efavirenz used in Indian HIV program. Please provide: (1) Rationale for solid dispersion approach vs cyclodextrin, SMEDDS, nanocrystals with pros and cons table; (2) Selection of carrier (PVP K30, Soluplus, PEG 6000, HPMC) with justification based on miscibility and Tg; (3) Method selection - solvent evaporation vs hot melt extrusion vs spray drying with equipment typically available in Indian institutes; (4) Experimental design using 3 level factorial (drug:carrier ratio, method parameters) with 9 runs; (5) Characterization plan - DSC, PXRD, FTIR, SEM, saturation solubility, in vitro dissolution in FaSSIF/FeSSIF; (6) Stability assessment for amorphous form crystallization risk; (7) Statistical analysis plan (ANOVA, response surface); (8) Expected outcomes and publication pathway. Format as a complete synopsis with tables and references style placeholders. Educational purposes only.",
+      "tags": [
+        "solid-dispersion",
+        "bcs-classification",
+        "bioavailability-enhancement",
+        "niper",
+        "m-pharm-thesis"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-016",
+      "title": "Schedule H1 Antibiotic Dispensing SOP",
+      "prompt": "Act as a retail pharmacy regulatory trainer conducting a workshop for newly registered pharmacists at a community pharmacy chain in Delhi. I am a D.Pharm student and need a complete SOP for dispensing Schedule H1 drugs as per the Drugs and Cosmetics Rules amendment (GSR 588(E)). Please provide: (1) Full list of Schedule H1 categories (third and fourth generation cephalosporins, newer fluoroquinolones, carbapenems, select anti-TB, anti-HIV) with 5 example molecules each; (2) Prescription verification checklist - prescriber details, registration number, patient name, age, sex, diagnosis, drug details, signature; (3) Separate Schedule H1 register format with 9 mandatory columns as prescribed; (4) Retention period (3 years) and inspection readiness; (5) Labelling requirements including the red box warning \"It is dangerous to take this preparation except in accordance with the medical advice...\" and Rx symbol; (6) Common violations and penalty sections under the D&C Act; (7) Patient counselling mandatory points for antimicrobial stewardship; (8) Differences between Schedule H, H1, and X. Format as an SOP document with numbered clauses and a register template. Educational purposes only.",
+      "tags": [
+        "schedule-h1",
+        "retail-pharmacy",
+        "amr-stewardship",
+        "d-pharm",
+        "drugs-cosmetics-act"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-017",
+      "title": "Bioequivalence Study Protocol Design",
+      "prompt": "Act as a clinical pharmacologist at an Indian CRO (e.g., Lambda, Veeda) designing BE studies for ANDA and DCGI submissions. I am an M.Pharm (Pharmacology) student writing a seminar on bioequivalence. Design a complete BE protocol for a generic Telmisartan 40 mg tablet vs innovator Micardis 40 mg in healthy Indian adult volunteers. Please provide: (1) Study design - open-label, randomized, two-treatment, two-period, two-sequence, single-dose, fasting crossover with 14-day washout; (2) Sample size calculation assuming intra-subject CV of 25 percent, 90 percent power, alpha 0.05, with formula and software (PASS/nQuery) note; (3) Inclusion/exclusion criteria tailored to Indian population (age 18-45, BMI 18.5-24.9, no tobacco/betel nut); (4) Blood sampling schedule (predose, 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 24, 48, 72 h) and bioanalytical LC-MS/MS method outline; (5) PK parameters (Cmax, Tmax, AUC0-t, AUC0-inf) and statistical analysis using WinNonlin with 90 percent CI of log-transformed ratio within 80.00-125.00 percent; (6) Ethics clearance via Registered Ethics Committee and CDSCO Form CT-04A; (7) Adverse event management. Format as a structured protocol synopsis. Educational only.",
+      "tags": [
+        "bioequivalence",
+        "clinical-trial-design",
+        "cdsco",
+        "winnonlin",
+        "cro"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-018",
+      "title": "Compounding Extemporaneous Pediatric Syrup",
+      "prompt": "Act as a hospital compounding pharmacist at a paediatric super speciality hospital in Bangalore. I am a Pharm.D student and need a compounding record for an extemporaneous Spironolactone 5 mg/mL oral suspension for a 6-month-old infant with congenital heart disease, since no commercial paediatric strength is available in India. Please provide: (1) Formula for 100 mL using crushed Aldactone 25 mg tablets with Ora-Plus/Ora-Sweet 1:1 vehicle, with calculation for number of tablets needed; (2) Alternative using API powder if available; (3) Stepwise compounding procedure (levigation, trituration, geometric dilution, qs to volume); (4) Beyond use dating per USP 795 (30 days refrigerated for this drug) and stability data reference; (5) Labelling requirements including patient name, strength, directions, BUD, shake well, refrigerate, keep out of reach; (6) QC checks (appearance, pH, uniformity); (7) Documentation in compounding log book; (8) Counselling for caregiver in simple Kannada/English bilingual format. Format as a compounding worksheet with calculations, procedure, and label. Educational purposes, not for actual patient supply.",
+      "tags": [
+        "compounding",
+        "pediatric-formulation",
+        "hospital-pharmacy",
+        "usp-795",
+        "extemporaneous"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-019",
+      "title": "Ayurveda-Modern Drug Interaction Review",
+      "prompt": "Act as a clinical pharmacologist familiar with both modern pharmacology and AYUSH practice in India. I am a Pharm.D student working on a project about herbal-drug interactions common in Indian outpatient settings, where patients frequently self-medicate with Ayurvedic formulations alongside allopathic drugs. Please provide: (1) Review of 12 commonly used Ayurvedic/herbal products in India (Ashwagandha, Giloy, Turmeric/Curcumin, Guggul, Garlic, Ginger, Triphala, Brahmi, Amla, Neem, Tulsi, Karela) with their key phytoconstituents; (2) Documented or suspected interactions with modern drugs (warfarin, antidiabetics, antihypertensives, thyroid hormones, cyclosporine, statins) with mechanism (CYP induction/inhibition, additive pharmacodynamic effect); (3) Evidence level (case report, clinical study, in vitro only); (4) Clinical significance grading; (5) Patient counselling points; (6) Relevant AYUSH ministry and CCRAS advisories; (7) How pharmacists should document herbal use during medication history in Indian hospitals. Format as a structured review with an interaction table and counselling checklist. Educational use only, not clinical prescribing.",
+      "tags": [
+        "herbal-drug-interactions",
+        "ayush",
+        "ashwagandha",
+        "clinical-pharmacy",
+        "pharmacovigilance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-020",
+      "title": "Tablet Compression Defect Troubleshooting",
+      "prompt": "Act as a production shift in-charge at an Indian tablet manufacturing unit with 15 years experience on rotary compression machines (Cadmach, Karnavati). I am a B.Pharm Industrial Pharmacy student preparing a troubleshooting guide for my project. Please provide: (1) A comprehensive table of 12 common compression defects - capping, lamination, sticking, picking, chipping, mottling, double impression, weight variation, hardness variation, binding, cracking, and black specks; (2) For each defect: visual description, root cause categories (formulation, machine, process, environment), specific Indian context issues (humidity during monsoon, API particle size from Chinese vs Indian sources); (3) Immediate corrective action on shift floor; (4) Long term CAPA at formulation level (changing binder, disintegrant, lubricant ratio); (5) In-process test frequency adjustments; (6) When to stop the batch and escalate to QA; (7) Documentation in batch manufacturing record and deviation report; (8) Relation to Critical Quality Attributes under QbD. Format as a troubleshooting matrix plus decision flowchart description. Educational purposes only.",
+      "tags": [
+        "tablet-compression",
+        "troubleshooting",
+        "capping",
+        "industrial-pharmacy",
+        "capa"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-021",
+      "title": "DPCO NPPA Price Calculation Exercise",
+      "prompt": "Act as a pricing and regulatory affairs manager at an Indian pharmaceutical company handling NPPA submissions. I am an M.Pharm (Pharmacy Management) student and need a worked example of ceiling price calculation under the Drugs Prices Control Order (DPCO) 2013 for a scheduled formulation. Scenario: Amlodipine 5 mg tablet is in the National List of Essential Medicines (NLEM) 2022 and hence under price control. Assume 6 brands (Amlopres, Amlodac, Amlong, Amlokind, Amlopin, generic) with PTR (price to retailer) of INR 25, 32, 28, 22, 18, 15 per strip of 10, with market shares of 28, 22, 18, 14, 10, 8 percent respectively by value. Please provide: (1) Step-by-step calculation of simple average PTR of brands with greater than or equal to 1 percent market share; (2) Addition of margin to retailer (16 percent) and GST (12 percent on pharma) to arrive at ceiling MRP; (3) Annual WPI-linked revision methodology; (4) Form I, II, III, V filings with NPPA and timelines; (5) Consequences of overcharging including recovery with 15 percent interest; (6) Para 19 extraordinary power of Government; (7) Impact on company pricing strategy. Format with calculation tables and final ceiling price box. Educational only.",
+      "tags": [
+        "dpco",
+        "nppa",
+        "price-control",
+        "nlem",
+        "pharmacy-management"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-022",
+      "title": "Hepatic Impairment Dose Adjustment",
+      "prompt": "Act as a clinical pharmacy tutor at a Pharm.D program in Hyderabad. I am a final year Pharm.D student and need a case-based teaching note on dose adjustment in hepatic impairment. Case: 52-year-old Indian male with chronic Hepatitis B cirrhosis, Child-Pugh score 9 (Class B), presents with pulmonary embolism. Current meds being considered include Rivaroxaban, Warfarin, Apixaban, Rifampicin (for latent TB), Diazepam, Morphine, Paracetamol. Please provide: (1) Child-Pugh scoring explained with the patient parameters (bilirubin, albumin, INR, ascites, encephalopathy); (2) Pharmacokinetic changes in cirrhosis - reduced first pass, reduced CYP activity (CYP3A, CYP2C9), protein binding changes, altered Vd; (3) Drug-by-drug recommendation with hepatic dose adjustment or contraindication, referencing product label and Indian context availability; (4) Preferred anticoagulant choice with rationale; (5) Drugs to avoid absolutely in decompensated cirrhosis; (6) Monitoring parameters (LFT, INR, signs of encephalopathy); (7) Patient counselling points; (8) A summary \"safe prescribing cheat sheet\" for common drug classes in cirrhosis. Format as a structured case analysis with tables. Educational only, not clinical prescribing.",
+      "tags": [
+        "hepatic-impairment",
+        "child-pugh",
+        "clinical-pharmacy",
+        "anticoagulation",
+        "pharm-d"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-023",
+      "title": "HPLC Method Development For Related Substances",
+      "prompt": "Act as an R&D analytical chemist at an Indian formulation company developing stability-indicating HPLC methods. I am an M.Pharm (Pharmaceutical Analysis) student working on a project for related substance determination of Losartan Potassium tablets. Please provide: (1) Literature review of known impurities (Impurity A tetrazole isomer, Impurity B, Impurity C, azido impurity, N-nitrosamine risk) with structures, USP/IP listing and specification limits; (2) Chromatographic conditions - C18 column (250 x 4.6 mm, 5 micron), mobile phase (phosphate buffer pH 3.5:acetonitrile gradient), flow 1 mL/min, detection at 225 nm, injection 20 microlitre, column temp 30C; (3) Forced degradation study protocol per ICH Q1A/Q1B (acid, base, peroxide, thermal, photolytic, humidity) with target 10-20 percent degradation; (4) System suitability parameters (resolution greater than 2, tailing less than 2, theoretical plates greater than 2000, RSD less than 2 percent); (5) Validation per ICH Q2(R1) - specificity, linearity (LOQ to 150 percent), accuracy, precision, robustness, LOD/LOQ; (6) Peak purity by PDA; (7) Nitrosamine risk assessment under CDSCO July 2022 directive. Format as a method development report. Educational only.",
+      "tags": [
+        "hplc",
+        "stability-indicating",
+        "related-substances",
+        "ich-q1a",
+        "nitrosamines"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-024",
+      "title": "Hospital Formulary Drug Selection Evaluation",
+      "prompt": "Act as a member of the Pharmacy and Therapeutics Committee at a 500-bed tertiary care hospital in Kochi. I am a Pharm.D student on hospital rotation and need to prepare a formulary evaluation dossier for a new addition request: Apixaban 5 mg tablets to replace Warfarin for non-valvular atrial fibrillation. Please provide: (1) Executive summary with recommendation; (2) Clinical efficacy review citing ARISTOTLE and meta-analyses (educational references only); (3) Safety profile (major bleeding, ICH rates) vs warfarin; (4) Indian patient population considerations including TTR with warfarin, INR monitoring access, food and drug interactions relevant to Indian diet; (5) Pharmacoeconomic analysis - drug cost per day in INR (innovator vs generic from Sun/Natco/Zydus), plus INR monitoring cost avoided, total annual cost per patient; (6) Budget impact analysis assuming 120 eligible patients; (7) Place in therapy and restriction criteria (e.g., cardiology consult required); (8) Monitoring plan and reversal agent availability (Andexanet alfa unavailability in India, PCC use); (9) Patient counselling SOP. Format as a P&T Committee evaluation report template. Educational only, not clinical prescribing.",
+      "tags": [
+        "hospital-formulary",
+        "pharmacy-therapeutics-committee",
+        "pharmacoeconomics",
+        "anticoagulation",
+        "pharm-d"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-025",
+      "title": "Disintegration Time Test Practical",
+      "prompt": "Act as a pharmaceutics practical instructor for B.Pharm second year students at an Indian pharmacy college. I am a student preparing the practical record for the disintegration time test of uncoated tablets as per Indian Pharmacopoeia. Please provide: (1) Aim and principle of disintegration test per IP 2022 Apparatus 2.5.1; (2) Description of the apparatus (tube assembly, disc specifications, basket rack, beaker, temperature 37 +/- 2C); (3) Medium selection (water, simulated gastric fluid) and volume; (4) Step-by-step procedure for uncoated and coated tablets - 6 units, timing, end point observation (complete disintegration when no residue remains on the screen or only soft mass); (5) IP acceptance criteria - uncoated tablets not more than 15 min, sugar/film coated 30 min, enteric coated 2 h in 0.1 M HCl then 60 min in phosphate buffer pH 6.8; (6) Observation table template with 6 tablet readings for a test sample of Paracetamol 500 mg uncoated tablets; (7) Calculation and result statement; (8) Common errors and precautions. Format as standard practical record with aim, principle, requirements, procedure, observation, result, inference. Educational purposes.",
+      "tags": [
+        "disintegration-test",
+        "indian-pharmacopoeia",
+        "b-pharm-practical",
+        "quality-control",
+        "tablet-testing"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-026",
+      "title": "Schedule Y Clinical Trial Requirements",
+      "prompt": "Act as a clinical research regulatory expert with experience in DCGI submissions. I am an M.Pharm (Regulatory Affairs) student preparing a seminar on the clinical trial framework in India, specifically Schedule Y (now largely subsumed under the New Drugs and Clinical Trials Rules 2019). Please provide: (1) Historical evolution from Schedule Y 2005 amendment to NDCT Rules 2019; (2) Phase I, II, III, IV definitions with objectives, sample size, duration and examples; (3) Requirements for FIH studies in India (healthy volunteer eligibility, pre-clinical data package); (4) Specific requirements for studies in paediatrics, pregnant women, elderly; (5) Compensation for clinical trial injury/death under Rule 39-42 with formula using 8 factors (age, income, severity, etc.) and minimum compensation; (6) Role of Ethics Committee, its registration with CDSCO, composition; (7) SUSAR and AE reporting timelines (7 days, 14 days); (8) Audio visual consent requirement and its exemptions; (9) Post trial access provisions. Format as a structured study guide with tables. Educational purposes only.",
+      "tags": [
+        "schedule-y",
+        "clinical-trials",
+        "ndct-rules-2019",
+        "regulatory-affairs",
+        "ethics-committee"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-027",
+      "title": "Formulation Of Ophthalmic Eye Drops",
+      "prompt": "Act as a sterile products formulator specializing in ophthalmic preparations at an Indian eye care pharma company (e.g., Sun Pharma ophthalmics, Entod, FDC). I am an M.Pharm (Pharmaceutics) student and need a formulation development document for Timolol Maleate 0.5 percent w/v sterile eye drops in a 5 mL LDPE dropper bottle compliant with IP. Please provide: (1) Complete formula per 100 mL including API, tonicity adjuster (sodium chloride or mannitol), buffer (sodium phosphate monobasic/dibasic to pH 6.8-7.2), preservative (benzalkonium chloride 0.01 percent), chelating agent (disodium EDTA), water for injection qs; (2) Tonicity calculation using sodium chloride equivalent method with worked example targeting 290 mOsm/kg; (3) Manufacturing process in Grade A LAF - compounding, 0.22 micron filtration, aseptic filling; (4) Container closure system and compatibility; (5) IP specifications - clarity, pH, assay, sterility, particulate matter, preservative efficacy (PET per IP 5.2.3), osmolality; (6) Stability in Zone IVb; (7) BFS vs conventional filling comparison; (8) Labelling requirements including \"Not for injection\" and BUD after opening (28 days). Format as a development report. Educational only.",
+      "tags": [
+        "ophthalmic-formulation",
+        "tonicity",
+        "sterile-products",
+        "preservative-efficacy",
+        "m-pharm"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-028",
+      "title": "Drug Information Query Answering",
+      "prompt": "Act as a drug information pharmacist at a Drug Information Centre (DIC) attached to a government medical college in Pune. I am a Pharm.D student on DIC rotation and need to systematically answer a query received from a treating physician: \"Is it safe to continue breastfeeding while the mother is on Azithromycin 500 mg OD for 3 days and Paracetamol 500 mg PRN for post-partum URTI?\" Please provide: (1) Query categorization (lactation safety); (2) Background information needed from requester checklist (maternal details, infant age, term/preterm, feeding pattern); (3) Systematic literature search strategy (LactMed, Hale's Medications and Mother's Milk, Briggs, Micromedex) with search terms; (4) Evidence synthesis - M/P ratio, relative infant dose calculation for azithromycin and paracetamol, expected infant exposure; (5) Hale's lactation risk category and AAP rating; (6) Clinical recommendation with rationale (both generally compatible), timing of feeds relative to dose; (7) Infant monitoring advice (GI upset, rash); (8) Documented reply in structured DI format with references placeholder and DI query log entry. Format as a complete DI response document. Educational purposes only.",
+      "tags": [
+        "drug-information",
+        "lactation-safety",
+        "dic",
+        "clinical-pharmacy",
+        "pharm-d"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-029",
+      "title": "Stability Study Protocol ICH Zone IVb",
+      "prompt": "Act as a stability programme manager at an Indian pharma company filing products for India, ASEAN and African markets. I am an M.Pharm (QA) student and need to design a complete stability protocol for a new fixed dose combination of Metformin 1000 mg + Sitagliptin 50 mg film coated tablet for Indian market registration. Please provide: (1) ICH Q1A(R2) storage conditions applicable for Zone IVb (India) - long term 30 +/- 2C / 75 +/- 5 percent RH, accelerated 40 +/- 2C / 75 +/- 5 percent RH, intermediate not required; (2) Testing time points - 0, 3, 6, 9, 12, 18, 24, 36 months for long term and 0, 1, 2, 3, 6 for accelerated; (3) Batch selection - 3 primary batches, 2 pilot + 1 lab scale, same formulation, 2 container closures (Alu-Alu and HDPE bottle); (4) Parameters tested at each station - description, assay, related substances, dissolution, water content, microbial count, hardness, disintegration; (5) Specification limits at release vs shelf life; (6) Bracketing and matrixing design justification for multiple strengths; (7) Photostability per Q1B and in-use stability; (8) Data analysis using linear regression for shelf life estimation. Format as stability protocol template. Educational only.",
+      "tags": [
+        "stability-studies",
+        "ich-q1a",
+        "zone-ivb",
+        "shelf-life",
+        "quality-assurance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-030",
+      "title": "Community Pharmacy OTC Triage",
+      "prompt": "Act as a community pharmacist running a busy retail pharmacy in a tier-2 Indian city like Nashik. I am a D.Pharm/B.Pharm student learning counter prescribing for minor ailments. A 30-year-old Indian female walks in asking for \"something for acidity\" that she has had for 2 weeks, especially after meals, with occasional burning in the chest, no weight loss, not pregnant, occasional NSAID use for menstrual cramps. Please provide: (1) WWHAM/ASMETHOD systematic history taking questions to ask at the counter; (2) Red flag symptoms that warrant referral (alarm features - ALARM 55 criteria: Anaemia, Loss of weight, Anorexia, Recent onset, Melaena, Swallowing difficulty, age greater than 55); (3) Differential between dyspepsia, GERD, PUD; (4) OTC treatment ladder - antacids (Gelusil, Digene), H2 blockers (rarely OTC in India, mostly Schedule H), alginates, lifestyle advice; (5) NSAID review and suggestion to switch to paracetamol for cramps; (6) Counselling points and when to return (2 weeks) or refer immediately; (7) Documentation in pharmacy OTC log; (8) Script for the conversation in simple bilingual Hindi-English tone. Format as triage decision tree plus counselling script. Educational only, not clinical prescribing.",
+      "tags": [
+        "community-pharmacy",
+        "otc-counselling",
+        "dyspepsia-triage",
+        "d-pharm",
+        "red-flag-symptoms"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-031",
+      "title": "Microbial Limit Test Per IP",
+      "prompt": "Act as a QC microbiologist at an Indian oral solid dosage plant with 10 years experience. I am a B.Pharm student preparing a practical on microbial limit testing (MLT) of non-sterile pharmaceutical products as per IP 2022 (harmonized with USP 61/62). Please provide: (1) Aim and scope of MLT for oral products; (2) Sample preparation including 10 g/10 mL in 90 mL neutralizing diluent, suitability of the method (method validation using 5 challenge organisms - S. aureus, P. aeruginosa, B. subtilis, C. albicans, A. brasiliensis); (3) Total aerobic microbial count (TAMC) and total yeast mould count (TYMC) procedure by pour plate/membrane filtration, media (SCDA, SDA), incubation conditions; (4) Test for specified microorganisms - E. coli, Salmonella, P. aeruginosa, S. aureus, bile-tolerant gram negative bacteria for non-aqueous oral preparations; (5) IP acceptance criteria for oral solid: TAMC not more than 10^3 cfu/g, TYMC not more than 10^2 cfu/g, absence of E. coli in 1 g; (6) Result interpretation for a paracetamol tablet sample with 80 TAMC and 12 TYMC; (7) Failure investigation approach; (8) Documentation. Format as practical record with results table. Educational use only.",
+      "tags": [
+        "microbial-limit-test",
+        "indian-pharmacopoeia",
+        "quality-control",
+        "b-pharm-practical",
+        "microbiology"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-032",
+      "title": "Pharmacoeconomic CUA Analysis",
+      "prompt": "Act as a health economist at an Indian HTA (Health Technology Assessment) unit advising the Department of Health Research. I am an M.Pharm (Pharmacy Practice) student and need a simplified cost-utility analysis (CUA) for including Trastuzumab biosimilar (Canmab by Biocon) vs no targeted therapy for HER2 positive early breast cancer in the Ayushman Bharat package. Please provide: (1) Framework - perspective (healthcare system), time horizon (lifetime), discount rate (3 percent for costs and outcomes per ISPOR India guideline); (2) Population (50-year-old Indian woman, HER2+, stage II); (3) Comparator (standard chemo AC-T without trastuzumab); (4) Model structure (Markov with health states: disease free, local recurrence, metastatic, dead); (5) Input parameters (transition probabilities from HERA trial, utility values from EQ-5D Indian tariff, costs in INR from CGHS rates and tertiary hospital data - drug cost per cycle, admin, AE management); (6) ICER calculation (incremental cost in INR / incremental QALYs); (7) Willingness-to-pay threshold (1x and 3x per capita GDP India); (8) One-way sensitivity and PSA; (9) Budget impact and recommendation. Format as a structured HTA report. Educational only.",
+      "tags": [
+        "pharmacoeconomics",
+        "cost-utility-analysis",
+        "health-technology-assessment",
+        "ayushman-bharat",
+        "qaly"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-033",
+      "title": "Suspension Formulation With Flocculation Concept",
+      "prompt": "Act as a pharmaceutics lecturer teaching a B.Pharm third year class on disperse systems. I am a student preparing detailed notes plus a formulation exercise on pharmaceutical suspensions. Please provide: (1) Theoretical basis - Stokes law, sedimentation rate, factors affecting settling, flocculation vs deflocculation with DLVO theory simplified; (2) Controlled flocculation approach using electrolytes and surfactants; (3) Sedimentation volume F and degree of flocculation beta definitions with formulas; (4) Complete formulation of a paediatric Cotrimoxazole pediatric oral suspension (Sulfamethoxazole 200 mg + Trimethoprim 40 mg per 5 mL) for 100 mL including API, suspending agent (xanthan gum 0.2 percent or Veegum), wetting agent (polysorbate 80), flocculating agent, preservative (sodium benzoate), sweetener (sucrose/sorbitol diabetic-friendly alt), flavour (orange for Indian paediatric palate), purified water qs; (5) Stepwise compounding method; (6) Evaluation tests - sedimentation volume, redispersibility (shake count), pH, viscosity, drug content, particle size; (7) Common stability issues (caking, crystal growth, microbial); (8) IP/BP specifications. Format as structured lecture note plus formulation sheet. Educational only.",
+      "tags": [
+        "suspension-formulation",
+        "flocculation",
+        "stokes-law",
+        "pediatric-formulation",
+        "b-pharm"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-034",
+      "title": "Narcotic Schedule X Drug Handling",
+      "prompt": "Act as a hospital pharmacy narcotics custodian at a tertiary hospital in Delhi handling Schedule X drugs and NDPS Act controlled substances. I am a B.Pharm student on hospital rotation preparing an SOP document. Please provide: (1) Definition of Schedule X under Drugs and Cosmetics Rules with examples (amphetamines, barbiturates, methylphenidate, ketamine); (2) Distinction from NDPS Act Schedule I narcotic drugs (morphine, fentanyl, pethidine) and State Rules; (3) Procurement procedure - NDPS licence, purchase from authorized suppliers, requisition by Medical Superintendent; (4) Storage - double lock cupboard, access control, keys custody, CCTV; (5) Indent and issue from pharmacy to ward register format with 8 columns (date, ward, drug, strength, qty, patient name, MRD, signature); (6) Prescription requirements on special form and 2 year retention; (7) Disposal of expired/wasted narcotics - witness by committee, documentation, destruction; (8) Inspection readiness - Drug Inspector, DCGI, NCB audits; (9) Penalties under NDPS Act (Section 22, 23) and D&C Act for violations; (10) Recent reforms including state Morphine availability. Format as hospital SOP with register templates. Educational only.",
+      "tags": [
+        "schedule-x",
+        "ndps-act",
+        "narcotics",
+        "hospital-pharmacy",
+        "controlled-substances"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-035",
+      "title": "Clinical Case Pediatric Dosing",
+      "prompt": "Act as a paediatric clinical pharmacist at a children's hospital in Indore conducting teaching rounds. I am a Pharm.D intern and need help with a case: a 4-year-old Indian child (weight 16 kg, height 102 cm, normal renal function) is admitted with bacterial meningitis and started on Ceftriaxone, Vancomycin, Dexamethasone, and Paracetamol for fever. Please provide: (1) Weight-based dose calculation for each drug using latest Indian Academy of Pediatrics (IAP) and AAP Red Book guidelines - Ceftriaxone 100 mg/kg/day divided q12h (max 4 g/day), Vancomycin 60 mg/kg/day divided q6h, Dexamethasone 0.6 mg/kg/day divided q6h, Paracetamol 15 mg/kg q4-6h (max 60 mg/kg/day); (2) Rounded practical doses using available vial strengths in Indian hospitals and dilution for IV administration (final concentration, rate, compatibility); (3) BSA calculation using Mosteller formula for comparison; (4) Dose verification with age-appropriate ranges; (5) Monitoring - vancomycin trough, renal function, ototoxicity, hepatotoxicity; (6) Parent counselling in simple terms; (7) Discharge planning with step-down oral therapy. Format as pediatric dosing worksheet. Educational only, not clinical prescribing.",
+      "tags": [
+        "pediatric-dosing",
+        "clinical-pharmacy",
+        "weight-based-dosing",
+        "meningitis",
+        "pharm-d"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-036",
+      "title": "GPAT Mock Numerical Problem Set",
+      "prompt": "Act as a GPAT coaching faculty at an institute like Career Avenues or The Pharmacist specializing in numerical problems. I am a final year B.Pharm student appearing for GPAT and need a mock problem set with full solutions on pharmacokinetics, pharmaceutics calculations and biostatistics. Please provide 10 numerical problems covering: (1) Calculation of Vd from IV bolus data; (2) Calculation of loading dose and maintenance dose for aminophylline given Css target and CL; (3) Dose adjustment by Cockcroft-Gault for gentamicin; (4) Half-life calculation using two plasma concentration points; (5) Alligation method for diluting alcohol 95 percent to 70 percent; (6) Isotonicity - NaCl equivalent method for pilocarpine 2 percent eye drops; (7) Tablet weight variation IP limits verification problem; (8) Molarity, normality, ppm conversion for reagent preparation; (9) Chi-square or t-test for a dissolution comparison; (10) Percentage label claim calculation for assay. For each problem provide question, step-by-step solution with formula and substitution, correct answer with unit, and 3 distractor options typical of GPAT MCQ style. Format as exam-ready mock paper. Educational only.",
+      "tags": [
+        "gpat",
+        "numerical-problems",
+        "pharmacokinetics-calculations",
+        "pharmacy-math",
+        "b-pharm"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-037",
+      "title": "Biosimilar Development Regulatory Pathway",
+      "prompt": "Act as a biotech regulatory strategist at an Indian biosimilar major like Biocon or Intas. I am an M.Pharm (Biotechnology) student and need a comprehensive note on the development and approval pathway for biosimilars in India. Please provide: (1) Regulatory framework - CDSCO and DBT Guidelines on Similar Biologics 2016; (2) Definition of similar biologic vs biosimilar vs biobetter; (3) Stepwise development - reference biologic selection (originator available in India), cell line development, fermentation/upstream, downstream purification, analytical characterization (primary, secondary, tertiary, quaternary structure; glycosylation; charge variants; host cell proteins; aggregates); (4) Comparability exercise vs reference product including functional assays; (5) Non-clinical studies (PK/PD, toxicology, immunogenicity); (6) Clinical studies - PK/PD study in healthy volunteers, confirmatory efficacy and safety study in patients; (7) Extrapolation of indications rationale; (8) Case study of Biocon's Trastuzumab (Canmab) or Dr Reddy's Rituximab (Reditux) Indian approval; (9) Post-marketing pharmacovigilance and RMP; (10) Naming and labelling requirements. Format as a structured regulatory review. Educational only.",
+      "tags": [
+        "biosimilars",
+        "similar-biologics-2016",
+        "cdsco",
+        "biocon",
+        "regulatory-affairs"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-038",
+      "title": "Ward Round SOAP Note Preparation",
+      "prompt": "Act as a preceptor clinical pharmacist at a private medical college hospital in Manipal guiding Pharm.D students on ward rounds. I am a 5th year Pharm.D student and need help writing a complete SOAP note for today's round on a 58-year-old Indian male with Type 2 DM, HTN, CKD stage 3b, admitted with acute decompensated heart failure. Current meds: Furosemide 40 mg IV BD, Spironolactone 25 mg OD, Metoprolol 25 mg BD, Ramipril 2.5 mg OD (BP 108/68), Empagliflozin 10 mg OD, Atorvastatin 20 mg HS, Insulin sliding scale. Vitals, labs and I/O provided as: BP 108/68, HR 82, RR 20, SpO2 94 percent RA, weight 68 kg down 1.2 kg, Na 132, K 5.4, Cr 2.1, eGFR 32, BNP 1850, RBS 168. Please provide: (1) Subjective - patient concerns, symptom trajectory (NYHA class, orthopnea, PND); (2) Objective - vitals, labs, imaging, meds list reconciled; (3) Assessment - numbered problem list with pharmacist perspective on each (diuresis adequacy, hyperkalemia risk, SGLT2i in AKI risk, RAAS blockade balance); (4) Plan - actionable recommendations for the medical team; (5) Pharmacist intervention documentation. Format as clinical SOAP note. Educational use only, not clinical prescribing.",
+      "tags": [
+        "soap-notes",
+        "ward-rounds",
+        "clinical-pharmacy",
+        "heart-failure",
+        "pharm-d"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-039",
+      "title": "Granulation Endpoint Determination",
+      "prompt": "Act as a process development scientist at an Indian OSD formulation plant with hands-on experience on rapid mixer granulators (GMP compliant Cadmach, Nicomac). I am an M.Pharm (Pharmaceutics) student working on QbD-based wet granulation process understanding. Please provide: (1) Overview of wet granulation mechanism - nucleation, growth, breakage; (2) Critical material attributes (API particle size, excipient compressibility, moisture) and critical process parameters (impeller speed, chopper speed, binder addition rate, wet massing time); (3) Endpoint determination techniques - power consumption/torque method (with graph description showing S-curve), hand squeeze test (the snowball test), LOD, particle size analysis, NIR PAT; (4) Design of Experiment (DoE) approach using Box-Behnken with 3 factors (binder amount, wet massing time, impeller speed) and responses (granule density, Carr's index, tablet hardness, dissolution) - 15 runs with centre points; (5) ANOVA interpretation and response surface plots; (6) Establishing a design space per ICH Q8; (7) Scale up considerations from 5 kg lab to 300 kg commercial batch (Froude number, tip speed); (8) Common scale up issues and mitigation. Format as a structured technical report with process flow. Educational only.",
+      "tags": [
+        "wet-granulation",
+        "qbd",
+        "doe",
+        "process-development",
+        "ich-q8"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    },
+    {
+      "id": "students-pharmacy-040",
+      "title": "Drug Recall Procedure Mock Exercise",
+      "prompt": "Act as a QA head at an Indian formulation company handling a Class II recall scenario. I am an M.Pharm (QA) student preparing a case study on product recall. Scenario: during routine stability testing, Metformin HCl 500 mg SR tablets Batch No ABC2301 (2 lakh packs distributed across Maharashtra, Gujarat, Karnataka) show NDMA impurity of 150 ng/day at 12 months (limit 96 ng/day), triggering a voluntary recall per CDSCO recall guidelines. Please provide: (1) Recall classification (Class I, II, III) with justification; (2) Immediate actions within 24 hours - stop despatch, quarantine, inform QA head and Management, notify CDSCO State Licensing Authority using prescribed letter; (3) Recall strategy - depth (wholesaler, retailer, consumer), method (letter, email, phone calls, public notice in newspapers Hindi/English/regional); (4) Recall coordinator responsibilities and cross-functional team; (5) Retrieval tracking sheet template with columns for distributor, quantity despatched, quantity returned, date, balance; (6) Effectiveness check (target 95 percent retrieval within 30 days); (7) Root cause investigation - raw material API supplier (Chinese source), process conditions, storage; (8) CAPA plan; (9) Final recall closure report to CDSCO; (10) Lessons learned and mock test frequency. Format as QA recall SOP with templates. Educational only.",
+      "tags": [
+        "product-recall",
+        "nitrosamines",
+        "cdsco",
+        "quality-assurance",
+        "capa"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "pharmacy"
+    }
+  ]
+}

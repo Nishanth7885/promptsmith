@@ -1,0 +1,687 @@
+{
+  "category": "startup-founders",
+  "subcategory": "operations",
+  "count": 40,
+  "prompts": [
+    {
+      "id": "startup-founders-operations-001",
+      "title": "Build Sales SOP for Early-Stage B2B SaaS",
+      "prompt": "Act as a Head of Revenue Operations with 10 years of experience scaling Indian B2B SaaS startups from INR 2Cr to INR 50Cr ARR. I need you to create a complete Standard Operating Procedure (SOP) for the outbound sales motion of an early-stage SaaS startup based in Bengaluru selling to mid-market Indian companies (100-500 employees). The ACV is INR 4-8 lakhs annually. Team size: 2 SDRs, 2 AEs, 1 Sales Manager.\n\nPlease provide: (1) Stage-by-stage sales pipeline definition (Prospecting to Closed-Won) with entry/exit criteria; (2) Daily, weekly, and monthly activity cadences with specific numbers (calls, emails, demos); (3) Lead qualification framework adapted for Indian buyers (BANT + cultural nuances around decision hierarchies); (4) CRM hygiene rules for HubSpot/Zoho CRM including mandatory fields; (5) Handoff protocols between SDR-AE-CSM; (6) Escalation matrix for discounts above 15%; (7) GST-compliant quote template guidelines; (8) Weekly forecast review template.\n\nFormat the output as a numbered SOP document with clear section headers, bullet points for checklists, and a one-page \"quick reference\" summary at the end. Consider these constraints: Indian buyers typically take 45-90 days to close, payment terms of 30-45 days are standard, procurement committees often include 4-6 stakeholders, and WhatsApp is a legitimate business communication channel. Reference Razorpay, Freshworks, and Zoho as comparable process benchmarks.",
+      "tags": [
+        "sales-sop",
+        "b2b-saas",
+        "revenue-operations",
+        "sales-process"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-002",
+      "title": "Vendor Negotiation Script for Payment Terms",
+      "prompt": "Act as a startup COO with 8 years of experience managing vendor relationships for Indian D2C and SaaS companies. I need you to write a complete negotiation script and email sequence for extending payment terms with a SaaS vendor (current: 15 days advance, desired: Net 45 days) whose annual contract value is INR 18 lakhs. The vendor is a mid-sized Indian software company, and we are a Series A startup with 18 months runway.\n\nPlease provide: (1) A pre-negotiation prep checklist covering alternatives (BATNA), data to gather, and internal alignment; (2) A warm-up email (150 words) to reopen the commercial discussion; (3) A call script with opening, value framing, ask, 3 anticipated objections with rebuttals, and closing; (4) 3 concession ladder options (ideal, acceptable, walk-away) that trade volume commits, testimonials, or case-study rights for better terms; (5) A follow-up email template summarising agreed changes with GST invoicing clauses; (6) Red flags that signal you should switch vendors instead.\n\nFormat as distinct sections with copy-paste ready templates. Use Indian business etiquette - respectful tone, references to \"long-term partnership\", avoid aggressive US-style hardball tactics. Include specific INR numbers, reference MSME Act provisions on payment timelines where relevant, and assume the vendor uses Tally for invoicing. Sample company name: \"CloudNova Technologies Pvt Ltd\" based in Pune.",
+      "tags": [
+        "vendor-negotiation",
+        "payment-terms",
+        "procurement",
+        "email-scripts"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-003",
+      "title": "Customer Support SOP for D2C Brand",
+      "prompt": "Act as a Customer Experience Head with 7 years of experience at Indian D2C brands like Mamaearth, boAt, and Sugar Cosmetics. I need you to build a complete customer support SOP for a 2-year-old D2C skincare brand doing INR 6Cr annual revenue, shipping 800 orders per day via Shiprocket, with a 3-person support team handling WhatsApp, email, and Instagram DMs.\n\nPlease provide: (1) Ticket categorisation taxonomy (delivery, product, refund, COD, wrong item) with priority levels; (2) First-response and resolution SLA targets per channel (WhatsApp: 15 min, email: 4 hours); (3) Canned response templates in English and Hinglish for the top 10 query types; (4) Refund and return workflow including Razorpay refund processing steps and 7-day cooling-off handling; (5) Escalation matrix to founder for complaints above INR 5,000 or social media threats; (6) Daily, weekly, monthly support dashboards with metrics (CSAT, FRT, resolution rate); (7) QA scorecard for auditing 20 tickets per agent weekly.\n\nFormat as a structured playbook with tables, checklists, and template blocks. Consider: Indian customers heavily use WhatsApp, expect fast refunds (within 48 hours ideally), COD return rates are 18-25%, and festival seasons (Diwali, Raksha Bandhan) spike volume 3x. Include Freshdesk or Zoho Desk field configurations.",
+      "tags": [
+        "customer-support",
+        "d2c-operations",
+        "sop",
+        "whatsapp-support"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-004",
+      "title": "Finance SOP for Monthly Book Closing",
+      "prompt": "Act as a fractional CFO with 12 years of experience closing books for Indian startups on Zoho Books and Tally Prime. I need you to create a month-end book closing SOP for a Series A startup with INR 25Cr ARR, 45 employees, and operations in Bengaluru and Mumbai. The finance team is 1 Finance Manager and 1 Accountant.\n\nPlease provide: (1) A day-by-day closing calendar from Day -3 to Day +7 of month-end with task owners; (2) Bank reconciliation checklist covering HDFC, ICICI, and Razorpay payout account; (3) GST reconciliation steps (GSTR-1, GSTR-2B, GSTR-3B) including ITC matching and vendor follow-up template; (4) Accruals checklist (salaries, rent, utilities, AWS, SaaS subscriptions); (5) Revenue recognition rules for monthly vs annual SaaS contracts; (6) TDS reconciliation (Section 194J, 194C, 194I) with 26AS matching; (7) Closing journal entries template; (8) Month-end MIS package structure (P&L, BS, cash flow, burn rate, runway).\n\nFormat as an operational runbook with RACI matrix, checklists, and sample screenshots described in text. Constraints: Must comply with Indian GAAP and Companies Act 2013 schedules, support statutory audit by Big 4 auditors, GST return filing by 20th of next month, TDS deposit by 7th. Include MCA ROC compliance touchpoints for annual filings.",
+      "tags": [
+        "finance-sop",
+        "book-closing",
+        "gst-compliance",
+        "zoho-books"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-005",
+      "title": "Hiring Plan Template for Seed-Stage Startup",
+      "prompt": "Act as a People Operations leader with 9 years of experience building teams at Indian seed and Series A startups. I need you to create a 12-month hiring plan for a seed-stage fintech startup in Bengaluru that just raised USD 2 million, currently has 8 people, and needs to scale to 25 by month 12. Current burn is INR 45 lakhs/month.\n\nPlease provide: (1) Role-by-role hiring sequence with start dates, aligned to product and GTM milestones; (2) Level framework (IC1 to IC4, M1 to M2) with Indian market salary bands in INR for each role (engineering, product, design, sales, operations); (3) ESOP allocation guidelines per level (0.05% to 1.5%) with 4-year vesting and 1-year cliff; (4) Total compensation budget roll-up showing monthly burn impact; (5) Sourcing strategy per role (LinkedIn, Instahyre, Cutshort, referrals, campus); (6) Interview loop design with 4-5 stage rubrics; (7) Offer negotiation playbook including counter-offer handling for 60-90 day notice periods.\n\nFormat as an Excel-style table for the hiring plan plus narrative sections for each component. Consider: Indian notice periods are 60-90 days for senior hires, joining bonuses of INR 1-3 lakhs are common to buy out notice, ESOP awareness is still developing so educate candidates, and remote-first is now table stakes. Reference current 2026 market data from AngelList India and Longhouse Consulting reports.",
+      "tags": [
+        "hiring-plan",
+        "talent-strategy",
+        "esops",
+        "compensation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-006",
+      "title": "Quarterly OKR Setting Framework",
+      "prompt": "Act as an executive coach with 10 years of experience running OKR workshops for Indian startups backed by Accel, Sequoia, and Matrix. I need you to design a quarterly OKR setting process for a Series A SaaS startup with 30 employees split into 5 functional teams (engineering, product, sales, marketing, CS). The CEO is new to OKRs.\n\nPlease provide: (1) A 3-week OKR setting calendar from offsite to publish, with specific meetings and participants; (2) Company-level OKR template with 3 objectives and 3 key results each, pre-filled with realistic examples for a SaaS company targeting INR 10Cr ARR; (3) Rules for writing good key results (outcome not output, measurable, 70% confidence target); (4) Team OKR cascade worksheet ensuring alignment without duplication; (5) Weekly check-in ritual (15 min) and monthly review ritual (60 min) agendas; (6) Scoring rubric (0.0 to 1.0) with examples; (7) Common OKR anti-patterns and fixes.\n\nFormat as a facilitator playbook with agendas, templates, and coach notes. Constraints: Indian teams often confuse OKRs with KPIs or KRAs - address this explicitly. Use relatable examples (e.g., \"Increase paid conversion from 2.1% to 3.5%\"). Keep language accessible, avoid jargon. Include a 1-page OKR one-pager template the CEO can share in the next all-hands on Google Meet.",
+      "tags": [
+        "okrs",
+        "goal-setting",
+        "leadership",
+        "quarterly-planning"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-007",
+      "title": "Channel Partner Proposal for SaaS",
+      "prompt": "Act as a Head of Partnerships with 8 years of experience building channel programs for Indian and APAC SaaS companies. I need you to draft a complete channel partner proposal document that our startup (an HR-tech SaaS with INR 8Cr ARR) will send to mid-sized IT consulting firms in Tier 1 cities to recruit them as reseller partners.\n\nPlease provide: (1) Executive summary (200 words) framing the opportunity; (2) Our company overview, product suite, and current customer proof points; (3) Target partner profile (firm size, customer base, geography); (4) Partner tiers (Authorized, Silver, Gold) with requirements and benefits per tier; (5) Commission structure: 20% year 1, 15% year 2, 10% year 3 recurring, with accelerators; (6) Deal registration process and conflict resolution; (7) Enablement support (training, sales kit, co-marketing, MDF); (8) Sample 12-month joint business plan template with revenue targets in INR; (9) Legal framework referencing MSA, NDA, and GST implications; (10) Next steps and onboarding timeline.\n\nFormat as a polished 8-10 page proposal document with section headers, tables for commercials, and a one-page partner benefits summary. Consider: Indian channel partners prefer upfront clarity on margins, need support for GST invoicing in their name, expect founder involvement in the first 3 deals, and value in-person training. Use \"Synapse HR Cloud\" as our fictional company name.",
+      "tags": [
+        "channel-partnerships",
+        "reseller-program",
+        "proposal",
+        "b2b-saas"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-008",
+      "title": "Remote Team Operating Rhythm",
+      "prompt": "Act as a Chief of Staff with 6 years of experience running remote-first Indian startups distributed across 8+ cities. I need you to design a complete weekly and monthly operating rhythm for a 40-person remote-first startup headquartered legally in Bengaluru but with team members in Pune, Hyderabad, Delhi NCR, Kolkata, and small towns.\n\nPlease provide: (1) Weekly meeting cadence (Monday kickoff, mid-week syncs, Friday demo) with duration, attendees, and agendas; (2) Monthly all-hands structure (90 min) with rotating ownership; (3) Async-first rules: what must be in writing, Loom usage guidelines, Notion documentation standards; (4) Core collaboration hours (11 AM to 4 PM IST) and deep-work protection; (5) Quarterly offsite planning (3 days, 25-35 people) including budget template in INR per person (travel, stay, food, activities); (6) Tool stack recommendation (Slack, Notion, Linear, Google Workspace, Zoom); (7) Onboarding rhythm for new remote joiners in first 30/60/90 days; (8) Culture rituals (virtual coffee, peer bonuses, festival celebrations across regions).\n\nFormat as an operations handbook with a weekly calendar visual described in text, meeting agenda templates, and checklists. Consider: Indian regional holidays vary (Pongal, Onam, Durga Puja, Baisakhi), internet reliability varies, home setups need stipends (INR 25,000 one-time), and WhatsApp groups are culturally default but should be limited for work. Include a sample quarterly offsite venue shortlist from Goa, Lonavala, and Coorg.",
+      "tags": [
+        "remote-work",
+        "operating-rhythm",
+        "team-management",
+        "async-culture"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-009",
+      "title": "Co-working Space Selection Framework",
+      "prompt": "Act as a startup operations consultant with experience setting up offices for 30+ Indian startups. I need you to create a decision framework for selecting a co-working space for a 20-person Series A startup in Bengaluru that needs to scale to 40 people in 12 months. Budget: INR 3.5 lakhs/month total.\n\nPlease provide: (1) Requirements checklist (seats, meeting rooms, phone booths, storage, parking, metro access, amenities); (2) Detailed comparison matrix for WeWork India, 91 Springboard, Awfis, Innov8, and Smartworks with typical per-seat pricing in Koramangala, Indiranagar, HSR, and Whitefield; (3) Lock-in and scale-up flexibility clauses to negotiate; (4) GST and invoicing considerations (ITC eligibility); (5) Hidden costs to watch for (printing, meeting room credits, after-hours access, guest passes); (6) Negotiation playbook with 5 levers (longer lock-in for discount, prepayment, reference, multi-city, community contributions); (7) Site visit checklist with 20 questions to ask the community manager; (8) 3-year TCO comparison vs traditional lease.\n\nFormat as a decision document with scoring rubric (1-5 on each criterion, weighted), spreadsheet-style comparison table, and a 1-page recommendation summary. Consider 2026 Bengaluru co-working market conditions, typical per-seat pricing range of INR 9,000-18,000 depending on location and tier, and the trend of hybrid teams needing only 60% seat ratio. Include sample email templates to request proposals from 3 operators.",
+      "tags": [
+        "co-working",
+        "office-setup",
+        "vendor-selection",
+        "real-estate"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-010",
+      "title": "Employee Onboarding Checklist 30-60-90",
+      "prompt": "Act as a People Operations Manager with 7 years of experience at fast-growing Indian startups. I need you to create a comprehensive 30-60-90 day onboarding plan for a new Senior Software Engineer joining our 50-person Series A fintech startup. They are joining remote-first from Indore, with occasional travel to our Bengaluru office.\n\nPlease provide: (1) Pre-Day 1 checklist (offer letter, BGV through AuthBridge, laptop courier, welcome kit, Slack invites, buddy assignment); (2) Day 1 agenda (9:30 AM to 6:00 PM) including orientation, tool access, team introductions, and first commit goal; (3) Week 1 goals (environment setup, first PR merged, reading list, 1:1s with 8 stakeholders); (4) Day 30 milestones (first production deploy, tech debt contribution, manager 1:1 format); (5) Day 60 milestones (owning a small module, participating in on-call rotation); (6) Day 90 evaluation with confirmation letter criteria (probation passing); (7) HR compliance items (PF, ESIC, Form 16 preparation, mediclaim enrollment, PAN and Aadhaar collection); (8) Cultural integration activities.\n\nFormat as a structured checklist with owner, due date, and status columns. Include specific tool names (GitHub, Jira, AWS IAM, 1Password, Razorpay XPayroll). Consider: Indian probation periods are typically 6 months, joining bonuses vest after 12 months, and BGV usually takes 10-15 days. Include a buddy briefing template and first 1:1 agenda for the hiring manager.",
+      "tags": [
+        "onboarding",
+        "employee-experience",
+        "hr-operations",
+        "checklist"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-011",
+      "title": "Weekly Leadership Meeting Template",
+      "prompt": "Act as a Chief of Staff with 5 years of experience supporting CEOs at Series A and B Indian startups. I need you to design a weekly leadership team meeting template (90 minutes) for a 6-person leadership team at a 60-employee SaaS startup. The CEO feels current meetings are unproductive.\n\nPlease provide: (1) Meeting philosophy (why we meet, what we decide vs inform); (2) 90-minute agenda with strict time boxes: check-in (5 min), metrics review (15 min), wins and lessons (10 min), strategic topics with IDS framework (45 min), tactical issues (10 min), rocks review and action items (5 min); (3) Pre-read document template to be shared 24 hours before; (4) Metrics dashboard structure (9 key numbers: MRR, new logos, churn, pipeline, burn, headcount, NPS, runway, MAUs); (5) Issue log format with priority and owner; (6) Decision log format with date, decision, rationale, and owner; (7) Ground rules (no laptops except note-taker, phones away, no meeting monologues > 3 min); (8) Quarterly meeting effectiveness survey with 5 questions.\n\nFormat as a facilitator guide plus a ready-to-use Notion template structure. Inspiration: EOS Level 10 meeting, but adapted for Indian startup culture where hierarchy and \"respect for elders\" can suppress dissent - explicitly design for psychological safety. Include an example filled-in agenda for a company hitting 80% of plan with a sales forecast gap.",
+      "tags": [
+        "leadership-meetings",
+        "operating-cadence",
+        "l10-meetings",
+        "chief-of-staff"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-012",
+      "title": "Vendor Onboarding and KYC SOP",
+      "prompt": "Act as a Finance Operations Manager with 6 years of experience at Indian startups. I need you to create a vendor onboarding and KYC SOP to prevent fraud, ensure GST compliance, and standardize payment workflows for a 40-person startup onboarding 10-15 new vendors monthly.\n\nPlease provide: (1) Vendor intake form fields (legal name, PAN, GSTIN, MSME status, bank details with cancelled cheque, service category); (2) Document verification checklist with validation sources (GSTIN on GST portal, PAN on IT portal, MSME on Udyam portal); (3) Risk tiering (low/medium/high) based on annual spend (< INR 1L, 1-10L, > 10L) with differentiated controls; (4) Approval matrix (requester -> finance -> CFO for > 5L); (5) Contract essentials (MSA, SOW, NDA) with standard clauses on payment terms (Net 30), IP, and termination; (6) Payment workflow in Razorpay X or ICICI Corporate with maker-checker; (7) TDS applicability guide (194C 2%, 194J 10%, 194I 10%); (8) Annual vendor review and deduplication process.\n\nFormat as a process document with flowcharts described in text, form templates, and compliance checklists. Constraints: Must comply with the Income Tax Act 1961 TDS provisions, GST Act ITC rules (vendor must file GSTR-1 for us to claim credit), and Companies Act related party disclosure rules. Include an email template to politely request missing documents from vendors, and a red flags checklist for shell companies.",
+      "tags": [
+        "vendor-kyc",
+        "procurement-sop",
+        "fraud-prevention",
+        "gst-compliance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-013",
+      "title": "Standard NDA Review Checklist",
+      "prompt": "Act as a startup legal operations specialist with 7 years of experience reviewing commercial contracts for Indian SaaS and D2C companies. I need you to create a practical NDA review checklist that a non-lawyer founder or operations person can use to review incoming NDAs from potential customers, vendors, and investors within 15 minutes.\n\nPlease provide: (1) A 20-point checklist covering definition of Confidential Information, term (ideal 2-3 years), mutual vs one-way, permitted disclosures (employees, advisors, investors), return/destruction, exclusions (already known, independently developed), remedies (injunctive relief), governing law (Indian courts, jurisdiction Bengaluru/Mumbai), and dispute resolution (arbitration under the Arbitration and Conciliation Act 1996); (2) Red flag clauses to always push back on (unlimited term, unlimited liability, non-solicitation of employees, non-compete, automatic IP assignment); (3) Standard markup language for the top 5 red flags; (4) Email templates to send markups politely; (5) Decision tree: sign as-is / markup / escalate to lawyer; (6) Record-keeping template (counterparty, date, term, owner).\n\nFormat as a 2-page cheat sheet checklist with color-coded (described) red/yellow/green indicators, plus a separate document with suggested replacement clauses. Constraints: Indian legal context, reference specific sections where helpful (Indian Contract Act 1872 Section 27 on restraint of trade), and assume no in-house counsel. Include guidance on when to escalate to an external lawyer (approx INR 5,000-15,000 per review).",
+      "tags": [
+        "nda-review",
+        "legal-operations",
+        "contracts",
+        "checklist"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-014",
+      "title": "Petty Cash and Expense Policy",
+      "prompt": "Act as a Finance Controller with 8 years of experience designing expense policies for Indian startups. I need you to write a complete petty cash and employee expense reimbursement policy for a 50-person startup with Bengaluru HQ and remote employees across India.\n\nPlease provide: (1) Policy purpose and applicability; (2) Expense categories with monthly per-person limits in INR (meals during travel INR 800/day Tier 1, INR 600/day Tier 2; local conveyance INR 400/day; client entertainment with approval up to INR 5,000); (3) Travel policy (flight economy under 2 hours, train AC 2-Tier/3-Tier, hotel INR 4,500/night Tier 1, INR 3,000/night Tier 2); (4) Mandatory documentation (GST invoice for > INR 200, original bills, approval chain); (5) Reimbursement submission workflow in Zoho Expense or Razorpay X Payroll with 15-day submission window; (6) Non-reimbursable items (alcohol except client entertainment, personal expenses, traffic fines); (7) Petty cash imprest system (INR 25,000 float at HQ, maker-checker, weekly reconciliation); (8) Policy violations and consequences; (9) GST ITC capture requirements for eligible expenses.\n\nFormat as a formal policy document with numbered sections, tables for limits, and approval matrices. Constraints: Must comply with Indian income tax rules on reimbursements (non-taxable if substantiated), GST ITC rules (invoice in company name with GSTIN for ITC), and ESIC/PF exclusions. Include a 1-page employee summary and FAQ with 10 common questions.",
+      "tags": [
+        "expense-policy",
+        "finance-operations",
+        "reimbursement",
+        "travel-policy"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-015",
+      "title": "Customer Onboarding Playbook for SaaS",
+      "prompt": "Act as a Head of Customer Success with 9 years of experience at Indian B2B SaaS companies. I need you to build a customer onboarding playbook for a new enterprise customer who signed a 12-month contract worth INR 12 lakhs for our workflow automation SaaS. Our target time to first value is 21 days.\n\nPlease provide: (1) Kickoff meeting agenda (60 min) with prepared discovery questions, success metrics alignment, and stakeholder mapping; (2) Day 0-7 activities: technical setup, SSO configuration, data migration checklist, admin training; (3) Day 8-14 activities: pilot team training (15-20 users), first workflow live, success metric baseline; (4) Day 15-21 activities: expansion to full team, go-live checklist, stakeholder check-in; (5) Day 30 and Day 60 health checks with scoring rubric (green/yellow/red); (6) RACI matrix across CSM, Implementation Engineer, Support, Sales, and customer champions; (7) Risk playbook for common delays (IT security reviews, data sanitization, champion departure); (8) Handoff to steady-state CSM.\n\nFormat as a step-by-step playbook with templates for each customer-facing touchpoint (email, meeting agenda, training deck outline). Consider: Indian enterprise customers often have layered IT security reviews (1-3 weeks), CIO/CTO sign-offs, and \"muhurat\" launch date preferences. Use \"TaskPilot Pro\" as our fictional product and \"Ashok Leyland Financial Services\" as the customer example.",
+      "tags": [
+        "customer-onboarding",
+        "saas-implementation",
+        "customer-success",
+        "playbook"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-016",
+      "title": "MSME Registration and Benefits Guide",
+      "prompt": "Act as a startup compliance advisor with 6 years of experience helping Indian early-stage companies with statutory registrations. I need you to create an actionable guide for a 25-person bootstrapped SaaS startup in Ahmedabad to evaluate and execute MSME (Udyam) registration and leverage its benefits.\n\nPlease provide: (1) Eligibility check: turnover limits (Micro < 5Cr, Small < 50Cr, Medium < 250Cr) and investment thresholds; (2) Step-by-step Udyam registration process on udyamregistration.gov.in with screenshots described in text (takes ~20 min, no fee); (3) Documents needed (Aadhaar of owner/director, PAN, GSTIN, bank, NIC code selection for SaaS: 62011/62012); (4) Key benefits: MSME Samadhaan (45-day payment protection from buyers with 3x bank rate interest), priority sector lending, collateral-free loans up to INR 2Cr via CGTMSE, subsidies on patent filing, ISO certification reimbursement; (5) Public procurement preferences (GeM portal); (6) Interest subvention schemes; (7) Compliance obligations post-registration (annual return, update turnover); (8) How to invoke MSME Samadhaan against a non-paying customer - step-by-step with format of notice.\n\nFormat as a how-to guide with actionable steps, URLs, and timeline. Include a sample MSME Samadhaan notice template citing Section 15 and 16 of the MSMED Act 2006. Consider: registration is now linked to PAN and Aadhaar, GSTIN auto-verifies turnover, and the \"delayed payment\" clock starts from day 46 for registered MSMEs.",
+      "tags": [
+        "msme-registration",
+        "compliance",
+        "statutory-benefits",
+        "samadhaan"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-017",
+      "title": "Annual Operating Plan for Series A",
+      "prompt": "Act as a VP Finance and Strategy with 11 years of experience at Indian Series A/B startups. I need you to build an annual operating plan (AOP) for a Series A B2B SaaS company currently at INR 15Cr ARR, 45 FTEs, planning to grow to INR 32Cr ARR in the next fiscal year. Current burn INR 1.1Cr/month, runway 22 months.\n\nPlease provide: (1) Top-down revenue plan: net new ARR by quarter, breakdown between new logos and expansion, with rep productivity assumptions (INR 80L new ARR per AE); (2) Bottoms-up sales capacity model (AEs needed, ramp time 4 months, quota attainment 75%); (3) Headcount plan by function with monthly hire dates and cost in INR; (4) Department-wise budget: R&D 45%, S&M 35%, G&A 20% of operating expense; (5) Gross margin target (78%) with cost of delivery drivers (hosting, support, onboarding); (6) Monthly cash flow projection showing burn trajectory and runway extension; (7) Scenario analysis: base, upside (+20%), downside (-25% with hiring freeze triggers); (8) Top 10 assumptions and KPIs to track monthly; (9) Board-ready 1-page AOP summary.\n\nFormat as a structured financial plan with tables, assumptions sidebar, and narrative. Constraints: Use Indian fiscal year (April-March), factor in 8% annual salary inflation, 18% GST on domestic sales, ESOP expense accounting, and typical Indian SaaS gross retention of 88-92%. Include a pre-board meeting walkthrough script for the CEO to present the AOP to investors (Accel, Elevation, Nexus).",
+      "tags": [
+        "annual-operating-plan",
+        "financial-planning",
+        "aop",
+        "series-a"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-018",
+      "title": "Distribution Partnership Proposal FMCG",
+      "prompt": "Act as a National Sales Manager with 10 years of experience building GT and MT distribution for Indian D2C-to-offline brands like The Whole Truth, Slurrp Farm, and Yogabar. I need you to draft a distribution partnership proposal for our D2C healthy snacks brand (currently INR 20Cr online revenue) to enter Modern Trade through a super-stockist partnership covering Maharashtra.\n\nPlease provide: (1) Opportunity sizing: Maharashtra MT universe (approx 4,500 outlets in key chains - DMart, Reliance Smart, Star Bazaar, Nature's Basket, More); (2) Partner profile for ideal super-stockist (existing brand portfolio, warehouse in Bhiwandi, 20+ salespeople, working capital INR 3-5Cr); (3) Commercial terms: primary margin 18%, trade margin 22%, scheme budget 8% of secondary, Net 30 payment, replacement for damages; (4) Minimum commitments (first-year secondary sales INR 6Cr, monthly MSL compliance 80%); (5) Sell-in pitch covering category growth, brand traction, ATL/BTL support, visibility investment; (6) Joint business plan template: month-by-month targets, new outlet additions, listing fees, BTL activations; (7) Exclusivity, lock-in, and termination clauses; (8) Onboarding playbook (training, first dispatch, replenishment cadence).\n\nFormat as a pitch deck outline (15 slides) plus a detailed term sheet. Consider: Indian MT chain listing fees (INR 2-8L per SKU per chain), slotting fees, 30-45 day payment terms with chains, and GST invoicing through distributors (not direct to retailers). Use real-sounding numbers and 2026 market context.",
+      "tags": [
+        "distribution",
+        "modern-trade",
+        "partnership-proposal",
+        "fmcg-ops"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-019",
+      "title": "Tech Integration Partnership MOU",
+      "prompt": "Act as a Head of Alliances with 8 years of experience structuring tech partnerships between Indian SaaS companies. I need you to draft a comprehensive Memorandum of Understanding (MOU) for a technology integration partnership between our CRM SaaS (INR 18Cr ARR) and a leading Indian marketing automation platform. The goal is a certified two-way integration within 90 days and joint go-to-market.\n\nPlease provide: (1) Recitals establishing both parties' identities, CINs, and registered offices; (2) Scope: technical integration via REST APIs and webhooks, OAuth 2.0 authentication, shared object mapping (contacts, accounts, campaigns); (3) Technical responsibilities of each party with 90-day milestone dates; (4) Joint GTM commitments: co-marketing (2 webinars, 1 joint case study, newsletter mentions), sales enablement (SE training, demo scripts), referral motion (warm intros for > 100 employee accounts); (5) Revenue share on sourced deals: 15% for 12 months capped at INR 10L per account; (6) IP ownership (each party retains its IP, joint content co-owned); (7) Confidentiality, data protection under DPDP Act 2023, and security obligations; (8) Term (24 months), renewal, termination with 60-day notice, effect of termination on integration; (9) Governing law (Indian), jurisdiction (Bengaluru), arbitration; (10) Signatories and schedules.\n\nFormat as a legal-ready MOU document with numbered clauses, definitions, and schedules (technical spec, GTM calendar, commercials). Constraints: DPDP Act compliance for customer data sharing, SEBI or RBI regulations if financial data is involved, and India's cross-border data rules. Include a plain-English 1-page summary for the CEO to review before signature.",
+      "tags": [
+        "tech-partnership",
+        "mou",
+        "integration",
+        "alliance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-020",
+      "title": "Sales Compensation Plan Design",
+      "prompt": "Act as a Revenue Operations leader with 10 years of experience designing sales comp plans for Indian SaaS companies. I need you to design a comprehensive sales compensation plan for a 12-person sales team at a Series A startup: 4 SDRs, 6 AEs, 1 Enterprise AE, 1 Sales Manager. Target annual new ARR: INR 14Cr.\n\nPlease provide: (1) OTE benchmarks in INR by role (SDR 9-12L, AE 18-28L, Enterprise AE 35-50L, Sales Manager 35-45L) with 60:40 base/variable for hunters; (2) Quota setting methodology: bottoms-up capacity, top-down target, and 1.25x coverage rule; (3) AE plan mechanics: base salary, commission rate (9-11% of new ARR), accelerators (1.5x at 100%, 2x at 120%), decelerators (0.7x below 60%); (4) SDR plan: base + INR 2,000 per SQL + INR 8,000 per opportunity converted; (5) Enterprise AE plan with MBO component (20%) on strategic accounts; (6) Sales Manager plan: team target achievement + individual strategic metrics (hiring, enablement, forecast accuracy); (7) SPIFs for quarter-end and product launches; (8) Clawbacks for churn within 6 months; (9) Payout cadence (monthly on collected revenue, true-up quarterly); (10) Communication rollout plan.\n\nFormat as a plan document with tables, calculation examples for one AE and one SDR, and FAQ addressing 10 common objections. Constraints: Indian payroll integration (Razorpay X Payroll or Keka), TDS on incentives, ESOPs as additional retention, and the norm of guaranteed commission for first 3 months for new joiners. Include a sample monthly commission statement.",
+      "tags": [
+        "sales-compensation",
+        "commission-plan",
+        "quota-setting",
+        "revops"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-021",
+      "title": "Vendor Consolidation Analysis",
+      "prompt": "Act as a Procurement and Finance Operations Lead with 8 years of experience optimising SaaS and vendor spend at Indian startups. I need you to conduct a vendor consolidation analysis for a 60-person startup currently spending INR 1.8Cr annually across 85 vendors. The CFO wants to cut 20% of vendor count and save INR 30 lakhs annually.\n\nPlease provide: (1) Data collection framework: vendor name, category, annual spend, contract end date, owner, business criticality (1-5); (2) Spend categorization: SaaS/tools, professional services, infrastructure (AWS/GCP), marketing, office, legal, HR; (3) Overlap analysis methodology: identify redundancies (e.g., Zoom + Google Meet, Notion + Confluence, Freshdesk + Intercom); (4) Consolidation opportunities: 10 specific examples typical for Indian startups with savings estimate; (5) Renegotiation playbook: bundle discounts, annual vs monthly (15-20% savings), multi-year commits; (6) RFP-lite process for top 5 vendors by spend; (7) Decision matrix: keep, negotiate, consolidate, eliminate - with scoring criteria; (8) Change management: stakeholder buy-in, migration risks, data export plans; (9) 90-day execution roadmap with weekly milestones; (10) Board reporting template.\n\nFormat as a structured analysis with tables, decision trees described in text, and executable action plan. Constraints: GST ITC implications when switching vendors mid-year, lock-in periods, data portability under DPDP Act, and cultural sensitivity with long-tenured vendor relationships. Reference Zluri, Spendflo India, or Torii-style SaaS management tools. Include a 1-page CFO update.",
+      "tags": [
+        "vendor-consolidation",
+        "cost-optimization",
+        "procurement",
+        "spend-analysis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-022",
+      "title": "Cross-Functional Hiring Scorecard",
+      "prompt": "Act as a Talent Acquisition leader with 9 years of experience hiring senior roles at Indian startups. I need you to design a comprehensive hiring scorecard and structured interview process for hiring a Head of Engineering (VP level) at a Series B SaaS startup with 35 engineers. This is a strategic hire reporting to the CTO.\n\nPlease provide: (1) Role definition: mission, outcomes (first 12 months), key competencies; (2) Scorecard with 5 outcome goals (e.g., ship new platform v2 by Q3, reduce P0 incidents by 60%, hire 12 engineers, achieve 99.9% uptime) and 8 competencies rated 1-5 (technical depth, system design, team building, execution, influence, craft standards, hiring, culture fit); (3) Interview loop design: 7 rounds with specific interviewers, focus areas, and time (recruiter 30 min, hiring manager 60 min, system design 90 min, code or architecture 60 min, people leadership 60 min, CEO 45 min, references 30 min); (4) Structured questions for each round with \"looking for\" guidance; (5) Debrief meeting format with forced ranking and veto rules; (6) Reference check script (6 questions, 2 backchannels); (7) Offer construction including ESOPs (0.8-1.5%), retention bonus, counter-offer handling; (8) First 90-day integration plan.\n\nFormat as a complete hiring kit with printable scorecard, question bank, and debrief template. Constraints: 90-day notice periods, market rate for VPE in Bengaluru (INR 80L-1.4Cr OTE + ESOPs), and diversity targets (30% women in pipeline). Include a rejection email template that preserves candidate goodwill.",
+      "tags": [
+        "hiring-scorecard",
+        "executive-hiring",
+        "interview-design",
+        "talent-acquisition"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-023",
+      "title": "OKR to KPI Cascade Workshop",
+      "prompt": "Act as an OKR coach with 8 years of experience facilitating strategy workshops at Indian growth-stage startups. I need you to design and facilitate a half-day (4-hour) workshop that cascades company-level annual OKRs into team-level quarterly OKRs and individual KPIs for a 70-person Series B product-led SaaS company.\n\nPlease provide: (1) Pre-work: 1-week prep assignments for each team head including data review, customer feedback themes, and draft objectives; (2) Workshop agenda with minute-level timing: welcome and context (15 min), company OKR walkthrough by CEO (20 min), breakout - team OKR drafting (60 min), cross-team dependency mapping (45 min), peer review and feedback (30 min), commitment and stretch labeling (15 min), individual KPI guidance (30 min), action items and close (25 min); (3) Worksheet templates for company -> team -> individual cascade; (4) Dependency mapping canvas; (5) 7 rules for good OKRs and KPIs; (6) Facilitator talking points for each section; (7) Common pitfalls (vanity metrics, activity-based KRs, too many OKRs) with live coaching responses; (8) Post-workshop commitments: Notion page creation, manager 1:1 alignment, weekly check-in setup; (9) Sample filled template for a Product team.\n\nFormat as a facilitator's complete playbook with agenda, slides outline, worksheets, and cheat sheets. Constraints: Remote facilitation on Zoom + Miro (or FigJam), participants across 3 Indian cities, English as common language but accommodate regional accents, and the cultural tendency to over-commit - build in explicit capacity discussions. Include a 15-minute energiser activity.",
+      "tags": [
+        "okr-workshop",
+        "cascade",
+        "strategy-facilitation",
+        "workshop-design"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-024",
+      "title": "Cash Flow Forecasting Model",
+      "prompt": "Act as a startup CFO with 12 years of experience at Indian SaaS and fintech companies. I need you to build a 13-week rolling cash flow forecasting framework for a Series A SaaS startup with INR 22Cr ARR, currently burning INR 95 lakhs/month, with 16 months of runway.\n\nPlease provide: (1) Weekly cash inflow categories: customer collections (invoiced vs paid), refunds, interest income, GST refunds; (2) Weekly outflow categories: payroll (monthly spike last working day), statutory dues (PF/ESIC/TDS 15th, GST 20th), vendor payables, AWS/infra (monthly), rent (first week), one-offs; (3) Collections forecasting methodology: invoice aging buckets (0-30, 31-60, 61-90, > 90) with historical realization rates; (4) Variance analysis template: actual vs forecast, reason codes; (5) Risk buffers: minimum operating cash floor (INR 3Cr), trigger levels for escalation; (6) Scenario layers: base, delayed collections (-15%), accelerated hiring (+INR 20L/month); (7) Integration with Zoho Books / Tally and bank API for actuals; (8) Weekly finance review meeting agenda (30 min); (9) Board and investor communication cadence if runway drops below 12 months; (10) One-page CFO dashboard design.\n\nFormat as a complete methodology document with Excel/Google Sheets structure described cell-by-cell for key sections, sample numbers, and variance commentary. Constraints: Indian GST refund timelines (60-90 days), TDS credits (26AS reconciliation), and ICICI/HDFC virtual account structure for automated reconciliation. Include a treasury policy for parking surplus cash (liquid funds, FDs).",
+      "tags": [
+        "cash-flow",
+        "forecasting",
+        "cfo-tools",
+        "treasury"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-025",
+      "title": "Performance Management Review Cycle",
+      "prompt": "Act as a Head of People with 9 years of experience designing performance systems at Indian startups. I need you to design a lightweight but rigorous half-yearly performance review cycle for a 55-person Series A startup that currently has no formal process. The founder dislikes bureaucracy.\n\nPlease provide: (1) Design philosophy: outcomes not inputs, growth not policing, minimal paperwork; (2) 6-week calendar from kickoff to compensation decisions; (3) 4-section review template: self-review (OKR scores, impact stories, growth areas), peer feedback (3 peers, 4 questions each), manager review (calibration notes, rating, development plan), and 1:1 conversation; (4) Rating scale (4 levels: below, meets, exceeds, exceptional) with distribution guidelines (5-60-30-5); (5) Calibration meeting facilitation guide (2 hours per function); (6) Compensation linkage: merit increase bands (0%, 8%, 12%, 18%) and bonus multipliers; (7) Promotion framework with level criteria; (8) PIP (Performance Improvement Plan) structure for underperformers with 60-day timeline; (9) Manager training agenda (90 min) on giving hard feedback; (10) Employee-facing FAQ with 12 questions.\n\nFormat as a complete HR playbook with templates, emails, and meeting agendas ready to use. Constraints: Indian employment law context (no \"at-will\" employment, termination requires cause and process), cultural discomfort with direct negative feedback, and the norm of annual vs half-yearly cycles. Avoid Western jargon; use plain language. Include sample calibration notes for 3 hypothetical employees.",
+      "tags": [
+        "performance-reviews",
+        "appraisal-cycle",
+        "calibration",
+        "people-ops"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-026",
+      "title": "Incident Response SOP for Outages",
+      "prompt": "Act as an SRE and Operations leader with 8 years of experience at Indian SaaS startups running mission-critical infrastructure. I need you to create a complete incident response SOP for a Series A SaaS company with 99.9% uptime SLA, running on AWS Mumbai region, 15-person engineering team, currently experiencing occasional P0 outages.\n\nPlease provide: (1) Severity definitions: P0 (full outage), P1 (major degradation), P2 (minor), P3 (cosmetic) with response and resolution SLAs; (2) On-call rotation design (primary + secondary, weekly, PagerDuty configuration); (3) Incident commander role and responsibilities; (4) War room protocol: dedicated Slack channel #incident-YYYYMMDD-xxx, 15-min status cadence, decision log; (5) Customer communication templates: status page update, email to affected customers (in English), WhatsApp broadcast for enterprise accounts with CSM involvement; (6) Escalation ladder to CEO and founders; (7) Post-incident review (blameless) template: timeline, root cause, contributing factors, action items with owners and due dates; (8) Tracking: MTTR, MTTD, incident frequency dashboards; (9) Runbook library structure for top 20 failure modes; (10) Customer refund/credit policy (1-day credit per hour of SLA breach).\n\nFormat as a runbook with clear protocols, templates, and a 1-page quick reference card for on-call engineers. Constraints: AWS Mumbai region peculiarities, Indian data residency requirements (RBI for fintech, DPDP Act), and 24x7 coverage with India-based team. Include a sample filled post-mortem for a hypothetical 45-min P0 database outage.",
+      "tags": [
+        "incident-response",
+        "sre",
+        "on-call",
+        "post-mortem"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-027",
+      "title": "Razorpay Payout Reconciliation SOP",
+      "prompt": "Act as a Finance Operations Manager with 7 years of experience managing payment reconciliation for Indian D2C and marketplace startups. I need you to create a daily and monthly reconciliation SOP for a D2C brand processing INR 12Cr annual GMV through Razorpay Payment Gateway and Razorpay Route (for vendor payouts), with additional volume on Cashfree.\n\nPlease provide: (1) Daily reconciliation workflow: download Razorpay settlement report, match against Shopify order export, bank credit in HDFC account, flag discrepancies; (2) Key data points per transaction: order ID, gross, MDR, GST on MDR, net settlement, settlement date, payment method; (3) Common discrepancies and resolution: chargebacks (48-hour window), refunds in-transit, COD remittance lag, marketplace commission; (4) Monthly reconciliation: Razorpay monthly statement vs bank vs books in Tally, GST on MDR (ITC claim), TDS on payouts (194O for e-commerce); (5) Aging report for unreconciled items (> 7 days escalate, > 15 days write off with approval); (6) Cashfree cross-check for backup gateway volumes; (7) UPI Autopay (for subscriptions) reconciliation specifics; (8) Monthly MIS: gateway-wise revenue, MDR %, failed txn rate, refund rate, average basket.\n\nFormat as a SOP document with step-by-step workflows, Excel template structure, and reference screenshots described in text. Constraints: Razorpay T+1 or T+2 settlement cycles, MDR rates (1.6-2% domestic cards, 2.5-3% international, 0% UPI), GST 18% on MDR eligible for ITC, and TDS 1% under Section 194O. Include escalation template to Razorpay support for stuck settlements.",
+      "tags": [
+        "payment-reconciliation",
+        "razorpay",
+        "finance-ops",
+        "d2c"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-028",
+      "title": "ESOP Pool Design and Grant Policy",
+      "prompt": "Act as a startup equity advisor with 10 years of experience structuring ESOP plans for Indian startups alongside law firms like Trilegal and IndusLaw. I need you to design a comprehensive ESOP pool and grant policy for a Series A startup that just closed an INR 80Cr round and needs to top up its ESOP pool from 8% to 13%.\n\nPlease provide: (1) Pool sizing rationale: competitive benchmarks for Series A-B Indian startups (8-15%), dilution math, board resolution requirements; (2) Plan structure choice: ESOP vs RSU (most Indian startups use ESOP with exercise price), trust vs direct; (3) Grant guidelines by level: IC1 (0.02-0.05%), IC4 (0.15-0.3%), M2 (0.4-0.8%), VP (1-2%), C-suite (2-5%); (4) Vesting schedule: 4-year vest, 1-year cliff, monthly thereafter, with acceleration on change of control (double trigger); (5) Exercise price (FMV via merchant banker valuation annually); (6) Exercise window: 90 days on termination, or extended 5-year window (\"good leaver\") for long-tenured employees; (7) Tax implications: perquisite tax at exercise, capital gains at sale (LTCG 20% with indexation if > 24 months for unlisted); (8) ESOP education session outline for employees; (9) Annual refresh grant policy to combat underwater options; (10) Board and shareholder approval process under Companies Act 2013 Section 62.\n\nFormat as a complete ESOP policy document with grant letter template, FAQs, and communication deck outline. Constraints: Companies Act 2013 compliance, SEBI SBEB regulations if ever listed, and fair market valuation rules. Include a sample grant calculation for a Senior Engineer joining at INR 45L base.",
+      "tags": [
+        "esop-policy",
+        "equity-compensation",
+        "startup-equity",
+        "talent-retention"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-029",
+      "title": "Multi-City Team Operating Model",
+      "prompt": "Act as a COO with 10 years of experience scaling operations at Indian startups that are distributed across Bengaluru, Delhi NCR, Mumbai, and Hyderabad. I need you to design a multi-city operating model for a 90-person Series B startup that has organically grown hubs in 4 cities without intentional design.\n\nPlease provide: (1) Current-state diagnosis framework: 10 questions to assess each city hub's function, headcount, local leadership, and pain points; (2) Future-state model options: functional HQ (all Product in Blr, all Sales in Del), distributed (all cities have all functions), hub and spoke (Blr primary, others secondary); (3) Recommended model with rationale; (4) City lead role definition: responsibilities, authority, reporting line; (5) Infrastructure plan per city: co-working seats (WeWork India, Awfis, 91 Springboard), meeting rooms, local vendor network; (6) Travel budget policy for cross-city meetings (flights, hotels, per diem in INR); (7) Cultural integration: monthly city mixers, quarterly all-city offsite, virtual celebrations; (8) Communication norms: time zone fiction (we are all IST), async-first, no meetings before 10 AM; (9) Compliance implications: PT (Professional Tax) registration per state, shops and establishment acts, state-wise labour laws; (10) Decision rights matrix (city lead vs function head).\n\nFormat as a strategic operating document with diagrams described in text, policies, and a 90-day implementation roadmap. Constraints: State-wise compliance (Karnataka PT, Maharashtra PT differ), GST place of supply rules for inter-state services, and cultural differences in work norms (Delhi vs Bengaluru). Include an internal announcement email template.",
+      "tags": [
+        "multi-city",
+        "operating-model",
+        "distributed-teams",
+        "compliance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-030",
+      "title": "Quarterly Business Review Template",
+      "prompt": "Act as a Chief of Staff with 7 years of experience preparing QBRs for Indian Series A/B startups facing their boards (Accel, Matrix, Nexus, Blume). I need you to create a comprehensive Quarterly Business Review template that a CEO can use to present to the board and also internally to the leadership team in the same quarter.\n\nPlease provide: (1) Pre-QBR prep timeline: 3 weeks out (data collection), 2 weeks (narrative), 1 week (rehearsal); (2) QBR deck structure (22 slides): cover, agenda, TL;DR, P&L and cash, ARR waterfall, customer metrics (NPS, NRR, GRR, churn), sales pipeline, product launches, engineering health, people and hiring, top risks, asks for the board, Q&A; (3) Metric definitions standardization to avoid reframing quarter over quarter; (4) OKR scoring rubric for prior quarter with honesty about misses; (5) Forward plan: next quarter top 5 priorities with owners and metrics; (6) Appendix: detailed financials, customer logos, competitive update; (7) Narrative framing: win-loss stories, 3 lessons, 3 bold bets; (8) Pre-read document (5 pages) sent 48 hours before; (9) Internal version adaptation (remove sensitive cap table info, add team shoutouts); (10) Post-QBR action tracking and 30-day update.\n\nFormat as a complete toolkit: slide-by-slide template with guidance, pre-read template, and rehearsal checklist. Constraints: Indian VCs expect direct engagement with founders, cultural tendency to overstate progress - counter with pre-mortems and honest red flags, and regulatory context (SEBI AIF reporting, DPDP Act impact on metrics). Use ARR INR 25Cr, 55 FTE, burn 1Cr/month as sample context.",
+      "tags": [
+        "qbr",
+        "board-management",
+        "business-review",
+        "reporting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-031",
+      "title": "Offer Letter and CTC Structuring",
+      "prompt": "Act as a Compensation and Benefits specialist with 8 years of experience at Indian startups. I need you to draft a complete offer letter template and CTC structure for a Senior Product Manager joining at INR 42 lakhs fixed + INR 6 lakhs variable + 0.25% ESOPs at our Series A SaaS startup. They are relocating from Pune to Bengaluru.\n\nPlease provide: (1) Offer letter body covering position, start date, reporting manager, location (hybrid Bengaluru), notice period (60 days), probation (6 months), governing law; (2) Detailed CTC break-up table: Basic (40% of fixed), HRA (50% of basic), LTA, special allowance, NPS employer contribution (optional), employer PF contribution, gratuity accrual, mediclaim (INR 5L floater), term life insurance (5x CTC); (3) Variable pay plan: 50% company achievement, 50% individual OKRs, paid half-yearly; (4) ESOP terms: grant count, exercise price, 4-year vest, 1-year cliff, 90-day exercise window; (5) Joining bonus: INR 2 lakhs to buy out notice, recoverable on 12-month lock; (6) Relocation: one-time INR 75,000 + 15 days serviced apartment; (7) Benefits: leave policy (18 annual + 12 sick + public holidays), flexible work, wellness stipend; (8) Statutory deductions explanation (PF, PT, TDS); (9) Annexures: role and responsibilities, code of conduct, NDA, non-solicit; (10) Acceptance confirmation format.\n\nFormat as a legally sound offer letter with comp structure table in INR, gross and take-home estimate, and a 1-page candidate-friendly summary. Constraints: Payment of Gratuity Act 1972, EPF Act, Income Tax Act (80C, 80D, 80CCD, Section 10), and DPDP Act for employee data. Ensure Section 192 TDS computation is clear.",
+      "tags": [
+        "offer-letter",
+        "ctc-structure",
+        "compensation",
+        "hr-docs"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-032",
+      "title": "Strategic Procurement for Cloud Spend",
+      "prompt": "Act as a FinOps leader with 9 years of experience optimising cloud spend at Indian SaaS and fintech startups. I need you to build a strategic procurement plan to reduce AWS spend by 30% over 6 months for a Series B startup currently spending INR 2.4Cr annually on AWS Mumbai and Singapore regions, serving 2.5 million MAUs.\n\nPlease provide: (1) Current state audit framework: service-wise spend breakdown (EC2, RDS, S3, CloudFront, Lambda, DynamoDB, data transfer), cost allocation by product line, and waste identification (idle, oversized, unattached); (2) Quick wins (0-30 days): right-sizing, unused resource cleanup, S3 lifecycle policies, reserved capacity for stable workloads; (3) Medium wins (30-90 days): Savings Plans (1-year, 3-year), Graviton migration, spot instances for non-prod, database optimization (reader replicas, parameter tuning); (4) Strategic wins (90-180 days): architectural refactors, multi-region optimization, CDN tuning, data transfer reduction; (5) AWS EDP (Enterprise Discount Program) negotiation: commit tier, discount tier, credits, SSO/security add-ons, India-specific MDF; (6) Alternative: negotiating via AWS APN partner in India for additional 3-7% rebate; (7) FinOps governance: tagging standard, showback/chargeback, weekly review, anomaly alerts via CloudWatch; (8) ROI model: cost avoidance, one-time savings, recurring savings, payback; (9) Risk mitigation during optimization; (10) Monthly FinOps scorecard.\n\nFormat as a procurement strategy document with phased roadmap, savings breakdown table in INR, and a negotiation brief for the AWS account manager meeting. Constraints: India GST on AWS invoices (18%), ITC eligibility with correct GSTIN, forex exposure for USD-billed services, and DPDP Act data residency. Include a sample email to AWS rep requesting EDP discussion.",
+      "tags": [
+        "finops",
+        "aws-optimization",
+        "cloud-procurement",
+        "cost-reduction"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-033",
+      "title": "M&A Integration Operations Playbook",
+      "prompt": "Act as a Head of Strategy and Operations with 12 years of experience including 4 acqui-hires and 2 product tuck-in acquisitions at Indian and Southeast Asian startups. I need you to build a comprehensive 100-day integration playbook for a Series C SaaS company (120 employees, INR 65Cr ARR) acquiring a smaller 18-person competitor for INR 45 crore (mix of cash and stock).\n\nPlease provide: (1) Day 0 (Announcement) communication plan: all-hands script, customer letters, investor note, press release; (2) Week 1: integration management office (IMO) setup, functional workstream leads (People, Product, Engineering, GTM, Finance, Legal), war room cadence; (3) People integration: compensation harmonization, title mapping, ESOP conversion (existing options cashless exercise or rollover), retention grants for key talent (top 5 employees get 2x retention), offer letters under acquirer entity, PF/gratuity transfer; (4) Customer integration: account mapping, contract novation, unified support model, pricing harmonization over 12 months; (5) Product integration: codebase audit, tech debt map, API deprecation timeline, migration SLA; (6) Finance and legal: opening balance sheet, purchase price allocation, GST registration transfer or fresh, ROC filings (Form MGT-14, SH-7), stamp duty on share transfer; (7) Cultural integration: values workshop, mixed team projects, leadership pairing; (8) Risk register with top 15 risks and mitigations; (9) 30-60-90 day scorecard; (10) Board and investor update cadence.\n\nFormat as a playbook with workstream checklists, templates (communications, retention letters, integration trackers), and a 1-page CEO dashboard. Constraints: Companies Act 2013 merger provisions, CCI notification if thresholds crossed, IT Act for data transfer, and DPDP Act for customer data migration. Include an integration success KPI framework.",
+      "tags": [
+        "ma-integration",
+        "acquisition",
+        "100-day-plan",
+        "change-management"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-034",
+      "title": "Board-Level Operating Metrics Framework",
+      "prompt": "Act as a veteran startup CFO with 15 years of experience preparing board materials for top Indian VC boards (Sequoia, Accel, Lightspeed, Peak XV). I need you to design a board-level operating metrics framework for a Series B vertical SaaS startup at INR 45Cr ARR, where the board has requested \"better, tighter, more honest\" metrics.\n\nPlease provide: (1) Metrics philosophy: fewer and consistent, leading and lagging balance, public definitions, no metric changes mid-year without footnote; (2) Core dashboard (12 metrics): ARR, net new ARR, NRR, GRR, logo churn, CAC, CAC payback, Magic Number, Rule of 40, Burn multiple, runway, headcount; (3) Definition document for each metric with formula, data source, owner, update frequency, known issues; (4) Cohort views: monthly cohort revenue retention waterfall, customer cohort LTV, sales rep ramp cohort; (5) Pipeline health metrics: coverage ratio (3x), stage conversion, velocity, win rate, average deal size; (6) Product-led metrics (if applicable): activation rate, weekly active accounts, feature adoption; (7) Unit economics: contribution margin per customer, gross margin trend, payback by segment; (8) Red-yellow-green thresholds per metric with escalation rules; (9) Monthly flash report (1 page) vs quarterly deep dive (15 pages); (10) Metrics governance: change log, audit, external validation by auditors annually.\n\nFormat as a CFO manual with definitions table, sample dashboard layout described in text, and a \"translation guide\" between investor terminology (ARR, NRR) and Indian accounting (revenue recognition under Ind AS 115). Constraints: Ind AS 115 revenue recognition, GST impact on reported revenue (gross vs net debate), and cross-border SaaS export (LUT, zero-rated supply). Include a 1-page investor metrics pack template.",
+      "tags": [
+        "board-metrics",
+        "saas-metrics",
+        "cfo-framework",
+        "governance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-035",
+      "title": "Scaling Customer Success Org Design",
+      "prompt": "Act as a VP Customer Success with 11 years of experience scaling CS organizations at Indian B2B SaaS companies from INR 10Cr to INR 100Cr ARR. I need you to design a scalable Customer Success organization for a Series B company currently at INR 40Cr ARR with 250 customers, planning to reach INR 100Cr ARR and 650 customers in 24 months.\n\nPlease provide: (1) Segmentation model: Enterprise (> INR 50L ACV, 15 accounts), Mid-Market (INR 10-50L, 120 accounts), SMB (< INR 10L, 515 accounts) with differentiated engagement models; (2) CS roles and coverage ratios: Enterprise CSM (1:10-12 accounts), Mid-Market CSM (1:35-45), SMB pooled CSM (1:150) + digital CS; (3) Organization structure: VP CS, 2 Directors (Enterprise/MM and SMB), 5 Team Leads, 22 CSMs, 3 CS Ops, 4 CS Engineers by end of 24 months; (4) Hiring plan with quarterly headcount and INR comp bands; (5) Operating model: QBRs for enterprise, monthly business reviews for MM, automated health scores and digital touches for SMB; (6) Tech stack: Gainsight or Planhat, Segment, Pendo, Intercom, Loom; (7) Key metrics and targets: NRR 115%, GRR 92%, time to first value 21 days, CSAT 4.5/5, expansion pipeline 30% of next year target; (8) Comp plan for CSMs: 70:30 base/variable on NRR, churn save, and expansion; (9) Career path: CSM I -> II -> Senior -> Team Lead -> Manager -> Director; (10) Change management for transition from reactive support to proactive success.\n\nFormat as an organization design document with org chart described in text, role cards, metrics framework, and a 24-month hiring roadmap. Constraints: Indian hiring market (CSM salaries INR 12-35L), 90-day notice periods, and cultural strengths in relationship management. Include a CS charter manifesto (1 page).",
+      "tags": [
+        "customer-success",
+        "org-design",
+        "scaling",
+        "cs-strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-036",
+      "title": "Zero-Based Budgeting for Opex",
+      "prompt": "Act as a Strategic Finance leader with 12 years of experience leading budgeting cycles at Indian growth-stage startups. I need you to design and execute a zero-based budgeting (ZBB) exercise for a Series B SaaS startup that needs to cut INR 4Cr from its annual INR 22Cr opex without layoffs, to extend runway from 11 to 16 months.\n\nPlease provide: (1) ZBB framework and philosophy: every rupee re-justified from zero; (2) 6-week execution timeline: prep (week 1), data collection and cost package creation (week 2-3), department challenge sessions (week 4), trade-off workshops (week 5), board approval (week 6); (3) Cost package template: category, current spend, business justification, quantified value, 3 alternatives (cut, reduce, maintain, invest), owner; (4) Categories to examine in priority order: discretionary marketing, SaaS tools (target 25% cut), contractors and consultants, travel and events, office and facilities, compensation adjustments (freeze instead of cut), R&D projects; (5) Challenge session format: 60-min per department, rank every cost item, forced prioritization with INR savings tally; (6) Trade-off rules: no sacred cows, ROI thresholds, strategic protection list (5 initiatives max); (7) Communication strategy to preserve morale: CEO memo, town hall Q&A, manager talking points; (8) Execution tracking: weekly savings dashboard, variance reports, course correction; (9) Risks and mitigations: customer impact, team morale, hiring freeze perception; (10) Post-exercise governance: monthly spend reviews, approval thresholds tightened.\n\nFormat as a complete ZBB playbook with templates, facilitator notes, and an executive summary for the board. Constraints: Indian statutory costs are hard to cut (PF, gratuity, statutory bonus), contractual lock-ins on leases and SaaS, and cultural sensitivity to cost cuts. Include a 1-page CEO announcement to the company.",
+      "tags": [
+        "zero-based-budgeting",
+        "cost-cutting",
+        "runway-extension",
+        "strategic-finance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-037",
+      "title": "Strategic Vendor Partnership RFP",
+      "prompt": "Act as a Head of Procurement with 10 years of experience running RFPs for strategic vendor partnerships at Indian enterprises and growth-stage startups. I need you to design and draft a complete RFP for selecting a strategic customer data platform (CDP) vendor for a Series C D2C company processing 2 million monthly customers and INR 180Cr annual revenue, with a 3-year contract value of INR 4-6 crore.\n\nPlease provide: (1) RFP context and business objectives; (2) Current state and pain points (fragmented data across Shopify, Razorpay, WhatsApp, Meta Ads, Google Ads, support tickets); (3) Scope of requirements organized into must-have (30), should-have (20), nice-to-have (10) across: data ingestion, identity resolution, segmentation, activation channels, privacy/consent, analytics, integrations, scalability, security; (4) Commercial model required (per MAU, per event, flat fee), with 3-year TCO template; (5) Vendor qualification criteria: years in business, India customer base, gotomarket support; (6) Evaluation scoring rubric (technical 40%, commercial 25%, vendor viability 15%, integration ease 15%, references 5%); (7) RFP timeline: issue, Q&A session, written responses (21 days), shortlist, demos, POC, reference calls, final negotiation, signature; (8) Vendor shortlist for India: Segment, mParticle, CleverTap, MoEngage, WebEngage with positioning notes; (9) POC scope and success criteria; (10) Draft SOW, MSA, and DPA clauses focused on DPDP Act 2023 compliance.\n\nFormat as a complete RFP document that can be issued directly, with appendices for requirements matrix, pricing template, and legal terms. Constraints: DPDP Act 2023 (data fiduciary obligations, consent management, cross-border transfer), GST compliance, and SLAs with INR-denominated service credits. Include a vendor pitch-back evaluation scorecard.",
+      "tags": [
+        "rfp-design",
+        "vendor-selection",
+        "strategic-procurement",
+        "cdp"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-038",
+      "title": "Scaling Hiring Engine Beyond 100 FTE",
+      "prompt": "Act as a VP Talent Acquisition with 13 years of experience scaling hiring engines at Indian startups from 50 to 500 FTE. I need you to design a scalable hiring engine for a Series B startup currently at 85 FTE planning to reach 220 FTE in 18 months (135 net hires, assuming 15% attrition means 160 gross hires).\n\nPlease provide: (1) Hiring capacity model: recruiters needed (1 per 25-35 hires annually), sourcers, coordinators, operations; (2) Team structure: Head of TA, 2 Leads (Tech and GTM), 4 Recruiters, 2 Sourcers, 2 Coordinators, 1 Employer Brand, 1 TA Ops; (3) Source of hire strategy and target mix: referrals 30%, inbound 20%, outbound 30%, agencies 15%, campus 5% with channel-specific cost per hire; (4) Tech stack: Ashby or Greenhouse ATS, Instahyre, LinkedIn Recruiter India, Cutshort, HackerEarth, Metaview or Brighthire for interview intelligence; (5) Interview panel capacity planning (5-8% of engineer time allocated); (6) Candidate experience SLAs: application response 48h, first call 5 days, full loop 14 days, offer 21 days from application; (7) Offer-to-join ratio target (85%) and drop-off mitigation; (8) Employer brand investments: LinkedIn content, Glassdoor (maintain 4.2+), engineering blog, conference presence; (9) DEI commitments: 35% women in pipeline, 25% in hires, regional diversity; (10) Hiring manager enablement: training, structured interview kits, debrief facilitation; (11) Weekly scorecard: open roles, pipeline stage, funnel conversion, time to fill, quality of hire, offer accept rate.\n\nFormat as a scale-up playbook with org chart, process maps, and a month-by-month hiring roadmap. Constraints: Indian market (90-day notice periods inflate time to fill, agency fees 8.33% of first-year CTC, buyout costs) and remote-first hiring. Include a cost-per-hire budget calculation.",
+      "tags": [
+        "hiring-engine",
+        "talent-acquisition",
+        "scaling",
+        "recruiting-operations"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-039",
+      "title": "Operational Due Diligence Response Kit",
+      "prompt": "Act as a Chief of Staff with 9 years of experience preparing Indian startups for investor due diligence during Series B and C rounds with funds like Sequoia, Lightspeed, and Tiger Global. I need you to create a comprehensive operational due diligence response kit for a Series B SaaS company (INR 38Cr ARR, 80 FTE) raising a USD 35M Series C.\n\nPlease provide: (1) Data room structure (10 top-level folders, 60 sub-folders): Corporate, Cap Table, Financials, Legal, Tax, HR, Product and Tech, Customers, Commercial, Operations; (2) Corporate documents checklist: CoI, MoA/AoA, board minutes 3 years, all rounds SHAs and SSAs, ROC filings; (3) Financials: audited financials 3 years, management accounts, bank statements, GST filings, TDS returns, Form 26AS; (4) Legal: material contracts (top 20), litigation schedule, IP register, trademark filings, open source usage (SBOM), licenses; (5) HR: org chart, headcount list with comp, ESOP pool and grants, employment contracts, PoSH policy and committee, PF/ESIC/gratuity actuarial; (6) Customer: top 25 customers with ARR, contracts, MSA deviations, churn analysis; (7) Product and tech: architecture diagrams, security audits (VAPT), SOC 2 status, uptime reports, data processing agreement with AWS; (8) Regulatory: DPDP Act compliance memo, GST audits, MSME registration, Shop and Establishment Act; (9) Due diligence Q&A log format; (10) DD response SLA and owner matrix.\n\nFormat as a complete DD readiness playbook with folder structure, document checklist, and a 4-week preparation timeline before investor DD kickoff. Constraints: Indian regulatory environment (RBI FEMA for cross-border investments, SEBI AIF norms if applicable, Companies Act 2013 compliance), tax implications of share premium, and DPDP Act data transfer rules. Include a kickoff email template to all department heads.",
+      "tags": [
+        "due-diligence",
+        "fundraising",
+        "data-room",
+        "investor-readiness"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    },
+    {
+      "id": "startup-founders-operations-040",
+      "title": "International Expansion Operations Playbook",
+      "prompt": "Act as a Head of International with 14 years of experience expanding Indian SaaS and D2C startups to US, UK, Middle East, and Southeast Asia markets. I need you to create an operational expansion playbook for an Indian B2B SaaS company (INR 55Cr ARR, 110 FTE) planning to enter the Middle East (UAE, Saudi Arabia) and Southeast Asia (Singapore, Indonesia) over 12 months with a USD 5M international go-to-market budget.\n\nPlease provide: (1) Market prioritization framework: TAM, competitive density, regulatory friction, language, buying behavior, payment infrastructure, with a scored shortlist; (2) Entry modes per market: direct sales from India, local rep via EOR (Deel, Remote.com), subsidiary (LLC in Dubai, Pte Ltd in Singapore, PT PMA in Indonesia), channel partner; (3) Legal setup playbook per market: entity, VAT/GST registrations (UAE VAT 5%, Singapore GST 9%, Saudi VAT 15%), data residency obligations, employment law basics; (4) Financial operations: multi-currency banking (HSBC, Standard Chartered), FX hedging policy, transfer pricing between India parent and foreign subs, RBI ODI compliance, Form FC-GPR; (5) Hiring plan per market: first hire (typically sales lead), comp benchmarks in USD and local currency, relocation from India vs local hire decision framework; (6) Product localization: currency, payment methods (Stripe, Tap, Xendit), language (Arabic RTL, Bahasa), compliance (UAE PDPL, Singapore PDPA, Indonesia PDP Law); (7) Sales playbook per market: ICP, pricing, discount norms, contract length, payment terms (Net 60 common in ME); (8) Marketing approach: local events, content localization, partner marketing; (9) Operating model: regional HQ, reporting lines, weekly cadence across time zones; (10) 90-day, 6-month, 12-month KPIs per market and go/no-go gates.\n\nFormat as a strategic playbook with market fact sheets, phased roadmap, and budget allocation in USD. Constraints: RBI FEMA regulations for Indian parent investing abroad (ODI route), transfer pricing documentation (Form 3CEB), DTAA benefits, and cultural selling nuances (relationship-heavy in ME, consensus-driven in SG, price-sensitive in ID). Include a go/no-go decision framework for quarter 2.",
+      "tags": [
+        "international-expansion",
+        "global-operations",
+        "market-entry",
+        "cross-border"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "operations"
+    }
+  ]
+}

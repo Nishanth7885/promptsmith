@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "developers-devops-cloud-001",
+      "title": "GitHub Actions CI/CD Pipeline for Node.js on AWS Mumbai",
+      "prompt": "Act as a senior DevOps engineer with 8 years experience deploying Node.js applications for Indian fintech startups. I need you to write a complete GitHub Actions workflow file (.github/workflows/deploy.yml) for a Node.js 20 Express API that deploys to AWS ECS Fargate in the ap-south-1 (Mumbai) region. Here is the context: the team is a 12-person startup in Bengaluru handling ~50K requests/day, using ECR for images and storing secrets in AWS Secrets Manager. DPDP 2023 compliance requires that all build artifacts stay within Indian regions. Please provide: (1) Trigger configuration for push to main and PR to main, (2) Jobs for lint, test (Jest), Docker build with multi-stage caching, ECR push with OIDC authentication (no long-lived keys), and ECS service update, (3) Environment-specific deploys for staging and production with manual approval gates, (4) Slack notification on failure to #devops-alerts with IST timestamp, (5) Explanation of each step in comments. Format the output as a single YAML file with properly escaped inner quotes (use \\\" where needed), followed by a short setup checklist covering IAM role trust policy and GitHub repo secrets. Consider these constraints: keep total pipeline runtime under 8 minutes, use ubuntu-latest runners, and avoid any region outside ap-south-1 for data residency.",
+      "tags": [
+        "github-actions",
+        "ci-cd",
+        "aws",
+        "ecs",
+        "nodejs"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": true,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-002",
+      "title": "Terraform Module for AWS VPC in ap-south-1",
+      "prompt": "Act as a cloud infrastructure engineer with 7 years experience building Terraform modules for Indian SaaS companies. I need you to write a reusable Terraform module that provisions a production-ready VPC in the ap-south-1 (Mumbai) region. Here is the context: a Pune-based B2B SaaS company with ~200 employees is migrating from a monolith on EC2 to a microservices setup on EKS. They need a clean network baseline that their 4-person platform team can reuse across dev, staging and prod workspaces. Please provide: (1) variables.tf with sensible defaults (CIDR 10.0.0.0/16, 3 AZs: ap-south-1a, ap-south-1b, ap-south-1c), (2) main.tf defining VPC, public/private/database subnets across all 3 AZs, NAT gateways (one per AZ for prod, single for dev to save INR), internet gateway, route tables, (3) outputs.tf exposing subnet IDs and VPC ID, (4) A usage example block showing how to call the module, (5) Brief cost estimate in INR per month at current AWS Mumbai pricing (assume 1 USD = 83 INR). Format output as separate .tf files with clear headers, using \\\" for inner double quotes inside HCL strings where needed. Consider these constraints: tag every resource with Environment, Owner, CostCenter; enable VPC flow logs to CloudWatch; follow AWS Well-Architected and DPDP 2023 data residency.",
+      "tags": [
+        "terraform",
+        "aws",
+        "vpc",
+        "infrastructure-as-code",
+        "mumbai-region"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": true,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-003",
+      "title": "Dockerfile for Python Django App with Multi-Stage Build",
+      "prompt": "Act as a DevOps engineer with 6 years experience containerising Python applications for Indian e-commerce companies. I need you to write an optimised multi-stage Dockerfile for a Django 5 application using Gunicorn. Here is the context: a Gurugram-based D2C brand runs a Django monolith serving ~1 lakh daily users, currently using a bloated 1.2GB image that slows down their GitLab CI pipeline. Target is under 250MB final image. Please provide: (1) Stage 1 builder using python:3.12-slim installing poetry and dependencies, (2) Stage 2 runtime with non-root user, only runtime deps, collectstatic baked in, (3) HEALTHCHECK instruction hitting /health/ endpoint, (4) Proper signal handling via tini or dumb-init for graceful shutdown, (5) .dockerignore contents to exclude .git, __pycache__, tests, docs. Also include a short explanation of each optimisation decision and the expected final image size. Format the output as a Dockerfile followed by a .dockerignore file, with all inner quotes properly escaped. Consider these constraints: must run as UID 1000 non-root, must not bake any secrets into layers, should work on AWS ECR in ap-south-1, and image should be pullable by an EKS cluster in Mumbai within 30 seconds on a 1 Gbps link.",
+      "tags": [
+        "docker",
+        "python",
+        "django",
+        "multi-stage-build",
+        "containerization"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-004",
+      "title": "Kubernetes Deployment and Service Manifest for Spring Boot",
+      "prompt": "Act as a Kubernetes engineer with 5 years experience running workloads on EKS and GKE for Indian banking clients. I need you to write complete Kubernetes YAML manifests for a Spring Boot 3 microservice. Here is the context: an RBI-regulated NBFC in Mumbai is deploying a loan-origination microservice to their EKS cluster in ap-south-1. Expected load is 500 RPS peak during 10 AM to 6 PM IST, JVM heap tuned to 1.5 GB. Please provide: (1) Deployment manifest with 3 replicas, rolling update strategy (maxSurge 1, maxUnavailable 0), resource requests 1 CPU / 2 Gi memory and limits 2 CPU / 2.5 Gi, (2) readinessProbe and livenessProbe hitting /actuator/health/readiness and /actuator/health/liveness, (3) Service of type ClusterIP exposing port 8080, (4) HorizontalPodAutoscaler scaling from 3 to 12 pods at 70% CPU, (5) PodDisruptionBudget ensuring minAvailable 2. Format the output as a single YAML file with --- separators, escaping inner quotes as \\\" where required. Consider these constraints: RBI guidelines require workloads stay in Indian regions, all images must come from a private ECR registry, and the team uses Argo CD for GitOps so manifests must be declarative and idempotent.",
+      "tags": [
+        "kubernetes",
+        "spring-boot",
+        "eks",
+        "hpa",
+        "argo-cd"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-005",
+      "title": "Prometheus Alerting Rules for API Latency and Errors",
+      "prompt": "Act as an SRE with 6 years experience running Prometheus at Indian unicorns like PhonePe-scale payment platforms. I need you to write a prometheus-rules.yaml file containing alerting rules for a payments API. Here is the context: a Bengaluru-based payments company runs ~2000 RPS across 40 microservices on EKS, with Prometheus scraping every 15 seconds and Alertmanager routing to PagerDuty. The SRE team wants actionable, non-noisy alerts mapped to P0/P1/P2 severities. Please provide: (1) High error rate alert (HTTP 5xx > 1% over 5m) as P1, (2) Critical error rate (> 5% over 2m) as P0 paging on-call, (3) Latency SLO burn-rate alert on p99 > 800 ms over 10 minutes as P1, (4) Pod restart alert (> 3 restarts in 15m) as P2, (5) Node memory pressure > 85% as P2. Each rule must include for:, labels (severity, team: payments, region: ap-south-1), and an annotation with summary, description, and a runbook_url pointing to Confluence. Format as valid Prometheus YAML with all inner quotes escaped as \\\". Consider these constraints: all timestamps in IST in runbook links, alerts must be tuneable per-service via labels, and avoid alert fatigue by using for: durations appropriately.",
+      "tags": [
+        "prometheus",
+        "alerting",
+        "sre",
+        "monitoring",
+        "pagerduty"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-006",
+      "title": "Grafana Dashboard JSON for Microservice Golden Signals",
+      "prompt": "Act as an observability engineer with 5 years experience building Grafana dashboards for Indian SRE teams at scale. I need you to describe, in structured form, a Grafana dashboard JSON for the four golden signals of a microservice. Here is the context: a Chennai-based logistics SaaS runs 25 Go microservices on GKE Mumbai, scraped by Prometheus, and wants a standard dashboard template every team can clone. Please provide: (1) Dashboard title, tags, and variables for namespace, service, and environment, (2) Row 1 Latency: p50/p95/p99 time series, (3) Row 2 Traffic: RPS by status code, (4) Row 3 Errors: 4xx and 5xx rate percentage, (5) Row 4 Saturation: CPU and memory utilisation vs requests/limits. For each panel give the PromQL query, visualisation type, unit, and thresholds. Format the output as a JSON skeleton with panels array plus a human-readable description of each panel; escape all inner quotes inside queries as \\\". Consider these constraints: dashboard must work with kube-prometheus-stack labels, timezone set to Asia/Kolkata, default time range last 1 hour, and annotations wired to a Loki datasource for logs correlation.",
+      "tags": [
+        "grafana",
+        "observability",
+        "promql",
+        "golden-signals",
+        "dashboards"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-007",
+      "title": "P1 Incident Response Runbook Template with IST Timestamps",
+      "prompt": "Act as an incident commander with 10 years experience handling P0/P1 incidents at Indian unicorns. I need you to write a reusable P1 incident response runbook template for a SaaS platform. Here is the context: a Bengaluru-based B2B SaaS with ~300 engineers follows an on-call rotation using PagerDuty, with primary in IST and secondary in US-Pacific. They want a single Confluence-ready template every team can adopt. Please provide: (1) Incident metadata block (ID, severity, service, start time IST, commander, scribe), (2) Timeline section with example entries at 14:32 IST, 14:38 IST, etc., (3) Communication protocol (internal Slack #inc-<id>, status page, customer email cadence every 30 minutes), (4) Diagnostic checklist (dashboards, recent deploys, feature flags, dependencies), (5) Mitigation decision tree (rollback, scale-up, failover, circuit-break), (6) Post-incident steps (declare mitigated, schedule blameless postmortem within 3 business days, RCA template link). Format as a markdown runbook with headings, checklists, and placeholder variables in curly braces. Consider these constraints: all timestamps must be in IST, DPDP 2023 requires customer notification within 72 hours for personal data breaches, and the template must work for both infra and application incidents.",
+      "tags": [
+        "incident-response",
+        "runbook",
+        "sre",
+        "pagerduty",
+        "on-call"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-008",
+      "title": "AWS Cost Optimization Report in INR for Startup",
+      "prompt": "Act as a FinOps practitioner with 6 years experience optimising AWS spend for Indian startups. I need you to produce a cost optimisation analysis report for an early-stage company. Here is the context: a Series A fintech in Mumbai is spending USD 8,400 per month (~INR 6.97 lakh) on AWS ap-south-1, with ~55% on EC2, 20% on RDS, 10% on S3, 8% on data transfer, and 7% on others. They have no Savings Plans, 40 unused EBS volumes, 12 idle load balancers, and dev environments running 24x7. Please provide: (1) Top 10 optimisation actions ranked by monthly INR savings, (2) For each action: estimated savings in INR, risk level (low/medium/high), effort (hours), and owner, (3) Recommended 1-year Compute Savings Plan commitment with break-even analysis, (4) Tagging and chargeback strategy to make teams accountable, (5) Quick wins achievable within 1 week vs 30 days vs 90 days. Format the output as a markdown report with a summary table at the top, then detailed sections. Consider these constraints: convert all figures at 1 USD = 83 INR, respect DPDP 2023 data residency (no moving workloads out of ap-south-1), and assume the team is 3 engineers so recommendations must be realistic in effort.",
+      "tags": [
+        "cost-optimization",
+        "finops",
+        "aws",
+        "savings-plan",
+        "inr"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-009",
+      "title": "GitLab CI Pipeline for Monorepo with Changed-Path Detection",
+      "prompt": "Act as a CI/CD engineer with 7 years experience maintaining GitLab pipelines for Indian enterprises. I need you to write a .gitlab-ci.yml for a monorepo with 5 services. Here is the context: a Hyderabad-based product company has a monorepo with services api-gateway, user-service, billing-service, notification-service, and admin-ui. They want to only build and deploy services whose files changed in the MR. Please provide: (1) Top-level stages: detect, lint, test, build, deploy, (2) A detect job using rules:changes to set dynamic variables per service, (3) Parallel matrix jobs for lint and test scoped to changed services, (4) Build job that pushes Docker images to a self-hosted GitLab container registry with commit SHA tag, (5) Deploy job targeting a Kubernetes cluster in ap-south-1 via kubectl with a manual gate for production. Format the output as a single YAML file with comments, escaping inner quotes as \\\" where needed. Consider these constraints: runners are self-hosted on AWS Mumbai to keep data in India, total pipeline should complete in under 12 minutes for a single-service change, and cache node_modules and pip between runs to reduce costs.",
+      "tags": [
+        "gitlab-ci",
+        "monorepo",
+        "ci-cd",
+        "kubernetes",
+        "docker"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-010",
+      "title": "Jenkinsfile Declarative Pipeline for Java Maven Build",
+      "prompt": "Act as a Jenkins expert with 9 years experience supporting CI pipelines in large Indian banks and enterprises. I need you to write a declarative Jenkinsfile for a Java 17 Maven project. Here is the context: a public sector bank IT team in Pune still uses Jenkins 2.426 LTS on-prem, integrated with a private Nexus repository and SonarQube. They are modernising one microservice while keeping Jenkins as the CI tool due to audit requirements. Please provide: (1) Agent block targeting a label maven-jdk17, (2) Stages: Checkout, Build, Unit Test, SonarQube analysis with quality gate, Package, Publish to Nexus, Notify, (3) Environment variables loaded from Jenkins credentials (no hardcoded secrets), (4) post { always, success, failure } blocks with email-ext notifications to the release team, (5) timeout(60) and timestamps wrapper for IST-aware logs. Format the output as a single Jenkinsfile, escaping inner quotes as \\\" inside shell steps where needed. Consider these constraints: pipeline must be parameterised with BRANCH_NAME and DEPLOY_ENV, must fail fast on SonarQube gate, and must work in an air-gapped environment where only internal Nexus and SCM are reachable.",
+      "tags": [
+        "jenkins",
+        "ci-cd",
+        "java",
+        "maven",
+        "sonarqube"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-011",
+      "title": "Docker Compose for Local Development with Postgres and Redis",
+      "prompt": "Act as a developer experience engineer with 5 years experience at Indian product companies. I need you to write a docker-compose.yml for local development of a Node.js API. Here is the context: a 20-person startup in Bengaluru wants every new engineer to get a working local stack within 10 minutes of joining. The stack is Node 20 API, Postgres 16, Redis 7, MailHog for email testing, and pgAdmin. Please provide: (1) Services block with proper depends_on, healthchecks, and restart policies, (2) Volumes for Postgres and Redis persistence, (3) Named network for inter-service DNS, (4) Environment variables loaded from a .env file with sane defaults, (5) A short README section explaining how to run docker compose up, seed the DB, and access each UI. Format the output as a single docker-compose.yml using Compose spec v3.8, followed by a .env.example file. Escape inner quotes as \\\" where needed. Consider these constraints: must work on Windows 11, macOS, and Ubuntu for the team; no ARM/AMD image conflicts since the team uses a mix of M-series Macs and Windows laptops; and must not conflict with commonly-used ports (avoid 80, 443, 5432 default).",
+      "tags": [
+        "docker-compose",
+        "local-development",
+        "postgres",
+        "redis",
+        "nodejs"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-012",
+      "title": "Terraform for GCP Cloud Run Service in Mumbai",
+      "prompt": "Act as a GCP-certified cloud engineer with 6 years experience deploying serverless workloads for Indian SaaS. I need you to write Terraform HCL to deploy a container to Google Cloud Run in the asia-south1 (Mumbai) region. Here is the context: a Noida-based HRTech startup wants to run a stateless Python FastAPI service on Cloud Run, connected to a Cloud SQL Postgres instance, with traffic split for canary deploys. Please provide: (1) google_cloud_run_v2_service resource with container image from Artifact Registry, (2) min_instance_count 1, max_instance_count 20, CPU 1, memory 512Mi, (3) Cloud SQL connection via serverless VPC connector, (4) IAM binding allowing only authenticated invokers plus a service account for the app, (5) google_cloud_run_v2_service_iam_binding plus a traffic block for 90/10 canary. Format the output as clean HCL in main.tf, variables.tf, and outputs.tf, with all inner quotes escaped as \\\" where needed. Consider these constraints: DPDP 2023 requires data residency so the Cloud SQL instance must also be in asia-south1, and include an estimated monthly INR cost at 1 USD = 83 INR assuming 10 million requests per month.",
+      "tags": [
+        "terraform",
+        "gcp",
+        "cloud-run",
+        "serverless",
+        "fastapi"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-013",
+      "title": "Azure DevOps Pipeline YAML for .NET Core to AKS",
+      "prompt": "Act as an Azure specialist with 7 years experience delivering .NET workloads for Indian enterprises on Azure Central India and South India. I need you to write an azure-pipelines.yml for a .NET 8 Web API deploying to AKS. Here is the context: a Mumbai-based insurance company is moving a C# microservice from an on-prem IIS server to AKS in Central India, governed by IRDAI guidelines for data residency. Please provide: (1) Trigger on main branch and PR, (2) Variables group for ACR, AKS cluster, and Key Vault references, (3) Stages: Build (dotnet restore, build, test, publish), Containerize (docker build + ACR push), Deploy (kubectl apply with image tag substitution), (4) Service connections using workload identity (no SP secrets), (5) Approval gate before production deployment. Format the output as a single YAML file with comments, escaping inner quotes as \\\" where needed. Consider these constraints: IRDAI requires audit trails so enable pipeline retention 365 days, all pipeline agents must run in Central India, secrets must come from Azure Key Vault only, and the pipeline should complete in under 15 minutes for a single-service change.",
+      "tags": [
+        "azure-devops",
+        "aks",
+        "dotnet",
+        "ci-cd",
+        "central-india"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-014",
+      "title": "Basic Shell Script for EC2 Instance Log Rotation",
+      "prompt": "Act as a Linux sysadmin with 8 years experience supporting EC2 fleets for Indian hosting companies. I need you to write a bash script that performs log rotation and cleanup on an Ubuntu 22.04 EC2 instance. Here is the context: a Chennai-based media streaming startup runs 30 EC2 instances in ap-south-1 that generate nginx and application logs at ~2 GB per day per instance. Disks are filling up and they cannot yet adopt CloudWatch agent due to budget. Please provide: (1) Script that finds *.log files older than 7 days under /var/log/myapp and gzips them, (2) Deletes gzipped logs older than 30 days, (3) Truncates active nginx access log if it exceeds 1 GB using copytruncate-style safe method, (4) Writes a summary line with timestamp in IST to /var/log/log-cleanup.log, (5) Cron entry to run daily at 02:30 IST. Format the output as a single bash script with set -euo pipefail, plus the crontab line. Escape inner quotes as \\\" where needed. Consider these constraints: script must be idempotent, must not delete anything outside /var/log/myapp, must exit non-zero on errors so a monitoring alert can catch failures, and must use /usr/bin/env bash for portability.",
+      "tags": [
+        "bash",
+        "linux",
+        "log-rotation",
+        "ec2",
+        "cron"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-015",
+      "title": "Explain Blue-Green vs Canary Deploys with Examples",
+      "prompt": "Act as a DevOps mentor with 10 years experience coaching engineers at Indian product companies. I need you to produce a concise learning document explaining blue-green vs canary deployment strategies. Here is the context: a Bengaluru startup is onboarding 8 junior DevOps engineers who have only done in-place deploys. The tech lead wants a reference doc with concrete AWS and Kubernetes examples they can share in an internal workshop. Please provide: (1) Clear definitions of blue-green and canary deploys, (2) Side-by-side comparison table (rollback speed, cost, complexity, risk, observability needs), (3) When to use each pattern with 3 Indian-context examples (payments service, content CMS, admin dashboard), (4) AWS example using ALB weighted target groups for canary, (5) Kubernetes example using Argo Rollouts for canary, (6) Common pitfalls and how to avoid them. Format the output as a markdown tutorial of ~800 words with code snippets, escaping inner quotes as \\\" inside YAML/JSON examples. Consider these constraints: examples should fit a typical Indian SaaS spending INR 5-10 lakh per month on cloud, avoid jargon without definition, and link each concept to an observable metric like error rate or p99 latency.",
+      "tags": [
+        "deployment-strategies",
+        "blue-green",
+        "canary",
+        "argo-rollouts",
+        "learning"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-016",
+      "title": "AWS S3 Bucket Terraform with Encryption and Lifecycle",
+      "prompt": "Act as a cloud security engineer with 6 years experience hardening AWS accounts for Indian banks. I need you to write Terraform for an S3 bucket that stores KYC document scans. Here is the context: an RBI-regulated payments bank in Mumbai needs to store Aadhaar-masked KYC PDFs in ap-south-1 with strict compliance. Please provide: (1) aws_s3_bucket resource with proper naming convention (company-env-kyc-docs), (2) Bucket versioning enabled, (3) Server-side encryption using aws_kms_key with customer-managed key and key rotation enabled, (4) Public access block (all four settings true), (5) Lifecycle rule: transition to Standard-IA after 90 days, Glacier after 365 days, expire after 7 years (RBI retention), (6) Bucket policy denying non-TLS access and denying uploads without SSE-KMS headers, (7) Access logging to a separate log bucket. Format as HCL in a single main.tf file, escaping inner quotes as \\\" inside policy JSON heredocs. Consider these constraints: DPDP 2023 and RBI master directions require Indian data residency, all tags must include DataClassification=PII and CostCenter, and the bucket must be importable into Terraform state without downtime.",
+      "tags": [
+        "terraform",
+        "s3",
+        "security",
+        "kms",
+        "rbi-compliance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-017",
+      "title": "Argo CD ApplicationSet for Multi-Environment GitOps",
+      "prompt": "Act as a GitOps specialist with 6 years experience running Argo CD at scale for Indian product companies. I need you to write an Argo CD ApplicationSet manifest that manages the same microservice across dev, staging, and prod environments. Here is the context: a Gurugram-based quick-commerce company runs 3 EKS clusters in ap-south-1 (one per env) and wants a single source of truth for their inventory-service repo. They use Helm charts with environment-specific values files. Please provide: (1) ApplicationSet using a list generator for dev, staging, prod with per-env parameters (cluster URL, namespace, values file, image tag source), (2) Helm source pointing to a Git repo path charts/inventory-service, (3) Sync policy: automated with prune and self-heal for dev, manual approval for prod via syncPolicy overrides, (4) Ignore differences on replica counts to avoid fighting HPA, (5) Notifications config for Slack #deploys on sync failure. Format the output as a single YAML manifest, escaping inner quotes as \\\" where needed. Consider these constraints: Argo CD runs in a management cluster in ap-south-1, SSO via Okta, RBAC restricts prod syncs to the SRE team, and the manifest must be compatible with Argo CD 2.11+.",
+      "tags": [
+        "argo-cd",
+        "gitops",
+        "applicationset",
+        "helm",
+        "kubernetes"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-018",
+      "title": "Terraform EKS Cluster with IRSA and Managed Node Groups",
+      "prompt": "Act as a Kubernetes platform engineer with 7 years experience running EKS for Indian fintechs. I need you to write a Terraform configuration that provisions a production EKS cluster. Here is the context: a Mumbai-based wealth management startup needs an EKS cluster in ap-south-1 for running 30 Go microservices with ~1500 RPS peak. Please provide: (1) aws_eks_cluster resource with Kubernetes 1.30, private endpoint access, public disabled for prod, (2) Two managed node groups: general (t3.large, min 3, max 10) and spot (m5.large spot, min 0, max 20) with proper taints/labels, (3) IRSA configured with aws_iam_openid_connect_provider, (4) Example IRSA role for an external-dns service account assuming a role with Route53 permissions, (5) aws-auth ConfigMap managed via terraform-aws-modules/eks/aws, (6) CloudWatch logging enabled for api, audit, authenticator. Format as HCL split across main.tf, variables.tf, outputs.tf, escaping inner quotes as \\\" inside policy heredocs. Consider these constraints: DPDP 2023 and SEBI guidelines require workloads stay in ap-south-1, estimated monthly cost must be included in INR at 1 USD = 83 INR, and the config must support terraform plan runs from a GitHub Actions workflow using OIDC.",
+      "tags": [
+        "terraform",
+        "eks",
+        "irsa",
+        "kubernetes",
+        "aws"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-019",
+      "title": "Datadog Monitor as Code for SLO Burn Rate",
+      "prompt": "Act as an observability engineer with 6 years experience running Datadog for Indian SaaS at scale. I need you to write Terraform using the Datadog provider to create multi-window multi-burn-rate SLO alerts. Here is the context: a Pune-based B2B SaaS has an API with a 99.9% availability SLO over a 30-day rolling window. They use Datadog APM with Kubernetes integration. Please provide: (1) datadog_service_level_objective resource for availability target 99.9%, (2) Two datadog_monitor resources: fast burn (1-hour window, 14.4x burn rate, page P1) and slow burn (6-hour window, 6x burn rate, ticket P2), (3) Monitor messages with runbook links, IST-formatted timestamps, and PagerDuty routing tags, (4) Tags for team, service, env, region:ap-south-1, (5) A second SLO for p99 latency under 500 ms with matching burn-rate monitors. Format the output as HCL in monitors.tf with clear comments, escaping inner quotes as \\\" in message heredocs. Consider these constraints: must follow Google SRE book multi-window multi-burn-rate methodology, avoid flapping by using proper evaluation windows, and keep Datadog custom metric cost under INR 50,000 per month by reusing existing APM metrics.",
+      "tags": [
+        "datadog",
+        "slo",
+        "terraform",
+        "burn-rate",
+        "observability"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-020",
+      "title": "Kubernetes NetworkPolicy for Zero-Trust Microservices",
+      "prompt": "Act as a Kubernetes security engineer with 6 years experience implementing zero-trust networking for Indian banking workloads. I need you to write a set of Kubernetes NetworkPolicy manifests enforcing strict east-west controls. Here is the context: an RBI-regulated neobank in Bengaluru runs a payments platform on EKS with namespaces frontend, api, workers, and data. They want default-deny in all namespaces and explicit allow rules. Please provide: (1) Default-deny NetworkPolicy for all four namespaces, (2) Allow frontend to talk to api on port 8080 only, (3) Allow api to talk to workers on port 9090 and to data on Postgres 5432 and Redis 6379, (4) Allow DNS egress to kube-system kube-dns for all pods, (5) Deny all egress to the internet from data namespace (it should only talk internally), (6) Labels and selectors assuming pods are labeled with app and tier. Format the output as a single YAML file with --- separators, escaping inner quotes as \\\" where needed. Consider these constraints: cluster uses Calico CNI with NetworkPolicy enforcement, RBI guidelines require documented segmentation, and policies must be testable with a short kubectl exec curl matrix included as comments.",
+      "tags": [
+        "kubernetes",
+        "network-policy",
+        "zero-trust",
+        "security",
+        "calico"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-021",
+      "title": "PagerDuty Escalation Policy and Schedule as Code",
+      "prompt": "Act as an SRE lead with 8 years experience managing on-call for Indian engineering teams. I need you to write Terraform using the PagerDuty provider to configure schedules and escalation policies for a 15-person SRE team. Here is the context: a Hyderabad-based SaaS company has SREs split across IST primary and US-Pacific secondary, wanting follow-the-sun coverage with 24x7 paging. Please provide: (1) pagerduty_schedule resource for IST primary (weekly rotation, 09:00-21:00 IST), (2) pagerduty_schedule for IST secondary (21:00-09:00 IST), (3) pagerduty_schedule for US-Pacific backup, (4) pagerduty_escalation_policy with three levels: IST primary, IST secondary, US-Pacific, each with 15-minute escalation delay, (5) pagerduty_service linked to the escalation policy with auto-resolution after 4 hours, (6) Integration with Prometheus Alertmanager via events_api_v2. Format the output as HCL in pagerduty.tf with clear comments, escaping inner quotes as \\\" where needed. Consider these constraints: rosters must respect Indian public holidays (Diwali, Holi, Independence Day, Republic Day) with auto-handoff, the module must be reusable per team via variables, and include estimated PagerDuty cost per user per month in INR.",
+      "tags": [
+        "pagerduty",
+        "on-call",
+        "terraform",
+        "escalation",
+        "sre"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-022",
+      "title": "Helm Chart for Multi-Tenant SaaS Microservice",
+      "prompt": "Act as a Helm chart maintainer with 6 years experience packaging microservices for Indian SaaS companies. I need you to write a complete Helm chart for a multi-tenant Node.js microservice. Here is the context: a Bengaluru-based CRM SaaS serves 200 Indian SMB tenants on a shared EKS cluster in ap-south-1, wanting one chart instance per tenant via Argo CD ApplicationSet. Please provide: (1) Chart.yaml with apiVersion v2 and semantic version, (2) values.yaml with sensible defaults for image, replicas, resources, ingress, env vars, HPA, (3) templates/deployment.yaml with proper labels, selectors, probes, envFrom secret, (4) templates/service.yaml, templates/ingress.yaml with per-tenant host, (5) templates/hpa.yaml and templates/pdb.yaml, (6) templates/_helpers.tpl with tenant-aware naming helpers, (7) values-tenant-example.yaml for a sample tenant override. Format the output as a file tree listing followed by each file's contents, escaping inner quotes as \\\" inside YAML where needed. Consider these constraints: chart must pass helm lint and helm template validation, support Kubernetes 1.29+, and encode DPDP 2023 tenant data isolation by generating a unique namespace label per tenant.",
+      "tags": [
+        "helm",
+        "kubernetes",
+        "multi-tenant",
+        "saas",
+        "ingress"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-023",
+      "title": "AWS Lambda with Terraform for Event-Driven Processing",
+      "prompt": "Act as a serverless architect with 6 years experience designing event-driven systems for Indian e-commerce. I need you to write Terraform to provision an event-driven pipeline for order processing. Here is the context: a D2C brand in Jaipur wants to process ~50,000 Shopify orders per day in ap-south-1 via SQS and Lambda, with DLQ and CloudWatch alarms. Please provide: (1) aws_sqs_queue main queue and dead-letter queue with redrive policy (maxReceiveCount 3), (2) aws_lambda_function Node.js 20 with 512 MB memory, 30s timeout, reserved concurrency 10, (3) Event source mapping from SQS to Lambda with batch size 5 and max batching window 5 seconds, (4) IAM role with least-privilege policy for SQS, DynamoDB write, and CloudWatch Logs, (5) CloudWatch alarms for DLQ depth > 0 and Lambda error rate > 2%, (6) X-Ray tracing enabled. Format the output as HCL in main.tf and variables.tf, escaping inner quotes as \\\" inside policy JSON. Consider these constraints: all resources in ap-south-1 for DPDP compliance, estimated monthly cost in INR at 1 USD = 83 INR assuming 50K daily events, and include a short note on cold-start mitigation options.",
+      "tags": [
+        "aws",
+        "lambda",
+        "sqs",
+        "terraform",
+        "serverless"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-024",
+      "title": "Post-Incident RCA Document for Database Outage",
+      "prompt": "Act as a principal SRE with 10 years experience writing blameless postmortems for Indian product companies. I need you to draft a full RCA document for a database outage incident. Here is the context: a Bengaluru-based B2B SaaS had a 47-minute P0 outage on 12 March 2026 from 11:23 IST to 12:10 IST when their primary RDS Postgres ran out of connections due to a misconfigured PgBouncer pool_size, affecting 18,000 customers and causing ~INR 42 lakh in SLA credits. Please provide: (1) Executive summary (3 sentences), (2) Incident timeline with IST timestamps, (3) Impact analysis (users affected, revenue, SLA), (4) Root cause analysis using 5 Whys, (5) Contributing factors (monitoring gaps, review process), (6) Action items categorised as detect/respond/prevent with owners and due dates, (7) Lessons learned in blameless language. Format as a markdown postmortem document following Google SRE book structure. Consider these constraints: avoid blaming individuals, include concrete metrics (p99 latency during incident, error rate graph description), link action items to Jira tickets formatted as PROJ-1234, and ensure the document can be shared with the customer success team for external comms.",
+      "tags": [
+        "rca",
+        "postmortem",
+        "incident-response",
+        "blameless",
+        "sre"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-025",
+      "title": "GCP Cost Optimization Deep Dive with BigQuery Billing Export",
+      "prompt": "Act as a FinOps analyst with 6 years experience optimising GCP spend for Indian enterprises. I need you to generate a SQL-based analysis plan using GCP billing export in BigQuery. Here is the context: a Mumbai-based edtech spending INR 18 lakh per month on GCP (asia-south1) wants a repeatable monthly cost review, with top offenders being GKE, BigQuery, and Cloud Storage. Please provide: (1) Five BigQuery SQL queries against the billing export table (service breakdown, top SKUs by cost, daily trend, untagged resources, committed-use discount coverage), (2) For each query: what it answers, how to interpret results, and expected cost-saving actions, (3) A ranked list of top 10 optimisation actions with INR savings estimate and effort, (4) Recommendation on 1-year vs 3-year CUDs for N2 and T4 GPU usage, (5) Template for a monthly FinOps review meeting agenda. Format the output as a markdown document with SQL code blocks, escaping inner quotes as \\\" inside SQL string literals. Consider these constraints: all INR conversions at 1 USD = 83 INR, data residency in asia-south1 must not be compromised, and recommendations must be realistic for a 4-person platform team.",
+      "tags": [
+        "gcp",
+        "cost-optimization",
+        "bigquery",
+        "finops",
+        "cuds"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-026",
+      "title": "Prometheus Recording Rules and Federation for Large Clusters",
+      "prompt": "Act as a Prometheus expert with 7 years experience running observability at Indian unicorn scale. I need you to design recording rules and a federation topology for a large environment. Here is the context: a Bengaluru-based quick-commerce company runs 8 EKS clusters in ap-south-1 with ~4000 pods total, and a single Prometheus is struggling with memory pressure. Please provide: (1) Architecture of a hierarchical federation: per-cluster Prometheus plus a global aggregator, (2) A prometheus-rules.yaml file with 8 recording rules for pre-aggregated metrics (job:http_requests:rate5m, pod:cpu:usage, namespace:memory:working_set, etc.), (3) Federation scrape config on the global aggregator pulling only aggregated metrics via match[] selectors, (4) Retention strategy: 15 days local, 13 months in Thanos on S3 ap-south-1, (5) Sizing recommendations for each layer (CPU, memory, disk) with INR cost estimate. Format the output as a mix of YAML configs and a short architecture description, escaping inner quotes as \\\" inside queries. Consider these constraints: DPDP 2023 data residency for metrics (all storage in ap-south-1), must not break existing Grafana dashboards, and total monthly infra cost should stay under INR 3 lakh.",
+      "tags": [
+        "prometheus",
+        "federation",
+        "recording-rules",
+        "thanos",
+        "scale"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-027",
+      "title": "Vault Dynamic Database Credentials for Postgres",
+      "prompt": "Act as a secrets management engineer with 6 years experience running HashiCorp Vault for Indian banks. I need you to configure Vault to issue dynamic Postgres credentials to applications. Here is the context: an RBI-regulated lending platform in Mumbai wants to eliminate static DB passwords from their application config, using Vault with Kubernetes auth on EKS. Please provide: (1) Vault CLI commands to enable the database secrets engine, (2) Configuration of a Postgres connection with an admin role (rotated quarterly), (3) A Vault role named app-readwrite that creates a 1-hour TTL credential with SELECT/INSERT/UPDATE on specific schemas, (4) Kubernetes auth method config binding a service account app-sa in namespace lending to the role, (5) Example Vault Agent Injector annotations on a Deployment manifest pulling the credentials as a file, (6) Rotation and audit considerations for RBI compliance. Format the output as a mix of shell commands and YAML snippets with clear comments, escaping inner quotes as \\\" where needed. Consider these constraints: Vault runs in a management EKS cluster in ap-south-1, audit logs must go to an Indian-region S3 bucket, and credentials must never appear in container env vars.",
+      "tags": [
+        "vault",
+        "secrets-management",
+        "postgres",
+        "kubernetes",
+        "dynamic-credentials"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-028",
+      "title": "Chaos Engineering Experiment Plan for EKS Workloads",
+      "prompt": "Act as a resilience engineer with 6 years experience running chaos engineering at Indian fintechs. I need you to design a chaos engineering experiment plan for a critical payments microservice. Here is the context: a Bengaluru-based UPI aggregator wants to validate resilience of their transaction-service on EKS ap-south-1 before Diwali traffic (expected 5x normal load). Please provide: (1) Hypothesis statement in scientific form, (2) Steady-state definition using Prometheus metrics (success rate > 99.5%, p99 < 400 ms), (3) Four experiments using Chaos Mesh: pod-kill, network latency injection (+200 ms), CPU stress, dependency failure (Redis outage), (4) Blast radius controls and abort conditions, (5) Step-by-step runbook with IST time windows (02:00-04:00 IST on a weekday), (6) Rollback and communication plan, (7) Success criteria and learnings template. Format as a markdown experiment plan with YAML snippets for Chaos Mesh custom resources, escaping inner quotes as \\\" where needed. Consider these constraints: must never run in production without approval from the SRE lead, must comply with RBI guidelines on scheduled maintenance notifications, and must include a rollback within 60 seconds for each experiment.",
+      "tags": [
+        "chaos-engineering",
+        "chaos-mesh",
+        "resilience",
+        "kubernetes",
+        "payments"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-029",
+      "title": "Azure Central India AKS Terraform with Private Cluster",
+      "prompt": "Act as an Azure platform engineer with 7 years experience building AKS environments for Indian enterprises. I need you to write Terraform for a private AKS cluster in Central India. Here is the context: a Chennai-based insurance company regulated by IRDAI needs a private AKS cluster with no public API endpoint, integrated with Azure AD and Key Vault. Please provide: (1) azurerm_kubernetes_cluster with private_cluster_enabled true, Kubernetes 1.30, system and user node pools, (2) Azure AD integration with RBAC and admin group object IDs as variables, (3) Network profile using Azure CNI with a custom VNet and subnet, (4) Integration with Azure Key Vault via CSI driver (workload identity), (5) Log Analytics workspace wiring for container insights, (6) NSG rules allowing only the hub firewall for egress. Format as HCL split across main.tf, variables.tf, outputs.tf with comments, escaping inner quotes as \\\" where needed. Consider these constraints: IRDAI requires all data and control plane in India so use centralindia region only, include monthly INR cost estimate at 1 USD = 83 INR for a baseline 6-node cluster, and configure private DNS zones correctly to avoid kubectl connectivity issues from a jumpbox.",
+      "tags": [
+        "terraform",
+        "aks",
+        "azure",
+        "private-cluster",
+        "irdai"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-030",
+      "title": "OpenTelemetry Collector Config for Traces and Metrics",
+      "prompt": "Act as an observability engineer with 6 years experience deploying OpenTelemetry at Indian SaaS companies. I need you to write an OpenTelemetry Collector configuration that ingests traces and metrics from microservices and exports them to multiple backends. Here is the context: a Pune-based B2B SaaS has 40 Java and Go services on EKS ap-south-1 emitting OTLP. They want traces in Tempo, metrics in Prometheus, and high-value traces mirrored to Datadog for SLO review. Please provide: (1) Receivers: otlp (grpc 4317, http 4318), (2) Processors: batch, memory_limiter, resource, tail_sampling (keep errors and p99 > 1s, sample 5% of rest), attributes (redact user.email, pii.*), (3) Exporters: otlphttp to Tempo, prometheusremotewrite to Mimir, datadog for sampled traces, (4) Service pipelines wiring them up, (5) Kubernetes DaemonSet manifest to deploy the Collector. Format the output as a single otel-collector-config.yaml plus a daemonset.yaml, escaping inner quotes as \\\" where needed. Consider these constraints: DPDP 2023 requires PII redaction, all exporters except Datadog must stay in ap-south-1, and total Collector CPU budget per node should be under 200m.",
+      "tags": [
+        "opentelemetry",
+        "observability",
+        "tracing",
+        "tail-sampling",
+        "collector"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-031",
+      "title": "Velero Backup Schedule for EKS Stateful Workloads",
+      "prompt": "Act as a backup and DR engineer with 6 years experience protecting Kubernetes workloads for Indian healthcare companies. I need you to write Velero schedules and backup strategy for stateful workloads on EKS. Here is the context: a Bengaluru-based telemedicine platform runs Postgres (via Zalando operator), MongoDB, and Elasticsearch on EKS ap-south-1 with PVCs backed by EBS. They need DPDP 2023 compliant backups with a 30-day retention. Please provide: (1) Velero installation values for S3 target bucket in ap-south-1 with SSE-KMS encryption, (2) Four Schedule custom resources: daily full cluster at 02:00 IST, hourly app-namespaces for the last 24 hours, weekly long-retention on Sunday 03:00 IST, pre-deploy on-demand template, (3) Restic/Kopia integration for volume-level backup, (4) RTO/RPO targets table per workload, (5) A disaster recovery runbook with step-by-step restore commands and validation checks. Format the output as YAML manifests plus a markdown runbook, escaping inner quotes as \\\" where needed. Consider these constraints: DPDP 2023 requires Indian region storage so the S3 bucket must be in ap-south-1, backups must be encrypted at rest and in transit, and total storage cost must stay under INR 40,000 per month.",
+      "tags": [
+        "velero",
+        "backup",
+        "disaster-recovery",
+        "kubernetes",
+        "dpdp"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-032",
+      "title": "Pulumi TypeScript for Multi-Account AWS Landing Zone",
+      "prompt": "Act as a cloud architect with 8 years experience designing AWS landing zones for Indian enterprises. I need you to write Pulumi in TypeScript that sets up a minimal multi-account landing zone. Here is the context: a Mumbai-based insurtech is starting a new cloud footprint with 4 AWS accounts (management, security, shared-services, workloads) in ap-south-1, governed by AWS Organizations. Please provide: (1) Pulumi project structure and stack layout, (2) Creation of an Organization with Organizational Units (Security, Workloads), (3) Service Control Policies: deny regions outside ap-south-1 and ap-southeast-1, deny root user actions, require IMDSv2, (4) CloudTrail org trail writing to a central S3 bucket in the security account with KMS encryption, (5) GuardDuty org-wide enablement, (6) A shared VPC in shared-services with RAM sharing to the workloads account. Format the output as TypeScript files (index.ts per stack) plus a Pulumi.yaml snippet, escaping inner quotes as \\\" inside policy JSON strings. Consider these constraints: IRDAI and DPDP 2023 require India-only data residency, include INR cost estimate at 1 USD = 83 INR for baseline monthly spend, and code must be linted by eslint and compile under strict TypeScript.",
+      "tags": [
+        "pulumi",
+        "aws",
+        "landing-zone",
+        "typescript",
+        "scp"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-033",
+      "title": "Multi-Region Active-Passive DR Design for RBI Bank",
+      "prompt": "Act as a cloud resilience architect with 12 years experience designing DR for Indian banks under RBI master directions. I need you to design a multi-region active-passive disaster recovery architecture on AWS. Here is the context: a scheduled commercial bank headquartered in Mumbai runs a core banking-adjacent digital platform on ap-south-1 (Mumbai) and must have a passive DR site in ap-south-2 (Hyderabad) with RTO 2 hours and RPO 15 minutes, as per RBI guidelines. Please provide: (1) Reference architecture diagram described in text (VPCs, TGW, RDS, S3, Route53), (2) Data replication strategy: RDS cross-region read replicas with automated failover, S3 CRR with same KMS keys replicated, DynamoDB global tables, (3) Network failover via Route53 health checks with 60-second TTL, (4) Runbook for a planned DR drill including pre-checks, cutover, validation, cutback, (5) Cost comparison in INR (active-only vs active-passive) at 1 USD = 83 INR, (6) Compliance mapping to RBI cyber security framework controls. Format as a markdown architecture document with embedded YAML/HCL snippets, escaping inner quotes as \\\" where needed. Consider these constraints: both regions must be in India for RBI and DPDP compliance, drill cadence quarterly, and document ownership matrix (RACI) for each runbook step.",
+      "tags": [
+        "disaster-recovery",
+        "rbi-compliance",
+        "multi-region",
+        "aws",
+        "architecture"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-034",
+      "title": "Kubernetes Operator Scaffolding with Kubebuilder",
+      "prompt": "Act as a Kubernetes platform engineer with 8 years experience building operators for Indian product companies. I need you to scaffold and design a custom Kubernetes Operator for managing tenant onboarding in a SaaS platform. Here is the context: a Bengaluru-based HRTech SaaS wants to automate tenant provisioning (namespace, network policies, database, Helm release) via a Tenant custom resource using Kubebuilder v4. Please provide: (1) kubebuilder init and create api commands, (2) Tenant CRD spec fields (name, plan, region, domain, contactEmail) and status fields (phase, conditions, observedGeneration), (3) Reconciler logic pseudocode handling create/update/delete with finalizer for safe teardown, (4) RBAC markers for the controller, (5) Example Tenant YAML manifest, (6) Testing strategy with envtest and a sample Ginkgo test case. Format the output as a structured Go code skeleton with file paths and key functions, escaping inner quotes as \\\" where needed. Consider these constraints: operator must be idempotent, must emit Kubernetes events for every phase transition, must stay under 200 MB container image, and must work with Kubernetes 1.29+ on EKS ap-south-1.",
+      "tags": [
+        "kubernetes",
+        "operator",
+        "kubebuilder",
+        "crd",
+        "golang"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-035",
+      "title": "Service Mesh Migration from Istio to Cilium for Cost",
+      "prompt": "Act as a platform engineering lead with 9 years experience running service meshes at Indian unicorns. I need you to produce a migration plan and technical design for moving from Istio sidecar mesh to Cilium (eBPF-based) service mesh. Here is the context: a Gurugram-based quick-commerce runs 120 microservices on EKS ap-south-1, currently using Istio 1.20 with sidecars consuming ~18% cluster CPU and ~INR 12 lakh per month in overhead. They want mTLS, L7 policies, and tracing, ideally with lower overhead. Please provide: (1) Capability gap analysis (mTLS, traffic splitting, authz policies, telemetry, WASM extensibility), (2) Phased migration plan (assess, pilot, canary, migrate, decommission) with timelines, (3) Step-by-step technical steps for enabling Cilium cluster mesh mode and mTLS, (4) Risk register with mitigations (gradual opt-in namespaces, shadow mode), (5) Expected cost savings in INR and CPU reclamation, (6) Observability strategy during migration. Format the output as a markdown design document with YAML and CLI snippets, escaping inner quotes as \\\" where needed. Consider these constraints: zero downtime during migration, DPDP 2023 compliance maintained, and total migration window within one fiscal quarter.",
+      "tags": [
+        "service-mesh",
+        "istio",
+        "cilium",
+        "ebpf",
+        "migration"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-036",
+      "title": "SLO-Driven Deployment Gate with Flagger and Prometheus",
+      "prompt": "Act as a progressive delivery engineer with 7 years experience at Indian fintechs. I need you to design an SLO-driven automated deployment gate using Flagger on Kubernetes. Here is the context: a Mumbai-based payments company runs a risk-scoring microservice on EKS ap-south-1, processing 3000 RPS, and wants canary deploys aborted automatically if p99 latency, error rate, or business KPIs degrade. Please provide: (1) Flagger Canary custom resource with Istio mesh provider, 10% steps up to 100%, 5-minute intervals, (2) Three metric templates referencing Prometheus: request-success-rate, request-duration-p99, business-kpi (approved_txn_rate), (3) Thresholds and failure conditions with rollback behaviour, (4) Webhook-based pre and post-rollout hooks calling a custom load-test runner, (5) Alertmanager routing on canary failures to Slack #deploys and PagerDuty, (6) Dashboard queries for observing the canary in Grafana. Format the output as YAML manifests plus a short design narrative, escaping inner quotes as \\\" inside PromQL strings. Consider these constraints: RBI outsourcing guidelines require auditability of every deploy, total canary window should not exceed 45 minutes, and rollback must happen within 2 minutes of SLO breach.",
+      "tags": [
+        "flagger",
+        "progressive-delivery",
+        "slo",
+        "canary",
+        "istio"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-037",
+      "title": "Cross-Cloud Cost Allocation Model for Multi-Cloud Setup",
+      "prompt": "Act as a principal FinOps engineer with 10 years experience allocating multi-cloud costs at Indian unicorns. I need you to design a cost allocation and showback model for a company using AWS, GCP, and Azure in India. Here is the context: a Bengaluru-based B2B SaaS spends ~INR 2.1 crore per month across AWS Mumbai (60%), GCP asia-south1 (25%), and Azure Central India (15%), with 14 product teams, 6 shared platform services, and no unified chargeback today. Please provide: (1) Tagging/labeling standard harmonised across the three clouds (required keys: team, product, env, cost_center, data_classification), (2) Data pipeline design: AWS CUR, GCP billing export, Azure EA export all landing in BigQuery or Snowflake for unified analysis, (3) Cost allocation rules for shared services (observability, networking, platform) using a tiered split, (4) Showback dashboard mockup described in text (rows, columns, drilldowns), (5) Monthly FinOps review cadence and RACI, (6) INR-denominated KPIs (cost per customer, cost per transaction, unit economics). Format the output as a markdown design document with sample SQL. Consider these constraints: DPDP 2023 data residency so the data warehouse must be in India, and recommendations must be actionable for a 3-person FinOps team.",
+      "tags": [
+        "finops",
+        "multi-cloud",
+        "cost-allocation",
+        "showback",
+        "tagging"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-038",
+      "title": "Zero-Downtime Postgres Major Version Upgrade on RDS",
+      "prompt": "Act as a database reliability engineer with 9 years experience running Postgres at Indian fintech scale. I need you to produce a zero-downtime upgrade plan for Postgres 14 to 16 on AWS RDS in ap-south-1. Here is the context: a Mumbai-based lending platform runs a 2 TB RDS Postgres 14 primary with 2 read replicas serving 1500 QPS peak, and cannot tolerate more than 60 seconds of write downtime due to SLA commitments to banks. Please provide: (1) Assessment steps (extension compatibility, deprecated features, ANALYZE stats, logical decoding plugins), (2) Approach comparison: in-place upgrade vs blue-green via RDS Blue/Green Deployments vs logical replication via AWS DMS, (3) Recommended path (RDS Blue/Green) with detailed step-by-step runbook including IST maintenance window (Sunday 02:00-04:00 IST), (4) Rollback plan within 5 minutes, (5) Validation queries and smoke tests, (6) Observability: pg_stat_statements, CloudWatch metrics to watch (CPU, connections, replication lag), (7) Communication template for stakeholders and RBI-regulated partners. Format the output as a markdown runbook with SQL and AWS CLI snippets, escaping inner quotes as \\\" where needed. Consider these constraints: no data loss tolerated, must preserve DPDP data residency in ap-south-1, and all actions auditable via CloudTrail.",
+      "tags": [
+        "postgres",
+        "rds",
+        "upgrade",
+        "blue-green",
+        "zero-downtime"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-039",
+      "title": "Kubernetes Cluster Autoscaler and Karpenter Hybrid Setup",
+      "prompt": "Act as a Kubernetes scaling expert with 8 years experience tuning node autoscaling for Indian e-commerce peak events. I need you to design a hybrid Cluster Autoscaler + Karpenter configuration for EKS. Here is the context: a Bengaluru-based e-commerce platform handles baseline load of 40 m5.large nodes on ap-south-1 and scales to 180+ nodes during flash sales. They want Cluster Autoscaler for steady-state on-demand and Karpenter for burst with spot diversification. Please provide: (1) Architecture rationale for the split, (2) Cluster Autoscaler managed node group definitions (Terraform) for baseline, (3) Karpenter NodePool and EC2NodeClass custom resources defining instance families (m5, m5a, m6i, c5 large/xlarge/2xlarge), spot and on-demand mix 80/20, AZ spread, (4) Consolidation policy and TTL settings, (5) Pod disruption budgets needed to coexist with consolidation, (6) Cost impact analysis in INR at 1 USD = 83 INR for a flash-sale day (10 AM to 10 PM IST). Format the output as YAML plus HCL snippets with explanatory notes, escaping inner quotes as \\\" where needed. Consider these constraints: DPDP 2023 ap-south-1 only, must not disrupt stateful workloads (kafka, redis) during consolidation, and total cost should drop by at least 25% vs current all-on-demand setup.",
+      "tags": [
+        "karpenter",
+        "cluster-autoscaler",
+        "eks",
+        "spot-instances",
+        "cost-optimization"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    },
+    {
+      "id": "developers-devops-cloud-040",
+      "title": "Policy-as-Code with OPA Gatekeeper for Multi-Team EKS",
+      "prompt": "Act as a Kubernetes governance engineer with 8 years experience deploying policy-as-code for Indian enterprises. I need you to design and implement a suite of OPA Gatekeeper constraints for a multi-team EKS platform. Here is the context: a Hyderabad-based product company runs a shared EKS cluster in ap-south-1 with 18 application teams and has faced incidents from missing resource limits, privileged pods, and images pulled from public Docker Hub. Please provide: (1) A library of 8 ConstraintTemplates and Constraints covering: require resource requests/limits, disallow privileged containers, require runAsNonRoot, allow images only from private ECR, require Pod Security labels, require team ownership labels, deny hostPath mounts, require NetworkPolicy in each namespace, (2) Rego policy code for each ConstraintTemplate, (3) Audit vs enforce rollout strategy, (4) Exception process using a parameters.exemptImages allowlist, (5) Integration with CI: kubectl apply --dry-run=server or conftest for shift-left, (6) Monitoring Gatekeeper violations via Prometheus metrics and Grafana dashboard. Format the output as multiple YAML manifests with embedded Rego code blocks, escaping inner quotes as \\\" where needed. Consider these constraints: must not break existing workloads (start in dryrun for 2 weeks), must log violations to CloudWatch in ap-south-1 for audit, and enforcement must be gradual per namespace.",
+      "tags": [
+        "opa",
+        "gatekeeper",
+        "policy-as-code",
+        "rego",
+        "kubernetes"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "devops-cloud"
+    }
+  ]
+}

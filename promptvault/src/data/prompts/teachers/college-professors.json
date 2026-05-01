@@ -1,0 +1,728 @@
+{
+  "category": "teachers",
+  "subcategory": "college-professors",
+  "prompts": [
+    {
+      "id": "teachers-college-professors-001",
+      "title": "OBE Syllabus with CO-PO Mapping for UG Course",
+      "prompt": "Act as a senior Indian university professor with 15 years of experience in outcome-based education (OBE) and NBA/NAAC accreditation. I am designing the syllabus for a 4-credit undergraduate course titled \"Database Management Systems\" under a CBCS scheme for the odd semester (BE CSE, 5th semester). I need a complete syllabus aligned with AICTE model curriculum and NBA Tier-I expectations. Please provide: (1) Course objectives (4-5 statements), (2) Exactly 6 Course Outcomes (COs) written using measurable action verbs from Bloom's taxonomy (L1-L6) with explicit Bloom level tagging, (3) A CO-PO mapping matrix against the 12 NBA Program Outcomes and 2 PSOs with justification for each non-zero cell (strength 1/2/3), (4) Unit-wise content split across 5 units (45 contact hours) with hours per unit and CO linkage, (5) Textbooks and reference books (Indian authors like Navathe, Korth preferred where relevant), (6) Internal assessment pattern (40 marks: 2 CIEs, assignments, quiz) and semester-end pattern (60 marks), (7) Suggested experiential/project components for CO5 and CO6 which must target L4-L6 cognitive levels. Format as a clean table-based document ready for Board of Studies (BoS) approval. Ensure every CO is specific, measurable, and traceable, and flag any PO that is weakly addressed so I can strengthen it. Keep language formal and accreditation-ready.",
+      "tags": [
+        "obe",
+        "co-po",
+        "naac",
+        "nba",
+        "syllabus-design",
+        "blooms-taxonomy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-002",
+      "title": "Semester-End Question Paper with Bloom Level Tagging",
+      "prompt": "Act as an experienced Indian university paper setter with 12 years of experience setting external semester-end exam papers for state and central universities. I need a 60-mark, 3-hour semester-end question paper for the subject \"Engineering Economics and Management\" (B.Tech 6th semester, odd-even pattern under CBCS). Follow standard Indian university structure: Part A (10 x 2 = 20 marks, compulsory short-answer, mostly L1-L2), Part B (5 x 8 = 40 marks with internal choice, mix of L2-L5). Please provide: (1) Full question paper with proper header (university name placeholder, course code, duration, max marks, instructions to candidates), (2) Every question tagged with the Course Outcome (CO1-CO5) it maps to and Bloom's level (L1-L6), (3) A coverage matrix at the end showing marks distribution per CO and per Bloom level, (4) Ensure no CO gets less than 10% weightage and L3-L5 together account for at least 50% of total marks, (5) At least 2 questions must use Indian case contexts (e.g., pricing for Tata Nano, NPV of a metro project in Bengaluru), (6) Provide a separate answer key / scheme of evaluation with mark breakup per sub-question. Format the paper exactly as it would appear in a printed university question booklet. Flag any CO or Bloom level that is under-represented.",
+      "tags": [
+        "question-paper",
+        "blooms-taxonomy",
+        "semester-end",
+        "co-mapping",
+        "cbcs"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-003",
+      "title": "SERB CRG Grant Proposal Skeleton",
+      "prompt": "Act as a senior Indian researcher with 20 years of experience writing successful SERB Core Research Grant (CRG) proposals. I am a mid-career Assistant Professor at an NIT working on \"Machine learning-based early detection of diabetic retinopathy using low-cost fundus imaging\". Help me draft a complete SERB CRG proposal skeleton aligned with the latest SERB format. Please provide: (1) Project title (under 20 words, specific and measurable), (2) Objectives (exactly 4, each 1-2 lines, measurable), (3) Summary for non-specialists (300 words), (4) Origin of the proposal and national relevance linked to Viksit Bharat/Ayushman Bharat, (5) Literature review structure with 15 key references split into Indian and international, (6) Detailed methodology broken into 3 work packages with milestones at 6/12/18/24/30/36 months, (7) Budget across 3 years with heads: equipment, consumables, travel, contingency, manpower (1 JRF + 1 SRF with standard SERB rates), overheads, (8) Expected outcomes: publications (UGC-CARE/Scopus target journals), patents, technology readiness level progression, (9) Risk mitigation, (10) PI justification paragraph. Keep language in SERB house style — sober, quantitative, avoid hype. Format as numbered sections matching the SERB online portal fields. Flag any section where I will need institutional commitment letters or IEC/IAEC approvals.",
+      "tags": [
+        "serb",
+        "crg",
+        "grant-proposal",
+        "research-funding",
+        "dst"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-004",
+      "title": "PhD Thesis Evaluation Rubric for External Examiner",
+      "prompt": "Act as a senior professor with 25 years of experience serving as an external PhD examiner at Indian central universities (JNU, DU, BHU) and IITs. I have been invited to evaluate a PhD thesis in Sociology titled \"Caste, Labour and the Gig Economy in Urban India\". Design a comprehensive thesis evaluation rubric that I can submit along with my external examiner report. Please provide: (1) A weighted rubric covering 8 dimensions: problem formulation (10%), literature review (15%), theoretical framework (10%), methodology and rigour (20%), data analysis and findings (15%), original contribution to knowledge (15%), writing and structure (10%), ethical compliance and referencing (5%), (2) Each dimension must have 4 performance bands (Unsatisfactory/Satisfactory/Good/Outstanding) with explicit descriptors, (3) A checklist of mandatory items (plagiarism <10% per UGC norms, published papers, ethics approval, proper citation style), (4) A section for recommending one of: accept as is / minor revisions / major revisions / re-submit / reject, (5) Three suggested viva-voce questions per chapter type the candidate should defend, (6) A final qualitative summary template (400 words) that I can customise. Format as a fillable document with clear scoring boxes. Ensure the rubric is defensible if challenged and aligns with UGC PhD regulations 2022.",
+      "tags": [
+        "thesis-evaluation",
+        "rubric",
+        "phd",
+        "ugc",
+        "external-examiner"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-005",
+      "title": "Literature Review Scoping for PhD Scholar",
+      "prompt": "Act as a PhD supervisor at an IIT with 18 years of experience guiding doctoral scholars in Management Studies. My new PhD scholar is working on \"Digital financial inclusion among women self-help groups in rural Jharkhand\". Help me scope a structured literature review plan for the first 6 months of her PhD. Please provide: (1) A concept map breaking the topic into 5 thematic clusters (e.g., financial inclusion theory, SHG movement in India, gender and fintech, digital divide, rural livelihoods), (2) For each cluster, list 8-10 seed papers mixing Indian (EPW, IJGWS) and international (World Development, JDE) sources, (3) Search strings for Scopus, Web of Science and Google Scholar with Boolean operators, (4) A Zotero-friendly folder structure and tagging convention, (5) A synthesis matrix template (author, year, theory, method, sample, Indian context, gap), (6) Three potential research gaps that could become RQs, (7) A 24-week Gantt chart for reading, annotating, and writing the LR chapter, (8) Criteria for inclusion/exclusion and guidance on balancing UGC-CARE vs Scopus-indexed sources. Format as a structured guidance document I can share with the scholar in our next DRC meeting. Emphasise academic rigour and originality.",
+      "tags": [
+        "literature-review",
+        "phd-guidance",
+        "research-methodology",
+        "scopus",
+        "ugc-care"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-006",
+      "title": "CIE Internal Assessment Question Bank",
+      "prompt": "Act as a senior faculty member at a state engineering college affiliated to VTU/Anna University with 10 years of experience setting Continuous Internal Evaluation (CIE) papers. I need a question bank for CIE-1 for the course \"Operating Systems\" (B.Tech CSE, 4th semester), covering Units 1 and 2 (Introduction to OS, Process Management, CPU Scheduling). The CIE is for 50 marks, 90 minutes. Please provide: (1) 15 Part-A questions (2 marks each, L1-L2), (2) 10 Part-B questions (10 marks each with sub-parts, L2-L4), (3) 5 Part-C questions (20 marks, problem-solving or design, L4-L5), (4) Every question tagged with CO number and Bloom's level, (5) Answer hints/expected key points (not full solutions) for each question, (6) A difficulty distribution summary chart, (7) At least 3 numerical problems on CPU scheduling (FCFS, SJF, RR with quantum) with Indian context names (Ramesh, Priya) in the process tables, (8) One tricky conceptual trap question per unit to test deep understanding. Format as a printable question bank document. Ensure Bloom's L3+ accounts for at least 60% of total marks.",
+      "tags": [
+        "cie",
+        "question-bank",
+        "internal-assessment",
+        "blooms-taxonomy",
+        "co-mapping"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-007",
+      "title": "NAAC SSR Criterion 1 Curriculum Narrative",
+      "prompt": "Act as an IQAC coordinator at an Indian autonomous college with 8 years of experience preparing NAAC Self-Study Reports (SSR) for the 4th cycle. I need to draft the narrative for Criterion 1 (Curricular Aspects) for our Department of Commerce. Please provide: (1) A 1500-word narrative covering Key Indicators 1.1 (Curricular Planning and Implementation), 1.2 (Academic Flexibility - CBCS, electives, add-on courses), 1.3 (Curriculum Enrichment - cross-cutting issues: gender, environment, human values, professional ethics), 1.4 (Feedback System), (2) Specific quantitative evidence to cite (e.g., number of new courses introduced, % elective options, stakeholder feedback response rates), (3) A list of supporting documents to upload per KI, (4) Language that aligns with NAAC's revised framework and peer team expectations, (5) Three best practices that can be highlighted to score in the A++ band, (6) A table showing how curriculum is revised based on BoS and industry feedback with dates and minute references, (7) Integration of NEP 2020 elements (multidisciplinary, Indian Knowledge Systems, multiple entry-exit). Format as accreditation-ready prose with section headers matching NAAC manual. Avoid generic claims; every sentence must be verifiable.",
+      "tags": [
+        "naac",
+        "ssr",
+        "iqac",
+        "accreditation",
+        "curriculum",
+        "nep-2020"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-008",
+      "title": "ICSSR Research Project Proposal Draft",
+      "prompt": "Act as a senior social science researcher with 15 years of experience winning ICSSR major and minor research projects. I am an Associate Professor of Economics at a central university. Help me draft an ICSSR Major Research Project proposal on \"Impact of MGNREGA wage payment digitisation on tribal households in Chhattisgarh\". Please provide: (1) Title (under 25 words), (2) Introduction and statement of problem (500 words) grounded in Indian rural development literature, (3) Review of literature (400 words) citing at least 10 Indian and 5 international sources, (4) Research questions (4) and hypotheses (3), (5) Objectives (5, measurable), (6) Methodology: mixed-methods design, sample size calculation, sampling frame (list of 6 tribal blocks), data collection tools, analytical techniques (DID, thematic analysis), (7) Chapterisation plan (8 chapters), (8) Time schedule (24 months, quarterly milestones), (9) Budget in INR across heads: honorarium, field staff, travel, data, contingency, institutional overhead (max as per ICSSR norms), (10) Expected outcomes and policy relevance to NITI Aayog. Format per ICSSR online portal fields. Keep tone academic, policy-relevant, and avoid jargon.",
+      "tags": [
+        "icssr",
+        "grant-proposal",
+        "social-science",
+        "research-methodology",
+        "mgnrega"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-009",
+      "title": "M.Tech Dissertation Evaluation Rubric",
+      "prompt": "Act as a senior professor at an IIT with 20 years of experience evaluating M.Tech dissertations across disciplines. I chair the DPGC and need a standardised rubric for evaluating M.Tech dissertations (2-year programme, thesis worth 24 credits across 3 semesters). Please provide: (1) A rubric with 7 criteria: problem definition and literature gap (15%), technical depth and novelty (20%), methodology and experimentation (20%), results and analysis (15%), implementation/prototyping (10%), thesis writing quality (10%), presentation and viva defence (10%), (2) Performance descriptors for 4 grades (AA, AB, BB, BC) per criterion, (3) Separate scoring sheets for internal guide, co-guide, and external examiner, (4) A plagiarism check clause (<10% as per UGC), (5) A publication expectation note (at least 1 conference paper in a Scopus-indexed venue), (6) A viva question bank template (15 generic questions + space for topic-specific), (7) Final grade computation formula, (8) Remedial pathway if the candidate fails the viva. Format as a ready-to-circulate department document. Ensure alignment with typical IIT/NIT M.Tech ordinances.",
+      "tags": [
+        "mtech",
+        "dissertation",
+        "rubric",
+        "evaluation",
+        "iit"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-010",
+      "title": "Research Methodology Course Outline for PhD Coursework",
+      "prompt": "Act as a professor coordinating PhD coursework at an Indian central university under UGC 2022 PhD regulations. I need to design a 4-credit \"Research Methodology\" course (compulsory for all first-year PhD scholars in Social Sciences). Please provide: (1) Course outcomes (5) linked to Bloom's L3-L6, (2) Unit-wise breakup across 5 units (60 contact hours) covering: philosophy of science, research design, quantitative methods, qualitative methods, writing and ethics, (3) Weekly topic schedule with readings (mix of Indian authors like Ranjit Kumar, C.R. Kothari, and international like Creswell, Bryman), (4) Continuous assessment components (50% internal: proposal draft, journal critique, methods presentation; 50% end-term exam), (5) A rubric for the final research proposal assignment, (6) Three hands-on workshops (SPSS, NVivo, Zotero), (7) Plagiarism, research ethics, and RCR module with Indian case studies, (8) Guest lecture topics by senior scholars. Format as a complete course handbook including CO-PO mapping (against PhD programme outcomes). Ensure compliance with UGC minimum coursework requirements.",
+      "tags": [
+        "research-methodology",
+        "phd-coursework",
+        "ugc",
+        "course-design",
+        "syllabus"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-011",
+      "title": "DST-SERB SRG Proposal for Early Career Researcher",
+      "prompt": "Act as a mentor who has reviewed 50+ SERB Start-up Research Grant (SRG) proposals. I am a newly joined Assistant Professor (within 3 years of PhD) at a state university, working on \"Green synthesis of nanoparticles from Indian medicinal plants for antibacterial applications\". Draft a complete SERB SRG proposal. Please provide: (1) Specific aims (3, concrete), (2) Background and rationale (500 words) citing Indian traditional knowledge systems, (3) Preliminary data section (how to present limited data convincingly), (4) Work plan split into 3 objectives with detailed experiments, (5) Timeline (24 months) as a Gantt chart, (6) Budget under SERB SRG ceiling (INR 30 lakh) — equipment, consumables, travel, contingency, (7) Justification for each major budget item, (8) Expected outputs — 2-3 Scopus publications, conference presentations, (9) PI's short bio-sketch template, (10) Letter of institutional support checklist. Keep writing style confident yet modest. Highlight novelty using Indian biodiversity angle. Format per SERB SRG portal fields and flag any attachments required (ethics, biosafety).",
+      "tags": [
+        "serb",
+        "srg",
+        "early-career",
+        "grant-writing",
+        "nanotechnology"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-012",
+      "title": "Viva-Voce Question Bank for PhD Defence",
+      "prompt": "Act as a senior examiner with 15 years of experience chairing PhD open defences (viva-voce) at Indian universities. A PhD scholar in Education is defending a thesis titled \"Blended learning outcomes among first-generation learners in government degree colleges of Uttar Pradesh\". Generate a comprehensive viva-voce question bank. Please provide: (1) 10 opening/warm-up questions (methodology rationale, research gap articulation), (2) 10 theoretical framework questions probing understanding of constructivism, TPACK, etc., (3) 10 methodological questions on sampling, validity, reliability, ethical clearance, (4) 10 findings-and-interpretation questions, (5) 10 contribution-and-limitation questions, (6) 5 policy-implication questions tied to NEP 2020, (7) 5 \"tough\" questions an external examiner might ask to test depth, (8) Suggested ideal answer framings (3-5 bullet points each) for the scholar's practice, (9) Body-language and time-management tips during viva. Format as a preparation booklet the scholar's supervisor can share one week before the defence. Keep tone professional and supportive.",
+      "tags": [
+        "viva-voce",
+        "phd-defence",
+        "question-bank",
+        "external-examiner",
+        "phd-guidance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-013",
+      "title": "CO Attainment Calculation Template for NBA",
+      "prompt": "Act as an NBA coordinator at an AICTE-approved engineering college with 7 years of experience preparing Self-Assessment Reports (SAR) under Tier-I. I need a CO attainment calculation template for the course \"Signals and Systems\" (B.E. ECE, 4th semester). Please provide: (1) A formula framework: direct attainment = 80% CIE + 20% SEE, indirect = course-exit survey, final CO attainment = 80% direct + 20% indirect, (2) Target setting logic (e.g., Level 1 = 60% students scoring >50%, Level 2 = 70%, Level 3 = 80%), (3) A sample Excel-style table with 60 students, showing CO1-CO5 attainment from CIE-1, CIE-2, assignment, SEE with mock marks, (4) Gap analysis: which CO missed target and why, (5) Action taken report (ATR) template for the next cycle, (6) PO attainment rollup from CO attainment using the CO-PO matrix strengths, (7) Visual dashboard suggestions (bar charts per CO, radar chart per PO), (8) Common NBA expert committee queries and ready responses. Format as a step-by-step guide with worked example. Ensure arithmetic is NBA-defensible.",
+      "tags": [
+        "co-attainment",
+        "nba",
+        "obe",
+        "po-attainment",
+        "accreditation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-014",
+      "title": "Open Book Exam Question Design",
+      "prompt": "Act as a progressive Indian university professor with experience designing open-book examinations under CBCS. I need to redesign the semester-end paper for \"Constitutional Law I\" (LLB 1st year, 3-hour open book) to test higher-order thinking rather than rote. Please provide: (1) 6 long-answer questions (15 marks each) that require application, analysis, or evaluation and cannot be answered by copying from bare acts or textbooks, (2) Each question should present a fact-scenario rooted in Indian context (e.g., a Delhi slum eviction, an FIR against a journalist, a PIL on river pollution) and ask the student to apply doctrines, (3) Bloom's level tagged per question (L4-L6 only), (4) A scheme of evaluation that rewards reasoning over recall (4 parameters per question, 3-4 marks each), (5) Instructions to candidates clarifying what materials are permitted, (6) 3 practice questions to share with students beforehand, (7) Rationale paragraph for the BoS explaining why open-book is appropriate. Format as a complete question paper with separate evaluation rubric.",
+      "tags": [
+        "open-book-exam",
+        "question-design",
+        "law",
+        "blooms-taxonomy",
+        "higher-order-thinking"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-015",
+      "title": "ICMR Ad-hoc Research Grant Proposal",
+      "prompt": "Act as a medical faculty member with 12 years of experience at a government medical college and 4 successful ICMR ad-hoc grants. I am drafting a new ICMR ad-hoc proposal on \"Prevalence and risk factors of non-alcoholic fatty liver disease among adolescents in tier-2 cities of Maharashtra\". Please provide: (1) Title and abstract (250 words), (2) Background with Indian epidemiological data, (3) Lacunae in existing knowledge (Indian-specific), (4) Research question, objectives (primary + secondary), hypothesis, (5) Study design: cross-sectional, sample size with formula and assumptions, inclusion/exclusion criteria, (6) Methodology: anthropometry, biochemistry, ultrasound, questionnaire, (7) Statistical analysis plan (logistic regression, confounders), (8) Ethical considerations (IEC approval, informed consent, assent for minors, data protection per DPDP Act), (9) Timeline (24 months), (10) Budget as per ICMR norms (manpower, consumables, travel, contingency, overheads), (11) Expected outcomes including policy input to MoHFW. Format strictly per ICMR proposal template. Highlight Make-in-India and Ayushman Bharat alignment.",
+      "tags": [
+        "icmr",
+        "grant-proposal",
+        "medical-research",
+        "epidemiology",
+        "research-methodology"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-016",
+      "title": "Rubric for Undergraduate Capstone Project",
+      "prompt": "Act as a professor coordinating final-year B.Tech projects (Mini + Major, 8th semester, 8 credits) at an NIT. Design a comprehensive evaluation rubric for capstone projects across engineering disciplines. Please provide: (1) 8 assessment dimensions: problem identification and relevance (10%), literature survey (10%), design and methodology (15%), implementation (20%), testing and validation (10%), teamwork and contribution (5%), report quality (15%), final presentation (15%), (2) Performance descriptors on a 10-point scale for each dimension with clear examples, (3) Separate scoring sheets for guide, internal examiner, and external examiner, (4) Mid-term review (30%) and end-term review (70%) split, (5) Plagiarism check policy and publication/patent bonus marks, (6) Peer evaluation form for team-based projects, (7) A common viva question bank, (8) CO linkage for the capstone course and rollup to POs (PO1-PO12, PSO1-PSO2), (9) A moderation policy to handle large inter-examiner variance. Format as a department handbook section ready for NBA SAR. Ensure objectivity and reproducibility.",
+      "tags": [
+        "capstone",
+        "rubric",
+        "btech-project",
+        "nba",
+        "evaluation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-017",
+      "title": "Plagiarism and Research Integrity Workshop Plan",
+      "prompt": "Act as a research ethics trainer with experience conducting UGC-funded capacity-building workshops. Design a 2-day workshop on \"Research Integrity and Plagiarism Prevention\" for 40 first-year PhD scholars across disciplines at a state university. Please provide: (1) Learning objectives (5) mapped to UGC 2018 plagiarism regulations, (2) Day-wise schedule with 8 sessions of 90 minutes each, (3) Session topics: types of misconduct (fabrication, falsification, plagiarism, authorship), citation styles (APA, MLA, Chicago), Turnitin/URKUND interpretation, paraphrasing techniques, self-plagiarism, predatory journals, UGC-CARE list navigation, AI-generated text and policy, (4) Hands-on exercises (3), (5) Case studies from real Indian retraction cases, (6) Pre- and post-test with 20 MCQs, (7) Reading list and resource links, (8) Certificate template, (9) Feedback form, (10) Budget estimate in INR for the workshop. Format as a complete workshop manual. Align with UGC Academic Integrity guidelines and IIT ethics code templates.",
+      "tags": [
+        "research-integrity",
+        "plagiarism",
+        "ugc",
+        "workshop",
+        "phd-coursework"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-018",
+      "title": "MCQ Bank for Online Semester Exam",
+      "prompt": "Act as a question paper moderator with experience setting large-scale online MCQ exams for open universities like IGNOU. I need a bank of 100 MCQs for the course \"Principles of Microeconomics\" (B.A. Economics Hons, 2nd semester) for an online semester-end exam. Please provide: (1) 100 MCQs split across 5 units (20 per unit: demand/supply, consumer theory, producer theory, market structures, factor markets), (2) Each MCQ with exactly 4 options, one correct, three plausible distractors, (3) Bloom's level tag (30% L1, 40% L2, 20% L3, 10% L4), (4) CO mapping, (5) Difficulty index target (easy/medium/hard = 30/50/20), (6) At least 15 questions using Indian economy examples (onion prices, MSP, GST), (7) Answer key with one-line explanation, (8) Item-writing flaws audit (no \"all of the above\", no double negatives, grammatically consistent stems), (9) Randomisation-ready formatting (JSON or CSV-friendly). Format as a numbered list suitable for uploading to Moodle/Google Forms. Avoid trivia; test conceptual understanding.",
+      "tags": [
+        "mcq",
+        "online-exam",
+        "economics",
+        "question-bank",
+        "blooms-taxonomy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-019",
+      "title": "PhD Synopsis Review Checklist",
+      "prompt": "Act as a DRC (Doctoral Research Committee) chair at an Indian central university with 10 years of experience reviewing PhD synopses before submission. A scholar in Political Science has submitted a synopsis titled \"Federalism and fiscal devolution in post-GST India: A comparative study of three states\". Create a detailed synopsis review checklist and critique framework. Please provide: (1) A 25-item checklist covering title clarity, problem articulation, literature review adequacy, theoretical framework, research questions, objectives, hypotheses, methodology, case selection justification, data sources, timeline, chapterisation, originality, feasibility, ethical clearance, references, formatting (UGC norms), language, length (10-15k words), (2) Scoring 0/1/2 per item, (3) Red-flag section for issues that must be fixed before submission, (4) Suggested rewrite phrases for vague objectives, (5) 10 critical questions the DRC is likely to ask the scholar, (6) A template DRC report to be forwarded to the University Research Council, (7) Timeline for revisions. Format as a structured reviewer template. Maintain constructive and formal tone.",
+      "tags": [
+        "phd-synopsis",
+        "drc",
+        "review-checklist",
+        "phd-guidance",
+        "research-proposal"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-020",
+      "title": "Industry-Academia Elective Course Design",
+      "prompt": "Act as a department chairperson at an autonomous engineering college with an active industry-academia cell. I want to introduce a 3-credit professional elective \"Applied Machine Learning for Indian Industry\" in the 7th semester B.Tech CSE, co-taught with a TCS/Infosys practitioner. Please provide: (1) Course objectives (4), (2) Course outcomes (5) at Bloom's L3-L5 with CO-PO mapping, (3) Unit-wise syllabus (5 units, 40 hours) covering ML lifecycle, data handling, classical ML, deep learning basics, MLOps, ethics, (4) Industry co-delivery plan (which modules the practitioner teaches, guest lectures, industrial visit), (5) Tools stack (Python, scikit-learn, MLflow) and datasets (Indian — Aadhaar-scale de-identified, Kaggle India), (6) Assessment: 40% internal (project on Indian problem like crop yield prediction or Hindi NLP), 60% SEE, (7) Prerequisites, (8) A list of 10 Indian industry capstone problem statements, (9) BoS approval note highlighting employability outcomes (NIRF and placement relevance). Format as an elective course proposal document.",
+      "tags": [
+        "elective-course",
+        "industry-academia",
+        "machine-learning",
+        "co-po",
+        "syllabus-design"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-021",
+      "title": "Seminar Presentation Evaluation Rubric",
+      "prompt": "Act as a professor coordinating the compulsory PhD seminar course at an IIT. Design a rubric to evaluate scholars presenting their first-year seminar (a critical literature review presentation before the DRC). Please provide: (1) 6 criteria: content depth (25%), literature coverage and critique (20%), clarity of research gap (15%), presentation structure (10%), visual quality of slides (10%), Q&A handling (20%), (2) Performance descriptors on a 5-point scale per criterion, (3) Separate evaluator sheets for each DRC member, (4) A norm for aggregation (mean, with outlier flagging), (5) A pass threshold and remediation pathway, (6) A structured feedback template the scholar receives within 7 days, (7) 5 common weaknesses observed in first seminars and coaching notes for supervisors, (8) Alignment with PhD programme outcomes per UGC 2022. Format as a ready-to-use department form. Ensure it is equally fair across STEM and social science scholars.",
+      "tags": [
+        "seminar",
+        "phd-coursework",
+        "rubric",
+        "drc",
+        "evaluation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-022",
+      "title": "DBT BioCARe Grant Proposal for Women Scientists",
+      "prompt": "Act as a reviewer and mentor for DBT BioCARe grants targeted at early-to-mid career women scientists. I am an Assistant Professor of Biotechnology at a state university proposing \"CRISPR-based screening of drought tolerance genes in millets for climate-resilient agriculture\". Help me draft a complete BioCARe proposal. Please provide: (1) Project summary (300 words), (2) Background linking to Shree Anna/Millet Year 2023 and Indian food security, (3) Specific objectives (3), (4) Detailed experimental plan with 3 work packages, (5) Preliminary results section advice, (6) Collaborators and institutional facilities to cite, (7) Budget over 3 years under DBT heads with JRF/SRF positions per latest norms, (8) Deliverables: genes identified, publications in Scopus journals, possible patents, (9) Justification for why this falls under BioCARe priority areas, (10) Risk and mitigation, (11) A 1-page PI bio-sketch template. Format as per DBT online submission fields. Emphasise the Indian agricultural and women-in-STEM angles. Keep language precise and confident.",
+      "tags": [
+        "dbt",
+        "biocare",
+        "grant-proposal",
+        "women-scientists",
+        "biotechnology"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-023",
+      "title": "Academic Calendar and Lesson Plan Template",
+      "prompt": "Act as a faculty member preparing NAAC-ready course files. I need a complete lesson plan and academic calendar for the course \"Engineering Mathematics III\" (B.Tech 3rd semester, odd sem) under Anna University CBCS. The semester has 15 instructional weeks (90 hours for a 4-credit course). Please provide: (1) Week-by-week academic calendar with topics, sub-topics, contact hours, teaching methodology (lecture/tutorial/problem-solving/flipped), CO mapping, Bloom's level, reference pages from textbook (Grewal/Kreyszig), (2) 5 CIE dates (2 CIEs + 3 assignments) aligned with university calendar, (3) 3 bridging/remedial sessions for weak students, (4) 2 beyond-syllabus lectures (e.g., applications in signal processing), (5) A lesson plan template for any single topic with objectives, prerequisites, delivery steps, board-work, examples, student activity, assessment, closure, (6) Provision for national holidays and institution's cultural fest week, (7) Student feedback collection points. Format as a printable course file section compliant with NAAC Criterion 2.",
+      "tags": [
+        "lesson-plan",
+        "academic-calendar",
+        "course-file",
+        "naac",
+        "obe"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-024",
+      "title": "Peer Review Report for Indian Journal",
+      "prompt": "Act as a senior reviewer for a UGC-CARE and Scopus-indexed Indian journal (e.g., IIMB Management Review or Economic and Political Weekly). I have been asked to peer-review a manuscript titled \"Gig workers and social protection in India: Evidence from Zomato and Swiggy delivery partners in Bengaluru\". Draft a comprehensive peer-review report. Please provide: (1) A 1-paragraph summary of the paper's claim, (2) Assessment under 6 headings: originality and contribution, theoretical framing, methodology rigour, data and analysis, writing and structure, references and ethics, (3) Major comments (5-6, substantive), (4) Minor comments (8-10, specific with line references), (5) A recommendation (accept / minor revision / major revision / reject) with clear reasoning, (6) Confidential comments to the editor, (7) Suggested additional references the author should engage with (Indian labour studies), (8) Tone: firm but constructive, no ad hominem. Format as the journal's reviewer submission form. Ensure the review models good practice for early-career reviewers.",
+      "tags": [
+        "peer-review",
+        "journal",
+        "ugc-care",
+        "scopus",
+        "manuscript-review"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-025",
+      "title": "Research Methodology for Scoping Review",
+      "prompt": "Act as a PhD supervisor helping a scholar conduct a scoping review following the PRISMA-ScR framework. The topic is \"Digital mental health interventions for college students in India post-COVID\". Please provide: (1) Step-by-step scoping review protocol: research question using PCC framework (Population, Concept, Context), (2) Eligibility criteria, (3) Search strategy with databases (PubMed, Scopus, PsycINFO, IndMED, Shodhganga) and Boolean strings, (4) Screening workflow (title/abstract, full-text, Rayyan/Covidence), (5) Data extraction template (15 fields), (6) Quality appraisal approach (optional for scoping), (7) Analysis and synthesis plan (narrative + frequency tables), (8) PRISMA-ScR flow diagram template, (9) Timeline (16 weeks), (10) Reporting outline suitable for submission to a UGC-CARE journal, (11) How to handle grey literature and Indian policy documents (NMHS, NIMHANS reports). Format as a structured protocol document the scholar can register on OSF.",
+      "tags": [
+        "scoping-review",
+        "prisma",
+        "research-methodology",
+        "phd-guidance",
+        "literature-review"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-026",
+      "title": "Assignment Rubric with Bloom's Alignment",
+      "prompt": "Act as a faculty member teaching \"Organisational Behaviour\" to MBA 1st year students at an Indian B-school affiliated to AICTE. I have assigned a 2000-word individual paper: \"Apply one motivation theory to analyse employee engagement at an Indian startup of your choice\". Design a detailed evaluation rubric. Please provide: (1) 6 evaluation criteria: choice and relevance of theory (15%), depth of company research (15%), application quality (25%), critical analysis (20%), writing and referencing APA (15%), originality and turnitin score (10%), (2) 4 performance bands per criterion (Excellent/Good/Satisfactory/Needs improvement) with specific descriptors, (3) Bloom's level mapping (target L4 and L5), (4) CO linkage to the course outcomes, (5) A sample filled rubric for an imagined B-grade submission, (6) Student-facing instructions and academic integrity note, (7) A feedback template with stock phrases faculty can customise, (8) Moderation norms if co-instructors grade in parallel. Format as a ready-to-share assignment brief plus rubric.",
+      "tags": [
+        "assignment",
+        "rubric",
+        "mba",
+        "blooms-taxonomy",
+        "co-mapping"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-027",
+      "title": "NIRF Data Capture Template for Research",
+      "prompt": "Act as a NIRF coordinator at an Indian university with 5 years of experience preparing annual NIRF submissions under the University/Engineering/Management categories. Create a departmental data capture template covering the Research and Professional Practice (RP) pillar. Please provide: (1) Fields for publication counts (Scopus, Web of Science, UGC-CARE) with year-wise and per-faculty breakup for the last 3 years, (2) Citation and h-index capture per faculty, (3) Sponsored research projects (agency, PI, title, amount in INR lakhs, start/end), (4) Consultancy earnings table, (5) Patents filed/granted/licensed, (6) PhDs awarded (with thesis title, supervisor, date), (7) A validation rulebook flagging common errors (duplicate DOIs, wrong WoS categories), (8) A self-audit checklist before upload, (9) Instructions to faculty on evidence collection (screenshots, DOIs, grant sanction letters), (10) A sample dashboard to track progress month-on-month. Format as an Excel structure plus explanatory notes. Ensure consistency with current NIRF methodology document.",
+      "tags": [
+        "nirf",
+        "research-metrics",
+        "scopus",
+        "phd",
+        "data-capture"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-028",
+      "title": "Case-Based Question Design for Management Courses",
+      "prompt": "Act as a case writer trained at IIM Ahmedabad with 10 years of experience designing case-based exam questions. For a Strategic Management course (PGDM 2nd year), write 3 mini-cases (400-500 words each) set in Indian business contexts and derive exam questions. Please provide: (1) Case 1: a D2C fashion startup in Bengaluru facing margin pressure from Meesho and Myntra, (2) Case 2: a mid-sized Ahmedabad textile exporter deciding whether to enter EU under REACH compliance, (3) Case 3: an Indian EV two-wheeler maker evaluating battery-swapping partnerships, (4) For each case, 4 analytical questions at Bloom's L4-L6 (total 20 marks per case), (5) Suggested frameworks students should apply (SWOT, Porter's, VRIO, Blue Ocean), (6) Teaching notes with model answers and scoring rubric, (7) CO mapping and programme outcome linkage, (8) A grading moderation note to avoid subjectivity. Format as an exam supplement the BoS can approve. Use realistic numbers in INR.",
+      "tags": [
+        "case-study",
+        "mba",
+        "question-design",
+        "blooms-taxonomy",
+        "strategic-management"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-029",
+      "title": "ICSSR IMPRESS-style Policy Brief Draft",
+      "prompt": "Act as a senior social scientist with experience writing policy briefs for ICSSR and NITI Aayog. Based on my completed research on \"Access to justice for women survivors of domestic violence in rural Bihar: gaps in PWDVA implementation\", draft a 1500-word policy brief. Please provide: (1) Title and 120-word executive summary, (2) Context and problem statement with Indian data, (3) Key findings (5 bullet points with numbers), (4) Policy implications, (5) Specific recommendations for MWCD, state government, and frontline workers (OSS centres, ASHA workers), (6) Implementation roadmap with timelines and responsible agencies, (7) Cost implications in INR crores, (8) Risks and mitigations, (9) References in author-date style, (10) A sidebar on intersectionality (caste, religion, disability). Format as a ministry-ready PDF brief with headings, pull-quotes, and a data-visual suggestion (bar chart). Tone: evidence-based, non-partisan, actionable.",
+      "tags": [
+        "policy-brief",
+        "icssr",
+        "niti-aayog",
+        "research-dissemination",
+        "gender"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-030",
+      "title": "Choice-Based Credit System Course Restructure",
+      "prompt": "Act as a BoS member at a state university transitioning its B.Sc. Physics programme from the old annual pattern to CBCS under NEP 2020 with multiple entry-exit. I need to restructure a legacy \"Classical Mechanics\" course to fit the new CBCS framework. Please provide: (1) New course code and credit structure (4 credits: 3L + 1T) under the revised scheme, (2) Course outcomes (5) aligned with Bloom's taxonomy and programme outcomes of B.Sc. Physics Hons, (3) CO-PO mapping, (4) Unit-wise syllabus (5 units, 60 hours) mapped to the 4-year honours framework with option to exit with certificate/diploma/degree, (5) Revised textbook list (Indian authors like D.S. Mathur alongside Goldstein), (6) Assessment (40 internal + 60 external, with viva component where applicable), (7) A mapping table showing equivalence of old units to new units for migration, (8) BoS resolution draft text, (9) Integration of Indian Knowledge Systems module (historic Indian mechanics contributions). Format as a course restructure proposal document.",
+      "tags": [
+        "cbcs",
+        "nep-2020",
+        "syllabus-design",
+        "physics",
+        "bos"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-031",
+      "title": "Flipped Classroom Module Plan",
+      "prompt": "Act as a pedagogy innovator who has run flipped-classroom experiments at Indian engineering colleges. Design a 3-week flipped classroom module for the topic \"Dynamic Programming\" in the course \"Design and Analysis of Algorithms\" (B.Tech CSE, 5th semester). Please provide: (1) Learning outcomes for the module (4, Bloom's L3-L5), (2) Pre-class resources per week (Indian MOOC links from NPTEL/SWAYAM, short YouTube lectures, reading chapters), (3) Pre-class quiz with 5 MCQs per week (auto-graded via Google Forms/Moodle), (4) In-class activity plan (think-pair-share, board problems, peer instruction with clickers), (5) Post-class assignment (1 coding problem per week on HackerRank India or Codeforces with Indian theme), (6) Assessment rubric for the final group problem-solving session, (7) Handling students with low bandwidth (mobile-first design, downloadable PDFs), (8) CO-PO mapping, (9) Reflection journal template for the instructor. Format as a week-by-week instructor playbook.",
+      "tags": [
+        "flipped-classroom",
+        "pedagogy",
+        "nptel",
+        "swayam",
+        "algorithms"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-032",
+      "title": "Guide-Student DRC Progress Report Template",
+      "prompt": "Act as a PhD supervisor at an IIT preparing half-yearly DRC progress reports for 3 scholars. Create a template that can be customised per scholar. Please provide: (1) Scholar profile fields (name, roll number, area, registration date, current semester), (2) Objectives set in the previous DRC meeting and progress against each (Achieved / Partial / Not achieved with reasons), (3) Publications (submitted/accepted/published) with journal names and quartiles, (4) Conferences attended/presented, (5) Coursework and comprehensive exam status, (6) Proposed objectives for the next 6 months with milestones, (7) Risks and supervisor-scholar action items, (8) Self-assessment by the scholar (half-page) and supervisor's remarks (half-page), (9) DRC comments section, (10) Signature block. Also include: guidance notes for supervisors on how to give honest yet motivating feedback and handle stalled scholars; a red-flag checklist (if no outputs for 12 months, initiate intervention). Format as a fillable form adaptable across disciplines.",
+      "tags": [
+        "phd-progress",
+        "drc",
+        "supervision",
+        "template",
+        "iit"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-033",
+      "title": "UGC-CARE Journal Selection Advisor",
+      "prompt": "Act as a research mentor who regularly advises faculty on target journal selection. I have a manuscript ready on \"Consumer behaviour toward UPI adoption among senior citizens in tier-3 Indian cities\". Help me shortlist suitable UGC-CARE Group I and Scopus-indexed journals and build a submission plan. Please provide: (1) A shortlist of 8 journals (4 Indian, 4 international) appropriate to topic and methodology, with: journal name, publisher, scope fit, latest SJR/CiteScore, UGC-CARE listing status, average review time, acceptance rate if known, APC in INR, open-access policy, (2) A ranking recommendation (first choice, backup, stretch), (3) Red flags for predatory journals and Beall's-style checks, (4) A cover letter template per journal customisable with 3 placeholders, (5) Advice on pre-submission inquiry where applicable, (6) Journal-specific formatting checklist, (7) A tracker template (submission date, status, decision, notes), (8) Guidance on handling desk rejection and transfer offers. Format as an advisory note plus a shortlist table.",
+      "tags": [
+        "ugc-care",
+        "scopus",
+        "journal-selection",
+        "research-publishing",
+        "predatory-journals"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-034",
+      "title": "Mini Research Project Proposal for UG Students",
+      "prompt": "Act as an undergraduate research coordinator at a DU college running the Innovation Projects scheme. Help me guide a group of 4 B.A. History 2nd-year students to draft a mini-research proposal titled \"Oral histories of the Partition among second-generation families in Old Delhi\". Please provide: (1) Background and justification (250 words), (2) Research questions (3, feasible for undergraduates), (3) Objectives, (4) Methodology: purposive sampling (n=20), semi-structured interviews in Hindi/Urdu, thematic analysis, (5) Ethical protocol (consent, anonymisation, archiving with permission, IRB-lite), (6) Timeline (6 months), (7) Budget in INR (transport, recorder, transcription, honoraria), (8) Division of labour among 4 students, (9) Expected outputs (report, 1 conference presentation, possible e-exhibition), (10) Risks and mitigation (trauma-sensitive interviewing, language). Format as a student-friendly proposal aligned with DU undergraduate research policy. Keep tone pedagogical — this doubles as a teaching document for research literacy.",
+      "tags": [
+        "undergraduate-research",
+        "proposal",
+        "oral-history",
+        "methodology",
+        "du"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-035",
+      "title": "SEE Answer Scheme and Moderation Guide",
+      "prompt": "Act as a Chief Examiner for a state technical university with 15 years of experience preparing answer schemes (key answers) and moderation guides for semester-end exams. For the subject \"Computer Networks\" (B.Tech CSE 5th sem, 100-mark SEE, 3-hour duration), prepare an answer scheme. Please provide: (1) A 10-question paper (Part A: 2 x 10 marks; Part B: 4 x 10 marks out of 6 with internal choice; Part C: 2 x 20 mark problem-solving), (2) Detailed model answers for each question with step-wise marking (e.g., formula 1 mark, substitution 1 mark, answer 1 mark), (3) Alternative acceptable approaches flagged, (4) Common student errors and partial-credit rules, (5) Moderation instructions for 30 examiners grading 2000 scripts (consistency norms, random sample audit of 5%), (6) Guidance on benefit-of-doubt policy, (7) Grace-mark policy per university ordinance, (8) Result-freeze checklist. Format as an official answer scheme booklet. Tone: authoritative and unambiguous.",
+      "tags": [
+        "answer-scheme",
+        "moderation",
+        "semester-end",
+        "see",
+        "examination"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-036",
+      "title": "Thesis Advisory Committee Meeting Agenda",
+      "prompt": "Act as a DRC convenor at a central university preparing the first Thesis Advisory Committee (TAC) meeting agenda for a newly admitted PhD scholar in Public Health. Please provide: (1) Meeting invite email to 5 members (supervisor, co-supervisor, 2 DRC members, HoD) with date/time/venue placeholders, (2) Formal agenda with 8 items: scholar introduction, brief research interest presentation, coursework requirement confirmation, synopsis development timeline, literature review plan, ethical clearance pathway, publication expectations, next review date, (3) Pre-read document list the scholar must circulate 3 days in advance, (4) A 20-minute presentation template (Title, motivation, research questions, tentative methodology, timeline, support sought), (5) Minutes template to be filled during the meeting, (6) Action-item tracker with owners and due dates, (7) Post-meeting follow-up email template, (8) Notes for supervisors on creating a supportive yet rigorous TAC culture. Format as a ready-to-use packet the DRC office can circulate.",
+      "tags": [
+        "tac",
+        "phd",
+        "drc",
+        "meeting-agenda",
+        "supervision"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-037",
+      "title": "Faculty Development Programme Proposal",
+      "prompt": "Act as an FDP coordinator at an AICTE-approved institution applying for an AICTE-ATAL or AICTE Training and Learning Academy FDP grant. Draft a complete proposal for a 5-day online FDP on \"Applied AI and Generative Models in Higher Education\". Please provide: (1) Theme and relevance (aligned with NEP 2020 and AICTE priorities), (2) Learning objectives (6), (3) Target audience (100 faculty, mix of Assistant/Associate Professors), (4) Day-wise schedule with 3 sessions per day (total 15 sessions, topics: GenAI fundamentals, prompt engineering for teaching, LLM-assisted assessment, ethical AI use, AI for research writing, hands-on Colab labs, etc.), (5) Resource persons profile (mix of IIT/IIIT + industry), (6) Delivery platform (MS Teams/Zoom + Moodle), (7) Assessment (pre/post test, hands-on assignment, certificate eligibility criteria with 80% attendance), (8) Budget in INR under AICTE heads (honorarium, platform, content, admin, contingency), (9) Expected outcomes and post-FDP follow-up, (10) PI and institutional commitment note. Format per AICTE portal.",
+      "tags": [
+        "fdp",
+        "aicte",
+        "atal",
+        "faculty-development",
+        "generative-ai"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-038",
+      "title": "Quantitative Methodology Design for Survey Research",
+      "prompt": "Act as a quantitative methods expert advising a PhD scholar at a central university. The scholar is studying \"Determinants of entrepreneurial intention among final-year engineering students in Tamil Nadu\". Help design a rigorous survey methodology. Please provide: (1) Theoretical model (Theory of Planned Behaviour extended with entrepreneurial self-efficacy), (2) Hypotheses (6, directional), (3) Variables and their operationalisation with validated scales (cite sources), (4) Questionnaire structure (sections, 45-50 items, 5-point Likert), (5) Pilot study plan (n=60), reliability and validity checks (Cronbach's alpha, CFA), (6) Sample size calculation using G*Power (effect size, alpha, power), (7) Sampling frame (list of 15 engineering colleges, stratified by NBA/non-NBA, tier), (8) Data collection protocol (online + offline, Indian college permissions), (9) Analysis plan (SEM in AMOS or SmartPLS, mediation tests), (10) Ethical considerations and consent form wording. Format as a methodology chapter draft (Chapter 3) of 1500 words.",
+      "tags": [
+        "quantitative-methods",
+        "survey-research",
+        "sem",
+        "phd-guidance",
+        "research-methodology"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-039",
+      "title": "Course Exit Survey for Indirect CO Attainment",
+      "prompt": "Act as an OBE coordinator at an NBA-accredited institution. Design a course-exit survey that captures indirect CO attainment for the course \"Power Electronics\" (B.Tech EEE, 6th semester) with 5 COs. Please provide: (1) Introductory note to students explaining confidentiality and purpose, (2) Demographic items (3), (3) 5 CO-specific statements in plain language (one per CO), each on a 5-point Likert scale (1=strongly disagree, 5=strongly agree), (4) 5 reverse-coded attention check statements, (5) Open-ended items on most useful topic, least useful, suggestions for pedagogy, tools/equipment gaps, (6) Instructions for scoring and aggregating into an indirect attainment score (% of students scoring >=4), (7) A computation rule to combine direct (80%) and indirect (20%) into final CO attainment, (8) A visualisation template (bar chart per CO), (9) Action Taken Report (ATR) template for closing the loop, (10) Ethics note (voluntary, anonymised). Format as a ready-to-administer Google Form structure.",
+      "tags": [
+        "course-exit-survey",
+        "indirect-attainment",
+        "obe",
+        "nba",
+        "co-attainment"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    },
+    {
+      "id": "teachers-college-professors-040",
+      "title": "Grant Rebuttal Letter to Reviewer Comments",
+      "prompt": "Act as a senior researcher with experience responding to SERB/DST reviewer comments on grant proposals. My SERB CRG proposal on \"Low-cost wearable sensors for cardiac monitoring in rural India\" received mixed reviews: Reviewer 1 asked for stronger preliminary data, Reviewer 2 questioned the novelty vs prior Indian work (cited IIT Madras group), Reviewer 3 flagged budget as inflated. Help me draft a point-by-point rebuttal for revision and resubmission. Please provide: (1) A cover letter (250 words) thanking reviewers and summarising changes, (2) Point-by-point responses with: reviewer comment quoted verbatim, response paragraph, pointer to page/line in the revised proposal where changes are made, (3) For preliminary data — how to reframe existing pilot results persuasively without fabrication, (4) For novelty — a comparison table differentiating my proposal from the IIT Madras group on 5 dimensions, (5) For budget — a revised budget with cuts and justification, (6) Diplomatic language template for disagreeing with a reviewer, (7) A final checklist before resubmission (tracked-changes file, clean file, revised budget, letter). Format as a formal rebuttal document.",
+      "tags": [
+        "grant-rebuttal",
+        "serb",
+        "reviewer-response",
+        "resubmission",
+        "dst"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "college-professors"
+    }
+  ]
+}

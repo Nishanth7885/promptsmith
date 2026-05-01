@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "engineering-manufacturing-production-engineers-001",
+      "title": "5S Implementation Audit for MSME Shopfloor",
+      "prompt": "Act as a Lean manufacturing consultant with 12 years of experience implementing 5S across Indian MSME shopfloors in Pune and Gurugram. I manage a 45-worker auto-component machining unit supplying tier-2 parts to Tata Motors and Mahindra. We want to launch our first structured 5S program on the CNC and VMC section (12 machines, 3 shifts). Please provide: (1) A week-by-week 6-week rollout plan covering Sort, Set in Order, Shine, Standardize, Sustain with clear owners and daily time commitments, (2) A 30-point audit checklist in English and simple Hindi terms the operators can understand, (3) A red-tag procedure for unused tooling, fixtures, and WIP with disposal rules, (4) A shadow-board and tool-trolley layout recommendation with visual-management color codes, (5) KPIs to track (search time per tool, walking distance, near-miss count, housekeeping score) with target values, (6) A sustain plan using layered process audits by shift in-charge, production head, and plant head. Format as a structured implementation playbook with tables, a sample audit sheet, and a one-page visual dashboard mockup described in text. Consider Indian shopfloor realities: contract labour turnover, monsoon humidity, limited 5S budget under Rs 2 lakh, and the need to align with IATF 16949 housekeeping clauses.",
+      "tags": [
+        "5s",
+        "lean",
+        "msme",
+        "shopfloor",
+        "audit"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-002",
+      "title": "OEE Calculation and Loss Tree for CNC Line",
+      "prompt": "Act as a production engineer with 8 years of experience at a Bajaj Auto vendor plant in Chakan, Pune. I operate a 6-machine CNC turning line producing crankshaft pins, running 3 shifts of 8 hours each with two 15-minute tea breaks and one 30-minute lunch per shift. Planned downtime includes 20 minutes setup per shift and 10 minutes TPM. Yesterday the line produced 4,820 good parts against an ideal cycle time of 42 seconds per part; 160 parts were rejected and 95 were reworked. Please provide: (1) A step-by-step OEE calculation showing Availability, Performance, and Quality with every number substituted, (2) A world-class benchmark comparison (85 percent) and gap analysis, (3) A Six Big Losses breakdown mapped to this line with estimated minutes lost per shift, (4) A prioritized Pareto of likely root causes for an Indian auto-component context (tool wear, coolant issues, power fluctuation, operator absenteeism, changeover), (5) Three quick-win countermeasures achievable within two weeks without capex, (6) An OEE tracking template for daily shift logging by operators with minimal English. Format as an analysis report with calculation tables, a loss tree diagram described in text, and an action register with owners and target dates. Align recommendations with TPM pillars and IATF 16949 requirements.",
+      "tags": [
+        "oee",
+        "tpm",
+        "cnc",
+        "loss-analysis",
+        "six-big-losses"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-003",
+      "title": "Daily Production Huddle Agenda and SQDCP Board",
+      "prompt": "Act as a shift production engineer with 5 years of experience at a Hero MotoCorp vendor unit in Haridwar. I want to launch a 15-minute daily shopfloor huddle for my 28-person assembly cell. Please create: (1) A fixed 15-minute huddle agenda broken into minute-by-minute segments covering Safety, Quality, Delivery, Cost, and People (SQDCP), (2) An SQDCP board layout with specific KPIs, target values, and red-green thresholds for each pillar, (3) A daily data-capture template operators can fill in 2 minutes at shift end, (4) Rules for escalation when any pillar turns red two days in a row, (5) A sample week of dialogue prompts the shift in-charge should ask the team, (6) A 30-60-90 day maturity roadmap from basic stand-up to problem-solving huddles with A3s. Format as a facilitator guide with the board described visually, sample scripts in simple English and Hindi, and a printable agenda card. Consider Indian context: mixed English-Hindi communication, contract workers, absenteeism tracking, and alignment with customer audit expectations from OEMs like Hero and Honda.",
+      "tags": [
+        "sqdcp",
+        "daily-management",
+        "huddle",
+        "visual-management",
+        "lean"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-004",
+      "title": "Cycle Time Study and Standard Work Creation",
+      "prompt": "Act as an industrial engineer with 7 years of experience conducting time studies at Maruti Suzuki vendor plants in Manesar. I need to create standard work for a manual sub-assembly station building wiring harness clips, currently staffed by one operator doing 15 elemental steps. Please provide: (1) A time-study data-capture sheet with 20 observation columns, rating factor, and allowance percentages appropriate for Indian ergonomics (personal, fatigue, unavoidable delay), (2) A worked example using 20 sample readings I will input, showing observed time, normal time, and standard time calculation, (3) A standard work combination sheet mapping operator, machine, and walk time, (4) A standard work chart showing layout, walk path, and WIP limits, (5) A job element sheet with quality check points and poka-yoke cues for each step, (6) A training plan to certify operators on the new standard within one week. Format as a complete standard work package with tables and described diagrams. Consider Indian shopfloor constraints: heat stress allowances in summer, female operator ergonomic norms, and IATF 16949 documented-information requirements.",
+      "tags": [
+        "time-study",
+        "standard-work",
+        "cycle-time",
+        "industrial-engineering",
+        "lean"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-005",
+      "title": "Preventive Maintenance Schedule for Press Shop",
+      "prompt": "Act as a maintenance engineer with 10 years of experience in sheet-metal press shops at Tata Motors Sanand. I manage 8 mechanical presses ranging from 200 to 800 tonnes, 4 hydraulic presses, 2 shearing machines, and 3 overhead cranes. Please create: (1) A time-based preventive maintenance matrix with daily, weekly, monthly, quarterly, half-yearly, and yearly tasks for each equipment type, (2) A PM checklist per frequency with clear go/no-go criteria and tools required, (3) A spare-parts min-max list with criticality A/B/C classification and estimated INR value for safety stock, (4) A PM calendar distributing tasks across 4 technicians without exceeding 6 hours per day per technician, (5) A lubrication chart with brand-neutral oil grades, quantity, and frequency, (6) KPIs to measure PM effectiveness (MTBF, MTTR, PM compliance, breakdown hours). Format as a maintenance plan with tables and a weekly schedule grid. Consider Indian factors: Bureau of Indian Standards lubricant equivalents, monsoon rust prevention, power-cut impact on hydraulics, and Factories Act statutory crane testing requirements.",
+      "tags": [
+        "preventive-maintenance",
+        "press-shop",
+        "mtbf",
+        "spares",
+        "maintenance-planning"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-006",
+      "title": "Takt Time and Line Balancing Basics",
+      "prompt": "Act as a production engineer with 6 years of experience at a TVS Motor vendor in Hosur. I run a manual assembly line with 9 stations producing brake-lever sub-assemblies. Customer demand is 2,400 units per day across 2 shifts of 8 hours with 45 minutes of breaks per shift. Current station times in seconds are: 28, 42, 31, 38, 55, 29, 33, 40, 26. Please provide: (1) A takt time calculation with every input shown clearly, (2) A Yamazumi (station load) chart described in text showing current imbalance versus takt line, (3) Identification of the bottleneck and slack stations with percentage imbalance, (4) Three line-balancing options (rebalance only, rebalance plus small kaizen, rebalance plus one extra operator) with expected cycle time and manpower cost in INR, (5) A step-by-step element transfer plan to reach 85 percent balance efficiency, (6) A recalculated Yamazumi after rebalancing with new station times. Format as a line-balancing report with calculation tables, a before/after comparison, and a recommendation. Consider cost assumptions: operator cost Rs 22,000 per month loaded, factory working 26 days per month.",
+      "tags": [
+        "takt-time",
+        "line-balancing",
+        "yamazumi",
+        "assembly",
+        "lean"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-007",
+      "title": "Fishbone Analysis for Rejection Spike",
+      "prompt": "Act as a quality engineer with 6 years of experience at an L&T Heavy Engineering unit in Vadodara. Last week rejection on a machined flange jumped from 0.8 percent to 4.2 percent, threatening our weekly dispatch to a BHEL project. The defect is oversized bore diameter beyond the +0.02 mm tolerance. Please provide: (1) A full 6M Ishikawa fishbone (Man, Machine, Material, Method, Measurement, Environment) with at least 5 causes per branch specific to a boring operation, (2) A why-why analysis drilled 5 levels deep on the top 3 suspected causes, (3) A data-collection plan to validate each suspect cause in 48 hours with sample sizes and measurement methods, (4) Immediate containment actions to protect the BHEL dispatch without stopping the line, (5) Permanent corrective actions with owners and due dates, (6) A horizontal deployment check across 4 similar machines. Format as an 8D-style problem-solving report. Consider Indian context: coolant brand switch during monsoon, contract operator rotation, and customer escalation risk with a PSU buyer where 8D submission within 7 days is mandatory.",
+      "tags": [
+        "fishbone",
+        "8d",
+        "root-cause",
+        "quality",
+        "rejection"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-008",
+      "title": "Poka-Yoke Ideas for Assembly Errors",
+      "prompt": "Act as a Lean manufacturing engineer with 8 years of experience designing poka-yoke (mistake-proofing) solutions for Indian auto assembly lines. My motorcycle handlebar sub-assembly has 4 recurring errors: (a) left and right switch housings swapped, (b) missing rubber grommet, (c) wrong-length screw used, (d) incorrect torque on clamp bolt. Please provide: (1) For each error, three poka-yoke concepts ranging from Rs 500 to Rs 50,000 investment, classified as prevention or detection and as contact, fixed-value, or motion-step methods, (2) A scoring matrix rating each concept on cost, effectiveness, operator acceptance, and maintenance, (3) Sketched-in-words fixture or jig descriptions with dimensions where relevant, (4) A recommended poka-yoke bundle totalling under Rs 75,000 for all 4 errors, (5) Validation method and sample size to prove effectiveness, (6) A standard work update and operator-training note. Format as an engineering concept report with comparison tables and clear implementation steps. Consider Indian supplier availability for sensors, air cylinders, and vision systems, and ensure the solution fits IATF 16949 error-proofing verification requirements.",
+      "tags": [
+        "poka-yoke",
+        "mistake-proofing",
+        "assembly",
+        "quality",
+        "lean"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-009",
+      "title": "Kanban System Design for WIP Control",
+      "prompt": "Act as a materials and production planning engineer with 7 years of experience at a Mahindra tractor transmission plant in Nagpur. I want to replace a push-based WIP system with a two-bin kanban between my gear-cutting section and heat treatment. Daily demand is 480 gears across 6 part numbers with setup time of 25 minutes at gear-cutting. Lead time from gear-cut to heat-treat completion is 6 hours; safety factor 20 percent. Please provide: (1) A kanban sizing formula and worked calculation for each of the 6 part numbers, (2) A bin and card design with part number, quantity, color code, and visual trigger, (3) A kanban board layout (heijunka box) for level loading across the shift, (4) Rules for kanban usage including what to do on stockout, defect, and shift change, (5) A 4-week pilot plan with go/no-go criteria and data to capture, (6) Expected WIP reduction in units and INR, assuming average gear inventory carrying cost of Rs 320 per unit per month. Format as a kanban implementation plan with tables, a visual board description, and an ROI summary.",
+      "tags": [
+        "kanban",
+        "wip",
+        "pull-system",
+        "lean",
+        "heijunka"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-010",
+      "title": "Shift Handover Checklist and Log",
+      "prompt": "Act as a senior production supervisor with 9 years of experience at a Bajaj Auto Waluj plant. I want to standardize shift handover between outgoing and incoming shift in-charges on my engine assembly line to prevent quality escapes and missed maintenance alerts. Please create: (1) A one-page shift handover checklist covering Safety incidents, Quality holds, Production vs plan, Manpower attendance, Machine status, Material shortages, Open CAPAs, and Pending customer escalations, (2) A formal 10-minute handover meeting agenda with timing, (3) A handover logbook template (physical page) with signature blocks and traceability, (4) Rules for red-flag items that must be escalated to plant head, (5) A weekly audit sheet for the plant manager to verify handover quality, (6) KPIs to track handover effectiveness (missed escalations, repeat issues, audit score). Format as a supervisor toolkit with printable templates and clear do/do-not rules. Write the operator-facing portions in simple bilingual English-Hindi phrases suitable for a Marathi-speaking shopfloor.",
+      "tags": [
+        "shift-handover",
+        "supervision",
+        "daily-management",
+        "standard-work",
+        "production"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-011",
+      "title": "Spaghetti Diagram and Layout Improvement",
+      "prompt": "Act as an industrial engineer with 6 years of experience optimizing shopfloor layouts at MSME units in the Faridabad auto cluster. I have a 40 m x 25 m machining section with 9 machines placed historically in a process layout. The part travels 165 meters and is touched 14 times before completion. Please provide: (1) A spaghetti diagram methodology explained in steps an Indian diploma engineer can follow, (2) A data-capture sheet to track operator walk, part travel, and handling touches over one shift, (3) Three alternative layouts (U-cell, linear flow, C-cell) with pros and cons for a 400-unit daily output, (4) Expected distance and touch reductions for each layout in meters and percentage, (5) A move-plan with foundation, power, and coolant piping considerations costed in INR, (6) A risk assessment for the layout change including production loss during shifting. Format as a layout improvement proposal with described diagrams, comparison tables, and a recommendation. Consider Indian MSME constraints: shed height 6 m, single power transformer, and the need to keep running during the change.",
+      "tags": [
+        "spaghetti-diagram",
+        "layout",
+        "material-flow",
+        "lean",
+        "cell-design"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-012",
+      "title": "Capacity Calculation for New Order Acceptance",
+      "prompt": "Act as a production planning engineer with 8 years of experience at a Chennai auto-component exporter near Sriperumbudur. Sales has received a new enquiry for 18,000 machined brake calipers per month from a European customer. My current machine capacity across 4 VMCs is 22,000 parts per month running 2 shifts, with current loading at 78 percent. Cycle time for the new part is 6.2 minutes; existing parts average 5.4 minutes. Please provide: (1) A rated capacity calculation showing available hours, utilization, efficiency, and good-part output, (2) A load-chart comparing current demand, new demand, and available capacity machine-wise, (3) A clear go/no-go recommendation with conditions, (4) Three capacity-expansion options (3rd shift, Saturday working, one new VMC) with capex, opex, and payback in INR, (5) Impact on OEE, manpower, tooling, and power consumption, (6) A risk-register for quality ramp-up and PLI scheme eligibility impact if applicable. Format as a capacity assessment report with tables, a recommendation, and an approval note for the plant head and CFO.",
+      "tags": [
+        "capacity-planning",
+        "load-chart",
+        "production-planning",
+        "capex",
+        "pli"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-013",
+      "title": "Kaizen Event One-Week Plan",
+      "prompt": "Act as a Kaizen facilitator with 10 years of experience running week-long Kaizen events at Indian automotive plants. I want to run a 5-day Kaizen event on a welding fixture changeover that currently takes 78 minutes, targeting under 20 minutes using SMED. My team has 6 members including 2 welders, 1 setter, 1 maintenance fitter, 1 quality engineer, and myself. Please provide: (1) A day-by-day event agenda from Monday to Friday with morning and afternoon sessions, (2) Pre-event data and preparation checklist (video recording, part sample, tools, spares), (3) A SMED separation worksheet for internal vs external elements, (4) Brainstorming prompts to convert internal to external and to eliminate wasted motions, (5) A trial-run protocol with sample size to validate the new changeover, (6) A closeout presentation template for management including INR savings from freed-up capacity. Format as a Kaizen event playbook with hourly schedule, templates, and a results reporting format. Consider Indian plant culture: daily tea breaks, senior-management gemba walks, and photo documentation for the Kaizen wall.",
+      "tags": [
+        "kaizen",
+        "smed",
+        "changeover",
+        "lean",
+        "quick-changeover"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-014",
+      "title": "Operator Skill Matrix and Training Plan",
+      "prompt": "Act as an HR-cum-training engineer with 7 years of experience at a TVS vendor unit in Hosur. My fabrication shop has 22 operators and 8 critical skills: MIG welding, TIG welding, grinding, CNC laser operation, press brake, drilling, inspection, and overhead crane handling. Please provide: (1) A skill-matrix template with 4 levels (aware, can do with help, can do alone, can train others) and visual symbols, (2) A current-state assessment method using a 30-minute practical test per skill, (3) A gap analysis to ensure every shift has 2 trained operators in each critical skill, (4) A 90-day training plan with trainer, trainee, duration, and evaluation method, (5) A certification process including written test, practical test, and probation period, (6) Integration with IATF 16949 clause 7.2 competence requirements and Factories Act training records. Format as a training toolkit with templates, a sample filled skill matrix, and an audit-ready documentation folder structure. Consider Indian context: contract labour rotation, vernacular training material, and the need for photo-evidence for customer audits.",
+      "tags": [
+        "skill-matrix",
+        "training",
+        "competence",
+        "iatf-16949",
+        "workforce"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-015",
+      "title": "Waste Walk and 7 Wastes Identification",
+      "prompt": "Act as a Lean coach with 12 years of experience teaching the 7 wastes (TIMWOOD) at Indian manufacturing plants. I want to run a 90-minute shopfloor waste walk with 8 engineers on my paint-shop line at a two-wheeler plant in Pantnagar. Please provide: (1) A 15-minute classroom refresher on the 7 wastes plus Skill as the 8th, with Indian shopfloor examples for each, (2) A waste-walk observation sheet with columns for waste type, location, description, estimated impact, and quick-fix idea, (3) A specific 60-minute route through the paint shop hitting pre-treatment, primer, top-coat, and drying oven, (4) Facilitator prompts to help engineers see waste they normally miss, (5) A 15-minute debrief format to consolidate findings and vote top 10 wastes, (6) A follow-through plan converting wastes into Kaizen sheets with owners and due dates. Format as a coach's facilitation guide with printable observation sheets and a sample filled example. Consider paint-shop specifics: VOC limits, solvent wastage, rework booths, and energy cost of drying ovens.",
+      "tags": [
+        "7-wastes",
+        "muda",
+        "waste-walk",
+        "lean",
+        "kaizen"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-016",
+      "title": "Quality Control Plan for New Part",
+      "prompt": "Act as a quality planning engineer with 8 years of experience at a Maruti Suzuki tier-1 supplier in Gurugram. I am launching a new machined aluminium bracket with 14 characteristics, of which 3 are critical (marked with diamond symbol), 5 are significant (marked with triangle), and 6 are standard. Production volume is 6,000 parts per month on 2 CNC machines. Please provide: (1) A full control plan in IATF 16949 format with part number, process step, characteristic, specification, measurement method, sample size, frequency, reaction plan, and record, (2) Clear sampling rules for CTQ vs CTS vs standard features, (3) Gauge selection recommendations (fixed gauge, CMM, height gauge, air gauge) with cost-benefit in INR, (4) A reaction plan template for out-of-control situations including containment, segregation, and customer notification, (5) Linkage to PFMEA ranking and process capability requirement (Cpk greater than 1.67 for CTQ, 1.33 for CTS), (6) A first-article inspection protocol for line startup each shift. Format as a control plan document ready for customer PPAP submission.",
+      "tags": [
+        "control-plan",
+        "iatf-16949",
+        "ppap",
+        "quality-planning",
+        "cpk"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-017",
+      "title": "SPC Chart Setup and Interpretation",
+      "prompt": "Act as a quality engineer with 9 years of SPC expertise at a Bosch vendor plant in Bangalore. I need to implement X-bar and R charts on a grinding operation producing a shaft diameter with specification 25.00 plus or minus 0.02 mm. I will sample 5 consecutive parts every hour across a 3-shift operation. Please provide: (1) Step-by-step data-collection protocol including who, when, and how samples are pulled without biasing the process, (2) Calculation of control limits using A2, D3, D4 constants with a worked example using 25 subgroups of sample data you will generate realistically, (3) Interpretation rules (Western Electric and Nelson) with visual description of each rule, (4) A reaction plan matrix mapping each out-of-control signal to a specific action by operator, setter, or engineer, (5) Cpk and Ppk calculation with classification (capable, marginal, incapable), (6) An SPC logbook template and a training module for line operators explaining charts in simple terms. Format as a complete SPC implementation package with tables, described charts, and an Indian shopfloor training note in simple English plus Kannada keywords.",
+      "tags": [
+        "spc",
+        "control-charts",
+        "cpk",
+        "ppk",
+        "quality"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-018",
+      "title": "DMAIC Project Charter for Scrap Reduction",
+      "prompt": "Act as a certified Six Sigma Black Belt with 11 years of experience leading DMAIC projects at Indian automotive plants. I need to launch a project to reduce scrap on a high-pressure aluminium die-casting line at a Mahindra supplier in Chakan. Current scrap is 6.8 percent worth Rs 42 lakh per month; target is 3.0 percent within 4 months. Please provide: (1) A full DMAIC project charter with problem statement, business case in INR, goal statement (SMART), scope (in/out), team roster with roles, milestones, and risks, (2) A SIPOC diagram for the die-casting process, (3) A measurement-system analysis plan for scrap classification (gauge R and R if relevant, attribute agreement analysis), (4) Data-collection plan for 4 weeks with operational definitions of each defect type (porosity, cold shut, flash, shrinkage), (5) Tollgate checklist to close Define and enter Measure phase, (6) A stakeholder communication plan including plant head, operations, maintenance, quality, and finance. Format as a Black Belt project charter document ready for champion approval. Consider PLI scheme implications if scrap reduction improves value-addition thresholds.",
+      "tags": [
+        "dmaic",
+        "six-sigma",
+        "project-charter",
+        "die-casting",
+        "scrap-reduction"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-019",
+      "title": "Process Capability Study Plan",
+      "prompt": "Act as a senior quality engineer with 10 years of experience conducting process capability studies under IATF 16949 and customer PPAP requirements for Honda and Toyota supply. I need to run a capability study on a new hobbing operation for a gear with tooth thickness spec 4.50 plus 0.00 minus 0.05 mm. The customer demands Ppk greater than 1.67 at PPAP and Cpk greater than 1.33 in serial production. Please provide: (1) A study plan with sample size (minimum 125 consecutive parts), sampling frequency, and measurement instrument (gear roll tester or CMM), (2) Pre-study checks for process stability including short-run SPC, (3) Normality test protocol (Anderson-Darling) and action if data is non-normal (Box-Cox transform or non-parametric Ppk), (4) Calculation walkthrough using 25 sample data points you will simulate realistically, showing mean, sigma, Cp, Cpk, Pp, Ppk, (5) Interpretation and improvement path if Ppk is below target, including MSA re-verification, (6) A capability report template suitable for customer PPAP submission in AIAG format.",
+      "tags": [
+        "process-capability",
+        "ppk",
+        "cpk",
+        "ppap",
+        "iatf-16949"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-020",
+      "title": "Value Stream Map Current and Future State",
+      "prompt": "Act as a Lean transformation leader with 14 years of experience drawing value stream maps at Indian auto component plants. My product family is a pressed and welded bracket flowing through blanking, forming, welding, powder coating, and dispatch to a Tata Motors plant 40 km away. Customer demand is 1,200 pieces per day. Current lead time is 9 days with only 34 minutes of value-added time. Please provide: (1) A current-state VSM described in text with all process boxes, data boxes (C/T, C/O, uptime, manpower, EPEI), inventory triangles in days, push/pull arrows, and info flow from MRP and customer, (2) Identification of 8 biggest wastes with quantification, (3) Future-state vision using takt time, continuous flow where possible, supermarket pull, pacemaker, and leveled scheduling, (4) A future-state VSM reducing lead time to under 4 days with target metrics, (5) A kaizen burst list with owners, due dates, and INR investment, (6) A 6-month rollout plan with monthly gates and KPIs. Format as a full VSM report with described diagrams and an executive summary.",
+      "tags": [
+        "vsm",
+        "value-stream-mapping",
+        "lean",
+        "flow",
+        "lead-time"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-021",
+      "title": "TPM Rollout Plan Across 8 Pillars",
+      "prompt": "Act as a TPM coordinator with 12 years of experience deploying Total Productive Maintenance in Indian plants. I lead TPM at a 320-worker pump manufacturing unit in Coimbatore. Current OEE is 58 percent; target is 75 percent in 18 months. Please provide: (1) A TPM steering structure with pillar leaders for Autonomous Maintenance, Planned Maintenance, Kobetsu Kaizen, Quality Maintenance, Early Management, Education and Training, Office TPM, and Safety Health Environment, (2) A month-wise 18-month master plan with milestones for each pillar, (3) Jishu Hozen 7-step rollout on a model machine including initial cleaning, source elimination, standards, and general inspection, (4) KPI cascade from plant OEE down to machine-level AM and PM metrics, (5) Training calendar for operators, setters, and engineers with hours per role, (6) A management audit scoring sheet aligned with JIPM TPM Excellence Award criteria. Format as a TPM master plan with tables, described visual boards, and a budget estimate in INR covering training, cleaning materials, and tag management.",
+      "tags": [
+        "tpm",
+        "autonomous-maintenance",
+        "oee",
+        "jipm",
+        "planned-maintenance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-022",
+      "title": "SMED Analysis to Cut Changeover Time",
+      "prompt": "Act as a SMED expert with 10 years of experience cutting changeover times on stamping presses at Maruti Suzuki vendor units. My 400-tonne press currently takes 62 minutes to change dies between two bracket part numbers. I have videoed one full changeover. Target is under 9 minutes (single-digit). Please provide: (1) A step-by-step SMED methodology (observe, separate, convert, streamline, standardize), (2) An element breakdown template with 30 typical elements and time in seconds, (3) Separation rules distinguishing internal (press stopped) from external (press running), (4) Conversion ideas like pre-staging dies, pre-heating, quick clamps, roller tables, standardized shut height, and centering pins, (5) Streamlining ideas for parallel operations and eliminated steps, (6) A target-state changeover sequence under 9 minutes with new timings, investment in INR, and payback. Format as a SMED report with before/after time ladders, investment list, and a training note for setters and operators. Consider Indian press-shop constraints: overhead crane availability, die storage racks, and the need for bilingual SOPs.",
+      "tags": [
+        "smed",
+        "changeover",
+        "press-shop",
+        "lean",
+        "setup-reduction"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-023",
+      "title": "Heijunka Box Design for Mixed Model Line",
+      "prompt": "Act as a production planner with 9 years of experience leveling production at a Hero MotoCorp vendor in Neemrana. My assembly line builds 6 variants of handlebar assemblies with weekly demand mix 40 percent A, 25 percent B, 15 percent C, 10 percent D, 6 percent E, 4 percent F, total 4,800 units per week, 2 shifts. Please provide: (1) Takt time and pitch calculation with pitch set at 30 minutes, (2) A heijunka (level loading) calculation distributing the 6 variants across each shift in repeating EPEI cycles, (3) A heijunka box layout described visually with rows for each variant and columns for each pitch, (4) Rules for pulling kanbans from the box by the water spider, (5) Impact on WIP, changeover frequency, and responsiveness to mix changes, (6) A pilot plan to test leveling for 2 weeks with KPIs. Format as a leveling design document with tables, a described heijunka box, and before/after WIP comparison in INR. Consider Indian realities: erratic customer call-offs, MRP system constraints, and the need for manual kanban plus system confirmation.",
+      "tags": [
+        "heijunka",
+        "leveling",
+        "epei",
+        "lean",
+        "production-planning"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-024",
+      "title": "Gauge R and R Study and Decision",
+      "prompt": "Act as a measurement systems analysis expert with 8 years of experience running Gauge R and R studies for PPAP submissions to Toyota Kirloskar and Ford India suppliers. I need to qualify a new digital micrometer measuring a shaft diameter with tolerance 0.04 mm. I plan a study with 10 parts, 3 appraisers, 3 trials each. Please provide: (1) A detailed study protocol including part selection across full tolerance range, randomization method, and blinded appraiser sequence, (2) A data-collection sheet with 90 cells to fill, (3) ANOVA method calculation steps for repeatability, reproducibility, part-to-part, total variation, and percent study variation plus percent tolerance, (4) Acceptance criteria (less than 10 percent acceptable, 10 to 30 percent conditionally acceptable, above 30 percent unacceptable) and decision tree, (5) Actions if the gauge fails: training, clamping fixture, different instrument type (air gauge), or tighter calibration, (6) A report format aligned with AIAG MSA 4th edition for customer PPAP. Format as a full MSA package with worked example, interpretation, and sign-off sheet.",
+      "tags": [
+        "gage-rr",
+        "msa",
+        "ppap",
+        "measurement",
+        "quality"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-025",
+      "title": "Line Balancing with Mixed Manual and Auto",
+      "prompt": "Act as an industrial engineer with 10 years of experience balancing mixed manual-and-robotic cells at a L&T Defence unit in Hazira. My cell has 4 manual stations and 3 robotic welding stations with the following cycle times in seconds: M1=48, R1=72, M2=40, R2=65, M3=52, R3=80, M4=44. Takt time is 75 seconds. Please provide: (1) Identification of the bottleneck (R3) and its impact on throughput, (2) A manual vs robot load analysis with utilization percentages, (3) Options to debottleneck R3: reduce weld length, add a parallel robot, split the weld, offline tack welding, (4) Impact on manpower, floor space, and capex in INR, (5) Rebalanced cell with new station times and operator loading less than or equal to 85 percent, (6) A Yamazumi chart described in text for current and future state, plus a cell layout recommendation. Format as a cell-balancing report with calculation tables, a recommendation, and a 30-day pilot plan. Consider safety clearances for collaborative robots and Factories Act compliance.",
+      "tags": [
+        "line-balancing",
+        "robotics",
+        "yamazumi",
+        "cell-design",
+        "automation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-026",
+      "title": "Layered Process Audit System Design",
+      "prompt": "Act as a quality systems engineer with 9 years of experience implementing Layered Process Audits (LPA) at Ford and GM tier-1 suppliers in Chennai. I need to roll out LPA across 12 production lines with 3 audit layers: operator self-check (daily), supervisor (daily), and manager (weekly). Please provide: (1) An LPA question bank of 40 items covering safety, quality setup, standard work, 5S, poka-yoke, and reaction plans, (2) Rules for layer frequency, rotation, and escalation, (3) A paperless LPA capture method (tablet app or QR-coded paper) with response-time targets for red findings, (4) A weekly governance review agenda including open finding aging, repeat findings, and systemic gaps, (5) Linkage to IATF 16949 clause 9.2.2.2 manufacturing process audits, (6) KPIs: audit compliance, red findings, closure time, and repeat rate. Format as an LPA program manual with the question bank, governance cadence, and a dashboard mockup described in text. Consider Indian supervision realities: dual-role supervisors, shopfloor literacy levels, and the need for bilingual audit questions.",
+      "tags": [
+        "lpa",
+        "layered-process-audit",
+        "iatf-16949",
+        "quality-audit",
+        "governance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-027",
+      "title": "Andon System Specification and Rules",
+      "prompt": "Act as a lean automation engineer with 11 years of experience designing Andon systems at Toyota-affiliated plants in Bidadi. I want to install an Andon for a 10-station engine-sub assembly line with 4 trigger types: safety, quality, material shortage, and method/process. Please provide: (1) Andon architecture with pull-cord or button per station, 4 color lights plus buzzer, and an overhead status board, (2) Rules on who can pull, what happens in the first 60 seconds, response chain, and when the line stops automatically, (3) Response-time targets for each trigger type (e.g., material response within 90 seconds), (4) Andon ticket closure workflow including categorization, root cause, corrective action, and learning capture, (5) A daily and weekly review cadence turning Andon data into Kaizen, (6) Specifications for hardware (PLC, wireless vs wired, IP54 push-buttons) with approximate INR budget suitable for Indian MSME-to-large supplier context, (7) KPIs: pulls per shift, response time, recurrence rate. Format as an Andon system design document with rules, response matrix, and an ROI note.",
+      "tags": [
+        "andon",
+        "jidoka",
+        "lean",
+        "line-stop",
+        "toyota-production-system"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-028",
+      "title": "Energy and Power Consumption Kaizen",
+      "prompt": "Act as an energy efficiency engineer with 10 years of experience reducing power costs at Indian forging and machining plants. My plant in Vadodara has a monthly electricity bill of Rs 58 lakh across induction furnaces, compressors, CNC machines, lighting, and HVAC. Tariff averages Rs 8.40 per kWh. Please provide: (1) A top-down energy Pareto estimating percentage share per consumer category, (2) A metering plan to install sub-meters on top 10 consumers within 45 days, (3) A waste walk checklist identifying compressed air leaks, idle running, oversized motors, and poor insulation, (4) A 15-point Kaizen list with estimated kWh savings per year and INR savings each, (5) Benchmarks for specific energy consumption (kWh per tonne forged, kWh per machining hour) against Indian industry norms, (6) A PAT scheme and BEE Star rating implication if savings exceed 5 percent, (7) A capex-vs-opex summary for the top 5 actions with payback under 18 months. Format as an energy improvement report with tables, prioritized action list, and a tracking dashboard description.",
+      "tags": [
+        "energy-efficiency",
+        "kaizen",
+        "sustainability",
+        "cost-reduction",
+        "pat-scheme"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-029",
+      "title": "New Line Commissioning Ramp-Up Plan",
+      "prompt": "Act as a production engineering manager with 12 years of experience commissioning new assembly lines at Tata Motors and Mahindra under PLI scheme investments. I am commissioning a new EV battery pack assembly line at Sanand with 14 stations, 8 robots, and a target of 1,000 packs per day. Machine-ready is in 8 weeks; SOP in 12 weeks. Please provide: (1) A 12-week ramp-up plan from hot-trial to SOP with weekly gates, (2) A ramp curve from 10 percent to 100 percent volume with learning-curve assumptions, (3) Pre-SOP quality checks including PPAP, Run-at-Rate, and safe-launch rules (double inspection, extra sample size) for first 90 days post-SOP, (4) Manpower training plan: number trained, trainers, certification, shadow-period, (5) Risks: tool readiness, supplier part availability, software commissioning, customer audit, and mitigation for each, (6) KPIs during ramp: FTT, OEE, scrap, escapes, customer complaints, (7) A daily war-room cadence with attendees and escalation matrix. Format as a commissioning and ramp-up playbook with Gantt-style timelines described in text.",
+      "tags": [
+        "commissioning",
+        "ramp-up",
+        "new-line",
+        "pli",
+        "ev-manufacturing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-030",
+      "title": "PFMEA Development for Critical Process",
+      "prompt": "Act as a PFMEA facilitator with 11 years of experience leading AIAG-VDA FMEA workshops at Indian tier-1 auto suppliers. I need to build a PFMEA for a critical heat-treatment process (quench and temper of alloy-steel shafts) at an L&T supplier in Jamshedpur supplying Tata Motors. Please provide: (1) A process step breakdown (loading, austenitizing, quenching, tempering, cleaning, unloading) with function, requirement, and potential failure mode per step, (2) For each failure mode, list failure effects at customer, plant, and next operation with severity rating (1 to 10), (3) Potential causes with occurrence rating and current prevention/detection controls with detection rating, (4) Action Priority (AP) classification H/M/L and recommended actions for all H and M items, (5) Linkage to control plan and work instructions, (6) Responsibility and target date format, (7) Revision management per IATF 16949. Format as a full PFMEA table with at least 25 line items and a cover sheet. Consider typical Indian heat-treat challenges: quench oil quality, furnace atmosphere control, power fluctuation, and operator skill.",
+      "tags": [
+        "pfmea",
+        "aiag-vda",
+        "heat-treatment",
+        "risk-assessment",
+        "iatf-16949"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-031",
+      "title": "Bottleneck Analysis with Theory of Constraints",
+      "prompt": "Act as a Theory of Constraints practitioner with 9 years of experience applying TOC drum-buffer-rope scheduling at a BHEL-Haridwar heavy fabrication shop. My shop has 6 sequential operations (cutting, rolling, welding, machining, heat treatment, painting) with throughput in units per day of 18, 14, 9, 12, 20, 16 respectively. Customer demand is 15 units per day. Please provide: (1) Identification of the constraint (welding at 9/day) and impact on throughput, (2) TOC 5-focusing-steps application: identify, exploit, subordinate, elevate, repeat, (3) Exploit actions to squeeze 30 percent more from welding without capex (overtime, eliminating waste, reducing non-value weld time, cross-training), (4) Subordinate rules: how upstream cutting and rolling should release work, and buffer sizing in hours, (5) Elevate options (second welding bay, sub-contracting, new robotic cell) with capex in INR and throughput impact, (6) Drum-buffer-rope schedule for one week and KPIs for buffer penetration. Format as a TOC analysis report with described flow diagrams, buffer calculations, and a recommendation for the plant head.",
+      "tags": [
+        "toc",
+        "theory-of-constraints",
+        "bottleneck",
+        "dbr",
+        "throughput"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-032",
+      "title": "Operator Work Instruction with Visuals",
+      "prompt": "Act as a standard work author with 7 years of experience writing operator work instructions for Hero MotoCorp and Honda Motorcycle vendors. I need a one-page visual work instruction (OPL style) for a 12-element assembly task on a handlebar switch cluster, for operators with 8th-to-10th-standard education, primarily Hindi-speaking. Please provide: (1) A one-page layout with header (part number, revision, station), element table (step, description, time, key point, reason), photo placeholders, quality checkpoints, and safety warnings, (2) Clear, short sentences in simple English with Hindi transliteration in Devanagari for each step, (3) Visual symbols for Safety, Quality, Critical, and Torque, (4) Torque values and tool identification, (5) A reaction rule if a defect is seen, (6) Approval and revision block compliant with IATF 16949 documented information, (7) A training record template linked to this WI. Format as a printable work instruction with clear sections and an example row filled in. Consider printing on laminated A3 for shopfloor durability.",
+      "tags": [
+        "work-instruction",
+        "standard-work",
+        "visual-management",
+        "bilingual",
+        "iatf-16949"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-033",
+      "title": "Monthly S and OP Capacity and Demand Balance",
+      "prompt": "Act as a Sales and Operations Planning lead with 12 years of experience running monthly S and OP cycles at Mahindra and Bajaj vendor plants. My plant produces 14 SKUs of automotive lighting parts with a monthly demand ranging 80,000 to 120,000 units. I have 3 injection moulding machines and 2 assembly lines, workforce 120, raw material lead time 25 days. Please provide: (1) A 5-step monthly S and OP cycle (data gathering, demand review, supply review, pre-S and OP, executive S and OP) with owners and dates, (2) A 12-month rolling capacity-demand balance template at resource level, (3) Rules for flagging over-capacity and under-capacity periods and the escalation options (overtime, subcontract, inventory build, demand shaping), (4) A financial view tying production plan to revenue, COGS, and EBITDA in INR crore, (5) Scenario playbooks for 15 percent demand up, 15 percent demand down, and raw material delay, (6) KPI dashboard: forecast accuracy, plan adherence, inventory days, customer OTIF, (7) Integration with SAP or Tally Prime for Indian MSME context. Format as an S and OP playbook with templates and sample outputs.",
+      "tags": [
+        "sop",
+        "capacity-planning",
+        "demand-planning",
+        "production-planning",
+        "finance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-034",
+      "title": "Lean Digital Transformation Roadmap",
+      "prompt": "Act as a Lean-Industry 4.0 strategy consultant with 15 years of experience transforming Indian auto and capital-goods plants. I am GM Operations at an L&T Heavy Engineering unit in Hazira. Board wants a 3-year Lean Digital roadmap aligning TPM/Lean maturity with IoT, MES, digital Andon, predictive maintenance, and analytics. Budget Rs 14 crore. Please provide: (1) A maturity assessment framework across 6 dimensions (standard work, flow, pull, quality, TPM, digital) with current and target levels, (2) A 3-year roadmap phased Stabilize (year 1), Optimize (year 2), Digitize (year 3) with milestones, deliverables, and gates, (3) Tech-stack selection criteria for MES, IIoT gateways, SCADA integration, and analytics, with India-friendly options, (4) Investment plan showing year-wise capex and opex in INR crore versus expected OEE uplift, WIP reduction, scrap reduction, and energy savings, (5) Change-management plan including governance, training, shopfloor adoption, and union engagement, (6) Risk register with top 10 risks and mitigations, (7) PLI scheme alignment and benefit capture. Format as a board-ready strategy document with an executive summary, phased plan, and financial business case.",
+      "tags": [
+        "industry-4-0",
+        "digital-transformation",
+        "roadmap",
+        "mes",
+        "strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-035",
+      "title": "Advanced Statistical Problem Solving with DOE",
+      "prompt": "Act as a Master Black Belt with 16 years of experience leading Design of Experiments projects at Bosch, Bajaj, and Hindalco plants. I need to optimize a powder-coating process with 5 factors: gun voltage (60-90 kV), gun distance (150-250 mm), line speed (2-4 m/min), oven temperature (180-210 C), and powder flow (150-250 g/min). Response variables are coating thickness (target 70 +/- 5 microns) and adhesion (minimum 4B cross-hatch). Please provide: (1) A DOE strategy recommendation comparing full factorial, fractional factorial, and response surface methodology (RSM) with pros and cons for this case, (2) A selected design (fractional factorial screening then RSM on vital few) with run matrix, (3) Randomization, blocking, and replication plan, (4) Measurement plan for both responses including MSA, (5) Analysis approach: main effects, interactions, ANOVA, regression equation, contour plots, optimization toward multi-response desirability, (6) Confirmation-run protocol and control plan update post-optimization, (7) Expected Cpk improvement and INR savings from reduced rework and material. Format as a full DOE project plan with analysis flow and a decision sheet.",
+      "tags": [
+        "doe",
+        "design-of-experiments",
+        "six-sigma",
+        "rsm",
+        "optimization"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-036",
+      "title": "Predictive Maintenance Program with ML",
+      "prompt": "Act as a reliability engineering manager with 13 years of experience implementing condition-based and predictive maintenance at Tata Steel Jamshedpur and Maruti Suzuki Manesar. I want to move 40 critical motors and gearboxes on a hot-strip mill from time-based PM to predictive maintenance using vibration, temperature, current signature, and oil analysis. Please provide: (1) A criticality and failure-mode analysis selecting which 40 assets to prioritize and which failure modes are detectable, (2) Sensor selection (tri-axial accelerometer, RTD, current clamp, oil sampling) with expected cost per asset in INR, (3) Data-acquisition architecture (edge gateway, cellular vs wired, cloud vs on-prem) considering Indian connectivity and data-security norms, (4) A machine-learning approach starting with threshold alarms, then trending, then anomaly detection (isolation forest or autoencoder) with required training data volumes, (5) Transition plan from PM to PdM including how PM frequencies are relaxed, (6) KPIs: false positive rate, lead time to failure, MTBF, maintenance cost per tonne, (7) A 12-month pilot plan with gates and a business case in INR crore. Format as a PdM program design with architecture diagram described in text.",
+      "tags": [
+        "predictive-maintenance",
+        "reliability",
+        "iiot",
+        "machine-learning",
+        "condition-monitoring"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-037",
+      "title": "Plant-Wide OEE Improvement Program",
+      "prompt": "Act as a Plant Operations Head with 18 years of experience running OEE improvement programs at Bajaj Auto and TVS Motor plants. I run a 2-wheeler final-assembly plant with 4 lines, current plant OEE 62 percent, target 78 percent in 12 months. Weekly production is 35,000 vehicles; each OEE point is worth Rs 4.2 crore per year in contribution margin. Please provide: (1) An OEE decomposition across Availability, Performance, Quality for each of the 4 lines with current baselines, (2) A loss-tree with top 12 losses prioritized by INR impact, (3) A 12-month improvement program with line-level targets per month, (4) A governance structure: daily shift reviews, weekly OEE council, monthly MRM with plant head and CFO, (5) Top 20 projects (line-level and cross-cutting) with owners, due dates, investment, and INR benefit, (6) Workforce engagement plan including reward and recognition, suggestion scheme, and Kaizen wall, (7) A risk register and contingency plan, (8) Monthly review deck template for the CFO and Managing Director. Format as a plant OEE program design with P and L linkage and a tracking dashboard described in text.",
+      "tags": [
+        "oee",
+        "program-management",
+        "plant-operations",
+        "governance",
+        "kpi"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-038",
+      "title": "Supplier Quality Development and PPAP Recovery",
+      "prompt": "Act as a Supplier Quality Development lead with 14 years of experience at Maruti Suzuki and Mahindra vendor-development teams. A tier-2 forging supplier in Ludhiana has failed PPAP three times due to dimensional variation and audit non-conformities (NCs) in heat treatment and traceability. Customer dispatch is at risk in 30 days. Please provide: (1) A 30-day turnaround plan with day-wise activities, (2) A 3-day rapid diagnostic audit covering process, quality systems, and management controls, (3) Containment at tier-2 and tier-1 with 100 percent inspection and segregation, (4) Root-cause and corrective-action plan using 8D for the 3 top NCs, (5) Resource deployment: resident engineer, daily war room, weekly steering with supplier owner, (6) A PPAP re-submission package checklist (AIAG level 3), (7) Capability development for the supplier: MSA, SPC, calibration, heat-treatment controls, (8) Exit criteria and sustained-performance KPIs for 90 days post-recovery. Format as a supplier recovery playbook with Gantt-style timeline, templates, and escalation rules. Consider Indian MSME supplier constraints and PLI scheme localization incentives.",
+      "tags": [
+        "supplier-quality",
+        "ppap",
+        "8d",
+        "vendor-development",
+        "recovery"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-039",
+      "title": "Full DMAIC Case for First-Time-Through Quality",
+      "prompt": "Act as a Six Sigma Black Belt with 12 years of experience leading FTT (First Time Through) improvement at a Tata Motors commercial-vehicle assembly plant in Jamshedpur. FTT on the cab trim line is 72 percent; target 92 percent in 16 weeks. Monthly volume 9,500 cabs; rework cost per cab Rs 1,850. Please provide a full DMAIC deliverable: (1) Define: problem statement, business case in INR crore per year, project charter with team, milestones, risks, (2) Measure: operational definition of FTT, data collection plan, MSA for visual defects using attribute AAA, baseline Pareto of top 15 defects, (3) Analyze: hypothesis tests for top 5 defects, multi-vari study, cause-and-effect matrix, FMEA update, (4) Improve: countermeasure list with effort-impact matrix, pilot plan on one shift, verification with before/after statistical comparison (2-sample proportion test), (5) Control: updated control plan, SPC where applicable, LPA questions added, training rollout, control charts for FTT, (6) Financial audit and benefit tracking signed off by plant finance, (7) Replication plan to other Tata Motors plants. Format as a full DMAIC storyboard with tables and decision points at each tollgate.",
+      "tags": [
+        "dmaic",
+        "six-sigma",
+        "ftt",
+        "quality",
+        "black-belt"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-production-engineers-040",
+      "title": "Greenfield Plant Capacity Master Plan",
+      "prompt": "Act as a greenfield plant engineering lead with 20 years of experience commissioning automotive plants across Sanand, Chennai, and Pune under PLI scheme incentives. My company is planning a new Rs 1,200 crore EV motor and controller plant on a 40-acre site in Tamil Nadu with phased capacity of 200,000 units year 1 scaling to 600,000 by year 4. Please provide: (1) A capacity master plan with 4 phased modules and timelines, (2) Line-wise process flow (stator winding, rotor assembly, motor assembly, controller SMT and final, test, pack) with takt time and machines required per phase, (3) Building block estimate of manpower, floor area, power demand (MW), water, compressed air, and cleanroom class where needed, (4) Automation-vs-manual trade-off per line with payback in INR, (5) Supplier park and inbound logistics plan with milk runs and cross-dock, (6) Quality system architecture: IATF 16949, ISO 9001, traceability, digital MES from day one, (7) EHS and statutory approvals roadmap (CTE, CTO, Factory Licence, Fire NOC, PCB), (8) PLI scheme eligibility thresholds and value-addition targets, (9) A risk register and a 36-month master schedule with gates. Format as a master-plan document with an executive summary for the board and ROI analysis in INR crore.",
+      "tags": [
+        "greenfield",
+        "master-planning",
+        "capacity",
+        "pli",
+        "ev-manufacturing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "production-engineers"
+    }
+  ]
+}

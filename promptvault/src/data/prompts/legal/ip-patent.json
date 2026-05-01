@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "legal-ip-patent-001",
+      "title": "Draft Independent Patent Claim for Mechanical Invention",
+      "prompt": "Act as an Indian Patent Agent with 12 years of experience filing before the Indian Patent Office (IPO) at Delhi and Mumbai branches. I need you to draft ONE independent product claim for a mechanical invention: a shock-absorbing bicycle handlebar grip with an internal gel chamber and adjustable firmness dial. Inventor: Mr. Rakesh Iyer, Pune. Filing route: Ordinary application (Form 1, Form 2 provisional filed 6 months ago).\n\nPlease provide: (1) A single independent Claim 1 in standard Indian two-part form (preamble + \"characterised in that\" transition, per Rule 13 of Patents Rules 2003), (2) A clear identification of the novel technical features, (3) A brief note on how the claim avoids Section 3 exclusions (particularly 3(f) mere arrangement), (4) A suggested claim breadth rationale (narrow vs. broad) for IPO examiner acceptance, (5) Three alternative preamble phrasings.\n\nFormat the output as: CLAIM 1 text (verbatim, numbered sub-features a/b/c), followed by a table with columns Feature | Novel? | Prior-Art-Risk | Section-3-Risk. Consider these constraints: the claim must comply with Section 10(4) and 10(5) of the Patents Act 1970, avoid functional language that could trigger clarity objections under Section 15, stay within 500 words total for the claim itself, and use British English spelling as preferred by IPO examiners. Flag any feature that may be construed as a method step improperly placed in a product claim.",
+      "tags": [
+        "patent-claim",
+        "claim-drafting",
+        "ipo-filing",
+        "section-3",
+        "mechanical-patent"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-002",
+      "title": "Prior Art Search Query Builder for Indian Examiner",
+      "prompt": "Act as an IP search specialist with 9 years of experience conducting prior art searches for filings at the Indian Patent Office (IPO Chennai). I need you to build a comprehensive prior art search query strategy for an invention titled \"IoT-enabled soil moisture sensor with solar-powered LoRa transmission for Indian paddy fields\". The applicant is AgriTech Innovations Pvt Ltd, Bengaluru, filing an ordinary application.\n\nPlease provide: (1) Five Boolean search strings optimised for InPASS (Indian Patent Advanced Search System) using IPC classes G01N, H04W, A01G, (2) Five equivalent queries for Espacenet with CPC codes, (3) Three Google Patents natural-language queries, (4) A keyword expansion table covering synonyms in English and transliterated Hindi/regional terms (e.g., \"paddy\", \"dhaan\", \"rice field\", \"bund\"), (5) A list of 8 likely non-patent literature (NPL) sources including ICAR publications, IIT thesis repositories, and Krishi Vigyan Kendra bulletins, (6) A search report template with columns Doc-No | Date | Relevance (X/Y/A) | Claim-Impact.\n\nFormat the output as a structured search protocol document. Consider these constraints: the search must support a Section 8 disclosure if corresponding foreign applications exist, address Section 3(k) software exclusion risk since the sensor involves firmware, and identify any Traditional Knowledge Digital Library (TKDL) entries that could be cited by the examiner. Limit the total document to 700 words.",
+      "tags": [
+        "prior-art",
+        "patent-search",
+        "inpass",
+        "espacenet",
+        "iot-patent"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-003",
+      "title": "Draft Dependent Claims Chain for Pharma Formulation",
+      "prompt": "Act as a pharmaceutical patent attorney with 15 years of experience at a top-tier Indian IP firm (comparable to Remfry & Sagar or K&S Partners). I need you to draft a dependent claim chain (Claims 2 through 10) that depends on the following independent Claim 1: \"A stable oral suspension comprising metformin hydrochloride, a cellulose-based thickener, and a non-cariogenic sweetener, characterised in that the suspension exhibits less than 2% degradation after 6 months at 40 degC/75% RH.\"\n\nApplicant: Sunrise Pharma Ltd, Hyderabad. Filing type: Ordinary application with provisional priority.\n\nPlease provide: (1) Nine progressively narrower dependent claims (Claims 2-10) covering concentration ranges, specific excipients, particle size, pH, viscosity, packaging, dosage form variants, (2) A Section 3(d) compliance note for EACH claim explaining why it is not a mere new form/new use, (3) A fallback-position rationale showing which claims survive if Claim 1 is revoked, (4) Identification of any \"Markush\" style claim that may attract clarity objections.\n\nFormat the output as: (a) Numbered claims block, (b) Section 3(d) justification table, (c) Fallback hierarchy diagram described in text. Consider these constraints: comply with Novartis v. Union of India (2013) enhanced efficacy test, avoid evergreening language, ensure support under Section 10(4)(c), stay within 80 words per dependent claim, and use IPO-preferred terminology (\"comprising\" open-ended, \"consisting of\" closed). Flag any claim that could be attacked under Section 3(e) as a mere admixture.",
+      "tags": [
+        "patent-claim",
+        "dependent-claims",
+        "pharma-patent",
+        "section-3d",
+        "novartis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-004",
+      "title": "Trademark Opposition Notice Drafting (Form TM-O)",
+      "prompt": "Act as a trademark attorney with 10 years of experience practising before the Indian Trade Marks Registry at Mumbai and Delhi. I need you to draft a Notice of Opposition on Form TM-O against a published mark. Facts: Opponent is \"MASALA KING FOODS PVT LTD\" (prior user since 2008, registered mark \"MASALA KING\" in Class 30 for spices). Applicant: \"MASALA KINGDOM ENTERPRISES\" filed a mark \"MASALA KINGDOM\" in Class 30, advertised in Trade Marks Journal No. 2142 dated 10 March 2026, for spices, masalas, and ready-mix curry powders.\n\nPlease provide: (1) A complete Form TM-O body including all grounds of opposition under Sections 9(1), 11(1), 11(2), 11(3), and 18(1) of the Trade Marks Act 1999, (2) A paragraph establishing prior use with documentary evidence list (invoices, GST returns, advertising spend in INR), (3) A deceptive similarity analysis applying the Cadila Healthcare test, (4) A well-known mark claim (if applicable) under Section 11(6)-(9), (5) A prayer clause, (6) A verification clause per Rule 45 of Trade Marks Rules 2017.\n\nFormat the output as a ready-to-file Form TM-O draft with numbered paragraphs. Consider these constraints: the opposition must be filed within 4 months of journal publication, address phonetic/visual/conceptual similarity, cite at least two Supreme Court/High Court precedents, use INR for turnover figures, and stay within 1,200 words. Flag any ground that may be weak on evidence.",
+      "tags": [
+        "trademark-opposition",
+        "form-tm-o",
+        "deceptive-similarity",
+        "class-30",
+        "cadila"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-005",
+      "title": "IP Portfolio Gap Analysis for Indian Startup",
+      "prompt": "Act as an IP portfolio strategist with 11 years of experience advising Indian DPIIT-recognised startups. I need you to conduct a gap analysis of the IP portfolio of a Series-B fintech startup, \"PaySetu Technologies Pvt Ltd\", Bengaluru. Current portfolio: 3 granted Indian patents (UPI fraud detection, biometric auth, QR encryption), 1 pending PCT application, 8 registered trademarks (word + device in Classes 9, 36, 42), 2 copyright registrations for software, zero design registrations, no GI, no trade secret policy.\n\nPlease provide: (1) A gap matrix identifying missing protections mapped to product features (mobile app, merchant dashboard, SDK, API), (2) Recommended new filings with priority (High/Med/Low) and estimated IPO official fees in INR, (3) A 12-month filing roadmap with monthly milestones, (4) A trade secret policy skeleton referencing the Indian Contract Act 1872 since India has no dedicated trade secret statute, (5) Risk flags for Section 3(k) software exclusion and suggested claim-drafting workarounds (hardware + method combinations), (6) A competitor watch-list of 5 Indian and 3 foreign fintech players.\n\nFormat the output as an executive memo with an exhibit table. Consider these constraints: the startup has an IP budget cap of INR 25 lakh for 12 months, is preparing for a Series C with IP due diligence, and must comply with DPIIT startup patent fee rebate rules (80% rebate via Form 28). Stay within 900 words.",
+      "tags": [
+        "ip-portfolio",
+        "gap-analysis",
+        "fintech",
+        "dpiit-startup",
+        "section-3k"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-006",
+      "title": "Exclusive Patent Licensing Agreement Review",
+      "prompt": "Act as an IP transactions lawyer with 13 years of experience negotiating tech licences at a Delhi-based IP firm (comparable to Anand and Anand). I need you to review an exclusive patent licensing agreement. Parties: Licensor \"IIT Madras Research Park incubatee NanoBharat Pvt Ltd\" (owner of Indian Patent No. IN 412345 on a graphene-based water filter) granting an exclusive licence to \"AquaPure India Ltd\" for manufacture and sale in India for 7 years, royalty 6% of net sales, minimum guarantee INR 50 lakh per annum, sub-licensing permitted with consent.\n\nPlease provide: (1) A clause-by-clause review highlighting 10 risk points for the Licensor, (2) Redline suggestions for territory, field of use, improvement rights (grant-back), audit rights, termination for insolvency, (3) Compliance check with Section 140 of the Patents Act 1970 (restrictive covenants void), (4) GST and TDS implications (royalty is subject to 10% TDS under Section 194J plus 18% GST), (5) FEMA implications if the licensee remits royalty abroad to a parent, (6) A recommended Form 16 recordal filing note with IPO, (7) Three fallback royalty structures (tiered, lump-sum + running, hybrid).\n\nFormat the output as a review memo with a redline table (Clause | Current | Suggested | Rationale). Consider these constraints: reference Bajaj Auto v. TVS Motor (2009) principles on enforceability, ensure compliance with Competition Act 2002 Section 3(5) IP exemption, and include a note on Section 84 compulsory licensing vulnerability. Stay within 1,000 words.",
+      "tags": [
+        "licensing",
+        "exclusive-license",
+        "patent-license",
+        "section-140",
+        "royalty"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-007",
+      "title": "Draft Process Claim for Chemical Synthesis",
+      "prompt": "Act as a chemistry patent agent with 10 years of experience drafting process claims for Indian API manufacturers. I need you to draft a process claim (independent + 4 dependent) for a novel synthesis route to an anti-diabetic compound intermediate. Applicant: Deccan Pharma Chem Ltd, Hyderabad. The process involves a three-step reaction: (1) catalytic hydrogenation using a Pd/C catalyst at 5 bar, (2) chiral resolution with a tartrate salt, (3) crystallisation from ethanol-water.\n\nPlease provide: (1) Claim 1 as an independent process claim in Indian format, (2) Claims 2-5 as dependent claims covering temperature ranges, catalyst loading, yield, and polymorph of the final intermediate, (3) A Section 3(d) and 3(e) compliance note, (4) A note on whether product-by-process claim strategy is advisable under Indian practice, (5) Inventive step justification against a hypothetical closest prior art (J. Org. Chem. 2018 paper).\n\nFormat the output as: CLAIMS block (numbered), followed by a justification memo (max 300 words). Consider these constraints: follow IPO Manual of Patent Practice and Procedure 2019 guidance on process claims, avoid claiming mere use of known substance (Section 3(d)), ensure each step has a clear technical effect, use passive voice throughout, and stay within 550 words for the claims themselves. Flag any ambiguous parameter that could trigger an enablement objection under Section 10(4).",
+      "tags": [
+        "patent-claim",
+        "process-claim",
+        "api-patent",
+        "section-3d",
+        "chemistry"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-008",
+      "title": "Prior Art Search for Software Invention (Section 3(k))",
+      "prompt": "Act as a software patent search specialist with 8 years of experience navigating Section 3(k) rejections at the Indian Patent Office (IPO Delhi). I need you to design a prior art search strategy for an invention: \"A machine learning method for detecting fraudulent GST invoices using graph neural networks.\" Applicant: TaxShield AI Pvt Ltd, Gurugram.\n\nPlease provide: (1) Four InPASS search strings using IPC G06N, G06Q, G06F with Boolean operators, (2) Four Google Scholar queries targeting arXiv, NeurIPS, and IEEE papers from 2018-2025, (3) A GitHub code search strategy for open-source prior art, (4) Two queries targeting Indian government publications (CBIC circulars, GSTN reports), (5) An NPL list of 10 relevant sources, (6) A technical-effect argument template to overcome Section 3(k) \"computer programme per se\" rejection citing Ferid Allani v. Union of India (2019) and the 2017 IPO CRI Guidelines, (7) A hardware integration angle to strengthen patentability.\n\nFormat the output as a structured search + patentability brief. Consider these constraints: the strategy must address the examiner's likely objection that the invention is an \"algorithm\" or \"business method\", identify at least 3 decided IPO orders on similar subject matter, and suggest claim amendments that tie the method to specific hardware (GPU, edge device). Stay within 800 words.",
+      "tags": [
+        "prior-art",
+        "software-patent",
+        "section-3k",
+        "ferid-allani",
+        "ml-patent"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-009",
+      "title": "Trademark Opposition on Grounds of Prior Use",
+      "prompt": "Act as a trademark litigator with 9 years of experience before the Indian Trade Marks Registry and IPAB successor (now Delhi HC). I need you to draft the grounds of opposition section of a Form TM-O for the following case. Opponent: \"Shree Ganesh Sweets\" (partnership firm, Pune, prior use since 1987, unregistered but well-known regionally). Applicant: \"Ganesha Sweets & Snacks Pvt Ltd\" filed mark \"GANESHA SWEETS\" in Class 30 for mithai and namkeen, advertised in Journal No. 2138.\n\nPlease provide: (1) A detailed prior use narrative with a 10-point evidence list (invoices, hoardings, Pune Municipal Corporation trade licence, newspaper ads in Sakal, GST returns since 2017, pre-GST VAT returns), (2) Grounds under Section 11(3)(a) (passing off), Section 18(1) (not proprietor), and Section 9(2)(a) (deceptive), (3) Application of the Corn Products v. Shangrila (1960) and N.R. Dongre v. Whirlpool (1996) precedents, (4) A trans-border reputation angle if the opponent has sold to NRIs, (5) A quia timet argument, (6) Prayer for refusal of registration.\n\nFormat the output as numbered grounds paragraphs ready to insert into Form TM-O. Consider these constraints: Indian trade mark law recognises prior user rights under Section 34 even against a registered proprietor, the opposition must be filed within 4 months of journal publication, cite at least three case laws, and stay within 1,100 words. Flag any weakness in the prior-use evidence chain.",
+      "tags": [
+        "trademark-opposition",
+        "prior-use",
+        "passing-off",
+        "section-34",
+        "well-known-mark"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-010",
+      "title": "Patent Portfolio Valuation for M&A Due Diligence",
+      "prompt": "Act as an IP valuation expert with 12 years of experience supporting Indian M&A transactions. I need you to value the patent portfolio of \"BioGenix Therapeutics Pvt Ltd\" (Hyderabad), a target in an acquisition by a Mumbai-listed pharma company. Portfolio: 14 granted Indian patents, 6 pending applications, 4 PCT nationalised in US/EU/JP, covering 3 biosimilar candidates (trastuzumab, adalimumab, rituximab biosimilars), total R&D spend INR 180 crore over 7 years.\n\nPlease provide: (1) A valuation approach comparison: Cost, Market, Income (DCF + relief-from-royalty), (2) Assumptions table with WACC 14%, royalty rate 5%, useful life 10 years, terminal growth 3%, (3) A DCF model structure with year-by-year cash flow projection in INR crore, (4) A sensitivity analysis matrix (royalty rate vs. WACC), (5) Risk discounts for Section 3(d) vulnerability, compulsory licensing risk (Section 84), and Bolar exemption exposure, (6) A final valuation range (low/mid/high) in INR crore, (7) A red-flag checklist for the acquirer's IP counsel.\n\nFormat the output as a valuation memo with numbered exhibits. Consider these constraints: comply with ICAI Valuation Standards 2018, cross-check against Natco v. Bayer compulsory licensing precedent, include ESOP/inventor remuneration liabilities under Section 19 of the (proposed) Innovation Act context, and stay within 1,200 words. Provide one-line assumption for each financial input.",
+      "tags": [
+        "ip-portfolio",
+        "patent-valuation",
+        "dcf",
+        "pharma-ma",
+        "compulsory-license"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-011",
+      "title": "Non-Exclusive Technology Licence Agreement Template",
+      "prompt": "Act as a technology transfer lawyer with 10 years of experience at an Indian IP boutique firm. I need you to draft the key commercial clauses of a non-exclusive technology licensing agreement. Licensor: CSIR-NCL Pune (government research lab). Licensee: \"GreenCoat Industries Pvt Ltd\", Ahmedabad. Subject: a patented anti-corrosion nano-coating (IN 398765). Term: 10 years, royalty 3% of net ex-factory sales, upfront fee INR 25 lakh, technology transfer including know-how, training of 5 engineers at NCL.\n\nPlease provide: (1) Drafts of 8 key clauses: Grant, Royalty, Payment & TDS, Improvements, Confidentiality, Term & Termination, Warranties, Dispute Resolution, (2) A schedule of deliverables for tech transfer, (3) TDS note (Section 194J 10%) and GST note (18% reverse charge if applicable), (4) A clause enabling CSIR to license to other non-competing parties (true non-exclusive), (5) A performance milestone clause with minimum annual royalty INR 10 lakh from Year 3, (6) An Indian-seated arbitration clause (Arbitration and Conciliation Act 1996, MCIA Mumbai rules).\n\nFormat the output as labelled clause drafts with a cover memo explaining drafting choices. Consider these constraints: government licensor requires compliance with CSIR Technology Transfer Guidelines 2015, must avoid Section 140 anti-competitive clauses, include Form 16 recordal obligation, and stay within 1,100 words. Flag any clause needing Department of Science & Technology (DST) approval.",
+      "tags": [
+        "licensing",
+        "non-exclusive",
+        "tech-transfer",
+        "csir",
+        "royalty"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-012",
+      "title": "Draft Method Claim for Medical Diagnostic",
+      "prompt": "Act as a biotech patent attorney with 11 years of experience navigating Section 3(i) (method of treatment/diagnosis) exclusions at the Indian Patent Office. I need you to draft a claim set for an invention: \"A method for early detection of oral cancer using salivary microRNA biomarkers and a smartphone-based colorimetric reader.\" Applicant: AIIMS Delhi and a spin-out \"OralDx Diagnostics Pvt Ltd\".\n\nPlease provide: (1) Claim 1 drafted as an IN VITRO diagnostic method (not practised on human body) to avoid Section 3(i), (2) Claim 2 as a kit claim (reagents + device), (3) Claim 3 as an apparatus claim for the smartphone reader, (4) Claim 4 as a data processing method tied to hardware to navigate Section 3(k), (5) A strategy note explaining why the in-vitro framing survives Section 3(i) referencing IPO orders and the 2013 Biotechnology Guidelines, (6) Three dependent claims on biomarker panels.\n\nFormat the output as numbered claims followed by a 250-word strategy memo. Consider these constraints: Section 3(i) excludes \"any process for medicinal, surgical, curative, prophylactic, diagnostic, therapeutic or other treatment of human beings\" but in-vitro diagnostics on samples outside the body are patentable, claims must not recite \"administering to a patient\" or \"diagnosing the patient\", and total claims should not exceed 10 to keep official fees low. Stay within 700 words.",
+      "tags": [
+        "patent-claim",
+        "method-claim",
+        "section-3i",
+        "diagnostic-patent",
+        "biotech"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-013",
+      "title": "Prior Art Search for Design Registration",
+      "prompt": "Act as an industrial design search expert with 7 years of experience filing under the Designs Act 2000 at the IPO Kolkata design wing. I need you to build a prior art search strategy for a novel design application: the ornamental shape and surface configuration of a ceiling fan with a lotus-petal blade arrangement. Applicant: Orient Electric subsidiary \"Kairos Designs Pvt Ltd\", Noida. Class: Locarno 23-04.\n\nPlease provide: (1) InPASS design search strings by Locarno class and keyword, (2) WIPO Global Design Database queries, (3) Hague System search queries, (4) E-commerce visual search tips (Amazon India, Flipkart, IndiaMART) for unregistered prior art, (5) A novelty assessment framework against Section 4 of the Designs Act (new or original, not previously published), (6) A statement of novelty draft per Rule 15, (7) A note on prior publication through Instagram/Pinterest that could destroy novelty.\n\nFormat the output as a search protocol + novelty brief. Consider these constraints: Indian design law requires absolute novelty (worldwide) as of the priority date, grace period is 6 months only for exhibitions under Section 21, the design must be judged solely by the eye, and cite at least two Design Act decisions (e.g., Bharat Glass Tube v. Gopal Glass Works). Stay within 750 words. Flag any design feature that is purely functional and therefore unregistrable under Section 2(d).",
+      "tags": [
+        "prior-art",
+        "design-search",
+        "designs-act",
+        "locarno",
+        "novelty"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-014",
+      "title": "Trademark Watch List Setup for Corporate Client",
+      "prompt": "Act as a trademark portfolio manager with 8 years of experience at an Indian IP firm. I need you to set up a comprehensive trademark watch list for \"Himalaya Wellness Company\", Bengaluru. The client holds 180+ registered marks across Classes 3, 5, 30, 31 in India and 50+ countries. Concerns: look-alike marks in Tier 2/3 cities, e-commerce counterfeits, domain name squatting.\n\nPlease provide: (1) A watch list framework covering 5 monitoring streams: IPO Trade Marks Journal (weekly), ROC/MCA company name searches, domain registrations (.in, .co.in, .bharat), e-commerce listings (Amazon, Flipkart, Meesho), social media handles (Instagram, YouTube), (2) A scoring rubric (threat level 1-5) for each hit based on phonetic/visual similarity, class overlap, and intent, (3) A monthly watch report template with columns Mark | Class | Applicant | Threat | Action, (4) A response playbook: cease-and-desist, opposition, INDRP complaint for .in domains, platform takedown, (5) Annual budget in INR for the watch service (in-house vs. outsourced to WatchWeb/CompuMark), (6) KPI dashboard.\n\nFormat the output as an operational playbook. Consider these constraints: Indian Trade Marks Journal publishes weekly, opposition deadline is 4 months from publication, INDRP arbitration by NIXI, platform IP policies (Amazon Brand Registry, Flipkart Brand Shield) require TM registration certificate, and stay within 1,000 words. Include a template cease-and-desist email in the appendix.",
+      "tags": [
+        "ip-portfolio",
+        "trademark-watch",
+        "indrp",
+        "brand-protection",
+        "counterfeits"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-015",
+      "title": "Sub-Licensing Clause Drafting for Software Patent",
+      "prompt": "Act as a technology licensing lawyer with 9 years of experience at an Indian IP firm. I need you to draft a sub-licensing clause package for a software patent licence. Licensor: \"DeepVision Labs Pvt Ltd\", Bengaluru (owner of a granted patent on a computer vision pipeline). Licensee: \"AutoDrive India Ltd\", a Tier-1 automotive supplier. The licensee wants the right to sub-license to its OEM customers (Tata Motors, Mahindra, Bajaj Auto) and to integrator subsidiaries.\n\nPlease provide: (1) A primary sub-licence grant clause with scope limits (field of use = automotive ADAS only), (2) A consent mechanism (prior written consent not to be unreasonably withheld, 15-day deemed approval), (3) A pass-through royalty structure (licensee retains 40% of sub-licensee royalty), (4) Flow-down obligations (confidentiality, audit, indemnity flow to sub-licensees), (5) A termination cascade: automatic termination of sub-licences if master licence terminates, (6) A reporting clause (quarterly sub-licensee list, gross revenue), (7) An audit rights clause.\n\nFormat the output as labelled clause drafts (a)-(g) with a 250-word drafting rationale memo. Consider these constraints: avoid Section 140 anti-competitive restrictions, comply with Competition Act 2002 (CCI should not find tying or exclusive dealing), ensure TDS 10% applies to sub-licensee payments, and stay within 900 words. Flag any clause that may be unenforceable as a restraint of trade under Section 27 of the Contract Act.",
+      "tags": [
+        "licensing",
+        "sub-license",
+        "software-patent",
+        "royalty-passthrough",
+        "automotive"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-016",
+      "title": "Draft Patent Specification Background Section",
+      "prompt": "Act as a patent drafter with 6 years of experience filing at the Indian Patent Office. I need you to draft the \"Background of the Invention\" section of a complete specification (Form 2) for an invention: \"A low-cost oxygen concentrator using pressure swing adsorption with Indian-sourced zeolite beads.\" Inventor: Dr. Suresh Menon, IIT Bombay. Applicant: SwasthBharat Medtech Pvt Ltd.\n\nPlease provide: (1) A 3-paragraph background section (field of invention, description of prior art, problems with prior art), (2) 5 cited prior art references (3 patents, 2 papers) with brief descriptions of their shortcomings, (3) A clear \"problems to be solved\" statement that seeds the later \"Summary\" section, (4) A note on how the background avoids admissions of prior art that could narrow claims, (5) Three alternative opening sentences.\n\nFormat the output as ready-to-paste specification text with numbered paragraphs [0001]-[0010]. Consider these constraints: follow IPO Manual of Patent Practice guidelines, use formal passive voice, avoid marketing language, do not disparage prior art excessively (to avoid estoppel), cite only publicly available documents, use INR context (India had severe oxygen shortage during COVID-19 second wave in April-May 2021), and stay within 500 words. Flag any sentence that could be construed as a Section 8 disclosure obligation trigger.",
+      "tags": [
+        "patent-claim",
+        "specification",
+        "form-2",
+        "background",
+        "medical-device"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-017",
+      "title": "Prior Art Search for Mechanical Device",
+      "prompt": "Act as a patent search analyst with 7 years of experience conducting FTO and patentability searches for Indian manufacturing clients. I need you to build a prior art search plan for a new mechanical invention: \"A compact manual rice transplanter with adjustable row spacing for small farmers.\" Applicant: KVIC-funded MSME \"Krishi Yantra Udyog\", Nashik.\n\nPlease provide: (1) Six InPASS Boolean queries using IPC A01C 11/02 and related sub-classes, (2) Four Espacenet queries with CPC codes, (3) Three Google Patents queries in natural language, (4) A keyword expansion including regional terms (\"rice transplanter\", \"paddy planter\", \"dhaan ropai machine\"), (5) NPL sources including ICAR-CIAE Bhopal publications, TNAU Coimbatore reports, and Krishi Jagran magazine archives, (6) A freedom-to-operate angle checking for live Indian patents, (7) A novelty summary template.\n\nFormat the output as a structured search protocol with an execution checklist. Consider these constraints: the client has a budget of INR 15,000 for the search (so prioritise free databases), must identify any existing IPO-granted patents that could block manufacture, check for Traditional Knowledge (TKDL) and Geographical Indication conflicts, and stay within 700 words. Include a 3-tier prioritisation (Must-check / Should-check / Nice-to-check).",
+      "tags": [
+        "prior-art",
+        "patent-search",
+        "fto",
+        "mechanical-patent",
+        "agri-tech"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-018",
+      "title": "Trademark Opposition Counter-Statement Drafting",
+      "prompt": "Act as a trademark attorney with 8 years of experience defending trade mark applications at the Indian Trade Marks Registry. I need you to draft a counter-statement to an opposition filed against your client's mark. Client/Applicant: \"NEEM NATURALS PVT LTD\", Jaipur, filed word mark \"NEEM NATURALS\" in Class 3 for herbal cosmetics. Opponent: \"NEEM PURE HERBALS LTD\" alleging confusion with their registered mark \"NEEM PURE\" in Class 3.\n\nPlease provide: (1) A complete counter-statement in Form TM-O response format, paragraph by paragraph replying to the notice of opposition, (2) Grounds for distinction: visual, phonetic, conceptual differences between NEEM NATURALS and NEEM PURE, (3) Argument that NEEM is a generic/descriptive term not monopolisable (Section 9(1)(b), 17), (4) Honest concurrent use defence under Section 12, (5) Evidence of use since incorporation (2019), (6) Request for registration under Section 18, (7) Verification clause.\n\nFormat the output as a ready-to-file counter-statement with numbered paragraphs. Consider these constraints: the counter-statement must be filed within 2 months of receiving the notice of opposition under Rule 44 of the Trade Marks Rules 2017, cite at least two precedents on descriptive/generic elements (e.g., Marico v. Agro Tech Foods), address Cadila Healthcare test point by point, and stay within 1,100 words. Flag any admission that could damage the client's position.",
+      "tags": [
+        "trademark-opposition",
+        "counter-statement",
+        "section-9",
+        "descriptive-mark",
+        "honest-use"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-019",
+      "title": "IP Due Diligence Checklist for Series B Funding",
+      "prompt": "Act as an IP due diligence lead with 10 years of experience advising Indian VC funds. I need you to prepare a comprehensive IP due diligence checklist for a Series B investment of INR 200 crore into \"EnerStore Technologies Pvt Ltd\" (Chennai), a battery storage startup. Focus areas: patent ownership, inventor assignments, employee IP agreements, open-source compliance, freedom-to-operate, trademark portfolio, trade secrets.\n\nPlease provide: (1) A 40-point checklist organised into 8 sections (Ownership & Chain of Title, Validity & Enforceability, FTO, Licences In/Out, Employee IP, Open Source, Trademarks/Brand, Disputes), (2) Red-flag indicators for each section, (3) Document request list (data room items), (4) Sample interview questions for the founder-CTO, (5) Indian-specific items: Section 8 compliance, Form 27 working statements, DPIIT startup status, compulsory licensing risk, (6) A risk scoring framework (Low/Med/High/Deal-breaker), (7) A 2-page executive summary template for the investment committee.\n\nFormat the output as a structured DD playbook. Consider these constraints: Indian patents must have valid Form 1 (declaration of inventorship), assignments must be recorded on Form 16 with IPO within 6 months (Section 68), employees must have written IP assignments per Section 19, open-source GPL v3 use may infect proprietary code, and stay within 1,200 words. Include an INR budget estimate for DD (typically INR 8-15 lakh).",
+      "tags": [
+        "ip-portfolio",
+        "due-diligence",
+        "vc-funding",
+        "section-8",
+        "form-27"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-020",
+      "title": "Royalty Rate Benchmarking for Patent Licence",
+      "prompt": "Act as an IP economics consultant with 9 years of experience benchmarking royalty rates for Indian technology transactions. I need you to benchmark royalty rates for a proposed licence of an Indian patent on a novel drip irrigation emitter technology. Licensor: IIT Kharagpur spin-off \"AquaDrop Innovations\". Licensee: \"Jain Irrigation Systems Ltd\", Jalgaon. Market: Indian micro-irrigation, estimated INR 12,000 crore annually.\n\nPlease provide: (1) A benchmarking framework using 4 methods: comparable agreements (RoyaltyStat, ktMINE), rule of 25%, industry standard (agri-tech typically 3-7%), DCF-derived justifiable rate, (2) Benchmark data from 5 comparable Indian/global agri-tech licences with source citations, (3) A recommended royalty structure: running 4% of net ex-factory sales + milestone payments INR 2 crore over 5 years + minimum annual INR 50 lakh, (4) Sensitivity analysis showing IRR impact on licensee at 3%, 4%, 5%, 6%, (5) Negotiation anchors (licensor opens at 6%, floor 3.5%), (6) Tax-efficient structuring (India-Singapore DTAA 10% if IP held via SG holdco).\n\nFormat the output as a benchmarking memo with exhibits. Consider these constraints: comply with Indian transfer pricing rules under Section 92 of the Income Tax Act if parties are related, TDS u/s 194J at 10%, GST 18%, avoid Section 140 restrictive covenants, and stay within 1,000 words. Cite at least one ITAT ruling on royalty rate benchmarking.",
+      "tags": [
+        "licensing",
+        "royalty-benchmark",
+        "agri-tech",
+        "transfer-pricing",
+        "iit-spinoff"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-021",
+      "title": "Draft Patent Claim Amendment Response to FER",
+      "prompt": "Act as a patent agent with 8 years of experience responding to First Examination Reports (FER) from the Indian Patent Office. I need you to draft claim amendments and arguments in response to an FER. Application: IN 202341012345, titled \"A smart helmet with crash detection and SOS alerts.\" FER objections: (1) lack of novelty citing US2019/0123456, (2) lack of inventive step combining two references, (3) Section 3(k) objection (software per se), (4) clarity objection on Claim 1 \"processing means\".\n\nPlease provide: (1) Amended Claim 1 adding novel features (specific accelerometer threshold, BLE mesh handshake) to overcome novelty, (2) Inventive-step argument with technical advance and economic significance (Section 2(1)(ja)), (3) Section 3(k) rebuttal citing Ferid Allani v. UoI and technical effect, (4) Clarity amendment replacing \"processing means\" with specific hardware, (5) A Section 59 amendment compliance check (no broadening beyond original disclosure), (6) A response letter structure addressing each objection by paragraph number.\n\nFormat the output as: (a) Marked-up claims (additions underlined, deletions struck), (b) Response arguments memo. Consider these constraints: the 6-month FER response window under Rule 24B is strict (extendable by 3 months on Form 4), the response must be filed online via IPO e-filing portal, citations must be from the original specification only, and stay within 1,100 words. Flag any amendment that risks creating new matter.",
+      "tags": [
+        "patent-claim",
+        "fer-response",
+        "section-59",
+        "inventive-step",
+        "section-3k"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-022",
+      "title": "Prior Art Search Using InPASS for Examiner",
+      "prompt": "Act as a patent search trainer with 6 years of experience preparing candidates for the Indian Patent Agent exam. I need you to create a step-by-step InPASS (Indian Patent Advanced Search System) search tutorial for a hypothetical invention: \"A biodegradable sanitary pad using banana fibre and jute.\" Applicant: Saathi Eco-Innovations, Ahmedabad.\n\nPlease provide: (1) A step-by-step walkthrough of InPASS search interface (Quick Search, Advanced Search, Boolean Search, Patent Number Search), (2) Five progressively refined search queries using IPC A61F 13/15 with Boolean operators AND/OR/NOT, (3) Keyword selection from title, abstract, and claims fields, (4) Field codes (TI, AB, CL, IN, AP), (5) Truncation and wildcard usage, (6) Date range filters for priority date sensitivity, (7) A prior art citation format matching IPO practice, (8) Common InPASS search pitfalls and how to avoid them.\n\nFormat the output as a numbered tutorial with screenshots described in text. Consider these constraints: InPASS is free and maintained by the IPO at ipindiaservices.gov.in, does not support proximity operators, limits results to 250 per query, and case-sensitivity behaves differently from Espacenet. Include a practice exercise at the end for a reader preparing for the Patent Agent exam Paper II. Stay within 900 words.",
+      "tags": [
+        "prior-art",
+        "inpass",
+        "patent-agent-exam",
+        "search-tutorial",
+        "boolean"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-023",
+      "title": "Draft Trademark Rectification Petition",
+      "prompt": "Act as a trademark litigator with 10 years of experience filing rectification petitions before the Delhi High Court (post-IPAB abolition). I need you to draft a rectification petition under Sections 47 and 57 of the Trade Marks Act 1999 seeking removal of a registered mark from the Register. Petitioner: \"GOLDEN OIL MILLS PVT LTD\", Indore. Impugned mark: \"GOLDEN HARVEST\" in Class 29 for edible oils, registered 2018, owned by \"GH Foods Pvt Ltd\" but allegedly not used for 5+ years.\n\nPlease provide: (1) A petition in the format required by the Delhi HC IP Division Rules 2022, (2) Grounds under Section 47(1)(b) (non-use for continuous 5 years + 3 months), Section 57(2) (entry made without sufficient cause), Section 11 (likely to cause confusion), (3) Statement of facts with dates, (4) Evidence list: trap purchase reports, market survey, MCA financials showing no edible oil revenue, (5) Locus standi under Section 57 as aggrieved person, (6) Prayer clauses (removal, costs), (7) Verification + affidavit in support.\n\nFormat the output as a ready-to-file petition with numbered paragraphs. Consider these constraints: jurisdiction lies with Delhi HC under Section 47/57 read with Tribunals Reforms Act 2021, the petitioner must plead and prove non-use, cite Russell Corp v. Ashok Mahajan and Pops Food Products v. Soya Products, and stay within 1,200 words. Flag any procedural defect that could lead to dismissal.",
+      "tags": [
+        "trademark-opposition",
+        "rectification",
+        "section-47",
+        "non-use",
+        "delhi-hc"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-024",
+      "title": "IP Portfolio Cost Optimisation Plan",
+      "prompt": "Act as an IP portfolio cost optimisation consultant with 8 years of experience reducing annuity and maintenance costs for Indian corporates. I need you to build a cost optimisation plan for \"Bharat Electronics Ltd\" (BEL, Bengaluru), which holds 320+ Indian patents, 85 foreign patents, 60 trademarks, and 40 designs. Annual IP maintenance cost: INR 4.2 crore. Target: 25% reduction without losing core commercial IP.\n\nPlease provide: (1) A portfolio segmentation framework (Core / Strategic / Commercial / Defensive / Abandon), (2) Scoring criteria for each patent (commercial use, licensing potential, litigation exposure, forward citations, remaining term), (3) Annuity fee schedule under Rule 80 of the Patents Rules 2003 (escalating years 3-20, typical INR for a large entity), (4) A pruning recommendation: abandon 40 patents, let lapse 25, license out 15, keep core 240, (5) Trademark renewal optimisation (Section 25, 10-year renewal), (6) Design renewal strategy (Section 11, 10+5 years), (7) A projected savings table by year for 3 years, (8) Governance: IP council review cadence.\n\nFormat the output as an executive memo with exhibits. Consider these constraints: BEL is a PSU subject to CAG audit, abandonment decisions need written justification, Form 27 working statements must be reviewed to avoid compulsory licensing risk under Section 84, and stay within 1,100 words. Provide one sanity check: is savings > 25% of INR 4.2 crore?",
+      "tags": [
+        "ip-portfolio",
+        "cost-optimization",
+        "annuity-fees",
+        "psu",
+        "form-27"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-025",
+      "title": "Licensing Agreement Termination Review",
+      "prompt": "Act as an IP disputes lawyer with 11 years of experience at a Mumbai-based IP firm. I need you to review the termination clauses of an existing patent licensing agreement and advise the Licensor on termination for breach. Licensor: \"Serum Biotech Pvt Ltd\", Pune (owner of a recombinant protein expression patent). Licensee: \"BioChem India Ltd\", Ahmedabad. Breach: non-payment of royalty INR 1.8 crore for 3 quarters, failure to submit quarterly reports, suspected unauthorised sub-licensing.\n\nPlease provide: (1) A review of the termination clause (assume 60-day cure period for material breach), (2) A termination notice draft citing each breach with evidence, (3) A pre-termination demand letter, (4) Post-termination consequences: cessation of licensed rights, return of confidential information, survival of royalty accrued, injunction against continued use, (5) An assessment of available remedies: damages, account of profits, permanent injunction under Section 108 of the Patents Act, (6) A forum selection analysis (Bombay HC Commercial Division vs. arbitration per the agreement), (7) An interim injunction strategy citing Section 108(1) and the test from Natco v. Bayer and F. Hoffmann-La Roche v. Cipla.\n\nFormat the output as a legal opinion memo. Consider these constraints: ensure cure period compliance to avoid wrongful termination counter-claim, preserve all evidence before sending the notice, consider Commercial Courts Act 2015 pre-institution mediation requirement, and stay within 1,100 words. Flag any clause that may be void under Section 140.",
+      "tags": [
+        "licensing",
+        "termination",
+        "breach",
+        "injunction",
+        "commercial-courts-act"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-026",
+      "title": "Draft Patent Specification Claims for Electrical Device",
+      "prompt": "Act as an electrical patent agent with 7 years of experience filing at the Indian Patent Office Chennai branch. I need you to draft a complete claim set (1 independent + 6 dependent) for an electrical invention: \"A solar-powered street lamp with motion-activated dimming and remote fault diagnostics.\" Applicant: \"SurajLite Energy Pvt Ltd\", Jaipur.\n\nPlease provide: (1) Claim 1 as an independent product claim in Indian two-part format, (2) Claims 2-7 covering: specific LED CCT range, PIR sensor angle, solar panel wattage, battery chemistry (LiFePO4), GSM module for diagnostics, mounting bracket, (3) A brief mapping of each claim element to the described embodiment, (4) A note on how the claims avoid Section 3(f) (mere arrangement of known devices) by articulating the synergistic effect of motion dimming + diagnostics, (5) Recommended fallback positions if Claim 1 is rejected.\n\nFormat the output as numbered claims followed by a 200-word drafting memo. Consider these constraints: the product will be deployed under the Smart Cities Mission across 15 Indian cities so broad claim scope is desired, avoid reciting any single supplier's component name, comply with Section 10(4) enablement, stay within 700 words total, and use British English. Flag any claim element that could be attacked as admixture under Section 3(e).",
+      "tags": [
+        "patent-claim",
+        "electrical-patent",
+        "solar",
+        "section-3f",
+        "smart-cities"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-027",
+      "title": "Prior Art Search for Pharmaceutical Formulation",
+      "prompt": "Act as a pharma patent search specialist with 10 years of experience at a top Indian IP firm. I need you to build a prior art search strategy for a formulation invention: \"A taste-masked orally disintegrating tablet of cetirizine hydrochloride for paediatric use.\" Applicant: \"Kidcare Pharma Pvt Ltd\", Baddi (Himachal Pradesh).\n\nPlease provide: (1) Six InPASS queries covering IPC A61K 9/00 subclasses, (2) Six Espacenet queries with CPC codes including A61K 9/0056 (ODT), (3) Three STN/SciFinder queries targeting formulation literature, (4) NPL sources including Indian Pharmacopoeia Commission, CDSCO approvals database, International Journal of Pharmaceutics, (5) A Section 3(d) risk map identifying all known cetirizine formulations that could be cited by the examiner as \"mere new form\", (6) A strategy to articulate enhanced therapeutic efficacy (faster onset, better compliance) per Novartis v. UoI, (7) A pharmacopeial monograph check.\n\nFormat the output as a structured search and patentability brief. Consider these constraints: cetirizine is off-patent so novelty lies in the formulation, Section 3(d) is the highest risk, the search must cover granted Indian patents and rejected ones (to learn from prior examiner objections), and stay within 900 words. Identify at least 3 IPO orders rejecting similar ODT formulations.",
+      "tags": [
+        "prior-art",
+        "pharma-search",
+        "odt",
+        "section-3d",
+        "novartis"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-028",
+      "title": "Trademark Clearance Search and Opinion",
+      "prompt": "Act as a trademark clearance attorney with 8 years of experience at an Indian IP firm. I need you to conduct a clearance search and issue an opinion for a proposed new mark \"VEDA GLOW\" in Class 3 (cosmetics) for \"Ayur Rituals Pvt Ltd\", Bengaluru.\n\nPlease provide: (1) A multi-database search plan: IPO TM e-Register, MCA company name, common-law use (Google, Amazon, Flipkart, Nykaa, Myntra), domain names (.in, .co.in, .com), social media handles, (2) Phonetic search strategy using soundex/metaphone for \"VEDA\", \"VEDIC\", \"VEDAS\", \"BEDA\", and \"GLOW\", \"GLO\", \"GLO+\", (3) A risk table with columns Mark | Class | Status | Distance | Risk-Level, (4) A legal opinion concluding with a GO / NO-GO / GO-WITH-CAUTION recommendation, (5) A suggested filing strategy (series mark, word + device, multi-class: 3, 5, 44), (6) Estimated official fees per class in INR, (7) Honest-concurrent-use fallback if a prior mark exists.\n\nFormat the output as a clearance opinion memo. Consider these constraints: Section 11 likelihood of confusion is the primary risk, \"VEDA\" may be considered generic/descriptive under Section 9(1)(b) in the Ayurveda/wellness space, apply the Cadila Healthcare test factors, check for well-known marks under Section 11(2), and stay within 1,000 words. Include a CYA disclaimer.",
+      "tags": [
+        "trademark-opposition",
+        "clearance-search",
+        "section-11",
+        "cadila",
+        "ayurveda"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-029",
+      "title": "IP Audit Report for Manufacturing Company",
+      "prompt": "Act as an IP auditor with 9 years of experience conducting audits for Indian manufacturing companies. I need you to prepare an IP audit report for \"Shakti Pumps India Ltd\" (Pithampur, MP), a solar pump manufacturer listed on NSE. Scope: patents, designs, trademarks, copyrights, trade secrets, domain names, open-source compliance.\n\nPlease provide: (1) An audit methodology (document review, interviews, site visit, database searches), (2) A findings section for each IP type with counts, status, gaps, (3) An inventor assignment audit: check if all inventors signed assignments per Section 19 of the Patents Act, (4) A Form 27 (statement of working) compliance audit for all granted patents, (5) An open-source compliance check for embedded firmware, (6) A trade secret policy gap analysis, (7) A risk-register with 10 prioritised risks (Low/Med/High) and remediation actions, (8) A Board-level summary with 5 key recommendations.\n\nFormat the output as an audit report with numbered sections and exhibits. Consider these constraints: Form 27 must be filed annually by 30 September for the preceding financial year, non-filing attracts fine under Section 122, the company must disclose material IP in Annual Report under SEBI LODR Regulations, and stay within 1,200 words. Provide an INR budget for remediation (typical range 15-40 lakh).",
+      "tags": [
+        "ip-portfolio",
+        "ip-audit",
+        "form-27",
+        "sebi-lodr",
+        "manufacturing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-030",
+      "title": "Cross-Licensing Agreement Term Sheet",
+      "prompt": "Act as a senior IP transactions partner with 14 years of experience structuring cross-licensing deals for Indian technology companies. I need you to draft a term sheet for a cross-licensing agreement between \"Tata Elxsi Ltd\" (Bengaluru) and \"L&T Technology Services Ltd\" (Vadodara) covering their respective patent portfolios in ADAS (automotive driver assistance).\n\nPlease provide: (1) Parties and effective date, (2) Scope: patents in IPC B60W, G06T, G01S with priority date before 1 Jan 2026, (3) Grant: reciprocal non-exclusive, royalty-free, non-sub-licensable, field of use = ADAS, (4) Term: 7 years with automatic renewal, (5) Improvements: captive-only, no grant-back of future patents, (6) Defensive termination: if either party sues the other for patent infringement outside the scope, (7) Representations: ownership, no encumbrances, no pending challenges, (8) Dispute resolution: Singapore arbitration under SIAC Rules, seat Singapore, governing law India, (9) Anti-trust compliance note, (10) A one-page summary for the CEOs.\n\nFormat the output as a term sheet with numbered sections and a CEO summary. Consider these constraints: Competition Act 2002 Section 3(5) IP exemption applies but CCI may still scrutinise if market foreclosure results, cross-licence must not amount to a patent pool without CCI notification, avoid Section 140 restrictive covenants, and stay within 1,100 words. Flag any term that requires board approval under Section 188 of Companies Act (related party).",
+      "tags": [
+        "licensing",
+        "cross-license",
+        "term-sheet",
+        "adas",
+        "cci"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-031",
+      "title": "Draft Provisional Patent Application Claims",
+      "prompt": "Act as a patent agent with 5 years of experience helping Indian academic inventors file provisional applications (Form 2 provisional + Form 1). I need you to draft claims for a provisional application for a University of Hyderabad invention: \"A novel catalyst for CO2-to-methanol conversion using a copper-zinc-ceria nanocomposite.\" Inventor: Prof. Meera Sharma.\n\nPlease provide: (1) Three broad independent claims (composition, method of making, method of use) suitable for a provisional where broad disclosure matters more than narrow precision, (2) Five dependent claims capturing preferred embodiments (Cu:Zn:Ce ratios, calcination temperature, surface area), (3) A note on the 12-month window to file a complete application with priority under Section 9, (4) A recommendation on whether to file a PCT within 12 months, (5) A Section 8 disclosure reminder, (6) A list of critical experimental data that must be in the provisional to support later complete specification claims.\n\nFormat the output as numbered claims followed by a 250-word strategy note. Consider these constraints: provisional applications need NOT have claims but claims are recommended to establish priority date support (Section 11A), do not include restrictive language, ensure sufficient enablement under Section 10(4) for later claims, and stay within 700 words. Flag any claim element that may not be supported by the current experimental dataset.",
+      "tags": [
+        "patent-claim",
+        "provisional",
+        "academic-patent",
+        "section-9",
+        "catalyst"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-032",
+      "title": "Prior Art Search Report Drafting",
+      "prompt": "Act as a prior art search professional with 7 years of experience delivering search reports to Indian corporate clients. I need you to draft a prior art search report template for any invention, which can be populated per project. Use as a worked example the invention \"A blockchain-based provenance tracking system for Indian basmati rice exports.\"\n\nPlease provide: (1) A cover page structure (client, project code, search type, date, searcher), (2) Executive summary section (2 paragraphs), (3) Invention summary section, (4) Search strategy section with databases, queries, and field codes, (5) Results table with columns Ref-No | Pub-Date | Title | Assignee | Relevance (X/Y/A per EPO standard) | Claim-Mapping, (6) Analysis section comparing top 5 references to the invention's claim elements, (7) Patentability opinion section with novelty, inventive step, and Section 3(k)/(d) analysis, (8) Recommendations and next steps, (9) Disclaimer clause.\n\nFormat the output as a complete report template with the basmati rice example populated. Consider these constraints: report must be defensible in IPO proceedings and potential litigation, use EPO/IPO relevance classifications (X = novelty-destroying, Y = inventive-step relevant alone or combined, A = background), blockchain inventions face Section 3(k) \"computer programme per se\" risk, and stay within 1,200 words. Include an INR fee quote for this type of search (typical 30,000-80,000).",
+      "tags": [
+        "prior-art",
+        "search-report",
+        "blockchain",
+        "section-3k",
+        "gi-rice"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-033",
+      "title": "Draft Well-Known Trademark Application",
+      "prompt": "Act as a trademark counsel with 10 years of experience filing well-known mark requests under Rule 124 of the Trade Marks Rules 2017. I need you to draft an application to the Registrar for determination of \"TATA\" as a well-known trademark in Class 42 (IT services) on behalf of Tata Consultancy Services Ltd.\n\nPlease provide: (1) A complete Form TM-M application body citing Section 11(6)-(9) criteria: knowledge of the mark, duration/extent/area of use, promotion, registration record, successful enforcement, (2) Evidence of reputation: global revenue INR 2.3 lakh crore (FY25), 600,000+ employees, operations in 55 countries, Fortune Global 500 ranking, (3) A timeline of the TATA group from 1868 showing continuous use, (4) A list of 20 prior enforcement actions (oppositions, suits, INDRP wins), (5) Consumer recognition survey data, (6) Advertising spend in INR over 10 years, (7) Trans-border reputation argument citing Toyota v. Prius and Whirlpool v. Dongre, (8) Prayer clause.\n\nFormat the output as a ready-to-file application with numbered paragraphs and an exhibit list. Consider these constraints: official fee under the Fourth Schedule is INR 1,00,000 for well-known mark application, the Registrar publishes the mark in the Journal for objections before final determination, the mark must be well-known across relevant public not just in its home class, and stay within 1,200 words. Flag any evidence gap.",
+      "tags": [
+        "trademark-opposition",
+        "well-known-mark",
+        "rule-124",
+        "section-11",
+        "tata"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-034",
+      "title": "IP Strategy Roadmap for University TTO",
+      "prompt": "Act as a Technology Transfer Office (TTO) strategy consultant with 10 years of experience advising IIT and IISc TTOs. I need you to build a 3-year IP strategy roadmap for the TTO of \"IIT Delhi\", which currently has 420 granted patents, 180 pending, 35 active licences, annual licensing revenue INR 18 crore. Targets: double licensing revenue to INR 36 crore, increase startup spin-outs from 12 to 30 per year, improve patent quality.\n\nPlease provide: (1) A current-state snapshot (portfolio, revenue, spin-outs, costs), (2) A 3-year roadmap with quarterly milestones, (3) Portfolio pruning plan (abandon low-quality patents), (4) A new filing policy (invention disclosure committee, quality threshold), (5) A commercialisation pipeline (marketing patents via TTO website, industry days, licensing fairs), (6) A revenue-sharing policy: 33% inventor, 33% department, 34% institute (post-costs), (7) Benchmarking vs. Stanford OTL, MIT TLO, IISc SID, (8) KPIs and dashboard, (9) DST/BIRAC grant alignment.\n\nFormat the output as a strategy document with exhibits. Consider these constraints: IIT Delhi is an Institute of Eminence under MoE, follows the Institute Innovation and Entrepreneurship Policy 2019, inventor remuneration must comply with DST guidelines, spin-outs need equity structuring under the RTBI-style model, and stay within 1,200 words. Provide one sanity check for revenue doubling feasibility.",
+      "tags": [
+        "ip-portfolio",
+        "tto-strategy",
+        "iit-delhi",
+        "university-ip",
+        "spin-out"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-035",
+      "title": "Review Exclusive Licence Royalty and Audit Clauses",
+      "prompt": "Act as an IP contracts reviewer with 7 years of experience at a Delhi IP boutique firm. I need you to review the royalty and audit clauses of an existing exclusive patent licensing agreement and suggest improvements. Parties: Licensor \"NanoCure Biotech Pvt Ltd\", Pune; Licensee \"Zydus Lifesciences Ltd\", Ahmedabad. Patent: IN 387654 on nanoparticle drug delivery. Existing royalty clause: 5% of net sales; existing audit clause: annual audit by Licensor with 30-day notice.\n\nPlease provide: (1) A clause-by-clause review identifying 5 loopholes (e.g., \"net sales\" not defined, no deductibles cap, no minimum guarantee, no audit records retention period, no dispute mechanism for audit findings), (2) Redline drafts for each fixed clause, (3) A \"net sales\" definition incorporating permitted deductions (returns, rebates, GST, freight) with a 15% deduction cap, (4) A minimum guaranteed royalty of INR 1.5 crore per year from Year 3, (5) An audit rights clause with 3-year lookback, 30-day notice, cost-shifting if underpayment >5%, (6) A late payment interest clause (2% per month), (7) TDS and GST pass-through language, (8) A dispute resolution cascade (escalation to MD, then arbitration).\n\nFormat the output as a review memo with redline table and drafting rationale. Consider these constraints: comply with Section 194J TDS (10%), avoid Section 140 anti-competitive restrictions, ensure audit clause survives termination, and stay within 1,100 words. Flag any Licensor-friendly clause that may be struck down as unconscionable.",
+      "tags": [
+        "licensing",
+        "royalty-audit",
+        "net-sales",
+        "minimum-guarantee",
+        "review"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-036",
+      "title": "Draft Patent Claims Avoiding Section 3(k) Rejection",
+      "prompt": "Act as a software patent attorney with 12 years of experience drafting claims that survive Section 3(k) at the Indian Patent Office. I need you to draft claims for an invention: \"A method and system for real-time fraud detection in UPI transactions using behavioural biometrics and anomaly scoring.\" Applicant: \"PaySafe Technologies Pvt Ltd\", Mumbai.\n\nPlease provide: (1) Claim 1 as a SYSTEM claim reciting specific hardware (server, mobile device with accelerometer/gyroscope, network interface), (2) Claim 2 as a METHOD claim tied to the hardware with explicit technical effects (latency reduction, false-positive rate), (3) Claim 3 as a COMPUTER-READABLE MEDIUM claim (cautious wording to avoid \"computer programme per se\"), (4) Five dependent claims refining the behavioural biometric features, anomaly scoring thresholds, and fallback authentication, (5) A strategy memo explaining how each claim navigates Section 3(k) citing Ferid Allani (2019), Enercon v. Alloys Wobben, the 2017 CRI Guidelines, and at least two IPO orders allowing software-related patents, (6) A technical-effect argument emphasising solving a technical problem not merely a business problem.\n\nFormat the output as numbered claims plus a 350-word strategy memo. Consider these constraints: avoid purely algorithmic language, tie every method step to hardware elements, articulate measurable technical effects (sub-100ms latency, 99.5% accuracy), comply with Section 10(4) enablement, and stay within 1,100 words. Flag the claim most vulnerable to Section 3(k) rejection.",
+      "tags": [
+        "patent-claim",
+        "section-3k",
+        "fintech-patent",
+        "ferid-allani",
+        "cri-guidelines"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-037",
+      "title": "Prior Art Landscape for Technology Area",
+      "prompt": "Act as a patent landscape analyst with 8 years of experience producing landscape reports for Indian corporate R&D teams. I need you to design a patent landscape study for the technology area \"Green hydrogen electrolysers\" with a focus on Indian patent activity. Client: \"Reliance Industries Ltd\" new energy division, Jamnagar.\n\nPlease provide: (1) A scoping document defining the technology, sub-technologies (alkaline, PEM, SOEC, AEM), and IPC/CPC classes, (2) A data collection plan using InPASS, Espacenet, Derwent Innovation, (3) Filters (priority 2015-2026, Indian jurisdiction, plus top 5 foreign jurisdictions), (4) A landscape deliverable outline: top assignees, filing trend by year, geographic distribution, sub-tech heatmap, citation analysis, white spaces, (5) Key-player profiles for 8 companies (Reliance, Adani, L&T, Ohmium, ITM Power, Plug Power, Nel Hydrogen, Siemens Energy), (6) White-space identification methodology, (7) A 2-page executive summary template for the client CTO, (8) An actionable list of 5 filing opportunities for the client.\n\nFormat the output as a landscape project plan with exhibits. Consider these constraints: India's National Green Hydrogen Mission (Jan 2023) targets 5 MMT by 2030 and INR 19,744 crore outlay, the study must align with SIH (Strategic Interventions for Green Hydrogen Transition), identify any patents held by Indian government labs (CSIR-NCL, IIT Bombay), and stay within 1,100 words. Suggest a 6-week project timeline.",
+      "tags": [
+        "prior-art",
+        "landscape",
+        "green-hydrogen",
+        "white-space",
+        "reliance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-038",
+      "title": "Draft Trademark Licensing Agreement for Franchise",
+      "prompt": "Act as a franchise and trademark licensing lawyer with 9 years of experience advising Indian QSR brands. I need you to draft the trademark licensing clauses of a franchise agreement. Licensor: \"ChaiThela Pvt Ltd\", Delhi (registered marks CHAITHELA + device in Classes 30, 43). Franchisee: \"Urban Brew LLP\", Hyderabad. Territory: 3 districts of Telangana. Royalty: 6% gross sales, upfront franchise fee INR 8 lakh.\n\nPlease provide: (1) Grant clause: limited, non-exclusive, non-transferable licence to use trademarks only at approved outlets, (2) Quality control clause: Licensor's right to inspect, sample, approve marketing (Section 49 registered user obligations), (3) Goodwill clause: all goodwill accrues to Licensor, (4) Co-branding restrictions, (5) Trademark usage manual reference, (6) Infringement notification obligation on franchisee, (7) Registered user recordal note under Section 49 of the Trade Marks Act 1999, (8) Termination and post-termination use of marks (de-identification within 30 days), (9) Indemnity for infringement claims, (10) GST and TDS treatment.\n\nFormat the output as labelled clause drafts with a 250-word drafting rationale. Consider these constraints: failure to exercise quality control may render the mark liable to revocation (Gujarat Bottling v. Coca Cola 1995), Section 49 registered user recordal is optional but advisable, franchise agreements must also comply with the proposed franchise law (not yet enacted) so future-proof drafting is needed, and stay within 1,100 words. Flag any clause that may be void under Competition Act Section 3(4).",
+      "tags": [
+        "licensing",
+        "trademark-license",
+        "franchise",
+        "section-49",
+        "quality-control"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-039",
+      "title": "Draft Patent Working Statement Form 27",
+      "prompt": "Act as a patent prosecution paralegal with 6 years of experience preparing Form 27 (Statement regarding the working of patented invention on a commercial scale) filings for Indian clients. I need you to draft a Form 27 response for the patentee \"Bharat Biotech International Ltd\" (Hyderabad) for their patent IN 412987 on a Covid vaccine adjuvant, for financial year 2024-25. The patent is worked in India (manufactured at Genome Valley plant).\n\nPlease provide: (1) A complete Form 27 response including the patent number, title, patentee name, (2) A statement that the patent is worked in India, (3) Disclosure of quantum and value manufactured/imported (INR 142 crore revenue, 28 million doses), (4) Licensee details (none / sub-licence to 2 WHO PQ manufacturers), (5) A statement on meeting reasonable requirements of the public, (6) Price information (approx INR 150 per dose), (7) Any not-worked reasons (N/A here), (8) Declaration signed by authorised signatory.\n\nFormat the output as a ready-to-file Form 27 draft following the Patents (Amendment) Rules 2020 format. Consider these constraints: Form 27 must be filed for the financial year ending 31 March, deadline is 30 September of the next year, penalty for non-filing is up to INR 10 lakh and potential Section 84 compulsory licensing exposure, post-2020 rules require only one Form 27 per patentee per financial year covering all patents, and stay within 700 words. Flag any disclosure that could be used by a compulsory-licence applicant.",
+      "tags": [
+        "ip-portfolio",
+        "form-27",
+        "working-statement",
+        "compulsory-license",
+        "pharma"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    },
+    {
+      "id": "legal-ip-patent-040",
+      "title": "Draft GI Application for Indian Handicraft",
+      "prompt": "Act as a GI (Geographical Indication) specialist with 8 years of experience filing applications under the GI Act 1999 at the GI Registry, Chennai. I need you to draft a GI application (Form GI-1) for \"Channapatna Toys\" (wooden lacquered toys from Channapatna, Karnataka). Applicant: \"Karnataka State Handicrafts Development Corporation\" on behalf of local artisan cooperatives.\n\nPlease provide: (1) Name and address of the applicant with representative capacity, (2) Class of goods (Class 20 and Class 28 under the Fourth Schedule to the GI Rules), (3) Geographical area with map description (Channapatna taluk, Ramanagara district, Karnataka), (4) Historical evidence of use (250+ year heritage, dating from Tipu Sultan's era), (5) Specification of characteristics: hale wood (Wrightia tinctoria), lac colours, distinctive turning technique, vegetable dyes, (6) Proof of origin and link to territory, (7) Method of production including 8 process steps, (8) Inspection structure (proposed committee with artisans, government, NABARD representation), (9) Statement of case (why the name qualifies as a GI), (10) Producers list.\n\nFormat the output as a ready-to-file application with numbered sections per Rule 32 of the GI Rules 2002. Consider these constraints: GI protection is for 10 years renewable (Section 18), homonymous GI conflicts must be checked, a producer must be registered as an Authorised User separately, and stay within 1,100 words. Cite the Darjeeling Tea and Kanjeevaram Silk GIs as precedents for drafting style.",
+      "tags": [
+        "ip-portfolio",
+        "gi-application",
+        "handicraft",
+        "gi-act",
+        "channapatna"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "ip-patent"
+    }
+  ]
+}

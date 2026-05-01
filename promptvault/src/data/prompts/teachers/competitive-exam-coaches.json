@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "teachers-competitive-exam-coaches-001",
+      "title": "UPSC Prelims PYQ Trend Analysis GS1",
+      "prompt": "Act as a senior UPSC Prelims strategist with 12 years experience training aspirants at Vision IAS and Drishti IAS in Delhi. I need you to analyze the trend of UPSC CSE Prelims GS Paper 1 questions from 2014 to 2024 for a specific topic I will provide (e.g., \"Modern Indian History - Gandhian Movements\" or \"Indian Polity - Fundamental Rights\"). Here is the context: I am preparing a topic-wise PYQ booklet for a batch of 200 aspirants at a Kota-based coaching institute, and I need data-driven insights rather than generic commentary. Please provide: (1) a year-wise count of questions asked on the topic with sub-theme breakdown, (2) the 5 most repeated concepts and the exact angle UPSC asks them from, (3) a difficulty gradient (easy/medium/tough) with UPSC-style justification, (4) 3 \"trap\" patterns UPSC uses in options (reverse statements, partial truths, NCERT-sourced distractors), (5) 10 probable questions for CSE 2025 Prelims modelled on the trend, and (6) NCERT + standard reference mapping (Bipan Chandra, Laxmikanth, Spectrum) for each sub-theme. Format the output as a structured analytical report with tables. Consider NCERT-first pedagogy, the 2023 shift toward conceptual questions, and the CSAT qualifying cutoff impact on GS1 strategy.",
+      "tags": [
+        "upsc-prelims",
+        "pyq-analysis",
+        "gs-paper-1",
+        "trend-analysis",
+        "vision-ias"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-002",
+      "title": "JEE Advanced Physics Problem Creator Mechanics",
+      "prompt": "Act as a JEE Advanced physics problem setter with 15 years experience at FIITJEE and Resonance Kota, having contributed to the Pathfinder and GMP problem books. I need you to create 5 original JEE Advanced-level physics problems on a chapter I specify (e.g., \"Rotational Mechanics\" or \"Electromagnetic Induction\"). Here is the context: I am preparing a Part Test for 150 class 12 students in my FIITJEE batch who have already solved HC Verma and DC Pandey, and I need problems that match the 2023-2024 JEE Advanced difficulty curve without being direct lifts from Irodov. Please provide: (1) 2 single correct MCQs, 2 multiple correct MCQs, and 1 integer/numerical answer type problem, (2) full solution with clean LaTeX-style mathematical steps and free body diagrams described in words, (3) the specific concept cluster tested (e.g., pseudo force + constraint + energy conservation), (4) common student mistakes and trap options, (5) estimated solving time (8-15 minutes per problem), and (6) difficulty rating out of 10 with justification. Format as a teacher's answer key with student-facing question sheet separately. Consider the JEE Advanced 2024 Paper 2 style, the shift toward multi-concept integration, and avoid problems solvable by pure formula substitution.",
+      "tags": [
+        "jee-advanced",
+        "physics",
+        "problem-creation",
+        "fiitjee",
+        "rotational-mechanics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-003",
+      "title": "UPSC Mains GS2 Model Answer Governance",
+      "prompt": "Act as a UPSC Mains answer writing mentor with 10 years experience evaluating test series copies at Forum IAS and Insights IAS. I need you to write a full 250-word model answer for a UPSC Mains GS Paper 2 question I provide on Governance, Polity, or International Relations. Here is the context: I am training 80 aspirants in an offline batch in Rajinder Nagar, and I need answers that consistently score 10+/15 marks using the introduction-body-conclusion structure preferred by UPSC examiners in the 2023 mains evaluation. Please provide: (1) a definition-based or data-based introduction (40 words), (2) a body with 2-3 subheadings, each backed by constitutional articles, committee reports (2nd ARC, Punchhi, Sarkaria), Supreme Court judgments, and government schemes, (3) a diagram/flowchart description where applicable, (4) a way-forward conclusion linking to SDG or NITI Aayog vision (40 words), (5) 5 value-addition phrases that examiners mark, and (6) a marking rubric showing where each mark comes from. Format as a handwritten-style answer layout. Consider the 2023 UPSC trend toward multidimensional analysis, the negative marking for generic answers, and the demand-of-the-question framing from the CSE toppers' copies.",
+      "tags": [
+        "upsc-mains",
+        "gs-paper-2",
+        "model-answer",
+        "governance",
+        "answer-writing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-004",
+      "title": "NEET Biology NCERT Line by Line MCQs",
+      "prompt": "Act as a NEET UG biology faculty with 12 years experience at Allen Kota and Aakash Institute, specialising in NCERT-based MCQ generation for the new NTA pattern. I need you to create 20 NEET-level biology MCQs from a specific NCERT chapter I provide (e.g., \"Class 11 - Biomolecules\" or \"Class 12 - Molecular Basis of Inheritance\"). Here is the context: I am preparing a daily NCERT drill for 250 repeater students at my coaching in Kota, and I need questions where at least 15 are directly traceable to NCERT lines, matching the 2024 NEET paper pattern where 85% questions were NCERT-based. Please provide: (1) 20 MCQs with 4 options each, (2) the exact NCERT page number and line reference for each, (3) the concept tested and Bloom's taxonomy level, (4) 5 \"NCERT trap\" questions using in-text diagrams, tables, or footnotes, (5) full explanation with why each wrong option is wrong, and (6) a chapter-wise weightage suggestion based on NEET 2020-2024 trends. Format as a printable test booklet with answer key. Consider the post-2024 NEET normalisation, NCERT textbook changes, and NMC syllabus updates affecting chapters like Strategies for Enhancement in Food Production.",
+      "tags": [
+        "neet-biology",
+        "ncert-based",
+        "allen-kota",
+        "mcq-creation",
+        "neet-ug"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-005",
+      "title": "SSC CGL Tier 1 Quantitative Aptitude Set",
+      "prompt": "Act as an SSC CGL quantitative aptitude faculty with 8 years experience at KD Campus and Paramount Coaching in Mukherjee Nagar. I need you to create a 25-question SSC CGL Tier 1 Quantitative Aptitude practice set aligned with the 2024 CGL pattern. Here is the context: I am running an evening batch of 120 aspirants targeting CGL 2025, and I need questions that match the exact difficulty of SSC CGL Tier 1 shifts held in September 2024, avoiding the unrealistic difficulty of mock test portals. Please provide: (1) 25 questions covering arithmetic (percentage, profit-loss, SI/CI, time-work, time-distance, ratio, mixtures), advanced maths (geometry, mensuration, trigonometry, algebra), and DI, with proportional weightage matching PYQ distribution, (2) shortcut method for each question under 45 seconds, (3) traditional method as backup, (4) trap options that SSC commonly uses, (5) expected cutoff-based difficulty tagging (easy/moderate/tough), and (6) a score predictor chart. Format as a two-column booklet (questions left, solutions right). Consider the shift to CBT normalisation, the 2024 pattern of 1 mark per question with 0.5 negative, and the typical CGL Tier 1 cutoff of 135+ for general category.",
+      "tags": [
+        "ssc-cgl",
+        "quantitative-aptitude",
+        "tier-1",
+        "kd-campus",
+        "arithmetic"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-006",
+      "title": "IBPS PO Prelims Reasoning Puzzle Generator",
+      "prompt": "Act as an IBPS PO reasoning faculty with 10 years experience at Career Power and Oliveboard, specialising in high-level puzzles for banking mains. I need you to create 5 original reasoning puzzles of IBPS PO Prelims to Mains difficulty on themes I specify (linear seating, circular seating facing centre/outside, floor-based, box stacking, month-based scheduling, or designation-based). Here is the context: I am preparing a puzzle PDF for 300 bank aspirants who have already exhausted Adda247 and Bankersadda free material, and I need fresh puzzles that match the IBPS PO 2024 Mains reasoning section difficulty. Please provide: (1) 5 puzzles with 5 questions each (25 MCQs total), (2) a structured clue list with 7-10 clues per puzzle avoiding direct information, (3) step-by-step solving logic showing tabular elimination, (4) solving time estimate (6-9 minutes per puzzle), (5) the specific reasoning skill tested (forward/backward elimination, possibility cases), and (6) one twist case with multiple possibilities. Format as a teacher's solution booklet plus student question sheet. Consider the IBPS 2024 trend of double puzzles, the Mains 60-minute sectional limit, and the typical PO cutoff scoring range of 45-55 in reasoning.",
+      "tags": [
+        "ibps-po",
+        "reasoning-puzzles",
+        "seating-arrangement",
+        "banking-exam",
+        "career-power"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-007",
+      "title": "UPSC Essay Paper Framework Generator",
+      "prompt": "Act as a UPSC essay paper mentor with 9 years experience guiding CSE toppers, having analysed every essay paper from 2013-2024. I need you to build a complete essay framework for a UPSC Mains Essay Paper topic I provide (philosophical, socio-economic, or governance-based). Here is the context: I am mentoring a batch of 60 aspirants at Chanakya IAS Academy, and I need a framework that helps them write a 1000-1200 word essay in 90 minutes scoring 120+/250. Please provide: (1) a topic decoding with 3 possible interpretations, (2) an introduction using anecdote/quote/definition/data (150 words), (3) a thesis statement, (4) 6 body paragraphs covering historical, political, economic, social, ethical, and global dimensions with Indian examples (Mahatma Gandhi, B R Ambedkar, ISRO, Digital India, NITI Aayog reports), (5) counter-argument paragraph for balance, (6) a conclusion linking to constitutional vision and SDG 2030 (120 words), (7) 10 quotes from Indian and global thinkers usable in the essay, and (8) a self-evaluation rubric. Format as a mind-map followed by a full model essay. Consider the UPSC 2023-2024 trend toward multidisciplinary essays, toppers' copies from Tina Dabi, Shruti Sharma, and the demand for originality.",
+      "tags": [
+        "upsc-essay",
+        "essay-framework",
+        "mains-paper",
+        "chanakya-ias",
+        "model-essay"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-008",
+      "title": "JEE Main Chemistry Numerical Problem Set",
+      "prompt": "Act as a JEE Main chemistry faculty with 14 years experience at Allen Career Institute Kota, specialising in physical chemistry numerical problems. I need you to create 15 numerical-answer-type JEE Main problems on a physical chemistry chapter I specify (e.g., \"Chemical Equilibrium\", \"Electrochemistry\", \"Thermodynamics\"). Here is the context: I am preparing a weekly numerical drill for 180 class 12 students targeting JEE Main 2025, and I need problems that match the Jan and April 2024 JEE Main session difficulty with answers rounded to the nearest integer. Please provide: (1) 15 numerical problems with single integer or decimal answers, (2) complete solution with unit-balanced steps, (3) the exact formula and concept applied, (4) common calculation errors students make (wrong log values, unit conversion, temperature in Celsius vs Kelvin), (5) an NCERT reference point, and (6) a time benchmark of 3-5 minutes per problem. Format as an answer key PDF with question sheet. Consider the JEE Main 2024 shift toward higher-order application questions, the integer-type 30% weightage, and NCERT Class 11-12 physical chemistry as primary source.",
+      "tags": [
+        "jee-main",
+        "chemistry",
+        "numerical-problems",
+        "allen-kota",
+        "physical-chemistry"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-009",
+      "title": "Blood Relations Puzzle Set SSC Banking",
+      "prompt": "Act as a reasoning faculty with 8 years experience teaching blood relations and coding-decoding at Mahendra's and Rakesh Yadav Readers Publications. I need you to create 20 blood relations questions at mixed difficulty levels for SSC CGL, CHSL, and banking exams. Here is the context: I am building a blood relations chapter PDF for 400 students preparing for SSC and IBPS simultaneously, and I need a progression from basic family tree questions to complex pointing-type and coded blood relations questions. Please provide: (1) 5 basic questions (direct relationships, pointing), (2) 5 coded blood relations using symbols (+, -, x, /), (3) 5 statement-based family tree questions with 3 generations, (4) 3 mixed gender-ambiguity questions, (5) 2 Mains-level multi-statement puzzles requiring elimination, (6) step-by-step family tree diagrams for each solution, (7) a shortcut for each question type, and (8) the specific trap (gender assumption, in-law confusion) in each. Format as a chapter booklet with theory summary. Consider the SSC CGL 2024 reasoning pattern with 2-3 blood relations questions, the IBPS PO Mains 40-minute reasoning section, and the typical 60-second per question speed requirement.",
+      "tags": [
+        "blood-relations",
+        "reasoning",
+        "ssc-cgl",
+        "ibps-po",
+        "family-tree"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-010",
+      "title": "UPSC CSAT Passage Comprehension Builder",
+      "prompt": "Act as a UPSC CSAT faculty with 10 years experience training non-maths background aspirants at Drishti IAS and Rau's IAS Study Circle. I need you to create 3 CSAT-standard reading comprehension passages with questions, matching the 2023-2024 UPSC Prelims Paper 2 difficulty after the controversial toughening. Here is the context: I am building a CSAT survival kit for 150 humanities-background aspirants who need to just clear the 33% qualifying mark in 2025, and I need passages that represent the philosophical, economic, and governance-themed comprehensions UPSC now favours. Please provide: (1) 3 passages of 300-450 words each on different themes (philosophy/ethics, economics, governance), (2) 5 questions per passage (main idea, inference, tone, vocabulary in context, author's assumption), (3) full explanation with the exact passage line reference, (4) the elimination logic for wrong options (too broad/too narrow/out of scope), (5) a 2-minute passage-reading strategy, and (6) cutoff-based score estimation. Format as a test booklet with detailed solution. Consider the 2023 UPSC CSAT shock, the 33% qualifying threshold, and the non-technical passage preference over pure maths/logic questions.",
+      "tags": [
+        "upsc-csat",
+        "reading-comprehension",
+        "prelims-paper-2",
+        "drishti-ias",
+        "passage-based"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-011",
+      "title": "Syllogism Question Bank Banking Exam",
+      "prompt": "Act as a banking reasoning faculty with 9 years experience at Adda247 and Bankersadda, specialising in syllogism and statement-conclusion questions. I need you to create 30 syllogism questions of IBPS Clerk to SBI PO Mains difficulty. Here is the context: I am building a syllogism mastery PDF for 500 banking aspirants, and I need questions covering both traditional (only-few, only, all, some) and possibility-based syllogism that appeared in IBPS 2023-2024 shifts. Please provide: (1) 10 basic two-statement syllogisms, (2) 10 three-statement syllogisms, (3) 5 \"only few\" and \"only\" type modern syllogisms, (4) 5 reverse syllogism (conclusion to statement) questions, (5) Venn diagram representation for each solution, (6) a definite/possibility table, (7) 3 shortcut rules for quick solving, and (8) typical trap options that confuse possibility with certainty. Format as a chapter booklet. Consider the 2024 banking trend of reverse syllogism in SBI PO, the 30-second per question target in Prelims, and the mains-level twist of 4-statement puzzles in IBPS PO Mains.",
+      "tags": [
+        "syllogism",
+        "banking-reasoning",
+        "sbi-po",
+        "venn-diagram",
+        "ibps-clerk"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-012",
+      "title": "UPSC Optional Sociology Answer Paper 1",
+      "prompt": "Act as a UPSC Mains Sociology optional mentor with 12 years experience, trained under Upendra Sir and Praveen Kishore, having guided 50+ CSE selections. I need you to write a 20-mark Sociology Paper 1 model answer for a question I provide (from Founding Fathers, Research Methods, Stratification, Work and Economic Life, or Politics and Society). Here is the context: I am mentoring 30 sociology optional students preparing for Mains 2025, and I need answers that demonstrate theoretical depth, thinker application, and Indian contextualisation expected by UPSC sociology examiners. Please provide: (1) introduction with thinker-based definition (50 words), (2) main body with 3 subheadings, each quoting 2 sociologists (Durkheim, Weber, Marx, Parsons, Merton, Bourdieu, Giddens, M N Srinivas, Andre Beteille, Yogendra Singh), (3) Indian examples linking theory to current affairs (caste census, farmers' protest, gig economy), (4) critical evaluation paragraph, (5) conclusion linking to social change (50 words), (6) 5 keywords to underline, and (7) marking rubric. Format as a handwritten-style answer. Consider the UPSC sociology 2023 trend of applied questions, the demand for Indian sociologists alongside Western ones, and the 250-word limit for 15-mark questions.",
+      "tags": [
+        "upsc-optional",
+        "sociology",
+        "mains-paper-1",
+        "model-answer",
+        "praveen-kishore"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-013",
+      "title": "NEET Physics Modern Physics MCQs",
+      "prompt": "Act as a NEET UG physics faculty with 11 years experience at Aakash BYJU'S and Allen Kota. I need you to create 15 NEET-level physics MCQs on Modern Physics (photoelectric effect, atomic structure, nuclei, semiconductors). Here is the context: I am preparing a final revision module for 200 NEET droppers, and I need questions that match the 2024 NEET pattern where modern physics contributed 6-7 questions out of 45, focusing on Class 12 NCERT Part 2 chapters 11-14. Please provide: (1) 15 MCQs across all 4 chapters proportionally, (2) 5 direct NCERT-based questions, 5 conceptual twists, 5 numerical MCQs, (3) full solution with formula and NCERT page reference, (4) common misconception explanation (wave vs particle, binding energy per nucleon sign), (5) difficulty rating and expected solving time (1-2 minutes), (6) how the question differs from JEE-level questions, and (7) a one-page revision chart of formulas. Format as a printable test. Consider the 2024 NEET paper where modern physics was moderate difficulty, the NCERT coverage being sufficient for NEET, and the elimination of certain topics post-NMC syllabus revision.",
+      "tags": [
+        "neet-physics",
+        "modern-physics",
+        "ncert-based",
+        "aakash-byjus",
+        "neet-ug"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-014",
+      "title": "SSC English Cloze Test Generator",
+      "prompt": "Act as an SSC English faculty with 9 years experience at Paramount Coaching and Neetu Singh's KD Campus, specialising in cloze tests and para jumbles. I need you to create 3 cloze test passages with 10 blanks each, matching SSC CGL Tier 1 and Tier 2 difficulty. Here is the context: I am preparing an English comprehension booklet for 200 SSC aspirants who struggle with vocabulary-based blanks, and I need passages on contemporary themes like climate change, digital economy, and Indian heritage. Please provide: (1) 3 passages of 250-300 words each with 10 blanks per passage, (2) 4 options per blank mixing vocabulary, prepositions, tense, and contextual fit, (3) detailed explanation for correct answer with why wrong options fail (register, collocation, logic), (4) the SSC-specific trick word used, (5) a vocabulary list of 15 advanced words from the passages with meanings, (6) the passage difficulty level and estimated time (5 minutes per passage), and (7) similar PYQ reference from SSC 2022-2024. Format as a test booklet with answer key. Consider the SSC CGL 2024 English pattern, the Tier 2 English emphasis on vocabulary, and the typical cutoff requirement of 35+/50 in English.",
+      "tags": [
+        "ssc-cgl",
+        "english",
+        "cloze-test",
+        "paramount-coaching",
+        "vocabulary"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-015",
+      "title": "Data Interpretation Caselet Banking Mains",
+      "prompt": "Act as a banking quant faculty with 10 years experience at Oliveboard and Career Power, specialising in high-level DI for SBI PO and IBPS PO Mains. I need you to create 3 DI caselets of SBI PO Mains 2024 difficulty. Here is the context: I am building a DI mastery PDF for 300 banking aspirants who have completed basic DI and need caselet, missing DI, and arithmetic-based DI for Mains, and I need caselets set in realistic Indian banking and economic contexts. Please provide: (1) 3 caselets with 5 questions each (one pure caselet, one missing DI table, one arithmetic DI with pie chart), (2) realistic Indian context (HDFC branch loan data, Zomato revenue split, state-wise GST collection), (3) step-by-step approximation techniques and calculation shortcuts, (4) the arithmetic concept embedded (percentage change, ratio, average, profit), (5) answer with trap option analysis, (6) solving time target of 8-10 minutes per caselet, and (7) a difficulty tag. Format as a teacher's solution set. Consider the SBI PO Mains 2024 shift to caselet-heavy DI, the 45-minute quant section, and the need for approximation over exact calculation.",
+      "tags": [
+        "data-interpretation",
+        "sbi-po",
+        "ibps-po",
+        "caselet-di",
+        "banking-mains"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-016",
+      "title": "UPSC GS3 Economy Answer Framework",
+      "prompt": "Act as a UPSC Mains GS Paper 3 economy mentor with 11 years experience, having written answer-writing modules for Insights IAS and Forum IAS. I need you to create a complete answer framework for a UPSC GS3 economy question I provide (agriculture, industry, infrastructure, banking, inclusive growth, or budget). Here is the context: I am training 100 aspirants in an answer-writing programme at ORN Karol Bagh, and I need a framework that incorporates Economic Survey, Union Budget, RBI reports, and NITI Aayog data up to 2025. Please provide: (1) demand decoding (what the question wants - analyse/discuss/examine), (2) introduction with latest data point (GDP growth, inflation rate, CAD figure), (3) body structure with 3-4 subheadings, each backed by a government report, committee (U K Sinha, Bimal Jalan, M Damodaran), and a scheme (PM-KISAN, PLI, PMAY), (4) critical evaluation paragraph, (5) way-forward with WEF/IMF/World Bank alignment, (6) 7 economy keywords UPSC favours (price discovery, multiplier effect, fiscal consolidation), and (7) marking scheme. Format as a framework + 250-word model answer. Consider Union Budget 2024-25, Economic Survey 2023-24, RBI's recent monetary policy, and the UPSC 2023 trend toward data-backed economy answers.",
+      "tags": [
+        "upsc-mains",
+        "gs-paper-3",
+        "economy",
+        "answer-writing",
+        "economic-survey"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-017",
+      "title": "JEE Advanced Math Integration Problem",
+      "prompt": "Act as a JEE Advanced mathematics problem setter with 13 years experience at FIITJEE South Delhi and Vidyamandir Classes. I need you to create 8 JEE Advanced-level problems on definite and indefinite integration. Here is the context: I am building an integration problem set for 120 class 12 students in a two-year FIITJEE programme, and I need problems that match the JEE Advanced 2023-2024 Paper 1 and 2 difficulty, avoiding direct lifts from Arihant or Cengage. Please provide: (1) 3 indefinite integration problems using substitution, partial fractions, or by-parts, (2) 3 definite integration problems using properties (king property, symmetry), (3) 2 integration-as-limit-of-sum or integration-based area problems, (4) complete solution with every algebraic step, (5) the specific trick or property exploited, (6) common student errors (forgetting modulus, wrong limit substitution), (7) time estimate of 6-12 minutes per problem, and (8) difficulty rating. Format as a worksheet with separate answer key. Consider JEE Advanced 2024 Paper 2 integration difficulty, the multi-concept integration trend with differential equations, and the rejection of formula-plug problems.",
+      "tags": [
+        "jee-advanced",
+        "mathematics",
+        "integration",
+        "fiitjee",
+        "problem-creation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-018",
+      "title": "Current Affairs MCQ UPSC Prelims",
+      "prompt": "Act as a UPSC current affairs faculty with 8 years experience at Vision IAS and ForumIAS, specialising in monthly current affairs magazines. I need you to create 25 UPSC Prelims-style current affairs MCQs based on news from a month I specify. Here is the context: I am preparing a monthly CA booklet for 400 aspirants targeting Prelims 2025, and I need questions that connect current affairs with static portions (polity, economy, environment, IR, S&T) the way UPSC does. Please provide: (1) 25 MCQs in UPSC statement-based format (Consider the following statements: 1, 2, 3 - which are correct), (2) topic mix covering schemes, committees, reports (Global Hunger Index, HDR), geographical news, international organisations, awards, S&T developments, (3) static connection for each question (e.g., PM Surya Ghar + distributed solar policy), (4) full explanation with 3-4 lines of value-added knowledge, (5) source reference (PIB, The Hindu, Indian Express, PRS), (6) difficulty rating, and (7) a probability assessment for Prelims 2025. Format as a booklet with detailed solutions. Consider the UPSC 2023 Prelims trend of statement-based CA questions, the reduced direct-fact questions, and the static-current linkage pattern.",
+      "tags": [
+        "upsc-prelims",
+        "current-affairs",
+        "mcq-creation",
+        "vision-ias",
+        "pib-based"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-019",
+      "title": "RRB NTPC General Awareness Quiz",
+      "prompt": "Act as a Railway exams faculty with 8 years experience at Mahendra's and RRB Exam Hub, specialising in RRB NTPC and Group D general awareness. I need you to create 30 GA questions for RRB NTPC CBT 1 and CBT 2 difficulty. Here is the context: I am preparing a GA module for 600 RRB aspirants from Bihar and UP, and I need questions covering history, geography, polity, economy, science, static GK, and Railway-specific questions that featured in RRB NTPC 2022 and ALP 2024 shifts. Please provide: (1) 5 Indian history questions (ancient, medieval, modern), (2) 5 geography questions (Indian physical, economic, world), (3) 5 polity questions from NCERT, (4) 5 general science (physics, chem, bio) questions, (5) 5 static GK (books, awards, dances, first appointments), (6) 5 Railway-specific questions (zones, divisions, GM, trains, Railway ministers), (7) answer with 2-line explanation, (8) difficulty tag, and (9) PYQ reference. Format as a Hindi-English bilingual MCQ booklet style. Consider the RRB NTPC CBT 1 40-question GA section, the cutoff variation by category (general 75+, OBC 70+), and the Railway GK repeatability from PYQs.",
+      "tags": [
+        "rrb-ntpc",
+        "general-awareness",
+        "railway-exam",
+        "static-gk",
+        "rrb-group-d"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-020",
+      "title": "CAT Logical Reasoning Set Creator",
+      "prompt": "Act as a CAT LRDI faculty with 10 years experience at IMS, TIME, and Career Launcher, having solved every CAT paper from 2014-2024. I need you to create 2 CAT-level logical reasoning sets matching the CAT 2023-2024 LRDI section difficulty. Here is the context: I am building an LRDI practice module for 200 MBA aspirants targeting CAT 2025 for IIM A/B/C, and I need sets that reflect the CAT shift from DI-heavy to LR-heavy logical reasoning sets in 2023-2024. Please provide: (1) 2 LR sets with 4-5 questions each (one tournament/ranking set, one distribution/matrix set), (2) realistic context (IPL bowler analysis, startup funding rounds, election vote share), (3) complete solving logic with elimination tables, (4) the reasoning skill tested (conditional logic, optimal assignment), (5) solving time target of 10-12 minutes per set, (6) trap answers targeting assumption errors, (7) difficulty rating (CAT 97-100 percentile), and (8) how this differs from XAT and IIFT LR. Format as a teacher solution set. Consider CAT 2024 slot analysis showing 3 LR sets and 1 DI set, the 40-minute LRDI sectional limit, and the typical IIM cutoff requiring 85+ percentile in LRDI.",
+      "tags": [
+        "cat-exam",
+        "logical-reasoning",
+        "lrdi",
+        "ims-career-launcher",
+        "mba-prep"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-021",
+      "title": "UPSC Ethics Case Study GS4",
+      "prompt": "Act as a UPSC Ethics GS Paper 4 mentor with 9 years experience at Lukmaan IAS and Tirthankar Roychowdhuri's classes in Mukherjee Nagar. I need you to create a complete 20-mark case study for UPSC Mains GS Paper 4 with model answer. Here is the context: I am training 80 aspirants in ethics case study writing, and I need a case that tests multiple ethical dilemmas (integrity, empathy, transparency, courage) set in an Indian bureaucratic or governance context. Please provide: (1) a realistic 250-word case scenario involving an IAS/IPS officer, district collector, or public servant facing a dilemma (tribal land acquisition, pollution vs industry, communal tension, whistleblowing), (2) 4-5 stakeholders affected, (3) 4 sub-questions of 5 marks each (dilemmas faced, options available, course of action, ethical principles involved), (4) a full model answer structured per sub-question with ethical theories (deontology, utilitarianism, virtue ethics), (5) thinker quotes (Gandhi, Kautilya, Ambedkar, Aristotle, Kant) appropriately placed, (6) a decision justification matrix, and (7) marking breakdown. Format as case + model answer. Consider the UPSC 2023 GS4 trend toward multi-stakeholder cases, the 250-word answer limit per sub-question, and the preference for balanced analysis over moralistic answers.",
+      "tags": [
+        "upsc-mains",
+        "ethics",
+        "gs-paper-4",
+        "case-study",
+        "lukmaan-ias"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-022",
+      "title": "NEET Organic Chemistry Mechanism Questions",
+      "prompt": "Act as a NEET UG organic chemistry faculty with 12 years experience at Allen Kota, specialising in reaction mechanisms and name reactions. I need you to create 15 NEET-level organic chemistry MCQs on a chapter I specify (Haloalkanes, Alcohols, Aldehydes-Ketones, Amines, or Biomolecules). Here is the context: I am preparing a weekly test for 250 NEET repeaters at Kota, and I need questions that match the 2024 NEET paper where organic contributed 30-35% of chemistry section, focusing on NCERT Class 12 reactions. Please provide: (1) 15 MCQs covering name reactions, reaction mechanisms (SN1, SN2, E1, E2), product prediction, and IUPAC nomenclature, (2) structural diagrams described clearly, (3) full mechanism explanation with arrow-pushing logic, (4) common student errors (wrong electrophile, wrong stereochemistry), (5) NCERT page reference, (6) difficulty tag and time estimate (1-2 minutes), and (7) a summary of the chapter's high-yield reactions. Format as a test with answer key. Consider the NEET 2024 organic chemistry weightage, the NCERT as primary source, and the NMC 2024 syllabus revision affecting certain topics.",
+      "tags": [
+        "neet-chemistry",
+        "organic-chemistry",
+        "reaction-mechanism",
+        "allen-kota",
+        "neet-ug"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-023",
+      "title": "Coding Decoding Questions Mixed Difficulty",
+      "prompt": "Act as a reasoning faculty with 8 years experience at Adda247 and KD Campus, specialising in coding-decoding for SSC and banking. I need you to create 25 coding-decoding questions of mixed difficulty for SSC CGL and IBPS Clerk. Here is the context: I am preparing a coding-decoding module for 350 aspirants who have completed basic letter coding and need number coding, symbol coding, and Mains-level coded languages. Please provide: (1) 5 letter-to-letter coding questions, (2) 5 letter-to-number coding questions, (3) 5 symbol-based coding (chinese coding), (4) 5 coded language (fictional word substitution) questions, (5) 5 Mains-level coding with conditional rules, (6) shortcut method for each pattern (position difference, reverse alphabet, opposite coding), (7) step-by-step decoding logic, (8) time target of 30-45 seconds per question, and (9) trap pattern identification. Format as a chapter booklet with theory summary. Consider the SSC CGL 2024 pattern with 2-3 coding questions, the IBPS Clerk Mains twist of coded inequality, and the need for pattern recognition over brute force.",
+      "tags": [
+        "coding-decoding",
+        "ssc-reasoning",
+        "ibps-clerk",
+        "letter-coding",
+        "symbol-coding"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-024",
+      "title": "UPSC Interview Personality Test DAF Prep",
+      "prompt": "Act as a UPSC interview mentor with 15 years experience, having conducted mock interviews at Vajiram & Ravi, Chanakya IAS, and Samkalp Interview Panel. I need you to generate a complete DAF-based interview preparation module for a candidate profile I provide (graduation subject, hometown, hobbies, work experience, optional subject). Here is the context: I am preparing 40 shortlisted candidates for UPSC Personality Test after Mains 2024, and each needs a customised question bank based on their DAF exploiting every keyword the board might pick. Please provide: (1) 15 questions on graduation background (technical depth expected), (2) 10 questions on hometown (state, district, local issues, culture, famous personalities), (3) 10 questions on hobbies (going beyond surface knowledge), (4) 10 questions on work experience and reason for leaving, (5) 10 questions on optional subject relevance to civil services, (6) 15 current affairs questions linked to DAF themes, (7) 5 situational/ethical questions, and (8) suggested answer framing with balanced viewpoint. Format as a DAF-wise question bank with answer hints. Consider the UPSC Board's conversational approach, the 30-minute interview duration, and the 275-mark weightage determining final rank.",
+      "tags": [
+        "upsc-interview",
+        "daf-based",
+        "personality-test",
+        "vajiram-ravi",
+        "mock-interview"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-025",
+      "title": "SBI PO English Grammar Error Spotting",
+      "prompt": "Act as an SBI PO English faculty with 10 years experience at Bankersadda and Career Power, specialising in grammar-based questions. I need you to create 25 error-spotting and sentence-improvement questions for SBI PO Prelims and Mains. Here is the context: I am building a grammar module for 400 banking aspirants who struggle with advanced grammar rules (subject-verb agreement, parallelism, modifier, tense shift), and I need questions that match the SBI PO 2024 English section difficulty. Please provide: (1) 10 error-spotting questions with 4 parts (A/B/C/D/no error), (2) 10 sentence-improvement questions with 4 alternatives, (3) 5 \"phrase replacement\" questions, (4) detailed grammar rule explanation for each answer, (5) the specific grammar concept (dangling modifier, subjunctive mood, conditional), (6) common mistakes students make in this rule, (7) similar PYQ reference from SBI PO 2022-2024, and (8) a one-page summary of high-frequency grammar rules. Format as a test with answer key. Consider the SBI PO 2024 trend toward advanced grammar, the 30 English questions in Prelims, and the Mains descriptive writing section.",
+      "tags": [
+        "sbi-po",
+        "english-grammar",
+        "error-spotting",
+        "bankersadda",
+        "grammar-rules"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-026",
+      "title": "JEE Main Coordinate Geometry Problems",
+      "prompt": "Act as a JEE mathematics faculty with 13 years experience at Resonance Kota and Vidyamandir Classes. I need you to create 12 JEE Main-level coordinate geometry problems covering straight lines, circles, parabola, ellipse, and hyperbola. Here is the context: I am building a coordinate geometry revision module for 150 class 12 students who have completed theory and need pattern-wise problem exposure for JEE Main 2025. Please provide: (1) 12 problems distributed across the 5 topics proportional to JEE Main weightage, (2) mix of single correct MCQ (8) and integer type (4), (3) full step-by-step solution with diagram descriptions, (4) the key concept tested (director circle, chord of contact, eccentricity, focal chord), (5) common calculation errors and shortcuts, (6) time benchmark of 3-5 minutes per problem, (7) difficulty rating, and (8) NCERT Class 11-12 chapter reference. Format as a problem set with separate solution booklet. Consider the JEE Main 2024 session pattern with 5-7 coordinate geometry questions, the conic section focus, and the need for pre-computed formula recall.",
+      "tags": [
+        "jee-main",
+        "coordinate-geometry",
+        "mathematics",
+        "resonance-kota",
+        "conic-sections"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-027",
+      "title": "UPSC Geography NCERT Mapping Analysis",
+      "prompt": "Act as a UPSC geography mentor with 10 years experience at Only IAS and Physics Wallah UPSC Pathshala. I need you to create a complete NCERT-to-PYQ mapping for UPSC Prelims geography for a topic I specify (Indian physical geography, climatology, oceanography, human geography, or economic geography). Here is the context: I am preparing a geography booster for 300 Prelims aspirants who have read NCERT Class 6-12 but struggle to connect static content to questions, and I need a structured mapping exercise. Please provide: (1) a topic-wise list of all UPSC Prelims geography questions from 2014-2024 on the topic, (2) the exact NCERT reference (book, chapter, page) for each question's source, (3) 5 conceptual clusters UPSC tests repeatedly, (4) 10 probable Prelims 2025 questions based on under-tested NCERT lines, (5) map-based practice questions (ocean currents, mountain ranges, climate zones, rivers), (6) diagrams UPSC has adapted from NCERT, (7) connected current affairs triggers, and (8) strategy recommendation. Format as an analytical mapping document. Consider NCERT as the primary UPSC geography source, the GC Leong supplement for physical geography, and the UPSC 2023 Prelims geography weightage.",
+      "tags": [
+        "upsc-prelims",
+        "geography",
+        "ncert-mapping",
+        "physics-wallah-upsc",
+        "pyq-analysis"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-028",
+      "title": "SSC Advanced Maths Geometry Problems",
+      "prompt": "Act as an SSC advanced maths faculty with 9 years experience at Rakesh Yadav Readers Publications and Abhinay Maths, specialising in geometry for SSC CGL Tier 2. I need you to create 20 SSC-level geometry problems covering triangles, circles, quadrilaterals, and polygons. Here is the context: I am building a geometry mastery module for 200 SSC CGL Tier 2 aspirants, and I need problems that match the SSC CGL Tier 2 2024 paper difficulty where advanced maths section had 30 questions in 60 minutes. Please provide: (1) 20 problems covering triangle properties (centroid, incentre, circumcentre, orthocentre), circle properties (chord, tangent, cyclic quadrilateral), similar triangles, and polygon angles, (2) proportional difficulty (6 easy, 10 moderate, 4 tough), (3) step-by-step solution with diagram described in words, (4) the Abhinay-style shortcut or property applied, (5) common mistakes (wrong similarity ratio, tangent-secant confusion), (6) time target of 60-90 seconds per question, (7) difficulty tag, and (8) similar PYQ from SSC CGL 2022-2024. Format as a chapter test. Consider the SSC CGL Tier 2 2024 pattern, the geometry-heavy advanced maths section, and the typical Tier 2 cutoff.",
+      "tags": [
+        "ssc-cgl",
+        "geometry",
+        "advanced-maths",
+        "rakesh-yadav",
+        "tier-2"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-029",
+      "title": "Direction Sense Reasoning Questions Bank",
+      "prompt": "Act as a reasoning faculty with 7 years experience at Mahendra's and Adda247, specialising in direction sense and distance calculation. I need you to create 20 direction sense questions of SSC CGL to IBPS PO difficulty. Here is the context: I am preparing a direction sense module for 300 aspirants, and I need questions ranging from basic 4-step directions to advanced clockwise-anticlockwise rotations and shadow-based direction puzzles. Please provide: (1) 5 basic direction questions (Pythagorean shortest distance), (2) 5 rotation-based questions (left/right turn sequence), (3) 5 shadow direction questions (morning/evening sun position), (4) 3 coded direction puzzles, (5) 2 Mains-level direction puzzles with multiple persons, (6) step-by-step visual description of paths, (7) shortcut formula for shortest distance calculation, (8) common errors (wrong cardinal direction, missing rotation), and (9) time target. Format as a chapter with theory and tests. Consider the SSC CGL 2024 direction question trend, the IBPS PO 2024 twist of coded directions, and the 45-second per question speed target.",
+      "tags": [
+        "direction-sense",
+        "reasoning",
+        "ssc-cgl",
+        "ibps-po",
+        "distance-calculation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-030",
+      "title": "UPSC IR International Relations Answer",
+      "prompt": "Act as a UPSC Mains GS Paper 2 IR mentor with 10 years experience, having taught at Rau's IAS Study Circle and Vajiram & Ravi. I need you to write a 15-mark model answer for a UPSC GS2 International Relations question I provide (India-neighbourhood, India-USA, India-Russia, India-China, multilateral groupings, or Indian diaspora). Here is the context: I am training 90 aspirants in IR answer writing, and I need answers that incorporate MEA statements, think tank reports (ORF, IDSA, Takshashila), and recent summit outcomes up to 2025. Please provide: (1) introduction contextualising with the latest development (150 words content in 40-word intro), (2) body with 3 subheadings (historical context, current dynamics, challenges/opportunities), (3) 5 specific examples (Raisina Dialogue, SCO summit, QUAD, BRICS expansion, G20 presidency), (4) critical balance between Indian and counterpart perspective, (5) way forward linking to India's strategic autonomy doctrine, (6) map or flowchart description if applicable, and (7) marking rubric. Format as a 250-word answer with marking scheme. Consider India's G20 presidency legacy, QUAD 2024, the Russia-Ukraine impact on India, and the UPSC 2023 IR questions focusing on geopolitical shifts.",
+      "tags": [
+        "upsc-mains",
+        "international-relations",
+        "gs-paper-2",
+        "model-answer",
+        "india-foreign-policy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-031",
+      "title": "Number Series Banking Pattern Questions",
+      "prompt": "Act as a banking quant faculty with 9 years experience at Oliveboard and Testbook, specialising in number series for IBPS and SBI Prelims. I need you to create 25 number series questions of mixed difficulty for IBPS Clerk Prelims to SBI PO Mains. Here is the context: I am building a number series mastery module for 400 banking aspirants, and I need a full spectrum from basic arithmetic series to complex wrong-number and missing-pattern series matching 2024 IBPS and SBI patterns. Please provide: (1) 5 arithmetic pattern series (difference of difference), (2) 5 multiplicative/ratio-based series, (3) 5 square-cube based series, (4) 5 wrong-number series (find the odd term), (5) 5 Mains-level mixed pattern series, (6) step-by-step pattern identification logic, (7) the 5 most common series patterns banking exams use, (8) shortcut to identify pattern within 10 seconds, (9) time target of 30-45 seconds, and (10) PYQ reference. Format as a test with solutions. Consider the IBPS Clerk Prelims 5 number series questions, the SBI PO Mains twist with double series, and the 1 mark with 0.25 negative weightage.",
+      "tags": [
+        "number-series",
+        "banking-quant",
+        "ibps-clerk",
+        "sbi-po",
+        "pattern-recognition"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-032",
+      "title": "NEET Botany Plant Physiology MCQs",
+      "prompt": "Act as a NEET UG botany faculty with 11 years experience at Aakash Institute, specialising in plant physiology and plant kingdom. I need you to create 20 NEET-level botany MCQs on plant physiology (photosynthesis, respiration, mineral nutrition, plant growth, transport in plants). Here is the context: I am preparing a chapter test for 300 NEET aspirants in my Aakash offline batch, and I need questions that match the 2024 NEET pattern where plant physiology contributed 4-5 questions, focusing on NCERT Class 11 Biology Unit 4. Please provide: (1) 20 MCQs distributed across the 5 plant physiology chapters, (2) mix of assertion-reasoning (4), match-the-column (4), and direct MCQs (12), (3) full solution with NCERT line reference, (4) the exact diagram or table from NCERT the question draws from (C3-C4 cycle, Hill reaction, Calvin cycle, Krebs cycle), (5) common student misconceptions, (6) difficulty rating, (7) expected solving time (1-2 minutes), and (8) a one-page revision chart. Format as a test booklet with detailed answer key. Consider the NEET 2024 botany weightage, the NCERT-heavy question sourcing, and the NMC syllabus.",
+      "tags": [
+        "neet-biology",
+        "botany",
+        "plant-physiology",
+        "aakash-institute",
+        "ncert-based"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-033",
+      "title": "UPSC Environment Climate Change Answer",
+      "prompt": "Act as a UPSC environment faculty with 9 years experience at Shankar IAS Academy Chennai, author of the Shankar IAS Environment book used by 80% Prelims aspirants. I need you to create a complete answer framework for a UPSC GS3 environment question I provide (climate change, biodiversity, pollution, conservation, or environmental impact assessment). Here is the context: I am training 100 aspirants in environment answer writing, and I need answers that incorporate IPCC AR6 findings, India's NDC targets, COP28 outcomes, and domestic initiatives. Please provide: (1) data-driven introduction (India's emission share, temperature rise, forest cover from ISFR 2023), (2) body with 3 subheadings (present status, challenges, initiatives), (3) specific examples (Net Zero by 2070, Mission LiFE, International Solar Alliance, CITES listings, Ramsar sites, Project Tiger, Project Cheetah), (4) committee reports and acts (Environment Protection Act 1986, Biological Diversity Act 2002, Forest Conservation Amendment 2023), (5) way forward linking to SDG 13/15, (6) 7 environment keywords (carbon sink, mitigation, adaptation, just transition), and (7) marking rubric. Format as framework + 250-word answer. Consider Shankar IAS content, IPCC reports, and UPSC 2023 environment trends.",
+      "tags": [
+        "upsc-mains",
+        "environment",
+        "climate-change",
+        "shankar-ias",
+        "gs-paper-3"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-034",
+      "title": "Inequality Reasoning Coded Mains Level",
+      "prompt": "Act as a banking reasoning faculty with 8 years experience at Career Power and Adda247, specialising in coded inequality for IBPS PO and SBI PO Mains. I need you to create 20 coded inequality questions of Mains-level difficulty. Here is the context: I am preparing an inequality module for 250 aspirants who have mastered basic inequality (direct) and need coded inequality (symbols replaced) at Mains level. Please provide: (1) 5 direct inequality questions (chain comparison), (2) 10 coded inequality questions with symbol substitution (e.g., @ means greater than, # means less than or equal to), (3) 5 mixed conditional inequality (either-or conclusion, multiple statements), (4) step-by-step decoding logic, (5) the \"definite vs possibility\" rule for either-or conclusions, (6) common traps (ignoring equality sign, assuming transitivity incorrectly), (7) shortcut for 15-second solving, (8) time target, and (9) PYQ reference from IBPS PO Mains 2022-2024. Format as a chapter with theory summary. Consider the SBI PO Mains 2024 inequality pattern, the 45-minute reasoning section, and the definite-possibility conclusion framework.",
+      "tags": [
+        "coded-inequality",
+        "banking-reasoning",
+        "ibps-po",
+        "sbi-po-mains",
+        "either-or-rule"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-035",
+      "title": "UPSC History Modern India PYQ Analysis",
+      "prompt": "Act as a UPSC history faculty with 10 years experience at Vision IAS and BaliyanS Modern History classes. I need you to perform a complete PYQ analysis of UPSC Mains GS1 modern history questions from 2013-2024 for a theme I specify (freedom struggle, social-religious reforms, partition, integration of princely states, tribal movements, or constitutional development). Here is the context: I am building a History Optional PYQ handbook for 50 aspirants who have chosen history optional and also prepare for GS1, and I need dual-purpose analysis. Please provide: (1) year-wise list of questions asked on the theme with marks weightage, (2) sub-theme frequency count, (3) question type classification (factual/analytical/critical), (4) the specific historians UPSC favours (Bipan Chandra, Sumit Sarkar, R C Majumdar, Sekhar Bandyopadhyay), (5) 10 probable GS1 Mains 2025 questions, (6) recommended sources (Bipan Chandra's India's Struggle, Spectrum, NCERT Class 12 Themes III), (7) answer structure template, and (8) topper-recommended value additions. Format as an analytical research document. Consider the UPSC 2023-2024 mains trend toward critical analysis, the reduced factual recall, and the optional-GS1 overlap strategy.",
+      "tags": [
+        "upsc-mains",
+        "modern-history",
+        "gs-paper-1",
+        "pyq-analysis",
+        "vision-ias"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-036",
+      "title": "Mixed Arithmetic Word Problems SSC",
+      "prompt": "Act as an SSC arithmetic faculty with 8 years experience at Gagan Pratap Sir and Abhinay Maths, specialising in word problems for SSC CGL Tier 1. I need you to create 20 word problems covering percentage, profit-loss, simple-compound interest, time-work, time-distance, ratio-proportion, and mixtures. Here is the context: I am building a word problem module for 250 SSC CGL aspirants from Hindi-medium background who struggle with English problem interpretation, and I need bilingual-friendly framing. Please provide: (1) 20 word problems with proportional topic distribution matching SSC CGL weightage, (2) Indian context (shopkeeper selling sarees in Lucknow, train from Delhi to Mumbai, Raman working with Suresh, petrol-diesel mixture), (3) one-line method (Gagan Pratap style) and traditional method, (4) the specific concept-shortcut used (successive percentage, partnership ratio, alligation), (5) common calculation errors, (6) time target of 30-60 seconds, (7) difficulty tag, and (8) similar PYQ from SSC CGL Tier 1 2023-2024. Format as a test booklet. Consider the SSC CGL Tier 1 25 quant questions, the Hindi-medium aspirant focus, and the shortcut-heavy teaching style.",
+      "tags": [
+        "ssc-cgl",
+        "arithmetic",
+        "word-problems",
+        "gagan-pratap",
+        "tier-1"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-037",
+      "title": "UPSC Disaster Management Answer GS3",
+      "prompt": "Act as a UPSC GS3 disaster management mentor with 9 years experience at Insights IAS and Shankar IAS Academy. I need you to create a complete answer framework for a UPSC GS3 disaster management question I provide (earthquake, flood, cyclone, urban disaster, industrial accident, or climate-induced disaster). Here is the context: I am training 80 aspirants in disaster management answer writing, and I need answers that link disaster events to NDMA guidelines, Sendai Framework, and actual Indian case studies (Uttarakhand floods, Chennai floods, Joshimath subsidence, Wayanad landslides 2024). Please provide: (1) definition-based introduction referencing Disaster Management Act 2005 (50 words), (2) body with subheadings (nature of disaster, vulnerability analysis, current mitigation framework, institutional gaps), (3) case study box with Indian example and statistics, (4) NDMA-NDRF-SDMA institutional framework, (5) Sendai Framework 2015-2030 alignment, (6) way forward with technology integration (IMD early warning, GIS mapping), (7) flowchart description, and (8) marking rubric. Format as framework + 250-word model answer. Consider the Disaster Management Act 2005, NDMA guidelines, Sendai Framework, and UPSC 2023 trend toward case-study-linked answers.",
+      "tags": [
+        "upsc-mains",
+        "disaster-management",
+        "gs-paper-3",
+        "ndma",
+        "sendai-framework"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-038",
+      "title": "Quadratic Equation Banking Questions",
+      "prompt": "Act as a banking quant faculty with 8 years experience at Testbook and Career Power, specialising in quadratic equations for IBPS and SBI Prelims. I need you to create 25 quadratic equation comparison questions of IBPS Clerk to IBPS PO difficulty. Here is the context: I am building a quadratic module for 400 banking aspirants, and I need questions covering the standard \"compare x and y\" pattern used in all banking Prelims. Please provide: (1) 25 quadratic equation pairs with 5 options (x>y, x<y, x>=y, x<=y, x=y or no relation), (2) proportional split with 8 having definite relations, 8 having x>=y/x<=y type, 6 with no relation, and 3 with calculation-based twists, (3) factorisation method with the Shrikhand Dhawan shortcut approach, (4) the quickest decision-making trick (sign analysis), (5) common errors (sign mistakes, root relation wrong), (6) time target of 20-30 seconds per question, (7) difficulty tag, and (8) similar PYQ reference. Format as a test with detailed answer key. Consider the IBPS Clerk Prelims 5 quadratic questions, the SBI PO Prelims elimination strategy, and the pattern of root comparison.",
+      "tags": [
+        "quadratic-equation",
+        "banking-quant",
+        "ibps-clerk",
+        "root-comparison",
+        "banking-prelims"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-039",
+      "title": "JEE Advanced Inorganic Chemistry Questions",
+      "prompt": "Act as a JEE Advanced inorganic chemistry faculty with 12 years experience at Resonance Kota and Narayana IIT Academy. I need you to create 10 JEE Advanced-level inorganic chemistry questions on a chapter I specify (Coordination Chemistry, p-block, d and f block, Qualitative Analysis, or Metallurgy). Here is the context: I am preparing a chapter test for 100 class 12 students in a two-year Resonance programme, and I need questions that match JEE Advanced 2023-2024 inorganic difficulty with emphasis on NCERT Class 12 Part 1 and J D Lee reference. Please provide: (1) 10 questions mixing single correct (4), multi-correct (3), integer (2), and match-the-following (1), (2) full explanation with structural drawings described, (3) the concept tested (crystal field theory, chelate effect, lanthanide contraction, inert pair effect), (4) why wrong options are wrong, (5) NCERT page reference and J D Lee correlation, (6) difficulty rating, (7) time target of 4-8 minutes per question, and (8) PYQ reference. Format as a test with answer key. Consider JEE Advanced 2024 inorganic pattern, NCERT Class 12 as primary source, and the typical 18-20% inorganic weightage.",
+      "tags": [
+        "jee-advanced",
+        "inorganic-chemistry",
+        "coordination-chemistry",
+        "resonance-kota",
+        "narayana-iit"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    },
+    {
+      "id": "teachers-competitive-exam-coaches-040",
+      "title": "Full Length Mock Test Blueprint Designer",
+      "prompt": "Act as a test-prep curriculum designer with 15 years experience, having built test series for Vision IAS, Allen Kota, Adda247, and TIME Institute across UPSC, JEE, NEET, SSC, banking, and CAT exams. I need you to design a complete full-length mock test blueprint for an exam I specify (UPSC Prelims GS1, JEE Main, NEET UG, SSC CGL Tier 1, IBPS PO Prelims, or CAT). Here is the context: I run a test-prep startup and I need to create 20 full-length mocks for each exam with scientifically distributed difficulty, topic weightage, and cutoff calibration matching the actual 2024 paper pattern. Please provide: (1) exact subject/section distribution (number of questions, marks, negative marking), (2) topic-wise weightage based on last 5 years PYQ analysis, (3) difficulty distribution (40% easy, 40% moderate, 20% tough) with percentile prediction, (4) time per section and per question benchmarks, (5) syllabus coverage checklist ensuring no chapter is missed across 20 mocks, (6) cutoff prediction formula based on difficulty, (7) a sample 10-question mini-set demonstrating the blueprint, (8) post-test analytics metrics (accuracy, speed, topic strength), and (9) a student improvement roadmap. Format as a curriculum design document. Consider actual 2024 paper patterns, the psychometric validity, and the all-India test series benchmarking practices.",
+      "tags": [
+        "mock-test-design",
+        "test-series",
+        "blueprint",
+        "curriculum-design",
+        "cutoff-analysis"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "competitive-exam-coaches"
+    }
+  ]
+}

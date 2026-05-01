@@ -1,0 +1,151 @@
+{
+  "category": "music-performing-arts",
+  "subcategory": "musicians",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "music-performing-arts-musicians-001",
+      "title": "Daily Practice Routine (Indian Classical)",
+      "prompt": "Act as a senior Hindustani classical music guru with 25 years' teaching. Build a daily 90-min practice routine for an intermediate vocalist. Cover: (1) 15 min Sa-tan + breath, (2) 20 min raga aaroh-avroh (Yaman / Bhairav / Bhupali), (3) 25 min alap + bandish, (4) 15 min taan + sapaat-vakra, (5) 15 min new composition learning. Add: weekly progression goals + sa-recording with tanpura / tabla app. Constraints: align with ITC Sangeet / Bhatkhande pedagogy; bilingual term explanation; respect vocal-rest discipline.",
+      "category": "music-performing-arts",
+      "subcategory": "musicians",
+      "tags": ["practice-routine", "hindustani-classical", "vocal", "raga", "bhatkhande"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true
+    },
+    {
+      "id": "music-performing-arts-musicians-002",
+      "title": "Setlist Planning for Live Show",
+      "prompt": "Act as a touring Indian indie musician. Plan a 90-min live setlist for a 600-pax college festival in Pune. Mix originals (60%) + covers (30%) + interaction (10%). Provide: (1) opening (high-energy hook), (2) build (3-4 songs), (3) emotional pivot, (4) interactive moment (audience-singalong / story), (5) hits (top 3 originals), (6) closer (memorable encore). Per song: title, key, tempo, stage banter, transition. Constraints: avoid copyright fines (PPL/IPRS for covers); respect sound-check time; backup acoustic option; bilingual stage-banter.",
+      "category": "music-performing-arts",
+      "subcategory": "musicians",
+      "tags": ["setlist", "live-show", "indie", "pune", "ppl-iprs"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true
+    },
+    {
+      "id": "music-performing-arts-musicians-003",
+      "title": "Bio + Press Kit (EPK)",
+      "prompt": "Act as an artist-management head. Build a 1-page EPK (Electronic Press Kit) for a 28-yr-old Indian indie folk-fusion artist. Cover: (1) short bio (180 words — origin, sound, milestones), (2) long bio (450 words for press), (3) discography (3 EPs + singles + Spotify links), (4) high-res photos (3 — performance + portrait + lifestyle), (5) press quotes (3), (6) social handles + monthly listeners, (7) tour dates, (8) booking + management contact. Constraints: align with Indian press conventions (Rolling Stone India / Score Magazine); honest metrics; ASCI for sponsorship; bilingual.",
+      "category": "music-performing-arts",
+      "subcategory": "musicians",
+      "tags": ["epk", "bio", "indie", "rolling-stone-india", "press-kit"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-musicians-004",
+      "title": "Social Media Content Plan (Spotify Release)",
+      "prompt": "Act as a music marketing manager. Build a 4-week social media plan around an EP release on Spotify + Apple Music + JioSaavn. Cover: (1) pre-release tease (3 weeks before), (2) lyric video drops (1 / week), (3) collab announcement, (4) release day content (live-on-Insta + reel + carousel), (5) post-release sustain (radio interview, podcast, DJ-remix), (6) UGC challenge, (7) playlist pitching (curator outreach), (8) paid amplification ₹1.2L. Constraints: ASCI for sponsored / paid; respect copyright (own music); UGC consent; bilingual hashtags.",
+      "category": "music-performing-arts",
+      "subcategory": "musicians",
+      "tags": ["social-media-plan", "spotify", "ep-release", "ugc", "jiosaavn"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-musicians-005",
+      "title": "Collaboration Outreach Email",
+      "prompt": "Act as an indie artist's manager. Draft an outreach email to a Tamil singer-songwriter (10K monthly Spotify) proposing a fusion collaboration. Cover: (1) personal hook (referencing their specific song), (2) my artist's intro + relevance, (3) proposed track concept (Hindi + Tamil bilingual fusion), (4) workflow (DAW handoff, vocal stems via Drive, virtual sessions), (5) credits + royalty split (50:50), (6) PPL / IPRS registration, (7) timeline (8 weeks), (8) Zoom for first-conversation. Constraints: respect creative autonomy; INR + royalty math transparent; align with copyright + IPRS norms; bilingual.",
+      "category": "music-performing-arts",
+      "subcategory": "musicians",
+      "tags": ["collaboration", "tamil", "fusion", "iprs", "spotify"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-musicians-006",
+      "title": "Concert Riders (Sound + Hospitality)",
+      "prompt": "Act as a tour manager. Draft technical + hospitality rider for a 4-piece indie band touring Indian colleges. Cover: (1) sound (PA system, drum mic-up, IEM, line array, monitors, FOH desk preference), (2) lighting (basic 12-fixture rig, par cans, DMX), (3) backline (drum kit, guitar amp, bass amp, keyboard), (4) green-room (food, water, refreshments, vegetarian + non-veg, alcohol-free), (5) accommodation (3-star min, separate rooms), (6) transport (AC innova / tempo), (7) merchandise booth, (8) photo + interview windows. Constraints: respect college budget realities; honest minimums; written sign-off; INR cap.",
+      "category": "music-performing-arts",
+      "subcategory": "musicians",
+      "tags": ["riders", "technical-rider", "hospitality", "tour-manager", "iem"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-musicians-007",
+      "title": "Royalty Earnings Audit",
+      "prompt": "Act as a music-rights auditor. Audit a band's royalty earnings across (1) Spotify, (2) Apple Music, (3) YouTube + YouTube Music, (4) JioSaavn, (5) Wynk, (6) IPRS mechanical, (7) PPL performance, (8) sync (films, ads). For each: streams + INR earned + royalty rate + dispute flags + missed claims. Build action list (claim missed royalties, register on missing platforms, IPRS / PPL membership). Constraints: align with IPRS / PPL Indian rights collection; ANI numerical examples in INR; respect master vs publishing rights split; transparent.",
+      "category": "music-performing-arts",
+      "subcategory": "musicians",
+      "tags": ["royalty-audit", "spotify", "iprs", "ppl", "sync"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-musicians-008",
+      "title": "Studio Recording Session Plan",
+      "prompt": "Act as a producer. Plan a 4-day studio session at YRF Studios Mumbai for recording a 5-track EP. Cover: (1) day 1 (rhythm — drums + bass + click), (2) day 2 (rhythm guitars + keys + reference vocals), (3) day 3 (lead vocals + harmonies), (4) day 4 (overdubs + edits + rough mix). Per session: musicians, instruments, mic chains, signal flow, take logs, breaks, food. Studio cost ₹35K/day. Constraints: align with PPL recording rights; respect musician comfort; talkback discipline; punch-in tracking; commit cuts before mixing.",
+      "category": "music-performing-arts",
+      "subcategory": "musicians",
+      "tags": ["studio", "recording", "yrf-studios", "ep", "tracking"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-musicians-009",
+      "title": "Tour Itinerary (12-City India)",
+      "prompt": "Act as a tour manager. Build a 30-day 12-city Indian tour itinerary (Bengaluru, Hyderabad, Chennai, Kochi, Mumbai, Pune, Goa, Ahmedabad, Delhi NCR, Jaipur, Kolkata, Guwahati). Cover: (1) per-city venue + capacity + ticket, (2) date + travel mode + cost, (3) accommodation, (4) load-in/sound-check schedule, (5) marketing per city, (6) ground-team coordination, (7) financial (revenue per city + cost + net), (8) merch logistics, (9) media + press windows, (10) post-show care + recovery. Constraints: budget cap ₹68 lakh; INR transparent; respect monsoon (Jul-Sep impact); musician health.",
+      "category": "music-performing-arts",
+      "subcategory": "musicians",
+      "tags": ["tour-itinerary", "india-tour", "tour-manager", "venue", "logistics"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-musicians-010",
+      "title": "Songwriting Brief for Brand Ad",
+      "prompt": "Act as a music supervisor. Brief our band for a Tata Tea Premium ad-jingle (45-sec). Cover: (1) brand pillars (warm, family, awakening), (2) target audience (urban Indian millennials / GenZ), (3) tonal reference (3 genre + 2 mood), (4) lyric brief (Hindi / Hinglish), (5) deliverables (45-sec full + 15-sec cutdown + 30-sec radio + 6-sec sting), (6) stems + mix delivery, (7) IPRS / PPL registration + buyout / sync rights, (8) timeline 14 days, (9) budget ₹4.5L. Constraints: ASCI for ad music; respect brand-tone bible; commit to brand-safe lyrics; signed contract.",
+      "category": "music-performing-arts",
+      "subcategory": "musicians",
+      "tags": ["jingle-brief", "tata-tea", "sync", "iprs", "ad-music"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-musicians-011",
+      "title": "Workshop / Masterclass Curriculum",
+      "prompt": "Act as a music educator + indie artist. Design a 4-day weekend masterclass in songwriting + production for 30 college-aged students at IIT Bombay. Cover: (1) day 1 (songcraft basics — melody, harmony, lyrics), (2) day 2 (DAW workflow — Logic / Ableton, recording at home), (3) day 3 (mixing fundamentals — EQ, comp, reverb), (4) day 4 (release strategy + collab + publishing + IPRS / Spotify for Artists). Per day: 4 hrs lecture + 2 hrs hands-on + 1 hr Q&A. Pricing ₹4,500 student. Constraints: cap class at 30; commit to community Discord post-class; cert at end; equipment + DAW provided.",
+      "category": "music-performing-arts",
+      "subcategory": "musicians",
+      "tags": ["masterclass", "songwriting", "ableton", "iit-bombay", "education"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-musicians-012",
+      "title": "YouTube Channel Strategy",
+      "prompt": "Act as a YouTube growth strategist for indie musicians. Build a 12-month strategy for an artist with 8K subs aiming for 100K. Cover: (1) content pillars (originals, covers, behind-the-scenes, lyric videos, collabs), (2) shorts strategy (30-sec hooks, 4 / week), (3) thumbnail + title testing (CTR 6%+), (4) end-screens + community tab, (5) collab outreach (3 channels / month), (6) live-stream cadence (monthly Q&A), (7) monetisation (AdSense, brand, merch, Patreon), (8) Spotify cross-promo. Constraints: respect copyright (covers PPL/IPRS); honest growth; INR earnings transparent; bilingual content allowed.",
+      "category": "music-performing-arts",
+      "subcategory": "musicians",
+      "tags": ["youtube", "indie-musician", "ctr", "shorts", "monetisation"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    }
+  ]
+}

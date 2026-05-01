@@ -1,0 +1,727 @@
+{
+  "category": "agriculture",
+  "subcategory": "agri-business",
+  "count": 40,
+  "prompts": [
+    {
+      "id": "agriculture-agri-business-001",
+      "title": "eNAM Mandi Price Trend Analyzer",
+      "prompt": "Act as an agri-market analyst with 10 years of experience tracking AGMARKNET and eNAM data for Indian commodities. I need you to analyze mandi price trends for a specific crop and help me decide the best time and market to sell. Here is the context: I am a farmer/FPO member in Nashik, Maharashtra holding 80 quintals of onions in storage. I want to compare prices across Lasalgaon, Pimpalgaon, Azadpur (Delhi), and Koyambedu (Chennai) mandis for the last 90 days and forecast the next 30 days. Please provide: (1) A week-wise modal price comparison table in INR per quintal across the four mandis, (2) Identification of price spread and arbitrage opportunities after factoring transport cost at Rs 2.50 per km per quintal, (3) Seasonal pattern analysis based on arrivals data, (4) A sell-now vs hold-30-days recommendation with expected INR upside/downside, (5) Three risk factors (weather, import policy, festival demand) that could disrupt the forecast. Format the output as a decision memo with a summary table on top, followed by bullet-point reasoning, and a final recommendation box. Consider these constraints: APMC cess of 1 percent, mandi labour at Rs 15 per quintal, and NAFED buffer stock releases. Assume I will provide the raw price CSV; structure your analysis so I can paste numbers directly into your framework.",
+      "tags": [
+        "enam",
+        "mandi-prices",
+        "agmarknet",
+        "price-analysis",
+        "onion"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-002",
+      "title": "FPO Registration Roadmap Builder",
+      "prompt": "Act as an FPO promotion expert with 8 years of experience working with SFAC, NABARD, and NAFED on the 10,000 FPO scheme. I need you to create a step-by-step roadmap for registering a new Farmer Producer Organisation in my village. Here is the context: We are 320 smallholder farmers in Warangal district, Telangana, growing cotton, red chilli, and maize on an average 1.8 acres each. We want to register as a Producer Company under the Companies Act 2013 and avail the Rs 18 lakh equity grant and Rs 2 crore credit guarantee. Please provide: (1) A 12-month Gantt-style timeline from mobilisation to AGM with key milestones, (2) List of 15 documents required (PAN, Aadhaar, land records, board resolutions, MoA/AoA) with sample formats, (3) Estimated cost break-up in INR for registration, CA fees, ROC filing, and initial working capital, (4) Matching CBBO (Cluster Based Business Organisation) options from NABARD empanelled list, (5) Revenue model with three business lines (input sales, output aggregation, custom hiring centre) and projected year-1 turnover. Format the output as a structured project plan with clear phases. Consider these constraints: minimum 10 directors, 300+ shareholders, Rs 10 share face value, and compliance with Producer Company rules under Section 378A.",
+      "tags": [
+        "fpo",
+        "sfac",
+        "nabard",
+        "producer-company",
+        "registration"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-003",
+      "title": "APEDA RCMC Application Checklist",
+      "prompt": "Act as an agri-export consultant with 12 years of experience helping Indian exporters obtain APEDA Registration-Cum-Membership Certificate (RCMC). I need you to prepare a complete application checklist for a first-time exporter. Here is the context: My company is a Pune-based proprietorship planning to export table grapes and pomegranates to UAE and Netherlands, with projected year-1 turnover of Rs 3.5 crore. Please provide: (1) Eligibility criteria and the exact APEDA product schedule category to select, (2) List of documents with format specifications (IEC, PAN, bank certificate in APEDA format, self-attested ID), (3) Fee structure in INR including GST and renewal cycle, (4) Step-by-step online application walkthrough on apeda.gov.in portal with screenshots description, (5) Common rejection reasons and how to pre-empt them. Format the output as a checklist with tick boxes followed by a document-preparation SOP. Consider these constraints: IEC must be active, bank certificate validity 60 days, and RCMC is mandatory for availing APEDA financial assistance schemes like TMA, infrastructure, and quality development.",
+      "tags": [
+        "apeda",
+        "rcmc",
+        "export",
+        "grapes",
+        "pomegranate"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-004",
+      "title": "PMFME Scheme Loan Application Helper",
+      "prompt": "Act as a PMFME scheme consultant with 6 years of experience helping micro food processors avail the PM Formalisation of Micro Food Enterprises subsidy. I need you to guide me through preparing a bankable project report. Here is the context: I run a small turmeric powder unit in Erode, Tamil Nadu with current investment of Rs 8 lakh, and I want to upgrade to a 500 kg/day unit with a total project cost of Rs 25 lakh to avail the 35 percent credit-linked subsidy capped at Rs 10 lakh. Please provide: (1) Eligibility check against ODOP (One District One Product) list for Erode, (2) Project cost break-up including machinery, civil work, working capital, and margin money, (3) Means of finance table showing bank loan, promoter contribution, and subsidy, (4) Projected P&L for five years with capacity utilisation ramp-up, (5) List of supporting documents (DPR, quotations, land papers, FSSAI, Udyam) needed for SIDBI or SBI branch submission. Format the output as sections matching the PMFME DPR template. Consider these constraints: minimum 10 percent promoter contribution, FSSAI registration mandatory, and convergence with MUDRA or Stand-Up India.",
+      "tags": [
+        "pmfme",
+        "food-processing",
+        "subsidy",
+        "dpr",
+        "odop"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-005",
+      "title": "NPOP Organic Certification Starter Kit",
+      "prompt": "Act as an NPOP accredited organic certification specialist with 9 years of experience certifying Indian farms under India Organic and USDA NOP equivalence. I need you to help me start the organic conversion process. Here is the context: I have a 12-acre farm in Coimbatore, Tamil Nadu currently growing conventional banana and coconut, and I want to transition to organic over 36 months to target export buyers in Germany and Japan. Please provide: (1) Step-by-step 36-month conversion calendar with year-wise activities (soil testing, input substitution, buffer zones, record-keeping), (2) List of NPOP accredited certification bodies operating in Tamil Nadu with approximate fee range in INR, (3) Required farm documents (farm map, crop history, input register, harvest register, sales register), (4) List of prohibited inputs and approved bio-inputs as per NPOP Annexure, (5) Expected price premium and buyer channels for certified organic produce. Format the output as a year-by-year action plan. Consider these constraints: C1-C2-C3 conversion years, Internal Control System for group certification, and APEDA TraceNet registration for exports.",
+      "tags": [
+        "npop",
+        "organic",
+        "certification",
+        "india-organic",
+        "conversion"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-006",
+      "title": "NCDEX Futures Hedging Explainer",
+      "prompt": "Act as a commodity derivatives educator with 10 years of experience on NCDEX and MCX. I need you to explain how a small trader can hedge physical crop inventory using NCDEX futures in plain language. Here is the context: I am a chana (chickpea) trader in Indore holding 200 tonnes of physical stock bought at Rs 5,400 per quintal, and I want to protect against a 10 percent price fall over the next 45 days before the new crop arrives. Please provide: (1) Basics of NCDEX chana contract specifications (lot size, tick, delivery centre, expiry), (2) A worked example showing how many lots to short-sell to hedge 200 tonnes, (3) Margin requirement calculation in INR (initial plus MTM buffer), (4) Profit/loss scenarios if prices move by minus 10, 0, and plus 10 percent, (5) Rollover and delivery options at expiry. Format the output as a beginner-friendly tutorial with a numeric example table. Consider these constraints: SEBI position limits for clients, 18 percent GST on brokerage, and the need for a commodity broker account separate from equity.",
+      "tags": [
+        "ncdex",
+        "futures",
+        "hedging",
+        "chana",
+        "derivatives"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-007",
+      "title": "DeHaat vs AgroStar Input Comparison",
+      "prompt": "Act as an agri-input procurement advisor with 7 years of experience working with agri-startups like DeHaat, AgroStar, BigHaat, and Gramophone. I need you to build a comparison framework for a farmer choosing where to buy seeds, fertilisers, and crop protection products. Here is the context: I am a 5-acre paddy and vegetable farmer near Patna, Bihar spending around Rs 45,000 per season on inputs and I want to decide whether to buy from DeHaat centre, AgroStar app, local dealer, or the PACS society. Please provide: (1) Side-by-side comparison table on price, product genuineness, delivery, credit, and advisory, (2) Typical discount/cashback structure and referral benefits on each platform, (3) Red flags to watch for counterfeit pesticides, (4) How each option integrates with output buyback or mandi linkage, (5) A final scoring matrix with weightage on price (30), authenticity (30), advisory (20), convenience (20). Format the output as a decision table with a recommended mix. Consider these constraints: FCO licensing for fertilisers, CIB registration for pesticides, and seasonal cash-flow of a smallholder.",
+      "tags": [
+        "dehaat",
+        "agrostar",
+        "inputs",
+        "procurement",
+        "comparison"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-008",
+      "title": "Kisan Credit Card Application Guide",
+      "prompt": "Act as a rural banking officer with 15 years of experience processing Kisan Credit Card (KCC) applications at SBI and cooperative banks. I need you to create a simple guide for a first-time KCC applicant. Here is the context: I am a 2.5-acre sugarcane farmer in Muzaffarnagar, Uttar Pradesh with a land record in my father's name and I want a KCC limit of Rs 1.5 lakh at 4 percent effective interest after interest subvention. Please provide: (1) Eligibility criteria and documents needed (Khatauni, Aadhaar, PAN, photo, bank passbook), (2) Scale of finance calculation for sugarcane per acre as per UP DLTC, (3) Step-by-step branch visit walkthrough and timelines, (4) Interest subvention structure (2 percent prompt repayment plus 3 percent additional), (5) Renewal and enhancement process after 5 years. Format the output as a simple FAQ-style guide. Consider these constraints: mandatory PM-KISAN linkage, no collateral up to Rs 1.6 lakh, and Rupay KCC card activation within 15 days.",
+      "tags": [
+        "kcc",
+        "kisan-credit-card",
+        "sbi",
+        "sugarcane",
+        "loan"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-009",
+      "title": "FSSAI License Selection for Agri-Processor",
+      "prompt": "Act as a food safety compliance consultant with 8 years of experience advising Indian agri-processors on FSSAI licensing. I need you to help me pick the right FSSAI category. Here is the context: I am setting up a cold-pressed groundnut oil unit in Rajkot, Gujarat with expected turnover of Rs 80 lakh in year one scaling to Rs 3 crore in year three, and I am confused between Basic, State, and Central FSSAI licences. Please provide: (1) Clear decision tree based on turnover and production capacity, (2) Documents checklist for the correct category (FBO details, unit layout, water test report, NOC), (3) Fee structure in INR and validity (1 to 5 years), (4) Labelling requirements specific to edible oil (nutritional info, FSSAI logo, batch, best before), (5) Renewal timeline and penalty for late filing. Format the output as a step-by-step compliance roadmap. Consider these constraints: FSS Act 2006, Packaging and Labelling Regulations 2011, and the need for AGMARK certification for edible oils.",
+      "tags": [
+        "fssai",
+        "license",
+        "edible-oil",
+        "compliance",
+        "groundnut"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-010",
+      "title": "Farm-to-Fork Supply Chain Map",
+      "prompt": "Act as a supply chain consultant with 10 years of experience mapping fresh produce flows from Indian farms to retail shelves. I need you to build a farm-to-fork map for a specific commodity. Here is the context: I am studying the tomato supply chain from Kolar, Karnataka to Big Bazaar and Reliance Fresh stores in Bengaluru, around 70 km away, with daily volumes of 40 tonnes. Please provide: (1) Stage-wise flow diagram in text form covering farm, aggregator, pack-house, cold chain, DC, store, (2) Estimated INR cost and wastage percentage at each stage, (3) Time from harvest to shelf in hours with critical control points, (4) Comparison with WayCool or Ninjacart direct model cutting 2-3 intermediaries, (5) Three interventions (reusable crates, pre-cooling, route optimisation) with expected savings. Format the output as a table plus narrative. Consider these constraints: temperature 8-12 degrees Celsius, shelf life 7 days, and GST on transport services.",
+      "tags": [
+        "supply-chain",
+        "tomato",
+        "cold-chain",
+        "ninjacart",
+        "waycool"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-011",
+      "title": "MSP vs Market Price Dashboard",
+      "prompt": "Act as an agri-policy analyst with 9 years of experience tracking MSP declarations and APMC realisations. I need you to build a simple MSP realisation dashboard for a farmer. Here is the context: I grow paddy and wheat on 6 acres in Karnal, Haryana and I want to know how much I actually realise versus the declared MSP after deductions. Please provide: (1) Current season MSP for common and Grade A paddy and wheat in INR per quintal, (2) Typical deductions at mandi (arhtiya commission 2.5 percent, market fee, HRDF, weighing, bardana), (3) Net realisation calculation on a 50 quintal sale, (4) Comparison with private buyer price and eNAM auction price, (5) How to claim direct benefit transfer to bank via MeriFasal MeraByora portal. Format the output as a calculation worksheet with filled-in example. Consider these constraints: FCI moisture norms (17 percent for paddy), FAQ specifications, and online registration deadlines.",
+      "tags": [
+        "msp",
+        "apmc",
+        "paddy",
+        "wheat",
+        "karnal"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-012",
+      "title": "Agri-Warehouse WDRA Registration",
+      "prompt": "Act as a warehousing compliance expert with 7 years of experience registering warehouses with WDRA (Warehousing Development and Regulatory Authority). I need you to help me register a 2,000 MT capacity warehouse. Here is the context: I own a warehouse in Guntur, Andhra Pradesh used for chilli and turmeric storage and want to issue electronic Negotiable Warehouse Receipts (eNWR) so farmers can avail pledge loans. Please provide: (1) WDRA eligibility criteria for structural, fire, and pest control standards, (2) Documents checklist (ownership proof, layout, insurance, net worth certificate), (3) Fee structure in INR (application, registration, security deposit), (4) Integration with CCRL or NERL repository for eNWR issuance, (5) Banker tie-up process for pledge finance at 9-11 percent interest. Format the output as a registration project plan. Consider these constraints: WDRA Act 2007, minimum net worth of Rs 50 lakh, and mandatory stock insurance.",
+      "tags": [
+        "wdra",
+        "warehouse",
+        "enwr",
+        "pledge-finance",
+        "chilli"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-013",
+      "title": "Contract Farming Agreement Template",
+      "prompt": "Act as an agri-legal advisor with 10 years of experience drafting contract farming agreements in India. I need you to draft a balanced contract between a processor and a farmer group. Here is the context: A Hyderabad-based spices company wants to contract 150 farmers in Khammam, Telangana for 200 acres of red chilli (Teja variety) at a floor price of Rs 180 per kg with quality bonus. Please provide: (1) Agreement structure with parties, recitals, and definitions, (2) Clauses on input supply, advisory, harvest schedule, quality parameters (ASTA colour, capsaicin, moisture), (3) Pricing formula with floor price and market-linked upside sharing, (4) Dispute resolution via district-level authority as per state Contract Farming Act, (5) Force majeure, exit, and data rights clauses. Format the output as a ready-to-sign template with placeholders. Consider these constraints: Model APLM Act 2017, no mortgage on farmer land, and GST TCS on procurement.",
+      "tags": [
+        "contract-farming",
+        "legal",
+        "chilli",
+        "agreement",
+        "telangana"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-014",
+      "title": "PMFBY Crop Insurance Claim Process",
+      "prompt": "Act as a crop insurance claims specialist with 8 years of experience with PMFBY (Pradhan Mantri Fasal Bima Yojana). I need you to walk me through filing a claim for localised crop loss. Here is the context: My 3-acre soybean crop in Sehore, Madhya Pradesh suffered hailstorm damage on day 65 after sowing, with an estimated 60 percent yield loss, and I am insured with AIC under PMFBY at sum insured of Rs 48,000 per hectare. Please provide: (1) Intimation timeline (within 72 hours) and channels (toll-free, app, bank, CSC), (2) Documents needed (policy, Aadhaar, land record, photos, weather report), (3) Joint survey process with insurer, revenue, and agriculture department, (4) Claim calculation formula with threshold yield and indemnity, (5) Escalation path to district grievance committee if rejected. Format the output as a day-by-day action checklist. Consider these constraints: 2 percent farmer premium for kharif, CCE-based yield assessment, and 15-day survey deadline.",
+      "tags": [
+        "pmfby",
+        "crop-insurance",
+        "claim",
+        "soybean",
+        "hailstorm"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-015",
+      "title": "Organic Input Vendor Shortlist",
+      "prompt": "Act as an organic farming advisor with 8 years of experience sourcing NPOP-compliant inputs. I need you to shortlist organic input suppliers for a transitioning farm. Here is the context: I am converting 10 acres in Kodaikanal, Tamil Nadu to organic vegetables and need a reliable supplier list for neem cake, vermicompost, Trichoderma, Pseudomonas, and panchagavya inputs within 200 km. Please provide: (1) List of 10 vendors with name, location, product range, and indicative INR rates per kg or litre, (2) Quality checks to perform on delivery (CFU count, moisture, smell, packaging date), (3) Bulk order discount negotiation script, (4) Which inputs are safe to prepare on-farm vs buy, (5) Record-keeping format required by certification body. Format the output as a vendor comparison table. Consider these constraints: NPOP Annexure 1 approved inputs, avoiding GMO-derived products, and transport cost impact.",
+      "tags": [
+        "organic-inputs",
+        "vendors",
+        "npop",
+        "vermicompost",
+        "kodaikanal"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-016",
+      "title": "Agri-Startup Pitch Deck Outline",
+      "prompt": "Act as an agri-startup investor with 9 years of experience at Omnivore and Ankur Capital evaluating Indian agri-tech pitches. I need you to outline a compelling 12-slide pitch deck for a seed-stage agri-startup. Here is the context: My startup provides AI-based pest detection via smartphone camera to cotton farmers in Vidarbha, with 2,500 paying users at Rs 299 per season and a goal to raise Rs 4 crore seed round. Please provide: (1) Slide-by-slide outline with headline and 3 key points for each (problem, solution, market, product, traction, business model, GTM, team, competition, financials, ask, vision), (2) Indian market sizing using 12 million cotton farmers and ARPU assumption, (3) Unit economics showing CAC, LTV, payback, (4) Three competitor mentions (Fasal, Cropin, DeHaat) and differentiation, (5) Use of funds break-up across product, hiring, and farmer acquisition. Format the output as a deck skeleton with speaker notes. Consider these constraints: seed cheque size Rs 2-6 crore, 18-24 month runway, and Indian investor diligence norms.",
+      "tags": [
+        "startup",
+        "pitch-deck",
+        "agri-tech",
+        "fundraising",
+        "cotton"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-017",
+      "title": "FPO Business Plan for Rs 2 Crore Turnover",
+      "prompt": "Act as a CBBO (Cluster Based Business Organisation) resource person with 8 years of experience preparing FPO business plans for NABARD and SFAC. I need you to build a 3-year business plan for a newly registered FPO. Here is the context: The FPO has 520 shareholder farmers in Dharwad, Karnataka growing Bt cotton, green gram, and groundnut with an ambition to reach Rs 2 crore turnover by year 3 across input sales, output aggregation, custom hiring centre, and cotton ginning job work. Please provide: (1) Revenue break-up by business line for years 1-3 with volume and margin assumptions, (2) Capex plan (godown, weighbridge, CHC equipment, ginning tie-up) with INR figures, (3) Working capital cycle and financing mix (equity grant, NABARD loan, credit guarantee), (4) Break-even analysis and key ratios (current ratio, DSCR), (5) Risk register with 5 risks and mitigation. Format the output as a structured business plan with tables. Consider these constraints: 10,000 FPO scheme eligibility, ITC benefits under GST, and compliance with Producer Company rules.",
+      "tags": [
+        "fpo",
+        "business-plan",
+        "nabard",
+        "dharwad",
+        "financial-model"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-018",
+      "title": "Export Costing Sheet for Basmati Rice",
+      "prompt": "Act as an agri-export pricing manager with 10 years of experience exporting Indian basmati to Middle East and Europe. I need you to build a landed cost calculator for a container export. Here is the context: I want to export 26 MT of 1121 basmati rice in a 20-foot container from Kandla port to Jeddah, Saudi Arabia with procurement cost of Rs 85 per kg. Please provide: (1) Line-item costing in INR covering paddy cost, milling, sortex, packing in 5 kg bags, inland freight, CHA, port charges, ocean freight, insurance, (2) Duty drawback, RoDTEP, and MEIS/interest equalisation benefits, (3) FOB, CFR, and CIF price per MT in USD using Rs 83 per dollar, (4) Margin calculation at 8, 12, and 15 percent, (5) Documents required (invoice, packing list, BL, COO, phytosanitary, health certificate, SASO). Format the output as an Excel-style costing sheet. Consider these constraints: APEDA minimum export price rules, FSSAI export NOC, and PFA compliance for importing country.",
+      "tags": [
+        "export",
+        "basmati",
+        "costing",
+        "kandla",
+        "saudi-arabia"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-019",
+      "title": "Cold Chain Investment ROI Model",
+      "prompt": "Act as a cold chain infrastructure consultant with 12 years of experience designing multi-commodity cold storages under MIDH and NHB subsidy. I need you to build an ROI model for a new facility. Here is the context: I plan to set up a 5,000 MT multi-chamber cold storage for apples, potatoes, and flowers in Sonipat, Haryana with project cost of Rs 8.5 crore and NHB 35 percent back-ended subsidy. Please provide: (1) Revenue model based on rental rates per MT per month and occupancy ramp-up, (2) Opex break-up covering power, labour, maintenance, insurance, (3) Financing structure with term loan at 10.5 percent, promoter equity, and subsidy, (4) 10-year P&L and cash flow with IRR and payback, (5) Sensitivity analysis on occupancy (60-90 percent) and power tariff. Format the output as a financial model summary with assumption table. Consider these constraints: DSCR minimum 1.35, power subsidy under state cold chain policy, and NHB scheme operational guidelines.",
+      "tags": [
+        "cold-chain",
+        "roi",
+        "nhb",
+        "financial-model",
+        "sonipat"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-020",
+      "title": "eNAM Trading Strategy for FPO",
+      "prompt": "Act as an eNAM trading expert with 7 years of experience helping FPOs list produce on the unified mandi platform. I need you to design a trading playbook for an FPO. Here is the context: A turmeric FPO in Nizamabad, Telangana aggregating 600 MT per season wants to sell on eNAM instead of local commission agents to improve realisation by 8-12 percent. Please provide: (1) Step-by-step onboarding of the FPO as a seller on eNAM with required KYC, (2) Lot preparation SOP (assaying, cleaning, grading into fingers and bulbs, lot size 10-25 MT), (3) Auction calendar and best days/times to list for turmeric, (4) Bidder outreach strategy to get buyers from Erode, Duggirala, and Sangli markets, (5) Dispute handling and payment receipt timelines under eNAM rules. Format the output as an operational playbook. Consider these constraints: Unified Market Platform integration, state APMC fee exemption for eNAM trades, and farmer payment within T+1.",
+      "tags": [
+        "enam",
+        "fpo",
+        "turmeric",
+        "trading",
+        "nizamabad"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-021",
+      "title": "Phytosanitary Certificate Process Map",
+      "prompt": "Act as a plant quarantine and SPS compliance expert with 10 years of experience handling phytosanitary certification for Indian fresh produce exports. I need you to map the end-to-end phyto process. Here is the context: My exporter firm ships 3 containers per week of Alphonso mangoes from Mumbai to UK and EU during April-June peak season and faces delays at PQ office. Please provide: (1) Step-by-step process from application on PQIS portal to certificate issuance, (2) Documents needed (invoice, packing list, BL draft, orchard registration, VHT treatment record), (3) Fee structure and typical turnaround time in hours, (4) EU-specific SPS requirements (pest-free area, VHT, pre-clearance) and UK post-Brexit rules, (5) Common non-compliance issues (fruit fly, mealy bug) and corrective action plan. Format the output as a swim-lane process with timelines. Consider these constraints: IPPC ISPM-15 for wood packaging, APEDA Mango Net traceability, and Destructive Insects and Pests Act 1914.",
+      "tags": [
+        "phytosanitary",
+        "mango",
+        "export",
+        "pqis",
+        "eu"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-022",
+      "title": "Dairy FPO Milk Pricing Model",
+      "prompt": "Act as a dairy cooperative pricing expert with 12 years of experience with Amul, Nandini, and Mother Dairy procurement models. I need you to design a fat-SNF based milk pricing model for a new dairy FPO. Here is the context: A 400-member dairy FPO in Anand, Gujarat is procuring 5,000 litres daily with average 4.2 percent fat and 8.5 percent SNF, and wants to match Amul's two-tier pricing while retaining Rs 0.50 per litre margin. Please provide: (1) Fat plus SNF pricing formula with rate card in INR, (2) Comparison chart with Amul, Banas, and private dairy rates, (3) Incentive structure for quality (adulteration-free, bacterial count, somatic cell), (4) Monthly payment cycle and digital disbursement via IMPS, (5) Transparency dashboard shared with members via SMS. Format the output as a pricing policy document. Consider these constraints: FSSAI dairy standards, BIS testing norms, and cooperative bye-laws.",
+      "tags": [
+        "dairy",
+        "fpo",
+        "milk-pricing",
+        "amul",
+        "anand"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-023",
+      "title": "Agri-Warehouse Receipt Finance Calculator",
+      "prompt": "Act as a rural finance product manager with 9 years of experience structuring eNWR-based pledge loans. I need you to build a loan eligibility calculator for a farmer pledging stock. Here is the context: A farmer in Latur, Maharashtra wants to pledge 150 quintals of tur dal at a WDRA-registered warehouse (market price Rs 9,500 per quintal) to get a post-harvest loan and avoid distress sale. Please provide: (1) Loan amount calculation at 70 percent LTV with haircut rules, (2) Interest rate (9 percent with 3 percent interest subvention for KCC holders) and tenure (up to 12 months), (3) Charges (warehouse rent, insurance, assaying, documentation) in INR, (4) Break-even price rise needed to cover interest plus storage, (5) Repayment options (lump sum, partial, rollover on fresh eNWR). Format the output as a filled-in example with numbers. Consider these constraints: RBI priority sector lending norms, state VAT/GST on storage, and CCRL/NERL repository linkage.",
+      "tags": [
+        "enwr",
+        "pledge-finance",
+        "tur-dal",
+        "latur",
+        "calculator"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-024",
+      "title": "Nutri-Cereal Branding Strategy",
+      "prompt": "Act as an agri-brand strategist with 8 years of experience building D2C millet brands like Slurrp Farm and Two Brothers Organic Farms. I need you to build a go-to-market strategy for a new ragi and foxtail millet brand. Here is the context: My startup plans to launch 500 gram packs of ragi flour and foxtail millet rice sourced from Mandya and Koppal FPOs, targeting urban health-conscious consumers in Bengaluru and Chennai with a 12-month launch budget of Rs 60 lakh. Please provide: (1) Brand positioning and name suggestions leveraging 2023 International Year of Millets, (2) Pricing strategy with MRP, trade margin, and competitive benchmark, (3) Channel strategy across Amazon, Flipkart, BigBasket, Blinkit, and modern trade, (4) Content calendar for Instagram and YouTube with 8 post ideas, (5) Customer acquisition cost target and break-even month. Format the output as a GTM playbook. Consider these constraints: FSSAI labelling, eat-right-India guidelines, and PMFME scheme for branding support.",
+      "tags": [
+        "millet",
+        "branding",
+        "d2c",
+        "ragi",
+        "gtm"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-025",
+      "title": "Direct Farmer Procurement SOP",
+      "prompt": "Act as a procurement operations head with 10 years of experience at ITC e-Choupal and Reliance Fresh direct farmer procurement. I need you to design a direct procurement SOP for a processor. Here is the context: A Nagpur-based orange juice processor wants to procure 5,000 MT of Nagpur santra directly from 800 farmers within 80 km radius, bypassing APMC, with quality parameters of brix 10+ and acidity under 0.8 percent. Please provide: (1) Farmer enrolment process with KYC, land record, crop declaration, (2) Daily procurement SOP from field visit, grading, weighment, token, payment, (3) Pricing formula linked to Nagpur APMC benchmark plus quality premium, (4) Digital tools (mobile app, tablet-based weighment, IMPS payment) and data fields, (5) Reconciliation and audit checks to prevent leakage. Format the output as a process document with RACI. Consider these constraints: state Model APLM Act direct purchase license, GST TCS on purchase, and FPO partnership option.",
+      "tags": [
+        "direct-procurement",
+        "orange",
+        "nagpur",
+        "sop",
+        "itc"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-026",
+      "title": "Precision Agri ROI for Drip Irrigation",
+      "prompt": "Act as a micro-irrigation specialist with 9 years of experience implementing PMKSY drip and sprinkler projects. I need you to build an ROI case for a farmer considering drip irrigation. Here is the context: A 4-acre grape farmer in Nashik is weighing a drip system at Rs 55,000 per acre (after 55 percent PMKSY-PDMC subsidy) versus flood irrigation with current water stress and labour cost of Rs 8,000 per acre per season. Please provide: (1) Side-by-side comparison of water, power, labour, yield, and quality for flood vs drip, (2) Capex and net farmer cost after subsidy in INR, (3) Year-wise incremental cash flow for 7 years and payback period, (4) Non-cash benefits (reduced weed, fertigation, soil health), (5) Application process for PMKSY-PDMC subsidy via state horticulture department. Format the output as an ROI analysis with chart description. Consider these constraints: BIS-certified drip components, state-specific subsidy caps, and MNREGA convergence for land preparation.",
+      "tags": [
+        "drip-irrigation",
+        "pmksy",
+        "roi",
+        "grape",
+        "nashik"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-027",
+      "title": "Spice Export HS Code and Documentation",
+      "prompt": "Act as a spices export documentation expert with 11 years of experience at Spices Board India. I need you to build a documentation kit for a new spice exporter. Here is the context: A Kochi-based exporter wants to ship 12 MT of black pepper and cardamom to Germany and USA in 4 containers, and needs clarity on HS codes, DGFT licenses, and importing country compliance. Please provide: (1) HS code list (0904, 0908) with product description and duty structure in target markets, (2) Spices Board CRES registration and fee, (3) Required documents (invoice, packing list, CoO from EIC/APEDA, phytosanitary, health, steam sterilisation certificate), (4) EU pesticide MRL and US FDA FSMA compliance checklist, (5) Typical lead time and common rejection reasons. Format the output as a country-wise documentation matrix. Consider these constraints: DGFT RoDTEP scheme, EIC mandatory testing for aflatoxin, and EU Novel Food rules.",
+      "tags": [
+        "spices",
+        "export",
+        "pepper",
+        "cardamom",
+        "documentation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-028",
+      "title": "Poultry Integration Contract Review",
+      "prompt": "Act as a poultry integration expert with 12 years of experience with Suguna, Venky's, and Godrej Tyson broiler contracts. I need you to review a contract farming agreement from a farmer's perspective. Here is the context: A farmer in Coimbatore is offered a broiler integration contract of Rs 8.50 per kg growing charge on 10,000 birds per cycle with 6 cycles per year, where the integrator supplies chicks, feed, medicines, and buys back the birds. Please provide: (1) Summary of key commercial clauses (grower charge, bonus, penalty, FCR targets), (2) Risk-sharing analysis (mortality, disease, market price) between farmer and integrator, (3) Investment required (shed, brooder, feeder, biosecurity) in INR and expected ROI, (4) Red flags to negotiate (opaque weighing, unilateral deductions, exclusivity), (5) Exit and termination clauses. Format the output as a contract review memo. Consider these constraints: NABARD Poultry Venture Capital Fund, NGT norms on waste management, and state pollution board consent.",
+      "tags": [
+        "poultry",
+        "contract-farming",
+        "broiler",
+        "suguna",
+        "integration"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-029",
+      "title": "Agri-Commodity Arbitrage Scanner",
+      "prompt": "Act as a commodity arbitrage trader with 8 years of experience moving pulses and oilseeds across Indian mandis. I need you to build a daily arbitrage scanner. Here is the context: I trade moong, urad, and tur between Indore, Akola, Katni, and Delhi mandis with trucks of 25 MT capacity and want to identify profitable lanes after deducting freight, loading, and mandi fee. Please provide: (1) Template table pulling modal prices from AGMARKNET for 4 mandis and 3 commodities, (2) Lane-wise freight cost in INR per MT at Rs 4 per km per MT assumption, (3) Net arbitrage calculation after all costs and 2 percent wastage, (4) Minimum spread threshold to trigger trade (Rs 200 per quintal), (5) Risk factors (price movement in transit, moisture, quality rejection). Format the output as a spreadsheet logic with formulas. Consider these constraints: GST e-way bill above Rs 50,000, Essential Commodities Act stock limits, and APMC entry fee.",
+      "tags": [
+        "arbitrage",
+        "pulses",
+        "agmarknet",
+        "trading",
+        "mandi"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-030",
+      "title": "Farmer Loyalty Program Design",
+      "prompt": "Act as a rural marketing strategist with 9 years of experience designing loyalty programs for agri-input companies like Bayer, Dhanuka, and UPL. I need you to design a loyalty program for a pesticide brand. Here is the context: A mid-size agrochem brand wants to reward 50,000 cotton farmers in Gujarat and Maharashtra who buy a herbicide brand worth Rs 4,500 or more in a season, targeting 20 percent repeat purchase uplift. Please provide: (1) Program structure (points per rupee, tiers, redemption catalogue), (2) Enrolment mechanism via QR code on pack and WhatsApp bot, (3) Budget plan within 3 percent of sales with ROI model, (4) Communication plan (village meetings, dealer posters, vernacular SMS), (5) Fraud prevention (duplicate scans, counterfeit packs). Format the output as a program design document. Consider these constraints: CIB&RC pesticide labelling, local language requirement, and CSR angle for sustainable spraying.",
+      "tags": [
+        "loyalty",
+        "agrochem",
+        "marketing",
+        "cotton",
+        "rural"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-031",
+      "title": "FPO Equity Grant Application",
+      "prompt": "Act as an FPO finance advisor with 8 years of experience accessing SFAC Equity Grant Fund under the 10,000 FPO scheme. I need you to prepare an equity grant application. Here is the context: An FPO in Bhopal, Madhya Pradesh with 350 shareholders, paid-up capital of Rs 4.5 lakh, and year-1 turnover of Rs 35 lakh is eligible for matching equity grant up to Rs 18 lakh. Please provide: (1) Eligibility checklist against SFAC guidelines, (2) Documents (audited financials, AGM resolution, share certificate register, bank statement, business plan), (3) Grant calculation formula (1:1 matching, Rs 2,000 per shareholder cap), (4) Step-by-step portal submission via CBBO and SFAC, (5) Post-grant compliance (fund utilisation, reporting, audit). Format the output as a filing checklist. Consider these constraints: minimum 3-month old Producer Company, ROC filings up to date, and CBBO endorsement.",
+      "tags": [
+        "fpo",
+        "equity-grant",
+        "sfac",
+        "bhopal",
+        "funding"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-032",
+      "title": "Mandi Arrivals Forecasting Model",
+      "prompt": "Act as an agri data scientist with 7 years of experience forecasting commodity arrivals and prices using AGMARKNET data. I need you to outline a forecasting model for a specific commodity. Here is the context: I want to forecast daily arrivals and modal prices of tomato in Kolar mandi for the next 30 days using 5 years of historical data, weather, and festival calendar. Please provide: (1) Data sources and ingestion pipeline from AGMARKNET, IMD, and festival calendar, (2) Feature engineering list (lag, rolling mean, weather anomaly, holiday flag), (3) Model comparison between SARIMA, Prophet, and XGBoost with expected MAPE, (4) Evaluation and backtesting approach over 2022-2023 monsoon shocks, (5) Deployment as a daily WhatsApp alert to FPO members. Format the output as a technical design document. Consider these constraints: free-tier compute, Python stack, and non-stationarity during monsoon.",
+      "tags": [
+        "forecasting",
+        "data-science",
+        "tomato",
+        "agmarknet",
+        "ml"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-033",
+      "title": "End-to-End Export Compliance Audit",
+      "prompt": "Act as an agri-export compliance auditor with 15 years of experience auditing shrimp and fresh produce exporters for APEDA, MPEDA, EIC, and importing country regulators. I need you to design a comprehensive compliance audit program. Here is the context: A Vishakhapatnam-based shrimp exporter shipping Rs 400 crore annually to USA, EU, Japan, and China is preparing for FDA, EU DG SANTE, and GACC audits simultaneously. Please provide: (1) Audit scope matrix mapping each regulator to applicable standards (HACCP, FSSC 22000, BAP, ASC, CAA), (2) 50-point checklist across farm, hatchery, feed, processing, cold chain, documentation, (3) Gap analysis template with risk scoring and CAPA, (4) Mock audit schedule over 8 weeks with internal auditor roles, (5) Critical non-conformity response plan and market denial mitigation. Format the output as an audit program document. Consider these constraints: FDA 21 CFR 123, EU Regulation 853/2004, CAA certification, and antibiotic residue monitoring plan.",
+      "tags": [
+        "export-audit",
+        "shrimp",
+        "haccp",
+        "fda",
+        "compliance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-034",
+      "title": "FPO Equity Valuation for PE Investment",
+      "prompt": "Act as an agri-investment banker with 12 years of experience advising on FPO and agri-SME equity transactions. I need you to build a valuation model for a PE investor considering a minority stake. Here is the context: A mature FPO in Indore, Madhya Pradesh with 1,200 shareholders, Rs 45 crore turnover, 6 percent EBITDA margin, and three business lines (soybean processing, seed production, input retail) is raising Rs 15 crore for 25 percent stake. Please provide: (1) Valuation using DCF, EV/EBITDA, and EV/Revenue methods with Indian agri-SME benchmarks, (2) Business line-wise revenue and margin projections for 5 years, (3) WACC build-up with risk-free rate, equity risk premium, and size premium for Indian agri, (4) Sensitivity on growth, margin, and exit multiple, (5) Term sheet highlights (governance, liquidation preference, exit, ROFR). Format the output as an investment memo with valuation summary. Consider these constraints: Producer Company share transfer restrictions, SEBI AIF regulations, and FEMA rules for foreign PE.",
+      "tags": [
+        "valuation",
+        "fpo",
+        "private-equity",
+        "dcf",
+        "soybean"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-035",
+      "title": "Multi-Crop Yield Prediction Framework",
+      "prompt": "Act as a remote sensing and agri-AI expert with 10 years of experience building yield prediction systems using Sentinel-2, MODIS, and ground-truth data. I need you to design a multi-crop yield prediction framework for an Indian state. Here is the context: The Agriculture Department of Punjab wants to predict district-wise paddy and wheat yields 30 days before harvest with 90 percent accuracy for MSP procurement planning across 23 districts. Please provide: (1) Data architecture combining satellite NDVI/EVI, IMD weather, soil moisture, and CCE ground data, (2) Model stack (random forest for baseline, LSTM for temporal, ensemble), (3) Training, validation, and holdout strategy using 2018-2023 CCE data, (4) Uncertainty quantification and district-level error reporting, (5) Deployment as a dashboard for state officers with API integration to FCI procurement system. Format the output as a solution architecture document. Consider these constraints: cloud cost under Rs 8 lakh per year, open-source preference, and data sharing agreement with ISRO-NRSC.",
+      "tags": [
+        "yield-prediction",
+        "remote-sensing",
+        "punjab",
+        "ml",
+        "sentinel"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-036",
+      "title": "Agri-Commodity Price Risk Policy",
+      "prompt": "Act as a commodity risk management head with 14 years of experience at Olam, Cargill India, and Adani Wilmar. I need you to draft a price risk management policy for an agri-processor board. Here is the context: A Rs 800 crore edible oil refiner in Mundra uses 150,000 MT of CPO and soybean oil annually and is exposed to CBOT, BMD, and INR-USD volatility. Please provide: (1) Risk identification and mapping (flat price, basis, currency, freight), (2) Hedging instruments allowed (futures, options, forwards) with counterparty limits, (3) Maximum hedge ratio (e.g., 80 percent for 90-day cover) and VaR limits, (4) Governance structure (risk committee, mandate, exceptions, stop-loss), (5) Reporting templates (daily position, MTM, stress test). Format the output as a board-ready risk policy document. Consider these constraints: SEBI commodity derivative rules, RBI FEMA hedging norms, Ind-AS 109 hedge accounting, and internal audit requirement.",
+      "tags": [
+        "risk-policy",
+        "hedging",
+        "edible-oil",
+        "cbot",
+        "governance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-037",
+      "title": "Large-Scale Organic Cluster Strategy",
+      "prompt": "Act as an organic cluster development expert with 12 years of experience with PKVY (Paramparagat Krishi Vikas Yojana) and MOVCDNER in the North East. I need you to design a 10,000 hectare organic cluster strategy for a state. Here is the context: The Sikkim government wants to extend its organic success story to a new 10,000 hectare cluster covering ginger, large cardamom, and buckwheat with third-party NPOP plus EU and USDA certification, targeting Rs 500 crore exports by year 5. Please provide: (1) Cluster design with 500-farmer ICS groups and CB allocation, (2) Input and infrastructure capex (bio-input resource centre, pack-house, quality lab) with INR budget, (3) Farmer capacity building curriculum and trainer plan, (4) Market linkage with buyers in Japan, Germany, and domestic premium brands, (5) Monitoring framework with TraceNet and blockchain traceability. Format the output as a 5-year implementation blueprint. Consider these constraints: PKVY Rs 50,000 per ha over 3 years, MOVCDNER Rs 25,000 per ha, and NER special category funding.",
+      "tags": [
+        "organic",
+        "cluster",
+        "pkvy",
+        "sikkim",
+        "export"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-038",
+      "title": "Carbon Credit Project for Regenerative Farming",
+      "prompt": "Act as a carbon markets specialist with 8 years of experience developing Verra VCS and Gold Standard projects for Indian regenerative agriculture. I need you to structure a carbon credit project. Here is the context: A consortium of 5,000 farmers across 20,000 hectares in Madhya Pradesh is adopting no-till, cover cropping, and biochar on soybean-wheat rotation, and wants to monetise soil organic carbon sequestration and N2O reduction credits. Please provide: (1) Methodology selection (VM0042, VMD0053) and baseline setting, (2) MRV (monitoring, reporting, verification) plan using soil sampling, remote sensing, and DNDC modelling, (3) Estimated credits per hectare per year and 10-year revenue projection at USD 15-25 per tCO2e, (4) Cost structure (validation, verification, farmer aggregation, tech) and farmer revenue share, (5) Buyer outreach to corporates under Indian CCTS and voluntary markets. Format the output as a project design document summary. Consider these constraints: Paris Agreement Article 6, India CCTS rules 2023, and double-counting safeguards.",
+      "tags": [
+        "carbon-credits",
+        "regenerative",
+        "verra",
+        "mrv",
+        "soybean"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-039",
+      "title": "Agri-Warehouse Network Optimisation",
+      "prompt": "Act as a supply chain optimisation expert with 10 years of experience designing FCI and private agri-warehouse networks. I need you to build a network optimisation model. Here is the context: A Rs 1,200 crore pulse processor has 18 existing warehouses across Maharashtra, Karnataka, and Madhya Pradesh handling 400,000 MT annual throughput and wants to redesign the network to cut logistics cost by 12 percent while maintaining 48-hour service level to 35 plant and customer locations. Please provide: (1) Mathematical formulation (MILP) with decision variables, objective function, and constraints, (2) Data inputs (demand by node, supply by mandi, distance matrix, warehouse capacity, rent), (3) Scenario analysis (add 3 warehouses, close 5, hub-and-spoke vs point-to-point), (4) Expected savings in INR and service level impact, (5) Implementation roadmap over 18 months with change management. Format the output as an optimisation project plan. Consider these constraints: GST warehousing rules, state APMC licences, and WDRA registration requirement.",
+      "tags": [
+        "network-optimisation",
+        "warehousing",
+        "milp",
+        "pulses",
+        "supply-chain"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    },
+    {
+      "id": "agriculture-agri-business-040",
+      "title": "Agri-Input M&A Due Diligence Playbook",
+      "prompt": "Act as an agri-M&A advisor with 15 years of experience advising on deals like UPL-Arysta, Bayer-Monsanto India, and Dhanuka-Nichino. I need you to build a due diligence playbook for acquiring an Indian agrochemical company. Here is the context: A listed acquirer is evaluating a Rs 900 crore revenue agrochemical formulator with 45 CIB&RC registrations, 2 manufacturing units in Gujarat and Himachal Pradesh, 8,000 dealer network, and pending litigation worth Rs 40 crore. Please provide: (1) Due diligence scope across commercial, financial, legal, regulatory, tax, environmental, IT, and HR, (2) Red flag checklist specific to agrochem (label claims, residue issues, CIB&RC compliance, 9(3) vs 9(4) registrations), (3) Synergy model with cost and revenue synergies in INR, (4) Valuation range using comparable transactions (2-3x revenue, 10-14x EBITDA), (5) SPA key clauses (reps, warranties, indemnity, MAC, escrow). Format the output as a structured DD playbook. Consider these constraints: Insecticides Act 1968, CCI merger control, SEBI Takeover Code, and stamp duty implications.",
+      "tags": [
+        "m-and-a",
+        "due-diligence",
+        "agrochem",
+        "valuation",
+        "spa"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "agri-business"
+    }
+  ]
+}

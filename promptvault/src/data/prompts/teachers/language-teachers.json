@@ -1,0 +1,753 @@
+{
+  "category": "teachers",
+  "subcategory": "language-teachers",
+  "prompts": [
+    {
+      "id": "teachers-language-teachers-001",
+      "title": "Tense Confusion Worksheet for Indian ESL Learners",
+      "prompt": "Act as an English language trainer with 12 years of experience coaching Class 8-10 CBSE students in Lucknow on the typical Indian L1 interference errors involving present perfect versus simple past. I need you to create a printable grammar worksheet that targets the classic Indian learner mistake of saying \"I have gone to Mumbai last year\" or \"He is having a car\". The worksheet must be aligned with NCERT Honeydew grammar appendix and usable in a 40-minute period. Please provide: (1) A 60-word contextual paragraph set in an Indian family WhatsApp chat that contains 8 embedded tense errors to be corrected, (2) 10 MCQs comparing present perfect with simple past using Indian contexts like Diwali, IPL, CBSE boards, cousin's wedding, (3) 5 error-correction sentences covering stative verbs wrongly used in continuous form (\"I am knowing\", \"She is having fever\"), (4) 5 fill-in-the-blanks with just/already/yet/since/for, (5) A short teacher note explaining the Hindi/Marathi L1 reason behind each error pattern, (6) A complete answer key with one-line justification per answer, (7) Three extension speaking prompts that force learners to use the correct tense orally. Format as a clean A4 printable with section headings, marks allocation totalling 30, and estimated time per section. Keep language accessible to a Class 9 Indian learner with moderate English proficiency.",
+      "tags": [
+        "grammar",
+        "tenses",
+        "cbse",
+        "ncert",
+        "mti",
+        "esl",
+        "worksheet"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-002",
+      "title": "Spoken English Role-Play Cards — Airport Scenarios",
+      "prompt": "Act as a Spoken English institute trainer with 8 years of experience running conversation batches in Hyderabad for IT professionals and students preparing to travel abroad. I need you to create a set of 10 role-play cards simulating realistic airport situations that Indian first-time flyers often struggle with. Please provide: (1) 10 role-play cards, each with a SITUATION block (2-3 lines), ROLE A instructions, ROLE B instructions, TARGET LANGUAGE (5 key phrases learners must use), and CHALLENGE twist, (2) Scenarios must include: check-in counter with overweight baggage, immigration officer questions at Dubai transit, lost boarding pass, missed connection at Delhi T3, requesting vegetarian Jain meal, explaining purpose of visit for a US visa interview styled airport check, asking for wheelchair for an elderly parent, declaring INR cash above limit, requesting a gate change, handling a rude co-passenger, (3) A pre-task vocabulary bank with 20 travel terms and their Hindi equivalents, (4) Common MTI pronunciation traps in these scenarios (e.g., \"schedule\", \"lounge\", \"queue\"), (5) A peer-feedback rubric with 4 criteria on a 1-5 scale, (6) A debrief discussion with 5 reflection questions. Format as ready-to-print cards in a table. Keep English at CEFR B1 level so spoken English batch learners can perform comfortably after 10 minutes of preparation.",
+      "tags": [
+        "spoken-english",
+        "role-play",
+        "conversation",
+        "airport",
+        "ielts",
+        "travel"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-003",
+      "title": "Articles A/An/The Drill for Hindi Speakers",
+      "prompt": "Act as an English grammar specialist with 15 years of experience training Hindi-medium B.Ed. students in Patna who consistently drop articles or insert them wrongly. I need you to build a comprehensive article usage drill pack that addresses the specific fact that Hindi has no articles, causing Indian learners to say \"I am going to market\" or \"She is best student\". Please provide: (1) A 2-paragraph teacher explainer comparing Hindi noun determination with English article rules using contrastive examples, (2) 15 fill-in-the-blank sentences set in Indian daily life (auto stand, kirana shop, UPSC office, IRCTC booking), (3) 10 spot-the-error sentences, (4) 5 sentences with \"zero article\" traps (breakfast, school, hospital as institutions), (5) A decision-tree flowchart in text form for choosing a/an/the/zero, (6) 10 proper noun exceptions relevant to India — \"the Ganges\", \"the Himalayas\", \"the RBI\", \"Mumbai\", \"Mount Everest\", (7) Answer key with a one-line rule reference per answer, (8) A 5-minute exit quiz with 10 questions. Format as sectioned worksheet with total 50 marks. Target CBSE Class 9-10 or BA first-year level Indian learners whose first language is Hindi, Bhojpuri, or Maithili.",
+      "tags": [
+        "grammar",
+        "articles",
+        "hindi-interference",
+        "worksheet",
+        "esl",
+        "mti"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-004",
+      "title": "Preposition Practice — In/On/At for Time and Place",
+      "prompt": "Act as a senior ICSE English teacher with 10 years of experience in a Kolkata school where Bengali-speaking students routinely confuse prepositions saying \"I will meet you on Monday evening in 5 o'clock\". I need you to design a 45-minute practice session on prepositions of time and place targeting the top 12 errors Indian learners make. Please provide: (1) A diagnostic warm-up of 8 sentences learners must correct orally, (2) A clear rules chart distinguishing in/on/at for time (year/month/date/hour) and place (country/street/point), (3) 15 fill-in-the-blank sentences with Indian contexts — Durga Puja, Eid, Holi, Class 10 board exam, Howrah station, Park Street, Diwali night, (4) 10 sentence-completion items using \"by\", \"until\", \"during\", \"for\", \"since\", (5) 5 picture-prompt sentence generation tasks described in text, (6) 3 error correction paragraphs of 50 words each, (7) A pair-work speaking task where students describe their daily Kolkata metro commute using at least 8 prepositions, (8) Homework of writing a 120-word paragraph about a recent Indian festival using 10 prepositions underlined, (9) Complete answer key. Format as a lesson pack with teacher notes, timings, and marks totalling 40. Level: ICSE Class 8.",
+      "tags": [
+        "grammar",
+        "prepositions",
+        "icse",
+        "worksheet",
+        "bengali",
+        "esl"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-005",
+      "title": "Vocabulary Collocations for IELTS Writing Task 2",
+      "prompt": "Act as a certified IELTS trainer with 9 years of experience coaching Indian students in Chandigarh who have strong grammar but score 5.5-6.0 on Writing Task 2 due to weak collocations. I need you to produce a vocabulary pack of 40 high-impact collocations mapped to common IELTS Task 2 topics. Please provide: (1) 40 collocations grouped across 8 IELTS topics — education, environment, technology, health, crime, urbanization, globalization, government, (2) For each collocation include: the phrase, part of speech pattern, meaning in simple English, 1 model sentence on an Indian or global context, 1 common learner mis-collocation to avoid (e.g., \"do a mistake\" instead of \"make a mistake\"), (3) A matching exercise with 10 items, (4) A gap-fill paragraph of 180 words on \"the impact of smartphones on Indian teenagers\" using 12 collocations, (5) 5 paraphrasing tasks converting simple sentences into collocation-rich academic sentences, (6) A self-assessment checklist learners can use when editing their own Task 2 essays, (7) Teacher notes on how to drill these in a 60-minute class. Format as a structured study sheet with clear headings. Target Band 6.5-7.5 Indian learners.",
+      "tags": [
+        "ielts",
+        "vocabulary",
+        "collocations",
+        "writing",
+        "band-7"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-006",
+      "title": "Word Families Activity Pack — Class 8 NCERT",
+      "prompt": "Act as a CBSE English teacher with 11 years of experience in Bhopal teaching Honeydew to Class 8 students. I need you to build a word families activity pack anchored to 15 root words drawn from the first 4 chapters of the NCERT Honeydew textbook. Please provide: (1) A table of 15 root words with their noun, verb, adjective, and adverb forms (e.g., beauty/beautify/beautiful/beautifully), (2) 10 fill-in-the-blank sentences where students pick the correct form, using contexts familiar to Indian 13-year-olds (school assembly, monsoon, cricket match, rakhi, Independence Day), (3) A word-formation puzzle with 8 prefixes and 8 suffixes, (4) A short 120-word passage in which students must change 10 bold-marked words into the correct family form, (5) A vocabulary notebook template students can maintain, (6) A 5-minute dictionary race activity with instructions, (7) Answer key, (8) A closing 10-question exit quiz. Format as a photocopy-ready worksheet for a class of 45 students with instructions in simple English. Include differentiation notes for slow learners and extension activities for advanced learners. Total marks 40, estimated time 45 minutes.",
+      "tags": [
+        "vocabulary",
+        "word-families",
+        "ncert",
+        "cbse",
+        "class-8",
+        "worksheet"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-007",
+      "title": "Idioms and Phrases for SSC and Bank Exams",
+      "prompt": "Act as a competitive English coach with 10 years of experience preparing SSC CGL and IBPS PO aspirants in Delhi's Mukherjee Nagar. I need you to compile a focused idioms pack of 30 idioms that appear most frequently in SSC CGL, IBPS PO, and SBI Clerk past papers over the last 5 years. Please provide: (1) 30 idioms organized into 6 thematic clusters — success and failure, effort and laziness, communication, conflict, money, time, (2) For each idiom: meaning in simple English, Hindi equivalent or close paraphrase, 1 example sentence on a realistic Indian scenario (RRB interview, startup job, PG accommodation in Delhi), 1 past-paper style MCQ, (3) A 20-question mock test with answer key, (4) A memory technique or visual hook for 10 harder idioms, (5) A quick revision card list, (6) A timed 5-minute drill with 15 items, (7) Teacher tips on how to use these in a 40-minute revision class. Format as a clean study guide. Level: SSC CGL Tier 1 aspirant with moderate English proficiency. Include 5 commonly confused idiom pairs that aspirants mix up in OMR sheets.",
+      "tags": [
+        "ssc",
+        "ibps",
+        "idioms",
+        "vocabulary",
+        "competitive-exam"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-008",
+      "title": "Hindi to English Translation Drill — Cultural Terms",
+      "prompt": "Act as a translation studies lecturer with 14 years of experience teaching BA English students in Delhi University on how to handle culturally loaded Hindi terms that have no direct English equivalent. I need you to build a translation practice drill that trains students to handle terms like \"jugaad\", \"timepass\", \"chai\", \"dharma\", \"izzat\", \"bhai\", \"gotra\", \"saas-bahu\", and \"sarkari\". Please provide: (1) A short explainer on 3 translation strategies — loan word, functional equivalent, descriptive paraphrase — with examples, (2) 15 Hindi sentences (in Devanagari and Roman) that students must translate into natural English using appropriate strategies, (3) 10 mini-dialogues of 3-4 exchanges each from Indian family contexts (in-laws, servants, auto haggling) for translation, (4) 5 proverbs like \"Naach na jaane aangan tedha\" with 3 possible English renderings each and a discussion of trade-offs, (5) A model answer sheet with alternative acceptable translations, (6) A peer-review rubric focusing on accuracy, naturalness, cultural fidelity, (7) A 10-question reflection quiz on translation choices. Format as a 2-hour workshop handout. Target BA English or aspiring translators at intermediate-to-advanced level.",
+      "tags": [
+        "translation",
+        "hindi",
+        "cultural",
+        "vocabulary",
+        "bilingual"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-009",
+      "title": "Pronunciation Drill — /v/ vs /w/ for Tamil Speakers",
+      "prompt": "Act as a speech and accent coach with 8 years of experience training Tamil-speaking IT professionals in Chennai who struggle with the /v/ vs /w/ distinction, often saying \"wery wellcome\" or \"vest side\". I need you to design a 30-minute pronunciation drill that uses articulatory awareness and minimal pairs to fix this common MTI error. Please provide: (1) A 100-word teacher explainer on how /v/ is a labio-dental fricative and /w/ is a bilabial approximant, contrasted with the Tamil \"va\" sound, (2) A mirror and finger-on-lip self-check instruction, (3) 20 minimal pairs (vine/wine, vet/wet, veil/wail etc.) with IPA transcription, (4) 10 tongue twisters using both sounds, (5) A 60-second connected-speech drill paragraph about a Chennai software engineer visiting Vaishno Devi, (6) 5 dialogue chunks from office English (\"I will review this version\"), (7) A recording-and-playback self-assessment protocol, (8) A 10-item diagnostic checklist the coach can use. Format as a step-by-step session plan with timings. Include 3 common failure points and how to correct them. Target working professionals at CEFR B2.",
+      "tags": [
+        "pronunciation",
+        "mti",
+        "tamil",
+        "minimal-pairs",
+        "accent",
+        "spoken-english"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-010",
+      "title": "Schwa Sound Workshop for Indian Learners",
+      "prompt": "Act as a phonetics trainer with 10 years of experience coaching Indian BPO agents in Gurugram on neutralizing heavy syllable stress by mastering the schwa /ə/ sound, which Indian learners often replace with full vowel sounds (\"photograph\" as \"pho-to-graph\" instead of \"PHO-tə-grəf\"). I need you to create a 45-minute workshop. Please provide: (1) A 5-minute introduction explaining what schwa is, why English is stress-timed while Hindi and most Indian languages are syllable-timed, and why this matters for intelligibility in US/UK voice calls, (2) A list of 25 common English words with their stressed syllable capitalised and schwa marked (banana, computer, problem, about, official), (3) 10 two-syllable and 10 three-syllable word drills, (4) A connected-speech passage of 80 words on \"a Monday morning at Cyber Hub\" with schwa positions underlined, (5) Sentence-level drills reducing function words (a, the, of, to, for) to schwa, (6) A before-and-after recording protocol, (7) A 10-item self-evaluation rubric. Format as a trainer handbook with timings. Include the top 5 schwa-related intelligibility failures in Indian English.",
+      "tags": [
+        "pronunciation",
+        "schwa",
+        "bpo",
+        "accent",
+        "mti",
+        "stress"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-011",
+      "title": "Subject-Verb Agreement Worksheet for Class 10 Boards",
+      "prompt": "Act as a CBSE Class 10 English teacher with 13 years of experience in Jaipur preparing students for the board exam grammar section. I need you to create a subject-verb agreement worksheet that directly mirrors the CBSE Class 10 English Language and Literature question pattern, covering the 12 most tested traps. Please provide: (1) A 150-word teacher recap of the rules including collective nouns (team, family, government), indefinite pronouns (each, every, neither), \"one of the\" constructions, uncountable nouns (information, furniture, advice), \"the number of\" vs \"a number of\", (2) 15 fill-in-the-blank sentences with board-exam style contexts, (3) 10 error correction sentences with error-correction underlined-word format used by CBSE, (4) 5 editing tasks on a short paragraph with 6 errors each, (5) 3 past-year CBSE board question adaptations, (6) Complete answer key with rule references, (7) A 10-question exit test, (8) Common Indian learner errors like \"The police is coming\" vs \"The police are coming\". Format as a printable 4-page worksheet with total marks 40. Include a quick-revision flash card summary on the last page.",
+      "tags": [
+        "cbse",
+        "grammar",
+        "subject-verb-agreement",
+        "class-10",
+        "board-exam"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-012",
+      "title": "Modal Verbs Conversation Practice",
+      "prompt": "Act as a Spoken English institute trainer with 7 years of experience in Pune running evening batches for college students who want to crack campus placements. I need you to design a 50-minute conversation practice class on modal verbs (can, could, may, might, must, should, would, shall, will) that moves students from mechanical accuracy to natural usage. Please provide: (1) A quick 5-minute review chart of 9 modals with function (ability, possibility, permission, obligation, advice, polite request) and 1 example each, (2) 5 situational dialogues of 8 lines each — asking for leave from an Infosys manager, requesting an auto driver to slow down, giving health advice to a hostel roommate, declining a wedding invite politely, negotiating rent with a PG owner, (3) 10 role-play prompts where partners must use a specified modal at least 3 times, (4) A \"modal match\" card game with 20 cards, (5) 5 common errors to fix (\"Can you able to\", \"I must to go\", \"Should I to come\"), (6) A fluency rubric with 4 criteria, (7) A homework voice-note task. Format as a class plan with minute-by-minute timings. Level: intermediate Indian learners.",
+      "tags": [
+        "modals",
+        "grammar",
+        "spoken-english",
+        "conversation",
+        "placement"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-013",
+      "title": "Job Interview Role-Play Cards for Freshers",
+      "prompt": "Act as a campus placement English trainer with 9 years of experience coaching engineering freshers in Bengaluru for TCS, Infosys, and Wipro HR interviews. I need you to create a set of 12 interview role-play cards that simulate realistic HR and technical-behavioural questions. Please provide: (1) 12 role-play cards each containing: INTERVIEWER persona (TCS HR, Infosys lead, Wipro panel), CANDIDATE background (B.Tech CSE, GPA 7.8, 2 projects), QUESTION to be asked, 3 TARGET STRUCTURES the candidate must use (present perfect, conditional, relative clause), a TWIST (e.g., tricky follow-up), (2) 3 \"Tell me about yourself\" model answers of 90 seconds each, (3) 10 common Indian fresher mistakes and how to correct them (\"myself X\", \"I belong to a middle class family with 4 members\"), (4) A body-language and voice-modulation checklist, (5) A peer-feedback rubric with 6 criteria scored 1-5, (6) A vocabulary bank of 25 professional phrases, (7) A 5-item self-reflection worksheet. Format as printable cards plus trainer guide. Level: B2 Indian fresher. Include MTI pronunciation traps in interview words like \"technology\", \"leadership\", \"opportunity\".",
+      "tags": [
+        "spoken-english",
+        "interview",
+        "placement",
+        "role-play",
+        "freshers",
+        "mti"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-014",
+      "title": "Phrasal Verbs Flashcards for Business English",
+      "prompt": "Act as a Business English trainer with 10 years of experience in Mumbai delivering corporate workshops for banking and consulting firms. I need you to build a phrasal verbs flashcard pack of 35 high-frequency business phrasal verbs that middle managers in Indian MNCs need but rarely use correctly. Please provide: (1) 35 phrasal verbs grouped into 5 clusters — meetings (bring up, put off, call off), negotiations (back down, hold out, give in), projects (carry out, roll out, wrap up), communication (follow up, reach out, touch base), performance (step up, shape up, fall behind), (2) Each flashcard must contain: phrasal verb, meaning, separable/inseparable note, 1 corporate example sentence set in a Mumbai bank or Gurugram consulting firm, 1 non-phrasal synonym, 1 common Indian usage error, (3) A matching exercise with 15 items, (4) A role-play script between two project managers using 12 phrasal verbs, (5) An email rewriting task converting stiff formal English into natural phrasal-verb-rich English, (6) Answer key. Format as printable flashcards plus a teacher guide for a 60-minute session. Target mid-career Indian professionals at B2 level.",
+      "tags": [
+        "phrasal-verbs",
+        "business-english",
+        "vocabulary",
+        "corporate",
+        "flashcards"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-015",
+      "title": "Dental T/D Sound Correction Drill",
+      "prompt": "Act as an accent reduction coach with 9 years of experience helping Indian call-centre trainees in Noida soften the heavy retroflex t/d sound that marks Indian English and replace it with the alveolar American/British t/d. I need you to create a 40-minute correction drill. Please provide: (1) A 100-word explainer comparing the Indian retroflex (tongue curled back) with the alveolar (tongue-tip just behind upper teeth) articulation, with a simple mirror check, (2) 20 minimal and near-minimal word pairs (tea, today, dust, daughter, table, Delhi), (3) A 60-second paragraph for diagnostic reading about \"a Tuesday at a Noida office\" containing 25 target words, (4) 10 phrase-level drills (I told you, don't do that, two days), (5) A sentence-level drill set of 15 sentences, (6) A Hindi-to-English contrast drill where learners first say a Hindi word (\"Delhi\", \"tamatar\") then the English equivalent with corrected articulation, (7) A recording protocol with 3 iterations and self-scoring rubric, (8) Top 5 failure points with corrective cues. Format as a session plan with timings. Target working professionals at B2 level.",
+      "tags": [
+        "pronunciation",
+        "accent",
+        "dental-t",
+        "bpo",
+        "mti",
+        "retroflex"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-016",
+      "title": "Reading Comprehension Passage — NCERT Style",
+      "prompt": "Act as a senior CBSE English teacher with 12 years of experience setting pre-board question papers for Class 9 in Nagpur. I need you to write an original unseen passage-based reading comprehension task in the exact CBSE Class 9 format. Please provide: (1) A 350-word original passage on \"The Rise of Street Food Culture in Small-Town India\" featuring Indore's Sarafa Bazaar, Lucknow's chaat, and Hyderabad's Irani chai, written at the appropriate reading level, (2) 2 MCQs on main idea (1 mark each), (3) 4 very short answer inference questions (2 marks each), (4) 2 vocabulary-in-context questions asking for synonyms or antonyms from the passage (1 mark each), (5) 1 short answer question on the author's tone (2 marks), (6) 1 extended reasoning question (3 marks), (7) A complete answer key with acceptable answer ranges, (8) A mark scheme breakdown showing how partial marks are awarded, (9) A teacher note on common student errors on such passages. Format as a 2-page printable paper with a masthead resembling a CBSE pre-board. Total marks 15. Follow the latest CBSE 2024-25 reading section pattern.",
+      "tags": [
+        "cbse",
+        "reading-comprehension",
+        "class-9",
+        "ncert",
+        "vocabulary"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-017",
+      "title": "Conditionals Workshop — Zero to Third",
+      "prompt": "Act as an English grammar specialist with 11 years of experience coaching IELTS and CAT VARC aspirants in Hyderabad on the 4 conditional structures. I need you to design a 60-minute workshop that moves learners from mechanical accuracy on zero and first conditionals to confident use of second, third, and mixed conditionals. Please provide: (1) A rules table of all 4 conditionals with structure, use, and 1 Indian-context example each (monsoon, board exams, career choices, regret), (2) 15 transformation sentences where learners rewrite the same idea across 3 conditional types, (3) 10 gap-fills using an Indian context paragraph about a student who didn't clear JEE, (4) 5 speaking prompts — \"If I hadn't taken commerce, I would have...\", (5) A pair-work mingling activity with 8 question cards, (6) A short writing task of 150 words using at least 6 conditionals, (7) Common Indian learner errors like \"If I will get time, I will come\" and the corrections, (8) A 10-item diagnostic quiz, (9) Complete answer key. Format as a detailed lesson plan with minute-by-minute timings. Target CEFR B1-B2 Indian learners.",
+      "tags": [
+        "grammar",
+        "conditionals",
+        "ielts",
+        "cat",
+        "workshop",
+        "esl"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-018",
+      "title": "Kirana Shop Conversation Scenarios",
+      "prompt": "Act as a beginner Spoken English trainer with 6 years of experience running basic English classes for homemakers and small-business owners in Indore who have studied Hindi medium and want to transact in English. I need you to build a conversation practice pack around the extremely familiar context of a kirana shop and local market. Please provide: (1) 6 short model dialogues of 10 lines each, set at a kirana shop, dairy, vegetable cart, pharmacy, saree shop, and fruit vendor, using simple present and present continuous tense, (2) A vocabulary bank of 40 everyday items grouped by category with Hindi gloss, (3) 10 common phrases for asking price, bargaining, quantity, freshness (\"How much is this?\", \"Can you give it for\"), (4) 5 role-play cards for pair practice, (5) 8 fill-in-the-blank shopping dialogues, (6) A listening task description where the teacher reads 5 short transactions and learners note the price and item, (7) A homework task of practicing 3 conversations at a real shop and reporting back, (8) Pronunciation tips on numbers 1-1000 and rupees/paise. Format as a photocopy-ready handout. Level: CEFR A1-A2 Hindi-medium adults.",
+      "tags": [
+        "spoken-english",
+        "beginner",
+        "conversation",
+        "shopping",
+        "role-play",
+        "hindi"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-019",
+      "title": "Active-Passive Voice Transformation Drill",
+      "prompt": "Act as a CBSE Class 10 English teacher with 14 years of experience in a Delhi Kendriya Vidyalaya. I need you to create a voice transformation worksheet focused on active-to-passive and passive-to-active conversions that frequently appear in CBSE board exam grammar sections. Please provide: (1) A 120-word teacher recap of the rule including tense-wise auxiliary shifts, agent deletion, and when passive is preferred (formal writing, news reporting, scientific process), (2) 15 transformation sentences covering simple present, past, future, present perfect, past perfect, modal, and imperative, (3) 5 error-correction sentences where learners fix wrong passive forms, (4) A short news-style passage of 100 words about the Chandrayaan mission written in active voice, which students must rewrite in passive, (5) 5 sentences that cannot be converted (intransitive verbs) — students must identify and explain, (6) 3 past-year board question adaptations, (7) Complete answer key, (8) A 10-question MCQ exit quiz, (9) Teacher tips on the top 4 errors Indian students make. Format as a 3-page printable worksheet with total marks 35 and suggested time 40 minutes.",
+      "tags": [
+        "grammar",
+        "passive-voice",
+        "cbse",
+        "class-10",
+        "board-exam",
+        "worksheet"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-020",
+      "title": "Reported Speech Practice with News Headlines",
+      "prompt": "Act as an English language trainer with 10 years of experience in Ahmedabad preparing Class 11-12 ISC students on reported speech. I need you to build a reported speech practice pack using real Indian newspaper headline contexts from The Hindu, Times of India, and Indian Express. Please provide: (1) A rules chart covering backshift of tenses, time/place references (now-then, here-there, today-that day), modal changes (can-could, will-would, may-might), question transformation, and imperative transformation, (2) 15 direct-to-indirect transformation sentences based on headlines like \"PM said, I will visit Assam tomorrow\", (3) 10 indirect-to-direct reversal sentences, (4) 5 error correction items on common mistakes (\"He said that he will come\", \"She told me that yesterday she is busy\"), (5) A short 120-word news reporting task where students convert a quoted interview into indirect speech, (6) 5 transformation of questions (yes/no and wh- types), (7) Complete answer key with tense-change justifications, (8) A 10-item mini-test, (9) Common Indian learner pitfalls. Format as a structured worksheet totalling 40 marks. Target ISC Class 11 learners at B2 level.",
+      "tags": [
+        "grammar",
+        "reported-speech",
+        "isc",
+        "class-11",
+        "worksheet",
+        "news"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-021",
+      "title": "Vocabulary Building — Synonyms for GRE Aspirants",
+      "prompt": "Act as a GRE verbal specialist with 8 years of experience coaching Indian MS aspirants in Bengaluru targeting 160+ verbal scores. I need you to build a synonym cluster activity pack using 30 high-frequency GRE words that appear in recent ETS adaptive pools. Please provide: (1) 30 headwords grouped into 6 synonym clusters (e.g., praise — laud/extol/commend/eulogize/venerate), (2) For each word: concise meaning, 1 GRE-style sentence completion example, 1 root-based mnemonic, 1 memory hook using an Indian reference (politicians, Bollywood, cricket), 1 antonym, (3) A 15-item sentence equivalence exercise in GRE format, (4) A 10-item text completion drill, (5) A timed flashcard speed drill protocol (2 minutes for 30 words), (6) A self-testing spaced-repetition schedule across 7 days, (7) Common Indian learner pitfalls on false friends (e.g., \"pretend\" vs \"intend\"), (8) Complete answer key with ETS-style explanations. Format as a study pack that a serious aspirant can complete in 90 minutes. Target GRE verbal 155-165 band Indian learners.",
+      "tags": [
+        "gre",
+        "vocabulary",
+        "synonyms",
+        "verbal",
+        "test-prep"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-022",
+      "title": "English-Marathi Translation for MSBSHSE Class 10",
+      "prompt": "Act as an English teacher with 13 years of experience in a Marathi-medium MSBSHSE school in Nashik preparing Class 10 students for the translation section of the state board English paper. I need you to build a translation practice pack for English-to-Marathi and Marathi-to-English sentences aligned with the MSBSHSE syllabus. Please provide: (1) 15 English sentences drawn from daily life (school, farm, market, festival, bus stand) for students to translate into Marathi, (2) 15 Marathi sentences in Devanagari for translation into English, (3) A bilingual vocabulary list of 30 common words and their translations, (4) A 100-word short paragraph on \"Gudi Padwa celebrations\" for translation from English to Marathi, (5) A 100-word Marathi paragraph on rural monsoon life for reverse translation, (6) 5 idiomatic Marathi phrases (\"dhanya ahe\", \"ekch number\") and suggested English renderings, (7) Model answers with 2 acceptable variants for each item, (8) Common errors students make (literal translation, word-order issues), (9) A 10-sentence timed exit drill. Format as a printable worksheet with total marks 50. Target Class 10 MSBSHSE Marathi-medium students at A2-B1 level.",
+      "tags": [
+        "translation",
+        "marathi",
+        "msbshse",
+        "class-10",
+        "bilingual"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-023",
+      "title": "Connected Speech and Linking Sounds Drill",
+      "prompt": "Act as a fluency coach with 9 years of experience training Indian flight attendants in Gurugram to sound more natural in cabin announcements. I need you to create a connected speech drill targeting linking sounds, catenation, and elision, which Indian speakers typically ignore, producing choppy word-by-word speech. Please provide: (1) A 150-word explainer on consonant-to-vowel linking (\"an apple\" sounds like \"a-napple\"), vowel-to-vowel intrusion (\"go on\" with a /w/ intrusion), and elision of unstressed sounds, (2) 20 phrase-level drills with linking markers, (3) 5 cabin announcement scripts of 40 words each with linking arrows marked, (4) A 60-second diagnostic reading passage, (5) A shadowing protocol instructing learners to mimic a native speaker recording 3 times, (6) 10 sentence-level drills with common Indian failures (\"this is a\", \"I am a\"), (7) A self-recording rubric scoring linking, pace, and rhythm 1-5, (8) 5 homework tasks including watching a 2-minute BBC clip and marking linking. Format as a trainer session plan with 45-minute timing. Target B2 professionals seeking near-native fluency.",
+      "tags": [
+        "pronunciation",
+        "fluency",
+        "connected-speech",
+        "linking",
+        "mti",
+        "shadowing"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-024",
+      "title": "Relative Clauses Practice — Who/Which/Whose",
+      "prompt": "Act as a CBSE Class 9 English teacher with 10 years of experience in a Kolkata school. I need you to create a relative clauses practice worksheet focused on who, which, whose, where, whom, and zero relative, which Indian learners often misuse by saying \"The boy which is sitting there\" or \"The place who I visited\". Please provide: (1) A 150-word rules table with correct relative pronoun for people, things, possession, place, and object position, including defining vs non-defining clauses with comma rules, (2) 15 sentence-combination exercises where students join 2 simple sentences with a relative clause, (3) 10 error correction items, (4) 10 gap-fill sentences, (5) A short 120-word paragraph about a trip to Darjeeling with 8 embedded relative clauses for student completion, (6) 5 sentences to rewrite using zero relative pronoun, (7) Complete answer key, (8) A 10-item exit quiz, (9) Teacher notes on the top 3 Indian learner pitfalls. Format as a printable 3-page worksheet totalling 40 marks and 45 minutes.",
+      "tags": [
+        "grammar",
+        "relative-clauses",
+        "cbse",
+        "class-9",
+        "worksheet"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-025",
+      "title": "Telephone English Role-Play for Customer Support",
+      "prompt": "Act as a Business English trainer with 7 years of experience coaching customer-support agents at a Kochi-based IT services company. I need you to design a 60-minute role-play class on telephone English covering 8 realistic scenarios Indian support agents handle daily. Please provide: (1) 8 role-play scripts of 12 lines each for — greeting a US caller, asking for verification, handling an angry customer, putting someone on hold, transferring a call, taking a message, apologising for a service outage, confirming a resolution, (2) A phrase bank of 30 telephone-specific expressions (\"Could you bear with me\", \"I'll look into this right away\"), (3) Top 10 Indian call-centre errors (\"Tell me your good name\", \"Do the needful\", \"Revert back\") and professional replacements, (4) 5 MTI pronunciation traps on key words (\"schedule\", \"either\", \"privacy\"), (5) A tone and pace checklist, (6) A role-play rubric with 5 criteria scored 1-5, (7) 3 listening comprehension snippets of customer accents (describe how to source), (8) Homework: record a 90-second mock call. Format as a class handbook with timings. Target CEFR B1-B2 agents.",
+      "tags": [
+        "spoken-english",
+        "business-english",
+        "telephone",
+        "customer-support",
+        "bpo",
+        "role-play"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-026",
+      "title": "Punctuation and Capitalization Worksheet",
+      "prompt": "Act as a primary English teacher with 12 years of experience in a Mangalore ICSE school teaching Class 5 students basic punctuation. I need you to create an engaging punctuation and capitalization worksheet that Class 5 Indian children will enjoy. Please provide: (1) A simple rules chart covering capital letters (proper nouns, sentence start, I, days, months, festivals), full stop, comma, question mark, exclamation mark, and apostrophe for possession and contraction, (2) 10 sentences to punctuate from scratch (no capitals or punctuation given) with Indian contexts — \"on diwali my grandmother makes laddoos\", (3) 5 dialogue exchanges to punctuate, (4) 5 sentences to fix with wrong punctuation, (5) A short 80-word story about a trip to Mysore zoo missing all punctuation, (6) A fun apostrophe matching task with 10 items, (7) A colouring-style task where students circle all proper nouns in a paragraph, (8) Complete answer key, (9) 3 extension speaking prompts for oral work. Format as a colourful, child-friendly printable with clear instructions in simple English. Total marks 30, estimated time 35 minutes.",
+      "tags": [
+        "punctuation",
+        "capitalization",
+        "icse",
+        "class-5",
+        "primary",
+        "worksheet"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-027",
+      "title": "Restaurant Conversation Practice Bilingual",
+      "prompt": "Act as a beginner Spoken English trainer with 8 years of experience in Coimbatore running basic English classes for hotel management students and front-of-house staff at South Indian restaurants. I need you to create a bilingual (English-Tamil) conversation pack simulating a full restaurant interaction from greeting to billing. Please provide: (1) A 16-line model dialogue between waiter and customer at a Chennai restaurant with Tamil gloss below each English line, (2) A vocabulary bank of 40 food, drink, and service terms with Tamil equivalents, (3) 10 common customer requests and appropriate polite responses, (4) 6 role-play cards for pair practice including tricky scenarios (wrong order, spilled drink, special Jain meal, allergy, complaint, compliment), (5) 8 fill-in-the-blank mini-dialogues, (6) A pronunciation spotlight on tricky words (menu, receipt, dessert, salad, beverage), (7) A polite phrases checklist with 15 items, (8) A homework task of practicing at home with a family member, (9) A 5-minute exit role-play assessment. Format as a photocopy-ready bilingual handout. Target A1-A2 Tamil-medium adult learners in the hospitality sector.",
+      "tags": [
+        "spoken-english",
+        "hospitality",
+        "tamil",
+        "bilingual",
+        "conversation",
+        "role-play"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-028",
+      "title": "Word Stress Drill for Polysyllabic Words",
+      "prompt": "Act as an accent coach with 10 years of experience training Indian academics in Delhi who deliver international conference papers but misplace word stress, saying \"DEvelopment\" instead of \"deVELopment\" or \"COMMittee\" instead of \"comMITtee\". I need you to create a word stress drill pack. Please provide: (1) A 120-word explainer on why English stress is lexical and unpredictable, and on common suffix rules (-tion, -ity, -graphy shift stress), (2) 30 commonly mis-stressed words with stressed syllable in CAPS, IPA transcription, and part of speech, (3) 10 noun-verb stress-shift pairs (REcord/reCORD, PREsent/preSENT, CONtract/conTRACT) with example sentences, (4) 5 sentence-level drills testing the learner's stress placement in context, (5) A listening protocol using 2 well-known Indian English speakers compared with 2 British speakers, (6) A 60-second passage about \"sustainable development\" with 15 target words marked, (7) A self-recording rubric, (8) A 20-item diagnostic test. Format as a trainer's handout for a 45-minute session. Target B2-C1 Indian academics and professionals.",
+      "tags": [
+        "pronunciation",
+        "word-stress",
+        "accent",
+        "mti",
+        "academic-english"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-029",
+      "title": "Determiners and Quantifiers Practice",
+      "prompt": "Act as a CBSE Class 7 English teacher with 9 years of experience in a Noida school. I need you to create a determiners and quantifiers practice worksheet covering much, many, few, little, some, any, several, a lot of, plenty of, and no, which Indian learners often misuse (\"much students\", \"many informations\"). Please provide: (1) A rules chart distinguishing countable and uncountable nouns with 15 examples of each relevant to Indian kitchens, classrooms, and playgrounds, (2) 15 fill-in-the-blank sentences set in daily Indian contexts, (3) 10 error correction sentences, (4) 5 sentence-transformation items converting positive to negative and question forms, (5) A short 100-word passage about a school picnic with 8 blanks for quantifier choice, (6) 5 speaking prompts using \"How much/How many\" for pair work, (7) Complete answer key, (8) A 10-question MCQ exit quiz, (9) Teacher notes on top 5 Indian learner mistakes. Format as a 3-page printable worksheet totalling 35 marks. Estimated time 40 minutes. Target CBSE Class 7 students at A2-B1 level.",
+      "tags": [
+        "grammar",
+        "quantifiers",
+        "cbse",
+        "class-7",
+        "countable",
+        "worksheet"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-030",
+      "title": "Debate Topics and Language for Class 12",
+      "prompt": "Act as a senior English teacher with 15 years of experience coaching Class 12 ISC students in Chennai for inter-school debate competitions. I need you to compile a debate preparation pack with relevant Indian topics and the language structures needed to argue effectively. Please provide: (1) 10 contemporary Indian debate motions covering education reform (NEP 2020), social media regulation, reservation policy, UCC, AI in jobs, startup culture, farm laws, cashless economy, entrance exam stress, environment vs development, (2) For each motion: 3 strong points for, 3 strong points against, 5 supporting facts or statistics, (3) A language bank of 25 debate phrases grouped into opening, agreeing, disagreeing, conceding, rebutting, concluding, (4) A sample 2-minute opening speech model of 280 words on one motion, (5) Top 8 common Indian debater errors (\"I totally disagree with my opponent's words\", overuse of \"myself\"), (6) A judging rubric with 5 criteria, (7) Body-language and voice modulation tips, (8) Homework: prepare a 90-second speech on an assigned motion. Format as a structured handout. Target B2-C1 Class 12 students.",
+      "tags": [
+        "debate",
+        "spoken-english",
+        "isc",
+        "class-12",
+        "vocabulary",
+        "public-speaking"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-031",
+      "title": "Minimal Pairs Drill — /s/ and /sh/ for Bengali Speakers",
+      "prompt": "Act as a phonetics trainer with 11 years of experience coaching Bengali-speaking IT professionals in Kolkata who substitute /s/ with /sh/ ('\"I will shend the file\"' instead of \"I will send the file\"). I need you to design a minimal pairs drill. Please provide: (1) A 100-word explainer on the articulatory difference, why Bengali transfers /sh/ in many contexts, and when English requires /s/, (2) 25 minimal pairs (see/she, sin/shin, sock/shock, save/shave, suit/shoot) with IPA, (3) 10 tongue twisters using both sounds, (4) A 60-second diagnostic paragraph about a Kolkata startup with 20 target /s/ and /sh/ words, (5) 10 sentence-level drills, (6) A contrastive Bengali-English word list showing 15 Bengali words where /sh/ is natural vs 15 English words requiring /s/, (7) A self-recording and peer-feedback protocol, (8) A 10-minute pair practice activity, (9) A diagnostic 15-item mini-assessment. Format as a 45-minute session plan. Target B1-B2 professionals aiming for clearer international communication. Include 3 common failure cues and how to self-correct.",
+      "tags": [
+        "pronunciation",
+        "bengali",
+        "minimal-pairs",
+        "mti",
+        "accent"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-032",
+      "title": "Gerund vs Infinitive Practice Drill",
+      "prompt": "Act as a CBSE Class 10 English grammar expert with 10 years of experience in Guwahati preparing students for the grammar section. I need you to create a gerund vs infinitive practice worksheet for verbs that are commonly confused (\"stop to do\" vs \"stop doing\", \"remember to do\" vs \"remember doing\", \"try to do\" vs \"try doing\"). Please provide: (1) A rules table listing 20 verbs followed only by gerund (enjoy, avoid, suggest, mind), 20 followed only by infinitive (want, decide, agree, hope), and 8 followed by either with meaning change, (2) 15 fill-in-the-blank sentences set in Indian student life contexts, (3) 10 error correction sentences, (4) 5 sentence-transformation items with meaning shift, (5) A short 100-word paragraph about exam preparation with 8 blanks, (6) 5 speaking prompts forcing learners to use 3 target verbs each, (7) Complete answer key with explanations, (8) A 10-item exit quiz, (9) Teacher notes on the top 5 Indian learner errors (\"I am looking forward to meet you\"). Format as a printable 3-page worksheet totalling 40 marks. Estimated time 45 minutes.",
+      "tags": [
+        "grammar",
+        "gerund",
+        "infinitive",
+        "cbse",
+        "class-10",
+        "worksheet"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-033",
+      "title": "Job Interview Vocabulary and STAR Answers",
+      "prompt": "Act as a placement English trainer with 12 years of experience coaching MBA final-year students at a Bhubaneswar B-school for Tier-1 consulting and product management roles. I need you to build a vocabulary and STAR-method answer pack. Please provide: (1) A vocabulary bank of 40 high-impact interview words across 5 categories — leadership (spearheaded, orchestrated), problem-solving (diagnosed, troubleshot), quantification (optimized, scaled), collaboration (liaised, synergized), impact (transformed, accelerated), (2) The STAR framework explained in 120 words, (3) 5 model STAR answers of 150 words each for common questions — \"Tell me about a leadership experience\", \"Describe a conflict you resolved\", \"Share a failure story\", \"Walk me through a data-driven decision\", \"Describe a time you influenced without authority\", each set in an Indian B-school or internship context, (4) A checklist of 10 Indian candidate clichés to avoid, (5) A phrase bank of 25 transition phrases, (6) 5 role-play prompts for peer practice, (7) A 7-criteria self-assessment rubric, (8) Pronunciation spotlight on 10 tough words. Format as a structured guide. Target C1 MBA students.",
+      "tags": [
+        "spoken-english",
+        "interview",
+        "mba",
+        "placement",
+        "vocabulary",
+        "star-method"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-034",
+      "title": "Descriptive Writing Prompts with Vocabulary",
+      "prompt": "Act as an ICSE Class 8 English teacher with 11 years of experience in Thiruvananthapuram teaching descriptive writing. I need you to create a descriptive writing pack with 6 prompts and scaffolding vocabulary so students can write richer paragraphs than their usual bland 5-sentence attempts. Please provide: (1) 6 descriptive prompts set in Indian contexts — a busy railway station, monsoon rain in Kerala, my grandmother's kitchen during Onam, the view from a hill station, a crowded Mumbai local, Diwali night in my colony, (2) For each prompt: a sensory vocabulary bank of 20 words organized by sight, sound, smell, taste, touch, 8 useful similes and metaphors relevant to the scene, a 5-sentence opening model, (3) A figures-of-speech mini-lesson covering personification and hyperbole with 5 examples, (4) A writing checklist with 10 self-edit questions, (5) A model 150-word paragraph on one of the prompts for reference, (6) A peer-feedback rubric with 6 criteria, (7) A homework task to write 2 of the 6 prompts. Format as a printable teaching pack. Target ICSE Class 8 students at B1 level.",
+      "tags": [
+        "writing",
+        "descriptive",
+        "icse",
+        "class-8",
+        "vocabulary",
+        "creative"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-035",
+      "title": "Common Error Diagnostic Test",
+      "prompt": "Act as an ESL curriculum designer with 14 years of experience creating diagnostic tests for Spoken English institutes in Jaipur that need to place walk-in learners into the correct batch level. I need you to build a 30-item common error diagnostic test covering the most frequent Indian English errors across grammar, vocabulary, and usage. Please provide: (1) 30 items split as 10 easy (A1-A2), 10 intermediate (B1), 10 advanced (B2-C1), each being an error-correction sentence, (2) Items must cover: \"myself X introduction\", \"discuss about\", \"return back\", \"cope up with\", \"revert back\", \"same same\", \"passing out from college\", \"good name\", \"out of station\", \"prepone\", \"do the needful\", \"kindly revert\", subject-verb agreement with collective nouns, article dropping, tense confusion, preposition errors, (3) A detailed scoring band 0-30 mapped to batch levels, (4) A complete answer key with the corrected version and a 1-line explanation of the error type, (5) A summary error-frequency chart, (6) Teacher interpretation notes for a 15-minute counselling session. Format as a 2-page test plus 2-page key. Suggested time 25 minutes.",
+      "tags": [
+        "diagnostic",
+        "common-errors",
+        "spoken-english",
+        "indian-english",
+        "placement-test"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-036",
+      "title": "Hindi Second Language Vocabulary Builder",
+      "prompt": "Act as a Hindi-as-second-language teacher with 10 years of experience in a Chennai CBSE school teaching Tamil-speaking Class 6 students who have no exposure to Hindi at home. I need you to design a 4-session vocabulary builder introducing 80 core Hindi words across themes. Please provide: (1) 4 thematic lists of 20 words each — family and relations, school and stationery, food and kitchen, daily actions, (2) For each Hindi word: Devanagari script, Roman transliteration, Tamil gloss, English gloss, 1 example sentence in Devanagari with Roman line below, (3) A pronunciation guide with 10 Hindi sounds Tamil speakers struggle with (nukta letters, aspirated consonants, nasal vowels) and mouth-position tips, (4) 2 matching exercises, (5) 1 fill-in-the-blank paragraph per theme, (6) 1 role-play dialogue per theme, (7) A 20-item revision quiz, (8) A homework flashcard template, (9) A teacher note on Tamil L1 interference patterns. Format as a 4-session teacher plan with timings. Target CBSE Class 6 Tamil-speaking students with zero Hindi background. Keep it fun and culturally respectful.",
+      "tags": [
+        "hindi",
+        "second-language",
+        "vocabulary",
+        "tamil",
+        "cbse",
+        "class-6"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-037",
+      "title": "Formal Email Writing Templates and Practice",
+      "prompt": "Act as a Business English trainer with 9 years of experience training freshers joining Infosys Mysore for corporate email etiquette. I need you to create a formal email writing practice pack covering 6 typical workplace email scenarios. Please provide: (1) 6 model email templates (120-150 words each) for — leave application, project status update to a client, requesting a meeting with a senior manager, apology for a missed deadline, feedback request, declining a request politely, (2) A vocabulary bank of 30 formal email phrases grouped into openings, body connectors, sign-offs, (3) The top 15 Indian email errors (\"Dear Sir/Madam\" overuse, \"Kindly do the needful\", \"Please revert back at the earliest\", \"Myself Ramesh\") and professional alternatives, (4) 6 practice prompts where students draft their own email based on a given scenario, (5) A 10-point self-edit checklist, (6) A subject-line best-practice guide with 10 good vs bad examples, (7) A peer-review rubric with 5 criteria, (8) Homework: rewrite 2 bad emails into professional versions. Format as a structured workbook. Target CEFR B1-B2 Indian freshers.",
+      "tags": [
+        "business-english",
+        "email",
+        "writing",
+        "corporate",
+        "freshers",
+        "etiquette"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-038",
+      "title": "Adjective Order and Comparison Worksheet",
+      "prompt": "Act as a primary English teacher with 10 years of experience in a Pune CBSE school teaching Class 6 students adjective order (opinion-size-age-shape-colour-origin-material-purpose) and degrees of comparison. I need you to create a worksheet that clearly trains these two sub-skills. Please provide: (1) The OSASCOMP adjective order rule with a memorable mnemonic and 10 example phrases relevant to Indian contexts (a beautiful old Rajasthani wooden chair), (2) 10 re-order exercises where students arrange jumbled adjectives correctly, (3) A rules table for positive, comparative, superlative forms with regular, irregular, and more/most cases, (4) 15 fill-in-the-blank sentences practicing comparison, (5) 5 sentence-transformation items (positive to comparative to superlative), (6) 5 error correction sentences (\"more taller\", \"most best\"), (7) A short 80-word paragraph describing family members using 10 adjectives, (8) Complete answer key, (9) A 10-item exit quiz, (10) Speaking prompt for pair work using 8 adjectives. Format as a printable 3-page worksheet totalling 35 marks. Target Class 6 CBSE students at A2 level.",
+      "tags": [
+        "grammar",
+        "adjectives",
+        "cbse",
+        "class-6",
+        "comparison",
+        "worksheet"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-039",
+      "title": "Listening Comprehension Dictation Exercise",
+      "prompt": "Act as an English language lab coordinator with 12 years of experience at a Hyderabad engineering college running listening comprehension sessions for first-year B.Tech students who struggle with accented English in MOOCs and placement trainings. I need you to create a 45-minute listening comprehension and dictation exercise pack. Please provide: (1) A 250-word listening script on \"a day in a Bengaluru tech park\" written at CEFR B1 with natural connected speech markers (linking, elision, weak forms) indicated, (2) Pre-listening vocabulary of 15 words with Hindi gloss, (3) 5 pre-listening prediction questions, (4) During-listening tasks — fill in 10 blanks as teacher reads, mark true/false on 5 statements, (5) Post-listening comprehension — 5 short-answer questions and 5 MCQs, (6) A 60-word dictation passage to be read at 3 speeds, (7) A self-correction protocol, (8) A teacher-read-aloud script with stress, pause, and intonation markings, (9) A 10-point reflection discussion, (10) Complete answer key. Format as a lesson plan with timings. Target B1 Indian first-year engineering students.",
+      "tags": [
+        "listening",
+        "dictation",
+        "comprehension",
+        "engineering",
+        "language-lab"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    },
+    {
+      "id": "teachers-language-teachers-040",
+      "title": "Pronunciation Audit and Personalized Plan",
+      "prompt": "Act as an accent and pronunciation consultant with 15 years of experience working one-on-one with Indian executives in Mumbai preparing for international client-facing roles. I need you to design a structured pronunciation audit and 30-day personalized improvement plan template that a trainer can administer to any new learner. Please provide: (1) A diagnostic audit protocol with 5 stages — reading aloud a standard 200-word passage, spontaneous 60-second monologue, 20 minimal-pair recognition test, 10 word-stress identification, and a scripted dialogue, (2) A scoring rubric across 8 dimensions — segmental accuracy, word stress, sentence stress, rhythm, intonation, linking, pace, intelligibility, (3) An error-classification framework mapping common Indian errors to L1 (Hindi, Tamil, Telugu, Marathi, Bengali), (4) A 30-day plan template with week-wise targets, daily 20-minute drills, weekly assessment milestones, (5) 10 shadow-reading resources (describe genres and durations), (6) A progress tracker spreadsheet structure, (7) A motivational micro-habit framework, (8) A final re-audit protocol. Format as a consultant's playbook. Target senior Indian professionals at C1 level aiming for near-native intelligibility.",
+      "tags": [
+        "pronunciation",
+        "audit",
+        "accent",
+        "mti",
+        "executive",
+        "coaching"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "language-teachers"
+    }
+  ]
+}

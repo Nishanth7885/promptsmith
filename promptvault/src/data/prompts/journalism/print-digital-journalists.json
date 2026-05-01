@@ -1,0 +1,644 @@
+{
+  "prompts": [
+    {
+      "id": "journalism-print-digital-journalists-001",
+      "title": "Develop Local Story Angles from National News",
+      "prompt": "Act as a senior assignment editor with 15 years of experience at an Indian newsroom like The Hindu or Indian Express. I need you to help me develop 5 distinct local angles from a national news event so my regional bureau can produce stories that go beyond wire copy. Here is the context: a national story has just broken (for example, a Union Budget announcement, a Supreme Court verdict, an RBI rate decision, or a Parliament bill). My beat covers a Tier-2 Indian city or state (specify when I share). Please provide: (1) 5 local angles ranked from highest to lowest reader interest, each in 2 sentences explaining the hook, (2) for each angle, 3 specific local sources to call (designation + organisation type, e.g., \"Joint Commissioner, GST Bhavan\" or \"District Collector\"), (3) 3 data points I should pull (from PRS India, RBI DBIE, MoSPI, state portals, or RTI), (4) a working headline in Indian English style guide tone (under 70 characters), (5) potential pitfalls — what claims I must verify before publishing, and (6) a 24-hour reporting plan with hour-by-hour milestones. Format the output as a numbered list with sub-bullets. Consider Indian newsroom realities: tight deadlines, today's edition pressure, the need to differentiate from PTI/ANI copy, and the political sensitivities of state-versus-Centre framing. Avoid generic advice — every suggestion must be specific enough that I can act on it within the next two hours.",
+      "tags": [
+        "story-angle",
+        "local-reporting",
+        "beat-reporting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-002",
+      "title": "Prepare Tough Interview Questions for a Politician",
+      "prompt": "Act as a veteran political interviewer with 20 years of experience covering Indian politics for outlets like The Wire, Caravan, or Indian Express. I am about to interview an Indian politician (MP, MLA, party spokesperson, or Cabinet Minister — I will specify) for a 30-minute on-the-record sit-down. I need you to prepare a layered question set that gets past talking points without being theatrical. Here is the context: I will share the politician's name, party, current role, recent controversies or claims, and the news peg for the interview. Please provide: (1) 12 questions ordered as opener (1), warm-up factual (2), substantive policy (4), accountability/contradiction (3), forward-looking (1), and closer (1), (2) for each accountability question, the exact prior public statement, vote, or affidavit detail (with source citation format like \"per Form 26 affidavit, 2024 Lok Sabha\") I am holding them to, (3) 3 likely pivot/deflection responses and a one-line follow-up to bring them back, (4) 2 \"trap-free\" hypothetical scenarios to surface their actual position, (5) ethical guardrails — what I should NOT ask under Press Council of India norms or that risks defamation, and (6) a debrief checklist of what makes the interview publishable. Format as a numbered table-style list. Indian context: assume Section 499 IPC defamation risk, paid news rules, and that the interview may be quoted across language press.",
+      "tags": [
+        "interview-prep",
+        "political-reporting",
+        "accountability"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-003",
+      "title": "Brainstorm Investigative Angles on Government Scheme",
+      "prompt": "Act as an investigative reporter with 10 years experience filing RTI-driven stories for Scroll, The Print, or News Laundry. I need to develop investigative story angles around a Government of India or state government scheme. Here is the context: I will share the scheme name (e.g., PM-KISAN, Ayushman Bharat, PMAY-U, MGNREGA, PLI Scheme, Smart Cities Mission), its budget outlay, and the latest implementation data I can find. Please provide: (1) 6 investigative angles spanning leakage, ghost beneficiaries, contractor patterns, exclusion errors, geographic skew, and outcome versus output gaps, (2) for each angle, the specific government dataset to mine (eGramSwaraj, PFMS, MIS dashboard URL pattern, NREGA reports portal), (3) 3 RTI applications I should file with exact phrasing under Section 6(1) of the RTI Act 2005 — including the right public authority and CPIO designation, (4) 5 expert sources to call (think tanks like CPR, Accountability Initiative, NIPFP; researchers; ex-IAS officers), (5) ground-truthing plan — which 2 districts to visit and why, and (6) legal risk audit (defamation, contempt, official secrets) per Indian press law. Format as a structured brief. Avoid clickbait framing — angles must be defensible if challenged in court or before the Press Council of India.",
+      "tags": [
+        "story-angle",
+        "investigative",
+        "rti"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-004",
+      "title": "Fact-Check a Viral Political Claim Framework",
+      "prompt": "Act as a senior fact-checker with 8 years experience at Alt News, Boom, or Factly. I need a step-by-step verification framework to fact-check a viral political claim that is circulating on Indian WhatsApp, X, and TV news. Here is the context: I will paste the exact claim, who said it, where it appeared, and the date. Please provide: (1) a 7-step verification workflow — claim parsing, source-of-truth identification, primary document retrieval, statistical sanity check, expert validation, counter-evidence search, and rating, (2) the exact primary sources to consult based on claim type (PIB releases, RBI bulletins, MoSPI tables, NCRB reports, Election Commission affidavits, Supreme Court judgments via Indian Kanoon, Lok Sabha questions via Sansad portal), (3) 3 reverse-image-search and video-verification tools I should run if the claim has visual media (InVID, Google Lens, RevEye), (4) a rating rubric — True / Mostly True / Mixture / Mostly False / False / Unverifiable — with criteria for each, (5) the exact format for the published fact-check (headline, claim box, verdict, evidence walkthrough, screenshots with archive.org links), and (6) a pre-publication legal checklist for India (defamation under Section 499 IPC, IT Rules 2021, takedown risk). Format as a runbook a reporter can follow in 90 minutes. Avoid hedging language in the rubric — verdicts must be decisive and defensible.",
+      "tags": [
+        "fact-check",
+        "verification",
+        "misinformation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-005",
+      "title": "Evaluate Reliability of an Anonymous Source",
+      "prompt": "Act as a deputy news editor with 18 years of experience handling sensitive sources for Mint, Business Standard, or Indian Express. A reporter has come to me with an anonymous source claiming damaging information about a listed Indian company, a government department, or a political figure. I need a structured framework to evaluate whether to use this source, and on what terms. Here is the context: I will share what the source is claiming, their stated position, how the reporter met them, and any documents they have shared. Please provide: (1) a 10-point source-reliability scorecard (access, motive, track record, corroboration, documentary support, consistency, plausibility, specificity, contemporaneity, willingness to go on record later) with 1-5 ratings, (2) 4 motive hypotheses I must rule out (vendetta, plant, paid influence, fishing for confirmation), (3) the corroboration threshold — minimum number and type of independent sources needed before publication for each story-risk tier, (4) on-record / off-record / background / deep background terms in plain Indian-newsroom language with example phrasing, (5) source-protection protocol per Indian law (no Shield Law, but Supreme Court precedents like Pegasus and Sahara-Birla can be invoked) including secure communication (Signal, ProtonMail, SecureDrop), and (6) an editor sign-off checklist before going to print. Format as a one-page editorial decision memo.",
+      "tags": [
+        "source-eval",
+        "ethics",
+        "anonymous-sources"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-006",
+      "title": "Write Sharp Headlines for Print and Digital",
+      "prompt": "Act as a chief sub-editor with 12 years experience writing headlines at The Hindu and Times of India. I need 8 headline variants for a single story — 4 for print and 4 for digital. Here is the context: I will paste my story (300-1200 words), the section it is for (national, business, sports, city, opinion), and the publication's voice. Please provide: (1) 4 print headlines — one main (under 50 characters, declarative), one drophead/deck (under 90 characters), one shoulder (3-4 words), and one one-column variant (under 30 characters), (2) 4 digital headlines — one SEO-optimised (under 70 characters with primary keyword first), one social/X-friendly (under 100 characters with curiosity gap but no clickbait), one for newsletter inbox preview (under 50 characters), and one for Instagram/visual card (under 40 characters), (3) for each headline, the active verb chosen and why, (4) Indian English style guide check — no Americanisms, no \"Indian-ness\" cliches like \"sons-of-the-soil\", correct use of crore/lakh, official designations capitalised correctly, (5) headline accuracy audit — flag any word the story does not actually support, and (6) a one-line summary tweet (under 240 characters) for the reporter to post. Format the output as a labelled list. Avoid sensationalism, all-caps, and trailing question marks.",
+      "tags": [
+        "headline",
+        "subediting",
+        "seo"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-007",
+      "title": "Develop Business Beat Story Angles from Quarterly Results",
+      "prompt": "Act as a business journalist with 10 years experience covering corporate India for Mint or The Economic Times. A listed Indian company has just released its quarterly results. I need help developing story angles that go beyond the press-release rewrite. Here is the context: I will share the company name, sector, key financials (revenue, EBITDA, PAT, margin, guidance), management commentary highlights, and stock reaction. Please provide: (1) 5 distinct angles — beat/miss versus consensus, segmental story, working-capital and cash-flow signal, capex/PLI implication, and competitor/sector read-across, (2) for each angle, 3 specific data points to extract from the investor presentation, BSE filing, or earnings call transcript (page numbers / slide numbers), (3) 4 sources to call by Friday — sell-side analyst, sector consultant (BCG/Bain/PwC India), an ex-employee or supplier, and a competitor's CFO office, (4) 3 SEBI / disclosure compliance checks (insider trading rules, UPSI handling, fair-comment doctrine) before publishing, (5) a working headline and standfirst (under 280 characters) tuned for terminal-reader and retail-investor audiences, and (6) a follow-up story idea for next week. Format as a reporting plan. Indian context: use INR crore, BSE/NSE codes, and reference Ind AS reporting nuances.",
+      "tags": [
+        "story-angle",
+        "business-reporting",
+        "earnings"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-008",
+      "title": "Verify Statistics in a Government Press Release",
+      "prompt": "Act as a data journalist with 7 years experience at Scroll's data desk or IndiaSpend. I have just received a Press Information Bureau release with multiple statistics being trumpeted as policy success. I need a structured workflow to verify whether the numbers actually mean what the release claims. Here is the context: I will paste the PIB release text, date, and the ministry that issued it. Please provide: (1) a 6-step verification process — definition check, baseline check, methodology check, comparable-period check, denominator check, and outcome-versus-output check, (2) for each statistic in the release, the underlying primary dataset I should pull (MoSPI table, NSSO round, CMIE, RBI DBIE, NCRB volume, ministry annual report, CAG report) with the exact URL pattern or report name, (3) common manipulation patterns to watch for (cherry-picked base year, apples-to-oranges comparison, shifting denominators, nominal versus real, cumulative versus annual), (4) 3 economists or domain experts to call for sanity-check (e.g., Pronab Sen, Mahesh Vyas, Reetika Khera, Himanshu — generic to type, not person), (5) a fact-check verdict template for each claim, and (6) a publishable explainer outline that walks the reader through what the numbers actually show. Format as a checklist plus annotated table. Avoid partisan framing — the verification must hold up regardless of which government issued the release.",
+      "tags": [
+        "fact-check",
+        "data-journalism",
+        "statistics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-009",
+      "title": "Prepare Interview Questions for a Startup Founder",
+      "prompt": "Act as a tech and startup reporter with 8 years experience at Mint, Inc42, or The Ken. I am preparing for a 45-minute interview with the founder of an Indian startup. I need a question bank that goes beyond the funding-round narrative. Here is the context: I will share the startup name, sector (D2C, fintech, SaaS, edtech, climate, deeptech), latest funding round, valuation, key investors, and any controversies or pivots. Please provide: (1) 15 questions in 5 buckets — origin story (2), unit economics (4), competitive moat (3), governance and capital structure (3), and the road ahead (3), (2) for each unit-economics question, the specific metric to push on (CAC payback in months, contribution margin %, gross margin trajectory, burn multiple, LTV/CAC) with the benchmark for that sector in India, (3) 4 potentially uncomfortable questions on governance — ESOP pool, secondaries by founders, related-party transactions, MCA-21 filing discrepancies, (4) 3 follow-up scripts when the founder gives a vague \"we are focused on growth\" answer, (5) red flags from the cap table or RoC filings I should look up on Tofler / MCA before the meeting, and (6) a publication-fit angle — what makes this a story versus a profile. Format as a structured prep doc. Indian context: reference Companies Act 2013, SEBI ICDR, and DPIIT recognition where relevant.",
+      "tags": [
+        "interview-prep",
+        "startup-reporting",
+        "tech"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-010",
+      "title": "Score Story Angles for Front-Page Worthiness",
+      "prompt": "Act as a news editor with 20 years experience deciding the front page at Hindustan Times or The Hindu. I have 6 competing story angles from my reporters and limited space. I need a scoring framework to rank them objectively for tomorrow's front page versus inside pages versus digital-only. Here is the context: I will list the 6 angles with one-line summaries, the reporter, the desk (national, city, business, sports), and the deadline. Please provide: (1) a 10-criteria scoring rubric (newness, public interest, exclusivity, geographical relevance, evidentiary strength, source quality, visual potential, follow-up runway, reader-data signal, competitive risk) each scored 1-10, (2) the score for each of the 6 angles with a one-sentence justification per criterion, (3) a final rank order with placement recommendation (anchor, lead, page-one strap, page-three lead, inside, digital-only), (4) 2 angles where a 24-hour hold could yield a stronger story and what the reporter must add, (5) a tie-breaker protocol when scores are within 5 points, and (6) the digital-first treatment — push notification timing, social tease, paywall versus open. Format as a scoring grid plus editor's note. Avoid ego-led decisions — every placement must be defensible to the editor-in-chief in a 30-second pitch.",
+      "tags": [
+        "story-angle",
+        "editorial-decisions",
+        "newsroom"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-011",
+      "title": "Prepare for a Crime Beat Police Press Conference",
+      "prompt": "Act as a crime reporter with 12 years experience covering the Mumbai, Delhi, or Bengaluru police beat. I have been told there is a senior police press conference in 90 minutes about a high-profile case (murder, financial fraud, terror module, narcotics seizure, custodial death — I will specify). I need a fast prep so I can ask the questions other reporters will not. Here is the context: I will share the case name, what is publicly known so far, which agency is briefing (state police, CBI, ED, NIA), and the rank of the officer. Please provide: (1) a 5-minute briefing on what I should already know (relevant IPC/BNS sections, FIR mechanics, remand timelines, charge-sheet stage), (2) 8 questions ordered from softest to sharpest — including arrest legality, evidence chain of custody, prior similar cases, and what the chargesheet has not yet alleged, (3) 3 questions about case-specific procedural lapses to watch for (Section 41A CrPC notices, magistrate remand records, DK Basu guidelines compliance), (4) red lines under contempt of court and Section 228A IPC (victim identity) I must not cross in my copy, (5) a witness/victim outreach plan for tomorrow, and (6) a working headline for the bulletin and a longer follow-up for the print edition. Format as a one-page prep sheet. Indian context: assume the case may go to a designated court and that the defence will scrutinise media coverage.",
+      "tags": [
+        "interview-prep",
+        "crime-beat",
+        "police-reporting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-012",
+      "title": "Verify a Document Leaked by a Whistleblower",
+      "prompt": "Act as an investigations editor with 15 years experience at The Wire or Caravan. A whistleblower has shared a document — a government file noting, a corporate internal memo, an audit report, or a contract — claiming it shows wrongdoing. Before any reporter spends two weeks on it, I need a verification protocol. Here is the context: I will share the document type, source's stated role, and a redacted page or two. Please provide: (1) a 9-point document-authenticity check — letterhead, file numbering convention, signature/initialing pattern, font and printing era, metadata (if digital), routing slip, internal references that can be cross-checked, parallel disclosures via RTI, and forensic markers, (2) 3 ways to corroborate the document content without burning the source, (3) a methodology to extract the story without exposing the original PDF (rekeying, redaction standards, image stripping, EXIF removal), (4) right-of-reply protocol — exactly when and how to put questions to the named entities under Indian defamation law, (5) the legal risk matrix (Official Secrets Act, contempt, criminal defamation under Sections 499-500 IPC, civil defamation), and (6) an editor's sign-off memo template. Format as an investigations-desk SOP. Indian context: there is no whistleblower-protection law for the private sector and weak protection for the public sector under WBP Act 2014.",
+      "tags": [
+        "fact-check",
+        "investigative",
+        "document-verification"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-013",
+      "title": "Generate Sports Beat Angles from a Cricket Series",
+      "prompt": "Act as a sports journalist with 10 years experience covering Indian cricket for ESPNcricinfo, Cricbuzz, or the Sportstar. I need to develop story angles around an India men's or women's series (Tests, ODIs, T20Is, IPL, WPL — I will specify) that go beyond match reports. Here is the context: I will share the series, opposition, current standings, key players, and the news peg (selection controversy, BCCI announcement, retirement, comeback, milestone). Please provide: (1) 6 distinct angles — selection logic, tactical/data, off-field BCCI politics, fan culture and economics, broadcaster/streaming, and grassroots ripple effect, (2) for each angle, 3 statistical pulls from CricViz, ESPN Statsguru, or BCCI Domestic data with the exact filter (e.g., \"vs pace, first 30 balls, away from home, since 2022\"), (3) 4 sources beyond the dressing room — state association office-bearer, ex-selector, NCA coach, sports business analyst, (4) 2 long-read narrative arcs for the weekend edition with 800-word and 2000-word treatments, (5) social-first treatment — short video and X-thread structure, and (6) a compliance check for ICC and BCCI media accreditation rules. Format as a beat plan. Indian context: use INR crore for commercial figures, refer to Lodha Committee reforms, and acknowledge fan-language sensitivity (regional pride, captaincy debates).",
+      "tags": [
+        "story-angle",
+        "sports-reporting",
+        "cricket"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-014",
+      "title": "Write Multiple Headlines for Investigative Story",
+      "prompt": "Act as a digital editor with 9 years experience at The Print, Scroll, or News Laundry. I have a 2500-word investigative story ready to publish. I need 10 headline options matched to different distribution channels. Here is the context: I will share the story summary, the central finding, the entity named, and the evidence type (RTI documents, leaked memo, data analysis, on-ground reporting). Please provide: (1) 10 headlines — 1 print front page (under 60 characters), 1 print inside (under 80), 2 web SEO (under 70 each, primary keyword in first 5 words), 2 social X (under 200 characters with thread hook), 1 LinkedIn long-form, 1 Instagram carousel cover (under 35 characters), 1 push notification (under 50 characters), and 1 newsletter subject line (under 45 characters), (2) for each, the active verb and the news element it leads with (who, what, magnitude, novelty), (3) defamation-safe phrasing audit — every headline must be backed by the strongest evidence in the piece, (4) two alternative subhead/deck options that add the second-most-important fact, (5) Indian English style compliance (lakh/crore, official designations, no Americanisms), and (6) an A/B test recommendation for the web version with the metric to track. Format as a labelled list with rationale. Avoid clickbait — every headline must satisfy a reader who clicks through.",
+      "tags": [
+        "headline",
+        "investigative",
+        "distribution"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-015",
+      "title": "Evaluate a PR Pitch for Story Worthiness",
+      "prompt": "Act as a features editor with 12 years experience at Mint Lounge, Indian Express EYE, or HT Brunch. My inbox has 40 PR pitches today. I need a 60-second triage framework to identify the 2-3 worth pursuing and politely kill the rest. Here is the context: I will paste a pitch (subject line + first 200 words + attached release if any). Please provide: (1) a 7-criteria triage score (newness, exclusivity offered, named source quality, story arc beyond product, audience fit, paid-content risk, follow-up potential) each 1-5, (2) the verdict bucket — \"Pursue this week\", \"Park for later peg\", \"Decline politely\", \"Block sender\", (3) if pursuing, 5 questions I must ask the PR before agreeing — including who else has been pitched, what is genuinely on-record, and what data they will share, (4) a 4-line decline template that does not burn the relationship, (5) red flags — paid placement language (\"branded story\", \"thought leadership\", embargoed but already on competitor's site), and (6) my own original angle if this is worth a story but not the one being pitched. Format as a triage card. Indian context: PR ecosystem includes Adfactors, Edelman India, Genesis BCW, Concept; assume pressure from publisher's ad sales side and apply firewall norms per the Press Council of India.",
+      "tags": [
+        "source-eval",
+        "pr-relations",
+        "editorial"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-016",
+      "title": "Develop Environment Beat Story Angles",
+      "prompt": "Act as an environment journalist with 10 years experience at Mongabay India, Down To Earth, or Scroll. I need to develop angles around an environmental event in India. Here is the context: I will share the event (cyclone, heatwave, AQI spike, glacier burst, deforestation alert, wildlife conflict, EIA notification, climate policy announcement), the location, and any state/Centre response. Please provide: (1) 5 angles spanning impact (lives, livelihoods), accountability (which authority failed which SOP), policy (NGT order, MoEFCC notification, CPCB norm), data (emissions, AQI, rainfall anomaly versus IMD long-period average), and human story (1 named family or village), (2) for each angle, the dataset source (Bhuvan, Forest Survey of India ISFR, IMD Pune, CPCB CAAQMS, IndiaSpend, Climate Trends) with the exact portal section, (3) 4 sources — IFS officer, climate scientist (IIT/IISc/IITM), local panchayat head, civil-society organisation (CSE, ATREE, WCS-India), (4) field-reporting safety and ethics protocol — climate-grief framing, indigenous community consent (FRA 2006 and PESA), photography ethics, (5) a series outline of 3 stories over 2 weeks, and (6) a working headline for the lead piece. Format as a structured beat plan. Indian context: use IMD's official terms (severe heatwave threshold, deficient rainfall) and reference Forest (Conservation) Amendment Act 2023.",
+      "tags": [
+        "story-angle",
+        "environment",
+        "climate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-017",
+      "title": "Prepare Interview for Sensitive Survivor Story",
+      "prompt": "Act as a senior reporter with 15 years experience covering gender, caste-based, or communal violence for The Hindu, The Wire, or Khabar Lahariya. I am about to interview a survivor or family of a victim. I need an interview plan that is rigorous as journalism and trauma-informed. Here is the context: I will share the case type, who I am meeting, location, language, and whether the case is sub-judice. Please provide: (1) a pre-interview consent script in plain Hindi/English covering on-record use, photo permission, identity protection per Section 228A IPC and POCSO Section 23 if applicable, right to pause or stop, (2) 12 questions ordered to ease in — open-ended life context (3), the incident itself only when survivor is ready (4), aftermath and institutional response (3), what they want readers to know (2), (3) 4 phrases I should never use (\"closure\", \"moving on\", suggestive descriptors), and 4 grounding techniques if the survivor dissociates, (4) a fact-corroboration plan that does not require re-traumatising — FIR copy via lawyer, charge-sheet, hospital MLC, NCW or SHRC complaints, (5) post-interview duty-of-care — referral to support orgs (Sneha, AIDWA, Bachpan Bachao), follow-up call schedule, story-share-before-publication policy, and (6) a publication ethics checklist (no identifying details, photo treatment, comment moderation). Format as an SOP. Avoid extractive framing.",
+      "tags": [
+        "interview-prep",
+        "ethics",
+        "gender-reporting"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-018",
+      "title": "Cross-Check Claims in Annual Report Filing",
+      "prompt": "Act as a corporate-affairs reporter with 9 years experience at Business Standard or The Ken. A listed Indian company has just filed its annual report. I need a fact-check workflow to test the chairman's letter and MD&A claims against the audited numbers and disclosures. Here is the context: I will share the company name, sector, market cap, and key claims being made (\"highest-ever revenue\", \"debt-free\", \"market leader\", \"customer-first culture\"). Please provide: (1) a 6-step audit — claim parsing, audited-number check, segmental check, related-party check, contingent-liability check, and auditor's note check (emphasis of matter, key audit matters under SA 701), (2) the exact pages or schedules in the annual report and BSE filings to look at — Schedule III, AS-18 / Ind AS 24 disclosures, CARO 2020 reporting, secretarial audit report, ESG/BRSR section, (3) 3 cross-references against MCA-21 filings, RBI Form FC-GPR / FC-TRS for FDI, SEBI filings, and CCI orders if applicable, (4) 4 expert sources — forensic accountant, sector analyst, ex-board-member type, governance scholar (IiAS, SES, NSE Centre), (5) defamation-safe story framing with right-of-reply protocol, and (6) a working headline. Format as an audit-style worksheet. Indian context: reference SEBI LODR Regulation 30, BRSR Core, and Companies Act 2013 Section 135 (CSR) compliance.",
+      "tags": [
+        "fact-check",
+        "corporate-reporting",
+        "filings"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-019",
+      "title": "Develop Tech Beat Story Angles from Product Launch",
+      "prompt": "Act as a technology reporter with 8 years experience at Mint, The Ken, or MoneyControl. An Indian or global tech company has launched a product or service in India. I need angles beyond the launch press release. Here is the context: I will share the company, product, India-specific features, pricing in INR, target user, and competitive landscape. Please provide: (1) 5 angles — user-impact (privacy, accessibility, language), market-impact (incumbents and competitor pricing), regulatory (MeitY, DPDPA 2023, RBI for fintech, TRAI for telecom, IT Rules 2021), business-model (unit economics, India ARPU realities), and infrastructure (data centres, ONDC integration, UPI), (2) for each angle, 2 specific data anchors — Statista India MAU, app intelligence (data.ai, Sensor Tower), Telecom subs data (TRAI), payment volumes (NPCI), (3) 4 sources — product head at competitor, sector analyst (Counterpoint, IDC India), policy researcher (CIS, IFF, Takshashila), an actual user from a Tier-2 city, (4) hands-on test plan — what I will measure with the product over 7 days, (5) DPDPA-compliance sniff test, and (6) a working headline. Format as a beat plan. Indian context: use INR pricing, reference India-stack (UPI, DigiLocker, ONDC) where relevant, and assume readers know basic acronyms.",
+      "tags": [
+        "story-angle",
+        "tech-reporting",
+        "product"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-020",
+      "title": "Write Headlines That Survive Legal Review",
+      "prompt": "Act as a legal-affairs editor with 14 years experience at Indian Express or LiveLaw. I have a story that is true and well-sourced but legally sensitive (politician, listed company, judge, religious institution). I need 6 headline variants that are accurate, sharp, and defamation-resistant under Indian law. Here is the context: I will share the story summary, named parties, the strongest evidence, and the publication. Please provide: (1) 6 headlines — 2 print, 2 web, 2 social — each under the relevant character limit, (2) for each, the legal hook tested (Truth + Public Good defence under Section 499 Exception 1, Fair Comment, Privilege for court/Parliament reporting, Reynolds-style responsible journalism), (3) the verbs that increase risk (\"defrauded\", \"lied\", \"corrupt\") versus safer alternatives (\"alleged to have\", \"according to chargesheet\", \"records show\") with a side-by-side, (4) attribution rules — when \"according to documents seen by [outlet]\" is enough versus when a named source is required, (5) 3 phrases to avoid that have triggered defamation suits in India in the last 5 years, and (6) a pre-publication legal sign-off memo template. Format as a headline grid plus legal note. Indian context: criminal defamation Sections 499-500 IPC remains in force; civil defamation jurisdiction-shopping risk in Delhi and Mumbai HCs.",
+      "tags": [
+        "headline",
+        "legal",
+        "defamation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-021",
+      "title": "Brainstorm Education Beat Story Angles",
+      "prompt": "Act as an education reporter with 9 years experience at The Hindu, Indian Express, or Careers360. I need to develop story angles around an education event in India. Here is the context: I will share the event (NEP 2020 implementation update, NEET/JEE results, UGC notification, fee hike protest, university VC appointment, NCERT textbook revision, Right to Education compliance audit). Please provide: (1) 5 angles spanning policy implementation, equity (caste, gender, region, disability, EWS), quality (PARAKH, NAS, ASER), governance (UGC versus state, autonomy, NIRF), and student/teacher voice, (2) for each angle, the dataset (UDISE+, AISHE, PRABANDH, NIRF, ASER, NSSO Education round) with the exact table or indicator, (3) 4 sources — IIM/IIT faculty, school principal in a non-metro, education-policy researcher (CSF, NIEPA, Pratham, Azim Premji University), student union office-bearer, (4) field-reporting plan in 1 district with 3 schools and 2 colleges, (5) RTI applications to file (with exact phrasing) on fee hikes, vacancy positions, and scheme expenditure, and (6) a working headline. Format as a beat plan. Indian context: reference NEP 2020 chapters, RTE Act 2009 amendments, and the dual challenge of central versus state regulation in education.",
+      "tags": [
+        "story-angle",
+        "education",
+        "beat-reporting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-022",
+      "title": "Prepare Interview Questions for Bureaucrat",
+      "prompt": "Act as a senior reporter with 14 years experience covering Indian governance for The Hindu or Indian Express. I have a 30-minute on-record interview with a senior IAS or IPS officer (Secretary, DG, Collector, CP — I will specify rank and posting). I need a question set that surfaces decisions and gets past officialese. Here is the context: I will share the officer's current posting, a recent policy/order they signed, and the public interest hook. Please provide: (1) 12 questions in 4 buckets — context and process (3), the specific decision in question (4), accountability and metrics (3), reform and the road ahead (2), (2) for each accountability question, the prior file noting, GO, gazette notification, or RTI response I am referencing with citation format, (3) 4 follow-up scripts when the officer says \"that is a policy matter\" or \"speak to the minister's office\", (4) etiquette and access rules — when to seek formal permission via PRO/DPR, what is on-record by default, briefings versus interviews, (5) 3 questions about implementation gaps (CAG findings, audit paras, court strictures) without making the officer defensive, and (6) a publication-fit framing — interview, profile, or quote-led news piece. Format as a prep doc. Indian context: All India Services Conduct Rules 1968 limit what officers can say publicly; calibrate accordingly.",
+      "tags": [
+        "interview-prep",
+        "governance",
+        "bureaucracy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-023",
+      "title": "Verify a Viral Video from Indian Social Media",
+      "prompt": "Act as a video-verification specialist with 6 years experience at Boom or AFP Fact Check India. A video is going viral on Indian X, WhatsApp, and Facebook claiming to show a specific event in a specific Indian location. I need a verification workflow that produces a publishable verdict in 90 minutes. Here is the context: I will share the video URL or hash, the claim being made, the date claimed, and the location claimed. Please provide: (1) a 7-step workflow — provenance hunt (oldest upload via reverse search), metadata extraction (InVID, ExifTool), keyframe reverse search (Yandex, Google Lens, TinEye), geolocation (Google Earth, Mapillary, signage and language clues), chronolocation (shadow analysis, weather, foliage), audio-language and accent check, and corroboration with other footage, (2) the geolocation clues to look for in Indian streetscapes (signboards in Devanagari/regional script, vehicle number-plate state codes, electricity transmission tower types, BSNL/Jio tower stickers, chai stall branding), (3) common manipulation patterns (mirroring, slowdown, audio swap, AI deepfake markers), (4) a 3-tier verdict — Confirmed at claimed time/place, Same event different time/place, Unrelated event, (5) the publishable explainer format with archived links via archive.org and Wayback, and (6) a takedown-request template if the video is harmful. Format as a runbook. Indian context: account for IT Rules 2021 and platform grievance officer routes.",
+      "tags": [
+        "fact-check",
+        "video-verification",
+        "osint"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-024",
+      "title": "Evaluate Source Credibility on Telegram or Signal",
+      "prompt": "Act as an investigations editor with 12 years experience at The Wire or Caravan, who has run sensitive sources via encrypted messaging. A new contact has reached out on Signal or Telegram claiming insider access to an Indian government department, security agency, or large corporate. Before I assign a reporter, I need a source-evaluation framework. Here is the context: I will share the contact's first messages, the platform, what they are offering, and any documents they have shared. Please provide: (1) a 9-criteria evaluation grid — verifiable identity hint, plausibility of access, specificity of detail, motive transparency, timing and news-peg coincidence, ask-versus-offer ratio, technical OPSEC of the source, history with our outlet or rival outlets, and willingness to meet in person, (2) 4 motives I must rule out (intel-agency tasking, corporate sting, settle-score by ex-employee, fishing expedition by a rival journalist), (3) verification steps that do not expose the source — third-party calibration questions, controlled disclosures, document forensics, (4) OPSEC protocol for the reporter — separate device, no cross-platform contact, secure-drop alternative, lawyer pre-briefing, (5) red flags that mean disengage immediately, and (6) an editor sign-off memo. Format as an SOP. Indian context: Pegasus revelations and IT Rules 2021 traceability provisions raise specific risks for Indian newsrooms.",
+      "tags": [
+        "source-eval",
+        "opsec",
+        "encrypted-comms"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-025",
+      "title": "Develop Health Beat Story Angles",
+      "prompt": "Act as a health journalist with 10 years experience at The Hindu, Mint, or Health Analytics Asia. I need to develop angles around a health event in India. Here is the context: I will share the event (drug price control order by NPPA, hospital tariff dispute under PMJAY, disease outbreak alert from IDSP, AIIMS study, ICMR press release, public-health budget announcement, medical-device recall by CDSCO). Please provide: (1) 5 angles — access (Out-of-pocket expenditure, geographical disparity), quality (NABH, IPHS), affordability (Jan Aushadhi, NLEM, trade margin rationalisation), governance (CDSCO, MoHFW versus state DPH), and patient story (1 named family in a non-metro), (2) data anchors from NFHS-5, HMIS, NSSO Health Round, NPPA Pharmasahi, CGHS rate list, with specific tables, (3) 4 sources — public-health professor (PHFI, AIIMS-CCM), district CMO, patient-rights advocate (AIDAN, Cancer Patients Aid), pharma-policy researcher, (4) ethics protocol — patient consent, no AYUSH-versus-allopathy false balance, no miracle-cure framing, (5) RTI applications on PMJAY claims data and CDSCO inspection reports with exact phrasing, and (6) a working headline. Format as a beat plan. Indian context: reference Clinical Establishments Act, NMC Act 2019, and DPDPA 2023 implications for health data.",
+      "tags": [
+        "story-angle",
+        "health",
+        "beat-reporting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-026",
+      "title": "Prepare Interview for Sports Star Press Conference",
+      "prompt": "Act as a sports reporter with 8 years experience covering Indian athletes for the Sportstar or Indian Express. I have a 5-minute window in a multi-reporter press conference with an Indian athlete (cricketer, badminton player, wrestler, athlete, chess player — I will specify) after a tournament or comeback. I need 3 sharp questions that get a usable quote, not platitudes. Here is the context: I will share the athlete's name, sport, recent result, federation context (BCCI, BAI, WFI, AIFF, AICF), and any controversy. Please provide: (1) 3 primary questions ranked by likelihood of a real answer — 1 tactical/technical, 1 institutional (federation, selection, coach), 1 forward-looking, (2) for each, the specific factual anchor (head-to-head record, shot-percentage from data, federation order, AGM minute) so the athlete cannot deflect, (3) 2 follow-up questions if the athlete gives a one-line response, (4) 2 questions to NOT ask (sponsor-controlled territory, family/personal life that is off-limits), (5) post-PC plan — who else to call (coach, federation official, an opponent's camp) for a richer story, and (6) the headline angle if the answer goes a particular way. Format as a one-page sheet. Indian context: federation politics (e.g., post-Lodha BCCI, WFI restructuring) often shapes what athletes can or cannot say.",
+      "tags": [
+        "interview-prep",
+        "sports",
+        "press-conference"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-027",
+      "title": "Fact-Check an Election Campaign Speech",
+      "prompt": "Act as a political fact-checker with 7 years experience at Boom or Alt News during an Indian election cycle. A senior politician has made a speech with multiple factual claims (development, opponent's record, scheme delivery, historical narrative). I need a structured fact-check workflow. Here is the context: I will share the speech transcript or video timestamp, the speaker, party, and constituency. Please provide: (1) a claim-by-claim extraction format — quote, paraphrase, implicit claim, exact timestamp, (2) for each claim, the primary source to verify against — Lok Sabha unstarred questions, PIB releases, MoSPI tables, RBI, NSSO, election affidavits via MyNeta and Form 26, gazette notifications, official scheme dashboards, (3) verdict per claim (True / Mostly True / Mixture / Mostly False / False / Unverifiable) with one-line evidence summary, (4) common election-speech tropes to flag (cherry-picked years, overlapping schemes credited to one party, scale comparisons across non-comparable units), (5) ECI Model Code of Conduct compliance read — what could trigger a notice, and (6) a publishable structure — claim card format with archived sources via Wayback. Format as a fact-check matrix. Indian context: factor in regional language nuance, dog-whistles, and the speed required during the silence-period rule.",
+      "tags": [
+        "fact-check",
+        "elections",
+        "political-speech"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-028",
+      "title": "Write Headlines for Daily Newsletter Edition",
+      "prompt": "Act as a newsletter editor with 6 years experience running a daily India newsletter (think The Morning Context, splainer, ToI's Daily Brief). I am locking tomorrow's newsletter at 6 am. I have 7 stories from the past 24 hours. I need a headline package that survives an inbox preview and gets opened on a phone. Here is the context: I will share the 7 story summaries with desks (politics, business, world, tech, sports, culture, science). Please provide: (1) a subject line under 45 characters and a preheader under 90 characters with one curiosity gap, (2) 7 story headlines under 55 characters each that work as standalone scrollable cards, (3) for each, a 25-30 word standfirst that adds the second-most-important fact, no marketing fluff, (4) order of stories optimised for retention — what leads, what is the surprise, what is the close, (5) a one-line \"Worth your time\" recommendation card with link rationale, and (6) a one-line \"Skip this if pressed\" cut. Format as the actual newsletter outline I can paste into Substack or Mailchimp. Indian context: assume the reader is a 28-45-year-old urban Indian professional reading on the metro commute; avoid jargon without explanation, and price everything in INR.",
+      "tags": [
+        "headline",
+        "newsletter",
+        "digital"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-029",
+      "title": "Develop Story Angles from RTI Reply",
+      "prompt": "Act as an RTI-based investigative reporter with 8 years experience filing under the RTI Act 2005 for Scroll or The Print. I have just received a CPIO reply with data tables, file notings, or a Section 8 partial denial. I need angles that turn this dump into 2-3 publishable stories. Here is the context: I will paste the RTI question, the reply received, and any annexures. Please provide: (1) a data-extraction outline — which numbers go in which spreadsheet column, what to compute (totals, ratios, year-on-year, per-capita, top-5 outliers), (2) 5 angles ranked by story strength — outlier district/department, scheme leakage indicator, contractor concentration, vacancy/staffing crisis, expenditure-versus-outcome gap, (3) for each, the comparison dataset I should pull (PFMS, dashboards, CAG audit) to triangulate, (4) follow-up RTI applications I should file at first appellate authority or CIC if the reply is incomplete, with exact phrasing, (5) right-of-reply protocol with the named department before publication, and (6) a working headline plus 200-word standfirst for the strongest angle. Format as a reporter's worksheet. Indian context: cite Section 6, Section 7, Section 8(1) exemptions, and Section 19 appeals route, and assume CIC backlog of 12-18 months.",
+      "tags": [
+        "story-angle",
+        "rti",
+        "investigative"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-030",
+      "title": "Evaluate Industry Report from Consulting Firm",
+      "prompt": "Act as a business reporter with 9 years experience at Mint or The Economic Times who has been pitched a Bain/BCG/McKinsey/Deloitte/EY/PwC/KPMG India report. I need a framework to decide whether to write a story off it, ignore it, or do a counter-piece. Here is the context: I will share the report title, author firm, key headline numbers, and the sponsor (if any). Please provide: (1) a 6-criteria evaluation — methodology disclosure, sample size and sampling frame, sponsor bias risk, definitional rigor, comparability with official data (RBI, MoSPI, NSSO), and forward-projection assumption transparency, (2) the official Indian dataset to triangulate with for each headline number, (3) 3 questions to ask the report author over a 20-minute call before writing — methodology specifics, base year, comparable third-party numbers, (4) a story decision tree — write a clean news story, write a critical examination, ignore, or hold for a feature, (5) attribution rules to avoid becoming free PR for the firm, and (6) a working headline that names the source firm and limits the claim. Format as a decision worksheet. Indian context: be alert to category-creating numbers (\"India will become the third-largest economy\") that need calibration against IMF WEO and CSO.",
+      "tags": [
+        "source-eval",
+        "business-reporting",
+        "research"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-031",
+      "title": "Develop Real Estate and Urban Affairs Angles",
+      "prompt": "Act as an urban-affairs reporter with 8 years experience at Hindustan Times city desk, The Hindu Metroplus, or Mint. I need to develop angles around a real-estate or urban-governance event in an Indian metro. Here is the context: I will share the event (master-plan revision, RERA action, BMC/MCD/BBMP budget, metro corridor decision, slum redevelopment, FSI/FAR change, building-collapse incident), the city, and the agency. Please provide: (1) 5 angles spanning beneficiary analysis (developer, landowner, evictee, taxpayer), governance gap (mandate versus delivery), legal context (RERA Act 2016, Town and Country Planning Acts, ULB acts), data-driven (MagicBricks/PropTiger price index, ANAROCK, RERA registration counts), and human story, (2) for each angle, the specific document to obtain — DCR, master plan PDF, RERA portal listing, IA report, PIL filings, (3) 4 sources — urban planner (CEPT, SPA, IIHS), RWA federation lead, builders' association office (CREDAI/NAREDCO), affected resident, (4) ground-reporting plan with 3 specific neighbourhoods to visit, (5) compliance check on photo permissions and trespass, and (6) a working headline. Format as a beat plan. Indian context: reference 74th Constitutional Amendment, parastatals (DDA, MMRDA, BDA), and the recurring tension between state and ULB on mandate.",
+      "tags": [
+        "story-angle",
+        "urban-affairs",
+        "real-estate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-032",
+      "title": "Prepare Interview Questions for Foreign Correspondent",
+      "prompt": "Act as a foreign-affairs editor with 12 years experience at The Hindu or Indian Express. I am interviewing a foreign-policy expert, ambassador, or visiting head-of-state delegation member, for 30 minutes on India's relationship with a specific country (China, US, Russia, EU, UK, Bangladesh, Sri Lanka, Iran — I will specify). I need a question set that goes beyond MEA briefing-room talking points. Here is the context: I will share the interlocutor, current bilateral context, and the news peg (visit, summit, communique, sanction, MoU). Please provide: (1) 12 questions in 4 buckets — bilateral context (3), the specific decision or event in question (4), structural and strategic (3), forward-looking and risk (2), (2) for each, the strategic anchor (joint statement clause, communique line, parliamentary committee report, IISS/SIPRI data, ORF/Carnegie India brief) with citation format, (3) 3 questions on areas where India's stated and revealed positions diverge (e.g., trade barriers despite FTA talks, defence procurement realities), (4) etiquette protocol — protocol officer rules, off-record briefings, embargoed transcripts, (5) follow-up scripts when the interlocutor gives boilerplate, and (6) a publication-fit angle. Format as a prep doc. Indian context: factor in MEA media advisories, Vienna Convention sensitivities, and the political geography of South Block.",
+      "tags": [
+        "interview-prep",
+        "foreign-affairs",
+        "diplomacy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-033",
+      "title": "Fact-Check Health and Science Claims",
+      "prompt": "Act as a science journalist with 8 years experience at The Wire Science or Down To Earth. A claim about a health, science, or environment topic is going viral in Indian media (miracle drug, AYUSH cure, climate denial, vaccine claim, AI hype, agri-biotech). I need a verification workflow that respects scientific epistemology. Here is the context: I will paste the claim, where it appeared, and the cited study or source. Please provide: (1) a 7-step workflow — claim parsing, study retrieval (DOI on PubMed, bioRxiv, ICMR Library, IndMED), study-quality check (study type, sample size, peer review status, journal credibility via SJR/Beall list signals), independent corroboration (Cochrane, NICE, ICMR guidelines, WHO), expert validation (3 calls), counter-evidence search, and rating, (2) common red flags — animal-only or in-vitro extrapolated to humans, retracted papers, predatory journals, conflict-of-interest disclosures absent, (3) Indian regulatory anchor — CDSCO approvals, NPPA listings, Ministry of AYUSH notifications, MoEFCC GEAC orders, (4) verdict rubric and explainer template that does not mock the believer but corrects the record, (5) misinformation-channel takedown protocol per IT Rules 2021, and (6) a working headline. Format as a runbook. Indian context: balance the cultural respect owed to traditional knowledge with rigorous evidence standards.",
+      "tags": [
+        "fact-check",
+        "science",
+        "health"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-034",
+      "title": "Write Magazine Cover Story Headlines",
+      "prompt": "Act as a magazine editor with 14 years experience at India Today, Outlook, The Caravan, or Open. I have a 4500-word cover story going to print on Friday. I need a cover-headline package that sells the issue on the newsstand, on the app, and on social. Here is the context: I will share the story summary, the central character or finding, the sectionable angle, and the design brief from art. Please provide: (1) 5 cover-line options — 1 main (under 5 words, all-caps if needed), 1 explanatory subhead (under 12 words), 1 web variant (under 70 characters), 1 social variant (under 130 characters with hook), 1 long-form share-link variant (under 90 characters), (2) for each, the verb chosen and the emotion targeted (curiosity, outrage, intrigue, hope), (3) accuracy audit — every word backed by the strongest in-piece evidence, (4) defamation-resilience read on named subjects, (5) Indian English style compliance (no Americanisms, official titles, lakh/crore correctly), and (6) an alternative if the lawyer wants a softer verb. Format as a cover-prep package. Indian context: factor in Audit Bureau of Circulations realities, Wheeler-stand visibility, and the shrinking shelf-life of weekly print covers.",
+      "tags": [
+        "headline",
+        "magazine",
+        "cover-story"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-035",
+      "title": "Vet a Source Before Going to Print",
+      "prompt": "Act as a managing editor with 18 years experience at The Hindu or Indian Express. A reporter has filed a story relying on 2 unnamed sources and 1 named source. Before I clear it for print, I need a structured source-vetting protocol. Here is the context: the reporter will brief me on each source's role, access, motive, what they said, on what terms, and the corroboration they offered. Please provide: (1) a 12-question vetting interrogation for the reporter on each source (How did you meet? What is their motive? Have they been right before? Could they be wrong here? Did they show you a document? Are they paraphrasing or quoting? Could a co-worker have planted them? Have you spoken to anyone they would not have wanted you to speak to? What are they not telling you? What is the strongest counter-narrative? Would you stake your byline on this? Will you go to court if needed?), (2) the corroboration threshold for the story risk-tier (low / medium / high / mission-critical), (3) named-source escalation — when is going on record non-negotiable, (4) a redact-and-still-publishable test, (5) the editor's pre-print sign-off memo, and (6) a kill-the-story circuit-breaker checklist. Format as a managing editor's SOP. Indian context: criminal defamation Sections 499-500 IPC and the absence of a federal shield law remain operative.",
+      "tags": [
+        "source-eval",
+        "editorial",
+        "ethics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-036",
+      "title": "Write Quick Headlines for Breaking News",
+      "prompt": "Act as a digital news editor with 7 years experience handling breaking news at NDTV.com, India Today Digital, or Times Now. A story is breaking right now and I have 3 minutes to publish a holding-page headline before our competitors. Here is the context: I will share the 2-3 facts I have confirmed, the source, and what I do not yet know. Please provide: (1) 3 ladder headlines — Stage 1 \"Breaking, minimal-claim\" under 50 characters, Stage 2 \"Confirmed and contextualised\" under 70 characters, Stage 3 \"Why this matters\" under 90 characters — with the specific update trigger that moves the page from one stage to the next, (2) for each, the verb that is accurate-but-not-overclaiming, with safer alternatives if I have only one source, (3) the standfirst (40-50 words) with what we know, what we are checking, and the time of last update, (4) social-card and push-notification variants, (5) defamation and contempt fast-check (named arrest before chargesheet, named accused in sub-judice case), and (6) the 30-minute rolling-update plan with at least 4 update milestones. Format as a breaking-news playbook entry. Indian context: assume PCI-NPA breaking-news norms and the speed-versus-accuracy trade-off that goes wrong on TV every news cycle.",
+      "tags": [
+        "headline",
+        "breaking-news",
+        "digital"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-037",
+      "title": "Develop Court-Beat Story Angles from Judgment",
+      "prompt": "Act as a legal-affairs reporter with 10 years experience at LiveLaw, Bar and Bench, or Indian Express. The Supreme Court or a High Court has just delivered a significant judgment. I need angles that go beyond a paragraph-by-paragraph summary. Here is the context: I will share the case title, citation, bench, the operative order, and the dissent (if any). Please provide: (1) 5 angles — doctrine and precedent (what is new in law), real-world impact (which entity must do what by when), comparison with prior bench rulings or HC contradictions, political/policy ripple effects, and human story (the petitioner's journey and what changes for them), (2) the paragraph numbers in the judgment to anchor each angle, (3) 4 sources — senior advocate or amicus, law professor (NLU, Jindal, NALSAR), affected community representative, government counsel for response, (4) contempt-safe framing for any criticism of the judgment, (5) RTI or court-record follow-up to deepen subsequent stories, and (6) a working headline (under 70 characters) plus a standfirst (under 280) tuned for a non-lawyer reader. Format as a court-beat plan. Indian context: cite Article numbers, mention the Bar Council and its rules, and reference the gap between SC operative orders and HC/trial-court compliance.",
+      "tags": [
+        "story-angle",
+        "legal",
+        "courts"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-038",
+      "title": "Prepare Interview for Survivor of a Disaster",
+      "prompt": "Act as a senior reporter with 15 years experience covering Indian disasters (floods, cyclones, industrial accidents, mining collapses, train accidents, communal violence) for The Hindu or Mongabay India. I am about to interview survivors and bereaved families on the ground 48-96 hours after the event. I need an interview plan that is humane and rigorous. Here is the context: I will share the event, location, scale, and which agencies are responding (NDRF, SDRF, IMD, DM office, Railways, NDMA). Please provide: (1) a pre-interview consent script in the local language script (I will specify Hindi, Bangla, Tamil, etc.), covering identity protection, photograph permission, on/off-record terms, follow-up ability, (2) 10 questions in 3 phases — life before (3, to humanise), the event and immediate aftermath (4, factual reconstruction), institutional response and what they need (3, accountability), (3) 3 corroboration anchors per family (FIR / GD entry, hospital / mortuary record, relief-camp ration card, NDRF rescue log) so the story can be defended, (4) trauma-informed conduct rules — no \"how do you feel\", consent at every step, breaks, triangulating with neighbours when memory is unreliable, (5) post-interview duty-of-care including ration / shelter / medical referral, and (6) ethics check on photographs of the dead under Indian press norms. Format as a field SOP.",
+      "tags": [
+        "interview-prep",
+        "disaster-reporting",
+        "ethics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-039",
+      "title": "Cross-Verify Claims in NGO Report",
+      "prompt": "Act as a development reporter with 8 years experience at IndiaSpend, Scroll, or BehanBox. An NGO has released a report with numbers about poverty, hunger, malnutrition, education access, gender violence, or labour conditions in India. Before I write a story, I need to verify the numbers against official data and check the methodology. Here is the context: I will share the report title, author NGO, key headline numbers, and the funder. Please provide: (1) a 6-criteria methodology check — sample size and sampling frame, definition alignment with NSSO/NFHS/NCRB conventions, time-period comparability, primary versus secondary data, weighting and confidence intervals, conflict-of-interest disclosure, (2) the official Indian dataset to triangulate (NFHS-5, NSSO consumption-expenditure or PLFS, NCRB Crime in India, MoSPI Annual Survey of Industries, NHRC reports) with the specific table, (3) 3 questions to ask the lead author on a 30-minute call, (4) a story decision tree — clean news report, comparison with official data, deeper investigation, ignore, (5) attribution rules to avoid amplifying donor-driven narratives, and (6) a working headline that names the source organisation and the limit of the claim. Format as an editor's worksheet. Indian context: be alert to FCRA-affected NGOs and the political sensitivity of poverty/MPI/hunger numbers.",
+      "tags": [
+        "fact-check",
+        "development",
+        "ngo-data"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    },
+    {
+      "id": "journalism-print-digital-journalists-040",
+      "title": "Evaluate Whether to Trust an On-Record Source",
+      "prompt": "Act as a deputy editor with 16 years experience at Mint, The Hindu, or Indian Express. A reporter has secured a senior named-and-quoted source for a politically or commercially sensitive story. The source is on-record, but I need a framework to evaluate whether their account is reliable enough to lead the story, and what corroboration is still required. Here is the context: I will share the source's name, title, organisation, what they said, and the documentary backup they offered. Please provide: (1) an 8-criteria reliability scorecard for on-record named sources (institutional access, observed-versus-inferred, contemporaneity, consistency with prior public statements, motive transparency, documentary corroboration, willingness to repeat under oath, history with our outlet) each 1-5, (2) corroboration thresholds — minimum independent confirmations required by story-risk tier, (3) attribution-tightening checklist to avoid putting words in their mouth (paraphrase versus direct quote, qualified hedging, time-bound claims), (4) right-of-reply protocol with named adverse parties, (5) defamation and SLAPP-suit risk read for India (Section 499 IPC, civil defamation, jurisdictional shopping), and (6) an editor's sign-off memo to the editor-in-chief. Format as a one-page editorial decision document. Indian context: SLAPP suits in Delhi and Mumbai HCs by listed corporates are now a routine pre-publication risk that needs costing.",
+      "tags": [
+        "source-eval",
+        "editorial",
+        "attribution"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "print-digital-journalists"
+    }
+  ]
+}

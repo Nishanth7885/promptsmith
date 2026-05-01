@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "marketing-brand-strategy-001",
+      "title": "Build Brand Voice Guidelines Using Nielsen Four Dimensions",
+      "prompt": "Act as a senior brand strategist with 15 years experience at agencies like Ogilvy and Leo Burnett India. I need you to create comprehensive brand voice guidelines using the Nielsen Norman four-dimensional framework (Funny vs Serious, Formal vs Casual, Respectful vs Irreverent, Enthusiastic vs Matter-of-fact). Here is the context: a D2C Ayurvedic skincare brand called \"Vediva\" targeting urban Indian women aged 25-40, priced at a premium (INR 1,200-3,500 per SKU), competing with Forest Essentials and Kama Ayurveda. The founder wants the brand to feel modern yet rooted in Indian wellness traditions. Please provide: (1) A plotted position on each of the 4 Nielsen dimensions with justification, (2) Brand voice personality statement in 3 sentences, (3) 10 do-and-don't examples for social copy (Instagram captions, product descriptions), (4) 5 phrases the brand must always use and 5 phrases it must never use, (5) Tonal adjustments for different channels — Instagram vs WhatsApp marketing vs packaging vs customer support, (6) Example rewrites of 3 generic copy lines into the brand voice. Format as a structured playbook with tables. Consider Indian cultural sensitivities around Ayurveda claims, ASCI advertising guidelines, and the need to balance Sanskrit-rooted terminology with modern English that Gen Z and millennial Indian women find aspirational rather than preachy.",
+      "tags": [
+        "brand-voice",
+        "nielsen-framework",
+        "voice-guidelines",
+        "d2c-india"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-002",
+      "title": "Write Kotler Positioning Statement for Tier-2 Fintech",
+      "prompt": "Act as a brand positioning consultant with 12 years experience working on Indian fintech launches (think Jupiter, Fi, Niyo). I need you to craft a Kotler-style positioning statement and supporting architecture for a new neo-banking app called \"BharatSave\" targeting salaried professionals in Indian tier-2 and tier-3 cities (Indore, Coimbatore, Lucknow, Bhubaneswar) earning INR 25,000-60,000 per month. Competitors include Paytm, PhonePe, and traditional PSU banks. The core differentiator is vernacular-first UX (8 Indian languages) and zero-fee remittances to family in villages. Please provide: (1) The classic Kotler positioning statement in the format \"For [target] who [need], [brand] is a [frame of reference] that [benefit], because [reason to believe]\" — give 3 variants, (2) Category frame of reference analysis (which category should the brand fight in), (3) Point-of-parity and point-of-difference list, (4) A one-line brand essence, (5) A positioning onion (essence, personality, values, benefits, attributes), (6) A \"from-to\" positioning shift articulation. Format as a brand strategy deck outline with bullet points. Consider RBI digital banking guidelines, trust-building needs in tier-2/3 Bharat where cash remains emotionally safer, and the cultural role of remittances to parents and in-laws as a brand driver.",
+      "tags": [
+        "positioning",
+        "kotler",
+        "fintech",
+        "bharat-tier-2"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-003",
+      "title": "Design Perceptual Map for Indian Quick Commerce",
+      "prompt": "Act as a brand research director with 10 years experience running category studies for FMCG and quick commerce clients in India. I need you to build a competitive perceptual map for the Indian quick commerce category — Blinkit, Zepto, Swiggy Instamart, BigBasket BB Now, Flipkart Minutes, and a new entrant \"Turant\". Here is the context: the new entrant wants to find white space to position against incumbents that dominate 10-minute delivery in metros. Please provide: (1) Two most strategically relevant axes for the perceptual map with justification (e.g., Speed vs Assortment Depth, Price vs Premium Curation), (2) Exact plotted coordinates (0-10 scale) for each competitor with reasoning, (3) Identification of 2 white-space zones and a go/no-go recommendation for each, (4) A secondary alternate map using different axes (e.g., Trust vs Value, Planned vs Impulse), (5) Strategic implications for Turant's positioning, assortment, and communication, (6) 3 follow-up primary research questions needed to validate the map with 500 urban Indian shoppers. Format as a research memo with ASCII-rendered maps. Consider Indian urban shopping psychology where delivery time is now a hygiene factor, kirana loyalty still matters in some categories, and GenZ consumers expect brand personality beyond functional speed.",
+      "tags": [
+        "perceptual-map",
+        "competitor-analysis",
+        "quick-commerce",
+        "white-space"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-004",
+      "title": "Generate Hinglish Taglines for Youth Apparel",
+      "prompt": "Act as a creative director with 14 years experience at Indian agencies known for vernacular craft (Lowe Lintas, Taproot Dentsu, BBH India). I need you to generate 20 tagline options for a new Gen Z streetwear brand called \"Galli\" that celebrates Indian street culture, hip-hop, and neighborhood pride. Target audience: 18-26 year old Indians in metros and tier-1 cities, price range INR 799-2,499, brand personality is rebellious, proud, rooted-yet-global, think boAt meets Supreme with a desi edge. Please provide: (1) 5 pure English taglines, (2) 5 pure Hindi Devanagari taglines with English transliteration and meaning, (3) 5 Hinglish (code-mixed) taglines that feel native to Instagram-speak, (4) 5 wildcard taglines using regional languages (Tamil, Punjabi, Marathi, Bengali, Telugu — one each), (5) For the top 3 recommendations, a 2-line rationale covering memorability, trademark safety, and cultural resonance, (6) A shortlist recommendation with the single best tagline to lead with. Format as a numbered list with a final recommendation box. Consider how Hinglish lives on Indian Instagram and Reels, the risk of appropriating regional cultures without authenticity, and the tagline's ability to work on a kurta hem tag, a hoodie back print, and a 6-second YouTube pre-roll.",
+      "tags": [
+        "tagline",
+        "hinglish",
+        "streetwear",
+        "gen-z-india"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-005",
+      "title": "Conduct Full Brand Audit for Legacy Indian FMCG",
+      "prompt": "Act as a brand consultant with 18 years experience conducting brand health audits for legacy Indian FMCG houses (Parle, Britannia, Marico, Dabur). I need you to run a comprehensive brand audit framework for a 45-year-old regional biscuit brand \"Priya Biscuits\" based in Hyderabad, INR 380 crore annual revenue, strong in Telangana and Andhra Pradesh but losing share to Parle-G and Sunfeast in younger households. Please provide: (1) Audit across three pillars — Visual Identity (logo, packaging, color, typography), Verbal Identity (naming, tagline, tone, messaging), Experience (retail visibility, distribution, digital presence, CX), (2) A scoring rubric (1-10) for each pillar with sub-criteria, (3) Three concrete findings per pillar with evidence-gathering methods, (4) A prioritized issue list (P0/P1/P2), (5) A 90-day fix roadmap with owners and KPIs, (6) A 5-slide executive summary outline for the promoter family board. Format as an audit report with tables. Consider that family-owned Indian FMCG often resists drastic logo changes due to emotional attachment, kirana retailer relationships matter as much as consumer perception, and any audit must be sensitive to legacy equity the promoter built over four decades.",
+      "tags": [
+        "brand-audit",
+        "fmcg",
+        "visual-verbal-experience",
+        "legacy-brand"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-006",
+      "title": "Craft Founder-Led Brand Story for SaaS",
+      "prompt": "Act as a brand narrative strategist with 10 years experience shaping founder-led stories for Indian SaaS companies (think Freshworks, Zoho, Postman). I need you to write a founder-led brand story for a bootstrapped Bengaluru SaaS startup \"Lekha\" — an invoicing and GST compliance tool for Indian freelancers and micro-SMBs, founded by a second-generation CA who saw her father struggle with manual bookkeeping. Please provide: (1) A 400-word long-form founder story for the About page, (2) A 150-word short version for press and investor decks, (3) A 50-word elevator version, (4) A 6-beat narrative arc (origin wound, unmet need, insight, mission, proof, invitation), (5) 5 emotional hooks that would resonate with Indian CAs, freelancers, and SMBs, (6) 3 headline options to introduce the story. Format as a content brief with all versions labeled. Consider the Indian middle-class reverence for CA fathers, the emotional weight of GST compliance as a pain point since 2017, and the need to avoid Silicon Valley cliches while still feeling globally credible enough for Y Combinator-era comparisons.",
+      "tags": [
+        "brand-story",
+        "founder-narrative",
+        "saas",
+        "storytelling"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-007",
+      "title": "Jobs-To-Be-Done Analysis for Matrimonial App",
+      "prompt": "Act as a JTBD researcher with 8 years experience applying Clayton Christensen's framework to Indian consumer categories. I need you to run a jobs-to-be-done analysis for the Indian matrimonial category (Shaadi.com, BharatMatrimony, Jeevansathi, Betterhalf) to help a new app \"Saath\" position itself distinctively for urban millennials aged 27-34 who want arranged-cum-love marriages with parental approval. Please provide: (1) The core functional job (\"Help me find a life partner my family will approve of, without losing my agency\"), (2) 3 related functional jobs, (3) 4 emotional jobs (e.g., feel safe, feel respected, feel modern), (4) 3 social jobs (how the user wants to be perceived by family and peers during the search), (5) A map of current competitor solutions against each job with gap analysis, (6) 3 positioning territories Saath could own based on under-served jobs, (7) Sample messaging for the top positioning territory. Format as a JTBD canvas with narrative explanation. Consider the tension between family involvement and individual choice in modern Indian dating, the caste-community filter debate, and the rise of \"dating-to-marry\" culture among urban Indian millennials that neither Tinder nor Shaadi fully serves.",
+      "tags": [
+        "jobs-to-be-done",
+        "jtbd",
+        "matrimonial",
+        "positioning"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-008",
+      "title": "Build SWOT Analysis for EV Two-Wheeler Brand",
+      "prompt": "Act as a strategy consultant with 12 years experience in the Indian automotive and EV space. I need you to construct a detailed SWOT analysis for Ola Electric as of 2026, with a focus on brand strategy implications (not just operations). Please provide: (1) 6 Strengths with brand-relevance ratings (High/Med/Low), (2) 6 Weaknesses including brand perception issues post service complaints and social media backlash, (3) 6 Opportunities considering FAME-III subsidies, tier-2 expansion, and rising petrol prices, (4) 6 Threats from Ather, TVS iQube, Bajaj Chetak, Hero Vida, and Chinese entrants, (5) A cross-SWOT strategy matrix (SO, WO, ST, WT) with 2 strategic moves per quadrant, (6) 3 brand strategy priorities for the next 12 months with KPIs, (7) A one-paragraph narrative thesis on \"what Ola Electric's brand must become by 2028 to win\". Format as a strategy memo with a SWOT grid. Consider Indian consumer skepticism toward EV reliability, the role of word-of-mouth and YouTube reviewers like Ghost Rider in shaping EV brand trust, and how government subsidy shifts can reset the competitive field overnight.",
+      "tags": [
+        "swot",
+        "competitor-analysis",
+        "ev",
+        "automotive"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-009",
+      "title": "Write Brand Voice Do-Dont Examples for D2C Coffee",
+      "prompt": "Act as a brand copy chief with 9 years experience writing for Indian D2C brands (Sleepy Owl, Blue Tokai, Rage Coffee). I need you to create a brand voice do-and-don't document for a new specialty coffee brand \"Kaapi Culture\" that celebrates South Indian filter coffee heritage while appealing to young urban Indians who grew up on Starbucks. Brand personality: warm, knowledgeable, playful, quietly proud, anti-elitist. Please provide: (1) A 3-sentence brand voice definition, (2) A table of 15 do/don't pairs covering tone, vocabulary, cultural references, emojis, sentence length, and calls-to-action, (3) 5 rewrites showing a generic coffee brand line transformed into the Kaapi Culture voice, (4) Voice adjustments for 5 contexts — product listing, Instagram reel caption, cart abandonment email, WhatsApp broadcast, customer apology, (5) 10 signature phrases and 10 banned phrases, (6) A one-page quick-reference card for new copywriters. Format as a brand voice playbook. Consider South Indian pride in filter coffee lineage (Madras, Mysuru, Kumbakonam), the risk of sounding condescending to Starbucks drinkers, and the cultural weight of words like \"kaapi\", \"degree\", \"tumbler\" versus Italian terms like \"espresso\" and \"latte\".",
+      "tags": [
+        "brand-voice",
+        "do-dont",
+        "d2c",
+        "copywriting"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-010",
+      "title": "Craft Mission-Led Brand Story for Edtech",
+      "prompt": "Act as a brand storytelling consultant with 11 years experience helping Indian edtech brands (BYJU'S, Vedantu, PhysicsWallah) articulate their missions. I need you to write a mission-led brand story for a new vocational skilling platform \"Hunar\" targeting Indian youth aged 18-28 in tier-2 and tier-3 towns who did not get through NEET/JEE and need employable skills in 6 months (coding, digital marketing, AC repair, beauty, logistics). Please provide: (1) A mission statement in 15 words or less, (2) A vision statement in 20 words or less, (3) A 350-word mission-led brand story for the homepage, (4) A 6-beat narrative structure (problem, stakes, insight, mission, how, invitation), (5) 5 supporting proof points that make the mission believable, (6) 3 emotional hooks rooted in aspirations of Bharat youth and their parents, (7) A rallying cry headline that could become a campaign idea. Format as a brand narrative document. Consider the cultural weight of \"sarkari naukri\" as the default aspiration, the shame around not clearing competitive exams, parental pressure in tier-2/3 India, and the dignity-of-labour conversation that vocational brands must navigate carefully.",
+      "tags": [
+        "brand-story",
+        "mission-led",
+        "edtech",
+        "storytelling"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-011",
+      "title": "Generate Tagline Shortlist with Trademark Check Logic",
+      "prompt": "Act as a brand naming and tagline strategist with 13 years experience navigating the Indian IP Office trademark landscape. I need you to generate 25 tagline candidates for a premium herbal haircare brand \"Vanya\" (INR 650-1,800 price range), targeting urban Indian women aged 28-45 who care about clean beauty and Ayurvedic heritage but find traditional brands dated. Please provide: (1) 25 tagline candidates in English with a mix of emotional, functional, and aspirational angles, (2) 5 Hindi/Sanskrit-rooted taglines with transliteration and meaning, (3) For each of the top 8 candidates: a memorability score (1-10), a distinctiveness score (1-10), and a preliminary trademark risk flag (Low/Med/High) based on likely existing marks in class 3 cosmetics, (4) A recommended shortlist of 3 with justification, (5) The single lead recommendation with a 100-word rationale, (6) Guidance on the trademark search process on the Indian IP Office portal (ipindia.gov.in) including class selection and phonetic search tips. Format as a tagline evaluation matrix. Consider ASCI guidelines on herbal claims, the crowded beauty category trademark register in India, and how Ayurvedic terminology can be hard to trademark due to generic status.",
+      "tags": [
+        "tagline",
+        "trademark",
+        "ayurveda",
+        "haircare"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-012",
+      "title": "Competitor Brand Teardown for Cloud Kitchen",
+      "prompt": "Act as a category analyst with 8 years experience doing brand teardowns for Indian F&B and cloud kitchen players. I need you to run a structured competitor teardown of 5 Indian cloud kitchen brands — Faasos/EatSure, Box8, Biryani By Kilo, Behrouz, and Freshmenu — to help a new Hyderabad-based cloud kitchen brand \"Dum\" position itself distinctively in the biryani and North Indian comfort food space. Please provide: (1) A comparison table across 8 dimensions — brand positioning, tagline, visual identity, verbal tone, price band, hero SKUs, packaging signature, differentiation claim, (2) A tier ranking (A/B/C) of each competitor's brand coherence, (3) 3 things each competitor does well and 3 gaps, (4) A synthesis of 5 category conventions new entrants should break, (5) 3 white-space positioning territories Dum could credibly own, (6) A recommended positioning direction with a one-line brand essence. Format as a strategic teardown deck outline. Consider the regional biryani loyalty wars (Hyderabadi vs Lucknowi vs Kolkata), packaging as the only brand touchpoint in delivery, the Swiggy/Zomato rating tyranny, and how Indian delivery consumers judge brands in under 3 seconds on a food app.",
+      "tags": [
+        "competitor-analysis",
+        "brand-teardown",
+        "cloud-kitchen",
+        "f-and-b"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-013",
+      "title": "Kotler Positioning for Luxury Indian Wedding Wear",
+      "prompt": "Act as a luxury brand strategist with 14 years experience working with Indian couture houses (Sabyasachi, Manish Malhotra, Tarun Tahiliani, Anita Dongre). I need you to write a Kotler-style positioning statement and supporting architecture for a new premium bridal wear label \"Aarohan\" that sits between mass-premium (Biba, Fabindia) and ultra-luxury couture (Sabyasachi), price range INR 45,000-2,50,000 per outfit, targeting urban Indian brides aged 25-32 who want craft-led heirloom pieces but cannot afford Sabyasachi lehengas. Please provide: (1) A core Kotler positioning statement with 3 variants, (2) Frame of reference analysis — should the brand compete in \"accessible luxury bridal\" or \"modern heirloom\"?, (3) Points-of-parity and points-of-difference, (4) A positioning pyramid (attributes, benefits, values, essence), (5) Brand personality on 6 archetypes (which one wins and why), (6) 3 must-win moments of truth (first boutique visit, trial, delivery), (7) A one-line brand promise. Format as a brand strategy document. Consider the emotional weight of Indian weddings as multi-day cultural showcases, the Instagram virality factor of bridal shoots, sustainability concerns among Gen Z brides, and the tension between heritage craft and modern silhouettes.",
+      "tags": [
+        "positioning",
+        "kotler",
+        "luxury",
+        "bridal"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-014",
+      "title": "Build Brand Archetype Profile for Wellness Brand",
+      "prompt": "Act as a brand archetype consultant with 10 years experience applying Carl Jung's 12 archetypes framework to Indian consumer brands. I need you to develop a brand archetype profile for a new mental wellness app \"Shant\" targeting urban Indians aged 22-40 dealing with workplace burnout, priced at INR 499 per month, competing with Wysa, Amaha, and InnerHour. Please provide: (1) Primary archetype recommendation from the 12 (Sage, Caregiver, Magician, etc.) with rationale, (2) Secondary archetype that adds nuance, (3) 3 archetypes the brand must actively avoid, (4) A personality expression matrix showing how the archetype shows up across voice, visuals, experience, product features, (5) 5 Indian cultural reference points that localize the archetype (yoga, meditation traditions, modern Bollywood portrayals of mental health in films like Dear Zindagi), (6) 3 archetype-driven campaign concept seeds, (7) A risk map of how the archetype could be misinterpreted. Format as a brand identity document. Consider the stigma around mental health in Indian families, the tension between spiritual wellness (meditation, pranayama) and clinical therapy, and the need to feel approachable without being preachy or too Silicon Valley.",
+      "tags": [
+        "brand-archetype",
+        "wellness",
+        "jung",
+        "brand-identity"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-015",
+      "title": "Quick Brand Audit Checklist for DTC Launch",
+      "prompt": "Act as a D2C brand launch consultant with 7 years experience auditing brands before go-live (worked with brands like Mamaearth, The Whole Truth, Wakefit in early stages). I need you to create a launch-ready brand audit checklist for a founder about to launch a new D2C protein bar brand \"Fuelly\" priced at INR 60-90 per bar targeting urban Indian fitness enthusiasts aged 22-35. Please provide: (1) A 40-point brand audit checklist organized into 5 sections — Brand Foundation (positioning, voice, story), Visual Identity (logo, palette, typography, packaging), Verbal Identity (tagline, product copy, tone), Digital Presence (website, Instagram, Amazon/Flipkart listing), Trust Signals (FSSAI, nutrition claims, founder story), (2) A red flag list of 10 things that indicate the brand is not launch-ready, (3) A prioritization system (must-fix before launch vs fix in first 60 days), (4) Indian market specific checks — FSSAI labelling, vegetarian mark, MRP, net weight, ASCI claim compliance, (5) A go/no-go decision framework. Format as a practical checklist with checkboxes. Consider how D2C launches fail when founders skip brand basics in the rush to run performance ads, and the FSSAI regulatory traps that can get a brand notice served in week one.",
+      "tags": [
+        "brand-audit",
+        "d2c-launch",
+        "checklist",
+        "compliance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-016",
+      "title": "Brand Story for Founder From Small Town India",
+      "prompt": "Act as a brand narrative writer with 9 years experience crafting founder stories for Indian startups that lean into small-town roots (think BoAt's Aman Gupta, Zomato's Deepinder Goyal, PhysicsWallah's Alakh Pandey). I need you to write a founder-led brand story for a new agri-tech startup \"Khet Kiran\" founded by a 29-year-old from Sitapur, Uttar Pradesh, who returned home after an IIT Kanpur degree to build a soil-testing and advisory platform for smallholder farmers. Please provide: (1) A 500-word long-form founder story suited for LinkedIn, press, and a \"Why We Exist\" page, (2) A 120-word short version for decks, (3) A 30-word elevator pitch, (4) 5 emotional anchor moments (leaving a Bengaluru job offer, father's skepticism, first farmer customer, monsoon failure, first success), (5) 3 recurring motifs to carry across content (e.g., soil, father, Sitapur fields), (6) 3 headline options, (7) A guidance note on how to tell this story without slipping into poverty-porn or hero-worship cliches. Format as a narrative toolkit. Consider Indian small-town pride, the IIT aspirational arc, the cultural dynamics of returning home versus moving abroad, and the sensitivity needed when telling farmer stories without exploiting them for marketing.",
+      "tags": [
+        "brand-story",
+        "founder-narrative",
+        "agritech",
+        "bharat"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-017",
+      "title": "Design Positioning Territory Map for Snacks",
+      "prompt": "Act as a category strategist with 11 years experience mapping positioning territories for Indian snacking brands (Haldiram's, Bikaji, Too Yumm!, Open Secret). I need you to design a positioning territory map for the Indian healthy snacking category to help a new brand \"Chatpat\" decide where to play. Please provide: (1) A list of 8 live positioning territories currently occupied in the Indian snacking market (e.g., \"Guilt-free indulgence\", \"Desi heritage reimagined\", \"Performance nutrition\", \"Kids first\"), (2) Which competitor owns each territory and how strongly, (3) 3 emerging territories not yet fully owned, (4) An evaluation of each emerging territory on 4 criteria — market size, growth, defensibility, fit for Chatpat, (5) A recommended territory for Chatpat with a 100-word rationale, (6) A 3-line positioning statement in the recommended territory, (7) 3 risks of entering the chosen territory. Format as a strategy memo with a territory table. Consider Indian snacking habits (tea-time, travel, kids' tiffin), the shift to makhana and millet as health heroes, the dominance of namkeen nostalgia brands, and how tier-2/3 India still buys on price-per-gram rather than health claims.",
+      "tags": [
+        "positioning",
+        "territory-map",
+        "snacks",
+        "white-space"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-018",
+      "title": "Audit Verbal Identity for B2B SaaS",
+      "prompt": "Act as a B2B brand copy consultant with 10 years experience auditing verbal identity for Indian SaaS companies (Freshworks, Chargebee, Postman, Razorpay). I need you to run a verbal identity audit for a Series-B Bengaluru SaaS company \"FlowDesk\" selling workflow automation to mid-market Indian enterprises (INR 50 crore to 500 crore revenue). Their verbal identity currently feels generic and indistinguishable from competitors. Please provide: (1) An audit of 6 verbal identity elements — brand name, tagline, boilerplate, product naming, tone of voice, signature phrases, (2) A scoring of each on Distinctiveness, Clarity, Memorability, Indian market fit (1-10 each), (3) A gap analysis versus 3 category leaders, (4) 5 specific fixes with before-and-after rewrites, (5) A new tone-of-voice rubric across 4 contexts (website, sales email, product UI copy, customer support), (6) 10 sample phrases to adopt and 10 to retire, (7) A 30-day verbal identity refresh plan. Format as a verbal audit report. Consider how Indian mid-market buyers mix English and Hinglish in sales meetings, the risk of over-Americanizing SaaS copy, and how founders often default to Silicon Valley phrasing that does not land with Indian procurement teams.",
+      "tags": [
+        "brand-audit",
+        "verbal-identity",
+        "b2b-saas",
+        "tone-of-voice"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-019",
+      "title": "Write Brand Voice Guidelines for Banking App",
+      "prompt": "Act as a financial services brand strategist with 13 years experience developing voice guidelines for Indian banks and neobanks (HDFC, ICICI, Jupiter, Fi). I need you to create brand voice guidelines for a new digital-first banking app \"Paisa\" targeting first-time salaried earners aged 21-28 in Indian metros, positioned as the friendly financial companion who explains money without patronizing. Please provide: (1) A 3-sentence voice definition, (2) 4 voice principles with a short description each (e.g., \"Clear over clever\", \"Friend not father\"), (3) Nielsen 4-dimension plotting with justification, (4) 12 do/don't pairs covering financial terminology, disclaimers, tone, emojis, Hinglish use, (5) Tonal guidance for 6 touchpoints — onboarding, transaction notifications, fee disclosures, payment failures, goal celebrations, customer support, (6) How to write RBI-mandated disclaimers in a human way without losing compliance, (7) 5 before-after rewrites of generic banking copy. Format as a brand voice handbook. Consider RBI guidelines on transparent communication, the Indian consumer's deep distrust of hidden bank charges, financial literacy gaps among first-time earners, and the need to feel empowering without trivializing money decisions.",
+      "tags": [
+        "brand-voice",
+        "banking",
+        "voice-guidelines",
+        "fintech"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-020",
+      "title": "Generate Tagline for Cricket-Led Campaign",
+      "prompt": "Act as a creative director with 12 years experience on cricket-led brand campaigns in India (PepsiCo, Dream11, Vimal, PayTM IPL era). I need you to generate 20 tagline options for a new energy drink brand \"Zoosh\" that is launching as an IPL 2027 associate sponsor, targeting young male Indians aged 18-30 who follow cricket obsessively. Please provide: (1) 8 cricket-metaphor taglines that work on-ground and on-screen, (2) 6 non-cricket taglines that still feel high-energy, (3) 3 Hinglish wildcards, (4) 3 regional-language wildcards for Tamil Nadu, Maharashtra, and West Bengal, (5) For the top 5: a memorability score, a trademark risk flag, and commentary usability (can Harsha Bhogle say it naturally during commentary), (6) The single recommendation with a 120-word rationale and a matching 6-second TVC concept, (7) A warning list of 5 over-used cricket tagline tropes to avoid. Format as a tagline exploration doc. Consider BCCI sponsor clutter, ASCI energy drink claim restrictions, the Gen Z cricket fan's irony around cliched \"josh\" and \"jeetega\" lines, and the need to work across Hindi, Tamil, and Telugu commentary feeds.",
+      "tags": [
+        "tagline",
+        "cricket",
+        "ipl",
+        "creative"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-021",
+      "title": "SWOT for Regional Dairy Brand Going National",
+      "prompt": "Act as an FMCG brand consultant with 15 years experience advising regional Indian dairy brands on national expansion (think Nandini, Heritage, Mother Dairy). I need you to build a brand-focused SWOT for a Karnataka-based dairy brand \"Namma Ksheera\" (INR 1,200 crore revenue, strong in Bengaluru and Mysuru) planning to enter Maharashtra and Telangana markets in 2027. Please provide: (1) 6 Strengths with brand-equity implications, (2) 6 Weaknesses including regional brand limitations and cold chain perception, (3) 6 Opportunities in the new geographies (premium curd, paneer, ghee, probiotic segments), (4) 6 Threats from Amul's national dominance, local brands in each state, and D2C dairy startups, (5) A cross-SWOT strategy matrix with 2 moves per quadrant, (6) A brand-led go-to-market recommendation — should the brand retain the regional name or sub-brand for new markets, (7) 3 KPIs to track brand health in the first 12 months. Format as a strategy memo. Consider linguistic identity (the name \"Namma Ksheera\" means \"Our milk\" in Kannada and will not translate), the Amul brand halo across India, and consumer preference for local dairy freshness narratives.",
+      "tags": [
+        "swot",
+        "dairy",
+        "regional-to-national",
+        "fmcg"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-022",
+      "title": "Build Perceptual Map for Ayurvedic Skincare",
+      "prompt": "Act as a beauty category strategist with 9 years experience mapping the Indian Ayurvedic and clean skincare market. I need you to build a perceptual map for the Indian Ayurvedic skincare category — Forest Essentials, Kama Ayurveda, Biotique, Khadi Naturals, Just Herbs, Kama Kapila, Mamaearth, Plum — to help a new brand \"Rasayan\" find its positioning. Please provide: (1) Three candidate axis pairs (e.g., Ancient Authenticity vs Modern Science, Accessible vs Premium, Functional vs Ritualistic), with recommendation of the strongest pair, (2) Plotted coordinates for each competitor on the recommended map with a 1-line rationale, (3) Identification of white-space zones, (4) A second map using the alternate axis pair for validation, (5) Strategic implications for Rasayan's price, pack, claim, and storytelling, (6) 3 positioning statements Rasayan could test in the white space, (7) Primary research questions to validate with 300 urban Indian female skincare buyers. Format as a research memo with ASCII maps. Consider ASCI restrictions on Ayurvedic efficacy claims, the tension between Sanskrit heritage cues and clinical credibility, and Gen Z skepticism toward \"ancient wisdom\" without proof.",
+      "tags": [
+        "perceptual-map",
+        "ayurveda",
+        "skincare",
+        "white-space"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-023",
+      "title": "Jobs-To-Be-Done Map for Edtech Parents",
+      "prompt": "Act as a JTBD researcher with 10 years experience in the Indian edtech parent segment (worked on BYJU'S, Vedantu, Cuemath insights). I need you to run a jobs-to-be-done analysis for Indian parents of 8-14 year olds evaluating after-school learning platforms, to help a new edtech brand \"Padhai Partners\" position itself. Please provide: (1) The core functional job from the parent's perspective, (2) 3 related functional jobs (homework help, exam prep, concept clarity), (3) 4 emotional jobs (feel like a good parent, reduce guilt, reduce stress, feel hopeful about child's future), (4) 3 social jobs (be seen as a responsible parent in WhatsApp groups, peer parents, relatives), (5) A competitor map of how current edtech brands address each job and where gaps exist, (6) A scoring of under-served jobs by importance and dissatisfaction, (7) 3 positioning territories with messaging seeds. Format as a JTBD canvas with narrative explanation. Consider Indian middle-class parental anxiety around competitive exams, the post-BYJU'S trust deficit in the category, parent WhatsApp group dynamics, and tuition culture as the incumbent that edtech competes against — not just other apps.",
+      "tags": [
+        "jobs-to-be-done",
+        "edtech",
+        "parents",
+        "positioning"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-024",
+      "title": "Write Brand Positioning for Hostel Chain",
+      "prompt": "Act as a hospitality brand strategist with 10 years experience working on Indian hostel and budget travel brands (Zostel, goStops, The Hosteller). I need you to write a full positioning architecture for a new boutique hostel chain \"Thehre\" launching 12 properties across Himachal, Uttarakhand, Goa, and the Northeast, targeting Indian solo travelers and digital nomads aged 23-34, price point INR 800-1,800 per bed night. Please provide: (1) Category frame — should Thehre compete with budget hostels, boutique homestays, or coworking retreats, (2) A Kotler positioning statement with 3 variants, (3) Points-of-parity and points-of-difference, (4) Brand essence in 3 words, (5) A positioning pyramid, (6) Target audience definition with 2 persona sketches (Indian solo female traveler, male digital nomad), (7) 5 must-win moments in the customer journey from discovery to check-out, (8) 3 narrative themes to anchor marketing. Format as a brand strategy brief. Consider safety concerns for solo female travelers in India, the digital nomad wi-fi and community expectation, Instagrammable design as a marketing engine, and the cultural ask of creating spaces where Indian travelers feel permission to slow down.",
+      "tags": [
+        "positioning",
+        "hospitality",
+        "hostels",
+        "travel"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-025",
+      "title": "Full Visual and Verbal Brand Audit for NGO",
+      "prompt": "Act as a non-profit brand consultant with 12 years experience auditing Indian NGO brands (Akshaya Patra, Smile Foundation, Pratham, Goonj). I need you to conduct a full visual + verbal + experience brand audit for a 20-year-old Mumbai-based education NGO \"Ummeed Foundation\" that serves slum children but struggles to attract young urban donors and corporate CSR partners. Please provide: (1) Audit across Visual Identity (logo, color, typography, photography style), Verbal Identity (name, tagline, tone, storytelling), and Experience (website, donation flow, volunteer journey, field-to-donor reporting), (2) A scoring rubric (1-10) with sub-criteria, (3) 4 findings per pillar with photographic evidence recommendations, (4) A prioritized issue list, (5) A 90-day brand refresh roadmap under an INR 15 lakh budget, (6) Guidance on how to refresh the brand without alienating legacy donors, (7) CSR partner expectations to design for. Format as an audit report. Consider Indian CSR regulations under Companies Act Section 135, donor fatigue with guilt-based fundraising, the shift to impact-storytelling among urban Indian millennials, and the delicate ethics of using beneficiary photos.",
+      "tags": [
+        "brand-audit",
+        "ngo",
+        "non-profit",
+        "visual-verbal"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-026",
+      "title": "Generate Brand Voice Examples Using Amul Witticism Model",
+      "prompt": "Act as a brand copy strategist with 8 years experience studying the Amul moppet topical ad legacy and modern Indian brands that use witticism (Zomato, CRED, Fevicol, Durex India). I need you to create a brand voice playbook for a new financial planning app \"Sahi\" that wants to adopt a witty, topical, culturally-aware voice without being cringe or opportunistic. Please provide: (1) A 3-sentence voice definition, (2) 5 principles that govern when the brand should make a topical joke and when to stay quiet, (3) 10 examples of a same-day topical post for different scenarios — cricket match result, Bollywood release, budget announcement, stock market dip, festival day, viral meme, political satire, celebrity moment, weather event, sports upset, (4) A risk matrix of topics the brand must never touch (religion, politics, tragedy, caste), (5) An approval workflow for topical posts under a 2-hour turnaround, (6) 5 before-after rewrites turning a generic finance tip into a witty Sahi post. Format as a topical content playbook. Consider the fine line Indian brands walk between humour and offence, ASCI guidance on influencer-style brand posts, and the Amul legacy that sets an impossibly high bar for Indian topical brand humor.",
+      "tags": [
+        "brand-voice",
+        "topical-marketing",
+        "humor",
+        "social-content"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-027",
+      "title": "Positioning for Men's Grooming Brand",
+      "prompt": "Act as a men's grooming category strategist with 11 years experience on Indian brands (Bombay Shaving Company, The Man Company, Beardo, Ustraa). I need you to craft a positioning architecture for a new premium men's grooming brand \"Rivaaj\" that celebrates Indian male heritage rituals (haldi, ubtan, kesar, neem) reinterpreted for modern urban men aged 25-40, price range INR 499-1,599. Please provide: (1) Category frame decision — premium grooming, heritage wellness, or masculine self-care, (2) Kotler positioning statement with 3 variants, (3) Brand essence in 3 words, (4) Points-of-parity and points-of-difference versus 4 competitors, (5) A positioning onion, (6) 2 target persona sketches, (7) 3 content pillars that bring the positioning to life, (8) A one-line brand promise. Format as a brand strategy brief. Consider the evolving Indian masculinity conversation (post-Shantanu Naidu, post-Virat Kohli grooming normalization), the tension between \"macho\" brands and softer self-care narratives, the role of fathers and traditional grooming memories, and how Sanskrit-rooted names must not tip into feeling dated.",
+      "tags": [
+        "positioning",
+        "mens-grooming",
+        "heritage",
+        "kotler"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-028",
+      "title": "Build Competitor Analysis Matrix for Logistics",
+      "prompt": "Act as a B2B brand strategist with 10 years experience in Indian logistics and supply chain brands (Delhivery, Shadowfax, Porter, Ecom Express, DTDC). I need you to build a competitor analysis matrix for a new intra-city B2B logistics brand \"Tez\" launching in Mumbai, Delhi, and Bengaluru targeting SME manufacturers and kirana wholesalers. Please provide: (1) A comparison matrix across 10 dimensions — positioning, tagline, visual identity, brand personality, service promise, pricing structure, differentiation claim, digital experience, sales approach, brand sentiment, (2) A scoring of each competitor on brand coherence (1-10), (3) A SWOT lite for each of the top 4 competitors, (4) 5 category conventions Tez could break, (5) 3 white-space positioning options with pros/cons, (6) A recommended positioning direction with brand essence, (7) 3 narrative angles unique to Tez. Format as a competitive analysis doc. Consider SME buyer behaviour in India (price sensitivity, relationship-driven sales, WhatsApp-first communication), the trust gap in intra-city B2B logistics, and how brand barely mattered historically in this category — which itself is the white space.",
+      "tags": [
+        "competitor-analysis",
+        "logistics",
+        "b2b",
+        "matrix"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-029",
+      "title": "Write Brand Manifesto for Sustainability Brand",
+      "prompt": "Act as a brand manifesto writer with 9 years experience crafting purpose-led copy for Indian sustainability brands (Bare Necessities, Phool, Beco, Ecoware). I need you to write a brand manifesto for a new sustainable homeware brand \"Prithvi\" making compostable kitchenware from sugarcane bagasse, targeting urban Indian households who want to reduce plastic but cannot afford or access most \"eco\" alternatives. Price range INR 49-499. Please provide: (1) A 300-word brand manifesto that reads aloud with cadence (meant for a 60-second anthem film), (2) A 100-word shorter version for the website hero, (3) A 25-word pledge version for packaging, (4) 5 rhetorical devices used (repetition, contrast, rhetorical question, call-and-response, imperative), (5) 3 rallying cry headline options, (6) A manifesto framework explaining the 6 beats used (enemy, belief, action, audience, promise, call), (7) A note on how to avoid greenwashing language. Format as a manifesto document. Consider Indian consumer skepticism toward \"eco\" premiums, the reality that most sustainability narratives target top 5% urban India, the cultural memory of traditional sustainable practices (banana leaves, clay kulhads), and the need to celebrate Indian eco-wisdom rather than import Western guilt.",
+      "tags": [
+        "brand-story",
+        "manifesto",
+        "sustainability",
+        "purpose"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-030",
+      "title": "Audit Brand Experience for Retail Store",
+      "prompt": "Act as a retail brand experience consultant with 12 years experience auditing Indian retail brands (FabIndia, Biba, Westside, W). I need you to audit the in-store brand experience for a kurta brand \"Suhana\" with 18 stores across Indian metros — stores currently feel generic and fail to translate the digital brand identity into the physical space. Please provide: (1) A framework covering 8 experience layers — shopfront, threshold moment, store layout, visual merchandising, staff behavior, fitting rooms, billing, exit, (2) A 40-point audit checklist, (3) How to grade each layer from brand-on to brand-off, (4) 5 experience gaps typical of Indian mid-premium apparel, (5) 3 signature experience moments Suhana should invent (e.g., kurta fit ritual, music, dupatta draping help), (6) A 60-day low-cost experience refresh plan under INR 8 lakh per store, (7) A staff training outline to deliver the new experience. Format as an experience audit report. Consider how Indian mall traffic patterns differ from high-street, the role of family shopping (mother-daughter, husband waiting) in Indian apparel retail, regional language signage needs, and the importance of trust-building moments like return policy clarity.",
+      "tags": [
+        "brand-audit",
+        "retail-experience",
+        "cx",
+        "apparel"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-031",
+      "title": "Generate Product Naming Options for Coffee Line",
+      "prompt": "Act as a brand naming strategist with 11 years experience naming product lines for Indian F&B brands. I need you to generate naming options for a new 6-SKU premium instant coffee line under the parent brand \"Koko\" — each SKU needs a sub-name that communicates flavour and mood. The 6 SKUs are: (1) a strong morning blend, (2) a smooth mid-day blend, (3) a decaf evening blend, (4) a hazelnut flavoured blend, (5) a cardamom flavoured blend, (6) a festive limited edition. Please provide: (1) 8 name options per SKU (48 total) — mix of English, Hindi, Hinglish, and evocative Sanskrit, (2) For each SKU, your top 2 recommendations with a 50-word rationale covering phonetics, trademark risk, and shelf pop, (3) A shortlist of 6 winning names across the line (one per SKU) with a consistency check that they feel like a family, (4) A naming architecture note (should it be descriptor-led, mood-led, or time-led), (5) Packaging on-pack usage tips, (6) 3 rejected name patterns to avoid. Format as a naming exploration doc. Consider Indian pantry familiarity with coffee terms, the risk of naming a cardamom blend in a way that sounds stereotypical, and the cultural resonance of morning-evening rituals.",
+      "tags": [
+        "naming",
+        "product-line",
+        "coffee",
+        "creative"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-032",
+      "title": "Positioning Refresh for 20-Year-Old Indian Brand",
+      "prompt": "Act as a brand revitalization strategist with 15 years experience refreshing legacy Indian brands (think Bajaj, Raymond, Voltas). I need you to design a positioning refresh for a 22-year-old Pune-based kitchen appliance brand \"Gruhini\" (INR 800 crore revenue) that is losing relevance among urban millennial home buyers who default to Prestige, Butterfly, Preethi, and Bosch. Please provide: (1) A diagnosis of why the current positioning no longer works, (2) 3 refresh options ranging from evolution to revolution, (3) A recommended refresh with Kotler positioning statement, (4) New points-of-parity and points-of-difference, (5) A \"from-to\" brand shift articulation on 6 dimensions (audience, voice, values, visuals, product focus, retail), (6) A phasing plan across 18 months to refresh without losing loyal legacy customers, (7) 3 internal alignment risks with promoter family, (8) 3 KPIs to measure brand health during the refresh. Format as a brand refresh strategy deck outline. Consider the Indian family-owned business dynamic where the next-gen wants change and the older generation resists, the role of kitchen appliance purchases in Indian wedding lists, and the shift to Instagram-driven product discovery among young home-makers.",
+      "tags": [
+        "positioning",
+        "brand-refresh",
+        "legacy-brand",
+        "revitalization"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-033",
+      "title": "Write Brand Voice for Government Scheme",
+      "prompt": "Act as a public sector communication strategist with 10 years experience designing brand voice for Indian government schemes and ministries (think Swachh Bharat, Beti Bachao Beti Padhao, Digital India). I need you to craft a brand voice and messaging playbook for a new Ministry of MSME scheme called \"Udyam Saathi\" that provides collateral-free credit to first-time women entrepreneurs in tier-2 and tier-3 India. Please provide: (1) A 3-sentence voice definition, (2) 4 voice principles (e.g., clear, dignified, encouraging, non-patronizing), (3) Nielsen 4-dimension plotting, (4) 10 do/don't pairs on how to talk about women entrepreneurs without tokenism, (5) Vernacular voice guidance for Hindi, Marathi, Tamil, and Bengali versions, (6) 5 rewrites of typical government communication into the Udyam Saathi voice, (7) A list of 10 signature phrases and 10 banned phrases, (8) Compliance guidance on mandatory government communication elements (ministry emblem, helpline, URL). Format as a communication playbook. Consider the tone trap of government schemes sounding bureaucratic, the dignity of tier-2/3 women entrepreneurs who deserve respect not sympathy, and how regional media still carries the most weight in Bharat for scheme awareness.",
+      "tags": [
+        "brand-voice",
+        "government",
+        "public-sector",
+        "vernacular"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-034",
+      "title": "JTBD Analysis for Home Insurance",
+      "prompt": "Act as an insurance category strategist with 9 years experience studying under-penetrated insurance markets in India. I need you to run a jobs-to-be-done analysis for home insurance in India (penetration under 1%) to help a new insurtech brand \"GharSurakshit\" position itself distinctively. Please provide: (1) The core functional job, (2) 3 related functional jobs (monsoon damage, theft cover, appliance breakdown), (3) 4 emotional jobs (peace of mind, protect what took a lifetime to build, be a responsible provider), (4) 3 social jobs (be seen as a wise head of family, avoid taboo of talking about misfortune), (5) Why current solutions (bank bundles, LIC) fail each job, (6) 3 positioning territories with messaging seeds, (7) The category conversation that must change for home insurance to grow, (8) 5 cultural barriers specific to India (the taboo of planning for bad things, joint-family ownership disputes, documentation hassle), (9) A recommended positioning. Format as a JTBD and positioning memo. Consider IRDAI communication guidelines, the emotional weight of \"my home\" in Indian middle-class identity, and why insurance conversations are avoided at the dinner table.",
+      "tags": [
+        "jobs-to-be-done",
+        "insurance",
+        "positioning",
+        "category-growth"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-035",
+      "title": "Build Brand House Architecture for Conglomerate",
+      "prompt": "Act as a brand architecture consultant with 14 years experience designing brand portfolios for Indian conglomerates (Tata, Aditya Birla, Godrej, ITC). I need you to design a brand architecture for a new D2C house \"NuCo\" that owns 6 brands — a coffee brand, a tea brand, a snacks brand, a personal care brand, an apparel brand, and a home decor brand — and is deciding between branded house, house of brands, or endorsed brands architecture. Please provide: (1) A comparison of the 3 architecture options with pros/cons for NuCo, (2) A recommended architecture with a 200-word rationale, (3) A visual representation of the recommended architecture (text/ASCII), (4) Endorsement rules for each child brand, (5) A brand naming convention for future launches, (6) Investment allocation logic (master brand vs child brand ad spend), (7) 3 risks of the recommended architecture, (8) Examples of Indian conglomerates that use each architecture model. Format as a brand architecture strategy doc. Consider Indian investor expectations for house brands post-Mamaearth (Honasa) IPO, the D2C aggregator playbook (Good Glamm, The Good Brand Co.), and the risk of under-investing in master brand equity.",
+      "tags": [
+        "brand-architecture",
+        "house-of-brands",
+        "portfolio",
+        "conglomerate"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-036",
+      "title": "Generate Festival Tagline Variants",
+      "prompt": "Act as a campaign creative strategist with 12 years experience writing Indian festival campaigns (Diwali, Rakhi, Holi, Onam, Durga Puja, Eid, Christmas, Ganesh Chaturthi). I need you to generate tagline variants for a single parent brand message \"Celebrate together\" across 8 Indian festivals for a smartphone brand \"Zen Mobile\" targeting multi-generational Indian households. Please provide: (1) One tagline per festival (8 total) that localizes \"Celebrate together\" to each festival's spirit, (2) For each tagline — the original language option, the English translation, the visual motif recommendation, and the emotional note, (3) A master rule for tonal consistency across all 8, (4) 3 festivals the brand should not activate in (and why), (5) 5 universal Indian celebration lines that work pan-festival, (6) A guidance note on avoiding religious stereotyping, (7) ASCI and MIB compliance pointers. Format as a festival tagline framework. Consider the sensitivity needed when activating across Hindu, Muslim, Christian, Sikh, and regional festivals, the risk of tokenism, and the brand's opportunity to celebrate lesser-known regional festivals (Pongal, Bihu, Pohela Boishakh) rather than defaulting to Diwali.",
+      "tags": [
+        "tagline",
+        "festival-marketing",
+        "cultural",
+        "campaign"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-037",
+      "title": "Audit Digital Brand Presence for Boutique Brand",
+      "prompt": "Act as a digital brand audit specialist with 8 years experience evaluating Indian D2C brand digital presence (worked with brands on Shopify, Instagram, Amazon, Flipkart). I need you to audit the digital brand presence of a 3-year-old boutique ceramics brand \"Mitti\" (INR 2 crore revenue) that has inconsistent brand expression across website, Instagram, Amazon, and packaging. Please provide: (1) A 5-channel audit framework — D2C website, Instagram, Amazon listing, packaging unboxing, email/WhatsApp, (2) A 30-point checklist with scoring (1-10), (3) Key findings per channel (3 per channel), (4) A heatmap of brand coherence across channels, (5) A prioritized fix list (P0/P1/P2) under an INR 3 lakh budget, (6) Templates for 5 high-leverage fixes — Instagram bio, Amazon A+ content hero, packaging insert card, email header, WhatsApp business profile, (7) A monthly review rhythm to maintain brand coherence. Format as a digital audit report. Consider Amazon and Flipkart listing quality guidelines, Instagram Reels dominance for discovery, the Shopify theme default trap, and the reality that most boutique Indian brand founders run all channels themselves without a brand manager.",
+      "tags": [
+        "brand-audit",
+        "digital-presence",
+        "d2c",
+        "boutique"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-038",
+      "title": "Write Brand Values and Principles Document",
+      "prompt": "Act as a brand foundation consultant with 10 years experience defining values and principles for Indian scale-ups (Nykaa, Lenskart, BoAt early days). I need you to write a brand values and principles document for a Series-A Bengaluru healthtech startup \"Svasth\" that provides home diagnostics and doctor consultations for senior citizens across India. Please provide: (1) 5 brand values each with a 2-sentence description and a behavior example, (2) 5 brand principles that guide product and marketing decisions (different from values — these are decision rules), (3) A \"we believe / we don't believe\" list with 6 pairs, (4) 3 promise-to-customer statements, (5) 3 promise-to-employee statements, (6) A code of conduct for senior citizen interactions (tone, language, pace, respect), (7) A test of how each value would resolve a real dilemma (e.g., a doctor is running late — do we refund or reschedule), (8) How to embed values into hiring, onboarding, and performance reviews. Format as a foundation document. Consider the reverence Indian culture has for elders, the emotional load of senior health decisions on adult children, the trust deficit in Indian private healthcare, and the need to feel like a trusted family member, not a transactional vendor.",
+      "tags": [
+        "brand-values",
+        "principles",
+        "healthtech",
+        "foundation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-039",
+      "title": "Tagline Generator for Tier-2 Real Estate",
+      "prompt": "Act as a real estate brand strategist with 11 years experience working on Indian developers (Lodha, DLF, Brigade, Prestige, and tier-2 developers). I need you to generate tagline options for a new tier-2 real estate developer \"Aashray Homes\" launching affordable housing projects in Indore, Nagpur, and Vizag, price range INR 28-55 lakh per unit, targeting first-time home-buying salaried families. Please provide: (1) 15 tagline candidates — 5 aspirational, 5 emotional-family, 5 trust-and-safety, (2) 5 Hindi taglines with transliteration and meaning, (3) 3 regional-language taglines (one Marathi, one Telugu, one Hindi), (4) For the top 5: memorability score, trademark risk flag, RERA-compliance note, (5) A shortlist of 3 with full rationale, (6) The winning recommendation with a 150-word justification and hoarding visual concept, (7) Guidance on RERA-mandated disclosures in taglines and creatives, (8) 5 cliched real estate tropes to avoid (\"dream home\", \"luxury living\", etc.). Format as a tagline evaluation doc. Consider RERA Section 32 guidelines on advertising claims, the trust deficit in Indian real estate post-Amrapali and Jaypee controversies, and the emotional weight of first-home purchases in tier-2 Indian families.",
+      "tags": [
+        "tagline",
+        "real-estate",
+        "tier-2",
+        "rera"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    },
+    {
+      "id": "marketing-brand-strategy-040",
+      "title": "Complete Brand Strategy Deck for D2C Launch",
+      "prompt": "Act as a brand strategy director with 16 years experience leading D2C brand launches at Indian agencies and accelerators. I need you to outline a complete brand strategy deck for a D2C launch of \"Tatva\" — a millet-based ready-to-eat meals brand targeting urban working professionals aged 25-40, price range INR 99-249 per meal, launching in Mumbai, Bengaluru, and Delhi NCR in Q2 2027. Please provide a 15-slide deck outline with bullet content for each slide: (1) Category opportunity and size, (2) Target audience and 2 persona sketches, (3) Consumer insight, (4) Competitor landscape and perceptual map, (5) White space, (6) Positioning statement (Kotler template), (7) Brand essence and personality, (8) Brand archetype, (9) Brand voice guidelines, (10) Visual identity direction, (11) Brand story and founder narrative, (12) Tagline shortlist, (13) Go-to-market channel priorities, (14) 12-month brand KPIs, (15) Risks and mitigations. Also provide: a 200-word executive summary to open the deck, and 5 questions the founder should be ready to defend from investors. Format as a structured deck outline. Consider the millet-push narrative post-International Year of Millets 2023, FSSAI frozen-meal regulations, cold chain realities in Indian D2C food, and the risk of positioning millets as virtuous rather than delicious.",
+      "tags": [
+        "brand-strategy",
+        "deck",
+        "d2c-launch",
+        "comprehensive"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "brand-strategy"
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "real-estate-real-estate-investors-001",
+      "title": "Residential Deal Analysis with Rental Yield",
+      "prompt": "Act as a real estate investment analyst with 12 years of experience analyzing Indian residential markets. I am evaluating a 2BHK apartment in Wakad, Pune priced at INR 95 lakh (carpet area 780 sqft). Expected monthly rent is INR 22,000, society maintenance INR 3,500/month, property tax INR 12,000/year. I plan 20% down payment and a 20-year home loan at 8.75% from SBI. Please provide: (1) gross rental yield and net rental yield after all outflows, (2) monthly EMI and total interest outflow over loan tenure, (3) cash-on-cash return in year 1 considering tax benefits under Section 24(b) and 80C, (4) break-even rent needed to cover EMI + maintenance, (5) 10-year projected IRR assuming 6% annual capital appreciation and 5% rent escalation, (6) comparison of this deal vs investing the down payment in a Nifty 50 index fund at 12% CAGR. Format as a clean analysis table with a verdict (buy/negotiate/reject) and three specific negotiation levers. Consider Indian context: RERA carpet area norms, GST not applicable on ready-to-move, TDS on rent above INR 50,000/month, and typical Pune micro-market appreciation trends.",
+      "tags": [
+        "deal-analysis",
+        "rental-yield",
+        "irr",
+        "residential",
+        "pune"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-002",
+      "title": "RERA Due Diligence Checklist Generator",
+      "prompt": "Act as a real estate legal consultant with 15 years of experience in Indian property due diligence and RERA compliance. I am about to book an under-construction 3BHK flat worth INR 1.4 crore in a project in Thane (MahaRERA registered). Please generate a comprehensive pre-booking due diligence checklist covering: (1) RERA verification steps — how to check project registration on maharera.mahaonline.gov.in, promoter track record, quarterly progress reports, and complaints filed, (2) title search — 30-year title chain, mother deed, mutation records, 7/12 extract, property card verification, (3) encumbrance certificate from sub-registrar for last 13 years, (4) statutory approvals — IOD, CC, OC, environment clearance, fire NOC, height clearance, (5) builder-buyer agreement red flags including carpet vs built-up clauses, delay penalty, force majeure, exit clauses, (6) bank legal and technical verification if taking loan from HDFC/ICICI, (7) KYC of promoter and land-owning entity, (8) GST applicability and stamp duty calculation for Maharashtra. For each item, specify: document to collect, authority to verify with, red flag indicators, and remedy if non-compliant. Format as a printable checklist with priority flags (critical/important/nice-to-have) and estimated time to complete each step.",
+      "tags": [
+        "due-diligence",
+        "rera",
+        "legal",
+        "checklist",
+        "under-construction"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-003",
+      "title": "Compare Residential vs Commercial Yields",
+      "prompt": "Act as a real estate portfolio advisor with experience serving Indian HNIs. I have INR 2 crore to deploy and am torn between (A) a residential 3BHK in Gurgaon Sector 67 at INR 2 crore yielding 2.8% gross, or (B) a pre-leased commercial office unit in Cyber City at INR 2 crore yielding 8.2% gross with a 5-year lock-in to an IT tenant. Please build a 10-year side-by-side comparison covering: (1) net yield after property tax, maintenance, vacancy, and brokerage, (2) expected capital appreciation for each asset class in NCR, (3) tax treatment — standard deduction 30% on rental income, GST implications on commercial (18% if rent > INR 20 lakh/year), TDS by tenant, (4) liquidity and exit difficulty, (5) tenant risk and re-leasing timelines, (6) leverage potential with LAP, (7) total return (IRR) under base, bull, bear scenarios. Conclude with a recommendation based on risk appetite and give three conditions that would flip the recommendation. Format as a structured comparison table followed by a narrative verdict. Use realistic Indian market data and cite typical NCR commercial cap rates.",
+      "tags": [
+        "residential-vs-commercial",
+        "yield-analysis",
+        "ncr",
+        "portfolio",
+        "hni"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-004",
+      "title": "REIT Investment Thesis — Embassy vs Mindspace",
+      "prompt": "Act as a REIT research analyst covering Indian listed real estate. I want to invest INR 10 lakh in Indian REITs and am evaluating Embassy Office Parks REIT, Mindspace Business Parks REIT, and Brookfield India REIT. Please prepare a comparative investment thesis covering: (1) portfolio composition — city mix, Grade A office share, SEZ vs non-SEZ, tenant profile, WALE (weighted average lease expiry), (2) current distribution yield and historical DPU trend, (3) NAV premium/discount to market price, (4) occupancy levels and re-leasing spreads, (5) debt profile — LTV, cost of debt, refinancing risk, (6) sponsor quality and governance track record, (7) tax treatment for individual investors including interest, dividend, and capital repayment components under current IT Act, (8) sensitivity to hybrid work trends and IT hiring slowdown. Recommend an allocation split across the three REITs with rationale, specify a target entry price for each, and list three triggers that would cause you to exit. Format as an equity research note with Buy/Hold/Sell rating for each. Base all numbers on publicly available data and clearly state assumptions.",
+      "tags": [
+        "reit",
+        "embassy",
+        "mindspace",
+        "brookfield",
+        "research"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-005",
+      "title": "Micro-Market Research Brief for Tier-2 City",
+      "prompt": "Act as a real estate market research analyst specializing in Indian tier-2 cities. I am considering investing in residential plots in Coimbatore with a budget of INR 60 lakh. Please create a micro-market research brief covering: (1) top 5 emerging residential micro-markets (e.g., Saravanampatti, Vadavalli, Kalapatti) with average plot rates per sqft and 3-year price trend, (2) infrastructure triggers — highway, metro, SEZ, IT corridor announcements that could drive appreciation, (3) demand drivers — local industry, education hubs, NRI inflows, (4) supply pipeline — upcoming layouts, DTCP approved vs unapproved, (5) rental absorption for any built-up component, (6) legal nuances specific to Tamil Nadu — patta, chitta, FMB sketch, guideline value vs market value, (7) realistic 5-year IRR projection with base and bear cases. Rank the 5 micro-markets and recommend top 2 with specific localities and price ceilings I should not exceed. Format as a market intelligence report with a one-page executive summary. Use data consistent with current Coimbatore real estate trends and flag any assumptions.",
+      "tags": [
+        "market-research",
+        "tier-2",
+        "coimbatore",
+        "plots",
+        "micro-market"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-006",
+      "title": "Cash Flow Model for Rental Property",
+      "prompt": "Act as a real estate financial modeler. I own a 2BHK flat in Hinjewadi, Pune purchased at INR 75 lakh, currently rented at INR 24,000/month to an IT professional. Outstanding home loan is INR 45 lakh at 8.5% with 15 years remaining. Please build a detailed monthly and annual cash flow model for the next 10 years covering: (1) gross rent with 5% annual escalation, (2) vacancy assumption of 1 month every 2 years, (3) society maintenance INR 4,000/month escalating 6%, (4) property tax, insurance, repairs budget 8% of rent, (5) EMI split into principal and interest, (6) tax on rental income after 30% standard deduction and interest set-off under Section 24(b), (7) annual cash flow after tax and EMI, (8) cumulative equity build-up from principal repayment and appreciation at 5% per year. Output as a 10-year table plus key metrics: year-1 cash-on-cash return, year when property becomes cash-flow positive (if currently negative), and total wealth created in 10 years. Highlight whether this is a yield play or appreciation play and suggest three ways to improve cash flow.",
+      "tags": [
+        "cash-flow",
+        "financial-model",
+        "rental-property",
+        "pune",
+        "hinjewadi"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-007",
+      "title": "Encumbrance Certificate Review Framework",
+      "prompt": "Act as a property title verification expert with 20 years of experience in Indian land records. I am purchasing a resale 3BHK flat in Bangalore and have received a 30-year encumbrance certificate (EC) from the sub-registrar office. Please create a structured review framework explaining: (1) what an EC contains and what it does NOT show (unregistered transactions, litigation, family disputes), (2) how to read each entry — document number, nature of transaction, parties, consideration, (3) red flags to look for — multiple mortgages, gift deeds, partition, court attachment, tax recovery, (4) cross-verification steps with Khata, BBMP records, Bhoomi/Kaveri portal, (5) how to handle gaps in the 30-year chain, (6) questions to ask the seller and builder for each red flag, (7) when to escalate to a title insurance company (like HDFC Ergo) and typical premium, (8) Karnataka-specific nuances — A-khata vs B-khata, BDA vs BBMP approvals, conversion order for agricultural land. Output as a step-by-step review SOP with sample findings and a go/no-go decision template. Keep the language accessible for a first-time buyer.",
+      "tags": [
+        "encumbrance-certificate",
+        "title-search",
+        "bangalore",
+        "due-diligence",
+        "legal"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-008",
+      "title": "Negotiation Script for Resale Property",
+      "prompt": "Act as a buyer-side real estate negotiator with experience closing 200+ deals in Mumbai. I am buying a 10-year-old 2BHK in Chembur listed at INR 1.85 crore. My research shows similar flats transacting at INR 1.65-1.72 crore. The seller is an NRI selling to repatriate funds and the broker says the seller is motivated. Please draft: (1) a pre-negotiation preparation checklist — market comps, defects found in site visit, legal issues, (2) an opening offer strategy with anchor price and justification talking points, (3) a full negotiation script with 8-10 expected objections and crisp responses (e.g., price anchoring, TDS on NRI sale, repair deductions, pending society dues, parking, furniture), (4) non-price levers I can use (possession timeline, payment schedule, token amount, inclusions), (5) walk-away price and BATNA, (6) closing tactics and how to handle last-minute price hikes, (7) NRI-specific issues — TDS at 20% LTCG plus surcharge, Form 15CA/CB, PAN, lower deduction certificate under Section 197. Format as a ready-to-use script with actual phrases I can speak in English/Hindi. Keep it respectful but firm.",
+      "tags": [
+        "negotiation",
+        "resale",
+        "mumbai",
+        "nri-seller",
+        "script"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-009",
+      "title": "LTCG Tax Planning with Section 54",
+      "prompt": "Act as a chartered accountant specializing in real estate taxation for Indian residents. I sold a residential flat in Chennai in June 2026 for INR 1.8 crore. I had purchased it in April 2012 for INR 55 lakh and spent INR 8 lakh on a kitchen renovation in 2018. I want to minimize tax legally. Please provide: (1) step-by-step LTCG computation using cost inflation index, including indexed cost of acquisition and indexed cost of improvement, (2) the LTCG tax liability at 20% with indexation (under old regime applicable for pre-July 2024 purchases), (3) exemption options under Section 54 — buying a new residential house within the prescribed timeline, amount that must be reinvested, lock-in rules, and consequences of partial reinvestment, (4) Section 54EC bonds option — NHAI/REC/PFC, INR 50 lakh cap, 5-year lock-in, current interest rate, (5) Capital Gains Account Scheme if I need time to identify a new property, (6) how to combine Section 54 + 54EC for optimal tax saving, (7) documentation and ITR reporting requirements. Format as a computation sheet followed by three recommended strategies ranked by net wealth outcome. Flag any recent Budget changes affecting LTCG on property.",
+      "tags": [
+        "ltcg",
+        "section-54",
+        "capital-gains-tax",
+        "tax-planning",
+        "indexation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-010",
+      "title": "First-Time Investor Property Screening",
+      "prompt": "Act as a real estate coach for first-time Indian investors. I have a corpus of INR 35 lakh as down payment and can service an EMI of INR 45,000/month. My goal is to buy my first investment property (not self-occupied) in a city different from my home city. Please create a screening framework covering: (1) how to choose between Hyderabad, Pune, Bangalore, Ahmedabad, Indore based on yield, appreciation, ease of management, (2) property type decision — ready flat vs under-construction vs plot vs REIT, with pros/cons for a first-timer, (3) budget sizing — maximum property price I can afford including stamp duty (7%), registration, GST, interiors, brokerage, (4) loan eligibility estimation based on salary and existing liabilities, (5) a shortlist of 10 screening questions to ask any broker, (6) common first-time investor mistakes to avoid (emotional buying, builder promises, sub-vent schemes, pre-launch offers), (7) a 30-60-90 day action plan from research to registration. Format as a beginner-friendly playbook with clear numbers and a self-assessment quiz at the end. Avoid jargon and explain any technical terms used.",
+      "tags": [
+        "first-time-investor",
+        "screening",
+        "playbook",
+        "beginner",
+        "down-payment"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-011",
+      "title": "Builder Background Check Research",
+      "prompt": "Act as a real estate investigator specializing in Indian builder due diligence. I am considering a project by a mid-sized developer in Noida promising 12% assured returns for 3 years on a retail shop worth INR 65 lakh. Please create a comprehensive builder background check covering: (1) MCA21 company search — incorporation date, directors, shareholding, charges filed, (2) RERA complaints and penalty orders on UP-RERA portal, (3) court cases — NCLT/IBC proceedings, consumer forum cases, writ petitions against the builder, (4) past project delivery track record — delay analysis, possession vs promised date, quality complaints on forums, (5) financial health — auditor reports, contingent liabilities, related-party transactions, loans from NBFCs, (6) credibility of the assured return scheme — legal status after RBI/SEBI crackdown on collective investment schemes, (7) sources and portals to check (Zauba, Tofler, RERA sites, consumer forums, NCLT, Google News), (8) red flag threshold — when to walk away entirely. Output as an investigation checklist with specific URLs and search queries, plus a scoring rubric (0-100) to rate builder risk. Also warn me about assured return scheme risks with 2-3 real examples.",
+      "tags": [
+        "builder-due-diligence",
+        "background-check",
+        "assured-return",
+        "noida",
+        "rera"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-012",
+      "title": "Home Loan Comparison Across Indian Lenders",
+      "prompt": "Act as a home loan advisor with experience comparing Indian lenders. I am taking an INR 80 lakh home loan for 20 years to buy an investment property in Bangalore. My CIBIL is 790, annual income INR 32 lakh, existing EMIs INR 18,000/month. Please compare SBI, HDFC Bank, ICICI Bank, Axis Bank, LIC Housing Finance, and Bajaj Housing Finance on: (1) current interest rate (repo-linked vs MCLR vs PLR) for my profile, (2) processing fee, legal and technical charges, documentation fee, (3) prepayment and foreclosure charges for floating vs fixed rate, (4) loan-to-value offered and any top-up options, (5) EMI and total interest outflow, (6) special features — overdraft facility (SBI Maxgain, HDFC Home Saver), step-up EMI, balance transfer, (7) turnaround time and documentation hassle, (8) hidden costs like property insurance, credit life insurance bundling. Output as a comparison matrix with a recommended lender and rationale. Also suggest 5 negotiation tactics to reduce the quoted rate by 15-30 basis points and three questions that usually trip up borrowers.",
+      "tags": [
+        "home-loan",
+        "lender-comparison",
+        "sbi",
+        "hdfc",
+        "interest-rate"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-013",
+      "title": "Site Visit Checklist for Ready Flat",
+      "prompt": "Act as a real estate inspection expert. I am visiting a ready-to-move 3BHK flat in a 5-year-old society in Koramangala, Bangalore tomorrow. The asking price is INR 2.4 crore. Please create a comprehensive site visit checklist covering: (1) exterior and society — entrance, parking layout, open spaces, security, fire safety, lift maintenance, water source, power backup, visitor management, (2) flat interior — carpet area measurement, ventilation, natural light, wall cracks, seepage, dampness on ceilings and walls, tile condition, plumbing, electrical fittings, (3) utilities — water pressure, drainage, gas pipeline, internet connectivity, (4) neighbourhood checks — noise, traffic, smell, pollution, proximity to garbage zone, mobile signal, (5) society documentation to ask for — AGM minutes, maintenance dues, sinking fund, pending litigation, upcoming major repairs, NOC from association, (6) neighbour conversations — what questions to ask without being intrusive, (7) photos and videos to capture systematically, (8) a post-visit scoring sheet across 15 parameters. Format as a printable checklist with a weighted scoring model to compare multiple flats objectively.",
+      "tags": [
+        "site-visit",
+        "inspection",
+        "checklist",
+        "bangalore",
+        "ready-flat"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-014",
+      "title": "Explain RERA Protections to New Investor",
+      "prompt": "Act as a RERA compliance trainer for retail investors. I am a first-time buyer booking an under-construction flat and want to understand RERA protections. Please create an educational brief covering: (1) objectives of the RERA Act 2016 and state-level authorities, (2) mandatory RERA registration — which projects are covered, thresholds, (3) key protections — 70% escrow rule, carpet area definition, no advertising without RERA number, delay compensation, (4) buyer rights — right to information, quarterly updates, structural defect liability for 5 years, refund with interest on delay, (5) complaint process — how to file on state RERA portal, timelines, appeal to appellate tribunal, (6) typical RERA penalty structure and enforcement record in states like Maharashtra, Karnataka, UP, (7) limitations — what RERA does NOT cover (completed projects, small projects, land deals), (8) practical tips to maximize RERA protection before and after booking. Illustrate with 2-3 real case studies where RERA helped buyers get refunds or possession. Format as a FAQ-style explainer with a one-page cheat sheet at the end. Keep language simple and avoid legal jargon.",
+      "tags": [
+        "rera",
+        "education",
+        "buyer-rights",
+        "under-construction",
+        "protection"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-015",
+      "title": "Stamp Duty and Registration Cost Calculator",
+      "prompt": "Act as a property registration expert familiar with state-wise stamp duty in India. I am buying properties across three cities for investment and want to understand the full registration cost in each. Properties: (A) Mumbai flat INR 1.2 crore, (B) Bangalore flat INR 1.1 crore, (C) Gurgaon flat INR 1.3 crore. Please compute for each: (1) stamp duty rate applicable (including gender-based concessions for female co-owner), (2) registration fee, (3) metro cess or local body tax if applicable, (4) GST on under-construction vs ready (5% without ITC, 1% affordable), (5) mutation charges, (6) TDS under Section 194-IA if property value above INR 50 lakh, (7) total registration cost and effective transaction cost as percentage of property value, (8) tips to legally reduce stamp duty — female co-ownership, ready-reckoner vs market, state rebate windows. Output as a three-column comparison table plus a combined budget. Then list three timing strategies (state budget announcements, stamp duty amnesty schemes, festival offers) that could save INR 1-3 lakh. Use current rates for Maharashtra, Karnataka, Haryana.",
+      "tags": [
+        "stamp-duty",
+        "registration",
+        "cost-calculator",
+        "tds",
+        "gst"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-016",
+      "title": "Rental Agreement Key Clauses Review",
+      "prompt": "Act as a rental law specialist for Indian residential leases. I own a flat in Whitefield, Bangalore and am about to sign an 11-month rental agreement with a tenant at INR 35,000/month with INR 3.5 lakh security deposit. The tenant is an IT employee. Please provide: (1) a list of 15 must-have clauses and what each should say — lock-in, notice period, rent escalation, maintenance split, security deposit refund timeline, painting charges, society rules, usage, subletting, (2) Karnataka Rent Control and Model Tenancy Act applicability and implications, (3) registration requirement — 11-month vs longer leases, e-stamping process, (4) TDS on rent above INR 50,000/month under Section 194-IB, (5) how to handle late payment, bounced cheques, and damages with specific penalty clauses, (6) exit clauses — who can terminate when and with how much notice, (7) police verification of tenant, (8) three red flag clauses I should NEVER accept even if the tenant insists. Output as an annotated sample agreement structure with explanatory notes for each clause. Also include a pre-move-in and post-move-out checklist for security deposit disputes.",
+      "tags": [
+        "rental-agreement",
+        "clauses",
+        "landlord",
+        "bangalore",
+        "tenant"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-017",
+      "title": "IRR Model for 10-Year Hold Strategy",
+      "prompt": "Act as a real estate investment modeler. I am building a 10-year IRR model for a commercial office unit of 1,200 sqft in Hitec City, Hyderabad. Purchase price INR 1.8 crore (all-in including stamp duty and interiors), 50% debt at 9.25% for 10 years. Current rent INR 85/sqft/month with a 5-year lease, 15% escalation every 3 years, 1 year rent-free at lease renewal, exit at 8.0% cap rate at year 10. Please build: (1) annual unlevered cash flow — EGI, OPEX 10% of EGI, NOI, (2) levered cash flow after interest and principal, (3) exit value using terminal cap rate on year-11 NOI, (4) unlevered IRR and levered IRR, (5) equity multiple and cash-on-cash return in each year, (6) sensitivity table — IRR under cap rate (7.0-9.0%) and rent escalation (3-8% CAGR), (7) tax treatment including depreciation, interest deduction, and LTCG at exit with indexation, (8) go/no-go threshold — minimum levered IRR you would accept for this risk profile and why. Output as a complete model structure with formulas, year-by-year cash flow table, and a one-paragraph investment memo.",
+      "tags": [
+        "irr",
+        "dcf",
+        "commercial",
+        "hyderabad",
+        "financial-model"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-018",
+      "title": "JV Agreement Review for Land Development",
+      "prompt": "Act as a real estate JV lawyer with 15 years of experience in Indian land development deals. I (landowner) am entering a JV with a Bangalore-based developer to build an apartment project on my 1-acre plot in Sarjapur. The developer proposes 60:40 revenue share (my favour), FSI 2.25, estimated 1.2 lakh sqft saleable, 30-month delivery. Please create a clause-by-clause review framework covering: (1) scope and deliverables — BOQ, specifications, amenities, (2) development rights and power of attorney — scope, revocability, consideration, (3) area sharing vs revenue sharing mechanics, allocation methodology, refusal rights, (4) project timelines, milestones, delay penalties, force majeure, (5) approvals responsibility and cost allocation (BDA, BBMP, RERA, environment), (6) quality, construction linked payment, escrow, audit rights, (7) marketing control, pricing floor, launch approval, (8) exit — termination, dispute resolution (arbitration seat, institution), buyout clauses, (9) tax implications — JDA under Section 45(5A), GST, stamp duty on GPA. Output as a review note listing 20 critical clauses with drafting suggestions and 5 deal-breakers. Also compare area-sharing vs revenue-sharing with numerical illustration.",
+      "tags": [
+        "joint-venture",
+        "jda",
+        "landowner",
+        "bangalore",
+        "legal-review"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-019",
+      "title": "Pre-Leased Commercial Deal Underwriting",
+      "prompt": "Act as a commercial real estate underwriter. I am evaluating a pre-leased retail unit of 2,500 sqft on ground floor of a high street in Indiranagar, Bangalore. Asking price INR 6.5 crore. Tenant is a well-known QSR chain with 7-year lease, INR 4.5 lakh/month rent, 3-year lock-in, 15% escalation every 3 years, 3 months security deposit. Cap rate works out to 8.3%. Please underwrite the deal covering: (1) tenant credit analysis — parent company financials, unit-level profitability, rent-to-sales ratio assumption, (2) lease quality score — lock-in strength, escalation structure, exit options for tenant, (3) micro-market rent benchmark — comparable high street rents, vacancy risk if tenant exits, time to re-lease, (4) going-in vs stabilized cap rate, (5) reversion risk if rent is above market, (6) total return forecast assuming 4% annual capital appreciation and exit in year 7, (7) GST applicability and TDS, (8) five risks that could destroy the investment thesis. Output as a credit memo with approve/reject/counter recommendation and three counter-offer terms (price reduction, longer lock-in, personal guarantee). Be conservative in assumptions.",
+      "tags": [
+        "pre-leased",
+        "commercial",
+        "underwriting",
+        "bangalore",
+        "retail"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-020",
+      "title": "Portfolio Rebalancing Analysis",
+      "prompt": "Act as a wealth manager specializing in real estate portfolios for Indian HNIs. My client is a 48-year-old Mumbai-based entrepreneur with the following real estate holdings: (A) self-occupied flat in Bandra worth INR 8 crore (loan-free), (B) 2 rental flats in Pune worth INR 2.4 crore combined, yielding 2.5%, (C) a commercial shop in Surat worth INR 1.2 crore yielding 7%, (D) agricultural land near Nashik worth INR 3 crore (non-yielding), (E) INR 15 lakh in Embassy REIT. Total real estate INR 14.75 crore, which is 72% of net worth. Please provide: (1) a concentration and yield analysis of the current portfolio, (2) rebalancing recommendation with target allocation across self-use, yield-focused, appreciation-focused, liquid, (3) which assets to exit first and rationale (including tax cost of exit), (4) proceeds redeployment plan — fresh REIT allocation, commercial Grade A, InvITs, equity, (5) liquidity ladder for the next 10 years, (6) succession and estate planning notes — will, HUF, private trust, (7) risk factors — concentration, illiquidity, regulatory. Output as a one-page portfolio summary plus a detailed rebalancing action plan with specific sell/buy orders and target timelines over 24 months.",
+      "tags": [
+        "portfolio",
+        "rebalancing",
+        "hni",
+        "wealth-management",
+        "reit"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-021",
+      "title": "Under-Construction Project Financial Risk",
+      "prompt": "Act as a real estate risk analyst. I am considering booking a 3BHK flat worth INR 2.1 crore in an under-construction project in Thane launched by a mid-sized developer. Construction-linked plan, 36-month possession, 20% on booking, 70% during construction, 10% on possession. Please build a financial risk assessment covering: (1) expected IRR if delivered on time vs delayed by 12 months vs 24 months, (2) opportunity cost of staged payments vs alternate investment at 11%, (3) builder balance sheet risk — stage when a mid-sized builder typically runs into cash flow issues, (4) NCLT/insolvency risk and buyer's position as a financial creditor under IBC 2019 amendment, (5) interest during construction if loan is taken — pre-EMI vs full EMI impact, (6) price discovery risk — if secondary market at possession is lower than contracted, (7) escrow protection under RERA and what the 70% rule actually protects, (8) subvention scheme risks (80:20, 10:80:10). Output as a risk matrix with probability and impact, followed by five hedging tactics (staggered booking, RERA project monitoring, legal structuring, insurance) and a buy/defer/avoid recommendation.",
+      "tags": [
+        "under-construction",
+        "risk",
+        "thane",
+        "nclt",
+        "subvention"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-022",
+      "title": "LLP Structure for Real Estate Partnership",
+      "prompt": "Act as a structuring advisor for Indian real estate partnerships. Four investors want to pool INR 8 crore equally (INR 2 crore each) to buy a commercial office floor in BKC, Mumbai for rental income. Please design the optimal structure covering: (1) comparison of co-ownership vs private limited company vs LLP vs AOP for this use case, (2) recommended structure with rationale, (3) LLP formation — MCA process, DPIN, LLP agreement, capital contribution, profit sharing, (4) GST registration and compliance, TDS obligations, (5) tax implications — rental income taxation in LLP at 30%+ cess vs pass-through, distribution to partners, LTCG at exit, (6) loan eligibility for LLP, typical lender preferences, personal guarantees, (7) governance — decision rights, deadlock resolution, reserved matters, transfer restrictions, (8) exit mechanics — ROFR, drag-along, tag-along, valuation, put options, (9) a sample capital table and cash distribution waterfall. Output as a structuring memo with a recommended structure diagram and a checklist to operationalize the LLP in 45 days. Flag 5 common mistakes investors make in RE partnerships.",
+      "tags": [
+        "llp",
+        "partnership",
+        "structuring",
+        "bkc",
+        "commercial"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-023",
+      "title": "Title Search SOP for Plot Purchase",
+      "prompt": "Act as a land title expert for Indian plot transactions. I am buying a 2,400 sqft plot in Kollur, Hyderabad for INR 95 lakh. The seller claims clear title through a GPA from the original patta holder. Please create a title search SOP covering: (1) verification of patta and pattadar passbook, (2) mother deed and 30-year title chain, (3) Dharani portal checks for agricultural to residential conversion (NALA), (4) HMDA/GHMC layout approval, LRS regularization, (5) legality of GPA sales — Supreme Court ruling in Suraj Lamp case and its implications, (6) encumbrance certificate verification, (7) litigation check — high court, consumer forum, revenue cases, (8) physical possession and boundary verification, (9) minimum documents I should insist on from the seller and not compromise. For each step, specify the source, timeline, cost, and red flag indicators. Also explain why GPA-based sales are risky and what documents can legitimize them. Output as a printable SOP with a decision tree: if clear title proceed, if minor issues negotiate, if major issues walk away. Recommend a local advocate's checklist format.",
+      "tags": [
+        "title-search",
+        "plot",
+        "hyderabad",
+        "gpa",
+        "dharani"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-024",
+      "title": "Renovation ROI Analysis Before Resale",
+      "prompt": "Act as a real estate value-add specialist. I own a 15-year-old 2BHK flat in Malad, Mumbai bought 8 years ago for INR 85 lakh, current market value INR 1.35 crore as-is. I have INR 12 lakh budget for renovation and want to maximize resale value. Please create a renovation ROI analysis covering: (1) high-ROI improvements ranked by value addition per rupee spent — modular kitchen, bathroom upgrade, flooring, painting, false ceiling, POP, wardrobe, electrical, (2) low-ROI improvements to avoid, (3) estimated post-renovation market value based on micro-market comparables, (4) net profit after subtracting renovation cost and 6-month opportunity cost, (5) capital gains tax impact — how renovation cost can be added to cost of improvement and reduce LTCG, (6) staging and photography strategy for resale, (7) timeline to sell — list immediately vs after 3-6 months, (8) break-even analysis — minimum value uplift needed to justify renovation vs sell-as-is. Output as an ROI table per renovation head, a recommended scope within budget, and a final verdict: renovate-and-sell vs sell-as-is vs rent-out. Use realistic Mumbai contractor rates.",
+      "tags": [
+        "renovation",
+        "roi",
+        "resale",
+        "mumbai",
+        "value-add"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-025",
+      "title": "Distressed Auction Property Opportunity",
+      "prompt": "Act as a distressed real estate specialist with experience in bank auctions under SARFAESI Act. I am considering bidding in an IBBI/bank e-auction for a 4BHK flat in Gurgaon with reserve price INR 1.6 crore (market value INR 2.1 crore). Please create an acquisition playbook covering: (1) SARFAESI auction process — notice 13(2), 13(4), symbolic vs physical possession, reserve price determination, (2) pre-bid due diligence — property inspection rights, tenant in possession risk, society dues, pending loans, legal heir disputes, (3) EMD, bid increments, winner declaration, 25% immediate and 75% within 15 days, (4) post-auction risks — borrower right of redemption, writ petitions, DRT/DRAT appeals, physical possession delays, (5) registration, mutation, and transfer challenges, (6) financing — which lenders fund auction purchases and typical LTV, (7) expected discount to market value and historic realization data, (8) 5 horror stories and mitigation. Output as an end-to-end playbook with bid price ceiling calculation, a risk-adjusted return estimate, and a go/no-go framework. Also list 3 portals to find ongoing bank auctions (IBAPI, eBKray, individual bank sites).",
+      "tags": [
+        "distressed",
+        "auction",
+        "sarfaesi",
+        "gurgaon",
+        "drt"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-026",
+      "title": "Mixed-Use Project Feasibility Study",
+      "prompt": "Act as a real estate feasibility analyst. A landowner friend has a 1.5-acre plot in Gachibowli, Hyderabad and wants to know the best use. Permissible FSI 3.5, max height 45m. Options: (A) residential apartments, (B) commercial office, (C) co-living/serviced apartments, (D) mixed-use residential + retail. Please build a feasibility study covering: (1) total saleable and leasable area under each option, (2) construction cost per sqft, total project cost including land and approvals, (3) revenue — sale price or rent per sqft based on current Gachibowli rates, (4) project timeline — approvals, construction, leasing/sales absorption, (5) cash flow projection and project IRR for each option, (6) development risk — market risk, execution risk, approval risk, (7) optimal structure — self-develop, JDA with reputed builder, or outright land sale, (8) sensitivity to price and absorption changes, (9) recommendation with top 2 options ranked. Format as a feasibility report with a summary matrix, detailed assumptions table, and a 3-page management summary. Use realistic Hyderabad market data.",
+      "tags": [
+        "feasibility",
+        "mixed-use",
+        "hyderabad",
+        "development",
+        "fsi"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-027",
+      "title": "Rental Yield Arbitrage Across Cities",
+      "prompt": "Act as a real estate data analyst. I want to deploy INR 3 crore in residential rental properties and am exploring yield arbitrage across Indian cities. Please build an analysis covering: (1) 3BHK residential gross rental yields in micro-markets of Mumbai, Bangalore, Pune, Hyderabad, Chennai, Kolkata, Ahmedabad, Indore, Lucknow, Jaipur, (2) rank top 5 cities by yield, factoring in vacancy, rent growth, appreciation, and liquidity, (3) for each top city, identify 2 specific micro-markets and typical property type that maximizes yield, (4) legal and operational ease — tenant profile, eviction difficulty, state rental laws, (5) management overhead for out-of-city ownership and recommended property management solutions, (6) portfolio construction — how to split INR 3 crore across 3-4 properties in different cities, (7) risk-adjusted return ranking accounting for operational complexity, (8) entry and exit strategy. Output as a city ranking table, a recommended 4-property portfolio with specific city + micro-market + budget split, and an operating model covering rent collection, maintenance, and compliance. Flag 3 common mistakes in out-of-city rental investing.",
+      "tags": [
+        "yield-arbitrage",
+        "multi-city",
+        "rental",
+        "portfolio",
+        "data"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-028",
+      "title": "Debt vs Equity Structure Optimization",
+      "prompt": "Act as a real estate capital structure advisor. I am buying a commercial office in Whitefield, Bangalore for INR 4.5 crore (expected net rental yield 7.5%). I have INR 4.5 crore in liquid assets (FD, MF) earning average 8% pre-tax. I am in the 30% tax bracket. I am weighing: (A) pay 100% cash, (B) 50% loan at 9.25% and invest 50% in equity MFs at 12% expected, (C) 75% loan at 9.25% and invest 75% elsewhere. Please build a capital structure analysis covering: (1) after-tax cost of debt considering interest deduction against rental income, (2) after-tax return on liquid assets displaced, (3) net leverage cost vs net opportunity cost of cash, (4) levered vs unlevered IRR of the RE investment over 10 years, (5) risk — EMI serviceability if vacancy spikes, refinancing risk, (6) impact on balance sheet, debt-to-income, and future borrowing capacity, (7) tax leakage and optimization (e.g., loan in personal name for interest deduction), (8) recommended structure with rationale and 2 fallback scenarios. Output as a scenario comparison table with after-tax IRR and a qualitative risk score.",
+      "tags": [
+        "capital-structure",
+        "leverage",
+        "debt-equity",
+        "commercial",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-029",
+      "title": "Fractional Ownership Platform Evaluation",
+      "prompt": "Act as a fractional real estate analyst. I want to invest INR 25 lakh across Indian fractional ownership platforms (Strata, hBits, Property Share, Assetmonk, MYRE Capital) offering Grade A pre-leased commercial deals. Please build an evaluation framework covering: (1) platform comparison — SEBI SM REIT registration status, track record, AUM, deal flow, minimum ticket, (2) typical deal structure — SPV, LLP, direct ownership, and investor rights in each, (3) fee structure — acquisition fee, asset management fee, exit fee, performance fee, total drag on gross yield, (4) historical gross vs net yield delivered to investors, (5) exit liquidity — secondary market, typical hold period, listing on SM REIT, (6) due diligence — how each platform vets assets, title, tenant credit, (7) tax treatment — rental distribution, capital gains at SPV exit, TDS, reporting in ITR, (8) regulatory risk post SEBI SM REIT framework. Rank the 5 platforms and recommend a diversified INR 25 lakh allocation across 3-4 deals. Output as a comparison matrix plus specific deal types (warehouse, office, retail) to target and 5 questions to ask every platform's investor relations team.",
+      "tags": [
+        "fractional-ownership",
+        "sm-reit",
+        "strata",
+        "hbits",
+        "platform"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-030",
+      "title": "Land Banking Strategy for Peri-Urban Growth",
+      "prompt": "Act as a land banking strategist with experience in peri-urban Indian markets. I have INR 1.5 crore and a 10-year horizon. I want to acquire agricultural or residential plots in growth corridors around Bangalore (Sarjapur, Chandapura, Devanahalli, Nelamangala). Please build a land banking strategy covering: (1) thesis for each corridor — infra triggers (STRR, suburban rail, airport expansion, IT SEZ), population growth, employment centres, (2) price trends over last 10 years and forward appreciation forecast, (3) how to evaluate plot legality — DC conversion, BMRDA/BDA approval, zoning (green belt vs residential), survey number verification, (4) agricultural land restrictions — Section 79A/79B of Karnataka Land Reforms Act and who can buy, (5) holding cost — property tax, fencing, caretaker, weed management, encroachment risk, (6) portfolio construction — 3-4 plots across corridors vs single large holding, (7) exit routes — sale to developer, JDA, sub-division, (8) tax at exit including LTCG and agricultural income exemption nuances. Output as a 10-year strategy with specific corridor allocation, target ticket size, and 5 red flags that would make me sell early.",
+      "tags": [
+        "land-banking",
+        "bangalore",
+        "peri-urban",
+        "strategy",
+        "agricultural"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-031",
+      "title": "NRI Property Investment Compliance",
+      "prompt": "Act as an NRI real estate advisor with expertise in FEMA and Income Tax compliance. A client based in Dubai (NRI for 8 years) wants to buy a residential flat in Bangalore worth INR 1.8 crore with 60% loan from an Indian bank. Please prepare a compliance playbook covering: (1) permitted property types for NRIs under FEMA — residential and commercial allowed, agricultural/plantation/farmhouse not allowed, (2) funding options — NRE, NRO, FCNR accounts, inward remittance, home loan from Indian banks to NRIs, (3) KYC and documentation — OCI card, passport, visa, overseas address proof, PAN, power of attorney to Indian relative, (4) TDS on rental income paid to NRI at 31.2%, (5) repatriation rules — up to USD 1 million per year from NRO, sale proceeds repatriation limits, (6) capital gains tax on future sale — LTCG 20% with indexation, TDS under Section 195, lower deduction certificate, DTAA benefits with UAE, (7) ITR filing obligations in India, (8) estate planning — will, joint ownership, nomination. Output as a compliance checklist with timelines, forms, and authorities. Also list 5 practical tips to simplify remote property management from Dubai.",
+      "tags": [
+        "nri",
+        "fema",
+        "compliance",
+        "dubai",
+        "repatriation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-032",
+      "title": "Technical Due Diligence for Old Building",
+      "prompt": "Act as a civil engineer specializing in building inspection. I am buying a 25-year-old 3BHK flat on the 4th floor of a 6-floor building in Dadar, Mumbai for INR 2.2 crore. The building is a non-redevelopment society with original RCC structure. Please create a technical due diligence framework covering: (1) structural assessment — column/beam condition, carbonation, spalling, reinforcement corrosion, visible cracks classification, (2) structural audit report — when was the last audit done, BMC requirement for 30+ year buildings, (3) terrace, waterproofing, water tank, lift machine room inspection, (4) plumbing and electrical systems — age, load capacity, conduit condition, (5) redevelopment potential — FSI unused, TDR, SRA or cluster redevelopment possibility, developer interest, likely offer per sqft of carpet, (6) monsoon readiness — drainage, leakage, seepage history, (7) NDT tests to commission (rebound hammer, UPV, core cutter) and cost, (8) cost estimate for immediate repairs vs 10-year capex. Output as a technical checklist with go/caution/stop flags, and a redevelopment optionality valuation (how much premium the redevelopment angle justifies). Include Mumbai-specific redevelopment context.",
+      "tags": [
+        "technical-dd",
+        "structural",
+        "mumbai",
+        "redevelopment",
+        "old-building"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-033",
+      "title": "Advanced DCF with Monte Carlo Simulation",
+      "prompt": "Act as a quant-oriented real estate investment strategist. I am valuing a Grade A commercial office investment in BKC, Mumbai of 10,000 sqft for INR 30 crore, currently leased to a global bank at INR 275/sqft/month, 9-year lease, 15% escalation every 3 years, 3-year lock-in, 6 months rent-free at renewal. Please build an advanced valuation framework: (1) 10-year unlevered DCF with quarterly cash flows, including CAM, OPEX, vacancy provision, and leasing capex at renewal, (2) levered DCF with 55% LTV loan at 9.5%, assuming interest-only for 5 years then amortizing, (3) terminal value using both going-out cap rate (7-9%) and Gordon growth, (4) Monte Carlo simulation with 10,000 runs varying rent escalation (5-20% triennial), vacancy (0-12 months), exit cap (6.5-9.5%), interest rate (8.5-11%), (5) distribution of unlevered and levered IRR — P10, P50, P90, probability of IRR less than 10%, (6) key sensitivities ranked by impact (tornado chart), (7) recommended bid price for 15% target levered IRR at P50, (8) risk-adjusted value vs asking price and negotiation strategy. Output as a structured model brief with assumptions, a simulation result summary, and an investment committee recommendation memo.",
+      "tags": [
+        "dcf",
+        "monte-carlo",
+        "quant",
+        "bkc",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-034",
+      "title": "SM REIT Launch Evaluation Framework",
+      "prompt": "Act as a capital markets advisor specializing in the SEBI SM REIT (Small & Medium REIT) framework. A sponsor is planning to launch an SM REIT with a portfolio of 3 Grade A office assets worth INR 450 crore located in Pune, Bangalore, and Hyderabad with a weighted cap rate of 8.1%. I am evaluating whether to participate in the IPO as an anchor investor at INR 5 crore. Please build an evaluation framework covering: (1) SEBI SM REIT regulations 2024 — min asset size, sponsor holding, leverage cap, distribution rules, (2) asset quality assessment — WALE, tenant credit, occupancy, escalation, capex needs, (3) sponsor evaluation — pedigree, alignment, historical returns, skin in the game, (4) unit economics — projected DPU, yield, NAV, premium/discount at listing, (5) comparison with listed large REITs (Embassy, Mindspace, Brookfield) on yield, quality, growth, (6) tax treatment — interest, dividend, capital repayment components, and impact on after-tax yield, (7) liquidity risk — trading volume expectations, listing venue, market making, (8) key risks — concentration, renewal, interest rate, regulatory. Output as an IC memo with bid/pass recommendation, max acceptable yield at entry, and 5 conditions that would flip the decision.",
+      "tags": [
+        "sm-reit",
+        "sebi",
+        "ipo",
+        "anchor",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-035",
+      "title": "Complex JDA Negotiation Scenario Analysis",
+      "prompt": "Act as a real estate deal structurer for landowner-developer JDAs. I own a 3-acre prime plot in Whitefield, Bangalore (market value INR 45 crore). A Grade A developer proposes a JDA with three alternative structures: (A) 58:42 area share (my favour), (B) 55:45 revenue share (my favour), (C) 50:50 area share + INR 12 crore upfront non-refundable deposit. Permissible FSI 3.25, estimated saleable 4.25 lakh sqft, expected launch price INR 11,500/sqft, 42-month delivery. Please analyse: (1) NPV and IRR for each structure for me as the landowner under base, bull, bear market scenarios (price +/- 20%, absorption 24-60 months), (2) risk exposure for each — construction risk, sales risk, quality risk, partner risk, (3) tax treatment — JDA taxation under Section 45(5A) (taxed on completion), GST implications, stamp duty, (4) legal protections needed — escrow, liquidated damages, termination triggers, developer balance sheet covenants, (5) second-order levers — RERA registration, marketing control, launch pricing floor, refusal rights, (6) recommended structure and negotiation playbook for top 3 deal terms, (7) walk-away conditions. Output as a scenario matrix and a 2-page negotiation brief with a recommendation and rationale.",
+      "tags": [
+        "jda",
+        "scenario-analysis",
+        "landowner",
+        "negotiation",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-036",
+      "title": "Real Estate Fund Waterfall Modeling",
+      "prompt": "Act as a real estate private equity fund associate. I am modeling the distribution waterfall for a Category II AIF Indian real estate fund with INR 500 crore commitment, 4% management fee, 8% preferred return, 20% carry with full catch-up, 50:50 American vs European waterfall options. The fund will deploy in 6 commercial and residential development projects over 3 years with target gross MOIC 2.2x over 7 years. Please build: (1) fund-level cash flow schedule across 8 years — capital calls, exits, management fee, expenses, (2) LP vs GP distribution waterfall mechanics under European waterfall — return of capital, preferred return, GP catch-up, 80:20 split, (3) comparison with American waterfall on a deal-by-deal basis — pros/cons for LP and GP, (4) clawback provisions if final fund IRR falls short, (5) LP net IRR and net MOIC under base, bull, bear scenarios, (6) GP economics — management fee + carry NPV, (7) SEBI AIF regulations — reporting, taxation at fund vs investor level, indirect transfer rules, (8) benchmarking against Indian RE fund historical net returns. Output as a waterfall model structure with numerical illustration for a sample INR 10 crore LP commitment and a memo highlighting LP-unfriendly terms to negotiate.",
+      "tags": [
+        "waterfall",
+        "aif",
+        "fund",
+        "carry",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-037",
+      "title": "Cross-Border REIT Arbitrage Analysis",
+      "prompt": "Act as a cross-border real estate strategist. I am an Indian resident investor comparing allocations to Indian listed REITs (Embassy, Mindspace, Brookfield India) vs Singapore-listed S-REITs with Indian assets (Ascendas India Trust) vs US REITs with global office exposure. Total ticket INR 1 crore. Please build a cross-border analysis covering: (1) current yield and 5-year total return comparison, (2) currency exposure and hedging cost via LRS route, (3) tax treatment — Indian REIT distribution vs foreign dividend (Section 115BBD/BBH), DTAA benefits for Singapore and US, (4) LRS USD 250K/year limit and TCS implications under Section 206C(1G), (5) governance, disclosure quality, and regulatory regime comparison (SEBI vs MAS vs SEC), (6) asset quality — India-only vs global diversification, (7) behavioural alpha — are Indian REITs mispriced vs global peers on yield and NAV premium, (8) recommended allocation across the 3 buckets with tax-optimal holding structure (individual vs HUF vs private trust). Output as an allocation table with rationale, execution steps (broker, LRS, account opening), and ongoing monitoring KPIs. Highlight 3 scenarios where the cross-border play breaks down.",
+      "tags": [
+        "cross-border",
+        "reit",
+        "lrs",
+        "arbitrage",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-038",
+      "title": "Distressed Debt Acquisition from NBFC",
+      "prompt": "Act as a distressed real estate debt specialist. An NBFC is willing to assign its INR 85 crore stressed loan to a Gurgaon residential developer at INR 45 crore (53% haircut). The underlying security is a partially constructed project (60% complete) with estimated gross development value INR 160 crore. The borrower is in NCLT proceedings. Please build an acquisition analysis covering: (1) loan assignment structure under SARFAESI and RBI Master Direction on transfer of loan exposures, (2) legal due diligence — NCLT status, resolution professional, CoC composition, section 29A eligibility, (3) asset valuation — residual construction cost, sales velocity, price realization, liquidation vs going-concern value, (4) scenarios — resolution plan approval with haircut, liquidation, withdrawal of CIRP, (5) IRR and equity multiple for each scenario, weighted by probability, (6) risks — homebuyer representation, operational creditor claims, delays, legal challenges, (7) structuring — direct assignment vs ARC route vs through SR-issuing AIF, (8) exit — RERA project completion and resale, JDA with reputed builder, refinance. Output as a distressed debt acquisition memo with bid recommendation, risk-adjusted IRR, and a 180-day execution plan.",
+      "tags": [
+        "distressed-debt",
+        "nbfc",
+        "ibc",
+        "sarfaesi",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-039",
+      "title": "Warehousing Asset Underwriting for Cold Chain",
+      "prompt": "Act as an industrial real estate analyst specializing in Indian warehousing and cold chain. I am evaluating an acquisition of a 2 lakh sqft Grade A cold storage warehouse near Bhiwandi, Mumbai asking INR 180 crore. The tenant is a large FMCG player with a 9-year lease at INR 32/sqft/month for dry and INR 58/sqft/month for cold, 5% annual escalation, 5-year lock-in. Please build an underwriting analysis covering: (1) sector thesis — warehousing demand, 3PL growth, GST-driven consolidation, FMCG cold chain penetration, (2) asset quality — specifications, racking, refrigeration, backup power, clear height, dock doors, fire safety, (3) rent benchmark for dry and cold segments in Bhiwandi, MMR and rest of India, (4) going-in cap rate vs stabilized cap rate, comparison with commercial office, (5) DCF with 10-year hold — rent growth, OPEX, capex reserve for refrigeration replacement, exit cap rate, (6) tenant credit analysis and renewal probability, (7) operating risks — refrigeration failure, power, food safety compliance, (8) ESG — energy consumption, carbon footprint, green rating potential, (9) bid price for target 13% levered IRR. Output as an industrial underwriting memo with a final bid recommendation, key negotiation terms, and 3 critical diligence items before close.",
+      "tags": [
+        "warehousing",
+        "cold-chain",
+        "industrial",
+        "bhiwandi",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    },
+    {
+      "id": "real-estate-real-estate-investors-040",
+      "title": "Family Office Real Estate Allocation Framework",
+      "prompt": "Act as a chief investment officer for an Indian family office with INR 350 crore net worth. The family wants to target 35% allocation to real estate across direct, fractional, REIT, and fund exposures while optimizing for yield, growth, tax, liquidity, and legacy. Current RE exposure is 52% concentrated in 4 direct assets in Mumbai and Delhi. Please build an allocation framework covering: (1) target sub-allocation — core (yielding commercial, REIT) 40%, core-plus (Grade A office, pre-leased retail) 25%, value-add (redevelopment, JDA, renovation) 20%, opportunistic (distressed, early development, land banking) 15%, (2) specific instruments to use in each bucket and typical ticket sizes, (3) geographic diversification across tier-1 and select tier-2 cities, (4) holding structure — individual, HUF, LLP, private discretionary trust with tax and estate implications, (5) 3-year glide path from current 52% to target 35%, specifying assets to exit, (6) governance — investment committee, IPS, periodic review, (7) tax planning — LTCG, Section 54, 54EC, trust taxation, (8) risk management — concentration limits, leverage caps, liquidity buffer, (9) legacy planning — generation 2 transition, will, family constitution. Output as a full investment policy statement, a current-vs-target allocation chart, and a 12-quarter execution roadmap.",
+      "tags": [
+        "family-office",
+        "allocation",
+        "ips",
+        "trust",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "real-estate-investors"
+    }
+  ]
+}

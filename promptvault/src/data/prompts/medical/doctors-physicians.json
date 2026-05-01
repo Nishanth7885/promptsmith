@@ -1,0 +1,727 @@
+{
+  "category": "medical",
+  "subcategory": "doctors-physicians",
+  "count": 40,
+  "prompts": [
+    {
+      "id": "medical-doctors-physicians-001",
+      "title": "Chest Pain DDx Workup for Indian OPD",
+      "prompt": "Act as a senior internal medicine consultant with 15 years of experience in a tier-2 Indian city hospital handling 80-120 OPD patients daily. I need you to build a structured differential diagnosis and workup plan for a 48-year-old Indian male truck driver presenting with retrosternal chest pain for 2 hours, BP 150/96, diabetic on metformin, smoker, central obesity. Please provide: (1) Top 6 differentials ranked by pre-test probability in Indian epidemiology (ACS, GERD, musculoskeletal, aortic dissection, pulmonary embolism, panic), (2) Rule-out-first red flags, (3) Bedside workup in 10 minutes (ECG findings to look for, TIMI/HEART score calculation), (4) Stat investigations available in most Indian district hospitals (Trop-I, CK-MB, CBC, RFT, chest X-ray, 2D echo), (5) Immediate pharmacological plan using Indian brand names (Ecosprin, Clopilet, Storvas, Angispan-TR, Morphine), (6) Referral triggers to tertiary cath lab. Format as a SOAP-style decision tree with time stamps. Consider CDSCO drug availability, patient affordability (PMJAY eligibility), and transport logistics in semi-urban India. ETHICS NOTE: State clearly at the top that this output is an educational decision-support aid only and must not replace the treating clinician's bedside judgment, local protocols, or patient-specific evaluation.",
+      "tags": [
+        "ddx",
+        "chest-pain",
+        "acs",
+        "clinical-decision-support",
+        "indian-opd"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-002",
+      "title": "Hindi Diabetes Diagnosis Disclosure Script",
+      "prompt": "Act as a physician-communication coach with 12 years of experience training Indian MBBS doctors in empathetic patient counselling. I need you to write a complete bilingual (Hindi-English code-mixed) script for disclosing a new Type 2 Diabetes diagnosis to a 52-year-old vegetarian homemaker from Kanpur with HbA1c 9.2%, FBS 212, whose husband is present. Please provide: (1) Opening rapport line in Hindi (\"Aapki report aayi hai, thoda baat karni hai\"), (2) Simple Hindi analogy explaining insulin resistance using roti/sugar metaphor, (3) What to say and what NOT to say (avoid \"sugar ki bimari\" stigma), (4) Lifestyle counselling in Indian dietary terms (chawal vs roti portions, ghee limits, jeera-methi water myth-busting), (5) Medication initiation script for metformin (Glycomet 500 SR) with side effect warning, (6) Addressing common family questions (\"kya ye theek ho jayega?\", \"insulin to nahi lagani padegi?\"), (7) Follow-up plan with glucometer training. Format as a 6-minute consultation dialogue with timestamps and non-verbal cues. Consider low health literacy, joint-family decision dynamics, AYUSH alternative-medicine beliefs, and the 3-minute OPD reality.",
+      "tags": [
+        "patient-communication",
+        "diabetes",
+        "hindi-script",
+        "counselling",
+        "disclosure"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-003",
+      "title": "Fever of Unknown Origin Indian Workup",
+      "prompt": "Act as an infectious disease physician with 10 years of experience at a tertiary care center in Mumbai. I need you to create a stepwise workup algorithm for a 28-year-old Indian female, 10 days of fever 102-104 F, myalgia, mild hepatomegaly, platelets 90,000, from Mumbai monsoon season. Please provide: (1) Top 8 differentials ranked by season and geography (dengue, malaria, typhoid, leptospirosis, scrub typhus, viral hepatitis, chikungunya, TB), (2) Day-1 investigation panel (NS1, IgM dengue, MP QBC, Widal, Weil-Felix, LFT, CBC, urine r/m), (3) Day-3 escalation panel if undiagnosed (blood culture, PCR panel, USG abdomen), (4) ICMR guideline-compliant empirical therapy (doxycycline + ceftriaxone rationale), (5) Danger signs mandating ICU transfer (DSS, ARDS, AKI, hepatic encephalopathy), (6) Discharge criteria. Format as a 5-day decision flowchart with investigation costs in INR. Consider NABH documentation, ICMR FUO guidelines, and Indian seasonal epidemiology. ETHICS NOTE: Clearly mark this as an educational decision-support aid only; treating clinician's bedside judgment and local microbiology data must drive actual management.",
+      "tags": [
+        "fever",
+        "ddx",
+        "icmr-guidelines",
+        "tropical-medicine",
+        "clinical-decision-support"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-004",
+      "title": "Dyspnea Triage Protocol for Rural CHC",
+      "prompt": "Act as a rural health physician with 8 years of experience at a Community Health Centre in Bihar with limited diagnostics (pulse oximeter, basic ECG, no CT, no echo). I need you to design a 15-minute dyspnea triage protocol for a 65-year-old male farmer, SpO2 86%, RR 32, bilateral crepitations, known COPD on Duolin inhaler. Please provide: (1) Bedside differentiation between AECOPD, LVF, pneumonia, PE, and pneumothorax using only stethoscope + pulse ox + ECG, (2) First-hour emergency management (oxygen targets 88-92% for COPD, nebulised Duolin + Budecort, IV Lasix dosing, empirical Augmentin), (3) Red flags requiring immediate ambulance transfer to district hospital, (4) SBAR handover script for referral, (5) Family counselling in simple Hindi about prognosis. Format as a wall-chart-ready protocol with dosing tables in Indian brand names. Consider limited ICU beds, 108-ambulance wait times, and out-of-pocket cost constraints. ETHICS NOTE: Specify this is an educational aid to support, not replace, the treating clinician's judgment; adapt to local drug availability and patient-specific findings.",
+      "tags": [
+        "dyspnea",
+        "copd",
+        "rural-health",
+        "clinical-decision-support",
+        "triage"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-005",
+      "title": "ICMR vs NICE Hypertension Protocol Comparison",
+      "prompt": "Act as a clinical pharmacology faculty member with 14 years of experience at an Indian medical college. I need you to produce a side-by-side comparison of hypertension management protocols: ICMR-India Hypertension Control Initiative (IHCI) vs NICE NG136 (UK) vs ACC/AHA 2017 (US) vs ESC/ESH 2023. Please provide: (1) BP thresholds for diagnosis and treatment initiation across all 4 guidelines, (2) Preferred first-line drug classes with rationale (why ICMR favours Amlodipine + Telmisartan combo in Indians), (3) Target BP for diabetics, CKD, elderly, (4) Drug cost comparison in INR for a month's therapy (Amlodac vs Telma vs Stamlo), (5) Situations where NICE/ACC differ meaningfully from Indian practice, (6) Evidence quality for each recommendation. Format as a comparison table followed by 5 case-based recommendations for Indian OPD practice. Consider Indian salt intake patterns, genetic response differences, generic availability, and NPCDCS program alignment.",
+      "tags": [
+        "hypertension",
+        "icmr-guidelines",
+        "protocol-comparison",
+        "nice",
+        "guidelines"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-006",
+      "title": "CME Slide Deck on NAFLD in Indians",
+      "prompt": "Act as a hepatologist with 18 years of experience at an Indian tertiary hospital, preparing a CME lecture for district-level physicians. I need you to build a 25-slide deck outline on \"NAFLD in Indian Adults: The Silent Epidemic\". Please provide: (1) Slide-by-slide title + 3 bullet points + one visual suggestion, (2) Indian prevalence data (9-32% across states, thin-NAFLD phenotype), (3) Screening algorithm in asymptomatic diabetics/obese (FIB-4, NFS, FibroScan availability in India), (4) Lifestyle prescription in Indian dietary context (reducing refined carbs, ghee, fructose from aam-panna/colas), (5) Pharmacotherapy update (Vitamin E, pioglitazone, GLP-1 RA, resmetirom status in CDSCO), (6) When to refer to hepatologist, (7) 3 clinical pearls, (8) 5 MCQ questions for audience engagement. Format as a structured deck outline ready to paste into PowerPoint. Include 2 recent Indian studies with citations. Consider audience is busy MBBS/MD general physicians with 15-minute attention spans.",
+      "tags": [
+        "cme",
+        "nafld",
+        "presentation",
+        "hepatology",
+        "slide-deck"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-007",
+      "title": "Research Abstract for API Conference",
+      "prompt": "Act as a research mentor with 20 years of experience guiding Indian physicians through conference submissions. I need you to write a structured 300-word abstract for API (Association of Physicians of India) annual conference based on this data: retrospective study, 412 diabetic patients at a Pune tertiary hospital, comparing HbA1c outcomes on Metformin + Dapagliflozin vs Metformin + Sitagliptin over 12 months, mean baseline HbA1c 8.9%, reduction 1.8% vs 1.2% respectively, significant weight loss in SGLT2i arm. Please provide: (1) Title (under 20 words, catchy), (2) Background (2 sentences), (3) Objectives (1 sentence), (4) Methods (study design, setting, sample size, statistical tests), (5) Results (with p-values, 95% CI), (6) Conclusion (1 sentence), (7) Keywords (5). Format as an API-compliant abstract with word count in brackets. Use Indian prevalence data for context. Ensure it follows STROBE reporting standards for observational studies and flag 2 limitations the author should disclose.",
+      "tags": [
+        "research",
+        "abstract",
+        "api-conference",
+        "sglt2i",
+        "writing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-008",
+      "title": "Pre-op Counselling Script Lap Chole",
+      "prompt": "Act as a general surgeon with 12 years of experience in a NABH-accredited hospital in Ahmedabad. I need you to create a complete pre-operative counselling script for laparoscopic cholecystectomy for a 45-year-old Gujarati female, symptomatic cholelithiasis, on Glycomet for T2DM. Please provide: (1) Plain Hindi/Gujarati explanation of the procedure using \"pet ki durbeen\" analogy, (2) Risks in lay terms (bleeding, bile leak, conversion to open 3-5%, bile duct injury 0.3%), (3) Pre-op instructions (fasting 6 hours, stop Glycomet morning dose, continue antihypertensives, cotton clothes, remove jewellery), (4) Expected post-op course (hospital stay 24-48 hours, return to work in 7-10 days, diet progression), (5) Red flags to call surgeon (fever, persistent vomiting, jaundice), (6) Informed-consent key points aligned with MCI/NMC guidelines, (7) Question prompts for the patient's family. Format as a 10-minute counselling dialogue. Consider Indian joint-family dynamics, cost discussion (INR 45-85k), and PMJAY/insurance preauth timelines.",
+      "tags": [
+        "pre-op-counselling",
+        "patient-communication",
+        "surgery",
+        "consent",
+        "cholecystectomy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-009",
+      "title": "TB Treatment Protocol DOTS vs Private",
+      "prompt": "Act as a pulmonologist with 15 years of experience managing TB under both RNTCP/NTEP and private practice in Delhi. I need you to compare treatment approaches for a newly diagnosed sputum-positive pulmonary TB patient: (1) NTEP daily FDC regimen (HRZE 2 months + HRE 4 months, weight-band dosing), (2) Private practice variations (adding vitamins, liver protectants, nutraceuticals — which are evidence-based?), (3) ICMR vs WHO End TB Strategy alignment, (4) Drug-induced hepatitis monitoring protocol (when to stop, when to rechallenge), (5) Contact screening obligations under NTEP, (6) Ni-kshay portal notification workflow, (7) Nikshay Poshan Yojana INR 1000/month benefit counselling, (8) DST-guided therapy for MDR suspicion. Format as a physician-facing decision table with dosing calculators and a patient-facing Hindi pamphlet summary. Consider stigma counselling, adherence challenges in migrant populations, and mandatory notification under Gazette 2018. ETHICS NOTE: State that this is an educational decision-support aid; NTEP protocol and treating clinician judgment must guide actual therapy.",
+      "tags": [
+        "tuberculosis",
+        "ntep",
+        "protocol-comparison",
+        "dots",
+        "icmr-guidelines"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-010",
+      "title": "SBAR Handover for ICU Transfer",
+      "prompt": "Act as an ICU intensivist with 10 years of experience at a Chennai tertiary hospital training junior residents. I need you to write a perfect SBAR handover template and a worked example for transferring a 60-year-old male from medical ward to MICU: septic shock secondary to community-acquired pneumonia, on Meropenem + Teicoplanin, BP 80/50 on noradrenaline 0.3 mcg/kg/min, lactate 4.2, AKI with creatinine 2.8. Please provide: (1) Situation (1 sentence patient summary), (2) Background (relevant PMH, admission story, key events), (3) Assessment (current vitals, ABG, labs, organ dysfunction scores SOFA/qSOFA), (4) Recommendation (what you need from receiving team — ventilator, CRRT standby, central line, CVP monitoring), (5) Contingency plan, (6) Family communication status. Format as a verbal handover script (90 seconds) plus a written NABH-compliant handover note. Include a common-mistakes checklist for junior residents. Consider NABH documentation requirements and medico-legal implications.",
+      "tags": [
+        "sbar",
+        "handover",
+        "icu",
+        "sepsis",
+        "communication"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-011",
+      "title": "Dengue Severity Triage Algorithm",
+      "prompt": "Act as a physician with 12 years of experience managing dengue outbreaks in Kolkata government hospitals. I need you to build a triage algorithm for dengue severity classification per WHO 2009 criteria adapted to Indian ICMR guidelines. Please provide: (1) Dengue without warning signs vs with warning signs vs severe dengue — clinical differentiators, (2) Day-of-illness based fluid management chart (crystalloid rates by weight, when to switch to colloids), (3) Platelet transfusion triggers (ICMR says NOT <10k or bleeding — bust the <20k myth), (4) Red flags: abdominal pain, persistent vomiting, mucosal bleed, lethargy, hepatomegaly >2cm, hematocrit rise with platelet drop, (5) Discharge criteria (afebrile 48h, improving platelets, good oral intake, stable hematocrit), (6) OPD vs ward vs HDU vs ICU disposition rules. Format as a 1-page flowchart with a decision table. Consider outbreak-season bed pressure, private lab over-transfusion culture, and NS1/IgM timing. ETHICS NOTE: Clearly state this is an educational decision-support aid only; treating clinician must adapt to patient-specific findings and local protocols.",
+      "tags": [
+        "dengue",
+        "triage",
+        "icmr-guidelines",
+        "clinical-decision-support",
+        "tropical-medicine"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-012",
+      "title": "Statin Counselling Myth-Busting Hindi",
+      "prompt": "Act as a cardiologist with 15 years of experience at an Indian cath lab managing 40 OPD patients daily. I need you to create a patient-counselling script to initiate Atorvastatin 20mg (Storvas/Atorva) in a 55-year-old Indian male with ASCVD risk 18%, LDL 168, who is hesitant due to WhatsApp-forward myths. Please provide: (1) 6 common Indian myths to address (\"statins damage liver/kidney\", \"once started, lifelong\", \"body makes its own cholesterol, external nahi chahiye\", \"Ayurveda se theek ho jayega\", \"side effect se memory loss\", \"only for heart attack patients\"), (2) Evidence-based Hindi rebuttal for each in 1-2 sentences, (3) Realistic side-effect disclosure (myalgia 5-10%, transaminitis <1%, diabetes risk minimal vs CV benefit), (4) Monitoring plan (LFT baseline + 3 months, lipid profile at 6-8 weeks), (5) Lifestyle co-prescription, (6) Shared decision-making close. Format as a 7-minute dialogue with patient objections and physician responses. Consider AYUSH-interface sensitivity and avoid dismissing traditional beliefs.",
+      "tags": [
+        "statin",
+        "patient-communication",
+        "counselling",
+        "myth-busting",
+        "cardiology"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-013",
+      "title": "Acute Stroke Thrombolysis Decision Aid",
+      "prompt": "Act as a stroke neurologist with 12 years of experience at an Indian comprehensive stroke center. I need you to create a door-to-needle decision aid for a 62-year-old male presenting 2 hours 40 minutes after left MCA syndrome, NIHSS 14, BP 178/98, on Ecosprin and Telma. Please provide: (1) Inclusion/exclusion checklist for IV Alteplase per AHA/ESO adapted to Indian practice, (2) Imaging requirements (NCCT, ASPECTS, CTA if available) and how to proceed if only NCCT available in tier-2 city, (3) BP management pre-thrombolysis (target <185/110, labetalol/nicardipine dosing in Indian brands), (4) Alteplase dosing calculator (0.9 mg/kg, 10% bolus, 90% infusion, max 90 mg), (5) Post-lysis monitoring protocol (BP q15min x 2h, neuro checks, no antiplatelets x 24h), (6) Complications management (symptomatic ICH, angioedema), (7) Cost reality (INR 40-55k for Alteplase, PMJAY coverage). Format as a 1-page bedside checklist. ETHICS NOTE: State this is an educational decision-support aid; treating clinician's assessment and local stroke protocols must guide actual treatment.",
+      "tags": [
+        "stroke",
+        "thrombolysis",
+        "clinical-decision-support",
+        "neurology",
+        "checklist"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-014",
+      "title": "Informed Consent Template Cardiac Cath",
+      "prompt": "Act as an interventional cardiologist with 14 years of experience and a medico-legal consultant. I need you to draft an NMC-compliant bilingual (English + Hindi) informed consent form for diagnostic coronary angiography for a 58-year-old patient. Please provide: (1) Procedure description in lay terms, (2) Purpose and expected benefits, (3) Alternatives including non-invasive testing (stress echo, CT coronary angio), (4) Risks in tiered disclosure: common (bruising, contrast discomfort), uncommon (bleeding, allergic reaction, AKI 1-2%), rare but serious (MI, stroke, death 0.1%), (5) Post-procedure care and activity restrictions, (6) Cost transparency in INR, (7) Right to withdraw consent, (8) Physician-patient-witness signature block with date, (9) Specific consent for video/photography for teaching. Format as a 2-page bilingual form with tick-boxes and Hindi translation beside each section. Ensure it meets Supreme Court Samira Kohli judgment standards for \"real and valid consent\" and NABH accreditation requirements.",
+      "tags": [
+        "informed-consent",
+        "medico-legal",
+        "cardiology",
+        "nabh",
+        "bilingual"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-015",
+      "title": "COPD Exacerbation Differential Workup",
+      "prompt": "Act as a pulmonologist with 15 years of experience at a Lucknow chest clinic. I need you to build a differential diagnosis framework for a 68-year-old male ex-smoker with known COPD presenting with acute worsening dyspnea, increased sputum purulence, RR 28, SpO2 88% on room air, bilateral rhonchi. Please provide: (1) Rule-outs masquerading as AECOPD (pneumonia, PE, pneumothorax, LVF, lobar collapse), (2) Quick bedside tools to differentiate (CXR findings, ECG, BNP cutoffs, Wells score), (3) GOLD-based severity assessment (mild/moderate/severe exacerbation criteria), (4) Antibiotic indication per Anthonisen criteria (Augmentin vs Azithromycin vs Levofloxacin — Indian resistance patterns), (5) Systemic steroid dosing (Prednisolone 40mg x 5 days), (6) Nebulisation protocol (Duolin + Budecort spacing), (7) NIV criteria and availability in Indian district hospitals, (8) Smoking cessation counselling script in Hindi. Format as a clinical pathway with decision gates. ETHICS NOTE: Mark clearly as an educational decision-support aid; it must not replace the treating clinician's bedside judgment or local antimicrobial stewardship guidance.",
+      "tags": [
+        "copd",
+        "ddx",
+        "pulmonology",
+        "clinical-decision-support",
+        "aecopd"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-016",
+      "title": "Research Question to PICO Framework",
+      "prompt": "Act as a clinical epidemiology faculty with 18 years of experience mentoring Indian MD thesis students. I need you to convert a vague research idea into a rigorous PICO question and a feasible study protocol outline. The idea: \"I want to study if yoga helps diabetes in my hospital.\" Please provide: (1) Refined PICO (Population: T2DM adults in tier-2 city tertiary hospital, Intervention: structured 12-week yoga + standard care, Comparator: standard care alone, Outcome: HbA1c change at 12 weeks), (2) Primary and 3 secondary outcomes with measurement tools, (3) Study design recommendation (RCT vs quasi-experimental) with rationale, (4) Sample size calculation (alpha 0.05, power 80%, expected delta 0.5% HbA1c), (5) Inclusion/exclusion criteria, (6) Ethical considerations (IEC approval, CTRI registration mandate, informed consent language), (7) Feasibility assessment for an Indian resident with INR 25k budget and 18-month timeline, (8) 5 foreseeable limitations. Format as a thesis synopsis template ready for guide submission. Align with ICMR National Ethical Guidelines 2017.",
+      "tags": [
+        "research",
+        "pico",
+        "thesis",
+        "study-design",
+        "icmr"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-017",
+      "title": "Breaking Bad News Cancer Diagnosis",
+      "prompt": "Act as a medical oncologist with 16 years of experience at Tata Memorial Hospital and trained in SPIKES protocol. I need you to write a complete script for breaking the news of newly diagnosed stage III breast cancer to a 46-year-old Marathi-speaking homemaker accompanied by her husband and adult son. Please provide: (1) Setting (private room, silenced phone, tissues available, both family members seated), (2) Perception check (\"Aapko doctor ne kya bataya biopsy ke baare me?\"), (3) Invitation (\"Aap details chahengi ya pati se baat karun?\"), (4) Knowledge delivery with warning shot (\"Mere paas kuch mushkil khabar hai\") in simple Marathi/Hindi mix, (5) Emotion acknowledgment with silence and empathy statements, (6) Strategy and summary (treatment plan: NACT + surgery + RT + HT, realistic timeline, prognosis framing \"curable hai, lekin lambi ladai\"), (7) Written follow-up plan. Format as a 15-minute structured dialogue with stage labels. Consider joint-family dynamics, financial distress (Rashtriya Arogya Nidhi referral), and religious/prayer coping. Avoid false reassurance and premature prognosis numbers.",
+      "tags": [
+        "breaking-bad-news",
+        "spikes",
+        "oncology",
+        "patient-communication",
+        "counselling"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-018",
+      "title": "DKA Management Protocol Tier-2 Hospital",
+      "prompt": "Act as an endocrinologist with 12 years of experience and an ICU consultant at a 200-bed Jaipur hospital. I need you to create a DKA management protocol for a 22-year-old T1DM female presenting with blood glucose 528, pH 7.12, HCO3 8, ketones 4+, K+ 3.2, creatinine 1.4, dehydrated, drowsy. Please provide: (1) Hour-0 immediate actions (ABC, IV access x2, fluid bolus NS 15 ml/kg, labs to send), (2) Fluid replacement schedule over 24 hours with switch to NS+D5 timing, (3) Insulin infusion protocol (0.1 U/kg/hr regular insulin, when to add dextrose, when to switch to SC), (4) Potassium replacement algorithm based on serum K (withhold if >5.5, add 20-30 mEq if 3.3-5.5, replace before insulin if <3.3), (5) Bicarbonate — when yes, when no (pH <6.9 only), (6) Monitoring schedule (hourly glucose, 2-hourly ABG, q4h electrolytes), (7) Resolution criteria and transition to SC insulin, (8) Cerebral edema red flags. Format as an hour-by-hour protocol sheet. ETHICS NOTE: This is an educational decision-support aid; treating clinician must tailor to patient-specific findings and institutional protocols.",
+      "tags": [
+        "dka",
+        "endocrinology",
+        "icu-protocol",
+        "clinical-decision-support",
+        "diabetes"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-019",
+      "title": "CME Talk Antimicrobial Stewardship",
+      "prompt": "Act as a clinical microbiologist with 14 years of experience chairing the antimicrobial stewardship committee at an Indian NABH hospital. I need you to prepare a 30-minute CME talk titled \"Rational Antibiotic Prescribing in Indian OPD: Beyond Azithromycin-for-Everything\". Please provide: (1) 20-slide outline with titles + 3 bullets each, (2) Indian AMR data (ICMR AMRSN network findings, E.coli ESBL >70%, Klebsiella carbapenem resistance), (3) Top 5 OTC/OPD misuse scenarios (URI, acute diarrhea, UTI without culture, fever without focus, \"routine cover\"), (4) WHO AWaRe classification applied to Indian practice, (5) Case-based teaching: 3 mini-cases with pre/post poll questions, (6) Delinking antibiotics from fever counselling script, (7) Prescription audit tool for attendees, (8) 5 take-home messages. Format as a structured lecture plan with audience engagement points every 5 minutes. Include 3 Indian-context references and acknowledge OPD-volume realities (60-120 patients/day) that drive shortcut prescribing.",
+      "tags": [
+        "cme",
+        "antimicrobial-stewardship",
+        "amr",
+        "presentation",
+        "icmr"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-020",
+      "title": "Acute Gastroenteritis OPD Decision Aid",
+      "prompt": "Act as a physician with 10 years of experience handling 100+ OPD cases daily at a Hyderabad district hospital. I need you to build a 3-minute OPD decision aid for acute gastroenteritis in adults. Patient: 30-year-old male, 6 loose stools since morning, mild cramps, no fever, no blood, no dehydration, ate street pani puri. Please provide: (1) Rapid severity assessment (mild/moderate/severe dehydration clinical signs), (2) When ORS alone suffices vs when IV fluids needed, (3) Antibiotic indication checklist (ICMR says NO for uncomplicated watery diarrhea — bust the ofloxacin reflex), (4) When stool routine/culture is justified (dysentery, immunocompromised, persistent >7 days, travel), (5) Symptomatic management rationale (racecadotril yes, loperamide caution, probiotics weak evidence), (6) Red flags warranting admission (severe dehydration, hypotension, altered sensorium, bloody stools with fever), (7) Patient education in Hindi (hydration, handwashing, avoiding street food, when to return). Format as a 1-page OPD algorithm. ETHICS NOTE: Clearly state this is an educational decision-support aid and does not replace the treating clinician's individual assessment.",
+      "tags": [
+        "gastroenteritis",
+        "opd",
+        "clinical-decision-support",
+        "icmr-guidelines",
+        "diarrhea"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-021",
+      "title": "Thyroid Nodule Workup Counselling",
+      "prompt": "Act as an endocrinologist with 13 years of experience at a Bengaluru tertiary care hospital. I need you to draft a patient-facing counselling flow and a physician-facing workup algorithm for a 38-year-old female with an incidentally found 1.8 cm thyroid nodule on neck USG, euthyroid (TSH 2.1), no compression symptoms. Please provide: (1) Physician workflow — TI-RADS category determination, FNAC indication, Bethesda categorisation, molecular testing availability in India, (2) Patient-facing Hindi counselling script explaining what a nodule is (\"gaanth\"), risk of cancer (~5% in nodules >1cm), need for FNAC, (3) Procedure explanation for USG-guided FNAC (10-minute OPD procedure, INR 1500-3000 cost), (4) Addressing common fears (\"is it cancer?\", \"will I need surgery?\", \"thyroid medicine lifelong?\"), (5) Bethesda-wise next steps (I repeat, II follow-up, III/IV surgery vs repeat, V/VI surgery), (6) When to refer to endocrine surgeon, (7) Long-term surveillance plan. Format as a dual-column document: physician algorithm on left, patient script on right. Consider cost-sensitivity and PMJAY coverage.",
+      "tags": [
+        "thyroid",
+        "endocrinology",
+        "patient-communication",
+        "workup",
+        "counselling"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-022",
+      "title": "Anaphylaxis Drill Protocol Hindi Team",
+      "prompt": "Act as an emergency medicine physician with 11 years of experience training nursing staff and CMOs at an Indian urban hospital. I need you to create a mock-drill protocol for anaphylaxis response in OPD/day-care where only MBBS + staff nurse are available. Scenario: 35-year-old female post IV Augmentin develops urticaria, stridor, BP 70/40, SpO2 89%. Please provide: (1) Rapid recognition criteria (any 2 of: skin/mucosa, airway, BP drop, GI) — bust the \"wait for anaphylaxis progression\" myth, (2) Minute-by-minute response for first 10 minutes (IM Adrenaline 0.5 mg anterolateral thigh FIRST, not IV; position supine legs up; O2 15L NRBM; IV access; NS 1L bolus), (3) Second-line drugs (Avil IV, Hydrocortisone 200mg IV) and why they are NOT substitutes for adrenaline, (4) Team roles in Hindi/English code-switching for Indian staff, (5) Observation period (minimum 4-6 hours, 24 hours if biphasic risk), (6) Documentation template, (7) Post-event debrief checklist, (8) Adrenaline availability audit in OPD crash cart. Format as a 1-page wall-poster-ready protocol. ETHICS NOTE: State this is educational support material only; real patient management must follow treating clinician judgment.",
+      "tags": [
+        "anaphylaxis",
+        "emergency",
+        "drill",
+        "clinical-decision-support",
+        "adrenaline"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-023",
+      "title": "Diabetic Foot Ulcer Grading Plan",
+      "prompt": "Act as a diabetologist with 16 years of experience managing 60+ diabetic foot cases monthly at an Indian tertiary hospital. I need you to build a structured assessment and management plan for a 58-year-old male, T2DM x 12 years, HbA1c 9.8%, with a 3 cm plantar ulcer on right foot, depth to subcutaneous tissue, surrounding cellulitis, absent dorsalis pedis pulse, monofilament insensate. Please provide: (1) Wagner and University of Texas grading with rationale, (2) Essential workup (ABI, Doppler, X-ray for osteomyelitis, HbA1c, wound swab + blood cultures, CBC, CRP, HRCT if osteomyelitis suspected), (3) Empirical antibiotic choice per IDSA/Indian resistance patterns (outpatient vs inpatient, MRSA coverage, Pseudomonas coverage), (4) Offloading options available in India (TCC, walker, custom footwear cost INR 2-8k), (5) Vascular referral indications, (6) Glycemic optimisation using basal-bolus transition, (7) Patient education script in Hindi (daily foot check, no barefoot walking, nail care, footwear), (8) Amputation-prevention escalation triggers. Format as a multidisciplinary care pathway. ETHICS NOTE: Mark clearly as educational decision-support; actual care must be individualised by the treating clinician.",
+      "tags": [
+        "diabetic-foot",
+        "wound-care",
+        "clinical-decision-support",
+        "endocrinology",
+        "ulcer"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-024",
+      "title": "Indian Heart Failure GDMT Counselling",
+      "prompt": "Act as a heart failure specialist with 14 years of experience at an Indian tertiary cardiac hospital. I need you to write a patient counselling and physician quick-reference script for initiating quadruple therapy (GDMT) in a 60-year-old HFrEF patient, EF 28%, NYHA III, on Lasix, creatinine 1.3, K 4.4, BP 112/72, already on Ecosprin. Please provide: (1) GDMT drug sequence rationale (ARNI/ACEi, beta-blocker, MRA, SGLT2i — can we start simultaneously?), (2) Indian brand names and costs (Vymada/Azmarda for Sacubitril-Valsartan, Metpure XL, Aldactone, Jardiance/Forxiga), (3) Uptitration schedule over 4-6 weeks with safety labs, (4) Side effect counselling (hypotension, hyperkalemia, AKI, hypoglycemia awareness, genital infections with SGLT2i), (5) Patient-facing Hindi script explaining \"dil kamzor\" with a simple pump analogy, (6) Self-monitoring (daily weights, BP log, symptom diary), (7) Device therapy discussion (ICD/CRT) thresholds, (8) Palliative framing if not device-eligible. Format as a physician pocket-card plus patient handout. Consider INR 4-6k/month cost reality and PMJAY limitations.",
+      "tags": [
+        "heart-failure",
+        "gdmt",
+        "counselling",
+        "patient-communication",
+        "cardiology"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-025",
+      "title": "Upper GI Bleed DDx and Risk Stratification",
+      "prompt": "Act as a gastroenterologist with 12 years of experience at a Pune hospital with 24x7 endoscopy. I need you to build a risk-stratification workup for a 55-year-old chronic alcoholic male with 3 episodes of hematemesis, BP 96/60, HR 112, Hb 7.8, INR 1.6, platelets 88,000, known cirrhosis. Please provide: (1) DDx: variceal vs peptic ulcer vs Mallory-Weiss vs malignancy vs Dieulafoy — clinical pointers, (2) Glasgow-Blatchford and AIMS65 scores calculation with thresholds for urgent endoscopy, (3) Resuscitation protocol (2 wide-bore IV, restrictive transfusion Hb target 7-8, FFP only for active bleed + coagulopathy, platelet target 50k), (4) Pharmacology pre-endoscopy (IV Pantoprazole 80mg bolus + infusion for suspected PUD, Terlipressin + IV Ceftriaxone for variceal), (5) Airway protection indications, (6) Timing of endoscopy (within 12h for variceal, 24h for non-variceal, emergent for unstable), (7) Post-endoscopy plan per Forrest class / variceal band ligation, (8) Rebleeding prevention. Format as a 6-hour resuscitation pathway. ETHICS NOTE: Educational decision-support only; actual management must be individualised by the treating clinician.",
+      "tags": [
+        "ugi-bleed",
+        "ddx",
+        "gastroenterology",
+        "clinical-decision-support",
+        "risk-score"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-026",
+      "title": "Lifestyle Counselling Script Prediabetes",
+      "prompt": "Act as a preventive medicine consultant with 10 years of experience running a lifestyle clinic in Chandigarh. I need you to write a 20-minute lifestyle counselling script for a 42-year-old IT professional, FBS 112, HbA1c 6.1%, BMI 28.4, central obesity, sedentary, 3 cups sweet chai daily, dinner after 10 pm, family history of T2DM. Please provide: (1) Warm rapport opener in Hindi/English mix, (2) Teach-back explanation of prediabetes (\"pre-diabetes ka matlab kya hai, risk kya hai\"), (3) SMART goal-setting for 5 domains — diet, exercise, sleep, stress, tobacco — with realistic Indian adaptations (not \"eat quinoa\" but \"half roti instead of 2, add dal and salad\"), (4) Chai-reduction strategy (from 3 sugar-spoons to 1, gradual), (5) Exercise prescription (150 min/week moderate, brisk walk + 2x/week resistance, use stairs at office), (6) Sleep hygiene (7 hours, screen-off 30 min before bed), (7) Monitoring plan (FBS/HbA1c q3 months, weight weekly), (8) Addressing common excuses (\"time nahi hai\", \"office me healthy food nahi milta\"). Format as a dialogue with empathic statements and motivational-interviewing techniques.",
+      "tags": [
+        "lifestyle",
+        "prediabetes",
+        "counselling",
+        "patient-communication",
+        "prevention"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-027",
+      "title": "Journal Club Paper Critique Template",
+      "prompt": "Act as a clinical research professor with 20 years of experience conducting journal clubs at Indian medical colleges. I need you to build a structured critique template for a recent RCT — take the EMPA-KIDNEY trial on empagliflozin in CKD as the example. Please provide: (1) Study summary box (PICO, design, n, primary outcome, result, NNT), (2) Internal validity assessment (randomisation, allocation concealment, blinding, attrition, ITT analysis, Cochrane RoB 2 tool), (3) External validity for Indian patients (were Indians represented, baseline characteristics match Indian CKD population?), (4) Statistical critique (HR with CI, absolute vs relative risk, subgroup analyses, multiple testing), (5) Clinical applicability (cost INR 2500/month, CDSCO approval, renal dose adjustment), (6) 5 discussion questions for residents to debate, (7) 3 red flags a resident should watch for in pharma-sponsored trials, (8) 1-sentence take-home message. Format as a fillable journal-club worksheet. Align with CONSORT 2010 reporting standards.",
+      "tags": [
+        "journal-club",
+        "critical-appraisal",
+        "research",
+        "rct",
+        "evidence-based"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-028",
+      "title": "Syncope Workup Algorithm OPD",
+      "prompt": "Act as a cardiologist with 13 years of experience running a syncope clinic at a Delhi tertiary hospital. I need you to build an OPD workup algorithm for a 68-year-old male with 2 episodes of syncope, one during micturition, one exertional, BP 132/78, ECG LVH, on Amlodipine and Tamsulosin. Please provide: (1) DDx stratification: cardiac (arrhythmia, structural — AS, HOCM, ischemia) vs reflex (vasovagal, situational, carotid sinus) vs orthostatic (drugs, dehydration, autonomic) vs neurologic, (2) Red flag features mandating admission (exertional, cardiac history, abnormal ECG, FHx sudden death), (3) EGSYS or San Francisco Syncope Rule calculation, (4) Essential OPD investigations (12-lead ECG, 2D echo, orthostatic BP, basic labs), (5) When to escalate — Holter, tilt-table, EP study, implantable loop recorder availability in India, (6) Driving and occupational counselling (DGCA/RTO advice), (7) Medication review (stop Tamsulosin if orthostatic), (8) Family counselling in simple Hindi. Format as a decision tree with time-gated referrals. ETHICS NOTE: Clearly state this is an educational decision-support aid that does not replace the treating clinician's individualised evaluation.",
+      "tags": [
+        "syncope",
+        "ddx",
+        "cardiology",
+        "clinical-decision-support",
+        "workup"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-029",
+      "title": "End-of-Life Discussion Family Meeting",
+      "prompt": "Act as a palliative care physician with 15 years of experience at an Indian tertiary hospital and trained in NURSE communication framework. I need you to script a family meeting for an 80-year-old gentleman in MICU with advanced metastatic pancreatic cancer, now septic, on ventilator + 2 inotropes, failing despite 72 hours of maximal therapy. Family: wife, 2 adult sons (one NRI on video), daughter. Please provide: (1) Pre-meeting preparation checklist (room, all stakeholders, interpreter if needed, silence devices), (2) Opening and context-setting in Hindi (\"Aaj hum unke ilaj aur aage ke baare me baat karne ke liye mile hain\"), (3) ICU summary in simple terms without jargon, (4) Reality check — what ICU can and cannot achieve here, (5) NURSE emotional response techniques (Name, Understand, Respect, Support, Explore) with Hindi examples, (6) Introducing DNR / comfort care / treatment withdrawal options respecting Indian cultural hesitance, (7) Addressing common family requests (\"kuch aur try kar lijiye\", \"Ganga jal de sakte hain?\"), (8) Documentation of family consensus per NABH. Format as a 45-minute structured meeting script with pause points.",
+      "tags": [
+        "end-of-life",
+        "palliative-care",
+        "family-meeting",
+        "patient-communication",
+        "nurse"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-030",
+      "title": "Dyslipidemia Target Comparison Guidelines",
+      "prompt": "Act as a preventive cardiologist with 14 years of experience at an Indian lipid clinic. I need you to compare LDL-C targets and statin-intensity recommendations across 4 guidelines: Lipid Association of India (LAI) 2020, ESC/EAS 2019, ACC/AHA 2018, NICE CG181. Please provide: (1) Risk-stratification categories under each guideline (extreme/very-high/high/moderate/low), (2) LDL-C goals in mg/dL for each category, (3) Why LAI uses more aggressive targets for Indians (South Asian phenotype, premature CAD, Lp(a) prevalence), (4) Preferred statin and intensity (Rosuvastatin 20-40 mg vs Atorvastatin 40-80 mg — Indian tolerability, cost), (5) Non-statin add-on thresholds (Ezetimibe, PCSK9i, Bempedoic acid, Inclisiran) and CDSCO availability, (6) When to measure Lp(a) and ApoB in Indian practice, (7) Case vignette comparing how the 4 guidelines manage a 45-year-old diabetic Indian male with LDL 122. Format as a comparison table followed by 3 Indian case applications. Include current Indian drug costs in INR.",
+      "tags": [
+        "dyslipidemia",
+        "guidelines",
+        "protocol-comparison",
+        "cardiology",
+        "statin"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-031",
+      "title": "Pregnancy Medication Safety Query",
+      "prompt": "Act as an obstetric physician with 15 years of experience handling medical disorders in pregnancy at a Mumbai referral hospital. I need you to create a structured safety assessment for a 28-year-old pregnant woman at 14 weeks with newly diagnosed hypothyroidism (TSH 6.8), mild hypertension (BP 142/92), and a UTI (E.coli on urine culture). Please provide: (1) Trimester-specific safety of each drug class using FDA/Australian TGA categories and more recent European alternatives, (2) Levothyroxine dosing in pregnancy (target TSH <2.5 T1, <3 T2-T3, 30% dose increase common), (3) Antihypertensive choices (Labetalol, Methyldopa, Nifedipine SR — yes; ACEi/ARB — no), (4) UTI antibiotic choice (Nitrofurantoin avoid in T3, Cefuroxime safe, avoid fluoroquinolones), (5) Duration and follow-up urine culture, (6) Red flags for preeclampsia screening, (7) Counselling script addressing common fears (\"medicine se bachche ko nuksaan\"), (8) Documentation of shared decision-making. Format as a dual physician-patient reference sheet. ETHICS NOTE: Mark clearly as educational decision-support; treating obstetrician and individual clinical context must guide actual prescribing.",
+      "tags": [
+        "pregnancy",
+        "medication-safety",
+        "clinical-decision-support",
+        "hypothyroid",
+        "hypertension"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-032",
+      "title": "CME on Insulin Initiation Hesitancy",
+      "prompt": "Act as a diabetologist with 18 years of experience and a CME faculty for diabetes associations of India. I need you to prepare a 45-minute interactive CME for primary care physicians titled \"Overcoming Insulin Hesitancy: Getting Your T2DM Patient to Injection\". Please provide: (1) 25-slide outline, (2) Indian data on clinical inertia (mean HbA1c at insulin start is 9.5%+, 7+ years delay), (3) Top 8 patient/physician myths (\"insulin means failure\", \"once started, lifelong\", \"needle painful\", \"will cause weight gain and blindness\") with evidence-based rebuttals, (4) Insulin regimens simplified (basal-only start, titrate to FBS 80-130), (5) Indian insulin options — Basalog/Lantus/Toujeo/Tresiba cost-comparison in INR, (6) Pen-device demo protocol, (7) Hypoglycemia counselling script in Hindi, (8) Role-play exercise: resistant patient vs physician 5-minute script, (9) Post-test 10 MCQs with answer key, (10) 3 take-home messages. Format as a presenter's script with slide notes. Consider audience of 50 busy family physicians managing 80+ OPD/day.",
+      "tags": [
+        "cme",
+        "insulin",
+        "diabetes",
+        "presentation",
+        "counselling"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-033",
+      "title": "AKI Staging and Nephrology Referral",
+      "prompt": "Act as a nephrologist with 14 years of experience at a Kolkata tertiary hospital. I need you to build an AKI evaluation and referral framework for a 66-year-old male admitted with diarrhea-dehydration, baseline creatinine 1.1, now 2.8, urine output 250 ml in 12h, on Ecosprin, Telma, Glimepiride. Please provide: (1) KDIGO staging (stage 1/2/3) and its limitations, (2) Pre-renal vs intrinsic vs post-renal differentiation (FeNa, urine microscopy, USG KUB), (3) Drugs to stop immediately (NSAIDs, ACEi/ARB temporary, SGLT2i, metformin, sulfonylureas if eGFR <30), (4) Fluid resuscitation protocol (balanced crystalloid preferred over NS, avoid fluid overload), (5) Indications for urgent dialysis (AEIOU — Acidosis pH <7.1, Electrolytes K >6.5 refractory, Ingestion toxin, Overload refractory, Uremia), (6) Tier-2 hospital referral criteria to tertiary nephrology, (7) Recovery follow-up (serial creatinine, CKD screening at 3 months), (8) Patient counselling in Hindi (\"kidney thodi weak hui hai, ilaj se theek ho sakti hai\"). Format as a stepwise clinical pathway. ETHICS NOTE: Educational decision-support only; treating clinician must individualise based on patient-specific findings.",
+      "tags": [
+        "aki",
+        "nephrology",
+        "clinical-decision-support",
+        "kdigo",
+        "referral"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-034",
+      "title": "Asthma Action Plan Bilingual",
+      "prompt": "Act as a pulmonologist with 12 years of experience and an asthma educator at an Indian chest clinic. I need you to create a personalised bilingual (English + Hindi) asthma action plan for a 32-year-old female with moderate persistent asthma, on Foracort 200 twice daily, peak flow best 380, with 2 ER visits last year during monsoon. Please provide: (1) Green zone (>80% PEF, no symptoms) — daily controller continuation, (2) Yellow zone (50-80% PEF or increasing symptoms) — rescue Duolin/Asthalin q4-6h, Foracort step-up, 3-day oral prednisolone if no improvement, (3) Red zone (<50% PEF, severe breathlessness, inability to speak) — immediate rescue + 108 ambulance / ER, (4) Trigger avoidance checklist (monsoon damp, incense, agarbatti, street dust, NSAIDs), (5) Inhaler technique re-check script, (6) When to add ICS-LABA-LAMA triple therapy, (7) Biologics referral criteria (Xolair, Nucala) and cost reality, (8) Hindi patient-card version with colour-coded traffic light and emergency contact template. Format as a printable 2-sided laminated card. Consider low literacy — use pictograms where possible.",
+      "tags": [
+        "asthma",
+        "action-plan",
+        "patient-communication",
+        "bilingual",
+        "pulmonology"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-035",
+      "title": "Vaccine Counselling Adult Indian",
+      "prompt": "Act as a preventive medicine physician with 12 years of experience running an adult immunisation clinic in Bengaluru. I need you to write a counselling session for a 55-year-old diabetic male on which adult vaccines he should receive per API/AAPI 2023 adult immunisation schedule adapted to India. Please provide: (1) Priority vaccines: influenza annual, pneumococcal (PCV15/PCV20 then PPSV23 sequence), Tdap booster, Hepatitis B if non-immune, Herpes zoster (Shingrix when available, Zostavax reality), COVID-19 booster, (2) Rationale for each in diabetics (higher pneumonia mortality, shingles risk), (3) Schedule and intervals, (4) CDSCO availability and Indian brand + cost in INR, (5) Contraindications to check, (6) Addressing vaccine hesitancy myths (\"flu shot gives flu\", \"at my age why\", \"side effects worse than disease\"), (7) Hindi counselling script, (8) Documentation in vaccine record card. Format as a physician workflow + patient counselling dialogue. Consider affordability — rank by cost-effectiveness if patient can only afford 2.",
+      "tags": [
+        "vaccines",
+        "adult-immunisation",
+        "patient-communication",
+        "counselling",
+        "prevention"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-036",
+      "title": "Case Report Writing Rare Presentation",
+      "prompt": "Act as a medical journal editor with 20 years of experience at the Journal of Association of Physicians of India. I need you to write a 1200-word case report following CARE guidelines for this scenario: 34-year-old male construction worker from Jharkhand presents with 3 weeks fever, weight loss, bilateral cervical lymphadenopathy, hepatosplenomegaly; initially treated as lymphoma; bone marrow reveals Leishmania donovani amastigotes; HIV negative; treated successfully with liposomal amphotericin B. Please provide: (1) Title (specific, searchable), (2) Abstract (150 words, structured), (3) Introduction (kala-azar epidemiology in India, Bihar-Jharkhand endemic zone, elimination targets), (4) Case presentation with timeline (CARE timeline format), (5) Investigations and results (with Indian reference ranges), (6) Differential diagnoses considered and excluded, (7) Treatment and outcome, (8) Discussion (why suspect VL in lymphoma-mimics from endemic zones, current ICMR-NCVBDC elimination program), (9) Patient consent statement, (10) Learning points (3), (11) References (6 key). Format as a journal-ready manuscript in Vancouver style.",
+      "tags": [
+        "case-report",
+        "research",
+        "writing",
+        "kala-azar",
+        "care-guidelines"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-037",
+      "title": "Pre-Surgical Cardiac Risk Assessment",
+      "prompt": "Act as a consultant physician with 16 years of experience doing pre-anesthetic fitness clearances at an Indian corporate hospital. I need you to assess cardiac risk and provide a clearance note for a 72-year-old male scheduled for elective right hemicolectomy for colon cancer: HTN, DM, CAD s/p PCI 2 years ago on DAPT (Ecosprin + Brilinta), eGFR 52, Echo EF 45%. Please provide: (1) RCRI (Revised Cardiac Risk Index) scoring and interpretation, (2) Functional capacity estimation (METs — can he climb 2 flights? bathe independently?), (3) ACC/AHA 2014 perioperative algorithm application, (4) Need for further testing (stress test, CAG) — usually NO per updated guidelines unless symptomatic change, (5) DAPT management (continue Ecosprin, stop Brilinta 5 days pre-op, bridging decisions per cardiology consult), (6) Beta-blocker continuation, statin continuation, ACEi hold morning-of, (7) Glycemic plan perioperatively (hold metformin, sliding scale), (8) Structured fitness note template for the surgeon. Format as a 1-page assessment with numerical risk and clear go/no-go recommendation. ETHICS NOTE: Educational decision-support aid only; treating clinician, anesthetist and cardiologist must make final decision.",
+      "tags": [
+        "pre-op",
+        "cardiac-risk",
+        "clinical-decision-support",
+        "rcri",
+        "fitness"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-038",
+      "title": "Malaria Management by Species",
+      "prompt": "Act as an infectious disease physician with 12 years of experience in Odisha managing high malaria burden. I need you to build a species-specific management protocol for malaria diagnosed in a 30-year-old labourer, fever for 5 days, Pf 2% parasitemia on QBC, Hb 10, platelets 75k, no end-organ dysfunction. Please provide: (1) NVBDCP 2023 treatment guidelines for uncomplicated Pf (ACT — Artesunate-Sulfadoxine-Pyrimethamine in most states, AL in NE states, plus single-dose Primaquine 0.25 mg/kg for gametocytes), (2) Uncomplicated Pv treatment (Chloroquine 25 mg/kg over 3 days + Primaquine 0.25 mg/kg x 14 days, G6PD testing before primaquine), (3) Severe malaria criteria (ICMR/WHO) — any one of cerebral, ARDS, AKI, DIC, severe anemia, hyperparasitemia >5%, hypoglycemia, shock, (4) Severe malaria management (IV Artesunate 2.4 mg/kg at 0, 12, 24 then daily, minimum 24h IV before oral switch), (5) Monitoring and complications, (6) Mixed infection and treatment failure management, (7) Pregnancy-specific protocols, (8) Discharge counselling and follow-up smear. Format as a species x severity matrix. ETHICS NOTE: Educational decision-support aid only; treating clinician must follow NVBDCP and local epidemiology.",
+      "tags": [
+        "malaria",
+        "nvbdcp",
+        "clinical-decision-support",
+        "tropical-medicine",
+        "protocol"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-039",
+      "title": "Quality Improvement Project Charter",
+      "prompt": "Act as a hospital quality consultant with 15 years of experience and NABH assessor. I need you to write a complete QI project charter for reducing door-to-needle time for STEMI patients from current 72 minutes to target <60 minutes at a tier-2 Indian hospital with 24x7 cath lab. Please provide: (1) Problem statement with baseline data, (2) SMART aim (specific time-bound reduction), (3) Stakeholders (ER, cardiology, nursing, pharmacy, radiology, security, ambulance), (4) Process map of current state with delays highlighted (ECG time, physician review, consent, transfer to cath lab), (5) Root cause analysis using fishbone diagram (6 M's: man, method, machine, material, measurement, mother-nature), (6) PDSA cycle proposals (3 cycles: ECG within 10 min, single-call activation, pre-hospital ECG tele-transmission), (7) Measurement plan (run chart, balanced measures, process vs outcome), (8) Risks and mitigation, (9) NABH quality indicator alignment, (10) Timeline over 6 months with milestones. Format as a 2-page project charter ready for hospital quality committee approval.",
+      "tags": [
+        "quality-improvement",
+        "nabh",
+        "stemi",
+        "pdsa",
+        "project-charter"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    },
+    {
+      "id": "medical-doctors-physicians-040",
+      "title": "AYUSH Interface Counselling Patient",
+      "prompt": "Act as an integrative internal medicine consultant with 14 years of experience bridging allopathic and AYUSH care at an Indian hospital. I need you to write a respectful counselling framework for a 58-year-old T2DM + HTN patient who is simultaneously taking Ayurvedic \"Madhumehari\" herbal mix and Homeopathic remedies alongside Glycomet, Telma and Storvas, with worsening HbA1c 9.4%. Please provide: (1) Non-judgemental opener acknowledging AYUSH cultural belief, (2) Specific drug-interaction risks (guduchi/tinospora hepatotoxicity, karela hypoglycemia unpredictability, unknown heavy-metal contamination in some bhasmas), (3) How to ask patients about AYUSH use without stigmatising (\"aap aur kya le rahe hain, jaisa koi churan, kadha, ya homeopathy?\"), (4) Evidence summary: what has some data (fenugreek, cinnamon — weak), what has no credible data, what is harmful, (5) Shared decision-making — continue safe herbs if patient insists, stop clearly harmful ones, always disclose to physicians, (6) Framing allopathic medicines as complementary not opposing to wellness, (7) Liver/kidney monitoring schedule if continuing AYUSH, (8) Family education in Hindi. Format as a 12-minute counselling dialogue. Avoid dismissiveness — respect patient autonomy while ensuring safety.",
+      "tags": [
+        "ayush",
+        "patient-communication",
+        "integrative-medicine",
+        "counselling",
+        "drug-interactions"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "doctors-physicians"
+    }
+  ]
+}

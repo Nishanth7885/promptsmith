@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "medical-mental-health-001",
+      "title": "SOAP Note Generator for Individual Therapy Session",
+      "prompt": "Act as a clinical documentation assistant for an RCI-licensed clinical psychologist practicing in India. I need you to convert my raw session notes into a structured SOAP note format suitable for Indian mental health practice records maintained per Mental Healthcare Act 2017 standards. Here is the context: I run a private practice in Bengaluru and see clients for anxiety, depression, and relationship issues. I will paste rough notes after this prompt. Please produce: (1) Subjective — client's verbatim concerns, reported mood, sleep, appetite, recent stressors, family dynamics; (2) Objective — observed affect, engagement, risk indicators, mental status exam shorthand; (3) Assessment — working formulation using ICD-10, progress against treatment goals, cultural/family factors; (4) Plan — next session focus, homework, referrals, review date. Format as a clean table with the four SOAP sections. Constraints: keep language professional and neutral, avoid stigmatizing terms, use Indian family-system context (joint family pressures, arranged marriage stress, academic pressure), flag anything requiring supervision. IMPORTANT: This output is a clinician support aid only, not a replacement for licensed therapy or independent clinical judgment. Any suicide, self-harm, or crisis content must be handled per my own crisis protocol and RCI guidelines, never delegated to AI. Do not generate safety plans autonomously.",
+      "tags": [
+        "soap-note",
+        "session-documentation",
+        "clinical-psychology",
+        "rci",
+        "indian-practice"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-002",
+      "title": "DAP Note Template for Counselling Session",
+      "prompt": "Act as a documentation assistant for an Indian counsellor working on platforms like YourDost, Amaha, or MindPeers. I need a DAP (Data, Assessment, Plan) note generated from the rough session summary I will paste below. Here is the context: I conduct 50-minute online sessions with urban Indian clients aged 22-40 dealing with workplace burnout, relationship issues, and family expectations. Sessions are billed in INR and notes must be shareable with platform clinical supervisors. Please produce: (1) Data — objective description of what the client said and did, presenting concerns, key themes, any observed behaviours over video; (2) Assessment — my clinical interpretation, working hypothesis, progress toward goals, cultural considerations around Indian family dynamics, any ruptures in alliance; (3) Plan — agreed next steps, psychoeducation assigned, between-session tasks, next appointment, consultation needs. Format as three clearly labelled sections under 400 words. Include a short \"Cultural Factors\" subsection under Assessment noting stigma, gender, caste, or intergenerational themes if relevant. IMPORTANT: This output is a clinician support aid only and does not replace licensed therapy or clinical judgment. Any indication of suicide, self-harm, abuse, or crisis must be handled per my own crisis protocol and RCI/Mental Healthcare Act 2017 guidelines, never by the AI. Do not suggest diagnoses I have not already considered.",
+      "tags": [
+        "dap-note",
+        "counselling",
+        "online-therapy",
+        "documentation",
+        "indian-platforms"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-003",
+      "title": "Culturally Adapted CBT Treatment Plan for Indian Client",
+      "prompt": "Act as a senior clinical psychologist with 12 years of CBT experience adapting Beck's model for Indian clients. I need you to draft a 12-session CBT treatment plan template for a 28-year-old urban Indian client with Generalised Anxiety Disorder, living in a joint family in Pune, working in IT, fluent in English and Marathi. Here is the context: client has moderate GAD-7 score, high family involvement, resistance to \"Western\" therapy language, and prefers practical tools. Please provide: (1) Overall case conceptualisation using a cognitive model with Indian cultural schemas (log kya kahenge, family honour, filial duty); (2) Session-by-session plan for 12 sessions including psychoeducation, thought records, behavioural experiments, exposure, relapse prevention; (3) Homework ideas that fit Indian daily routines; (4) How to involve family appropriately without breaching confidentiality; (5) Outcome measures (GAD-7, WHO-5) to track in each phase; (6) Relapse prevention plan. Format as a structured treatment plan document with headings and a session-by-session table. Constraints: align with Mental Healthcare Act 2017 consent norms and RCI scope of practice. IMPORTANT: This is a clinician support aid to assist my planning, not a replacement for licensed therapy or individualised clinical judgment. Any suicidal ideation or crisis must follow my own crisis protocol, not AI guidance.",
+      "tags": [
+        "cbt",
+        "treatment-plan",
+        "gad",
+        "cultural-adaptation",
+        "indian-context"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-004",
+      "title": "DBT Skills Module Plan for Indian Young Adults",
+      "prompt": "Act as a DBT-trained clinical psychologist running a skills group for Indian young adults (18-25) with emotion dysregulation and interpersonal difficulties at a Mumbai clinic. I need you to design a 16-week DBT skills curriculum covering Mindfulness, Distress Tolerance, Emotion Regulation, and Interpersonal Effectiveness, adapted for Indian family and academic contexts. Here is the context: participants include engineering students, young professionals, and homemakers; many live in joint families; sessions are 90 minutes in English with Hindi examples. Please provide: (1) Weekly session plan with skill taught, teaching points, in-session practice, homework; (2) Indian cultural adaptations (e.g., DEAR MAN scripts for asking parents, opposite action for guilt tied to family expectations, mindfulness using pranayama framing without religious conflict); (3) Handout titles and one-line summaries; (4) Group norms respecting stigma and confidentiality; (5) Outcome tracking suggestions (DERS, DBT diary card). Format as a 16-row table plus a short cultural adaptation note. IMPORTANT: This is a clinician planning aid only and does not replace licensed therapy, DBT certification, or supervision. Suicide, self-harm, and crisis content must be handled per my own DBT crisis protocol and RCI guidelines, never by AI.",
+      "tags": [
+        "dbt",
+        "group-therapy",
+        "young-adults",
+        "curriculum",
+        "cultural-adaptation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-005",
+      "title": "ACT Case Conceptualisation Worksheet",
+      "prompt": "Act as an ACT (Acceptance and Commitment Therapy) therapist working with Indian clients experiencing chronic stress and meaning-related struggles. I need you to create a fillable ACT case conceptualisation worksheet using the hexaflex, tailored to Indian cultural values around duty, family, and spirituality. Here is the context: I use this with clients aged 30-55 dealing with midlife crises, caregiver burnout, and career dissatisfaction, many of whom find Western individualism uncomfortable. Please provide: (1) Presenting concerns section; (2) Six hexaflex domains with Indian-context prompt questions — cognitive fusion, experiential avoidance, loss of present moment, self-as-content, values unclarity, unworkable action; (3) Values clarification prompts across life domains (family, work, spirituality/dharma, health, community); (4) Committed action planning with small weekly steps; (5) Defusion and mindfulness techniques that respect Indian meditative traditions without appropriating them; (6) Progress review questions. Format as a ready-to-print A4 worksheet with clear sections and example prompts. IMPORTANT: This worksheet is a clinician support aid to use in session, not a replacement for licensed therapy or ACT certification. Any suicide, self-harm, or crisis risk must be handled per my own crisis protocol and RCI standards, never through AI.",
+      "tags": [
+        "act",
+        "case-conceptualisation",
+        "worksheet",
+        "values",
+        "hexaflex"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-006",
+      "title": "IPT Treatment Plan for Postpartum Depression",
+      "prompt": "Act as a clinical psychologist trained in Interpersonal Psychotherapy (IPT) working with Indian postpartum women. I need you to draft a 16-session IPT treatment plan template for a 29-year-old new mother in Delhi with moderate postpartum depression (EPDS 16), living with in-laws, experiencing role transition and interpersonal disputes. Here is the context: client is on SSRI prescribed by a psychiatrist, breastfeeding, and has limited childcare support. Please provide: (1) Initial phase (sessions 1-4) — interpersonal inventory, formulation, focal area selection from role transition/disputes/grief/deficits; (2) Middle phase (sessions 5-12) — session-by-session focus, communication analysis, role-play, homework; (3) Termination phase (sessions 13-16) — consolidation, relapse prevention, handover; (4) Cultural adaptations for Indian joint family dynamics, saas-bahu conflicts, and postpartum confinement customs; (5) Coordination with psychiatrist and paediatrician; (6) Outcome monitoring with EPDS. Format as a structured plan with a session table. IMPORTANT: This output is a clinician support aid, not a replacement for licensed therapy, psychiatric care, or clinical judgment. Any suicide, infanticide risk, or crisis must be handled per my own crisis protocol and Mental Healthcare Act 2017 requirements, never by AI.",
+      "tags": [
+        "ipt",
+        "postpartum-depression",
+        "treatment-plan",
+        "women-mental-health",
+        "indian-context"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-007",
+      "title": "Hindi Psychoeducation Handout on Anxiety",
+      "prompt": "Act as a bilingual (English-Hindi) mental health educator creating psychoeducation materials for Tier-2 Indian city clients. I need you to draft a one-page handout in simple Hindi (Devanagari) with a short English version explaining anxiety to a lay Indian audience. Here is the context: clients are aged 20-45, may have low mental health literacy, and hold stigmatised views about \"tension\" and \"nerves ki kamzori\". Please provide: (1) Title and friendly introduction; (2) What anxiety is — body, thoughts, behaviours — using relatable Indian examples (exam stress, job interviews, marriage pressure); (3) Difference between everyday tension and anxiety disorder; (4) Five simple coping strategies (box breathing, grounding, worry time, sleep hygiene, movement) written in plain Hindi; (5) When to seek help and how (NIMHANS helpline 080-46110007, iCall, Vandrevala Foundation 1860-2662-345); (6) Myth-busting against stigma. Format as a ready-to-print handout with Hindi primary and English secondary, under 500 words total in Hindi. Avoid jargon. IMPORTANT: This handout is a clinician support and psychoeducation aid, not a replacement for licensed therapy or medical advice. If a client shows suicide, self-harm, or crisis signs, I will follow my own crisis protocol and RCI guidelines, not rely on AI.",
+      "tags": [
+        "psychoeducation",
+        "hindi",
+        "anxiety",
+        "handout",
+        "stigma-reduction"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-008",
+      "title": "Depression Psychoeducation Script for First Session",
+      "prompt": "Act as a clinical psychologist delivering psychoeducation on depression to a first-time Indian client in a 50-minute session. I need you to draft a session script I can deliver verbally, adapted to Indian cultural contexts and low mental health literacy. Here is the context: client is a 35-year-old Chennai-based teacher, Tamil-English bilingual, with PHQ-9 score of 15, hesitant about \"mental illness\" label, worried about family reactions. Please provide: (1) Opening rapport-building lines acknowledging courage to seek help; (2) Simple explanation of depression as a treatable condition, not weakness or character flaw; (3) Biopsychosocial model in plain language with Indian examples; (4) Common symptoms checklist walked through collaboratively; (5) How CBT and medication work; (6) Addressing family stigma and confidentiality under Mental Healthcare Act 2017; (7) Collaborative treatment goals; (8) Homework — self-monitoring. Format as a spoken script with cues for pauses, questions to ask client, and Tamil-English phrases I can code-switch to. Keep clinical but warm. IMPORTANT: This script is a clinician support aid to guide my psychoeducation, not a replacement for licensed therapy or clinical judgment. Any suicide or self-harm disclosures during session must be handled via my own crisis protocol and RCI guidelines, never by AI.",
+      "tags": [
+        "psychoeducation",
+        "depression",
+        "first-session",
+        "script",
+        "tamil"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-009",
+      "title": "ADHD Psychoeducation for Indian Parents",
+      "prompt": "Act as a child and adolescent clinical psychologist educating Indian parents about ADHD after their 9-year-old child's diagnosis. I need you to draft a parent psychoeducation handout plus a 15-minute talking points outline for a feedback session. Here is the context: parents are middle-class Bengaluru residents, father is sceptical, mother is anxious, extended family blames \"too much screen time\" and \"bad parenting\". Child attends CBSE school and is struggling academically. Please provide: (1) Clear explanation of ADHD as a neurodevelopmental condition with genetic and brain basis; (2) Common myths in the Indian context debunked (discipline issue, lazy child, parenting failure); (3) How it shows up in CBSE/ICSE school contexts; (4) Multimodal management overview — behavioural therapy, parent training, school accommodations, medication decision with paediatrician/child psychiatrist; (5) Practical home strategies — routines, reward charts, homework structure; (6) Indian resources (NIMHANS child guidance clinic, LDC Bengaluru, Ummeed Mumbai); (7) Questions parents can ask school. Format as a 2-page handout plus a bullet-point talking outline. IMPORTANT: This output is a clinician support aid for psychoeducation, not a replacement for licensed assessment, therapy, or medical advice. Crisis or safeguarding concerns must be handled per my own protocol and Indian child protection law, never via AI.",
+      "tags": [
+        "adhd",
+        "psychoeducation",
+        "parent-training",
+        "child-psychology",
+        "indian-schools"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-010",
+      "title": "Relationship Psychoeducation on Attachment Styles",
+      "prompt": "Act as a couples therapist in India creating psychoeducation on adult attachment styles for urban Indian couples navigating love marriages and arranged marriages. I need you to draft a handout that is culturally sensitive and avoids Western individualism bias. Here is the context: I see couples aged 25-45 in Gurgaon, mix of arranged and love marriages, often with joint family living, exploring communication breakdowns. Please provide: (1) Gentle introduction to why attachment matters; (2) Four attachment styles (secure, anxious, avoidant, disorganised) with Indian-context examples including in-law dynamics; (3) Self-reflection prompts each partner can answer privately; (4) How styles interact in typical Indian marital conflicts (finances, in-laws, parenting, intimacy); (5) Five practical tools to build earned security — repair attempts, emotion labelling, weekly check-ins; (6) When to seek couples therapy; (7) Indian couples therapy resources (Amaha, Lissun, private practitioners). Format as a 2-page handout with a self-reflection worksheet on page 2. Tone warm, non-blaming, inclusive of all marriage types. IMPORTANT: This handout is a clinician support aid for psychoeducation, not a replacement for licensed couples therapy or individualised clinical judgment. Any disclosure of intimate partner violence, abuse, suicide, or crisis must follow my own safeguarding and crisis protocol, never be delegated to AI.",
+      "tags": [
+        "psychoeducation",
+        "attachment",
+        "couples",
+        "relationships",
+        "indian-marriage"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-011",
+      "title": "Grief Psychoeducation Handout Hindi-English",
+      "prompt": "Act as a grief counsellor working with Indian bereaved families, preparing a psychoeducation handout in Hindi and English on grief after loss of a parent. I need you to create a warm, culturally respectful handout that honours Indian mourning rituals. Here is the context: many clients are adults aged 30-60 who lost a parent during or after COVID and are struggling with delayed grief, guilt, and family expectations to \"move on\". Please provide: (1) Gentle opening acknowledging loss; (2) What grief is — normal reactions across body, emotions, thoughts, behaviours; (3) Acknowledgement of Indian mourning rituals (shraddh, tehravi, chautha, regional customs) as supportive when they feel right; (4) Difference between grief and depression with signs to seek help; (5) Five grounding tools for waves of grief; (6) How to talk to family when they push you to be \"strong\"; (7) Continuing bonds and memory practices; (8) Resources (iCall, Sukoon helpline, NIMHANS). Format as a 2-page Hindi-primary English-secondary handout under 700 words. Tone compassionate, non-prescriptive. IMPORTANT: This output is a clinician support aid and psychoeducation resource, not a replacement for licensed therapy. Any suicide risk or complicated grief crisis must be handled via my own crisis protocol and RCI guidelines, never by AI.",
+      "tags": [
+        "grief",
+        "psychoeducation",
+        "hindi",
+        "bereavement",
+        "cultural-rituals"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-012",
+      "title": "CBT Thought Record Worksheet for Social Anxiety",
+      "prompt": "Act as a CBT therapist designing a thought record worksheet for Indian clients with social anxiety, especially around workplace and family gatherings. I need you to produce a seven-column thought record with Indian-context example entries. Here is the context: clients are young professionals in Bengaluru and Hyderabad navigating tech workplaces, networking events, and extended family functions where they feel scrutinised. Please provide: (1) A seven-column worksheet — Situation, Emotion (0-100), Automatic Thought, Evidence For, Evidence Against, Balanced Thought, Re-rated Emotion; (2) Two completed example rows set in Indian contexts (a team meeting in an IT firm, a cousin's wedding reception); (3) A side panel with 10 common cognitive distortions defined with Indian examples (log kya kahenge thinking = fortune telling + mind reading); (4) Instructions for clients in simple English; (5) A weekly tracking summary box at the bottom; (6) A reminder about when to discuss entries in session. Format as a single A4 printable worksheet. Keep language non-clinical. IMPORTANT: This worksheet is a clinician support aid to be used in collaborative CBT practice, not a replacement for licensed therapy. Any escalation including suicide, self-harm, or crisis thoughts must be handled per my own crisis protocol and RCI standards, not by AI.",
+      "tags": [
+        "cbt",
+        "thought-record",
+        "social-anxiety",
+        "worksheet",
+        "cognitive-distortions"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-013",
+      "title": "Behavioural Experiment Planner for Panic Disorder",
+      "prompt": "Act as a CBT therapist designing behavioural experiments for an Indian client with panic disorder who fears fainting in crowded markets and metro stations. I need you to create a behavioural experiment planning worksheet with step-by-step guidance. Here is the context: client is a 32-year-old Delhi professional who avoids Chandni Chowk and metro peak hours, has had three panic attacks, and is in session 6 of CBT. Please provide: (1) Rationale for behavioural experiments; (2) Worksheet fields — Target belief, Prediction (with likelihood %), Experiment design, Safety behaviours to drop, What I will notice, Outcome, New learning, Revised belief; (3) Three graded experiment ideas specific to Delhi settings — a quiet metro station off-peak, a moderate market, Chandni Chowk on a weekday; (4) Safety behaviour list to progressively drop; (5) Interoceptive exposure add-ons (hyperventilation, head rotation); (6) Debrief questions for the next session. Format as a two-page worksheet. Constraint: align with CBT for panic (Clark model) adapted culturally. IMPORTANT: This is a clinician support aid to assist CBT planning, not a replacement for licensed therapy or in-session judgment. Any suicide, self-harm, or crisis indicators must be handled via my own crisis protocol and RCI guidelines, never by AI. Do not generate autonomous safety plans.",
+      "tags": [
+        "cbt",
+        "behavioural-experiment",
+        "panic-disorder",
+        "worksheet",
+        "exposure"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-014",
+      "title": "Exposure Hierarchy Builder for OCD Contamination",
+      "prompt": "Act as a CBT therapist specialising in ERP (Exposure and Response Prevention) for OCD, working with an Indian client with contamination fears. I need you to build a 15-step exposure hierarchy ranked by SUDS (0-100) tailored to Indian daily life. Here is the context: client is a 26-year-old Mumbai woman with contamination OCD around public transport, street food, and domestic help touching her belongings, currently at session 4 of ERP. Please provide: (1) Short rationale for ERP linking to the cognitive-behavioural model; (2) A 15-item hierarchy table with Situation, Expected SUDS, Response Prevention rule, Notes; (3) Items spanning low (touching own doorknob), medium (local train handrail, eating street chaat), to high (using a sulabh shauchalaya, hugging domestic help) difficulty; (4) Guidance on session-based vs home-based exposures; (5) Instructions to drop rituals during exposure; (6) Habituation tracking sheet. Format as a structured plan with a ready-to-print table. Constraint: culturally sensitive to Indian hygiene norms without reinforcing avoidance. IMPORTANT: This hierarchy is a clinician support aid for ERP planning, not a replacement for licensed therapy, ERP training, or individualised clinical judgment. Any suicide, self-harm, or crisis risk must follow my own crisis protocol and RCI standards, never AI guidance.",
+      "tags": [
+        "cbt",
+        "erp",
+        "ocd",
+        "exposure-hierarchy",
+        "worksheet"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-015",
+      "title": "Group Therapy Session Plan — Stress Management",
+      "prompt": "Act as a group psychotherapist designing an 8-week closed stress management group for Indian corporate employees in Gurgaon IT parks. I need you to draft a full session-by-session plan with Indian workplace examples. Here is the context: 8 participants aged 25-40, mixed gender, recruited via EAP from a large IT firm, 90-minute weekly sessions, CBT-plus-mindfulness model. Please provide: (1) Group goals, norms, confidentiality agreement respecting Mental Healthcare Act 2017; (2) Screening criteria and exclusions; (3) Eight weekly session plans — theme, icebreaker, psychoeducation, experiential activity, skill practice, homework; (4) Topics covering stress model, thought records, behavioural activation, values clarification, assertiveness, sleep, boundaries, relapse prevention; (5) Indian workplace scenarios for practice (long commutes, appraisals, manager conflicts, client calls with US/UK); (6) Pre/post outcome measures (PSS-10, GAD-7, WHO-5); (7) Facilitator notes for each session. Format as a structured curriculum with a session-by-session table. IMPORTANT: This curriculum is a clinician planning aid, not a replacement for licensed group therapy training, supervision, or clinical judgment. Any participant showing suicide, self-harm, or crisis indicators must be handled per my own crisis protocol and RCI guidelines, never by AI.",
+      "tags": [
+        "group-therapy",
+        "stress-management",
+        "corporate",
+        "curriculum",
+        "cbt"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-016",
+      "title": "Psychiatric Intake Summary from Rough Notes",
+      "prompt": "Act as a documentation assistant for an Indian psychiatrist at a private OPD in Kolkata. I need you to convert my rough intake notes into a structured psychiatric intake summary aligned with Indian clinical standards and Mental Healthcare Act 2017 documentation. Here is the context: I see 15-20 patients daily for anxiety, mood, sleep, and psychotic disorders. I will paste raw notes after this prompt. Please produce: (1) Identifying data; (2) Chief complaint in patient's words; (3) HPI with onset, course, severity, functional impact; (4) Past psychiatric history including prior meds and response; (5) Medical history and current medications; (6) Family psychiatric history; (7) Personal and developmental history; (8) Mental status examination in standard headings; (9) Provisional ICD-10 diagnosis and differentials; (10) Biopsychosocial formulation with Indian cultural factors; (11) Plan with investigations, pharmacology considerations, therapy referral, follow-up. Format as a structured clinical note. Constraint: respect confidentiality, advance directives, nominated representative provisions under MHCA 2017. IMPORTANT: This output is a clinician documentation support aid, not a replacement for licensed psychiatric assessment or independent clinical judgment. Any suicide, self-harm, or crisis content must be handled per my own psychiatric crisis protocol and Indian law, never through AI. Do not recommend specific medications or doses.",
+      "tags": [
+        "psychiatry",
+        "intake",
+        "documentation",
+        "mhca-2017",
+        "indian-practice"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-017",
+      "title": "Informed Consent Document Template MHCA 2017",
+      "prompt": "Act as a mental health legal-clinical writer drafting an informed consent document for an Indian private practice, compliant with the Mental Healthcare Act 2017. I need you to produce a client-facing consent form template in clear English with a simple Hindi summary. Here is the context: solo clinical psychologist practice in Pune offering CBT, DBT skills, and couples work in person and online. Please provide: (1) Nature and scope of services; (2) Confidentiality and its limits (risk of harm, child safeguarding, court orders); (3) Rights of the person under MHCA 2017 including advance directive and nominated representative; (4) Session length, fees in INR, cancellation policy; (5) Use of digital platforms and data privacy under DPDP Act 2023; (6) Recording policy; (7) Complaints and grievance pathway via RCI and State Mental Health Authority; (8) Risks and benefits of therapy; (9) Emergency contacts (NIMHANS, iCall, Vandrevala); (10) Signature blocks. Format as a two-page form ready for adaptation. Include a 150-word Hindi summary box. IMPORTANT: This template is a clinician administrative support aid, not legal advice or a replacement for review by a qualified Indian lawyer and my own clinical judgment. Crisis handling follows my own protocol, never AI.",
+      "tags": [
+        "informed-consent",
+        "mhca-2017",
+        "legal-template",
+        "private-practice",
+        "dpdp"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-018",
+      "title": "Behavioural Activation Plan for Depression",
+      "prompt": "Act as a CBT therapist designing a behavioural activation plan for an Indian client with moderate depression who has withdrawn from work and social life. I need you to produce a structured 4-week BA worksheet. Here is the context: client is a 40-year-old Ahmedabad-based small business owner, PHQ-9 of 16, spending most days in bed, avoiding the shop, withdrawn from family. Please provide: (1) Rationale linking avoidance, mood, and reinforcement in simple language with a Gujarati-friendly example; (2) Baseline week of activity and mood monitoring (hourly grid); (3) Values and life areas clarification — family, work, health, community, spirituality; (4) Menu of pleasurable, mastery, and routine activities drawn from Indian daily life (morning walk, chai with neighbour, brief shop visit, namaz/puja, family dinner); (5) Weekly scheduling template for weeks 2-4 with graded tasks; (6) Troubleshooting common blockers; (7) Review questions for each session; (8) Outcome tracking via PHQ-9 weekly. Format as a 3-page printable workbook. IMPORTANT: This workbook is a clinician support aid for collaborative CBT-BA work, not a replacement for licensed therapy or medical treatment. Any suicide, self-harm, or crisis risk must be handled per my own crisis protocol and RCI guidelines, never by AI.",
+      "tags": [
+        "cbt",
+        "behavioural-activation",
+        "depression",
+        "worksheet",
+        "indian-context"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-019",
+      "title": "DBT Diary Card Template India",
+      "prompt": "Act as a DBT therapist adapting a standard DBT diary card for Indian adult clients in outpatient skills group. I need you to produce a one-page diary card template plus brief instructions. Here is the context: clients track daily emotions, urges, skills used, and target behaviours over a week; ages 22-45; clinic in Chennai. Please provide: (1) A 7-day grid diary card with columns for date, emotions (sadness, anger, fear, shame, joy 0-5), urges (self-harm, substance, impulsive spending 0-5), target behaviours, skills used (choose from a list), sleep, medication; (2) A skills key with DBT modules abbreviated (MIND, DT, ER, IE); (3) Two example filled rows with Indian daily life contexts; (4) Weekly reflection prompts at the bottom; (5) A note in Hindi translation for key terms (emotion, urge, skill); (6) Guidance for clients on how to fill in and when to bring to session. Format as a ready-to-print landscape A4. IMPORTANT: This diary card is a clinician support aid to be used in supervised DBT practice, not a replacement for licensed therapy, DBT certification, or independent clinical judgment. Suicide, self-harm, and crisis content must be handled per my own DBT crisis protocol and RCI guidelines, never by AI.",
+      "tags": [
+        "dbt",
+        "diary-card",
+        "skills-tracking",
+        "template",
+        "hindi"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-020",
+      "title": "Case Formulation Letter to Referring GP",
+      "prompt": "Act as a clinical psychologist drafting a case formulation letter back to a referring Indian GP after completing an assessment. I need you to turn my assessment notes into a professional, concise referral response letter. Here is the context: I work in a private multispecialty clinic in Hyderabad and receive GP referrals for anxiety, depression, and sleep issues; letters go back within 2 weeks. I will paste assessment notes after this prompt. Please produce: (1) Standard letter header; (2) Thanks for referral and brief summary; (3) Presenting concerns; (4) Relevant history; (5) Assessment tools used (e.g., PHQ-9, GAD-7, ISI) with scores; (6) Psychological formulation — predisposing, precipitating, perpetuating, protective (4Ps) with Indian family and cultural factors; (7) Provisional ICD-10 impression; (8) Agreed treatment plan and expected course; (9) Recommendations for GP — labs, review, medication discussion with psychiatrist if needed; (10) Confidentiality reminder and consent to share. Format as a 1-page professional letter in plain English. IMPORTANT: This letter is a clinician documentation support aid, not a replacement for licensed clinical judgment or medical advice. Any suicide, self-harm, or crisis concerns must be flagged per my own protocol and Indian mental health law, never delegated to AI.",
+      "tags": [
+        "formulation",
+        "gp-letter",
+        "referral",
+        "documentation",
+        "4ps"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-021",
+      "title": "Adolescent Treatment Plan Anxiety India",
+      "prompt": "Act as a child and adolescent clinical psychologist planning CBT for a 15-year-old Indian girl with school-related anxiety and perfectionism. I need you to draft a 14-session family-informed treatment plan. Here is the context: client studies in Class 10 CBSE in Noida, high performer, two panic episodes before pre-boards, supportive but anxious parents, no psychiatric history. Please provide: (1) Collaborative goals with adolescent and parents, using age-appropriate language; (2) Psychoeducation session for parents on anxiety, accommodation, and CBSE pressure; (3) 14 session outline — assessment, psychoeducation, cognitive restructuring, exposure to test-related triggers, behavioural experiments, self-compassion, relapse prevention; (4) Parent coaching components on reducing accommodation; (5) School liaison letter outline for exam accommodations where appropriate; (6) Homework ideas feasible for a CBSE study load; (7) Outcome measures (SCARED, PHQ-A); (8) Safeguarding and confidentiality boundaries with parents under MHCA 2017 and POCSO awareness. Format as a structured plan with a session table. IMPORTANT: This plan is a clinician support aid, not a replacement for licensed child-adolescent therapy, parent-adolescent judgment, or safeguarding decisions. Any suicide, self-harm, abuse, or crisis must be handled per my own child protocol and Indian law, never by AI.",
+      "tags": [
+        "adolescent",
+        "cbt",
+        "school-anxiety",
+        "treatment-plan",
+        "parents"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-022",
+      "title": "Group Therapy Activity Grief Circle",
+      "prompt": "Act as a grief counsellor designing an experiential activity for a closed 6-week bereavement support group in Mumbai. I need you to create a detailed session plan for a single 90-minute \"memory sharing circle\" session. Here is the context: 8 participants aged 35-65 who lost a spouse in the last 12 months, mixed faiths, mix of Hindi/Marathi/English, meeting in a community clinic. Please provide: (1) Learning objectives; (2) Materials needed (candle, stones, paper, pens, photo optional); (3) Minute-by-minute plan — arrival, grounding, check-in, rationale, memory sharing circle with prompts, reflection, closing ritual; (4) Three sample prompts honouring different grief styles; (5) Containment techniques if someone becomes overwhelmed; (6) Cultural considerations across Hindu, Muslim, Christian, Parsi mourning practices; (7) Between-session task — write a letter to the deceased; (8) Facilitator self-care notes. Format as a facilitator guide. Tone warm, grounded, trauma-informed. IMPORTANT: This session plan is a clinician support aid for supervised group grief work, not a replacement for licensed therapy, group training, or clinical judgment. Any suicide, self-harm, complicated grief crisis, or dissociation must be handled per my own crisis protocol and RCI guidelines, never by AI.",
+      "tags": [
+        "group-therapy",
+        "grief",
+        "activity-design",
+        "bereavement",
+        "facilitator-guide"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-023",
+      "title": "Mindfulness Script for Indian Clients",
+      "prompt": "Act as a mindfulness-based therapist creating a 10-minute guided body scan script for Indian clients who are ambivalent about meditation due to religious associations. I need you to write a secular, culturally neutral script. Here is the context: clients are urban Indian adults in CBT or DBT, some Hindu, Muslim, Christian, some atheist; I want a script that respects all while grounding in evidence-based mindfulness. Please provide: (1) Short framing statement distinguishing clinical mindfulness from religious meditation; (2) A full 10-minute guided body scan script with gentle pacing cues and timing; (3) Simple posture instructions suitable for a chair or floor; (4) Inclusive language avoiding specific spiritual imagery; (5) Optional short Hindi phrases for comfort; (6) Closing integration prompt; (7) Client instructions for home practice 5 days a week; (8) Common obstacles and how to address them. Format as a ready-to-read-aloud script with stage directions in brackets. IMPORTANT: This script is a clinician support aid for in-session use, not a replacement for licensed therapy, MBSR/MBCT training, or clinical judgment. Any trauma activation, dissociation, suicide, or crisis during practice must be handled per my own protocol and RCI standards, never by AI.",
+      "tags": [
+        "mindfulness",
+        "body-scan",
+        "script",
+        "secular",
+        "cultural-sensitivity"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-024",
+      "title": "Progress Review Template Mid-Therapy",
+      "prompt": "Act as a clinical psychologist conducting a mid-therapy progress review at session 8 of 16 with an Indian client. I need you to draft a structured review document I can use collaboratively in session. Here is the context: I practice in Jaipur, and use this template across CBT and integrative work with adults aged 25-50. Please provide: (1) Brief recap of presenting concerns and initial goals; (2) Outcome measure comparison table (baseline vs current — PHQ-9, GAD-7, WSAS); (3) Goal-by-goal progress rating (0-10) with client self-report and therapist rating; (4) What has worked, what hasn't, therapeutic alliance check-in; (5) Obstacles — cultural, family, practical; (6) Adjustments to formulation and plan; (7) Remaining sessions roadmap; (8) Homework for next session; (9) Client voice section for written feedback. Format as a two-page worksheet suitable for shared completion in session. Keep tone collaborative and non-judgmental. IMPORTANT: This review template is a clinician support aid for reflective practice, not a replacement for licensed therapy or independent clinical judgment. Any suicide, self-harm, or crisis flagged during review must be handled per my own crisis protocol and RCI standards, never by AI.",
+      "tags": [
+        "progress-review",
+        "outcome-measures",
+        "collaborative",
+        "template",
+        "cbt"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-025",
+      "title": "Psychoeducation Burnout IT Professionals",
+      "prompt": "Act as a workplace mental health psychologist creating psychoeducation content on burnout for Indian IT professionals working with US clients in night shifts. I need you to draft a handout and a 5-slide deck outline. Here is the context: I consult with EAPs and conduct workshops for IT firms in Bengaluru and Pune; audience is 25-35 year olds facing long hours, sleep disruption, and poor boundaries. Please provide: (1) Definition of burnout using WHO-ICD-11; (2) Three dimensions — exhaustion, cynicism, inefficacy — with Indian IT examples; (3) Early warning signs vs crisis signs; (4) Night shift specific issues — circadian disruption, family isolation, health; (5) Five evidence-based strategies — boundary setting, sleep hygiene for shift work, micro-recovery, values reconnection, seeking help; (6) When and how to access EAP and RCI-licensed therapists; (7) Slide outline (5 slides) with title, key point, one-line speaker note each; (8) Resources (NIMHANS, iCall, Amaha). Format as a 2-page handout plus slide outline. IMPORTANT: This material is a clinician support and psychoeducation aid, not a replacement for licensed therapy or occupational health advice. Any employee showing suicide, self-harm, or crisis signs must be handled per my own crisis protocol and Indian workplace mental health law, never by AI.",
+      "tags": [
+        "burnout",
+        "psychoeducation",
+        "it-professionals",
+        "workplace",
+        "night-shift"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-026",
+      "title": "Trauma-Informed Session Note Template",
+      "prompt": "Act as a trauma-focused therapist creating a trauma-informed session note template for Indian clients working through complex trauma. I need you to produce a note template that captures window of tolerance, grounding, and relational repair details beyond standard SOAP. Here is the context: I work with adult survivors of childhood abuse and intimate partner violence in Delhi NCR using phase-based trauma therapy (stabilisation-processing-integration). Please provide: (1) Header with session number, phase, target; (2) Arousal state on entry and exit (hypo/within/hyper); (3) Grounding and resourcing used; (4) Content worked on; (5) Window of tolerance tracking across the session; (6) Dissociation signs and interventions; (7) Alliance ruptures and repair; (8) Between-session safety plan status (not generated by AI, referenced only); (9) Plan for next session; (10) Supervision flags. Format as a structured one-page template. Constraint: align with phase-based trauma therapy principles and Indian safeguarding norms. IMPORTANT: This template is a clinician documentation support aid, not a replacement for licensed trauma therapy training, supervision, or clinical judgment. Any suicide, self-harm, abuse disclosure, or crisis must be handled per my own crisis and safeguarding protocol and Indian law, never by AI.",
+      "tags": [
+        "trauma",
+        "session-note",
+        "phase-based",
+        "window-of-tolerance",
+        "template"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-027",
+      "title": "Couples Therapy Session Plan Communication",
+      "prompt": "Act as a Gottman-informed couples therapist planning a session on communication repair for an Indian couple in distress. I need you to design a full 75-minute session plan. Here is the context: Hindi-English-speaking couple in their mid-30s in a love marriage, two children, joint family household in Lucknow, presenting with frequent arguments about in-laws, money, and parenting. Please provide: (1) Session objectives; (2) Opening check-in and agenda-setting; (3) Psychoeducation on the four horsemen with Indian examples; (4) In-session exercise identifying each partner's horsemen; (5) Teaching softened start-up and repair attempts with Hindi phrase examples; (6) Live dialogue practice on one mild current issue; (7) Feedback and coaching; (8) Homework — daily 10-minute stress-reducing conversation; (9) Closing ritual; (10) Therapist notes on alliance and power dynamics, including gender-based concerns. Format as a minute-by-minute plan. IMPORTANT: This plan is a clinician support aid for couples therapy preparation, not a replacement for licensed couples therapy training, supervision, or clinical judgment. Any disclosure of intimate partner violence, abuse, suicide, or crisis must be handled per my own safeguarding and crisis protocol under Indian law, never by AI.",
+      "tags": [
+        "couples-therapy",
+        "gottman",
+        "communication",
+        "session-plan",
+        "indian-marriage"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-028",
+      "title": "Sleep Psychoeducation CBT-I Handout",
+      "prompt": "Act as a CBT-I therapist creating a client handout on sleep hygiene and sleep restriction basics for Indian clients with chronic insomnia. I need you to produce a 2-page psychoeducation handout. Here is the context: clients aged 30-60, many with late-night screen use, shift work, early morning family demands, chai/coffee habits, living in noisy urban settings like Mumbai or Kolkata. Please provide: (1) Brief explanation of 3P model of insomnia; (2) Sleep hygiene dos and don'ts tailored to Indian life (chai timings, dinner hours, afternoon naps, family TV time); (3) Introduction to sleep restriction therapy and stimulus control with clear rules; (4) Common myths busted (8 hours is mandatory, weekend catch-up, etc.); (5) Sleep diary instructions and a 7-day template; (6) When to seek specialist help and red flags for sleep apnoea; (7) Resources (NIMHANS sleep clinic, AIIMS sleep lab); (8) Short Hindi summary. Format as a 2-page printable handout with a diary page. IMPORTANT: This handout is a clinician support aid for CBT-I psychoeducation, not a replacement for licensed therapy or medical sleep assessment. Any suicide, self-harm, or crisis concern must be handled per my own crisis protocol and RCI guidelines, never by AI.",
+      "tags": [
+        "cbt-i",
+        "insomnia",
+        "psychoeducation",
+        "sleep-hygiene",
+        "handout"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-029",
+      "title": "Values Card Sort Activity ACT",
+      "prompt": "Act as an ACT therapist designing a values card sort activity for Indian adult clients in individual therapy. I need you to produce 40 values cards with short definitions and Indian contextual examples, plus a facilitation guide. Here is the context: clients are aged 25-55, urban and semi-urban, navigating career, family duty, and personal meaning. Please provide: (1) List of 40 values (e.g., family harmony, honesty, creativity, seva/service, spirituality, independence, tradition, adventure, loyalty, learning, justice, health) — ensure Indian cultural values are represented alongside universal ones; (2) For each value — a one-line definition and an Indian-life example; (3) Facilitator guide with three sort rounds — sort into Very Important/Important/Not Important, narrow to top 10, then top 5; (4) Reflection questions linking top values to committed action; (5) Debrief prompts; (6) Homework — one values-consistent micro-action this week; (7) Note on honouring collectivist values without bypassing personal agency. Format as a card list plus facilitator guide, together 3 pages. IMPORTANT: This activity is a clinician support aid for ACT practice, not a replacement for licensed therapy, ACT training, or clinical judgment. Any suicide, self-harm, or crisis content must be handled per my own crisis protocol and RCI guidelines, never through AI.",
+      "tags": [
+        "act",
+        "values",
+        "card-sort",
+        "activity",
+        "indian-context"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-030",
+      "title": "Case Discussion Template for Peer Supervision",
+      "prompt": "Act as a clinical psychologist preparing a case presentation for a peer supervision group of RCI-licensed Indian practitioners. I need you to draft a structured case discussion template I can fill in before the meeting. Here is the context: our group meets monthly, 6 practitioners, and discusses one complex case per meeting under confidentiality norms. Please provide: (1) De-identified client code and demographic box; (2) Presenting concerns and referral pathway; (3) Relevant history summary; (4) Formulation using a named model (CBT, psychodynamic, systemic, integrative); (5) Current treatment plan and sessions to date; (6) Outcome measures trajectory; (7) Therapeutic alliance and transference-countertransference notes; (8) Ethical or cultural dilemmas; (9) Specific questions for peers; (10) Supervision outcome actions section. Format as a 2-page structured template. Constraint: align with RCI ethical standards, MHCA 2017 confidentiality, and Indian peer supervision norms. Include a reminder to anonymise and obtain consent. IMPORTANT: This template is a clinician professional-development support aid, not a replacement for formal supervision, licensed judgment, or ethics committee review. Any suicide, self-harm, or crisis content in presented cases must be handled per my own crisis protocol and RCI guidelines, never by AI.",
+      "tags": [
+        "peer-supervision",
+        "case-discussion",
+        "template",
+        "rci",
+        "ethics"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-031",
+      "title": "CBT Pie Chart Responsibility Attribution",
+      "prompt": "Act as a CBT therapist creating a responsibility pie chart worksheet for an Indian client with OCD-linked guilt over a family member's illness. I need you to produce a guided worksheet that walks the client through re-attributing responsibility. Here is the context: client is a 34-year-old Chandigarh professional who believes her negative thoughts \"caused\" her father's heart attack, a common thought-action fusion pattern. Please provide: (1) Brief rationale for the responsibility pie; (2) Step 1 — list every possible contributing factor to the event (biological, lifestyle, medical, environmental, chance, her thoughts); (3) Step 2 — assign percentages to each factor excluding her thoughts first; (4) Step 3 — allocate the remainder and visually draw the pie; (5) Step 4 — reflection questions comparing original felt responsibility to new percentage; (6) Step 5 — balanced thought to replace self-blame; (7) Homework — track guilt ratings across the week; (8) Cultural note on karma beliefs and how to work with them respectfully without dismissal. Format as a 2-page worksheet with a blank pie chart. IMPORTANT: This worksheet is a clinician support aid for collaborative CBT, not a replacement for licensed therapy or clinical judgment. Any suicide, self-harm, or crisis must be handled per my own crisis protocol and RCI guidelines, never by AI.",
+      "tags": [
+        "cbt",
+        "responsibility-pie",
+        "ocd",
+        "guilt",
+        "worksheet"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-032",
+      "title": "Termination Session Plan and Letter",
+      "prompt": "Act as a clinical psychologist planning a therapy termination session for an Indian client completing 20 sessions of CBT for depression. I need you to produce both a session plan and a termination letter template. Here is the context: client is a 45-year-old Kochi school principal who has moved from PHQ-9 of 19 to 6; we agreed on planned ending. Please provide: (1) 50-minute session plan — check-in, review of therapy journey, outcome measure comparison, skills acquired, relapse prevention plan, feelings about ending, gratitude exchange, closing ritual; (2) A 1-page termination letter template summarising goals set, work done, progress, skills, early warning signs, booster session criteria, and how to re-access therapy; (3) Resources for continued support (Amaha, YourDost, local support groups, NIMHANS); (4) Note on culturally appropriate closure — respecting client's desire to bring sweets or gifts; (5) Therapist reflection prompts for own records. Format as session plan plus letter. IMPORTANT: This plan and letter are a clinician support aid for termination planning, not a replacement for licensed therapy or clinical judgment. Any suicide, self-harm, or crisis signs at termination must be handled per my own crisis protocol and RCI guidelines, never by AI.",
+      "tags": [
+        "termination",
+        "cbt",
+        "relapse-prevention",
+        "letter",
+        "session-plan"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-033",
+      "title": "Psychoeducation Stigma and Help-Seeking",
+      "prompt": "Act as a community mental health psychologist creating stigma-reduction psychoeducation for a Tier-3 Indian town audience at a college outreach event. I need you to draft a 20-minute talk outline plus a take-home pamphlet. Here is the context: audience is 150 undergraduate students in a government college in eastern UP, Hindi-primary, limited prior exposure to mental health concepts. Please provide: (1) Opening with a relatable Hindi story (not a diagnosis); (2) Definitions of mental health vs mental illness in plain Hindi; (3) Common misconceptions — pagalpan, weakness, possession — and evidence-based reality; (4) Four common conditions (anxiety, depression, exam stress, substance misuse) with signs; (5) How help works — counsellor, psychologist, psychiatrist, medication; (6) Confidentiality under Mental Healthcare Act 2017; (7) Free and low-cost resources (NIMHANS 080-46110007, iCall, Tele-MANAS 14416, Kiran 1800-599-0019); (8) Simple call-to-action — talk to one trusted person; (9) A one-page Hindi pamphlet outline summarising the talk. Format as a talk outline with timing plus pamphlet. IMPORTANT: This material is a clinician psychoeducation support aid, not a replacement for licensed therapy or individual clinical care. Any audience member showing suicide, self-harm, or crisis must be handled per my own crisis protocol and RCI guidelines, never by AI.",
+      "tags": [
+        "stigma",
+        "psychoeducation",
+        "community",
+        "hindi",
+        "college-outreach"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-034",
+      "title": "Emotion Regulation Worksheet for Adolescents",
+      "prompt": "Act as an adolescent therapist designing an emotion regulation worksheet for Indian teenagers (13-17) using DBT-informed skills. I need you to produce a fun, engaging one-page worksheet. Here is the context: I see teens in a Bengaluru clinic for anger, self-doubt, and friendship conflicts; they are tech-savvy, use Hinglish, and respond to relatable examples. Please provide: (1) A feelings wheel section with 16 emotions labelled in English with Hindi equivalents; (2) Intensity thermometer (0-10); (3) \"What happened?\" cue (situation, thought, body, urge); (4) STOP skill explained in Hinglish; (5) TIPP skill (temperature, intense exercise, paced breathing, paired muscle relaxation) with Indian-context examples (splash face, run up stairs, deep breaths like pranayama without religious framing); (6) One small action I can take; (7) Reflection — what worked; (8) Weekly practice tracker. Format as a visually structured one-page worksheet. Tone friendly, non-judgmental, age-appropriate. IMPORTANT: This worksheet is a clinician support aid for adolescent skill practice, not a replacement for licensed therapy, DBT training, or clinical judgment. Any suicide, self-harm, abuse, or crisis disclosure must be handled per my own crisis protocol, POCSO awareness, and RCI guidelines, never by AI.",
+      "tags": [
+        "adolescent",
+        "dbt",
+        "emotion-regulation",
+        "worksheet",
+        "hinglish"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-035",
+      "title": "Group Therapy Plan Social Skills ASD Adults",
+      "prompt": "Act as a psychologist designing a social skills group for Indian adults on the autism spectrum without intellectual disability. I need you to draft a 10-week curriculum outline. Here is the context: 6 participants aged 20-35 in Bengaluru, many in tech jobs, looking to navigate workplace and romantic interactions; weekly 90-minute sessions. Please provide: (1) Group goals, norms, and neurodiversity-affirming stance; (2) Pre-group screening and orientation session; (3) 10 weekly session plans with theme, skill, activity, role-play, homework — covering starting conversations, reading cues, small talk, workplace interactions, disclosure decisions, conflict, friendship, romantic relationships, boundaries, self-advocacy; (4) Indian workplace and family context examples; (5) Strengths-based framing — masking costs, authenticity; (6) Sensory accommodations in the group room; (7) Outcome measures (SRS-2 adult, WHO-5); (8) Post-group resources (Autism Society of India, Ummeed, online communities). Format as a curriculum document with a weekly table. IMPORTANT: This curriculum is a clinician planning aid, not a replacement for licensed group therapy, autism-specialist training, or clinical judgment. Any suicide, self-harm, or crisis content must be handled per my own crisis protocol and RCI guidelines, never by AI. Framing must respect neurodiversity.",
+      "tags": [
+        "asd",
+        "social-skills",
+        "group-therapy",
+        "adults",
+        "neurodiversity"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-036",
+      "title": "Safety Planning Discussion Framework",
+      "prompt": "Act as a clinical psychologist creating a clinician-facing framework to guide a collaborative safety planning conversation with an Indian client experiencing suicidal ideation. I need you to produce an in-session discussion framework that supports me (the clinician) in structuring the conversation. This is NOT a safety plan generated by AI. Here is the context: I use Stanley-Brown-informed safety planning within my own crisis protocol in a Delhi private practice. Please provide: (1) Pre-session preparation checklist for the clinician; (2) Discussion prompts for each of the six standard safety plan steps, written as questions I can ask — warning signs, internal coping, social contacts/settings, people for help, professionals and agencies, lethal means counselling; (3) Culturally specific considerations — family involvement under MHCA 2017 nominated representative, stigma, access to lethal means in Indian homes; (4) Indian crisis numbers to reference (iCall 9152987821, Vandrevala 1860-2662-345, Tele-MANAS 14416, NIMHANS 080-46110007); (5) Documentation pointers; (6) Supervision and follow-up cadence. Format as a clinician discussion guide. CRITICAL: This framework is a clinician support aid only. The AI does NOT generate the client's safety plan. All safety planning, risk assessment, and crisis response must be done by me per my own protocol, RCI standards, and Mental Healthcare Act 2017, not by AI.",
+      "tags": [
+        "safety-planning",
+        "crisis",
+        "clinician-framework",
+        "mhca-2017",
+        "suicide-prevention"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-037",
+      "title": "Behavioural Experiment Social Anxiety Wedding",
+      "prompt": "Act as a CBT therapist planning a behavioural experiment for an Indian client with social anxiety facing an upcoming big fat Indian wedding. I need you to build a tailored experiment worksheet. Here is the context: client is a 29-year-old Jaipur-based architect, catastrophises being judged by 400 guests at her cousin's wedding next month, has avoided family events for 2 years. Please provide: (1) Identification of the target belief (\"Everyone will stare and judge me\"); (2) Prediction with likelihood percentage and feared outcome; (3) Experiment design — attend sangeet for 90 minutes, drop one safety behaviour (avoiding eye contact), conduct a mini-survey of her own attention toward others to test self-focused attention; (4) Safety behaviours to monitor; (5) In-situ notes to capture; (6) Post-event debrief questions; (7) New learning and revised belief; (8) Follow-up exposures for haldi and reception nights; (9) Coping strategies if anxiety peaks — grounding, paced breathing; (10) Session review questions. Format as a 2-page worksheet. IMPORTANT: This worksheet is a clinician support aid for collaborative CBT planning, not a replacement for licensed therapy or individualised clinical judgment. Any suicide, self-harm, or crisis concerns must be handled per my own crisis protocol and RCI guidelines, never by AI.",
+      "tags": [
+        "cbt",
+        "behavioural-experiment",
+        "social-anxiety",
+        "indian-wedding",
+        "worksheet"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-038",
+      "title": "Psychoeducation Healthy Parent-Adult Child Boundaries",
+      "prompt": "Act as a family systems therapist creating psychoeducation on healthy boundaries between Indian parents and their adult children living in or near joint families. I need you to draft a nuanced handout that avoids importing Western individualism wholesale. Here is the context: clients are 25-40 year old adults in Mumbai and Bengaluru navigating career choices, partner selection, and finances with involved parents. Please provide: (1) Reframing boundaries as \"respectful connection\" rather than cutting off; (2) What healthy boundaries look like in Indian context — time, decisions, finances, emotional labour; (3) Four boundary styles (rigid, porous, flexible, shifting) with Indian examples; (4) Five phrases in Hindi and English to use with parents respectfully; (5) Handling guilt and family loyalty; (6) When parental involvement is care vs control; (7) Recognising emotional abuse; (8) When to seek family therapy; (9) Indian resources (Amaha family therapy, Lissun). Format as a 2-page handout. Tone culturally respectful, non-pathologising of families. IMPORTANT: This handout is a clinician psychoeducation support aid, not a replacement for licensed family therapy or individualised clinical judgment. Any disclosure of abuse, suicide, self-harm, or crisis must be handled per my own safeguarding and crisis protocol and Indian law, never by AI.",
+      "tags": [
+        "boundaries",
+        "family-systems",
+        "psychoeducation",
+        "joint-family",
+        "adult-children"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-039",
+      "title": "Group Therapy Ice-Breaker Activities Mental Health",
+      "prompt": "Act as a group therapist designing culturally appropriate ice-breaker activities for an Indian adult mental health group in its first session. I need you to produce five ice-breaker activities with full facilitation instructions. Here is the context: 8 participants with anxiety and depression in an outpatient group in Hyderabad, mixed gender, mixed language (English/Telugu/Hindi), stigma-sensitive, privacy concerns. Please provide: (1) Activity 1 — Two Truths and a Wish (adapted from two-truths-and-a-lie to reduce deception and add hope); (2) Activity 2 — Name and Strength circle; (3) Activity 3 — Object of meaning (bring a small object) — optional for confidentiality; (4) Activity 4 — Weather metaphor check-in; (5) Activity 5 — Group norms co-creation. For each activity provide — objective, materials, time, instructions, facilitation tips, debrief questions, adaptations for shy members, cultural considerations. Include a note on confidentiality and consent at the start. Format as a facilitator guide under 3 pages. IMPORTANT: These activities are a clinician support aid for group facilitation, not a replacement for licensed group therapy training or clinical judgment. Any participant showing suicide, self-harm, or crisis signs must be handled per my own crisis protocol and RCI guidelines, never by AI.",
+      "tags": [
+        "group-therapy",
+        "ice-breakers",
+        "first-session",
+        "facilitator-guide",
+        "activities"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    },
+    {
+      "id": "medical-mental-health-040",
+      "title": "Integrative Case Formulation 4P Complex Case",
+      "prompt": "Act as a senior clinical psychologist producing an integrative case formulation using the 4P model (Predisposing, Precipitating, Perpetuating, Protective) for a complex Indian client presenting with mixed anxiety-depression, alcohol use, and marital distress. I need you to transform my raw assessment information (which I will paste) into a rigorous formulation document. Here is the context: client is a 42-year-old Ludhiana businessman with family history of depression, recent business losses, ongoing marital conflict, drinks 5 nights per week, attends his first consultation at my private practice. Please provide: (1) Concise presenting picture; (2) 4P formulation with biological, psychological, social, cultural/spiritual entries in each column; (3) Central maintenance cycle diagram described in text; (4) Integrated treatment plan drawing from CBT, MI for alcohol, couples work, and psychiatric liaison; (5) Sequencing of interventions and rationale; (6) Risk considerations to discuss in session (not generated here); (7) Outcome measures across domains (PHQ-9, GAD-7, AUDIT, DAS); (8) Cultural factors — Punjabi family norms, drinking culture, stigma; (9) Supervision questions. Format as a structured 2-page formulation. IMPORTANT: This formulation is a clinician support aid, not a replacement for licensed therapy, psychiatric care, or clinical judgment. Any suicide, self-harm, or crisis must be handled per my own crisis protocol, Mental Healthcare Act 2017, and RCI guidelines, never by AI.",
+      "tags": [
+        "formulation",
+        "4ps",
+        "integrative",
+        "complex-case",
+        "alcohol-use"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "mental-health"
+    }
+  ]
+}

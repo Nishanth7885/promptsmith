@@ -1,0 +1,151 @@
+{
+  "category": "construction",
+  "subcategory": "architects",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "construction-architects-001",
+      "title": "Design Brief Decoder for Client Project",
+      "prompt": "Act as a senior architect (CoA-licensed) with 12 years on Indian residential + commercial projects. I will paste my client's brief (3-bhk apartment in Pune, family of 4). Decode into: (1) functional requirements, (2) aesthetic direction, (3) budget reality (INR ₹X / sqft), (4) timeline expectation, (5) regulatory constraints (FAR, byelaws), (6) hidden asks (Vaastu, future-flexibility, child-room conversion), (7) clarifying questions for client (12), (8) scope-of-work doc. Constraints: align with NBC 2016; respect client's lifestyle; bilingual.",
+      "category": "construction",
+      "subcategory": "architects",
+      "tags": ["brief-decoder", "coa", "residential", "pune", "vaastu"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true
+    },
+    {
+      "id": "construction-architects-002",
+      "title": "Client Presentation Narrative",
+      "prompt": "Act as a senior architect. Build a 30-min client presentation narrative for a 5,500-sqft farmhouse in Alibaug. Cover: (1) opening (the site story + climate + context), (2) design intent (3 pillars), (3) plan walk-through (entrance, living, dining, bedrooms, courtyards), (4) sustainability features (cross-ventilation, RWH, solar), (5) materials + texture, (6) cost breakdown ₹2.4 Cr (with sqft rate), (7) timeline (14 months), (8) Q&A buffer. Constraints: warm storyteller tone; Indian climate-design lens; respect client budget; align with NBC + IGBC.",
+      "category": "construction",
+      "subcategory": "architects",
+      "tags": ["client-presentation", "alibaug", "farmhouse", "igbc", "narrative"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true
+    },
+    {
+      "id": "construction-architects-003",
+      "title": "Planning Application Description",
+      "prompt": "Act as a senior architect submitting plans to BBMP, Bengaluru. Write a 600-word architectural description for a G+5 commercial building (28,000 sqft). Cover: (1) site address + survey number, (2) plot details (area, FAR consumed, setbacks, height), (3) use category (commercial — office), (4) parking calculation (NBC + state rules), (5) lift, staircase, fire-stair count, (6) services (water, sewage, electrical, fire), (7) approvals (HMDA / BBMP byelaws + KSPCB + KSP / Fire NOC), (8) signed by architect + structural engineer + MEP. Constraints: align with KMC 1976 + BBMP Building Byelaws 2003 (latest amendments); CoA license number cited.",
+      "category": "construction",
+      "subcategory": "architects",
+      "tags": ["planning-application", "bbmp", "g+5", "byelaws", "coa"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "construction-architects-004",
+      "title": "Specification Writing for Finishes",
+      "prompt": "Act as a senior architect + interior consultant. Write specifications for finishes of a 3,200-sqft luxury residence in Mumbai. Cover: (1) flooring (Italian marble — Statuario / Calacatta + Indian laminate alternatives), (2) wall finishes (Asian Paints Royale / Berger Silk), (3) ceiling (POP false ceiling 12mm + cove lights), (4) doors (teak veneer + Hettich hinges), (5) windows (Schuco UPVC + Saint Gobain glass), (6) bathroom (Kohler / Jaquar fixtures, anti-skid IS-15622 tiles), (7) kitchen (Hettich modular + Hafele appliances). Each spec: brand, model, INR, supplier, install. Constraints: align with IS standards; warranty + AMC clear; eco-friendly options flagged.",
+      "category": "construction",
+      "subcategory": "architects",
+      "tags": ["specifications", "finishes", "luxury", "marble", "schuco"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "construction-architects-005",
+      "title": "Climate-Responsive Design (Hot-Dry)",
+      "prompt": "Act as a sustainable architect. Design strategy for a residence in Jaipur (hot-dry climate). Cover: (1) site orientation (long axis E-W), (2) thick walls (cavity wall, AAC blocks), (3) shaded openings (jaali, chajja, deep verandahs), (4) courtyards for stack ventilation, (5) high ceilings + thermal mass, (6) light-coloured roof (cool roof tiles), (7) jaali façade for diffused daylight, (8) trees + vegetation (deciduous), (9) RWH + greywater. Constraints: align with ECBC 2017 + GRIHA 5-star target; cite Laurie Baker + Doshi; INR cost premium 8-12% over baseline.",
+      "category": "construction",
+      "subcategory": "architects",
+      "tags": ["climate-design", "hot-dry", "jaipur", "ecbc", "griha"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "construction-architects-006",
+      "title": "Heritage Conservation Project Brief",
+      "prompt": "Act as a heritage conservation architect (INTACH-empanelled). Build a project brief for restoring a 1880s colonial bungalow in Old Bengaluru (3,000 sqft, listed Grade-II). Cover: (1) heritage value documentation, (2) physical condition assessment, (3) materials audit (Madras roof tiles, lime plaster, teak), (4) conservation philosophy (minimal intervention), (5) reversible additions, (6) regulatory (BBMP heritage cell + ASI for ancient sections), (7) skilled-craftsmen sourcing, (8) budget ₹4.2 Cr, (9) timeline 24 months. Constraints: align with INTACH charter + ASI guidelines; respect community heritage; cite earlier success cases.",
+      "category": "construction",
+      "subcategory": "architects",
+      "tags": ["heritage", "conservation", "intach", "lime-plaster", "bengaluru"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "construction-architects-007",
+      "title": "Tender Drawing + DBR (Design Basis Report)",
+      "prompt": "Act as a senior architect. Prepare DBR + tender drawings checklist for a 1.2 lakh sqft IT office in Hyderabad. Cover: (1) DBR sections (project, site, design philosophy, code compliance, MEP basis, sustainability target, structural basis), (2) drawing-set list (architectural plans, sections, elevations, details, RCP, FF&E layout), (3) MEP integration (HVAC, fire, plumbing, electrical), (4) GFC vs tender drawing scope, (5) IS code references, (6) BoQ tie-out, (7) sign-off matrix (architect + structural + MEP + client). Constraints: align with NBC 2016 + ECBC + Telangana byelaws; LEED Gold target; INR tender estimate ₹85 Cr.",
+      "category": "construction",
+      "subcategory": "architects",
+      "tags": ["dbr", "tender-drawing", "it-office", "hyderabad", "leed"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "construction-architects-008",
+      "title": "Site Inspection + Site Diary Entry",
+      "prompt": "Act as the architect on weekly site visit. Make site-diary entry for a 240-flat residential project at podium-level slab stage. Cover: (1) date + time + weather, (2) progress vs planned, (3) workmanship issues observed (3 photos referenced), (4) RFI raised + status, (5) materials approval pending, (6) safety observations, (7) directions to contractor, (8) next-week priorities, (9) signed. Constraints: align with FIDIC + COA professional duties; document for legal record; bilingual brief notes.",
+      "category": "construction",
+      "subcategory": "architects",
+      "tags": ["site-diary", "site-inspection", "fidic", "coa", "rfi"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "construction-architects-009",
+      "title": "Sustainable Material Substitution Options",
+      "prompt": "Act as a green-building architect (IGBC AP). Recommend sustainable substitutes for 8 conventional materials in a typical Indian residence: (1) burnt clay brick → fly-ash brick / AAC, (2) cement-heavy concrete → GGBS / fly-ash blended, (3) PVC pipe → CPVC / HDPE, (4) virgin steel → recycled steel + 50% scrap, (5) fresh sand → M-sand, (6) timber → bamboo / reclaimed teak, (7) gypsum POP → calcium silicate, (8) acrylic paint → low-VOC. For each: cost +/- vs conventional, performance trade-off, supplier list, IGBC / GRIHA points earned. Constraints: align with ECBC + GRIHA + IGBC + IS standards; honest about availability outside metros.",
+      "category": "construction",
+      "subcategory": "architects",
+      "tags": ["sustainable-materials", "fly-ash", "m-sand", "igbc", "low-voc"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "construction-architects-010",
+      "title": "Fee Proposal to Client",
+      "prompt": "Act as a senior architect. Draft a 1-page fee proposal for a 5,500-sqft farmhouse project in Alibaug (₹2.4 Cr build). Cover: (1) scope of services (concept, schematic, GFC, tender, supervision), (2) deliverables per stage, (3) fee structure (8% of project cost or stage-wise lumpsum), (4) milestone-billing (10/20/30/30/10), (5) reimbursable (travel, prints, model), (6) timeline 14 months, (7) acceptance + sign-off, (8) liability + indemnity. Constraints: align with COA Architect's Act 1972 + standard scale of fees; INR + 18% GST; honest about scope creep handling.",
+      "category": "construction",
+      "subcategory": "architects",
+      "tags": ["fee-proposal", "coa", "scope-of-services", "alibaug", "milestone-billing"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "construction-architects-011",
+      "title": "Vaastu Integration in Modern Design",
+      "prompt": "Act as an architect with Vaastu literacy (not a Vaastu consultant). Help integrate client's Vaastu ask without compromising modern functional design for a 3-bhk apartment in Pune. Cover: (1) main door direction, (2) master bed, (3) kitchen, (4) puja room, (5) toilets, (6) safe-locker, (7) staircase. For each: client preference, modern design constraint, my reconciliation strategy with rationale. Constraints: respect client belief without endorsing pseudo-science; align with NBC + functional zoning; flag where Vaastu compromises safety / lighting / ventilation.",
+      "category": "construction",
+      "subcategory": "architects",
+      "tags": ["vaastu", "client-belief", "residential", "pune", "zoning"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "construction-architects-012",
+      "title": "Post-Occupancy Evaluation",
+      "prompt": "Act as a senior architect. Conduct a post-occupancy evaluation (POE) of a residence delivered 9 months ago. Cover: (1) client survey (functionality, comfort, aesthetics, energy bill, maintenance issues), (2) walkthrough observations (snag list, finish issues), (3) thermal comfort + daylight measurement, (4) energy consumption vs design intent, (5) water + waste, (6) lessons-learned for future projects, (7) referrals + testimonials ask, (8) AMC offer for finishes. Constraints: respect client privacy; align with IGBC / GRIHA POE protocol; document for studio knowledge base; bilingual feedback form.",
+      "category": "construction",
+      "subcategory": "architects",
+      "tags": ["poe", "post-occupancy", "thermal-comfort", "igbc", "lessons-learned"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    }
+  ]
+}

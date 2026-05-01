@@ -1,0 +1,727 @@
+{
+  "category": "fitness",
+  "subcategory": "nutritionists",
+  "count": 40,
+  "prompts": [
+    {
+      "id": "fitness-nutritionists-001",
+      "title": "7-Day PCOS Vegetarian Meal Plan",
+      "prompt": "Act as a Registered Dietitian (IDA-certified) with 10 years of experience managing PCOS in Indian women aged 22-35. I need you to create a detailed 7-day vegetarian meal plan for a 28-year-old software engineer from Bengaluru with PCOS, BMI 27.4, insulin resistance, and irregular cycles. She is lacto-vegetarian, works long desk hours, and prefers South Indian breakfasts. Target: 1600 kcal, 90g protein, low glycemic load, anti-inflammatory.\n\nPlease provide: (1) Day-wise plan covering early morning, breakfast, mid-morning, lunch, evening snack, dinner, and bedtime, (2) Exact portions in Indian household measures (katori, cup, piece), (3) Macro split per meal (carbs/protein/fat/fibre in grams), (4) Low-GI Indian swaps for white rice and maida, (5) Spices and ingredients with PCOS benefits (methi, cinnamon, flaxseed), (6) A simple Sunday prep checklist, (7) Two paneer-free high-protein options for dal-phobic clients.\n\nFormat as a clean markdown table per day with a summary nutrition row. Consider Indian constraints: limited kitchen time, family cooking in one pot, affordability (under 350 INR/day ingredient cost), and availability in Tier-2 cities. Flag any foods that conflict with typical thyroid medication timing, since PCOS clients often have co-existing hypothyroidism.",
+      "tags": [
+        "pcos",
+        "meal-plan",
+        "vegetarian",
+        "indian-diet",
+        "insulin-resistance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-002",
+      "title": "Type 2 Diabetes Diet Chart North Indian",
+      "prompt": "Act as a clinical nutritionist with 12 years of experience counselling Type 2 diabetes patients in North India. Create a 7-day diabetic-friendly diet chart for a 54-year-old Punjabi male, HbA1c 8.2%, FBS 162 mg/dL, on Metformin 500mg BD, weight 82 kg, height 170 cm, sedentary, loves rotis and dal makhani.\n\nDeliver: (1) Daily calorie target with justification (ICMR-NIN guidelines), (2) Carb budget per meal in grams, (3) 7-day plan with breakfast, mid-morning, lunch, tea-time, dinner, bedtime, (4) Roti count per meal using multigrain atta (wheat+bajra+chana+jowar ratio), (5) Safe portions of seasonal fruits (jamun, guava, papaya) with GI values, (6) Specific swaps: white rice to brown/hand-pounded, sugar to stevia, ghee limits, (7) Plate method diagram described in text, (8) 5 warning foods to eliminate, (9) A 3-line script the client can use at wedding buffets.\n\nFormat as a markdown table plus bullet sections. Keep language simple enough for Hindi translation. Use INR costs (under 400/day). Flag hypoglycemia risk foods and suggest timing relative to Metformin. Include a note on Karva Chauth/Navratri fasting adjustments.",
+      "tags": [
+        "type-2-diabetes",
+        "diet-chart",
+        "north-indian",
+        "hba1c",
+        "metformin"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-003",
+      "title": "Hypothyroid Weight Loss Plan Vegetarian",
+      "prompt": "Act as an Indian dietitian specialising in thyroid disorders with 8 years of clinical practice. Design a 1500 kcal vegetarian weight loss plan for a 34-year-old Mumbai homemaker with Hashimoto's hypothyroidism (TSH 6.8), on Thyronorm 75 mcg, weight 72 kg, height 158 cm, complaining of fatigue and constipation.\n\nProvide: (1) Morning routine around levothyroxine (gap timing for tea, calcium, soy), (2) 7-day menu with Indian vegetarian meals, (3) Goitrogen handling rules for cabbage, cauliflower, soya (cooked vs raw), (4) Selenium, zinc, iodine-rich Indian foods list with portions, (5) Fibre targets to fix constipation (25-30g), (6) Gluten considerations for Hashimoto's, (7) Sample grocery list for one week under 1800 INR, (8) Red flags warranting endocrinologist re-consult.\n\nFormat as sectioned markdown with a final \"Client Handout\" block she can print. Use Indian household measures. Keep tone empathetic and non-restrictive.",
+      "tags": [
+        "hypothyroid",
+        "hashimoto",
+        "weight-loss",
+        "vegetarian",
+        "levothyroxine"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-004",
+      "title": "Jain Diet Muscle Gain Plan",
+      "prompt": "Act as a sports nutritionist with 7 years of experience working with Indian gym-goers. Create a muscle gain meal plan for a 24-year-old Jain male from Ahmedabad, 68 kg, 178 cm, training 5 days/week at a commercial gym, wanting to gain 5 kg lean mass in 16 weeks. He avoids onion, garlic, root vegetables, and consumes dairy.\n\nDeliver: (1) Calorie target (TDEE + surplus) with calculation shown, (2) Protein target (1.8 g/kg) and how to hit it Jain-friendly, (3) 6-meal daily structure including pre/post workout, (4) Jain-approved protein sources ranked by quality (paneer, curd, milk, moong, rajma, quinoa, hemp), (5) 7-day rotating menu, (6) Supplement stack if needed (whey vs plant), (7) Progress tracking sheet template, (8) Eating-out guide for Jain thalis.\n\nFormat as markdown with tables for daily macros. Keep INR budget reasonable (~500/day food + supplements separately). Include a note on how to adjust during Paryushan fasting week.",
+      "tags": [
+        "jain-diet",
+        "muscle-gain",
+        "sports-nutrition",
+        "vegetarian",
+        "macro-split"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-005",
+      "title": "NAFLD Fatty Liver Diet Plan",
+      "prompt": "Act as a clinical dietitian specialising in hepatology with 9 years of experience at a tertiary hospital in Chennai. Create a 4-week diet intervention for a 42-year-old male diagnosed with Grade 2 NAFLD, BMI 29, triglycerides 260 mg/dL, ALT 68, non-vegetarian (eggs and chicken, no red meat).\n\nProvide: (1) Week-by-week calorie deglycation goal (7-10% weight loss target), (2) Fructose and refined carb elimination list (bakery, fruit juices, sweets), (3) Mediterranean-Indian fusion meal ideas using olive oil, nuts, oily fish substitutes (rohu, mackerel), (4) Sample 7-day menu, (5) Coffee and green tea dosing with evidence, (6) Foods that increase insulin sensitivity, (7) Alcohol counselling script, (8) Follow-up lab checklist at 4 and 12 weeks.\n\nFormat as a clinical handout with markdown headings. Include ICMR and AASLD references where relevant. Indian market ingredients only.",
+      "tags": [
+        "nafld",
+        "fatty-liver",
+        "non-vegetarian",
+        "mediterranean",
+        "triglycerides"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-006",
+      "title": "Client Initial Consultation Notes Template",
+      "prompt": "Act as a senior IDA-registered dietitian running a solo practice in Pune. I need a structured initial consultation notes template I can fill during a 45-minute first session with any new client.\n\nDeliver: (1) Client demographics block (name, age, occupation, city, languages), (2) Chief complaint and goal in client's own words, (3) Medical history (conditions, medications, surgeries, allergies, family history for T2D/CVD/thyroid), (4) Anthropometry (height, weight, BMI, waist, hip, WHR, body fat if available), (5) Biochemistry review grid (FBS, PPBS, HbA1c, lipid profile, TSH, Vit D, B12, Hb, ferritin), (6) 24-hour recall table, (7) Food frequency questionnaire (Indian foods), (8) Lifestyle block (sleep, stress, activity, alcohol, tobacco, water), (9) Preferences and restrictions (veg/non-veg/Jain/egg, religion, festivals), (10) Kitchen environment and cook-at-home frequency, (11) Nutritional diagnosis (PES format), (12) Short-term and long-term goals (SMART), (13) Plan summary and next steps, (14) Consent and fee note in INR.\n\nFormat as a clean markdown form with placeholders in square brackets. Must be usable in HealthifyMe or Nutritap dashboards with copy-paste.",
+      "tags": [
+        "consultation-notes",
+        "template",
+        "client-intake",
+        "assessment",
+        "ida"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-007",
+      "title": "Food Diary Analysis Feedback",
+      "prompt": "Act as a practising dietitian with 6 years of experience. A client has shared a 3-day food diary. Analyse it and produce a feedback report. Sample entries: Day 1 breakfast 2 aloo paratha with butter + masala chai with sugar; lunch 3 rotis + rajma + rice + salad; snack biscuits + tea; dinner 2 rotis + paneer bhurji + curd. Day 2 and Day 3 are similar with occasional samosa and sweets.\n\nProvide: (1) Estimated daily calories and macro split, (2) Meal timing analysis and gaps, (3) Top 5 red flags (excess refined carbs, low protein, low fibre, trans fats, hidden sugar), (4) Missing food groups (fruits, nuts, seeds, greens), (5) Protein adequacy calculation per kg body weight (assume 65 kg female), (6) 8 specific swap suggestions with Indian alternatives, (7) A kind but direct feedback message (150 words) the dietitian can WhatsApp the client, (8) Three priority changes for week one.\n\nFormat as a dietitian-facing clinical summary followed by the client-facing message block. Use INR-friendly substitutions.",
+      "tags": [
+        "food-diary",
+        "diet-analysis",
+        "client-feedback",
+        "macros",
+        "swaps"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-008",
+      "title": "Indian Food Substitution Guide",
+      "prompt": "Act as a nutrition educator creating client resources. Build a comprehensive Indian food substitution guide for weight loss clients who refuse to give up their favourite foods.\n\nDeliver a markdown table with columns: Original Food | Typical Portion | Calories | Healthier Swap | New Calories | Why It Works. Cover at least 30 swaps across: (1) Breakfast (aloo paratha, poha, upma, bread-butter), (2) Rice dishes (biryani, pulao, jeera rice), (3) Breads (maida roti, naan, kulcha), (4) Snacks (samosa, kachori, namkeen, biscuits), (5) Sweets (gulab jamun, barfi, kheer), (6) Beverages (masala chai with sugar, lassi, cold drinks, packaged juice), (7) Cooking oils and ghee, (8) Street food (pani puri, chaat, vada pav), (9) Restaurant staples (butter chicken, dal makhani, paneer butter masala).\n\nAfter the table, add: (a) 5 \"never swap, just portion\" items, (b) 5 psychological tips to help clients accept swaps, (c) Sample dialogue the dietitian can use. Use realistic Indian brand names where relevant. Keep calorie numbers evidence-based.",
+      "tags": [
+        "food-swaps",
+        "weight-loss",
+        "indian-food",
+        "client-handout",
+        "education"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-009",
+      "title": "Pregnancy Second Trimester Diet Plan",
+      "prompt": "Act as a maternal nutrition specialist with 10 years of experience at a Delhi maternity hospital. Create a second-trimester diet plan for a 29-year-old vegetarian woman, pre-pregnancy BMI 22, currently 18 weeks, mild anaemia (Hb 10.2), on iron and folic acid.\n\nProvide: (1) Calorie increment (+350 kcal) with source breakdown, (2) Protein target (71 g/day) with Indian veg sources list, (3) 7-day menu including 6 small meals, (4) Iron-rich combinations with vitamin C pairing (amla, lemon, guava), (5) Calcium sources beyond milk (ragi, sesame, curd), (6) Foods to avoid (papaya, raw sprouts, unpasteurised cheese, excess caffeine), (7) Hydration and constipation management, (8) Ayurvedic/home remedies that are safe vs unsafe, (9) A client handout for mother-in-law explaining why ghee-laden laddoos need portioning.\n\nFormat as markdown with daily tables and a separate \"family handout\" section in simple language. Keep budget moderate and use commonly available ingredients across Indian cities.",
+      "tags": [
+        "pregnancy",
+        "second-trimester",
+        "vegetarian",
+        "anaemia",
+        "maternal-nutrition"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-010",
+      "title": "Toddler Picky Eater Meal Ideas",
+      "prompt": "Act as a paediatric nutritionist with 8 years of experience at a Bengaluru child clinic. Create a meal idea bank for mothers of picky-eater toddlers aged 2-4 years, focusing on Indian households.\n\nDeliver: (1) Daily calorie and protein targets for 2-4 year olds per ICMR, (2) 20 breakfast ideas (beyond cerelac and bread), (3) 20 lunch ideas integrating dal, rice, ghee, veggies hidden in parathas/cheelas, (4) 15 snack ideas (ragi cookies, besan chilla rolls, paneer cubes), (5) 10 dinner ideas that are easy to chew, (6) 5 finger foods for self-feeding, (7) Hidden veggie techniques (puree in dal, grate in dosa batter), (8) A \"no-fight\" feeding script for mothers, (9) Red flags needing paediatrician referral (growth faltering, aversion, gagging), (10) Sample weekly menu.\n\nFormat as categorised markdown lists with prep time and main nutrients per idea. Avoid processed foods. Use Indian flavours the child is already exposed to via family meals.",
+      "tags": [
+        "paediatric",
+        "toddler",
+        "picky-eater",
+        "meal-ideas",
+        "icmr"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-011",
+      "title": "Navratri Fasting Nutrition Plan",
+      "prompt": "Act as an Indian dietitian preparing festival-specific resources. Create a 9-day Navratri fasting nutrition plan for a 38-year-old woman with Type 2 diabetes who insists on observing vrat. Weight 70 kg, on Metformin, HbA1c 7.1%.\n\nProvide: (1) Safe fasting protocol with diabetologist-approved structure, (2) Permitted ingredients (kuttu, singhara, samak rice, sabudana, rock salt, makhana, fruits, dairy, peanuts), (3) Forbidden items during vrat, (4) 9-day menu balancing blood sugar with small frequent meals, (5) Portion-controlled recipes (sabudana khichdi, kuttu roti, samak pulao, makhana kheer with stevia), (6) Hypoglycemia warning signs and action plan, (7) Medication timing adjustments (in consultation with doctor), (8) Hydration and electrolyte guidance, (9) Post-fast refeeding day plan.\n\nFormat as day-wise markdown with a safety disclaimer block at the top. Keep tone respectful of religious practice while prioritising clinical safety.",
+      "tags": [
+        "navratri",
+        "fasting",
+        "diabetes",
+        "festival",
+        "vrat"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-012",
+      "title": "Lactation Diet Plan New Mother",
+      "prompt": "Act as a lactation-focused nutritionist with 7 years of experience. Create a lactation-boosting diet plan for a 30-year-old first-time mother from Hyderabad, 4 weeks postpartum, exclusively breastfeeding, vegetarian (eats eggs), pre-pregnancy weight 58 kg currently 66 kg.\n\nDeliver: (1) Calorie target (+500 kcal over maintenance), (2) Protein, calcium, iron, iodine, DHA targets, (3) 7-day menu with 6 meals, (4) Galactagogue Indian foods (methi, saunf, shatavari, garlic, oats, dill, jeera), (5) Traditional postpartum foods reviewed (ajwain water, gondh laddoo, panjiri) with portion guidance, (6) Foods to limit (excess caffeine, gas-producing, strong spices if baby is colicky), (7) Hydration target (3 L), (8) Gentle post-partum weight loss pacing, (9) Script to handle family pressure around \"eating for two.\"\n\nFormat as markdown with daily tables and a mother-in-law FAQ section. Ingredients should be easy to source in any Indian city.",
+      "tags": [
+        "lactation",
+        "postpartum",
+        "breastfeeding",
+        "vegetarian",
+        "galactagogue"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-013",
+      "title": "Geriatric Nutrition Plan Elderly Parent",
+      "prompt": "Act as a geriatric nutritionist with 9 years of experience. Create a nutrition plan for a 72-year-old male with hypertension, early CKD Stage 2, dentures, reduced appetite, living with his son's family in Lucknow. Vegetarian with occasional curd. Weight 62 kg, height 168 cm.\n\nProvide: (1) Calorie, protein (0.8 g/kg adjusted), sodium (<2 g), potassium and phosphorus targets, (2) 7-day soft-texture vegetarian menu, (3) Protein distribution across meals (avoiding overload), (4) Fluid guidance, (5) Dental-friendly high-protein foods (paneer, curd, khichdi, mashed dal, sattu drink), (6) Sodium-reduction swaps for pickles, papad, namkeen, (7) Constipation management (prune, isabgol, warm water), (8) Supplement review (B12, Vit D, calcium), (9) Mealtime companionship tips for the family caregiver, (10) Warning signs for nephrologist escalation.\n\nFormat as markdown with tables, clinical notes, and a one-page family handout. Keep language simple and empathetic.",
+      "tags": [
+        "geriatric",
+        "ckd",
+        "hypertension",
+        "soft-diet",
+        "elderly"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-014",
+      "title": "Corporate Wellness Nutrition Workshop",
+      "prompt": "Act as a corporate wellness dietitian. Design content for a 60-minute lunch-and-learn workshop titled \"Desk Job Nutrition for Indian IT Professionals\" for 50 employees at an MNC in Gurugram.\n\nDeliver: (1) 5-minute icebreaker poll questions, (2) Workshop outline with time stamps, (3) Top 10 nutrition mistakes IT employees make (skipping breakfast, 4 teas, cafeteria overloading, late dinners, Swiggy/Zomato habits), (4) The \"Indian desk plate\" model, (5) Smart cafeteria ordering guide for typical Indian office menus, (6) Hydration and eye-care micronutrient tips, (7) Simple 10-minute deskside stretches plus nutrition, (8) 5-slide key takeaways, (9) Post-workshop email template with 7-day mini challenge, (10) Three tier pricing suggestion for follow-up 1:1 consults in INR.\n\nFormat as a facilitator script with speaker notes, slide titles, and handout appendix. Keep tone engaging and practical.",
+      "tags": [
+        "corporate-wellness",
+        "workshop",
+        "desk-job",
+        "it-professionals",
+        "lunch-learn"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-015",
+      "title": "Hostel Student Healthy Eating Plan",
+      "prompt": "Act as a student nutrition counsellor. Create a realistic healthy eating plan for a 20-year-old engineering student living in a hostel mess in Kota, vegetarian, 65 kg, height 172 cm, complaining of weight gain (5 kg in 1 year), acne, and fatigue.\n\nProvide: (1) Assessment of typical mess food nutritional gaps, (2) \"What to pick, what to skip\" mess plate strategy for breakfast, lunch, dinner, (3) 10 hostel-friendly healthy snacks (no fridge required) from kirana shops, (4) Protein boosters that fit a student budget (under 200 INR/day), (5) Hydration and sleep link, (6) Acne-friendly food changes, (7) Simple 10-minute no-equipment workouts to pair, (8) Exam-week nutrition cheat sheet, (9) Zomato/Swiggy \"least-bad\" order template.\n\nFormat as markdown with checklists and a printable pocket card. Keep tone peer-like and non-preachy.",
+      "tags": [
+        "student",
+        "hostel",
+        "mess-food",
+        "budget",
+        "acne"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-016",
+      "title": "Client Progress Review Template 4 Week",
+      "prompt": "Act as a practice-oriented dietitian. Create a 4-week progress review template for client follow-up sessions, usable on HealthifyMe or Nutritap coaching dashboards.\n\nDeliver: (1) Session header (date, week number, client ID), (2) Anthropometry comparison table (baseline vs current: weight, waist, hip, BMI, body fat), (3) Biochemistry update block, (4) Adherence score (1-10) with sub-scores for meal plan, water, sleep, movement, (5) Wins of the week (3 bullets), (6) Struggles and barriers (3 bullets with root cause), (7) Hunger and cravings log summary, (8) Revised targets for next 4 weeks, (9) Plan adjustments (calorie shift, meal swaps, supplement tweaks), (10) Motivation and accountability strategy, (11) Next appointment and fee in INR, (12) Client-facing summary message (80 words) for WhatsApp.\n\nFormat as a fillable markdown template with square-bracket placeholders. Include an optional \"red flag escalation\" block prompting doctor referral when needed.",
+      "tags": [
+        "progress-review",
+        "template",
+        "follow-up",
+        "adherence",
+        "coaching"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-017",
+      "title": "PCOS Insulin Resistance Advanced Protocol",
+      "prompt": "Act as a functional medicine dietitian with 10 years of experience managing PCOS. Design an 8-week insulin-resistance reversal protocol for a 30-year-old woman, HOMA-IR 3.8, fasting insulin 22, AMH 7.2, BMI 29, vegetarian eggetarian, office worker.\n\nDeliver: (1) Phase-wise structure: Weeks 1-2 blood sugar stabilisation, Weeks 3-5 carb cycling intro, Weeks 6-8 metabolic flexibility, (2) Daily carb budget ranges per phase, (3) Meal timing including 12-14 hour fasting window, (4) Anti-inflammatory Indian food list (turmeric, ginger, flaxseed, amla, cinnamon), (5) Supplement protocol to discuss with doctor (inositol, NAC, Vit D, omega-3, magnesium) with Indian brand examples, (6) Strength training synergy notes, (7) Cycle tracking and food adjustments across follicular and luteal phases, (8) Biomarker re-check schedule, (9) Troubleshooting guide for stalls, (10) Ethical boundary notes on scope of practice vs endocrinologist.\n\nFormat as a clinical protocol document with weekly checklists, meal templates, and client education snippets. Use evidence-based references where possible.",
+      "tags": [
+        "pcos",
+        "insulin-resistance",
+        "protocol",
+        "carb-cycling",
+        "functional"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-018",
+      "title": "Type 2 Diabetes Carb Counting Coach",
+      "prompt": "Act as a certified diabetes educator and dietitian. Build a client coaching module teaching carb counting to a 46-year-old Type 2 diabetic Indian male on basal-bolus insulin. He eats mixed Indian meals with variable portions.\n\nDeliver: (1) 3-session curriculum outline (Week 1 basics, Week 2 Indian foods, Week 3 real-life), (2) Carb counts table for 40 Indian foods (1 roti, 1 katori rice, 1 idli, 1 dosa, 1 katori dal, 1 katori sabzi, 1 poha serving, etc.) with typical household measures, (3) Mixed-meal worked examples (thali breakdown), (4) Insulin-to-carb ratio explanation (for client to discuss with endo), (5) Correction factor intro, (6) Eating out carb estimation tricks (dhaba, wedding, office canteen), (7) Hypoglycemia management with 15g fast carb Indian options, (8) Home practice exercises, (9) A one-page printable cheat sheet.\n\nFormat as a module with learning objectives, content, exercises, and assessment quiz. Keep scope within dietitian ethics (no insulin dosing).",
+      "tags": [
+        "carb-counting",
+        "diabetes",
+        "insulin",
+        "coaching",
+        "education"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-019",
+      "title": "Lean Bulk Plan Non-Veg Athlete",
+      "prompt": "Act as a sports dietitian with 8 years of experience working with Indian state-level athletes. Design a 12-week lean bulk plan for a 22-year-old amateur MMA fighter from Kolkata, 75 kg, 180 cm, 14% body fat, training 10 sessions/week, non-vegetarian (chicken, fish, eggs, no red meat).\n\nProvide: (1) TDEE calculation with Harris-Benedict and activity multiplier, (2) Surplus of 300 kcal with macro split (2 g/kg protein, 5 g/kg carbs, rest fat), (3) 6-meal daily template with pre/intra/post workout nutrition, (4) 7-day menu featuring chicken breast, rohu, eggs, dal, chawal, oats, sweet potato, paneer, (5) Hydration and electrolyte plan for hot Kolkata training, (6) Supplement stack (whey, creatine, multivitamin, omega-3) with Indian brand options and INR costs, (7) Weekly weigh-in protocol and surplus adjustments, (8) Weight-cut plan for fight week if needed, (9) Recovery nutrition on doubles days.\n\nFormat as markdown with tables and weekly check-in sheet. Keep food budget realistic (~700 INR/day).",
+      "tags": [
+        "lean-bulk",
+        "mma",
+        "sports-nutrition",
+        "non-vegetarian",
+        "athlete"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-020",
+      "title": "Gut Health Reset IBS Protocol",
+      "prompt": "Act as a gut health dietitian trained in low-FODMAP. Design a 6-week IBS-D reset protocol for a 35-year-old Mumbai professional woman, lacto-vegetarian, symptoms: bloating, urgency, 3-4 loose stools daily, worse with dal and cabbage.\n\nDeliver: (1) Phase 1 elimination (2 weeks): Indian low-FODMAP food list and avoid list, (2) Phase 2 reintroduction (3 weeks): test schedule for fructans (wheat, onion, garlic), GOS (rajma, chana, moong), lactose, polyols, (3) Phase 3 personalisation, (4) Sample 7-day low-FODMAP Indian menu, (5) Swaps for common Indian high-FODMAP foods (onion-garlic paste, rajma, whole wheat roti), (6) Stress and sleep integration, (7) Probiotic guidance (curd, kefir, specific strains), (8) Symptom tracking sheet, (9) Red flags for gastroenterologist referral.\n\nFormat as clinical protocol with weekly client handouts. Acknowledge that strict low-FODMAP is challenging in Indian kitchens and provide practical family-cooking workarounds.",
+      "tags": [
+        "ibs",
+        "low-fodmap",
+        "gut-health",
+        "elimination",
+        "vegetarian"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-021",
+      "title": "Menopause Weight Management Plan",
+      "prompt": "Act as a women's health dietitian. Create a menopause-focused nutrition plan for a 51-year-old peri-menopausal woman, hot flashes, weight gain of 6 kg in 2 years, borderline cholesterol, vegetarian, from Pune.\n\nProvide: (1) Rationale for calorie recalibration at menopause, (2) Protein target (1.2 g/kg) with Indian veg sources to preserve lean mass, (3) 7-day menu emphasising phytoestrogens (soy, flaxseed, sesame), calcium (500-600 mg from diet), Vit D, omega-3, (4) Fibre target 30 g with Indian sources, (5) Foods that worsen hot flashes (caffeine, spicy, alcohol), (6) Bone health nutrition, (7) Simple strength-training pairing notes, (8) Sleep and stress nutrition hooks, (9) Supplement discussion (calcium, Vit D, magnesium, B12) with doctor consult note, (10) A compassionate client email (150 words) normalising body changes.\n\nFormat as markdown plan plus client handout. Use commonly available Indian ingredients.",
+      "tags": [
+        "menopause",
+        "womens-health",
+        "phytoestrogen",
+        "bone-health",
+        "vegetarian"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-022",
+      "title": "Bariatric Post-Op Nutrition Stages",
+      "prompt": "Act as a bariatric dietitian at a Mumbai hospital. Create a stage-wise post-operative nutrition protocol for a 38-year-old woman, BMI 42, who has just undergone sleeve gastrectomy. Vegetarian, lactose-tolerant.\n\nDeliver: (1) Stage 1 clear liquids Day 1-3, (2) Stage 2 full liquids Day 4-14 (protein shakes, dal water, buttermilk), (3) Stage 3 pureed foods Week 3-4, (4) Stage 4 soft foods Week 5-6, (5) Stage 5 regular foods from Week 7, (6) Daily protein targets per stage (60-80 g), (7) Indian vegetarian protein shake recipes (paneer-milk, sattu, moong powder), (8) Meal size progression (30 ml to 1 katori), (9) Chewing and eating speed rules, (10) Hydration rules (no drinking with meals), (11) Essential supplement protocol (multivit, B12, calcium, Vit D, iron) with Indian brands, (12) Dumping syndrome warning foods, (13) Follow-up schedule and red flags.\n\nFormat as a clinical stage table plus client-facing booklet. Keep tone clinical but supportive.",
+      "tags": [
+        "bariatric",
+        "post-op",
+        "sleeve-gastrectomy",
+        "stages",
+        "protein"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-023",
+      "title": "Diet Analysis Report 3 Day Recall",
+      "prompt": "Act as a clinical dietitian preparing a formal diet analysis report. A client has submitted a detailed 3-day 24-hour recall. Produce an analysis report suitable for sharing with the referring physician.\n\nAssume averaged daily intake: 1850 kcal, 52 g protein, 245 g carbs (70% refined), 68 g fat, 14 g fibre, 3800 mg sodium, 480 mg calcium, 8 mg iron. Client is a 40-year-old male, 88 kg, 172 cm, sedentary, hypertensive.\n\nProvide: (1) Nutritional adequacy table comparing intake vs RDA (ICMR-NIN 2020), (2) Macro distribution pie analysis and interpretation, (3) Micronutrient gaps and clinical implications, (4) Meal pattern and timing analysis, (5) Diet quality score (e.g., DASH adherence for hypertension), (6) Top 5 nutrition diagnoses in PES format, (7) Evidence-based recommendations with specific Indian food examples, (8) Goals for next 4 weeks, (9) Physician summary paragraph (100 words).\n\nFormat as a professional report with headings, tables, and a signature block. Keep tone clinical.",
+      "tags": [
+        "diet-analysis",
+        "report",
+        "icmr",
+        "pes",
+        "clinical"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-024",
+      "title": "Marathon Training Nutrition 16 Week",
+      "prompt": "Act as an endurance sports dietitian. Create a 16-week nutrition periodisation plan for a 32-year-old Indian male amateur runner training for the Mumbai Marathon (42.2 km). 72 kg, 178 cm, current long run 18 km, vegetarian eggetarian.\n\nDeliver: (1) Phase structure: Base (Weeks 1-6), Build (7-11), Peak (12-14), Taper (15-16), (2) Weekly calorie and carb targets per phase (5-10 g/kg), (3) Daily meal templates for easy run, long run, rest days, (4) Pre-run, during-run, post-run fuelling (home-made energy balls, banana, dates, electrolyte water), (5) Long-run nutrition trials starting Week 8, (6) Race-week carb loading plan (Indian-friendly rice, pasta, aloo, banana), (7) Race-morning breakfast 3 hours pre-gun, (8) Hydration and sodium strategy for Mumbai humidity, (9) Supplement review (BCAA, beetroot, caffeine gum), (10) Post-race recovery 72-hour plan.\n\nFormat as markdown periodisation table with weekly check-ins and an ingredient shopping list.",
+      "tags": [
+        "marathon",
+        "endurance",
+        "periodisation",
+        "carb-loading",
+        "runner"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-025",
+      "title": "Nutrition Education Webinar Script",
+      "prompt": "Act as a nutrition communicator. Write a 45-minute webinar script titled \"The Truth About Indian Superfoods\" for a paid audience of 200 health-conscious adults hosted on Zoom.\n\nDeliver: (1) Hook opening (2 min) with a myth-busting question, (2) Your credibility intro (1 min), (3) Learning objectives (1 min), (4) Segment 1: Ancient Indian superfoods reviewed with evidence (ragi, amla, moringa, ghee, turmeric, makhana) 12 min, (5) Segment 2: Modern superfood imports vs Indian equivalents (quinoa vs amaranth, kale vs moringa, blueberry vs jamun, chia vs basil seeds) 10 min, (6) Segment 3: How to build a superfood plate on 300 INR/day 10 min, (7) Q&A prompts (5 min), (8) Soft call to action for a paid 4-week program in INR, (9) Exit slide and follow-up email template, (10) Three Instagram reel scripts (30 sec each) to promote the webinar.\n\nFormat as a scripted document with timestamps, speaker notes, and slide titles.",
+      "tags": [
+        "webinar",
+        "script",
+        "superfoods",
+        "education",
+        "marketing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-026",
+      "title": "Thali Balanced Plate Builder",
+      "prompt": "Act as a practical dietitian. Create a \"Balanced Indian Thali\" builder tool that clients can use at home and in restaurants.\n\nProvide: (1) The half-quarter-quarter plate framework translated to Indian thali, (2) Category lists: Grains (1 small katori rice OR 2 phulka OR 1 jowar bhakri), Protein (1 katori dal OR 1 katori paneer sabzi OR 2 boiled eggs), Veggies (2 katoris sabzi + 1 katori salad), Dairy (1 katori curd OR 1 glass buttermilk), Healthy fat (1 tsp ghee or 10 almonds), (3) Sample thalis for breakfast, lunch, dinner, (4) Weight loss thali (1500 kcal day), maintenance thali (2000 kcal), muscle gain thali (2500 kcal), (5) Regional variants: North Indian, South Indian, Bengali, Gujarati, Maharashtrian, (6) Restaurant thali hacks (skip sweet, extra salad, portion rice), (7) Kids thali version, (8) One-page printable.\n\nFormat as visual markdown tables clients can save on phone. Keep numbers realistic.",
+      "tags": [
+        "thali",
+        "plate-method",
+        "balanced-diet",
+        "portions",
+        "regional"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-027",
+      "title": "Vegan Transition Plan Indian",
+      "prompt": "Act as a plant-based nutrition specialist. Create a 6-week transition plan for a 27-year-old Indian lacto-vegetarian woman wanting to go vegan. 58 kg, 162 cm, moderately active, motivated by ethics and acne concerns.\n\nDeliver: (1) Week-by-week milk and dairy tapering, (2) B12 strategy (supplement + fortified foods) with Indian brand options, (3) Iron absorption boosters (Vit C pairing), (4) Calcium plant sources (ragi, sesame, tofu, amaranth), (5) Omega-3 from flax, chia, walnuts, algae supplement, (6) Protein plan hitting 1.2 g/kg from dal, rajma, chana, tofu, soya chunks, tempeh, (7) 7-day vegan Indian menu, (8) Dairy-free chai and curd alternatives (oat milk, cashew curd), (9) Eating-out survival guide, (10) Red flags during transition, (11) Monthly labs to monitor.\n\nFormat as a weekly roadmap with shopping lists and recipe links. Tone should be supportive, not preachy.",
+      "tags": [
+        "vegan",
+        "plant-based",
+        "transition",
+        "b12",
+        "indian"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-028",
+      "title": "Childhood Obesity Family Intervention",
+      "prompt": "Act as a paediatric dietitian. Design a family-based intervention for a 10-year-old boy, BMI 25 (>95th percentile), living in Delhi, vegetarian, addicted to Maggi, chips and cold drinks. Mother is also overweight.\n\nProvide: (1) Assessment framework (growth chart, family food environment, screen time, sleep), (2) Whole-family rules (no separate \"diet food\" for the child), (3) Pantry makeover checklist, (4) 7-day family meal plan at 1800 kcal for mother and age-appropriate for child, (5) Lunchbox ideas for school (5 rotating options), (6) Snack swap list (Maggi to whole wheat noodles with veggies, chips to roasted makhana), (7) Screen time and activity pairing, (8) Positive language script for parents (no fat-shaming), (9) Incentive system without using food rewards, (10) Monthly weigh-in protocol, (11) When to escalate to paediatric endocrinologist.\n\nFormat as a family coaching playbook with handouts for parents and child separately.",
+      "tags": [
+        "childhood-obesity",
+        "paediatric",
+        "family-based",
+        "school",
+        "intervention"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-029",
+      "title": "Iron Deficiency Anaemia Vegetarian Plan",
+      "prompt": "Act as a clinical dietitian. Design a 12-week iron-repletion plan for a 26-year-old vegetarian woman, Hb 9.1, ferritin 8, heavy menstrual bleeding, on oral iron therapy, symptoms of fatigue and hair fall.\n\nDeliver: (1) Iron RDA calculation (upgraded for deficiency), (2) Best vegetarian iron sources ranked (amaranth, ragi, sesame, dates, raisins, green leafy, jaggery, tofu, rajma), (3) Vitamin C pairing examples at every meal (lemon, amla, guava, orange, tomato), (4) Iron blockers to avoid at meal time (tea, coffee, calcium supplements, milk), (5) 7-day menu engineered for 20+ mg iron, (6) Cooking in cast-iron kadhai tip, (7) Traditional home remedies reviewed (dates soaked overnight, sattu drink, beetroot juice), (8) Supplement timing vs food, (9) Follow-up labs at Week 4 and 12, (10) Client handout in plain language.\n\nFormat as clinical plan plus handout. Include an INR-friendly grocery list.",
+      "tags": [
+        "anaemia",
+        "iron-deficiency",
+        "vegetarian",
+        "womens-health",
+        "ferritin"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-030",
+      "title": "Pre-Wedding Bride Transformation 90 Day",
+      "prompt": "Act as a lifestyle dietitian popular with pre-wedding clients. Create a 90-day transformation plan for a 27-year-old Delhi bride-to-be, weight 72 kg, height 160 cm, goal 65 kg and glowing skin, vegetarian (occasional eggs).\n\nDeliver: (1) 30-30-30 phase structure (Reset, Build, Polish), (2) Calorie targeting with safe 0.5 kg/week loss, (3) 7-day rotating menu per phase, (4) Skin-focused nutrition (omega-3, zinc, Vit C, biotin, collagen builders), (5) Water and gut routines, (6) Detox myths busted (no juice cleanses), (7) Stress eating playbook for wedding planning chaos, (8) Strength and cardio pairing suggestions, (9) Wedding-week menu without starvation, (10) Honeymoon travel nutrition, (11) A motivational WhatsApp check-in template for weekly use, (12) Pricing suggestion for 90-day package in INR tiers.\n\nFormat as a signature program document with client workbook appendix. Keep tone empowering, not shaming.",
+      "tags": [
+        "bridal",
+        "transformation",
+        "90-day",
+        "skin-glow",
+        "vegetarian"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-031",
+      "title": "Intermittent Fasting 16 8 Indian Plan",
+      "prompt": "Act as a metabolic health dietitian. Create an Intermittent Fasting 16:8 plan for a 40-year-old Indian male, IT manager, weight 92 kg, metabolic syndrome, vegetarian, eating window noon to 8 pm.\n\nProvide: (1) Safety screen and contraindications, (2) Gradual ramp-up Week 1 to Week 4, (3) First meal 12 pm structure (protein + fat + fibre), (4) Second meal 4 pm (balanced), (5) Third meal 7:30 pm (light), (6) 7-day menu of Indian foods fitting the window, (7) Black coffee, green tea, water rules during fast, (8) Breaking fast correctly to avoid GI distress, (9) Social dinner handling for family meals, (10) Expected plateau and how to adjust, (11) Lab markers to track (insulin, HbA1c, triglycerides), (12) When IF is not appropriate (diabetes on insulin, pregnancy, eating disorders).\n\nFormat as client program with daily rhythm diagram and FAQ block. Keep evidence-based and realistic.",
+      "tags": [
+        "intermittent-fasting",
+        "16-8",
+        "metabolic-syndrome",
+        "vegetarian",
+        "protocol"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-032",
+      "title": "MNT CKD Stage 3 Protocol",
+      "prompt": "Act as a renal dietitian with 12 years of experience at a tertiary nephrology unit. Design a medical nutrition therapy (MNT) protocol for a 58-year-old male, CKD Stage 3b, eGFR 38, diabetic nephropathy, hypertension, BMI 28, non-vegetarian (chicken, eggs, fish).\n\nDeliver: (1) Targets: protein 0.6-0.8 g/kg (individualised), sodium <2 g, potassium <2.4 g, phosphorus 800-1000 mg, fluid per nephrologist, (2) High biological value protein sources in Indian context, (3) Potassium leaching techniques for vegetables (double boiling of potato, arbi, spinach), (4) Phosphate additives to avoid (processed foods, colas, certain namkeens), (5) 7-day menu, (6) Diabetes-renal dual management, (7) Uric acid management if elevated, (8) Sample food swaps (banana to apple, coconut water to plain water, amla juice to lemon water), (9) Nutrition diagnosis in PES, (10) Referral and co-management notes with nephrologist, (11) Client education handout in simple language.\n\nFormat as a clinical MNT document with tables. Reference KDOQI guidelines where relevant.",
+      "tags": [
+        "ckd",
+        "renal",
+        "mnt",
+        "nephropathy",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-033",
+      "title": "Ketogenic Diet Epilepsy Paediatric",
+      "prompt": "Act as a paediatric ketogenic diet specialist. Design a classical 4:1 ratio ketogenic diet plan for a 7-year-old girl with drug-resistant epilepsy, weight 22 kg, vegetarian family, under joint care of a paediatric neurologist at AIIMS Delhi.\n\nProvide: (1) Ethical disclaimer on medical supervision, (2) Calorie calculation (70-75 kcal/kg), (3) Protein minimum for growth (1 g/kg), (4) 4:1 macro distribution math per meal, (5) 3-meal plus 1-snack structure with gram-level precision, (6) Indian vegetarian keto foods (paneer, ghee, cream, coconut, nuts, low-carb veggies), (7) Sample 7-day menu with exact weights in grams, (8) Supplement mandatory list (multivitamin, calcium, Vit D, carnitine per neurologist), (9) Monitoring schedule (ketones, growth, labs), (10) Side effect management (constipation, kidney stones, dyslipidemia), (11) Parent training checklist, (12) Wean-off protocol discussion.\n\nFormat as a clinical protocol with gram-precise meal templates. Emphasise that this must run under pediatric neurologist and dietitian joint supervision.",
+      "tags": [
+        "ketogenic",
+        "epilepsy",
+        "paediatric",
+        "4-to-1",
+        "clinical"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-034",
+      "title": "Oncology Nutrition Head Neck Cancer",
+      "prompt": "Act as an oncology dietitian with 10 years at a cancer centre in Mumbai. Create a nutrition support plan for a 55-year-old male undergoing chemoradiation for head and neck squamous cell carcinoma, 15% weight loss pre-treatment, mucositis grade 2, dysphagia to solids, non-vegetarian.\n\nDeliver: (1) Malnutrition screen (PG-SGA summary), (2) Calorie target (30-35 kcal/kg) and protein (1.2-1.5 g/kg), (3) Texture-modified diet ladder (IDDSI levels), (4) High-calorie high-protein soft and liquid foods (khichdi, dal water, curd smoothies, egg custard, paneer bhurji blended, chicken stew pureed), (5) Oral nutrition supplement (ONS) review with Indian brands (Ensure, Resource, Pediasure, ProHance), (6) Mucositis-friendly flavours, temperature and avoid list (spicy, citrus, rough), (7) NG tube feeding protocol if oral fails, (8) Hydration plan, (9) Taste-change management strategies, (10) Caregiver counselling handout, (11) Weekly weight and symptom monitoring sheet.\n\nFormat as clinical plan with multidisciplinary notes. Tone empathetic and rigorous.",
+      "tags": [
+        "oncology",
+        "head-neck-cancer",
+        "dysphagia",
+        "ons",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-035",
+      "title": "Eating Disorder Recovery Meal Support",
+      "prompt": "Act as a dietitian trained in eating disorder recovery (HAES-aligned). Create a meal support plan for a 21-year-old female undergraduate in Bangalore, diagnosed with atypical anorexia, in outpatient care with a psychiatrist, currently weight-restored 80%, vegetarian.\n\nProvide: (1) Ethical scope note (team-based care mandatory), (2) Meal structure: 3 meals + 3 snacks (non-negotiable), (3) Exchange-based plan (not calorie-counted) to reduce food obsession, (4) 7-day flexible menu with culturally familiar Indian foods, (5) Fear food hierarchy and exposure plan, (6) Mechanical eating rationale, (7) Challenge food introduction schedule, (8) Family meal support script for parents, (9) Urges and reassurance-seeking handling, (10) Red flags requiring inpatient escalation, (11) A compassionate client letter (200 words) normalising recovery, (12) Collaboration notes with therapist and psychiatrist.\n\nFormat as a clinical protocol with client-facing compassion boxes. Avoid weight-centric language. Never use calorie numbers in client-facing sections.",
+      "tags": [
+        "eating-disorder",
+        "recovery",
+        "haes",
+        "exchange-plan",
+        "ethics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-036",
+      "title": "Precision Nutrition Genetics Report",
+      "prompt": "Act as a precision nutrition specialist interpreting nutrigenomic reports for Indian clients. A 36-year-old male client has submitted a DNA report showing: APOE4 carrier, MTHFR C677T heterozygous, FTO risk variant, lactose intolerance variant, slow caffeine metaboliser, high vitamin D need.\n\nDeliver: (1) Plain-English summary of each finding and clinical implication, (2) Personalised macro recommendation (APOE4 fat sensitivity), (3) Folate and B12 strategy for MTHFR, (4) Caloric and exercise approach for FTO, (5) Dairy handling for lactose variant (hard cheese, curd, lactase), (6) Caffeine timing and ceiling, (7) Vitamin D dosing discussion (with doctor), (8) Sample 7-day Indian menu tailored to this genotype, (9) Follow-up lab panel (homocysteine, Vit D, B12, lipid NMR), (10) Ethical limitations of nutrigenomics (evidence caveats), (11) Client-facing 2-page summary.\n\nFormat as a consult report with tables and references. Keep tone balanced and non-deterministic.",
+      "tags": [
+        "nutrigenomics",
+        "precision-nutrition",
+        "apoe4",
+        "mthfr",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-037",
+      "title": "CGM Data Interpretation Dietitian",
+      "prompt": "Act as a dietitian using continuous glucose monitors (CGM) in non-diabetic metabolic optimisation. A 44-year-old Indian female client wore a FreeStyle Libre for 14 days. Key data: average glucose 108 mg/dL, time-in-range 78%, peaks up to 168 after poha breakfast and 155 after mango, nocturnal dips to 68 twice.\n\nDeliver: (1) CGM metric interpretation (GMI, CV, TIR), (2) Food-specific glucose response analysis for poha, mango, roti-sabzi-rice thali, idli-sambar, oats, (3) Dawn phenomenon vs nocturnal hypo discussion, (4) Meal sequencing hacks (veggies first, protein, then carbs), (5) Vinegar, cinnamon, walking-after-meal evidence, (6) Sleep and stress glucose impact, (7) Personalised food swap list based on her peaks, (8) 7-day optimised menu, (9) Re-test plan at 4 weeks, (10) Scope note: this is metabolic optimisation not diabetes diagnosis, (11) Client-facing infographic text description.\n\nFormat as a data-driven consult report with charts described in text and recommendation tables.",
+      "tags": [
+        "cgm",
+        "glucose",
+        "metabolic-health",
+        "data-driven",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-038",
+      "title": "Dietitian Private Practice SOP Manual",
+      "prompt": "Act as a business consultant for Indian dietitians. Create a Standard Operating Procedures (SOP) manual for a solo dietitian launching a private practice in Hyderabad, offering 1:1 consults and 12-week programs.\n\nDeliver: (1) Service catalogue with INR pricing tiers (single consult 1500, 4-week 8000, 12-week 22000), (2) Client onboarding SOP (inquiry, discovery call, intake form, payment, kickoff), (3) Consult delivery SOP (45 min structure, documentation, plan delivery within 48 hrs), (4) Follow-up cadence SOP (weekly WhatsApp, bi-weekly call), (5) Tools stack (Nutritap or HealthifyMe Pro, Google Meet, Razorpay, Notion), (6) Data privacy and consent per DPDP Act 2023, (7) Scope of practice and medical referral policy, (8) Refund and cancellation policy, (9) Content marketing SOP (3 Instagram posts/week, 1 reel, 1 blog), (10) Client results tracking KPIs, (11) Monthly review template, (12) Sample contract clauses.\n\nFormat as a professional manual with numbered sections. Keep INR numbers realistic for Tier-1 cities.",
+      "tags": [
+        "sop",
+        "private-practice",
+        "business",
+        "dpdp",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-039",
+      "title": "Inflammatory Bowel Disease UC Plan",
+      "prompt": "Act as a gastroenterology-focused dietitian. Design a nutrition plan for a 29-year-old male with moderate ulcerative colitis in a mild flare, BMI 19 (underweight), vegetarian, on mesalamine and a short prednisolone taper.\n\nProvide: (1) Acute flare low-residue vegetarian menu for 2 weeks, (2) Protein target 1.2-1.5 g/kg with well-tolerated sources (paneer, curd, egg white if eggetarian, tofu), (3) Avoid list during flare (raw veggies, whole dals, cabbage, broccoli, spicy, fried, lactose if intolerant), (4) Remission-phase diet expansion plan, (5) Specific Indian foods well tolerated (khichdi, dahi chawal, moong dal khichdi, stewed apple, banana, rice congee), (6) Micronutrient monitoring (iron, B12, Vit D, calcium, zinc), (7) Steroid-related nutrition support (bone health, blood sugar), (8) Weight restoration plan, (9) Probiotic and psyllium discussion, (10) Symptom-food diary template, (11) GI team communication notes.\n\nFormat as a clinical plan with flare vs remission columns. Include references to ESPEN IBD guidelines.",
+      "tags": [
+        "ulcerative-colitis",
+        "ibd",
+        "flare",
+        "vegetarian",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    },
+    {
+      "id": "fitness-nutritionists-040",
+      "title": "Group Program Design 12 Week Metabolic",
+      "prompt": "Act as a programs director at a digital health startup. Design a 12-week group coaching program titled \"Metabolic Reset India\" for cohorts of 30 paying clients (9999 INR each), all having prediabetes or early metabolic syndrome.\n\nDeliver: (1) Program outcomes and success metrics (HbA1c drop, waist reduction, TIR improvement), (2) Week-by-week curriculum (12 modules: food basics, plate method, carb quality, protein, fibre, fats, hydration, sleep, stress, movement, mindful eating, maintenance), (3) Weekly deliverables (live Zoom class, workbook, WhatsApp group nudges, 1:1 15-min check-in), (4) Content assets required (12 PDFs, 24 videos, 36 recipes, 12 quizzes), (5) Tech stack (Circle/Slack, Zoom, Google Sheets, Razorpay, HealthifyMe Pro), (6) Dietitian-to-client ratio and team composition, (7) Lab panel at Week 0 and Week 12, (8) Retention tactics and drop-off triggers, (9) Unit economics (revenue, cost, margin per cohort in INR), (10) Upsell to year-long membership, (11) Medico-legal disclaimers, (12) Launch marketing plan (webinar funnel).\n\nFormat as a product design document with tables, timelines, and budget. Keep INR numbers defensible.",
+      "tags": [
+        "group-program",
+        "metabolic-reset",
+        "prediabetes",
+        "business",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "nutritionists"
+    }
+  ]
+}

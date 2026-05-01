@@ -1,0 +1,687 @@
+{
+  "category": "agriculture",
+  "subcategory": "crop-management",
+  "count": 40,
+  "prompts": [
+    {
+      "id": "agriculture-crop-management-001",
+      "title": "Interpret Soil Health Card for Small Farmer",
+      "prompt": "Act as an ICAR-trained soil scientist with 15 years of experience advising small and marginal farmers in India. I am a farmer from [district, state] holding a Soil Health Card issued under the Soil Health Card Scheme. My soil test shows: pH 8.2, EC 0.45 dS/m, Organic Carbon 0.38%, Available Nitrogen 185 kg/ha, Phosphorus 12 kg/ha, Potassium 220 kg/ha, Sulphur 8 ppm, Zinc 0.4 ppm, Boron 0.3 ppm. I plan to grow wheat in rabi on 1.5 acres. Please provide: (1) Plain-Hindi-English explanation of what each value means for my crop, (2) Whether my soil is deficient, sufficient or excess in each nutrient against ICAR critical limits, (3) Exact fertilizer schedule in kg/acre using Urea, DAP, MOP, Zinc Sulphate and Borax with basal/top-dress split, (4) Low-cost organic amendments like FYM, vermicompost, green manure suited to alkaline soil, (5) Specific warnings about salinity or micronutrient lock-up. Format as a simple table a farmer can show the Krishi Vigyan Kendra (KVK) officer. Keep language simple, avoid jargon, and give quantities for 1 acre so I can scale. Mention total input cost estimate in INR and potential yield impact.",
+      "tags": [
+        "soil-health-card",
+        "wheat",
+        "fertilizer-recommendation",
+        "icar"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-002",
+      "title": "Kharif Crop Selection by Agro-Climatic Zone",
+      "prompt": "Act as an agronomist from the Indian Council of Agricultural Research (ICAR) with deep knowledge of India's 15 agro-climatic zones. I am a smallholder farmer with 2 acres in [district, state], soil type [black cotton / red loam / alluvial], average annual rainfall [X mm], and irrigation source [rainfed / borewell / canal]. The kharif season is approaching. Please recommend: (1) Top 5 suitable kharif crops ranked by expected net return in INR per acre, (2) For each crop, the recommended variety released by ICAR/SAU with duration in days, (3) Seed rate per acre, sowing window aligned with monsoon onset, and spacing, (4) Expected yield per acre under good management, (5) MSP status and nearest eNAM mandi for sale, (6) Risk factors like pest pressure, drought sensitivity, or waterlogging. Also suggest one intercropping combination to reduce risk. Format as a comparison table with columns: Crop, Variety, Duration, Seed Rate, Expected Yield, MSP/Market Price, Net Return, Risk Level. End with a one-paragraph recommendation on which crop I should choose and why, considering PMFBY crop insurance availability. Keep the answer practical for a farmer with limited working capital of INR 25,000.",
+      "tags": [
+        "kharif",
+        "crop-selection",
+        "agro-climatic-zone",
+        "msp"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-003",
+      "title": "Design 3-Year Crop Rotation for Alluvial Soil",
+      "prompt": "Act as a senior agronomist with 20 years of experience in the Indo-Gangetic Plains. I farm 3 acres of alluvial soil in western Uttar Pradesh with assured canal irrigation. Currently I follow a rice-wheat monoculture and yields are stagnating. Design a 3-year crop rotation plan covering kharif, rabi, and zaid seasons that: (1) Breaks the rice-wheat cycle to restore soil health, (2) Includes at least one legume for biological nitrogen fixation, (3) Incorporates a green manure crop like dhaincha or sunhemp, (4) Maintains or improves household income in INR per acre per year, (5) Reduces groundwater extraction. For each season list: crop, variety, duration, expected yield, gross return, input cost, and net return. Show a year-by-year table. Also explain in simple language (1) how each rotation step improves soil organic carbon, N-P-K balance, and pest cycle breakage, (2) labour peaks and possible machinery sharing through Custom Hiring Centres, (3) any subsidies available under Rashtriya Krishi Vikas Yojana or state schemes. Conclude with a one-page action checklist I can take to my KVK for validation.",
+      "tags": [
+        "crop-rotation",
+        "rice-wheat",
+        "soil-health",
+        "legumes"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-004",
+      "title": "IPM Plan for Cotton Pink Bollworm",
+      "prompt": "Act as an entomologist specialising in Integrated Pest Management (IPM) for cotton in India. I grow Bt cotton on 2 acres in Vidarbha region of Maharashtra. Last season I lost 30% yield to pink bollworm (Pectinophora gossypiella). Design a complete season-long IPM plan that: (1) Starts with pre-season measures like deep summer ploughing, destruction of crop residue, and community-wide sowing window, (2) Uses pheromone traps (PBW lures) with specific trap density per acre and economic threshold level, (3) Recommends safe biological controls such as Trichogramma bactrae releases and neem-based sprays with dose and timing, (4) Lists approved chemical insecticides only as last resort with active ingredient, dose, PHI, and rotation to avoid resistance, (5) Advises refuge planting and bollworm monitoring schedule week by week. Present as a calendar from sowing to harvest, one row per week, with scouting instructions and action thresholds. Also flag common mistakes farmers make, label reading tips, and nearest place to procure bio-agents under the state biocontrol lab or KVK. Cost the full IPM programme in INR per acre and compare to pure chemical approach.",
+      "tags": [
+        "ipm",
+        "cotton",
+        "pink-bollworm",
+        "pheromone-trap"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-005",
+      "title": "Drip Irrigation Schedule for Sugarcane Under PMKSY",
+      "prompt": "Act as an irrigation engineer with expertise in micro-irrigation under Pradhan Mantri Krishi Sinchayee Yojana (PMKSY-PDMC). I am installing subsurface drip on 1 acre of sugarcane (variety Co 0238) in [district], soil type medium black, planted in February (Suru season). Evapotranspiration ranges from 4 mm/day in winter to 8 mm/day in peak summer. Provide: (1) Complete drip system design including lateral spacing, emitter discharge (LPH), emitters per cane clump, and mainline sizing, (2) Daily water requirement in litres per acre for each month from planting to harvest, (3) Fertigation schedule with water-soluble fertilisers (19:19:19, urea, MOP) split across growth stages, quantities in kg/acre, (4) Subsidy calculation under PMKSY-PDMC for small farmers at the current rate, (5) Expected water saving vs flood irrigation and yield gain in tonnes per acre. Format the irrigation schedule as a month-wise table. Also list 5 common maintenance tasks (flushing, acid treatment for clogging, filter cleaning) with frequency. Give supplier guidance and approximate total project cost in INR before and after subsidy.",
+      "tags": [
+        "drip-irrigation",
+        "sugarcane",
+        "pmksy",
+        "fertigation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-006",
+      "title": "Yield Estimation Using Crop Cutting Method",
+      "prompt": "Act as an agricultural statistician familiar with the Crop Cutting Experiment (CCE) protocol used by state agriculture departments and PMFBY for yield assessment. I grow paddy on 1.2 acres in [district]. The crop is at maturity and I want to estimate yield before harvest to plan storage, market sale, and PMFBY claim if yield is low. Walk me through: (1) How to randomly select sampling plots and the standard plot size (5m x 5m or 5m x 2m), (2) Step-by-step field procedure: marking, cutting, threshing, winnowing, weighing fresh and dry grain, moisture correction to 14%, (3) Formula to scale sample weight to per-acre and per-hectare yield, (4) How to compute average across multiple plots and confidence range, (5) How this estimate is used for PMFBY Gram Panchayat-level yield and when to file a claim if yield falls below threshold. Provide a printable field data sheet with columns for plot ID, coordinates, fresh weight, dry weight, moisture, and calculated yield. Include one worked example with realistic numbers in INR and kg. Keep instructions simple so a farmer with a mobile phone and weighing scale can execute.",
+      "tags": [
+        "yield-estimation",
+        "crop-cutting",
+        "pmfby",
+        "paddy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-007",
+      "title": "Identify Wheat Rust Disease From Symptoms",
+      "prompt": "Act as a plant pathologist from a State Agricultural University with expertise in wheat diseases. I am a farmer in Punjab growing wheat variety HD 3086 on 2 acres. I am seeing orange-brown pustules on leaves and some darker lesions on stems. The crop is at flag leaf stage. Help me identify whether this is leaf rust (brown rust), stem rust (black rust), or stripe rust (yellow rust). Provide: (1) Clear description of each rust with colour, pustule shape, location on plant, and temperature preference, (2) A simple diagnostic flowchart I can follow in the field, (3) Recommended fungicide with active ingredient (propiconazole, tebuconazole, etc.), dose per litre, water volume per acre, spray interval, and pre-harvest interval, (4) Cultural measures like balanced nitrogen, removing volunteer wheat, and using resistant varieties for next season, (5) Economic threshold for spraying to avoid unnecessary chemical use. Also tell me which rust races are currently prevalent in north India as per IIWBR Karnal advisories. Format the answer so I can act within 24 hours and estimate cost of intervention in INR per acre.",
+      "tags": [
+        "wheat-rust",
+        "disease-identification",
+        "fungicide",
+        "punjab"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-008",
+      "title": "Seed Treatment Protocol for Pulses",
+      "prompt": "Act as a seed technologist with experience in pulse crops under the National Food Security Mission. I am sowing tur (arhar/pigeon pea) on 1.5 acres in a rainfed area of Maharashtra. Provide a complete seed treatment protocol that: (1) Explains why seed treatment matters for germination, early vigour, and disease protection, (2) Lists the correct order of treatment (fungicide, insecticide, rhizobium, PSB), (3) Gives exact doses per kg of seed for Thiram or Carbendazim + Rhizobium culture + PSB, (4) Describes the wet/slurry method step by step with safety precautions (gloves, shade drying), (5) Notes which treatments are compatible and which should be applied with gaps. Also include: recommended seed rate per acre for tur, spacing, and how treatment improves nodulation and yield. Provide a shopping list with approximate prices in INR available at nearest agri-input dealer or KVK. Present as numbered steps that a farmer with basic literacy can follow with a family member. Add 3 common mistakes to avoid and what to do if rhizobium culture is not available locally.",
+      "tags": [
+        "seed-treatment",
+        "tur",
+        "rhizobium",
+        "pulses"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-009",
+      "title": "Interpret Soil EC and Salinity for Reclamation",
+      "prompt": "Act as a soil reclamation specialist from Central Soil Salinity Research Institute (CSSRI) Karnal. My 1 acre field in [district] shows EC 4.8 dS/m, pH 8.9, ESP 18, and surface white crust after irrigation. Crops have been failing. Please: (1) Classify this soil (saline, sodic, or saline-sodic) and explain in farmer-friendly language, (2) Recommend gypsum requirement in quintals per acre with calculation formula, (3) Suggest a 2-year reclamation plan with leaching, drainage, organic matter addition (FYM, pressmud, green manure dhaincha), (4) Recommend salt-tolerant crop varieties to grow during reclamation (e.g., CSR-30 rice, KRL-210 wheat), (5) Estimate total reclamation cost in INR per acre and availability of subsidy under Reclamation of Problem Soils scheme. Add a before/after soil target for EC, pH, and ESP. Format as an executive summary plus a month-by-month action calendar. Also tell me how to monitor progress with periodic soil testing at KVK or private labs and what quality of irrigation water is acceptable during reclamation.",
+      "tags": [
+        "soil-salinity",
+        "reclamation",
+        "gypsum",
+        "cssri"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-010",
+      "title": "Plan Intercropping for Risk Reduction",
+      "prompt": "Act as an agronomist specialising in intercropping systems for rainfed India. I farm 1 acre in a semi-arid region of Telangana with red sandy loam soil and 700 mm erratic rainfall. I want to reduce risk from single-crop failure in kharif. Recommend 3 proven intercropping combinations such as pigeonpea + green gram, cotton + soybean, and maize + cowpea. For each combination provide: (1) Row ratio (e.g., 2:1, 4:2), spacing, and seed rate per acre, (2) Complementarity logic (canopy, roots, duration, N fixation), (3) Expected yield of each component and total Land Equivalent Ratio (LER), (4) Gross return, input cost, net return in INR per acre, (5) Key management tips like fertiliser placement, weeding schedule, and pest monitoring. Compare the three combinations in a ranked table and recommend the best option for my soil and rainfall profile. Also mention machinery compatibility (bullock vs tractor), labour needs, and whether PMFBY covers intercrops. End with a sowing-day checklist.",
+      "tags": [
+        "intercropping",
+        "rainfed",
+        "ler",
+        "risk-management"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-011",
+      "title": "Weed Management Plan for Transplanted Rice",
+      "prompt": "Act as a weed science expert with experience in rice ecosystems of eastern India. I transplant kharif rice (variety Swarna Sub-1) on 2 acres of medium land in Bihar. Weeds like Echinochloa, Cyperus, and broad-leaf species like Monochoria reduce my yield every year. Design an integrated weed management plan that covers: (1) Pre-plant measures (stale seedbed, puddling quality), (2) Pre-emergence herbicide option like Pretilachlor with dose, water volume, and application timing in days after transplanting, (3) Post-emergence option like Bispyribac-sodium with dose and target weeds, (4) Manual weeding schedule and rotary weeder use, (5) Safe herbicide handling including nozzle type, sprayer calibration, and buffer to fish ponds. Provide a week-by-week action plan from transplanting to panicle initiation. Calculate total weed management cost in INR per acre and compare with yield loss if weeds are left uncontrolled (can exceed 50%). List 3 common mis-applications that damage the crop and how to avoid them.",
+      "tags": [
+        "weed-management",
+        "rice",
+        "herbicide",
+        "iwm"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-012",
+      "title": "Micronutrient Correction for Groundnut",
+      "prompt": "Act as a plant nutrition specialist with experience in oilseed crops of peninsular India. I grow groundnut on 1 acre of red sandy loam in Anantapur, Andhra Pradesh. The crop shows yellowing between veins of young leaves and poor pod filling last season. Soil test shows available sulphur 6 ppm, boron 0.25 ppm, iron 3 ppm, zinc 0.4 ppm. Please: (1) Diagnose likely deficiencies causing the symptoms, (2) Recommend soil application doses of gypsum for sulphur and calcium, zinc sulphate, and borax in kg per acre, (3) Suggest foliar spray schedule with 0.2% ZnSO4, 0.1% borax, and 1% urea at flowering and peg penetration stages, (4) Explain the link between gypsum and kernel filling in groundnut, (5) Give cost in INR per acre and expected yield improvement. Format as a single page a farmer can laminate. Also advise on compatibility of foliar sprays with fungicides like mancozeb and safe time-of-day for spraying. Conclude with a before-next-season soil testing reminder.",
+      "tags": [
+        "micronutrients",
+        "groundnut",
+        "gypsum",
+        "foliar-spray"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-013",
+      "title": "Vegetable Nursery Raising for Tomato",
+      "prompt": "Act as a horticulturist specialising in protected cultivation. I want to raise a tomato nursery for 1 acre transplanting in rabi season in [district]. Give me a complete nursery protocol: (1) Seed quantity in grams for 1 acre at recommended spacing, (2) Choice of pro-tray (98 or 104 cells) vs raised bed method with pros and cons, (3) Growing media recipe using cocopeat, vermiculite, perlite in correct ratio, (4) Seed treatment (hot water or Trichoderma), sowing depth, and germination conditions, (5) Day-by-day nursery calendar from sowing to transplant-ready 25-30 day seedlings, (6) Hardening steps and transplant shock prevention. Include pest and disease watch (damping off, leaf miner, whitefly) with safe controls. Cost the full nursery in INR including tray cost, media, seeds, shade net, and labour. Compare with buying ready seedlings from a commercial nursery. Also mention NHM subsidy available for pack house and protected nursery structure. Format as a checklist plus a shopping list.",
+      "tags": [
+        "tomato",
+        "nursery",
+        "pro-tray",
+        "nhm"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-014",
+      "title": "Calculate Irrigation Water Requirement",
+      "prompt": "Act as an irrigation agronomist. I grow wheat on 2 acres in [district] with furrow irrigation from a tubewell. Average reference evapotranspiration (ET0) in rabi is 3.5 mm/day in December, 4 mm/day in January, 5 mm/day in February, and 6 mm/day in March. Crop coefficient (Kc) is 0.4 initial, 1.15 mid-season, 0.5 late-season. Help me: (1) Calculate crop water requirement (ETc) week by week from sowing to harvest, (2) Determine number and timing of critical irrigations (CRI, tillering, jointing, flowering, milk, dough), (3) Estimate total water depth in mm and volume in cubic metres per acre, (4) Compare with typical tubewell discharge and pumping hours needed, (5) Suggest how to reduce water use 20-30% by bed planting or alternate furrow. Present the weekly water demand as a table with week number, ETc mm, cumulative mm, and irrigation trigger. Also estimate diesel or electricity cost in INR per acre and note any PM-KUSUM solar pump subsidy eligibility.",
+      "tags": [
+        "irrigation-scheduling",
+        "wheat",
+        "evapotranspiration",
+        "pm-kusum"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-015",
+      "title": "Identify Common Rice Pests in Field",
+      "prompt": "Act as a field entomologist who trains farmers under ATMA programme. I am walking through my transplanted rice field at tillering stage and seeing (a) dead hearts in young tillers, (b) whitish patches on leaves with folded margins, and (c) small green hoppers on the base of plants. Help me identify each pest and respond. For each pest (stem borer, leaf folder, brown plant hopper likely) provide: (1) Photo-style description with key identification marks, (2) Economic threshold level (ETL) and how to scout using sweep net or tiller count, (3) Cultural and biological controls first (Trichogramma cards, light traps, avoid excess nitrogen), (4) Chemical option only if ETL is crossed with safe molecule, dose, and pre-harvest interval, (5) Resistance management advice to rotate modes of action. Format as three distinct pest cards with a decision flowchart. Also list 3 myths farmers believe (like repeated sprays are safer) and correct them. Keep cost estimate in INR per acre and mention bio-control agents free at state labs.",
+      "tags": [
+        "rice-pests",
+        "stem-borer",
+        "bph",
+        "scouting"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-016",
+      "title": "Plan Zaid Season Crop for Summer",
+      "prompt": "Act as a cropping systems expert for north Indian plains. I have 1 acre of fallow after wheat harvest in early April and groundwater is available. I want to use the zaid (summer) season productively before kharif sowing in late June. Recommend: (1) Top 4 short-duration zaid crop options (moong, urad, cucurbits, fodder maize, summer vegetables), (2) For each option, seed rate, sowing date window, variety, duration, irrigation need, and expected yield, (3) Net return in INR per acre including heat stress risk, (4) Contribution to soil health, especially green manure incorporation if choosing a legume, (5) Compatibility with subsequent kharif crop (rice or maize). Compare in a table and recommend the best fit for my water and labour availability. Also mention market demand for summer moong at MSP under PM-AASHA and nearest procurement centre. Add a simple 60-day calendar from sowing to harvest so I do not clash with wheat residue management and kharif land preparation.",
+      "tags": [
+        "zaid",
+        "summer-moong",
+        "fallow",
+        "cropping-system"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-017",
+      "title": "Calculate Fertilizer From Soil Test",
+      "prompt": "Act as an extension agronomist familiar with soil test crop response (STCR) equations of ICAR. Based on my Soil Health Card (N 210 kg/ha, P 14 kg/ha, K 190 kg/ha) and a target yield of 50 q/ha for wheat, calculate the actual fertiliser doses of urea, DAP, and MOP per acre using STCR principles. Show: (1) Nutrient requirement for the target yield, (2) Nutrient contribution from soil reserves and FYM (5 t/ha), (3) Nutrient gap to be met through fertilisers, (4) Conversion from N-P-K kg to urea, DAP, MOP quantities in kg/acre, (5) Split application as basal, first top dress at CRI, second top dress at tillering, with exact quantities per acre each time. Present all calculations step by step so I can learn and redo next season with a different target. Also compare this precise dose with the general state recommendation and show the saving in INR per acre. Flag any risk of over-fertilisation and groundwater nitrate pollution.",
+      "tags": [
+        "stcr",
+        "fertilizer-calculation",
+        "wheat",
+        "soil-test"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-018",
+      "title": "Trichoderma and Biofertilizer Use Plan",
+      "prompt": "Act as a microbiologist specialising in biofertilisers and biocontrol agents for Indian agriculture. I want to reduce chemical inputs on my 2-acre vegetable farm growing brinjal, chilli, and okra in [district]. Create a biofertiliser and biocontrol plan that includes: (1) Azospirillum, PSB, KMB, and Trichoderma viride application schedule for soil, seedling dip, and drenching, (2) Exact doses per acre in kg or litres, (3) Timing at nursery, transplanting, 30 DAT, 60 DAT, (4) Compatibility with drip fertigation and common fungicides, (5) Sources such as state biocontrol labs, KVKs, and ICAR-NBAIR. Also outline on-farm multiplication steps for Trichoderma using jaggery solution, and storage precautions. Cost the programme in INR per acre and compare with conventional fungicide-heavy schedule. Mention expected yield and quality benefits, residue-free produce premium in local mandis, and export potential. Present as a timeline table and a simple one-page SOP that the farmer can display in the pump house.",
+      "tags": [
+        "biofertilizer",
+        "trichoderma",
+        "vegetables",
+        "organic"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-019",
+      "title": "Select Wheat Variety for Late Sowing",
+      "prompt": "Act as a wheat breeder from a State Agricultural University. Due to late paddy harvest, I can only sow wheat on 2 acres in [district] in the last week of December, which is considered late sowing. Recommend the best varieties suitable for late sowing conditions in my agro-climatic zone. For each variety provide: (1) Year of release and releasing institute, (2) Days to maturity and heat tolerance rating, (3) Expected yield under late sowing, (4) Disease resistance profile (yellow rust, leaf rust, Karnal bunt), (5) Seed rate adjustment for late sowing (usually 125 kg/ha vs 100 kg/ha), (6) Nitrogen management shift to avoid lodging. Compare at least 4 varieties like HD 3117, HD 3271, DBW 173, WH 1124, and PBW 771 in a ranked table. Conclude with a recommendation for my district and seed source (state seed corporation, IARI regional station, certified private). Also advise on terminal heat management through early irrigation, potassium nitrate foliar spray, and mulching.",
+      "tags": [
+        "wheat-variety",
+        "late-sowing",
+        "heat-stress",
+        "breeding"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-020",
+      "title": "Residue Management After Paddy Harvest",
+      "prompt": "Act as a conservation agriculture expert from ICAR-CRIDA or PAU. I grow paddy on 3 acres in Punjab and need to manage crop residue without burning to avoid fines and air pollution. Given short window before wheat sowing, recommend: (1) Top 3 residue management options - Happy Seeder direct drilling, Super SMS + zero till, or baler + chopper for ex-situ use, (2) Machinery available under Custom Hiring Centre with rental cost in INR per acre, (3) CRM subsidy available under the Central Sector Scheme for crop residue management, (4) Effect of each option on wheat establishment, soil moisture, weeds, and termite incidence, (5) Long-term soil carbon and N benefits. Present as a decision matrix with a clear recommendation. Also explain how to prepare the residue (cutting height, chopping) and correct wheat seed rate, seed treatment, and pre-emergence herbicide for residue-covered field. End with 5 bullet points I can share with neighbouring farmers to collectively stop burning.",
+      "tags": [
+        "residue-management",
+        "happy-seeder",
+        "no-burn",
+        "punjab"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-021",
+      "title": "Estimate Cotton Yield Mid-Season",
+      "prompt": "Act as a cotton crop scientist. My Bt cotton crop on 2 acres in [district] is 120 days old and in peak boll development. I want a mid-season yield estimate to plan picking labour and mandi sales under eNAM. Walk me through a sampling method: (1) Select 10 random 1-metre row segments across the field, (2) Count total plants and number of open plus mature green bolls per plant, (3) Use standard boll weight (4-5 g for desi, 5-6 g for Bt hybrid) to estimate seed cotton per plant, (4) Multiply by plant population per acre (typical 6500-7500 for 90x60 cm spacing), (5) Apply correction factor for still-to-form bolls and expected shedding. Give me the formula and a blank data sheet. Work through one example with realistic numbers and output yield in quintals per acre. Also convert expected yield to gross return in INR at current MSP or mandi rate. Provide tips to reduce late-season boll shedding through potassium spray and water management.",
+      "tags": [
+        "cotton",
+        "yield-estimation",
+        "boll-count",
+        "enam"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-022",
+      "title": "Advisory for Unseasonal Rain Damage",
+      "prompt": "Act as a crisis advisor for Indian farmers after a weather event. Unseasonal heavy rain and hailstorm hit my wheat field (1.5 acres) at grain filling stage in [district]. About 40% of the crop has lodged and some spikes are shedding. Provide an immediate action plan: (1) First 48-hour activities - draining stagnant water, standing up lodged plants where possible, prophylactic fungicide for ear blight/FHB with active ingredient and dose, (2) Nutrient support - foliar spray of 2% urea + 0.5% KNO3 to aid recovery, (3) Decision framework on whether to harvest early for fodder value or wait for partial grain maturity, (4) PMFBY claim procedure - reporting to insurance company within 72 hours, taking geotagged photos, contacting agriculture officer and Gram Panchayat, (5) State disaster relief entitlement under SDRF norms. Provide a phone script to report loss and a sample claim text. Also advise on drying, cleaning, and storing partially damaged grain to avoid mycotoxins. Quantify expected yield loss and claim amount in INR per acre.",
+      "tags": [
+        "weather-damage",
+        "pmfby",
+        "crisis-advisory",
+        "hailstorm"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-023",
+      "title": "Organic Certification Roadmap for Paddy",
+      "prompt": "Act as an NPOP-accredited organic certification consultant. I want to convert 2 acres of basmati paddy to certified organic over 3 years in [district]. Outline the complete roadmap: (1) Choosing a certification body from APEDA-approved list, (2) Registration cost and annual inspection fee in INR, (3) 3-year conversion period activities - green manure, FYM, vermicompost, Jeevamrit, Panchagavya, biocontrol only, (4) Record keeping for inputs, sowing, harvest, yield, and sales as required by NPOP, (5) Soil and water testing frequency, buffer zone requirements. Also describe alternatives like PGS-India for smaller farmers and producer groups. Project economics: yield drop year 1 (20-30%), recovery year 2, premium price year 3 onwards for certified organic basmati, expected net return per acre, and pathways to export through APEDA registered exporters. Present as a 36-month calendar with milestones. Finish with risk factors like contamination from neighbour spraying and how to mitigate through buffer crops.",
+      "tags": [
+        "organic-certification",
+        "basmati",
+        "npop",
+        "pgs"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-024",
+      "title": "Diagnose Stunted Maize Growth",
+      "prompt": "Act as a crop doctor. My kharif maize (hybrid DKC 9108) on 1 acre in [district] is 35 days after sowing but plants are stunted, leaves are pale green with purple tinge on lower leaves, and growth is uneven across the field. Help diagnose the problem through a structured checklist: (1) Possible causes - phosphorus deficiency, waterlogging, root rot, nematode damage, herbicide carry-over, or zinc deficiency, (2) Field tests I can do - soil probe for compaction, root examination for nodulation and rot, simple pH strip test, (3) Targeted corrective action for the most likely cause including foliar DAP 2% spray or zinc sulphate 0.5% spray, (4) Rescue fertilisation with nano urea or conventional urea side-dressing, (5) Drainage or hilling-up if water logging. Format as a diagnostic flowchart leading to 3 probable diagnoses and their treatments. Quantify intervention cost in INR and expected recovery window. Also advise on what soil test I should get done before next season.",
+      "tags": [
+        "maize",
+        "diagnosis",
+        "nutrient-deficiency",
+        "kharif"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-025",
+      "title": "Design Pheromone Trap Grid for Farm",
+      "prompt": "Act as an IPM specialist. I want to set up a pheromone trap grid on my 3-acre mixed vegetable farm (tomato, brinjal, okra) in [district] to monitor and trap Helicoverpa armigera, Spodoptera litura, and fruit and shoot borer. Provide: (1) Correct trap type (funnel, delta, water pan) per pest, (2) Number of traps per acre for monitoring (2-4) vs mass trapping (10-15), (3) Lure replacement frequency (usually every 21-30 days), (4) Placement height and direction relative to crop canopy, (5) Data log sheet to count daily catch and interpret ETL. Recommend an affordable Indian supplier (Pest Control India, Agriland, SPIC) and total cost in INR for 3 acres for one season. Explain how trap data guide spray decisions and reduce pesticide cost 30-50%. Include a troubleshooting guide for zero catch (wrong lure, expired, wind, cross-contamination). End with a printable weekly tally sheet farmers can fill in.",
+      "tags": [
+        "pheromone-trap",
+        "ipm",
+        "vegetables",
+        "monitoring"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-026",
+      "title": "Soil Sampling Guide for Farmer",
+      "prompt": "Act as a soil testing lab technician from a district agriculture office. Teach me, a small farmer, how to collect and submit a soil sample for the Soil Health Card scheme. Provide a step-by-step guide: (1) Best time to sample (after harvest, before next sowing), (2) Tools needed (auger or khurpi, bucket, polythene bag, marker), (3) How to walk the field in a zig-zag and collect 10-15 sub-samples at 0-15 cm depth, (4) Mixing, quartering, and reducing to 500 g representative sample, (5) Labelling with farmer name, survey number, GPS if possible, previous crop, next crop, (6) Where to submit (KVK, soil testing lab, mobile van). Add what NOT to do - do not sample wet soil, do not mix samples from different fields, avoid bunds and compost heaps. Provide a sample label format and a cover letter to attach. Also describe how to read the Soil Health Card after results arrive and interpret N, P, K and micronutrient values as Low, Medium, High.",
+      "tags": [
+        "soil-sampling",
+        "soil-health-card",
+        "extension",
+        "farmer-guide"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-027",
+      "title": "Mulching Plan for Water Saving",
+      "prompt": "Act as a water conservation agronomist. I grow chilli on 1 acre of drip-irrigated land in [district] and want to reduce evaporation, weeds, and improve yield through mulching. Compare 4 mulch options: (1) Silver-black plastic mulch 25 micron, (2) Paddy straw mulch, (3) Sugarcane trash, (4) Live mulch with cowpea. For each: material cost in INR per acre, life span, weed control efficiency, soil temperature moderation, water saving percentage, labour for application and removal, and effect on yield. Recommend the best option for a hot dry region with labour scarcity and another for a cool moist region. Also describe step-by-step plastic mulch laying with bed size, lateral placement, and dibbling distance. Explain subsidy available under NHM and PMKSY for plastic mulch. Conclude with safe disposal of used plastic mulch and promotion of biodegradable mulches. Present as a comparison table plus a short narrative recommendation.",
+      "tags": [
+        "mulching",
+        "water-conservation",
+        "chilli",
+        "nhm"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-028",
+      "title": "Plan Cover Crop for Soil Health",
+      "prompt": "Act as a soil health specialist promoting conservation agriculture under NMSA. My 2-acre farm in [district] has declining soil organic carbon (0.35%) and hard pan at 15 cm depth. I want to introduce a cover crop during the short fallow between rabi wheat and kharif rice. Recommend: (1) 2-3 suitable cover crop species (dhaincha, sunhemp, cowpea, millet mix), (2) Seed rate, sowing method (broadcast or drill), and duration before incorporation, (3) Biomass yield and nutrient contribution to next crop (nitrogen fixation and biomass N equivalent), (4) Method of termination - rolling, glyphosate, or incorporation with rotavator, (5) Effect on soil organic carbon, water infiltration, and weed suppression after 3 years. Provide expected cost in INR per acre and net benefit through reduced urea use in subsequent rice. Present as a 90-day calendar. Also discuss how to convince neighbours to adopt since cover crops do not yield direct grain income.",
+      "tags": [
+        "cover-crop",
+        "dhaincha",
+        "soil-organic-carbon",
+        "nmsa"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-029",
+      "title": "Analyse Weather Forecast for Spray Decision",
+      "prompt": "Act as an agro-meteorologist from IMD Agromet division. I need to decide if I should spray fungicide on my grape vineyard (1 acre) in [district] tomorrow. The 5-day forecast shows: Day 1 partly cloudy 28C max, 65% RH, wind 8 kmph; Day 2 rain probability 70%, 24C max, 85% RH; Day 3 clear, 30C; Day 4 thunderstorm likely; Day 5 clear. Disease pressure is high for downy mildew. Help me decide: (1) Is today a good spray window considering rain wash-off and leaf wetness, (2) Which systemic vs contact fungicide to choose based on forecast, (3) Best time of day to spray (early morning vs late evening) based on temperature and wind, (4) Buffer interval needed before rain for product absorption, (5) Whether to delay 48 hours and use a rain-fast formulation after. Recommend a specific fungicide with dose, spray volume, and PHI. Cost the intervention in INR per acre and caution against spraying in thunderstorm risk. Summarise as a clear go/no-go decision with reasoning.",
+      "tags": [
+        "agro-advisory",
+        "weather",
+        "grape",
+        "fungicide"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-030",
+      "title": "Estimate Paddy Yield Using Tiller Method",
+      "prompt": "Act as a rice agronomist. I want to estimate the yield of my transplanted paddy (variety MTU 1010) on 1 acre in [district] at panicle initiation stage for early planning. Provide a tiller-count based yield estimation method: (1) Random sampling of 10 spots of 1 square metre each, (2) Count total tillers and productive tillers per square metre, (3) Assume average panicle length and grains per panicle for the variety (around 120-150), (4) Use 1000-grain weight (around 20-22 g) and spikelet fertility (usually 80-85%), (5) Calculate yield in kg per square metre and scale to per acre and per hectare. Provide formula and a worked example with realistic numbers giving yield around 45-55 q/ha. Create a sampling data sheet. Discuss sources of error and how to reduce them. Convert final yield to gross return in INR at current MSP for paddy under FCI procurement. Advise on when to revise estimate at heading stage using panicle count.",
+      "tags": [
+        "paddy",
+        "yield-estimation",
+        "tiller-count",
+        "msp"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-031",
+      "title": "Manage Brown Plant Hopper Outbreak",
+      "prompt": "Act as a rice entomologist. My transplanted paddy in [district] is showing patchy hopper burn at 65 days after transplanting. I counted 15-20 brown plant hoppers per hill at the base of the plants. This is above the ETL of 5-10 per hill. Provide an emergency management plan: (1) Immediate action - draining the field for 3-4 days to disturb BPH microclimate, (2) Selection of recommended insecticide with a non-cross-resistant mode of action (flonicamid, pymetrozine, triflumezopyrim) and exact dose per acre, (3) Spray technique - directing nozzle toward base of plants, high volume 500 L/ha, avoiding synthetic pyrethroids that cause resurgence, (4) Follow-up monitoring every 3 days, (5) Preventive measures for next season - avoid excess nitrogen, grow resistant varieties like IR 64, maintain 30 cm alleys for inspection. Explain why pyrethroids worsen BPH and why nitrogen excess attracts them. Cost of intervention in INR per acre and expected yield recovery. Provide a checklist for the sprayer operator.",
+      "tags": [
+        "bph",
+        "rice",
+        "resurgence",
+        "emergency"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-032",
+      "title": "Plant Population and Spacing Audit",
+      "prompt": "Act as an agronomy auditor. I recently sowed soybean on 2 acres in [district] and want to verify my plant stand is optimal. Recommended spacing is 45 cm x 5 cm giving around 4.4 lakh plants per hectare. Walk me through an audit method: (1) Select 5 random spots and measure plant-to-plant distance in 1 m length of row, (2) Count total rows in a 10 m width to verify row spacing, (3) Calculate actual plants per square metre and scale to per acre and per hectare, (4) Compare with recommended population and identify gaps, (5) Decide whether to gap-fill by transplanting seedlings from thicker patches or resow specific gaps. Provide a data collection sheet and a formula. Also advise on nitrogen starter fertiliser for gap-filled plants. Discuss how stand establishment affects final yield, nodulation, and weed competition. Give expected yield loss for each 10% stand reduction and the value in INR per acre at current soybean mandi rate.",
+      "tags": [
+        "plant-population",
+        "soybean",
+        "stand-audit",
+        "spacing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-033",
+      "title": "Interpret Irrigation Water Quality Test",
+      "prompt": "Act as a water quality expert for irrigation. My borewell water test shows EC 2.3 dS/m, pH 7.8, Sodium 12 meq/L, Calcium 4, Magnesium 3, Chloride 10, Bicarbonate 5, SAR 6.2, RSC 0. I want to use this for irrigating vegetables and cotton on 2 acres. Please: (1) Classify water quality using FAO guidelines and Indian standards (Doneen, US Salinity Lab), (2) Assess risks of salinity build-up, sodicity, and specific ion toxicity (chloride, sodium, boron if tested), (3) Recommend crop choices - which vegetables (tomato, onion) are more tolerant, which (bean, capsicum) are sensitive, (4) Management options - drip irrigation, leaching fraction, gypsum, acidification if bicarbonates are high, (5) Monitoring frequency and long-term soil protection plan. Present classification and recommendations in a clear table. Also advise if dilution with rainwater harvesting is feasible. Cost gypsum and management in INR per acre per year and link to CSSRI guidelines.",
+      "tags": [
+        "water-quality",
+        "salinity",
+        "sar",
+        "irrigation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-034",
+      "title": "Plan Nursery for Onion",
+      "prompt": "Act as an onion production specialist. I plan to raise an onion nursery for 1 acre transplanting in rabi season in [district] using variety Bhima Shakti or N-53. Provide a complete nursery protocol: (1) Seed rate per acre (8-10 kg), nursery area required (around 100 sq m per acre), (2) Bed preparation - raised beds 15 cm high, 1 m wide, with FYM 2 kg/sq m, (3) Seed treatment with Thiram + Carbendazim and Trichoderma, (4) Sowing in rows 5 cm apart, covering, watering with rose can, (5) Pest and disease management against damping off, thrips, purple blotch in the 45-day nursery, (6) Hardening 5 days before transplant. Include a day-wise checklist and water schedule. Transplant-ready criteria: pencil thickness, 4-5 leaves. Also mention NHM subsidy and onion storage structure support. Cost the nursery in INR per acre and compare with buying ready seedlings. End with common nursery failures and how to avoid them.",
+      "tags": [
+        "onion",
+        "nursery",
+        "rabi",
+        "nhm"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-035",
+      "title": "Nitrogen Top Dressing Using Leaf Colour Chart",
+      "prompt": "Act as a rice nutrient management expert. I want to optimise nitrogen use on my 1 acre transplanted paddy in [district] using the ICAR Leaf Colour Chart (LCC). Explain: (1) What LCC is and why it saves 20-25% urea without yield loss, (2) How to read LCC - select 10 plants randomly, place the topmost fully-expanded leaf on the shade strip, avoid direct sun, read 7-10 AM, (3) Threshold reading for different varieties (usually 4 for hybrid, 3 for local), (4) Top-dress schedule - check every 7-10 days from active tillering to panicle initiation and apply 10 kg urea/acre whenever reading falls below threshold, (5) Combine with basal DAP and MOP at transplanting. Provide a decision flowchart and a log sheet. Compare total urea use and cost in INR per acre vs blanket recommendation of 60 kg N/acre split. Also describe where to obtain LCC free from KVK or Department of Agriculture. Add 3 common mistakes like reading on diseased leaves.",
+      "tags": [
+        "lcc",
+        "nitrogen",
+        "rice",
+        "precision"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-036",
+      "title": "Economic Analysis of Crop Enterprise",
+      "prompt": "Act as a farm management economist. Prepare a detailed enterprise budget for 1 acre of kharif cotton (Bt hybrid) in Vidarbha. Include: (1) Fixed costs - land rent (or imputed), depreciation on implements, (2) Variable costs broken down into land preparation, seed, fertiliser (DAP, urea, MOP, micronutrients), pesticides (sucking pests and bollworm sprays), labour (sowing, weeding, picking), irrigation, interest on working capital at Kisan Credit Card rate 7%, (3) Gross income at expected yield 8 q/acre and market price INR 7000/q (vs MSP), (4) Net return and benefit-cost ratio, (5) Sensitivity analysis if yield drops to 5 q or price drops 15%. Present all numbers in a clean table in INR. Compare with a soybean alternative on same land. Flag risks like pink bollworm and price volatility and mitigation through PMFBY and eNAM sale. Conclude with a recommendation on whether cotton remains viable or farmer should shift crop.",
+      "tags": [
+        "farm-economics",
+        "cotton",
+        "bc-ratio",
+        "enterprise-budget"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-037",
+      "title": "Managing Wilt in Pigeonpea",
+      "prompt": "Act as a plant pathologist specialising in pulse diseases. My pigeonpea (tur) crop on 1 acre in [district] is showing wilting in scattered patches at flowering stage. Plants yellow, droop, and on cutting the stem I see dark vascular discolouration. This looks like Fusarium wilt. Provide: (1) Confirmation diagnosis checklist - vascular browning, partial wilting, root sound, (2) Immediate field measures - rogue out and burn infected plants, avoid waterlogging, (3) Biological management - Trichoderma viride soil drench at 5 g/L around affected plants, (4) Long-term management - wilt-resistant varieties like BSMR 736, ICPL 87119, Maruti, 3-4 year crop rotation away from pigeonpea, deep summer ploughing, (5) Avoid chickpea in rotation as it shares Fusarium. Explain why chemical fungicides rarely work for vascular wilt. Also list seed treatment for next season with Trichoderma 4 g/kg seed + Carbendazim 1 g/kg. Cost the management in INR per acre and provide a 3-year rotation plan to reduce soil inoculum.",
+      "tags": [
+        "pigeonpea",
+        "fusarium-wilt",
+        "resistant-variety",
+        "rotation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-038",
+      "title": "Farm Mechanisation Plan for Small Holding",
+      "prompt": "Act as a farm mechanisation consultant. I own 3 acres in [district] growing rice-wheat and want to mechanise operations to reduce labour cost and drudgery without owning expensive machinery. Recommend a plan using Custom Hiring Centres (CHCs) and small implements under SMAM (Sub-Mission on Agricultural Mechanization) subsidy: (1) List of essential operations - land preparation, sowing, weeding, harvesting, threshing, residue management, (2) For each operation, choice between owning a small implement (power weeder, paddy transplanter small) or hiring, with cost comparison in INR per acre, (3) SMAM subsidy percentage for small/marginal farmers and SC/ST categories, (4) Recommended implements under 50,000 INR that give immediate payback, (5) How to access nearest CHC through CHC-Farm Machinery app or local FPO. Present as a mechanisation roadmap with Year 1 purchases and Year 2-3 upgrades. Include labour saving estimate in person-days per acre and economic benefit. End with safety and maintenance tips.",
+      "tags": [
+        "mechanisation",
+        "smam",
+        "custom-hiring",
+        "fpo"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-039",
+      "title": "Crop Rotation Plan With Groundwater Constraint",
+      "prompt": "Act as a natural resource economist. My 2 acre farm in a critically over-exploited block of [district] faces falling groundwater, with tubewell yielding only 4 hours a day vs 8 hours earlier. Design a 2-year low-water crop rotation plan that: (1) Replaces water-intensive paddy with alternatives like direct seeded rice (DSR), maize, pearl millet, pulses, or mustard, (2) Meets household food needs partially and generates income at least equal to rice-wheat, (3) Uses micro-irrigation under PMKSY to stretch available water, (4) Incorporates legume for soil N and short-duration green gram in zaid, (5) Qualifies for Paani Bachao Paise Kamao or similar state schemes where applicable. Present season-wise table with crop, variety, water requirement, yield, gross and net return in INR per acre. Compare total water use and income with baseline rice-wheat. Highlight any behavioural, market, or machinery barriers and how FPOs can help. Advise on groundwater recharge measures like percolation pits using MGNREGA funds.",
+      "tags": [
+        "water-scarcity",
+        "dsr",
+        "crop-rotation",
+        "pmksy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    },
+    {
+      "id": "agriculture-crop-management-040",
+      "title": "Prepare Farm Diary for Decision Making",
+      "prompt": "Act as a farm records mentor. I am a small farmer with 2 acres in [district] and have never maintained written records. Help me set up a simple farm diary that will improve my decision making and qualify me for FPO, KCC, and PMFBY documentation. Provide: (1) A template with daily log - date, field, operation, input used, quantity, cost in INR, labour hours, weather, (2) Season-wise summary sheet - crop, area, seed source, sowing date, harvest date, yield, gross return, variable cost, net return, (3) Input purchase record with bill number, vendor, rate, (4) Fixed assets register for implements, (5) Loan and subsidy tracker. Explain how 15 minutes of daily logging saves money by identifying loss-making operations, detecting pest trends, and enabling comparison across seasons. Give me 3 simple KPIs to calculate monthly - cost per acre, yield per acre, net return per acre. Also recommend free mobile apps like FarmBook or state Kisan apps for digital diary. End with a sample filled-in page for one week of wheat operations so I understand what to write.",
+      "tags": [
+        "farm-diary",
+        "record-keeping",
+        "kcc",
+        "fpo"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "agriculture",
+      "subcategory": "crop-management"
+    }
+  ]
+}

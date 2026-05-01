@@ -1,0 +1,151 @@
+{
+  "category": "data-analytics",
+  "subcategory": "data-analysts",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "data-analytics-data-analysts-001",
+      "title": "Dashboard Design Brief (Executive)",
+      "prompt": "Act as a senior data analyst at an Indian D2C company. Build dashboard design brief for the CEO's Monday-morning dashboard. Cover: (1) KPI selection (revenue, AOV, gross margin, CAC, LTV, repeat rate, NPS, units shipped), (2) layout (1-pager landing, drill-down secondary), (3) visual choices (line for trend, bar for compare, KPI tile for single number), (4) refresh + freshness (daily, IST), (5) data sources (Shopify, Razorpay, GA4, Insta, customer feedback), (6) tool (Looker / Power BI / Metabase / Lightdash), (7) access + DPDP, (8) annotation + commentary discipline. Constraints: minimum chart-junk; mobile-friendly; INR consistent; bilingual labels.",
+      "category": "data-analytics",
+      "subcategory": "data-analysts",
+      "tags": ["dashboard", "kpi", "metabase", "ceo-dashboard", "ga4"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true
+    },
+    {
+      "id": "data-analytics-data-analysts-002",
+      "title": "Data Storytelling Slide",
+      "prompt": "Act as an analyst presenting findings to a business team. I will paste raw analysis: 'Customer churn rose from 4.5% to 6.2% in past 90 days'. Build a 6-slide narrative: (1) one-line headline (the so-what), (2) the change (numbers + chart), (3) the why (root-cause hypothesis), (4) the where (cohort + segment), (5) what we recommend (3 actions), (6) what we ask (decision + budget). Constraints: minimum-chart-clutter; one message per slide; cite data sources; honest about confidence interval; INR in business terms.",
+      "category": "data-analytics",
+      "subcategory": "data-analysts",
+      "tags": ["data-storytelling", "churn", "narrative", "headline", "presentation"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true
+    },
+    {
+      "id": "data-analytics-data-analysts-003",
+      "title": "Cohort Retention Analysis",
+      "prompt": "Act as a senior analyst at an Indian SaaS company. Build cohort retention analysis using my user-event data. Cover: (1) cohort definition (signup month), (2) retention metric (active = at-least-1-action / week), (3) cohort triangle table (week 0 to 12 retention %), (4) heatmap visualisation, (5) inflection points (where curve drops), (6) cohort-comparison (organic vs paid vs referral), (7) interpretation + business implications, (8) follow-up experiments. Provide SQL pseudo-code + Python (pandas + plotly) reproducible. Constraints: respect DPDP for user data; deduplicate users; honest about survivorship.",
+      "category": "data-analytics",
+      "subcategory": "data-analysts",
+      "tags": ["cohort", "retention", "saas", "pandas", "dpdp"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-data-analysts-004",
+      "title": "Metric Definition Document",
+      "prompt": "Act as a data lead. Build metric definition document for an Indian fintech. Define 12 core metrics: (1) GMV, (2) net revenue, (3) take rate, (4) AOV, (5) MAU, (6) repeat rate (cohort), (7) CAC, (8) LTV, (9) gross margin, (10) NPS, (11) PG success rate, (12) chargeback rate. For each: (a) definition (precise), (b) formula, (c) data source, (d) refresh cadence, (e) ownership (which team), (f) target / tolerance. Constraints: align with Indian fintech regulatory metrics (RBI), GAAP-friendly INR; documented for audit; one-source-of-truth.",
+      "category": "data-analytics",
+      "subcategory": "data-analysts",
+      "tags": ["metric-definition", "fintech", "gmv", "ltv", "rbi"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-data-analysts-005",
+      "title": "A/B Test Result Interpretation",
+      "prompt": "Act as an experimentation analyst. Interpret a 14-day A/B test on an Indian e-commerce checkout. Control: 14% conversion at ₹X AOV. Treatment (one-page checkout): 16.4% at ₹X-2% AOV. Sample n=40K each. Provide: (1) statistical-significance (z-test / sequential / Bayesian), (2) effect size + 95% CI, (3) revenue impact (lift × users × AOV), (4) secondary metric check (cart-abandon, support tickets), (5) cohort + device breakdown, (6) recommendation (ship / iterate / kill), (7) follow-up tests. Constraints: pre-register on OSF; DPDP-compliant; honest p-value caveats; INR transparent.",
+      "category": "data-analytics",
+      "subcategory": "data-analysts",
+      "tags": ["ab-test", "interpretation", "z-test", "checkout", "e-commerce"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-data-analysts-006",
+      "title": "Marketing Attribution Analysis",
+      "prompt": "Act as a senior marketing analyst. Build marketing attribution analysis for an Indian D2C brand running on Meta + Google + influencer + organic. Cover: (1) data sources (GA4 + Meta Ads + Google Ads + Adjust + first-party), (2) attribution model selection (last-click vs MMM vs MTA vs incrementality), (3) channel-level ROAS, (4) cohort + journey (touchpoints to conversion), (5) creative + audience efficiency, (6) channel-mix optimisation, (7) MTA + MMM hybrid recommendation, (8) honest caveats (cookieless, iOS ATT). Constraints: align with DPDP + GDPR if EU; INR transparent; respect privacy; experimentation-ready.",
+      "category": "data-analytics",
+      "subcategory": "data-analysts",
+      "tags": ["attribution", "mta", "mmm", "ga4", "roas"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-data-analysts-007",
+      "title": "SQL Query for Indian Sales Data",
+      "prompt": "Act as a data analyst. Write 8 SQL queries (BigQuery / Postgres) on Indian sales data tables: orders(order_id, customer_id, order_date, channel, total, gst, discount, state, city), order_items(order_id, sku, qty, price, cost), customers(customer_id, age, gender, signup_date, city). Queries: (1) yesterday revenue by state, (2) top 10 cities by GMV last 30 days, (3) channel mix MoM, (4) customer-segment LTV, (5) gross margin by sku, (6) repeat-customer cohort retention, (7) GST liability by state, (8) seasonal trend (festive uplift). Each: SQL + 1-line decision insight. Constraints: handle null + IST timestamps; avoid SELECT *; INR consistent.",
+      "category": "data-analytics",
+      "subcategory": "data-analysts",
+      "tags": ["sql", "bigquery", "ltv", "gst", "festive"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-data-analysts-008",
+      "title": "Forecasting Model (Demand)",
+      "prompt": "Act as a forecasting analyst at an Indian D2C brand. Build demand forecast for the next 6 months by SKU + region. Cover: (1) baseline (ARIMA / Prophet / LightGBM — pick + justify), (2) seasonality (festival + monsoon effects), (3) external regressors (price changes, marketing spend), (4) hierarchical reconciliation (SKU → category → company), (5) accuracy benchmark (MAPE 12% target), (6) prediction interval, (7) re-train cadence (weekly), (8) deployment (Airflow + dbt). Provide reproducible Python + R code outline. Constraints: respect Indian festival calendar; INR forecast; honest about model uncertainty; DPDP-compliant.",
+      "category": "data-analytics",
+      "subcategory": "data-analysts",
+      "tags": ["demand-forecast", "prophet", "lightgbm", "festival", "mape"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-data-analysts-009",
+      "title": "Customer Segmentation (RFM)",
+      "prompt": "Act as a CRM analytics lead. Build RFM segmentation for an Indian beauty D2C brand (4M customers). Cover: (1) Recency / Frequency / Monetary score (1-5 each), (2) RFM-cell-based segments (Champions, Loyal, At-Risk, Lapsed, New, About-to-Sleep), (3) per-segment characteristics (size, AOV, repeat, LTV), (4) cohort behaviour, (5) marketing action per segment (winback, nurture, retention, VIP), (6) DPDP-aligned consent + opt-out, (7) integration with Klaviyo / Wigzo / WebEngage. Provide Python + SQL pseudo-code. Constraints: respect privacy; honest about RFM limitations; bilingual outreach.",
+      "category": "data-analytics",
+      "subcategory": "data-analysts",
+      "tags": ["rfm", "segmentation", "d2c", "klaviyo", "dpdp"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-data-analysts-010",
+      "title": "Funnel Analysis Report",
+      "prompt": "Act as a product analyst. Build funnel analysis report for an Indian fintech app's onboarding (Aadhaar e-KYC). Cover: (1) funnel definition (App-open → KYC-start → OTP-verified → Aadhaar-OTP → photo-capture → e-sign → success), (2) drop-off rate per step, (3) cohort breakdown (device, OS, network speed, geography), (4) root-cause per drop-off (hypothesis + data), (5) experiments to fix top 2 drop-offs, (6) projected impact, (7) instrumentation gaps, (8) regulatory + UX trade-off. Constraints: align with RBI + UIDAI Aadhaar + DPDP; respect privacy; honest about drop-off causes; bilingual UX.",
+      "category": "data-analytics",
+      "subcategory": "data-analysts",
+      "tags": ["funnel-analysis", "kyc", "uidai", "fintech", "drop-off"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-data-analysts-011",
+      "title": "Anomaly Detection on KPIs",
+      "prompt": "Act as a data quality lead. Build anomaly detection on 12 critical business KPIs (revenue, transactions, conversion, latency, error rate, signup, NPS, etc.) for an Indian fintech. Cover: (1) statistical methods (z-score, IQR, EWMA, STL decomposition), (2) ML methods (isolation forest, autoencoder), (3) hybrid + ensemble, (4) thresholds + alerts, (5) noise reduction (workday vs weekend, festival, IPL match), (6) integration with PagerDuty + Slack, (7) false-positive tuning, (8) RCA workflow. Constraints: align with on-call discipline; INR-impact estimates; documented for SRE.",
+      "category": "data-analytics",
+      "subcategory": "data-analysts",
+      "tags": ["anomaly-detection", "kpi", "isolation-forest", "ewma", "pagerduty"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-data-analysts-012",
+      "title": "Self-Serve Analytics Enablement",
+      "prompt": "Act as Head of Data Platform at an Indian SaaS company. Build self-serve analytics enablement plan for 200 non-technical users (product, marketing, sales, ops). Cover: (1) tooling (Looker / Hex / Metabase + dbt + Snowflake), (2) semantic layer (LookML / dbt metrics), (3) curated datamarts (10 starter datasets), (4) certified-dashboard library, (5) training (4-week curriculum + certification), (6) governance (data steward, role-based access, DPDP), (7) feedback + improvement loop, (8) measurement (active users, time-saved by data team). Constraints: align with DPDP + RBI if BFSI; INR cost-optimised; respect both citizen-data + central-team value.",
+      "category": "data-analytics",
+      "subcategory": "data-analysts",
+      "tags": ["self-serve", "metabase", "dbt", "semantic-layer", "dpdp"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    }
+  ]
+}

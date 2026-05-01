@@ -1,0 +1,151 @@
+{
+  "category": "parenting",
+  "subcategory": "parents",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "parenting-parents-001",
+      "title": "Age-Appropriate Activity Ideas (5-Year-Old)",
+      "prompt": "Act as a child-development specialist with 8 years at Indian Montessori schools. Suggest 12 age-appropriate weekend activities for a 5-year-old at home in a Mumbai apartment. For each: name, materials needed (low-cost, household), 30-min duration, learning outcome (motor, cognitive, social, language), Indian cultural angle where natural (rangoli, name-letter game in Hindi). Constraints: indoor-friendly; ₹0-₹200 spend; safety-first; minimal screen-time.",
+      "category": "parenting",
+      "subcategory": "parents",
+      "tags": ["activities", "5-year-old", "montessori", "low-cost", "mumbai"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true
+    },
+    {
+      "id": "parenting-parents-002",
+      "title": "Homework Help Strategy for Class 6",
+      "prompt": "Act as a CBSE / ICSE study coach. My 11-year-old struggles with mathematics homework (fractions + decimals). Build a 30-min daily routine: (1) warm-up (5 min mental math), (2) concept review with NCERT example, (3) guided practice (3 problems), (4) independent practice (5 problems), (5) checking + error analysis, (6) reward system. Provide bilingual (English + Hindi) explanation tips. Constraints: align with NCERT Class 6 syllabus; avoid spoon-feeding; build confidence; flag when to seek tutor.",
+      "category": "parenting",
+      "subcategory": "parents",
+      "tags": ["homework-help", "class-6", "ncert", "math", "fractions"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true
+    },
+    {
+      "id": "parenting-parents-003",
+      "title": "Behavior Management for Tantrums",
+      "prompt": "Act as a child psychologist (NIMHANS-trained). My 4-year-old throws tantrums during meal time and bedtime. Provide: (1) typical developmental context (4-yr cognitive + emotional regulation), (2) 5-step de-escalation script (acknowledge → name emotion → boundaries → choices → reconnect), (3) what NOT to do (yelling, threats, giving in), (4) prevention (predictable routines, signal transitions), (5) when to seek professional help. Constraints: respectful tone; align with positive parenting principles; bilingual scripts; cite Indian context (joint family dynamics).",
+      "category": "parenting",
+      "subcategory": "parents",
+      "tags": ["tantrum", "4-year-old", "behavior", "positive-parenting", "nimhans"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "parenting-parents-004",
+      "title": "School Communication Email to Class Teacher",
+      "prompt": "Act as a parent communication coach. Draft a 200-word email to my child's class teacher about a learning concern (my Class 4 daughter is struggling with English reading comprehension). Cover: (1) introduction + child's name, (2) specific observation (last 3 weeks), (3) home-side actions tried, (4) teacher's perspective requested, (5) collaborative solution + next-step (PTM, IEP if needed), (6) gratitude. Constraints: respectful + collaborative; not blaming; bilingual fallback; CBSE / ICSE context-aware.",
+      "category": "parenting",
+      "subcategory": "parents",
+      "tags": ["school-comms", "class-teacher", "reading", "ptm", "concern"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "parenting-parents-005",
+      "title": "Developmental Milestone Tracker (0-3 Yrs)",
+      "prompt": "Act as a paediatric specialist (AIIMS / Apollo trained). Build a developmental milestone tracker for 0-3 yrs Indian babies covering: (1) gross motor (rolling, sitting, crawling, walking, running), (2) fine motor (grasp, pincer, drawing), (3) language (cooing, babbling, single words, 2-3 word phrases, simple sentences — bilingual home), (4) social-emotional (smiling, attachment, sharing), (5) red-flags + 'consult paediatrician' triggers. Constraints: align with WHO / IAP growth charts; respect bilingual delay realities; cite RBSK + ICDS milestones.",
+      "category": "parenting",
+      "subcategory": "parents",
+      "tags": ["milestones", "0-3-years", "iap", "who", "red-flags"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "parenting-parents-006",
+      "title": "Screen-Time Discussion with Tween",
+      "prompt": "Act as a digital-wellness counsellor. My 12-year-old wants 4 hrs/day screen-time on YouTube + Insta + WhatsApp. Build a 20-min conversation framework to negotiate a balanced agreement. Cover: (1) listen-first (their reasons), (2) WHO + IAP guidelines (1-2 hrs balanced), (3) co-create rules (homework first, screen-free meals, 1-hr before sleep, parent-curated apps), (4) accountability (weekly review), (5) consequences + flexibility. Constraints: respect autonomy; cite IAP screen-time guidelines; bilingual; honour Indian extended-family context.",
+      "category": "parenting",
+      "subcategory": "parents",
+      "tags": ["screen-time", "tween", "digital-wellness", "iap", "negotiation"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "parenting-parents-007",
+      "title": "Indian Festival Activity for Kids",
+      "prompt": "Act as a cultural educator. Plan a 2-hour Diwali activity for 8-yr-old kids covering: (1) story of Diwali (regional variations — Rama, Krishna, Mahavir, Sikh), (2) DIY diya making (with flame safety supervision), (3) rangoli with rice powder + flower petals, (4) sweets + healthier alternatives, (5) family pooja participation, (6) crackers safety + alternatives (sparklers, anar without sound), (7) gratitude reflection. Constraints: respect multi-faith friend invites; safety-first; eco-friendly; bilingual.",
+      "category": "parenting",
+      "subcategory": "parents",
+      "tags": ["diwali", "festival", "cultural", "rangoli", "8-year-old"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "parenting-parents-008",
+      "title": "Sibling Conflict Resolution",
+      "prompt": "Act as a family counsellor. My 7-yr-old + 10-yr-old siblings fight constantly over toys + screen-time. Build a 4-week sibling-cooperation plan: (1) family meeting + shared rules, (2) individual quality time per child, (3) cooperation reward chart, (4) conflict-resolution toolbox (rock-paper-scissors, timer-share, parent-mediation tier), (5) celebrate cooperation moments, (6) when to seek help. Constraints: respect each child's age + temperament; avoid favouritism; align with positive parenting; Indian-context (joint family dynamics).",
+      "category": "parenting",
+      "subcategory": "parents",
+      "tags": ["sibling", "conflict-resolution", "cooperation", "family-meeting", "positive-parenting"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "parenting-parents-009",
+      "title": "Healthy Tiffin Box Planning (Indian)",
+      "prompt": "Act as a paediatric nutritionist (IAP-empanelled). Plan a 5-day school tiffin menu for a 9-yr-old in Bengaluru. Each day: 1 main + 1 fruit + 1 nutritious snack. Use Indian foods: poha, idli, upma, paratha, dosa, sandwich, paneer wrap, fruit chaat, masala oats. Cover: (1) macros per meal (carb-protein-fat balance), (2) micronutrients (iron, calcium, vit C), (3) lunch-box safety (wide-mouth, leak-proof, separate hot/cold), (4) hydration. Constraints: align with ICMR-NIN guidelines; no nut allergies; under 30-min prep; vegetarian + 1 non-veg option.",
+      "category": "parenting",
+      "subcategory": "parents",
+      "tags": ["tiffin", "nutrition", "bengaluru", "icmr-nin", "lunch-box"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "parenting-parents-010",
+      "title": "Money Talk with Teen (Pocket Money)",
+      "prompt": "Act as a financial-literacy coach for kids. Build a 30-min money conversation framework for a 14-yr-old getting first ₹2,000/month pocket money. Cover: (1) needs vs wants, (2) 3-bucket rule (50% spend / 30% save / 20% give), (3) bank account opening (minor savings), (4) UPI safety + fraud awareness, (5) goal-setting (₹6,000 sneakers in 6 months — math), (6) ad-resistance + peer-pressure shopping, (7) review monthly. Constraints: respect autonomy; align with RBI safe banking norms; bilingual; Indian context.",
+      "category": "parenting",
+      "subcategory": "parents",
+      "tags": ["financial-literacy", "teen", "pocket-money", "upi", "savings"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "parenting-parents-011",
+      "title": "Bullying at School Action Plan",
+      "prompt": "Act as a child psychologist + school counsellor. My 10-yr-old is being bullied at school (verbal + exclusion). Build a 7-day action plan: (1) listen safely, (2) document incidents, (3) school escalation (CBSE / ICSE bullying-redress, Vishaka-equivalent for kids), (4) child's coping skills (self-affirmation, peer-allies), (5) parent self-regulation, (6) when to involve mental health professional, (7) longer-term resilience building. Constraints: align with NCPCR + CBSE Class Action against Bullying; protect child agency; legal escalation only if needed; bilingual.",
+      "category": "parenting",
+      "subcategory": "parents",
+      "tags": ["bullying", "ncpcr", "school-action", "10-year-old", "resilience"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "parenting-parents-012",
+      "title": "Gap-Year / Career Choice Conversation",
+      "prompt": "Act as a career counsellor (Mindler / iDreamCareer style). My 17-yr-old wants a gap year before college. Help me have a respectful 60-min conversation: (1) discover their reasons (burnout, exploration, passion), (2) explore options (intern, volunteer, study abroad prep, skill course, travel), (3) set guardrails (financial, timeline, milestones), (4) family communication, (5) re-entry plan to college. Constraints: respect adolescent autonomy; cite Indian gap-year acceptance trends; bilingual; honour Indian-family expectations.",
+      "category": "parenting",
+      "subcategory": "parents",
+      "tags": ["gap-year", "career-counselling", "17-year-old", "mindler", "autonomy"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    }
+  ]
+}

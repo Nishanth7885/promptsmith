@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "engineering-manufacturing-project-engineers-001",
+      "title": "Draft Project Charter for Greenfield Plant",
+      "prompt": "Act as a senior project engineer with 12 years of experience executing greenfield industrial projects for clients like Tata Steel, Reliance, and Adani. I need you to draft a comprehensive project charter for a new 500 TPD cement grinding unit being set up in Nagpur, Maharashtra, with a capex of ₹180 cr and a 22-month execution timeline. Here is the context: the EPC contractor is L&T Construction, the client is a listed mid-cap cement player, and the project must be commissioned before the next monsoon cycle (June 2027). Please provide: (1) Project background and business case in 150 words, (2) SMART objectives with measurable KPIs, (3) Detailed scope (in-scope and out-of-scope items), (4) Key deliverables with tentative milestone dates, (5) Stakeholder register (client, EPC, MoEF, State Pollution Board, local panchayat, vendors, lenders), (6) High-level INR budget split across civil, mechanical, electrical, instrumentation, and contingency in ₹ cr, (7) Top 5 assumptions and constraints, (8) Project authority and governance structure, (9) Success criteria for handover. Format as a formal charter document with numbered sections, ready for sign-off by the steering committee. Factor in monsoon disruption (July-September), Indian labour law compliance, and NGT clearance dependencies.",
+      "tags": [
+        "project-charter",
+        "greenfield-plant",
+        "scope-definition",
+        "stakeholder-mapping"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-002",
+      "title": "Build Risk Assessment Matrix for Metro Project",
+      "prompt": "Act as a PMP-certified project engineer with 10 years of experience on DMRC, BMRCL, and Hyderabad Metro projects. I need you to build a detailed risk assessment matrix for a 12 km elevated metro viaduct package worth ₹1,450 cr being executed by Afcons Infrastructure in Bengaluru. Here is the context: the package involves 340 piers, 2 interchange stations, utility diversions along ORR, and a 30-month schedule that overlaps two monsoon seasons. Please provide: (1) A risk register with at least 15 risks across categories — technical, schedule, cost, safety, statutory, vendor, weather, land acquisition, (2) For each risk, assign probability (1-5), impact (1-5), risk score, and RAG rating, (3) A 5x5 probability-impact matrix showing where each risk sits, (4) Mitigation and contingency plan for the top 8 risks, (5) Risk owner (BMRCL, Afcons site, MEP subcontractor, etc.), (6) Trigger events and early warning indicators, (7) Residual risk score after mitigation. Format as a structured table followed by a narrative for the top 5 risks. Include Indian context: BBMP permissions, traffic police NOC, monsoon concreting limits, ISA certification, and RDSO/IR interface at crossings.",
+      "tags": [
+        "risk-matrix",
+        "metro-project",
+        "risk-register",
+        "mitigation-plan"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-003",
+      "title": "Weekly Site Status Report Template",
+      "prompt": "Act as a project engineer working with Tata Projects on a 660 MW supercritical thermal power plant in Odisha. I need you to create a weekly site status report template that will be sent every Monday to the client PMC and the Tata Projects head office in Mumbai. Here is the context: the project is in month 14 of a 36-month schedule, civil works are 72% complete, and boiler erection has just started. Please provide: (1) Header block with project name, week number, report date, reporting period, (2) Executive summary in 100 words, (3) Physical progress table by discipline (civil, structural, mechanical, electrical, C&I) with planned vs actual % and slippage, (4) S-curve commentary, (5) Key activities completed this week and planned for next week, (6) Manpower deployment (skilled, semi-skilled, staff) vs plan, (7) Material receipts and pending POs with vendor names, (8) Safety statistics — LTIFR, near misses, toolbox talks, (9) Quality NCRs raised and closed, (10) Issues, risks, and decisions required from client, (11) Photographs section, (12) Look-ahead 2-week schedule. Format as a clean template with placeholders in square brackets, ready to be filled in weekly. Keep it to 4 pages max and Indian reporting conventions.",
+      "tags": [
+        "status-report",
+        "weekly-report",
+        "site-progress",
+        "reporting-template"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-004",
+      "title": "Resource Histogram for Refinery Turnaround",
+      "prompt": "Act as a project engineer with 8 years of experience planning shutdowns and turnarounds at Indian refineries (IOCL Panipat, BPCL Kochi, RIL Jamnagar). I need you to prepare a resource planning summary and manpower histogram for a 28-day CDU turnaround at an IOCL refinery. Here is the context: the TA budget is ₹42 cr, peak manpower target is 1,800, and critical path runs through reactor catalyst change. Please provide: (1) Resource categories — boilermakers, welders (6G), riggers, scaffolders, fitters, NDT technicians, supervisors, HSE officers, (2) Day-wise manpower requirement across 28 days showing ramp-up, peak, and demob, (3) Peak day deployment by trade, (4) Resource leveling recommendations to avoid over-allocation, (5) Subcontractor split (in-house vs outsourced), (6) Accommodation, transport, and messing logistics assumptions, (7) Critical resource risks (6G welder shortage in Gujarat, monsoon travel), (8) Productivity factor assumptions per OISD norms. Format as a narrative plus a 28-day histogram table (day number, trade-wise count, total). Use Indian labour rates in ₹/day and PESO/OISD/PNGRB compliance context.",
+      "tags": [
+        "resource-planning",
+        "manpower-histogram",
+        "turnaround",
+        "refinery"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-005",
+      "title": "Change Request Form for Highway Project",
+      "prompt": "Act as a project engineer working with KEC International on a 46 km NHAI HAM highway package in Madhya Pradesh valued at ₹820 cr. I need you to draft a formal change request form and accompanying note for a scope change where the NHAI Project Director has asked for an additional vehicular underpass at chainage 24+500 due to local demand. Here is the context: the original BOQ did not include this VUP, estimated cost impact is ₹6.2 cr, and schedule impact is 45 days. Please provide: (1) Change request ID and reference to concession agreement clause, (2) Description of the change and reason, (3) Originator and date, (4) Technical impact — design, drawings, utility shifting, (5) Cost impact breakdown (civil, structural, utilities, overheads, profit) in ₹ lakh, (6) Schedule impact with revised critical path commentary, (7) Risk impact, (8) Recommendation and options (approve, reject, defer), (9) Approval signatures — IE, Authority Engineer, NHAI PD, KEC Project Manager, (10) Annexures list. Format as a one-page form plus a 2-page justification note. Use NHAI standard terminology, MoRTH specifications, and include reference to Schedule B/C of the concession agreement.",
+      "tags": [
+        "change-request",
+        "nhai",
+        "highway",
+        "scope-change"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-006",
+      "title": "Stakeholder Register for Smart City Project",
+      "prompt": "Act as a project engineer deployed by Shapoorji Pallonji on a ₹340 cr smart city integrated command centre project in Kanpur under the Smart Cities Mission. I need you to create a comprehensive stakeholder register. Here is the context: the SPV (Kanpur Smart City Limited) is the client, MoHUA monitors outcomes, the project involves ICT integration with UP Police, KMC, and traffic department. Please provide: (1) Stakeholder name and organisation, (2) Role and interest in the project, (3) Power/interest grid classification (high-high, high-low, etc.), (4) Influence and attitude (champion, supporter, neutral, blocker), (5) Key expectations and concerns, (6) Engagement strategy (manage closely, keep satisfied, keep informed, monitor), (7) Communication frequency and mode, (8) Owner within SP project team. Include at least 18 stakeholders covering SPV CEO, MoHUA, district administration, KMC commissioner, UP Police, ISP, OEMs (Honeywell/NEC), civil subcontractors, local councillors, media, citizens groups. Format as a table plus a 2x2 power-interest grid description. Reflect Indian public-sector project dynamics and typical political interface.",
+      "tags": [
+        "stakeholder-mapping",
+        "smart-city",
+        "engagement-plan",
+        "power-interest-grid"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-007",
+      "title": "Monthly Progress Review Deck Outline",
+      "prompt": "Act as a project engineer at Megha Engineering & Infrastructure Ltd working on the Polavaram irrigation project. I need you to create a detailed outline for a Monthly Progress Review (MPR) presentation to the Andhra Pradesh government and CWC. Here is the context: the package value is ₹2,100 cr, the review is for month 18 of 42, and the client has raised concerns about spillway concreting pace. Please provide a slide-by-slide outline (18-22 slides) covering: (1) Cover and agenda, (2) Executive summary, (3) Physical and financial progress vs plan, (4) S-curve, (5) Critical path status, (6) Discipline-wise progress photographs, (7) Manpower and equipment deployment, (8) Material status — cement, steel, aggregates, (9) Quality and safety dashboard, (10) Issues requiring client intervention (land, R&R, power), (11) Risks and mitigation, (12) Look-ahead 3-month plan, (13) Cash flow and payment status in ₹ cr, (14) Conclusion and asks. For each slide, write the title, key bullet points, and suggested chart/visual. Format as a structured outline ready to hand over to the documentation team. Reflect CWC reporting norms and Indian PSU review expectations.",
+      "tags": [
+        "status-report",
+        "mpr",
+        "progress-review",
+        "irrigation-project"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-008",
+      "title": "Vendor Evaluation Scorecard for Structural Steel",
+      "prompt": "Act as a project engineer responsible for vendor selection on a ₹95 cr structural steel package for a Tata Motors greenfield plant in Sanand, Gujarat. I need you to design a vendor evaluation scorecard to rank 6 shortlisted fabricators. Here is the context: tonnage is 4,200 MT, delivery window is 9 months, and the shortlist includes Pennar Industries, Electrosteel, Jindal, Ramboll, SPS Steel, and a local Ahmedabad fabricator. Please provide: (1) Evaluation criteria across technical, commercial, HSE, quality, delivery, financial, and past experience, (2) Weightage for each criterion totaling 100%, (3) Scoring scale (1-5) with definitions, (4) Specific sub-questions per criterion (IBR certification, welder qualifications, EN 1090, MSME status, turnover ₹ cr, Tata vendor empanelment), (5) Sample filled scorecard for 2 vendors, (6) Decision rules and minimum thresholds, (7) Commercial evaluation with L1 adjustment for technical score, (8) Recommendation format for the tender committee. Format as a scoring template plus a one-page recommendation note. Include GST compliance, MSME payment terms under MSMED Act, and Indian logistics considerations.",
+      "tags": [
+        "vendor-management",
+        "evaluation-scorecard",
+        "procurement",
+        "structural-steel"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-009",
+      "title": "Kickoff Meeting Agenda for EPC Project",
+      "prompt": "Act as a project engineer at L&T Hydrocarbon Engineering starting a new ₹560 cr EPC project for a pet-chem expansion at HPCL Visakh Refinery. I need you to draft a complete kickoff meeting agenda for the internal-plus-client kickoff scheduled for day 15 after LOA. Here is the context: the meeting will have 35 attendees including HPCL, PMC (EIL), L&T functional leads, and key subcontractors. Please provide: (1) Meeting objective and expected outcomes, (2) Agenda with time slots for 6 hours, (3) Topics: contract overview, scope freeze, project organisation chart, communication protocol, document control (EDMS), engineering deliverables schedule, procurement strategy, construction sequencing, HSE plan, quality plan, interface matrix, risk register review, cashflow and milestone payments, (4) Presenter for each topic, (5) Pre-read documents list, (6) Decisions to be taken in the meeting, (7) MoM template, (8) Action tracker format. Format as a formal agenda document. Include OISD, PESO, and refinery entry/work permit requirements, plus typical Indian EPC client expectations around weekly interface meetings.",
+      "tags": [
+        "kickoff-meeting",
+        "epc-project",
+        "meeting-agenda",
+        "project-startup"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-010",
+      "title": "RACI Matrix for Solar Plant Construction",
+      "prompt": "Act as a project engineer executing a 250 MW solar PV plant in Rajasthan for Adani Green Energy, EPC contract value ₹1,050 cr. I need you to build a RACI matrix for the project execution phase. Here is the context: the core team has 14 roles including Project Director, Construction Manager, Electrical Lead, QA/QC, HSE, Planning Engineer, Procurement, Site Admin, Commissioning Lead, Client PM, Owner Engineer, Subcontractor Site-in-Charge. Please provide: (1) List of 25 key activities spanning survey, piling, module mounting structure erection, module installation, DC cabling, inverter installation, HT yard, grid synchronisation, performance test, handover, (2) RACI assignment for each activity (Responsible, Accountable, Consulted, Informed), (3) Decision rules — only one Accountable per activity, (4) Narrative explaining interface points with DISCOM (RVPN), CEIG, and Owner Engineer, (5) Escalation path. Format as a matrix table with activities as rows and roles as columns. Reflect Indian solar execution realities — land aggregation, wildlife clearances (Great Indian Bustard zones), and MNRE compliance.",
+      "tags": [
+        "raci-matrix",
+        "solar-project",
+        "roles-responsibilities",
+        "project-execution"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-011",
+      "title": "Daily Progress Report DPR Template",
+      "prompt": "Act as a project engineer on a ₹275 cr railway station redevelopment project being executed by RLDA with a Tata-led JV in Nagpur. I need you to create a Daily Progress Report (DPR) template that site supervisors will fill every evening. Here is the context: three work fronts are active (concourse, platform extension, facade) and IR demands daily reporting with block/caution order details. Please provide: (1) Header — date, shift, weather, project name, DPR serial, (2) Manpower attendance by trade and subcontractor, (3) P&M deployment and idle hours, (4) Activities carried out with location, quantity, and reference drawing, (5) Materials consumed and received, (6) Block and traffic block details (granted vs utilised), (7) HSE observations and incidents, (8) Quality tests conducted, (9) Visitors log, (10) Delays and reasons, (11) Plan for next day, (12) Supervisor and engineer signoff. Format as a one-page A4 template with clear fields. Include IR block working norms, caution order protocol, and typical Indian site reporting conventions.",
+      "tags": [
+        "status-report",
+        "dpr",
+        "daily-report",
+        "railway-project"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-012",
+      "title": "Scope Statement for Warehouse Construction",
+      "prompt": "Act as a project engineer with 7 years in industrial warehousing, currently with Shapoorji Pallonji Engineering & Construction. I need you to write a detailed scope statement for a 4,00,000 sq ft Grade-A warehouse for a 3PL client near Bhiwandi, Maharashtra, with a budget of ₹110 cr and 11-month schedule. Here is the context: the warehouse has 12 m clear height, FM2 flooring, 48 dock levelers, ESFR sprinkler system, and office block. Please provide: (1) Project description in 100 words, (2) Product scope — detailed deliverables with specs (PEB, flooring DM<4mm, docks, fire, MEP), (3) Project scope — activities to be performed, (4) Out-of-scope items explicitly listed (tenant fit-out, racking, WMS), (5) Acceptance criteria for each deliverable, (6) Assumptions (soil SBC, power availability from MSEDCL, approved drawings date), (7) Constraints (monsoon window, MIDC approvals, crane mobilisation), (8) Exclusions and interfaces, (9) Deliverable-wise approval authority. Format as a formal scope statement ready for baseline. Use Indian warehousing standards, NBC 2016, and Maharashtra labour law references.",
+      "tags": [
+        "scope-statement",
+        "warehouse",
+        "project-charter",
+        "deliverables"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-013",
+      "title": "Lessons Learned Register After Project Closeout",
+      "prompt": "Act as a project engineer closing out a ₹430 cr automotive paint shop project for Maruti Suzuki at Kharkhoda, Haryana, executed by a Korean-Indian JV. I need you to facilitate and document the lessons learned register. Here is the context: the project was delivered 6 weeks late due to imported robotics delays and had cost overrun of ₹18 cr, but achieved zero LTI and client acceptance on first PTA. Please provide: (1) Lessons learned template with columns — category, situation, lesson, recommendation, owner, applicability to future projects, (2) At least 15 lessons across engineering, procurement (customs clearance, high seas sales), construction, commissioning, HSE, contract, client management, (3) Top 5 dos and top 5 donts, (4) Process improvement suggestions for the PMO, (5) Knowledge artefacts to be uploaded to the company SharePoint (checklists, SOPs, vendor feedback), (6) Facilitator notes for the retrospective workshop agenda (3 hours). Format as a structured register plus a 1-page executive summary. Reflect Indian JV project dynamics, customs and SVB issues, and monsoon impact on outdoor erection.",
+      "tags": [
+        "lessons-learned",
+        "project-closeout",
+        "retrospective",
+        "knowledge-management"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-014",
+      "title": "Work Breakdown Structure for Flyover",
+      "prompt": "Act as a project engineer at Afcons working on a ₹310 cr 3.2 km 4-lane flyover in Chennai for CMDA. I need you to develop a Work Breakdown Structure (WBS) up to Level 4. Here is the context: the flyover has 92 piers, 3 obligatory spans over existing junctions, utility diversions, and must be built with minimal traffic disruption. Please provide: (1) Level 1 — project, (2) Level 2 — major deliverables (enabling works, substructure, superstructure, approaches, finishing, testing and commissioning, project management), (3) Level 3 — sub-deliverables under each, (4) Level 4 — work packages with unique WBS codes (e.g., 1.2.3.4), (5) Brief description of each work package, (6) Suggested duration and quantity units, (7) WBS dictionary sample for 5 packages, (8) Mapping to cost accounts for EVM. Format as an indented hierarchical list and a tabular WBS dictionary. Include Indian execution items — CMDA permissions, traffic police NOC, utility shifting (Metrowater, TANGEDCO), tree translocation, and night-working permissions.",
+      "tags": [
+        "work-breakdown-structure",
+        "wbs",
+        "flyover",
+        "project-planning"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-015",
+      "title": "Communication Plan for EPC Project",
+      "prompt": "Act as a project engineer with PRINCE2 Practitioner certification at Tata Projects working on a ₹1,800 cr fertiliser plant revamp at RCF Thal, Maharashtra. I need you to draft a project communication management plan. Here is the context: stakeholders include RCF, EIL (PMC), multiple licensors, OEMs in India, Japan, and Germany, and 22 subcontractors. Please provide: (1) Communication objectives, (2) Stakeholder communication needs matrix, (3) Communication types (formal, informal, written, verbal), (4) Frequency table (daily DPR, weekly site meeting, fortnightly risk review, monthly MPR, quarterly steering committee), (5) Tools and channels (EDMS Aconex, email, Teams, WhatsApp groups usage policy), (6) Document numbering and distribution matrix, (7) Escalation matrix with timelines, (8) Meeting governance and MoM protocol, (9) Language and translation protocol for overseas vendors, (10) Records retention. Format as a structured plan document with tables. Include Indian realities — WhatsApp for site coordination, bilingual (Hindi/Marathi) toolbox talks, and PSU protocol for formal correspondence.",
+      "tags": [
+        "communication-plan",
+        "stakeholder-management",
+        "epc-project",
+        "governance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-016",
+      "title": "Procurement Schedule for Process Plant",
+      "prompt": "Act as a project engineer handling procurement planning at L&T Hydrocarbon for a ₹720 cr specialty chemicals plant in Dahej, Gujarat. I need you to prepare a procurement schedule aligned to the engineering and construction schedule. Here is the context: major equipment includes reactors, distillation columns, centrifuges, compressors, heat exchangers, DCS; mix of Indian and imported items; project duration 24 months. Please provide: (1) Procurement items list — at least 20 items categorised into long-lead, critical, and bulk, (2) For each item: engineering release date, enquiry, techno-commercial evaluation, PO release, manufacturing, FAT, dispatch, site delivery, required-on-site date, (3) Identification of long-lead items driving critical path, (4) Inco-terms for imports (CIF Nhava Sheva, FOB Hamburg), (5) Customs clearance and transport buffer, (6) Vendor list with Indian and overseas split, (7) Linkage to L2 schedule milestones, (8) Risk flags. Format as a procurement tracker table with durations in weeks plus a narrative on critical items. Include BCD/IGST, SVB, EPCG, and project import benefits under Indian customs.",
+      "tags": [
+        "procurement-planning",
+        "long-lead-items",
+        "schedule",
+        "process-plant"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-017",
+      "title": "Quantitative Risk Analysis with Monte Carlo",
+      "prompt": "Act as a project engineer and risk manager with 11 years of experience in infrastructure projects, currently on a ₹2,400 cr expressway package under NHAI HAM model executed by KEC International. I need you to design a quantitative risk analysis framework using Monte Carlo simulation on schedule and cost. Here is the context: the project duration is 30 months, the top 10 risks include land acquisition delay, utility shifting, monsoon impact, crusher shortage, diesel price escalation, NHAI drawings delay, and forex on imported bearings. Please provide: (1) Approach to convert the deterministic schedule into a 3-point estimate (optimistic, most likely, pessimistic) for 20 critical activities, (2) Triangular vs PERT distribution choice rationale, (3) Correlation assumptions between weather-dependent activities, (4) Risk event modelling with probability and impact ranges, (5) Monte Carlo setup (10,000 iterations) in @Risk or Primavera Risk Analysis, (6) Output interpretation — P50, P80, P90 completion dates and costs, (7) Tornado chart of sensitivity drivers, (8) Recommended schedule and cost contingency in ₹ cr and days, (9) How to present results to the steering committee. Format as a technical methodology note plus a sample output interpretation. Include Indian factors — monsoon windows, festival manpower drops, diesel escalation clauses.",
+      "tags": [
+        "risk-matrix",
+        "monte-carlo",
+        "quantitative-risk",
+        "contingency"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-018",
+      "title": "Earned Value Management Dashboard",
+      "prompt": "Act as a PMP-certified project engineer running the PMO for a ₹1,250 cr gas-based combined cycle power plant for NTPC at Auraiya, UP, executed by BHEL-L&T consortium. I need you to build an Earned Value Management (EVM) dashboard and interpretation note for month 16 of 32. Here is the context: BAC is ₹1,250 cr, PV to date ₹640 cr, EV ₹560 cr, AC ₹612 cr. Please provide: (1) Calculation of SV, CV, SPI, CPI with formulas and result, (2) EAC using three methods (AC+ETC, BAC/CPI, AC+(BAC-EV)/(CPI*SPI)), (3) ETC and VAC, (4) TCPI against BAC and EAC, (5) Narrative interpretation — is the project behind, over budget, recoverable, (6) Recovery plan recommendations with specific actions per discipline, (7) Dashboard layout with S-curves, traffic lights, and KPI tiles, (8) Discipline-wise EVM rollup, (9) Presentation note for NTPC monthly review. Format as a structured analysis with tables and narrative. Use Indian power-sector terminology, CEA reporting formats, and typical PSU review tone.",
+      "tags": [
+        "earned-value",
+        "evm",
+        "project-controls",
+        "power-plant"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-019",
+      "title": "Schedule Recovery Plan after Monsoon Delay",
+      "prompt": "Act as a project engineer handling schedule recovery for an ₹890 cr elevated corridor project in Mumbai where the 2026 monsoon caused a 78-day cumulative slippage due to flooding, BMC permission delays, and material wash-outs. I need you to prepare a schedule recovery plan. Here is the context: the original completion date was March 2027, currently 62% complete, client is MMRDA, and liquidated damages kick in at 0.5% per week capped at 10%. Please provide: (1) Root cause analysis of the 78-day slippage, (2) Critical path re-assessment and identification of float, (3) Recovery strategies — fast-tracking, crashing, resequencing, additional shifts, parallel work fronts, (4) Specific actions with owner and incremental cost in ₹ lakh, (5) Resource augmentation plan (manpower, steel shutters, batching plant), (6) Revised L2 milestones, (7) Cost-benefit of each option vs LD exposure, (8) Risks of the recovery plan itself, (9) Communication to MMRDA justifying EOT under concession force-majeure clauses, (10) Monitoring mechanism weekly. Format as a recovery plan document with exhibits. Include Indian contract practice — EOT, LD, and force majeure under FIDIC/MoRTH conditions.",
+      "tags": [
+        "schedule-recovery",
+        "monsoon-delay",
+        "critical-path",
+        "eot-claim"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-020",
+      "title": "Vendor Performance Review Framework",
+      "prompt": "Act as a project engineer responsible for vendor governance on a ₹3,200 cr integrated steel plant expansion at JSW Vijayanagar, Karnataka. I need you to design a vendor performance review framework covering 45 mechanical, electrical, and civil subcontractors. Here is the context: performance issues are recurring with 8 vendors, and management wants a quarterly objective review to drive improvements. Please provide: (1) KPI framework across delivery, quality, HSE, cost, manpower deployment, documentation, client complaints, (2) Scoring methodology (0-100) with weights and thresholds, (3) Data sources and measurement frequency, (4) Quarterly review meeting agenda and template, (5) Performance improvement plan (PIP) format for underperformers, (6) Escalation and termination triggers as per contract, (7) Recognition for top performers, (8) Integration with payment release (retention, milestone linkage), (9) Vendor development program outline. Format as a framework document with sample filled scorecard for 3 vendors. Include Indian MSME interaction, MSMED Act 45-day payment compliance, and typical Indian subcontracting realities.",
+      "tags": [
+        "vendor-management",
+        "performance-review",
+        "kpi-framework",
+        "subcontractor-governance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-021",
+      "title": "Interface Management Plan Between Packages",
+      "prompt": "Act as a project engineer managing interfaces on a ₹7,500 cr phase-1 bullet train civil package along MAHSR alignment in Gujarat. I need you to draft an interface management plan between Afcons (viaduct civil), L&T (stations), Larsen OEM (track), and JICA-funded systems packages. Here is the context: there are 14 major physical and functional interfaces including bearings, parapet, OHE masts, drainage, signalling conduits, and telecom cables. Please provide: (1) Interface philosophy and governance structure, (2) Interface register with ID, description, involved parties, type (physical, functional, contractual, schedule), status, (3) Interface control document (ICD) template, (4) Interface meeting cadence and escalation, (5) Interface milestone dates tied to master schedule, (6) RACI for each interface item, (7) Change management for interface modifications, (8) Sign-off protocol for interface closure, (9) Risk register for top interface risks. Format as a structured plan with tables. Reflect NHSRCL, JICA, and Indian Railway interface practices, and include technical terminology used in bullet train projects.",
+      "tags": [
+        "interface-management",
+        "bullet-train",
+        "icd",
+        "multi-package"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-022",
+      "title": "Project Cash Flow Forecast in INR Crore",
+      "prompt": "Act as a project engineer supporting project controls at Tata Projects for a ₹1,680 cr semiconductor fab civil and utility package in Dholera, Gujarat. I need you to prepare a 30-month project cash flow forecast. Here is the context: client is a large semicon group, payment terms are 10% advance (BG-backed), monthly RA bills with 95% certified and 5% retention released at DLP end, GST 18%, and subcontractor payments on back-to-back 60-day terms. Please provide: (1) Month-wise S-curve of planned invoicing vs subcontractor and vendor outflows, (2) Cash inflow projection per contract terms, (3) Cash outflow split — materials, subcontractors, manpower, plant hire, site overheads, indirect, (4) Working capital gap and peak negative cash month, (5) Retention release timing, (6) GST and TDS cashflow impact, (7) Financing cost at 10% on WC, (8) Sensitivity to 30-day payment delay from client, (9) Mitigation — advance, mobilisation, invoice factoring, (10) Summary in ₹ cr table by month and quarter. Format as a tabular forecast plus narrative. Include Indian tax practice, 194Q TDS, and BG vs corporate guarantee norms.",
+      "tags": [
+        "cash-flow",
+        "project-finance",
+        "working-capital",
+        "inr-budget"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-023",
+      "title": "Claim Notification for Client-Caused Delay",
+      "prompt": "Act as a project engineer drafting a formal claim notification for a ₹58 cr time and cost impact due to a client-caused delay on a ₹940 cr urban water supply project in Lucknow for Jal Nigam, executed by Megha Engineering. Here is the context: delay cause is late handover of Right of Way for 6.2 km of distribution network, impact is 112 days, and contract is based on CPWD GCC. Please provide: (1) Claim notification letter as per GCC clause (cite clause number), (2) Event description with dates and correspondence references, (3) Cause-effect analysis establishing client liability, (4) Quantum of time impact with cause-and-effect schedule analysis (time impact analysis or window analysis), (5) Cost quantum — prolongation cost, idle resources, overheads (Hudson formula), escalation, (6) Supporting documents list (letters, minutes, photographs, DPRs), (7) Relief sought — EOT 112 days plus ₹58 cr, (8) Reservation of rights language, (9) Without prejudice statement. Format as a formal letter plus an annexure summary. Reflect Indian contract practice, CPWD/MoRTH GCC language, and typical PSU client response dynamics.",
+      "tags": [
+        "claims-management",
+        "eot-claim",
+        "prolongation-cost",
+        "contract"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-024",
+      "title": "Construction Method Statement for Launching Girder",
+      "prompt": "Act as a project engineer at Afcons preparing a construction method statement for launching of a 50 m span precast segmental box girder using an overhead launching girder on a ₹1,120 cr elevated metro viaduct in Pune. I need you to draft the method statement. Here is the context: span mass 920 MT, launching girder capacity 1000 MT, 14 spans over live BRT corridor, night work only, Maha-Metro is the client. Please provide: (1) Scope and reference drawings, (2) Resources — manpower, LG equipment, cranes, epoxy, stressing, grouting, (3) Sequence of operations from arrival of segment to stressing completion, (4) Pre-launching checks, (5) Safety measures — exclusion zones, load testing, wind speed limits, (6) Quality control and hold points, (7) Emergency procedures, (8) HSE JSA with hazards and controls, (9) Interface with traffic police for BRT closure, (10) Permit-to-work requirement. Format as a numbered method statement document with diagrams described in text. Include IRC and Maha-Metro standards and Indian night-work permissions.",
+      "tags": [
+        "method-statement",
+        "segmental-launching",
+        "metro-viaduct",
+        "construction-planning"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-025",
+      "title": "Integrated Change Control Process",
+      "prompt": "Act as a project engineer setting up the integrated change control process for a ₹2,900 cr lithium refinery greenfield project in Odisha executed by a Tata group entity. I need you to design and document the change control process. Here is the context: the project has 6 engineering packages, licensor engagement, and client governance with monthly change board. Please provide: (1) Change control objectives and principles, (2) Types of changes — scope, schedule, cost, technical, contractual, (3) Change request form fields, (4) Workflow from origination to approval with timelines and RACI, (5) Change board composition and meeting cadence, (6) Thresholds for approval authorities (site level < ₹10 lakh, PM < ₹50 lakh, PD < ₹2 cr, CCB > ₹2 cr), (7) Impact assessment template (cost, schedule, risk, quality, HSE, interfaces), (8) Change log and traceability to baseline, (9) Linkage with contract variation clauses, (10) KPIs on change control cycle time. Format as a process document with a swimlane description. Include Indian PSU-style DoA, variation clauses, and licensor change management realities.",
+      "tags": [
+        "change-request",
+        "change-control",
+        "governance",
+        "baseline-management"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-026",
+      "title": "Resource Leveling Strategy for Multi-Project Program",
+      "prompt": "Act as a program-level project engineer at KEC International managing a portfolio of 4 transmission line projects totaling ₹2,200 cr across Rajasthan, MP, Telangana, and Odisha with overlapping schedules. I need you to design a resource leveling strategy across the program. Here is the context: shared resources include tower erection gangs, stringing crews, cranes, tools, planning engineers, surveyors; peak demand clashes in November-February dry window. Please provide: (1) Consolidated resource demand histogram across the 4 projects by month for 18 months, (2) Identification of conflict windows and over-allocation, (3) Leveling options — advance, defer, outsource, hire, shift, (4) Decision matrix to choose leveling action per resource category, (5) Cost and schedule impact of each option in ₹ cr, (6) Hub-and-spoke model for shared crews with logistics cost, (7) Workforce mobility incentives for migrant labour, (8) Risk to critical path per project, (9) Governance for program-level resource committee. Format as an analytical note with tables. Reflect Indian power transmission execution — POWERGRID interface, ROW issues, forest clearances, and inter-state migrant labour.",
+      "tags": [
+        "resource-planning",
+        "resource-leveling",
+        "program-management",
+        "transmission-lines"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-027",
+      "title": "Risk-Adjusted Contingency Drawdown Plan",
+      "prompt": "Act as a project engineer responsible for contingency management on a ₹1,450 cr cement plant brownfield expansion for UltraTech at Rawan, Chhattisgarh, executed by L&T Construction. I need you to develop a risk-adjusted contingency drawdown plan. Here is the context: project contingency is 6% (₹87 cr) and management reserve 3% (₹43.5 cr); currently at month 10 of 24 with ₹22 cr drawn. Please provide: (1) Current risk exposure vs remaining contingency (residual risk analysis), (2) Planned drawdown curve over remaining 14 months tied to risk events, (3) Decision rules for releasing contingency to specific work packages, (4) Monthly contingency review process, (5) Trigger-based release criteria, (6) Re-baseline protocol if drawdown exceeds forecast, (7) Reporting format to steering committee, (8) Contingency recovery opportunities from resolved risks, (9) Link to EVM and VAC, (10) Governance — who approves what amount. Format as an analytical document plus drawdown chart table. Reflect Indian EPC contract practice, typical cost overrun patterns, and UltraTech governance style.",
+      "tags": [
+        "risk-matrix",
+        "contingency-management",
+        "cost-control",
+        "governance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-028",
+      "title": "HSE Plan Integration into Project Schedule",
+      "prompt": "Act as a project engineer integrating HSE into project planning on a ₹640 cr oil and gas cross-country pipeline project for GAIL in Madhya Pradesh executed by Megha Engineering. I need you to create an HSE-integrated project plan. Here is the context: 210 km 24-inch pipeline, 3 river crossings, 14 road crossings, monsoon sensitive, OISD-141 applicable. Please provide: (1) HSE activities mapped to each construction phase (ROW, grading, stringing, welding, NDT, lowering, hydrotesting, commissioning), (2) HSE milestones in the L3 schedule, (3) Resource loading for HSE officers per km and per crew, (4) Training and induction timelines, (5) Permit-to-work regime integrated with the schedule, (6) Emergency response mock drills frequency, (7) HSE KPIs and targets (LTIFR, TRIFR, near miss reporting), (8) Leading and lagging indicators dashboard, (9) Client and PNGRB audit readiness timeline, (10) HSE budget breakdown in ₹ cr. Format as a planning document with tables. Include OISD, PNGRB, DGMS, CLRA, and Factories Act compliance touchpoints.",
+      "tags": [
+        "hse-integration",
+        "pipeline-project",
+        "resource-planning",
+        "compliance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-029",
+      "title": "Commissioning and Handover Plan",
+      "prompt": "Act as a project engineer leading commissioning and handover for a ₹2,100 cr integrated dairy plant for Amul at Rajkot, Gujarat, executed by Shapoorji Pallonji E&C. I need you to draft a commissioning and handover plan. Here is the context: 12 process units, 3 utility systems, CIP, packaging, cold storage, ETP; handover window 10 weeks. Please provide: (1) C&Q philosophy (mechanical completion, pre-commissioning, cold commissioning, hot commissioning, PGT), (2) System boundary definitions and punch list approach (A, B, C), (3) Turnover package (TOP) structure, (4) Commissioning schedule integrated with construction, (5) Vendor attendance plan, (6) Utility availability sequence, (7) PGT duration and acceptance criteria, (8) Handover documents — as-built, OEM manuals, spares list, warranty certificates, training records, (9) Defect liability period management, (10) Client acceptance and PAC/FAC protocol. Format as a plan with checklists. Reflect FSSAI, Factories Act, and boiler inspector approvals applicable in Gujarat, and Amul governance practices.",
+      "tags": [
+        "commissioning",
+        "handover",
+        "project-closeout",
+        "acceptance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-030",
+      "title": "Baseline Schedule Review Checklist",
+      "prompt": "Act as a project engineer reviewing the L3 baseline schedule submitted by an EPC contractor on a ₹1,950 cr ammonia urea plant revamp for IFFCO Kalol, with PMC role held by PDIL. I need you to prepare a baseline schedule review checklist and findings note. Here is the context: the schedule has 14,200 activities in Primavera P6, submitted after LOA+45 days. Please provide: (1) Schedule review checklist covering completeness, logic, constraints, calendars, WBS alignment, resource loading, cost loading, float distribution, critical path, LoB for repetitive activities, (2) DCMA 14-point metrics and acceptance thresholds, (3) Constraint and lag audit, (4) Missing logic and open-end activities, (5) Critical path validity check, (6) Weather and monsoon calendar check, (7) Resource vs productivity check, (8) Interface milestones with client and licensor, (9) Sample findings with severity, (10) Recommendation to accept, accept with comments, or reject. Format as a formal review note with tables. Use Indian PSU PMC style and typical refinery revamp schedule complications.",
+      "tags": [
+        "schedule-review",
+        "baseline",
+        "dcma-14",
+        "planning-quality"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-031",
+      "title": "Variance Analysis and Forecast at Completion",
+      "prompt": "Act as a project engineer preparing a variance analysis and forecast at completion (FAC) for a ₹960 cr naval shipyard infrastructure upgrade project at Mazagon Dock, Mumbai, executed by a Tata-Shapoorji JV. I need you to produce a detailed variance and FAC report. Here is the context: at month 20 of 32, cumulative variance is +6.4% on cost and -5 weeks on schedule due to import delays and dewatering issues. Please provide: (1) Variance summary by WBS element with planned, actual, variance in ₹ cr and %, (2) Root cause analysis per variance category, (3) Trend analysis over last 6 months, (4) FAC using regression and EVM-based methods, (5) Revised cash flow and peak funding, (6) Recovery plan contribution to closing variance, (7) Risks to forecast, (8) Presentation narrative for the MDL monthly review, (9) Sensitivity on key drivers (INR-USD, diesel, steel), (10) Recommended management actions. Format as a controls report with tables and narrative. Reflect MDL defence PSU governance, customs and project import norms for defence use items.",
+      "tags": [
+        "variance-analysis",
+        "forecast",
+        "cost-control",
+        "evm"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-032",
+      "title": "Subcontractor Back-to-Back Contract Drafting Guide",
+      "prompt": "Act as a project engineer coordinating with the contracts team at L&T Construction to draft a subcontract on back-to-back terms for a ₹180 cr MEP package on a ₹1,350 cr hospital project in Hyderabad for a large private healthcare group. I need you to prepare a drafting guide of critical subcontract terms. Here is the context: main contract is on lumpsum basis, LD 10% cap, performance BG 5%, retention 5%, payment 60 days certified. Please provide: (1) List of back-to-back pass-through clauses and their rewording, (2) Scope definition and interface clauses, (3) Payment terms — RA billing, certification process, TDS, GST, MSMED considerations, (4) LD, bonus, and indirect damages, (5) Indemnity and insurance (CAR, WC, third-party), (6) Quality, HSE, and deliverables, (7) Change order mechanism, (8) Dispute resolution — negotiation, mediation, arbitration (A&C Act 1996), (9) Termination and consequences, (10) Specific clauses to protect L&T from main contract flow-downs. Format as a drafting checklist with clause language suggestions. Include Indian legal practice, MSME Act 45-day compliance, and typical healthcare project nuances.",
+      "tags": [
+        "subcontracting",
+        "contract-drafting",
+        "back-to-back",
+        "legal"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-033",
+      "title": "Program-Level Integrated Master Schedule Design",
+      "prompt": "Act as a senior project engineer architecting the Integrated Master Schedule (IMS) for a ₹18,500 cr multi-site green hydrogen and ammonia mega project for Adani at Mundra-Kandla, involving 7 concurrent EPC packages, 3 licensors, and shared marine and utility interfaces. I need you to design the IMS architecture. Here is the context: project duration 42 months, multiple contractors including L&T, Megha, and international OEMs, reporting to a central PMO with CEO dashboard expectations. Please provide: (1) IMS hierarchy — L0 executive, L1 program, L2 package, L3 contractor, L4 work front, (2) Coding structure for WBS, activity IDs, calendars, resources, (3) Tool stack — P6 EPPM, Acumen Fuse, Power BI, (4) Schedule integration process and cadence, (5) Master milestone list and contractual interfaces, (6) Data exchange protocol with contractors (XER frequency, variance rules), (7) Critical path and near-critical path management at program level, (8) Schedule quality metrics and DCMA audits, (9) Governance — IMS board, change control, baseline re-planning, (10) Risk-loaded schedule approach. Format as an architecture whitepaper with diagrams described in text. Reflect Indian mega-project realities, PNGRB and MNRE interfaces, and SEZ/PCPIR considerations.",
+      "tags": [
+        "integrated-master-schedule",
+        "program-management",
+        "mega-project",
+        "planning-architecture"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-034",
+      "title": "Dispute Avoidance and Adjudication Strategy",
+      "prompt": "Act as a senior project engineer and claims specialist on a ₹3,800 cr highway EPC project under NHAI with KEC International as lead contractor, where multiple variations, utility delays, and monsoon events have triggered claims exposure of ₹340 cr. I need you to develop a dispute avoidance and adjudication strategy. Here is the context: the contract is under NHAI Model EPC Agreement with DRB/arbitration under A&C Act 1996, and relations with the Authority Engineer have soured. Please provide: (1) Claims portfolio mapping — type, value, status, merit, documentation quality, (2) Root cause analysis of disputes, (3) Dispute avoidance steps — governance rhythm, joint inspections, early warning notices, (4) DRB/DAB preparation — panel selection, reference drafting, hearing strategy, (5) Arbitration roadmap with timeline and cost, (6) Settlement envelope and BATNA, (7) Evidence management — contemporaneous records, site photos, delay analysis methodology (TIA, as-planned vs as-built), (8) Interim measures under Section 17, (9) Relationship repair strategy with NHAI, (10) Board reporting on contingent liability. Format as a strategy memo for the project director. Reflect Indian dispute resolution practice, NHAI Conciliation Committee route, and recent Supreme Court jurisprudence on arbitration.",
+      "tags": [
+        "dispute-resolution",
+        "claims-management",
+        "arbitration",
+        "nhai"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-035",
+      "title": "Digital Project Controls Transformation Roadmap",
+      "prompt": "Act as a senior project engineer and digital transformation lead at Tata Projects PMO. I need you to develop a 24-month roadmap to modernise project controls across 32 active projects worth a combined ₹48,000 cr. Here is the context: current state is Excel-heavy, fragmented P6, limited BIM, no common data environment; target state includes P6 EPPM, BIM 4D/5D, drone progress monitoring, IoT on P&M, Power BI dashboards, and ML-based forecasting. Please provide: (1) Current state assessment with pain points, (2) Target operating model for project controls, (3) Technology stack choices with Indian vendor considerations, (4) Data architecture and CDE design, (5) Change management and capability building plan, (6) Pilot project selection and KPIs, (7) Phased rollout wave plan with milestones, (8) Investment estimate in ₹ cr and expected ROI via overrun reduction, (9) Risks and dependencies, (10) Governance and success metrics. Format as a strategy document with roadmap Gantt described in text. Reflect Indian construction IT maturity, DPIIT digital push, and typical Tata group governance.",
+      "tags": [
+        "digital-transformation",
+        "project-controls",
+        "bim",
+        "pmo"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-036",
+      "title": "Integrated Risk and Contingency Model for PPP",
+      "prompt": "Act as a senior project engineer supporting a SPV for a ₹4,600 cr airport PPP project in Navi Mumbai satellite tier-2 city under AAI-led concession. I need you to build an integrated risk and contingency model covering construction and early operations. Here is the context: concession period 40 years, construction 48 months, debt 70:30, grant element 15%, IRR target 14%, risk allocation per MCA. Please provide: (1) Risk allocation matrix between AAI, SPV, EPC contractor, O&M contractor, lenders, (2) Quantified top risks with probability and impact in ₹ cr, (3) Schedule and cost risk overlay using Monte Carlo, (4) Contingency sizing at P80 with split into EPC, owner, and debt-service reserves, (5) Impact on project IRR and DSCR under stress scenarios, (6) Insurance program design (CAR, DSU, ALoP), (7) Lender requirements and MLA clauses, (8) Early warning triggers and drawdown rules, (9) Governance for risk committee, (10) Reporting to lenders and AAI. Format as an analytical model description with tables. Reflect Indian PPP practice, Kelkar Committee principles, and typical concession agreement clauses.",
+      "tags": [
+        "risk-matrix",
+        "ppp",
+        "contingency-model",
+        "airport-project"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-037",
+      "title": "Project Recovery Turnaround Plan",
+      "prompt": "Act as a turnaround project engineer parachuted into a distressed ₹1,580 cr sewage treatment plant project under NMCG in Kanpur, where the project is 11 months behind, 22% cost-overrun, client relationship broken, and contractor morale low. I need you to design a 90-day project recovery and turnaround plan. Here is the context: contractor is a mid-sized Indian EPC firm, client is UP Jal Nigam with NMCG oversight, lender has flagged the account. Please provide: (1) Rapid diagnostic framework (first 10 days) — schedule, cost, quality, people, client, (2) Stabilisation actions (days 11-30) — team restructuring, critical path reset, vendor renegotiation, (3) Recovery actions (days 31-60) — work front re-sequencing, resource surge, cash injection, claims strategy, (4) Sustainability actions (days 61-90) — governance, controls, client trust rebuilding, (5) Quick-win identification, (6) Stakeholder engagement plan with NMCG and UPJN, (7) Cost recovery targets with specific actions in ₹ cr, (8) KPI dashboard for daily tracking, (9) Escalation triggers, (10) Exit criteria from turnaround mode. Format as a crisp action plan with week-by-week timeline. Reflect NMCG and Namami Gange governance and typical Indian contractor distress patterns.",
+      "tags": [
+        "project-recovery",
+        "turnaround",
+        "distressed-project",
+        "stakeholder-management"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-038",
+      "title": "Multi-Contract Interface and Commissioning Sequencing",
+      "prompt": "Act as a senior project engineer responsible for commissioning sequencing across 11 EPC packages on a ₹26,000 cr brownfield refinery expansion at IOCL Paradip, Odisha. I need you to design a multi-contract interface and commissioning sequencing strategy. Here is the context: packages include crude unit revamp, new hydrocracker, SRU, offsites, utilities, ETP, tankage, marine, pipelines, DCS, and electrical; commissioning window 16 weeks with tie-ins during planned refinery shutdown of 35 days. Please provide: (1) Commissioning philosophy and system handover model, (2) Package-wise mechanical completion and commissioning precedences, (3) Tie-in points and shutdown window sequencing, (4) Utility availability chain (power, DM water, instrument air, steam, N2), (5) Master commissioning schedule with float, (6) Risk of slippage cascading across packages, (7) Contingency for aborted startup, (8) Interface governance with licensors and vendor CSRs, (9) OISD, PESO, and MoEF compliance milestones, (10) Command and control structure during commissioning. Format as a sequencing strategy document. Reflect IOCL governance, refinery shutdown discipline, and typical licensor CSR engagement practices.",
+      "tags": [
+        "commissioning",
+        "interface-management",
+        "refinery-expansion",
+        "sequencing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-039",
+      "title": "AI-Enabled Schedule Risk and Delay Prediction",
+      "prompt": "Act as a senior project engineer piloting AI-enabled schedule risk and delay prediction on a portfolio of 6 metro and highway projects at Afcons, totaling ₹14,200 cr. I need you to design the analytical framework and governance. Here is the context: historical data from 20 past projects, P6 XER exports, DPRs, photographs, weather feeds, and vendor delivery logs are available. Please provide: (1) Data inventory and quality assessment, (2) Feature engineering — schedule structure features, lead indicators from DPRs, weather, manpower, (3) Model choices — survival analysis for activity slippage, gradient boosting for EAC, NLP on site diaries for risk sentiment, (4) Training, validation, and explainability approach, (5) Integration with P6 for live what-if, (6) Dashboard for project director with top-5 at-risk activities, (7) Governance — model ownership, refresh cadence, PM override, (8) Ethical and data-privacy considerations, (9) Pilot-to-scale plan and business case in ₹ cr savings, (10) Change management for planners. Format as a technical-and-business proposal. Reflect Indian construction data realities, Afcons engineering culture, and practical constraints on model adoption.",
+      "tags": [
+        "ai-analytics",
+        "schedule-risk",
+        "predictive-model",
+        "innovation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-project-engineers-040",
+      "title": "Global Best Practices Benchmarking for Mega Projects",
+      "prompt": "Act as a senior project engineer and PMO head producing a benchmarking report comparing Indian mega-project delivery (L&T, Afcons, Tata Projects, Megha, Shapoorji, KEC) against global best-in-class (Bechtel, Fluor, Vinci, Samsung C&T, Hyundai E&C) for a ₹12,000 cr petrochemical investment decision by an Indian conglomerate. I need you to produce the benchmarking and recommendation report. Here is the context: the board is evaluating execution model choice — EPC lumpsum, EPCM, or owner-led integrated. Please provide: (1) Benchmarking framework — 8 capability dimensions (front-end loading, controls maturity, digital, HSE, supply chain, labour, risk management, governance), (2) Evidence-based scoring of Indian vs global contractors, (3) Gap analysis with typical cost and schedule overrun data (IPA, McKinsey, CII sources), (4) Implications for the chosen execution model, (5) Owner capability required under each model, (6) Risk-adjusted cost comparison in ₹ cr, (7) Recommendation with rationale, (8) Capability building roadmap if owner-led, (9) Sensitivity to commodity and forex, (10) Board-ready one-page summary. Format as an executive report with tables. Reflect CII, NICMAR, and IPA Institute data practices and Indian conglomerate governance norms.",
+      "tags": [
+        "benchmarking",
+        "mega-project",
+        "execution-strategy",
+        "governance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "project-engineers"
+    }
+  ]
+}

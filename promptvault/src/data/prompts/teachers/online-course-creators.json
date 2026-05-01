@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "teachers-online-course-creators-001",
+      "title": "Outcome-Based Course Module Structure",
+      "prompt": "Act as a senior instructional designer with 12 years experience building online courses for Indian edtech platforms like Unacademy, Graphy, and Teachable. I need you to create a complete outcome-based module structure for a paid online course. Here is the context: I am a solo creator in Pune launching a 6-week \"Advanced Excel for Finance Professionals\" course priced at ₹2,499 on Graphy, targeting CA articles, MBA students, and junior analysts in Indian companies. Learners have 4-6 hours per week and watch on mobile with limited data. Please provide: (1) one measurable transformation promise in the format \"By Day 42 you will be able to…\", (2) 6 weekly modules with 4-6 lessons each, (3) for every lesson — title, learning outcome verb (Bloom's level), video length in minutes (keep 5-12), and Indian dataset example (GST returns, NSE stock data, Zomato P&L, etc.), (4) 3 pricing tiers (Basic ₹1,499 / Pro ₹2,499 / Elite ₹4,999) with clear deliverable differences, (5) a prerequisite check quiz outline. Format as a clean markdown table per module followed by tier comparison. Consider Indian learner constraints: Jio data caps, WhatsApp-based doubt solving, and the need for downloadable practice files under 20 MB.",
+      "tags": [
+        "module-design",
+        "course-structure",
+        "curriculum",
+        "excel"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-002",
+      "title": "Hook-Teach-Summary Video Script Generator",
+      "prompt": "Act as a YouTube-native course scriptwriter with 8 years experience writing lessons for Indian creators who sell courses via Graphy and Kajabi. I need you to write a complete 8-minute video lesson script using the Hook-Teach-Summary framework. Here is the context: the lesson is \"How to read a company balance sheet in 5 minutes\" inside a ₹1,999 stock market course for Tier-2 city beginners (Nagpur, Indore, Lucknow) who have never invested before. The creator is a 29-year-old CA from Jaipur speaking conversational Hinglish. Please provide: (1) a 20-second cold-open hook using a real Indian example (Paytm, Reliance, Zomato listing loss etc.), (2) a curiosity-gap promise line, (3) main teaching segment of 5-6 minutes broken into 3 micro-concepts with on-screen text cues and B-roll suggestions, (4) 2 \"pattern interrupts\" every 90 seconds (a question, a meme, a zoom-in), (5) a 45-second summary using the \"3 things to remember\" format, (6) a soft CTA to the next lesson and a harder CTA to join the paid Telegram community. Format as a two-column script: LEFT = spoken Hinglish line, RIGHT = visual/screen direction. Keep sentences under 15 words for mobile viewers.",
+      "tags": [
+        "video-script",
+        "hook-teach-summary",
+        "hinglish",
+        "stock-market"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-003",
+      "title": "MCQ Quiz Generator with Distractors",
+      "prompt": "Act as an assessment designer with 10 years experience writing MCQs for BYJU'S and Unacademy test prep. I need you to generate a 15-question end-of-module quiz. Here is the context: the module is \"GST Input Tax Credit rules\" inside a ₹3,499 practical GST course for small business owners and accountants in Surat, Ahmedabad, and Coimbatore. Please provide: (1) 10 knowledge-level MCQs and 5 application-level scenario MCQs using real Indian SME situations (a kirana store claiming ITC on AC purchase, a textile exporter with zero-rated supplies, etc.), (2) 4 options per question where 3 distractors reflect common misconceptions Indian learners actually make, (3) correct answer with a 2-3 sentence explanation citing the relevant CGST Act section, (4) difficulty tag (easy/medium/hard), (5) an auto-computed passing score of 70% with a remediation message per wrong answer pointing back to the specific lesson timestamp. Format as JSON ready to paste into Graphy or Thinkific quiz import. Avoid ambiguous wording and ensure no two options are synonyms.",
+      "tags": [
+        "quiz-generator",
+        "mcq",
+        "gst",
+        "assessment"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-004",
+      "title": "Cold Open Engagement Hook Writer",
+      "prompt": "Act as a viral Indian edu-creator scriptwriter who has written cold opens for channels with 500K+ subscribers. I need you to write 10 different cold-open hooks (first 15 seconds) for the same lesson so the creator can A/B test. Here is the context: the lesson is \"Why 95% of UPSC aspirants fail prelims\" inside a ₹4,999 UPSC foundation course targeting first-time aspirants from Bihar, UP, and Rajasthan. Please provide: (1) 10 hooks using distinct patterns — shocking stat, contrarian claim, relatable pain, story-in-reverse, question loop, meme reference, mini-case study of a real topper, objection crusher, visual tease, and \"I was wrong\" confession, (2) each hook under 40 spoken words in Hinglish, (3) a predicted retention curve note (which demographic will stay past 30 seconds), (4) the emotional trigger being pulled (fear, curiosity, hope, ego), (5) one on-screen text overlay per hook. Format as a numbered list with sub-bullets. Ensure none of the hooks feel clickbait-y or make false promises — they must deliver on what the lesson actually teaches.",
+      "tags": [
+        "engagement-hook",
+        "cold-open",
+        "upsc",
+        "retention"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-005",
+      "title": "Peer-Reviewed Practical Assignment Design",
+      "prompt": "Act as a project-based learning expert with 9 years experience designing assignments for Coursera India and Scaler. I need you to design a peer-reviewed capstone assignment. Here is the context: the course is \"Data Analytics with Python for Freshers\" priced at ₹5,999 on Graphy, and the capstone comes after week 8. Learners are engineering graduates in Bengaluru and Hyderabad preparing for analyst roles at companies like Flipkart, Swiggy, and Razorpay. Please provide: (1) a real-world problem statement using a publicly available Indian dataset (RBI inflation, NSE Bhavcopy, data.gov.in, etc.), (2) 5 specific deliverables including a Jupyter notebook, a 2-page insight memo, and a 3-minute Loom explainer video, (3) a peer review rubric with 6 criteria each scored 1-5 with anchor descriptions, (4) anti-plagiarism instructions and a unique-angle requirement, (5) a submission checklist and deadline structure across 7 days, (6) how peer scores combine with instructor scores (70/30 split). Format as an assignment brief a learner can directly read and act on. Include one worked mini-example so learners know the expected standard.",
+      "tags": [
+        "assignment-design",
+        "peer-review",
+        "python",
+        "capstone"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-006",
+      "title": "LinkedIn-Shareable Certificate Copy",
+      "prompt": "Act as an employer-branding copywriter with 7 years experience designing credentials for Indian edtech certificates that learners proudly post on LinkedIn. I need you to write complete certificate text that increases share rates. Here is the context: the course is \"Digital Marketing Bootcamp\" by a Mumbai-based solo creator, 12 weeks, ₹7,999, and graduates are mostly 22-28 year olds in Tier-1 and Tier-2 cities applying for performance marketing roles. Please provide: (1) the main certificate headline in 6-8 words, (2) the personalized line \"This is to certify that {{learner_name}}…\" with 3 variable fields, (3) 5 specific competencies earned (e.g., \"Ran a ₹10,000 Meta Ads campaign with 3x ROAS\"), (4) issuer name, signature block, and a unique verification URL format, (5) a 280-character LinkedIn post template the learner copy-pastes when sharing, with one suggested hashtag set, (6) an alt-text description for accessibility. Format as a structured block ready to drop into a Canva template. Keep tone aspirational but credible — it should look at home next to a Google or HubSpot certificate.",
+      "tags": [
+        "certificate",
+        "linkedin",
+        "credential",
+        "digital-marketing"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-007",
+      "title": "Curiosity Gap Lesson Opening Lines",
+      "prompt": "Act as a narrative hook specialist for Indian edu-YouTubers with 6 years experience. I need you to write 12 curiosity-gap opening lines for lessons. Here is the context: the course is \"Spoken English in 30 Days\" priced at ₹999 on a WhatsApp + Telegram delivery model, targeting housewives and job-seekers in Chennai, Kochi, and Visakhapatnam whose first language is Tamil, Malayalam, or Telugu. Please provide: (1) 12 opening lines that open an information gap the learner must close by watching the full 7-minute lesson, (2) each tied to a different grammar/fluency concept (tenses, articles, phrasal verbs, prepositions, connectors, etc.), (3) culturally relatable using Indian situations (job interview at a BPO, parent-teacher meeting, ordering on Swiggy in English), (4) translated mental model — one-line Tamil/Malayalam/Telugu equivalent idea in brackets, (5) a 5-second visual gesture the creator can do on camera to reinforce the line. Format as a table with columns: Concept | Hook Line | Regional Bridge | Visual Cue. Avoid tired phrases like \"did you know\" and \"have you ever wondered\".",
+      "tags": [
+        "engagement-hook",
+        "curiosity-gap",
+        "spoken-english",
+        "regional"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-008",
+      "title": "Scenario-Based MCQ for CA Prep",
+      "prompt": "Act as an ICAI-aligned assessment writer with 11 years experience creating test items for CA Foundation and Inter students. I need you to generate a 20-question scenario-based MCQ set. Here is the context: the module is \"Accounting Standards AS-10 Property, Plant and Equipment\" inside a ₹3,999 CA Inter revision course for students in Jaipur, Kolkata, and Chennai preparing for the May attempt. Please provide: (1) 20 application MCQs each framed as a 4-5 line business scenario involving Indian companies (Asian Paints, Tata Steel, a family-run dyeing unit in Tirupur, etc.), (2) 4 options per question with plausible distractors derived from common exam mistakes, (3) correct answer with explanation quoting the exact AS-10 clause, (4) the related past exam year the concept appeared in, (5) difficulty and expected solving time in seconds. Format as a JSON array importable into Graphy. Tag 6 questions as \"exam-trap\" where the distractor is the answer most students pick wrongly. Ensure numerical questions use realistic INR figures (₹12 lakh, ₹85 crore) and Indian tax/depreciation conventions.",
+      "tags": [
+        "quiz-generator",
+        "mcq",
+        "ca-inter",
+        "scenario"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-009",
+      "title": "5-Minute Micro-Lesson Script",
+      "prompt": "Act as a micro-learning scriptwriter with 7 years experience creating short-form lessons for Indian solo creators on Teachable and Graphy. I need you to write a complete 5-minute video script. Here is the context: the lesson is \"How to file ITR-1 in 10 minutes\" inside a ₹799 tax literacy mini-course for salaried employees earning ₹5-15 LPA in Gurgaon, Noida, and Pune. Please provide: (1) a 15-second hook using a relatable pain (last-minute July 31 panic), (2) a 3-minute teaching core showing a real incometax.gov.in screen walkthrough with 5 numbered steps, (3) one \"watch out\" warning about a common mistake (wrong AY, missing Form 16 mismatch), (4) a 40-second summary using a repeatable 3-step mental model, (5) a CTA to download a Section 80C checklist PDF, (6) suggested screen recording segments and zoom targets. Format as a two-column script with timecodes every 15 seconds. Keep language simple, professional Hinglish, and assume the learner has never filed a return alone before.",
+      "tags": [
+        "video-script",
+        "micro-lesson",
+        "itr-filing",
+        "tax"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-010",
+      "title": "Three-Tier Pricing Page Copy",
+      "prompt": "Act as a direct-response copywriter with 9 years experience selling Indian online courses priced ₹499-₹9,999. I need you to write pricing-page copy for three tiers. Here is the context: the course is \"Instagram Growth for Small Business Owners\" launched by a Bengaluru creator on Graphy, target audience is D2C brand founders and homepreneurs in Tier-1 and Tier-2 cities. Please provide: (1) tier names in Hinglish-friendly English (e.g., Starter ₹1,499 / Growth ₹3,999 / Pro ₹7,999), (2) a one-sentence positioning for each tier, (3) 6-8 deliverables per tier with clear escalation, (4) an anchor-value line showing the ₹ worth of each tier (\"Total value ₹24,500\"), (5) a 3-line objection crusher for each tier, (6) UPI/Razorpay payment note, no-cost EMI mention for Pro, and GST inclusive statement, (7) a 7-day refund guarantee line. Format as three side-by-side cards with a clear recommended badge on the middle tier. Ensure the price gaps create a decoy effect pushing buyers toward Growth.",
+      "tags": [
+        "pricing",
+        "course-structure",
+        "instagram",
+        "copywriting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-011",
+      "title": "12-Week Curriculum Blueprint",
+      "prompt": "Act as a curriculum architect with 13 years experience building long-form courses for Indian learners. I need you to create a full 12-week curriculum blueprint. Here is the context: the course is \"Complete Data Science Career Track\" priced at ₹9,999 on Graphy, targeting working professionals with 1-4 years experience in Indian IT services companies (Infosys, TCS, Wipro) looking to transition into analyst roles. Please provide: (1) one north-star career outcome with a measurable portfolio artifact, (2) 12 weekly themes moving from Python basics to deployment, (3) per week — a main outcome, 4 lessons, one assignment, one live doubt session, and one \"ship\" milestone, (4) 3 capstone projects using Indian datasets (Zomato reviews, Ola fare data, CPI inflation), (5) a weekly time commitment budget (6-8 hours), (6) how the curriculum maps to actual job descriptions scraped from Naukri and LinkedIn. Format as a week-by-week table followed by a project rubric. Account for festival breaks (Diwali, Dussehra) in the schedule and include a 1-week buffer.",
+      "tags": [
+        "module-design",
+        "curriculum",
+        "data-science",
+        "career-track"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-012",
+      "title": "Retention-Boosting Pattern Interrupts",
+      "prompt": "Act as a video editor and retention analyst with 6 years experience working with Indian edu-YouTubers averaging 50%+ retention on 10-minute videos. I need you to insert pattern interrupts into an existing lesson outline. Here is the context: the lesson is \"Newton's Third Law explained with cricket examples\" inside a NEET/JEE foundation course for Class 9-10 students in Kota and Hyderabad. Please provide: (1) 8 pattern interrupts placed at 45-60 second intervals across an 8-minute script, (2) each interrupt typed as one of — rhetorical question, meme callout, zoom-in cut, whiteboard doodle reveal, real-life cricket clip cue (MS Dhoni stumping, Bumrah yorker), emoji popup, tone shift, or a 2-second silence, (3) justification for why each interrupt is needed at that specific moment (cognitive load, attention dip, concept transition), (4) an on-screen text overlay suggestion, (5) an estimated retention lift percentage. Format as a table with Timecode | Interrupt Type | Script Insertion | Reason | Expected Lift. Make sure the interrupts never feel forced and always reinforce the physics concept.",
+      "tags": [
+        "engagement-hook",
+        "retention",
+        "pattern-interrupt",
+        "neet-jee"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-013",
+      "title": "Welcome Email Sequence for New Enrollees",
+      "prompt": "Act as a lifecycle email marketer with 8 years experience onboarding Indian course buyers. I need you to write a 5-email welcome sequence sent over the first 7 days after purchase. Here is the context: the course is \"Stock Market Basics for Beginners\" priced at ₹1,499, bought via Razorpay, delivered on Graphy with a supporting Telegram group. The average buyer is a 26-year-old first-time investor from a Tier-2 city. Please provide: (1) email 1 (Day 0) — purchase confirmation plus quick-start video link, (2) email 2 (Day 1) — mindset reframe and invite to Telegram, (3) email 3 (Day 3) — first assignment nudge and social proof from past learners, (4) email 4 (Day 5) — addressing the #1 objection (\"I don't have enough money to invest\"), (5) email 5 (Day 7) — first-week checkpoint and celebration. For each email provide subject line, preview text, body (120-180 words), and one CTA. Format as markdown blocks. Tone should be warm, Hinglish-friendly, and never salesy.",
+      "tags": [
+        "email-sequence",
+        "onboarding",
+        "stock-market",
+        "lifecycle"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-014",
+      "title": "Application-Based Coding Assignment",
+      "prompt": "Act as a senior coding bootcamp mentor with 10 years experience at Scaler and Masai. I need you to design a practical coding assignment. Here is the context: the course is \"Full Stack Web Development with MERN\" priced at ₹8,999, and this assignment is at the end of week 6 covering React hooks and Express APIs. Learners are self-taught developers in Pune, Indore, and Jaipur. Please provide: (1) a problem statement — build a mini \"Fee Collection Dashboard\" for a fictional Indian coaching institute, (2) 6 functional requirements (add student, record fee via mock UPI link, filter by batch, export CSV, auth, responsive mobile view), (3) 3 technical requirements (React hooks only, REST API with 5 endpoints, MongoDB schema), (4) 2 stretch goals, (5) a rubric with 8 scoring criteria, (6) submission format — GitHub repo with README, Loom walkthrough, and a deployed Vercel link, (7) plagiarism policy and an original-feature requirement. Format as a complete assignment PDF brief. Include a sample INR fee structure (₹15,000/quarter) in the seed data.",
+      "tags": [
+        "assignment-design",
+        "coding",
+        "mern",
+        "practical"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-015",
+      "title": "Certificate Verification System Copy",
+      "prompt": "Act as a trust and credibility designer with 6 years experience building verification systems for Indian edtech certificates. I need you to draft the complete text and logic for a certificate verification page. Here is the context: the course is a ₹4,999 \"Project Management Essentials\" course where 800+ learners have graduated, and employers frequently ask candidates to prove the credential. Please provide: (1) a public verification URL structure (e.g., promptvault.in/verify/{{cert_id}}), (2) the verification page H1, subheading, and 6 data fields shown (learner name, enrolment ID, completion date, final score, issuing instructor, course hours), (3) a tamper-evident note and a QR code instruction, (4) employer language — \"Recruiters can confirm this credential in under 10 seconds\", (5) a short 60-word explainer the learner can paste in a LinkedIn \"About\" section, (6) an email template the learner sends to a recruiter along with the verification link. Format as sectioned markdown. Tone should feel institutional but modern — comparable to NPTEL or Great Learning credential pages.",
+      "tags": [
+        "certificate",
+        "verification",
+        "linkedin",
+        "credibility"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-016",
+      "title": "Beginner Module Breakdown for Kids Coding",
+      "prompt": "Act as a K-12 curriculum designer with 8 years experience creating coding courses for Indian children aged 8-12 at platforms like WhiteHat Jr. I need you to break a topic into age-appropriate modules. Here is the context: the course is \"Scratch Programming for Young Coders\" priced at ₹1,999, delivered asynchronously on Graphy with parent-supervised viewing, targeting kids in English-medium schools in Delhi NCR and Mumbai. Please provide: (1) 8 modules with 3 lessons each, (2) per lesson — a playful title (\"Make your cat dance!\"), a measurable outcome, vocabulary list of 5 words, and a 6-minute video length cap, (3) one at-home project per module using household items, (4) parent-checkpoint questions after each module, (5) a final \"Showcase Day\" project the child presents on Zoom to family, (6) a safety and screen-time note (max 30 minutes/day). Format as a parent-readable document. Use encouraging language throughout and avoid any concept that requires typing more than 20 characters at once.",
+      "tags": [
+        "module-design",
+        "kids-coding",
+        "scratch",
+        "k12"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-017",
+      "title": "Diagnostic Pre-Course Quiz",
+      "prompt": "Act as a learning scientist with 9 years experience designing diagnostic assessments for Indian online courses. I need you to create a 12-question diagnostic quiz learners take BEFORE starting the course. Here is the context: the course is \"Advanced SQL for Analysts\" priced at ₹3,499, and the creator wants to route learners to one of three starting points (Foundation / Core / Fast-track) based on their score. Please provide: (1) 12 questions mixing syntax recall, debugging, and query optimisation using a sample Indian e-commerce dataset schema (Meesho-style orders table), (2) a scoring rubric mapping score bands to start points (0-5 Foundation, 6-9 Core, 10-12 Fast-track), (3) per-question feedback explaining what the wrong answer reveals about the learner's gaps, (4) a closing personalised recommendation email template, (5) a 2-minute time limit per question justification, (6) a shareable score-card image spec. Format as JSON plus a rubric table. Ensure questions ramp difficulty smoothly and none require external tool access.",
+      "tags": [
+        "quiz-generator",
+        "diagnostic",
+        "sql",
+        "placement"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-018",
+      "title": "WhatsApp Community Engagement Plan",
+      "prompt": "Act as a community manager with 7 years experience running paid WhatsApp/Telegram groups for Indian course creators. I need you to design a 30-day engagement plan. Here is the context: the course is \"Freelance Content Writing in English\" priced at ₹2,499, and 200 learners join a private WhatsApp community for the month. Creator is based in Kochi. Please provide: (1) a weekly rhythm — Monday mindset, Tuesday task, Wednesday Q&A, Thursday showcase, Friday wins, Saturday challenge, Sunday rest, (2) 30 ready-to-send message prompts (one per day) in Hinglish, (3) 4 engagement rituals (morning check-in, accountability pair-up, weekly office hours, end-of-week report), (4) 3 moderation rules and how to enforce them, (5) an escalation path for off-topic or spam messages, (6) a metric sheet tracking daily active members, messages sent, and tasks submitted. Format as a calendar view followed by the daily message bank. Aim for 60% DAU by day 14.",
+      "tags": [
+        "community",
+        "whatsapp",
+        "engagement-hook",
+        "freelancing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-019",
+      "title": "Video Lesson Summary Card",
+      "prompt": "Act as a visual learning specialist with 5 years experience designing downloadable summary cards for Indian online course lessons. I need you to write the full text content for a one-page summary card. Here is the context: the lesson is \"How SIP compounding works\" inside a ₹1,299 personal finance course targeting 22-30 year old salaried professionals in Indian IT hubs. Please provide: (1) a bold 8-word headline that captures the core idea, (2) a 3-step mental model with one-line explanations, (3) a worked INR example (₹5,000/month SIP at 12% for 20 years = ₹49.96 lakh), (4) a simple formula with variable definitions, (5) 3 \"common myths\" crushed in one line each, (6) a 5-question self-check at the bottom, (7) a footer with creator handle and course URL. Format the text in clearly labelled sections ready for a Canva designer to drop into a PDF template. Use Indian mutual fund names (Parag Parikh Flexi Cap, Nippon Small Cap) where examples are needed.",
+      "tags": [
+        "lesson-summary",
+        "sip",
+        "finance",
+        "downloadable"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-020",
+      "title": "Storytelling Video Script for Soft Skills",
+      "prompt": "Act as a narrative-driven scriptwriter with 9 years experience writing emotionally resonant video lessons for Indian soft-skills courses. I need you to write a 10-minute storytelling-based video script. Here is the context: the lesson is \"How to handle a difficult boss without losing your job\" inside a ₹1,999 workplace communication course for early-career professionals in Indian MNCs. Please provide: (1) a 30-second cold open featuring a composite Indian character \"Ananya, 26, associate at a Bengaluru consulting firm\", (2) a 3-act structure — Ananya's conflict, her failed attempts, the turning point, (3) 3 embedded frameworks the learner takes away (mirror-acknowledge-redirect, document-and-escalate, the 48-hour cooling rule), (4) 2 reflection moments pausing the story to zoom out into teaching, (5) a resolution scene with a specific workplace outcome, (6) a closing summary and a journaling prompt CTA. Format as a two-column script with spoken line and on-screen direction. Keep the story culturally authentic — Indian office setting, chai breaks, WhatsApp pings.",
+      "tags": [
+        "video-script",
+        "storytelling",
+        "soft-skills",
+        "workplace"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-021",
+      "title": "Practical Mini-Project Assignment",
+      "prompt": "Act as a practical skills trainer with 8 years experience designing assignments that Indian learners can complete in a single weekend. I need you to create a weekend mini-project assignment. Here is the context: the course is \"Canva for Small Business Owners\" priced at ₹799, and this assignment is given after week 2. Learners run kirana stores, beauty salons, tiffin services in cities like Jaipur, Bhopal, and Coimbatore. Please provide: (1) a clear weekend-sized task — design a full Diwali festive campaign pack (Instagram post, story, WhatsApp status, poster, menu card) for their own real business, (2) 5 brand consistency rules they must follow, (3) a template-to-customisation checklist, (4) a peer-feedback format using a 1-5 star rubric, (5) a before/after submission format on a Google Form, (6) a \"best of weekend\" showcase rule where top 10 get featured. Format as a one-page brief. Ensure the project is genuinely useful to their actual business — no throwaway exercises.",
+      "tags": [
+        "assignment-design",
+        "canva",
+        "small-business",
+        "weekend-project"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-022",
+      "title": "Course Completion Certificate Variants",
+      "prompt": "Act as a credential designer with 6 years experience creating certificate variants for Indian course creators. I need you to write text for 3 different certificate variants for the same course. Here is the context: the course is \"Excel Power Query and Power Pivot Mastery\" priced at ₹3,999, and the creator wants to issue Participation, Completion, and Distinction variants based on performance. Please provide: (1) tier definitions — Participation (watched 60%+), Completion (passed final quiz with 70%+), Distinction (final project scored 85%+), (2) unique headline and certifying language per variant, (3) 4 competencies listed per variant scaled by tier, (4) a badge metadata block (tier name, criteria, colour accent), (5) a LinkedIn posting suggestion per variant, (6) an issuer footer with verification URL template. Format as three clearly separated blocks. Ensure Distinction feels prestigious enough that recruiters treat it as a real differentiator, and Participation is worded honestly without overpromising.",
+      "tags": [
+        "certificate",
+        "excel",
+        "tiers",
+        "credential"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-023",
+      "title": "Cohort-Based Live Session Agenda",
+      "prompt": "Act as a cohort-based course facilitator with 7 years experience running live Zoom sessions for Indian paid cohorts. I need you to design a 90-minute live session agenda. Here is the context: the cohort is week 4 of a ₹6,999 \"Product Management for Engineers\" course, 60 learners from across India, mostly working professionals joining at 9 PM IST after office hours. Please provide: (1) a minute-by-minute agenda broken into 5-minute blocks, (2) a 10-minute opener — recap quiz using Mentimeter plus a warm-up Hinglish icebreaker, (3) a 40-minute core teaching segment on \"Writing a PRD for an Indian fintech feature\" with a live Figma walkthrough, (4) a 20-minute breakout room exercise with 4 learners per room and a clear deliverable, (5) a 10-minute Q&A using upvoted Slido questions, (6) a 10-minute close with homework, accountability partner pairing, and next-week preview. Format as a facilitator's run-sheet with speaking cues. Account for 10-15% attendance drop after the first hour.",
+      "tags": [
+        "live-session",
+        "cohort",
+        "facilitation",
+        "product-management"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-024",
+      "title": "Module-Ending Cliffhanger Hook",
+      "prompt": "Act as a retention copywriter with 6 years experience writing end-of-module hooks that pull learners into the next module. I need you to write 10 cliffhanger end-hooks. Here is the context: the course is \"Forex Trading Basics\" priced at ₹2,999, 8 modules, targeting Indian retail traders who have only traded Indian equities before. Please provide: (1) 10 distinct cliffhanger lines (30-50 words each), each leading from one module to the next, (2) the \"open loop\" information gap each hook creates, (3) the emotional driver (FOMO, fear of loss, greed, curiosity, pride), (4) the specific promise the next module MUST deliver (to avoid bait-and-switch), (5) a visual suggestion for the end card, (6) a variant line for learners who prefer shorter, punchier openers. Format as a numbered list. Tone should be confident but never push get-rich-quick messaging — FEMA and RBI compliance for forex must remain respected throughout.",
+      "tags": [
+        "engagement-hook",
+        "cliffhanger",
+        "forex",
+        "retention"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-025",
+      "title": "Application MCQs for GATE CSE",
+      "prompt": "Act as a GATE test series writer with 10 years experience at test prep platforms serving Indian engineering aspirants. I need you to generate a 15-question MCQ set. Here is the context: the module is \"Operating Systems — Process Synchronisation\" inside a ₹5,999 GATE CSE course targeting students in NITs and Tier-2 engineering colleges. Please provide: (1) 15 application-level MCQs using code snippets, semaphore pseudocode, and classic problems (producer-consumer, readers-writers, dining philosophers), (2) 4 options with distractors reflecting common undergraduate misconceptions, (3) correct answer with step-by-step explanation, (4) the GATE year in which a similar question appeared, if any, (5) difficulty as per GATE weightage, (6) expected solving time in seconds. Format as JSON ready for import into Graphy. Flag 5 questions as \"concept-builders\" which test deeper understanding beyond rote formulae. Ensure all code is syntactically clean and numerical answers use integers where the GATE pattern does.",
+      "tags": [
+        "quiz-generator",
+        "mcq",
+        "gate-cse",
+        "operating-systems"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-026",
+      "title": "Lesson Transcription and Study Notes",
+      "prompt": "Act as a study notes creator with 5 years experience turning raw video lessons into structured notes for Indian learners who prefer reading on mobile. I need you to convert a transcript into downloadable study notes. Here is the context: the lesson is a 12-minute video on \"Human Resource Management — Recruitment Process\" inside a ₹1,999 BBA/MBA foundation course, and the raw transcript will be pasted by the creator. Please provide: (1) a 3-line TL;DR at the top, (2) a concept map with 5 branches, (3) detailed notes broken into numbered sections with bold key terms, (4) 3 Indian company examples (Infosys hiring freshers, HUL management trainees, Tata Steel campus drive), (5) a 5-question self-test at the end, (6) a glossary of 8 key terms, (7) a footer with the video timestamp anchors so learners can jump back. Format as markdown that converts cleanly to PDF under 2 MB. Assume the transcript will be messy with fillers — clean them up and preserve meaning only.",
+      "tags": [
+        "study-notes",
+        "transcription",
+        "hrm",
+        "downloadable"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-027",
+      "title": "Workshop-Style One-Day Course Blueprint",
+      "prompt": "Act as a workshop designer with 8 years experience running one-day intensives for Indian creators on Zoom. I need you to design a complete one-day workshop blueprint. Here is the context: the workshop is \"Build Your First ChatGPT-Powered Business Tool\" priced at ₹1,499, 5 hours on a Saturday, 100-150 live participants. Please provide: (1) a 5-hour schedule broken into 6 blocks with precise timings and break slots, (2) per block — learning outcome, live demo, hands-on exercise, and a checkpoint, (3) 3 build-along projects learners ship by end of day using Indian use cases (WhatsApp auto-reply for a boutique, Hindi-English translator for a coaching class, GST query bot), (4) pre-workshop setup checklist sent 48 hours prior, (5) a post-workshop 7-day challenge to reinforce learning, (6) a completion badge and feedback form link. Format as a facilitator run-sheet. Assume IST timings starting 10 AM with lunch at 1 PM and account for attention dips in the post-lunch block.",
+      "tags": [
+        "workshop",
+        "module-design",
+        "chatgpt",
+        "one-day"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-028",
+      "title": "Engagement Prompts for Drop-Off Points",
+      "prompt": "Act as a retention analyst with 6 years experience diagnosing drop-off patterns in Indian online courses. I need you to design engagement interventions at specific drop-off points. Here is the context: the course is \"Python for Data Analytics\" priced at ₹4,499, and analytics show 3 major drop-off points — end of week 1, middle of week 4, and just before the final project. Please provide: (1) a diagnosis of why each drop-off likely happens (overwhelm, confidence dip, fear of failure), (2) a specific intervention for each — a personalised email, a surprise bonus mini-lesson, a 15-minute Zoom office hour, (3) copy for each intervention with subject line, body, and CTA, (4) a re-engagement task designed to rebuild momentum, (5) a measurement method using Graphy analytics, (6) an A/B test plan to validate the intervention. Format as a structured playbook. Tone should be empathetic and never guilt-trip the learner into returning.",
+      "tags": [
+        "engagement-hook",
+        "retention",
+        "drop-off",
+        "intervention"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-029",
+      "title": "Course Sales Page Long-Form Copy",
+      "prompt": "Act as a long-form sales page copywriter with 10 years experience selling Indian courses priced ₹3,000-₹10,000. I need you to write complete sales page copy. Here is the context: the course is \"Copywriting for Freelancers\" priced at ₹4,999 targeting aspiring writers in Indian Tier-1 and Tier-2 cities who want to earn ₹40,000-₹1 lakh/month writing for Indian and US clients. Please provide: (1) a curiosity-driven headline and sub-headline, (2) a 3-paragraph story-based lead opening with a composite learner's journey, (3) a problem-agitation section listing 5 specific struggles, (4) the solution bridge and creator credibility block, (5) a 6-module what-you-get section with icons, (6) 5 testimonials written in realistic voices (one Hinglish), (7) a pricing section with 2 tiers, (8) an FAQ with 8 real objections (\"I'm not a native English speaker\", \"Will this work in India?\"), (9) a final CTA with 7-day refund guarantee. Format as markdown with clear sections. Keep total length around 1,800 words.",
+      "tags": [
+        "sales-page",
+        "copywriting",
+        "long-form",
+        "freelance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-030",
+      "title": "Regional Language Overlay Script",
+      "prompt": "Act as a multilingual content strategist with 7 years experience localising Indian online courses. I need you to create a regional language overlay plan for an existing English lesson. Here is the context: the lesson is a 7-minute English video on \"How to apply for MSME Udyam Registration online\" inside a ₹999 small business course, and the creator wants to add Hindi, Tamil, and Marathi overlays without re-recording. Please provide: (1) a bilingual subtitle file structure (.srt) with timecoded English plus parallel Hindi lines, (2) 10 key on-screen text overlays translated into all 3 languages, (3) a list of 15 technical terms (Udyam, Aadhaar, PAN, UDYAM portal) that should remain untranslated, (4) cultural localisation notes per language (example businesses — a Coimbatore textile unit for Tamil, a Pune food truck for Marathi, a Jaipur handicraft seller for Hindi), (5) a 30-second intro and outro translated into each language as voice-over scripts. Format as a structured file ready for a translator to review. Flag any idioms that won't translate cleanly.",
+      "tags": [
+        "regional",
+        "localisation",
+        "video-script",
+        "msme"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-031",
+      "title": "Rubric for Peer Assessment",
+      "prompt": "Act as an assessment designer with 8 years experience building peer-assessment rubrics for Indian online courses. I need you to create a detailed peer-review rubric. Here is the context: the assignment is a 3-minute elevator pitch video inside a ₹2,499 startup fundamentals course, and learners will review 3 peers each. Please provide: (1) 6 rubric criteria — clarity of problem, uniqueness of solution, market size (with Indian TAM), business model, delivery confidence, time discipline, (2) 4 score levels per criterion (1 = needs work, 2 = emerging, 3 = strong, 4 = exemplary) with specific anchor descriptions, (3) a weighting scheme where market size and business model carry 25% each, (4) required narrative feedback prompts for each criterion (2 sentences minimum), (5) anti-bias instructions and a disqualifier list (personal attacks, vague feedback), (6) how final score combines 3 peer reviews plus 1 instructor review. Format as a table plus a reviewer guide. Include a calibration example review so learners know the expected standard.",
+      "tags": [
+        "assignment-design",
+        "peer-review",
+        "rubric",
+        "startup"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-032",
+      "title": "Final Exam for Course Certification",
+      "prompt": "Act as a high-stakes exam writer with 11 years experience designing final assessments for Indian certificate courses. I need you to create a complete 60-minute final exam. Here is the context: the course is \"Digital Marketing Fundamentals\" priced at ₹3,499, and passing the final exam (70% threshold) earns a verifiable certificate. Please provide: (1) exam structure — 30 MCQs (60%), 3 scenario-based short answers (30%), 1 long-form strategy question (10%), (2) coverage map across 6 modules with weightage, (3) the 30 MCQs with 4 options each and answer key, (4) 3 short answer scenarios using Indian brand contexts (Boat's Flipkart launch, Mamaearth's Instagram strategy, Nykaa's influencer campaigns), (5) one long-form prompt — design a 30-day digital plan for a Dehradun-based handmade soap brand with ₹50,000 monthly budget, (6) exam instructions, anti-cheat rules, and retake policy. Format as a complete exam PDF structure. Ensure questions test application not memorisation, and include a 5-question sample exam preview learners can access before the real attempt.",
+      "tags": [
+        "quiz-generator",
+        "final-exam",
+        "digital-marketing",
+        "certification"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-033",
+      "title": "Introductory Free Lesson Script",
+      "prompt": "Act as a free-lesson conversion specialist with 6 years experience writing free previews that convert Indian learners into paid course buyers. I need you to write a 15-minute free lesson video script. Here is the context: the free lesson is \"The 3 biggest mistakes Indian freshers make in their first tech interview\" as a lead magnet for a ₹3,999 \"Interview Prep for Software Engineers\" course. Please provide: (1) a hook promising a specific outcome in 15 minutes, (2) a 3-part teaching core — each mistake unpacked with a real Indian example (a Bengaluru student rejected at Flipkart, etc.) and one actionable fix, (3) a \"what you'd get inside the paid course\" curiosity tease (without revealing everything), (4) 2 soft CTAs within the lesson — \"download the PDF\", \"join Telegram\" — and 1 hard CTA at the end — \"enrol in the full course\", (5) an ethical limitation note (\"this free lesson gives you 20%, the course gives you the remaining 80%\"), (6) end-card text and next steps. Format as a two-column script. Ensure the free lesson delivers real standalone value even if the learner never buys.",
+      "tags": [
+        "video-script",
+        "free-lesson",
+        "conversion",
+        "interview-prep"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-034",
+      "title": "Gamification System for Course Progress",
+      "prompt": "Act as a gamification designer with 7 years experience adding game mechanics to Indian online courses. I need you to design a complete gamification system. Here is the context: the course is \"Mastering Hindi Calligraphy\" priced at ₹1,499, 6 weeks long, and the creator wants to boost completion rates from 30% to 60% using game mechanics without cheapening the craft. Please provide: (1) a 5-level progression — Beginner Nib, Steady Hand, Rhythm Writer, Stylist, Master Calligrapher — with unlock criteria, (2) a points system tied to lesson completion, assignment submission, and peer feedback, (3) 6 badges with art direction notes and unlock rules, (4) 3 leaderboards — weekly, monthly, alumni — with opt-in privacy, (5) a \"streaks\" mechanic and a forgiveness rule so learners who miss a day don't feel punished, (6) 3 real-world rewards (a printed certificate, a featured alumni spotlight, a 1-on-1 review) keyed to milestones, (7) a data dashboard the creator checks weekly. Format as a structured playbook. Respect the art — no cheesy confetti or meaningless XP.",
+      "tags": [
+        "gamification",
+        "retention",
+        "calligraphy",
+        "progression"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-035",
+      "title": "Course Launch Webinar Script",
+      "prompt": "Act as a webinar script specialist with 9 years experience writing launch webinars for Indian solo course creators. I need you to write a full 75-minute launch webinar script. Here is the context: the course is \"Build a ₹1 Lakh/Month YouTube Channel\" priced at ₹6,999 on Graphy, and the webinar runs live on YouTube + Zoom with 1,000 registrants. Please provide: (1) a 10-minute warm-up with chat engagement and a poll, (2) a 40-minute teaching block delivering 3 genuine breakthroughs the learner can use even without buying, (3) a 15-minute pitch with stack-up-the-value method showing the ₹6,999 price anchor against a ₹30,000 total value, (4) a 10-minute Q&A with pre-seeded objections (\"YouTube is saturated in India\", \"I don't have good equipment\", \"Hindi or English?\"), (5) a countdown fast-action bonus expiring at midnight, (6) clear payment instructions — Razorpay link, UPI, EMI, (7) speaker cues and slide count. Format as a run-sheet. Ensure the pitch feels earned after real teaching, not bait-and-switch.",
+      "tags": [
+        "webinar",
+        "launch",
+        "video-script",
+        "youtube"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-036",
+      "title": "Completion Certificate with Skill Breakdown",
+      "prompt": "Act as a skills-based credentialing designer with 7 years experience. I need you to write certificate text that breaks down specific verified skills, not just a generic completion line. Here is the context: the course is \"Business Analytics with Power BI\" priced at ₹4,499, and the creator wants certificates that recruiters at Indian analytics firms (Mu Sigma, Tiger Analytics, Fractal) can actually use as a shortlisting signal. Please provide: (1) a headline format \"Verified Skills Credential\", (2) a personalised line naming the learner and course, (3) 8 specific skills verified (DAX measures, Power Query M, data modelling, dashboard storytelling, row-level security, etc.) each with a short evidence note (\"Completed 3 projects using DAX time intelligence\"), (4) a quantified outcome line (\"Analysed 4 Indian datasets totalling 250K+ rows\"), (5) a verification URL and QR code instruction, (6) an instructor signature block with LinkedIn handle, (7) a 100-word LinkedIn post template that names the skills. Format as a ready-to-design block. Make it feel closer to a Microsoft Learn badge than a workshop participation slip.",
+      "tags": [
+        "certificate",
+        "power-bi",
+        "skills",
+        "recruiter"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-037",
+      "title": "Weekly Nudge Messages for Engagement",
+      "prompt": "Act as a behaviour change writer with 6 years experience crafting nudge messages for Indian edtech users. I need you to write 12 weekly nudge messages delivered via WhatsApp and email. Here is the context: the course is \"IELTS Academic Prep\" priced at ₹5,999, 12-week programme, and learners receive one nudge every Monday morning at 8 AM IST. Please provide: (1) 12 nudges matching the week's topic (listening, reading, writing task 1, writing task 2, speaking, etc.), (2) each nudge under 60 words with a specific micro-action (\"Spend 10 minutes today shadowing this BBC News clip\"), (3) a behavioural trigger used (implementation intention, loss aversion, social proof, progress reflection), (4) a personalisation token ({{first_name}}, {{last_week_score}}), (5) one emoji maximum and Hinglish-friendly tone, (6) a \"reply with one word if you did it\" accountability hook. Format as a table with Week | Topic | Nudge | Trigger | Channel. Avoid generic motivational quotes and ensure every nudge points to a concrete action the learner can complete in under 15 minutes.",
+      "tags": [
+        "engagement-hook",
+        "nudge",
+        "ielts",
+        "whatsapp"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-038",
+      "title": "Error-Analysis Quiz Feedback Loop",
+      "prompt": "Act as a formative assessment expert with 8 years experience designing feedback loops for Indian online learners. I need you to design an error-analysis feedback system for quiz wrong answers. Here is the context: the course is \"Quantitative Aptitude for CAT Prep\" priced at ₹4,999, and learners attempt 50+ quiz questions per week. Currently they see only right/wrong — the creator wants to move to diagnostic feedback. Please provide: (1) a 5-category error taxonomy — conceptual gap, calculation slip, question misread, time pressure, careless selection, (2) diagnostic logic — how each wrong answer maps to one category based on option chosen, (3) feedback template per category with explanation, a recommended mini-lesson link, and a confidence-rebuilding message, (4) a weekly error pattern report emailed to the learner summarising their top 2 error types, (5) a remediation challenge that targets the top error for the next week, (6) a dashboard metric the creator monitors. Format as a structured system design. Ensure the feedback never shames the learner and always rebuilds momentum.",
+      "tags": [
+        "quiz-generator",
+        "error-analysis",
+        "cat-prep",
+        "feedback"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-039",
+      "title": "Lesson Outline from Topic Prompt",
+      "prompt": "Act as a content architect with 7 years experience turning a one-line topic into a detailed lesson outline for Indian online courses. I need you to expand a topic into a full lesson blueprint. Here is the context: the topic is \"How to negotiate salary in Indian IT companies\", lesson length 9 minutes, placed inside a ₹1,999 career growth course targeting 3-6 years experience software engineers at Infosys, TCS, Wipro, and Cognizant. Please provide: (1) one crisp learner promise, (2) a 5-point lesson outline mapped to timecodes, (3) 3 real Indian data points to cite (Glassdoor salary bands for Bengaluru SDE-II, average hike on job change, appraisal cycle timing), (4) 2 role-play dialogues — one with a manager, one with an HR — in Hinglish, (5) 3 watch-outs and common mistakes, (6) a one-page cheat sheet takeaway, (7) a CTA to the next lesson. Format as a structured outline a scriptwriter can expand directly. Keep tone confident but respectful to Indian workplace culture and hierarchy norms.",
+      "tags": [
+        "video-script",
+        "lesson-outline",
+        "salary-negotiation",
+        "it-careers"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    },
+    {
+      "id": "teachers-online-course-creators-040",
+      "title": "Alumni Showcase and Referral Certificate",
+      "prompt": "Act as an alumni community designer with 6 years experience building post-completion loops for Indian course creators. I need you to design an alumni showcase and referral certificate programme. Here is the context: the course is \"UI/UX Design Fundamentals\" priced at ₹5,499, with 1,200 alumni, and the creator wants alumni to become referrers and social proof engines. Please provide: (1) an \"Alumni Spotlight\" feature with 5 questions the graduate answers (their before/after, favourite lesson, current role, portfolio link, advice to juniors), (2) a special \"Alumni Ambassador\" certificate text recognising graduates who refer 3+ paid sign-ups, (3) the ambassador benefits — free access to future courses, a LinkedIn badge, a revenue-share of 15% per referral via Razorpay, (4) a referral link system and UTM structure, (5) a monthly alumni newsletter template showcasing 3 spotlights, (6) a showcase consent and compliance note. Format as a complete alumni playbook with certificate text, referral terms, and showcase templates. Tone should feel like welcoming graduates into a community, not exploiting them for marketing.",
+      "tags": [
+        "certificate",
+        "alumni",
+        "referral",
+        "community"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "online-course-creators"
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "prompts": [
+    {
+      "id": "writers-copywriters-001",
+      "title": "4U Headline Generator for Indian D2C Brands",
+      "prompt": "Act as a senior D2C copywriter with 10 years experience writing for Indian brands like boAt, Mamaearth, and Sugar Cosmetics. I need you to generate 15 high-converting headlines using the 4U framework (Useful, Urgent, Unique, Ultra-specific) for my product. Here is the context: I am launching a new product. I will share the product name, category, price in INR, target audience (city tier, age, gender), and the core benefit. You should produce headlines that feel native to Indian Instagram, Myntra, and Amazon.in audiences. Please provide: (1) 5 headlines optimized for Meta ads (max 40 characters), (2) 5 headlines for Amazon listing titles (max 80 characters with keywords), (3) 5 headlines for landing page heroes (max 12 words). For each headline, add a one-line note explaining which of the 4U elements it hits hardest and the expected click appeal for Tier 1 vs Tier 2 Indian cities. Format the output as a markdown table with columns: Channel, Headline, 4U Score, City Tier Fit. Constraints: use INR symbol, avoid generic phrases like \"best quality\", reference Indian festivals (Diwali, Raksha Bandhan) only if seasonally relevant, and ensure at least 3 headlines use Hinglish phrasing that feels authentic — not forced.",
+      "tags": [
+        "headline",
+        "4u-framework",
+        "d2c"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-002",
+      "title": "PAS Formula Landing Page Copy for SaaS",
+      "prompt": "Act as a conversion copywriter with 8 years experience writing for Indian SaaS companies like Zoho, Freshworks, and Razorpay. I need you to write complete landing page copy using the PAS (Problem-Agitation-Solution) framework. Here is the context: I will share my SaaS product, ICP (e.g., CA firms in Mumbai, D2C founders in Bangalore, HR managers in Gurgaon), pricing in INR per month, and the top 3 pain points. Please provide a full landing page structure: (1) Hero section with H1, subhead, and primary CTA, (2) Problem section that agitates 3 specific pains with Indian workplace examples, (3) Solution section showing how the product solves each pain, (4) 3 feature blocks with benefit-led headlines, (5) Social proof placeholder with Indian company logos cue, (6) Pricing callout mentioning GST inclusive and UPI/Razorpay checkout, (7) FAQ with 5 questions Indian buyers actually ask (data security, GST invoicing, INR billing, refund policy, customer support timezone), (8) Final CTA section. Format as clean markdown with section labels. Constraints: tone should be confident but not American-hype, use Indian business vocabulary (MSME, Tier 2, GST, UPI), keep sentences under 18 words, and include one Hinglish hook in the hero that feels natural — not cringe.",
+      "tags": [
+        "landing-page",
+        "pas-framework",
+        "saas"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-003",
+      "title": "Curiosity Gap Headlines for Indian Newsletters",
+      "prompt": "Act as an email copywriter with 7 years experience writing subject lines for Indian newsletters like Finshots, The Ken, and Morning Context. I need you to generate 20 curiosity-gap headlines that drive 40%+ open rates. Here is the context: I will share my newsletter topic (fintech, D2C, startup funding, personal finance), target subscriber profile (working professionals in Indian metros, 25-40 years), and the core story angle for this edition. Please provide: (1) 10 subject lines using the curiosity gap formula (tease without clickbait), (2) 5 subject lines using the pattern interrupt technique, (3) 5 subject lines using Indian cultural references or recent news hooks. For each, give character count, predicted open rate band (low/medium/high), and which emotion it triggers. Format as a numbered list with sub-bullets. Constraints: max 55 characters per subject line, avoid spam trigger words (free, guaranteed, act now), reference Indian context authentically (RBI, SEBI, Zerodha, Nykaa where relevant), and do not use excessive emojis — max 1 emoji per line and only when it adds meaning. Include 3 Hinglish options that work for Tier 1 metro readers.",
+      "tags": [
+        "headline",
+        "curiosity",
+        "email"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-004",
+      "title": "Amazon India Product Description Writer",
+      "prompt": "Act as an Amazon India listing specialist with 6 years experience optimizing product descriptions for bestseller categories like electronics, beauty, and home. I need you to write a complete Amazon.in product description that ranks and converts. Here is the context: I will share the product name, category, price in INR, MRP, key features, dimensions, warranty, and 5 target keywords. Please provide: (1) SEO-optimized title (max 200 characters) with brand, model, key feature, size, color, (2) 5 bullet points (each under 150 characters) leading with benefit and backing with feature, (3) A+ content description (300 words) with scannable subheads, (4) 10 backend search terms using Indian search behavior, (5) Suggested image alt texts. Format as clearly labeled sections. Constraints: mention Indian-relevant compliance (BIS, ISI, FSSAI where applicable), call out COD availability, EMI options from ₹XX/month, and free delivery to PIN codes. Use Indian spelling (colour, flavour). Avoid banned Amazon terms like \"best seller\" or \"number 1\". Write for a buyer comparing 5 products in 90 seconds — every word must earn its place.",
+      "tags": [
+        "product-description",
+        "amazon",
+        "seo"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-005",
+      "title": "Meta Ad Copy for Indian D2C Launch",
+      "prompt": "Act as a performance copywriter with 5 years experience writing Meta ads for Indian D2C brands spending ₹10L+ per month on Facebook and Instagram. I need you to write 10 ad copy variants for a new product launch. Here is the context: I will share the brand, product, price, offer (launch discount, free shipping, bundle), target audience (age, gender, city tier, interests), and the hero angle. Please provide: (1) 5 primary text variants (125 characters each) using different hooks — question, bold claim, story, stat, Hinglish one-liner, (2) 5 headline variants (27 characters each), (3) 3 description line variants (27 characters), (4) Suggested CTA button from Meta's approved list, (5) Creative direction note for the visual. Format as a table: Variant, Hook Type, Primary Text, Headline, Description, CTA. Constraints: first 3 words must stop the scroll, reference INR pricing with clear discount math (e.g., ₹999 instead of ₹1,499), avoid Meta policy violations (before/after, personal attributes), and include at least 2 Hinglish variants that feel natural to urban Indian Millennials and Gen Z.",
+      "tags": [
+        "ad-copy",
+        "meta-ads",
+        "d2c"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-006",
+      "title": "Hero Section Copy with UPI EMI Callouts",
+      "prompt": "Act as a landing page copywriter with 6 years experience writing hero sections for Indian checkout-heavy brands. I need you to write 5 hero section variants for my landing page that highlight UPI and EMI as trust signals. Here is the context: I will share the product, price in INR, target audience, and whether EMI starts from which bank partners (Bajaj Finserv, HDFC, ICICI). Please provide for each variant: (1) H1 headline (max 10 words), (2) Subheadline (max 20 words), (3) Primary CTA button text (max 4 words), (4) Secondary CTA (max 4 words), (5) Trust microcopy mentioning UPI instant checkout and No Cost EMI from ₹XXX/month, (6) One-line urgency hook. Format as 5 clearly separated blocks. Constraints: each variant should test a different angle — price anchor, outcome-led, social proof, risk reversal, Hinglish hook. Mention Razorpay or Cashfree as checkout partners where relevant. Keep tone confident and local, not imported-American. Include placeholder notes on where the EMI calculator should appear and what UPI apps to show as logos (PhonePe, Google Pay, Paytm, BHIM).",
+      "tags": [
+        "landing-page",
+        "hero",
+        "cta-optimization"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-007",
+      "title": "Google RSA Copy for Indian SaaS",
+      "prompt": "Act as a Google Ads copywriter with 7 years experience running search campaigns for Indian SaaS like Freshworks and Zoho. I need you to write a complete Responsive Search Ad (RSA) for my product. Here is the context: I will share the SaaS product, ICP, 5 seed keywords, pricing in INR per month, and the primary differentiator. Please provide: (1) 15 headlines (max 30 characters each) covering keyword insertion, benefit, feature, social proof, price, urgency, CTA, question, brand, and Hinglish variations, (2) 4 descriptions (max 90 characters each) each leading with a different angle, (3) Path 1 and Path 2 suggestions, (4) Sitelink extensions (4), (5) Callout extensions (6), (6) Structured snippet extension. Format as labeled sections following Google Ads Editor layout. Constraints: pin at least 3 headlines as H1 (brand, offer, primary keyword), ensure at least 1 headline and 1 description include INR pricing or free trial, use Title Case, avoid superlatives that violate Google policy, and reference Indian credibility markers like \"Trusted by 10,000+ Indian businesses\" or \"Made for Indian GST\".",
+      "tags": [
+        "ad-copy",
+        "google-ads",
+        "saas"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-008",
+      "title": "UVP Statement Builder for Indian Startups",
+      "prompt": "Act as a brand strategist and copywriter with 10 years experience crafting UVPs for Indian startups funded by Sequoia, Accel, and Lightspeed. I need you to build a tight Unique Value Proposition statement for my startup. Here is the context: I will share my product, target customer, top 3 competitors (Indian and global), price positioning, and the one thing we do 10x better. Please provide: (1) 5 UVP statement variants using different frameworks — Steve Blank formula, Geoffrey Moore formula, April Dunford positioning, Harry Dry one-liner, value equation, (2) A one-sentence elevator pitch (under 20 words), (3) A tagline option (under 7 words), (4) A \"we are the X for Y\" analogy using an Indian brand reference, (5) Notes on which variant fits landing page hero, pitch deck, and LinkedIn bio. Format each variant as: Framework name, Statement, Best use case. Constraints: avoid jargon like synergy, leverage, unlock. Use specific numbers (ROI, time saved, INR saved). Reference Indian market context — MSME segment, Tier 2 expansion, GST compliance, Bharat vs India divide. At least 2 variants must be under 15 words and memorable enough for a founder to repeat on a podcast.",
+      "tags": [
+        "uvp",
+        "positioning",
+        "startup"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-009",
+      "title": "CTA Button Copy A/B Test Generator",
+      "prompt": "Act as a CRO copywriter with 6 years experience optimizing checkout flows for Indian ecommerce and SaaS brands. I need you to generate 20 CTA button copy variants for my primary conversion action. Here is the context: I will share the product, price in INR, the action the user is taking (buy, book demo, start trial, download, subscribe), and the funnel stage. Please provide: (1) 5 direct CTAs (Buy Now style), (2) 5 value-led CTAs (Get My Free Plan), (3) 5 low-friction CTAs (See How It Works), (4) 3 Hinglish CTAs that feel natural (Shuru Karein, Abhi Order Karein), (5) 2 urgency CTAs without being cheesy. For each, provide: button text (max 4 words), expected friction level (low/medium/high), and best funnel stage. Format as a table. Constraints: avoid \"Submit\" and \"Click Here\" entirely, ensure every CTA passes the \"I want to ___\" test, reference Indian payment trust (UPI, COD) in microcopy options, and include notes on button color psychology for Indian audiences. Add 3 microcopy lines that go below the button to reduce hesitation (e.g., \"No credit card needed\", \"Cancel anytime\", \"GST invoice included\").",
+      "tags": [
+        "cta-optimization",
+        "cro",
+        "buttons"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-010",
+      "title": "Feature-to-Benefit Translator for Tech Products",
+      "prompt": "Act as a tech product copywriter with 8 years experience translating engineering features into buyer benefits for Indian audiences. I need you to rewrite my feature list as benefit-led copy. Here is the context: I will paste my current feature list (as written by the product team) for a product like a smartwatch, SaaS tool, fintech app, or EdTech platform. Please provide: (1) Each feature rewritten as a So-What-laddered benefit using the 3-level method (feature -> functional benefit -> emotional benefit), (2) A one-line headline for each feature block on the landing page, (3) A short supporting paragraph (max 40 words), (4) A visual suggestion (icon, screenshot, GIF), (5) A proof point placeholder (stat, testimonial, badge). Format as feature blocks with labels. Constraints: every benefit must answer \"what does this mean for me in my day-to-day\" for an Indian user, avoid tech jargon unless the ICP is developers, reference Indian use cases (GST filing, UPI reconciliation, Hindi language support, Tier 2 network conditions), and ensure at least 30% of the copy addresses the emotional benefit, not just functional. Keep each feature block under 80 words total.",
+      "tags": [
+        "product-description",
+        "features",
+        "benefits"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-011",
+      "title": "Instagram Caption Writer for Indian Brands",
+      "prompt": "Act as a social media copywriter with 5 years experience writing Instagram captions for Indian D2C brands like Sugar, Plum, and The Whole Truth. I need you to write 10 Instagram captions for an upcoming post. Here is the context: I will share the brand, product, post type (product launch, UGC repost, behind the scenes, festive, educational), visual description, and audience. Please provide 10 caption variants across these styles: (1) 3 story-led (150-200 words), (2) 3 punchy one-liners with hook, (3) 2 educational with list format, (4) 2 Hinglish captions that pop. For each, include: hook line (first 125 characters before the \"more\" cut), body, CTA, and 15 relevant hashtags mixing niche (50k-500k posts) and broad tags. Format as numbered blocks. Constraints: first line must stop the scroll in Indian feeds, avoid overused phrases like \"swipe for more\", use Indian cultural cues authentically (not tokenistic festival mentions), and make the CTA specific (comment your city, DM for price, tap link in bio to get ₹XXX off). Write as if you know the audience scrolls while commuting in a Mumbai local.",
+      "tags": [
+        "social-media",
+        "instagram",
+        "caption"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-012",
+      "title": "WhatsApp Broadcast Copy for D2C Retention",
+      "prompt": "Act as a retention copywriter with 5 years experience writing WhatsApp broadcasts for Indian D2C brands using WATI, Interakt, and Gallabox. I need you to write 5 WhatsApp broadcast messages that drive repeat purchases. Here is the context: I will share the brand, customer segment (new, repeat, churned), offer, and the product category. Please provide: (1) 5 broadcast variants each under 500 characters, (2) Suggested CTA button text (max 20 characters), (3) Follow-up message if no response in 24 hours, (4) Notes on best send time for Indian audiences by segment, (5) Compliance check for WhatsApp Business API template categories (Marketing, Utility). Format each broadcast clearly with headline, body, CTA, and metadata. Constraints: open with a personalized hook using {FirstName}, reference INR pricing clearly, mention COD or UPI as payment options, avoid spam triggers that get templates rejected, and include at least 2 Hinglish variants. Add one line of urgency without being manipulative (e.g., \"Only today\" is fine, \"Last chance ever\" is not). Include emoji sparingly — max 2 per message — and only where they replace a word, not decorate.",
+      "tags": [
+        "whatsapp",
+        "retention",
+        "d2c"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-013",
+      "title": "Problem-First Hero Section for Indian SaaS",
+      "prompt": "Act as a B2B SaaS copywriter with 7 years experience writing for Indian tools used by CAs, HR teams, and operations managers. I need you to write a problem-first hero section that makes the reader say \"this is exactly my situation\". Here is the context: I will share the SaaS product, ICP, their top 3 pains, and the current tools they use (often Excel, WhatsApp, or legacy software). Please provide: (1) H1 that names the problem in 10 words or less, (2) Subhead that shows you understand the context in 20 words, (3) 3 bullet points listing specific pains in the voice of the customer, (4) A transitional line (\"There is a better way\"), (5) Primary CTA and secondary CTA, (6) A small trust strip (ratings, customer count, brand logos cue). Format as a labeled hero block. Constraints: the H1 must not mention the product name — only the problem. Use Indian workplace vocabulary (reconciliation, GST returns, attendance, payroll, cash flow). Write at an 8th grade reading level. Reference the frustration of manual work with specific numbers like \"8 hours every month\" or \"40 Excel sheets\". Keep total word count under 120 words.",
+      "tags": [
+        "landing-page",
+        "hero",
+        "saas"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-014",
+      "title": "Social Proof Section Copy with Indian Voices",
+      "prompt": "Act as a landing page copywriter with 6 years experience crafting social proof sections for Indian startups. I need you to write a complete social proof section that builds trust without sounding fake. Here is the context: I will share the product, customer base size, top 3 customer segments, and any logos, ratings, or press mentions I have. Please provide: (1) Section headline (max 8 words), (2) Subheadline (max 15 words), (3) 3 testimonial copy templates that sound like real Indian customers from different cities (Mumbai founder, Bangalore PM, Delhi CA), each with name placeholder, role, company, city, and quote (40-60 words), (4) A logo strip headline (\"Trusted by\"), (5) A stats bar with 4 metrics (users, cities served, transactions, ratings), (6) A press mention strip. Format as a structured section. Constraints: testimonials must follow the before-after-bridge structure, reference specific outcomes in INR or hours saved, avoid generic praise, and one testimonial must include a mild skepticism-then-conversion angle (\"I was doubtful, but...\"). Use Indian names that span regions. Make the stats specific and odd (e.g., 12,847 businesses, not \"10,000+\").",
+      "tags": [
+        "landing-page",
+        "social-proof",
+        "trust"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-015",
+      "title": "Flipkart Big Billion Days Ad Copy",
+      "prompt": "Act as a festive campaign copywriter with 6 years experience writing for Indian ecommerce sales events like Flipkart Big Billion Days and Amazon Great Indian Festival. I need you to write a full ad suite for a brand participating in the sale. Here is the context: I will share the brand, product, original MRP, sale price in INR, category, and any bank offers (HDFC, SBI, Axis card discounts). Please provide: (1) 3 hero banner copy variants (H1 + subhead + CTA), (2) 5 Meta feed ad variants (primary text + headline), (3) 3 Google Search ad headlines with price in them, (4) 2 YouTube bumper ad 6-second scripts, (5) 1 push notification copy (max 50 characters), (6) 1 SMS copy (max 160 characters with sender ID placeholder). Format as clearly labeled ad formats. Constraints: all pricing must show MRP struck through and sale price with % off, mention bank offer stack clearly, reference \"No Cost EMI\" and \"Exchange offer\" where relevant, and use urgency tied to the event dates. Keep the tone festive but avoid overused phrases like \"dhamaka\" and \"bumper sale\" — find fresher Hinglish that still feels celebratory.",
+      "tags": [
+        "ad-copy",
+        "festive",
+        "ecommerce"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-016",
+      "title": "Error and Empty State Microcopy for Indian Apps",
+      "prompt": "Act as a UX copywriter with 5 years experience writing microcopy for Indian fintech and consumer apps like CRED, Groww, and Zerodha. I need you to write a complete set of error, empty, and loading state microcopy for my app. Here is the context: I will share the app category, core user action, and the 5 most common failure states (payment failed, KYC pending, no internet, session expired, invalid input). Please provide: (1) Error state copy for each failure — title, body, primary action, secondary action, (2) 3 empty state copies (no transactions yet, no notifications, search with no results), (3) 3 loading state copies that reduce wait anxiety, (4) 2 success state celebrations that feel earned, (5) 1 onboarding tooltip sequence (4 tooltips). Format as a microcopy style guide table: State, Title, Body, Action. Constraints: keep every title under 6 words, body under 15 words, always suggest a next step, avoid blaming the user, and when relevant reference Indian specifics (UPI timeout, Aadhaar OTP, bank server downtime). Tone should be calm, human, and slightly witty — like a helpful friend, not a corporate bot. Include 2 Hinglish options for the main flow.",
+      "tags": [
+        "microcopy",
+        "ux-writing",
+        "apps"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-017",
+      "title": "Complete Landing Page Rewrite for Conversion Lift",
+      "prompt": "Act as a conversion copywriter with 10 years experience auditing and rewriting Indian SaaS and D2C landing pages. I need you to rewrite my existing landing page copy for a 2x conversion lift. Here is the context: I will paste my current landing page copy section by section (hero, features, pricing, testimonials, FAQ, footer CTA) along with the product, ICP, price in INR, and current conversion rate. Please provide: (1) A copy audit scoring each section on clarity, relevance, and action on a 1-10 scale, (2) A rewritten hero section with 3 variants, (3) Rewritten feature blocks using the jobs-to-be-done lens, (4) A pricing section with UPI/EMI callouts and money-back guarantee copy, (5) Rewritten FAQ addressing objections Indian buyers have, (6) A final CTA section with urgency, (7) A prioritized change list showing highest-impact edits first. Format as an audit report followed by the rewritten sections. Constraints: every rewrite must show the before and after side by side, explain the psychological lever being pulled, and reference Indian buyer behavior (discount-seeking, comparison-shopping, trust via social proof). Use INR throughout and include GST notes on pricing.",
+      "tags": [
+        "landing-page",
+        "cro",
+        "audit"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-018",
+      "title": "YouTube Pre-Roll Script Under 15 Seconds",
+      "prompt": "Act as a video ad copywriter with 7 years experience writing YouTube pre-roll scripts for Indian brands like boAt, CRED, and Dream11. I need you to write 5 skippable pre-roll scripts that hook in 5 seconds and convert in 15. Here is the context: I will share the brand, product, offer, audience, and whether this is a TrueView in-stream or bumper. Please provide: (1) 5 scripts each with second-by-second breakdown (0:00, 0:03, 0:05, 0:10, 0:15), (2) Opening hook that earns the next 10 seconds, (3) Value proposition delivered in under 8 words, (4) End card CTA with clear next step, (5) Voice-over direction (pace, tone, language mix), (6) On-screen text callouts. Format as a shot-by-shot script table. Constraints: the first 5 seconds must work even if the viewer skips — brand name must land and value must register. Mix English and Hinglish based on audience (Tier 1 urban vs Tier 2 emerging). Reference INR pricing or clear outcome. Avoid direct competitor attack. Include one script in pure Hindi for a Bharat audience campaign. Write like you know the viewer is one finger tap away from skipping.",
+      "tags": [
+        "ad-copy",
+        "youtube",
+        "video"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-019",
+      "title": "Cold Email Copy for Indian B2B SaaS Outreach",
+      "prompt": "Act as a B2B cold email copywriter with 8 years experience booking demos for Indian SaaS companies selling to CXOs and mid-market. I need you to write a 4-email cold outreach sequence. Here is the context: I will share the SaaS product, ICP (role, company size, industry, city), pain point, and the one specific trigger event I am using (funding round, new hire, expansion, compliance change). Please provide: (1) Email 1 — pattern interrupt opener (under 90 words), (2) Email 2 — case study angle referencing a comparable Indian company (under 100 words), (3) Email 3 — direct value pitch with ROI math in INR (under 120 words), (4) Email 4 — breakup email with a soft door-open (under 70 words), (5) Subject lines for each (under 50 characters), (6) Send day and time recommendation for Indian business hours. Format as a sequence with labels. Constraints: no generic intros, no \"hope you are doing well\", no \"I came across your profile\". Open with something specific about the prospect or their company. Reference Indian business context (GST, MSME, Tier 2 expansion, UPI integration). Keep the ask small in the first 3 emails — 15-minute call max. CTA in the last email should be a single yes/no question.",
+      "tags": [
+        "email",
+        "cold-outreach",
+        "b2b"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-020",
+      "title": "Founder-Led LinkedIn Post for Product Launch",
+      "prompt": "Act as a LinkedIn ghostwriter with 6 years experience writing for Indian startup founders and CXOs with 20k+ followers. I need you to write a founder-led product launch post that gets 500+ reactions and 100+ comments. Here is the context: I will share the founder's name, company, the product being launched, the journey (months building, team size, first customer), and the launch offer. Please provide: (1) Hook line (first 2 lines before the \"see more\" cut), (2) Story section (the journey, 100 words), (3) Why-now section (the insight that led to the product, 60 words), (4) What it does section (3 bullets with benefits, not features), (5) Launch offer callout with INR pricing and UPI checkout, (6) CTA (comment a word to DM, or link in first comment), (7) Suggested first-comment content, (8) 5 hashtags mixing niche and broad. Format as a ready-to-post LinkedIn update. Constraints: first line must stop the scroll — no \"excited to announce\". Write in a conversational tone that sounds like the founder on a podcast, not a press release. Include one vulnerable line (a failure, a doubt). Reference Indian startup ecosystem context (bootstrapped, Y Combinator, Sequoia, Accel) authentically.",
+      "tags": [
+        "linkedin",
+        "founder",
+        "product-launch"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-021",
+      "title": "Sales Page Long-Form Copy for Indian Course",
+      "prompt": "Act as a direct response copywriter with 9 years experience writing long-form sales pages for Indian EdTech courses and info products. I need you to write a 2,500-word sales page for my course. Here is the context: I will share the course topic, instructor credentials, target learner, price in INR, bonuses, guarantee, and the transformation promised. Please provide a full sales page with: (1) Pre-headline and main headline using the 4U framework, (2) Opening story that connects with the reader's current frustration, (3) 3 belief-shifting sections that reframe the problem, (4) The offer reveal with what-you-get list, (5) 5 bonuses with individual values that total more than the course price, (6) Price anchor showing comparable alternatives, (7) Risk reversal with money-back guarantee, (8) 8-question FAQ addressing real objections, (9) Scarcity close with seat limit or cohort date, (10) PS section with one final benefit. Format as a scrollable long-form page with clear section headers. Constraints: reference Indian job market realities, INR salary outcomes, UPI and EMI payment options, and real Indian company names as aspirational employers. Avoid false scarcity. Every claim must be believable and specific. Use Indian idioms sparingly but effectively.",
+      "tags": [
+        "sales-page",
+        "long-form",
+        "edtech"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-022",
+      "title": "Category Page Meta Titles and Descriptions",
+      "prompt": "Act as an ecommerce SEO copywriter with 7 years experience writing meta titles and descriptions for Indian marketplaces and D2C brands. I need you to write 20 meta title and description pairs for my category pages. Here is the context: I will share the brand, 20 category pages (e.g., Men's Running Shoes, Wireless Earbuds under ₹2000, Organic Face Wash for Oily Skin), and the primary keyword for each. Please provide for each page: (1) Meta title (max 60 characters) with primary keyword in the first 40 characters, brand at the end, (2) Meta description (max 155 characters) with benefit, CTA, and INR price range, (3) H1 variation for the page, (4) Breadcrumb suggestion, (5) Intent match note (informational, commercial, transactional). Format as a 20-row table. Constraints: every meta title must include a differentiator (price range, free shipping, COD, warranty), every description must end with an implicit or explicit CTA, and avoid keyword stuffing. Use Indian search intent signals (\"buy online\", \"price in India\", \"under ₹X\"). Reference GST-inclusive pricing where relevant. Do not exceed character limits — count carefully. Include at least 3 with Hinglish keywords where the search volume supports it.",
+      "tags": [
+        "seo",
+        "meta-description",
+        "ecommerce"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-023",
+      "title": "Objection-Handling FAQ Copy for High-Ticket",
+      "prompt": "Act as a conversion copywriter with 8 years experience writing FAQ sections that handle buyer objections for Indian high-ticket products (₹20k+). I need you to write a 12-question FAQ that overcomes the top objections and pushes the reader to buy. Here is the context: I will share the product, price in INR, target buyer, and the 5 objections I hear most from sales calls. Please provide: (1) 12 FAQ questions phrased in the buyer's voice (not marketing voice), (2) Concise answers (50-80 words each) that acknowledge, reframe, and close, (3) Embedded proof points (stats, testimonials, guarantees), (4) A final CTA question that pushes commitment, (5) Notes on which questions should appear above the fold vs below. Format as a Q&A list with answer strategy labels. Constraints: cover these objection categories — price (\"why so expensive\"), trust (\"is this legit\"), fit (\"will this work for me\"), comparison (\"why not competitor X\"), support (\"what if it breaks\"), payment (\"can I pay in parts\"), delivery (\"how long to Tier 2 city\"), returns (\"what if I do not like it\"), GST (\"do you provide invoice\"), and urgency (\"why should I buy now\"). Use Indian buyer language and reference UPI/EMI/COD options naturally.",
+      "tags": [
+        "faq",
+        "objection-handling",
+        "landing-page"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-024",
+      "title": "Performance Max Asset Copy for Google Ads",
+      "prompt": "Act as a Google Ads copywriter with 6 years experience writing Performance Max asset groups for Indian ecommerce brands spending ₹5L+ per month. I need you to write a complete pMax asset group for my product campaign. Here is the context: I will share the brand, product, price in INR, audience signals, and the 5 core keywords. Please provide: (1) 5 headlines (max 30 characters), (2) 5 long headlines (max 90 characters), (3) 5 descriptions (max 90 characters), (4) 1 business name (max 25 characters), (5) 4 calls to action from Google's approved list, (6) Image direction (16:9, 1:1, 4:5 for each creative type), (7) 2 video script concepts for 6-second bumper and 15-second skippable, (8) Sitelink extensions, (9) Promotion extensions with INR discount. Format as labeled asset sections. Constraints: ensure assets work when Google mixes and matches (no sentence should depend on another), include keyword variations for Google's understanding, reference INR pricing and offers clearly, and include at least 1 Hinglish headline for audience signals targeting urban Indian millennials. Do not use superlatives that violate policy (\"best\", \"#1\"). Include GST-inclusive pricing where applicable.",
+      "tags": [
+        "ad-copy",
+        "google-ads",
+        "pmax"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-025",
+      "title": "Tone of Voice Guide for Indian Brand",
+      "prompt": "Act as a brand voice strategist with 10 years experience building tone of voice guides for Indian brands like Zomato, Swiggy, and CRED. I need you to build a complete tone of voice guide for my brand. Here is the context: I will share the brand, category, target audience, brand personality archetype (e.g., The Rebel, The Sage), and 3 competitors. Please provide: (1) Brand voice summary in one paragraph, (2) 4 voice dimensions with sliders (formal vs casual, serious vs playful, matter-of-fact vs enthusiastic, respectful vs irreverent), (3) We are / we are not list with 10 entries, (4) 5 do and don't examples rewriting the same sentence in the right voice, (5) Vocabulary list (words we use, words we avoid), (6) Language mix policy for English, Hindi, Hinglish across channels, (7) Example copy applied to hero headline, error message, push notification, social caption, customer support reply. Format as a polished brand guideline document. Constraints: the voice must feel distinctly Indian, not a copy-paste of American brands. Reference Indian cultural codes (respect for elders, community, value consciousness) and balance them with modern confidence. Include an \"edge\" that makes the brand quotable — like Zomato's wit or CRED's confidence.",
+      "tags": [
+        "brand-voice",
+        "tone",
+        "strategy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-026",
+      "title": "Retargeting Ad Copy by Funnel Stage",
+      "prompt": "Act as a performance copywriter with 7 years experience writing retargeting ads for Indian D2C and SaaS brands. I need you to write retargeting ad copy tailored to 5 different funnel stages. Here is the context: I will share the brand, product, price in INR, and the user segments (visited homepage, viewed product, added to cart, abandoned checkout, past buyer). Please provide 3 ad variants per stage covering: (1) Homepage visitor — curiosity-led, (2) Product viewer — benefit-led, (3) Cart abandoner — objection handling plus discount, (4) Checkout abandoner — urgency plus UPI/COD reassurance, (5) Past buyer — cross-sell or referral. For each variant include primary text (125 chars), headline (27 chars), description (27 chars), CTA button, and creative suggestion. Format as a stage-by-stage breakdown. Constraints: escalate urgency and specificity as the funnel deepens. Cart abandoners should see an exact product reference with price and a time-limited INR discount. Checkout abandoners should see payment reassurance (UPI instant, COD available). Past buyers should see cross-sell with loyalty framing. Use Indian buyer psychology — discount-sensitivity, social proof, COD trust. Include 2 Hinglish variants in the cart and checkout stages.",
+      "tags": [
+        "ad-copy",
+        "retargeting",
+        "funnel"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-027",
+      "title": "Email Welcome Sequence for Indian D2C Brand",
+      "prompt": "Act as an email lifecycle copywriter with 7 years experience writing welcome sequences for Indian D2C brands like Mamaearth and Wakefit. I need you to write a 5-email welcome sequence for new subscribers. Here is the context: I will share the brand, product category, first-order discount, core story, and audience. Please provide: (1) Email 1 — Welcome and brand story (send immediately, 200 words), (2) Email 2 — The founder story and why we exist (send day 2, 250 words), (3) Email 3 — Hero product showcase with social proof (send day 4, 200 words), (4) Email 4 — Objection handling and FAQ (send day 6, 200 words), (5) Email 5 — Limited-time first-order offer with urgency (send day 8, 150 words). For each email provide subject line, preview text, body, CTA, and PS. Format as a ready-to-load sequence. Constraints: subject lines under 50 characters with 40%+ open rate potential, preview text under 90 characters, and body copy at 7th grade reading level. Reference Indian cultural moments where relevant, use INR pricing with UPI/COD callouts, and include a clear unsubscribe-friendly footer. The last email's offer must expire within 48 hours and mention the exact time in IST.",
+      "tags": [
+        "email",
+        "welcome-sequence",
+        "lifecycle"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-028",
+      "title": "Packaging Copy for Indian FMCG Product",
+      "prompt": "Act as a packaging copywriter with 8 years experience writing for Indian FMCG brands like Paper Boat, Too Yumm, and Bombay Shaving Company. I need you to write complete packaging copy that sells from the shelf in 3 seconds. Here is the context: I will share the product, category, target shopper, SKU size, MRP, and the 3 hero ingredients or features. Please provide: (1) Front-of-pack headline (max 5 words) that stops the shopper, (2) Product descriptor line (max 10 words), (3) 3 benefit bullets on the front in 4-6 words each, (4) Back-of-pack story (80 words) that builds connection, (5) Ingredients or feature callout in simple language, (6) Usage instructions in 3 steps, (7) Brand tagline suggestion, (8) Mandatory Indian compliance placeholders (FSSAI, mfg date, best before, net quantity, MRP inclusive of all taxes, consumer care). Format as a packaging copy deck with each face labeled. Constraints: front-of-pack must work for a shopper in a Kirana store or Big Bazaar aisle glancing for 3 seconds. Back-of-pack must earn the 15 seconds the curious shopper gives. Use Indian context — refer to monsoon, summer heat, festivals, desi ingredients where authentic. Avoid English-only if the audience skews Hindi-speaking.",
+      "tags": [
+        "packaging",
+        "fmcg",
+        "product-description"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-029",
+      "title": "Above-the-Fold Copy Optimization Framework",
+      "prompt": "Act as a CRO copywriter with 8 years experience optimizing above-the-fold copy for Indian SaaS and D2C brands. I need you to run an above-the-fold optimization exercise on my landing page. Here is the context: I will paste my current above-the-fold copy (H1, subhead, CTA, trust signals) along with the product, audience, and current bounce rate. Please provide: (1) A clarity test — can a 10-year-old understand what this does in 5 seconds, (2) A relevance test — does it name the audience and their desire, (3) A value test — does it show the outcome and proof, (4) A friction audit of the CTA and trust signals, (5) 5 rewritten variants using different angles — outcome-led, problem-led, bold-claim, question-led, Hinglish hook, (6) A/B test hypothesis for each variant with expected lift, (7) Recommendations on hero image, video, or animation. Format as a CRO audit report. Constraints: every recommendation must be backed by a copywriting principle (Flesch score, specificity, power words). Reference Indian buyer psychology (trust, value, COD, UPI). Use INR pricing where relevant. Include a before and after comparison table for the H1 and CTA. Keep the rewrites under 50 words total for the hero.",
+      "tags": [
+        "cro",
+        "landing-page",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-030",
+      "title": "Referral Program Copy and Mechanics",
+      "prompt": "Act as a growth copywriter with 6 years experience designing referral program copy for Indian brands like CRED, PhonePe, and Zomato. I need you to write complete referral program copy and mechanics. Here is the context: I will share the brand, product, customer LTV, reward budget per referral, and the audience. Please provide: (1) Program name and tagline, (2) Reward structure clearly stated in INR for both referrer and referee, (3) How it works in 3 steps, (4) Hero section copy for the referral landing page, (5) In-app prompt copy (max 60 characters), (6) Email to existing customers announcing the program, (7) WhatsApp share message template with merge fields, (8) Social share captions for Instagram and LinkedIn, (9) FAQ with 6 questions about eligibility, reward timing, and tax, (10) Terms and conditions summary in plain language. Format as a referral playbook document. Constraints: the share message must be something people actually want to send to friends — not a corporate template. Use Indian context — festivals as referral moments, UPI for instant rewards, Paytm cashback framing. Make the reward math obvious and generous-feeling. Reference TDS implications if rewards exceed ₹20k per year. Include one Hinglish version of the share message.",
+      "tags": [
+        "referral",
+        "growth",
+        "lifecycle"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-031",
+      "title": "Pricing Page Copy with Indian Payment Options",
+      "prompt": "Act as a SaaS pricing page copywriter with 8 years experience writing for Indian SaaS like Freshworks, Zoho, and Chargebee. I need you to write a complete pricing page that sells the right plan to the right buyer. Here is the context: I will share the product, 3 pricing tiers in INR per month (and annual), features per tier, target buyer for each tier, and any usage-based pricing. Please provide: (1) Pricing page headline and subheadline, (2) 3 plan cards with name, price, who it is for, 7 feature bullets, CTA button, and a \"most popular\" badge on the middle tier, (3) Annual vs monthly toggle copy with savings callout, (4) Enterprise contact-us card copy, (5) Feature comparison table headline and footnotes, (6) Payment options strip (UPI, cards, net banking, EMI, invoicing for enterprise), (7) GST inclusive note and invoice promise, (8) Money-back guarantee copy, (9) 8-question FAQ on pricing objections, (10) Final CTA section. Format as a structured pricing page spec. Constraints: the middle tier must be positioned as the smart default with anchoring against both cheaper and enterprise tiers. Reference Indian-specific needs — GST invoicing, TDS handling, INR billing, no forex fees. Use clear language, not feature jargon.",
+      "tags": [
+        "pricing",
+        "saas",
+        "landing-page"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-032",
+      "title": "Radio and Audio Ad Script for Indian FM",
+      "prompt": "Act as an audio copywriter with 9 years experience writing radio and Spotify audio ads for Indian brands like Rapido, Cult.fit, and Urban Company. I need you to write 3 audio ad scripts — 15, 30, and 45 seconds. Here is the context: I will share the brand, product, offer in INR, target audience, and the language mix (English, Hindi, Hinglish) for the city. Please provide: (1) 15-second script (40 words max) with single clear CTA, (2) 30-second script (80 words max) with hook, value, proof, CTA, (3) 45-second script (120 words max) with mini-story, (4) Sound design notes (music, SFX, voice gender, pace), (5) Suggested station or playlist fit (Radio Mirchi, Red FM, Spotify Hindi Indie), (6) Mnemonic or jingle line if applicable, (7) Brand sign-off line. Format as a 3-script document with performance notes. Constraints: the brand name must be heard at least twice in the 30 and 45 second scripts. CTA must be easy to remember audibly — no URLs with hyphens, prefer a short word to search or a memorable app name. Reference Indian city-specific context where relevant (Mumbai local, Bengaluru traffic). Use Hinglish authentically, not forced. Write dialogue that sounds natural when spoken aloud.",
+      "tags": [
+        "audio",
+        "radio",
+        "ad-copy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-033",
+      "title": "Full Brand Launch Copy System for D2C",
+      "prompt": "Act as a senior brand copywriter and strategist with 12 years experience launching Indian D2C brands from zero — think Mamaearth-in-2017 scale. I need you to build a complete launch copy system across 8 touchpoints. Here is the context: I will share the brand, category, founder story, price range in INR, target audience, brand archetype, and 3 competitors. Please provide: (1) Brand positioning statement (April Dunford format), (2) Brand manifesto (150 words) that customers would screenshot and share, (3) Tagline with 5 alternates, (4) Homepage hero copy with 3 variants, (5) About page story (500 words), (6) Product page template for the hero SKU, (7) Launch email to founder's network, (8) Launch Instagram post and LinkedIn post copy, (9) Press release first paragraph hook, (10) Amazon listing for the hero SKU. For each, include a strategic note on which audience and emotion it targets. Format as a launch copy playbook. Constraints: the brand must feel uniquely Indian yet globally confident — reference Indian insights (skin concerns from pollution, Indian hair types, Indian kitchen habits, monsoon, festivals) authentically. Use INR pricing throughout. Include UPI and COD in all purchase touchpoints. Every piece must hang together as one voice — build a style sheet showing 3 words the brand uses and 3 it avoids.",
+      "tags": [
+        "brand-launch",
+        "d2c",
+        "positioning"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-034",
+      "title": "Multi-Variant Landing Page Test Matrix",
+      "prompt": "Act as a growth copywriter and experimentation lead with 10 years experience running landing page tests for Indian SaaS and ecommerce brands. I need you to design a complete multi-variant copy test matrix for my landing page. Here is the context: I will share the product, current landing page copy, baseline conversion rate, monthly traffic, and the business goal. Please provide: (1) A hypothesis for each page section — hero, features, social proof, pricing, FAQ, CTA, (2) 3 copy variants per section labeled as control, challenger A, challenger B, (3) The specific psychological lever each variant tests (specificity, curiosity, loss aversion, social proof, authority), (4) Expected conversion lift range with confidence level, (5) Minimum sample size per variant based on traffic, (6) Testing sequence — which sections to test first by impact and effort, (7) Success metrics beyond conversion rate (scroll depth, time on page, CTA hover), (8) A learning document template to capture results. Format as a testing roadmap with a matrix table. Constraints: prioritize sections by revenue impact. Reference Indian buyer behavior in every hypothesis — trust gaps, comparison shopping, discount sensitivity, UPI/COD preference. Ensure all copy variants maintain brand voice consistency. Include a kill-switch rule for underperforming variants.",
+      "tags": [
+        "experimentation",
+        "landing-page",
+        "cro"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-035",
+      "title": "Complete Funnel Copy for ₹50L SaaS Launch",
+      "prompt": "Act as a full-funnel copywriter with 12 years experience launching Indian SaaS products with ₹50L+ acquisition budgets. I need you to write the full funnel copy for a product launch covering awareness to retention. Here is the context: I will share the SaaS product, ICP, pricing in INR, the 3 core benefits, and the launch timeline. Please provide complete copy for: (1) Top of funnel — 5 thought leadership LinkedIn posts and 3 YouTube pre-roll scripts, (2) Middle of funnel — 3 landing page variants, 1 webinar registration page, 3 retargeting ads, (3) Bottom of funnel — 1 pricing page, 1 demo booking page, 5 sales email templates, 1 proposal template, (4) Onboarding — 5 onboarding emails, in-app welcome copy, setup checklist, (5) Retention — 3 feature announcement emails, 1 NPS survey, 1 upgrade pitch, 1 renewal email, (6) Reactivation — 2 win-back emails for churned users. For each asset include the goal, audience segment, key message, and success metric. Format as a funnel playbook with stage labels. Constraints: maintain one consistent voice across all assets. Reference Indian SaaS buying context — GST invoicing, INR pricing, UPI/cards/net banking, Indian business hours, regional language support where relevant. Every asset must ladder up to the same core positioning statement.",
+      "tags": [
+        "funnel",
+        "saas",
+        "full-stack"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-036",
+      "title": "Voice of Customer Research to Copy Bank",
+      "prompt": "Act as a VoC (voice of customer) copywriter with 10 years experience turning customer research into high-converting copy for Indian brands. I need you to analyze raw customer research and build a copy bank. Here is the context: I will paste 20-50 raw inputs — customer reviews from Amazon.in and Flipkart, sales call transcripts, support tickets, Reddit threads, and survey responses. Please provide: (1) A VoC mining framework categorizing inputs into pains, desires, objections, hesitations, and aha moments, (2) The top 20 exact phrases customers use (verbatim), (3) The top 10 metaphors and analogies customers use, (4) The 5 emotional triggers that appear most often, (5) A copy bank organized by landing page section — hero headlines sourced from customer words, feature descriptions in customer language, objection-handling copy from actual hesitations, testimonial templates based on review patterns, (6) A \"do not say\" list of phrases that trigger skepticism, (7) Recommendations on which phrases to test first. Format as a VoC report followed by a ready-to-use copy bank. Constraints: every piece of copy must be traceable to a source quote. Tag the city, gender, and age cohort of each quote where available. Flag phrases that are uniquely Indian (Hinglish, regional idioms) and mark them for Tier 1 vs Tier 2 audience fit. Reference INR and Indian buyer context throughout.",
+      "tags": [
+        "voice-of-customer",
+        "research",
+        "copy-bank"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-037",
+      "title": "Positioning Rewrite Using April Dunford Method",
+      "prompt": "Act as a positioning strategist with 10 years experience applying April Dunford's Obviously Awesome framework to Indian startups. I need you to rewrite my positioning and cascade it into copy. Here is the context: I will share my current positioning statement, product, 5 competitive alternatives (including \"do nothing\" and Excel), my unique attributes, the value customers get from those attributes, the best-fit customer characteristics, and the market category. Please provide: (1) A completed April Dunford positioning canvas, (2) A sharpened positioning statement using the 5 component approach, (3) A category choice recommendation — existing category, reframe, or subcategory creation, with reasoning, (4) A frame-of-reference note explaining the trade-off vs alternatives, (5) Cascaded copy applying the new positioning to — homepage hero, elevator pitch, sales deck slide 1, LinkedIn bio, one-line description, (6) Messaging pillars (3) with supporting proof points, (7) A before and after comparison showing current vs new copy for 5 touchpoints, (8) A rollout recommendation. Format as a positioning brief. Constraints: the positioning must feel obvious once stated — test it against the \"so what\" question at every level. Reference Indian market context where relevant — segment maturity, buyer sophistication, GTM motion (inbound vs sales-led), MSME vs enterprise. Avoid borrowed US category names if an Indian reframe serves better.",
+      "tags": [
+        "positioning",
+        "strategy",
+        "messaging"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-038",
+      "title": "Conversion Copywriting Audit with Revenue Impact",
+      "prompt": "Act as a senior conversion copywriter with 12 years experience auditing and rewriting revenue-critical pages for Indian brands. I need you to audit my core conversion page and project the revenue impact of copy changes. Here is the context: I will share my product, current page copy, monthly traffic, current conversion rate, average order value in INR, and business goals. Please provide: (1) A full section-by-section audit scoring clarity, relevance, value, proof, urgency, and action on a 1-10 scale, (2) A heatmap-style priority matrix showing which sections leak the most revenue, (3) A rewritten version of the 3 highest-impact sections with 2 variants each, (4) The psychological principle behind each rewrite (Cialdini, Fogg behavior model, JTBD), (5) A revenue impact projection showing baseline, conservative, and optimistic scenarios in INR per month with assumptions, (6) A prioritized implementation roadmap ranked by impact vs effort, (7) A testing plan with sample size and duration, (8) Risks and rollback criteria. Format as a professional audit document suitable for a founder or CMO. Constraints: every recommendation must include specific before-and-after copy, expected lift range, and confidence level. Reference Indian buyer psychology throughout — trust gaps, payment hesitation, comparison shopping, Tier 2 buying behavior. All revenue math must show INR assumptions clearly.",
+      "tags": [
+        "audit",
+        "cro",
+        "revenue"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-039",
+      "title": "Messaging House and Pillars for Enterprise SaaS",
+      "prompt": "Act as an enterprise B2B messaging strategist with 12 years experience building messaging architectures for Indian enterprise SaaS selling to BFSI, Manufacturing, and Healthcare verticals. I need you to build a complete messaging house for my product. Here is the context: I will share the product, 3 target verticals, ICP persona per vertical (CXO, IT head, line-of-business), competitive landscape, and the top 3 buying criteria per persona. Please provide: (1) A messaging house structure with a brand promise at the top, 3 messaging pillars, and supporting proof points, (2) Vertical-specific value propositions for each of the 3 verticals, (3) Persona-specific messaging for CXO (business value, ROI in INR), IT head (security, integration, compliance), line-of-business (ease of use, time saved), (4) A competitive messaging matrix showing how to position against 3 named competitors, (5) A proof point bank with stats, case studies, certifications, and testimonials, (6) Cascaded copy examples — website hero per vertical, sales deck opener per persona, demo script hook, RFP response boilerplate, (7) A style guide for how sales and marketing should use the messaging. Format as a messaging architecture document. Constraints: reference Indian enterprise realities — RBI and SEBI compliance, data localization, GST filings, regional language support, DPDP Act 2023, MeitY empanelment where relevant. All ROI math must be in INR with Indian salary benchmarks.",
+      "tags": [
+        "messaging",
+        "enterprise",
+        "b2b"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    },
+    {
+      "id": "writers-copywriters-040",
+      "title": "Iconic Indian Copy Analysis and Application",
+      "prompt": "Act as a copy craft teacher with 15 years experience studying and applying iconic Indian advertising copy from Amul, Fevicol, Cadbury India, Vodafone Zoozoo era, Tata Sky, and Asian Paints. I need you to reverse-engineer what makes iconic Indian copy work and apply those lessons to my brand. Here is the context: I will share my brand, category, target audience, and the kind of emotional territory I want to own. Please provide: (1) An analysis of 5 iconic Indian campaigns breaking down the insight, the copy device, the cultural truth, and the reason it stuck, (2) The transferable principles — understatement, wordplay, cultural warmth, family insight, middle-class truth, observational humor, (3) A copy framework built from those principles that I can apply, (4) 10 headline applications for my brand in the style of the iconic references (without plagiarizing), (5) A short manifesto for my brand written in the tradition of classic Indian copy, (6) 3 campaign concepts each with a big idea, headline, and 30-second script, (7) A do and don't list for channeling Indian copy craft without feeling dated. Format as a craft guide followed by applied examples. Constraints: the output must feel rooted in Indian cultural truths — not imported American copy with Indian names swapped in. Reference real Indian moments (school admissions, wedding season, monsoon, cricket, family WhatsApp groups). Show deep respect for the original work while making the application feel fresh and contemporary.",
+      "tags": [
+        "craft",
+        "indian-advertising",
+        "headline"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "copywriters"
+    }
+  ]
+}

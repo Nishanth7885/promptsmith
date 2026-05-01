@@ -1,0 +1,666 @@
+{
+  "prompts": [
+    {
+      "id": "design-photographers-001",
+      "title": "Complete Indian Wedding Day Shot List",
+      "prompt": "Act as a senior Indian wedding photographer with 10 years experience shooting big-fat weddings across Jaipur, Udaipur, and Delhi (style similar to Stories by Joseph Radhik). I need a comprehensive shot list for a 3-day Hindu Punjabi wedding I am shooting next month. Here is the context: The wedding has a Mehendi at a farmhouse (200 guests), Sangeet at a 5-star hotel ballroom (400 guests), and main wedding ceremony at a palace venue in Jaipur (500 guests). Budget package is Rs. 3.5 lakh and I have 2 photographers plus 1 videographer. Please provide: (1) Pre-ceremony detail shots for each event (jewellery, outfits, invites, decor), (2) Getting-ready candids for bride and groom separately, (3) Ceremony ritual moments specific to Punjabi traditions (Jaimala, Phere, Kanyadaan, Joota chupai), (4) Family group photo combinations list (nuclear, extended, grandparents), (5) Couple portrait concepts using palace architecture, (6) Reception must-haves (entry, first dance, cake cutting, speeches), (7) Candid emotional moments to watch for. Format as a checklist organized by event and time block. Flag the 15 absolute non-negotiable shots that clients always want to see in their final album. Include 5 hero shots I should plan specifically for Instagram teaser posting within 24 hours.",
+      "tags": [
+        "shot-list",
+        "wedding-photography",
+        "indian-wedding",
+        "jaipur"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-002",
+      "title": "Pre-Wedding Shoot Client Questionnaire",
+      "prompt": "Act as a pre-wedding photographer based in Mumbai with 7 years of experience shooting couples in Goa, Udaipur, and Kashmir. I am onboarding a new couple who booked my Rs. 65,000 pre-wedding package. I need a detailed client questionnaire to send them 3 weeks before the shoot so I can plan locations, outfits, and mood. Here is the context: The couple is a 29-year-old software engineer and a 27-year-old doctor from Bengaluru, getting married in December, and they want a mix of candid romantic and cinematic shots. Please provide: (1) Basic logistics questions (dates, travel, budget for location permits), (2) Relationship story prompts (how they met, inside jokes, shared hobbies) to capture authentic moments, (3) Style and mood preference questions with Pinterest board request, (4) Outfit planning questions (number of looks, color palette, cultural wear), (5) Location preference questions (beach vs palace vs mountains vs urban), (6) Comfort and boundary questions (PDA level, water shots, heights), (7) Deliverables expectation alignment (number of edited photos, reel, timeline). Format as a Google Form structure with section headers, question type (short text, multiple choice, file upload), and example answers. Keep tone warm and professional, and include a friendly intro paragraph.",
+      "tags": [
+        "client-questionnaire",
+        "pre-wedding",
+        "client-onboarding"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-003",
+      "title": "D2C Product Photography Shot List",
+      "prompt": "Act as a commercial product photographer in Bengaluru with 6 years experience shooting for Indian D2C brands like Mamaearth, Bombay Shaving Company, and Sleepy Owl. I have been hired by a new D2C skincare brand for a product shoot of their 8-SKU launch range, budget Rs. 1.2 lakh for a 2-day studio shoot. Please provide: (1) Complete shot list per SKU covering hero shot on white, lifestyle flat-lay, texture/swatch close-up, in-use model shot, and size comparison, (2) Recommended props and surfaces to source in India (marble tiles, linen, terracotta, fresh ingredients from local markets), (3) Lighting setup notes for each shot type (key, fill, rim) suitable for Amazon listings and Instagram, (4) Model direction cues for hand and face shots, (5) A time-block schedule across 2 days grouping similar setups to save time, (6) Post-production checklist per image (background cleanup, color match, shadows), (7) Final deliverable format breakdown (Amazon square, website banner, Instagram 4:5, story 9:16). Format as a production document with a summary table at the top. Include a line-item cost estimate for props, studio, assistant, and editing that justifies the Rs. 1.2 lakh quote.",
+      "tags": [
+        "shot-list",
+        "product-photography",
+        "d2c-brands",
+        "studio"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-004",
+      "title": "Lightroom Preset Style Guide for Indian Weddings",
+      "prompt": "Act as an Indian wedding photo editor with 8 years experience building Lightroom presets for studios similar to The Wedding Salad. I need a detailed editing style guide for my team of 3 junior editors so every wedding I deliver has a consistent warm, filmic, pastel look across all photographers. Here is the context: My signature style is golden-hour warmth, soft skin tones for Indian complexions, deep but not crushed blacks, and muted greens for outdoor venues. Please provide: (1) Base Lightroom develop settings (temperature, tint, exposure, contrast, highlights, shadows, whites, blacks with exact numbers), (2) HSL panel adjustments specifically to flatter Indian skin tones across fair to deep ranges (orange, red, yellow sliders), (3) Tone curve shape description for filmic fade, (4) Calibration panel settings for red-green-blue primaries, (5) Split-toning or color-grading wheel values for highlights, midtones, shadows, (6) Separate sub-preset variations for outdoor daylight, indoor tungsten, night sangeet, and candle-lit mandap, (7) Culling and selection rules before editing, (8) Export settings for client gallery, Instagram, and print. Format as a step-by-step SOP document with slider values in a table. Include 3 common mistakes junior editors make with Indian skin tones and how to fix them.",
+      "tags": [
+        "lightroom",
+        "editing-style-guide",
+        "presets",
+        "wedding-editing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-005",
+      "title": "Instagram Portfolio Caption Writer",
+      "prompt": "Act as a social media manager for wedding photographers, with 5 years of experience growing Indian photographer accounts to 100K+ followers. I just shot a stunning pre-wedding in Udaipur at Lake Pichola with a couple from Hyderabad and I am posting a 10-slide carousel on Instagram tomorrow. Please provide 10 caption options ranging from short poetic (under 30 words) to storytelling long-form (150-200 words). Here is the context: The couple had a cute meet-cute at a cafe in Hyderabad, the groom proposed in Paris, and we shot at City Palace, Jag Mandir, and Ambrai Ghat during golden hour. Bride wore a pastel lehenga, groom wore an ivory sherwani. Please provide: (1) 3 short romantic captions with emojis, (2) 3 medium storytelling captions (50-80 words), (3) 2 long-form captions narrating the couple's journey, (4) 1 behind-the-scenes caption crediting my team and makeup artist, (5) 1 SEO-optimised caption for discovery using Udaipur wedding hashtags, (6) A list of 30 relevant hashtags mixing big (#udaipurwedding), medium, and niche tags, (7) Tagging strategy (vendors, location, couple, publications like WedMeGood, WeddingSutra). Format each caption clearly labelled. Keep tone warm, not cheesy, and suitable for a premium brand charging Rs. 75K per pre-wedding.",
+      "tags": [
+        "portfolio",
+        "instagram",
+        "captions",
+        "social-media"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-006",
+      "title": "Wedding Photography Pricing Package Copy",
+      "prompt": "Act as a pricing strategist for Indian wedding photographers with experience positioning studios in the Rs. 1 lakh to Rs. 8 lakh range. I am a Delhi-based wedding photographer with 5 years experience and I need to rewrite my pricing page for my website. I currently offer 3 packages: Silver (Rs. 85,000), Gold (Rs. 1.75 lakh), and Platinum (Rs. 3.5 lakh). Please provide: (1) A compelling headline and sub-headline for the pricing page that communicates premium value, (2) Clear package names (not just metal tiers) that appeal to Indian couples, (3) For each package: inclusion bullets (hours covered, photographers, videographer, deliverables, album, pre-wedding, engagement, drone), (4) Clear outcome-focused descriptions for each tier (who this is for), (5) A comparison table format with checkmarks, (6) 3 testimonial placeholder prompts tailored to each tier, (7) FAQ section with 8 questions covering advance payment, travel, outstation charges, raw files, delivery timeline, reschedules, additional hours, GST, (8) A soft CTA above and a strong CTA below. Format as ready-to-paste website copy with HTML headings marked. Tone should be confident, warm, not pushy, and clearly justify the pricing without sounding defensive.",
+      "tags": [
+        "pricing-package",
+        "website-copy",
+        "wedding-photography"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-007",
+      "title": "Maternity Shoot Client Questionnaire",
+      "prompt": "Act as a maternity and newborn photographer in Pune with 6 years experience, charging Rs. 25,000 per maternity shoot. I need a pre-shoot questionnaire for expecting mothers to fill before the session so I can plan outfits, poses, and comfort. Here is the context: Most of my clients are first-time mothers between 28-34 weeks pregnant, from upper-middle-class Indian families, booking the shoot as a surprise gift or with their partner. Please provide: (1) Health and comfort questions (weeks pregnant on shoot day, any restrictions from gynaecologist, standing limits), (2) Concept direction questions (studio vs outdoor, traditional Indian vs western, moody vs bright), (3) Wardrobe guidance and what to bring (flowy gowns, saree drape, husband outfit coordination, baby ultrasound prints), (4) Family inclusion questions (partner, elder child, pets, parents), (5) Props and personal items (letters to baby, ultrasound, baby shoes, flowers), (6) Location preferences if outdoor (beach, garden, home setup), (7) Music, snacks, and break preferences for comfort, (8) Deliverables and timeline expectation. Format as a warm, reassuring Google Form with section intros that calm first-time-mom nerves. Include a short welcome message and a reminder of what I will provide on shoot day (changing room, water, light snacks, fan).",
+      "tags": [
+        "client-questionnaire",
+        "maternity",
+        "client-onboarding"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-008",
+      "title": "Editorial Fashion Shoot Shot List",
+      "prompt": "Act as an editorial fashion photographer based in Mumbai with 8 years experience shooting for Indian publications like Vogue India, Grazia, and Elle. I have been assigned a 12-page editorial spread for an Indian magazine featuring a homegrown designer's monsoon couture collection. The theme is \"Monsoon Romance\" shot across 2 days in Goa. Budget is Rs. 4 lakh including model, MUA, stylist, and 2 locations. Please provide: (1) A mood board direction brief referencing Indian and international inspirations, (2) Complete shot list for 12 editorial pages mixing full-length, portrait, detail, and environmental shots, (3) Outfit sequence and quick-change planning across 8 looks, (4) Location breakdown (beach house, tropical backwater, colonial Portuguese building) with time-of-day ideal for each, (5) Lighting approach per location (available light vs strobe vs continuous), (6) Model direction cues for editorial poses beyond the typical Indian commercial look, (7) Detail and accessory shot list, (8) Hair and makeup change plan with the MUA. Format as a production document with a shoot schedule timeline, call sheet outline, and risk contingencies for monsoon rain. Include 5 signature frames I should aim for that could end up as the cover or opener.",
+      "tags": [
+        "shot-list",
+        "editorial-photography",
+        "fashion",
+        "magazine"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-009",
+      "title": "Website About Page for Wedding Photographer",
+      "prompt": "Act as a brand copywriter specialising in premium Indian wedding photographer websites. I need to write a compelling About page for my photography studio website. Here is the context: I am a 32-year-old photographer from Chennai, 9 years in the industry, I shoot South Indian weddings across Kerala, Tamil Nadu, and destination weddings abroad. My style is documentary-candid with a warm filmic tone. I quit my IT job at Infosys in 2016 to follow photography full time. I have shot over 200 weddings and been featured in WedMeGood and WeddingSutra. Please provide: (1) A hero headline that captures my essence in one line, (2) A 150-word origin story that feels human, not corporate, (3) A \"My Approach\" section explaining how I work on wedding day (unobtrusive, emotion-first, minimal posing), (4) A \"What You Can Expect\" section with 4-5 client experience promises, (5) A \"Behind the Lens\" personal section (family, hobbies, coffee obsession, favourite films), (6) Awards and features block, (7) A warm closing invitation to book a consultation call. Format as ready-to-paste website copy with clear section headings. Tone should feel like a letter from a trusted friend, not a brochure, and reflect South Indian cultural warmth.",
+      "tags": [
+        "portfolio",
+        "website-copy",
+        "about-page",
+        "branding"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-010",
+      "title": "Newborn Shoot Planning Questionnaire",
+      "prompt": "Act as a newborn photographer in Gurgaon with 5 years experience shooting lifestyle and studio newborn sessions, charging Rs. 18,000 per session. I need a planning questionnaire for parents to fill out 1 week before their newborn shoot. Here is the context: My clients are parents of babies 5-14 days old, typically first-time parents, nervous about handling a newborn on a shoot. Please provide: (1) Baby basics questions (date of birth, weight, feeding schedule, any medical concerns, paediatrician clearance), (2) Shoot type preference (in-home lifestyle vs studio posed), (3) Colour palette preferences (neutrals, pastels, earthy, bold), (4) Sibling and pet inclusion questions, (5) Family outfit coordination guidance with a do/don't list for Indian families, (6) Props and heirlooms (nani's dupatta, dadaji's watch, letters), (7) Parent comfort questions (feeding privacy, photography of breastfeeding, C-section recovery limitations for mom), (8) Safety expectations and reassurances about how I handle baby. Format as a warm Google Form with a calming intro paragraph. Include a short pre-shoot checklist for the family (feed baby before, warm room, extra diapers, wipes) and set realistic expectations that sessions can take 2-3 hours because baby schedules rule the shoot.",
+      "tags": [
+        "client-questionnaire",
+        "newborn",
+        "client-onboarding"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-011",
+      "title": "Corporate Event Photography Shot List",
+      "prompt": "Act as a corporate event photographer in Bengaluru with 7 years experience shooting product launches, conferences, and award nights for Indian companies like Flipkart, Zomato, and Razorpay. I have been hired to shoot a 1-day tech conference with 800 attendees at a 5-star hotel. Fee is Rs. 45,000 for 8 hours of coverage plus same-day edit highlights. Please provide: (1) Pre-event detail shots (branding, registration area, stage, sponsor booths, welcome kits), (2) Registration and arrival candids, (3) Keynote and panel session shots (wide establishing, speaker close-up, engaged audience reactions, slide-plus-speaker composition), (4) Networking break candids (authentic laughs and handshakes, not posed), (5) Sponsor deliverable shots (logo visibility, booth interactions), (6) VIP and leadership group shots checklist, (7) Awards ceremony sequence if applicable, (8) Closing and wrap shots. Format as a time-block schedule from 8 AM to 6 PM with shot types per block. Include camera settings recommendations for tricky lighting (hotel ballroom mixed tungsten and LED), a list of lenses to carry (24-70, 70-200, 35 prime), and a 2-hour post-event turnaround plan for 20 highlight shots the marketing team can post same day.",
+      "tags": [
+        "shot-list",
+        "event-photography",
+        "corporate",
+        "conference"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-012",
+      "title": "Premiere Pro Wedding Film Editing Guide",
+      "prompt": "Act as a senior wedding film editor with 8 years experience cutting cinematic wedding films for studios similar to Stories by Joseph Radhik. I need a Premiere Pro editing SOP for my team of 2 junior editors so our 3-5 minute wedding highlight films have a consistent emotional arc and cinematic grade. Please provide: (1) Project setup (sequence settings, frame rate 24p, proxy workflow for 4K wedding footage), (2) Footage organisation and bin structure (ceremony, couple portraits, details, candids, interviews), (3) Story structure template for a 4-minute highlight (cold open, titles, getting ready, ceremony, emotional peak, reception, closing), (4) Music selection approach (licensed platforms like Musicbed, Artlist) and how to build cuts to music, (5) Lumetri color grading baseline for Indian skin tones and golden-hour warmth, (6) Audio mixing levels for music bed, natural sound, vows, and speeches, (7) Transition rules (what to avoid, what to use), (8) Export settings for client delivery, Instagram reel, and YouTube. Format as a step-by-step SOP with screenshot placeholders. Include 5 common junior-editor mistakes in Indian wedding films (over-cutting, wrong music choice, muddy audio, clashing LUTs, ignoring ritual significance) and how to avoid them.",
+      "tags": [
+        "premiere-pro",
+        "video-editing",
+        "wedding-film",
+        "editing-style-guide"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-013",
+      "title": "Pre-Wedding Package Pricing Sheet",
+      "prompt": "Act as a photography business consultant helping Indian pre-wedding photographers price their packages profitably. I am a Jaipur-based photographer with 4 years experience and I need to build a clear pricing sheet for my pre-wedding shoot offerings. My cost base includes my fee, assistant, editing time, travel, and props. Please provide: (1) 3 distinct pre-wedding packages priced at Rs. 30,000 (local Jaipur, half day), Rs. 60,000 (Jaipur full day 2 locations), and Rs. 1.1 lakh (2-day Udaipur destination), (2) Clear inclusions per package (hours, photographers, number of edited photos, reel, album, outfit changes, drone), (3) Add-on menu with INR prices (extra location Rs. 8,000, drone Rs. 5,000, second photographer Rs. 10,000, same-day teaser Rs. 7,000, cinematic film Rs. 25,000), (4) Travel and accommodation policy for outstation shoots, (5) Payment terms (50 percent advance, balance 1 week before shoot, GST clarity), (6) Cancellation and reschedule policy, (7) Delivery timeline and revision policy, (8) A sample quotation email template. Format as a clean PDF-ready pricing document with sections and a summary comparison table. Tone should be confident and transparent, avoiding any ambiguity that leads to scope creep.",
+      "tags": [
+        "pricing-package",
+        "pre-wedding",
+        "business"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-014",
+      "title": "Product Shoot Client Brief Questionnaire",
+      "prompt": "Act as a commercial product photographer in Mumbai with 8 years experience working with Indian D2C brands and e-commerce catalogs. I am onboarding a new client who wants to shoot their 15 SKU jewellery line for their Instagram and website. I need a detailed client brief questionnaire. Please provide: (1) Brand basics questions (brand story, target customer, tone, existing visual guidelines), (2) Shoot usage questions (website, Amazon, Instagram, ads, print) and output ratio requirements per channel, (3) Product information per SKU (material, size, weight, packaging, fragility), (4) Visual direction questions with reference image request (minimal white vs moody styled vs lifestyle), (5) Model requirement questions (ethnicity, age range, skin tone representation, paid usage rights), (6) Props and surface preferences, (7) Budget and timeline confirmation, (8) Deliverable format expectations (resolution, file type, retouching level, turnaround). Format as a structured Google Form document with section headers and example answers. Include a short scope-locking clause at the end that clarifies what is included vs paid revision so the photographer is protected from endless re-edits. Keep tone professional and collaborative to set the tone for a premium engagement.",
+      "tags": [
+        "client-questionnaire",
+        "product-photography",
+        "d2c-brands"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-015",
+      "title": "Instagram Reel Script for BTS Wedding",
+      "prompt": "Act as a short-form video strategist for Indian wedding photographers with experience growing accounts to 250K followers. I want to post a behind-the-scenes Instagram reel from a wedding I just shot in Udaipur at Taj Lake Palace. The reel should be 30-45 seconds, trending audio friendly, and position me as a premium photographer. Please provide: (1) 5 reel concept options (day-in-the-life, camera bag check, setup reveal, before-after edit, gear-chase), (2) Detailed shot-by-shot script for the top 2 concepts including what to film, camera angle, duration per clip, and voiceover or text overlay, (3) Suggested trending audio style to look for on Instagram, (4) Text overlay hooks for the first 2 seconds that stop scroll, (5) Caption options with CTA, (6) 20 relevant hashtags, (7) Posting time recommendation for Indian audience, (8) Cross-posting strategy to YouTube Shorts and stories. Format each reel concept as a numbered storyboard with timestamps. Tone should feel cinematic and aspirational, not gimmicky, to match a premium brand charging Rs. 3 lakh per wedding.",
+      "tags": [
+        "portfolio",
+        "instagram",
+        "reels",
+        "social-media"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-016",
+      "title": "Candid Photography Posing Cheat Sheet",
+      "prompt": "Act as a candid wedding photographer with 10 years experience capturing authentic moments at Indian weddings. I want to train my 2 junior photographers on how to coax candid-looking moments from camera-shy Indian couples and families. I need a practical posing and prompting cheat sheet they can memorise. Please provide: (1) 10 conversation prompts to get couples to laugh, look at each other, and relax (without saying \"smile\"), (2) 5 physical micro-direction cues (head tilt, hand placement, shoulder drop) that look natural, (3) Family group prompts to break stiffness especially with elders, (4) Prompts specifically for arranged-marriage couples who may not be physically comfortable yet, (5) How to work with self-conscious brides worried about a double chin or bad angle, (6) How to involve the groom who feels awkward on camera, (7) Emergency fix prompts when a group photo feels dead, (8) Cultural sensitivity notes for Indian family dynamics (avoiding PDA in front of elders, respecting traditional couples). Format as a laminate-ready one-page cheat sheet with bullet points my juniors can glance at during a wedding. Keep language simple, non-cheesy, and culturally appropriate for Indian weddings across regions.",
+      "tags": [
+        "shot-list",
+        "posing",
+        "candid-photography",
+        "training"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-017",
+      "title": "Destination Wedding Quote Proposal",
+      "prompt": "Act as a destination wedding photographer based in Goa with 8 years experience shooting weddings across Goa, Udaipur, Jim Corbett, and Phuket. I received an enquiry from a Mumbai couple planning a 3-day destination wedding in Udaipur in November with approximately 300 guests. They want coverage for Mehendi, Sangeet, and Wedding ceremony plus a pre-wedding shoot on the morning before. I need to send a formal proposal. Please provide: (1) A warm opening paragraph acknowledging their venue and vision, (2) A clear scope of work breakdown per event with hours and team size, (3) Detailed inclusions (2 photographers, 1 cinematographer, drone, albums, teaser reel, full gallery), (4) Investment summary with a total around Rs. 2.8 lakh including GST plus travel and stay to be arranged by client, (5) Deliverables timeline (teaser in 3 days, highlight reel in 2 weeks, full gallery in 6 weeks, album in 10 weeks), (6) Payment schedule (25 percent booking, 50 percent 30 days prior, 25 percent on wedding day), (7) Cancellation and reschedule clauses, (8) A personal closing CTA for a video call. Format as a ready-to-send PDF proposal with section headings. Tone should be premium, warm, and confident, positioning me as a partner not a vendor.",
+      "tags": [
+        "pricing-package",
+        "proposal",
+        "destination-wedding"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-018",
+      "title": "Influencer Brand Shoot Shot List",
+      "prompt": "Act as a content photographer in Mumbai with 5 years experience shooting brand collaborations for Indian Instagram influencers in the fashion and lifestyle space. I have been hired by an influencer with 400K followers for a brand shoot for a D2C footwear brand. Budget is Rs. 55,000 for a half-day shoot delivering 25 edited images and 5 reels. Please provide: (1) Pre-shoot mood board breakdown and 3 visual direction options aligned to the brand, (2) Outfit and look plan (3 looks covering casual, brunch, street), (3) Shot list covering hero brand visibility, lifestyle walking shots, detail close-ups of footwear, aspirational BTS, story-friendly verticals, (4) Location scouting plan across 2 Mumbai neighbourhoods (Bandra, Colaba), (5) Lighting approach and time blocks for natural light, (6) Reel concept ideas with transitions and music direction, (7) Brand deliverables checklist (logo visibility, product in every frame, usage rights), (8) Post-shoot delivery plan covering formats for influencer Instagram, brand repost, and paid ads. Format as a production document with a shoot-day timeline. Include a reminder of FTC and ASCI paid-partnership disclosure guidelines that apply to Indian influencer brand shoots.",
+      "tags": [
+        "shot-list",
+        "influencer",
+        "brand-shoot",
+        "content"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-019",
+      "title": "Photoshop Retouching Style Guide",
+      "prompt": "Act as a senior photo retoucher with 10 years experience working on Indian wedding and editorial images. I need a Photoshop retouching style guide for my team of 2 retouchers so every wedding portrait and editorial image I deliver has a consistent natural-premium finish. Please provide: (1) Skin retouching workflow using frequency separation calibrated for Indian skin tones across fair to deep ranges, (2) Dodge and burn approach for face sculpting without making the subject look plastic, (3) Blemish, stray hair, and flyaway cleanup rules (what to remove, what to leave for authenticity), (4) Teeth and eye enhancement limits so they look real, (5) Body shaping ethical limits (bride requests for waist slimming, arm fat) and how to communicate with clients, (6) Colour and wardrobe cleanup (removing tag marks, fixing saree pleats, removing undergarment lines through thin fabrics), (7) Background distractions cleanup (exit signs, wires, tourists), (8) Final sharpen and export settings for album print, Instagram, and client gallery. Format as a numbered SOP document with example before-after descriptions. Include 5 retouching mistakes that immediately look amateur on Indian wedding images and how to avoid them.",
+      "tags": [
+        "photoshop",
+        "retouching",
+        "editing-style-guide",
+        "wedding-editing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-020",
+      "title": "Wedding Brief Client Questionnaire",
+      "prompt": "Act as a wedding photographer in Delhi with 9 years experience shooting Punjabi, Marwari, and South Indian weddings. I need a comprehensive wedding brief questionnaire to send to every booked couple 4 weeks before their wedding so I can plan shot lists, logistics, and family dynamics. Please provide: (1) Basic logistics (dates, venues, travel, accommodation arrangement, POC on each event), (2) Event-by-event schedule template (Mehendi, Haldi, Sangeet, Wedding, Reception) with start time, end time, and key rituals, (3) Family and VIP key people list request (parents, siblings, grandparents, best friends, must-have group combinations), (4) Cultural ritual questions specific to their community so I can anticipate key moments, (5) Style preferences (candid heavy, traditional posed, cinematic filmic, editorial), (6) Must-have shots list prompt with examples, (7) Vendor coordination details (decorator, MUA, caterer, choreographer, DJ), (8) Pinterest or reference image sharing request, (9) Any sensitive situations to be aware of (recently deceased family member, family conflicts, divorced parents, special needs family members). Format as a structured Google Form with section intros. Include a warm closing note thanking them and a reminder that this questionnaire helps me tell their story better.",
+      "tags": [
+        "client-questionnaire",
+        "wedding-brief",
+        "client-onboarding"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-021",
+      "title": "Portfolio Website Hero Copy",
+      "prompt": "Act as a brand copywriter for premium Indian wedding and lifestyle photographers. I need hero section copy for my new portfolio website. Here is the context: I am a 35-year-old photographer based in Bengaluru with 11 years experience, style is timeless documentary with a filmic tone, I shoot weddings across India and have been featured in Vogue Wedding Book and Harper's Bazaar Bride. My average wedding booking is Rs. 3.5 lakh. Please provide: (1) 5 headline options ranging from poetic one-liner to benefit-led (under 12 words each), (2) A matching sub-headline for each option (under 25 words), (3) A 40-word supporting paragraph that establishes authority and style, (4) Primary CTA button text options (booking-focused and softer enquiry-focused), (5) Secondary CTA text options (view work, read stories), (6) A ticker or trust strip with placeholder logos and awards, (7) Recommendations for hero image treatment (full bleed, grid, slideshow) to match the copy. Format each option clearly labelled. Tone should feel confident, calm, and premium without being cold. Avoid cliches like \"capturing memories\", \"frozen moments\", or \"love stories\" and find fresher language that resonates with modern Indian couples.",
+      "tags": [
+        "portfolio",
+        "website-copy",
+        "hero-copy",
+        "branding"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-022",
+      "title": "Travel Photography Pitch Email",
+      "prompt": "Act as a travel photographer in India with 6 years experience shooting for Indian tourism boards and hotels like Taj, Oberoi, and The Postcard Hotel. I want to cold-pitch my services to 5 boutique Indian hotels I have researched (in Kashmir, Kerala, Ladakh, Rajasthan, and Goa) offering them a content creation package. Please provide: (1) A compelling subject line that gets opened, (2) A 150-word opening email that references something specific about the property and offers clear value, (3) A content package offer (3-day stay exchange plus Rs. 45,000 fee, deliverables of 40 edited photos, 3 reels, 1 hotel tour video), (4) A short credibility paragraph with 3 past clients and 2 publications, (5) A clear low-friction CTA, (6) A follow-up email template to send after 5 days if no reply, (7) A second follow-up 10 days later, (8) A portfolio link and one-line PS with a strong hook. Format each email with subject line and body. Tone should be confident, respectful, and specific to the property. Include 3 tips on how to personalise the pitch so it does not feel like a mass email, and how to find the right marketing person on LinkedIn to send it to.",
+      "tags": [
+        "portfolio",
+        "pitch-email",
+        "travel-photography",
+        "outreach"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-023",
+      "title": "Studio Booking Confirmation Email",
+      "prompt": "Act as a client experience specialist for Indian photography studios. I need a warm booking confirmation email template that I can send every time a client locks in a wedding date after paying the advance. Here is the context: I run a Pune-based wedding photography studio with 3 photographers, average package Rs. 1.8 lakh, and we want clients to feel taken care of from the moment they book. Please provide: (1) A subject line that feels personal, (2) A warm opening congratulating them on the engagement, (3) Booking confirmation details (dates blocked, package, advance received, balance due), (4) Next steps laid out clearly (questionnaire to fill, consultation call scheduling, vendor coordination), (5) What to expect in the lead-up (pre-wedding shoot timing, timeline planning call, shot list discussion), (6) A reassurance paragraph addressing common first-time-client anxieties, (7) Key contact details and response time expectations, (8) A gentle nudge to follow on Instagram and share our recent work. Format as a ready-to-send email with dynamic fields like [Client Name] and [Wedding Date]. Tone should feel like a warm welcome to the family, not a transactional receipt. Include a brief signature block with team photo and Instagram link.",
+      "tags": [
+        "client-questionnaire",
+        "email-template",
+        "onboarding"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-024",
+      "title": "Pre-Wedding Location Scouting Guide",
+      "prompt": "Act as a pre-wedding photographer with 8 years experience scouting locations across Jaipur, Udaipur, Kashmir, Kerala, and Goa. I need a reusable location scouting guide I can give my assistant to recce new locations before a shoot. Please provide: (1) A location evaluation checklist (light direction across day, background clutter, crowd levels, permit requirements, accessibility for couple's outfits), (2) Golden hour and blue hour timing per season for each of the 5 regions, (3) Permit and entry fee research prompts with typical INR ranges per location (Rs. 500 to Rs. 15,000), (4) Safety and comfort considerations (washrooms, shade, water, security), (5) Backup location plan for weather contingencies, (6) Equipment logistics for hard-to-reach spots (boat access in Kerala backwaters, high altitudes in Kashmir), (7) Ideal time to shoot to avoid tourist crowds, (8) A sample recce report format with photos and notes. Format as a reusable template document my assistant can fill per location. Include a list of 15 underrated locations across the 5 regions that are not over-shot on Instagram and would give my clients distinctive frames compared to the usual City Palace or Taj Lake Palace backdrops.",
+      "tags": [
+        "shot-list",
+        "location-scouting",
+        "pre-wedding"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-025",
+      "title": "Wedding Album Design Brief",
+      "prompt": "Act as a wedding album designer with 7 years experience designing premium photobook albums for Indian wedding photographers. I need a detailed album design brief template I can send to my album designer after culling a wedding gallery, so the first draft comes back closer to final. Here is the context: Typical album is 30 spreads (60 pages), 12x12 inches, leather cover, delivered 10 weeks after the wedding. Please provide: (1) Client info and preferences summary (style, colour palette, favourite images), (2) Story structure per section (opening, getting ready, ceremony, portraits, reception, closing), (3) Must-include images list with reasoning, (4) Images to avoid or de-emphasise, (5) Layout style direction (minimal single-image spreads vs busy collages, white space vs full bleed), (6) Cover image brief and text engraving details (names, date, venue), (7) Colour grading consistency notes referencing my Lightroom preset, (8) Revision rounds policy (2 rounds included, additional rounds charged). Format as a one-page brief document my designer can work from. Include a spread-count allocation guide across sections so no part of the wedding is under- or over-represented, and a checklist the designer ticks before sending the first draft.",
+      "tags": [
+        "shot-list",
+        "album-design",
+        "wedding-photography"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-026",
+      "title": "Fashion Lookbook Shoot Shot List",
+      "prompt": "Act as a fashion photographer in Mumbai with 7 years experience shooting lookbooks for Indian designers and D2C fashion brands. I have been hired by an emerging designer for a 20-outfit lookbook shoot. Budget is Rs. 1.5 lakh for a 1-day studio plus rooftop shoot. Please provide: (1) Pre-shoot planning including mood board alignment, model casting brief, MUA brief, and stylist brief, (2) Studio shot list covering clean e-commerce style front, back, side, and detail per outfit, (3) Editorial rooftop shot list for hero lifestyle images per look, (4) Lighting setup recommendations for each, (5) Time-block shoot schedule across 10 hours accounting for 20 outfit changes, (6) Detail and accessory shot list, (7) Model direction cues per look (confident, soft, playful, dramatic), (8) Deliverable breakdown by usage (website product page, lookbook PDF, Instagram feed, email campaigns). Format as a production document with a summary schedule. Include a risk plan if the rooftop shoot is rained out and we need to recreate the lifestyle vibe indoors. Add a client approval checkpoint after the first 3 outfits to align with their expectations before committing to the full 20.",
+      "tags": [
+        "shot-list",
+        "fashion",
+        "lookbook",
+        "studio"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-027",
+      "title": "Google Business Profile Description",
+      "prompt": "Act as a local SEO specialist for Indian photography businesses. I need an optimised Google Business Profile description for my photography studio so I rank higher when people in my city search for wedding or pre-wedding photographers. Here is the context: I am a Kochi-based photographer specialising in Kerala Christian and Hindu weddings, 6 years experience, team of 3, service area Kochi, Trivandrum, Alleppey, Munnar, Wayanad. My packages start at Rs. 75,000. Please provide: (1) A 750-character business description optimised for local search, (2) 5 primary service keywords to include (wedding photographer Kochi, pre-wedding shoot Kerala etc), (3) Service category recommendations for GMB, (4) 10 high-intent attribute tags to add, (5) A posting schedule suggestion for GMB updates (weekly, monthly), (6) 5 Google Post templates I can reuse (client testimonial, recent shoot, pricing offer, seasonal reminder, behind the scenes), (7) 10 sample FAQ questions and answers to pre-populate in the Q&A section, (8) A review response template for 5-star and 3-star reviews. Format clearly with each deliverable labelled. Keep tone local, warm, and credible, and make sure the description is within Google's 750-character limit without feeling stuffed with keywords.",
+      "tags": [
+        "portfolio",
+        "local-seo",
+        "google-business"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-028",
+      "title": "Drone Coverage Add-On Pricing",
+      "prompt": "Act as a photography and drone business consultant for Indian wedding studios. I need to productise my drone coverage as a clear add-on service with tiered pricing. Here is the context: I own a DJI Mavic 3 and I am DGCA-certified with a remote pilot licence, shoots mostly in Rajasthan and Kerala. Please provide: (1) 3 drone add-on packages at Rs. 8,000 (single event aerial coverage), Rs. 18,000 (full wedding aerial coverage across all events), and Rs. 35,000 (premium aerial cinematic film with custom edit), (2) Inclusion bullets per tier (flight time, edited aerials, drone reel, raw clips), (3) DGCA permission and no-fly zone disclaimer language for venues near airports, (4) Client education copy explaining why drone is not always possible (rain, wind, no-fly zones like near Jaipur airport or Kochi airport), (5) Equipment and insurance notes to build trust, (6) Upsell script the sales team can use when a client books the base wedding package, (7) Portfolio description copy for drone service page on my website, (8) Sample client testimonial template to collect after each drone shoot. Format as a productised service document. Tone should be clear, premium, and educative so clients understand the value and regulatory realities.",
+      "tags": [
+        "pricing-package",
+        "drone",
+        "add-on-service"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-029",
+      "title": "Haldi Shoot Shot List and Prep",
+      "prompt": "Act as a candid wedding photographer with 8 years experience shooting Haldi ceremonies across North and South Indian weddings. I am shooting a Haldi for a Marathi bride in Pune next week and I want a focused shot list so I do not miss key moments in the high-energy mess of turmeric and water. Please provide: (1) Pre-ceremony detail shots (haldi paste, copper pots, flowers, traditional attire, banana leaves), (2) Bride's entry and getting-ready candid prompts, (3) Ritual sequence shots (applying haldi, family blessings, sisters teasing, mom emotional moments), (4) Group family candids during the ceremony, (5) Post-haldi playful shots (water splash, balloon fight, flower throwing), (6) Environmental wide shots capturing the yellow colour chaos, (7) Protective gear checklist for my camera (rain cover, plastic sleeve, microfiber, silica gel, backup body), (8) Lens and settings recommendation for outdoor haldi in harsh midday light. Format as a pre-shoot prep document with a shot-by-shot order flow. Include 5 signature Haldi frames that tend to get picked by publications like WedMeGood and Cupcake Productions so I know which hero frames to prioritise.",
+      "tags": [
+        "shot-list",
+        "haldi",
+        "indian-wedding",
+        "candid-photography"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-030",
+      "title": "Food Photography Shot List for Restaurant",
+      "prompt": "Act as a food photographer in Bengaluru with 6 years experience shooting menus for Indian restaurants, cloud kitchens, and cafes. I have been hired by a new Bengaluru restaurant to shoot their 45-item menu across appetisers, mains, desserts, and beverages. Budget is Rs. 70,000 for 2 days on location. Please provide: (1) Pre-shoot styling and prop plan (crockery, linen, cutlery, ingredients) suitable for modern Indian fine dining, (2) Shot list per category with hero angles (45 degree for layered dishes, overhead for flat dishes, straight on for beverages and burgers), (3) Lighting plan using window light plus continuous LED, (4) Restaurant ambience shot list (interiors, chef in action, plating process, happy guests), (5) Menu sequence and grouping strategy to minimise plate reheats and save kitchen time, (6) Chef and styling collaboration checklist to ensure dishes look their best on camera, (7) Deliverable breakdown for Zomato, Swiggy, Instagram, menu card, and website with required dimensions, (8) Post-production timeline. Format as a 2-day production schedule with time blocks and a kitchen call sheet. Include 5 common food photography mistakes Indian restaurant owners hate (wilted garnish, cold curry shine loss, cluttered background) and how to prevent them.",
+      "tags": [
+        "shot-list",
+        "food-photography",
+        "restaurant"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-031",
+      "title": "Client Gallery Delivery Email",
+      "prompt": "Act as a client experience specialist for Indian wedding photographers. I need a warm client gallery delivery email I can send when I hand over the final edited wedding gallery to a couple. Here is the context: I deliver via Pixieset, 800-1200 edited images, password-protected, with client print shop enabled for additional revenue. Please provide: (1) A subject line that creates excitement to open, (2) A warm opening paragraph reflecting on the wedding day, (3) Clear instructions to access the gallery (link, password, download instructions for web and mobile), (4) Sharing etiquette and tagging request (tag me, tag venue, tag vendors when posting), (5) Print and album upgrade soft upsell explaining the print shop and album options with INR ranges, (6) Review request ask with a direct Google review and WedMeGood review link, (7) Referral ask language that feels gracious not pushy, (8) A closing note thanking them and inviting them back for future milestones (anniversary, maternity, newborn). Format as a ready-to-send email with dynamic fields. Tone should feel like a heartfelt thank-you letter that also subtly opens up future revenue streams without making the couple feel monetised.",
+      "tags": [
+        "client-questionnaire",
+        "email-template",
+        "gallery-delivery"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-032",
+      "title": "Capture One Editing Workflow SOP",
+      "prompt": "Act as a senior commercial photographer with 12 years experience using Capture One Pro for product and fashion shoots for Indian D2C brands. I need a tethered shooting and editing workflow SOP for my team of 2 assistants so studio days run smoothly and clients approve in real time. Please provide: (1) Tethered studio setup (cable, wifi bridge, laptop specs, backup strategy), (2) Session and capture folder structure, (3) Live client review workflow (collections, star rating, colour tagging), (4) Colour calibration using X-Rite ColorChecker Passport and custom ICC profiles for each session, (5) Styles and presets application for fast rough edits live on set, (6) Skin tone adjustments for Indian complexions including Kelvin temperature base values for studio strobes, (7) Capture One to Photoshop round trip for retouching, (8) Export recipes for Amazon, Myntra, Instagram, website, and client proof PDF. Format as a step-by-step SOP document. Include a fallback plan if tether fails mid-shoot and live-review is lost, and 3 common Capture One mistakes junior assistants make that slow down the shoot (wrong session root, missing colour profile, overwriting variants).",
+      "tags": [
+        "editing-style-guide",
+        "capture-one",
+        "product-photography",
+        "workflow"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-033",
+      "title": "Cinematic Wedding Film Treatment",
+      "prompt": "Act as a cinematographer and director specialising in cinematic Indian wedding films with 9 years experience crafting films similar to The Wedding Filmer style. I have booked a high-budget Marwari wedding in Udaipur with a Rs. 6 lakh wedding film package and I need to create a director's treatment document to align with the couple and my team before the shoot. Please provide: (1) A 3-line film logline that captures the couple's story, (2) Tonal direction and visual references (films, poems, music) that inspire the treatment, (3) Story structure across the 3-day wedding with a clear emotional arc, (4) Key sequences and hero moments per event, (5) Cinematography approach (anamorphic vs spherical, handheld vs stabilised, aerial, slider), (6) Sound design plan (ambient audio, vows recording, interviews with parents and friends, voiceover narration from the couple), (7) Music direction (classical Indian, orchestral, lo-fi Hindi) with 3 track references, (8) Deliverable structure (3-minute teaser, 8-minute highlight, full-length ceremony film, Instagram reel edits). Format as a director's treatment PDF with section headings. Tone should feel like a creative vision document, not a checklist, and inspire confidence that the Rs. 6 lakh fee is being invested in thoughtful filmmaking.",
+      "tags": [
+        "premiere-pro",
+        "wedding-film",
+        "director-treatment",
+        "cinematography"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-034",
+      "title": "Event Highlight Portfolio Write-Up",
+      "prompt": "Act as a portfolio copywriter for Indian photographers. I need a long-form portfolio write-up for a recent wedding I shot, to publish on the \"Stories\" section of my website and submit to WedMeGood Real Weddings. Here is the context: I shot a Gujarati wedding in Goa at Alila Diwa, 3-day affair with Pithi, Sangeet, and Wedding, bride is a fashion designer and groom is an F&B entrepreneur, they met during college in London and had a love-meets-arranged story. Please provide: (1) An evocative 60-word intro hook for the top of the story, (2) A \"How They Met\" section (120 words), (3) A day-wise breakdown covering each event with key details the couple shared (outfit designer credits, food menu highlights, decor inspiration, favourite moments), (4) Vendor credits block with typical Indian wedding vendor categories, (5) A \"Favourite Moment from the Photographer\" personal note (100 words), (6) Quote boxes with 3 quotes from the bride and groom, (7) A closing CTA inviting couples to enquire, (8) SEO meta title and description for the blog post. Format as a ready-to-paste blog article. Tone should feel editorial and cinematic, like a Vogue Wedding Book feature, not a vendor listing.",
+      "tags": [
+        "portfolio",
+        "blog-post",
+        "real-wedding"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-035",
+      "title": "Corporate Headshot Session Guide",
+      "prompt": "Act as a corporate headshot photographer in Bengaluru with 5 years experience shooting for Indian tech companies and C-suite executives. I have been hired by a startup to shoot headshots for their 40-person team across a 1-day on-site session, charging Rs. 60,000. I need a session planning and client guide document. Please provide: (1) Pre-shoot client communication covering scheduling of 40 people in 5-minute slots, (2) Participant prep guide (what to wear, grooming tips, what to bring, avoiding patterns and logos), (3) On-site setup requirements (backdrop, lighting, space, power), (4) Shot list per person (straight-on professional, 3/4 angle, arms-crossed confident, candid desk, team group), (5) Posing and prompting cheat sheet to help camera-shy engineers relax in 5 minutes, (6) Quick colour correction and retouch workflow to deliver a preview same day, (7) Deliverable format per person (LinkedIn 1:1, website hero, Slack avatar) with file naming convention, (8) Post-session delivery plan and selection process. Format as a production guide document. Include 5 common mistakes startups make when booking headshot sessions (rushed schedule, no briefing, inconsistent outfits) and how my guide prevents those problems so I look like a proactive pro.",
+      "tags": [
+        "shot-list",
+        "corporate-headshots",
+        "event-photography"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-036",
+      "title": "Mehendi Ceremony Candid Shot List",
+      "prompt": "Act as a candid wedding photographer with 7 years experience shooting Mehendi ceremonies for North Indian weddings. I am shooting a Punjabi Mehendi at a Delhi farmhouse with 200 guests and I want a focused shot list that captures the relaxed colourful vibe without missing key moments. Please provide: (1) Pre-ceremony detail shots (mehendi cones, floral jewellery, decor, welcome drinks, platters, props like mirror flower trays), (2) Bride's entry and reactions when she sees her setup, (3) Mehendi application detail shots (henna patterns forming, bride's hands, feet, face expressions while getting it done), (4) Family and friends candids (dhol, dance, teasing moments), (5) Hidden-name reveal with the groom's name in the henna, (6) Group shots with best friends and cousins in a playful way, (7) Environmental wide shots with Mehendi artists, flowers, decor capturing the vibe, (8) Sunset and golden-hour couple and family portraits if the timing allows. Format as a time-block shot list from start to end of the event. Include 5 signature Mehendi frames that publications love and advice on how to stay unobtrusive in the intimate family space while still getting intimate candids.",
+      "tags": [
+        "shot-list",
+        "mehendi",
+        "indian-wedding",
+        "candid-photography"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-037",
+      "title": "Photography Studio Annual Pricing Update",
+      "prompt": "Act as a photography business consultant helping Indian wedding studios raise prices annually without losing bookings. I run a 3-photographer wedding studio in Hyderabad, average booking is Rs. 1.5 lakh, and I want to raise my prices by 15-20 percent for the next wedding season starting October. I need a communication and pricing update plan. Please provide: (1) A pricing audit framework (current cost per wedding, profit margin, comparable competitors, demand signals) that justifies the hike, (2) New pricing tiers with revised inclusions (Rs. 1.75 lakh, Rs. 2.5 lakh, Rs. 3.75 lakh) and what I add to justify the premium, (3) A grandfathering policy for enquiries already in pipeline, (4) An announcement email to existing leads telling them to book at old prices before September, (5) A social media announcement for Instagram explaining the upgrade, (6) A website copy refresh for the pricing page, (7) A sales objection handling script for enquiries who push back on the new prices, (8) KPIs to track (enquiry-to-booking ratio, average package value, lead quality) for 3 months post-update. Format as an action plan with timeline. Tone should be confident and value-led, never apologetic, and position the raise as an investment in better quality.",
+      "tags": [
+        "pricing-package",
+        "business",
+        "pricing-strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-038",
+      "title": "Jewellery Product Photography SOP",
+      "prompt": "Act as a jewellery product photographer in Jaipur with 9 years experience shooting for Indian jewellery brands like Tanishq, Amrapali, and Kalyan. I need a comprehensive studio SOP for my 2 assistants so we can shoot 200+ jewellery SKUs per week with consistent quality. Please provide: (1) Studio setup for jewellery (macro lens, focus stacking setup, diffusion tent, polariser filter, turntable), (2) Lighting diagrams for gold, silver, polki, kundan, and diamond jewellery each requiring different light treatment, (3) Styling and cleaning protocol (microfiber, gloves, compressed air, blue-tack, fishing line, acrylic blocks) to manage fingerprints and dust, (4) Shot list per SKU (hero front, 3/4 angle, back, detail of stone, lifestyle on velvet, scale reference on hand model), (5) Colour accuracy workflow using ColorChecker and custom ICC, (6) Focus stacking workflow in Capture One plus Helicon Focus, (7) Retouching checklist per image (reflections, dust, colour match, symmetry), (8) Export recipes for e-commerce, print catalog, and social. Format as an SOP document with diagrams marked as placeholders. Include 5 common jewellery photography mistakes (wrong white balance for gold, flat lighting on diamonds, focus miss on small stones) and how the SOP prevents them.",
+      "tags": [
+        "editing-style-guide",
+        "jewellery-photography",
+        "product-photography",
+        "workflow"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-039",
+      "title": "Photographer Instagram Bio and Link Tree",
+      "prompt": "Act as a social media strategist for Indian creative professionals. I need an optimised Instagram bio and Linktree setup for my photography account. Here is the context: I am a Mumbai-based wedding and pre-wedding photographer, 4 years experience, 18K followers, style is filmic-documentary, packages start at Rs. 60,000, I want more destination wedding enquiries. Please provide: (1) 5 Instagram bio options within the 150-character limit that clearly say what I do, who I serve, and include a strong CTA, (2) A name field suggestion with a keyword for search, (3) Highlight cover order and titles (client love, weddings, pre-weddings, pricing, about me, BTS, reviews), (4) Linktree or direct link structure with priority order of links (enquire, pricing, portfolio, real weddings, WhatsApp), (5) Pinned posts strategy (3 best posts to pin for first-time visitors), (6) Story highlights refresh checklist monthly, (7) A profile picture and bio link CTA that converts viewers to enquirers, (8) Monthly audit checklist to keep the profile fresh. Format each deliverable clearly. Tone should feel premium, not salesy, and position me clearly as someone who services destination weddings across India and abroad.",
+      "tags": [
+        "portfolio",
+        "instagram",
+        "bio",
+        "social-media"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    },
+    {
+      "id": "design-photographers-040",
+      "title": "Engagement Shoot Mood Board Brief",
+      "prompt": "Act as a pre-wedding photographer with 6 years experience crafting mood boards before engagement shoots for Indian couples. I have an engagement shoot booked next month in Coorg with a couple from Bengaluru and I want to create a mood board brief to align on visuals before we show up on location. Budget is Rs. 50,000 for a half-day shoot. Here is the context: The couple is a 30-year-old architect and 28-year-old UX designer, both love coffee and books, they want a soft earthy aesthetic, not glitzy. Please provide: (1) A 50-word creative vision statement anchoring the shoot's mood, (2) 6 visual reference buckets (couple wardrobe, pose style, location composition, lighting mood, colour palette, props) with 3-word descriptors each, (3) A colour palette with 5 earthy hex codes appropriate for Coorg coffee estates, (4) Wardrobe guidance and what to avoid (no clashing bright colours, no logos, accessories to bring), (5) Location-specific shooting windows in Coorg (early morning mist, afternoon canopy light, golden hour clearings), (6) 8 pose and prompt ideas aligned to the aesthetic (reading together, pouring coffee, walking through estate rows, candid laughs), (7) A short shot list matching the mood, (8) A delivery timeline (20 edited photos in 10 days, 1 reel in 14 days). Format as a shareable mood board brief document. Tone should feel collaborative and visually rich.",
+      "tags": [
+        "shot-list",
+        "mood-board",
+        "engagement-shoot",
+        "pre-wedding"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "photographers"
+    }
+  ]
+}

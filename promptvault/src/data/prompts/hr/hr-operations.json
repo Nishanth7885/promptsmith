@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "hr-hr-operations-001",
+      "title": "Draft Comprehensive Leave Policy for Indian Company",
+      "prompt": "Act as a senior HR policy consultant with 12 years of experience drafting employee policies for Indian mid-sized companies (200-500 employees). I need you to draft a complete Leave Policy for a Bangalore-based IT services company registered under the Karnataka Shops & Establishments Act. The policy must cover: (1) Earned Leave / Privilege Leave (minimum 18 days as per Karnataka S&E Act), (2) Casual Leave (7 days), (3) Sick Leave (12 days), (4) Maternity Leave (26 weeks as per Maternity Benefit Amendment Act 2017), (5) Paternity Leave (5 days), (6) Bereavement Leave, (7) Marriage Leave, (8) Compensatory Off rules, (9) Leave encashment and carry-forward rules, and (10) Leave application workflow via Darwinbox/Keka. Include eligibility criteria (probation vs confirmed), approval matrix (reporting manager, HRBP, department head), documentation required (medical certificates for SL above 2 days), and blackout periods during critical business quarters. Provide clear definitions, accrual methodology (monthly vs annual credit), and handling of unapproved absences. Format the output as a formal policy document with numbered sections, effective date placeholder, version control, and a brief FAQ at the end. Ensure language is clear, gender-neutral, legally compliant, and suitable for Darwinbox upload. Flag any provisions where state-specific variations apply if the company expands to Maharashtra or Tamil Nadu.",
+      "tags": [
+        "leave-policy",
+        "handbook",
+        "karnataka-s-and-e",
+        "maternity",
+        "darwinbox"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-002",
+      "title": "Create POSH Policy Aligned with 2013 Act",
+      "prompt": "Act as a POSH (Prevention of Sexual Harassment) compliance specialist with 10 years of experience advising Indian corporates. I need you to draft a complete POSH Policy for a 350-employee fintech company headquartered in Mumbai with remote employees across India. The policy must be fully compliant with the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 and the 2013 Rules. Include the following sections: (1) Purpose, scope, and applicability (including contractors, interns, visitors, and remote workers), (2) Clear definition of sexual harassment with illustrative examples including digital/virtual harassment on Slack, Teams, email, (3) Constitution of the Internal Committee (IC) with minimum 4 members, presiding officer (senior woman), external member from NGO, minimum 50 percent women, (4) Complaint filing process with 3-month timeline from incident, (5) Inquiry procedure with 90-day resolution, (6) Interim relief provisions, (7) Confidentiality obligations under Section 16, (8) Penalties for false complaints, (9) Mandatory annual report filing with District Officer, (10) Prohibition of retaliation. Include a sample complaint form, IC contact details placeholder, and annual training calendar. Format as a formal policy document with numbered clauses, definitions section, and an acknowledgment form for employees to sign during onboarding via greytHR.",
+      "tags": [
+        "posh",
+        "compliance",
+        "handbook",
+        "internal-committee",
+        "mumbai"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-003",
+      "title": "Draft Work From Home Policy Post-Pandemic",
+      "prompt": "Act as an HR operations manager with 8 years of experience in hybrid workforce policies for Indian tech companies. I need you to draft a comprehensive Work From Home (WFH) and Hybrid Work Policy for a Pune-based SaaS company with 180 employees. The policy should cover: (1) Eligibility criteria by role and tenure (minimum 6 months tenure, excluded roles like reception/lab), (2) WFH request and approval workflow via Zoho People, (3) Minimum in-office days per week (e.g., 3 days), (4) Core hours (11 AM to 4 PM IST) and flexibility windows, (5) Home office setup requirements (reliable internet minimum 50 Mbps, ergonomic chair, dedicated workspace), (6) Company-provided equipment (laptop, monitor, headset) and reimbursement limits in INR, (7) Data security and VPN usage, (8) Attendance marking and productivity expectations, (9) Communication protocols (camera-on meetings, response SLAs on Slack), (10) Expense reimbursement for internet/electricity (monthly allowance in INR). Address state-specific Shops & Establishments Act compliance for working hours. Include disciplinary provisions for misuse, right to recall to office, and periodic policy review clauses. Format as a formal policy with effective date, applicability, definitions, and an employee declaration form. Keep language professional, unambiguous, and ready for Keka handbook module upload.",
+      "tags": [
+        "wfh-policy",
+        "hybrid-work",
+        "handbook",
+        "zoho-people",
+        "pune"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-004",
+      "title": "Design Employee Onboarding Handbook Section",
+      "prompt": "Act as an HR onboarding specialist with 9 years of experience designing new-hire experiences for Indian startups. I need you to draft the complete Onboarding section of the employee handbook for a Gurgaon-based D2C brand with 120 employees. The section must cover: (1) Pre-joining formalities (offer acceptance, document checklist including PAN, Aadhaar, educational certificates, relieving letter, Form 16, passport-size photos), (2) Day 1 welcome process (ID card, laptop allocation, workstation setup, welcome kit), (3) First week orientation schedule with sessions on company history, values, org structure, products, (4) Mandatory compliance training (POSH, Code of Conduct, Information Security, Anti-Bribery), (5) Buddy program assignment, (6) Introduction to greytHR for payroll, leave, and reimbursement, (7) PF/ESI/UAN activation steps, (8) Bank account and salary account opening, (9) Probation period expectations (6 months) and confirmation process, (10) 30-60-90 day check-ins with HRBP and manager. Include a sample Day 1 to Day 30 calendar template, onboarding feedback form after 15 days, and a checklist HR can use to track completion. Format as a handbook chapter with numbered subsections, tables for document checklists, and a friendly yet professional tone that reflects the company culture. Make it ready for publication on the intranet.",
+      "tags": [
+        "onboarding",
+        "handbook",
+        "greytHR",
+        "new-hire",
+        "gurgaon"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-005",
+      "title": "Write Code of Conduct for Indian Workplace",
+      "prompt": "Act as an HR compliance advisor with 11 years of experience in workplace ethics for Indian companies. I need you to draft a comprehensive Code of Conduct (COC) document for a Hyderabad-based pharmaceutical company with 600 employees. The COC must include: (1) Purpose and applicability to all employees, contractors, consultants, (2) Core values and expected behaviors, (3) Professional conduct standards (punctuality, attire, workplace communication), (4) Conflict of interest disclosure requirements, (5) Anti-bribery and anti-corruption (aligned with Prevention of Corruption Act), (6) Gifts and hospitality limits (monetary thresholds in INR), (7) Confidentiality of company and client information, (8) Social media guidelines (personal opinions, brand mentions), (9) Use of company assets (laptops, vehicles, stationery), (10) Non-discrimination and equal opportunity, (11) Whistleblower protection mechanism, (12) Disciplinary action framework (verbal warning, written warning, suspension, termination) aligned with Industrial Disputes Act procedures. Include acknowledgment clauses, reporting channels (ethics hotline, HR email), and investigation procedures. Format as a formal policy with numbered clauses, definitions, examples of violations, and an employee signature page. Ensure language is clear, legally defensible, and suitable for inclusion in the employee handbook distributed via Darwinbox during onboarding.",
+      "tags": [
+        "code-of-conduct",
+        "handbook",
+        "ethics",
+        "compliance",
+        "hyderabad"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-006",
+      "title": "Create Dress Code Policy Handbook Section",
+      "prompt": "Act as an HR policy writer with 7 years of experience in Indian corporate environments. I need you to draft a Dress Code Policy for a Chennai-based financial services company with 250 employees operating from a corporate office and occasionally meeting clients. The policy must include: (1) Purpose and applicability, (2) Business formal attire expectations for client-facing roles (Monday to Thursday), (3) Business casual guidelines for non-client days and Fridays, (4) Ethnic wear acceptance (sarees, salwar kameez, kurta-pyjama) as standard professional attire, (5) Festival and cultural celebration flexibility (Diwali, Pongal, Eid), (6) Grooming standards (hair, beard, nails, hygiene), (7) Prohibited items (ripped jeans, slippers, shorts, tank tops, offensive graphics), (8) Footwear expectations, (9) Accessibility accommodations for employees with disabilities, (10) Religious attire accommodation (turbans, hijab, kada, cross, bindi) protected under constitutional rights, (11) Consequences for repeated violations. Include examples of acceptable and unacceptable attire with clear descriptions (no images needed), manager discretion guidance, and a mechanism to raise concerns without retaliation. Format as a handbook section with numbered clauses, tables comparing formal vs casual, and a respectful, inclusive tone. Ensure language is gender-neutral and culturally sensitive to India's diverse workforce.",
+      "tags": [
+        "dress-code",
+        "handbook",
+        "inclusion",
+        "chennai",
+        "corporate-attire"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-007",
+      "title": "Draft Exit Interview Question Bank",
+      "prompt": "Act as an HR analytics and retention specialist with 10 years of experience in Indian IT/ITES companies. I need you to create a comprehensive Exit Interview Question Bank for a Bangalore-based product company with annual attrition of 22 percent. The question bank must include 40 questions organized into 6 sections: (1) Reasons for leaving (primary and secondary, push vs pull factors, competing offer details including new CTC range in INR and location), (2) Job role and responsibilities (clarity, workload, growth), (3) Manager effectiveness (feedback quality, support, 1:1 frequency, psychological safety), (4) Compensation and benefits (market competitiveness, perceived fairness, benefits utilization), (5) Learning and career growth (training availability, promotion fairness, internal mobility), (6) Culture and work environment (team dynamics, inclusion, WLB, hybrid policy, festivals celebrated). Include a mix of closed-ended (Likert 1-5), open-ended, and ranking questions. For each question, specify the intent (what signal it captures), and flag 5 questions that must be asked verbally by HRBP (not in the form) to get honest answers. Add a disclaimer about confidentiality, a consent clause for aggregated reporting, and a final \"Would you recommend this company on Glassdoor/LinkedIn?\" NPS-style question. Format as a structured document ready for upload to Darwinbox exit module.",
+      "tags": [
+        "exit-interview",
+        "attrition",
+        "retention",
+        "darwinbox",
+        "questionnaire"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-008",
+      "title": "Build Grievance Handling SOP for HR Team",
+      "prompt": "Act as an HR operations lead with 9 years of experience in employee relations at Indian manufacturing and services firms. I need you to draft a Grievance Handling Standard Operating Procedure (SOP) for a 400-employee company in Noida. The SOP must outline: (1) Definition of grievance (individual vs collective, work-related vs interpersonal, formal vs informal), (2) Channels for raising grievances (direct manager, HRBP, grievance portal on Keka, anonymous hotline, written letter to HR Head), (3) Escalation matrix with 4 levels (manager, HRBP, HR Head, Grievance Committee), (4) Timelines for acknowledgment (24 hours), investigation (7 working days), and resolution (15 working days), (5) Documentation requirements at each stage, (6) Confidentiality protocols, (7) Investigation procedure including witness interviews and evidence gathering, (8) Appeal mechanism to CHRO if employee is dissatisfied, (9) Non-retaliation guarantee, (10) Linkage to POSH IC for sexual harassment cases and to Ethics Committee for COC violations, (11) Monthly grievance MIS reporting to leadership. Include templates for grievance registration form, acknowledgment email, investigation report, and resolution letter. Format as a step-by-step SOP with flowchart description, RACI matrix (Responsible, Accountable, Consulted, Informed) for each stage, and KPIs for tracking effectiveness. Align with Industrial Disputes Act principles of natural justice.",
+      "tags": [
+        "grievance",
+        "sop",
+        "employee-relations",
+        "keka",
+        "industrial-disputes-act"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-009",
+      "title": "Draft Travel and Expense Reimbursement Policy",
+      "prompt": "Act as an HR policy consultant with 8 years of experience in travel and expense frameworks for Indian companies. I need you to draft a Travel and Expense (T&E) Reimbursement Policy for a Mumbai-based consulting firm with 150 consultants frequently traveling across India. The policy must cover: (1) Scope (domestic and limited international travel), (2) Travel approval workflow via Zoho Expense, (3) Class of travel by grade (economy flights for all except VP and above, train AC 2-tier for under 500 km, sleeper buses only for specific routes), (4) Per diem allowances for Tier 1, Tier 2, and Tier 3 cities in INR (Mumbai/Delhi vs Indore vs Nagpur), (5) Hotel budget caps per city tier, (6) Meal allowances if not provided by client, (7) Local conveyance (Uber/Ola receipts mandatory above INR 200, auto fare chart for smaller cities), (8) Client entertainment limits with pre-approval, (9) GST invoice requirement for ITC claim (company GSTIN placeholder), (10) Reimbursement timeline (submission within 15 days of trip, payment within 7 days of approval), (11) Non-reimbursable items (alcohol, personal calls, spa). Include a submission checklist, sample expense report template, and a penalty clause for fraudulent claims. Format as a formal policy with tables for grade-wise limits and effective date placeholder.",
+      "tags": [
+        "travel-policy",
+        "expense",
+        "reimbursement",
+        "zoho-expense",
+        "gst"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-010",
+      "title": "Write IT and Acceptable Use Policy",
+      "prompt": "Act as an HR and InfoSec policy writer with 10 years of experience in Indian tech companies. I need you to draft an IT and Acceptable Use Policy for a 220-employee SaaS company in Bangalore that handles customer PII and is preparing for ISO 27001 certification. The policy must cover: (1) Scope covering all company-issued devices (laptops, mobiles, tablets) and BYOD, (2) Acceptable use (business purposes, limited personal use during breaks), (3) Prohibited activities (torrenting, gambling sites, pirated software, unauthorized cloud storage like personal Google Drive for work files), (4) Password standards (12+ characters, MFA mandatory, quarterly rotation), (5) Email and communication etiquette (no confidential data over personal email), (6) VPN usage for remote work, (7) Software installation approval process through IT helpdesk, (8) Data classification (public, internal, confidential, restricted) and handling rules, (9) Incident reporting (phishing, lost device, suspected breach) within 2 hours, (10) Social media and AI tool usage (ChatGPT, Claude) with guidelines on what data can/cannot be shared, (11) Monitoring and privacy disclosures under Indian IT Act 2000 and DPDP Act 2023, (12) Disciplinary consequences for violations. Include an acknowledgment form and reference to the POSH policy for digital harassment cases. Format as a formal policy with numbered clauses and an annexure defining data classifications.",
+      "tags": [
+        "it-policy",
+        "acceptable-use",
+        "dpdp-act",
+        "infosec",
+        "handbook"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-011",
+      "title": "Create PF and ESI Compliance Checklist",
+      "prompt": "Act as a statutory compliance specialist with 12 years of experience in Indian payroll compliance. I need you to create a monthly PF (Provident Fund) and ESI (Employees State Insurance) compliance checklist for the HR operations team of a 300-employee Chennai-based manufacturing company. The checklist must cover: (1) PF applicability (mandatory for employees earning up to INR 15,000 basic, voluntary above), employee contribution (12 percent), employer contribution (12 percent split into EPF and EPS), (2) ESI applicability (mandatory for employees earning up to INR 21,000 gross, 0.75 percent employee and 3.25 percent employer), (3) UAN generation and activation for new joiners within 7 days, (4) Monthly ECR (Electronic Challan cum Return) filing on EPFO portal by 15th of following month, (5) ESI contribution filing on ESIC portal by 15th, (6) KYC updates (Aadhaar, PAN, bank) for all members, (7) Exit and F&F processing (Form 19, Form 10C, Form 31 for PF; Form 11 updates), (8) Annual return filings (Form 3A, Form 6A for PF), (9) Inspection readiness documentation, (10) Handling PF transfers and withdrawals for exiting employees, (11) Red flags for non-compliance and penalties under EPF & MP Act 1952 and ESI Act 1948. Format as a tabular monthly checklist with owner, due date, portal link, and status columns, plus a separate annual calendar.",
+      "tags": [
+        "pf",
+        "esi",
+        "compliance",
+        "payroll",
+        "statutory"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-012",
+      "title": "Draft Gratuity Policy Per Payment of Gratuity Act",
+      "prompt": "Act as an HR compliance expert with 10 years of experience in Indian labour law. I need you to draft a Gratuity Policy for a 260-employee Ahmedabad-based textile company compliant with the Payment of Gratuity Act, 1972 (as amended). The policy must cover: (1) Eligibility (continuous service of 5 years, exception for death or disablement), (2) Calculation formula (last drawn basic salary + DA) x 15/26 x number of completed years, (3) Maximum gratuity ceiling (INR 20 lakhs tax-exempt as per current rules), (4) Treatment of fraction of year above 6 months as full year, (5) Nomination process (Form F) to be collected at onboarding and updated on life events, (6) Payment timeline (within 30 days of cessation of employment), (7) Interest on delayed payment as per Act, (8) Forfeiture conditions (termination for disorderly conduct, moral turpitude), (9) Gratuity trust vs direct payment options, (10) LIC Group Gratuity Scheme linkage if applicable, (11) Tax treatment under Section 10(10) of Income Tax Act. Include sample nomination form (Form F), calculation examples with INR figures, and F&F checklist for HR. Format as a formal policy document with numbered clauses, definitions, and references to specific sections of the Gratuity Act. Ensure it can be uploaded to the employee handbook on greytHR.",
+      "tags": [
+        "gratuity",
+        "payment-of-gratuity-act",
+        "compliance",
+        "f-and-f",
+        "statutory"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-013",
+      "title": "Write Maternity and Paternity Leave Policy",
+      "prompt": "Act as an HR policy advisor with 9 years of experience in gender-inclusive workplace policies for Indian companies. I need you to draft a Maternity and Paternity Leave Policy for a 180-employee Pune-based tech company compliant with the Maternity Benefit (Amendment) Act 2017. The policy must cover: (1) Eligibility (women employees with minimum 80 days of work in 12 months preceding expected delivery), (2) Duration - 26 weeks for first two children, 12 weeks for third and subsequent child, 12 weeks for commissioning/adopting mothers, (3) Pre-natal and post-natal split (up to 8 weeks pre-natal), (4) Medical bonus of INR 3,500 if no pre/post natal care provided, (5) Nursing breaks (2 breaks until child is 15 months), (6) Work From Home option post-maternity leave where role permits, (7) Creche facility (mandatory for 50+ employees) details or creche allowance in INR, (8) Miscarriage and tubectomy leave (6 weeks and 2 weeks respectively), (9) Paternity Leave (10 days, flexible within first 6 months of child birth) as company-led benefit beyond statutory, (10) Adoption leave for both parents, (11) Return-to-work support and no-demotion guarantee, (12) Notification process to HR via Darwinbox. Include sample leave application, medical certificate checklist, and a return-to-work transition plan template. Format as a formal policy with effective date and legal citations.",
+      "tags": [
+        "maternity-policy",
+        "paternity-leave",
+        "inclusion",
+        "darwinbox",
+        "compliance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-014",
+      "title": "Create Probation and Confirmation Policy",
+      "prompt": "Act as an HR operations manager with 8 years of experience designing performance frameworks for Indian companies. I need you to draft a Probation and Confirmation Policy for a 210-employee Bengaluru-based e-commerce startup. The policy must include: (1) Standard probation period (6 months for all full-time employees, 3 months for contract-to-hire), (2) Extension of probation (maximum 3 additional months with documented reasons), (3) Confirmation criteria (performance, behavioral fit, attendance, training completion, manager recommendation), (4) Mid-probation review at 3 months, final review at 5.5 months, (5) Confirmation letter issuance process via Keka, (6) Benefits during probation (salary, statutory PF/ESI/gratuity start date, limited leave accrual), (7) Leave entitlements (prorated casual and sick, no earned leave until confirmation), (8) Notice period during probation (15 days) vs post-confirmation (60 days), (9) Termination during probation (notice or pay in lieu, documented performance concerns), (10) Appeal mechanism for non-confirmation decisions, (11) HRBP checkpoints at 30/60/90/150 days. Include templates for probation review form, confirmation letter, extension letter, and termination letter. Format as a formal policy with numbered sections, RACI for confirmation process, and alignment with natural justice principles. Ensure consistency with Industrial Disputes Act definitions of workman and non-workman.",
+      "tags": [
+        "probation",
+        "confirmation",
+        "handbook",
+        "keka",
+        "performance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-015",
+      "title": "Draft Attendance and Punctuality Policy",
+      "prompt": "Act as an HR policy consultant with 7 years of experience in workforce management for Indian services companies. I need you to draft an Attendance and Punctuality Policy for a 300-employee Delhi-based BPO operating 24x7 in three shifts. The policy must cover: (1) Shift timings (General, Morning, Evening, Night) and grace period (10 minutes), (2) Biometric and geofenced mobile app attendance marking via greytHR, (3) Late coming rules (3 late marks equal half day), early going, short leave, (4) Shift adherence and break timings (2 tea breaks of 15 min, 30 min meal break), (5) Compensatory off for working on weekly off or holiday, (6) Absence without Information (AWI) escalation and SOP, (7) Uninformed absenteeism consequences (3 consecutive days triggers show cause notice), (8) Handling technical failures of biometric system and manual regularization workflow, (9) Shift change request process with minimum 48-hour notice, (10) Night shift allowances (especially for women as per state S&E Act with safe transport), (11) Holiday list (10 public holidays per Delhi S&E Act, flexible holidays), (12) Integration with payroll for LOP calculation. Include a disciplinary framework for chronic latecomers and absentees aligned with principles of natural justice. Format as a formal policy with tables for shift timings, allowances, and late coming penalties.",
+      "tags": [
+        "attendance-policy",
+        "shifts",
+        "greytHR",
+        "bpo",
+        "handbook"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-016",
+      "title": "Build New Joiner Document Checklist",
+      "prompt": "Act as an HR onboarding coordinator with 6 years of experience in Indian corporate hiring. I need you to create a comprehensive New Joiner Document Checklist for a Mumbai-based financial services firm to be used by HRBPs during Day 1 formalities. The checklist must cover: (1) Identity proof (Aadhaar card, PAN card, Passport if available), (2) Address proof (Aadhaar, passport, utility bill, rent agreement), (3) Educational documents (10th, 12th, graduation, post-graduation mark sheets and certificates, original verification), (4) Professional documents (experience letters, relieving letters from last 3 employers, last 3 months salary slips, Form 16 for last FY), (5) Photographs (6 passport-size color), (6) Bank account details (cancelled cheque or passbook front page for salary account), (7) PF nomination form (Form 2), gratuity nomination (Form F), ESI family declaration, (8) Statutory declarations (Section 89 declaration, investment declaration for TDS under Chapter VI-A), (9) Background verification consent form, (10) Emergency contact form, (11) IT asset acknowledgment, (12) Signed offer letter and COC/POSH acknowledgment. For each item, specify whether original, photocopy, or self-attested is needed, retention period, and where it should be stored (physical file vs Darwinbox document locker). Format as a tabular checklist with columns for item, format, mandatory/optional, submission date, verified by, and remarks. Add a compliance note about DPDP Act 2023 implications for document storage.",
+      "tags": [
+        "onboarding",
+        "documents",
+        "checklist",
+        "darwinbox",
+        "dpdp-act"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-017",
+      "title": "Design POSH Internal Committee Training Module",
+      "prompt": "Act as a POSH trainer and certified IC member with 8 years of experience conducting committee training for Indian corporates. I need you to design a 4-hour POSH Internal Committee (IC) Training Module for the newly constituted IC of a 400-employee Hyderabad-based IT company. The module must cover: (1) Overview of the POSH Act 2013, Rules 2013, and key amendments, (2) Scope and definitions (workplace, employee, sexual harassment including 5 circumstances under Section 3(2)), (3) Composition requirements of IC and role of each member (Presiding Officer, external NGO member, internal members, 50 percent women minimum), (4) Complaint filing procedure and timelines (3 months, extendable by 3), (5) Detailed inquiry procedure (preliminary inquiry, formal inquiry, principles of natural justice, cross-examination), (6) Evidence evaluation standards (preponderance of probability, not beyond reasonable doubt), (7) Drafting inquiry report and recommendations (Section 13), (8) Interim reliefs under Section 12 (transfer, leave, work-from-home), (9) Confidentiality obligations under Section 16 and penalties under Section 17, (10) Annual report filing with District Officer (Section 21, 22), (11) Case studies including 3 real anonymized scenarios for discussion, (12) Role play on conducting an inquiry. Include a pre-assessment quiz (10 questions), post-assessment quiz (15 questions), reading list, and IC charter document. Format as a detailed facilitator guide with time allocations, learning objectives, and participant handouts.",
+      "tags": [
+        "posh",
+        "ic-training",
+        "compliance",
+        "facilitator-guide",
+        "hyderabad"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-018",
+      "title": "Draft Internal Investigation Report Template POSH",
+      "prompt": "Act as a senior HR investigator and legal advisor with 11 years of experience handling POSH complaints for Indian corporates. I need you to create a comprehensive Internal Inquiry Report Template that an IC of a Mumbai-based 500-employee company can use to document POSH inquiries under Section 13 of the POSH Act 2013. The template must include the following sections: (1) Case reference number and date, (2) Composition of IC members hearing the case, (3) Brief facts of the complaint (date received, complainant, respondent, allegations summary) without naming in public version, (4) Preliminary findings and whether prima facie case exists, (5) Inquiry timeline and procedure followed (natural justice, opportunity to respond, cross-examination), (6) List of witnesses examined and evidence gathered (emails, chat logs, CCTV, statements) with date-wise log, (7) Analysis of evidence applying preponderance of probability standard, (8) Findings on each allegation (substantiated, partly substantiated, unsubstantiated), (9) Recommendations including disciplinary action (warning, transfer, termination), service rules implications, compensation to complainant if applicable under Section 15 considering mental trauma, loss of career opportunity, (10) Confidentiality reminder to all parties, (11) Right to appeal under Section 18 (90 days to Court), (12) Signatures of all IC members with date. Include guidance notes for IC members on each section, common pitfalls, and a separate redacted summary template for the employer action. Format as a formal legal document template ready for use.",
+      "tags": [
+        "posh",
+        "investigation",
+        "ic-report",
+        "compliance",
+        "legal"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-019",
+      "title": "Create Shops and Establishments Act Compliance Matrix",
+      "prompt": "Act as a labour law compliance consultant with 12 years of experience advising multi-state Indian companies. I need you to create a Shops and Establishments Act Compliance Matrix for a D2C retail brand with stores and offices in 6 states: Karnataka (Bangalore), Maharashtra (Mumbai, Pune), Delhi NCR, Tamil Nadu (Chennai), Telangana (Hyderabad), and West Bengal (Kolkata). The matrix must compare state-wise requirements across: (1) Registration timeline (30 days from commencement typical) and renewal, (2) Working hours (daily and weekly caps, typically 9/48), (3) Spread over and rest intervals, (4) Overtime rules and OT wage rate (usually twice the ordinary rate), (5) Weekly holiday provisions, (6) Annual leave entitlement (varies 15-21 days), (7) Casual and sick leave, (8) Night shift restrictions for women and safety obligations, (9) Mandatory closure days and local holidays, (10) Display of notices and holiday list, (11) Returns filing frequency (annual in most states), (12) Penalties for non-compliance, (13) Applicable state labour portal (e.g., Karnataka eKSESK, Maharashtra MAITRI, Delhi Labour portal). Output as a detailed comparison table with columns for each state and rows for each parameter. Add a risk flag for any state where compliance is particularly stringent or recently amended. Include a recommended compliance calendar and ownership matrix for the HR shared services team. Note: content should reflect general statutory positions and recommend state-specific legal review.",
+      "tags": [
+        "shops-establishments-act",
+        "multi-state",
+        "compliance",
+        "labour-law",
+        "matrix"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-020",
+      "title": "Draft Whistleblower Policy for Indian Listed Entity",
+      "prompt": "Act as a corporate governance and HR compliance advisor with 10 years of experience in Indian listed company governance. I need you to draft a Whistleblower (Vigil Mechanism) Policy for a Mumbai-based BSE-listed mid-cap company with 800 employees, compliant with Section 177(9) of the Companies Act 2013 and Regulation 22 of SEBI LODR 2015. The policy must cover: (1) Purpose and scope (applicable to directors, employees, contractors, vendors), (2) Definitions of protected disclosure, whistleblower, subject person, victimization, (3) Types of reportable conduct (fraud, corruption, financial irregularities, misrepresentation to auditors, leakage of UPSI under SEBI PIT Regulations 2015, ESG violations, POSH, safety violations), (4) Reporting channels (ethics hotline, dedicated email, physical drop box, web portal, direct to Audit Committee Chairperson), (5) Anonymity and confidentiality protection, (6) Non-retaliation guarantee and consequences for retaliation, (7) Role of Audit Committee and Ethics Committee in investigation oversight, (8) Investigation procedure with timelines (acknowledgment 48 hours, preliminary review 7 days, investigation 30-60 days), (9) Malicious complaint handling, (10) Annual disclosures in Board Report and company website, (11) Direct access to Audit Committee Chairperson, (12) Data protection under DPDP Act 2023. Include contact details placeholder, a sample reporting form, and an annual effectiveness review framework. Format as a Board-approved policy ready for website disclosure with version control.",
+      "tags": [
+        "whistleblower",
+        "vigil-mechanism",
+        "sebi-lodr",
+        "companies-act",
+        "governance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-021",
+      "title": "Create Employee Handbook Table of Contents",
+      "prompt": "Act as an HR policy architect with 11 years of experience building employee handbooks for Indian mid-sized companies. I need you to design a complete Table of Contents and chapter outline for a comprehensive Employee Handbook for a 250-employee Bengaluru-based SaaS company. The handbook must be organized logically with the following chapters and detailed subsections: (1) Welcome letter from CEO, Vision Mission Values, (2) About the company and org structure, (3) Employment terms (categories, probation, confirmation, exit), (4) Code of Conduct and ethics, (5) POSH policy and IC details, (6) Diversity, Equity, Inclusion, Belonging (DEIB), (7) Working hours, attendance, leave (earned, casual, sick, maternity, paternity, adoption, bereavement, marriage), (8) Compensation and benefits (salary structure, PF, ESI, gratuity, insurance, ESOPs), (9) Performance management and promotions, (10) Learning and development, (11) IT and acceptable use, (12) WFH/Hybrid policy, (13) Travel and expense, (14) Grievance redressal, (15) Disciplinary framework, (16) Health and safety, (17) Employee engagement and rewards, (18) Separation (resignation, termination, retirement, F&F), (19) Annexures (forms, templates, contact list). For each chapter, provide 4-8 subsections with brief description of what it covers and page count estimate. Add a version history table, revision log, and reference to statutory basis for each policy. Format as a detailed TOC with page numbers and hyperlinks markers ready for use in Google Docs or Darwinbox.",
+      "tags": [
+        "handbook",
+        "table-of-contents",
+        "policies",
+        "darwinbox",
+        "structure"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-022",
+      "title": "Draft Disciplinary Action Framework Indian Context",
+      "prompt": "Act as an employee relations specialist with 12 years of experience in Indian labour matters including Industrial Disputes Act proceedings. I need you to draft a Disciplinary Action Framework for a 600-employee Chennai-based manufacturing company with both workmen and non-workmen categories. The framework must cover: (1) Classification of misconduct (minor, major, gross) with illustrative examples for each - minor (late coming, dress code, minor insubordination), major (repeated minor misconduct, unauthorized absence, abusive language), gross (theft, fraud, assault, sexual harassment, intoxication, sabotage), (2) Progressive discipline ladder - verbal counseling, written warning, final written warning, suspension pending inquiry, termination, (3) Principles of natural justice (audi alteram partem) - show cause notice, opportunity to respond, fair inquiry, (4) Domestic inquiry procedure for workmen under ID Act and Standing Orders (charge sheet, inquiry officer appointment, management evidence, defense, findings, punishment order), (5) Role of enquiry officer, management representative, defense representative, (6) Standard of proof (preponderance of probability), (7) Drafting show cause notices, charge sheets, inquiry findings, punishment orders, (8) Approval matrix for each type of action, (9) Record retention requirements, (10) Appeal and review mechanism, (11) Interface with POSH IC, whistleblower cases, criminal cases, (12) Common litigation pitfalls and case law references. Include templates for show cause notice, charge sheet, suspension order, and termination letter. Format as a detailed framework with flowcharts description, timelines, and compliance checklist.",
+      "tags": [
+        "disciplinary-action",
+        "industrial-disputes-act",
+        "employee-relations",
+        "natural-justice",
+        "framework"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-023",
+      "title": "Build Exit and Full Final Settlement SOP",
+      "prompt": "Act as an HR operations lead with 9 years of experience handling employee exits for Indian IT services companies. I need you to draft a complete Exit and Full & Final (F&F) Settlement SOP for a 400-employee Pune-based IT services firm. The SOP must cover: (1) Resignation receipt via Keka with notice period calculation (60 days confirmed, 30 days probation), (2) Acceptance and acknowledgment within 2 working days, (3) Manager conversation and retention attempt (optional) by HRBP within 5 days, (4) Knowledge transfer plan creation (KT template, handover document, shadowing schedule), (5) Last working day confirmation and buy-out notice if any, (6) Clearance workflow across IT (assets, access revocation), Admin (ID card, access card, parking), Finance (advances, loans, tax reconciliation), Library, Training (bond recovery if applicable), (7) Exit interview scheduling with HRBP (15 days before LWD), (8) F&F calculation including pending salary, leave encashment (EL balance only), gratuity if 5+ years, notice pay adjustment, bonus, incentives, recovery of notice shortfall or advances, (9) TDS computation including Section 89 relief if applicable, (10) Issuance of relieving letter, experience certificate, Form 16, PF Form 19/10C, ESI Form, (11) F&F payment timeline (within 45 days of LWD), (12) Darwinbox/Keka status updates and UAN exit marking. Include templates for clearance form, F&F calculation sheet, and relieving letter. Format as step-by-step SOP with RACI and timelines for each step.",
+      "tags": [
+        "exit-process",
+        "f-and-f",
+        "keka",
+        "sop",
+        "relieving-letter"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-024",
+      "title": "Draft Sabbatical Leave Policy",
+      "prompt": "Act as an HR policy advisor with 8 years of experience designing progressive workplace policies for Indian knowledge companies. I need you to draft a Sabbatical Leave Policy for a 300-employee Bengaluru-based AI research company aimed at retaining senior talent. The policy must cover: (1) Purpose (pursue higher education, research, social impact work, mental health break, family care), (2) Eligibility (minimum 5 years continuous service, confirmed employees only, performance rating of Meets or above in last 2 cycles), (3) Duration options (3 months unpaid, 6 months at 50 percent pay, 12 months unpaid with return guarantee), (4) Application process and timeline (minimum 90 days advance notice, form submission via Darwinbox), (5) Approval authority (reporting manager recommendation, department head approval, CHRO final approval), (6) Frequency limit (once every 7 years of service), (7) Job and grade protection on return with same or comparable role, (8) Benefits continuity - ESOPs vesting paused, health insurance continued at employee cost, PF contribution paused or continued at employee option, (9) Return commitment (minimum 2 years post-sabbatical or pro-rata refund clause), (10) Use of this time clauses (non-compete reminder, disclosure of external engagement, no working for competitors), (11) Re-onboarding support (1 week orientation, buddy, updated training), (12) Tax implications disclosure. Include an application form, manager recommendation template, and return-to-work agreement. Format as a formal policy document with effective date and version control.",
+      "tags": [
+        "sabbatical",
+        "leave-policy",
+        "retention",
+        "handbook",
+        "darwinbox"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-025",
+      "title": "Create Grievance Trend Analysis Report Framework",
+      "prompt": "Act as an HR analytics specialist with 9 years of experience in people data and employee relations reporting for Indian companies. I need you to design a quarterly Grievance Trend Analysis Report framework for the HR leadership of a 700-employee Gurgaon-based company across 3 business units. The framework must include: (1) Executive summary with total grievances received, resolved, pending, average resolution time, repeat grievances, (2) Categorization schema (work-related, interpersonal, manager issues, compensation, facilities, POSH, COC, compliance, discrimination, harassment non-POSH, work-life balance), (3) Source-wise breakdown (manager, HRBP, portal, hotline, anonymous, skip level), (4) Business unit and location-wise analysis with employee base normalization (grievances per 100 employees), (5) Severity heatmap (low, medium, high, critical), (6) Time to acknowledge, time to investigate, time to resolve - with SLA compliance percentage, (7) Root cause analysis on top 3 grievance categories, (8) Repeat offender / repeat complainant patterns (anonymized), (9) Manager-level hotspot identification for 1:1 coaching, (10) Action items and leadership recommendations, (11) Comparison with previous 3 quarters for trend, (12) Correlation with attrition and engagement scores. Include a sample data table structure, MIS templates, and dashboards KPIs. Specify data sources (Keka, ethics hotline, POSH IC records, exit interviews) and privacy safeguards under DPDP Act 2023. Format as a comprehensive reporting framework with sample charts described in text and a quarterly calendar for data pull and review.",
+      "tags": [
+        "grievance",
+        "analytics",
+        "reporting",
+        "dpdp-act",
+        "hr-mis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-026",
+      "title": "Draft Moonlighting and External Engagement Policy",
+      "prompt": "Act as an HR policy consultant with 8 years of experience advising Indian IT and knowledge-based companies. I need you to draft a Moonlighting and External Engagement Policy for a 350-employee Bangalore-based product SaaS company. The policy must address the post-2022 debate in Indian IT and cover: (1) Purpose and scope (full-time employees, contractors, interns), (2) Definition of moonlighting and dual employment as understood in Indian employment jurisprudence, (3) Prohibition of concurrent employment with direct competitors or conflicting business, (4) Disclosure and approval framework for external engagements (teaching, speaking, open source contributions, advisory, writing), (5) Permitted activities (hobbies, non-commercial projects, family business limited involvement, charitable work on own time), (6) Restricted activities (using company IP, confidential info, client data, paid consulting in same domain, building competing products), (7) IP assignment reminder aligned with employment agreement clause, (8) Approval workflow via HRBP with disclosure form, (9) Time and resource considerations (no use of company laptop, VPN, meeting rooms, office hours), (10) Tax and statutory disclosures (multiple Form 16, advance tax liability), (11) Consequences of non-disclosure (disciplinary action up to termination), (12) Annual self-disclosure during appraisal cycle. Include references to Indian Contract Act Section 27 (restraint of trade nuances), a disclosure form template, and FAQs. Format as a balanced, employee-friendly yet protective policy ready for Darwinbox upload.",
+      "tags": [
+        "moonlighting",
+        "external-engagement",
+        "handbook",
+        "ip-protection",
+        "disclosure"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-027",
+      "title": "Design Show Cause Notice Drafting Checklist",
+      "prompt": "Act as an employee relations lawyer and HR advisor with 11 years of experience in Indian labour matters. I need you to create a comprehensive Show Cause Notice (SCN) drafting checklist and template pack for HRBPs at a 500-employee Mumbai-based services company. The checklist must cover: (1) When to issue an SCN vs a counseling note vs a direct charge sheet, (2) Essential ingredients per natural justice - factual allegations, specific dates, provisions violated (Standing Orders, COC, policy references), evidence in possession, response timeline (typically 48-72 hours), authority to decide, (3) Language guidelines (formal, specific, non-accusatory, reserving rights), (4) Addressing and delivery (registered post with AD, courier with POD, email with read receipt, hand delivery with acknowledgment), (5) Common drafting pitfalls (vague allegations, predetermined mind, no opportunity to respond, inadequate time), (6) Template variations for 5 scenarios: (a) unauthorized absence, (b) insubordination, (c) poor performance in confirmed employee, (d) policy violation (expense fraud, data misuse), (e) misconduct on premises (fight, intoxication). For each scenario provide a complete ready-to-use template with placeholders, (7) Next steps after response (acceptance, further inquiry, charge sheet, closure), (8) Record retention (5 years recommended), (9) Handling no response or refusal to accept, (10) Integration with Keka disciplinary module. Format as a practical playbook with checklist, 5 templates, and case law references to strengthen defensibility.",
+      "tags": [
+        "show-cause-notice",
+        "disciplinary",
+        "templates",
+        "natural-justice",
+        "employee-relations"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-028",
+      "title": "Create Diversity Equity and Inclusion Policy",
+      "prompt": "Act as a DEIB consultant with 9 years of experience building inclusion frameworks for Indian corporates. I need you to draft a Diversity, Equity, Inclusion and Belonging (DEIB) Policy for a 400-employee Bengaluru-based global capability center (GCC) of a multinational. The policy must cover: (1) Commitment statement from leadership, (2) Scope (all employees, candidates, vendors, customers), (3) Protected characteristics under Indian Constitution Article 14-16 and statutes (gender, caste, religion, region, language, disability under RPwD Act 2016, HIV status, sexual orientation and gender identity post-Navtej Singh Johar and NALSA judgments, marital status, pregnancy, age), (4) Hiring practices (diverse slates, structured interviews, unbiased JDs, de-identified resumes for first screen), (5) Reasonable accommodations for persons with disabilities (accessible workplace, assistive tech, flexible timing), (6) LGBTQIA+ inclusion (self-identified pronouns, gender-neutral restrooms, equal benefits for same-sex partners, pride events), (7) Religious accommodations (prayer room, festival flexibility, fasting considerations), (8) Pay equity audit annually, (9) Employee Resource Groups (ERGs) - Women at Work, Pride, AbilityNet, Parents Network, (10) Training programs (unconscious bias, allyship, inclusive leadership), (11) Reporting of discrimination and bias incidents with channels separate from POSH, (12) Annual DEIB metrics and disclosures in ESG reporting. Include an inclusive language glossary, a self-identification form (voluntary), and a governance structure with DEIB Council. Format as a forward-looking policy with Board endorsement placeholder.",
+      "tags": [
+        "dei",
+        "inclusion",
+        "rpwd-act",
+        "lgbtqia",
+        "handbook"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-029",
+      "title": "Draft Data Privacy Employee Notice DPDP Act",
+      "prompt": "Act as a data privacy consultant with 8 years of experience in Indian data protection compliance. I need you to draft an Employee Privacy Notice for a 600-employee Hyderabad-based analytics company compliant with the Digital Personal Data Protection Act 2023 (DPDP Act). The notice must cover: (1) Identity of the Data Fiduciary (company name, address, DPO contact), (2) Categories of personal data collected (identity, contact, employment history, educational, financial - bank/PAN/PF, biometric for attendance, health - for insurance, emergency contacts, next of kin, family for benefits), (3) Purposes of processing (employment contract performance, payroll, statutory compliance PF/ESI/IT, performance management, safety, background verification, benefits administration, learning, internal investigations), (4) Lawful basis - consent vs legitimate use under Section 7, (5) Data recipients (payroll vendor, insurance provider, background verification agency, government authorities, cloud HRIS providers like Darwinbox with cross-border transfer disclosure), (6) Data retention periods (statutory minimums 7 years for payroll, 5 years for compliance, during employment plus 3 years for general records), (7) Data principal rights under Section 11-14 (access, correction, erasure, grievance redressal, nominate), (8) Grievance mechanism with DPO email and escalation to Data Protection Board, (9) Consent mechanism for optional data (photos, wellness programs), (10) Withdrawal of consent and consequences, (11) Security measures in place, (12) Updates to notice. Format as a clear, plain-language notice that employees sign at onboarding and that supplements the Privacy Policy.",
+      "tags": [
+        "dpdp-act",
+        "privacy-notice",
+        "compliance",
+        "data-protection",
+        "onboarding"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-030",
+      "title": "Draft Contract Labour Engagement Compliance Guide",
+      "prompt": "Act as a statutory compliance specialist with 11 years of experience in Indian contract labour regulation. I need you to create a Contract Labour Engagement Compliance Guide for a 350-employee Noida-based company that engages 120 contract workers through 4 manpower agencies for housekeeping, security, cafeteria, and reception. The guide must cover: (1) Applicability of Contract Labour (Regulation and Abolition) Act 1970 (20+ contract workers in establishment), (2) Principal Employer registration requirements (Form I), (3) Contractor licensing verification (Form IV from contractors), (4) Required clauses in contractor agreement (statutory compliance, indemnity, termination, audit rights, minimum wages, PF/ESI, bonus, leave, safety), (5) Statutory compliance verification checklist (monthly PF ECR, ESI challan, minimum wages as per state notification, professional tax, labour welfare fund, bonus payment annually under Payment of Bonus Act for eligible workers, gratuity after 5 years), (6) Wage disbursement monitoring (workers must be paid on time, in bank accounts as per Wages Act Amendment), (7) Attendance and muster roll maintenance (Form XII), (8) Accident reporting and ESI coverage, (9) Prohibition of engagement in core activities (case law references), (10) Inspection preparedness (labour commissioner visits), (11) Risk of permanency claims under abolition provisions, (12) Transition to Code on Wages 2019 and Code on Social Security 2020 readiness. Include a monthly compliance audit template for vendors and a red-flag checklist. Format as a practical guide with checklists and templates for HR shared services.",
+      "tags": [
+        "contract-labour",
+        "compliance",
+        "principal-employer",
+        "code-on-wages",
+        "vendor-management"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-031",
+      "title": "Create POSH Annual Report Template Section 21",
+      "prompt": "Act as a POSH compliance specialist with 9 years of experience filing annual reports for Indian corporates. I need you to create a comprehensive POSH Annual Report Template under Section 21 of the POSH Act 2013 for a 500-employee Mumbai-based financial services company to be submitted to the District Officer and included in the Board Report under Section 22. The template must capture: (1) Name and address of the Company (establishment), (2) Name and designation of Presiding Officer and IC members with their tenure start date, (3) Confirmation of IC composition compliance (minimum 4, 50 percent women, external NGO member, presiding officer a senior woman), (4) Number of complaints received during the financial year (1 April to 31 March), (5) Number of complaints disposed of, (6) Number of cases pending for more than 90 days with reasons, (7) Number of workshops or awareness programs conducted with dates, target audience, attendance, topics covered, (8) Nature of action taken by the employer or District Officer on each disposed case (anonymized), (9) Training conducted for IC members with trainer credentials, (10) Steps taken to ensure availability of safe working environment, (11) Communication of POSH policy (onboarding, posters, intranet, handbook), (12) Declaration by Presiding Officer and company representative. Include a data collection checklist for HRBPs to gather information from IC records, learning and development, and HR MIS. Add notes on what not to include (names of complainant/respondent, identifying details) per confidentiality under Section 16. Format as a ready-to-submit report with annexures.",
+      "tags": [
+        "posh",
+        "annual-report",
+        "section-21",
+        "compliance",
+        "board-report"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-032",
+      "title": "Build HR Policy Review and Governance Framework",
+      "prompt": "Act as an HR governance consultant with 10 years of experience in policy management for Indian companies. I need you to design a comprehensive HR Policy Review and Governance Framework for a 500-employee Bangalore-based tech company with 35+ policies currently maintained on Darwinbox. The framework must cover: (1) Policy inventory and classification (statutory, strategic, operational, procedural), (2) Policy ownership and RACI matrix (CHRO accountable, HR leads responsible, legal consulted, employees informed), (3) Review cadence (annual for statutory, biennial for strategic, on-demand for operational, trigger-based after incidents), (4) Policy amendment workflow (change request, impact analysis, legal review, CHRO approval, Board noting where material, employee communication), (5) Version control schema (vX.Y with date, approver, change log), (6) Publication and accessibility on Darwinbox with read acknowledgment tracking, (7) Training and communication plan for material changes (emailer, town hall, FAQs, manager cascade), (8) Compliance monitoring (audit checklist, self-certification, internal audit cadence), (9) Policy exception management (deviation requests, approval authority, expiry), (10) Integration with statutory updates (tracking Ministry of Labour notifications, state S&E amendments, Supreme Court judgments, CLRA updates), (11) KPIs - policy freshness, employee awareness, grievance reduction, audit observations closure, (12) Quarterly HR Policy Council governance meeting agenda. Include a policy register template, change request form, and governance charter. Format as an end-to-end governance framework document.",
+      "tags": [
+        "policy-governance",
+        "raci",
+        "darwinbox",
+        "compliance",
+        "framework"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-033",
+      "title": "Draft Sensitive Internal Investigation Playbook",
+      "prompt": "Act as a senior employee relations and internal investigations expert with 14 years of experience handling sensitive cases in Indian corporates including interactions with law enforcement. I need you to draft a Sensitive Internal Investigations Playbook for a 700-employee Mumbai-based listed company to handle complex cases beyond routine disciplinary matters. The playbook must cover: (1) Scope - fraud, financial irregularity, conflict of interest, data theft, UPSI leak under SEBI PIT Regulations 2015, senior leadership misconduct, harassment involving senior leaders, collusion with vendors, whistleblower escalations, (2) Investigation intake and triage (case categorization, conflict check for investigators, preservation notice for documents and electronic data), (3) Investigation team composition (HR, Legal, Internal Audit, Forensic, external counsel when needed, Board sub-committee for senior cases), (4) Evidence preservation protocols (email, Slack, laptop imaging, CCTV, access logs, chain of custody), (5) Interview strategy (witness sequence, suspect last, Reid-style vs PEACE model, documentation standards, right against self-incrimination), (6) Parallel criminal proceedings considerations (CrPC, FIR coordination, not prejudicing criminal case), (7) Confidentiality and legal privilege (work product doctrine applicability in India), (8) Interim measures (administrative leave, access revocation, garden leave), (9) Whistleblower protection and escalation to Audit Committee, (10) Reporting to Board, auditors, SEBI disclosures under Regulation 30 if material, (11) Remedial actions and disciplinary outcomes, (12) Post-investigation lessons learned. Include case file structure, interview templates, and a decision tree. Format as a confidential operational playbook for senior HR and legal teams.",
+      "tags": [
+        "investigation",
+        "fraud",
+        "sebi",
+        "forensic",
+        "playbook"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-034",
+      "title": "Create Multi-State Labour Compliance Calendar",
+      "prompt": "Act as a compliance automation consultant with 12 years of experience in Indian labour regulations across states. I need you to design a comprehensive Multi-State Labour Compliance Calendar for a 1200-employee company with operations in 8 states (Karnataka, Maharashtra, Tamil Nadu, Telangana, Delhi, Haryana, Gujarat, West Bengal). The calendar must cover all recurring filings and obligations: (1) Monthly - PF ECR (15th), ESI challan (15th), Professional Tax (state-wise due dates), TDS on salary (7th), Labour Welfare Fund (state-wise), (2) Quarterly - TDS return Form 24Q, PT returns in some states, (3) Half-yearly - Factories Act returns where applicable, Maternity Benefit return in some states, (4) Annual - Shops & Establishments annual return (state-wise due dates), POSH annual report to District Officer, PF Form 3A/6A (by April 30), ESI Form 1A/01A, Contract Labour return (Form XXV), Bonus register and payment by November 30, Equal Remuneration Act return, Factories Act annual return, Minimum Wages revision tracking, Payment of Wages register, Trade licence renewal, Fire safety NOC, (5) Event-based - new joiner PF/ESI registration within 7 days, exit filings, accident reporting within 12/24 hours under ESI/Factories, (6) State-specific variations highlighted. Provide a month-by-month calendar table with columns: compliance item, due date, frequency, state, portal/office, form number, owner, status, last filed, penalty for delay. Include a RAG dashboard structure and quarterly governance review agenda. Format as a detailed, ready-to-implement compliance calendar for upload to compliance tools like Avacom or Komrisk.",
+      "tags": [
+        "compliance-calendar",
+        "multi-state",
+        "labour-law",
+        "pf-esi",
+        "statutory"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-035",
+      "title": "Draft Code on Wages 2019 Readiness Assessment",
+      "prompt": "Act as a labour law transformation consultant with 11 years of experience advising Indian companies on the new labour codes. I need you to create a Code on Wages 2019 Readiness Assessment and gap analysis framework for a 500-employee Pune-based engineering services company currently compliant with the Minimum Wages Act, Payment of Wages Act, Payment of Bonus Act, and Equal Remuneration Act. The assessment must cover: (1) Overview of the Code on Wages 2019 and status of Rules notification, (2) Definition of wages under Section 2(y) and the 50 percent threshold rule for allowances (how it affects basic, HRA, special allowance structures), (3) Impact on CTC structures - recalculation of basic to ensure non-wage components do not exceed 50 percent of total remuneration, (4) Impact on statutory contributions - PF, gratuity, bonus, leave encashment will increase due to higher wage base, (5) Minimum wages universal applicability (beyond scheduled employments), (6) Floor wage concept, (7) Equal remuneration between genders for same work or work of similar nature, (8) Timely payment of wages (7th or 10th by establishment type), (9) Payment in bank account mandate, (10) Bonus calculation changes and eligibility, (11) Record keeping requirements, (12) Penalty provisions. Create a gap analysis template with columns: current practice, Code requirement, gap, impact (low/medium/high), effort, owner, target date. Include a financial impact model placeholder (increase in PF/gratuity cost), a communication plan for employees on CTC restructuring, and a project plan for implementation within 6 months of notification. Format as a board-ready readiness report.",
+      "tags": [
+        "code-on-wages",
+        "labour-codes",
+        "gap-analysis",
+        "ctc-restructuring",
+        "compliance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-036",
+      "title": "Build Factories Act Compliance and Safety Framework",
+      "prompt": "Act as an occupational health and safety consultant with 13 years of experience in Indian manufacturing. I need you to draft a Factories Act 1948 Compliance and Workplace Safety Framework for a 450-worker Ahmedabad-based textile manufacturing unit. The framework must cover: (1) Factory licensing and registration under Section 6, renewal, amendment, (2) Occupier and Factory Manager designations and liability under Section 2(n) and 7, (3) Health provisions (Sections 11-20) - cleanliness, ventilation, lighting, drinking water, latrines, spittoons, (4) Safety provisions (Sections 21-41) - fencing of machinery, work on machinery in motion, employment of young persons, hoists and lifts, PPE, (5) Hazardous processes (Chapter IVA) - safety committee, emergency plan, disclosure to workers, on-site emergency plan, off-site coordination with District Authority, (6) Welfare provisions (Sections 42-50) - washing, storing and drying clothes, sitting, first aid (one box per 150 workers), canteen (250+ workers), shelters, creche (30+ women), welfare officer (500+ workers), (7) Working hours (Chapter VI) - 48 per week, 9 per day, rest interval after 5 hours, weekly holiday, overtime double rate, (8) Employment of women (Section 66) restrictions and state-specific night shift permissions, (9) Annual leave with wages (Section 79), (10) Accident and dangerous occurrence reporting (Section 88, 88A) within 12/24 hours, (11) Returns filing (Form 22 annual, Form 21 half yearly), (12) Factory Inspector visits and inspection register. Include safety committee charter, accident investigation template, and monthly safety walk checklist. Format as a comprehensive framework with compliance calendar and emergency response SOP.",
+      "tags": [
+        "factories-act",
+        "safety",
+        "ohs",
+        "manufacturing",
+        "compliance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-037",
+      "title": "Design HR Audit Framework Internal Controls",
+      "prompt": "Act as an HR audit and internal controls specialist with 12 years of experience in Indian listed and large private companies. I need you to design a comprehensive HR Audit Framework for a 1000-employee Bangalore-based listed company to be executed annually by internal audit with HR as auditee. The framework must cover 10 audit areas with detailed control objectives, key risks, audit procedures, and sample sizes: (1) Hiring and onboarding (background verification completion, offer approvals, compensation fitment within band, document completeness), (2) Payroll processing (accuracy, authorized overrides, statutory deductions, bank transfer reconciliation, exceptions handling), (3) Statutory compliance (PF, ESI, PT, gratuity, bonus, POSH, S&E returns timeliness and accuracy), (4) Leave and attendance (LOP calculation, leave encashment, biometric override logs), (5) Reimbursements (policy adherence, duplicate claims, supporting documents, approval chain), (6) Performance management (cycle completion, rating distribution, compensation revision linkage), (7) Learning and development (budget utilization, mandatory training completion including POSH and COC, vendor management), (8) Exit management (F&F accuracy, notice period adherence, access revocation, recovery of advances, relieving documentation), (9) HR data integrity and DPDP Act compliance (access controls on Darwinbox, data retention, privacy notices), (10) Policy compliance and governance (policy freshness, exceptions, approvals). For each area provide 3-5 test procedures, risk rating, and deliverable format. Include an audit planning memo, opening meeting agenda, report template with observations and management responses, and follow-up tracker. Format as a complete audit playbook.",
+      "tags": [
+        "hr-audit",
+        "internal-controls",
+        "compliance",
+        "governance",
+        "framework"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-038",
+      "title": "Draft Employee Transfer and Relocation Policy",
+      "prompt": "Act as an HR mobility specialist with 10 years of experience in inter-city and intra-group transfers for Indian companies. I need you to draft a complete Employee Transfer and Relocation Policy for a 600-employee Mumbai-headquartered BFSI company with branches in 12 cities across India. The policy must cover: (1) Types of transfers (organizational need, career development, employee request, temporary deputation, permanent transfer, international assignment), (2) Approval matrix (reporting manager, department head, HRBP, CHRO for senior roles, CEO for cross-business unit), (3) Notice period before transfer (minimum 30 days for employee preparation), (4) Transfer letter format and acceptance, (5) Relocation allowance in INR by grade and distance (one-time lump sum, no-bills vs bills-based), (6) Packing, moving, storage reimbursement limits with GST invoice requirement, (7) Travel expenses for employee and dependents (up to spouse and 2 children), (8) Temporary accommodation (up to 30 days in company guesthouse or hotel per grade cap), (9) Brokerage reimbursement for rental (up to 1 month rent), (10) Spouse employment support and children school search assistance, (11) Hardship allowance for Tier 3 locations or difficult postings, (12) Repatriation at end of assignment, (13) Tax implications (perquisites, non-taxable allowances, Section 10(14)), (14) Refusal to accept transfer and disciplinary implications aligned with employment contract, (15) Return of company assets and hand-over checklist. Include a relocation claim form, checklist for HR, and sample transfer letter. Format as a detailed policy with grade-wise allowance tables and tax notes.",
+      "tags": [
+        "transfer-policy",
+        "relocation",
+        "mobility",
+        "handbook",
+        "bfsi"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-039",
+      "title": "Create Workforce Restructuring Compliance Playbook",
+      "prompt": "Act as a senior HR strategy and labour law consultant with 15 years of experience handling reductions in force and restructuring in India. I need you to create a Workforce Restructuring Compliance Playbook for a 900-employee manufacturing and services company considering a 15 percent workforce reduction across 3 sites in Maharashtra, Tamil Nadu, and Haryana. The playbook must cover: (1) Legal framework distinction between workmen (under Industrial Disputes Act 1947) and non-workmen employees, (2) Retrenchment compliance for workmen under Section 25F (1 month notice or pay in lieu, 15 days wages per completed year compensation, notice to government), (3) Chapter VB applicability for establishments with 100+ workmen - prior government permission for layoff, retrenchment, closure under Sections 25M, 25N, 25O, (4) Last-In-First-Out principle under Section 25G, (5) Non-workmen separation via contract termination - notice period, severance, mutual separation agreements with full and final settlement and releases, (6) Voluntary Separation Scheme (VSS) design - eligibility, compensation formula (typically 1.5-2 months salary per year of service), tax treatment under Section 10(10C), ex-gratia, retention of medical/gratuity benefits, (7) Communication plan (leadership announcement, individual conversations, union consultation if applicable, town halls), (8) Outplacement and career transition support, (9) Continuation of group medical insurance for 3-6 months, (10) Alumni benefits, (11) Re-employment preference under Section 25H, (12) State-specific nuances (Maharashtra, TN Industrial Establishments Act, Haryana), (13) Litigation risk management and documentation, (14) PR and internal comms risk. Include templates for retrenchment notice, VSS application, mutual separation agreement, and a project governance structure. Format as a confidential playbook for the restructuring steering committee.",
+      "tags": [
+        "restructuring",
+        "retrenchment",
+        "industrial-disputes-act",
+        "vss",
+        "playbook"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    },
+    {
+      "id": "hr-hr-operations-040",
+      "title": "Build Integrated HR SOP Manual for Shared Services",
+      "prompt": "Act as an HR shared services transformation leader with 13 years of experience in global capability centers (GCC) in India. I need you to design an Integrated HR SOP Manual structure for a newly set up HR Shared Services Center in Hyderabad serving 3500 employees across 6 group entities, operating on Darwinbox plus ServiceNow for ticketing. The manual must document SOPs across 15 processes with standardized structure for each: (1) Process name and code, (2) Purpose and scope, (3) RACI matrix, (4) Inputs and triggers, (5) Detailed step-by-step procedure with system screens referenced, (6) Decision trees and exception handling, (7) SLA (first response, resolution), (8) Quality checks, (9) Outputs and handoffs, (10) KPIs and reporting, (11) Risk and control points, (12) References to policies and statutes. The 15 processes to cover: onboarding, offboarding, payroll input collection, leave and attendance regularization, reimbursement processing, letter requests (address proof, visa, bank NOC, salary certificate), employee data changes, benefits administration (insurance, PF withdrawal), grievance intake and routing, policy clarifications, statutory documentation, helpdesk ticketing triage, tier 1/2/3 escalation, vendor management for BGV and payroll, HR analytics and reporting. Include a process hierarchy map, tiered support model (self-service, tier 1 agents, tier 2 specialists, tier 3 HRBP), SLA matrix, quality audit framework (3 percent sample, monthly scorecard), DPDP Act 2023 data handling controls, knowledge management structure on ServiceNow, continuous improvement mechanism (kaizen), and training plan for HRSS agents. Format as a master SOP framework document ready to drive rollout.",
+      "tags": [
+        "hr-shared-services",
+        "sop-manual",
+        "darwinbox",
+        "servicenow",
+        "gcc"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "hr-operations"
+    }
+  ]
+}

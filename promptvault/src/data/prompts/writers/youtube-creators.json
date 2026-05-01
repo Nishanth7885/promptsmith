@@ -1,0 +1,666 @@
+{
+  "prompts": [
+    {
+      "id": "writers-youtube-creators-001",
+      "title": "Long-Form Video Script with Strong Hook",
+      "prompt": "Act as a senior YouTube scriptwriter with 8 years of experience writing for Indian creators like Dhruv Rathee, Think School, and Nitish Rajput. I need you to write a complete 10-minute long-form video script (1,400 to 1,600 words) in Hinglish on the topic I provide below. Topic: [INSERT TOPIC, e.g., \"Why Indian EV startups are struggling in 2026\"]. Target audience: Indian viewers aged 18-35, tier-1 and tier-2 cities, interested in business and current affairs. Please provide: (1) A 15-second cold-open hook that creates curiosity or shock without clickbait, (2) A pattern-interrupt re-hook at the 45-second mark, (3) Clear value promise before the intro card, (4) 4 to 5 main sections with smooth transitions and retention devices every 60 seconds, (5) A mid-roll ad break suggestion at the best retention-safe point, (6) A 30-second conclusion with a clear takeaway, (7) End screen CTA that drives to a related video plus subscribe ask. Format the output as a shot-by-shot script with [VISUAL], [VOICEOVER], and [ON-SCREEN TEXT] columns. Consider retention curves typical for Indian YouTube (30-second drop-off cliff), AdSense-safe language, and keep the tone conversational yet authoritative.",
+      "tags": [
+        "video-script",
+        "long-form",
+        "hook",
+        "retention"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-002",
+      "title": "10 High-CTR Thumbnail Titles A/B Pairs",
+      "prompt": "Act as a YouTube CTR specialist who has optimized thumbnails and titles for Indian creators like Ankur Warikoo, BeerBiceps, and Technical Guruji. I need you to generate 10 A/B title pairs for my upcoming video. Video topic: [INSERT TOPIC]. Target audience: [INSERT AUDIENCE, e.g., Indian college students 18-24]. Current working title: [INSERT]. Please provide: (1) 10 Version A titles using emotion-driven framing (curiosity gap, fear, surprise, aspiration), (2) 10 Version B titles using keyword-first SEO framing for search discovery, (3) For each pair, a 1-line rationale explaining which audience segment it targets and predicted CTR range (percentage), (4) The single strongest emotional trigger word in each title highlighted in bold, (5) A recommended thumbnail concept (facial expression, 3-word overlay text in Hindi or English) for the winning title, (6) Character count for each title (must stay under 60 characters so nothing gets truncated on mobile). Format as a markdown table with columns: Pair # | Version A | Version B | Emotion | Keyword | Thumbnail idea | Predicted CTR. Avoid clickbait that violates YouTube community guidelines and avoid ALL CAPS spam. Use Hinglish where it feels natural to Indian viewers.",
+      "tags": [
+        "thumbnail",
+        "title",
+        "ctr-optimization",
+        "a-b-test"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-003",
+      "title": "YouTube Shorts Script Under 60 Seconds",
+      "prompt": "Act as a YouTube Shorts specialist who has scripted viral Shorts for Indian creators including BB Ki Vines and CarryMinati side-channels. I need you to write 5 complete Shorts scripts, each under 60 seconds (140 to 160 spoken words maximum). Niche: [INSERT NICHE, e.g., personal finance for Indian freshers]. Please provide for each Short: (1) A 3-second hook that stops the scroll (question, bold claim, or visual pattern-break), (2) A loop-back line at the end so viewers re-watch (boosting the Shorts algorithm), (3) Clear single-takeaway value, (4) On-screen text cues every 2 to 3 seconds, (5) A subtle CTA to follow or comment without sounding desperate, (6) A trending Indian audio or sound suggestion where relevant. Format each Short with timestamps: 0-3s, 3-15s, 15-45s, 45-60s. Use punchy Hinglish that feels native to Gen Z Indian viewers. Avoid generic advice like \"save money\" and instead use specific, surprising facts with INR amounts. Ensure every script is AdSense-friendly and follows Shorts monetization policies updated in 2024.",
+      "tags": [
+        "shorts",
+        "video-script",
+        "hook",
+        "viral"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-004",
+      "title": "Tutorial Video Structure Blueprint",
+      "prompt": "Act as a tutorial-video structuring expert who has worked with Indian tech channels like Technical Guruji and Geeky Ranjit. I need you to design a complete structure blueprint for a how-to video. Tutorial topic: [INSERT, e.g., \"How to file ITR on the new income tax portal\"]. Video length target: 8 to 12 minutes. Please provide: (1) A hook that promises the end result in under 10 seconds, (2) A \"what you will learn\" bullet list (max 3 items), (3) A prerequisites section (tools, accounts, INR cost if any), (4) 5 to 7 numbered steps with estimated time per step, (5) Common mistakes Indian users make at each step, (6) A recap section, (7) Next-video suggestion, (8) Pinned-comment text for FAQs. Format as a structured outline with suggested screen-recording cues and B-roll ideas. Consider that Indian viewers often watch tutorials on mobile, so call out any desktop-only steps clearly. Keep language beginner-friendly Hinglish.",
+      "tags": [
+        "tutorial",
+        "video-structure",
+        "how-to"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-005",
+      "title": "Engagement Hooks Library",
+      "prompt": "Act as a YouTube retention expert. I need you to create a library of 25 engagement hooks I can reuse across my Indian finance channel. Channel style: Ankur Warikoo meets Think School. Please provide: (1) 5 curiosity-gap hooks, (2) 5 controversial-claim hooks (AdSense-safe), (3) 5 story-opening hooks featuring Indian characters like Rahul from Bengaluru or Priya from Pune, (4) 5 statistic-shock hooks using real Indian data points (INR, percentages, demographics), (5) 5 \"I was wrong about X\" confession hooks. For each hook, include: the exact spoken line (under 15 words), the emotion it triggers, and the best video topic fit. Format as a numbered list grouped by category. Avoid generic openers like \"Hi guys, welcome back\" and instead write hooks that work in the first 3 seconds. Use conversational Hinglish throughout.",
+      "tags": [
+        "hook",
+        "engagement",
+        "retention"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-006",
+      "title": "SEO-Optimized Video Description",
+      "prompt": "Act as a YouTube SEO specialist with experience ranking Indian creator videos. I need you to write a complete video description. Video title: [INSERT]. Video topic summary: [INSERT 2 lines]. Target keyword: [INSERT, e.g., \"mutual fund SIP for beginners India\"]. Please provide: (1) A 150-character opening line that appears above the fold with the primary keyword naturally placed, (2) A 100-word summary of the video value, (3) Timestamps/chapters (minimum 5), (4) 3 related internal video links placeholders, (5) Affiliate or sponsor disclosure block in India-compliant language, (6) Social media links block, (7) 15 relevant hashtags (mix of broad and niche, India-focused), (8) A keyword section at the bottom for discoverability. Format as a copy-paste-ready YouTube description. Follow YouTube 2024 guidelines and ensure the description works for both YouTube search and Google search. Use INR where currency is mentioned.",
+      "tags": [
+        "description",
+        "seo",
+        "keywords"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-007",
+      "title": "End Screen CTA Script Variations",
+      "prompt": "Act as a YouTube CTA copywriter. I need you to write 10 end-screen CTA scripts (each 15 to 25 seconds of spoken content) for different goals. Channel niche: [INSERT, e.g., Indian career advice]. Please provide: (1) 3 CTAs that drive to a specific next video, (2) 2 CTAs that ask for subscribe with a clear reason-why, (3) 2 CTAs for joining a free Telegram or WhatsApp community, (4) 2 CTAs for a free lead magnet (e-book, template) with INR value anchoring, (5) 1 CTA for channel membership with tier benefits. For each, include the exact spoken line, suggested on-screen text, and visual element cue. Format as a numbered list with CTA goal, spoken script, on-screen text, and visual cue. Avoid desperate-sounding lines like \"please subscribe\" and instead use value-first language that feels natural to Indian viewers.",
+      "tags": [
+        "end-screen",
+        "cta",
+        "conversion"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-008",
+      "title": "Podcast-Style Interview Script",
+      "prompt": "Act as a podcast producer for Indian creators like Ranveer Allahbadia (BeerBiceps). I need you to write a complete interview video script. Guest profile: [INSERT, e.g., \"Founder of a Bengaluru SaaS startup\"]. Episode length: 45 to 60 minutes. Topic: [INSERT]. Please provide: (1) A 60-second cold-open teaser using the guest's strongest quote, (2) Host intro and guest intro (under 90 seconds combined), (3) 12 main questions organized in 3 acts (backstory, insights, actionable takeaways), (4) 3 pattern-interrupt questions to re-hook drifting viewers, (5) 2 rapid-fire question blocks, (6) A clip-worthy moment prompt for each act (for Shorts repurposing), (7) Wrap-up and CTA. Format as a structured Q and A outline with estimated timestamps. Use Hinglish where natural. Include culturally relevant follow-ups for Indian business context.",
+      "tags": [
+        "podcast",
+        "interview",
+        "video-script"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-009",
+      "title": "Shorts to Long-Form Content Repurpose",
+      "prompt": "Act as a content repurposing strategist. I have a long-form video. Long-form title: [INSERT]. Long-form summary: [INSERT 3 lines]. I need you to break it into 7 Shorts scripts, each under 50 seconds. Please provide: (1) 7 hook lines, one per Short, each capturing a distinct angle from the long-form, (2) Complete 120 to 150 word scripts for each, (3) On-screen text cues, (4) A loop-back closing line for each, (5) A recommended posting order and 7-day schedule, (6) Unique hashtags per Short (5 each). Format as 7 numbered Shorts, each with hook, body, loop, hashtags. Target audience: Indian viewers 18-30. Ensure each Short stands alone without requiring the long-form context but also teases the full video in the pinned comment text which you should also provide.",
+      "tags": [
+        "shorts",
+        "repurpose",
+        "video-script"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-010",
+      "title": "Vlog Intro That Hooks in 10 Seconds",
+      "prompt": "Act as a vlog script consultant who has worked with Indian lifestyle creators. I need 10 vlog intros, each under 10 seconds of spoken content (25 to 30 words), for daily vlogs. Vlogger niche: [INSERT, e.g., \"Delhi-based fitness and food vlogger\"]. Please provide: (1) 10 intros using different structures: shocking statement, rhetorical question, mini story, bold promise, visual reveal, confession, countdown, challenge setup, contrarian take, teaser of ending, (2) For each, the exact spoken line, the visual that should accompany it, and why it hooks Indian viewers specifically, (3) A ranked order from most to least curiosity-inducing. Format as a numbered list. Use natural Hinglish. Avoid cliches like \"welcome back guys\" and \"don't forget to subscribe\". Every intro must make the viewer want to watch the next 30 seconds.",
+      "tags": [
+        "vlog",
+        "hook",
+        "intro"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-011",
+      "title": "Channel Trailer Script 60 Seconds",
+      "prompt": "Act as a YouTube channel branding specialist. I need you to write a 60-second channel trailer script for a new Indian creator. Channel niche: [INSERT]. Creator's unique angle: [INSERT]. Target viewer: [INSERT]. Please provide: (1) A 5-second attention-grabbing opener, (2) A promise of what the viewer will get on this channel (3 clear benefits), (3) Social proof or credibility hook (years of experience, followers, or a bold result), (4) Upload schedule mention, (5) A strong subscribe CTA with a reason-why, (6) Visual B-roll suggestions for every 5-second block. Format as a timed script (0-5s, 5-15s, etc.) with [SPOKEN], [VISUAL], [ON-SCREEN TEXT]. Word count target: 140 to 160 spoken words. Use Hinglish if the channel targets Hindi-speaking viewers. Avoid generic creator cliches and make the creator sound distinct.",
+      "tags": [
+        "channel-trailer",
+        "video-script",
+        "branding"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-012",
+      "title": "Thumbnail Text Overlay Ideas",
+      "prompt": "Act as a thumbnail designer and copywriter. I need you to generate 15 thumbnail text overlay options for my next video. Video topic: [INSERT]. Target emotion: [INSERT, e.g., shock, curiosity, FOMO]. Please provide: (1) 15 overlay texts, each between 2 and 5 words, optimized for mobile readability, (2) For each, suggest the color (high contrast), font style (bold vs condensed), and placement (left, right, center), (3) A paired facial expression or object suggestion, (4) The strongest \"power word\" highlighted in each, (5) The top 3 picks ranked with reasoning based on Indian YouTube CTR patterns. Format as a table with columns: # | Text | Emotion | Color | Font | Placement | Power word | Rank. Ensure text is readable at 180 x 100 pixels (mobile feed thumbnail size). Mix Hindi, Hinglish, and English options.",
+      "tags": [
+        "thumbnail",
+        "design",
+        "ctr-optimization"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-013",
+      "title": "Reaction Video Script Structure",
+      "prompt": "Act as a reaction-video scriptwriter who has studied channels like Slayy Point and Triggered Insaan. I need you to structure a reaction video. Topic being reacted to: [INSERT, e.g., \"a trending Bollywood trailer\"]. Please provide: (1) A 10-second cold-open that teases the funniest or most shocking reaction moment, (2) Context setup for viewers who haven't seen the original, (3) 5 reaction beat points with suggested commentary angles (roast, surprise, nostalgia, analytical, emotional), (4) A \"hot take\" section where the creator gives a strong opinion, (5) A question to the audience to drive comments, (6) CTA to a related reaction video. Format as a timed outline with suggested spoken lines and visual cues. Ensure all commentary stays within YouTube community guidelines and avoids defamation risks under Indian IT Rules 2021. Use conversational Hinglish.",
+      "tags": [
+        "reaction",
+        "video-script",
+        "commentary"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-014",
+      "title": "Video Idea Generator from Trends",
+      "prompt": "Act as a YouTube trend researcher for Indian creators. I need you to generate 20 video ideas for my channel based on current Indian trends. Channel niche: [INSERT]. Please provide: (1) 20 video ideas grouped as: 5 evergreen topics, 5 trend-jacking topics tied to this month's Indian news or viral moments, 5 contrarian takes, 5 listicle or ranking videos, (2) For each idea, a draft title under 60 characters, estimated search volume signal (high/medium/low), and why it fits the niche, (3) The top 3 ranked by viral potential with reasoning. Format as a numbered table. Avoid saturated topics that big channels already dominate. Include at least 5 ideas that can be made on a zero-budget shoot. Assume the creator is a solo operator in a tier-2 Indian city.",
+      "tags": [
+        "ideation",
+        "trends",
+        "content-strategy"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-015",
+      "title": "Hindi Voiceover Script for Explainer",
+      "prompt": "Act as a Hindi scriptwriter for explainer videos. I need you to write a 5-minute explainer video voiceover entirely in clean Hindi (Devanagari script). Topic: [INSERT, e.g., \"How UPI actually works behind the scenes\"]. Target audience: Hindi-speaking viewers in tier-2 and tier-3 Indian cities. Please provide: (1) A hook of 2 to 3 sentences that feels conversational, (2) A clear value promise, (3) The main explanation broken into 4 parts with simple analogies relatable to Indian everyday life (kirana store, train tickets, chai tapri, etc.), (4) A recap, (5) A subscribe CTA in Hindi. Target word count: 650 to 750 Hindi words. Format as a clean script with section headings. Avoid Sanskrit-heavy vocabulary and keep the Hindi simple and spoken-style. Provide a pronunciation note for any technical English terms used.",
+      "tags": [
+        "hindi",
+        "voiceover",
+        "video-script",
+        "explainer"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-016",
+      "title": "Comment-Driving Engagement Question",
+      "prompt": "Act as a YouTube community manager. I need you to write 15 engagement questions I can drop at the 60 to 90 second mark of my videos to boost comment count. Channel niche: [INSERT]. Please provide: (1) 5 opinion questions (controversial but safe), (2) 5 personal-experience questions that make viewers share their own story, (3) 5 either-or choice questions that are easy to answer in one word. For each question, include: the exact spoken line, the predicted comment volume signal, and the best insertion point in a video. Format as a numbered list grouped by type. Use Hinglish where natural and keep each question under 20 words. Avoid generic asks like \"what do you think\" and instead write questions that invite specific, substantive replies from Indian viewers.",
+      "tags": [
+        "engagement",
+        "comments",
+        "community"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-017",
+      "title": "Retention Curve Rescue Script",
+      "prompt": "Act as a YouTube analytics and scripting expert. My video has a retention drop at the 2-minute mark (from 65 percent to 40 percent). I need you to rewrite the 1:45 to 2:30 segment to plug the leak. Original video topic: [INSERT]. Original segment content: [INSERT 80 to 120 words]. Please provide: (1) A diagnosis of why the current segment is losing viewers (pacing, redundancy, visual monotony, info dump), (2) 3 rewritten versions of the segment using different retention devices: pattern interrupt, open loop, cliffhanger question, (3) Visual and B-roll suggestions for each rewrite, (4) A re-hook line at exactly the 2:00 mark, (5) Predicted retention improvement percentage for each version. Format as a clear before-and-after comparison. Use Hinglish conversational tone suited for Indian viewers on mobile.",
+      "tags": [
+        "retention",
+        "analytics",
+        "rewrite"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-018",
+      "title": "Brand Deal Integration Script",
+      "prompt": "Act as a branded content scriptwriter for Indian creators. A brand wants to integrate into my video. Brand: [INSERT, e.g., a fintech app]. Brand message: [INSERT]. Video topic: [INSERT]. Deal value: [INSERT in INR]. Please provide: (1) A 60-second native integration script that fits organically into the video's narrative (not a break-in ad read), (2) A 30-second alternate version for Shorts, (3) Disclosure language compliant with ASCI and YouTube's paid-promotion policies, (4) 3 creative hook options to introduce the brand without killing retention, (5) A clear CTA with trackable link placement suggestion, (6) A fallback script if the brand rejects the first version. Format as a complete script with spoken lines, on-screen text, and visual cues. Ensure the integration feels authentic to the creator's voice and avoids sounding scripted. Include ASCI disclosure #ad or paid-partnership language.",
+      "tags": [
+        "brand-deal",
+        "sponsorship",
+        "integration",
+        "asci"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-019",
+      "title": "Documentary-Style Long-Form Script",
+      "prompt": "Act as a documentary scriptwriter inspired by Mo Dollars and Nas Daily meets Indian context. I need you to write a 15-minute documentary-style script (2,000 to 2,200 spoken words). Topic: [INSERT, e.g., \"The rise and fall of an Indian unicorn\"]. Please provide: (1) A cinematic cold-open teasing the ending, (2) A chapter structure with 4 to 5 acts, (3) Narrative hooks between each act, (4) Interview quote placeholders (where real interviews will go), (5) Data visualization cues with specific INR figures, (6) B-roll suggestions per chapter, (7) An emotional climax at the 12-minute mark, (8) A reflective conclusion with a universal takeaway, (9) End card CTA to a related documentary. Format as a shot-by-shot script with [VISUAL], [VO], [TEXT], [MUSIC MOOD] columns. Ensure tone is journalistic and avoids speculation or defamation risks. Cite data sources for every statistic.",
+      "tags": [
+        "documentary",
+        "long-form",
+        "video-script",
+        "narrative"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-020",
+      "title": "Multi-Language Video Adaptation",
+      "prompt": "Act as a multilingual YouTube localization expert. I have a script in English. Original script: [PASTE 300 to 500 words]. Target languages: Hindi, Tamil, Telugu, Bengali, Marathi. Please provide: (1) A culturally adapted (not literal) version of the script in all 5 target languages, preserving humor and emotion, (2) Language-specific idioms, references, and examples that resonate with each regional audience, (3) A note on tone adjustments (e.g., Tamil audiences prefer X, Bengali audiences prefer Y), (4) Title and thumbnail text adapted per language (under 60 characters), (5) Top 5 hashtags per language. Format as 5 clearly labeled sections. Use native script for each language (Devanagari, Tamil, Telugu, Bengali, Devanagari respectively). Avoid machine-translation stiffness and write like a native speaker in each language.",
+      "tags": [
+        "localization",
+        "multilingual",
+        "hindi",
+        "tamil"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-021",
+      "title": "Shorts Hook Testing Framework",
+      "prompt": "Act as a Shorts virality scientist. I have a Shorts idea. Topic: [INSERT]. I need you to create a hook testing framework. Please provide: (1) 10 distinct hook variations for the same Shorts topic, each using a different psychological trigger (curiosity, novelty, outrage, aspiration, nostalgia, FOMO, social proof, contrarianism, confession, urgency), (2) For each, the spoken line (under 8 words), the visual pattern interrupt in the first second, and the predicted swipe-away rate, (3) A 3-second silent visual hook as an alternative, (4) A testing schedule: which hooks to post on which days to get fair algorithmic comparison, (5) KPIs to track (swipe-away rate at 3s, 10s, watch-time percentage, re-watch rate). Format as a numbered table and a posting schedule calendar. Target audience: Indian Gen Z on mobile. Avoid hooks that could trip Shorts demonetization rules.",
+      "tags": [
+        "shorts",
+        "hook",
+        "a-b-test",
+        "virality"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-022",
+      "title": "Video Series Arc Planning",
+      "prompt": "Act as a YouTube series strategist. I want to launch a 10-episode video series on my channel. Series topic: [INSERT, e.g., \"Building a direct-to-consumer brand in India from 0 to 1 Cr INR\"]. Please provide: (1) A series promise and audience hook, (2) 10 episode titles with a clear narrative arc (setup, rising action, conflict, climax, resolution), (3) A cliffhanger ending for each episode that drives to the next, (4) A consistent cold-open format for the series, (5) A unified visual and thumbnail branding system (color, font, overlay template), (6) Release cadence recommendation (weekly vs. bi-weekly) with reasoning, (7) Cross-episode callback opportunities, (8) A binge-watch playlist description. Format as a structured series bible. Ensure continuity and that viewers who discover episode 5 can still understand context. Use INR and Indian business examples throughout.",
+      "tags": [
+        "series",
+        "content-strategy",
+        "narrative"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-023",
+      "title": "AdSense-Safe Controversial Topic Script",
+      "prompt": "Act as a YouTube policy and monetization expert. I want to cover a controversial Indian topic without getting demonetized. Topic: [INSERT, e.g., \"Why Indian startup layoffs are spiking in 2026\"]. Please provide: (1) A 10-minute script that discusses the topic substantively, (2) A list of 15 trigger words to avoid or replace (with AdSense-safe alternatives), (3) Language framing that presents facts without sensationalism, (4) Disclaimers to insert at 0:10 and 9:30, (5) A balanced perspective section to avoid one-sided flags, (6) Pinned-comment text clarifying the channel's stance, (7) Thumbnail and title guidelines that won't trigger limited-ads yellow icon. Format as a full script with a separate \"monetization audit checklist\" section at the end. Ensure compliance with YouTube 2024 advertiser-friendly content guidelines and Indian IT Rules 2021.",
+      "tags": [
+        "adsense",
+        "monetization",
+        "policy",
+        "video-script"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-024",
+      "title": "Thumbnail Psychology Deep Analysis",
+      "prompt": "Act as a YouTube thumbnail psychologist. I have 5 competing videos on the same topic as mine. Topic: [INSERT]. Competitor thumbnail descriptions: [PASTE 5 descriptions or attach]. Please provide: (1) A teardown of each competitor thumbnail identifying the dominant emotion, focal point, text hierarchy, color theory, and face usage, (2) Predicted CTR range for each based on pattern recognition, (3) The visual gap in the market my thumbnail can exploit, (4) 3 concept sketches for my thumbnail described in detail (subject pose, background, overlay text, color palette, 3 power words), (5) A/B test plan for my top 2 concepts, (6) Specific guidance on face expression (Indian viewers respond better to X), (7) Text placement heatmap logic. Format as a structured analysis with sections for each competitor and then my strategy. Use Indian YouTube CTR benchmarks (tier-1 finance: 6 to 10 percent).",
+      "tags": [
+        "thumbnail",
+        "psychology",
+        "ctr-optimization",
+        "analysis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-025",
+      "title": "End Screen Conversion Funnel",
+      "prompt": "Act as a YouTube funnel architect. I want to convert viewers to email subscribers at the end of every video. Niche: [INSERT]. Lead magnet: [INSERT, e.g., a free Notion template]. Please provide: (1) A 25-second end screen script that pitches the lead magnet without killing retention, (2) A second variant that funnels to a YouTube playlist first, then to the lead magnet in the description, (3) Visual end-screen layout with element placements (next video, subscribe, playlist, link), (4) Pinned-comment copy driving to the lead magnet, (5) Video description block with clickable link, (6) A/B test setup for two different hook lines in the end screen, (7) Expected conversion rate benchmarks for Indian audiences. Format as a complete funnel document with script, visual layout, and KPIs. Use INR for any value anchoring.",
+      "tags": [
+        "end-screen",
+        "funnel",
+        "conversion",
+        "cta"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-026",
+      "title": "Hindi-English Code-Switch Script",
+      "prompt": "Act as a Hinglish scriptwriter who understands when to switch between Hindi and English for maximum impact. I need a 7-minute video script with intentional code-switching. Topic: [INSERT]. Target: urban Indian 20-somethings who think in Hinglish. Please provide: (1) A full script with clearly marked Hindi sentences in Devanagari and English sentences in Latin script, (2) Code-switch rules used (e.g., emotional beats in Hindi, technical terms in English, punchlines in Hindi), (3) A rhythm guide showing when to slow down and when to speed up, (4) Retention devices that leverage the language switch itself, (5) Sample phrases that feel native (not forced), (6) A glossary for any slang used. Word count: 1,000 to 1,150 spoken words. Format as a clean readable script with annotations. Avoid stiff translation and make it sound like how real Indian creators actually speak.",
+      "tags": [
+        "hinglish",
+        "code-switch",
+        "video-script"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-027",
+      "title": "Shorts Description and Caption Optimizer",
+      "prompt": "Act as a Shorts metadata optimizer. I have 10 Shorts going out this week. Niche: [INSERT]. Please provide for each Short: (1) A 150-character description optimized for Shorts search, (2) A caption hook that appears in the first line (under 50 characters), (3) 5 hashtags (mix of broad #shorts and niche), (4) A pinned-comment question to drive engagement, (5) An emoji strategy that boosts tap-through without looking spammy, (6) A cross-promotion line linking to a related long-form video. Format as a table with columns: Short # | Caption | Description | Hashtags | Pinned comment | Cross-promo. Assume topics are around Indian personal finance and career for Gen Z. Ensure all captions are Shorts-monetization compliant.",
+      "tags": [
+        "shorts",
+        "description",
+        "metadata",
+        "seo"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-028",
+      "title": "Storytelling Framework for Tutorials",
+      "prompt": "Act as a storytelling coach for YouTube tutorials. Instead of a dry how-to, I want to teach through story. Tutorial topic: [INSERT, e.g., \"How to negotiate salary in India\"]. Please provide: (1) A character-driven story framework starring a fictional Indian protagonist (e.g., Ananya, 26, product manager in Gurugram), (2) A clear problem-introduction hook, (3) The protagonist's failed first attempt (relatable pain), (4) The mentor moment introducing the tutorial steps, (5) Step-by-step application shown through the story, (6) The payoff moment with specific INR numbers, (7) A callback CTA to the viewer's own situation. Format as a 10-minute narrative script. Word count: 1,400 to 1,600. Ensure the story teaches the tutorial fully so viewers who skip the story still learn (use on-screen step callouts). Avoid stereotypes and keep characters realistic.",
+      "tags": [
+        "storytelling",
+        "tutorial",
+        "video-script"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-029",
+      "title": "Competitor Channel Teardown",
+      "prompt": "Act as a YouTube competitive analyst. I want to outgrow a competitor channel. Competitor: [INSERT channel name]. My channel: [INSERT]. Please provide: (1) An analysis of their top 10 performing videos (inferred from view counts), identifying title patterns, thumbnail formulas, upload cadence, and hook structures, (2) Content gaps they are not covering, (3) Audience segments they are underserving, (4) 15 video ideas I can make that target their blind spots, (5) A differentiation angle (tone, format, depth, language) I can own, (6) A 90-day plan to chip away at their audience, (7) Key metrics to track weekly. Format as a strategic memo with sections. Assume both channels operate in the Indian market. Include at least 5 ideas leveraging Hinglish or regional language for a competitive edge.",
+      "tags": [
+        "competitor-analysis",
+        "strategy",
+        "content-gap"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-030",
+      "title": "Community Post to Video Pipeline",
+      "prompt": "Act as a community engagement strategist. I want to use YouTube Community posts to validate video ideas before I film them. Niche: [INSERT]. Please provide: (1) 10 Community post templates (polls, image + caption, text questions, GIFs) designed to surface audience interest, (2) A scoring rubric to decide which posts are signal strong enough to convert into a full video, (3) A 4-week calendar pairing each Community post with a potential video follow-up, (4) Sample poll options that force clear preferences (no fence-sitting), (5) A copy formula to turn poll winners into titles, (6) Expected engagement benchmarks for Indian channels under 100k subscribers. Format as a numbered playbook. Use Hinglish for posts where appropriate and keep each post under 280 characters.",
+      "tags": [
+        "community-posts",
+        "ideation",
+        "validation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-031",
+      "title": "Live Stream Script and Structure",
+      "prompt": "Act as a YouTube live stream producer. I am running a 60-minute live Q and A. Topic: [INSERT]. Please provide: (1) A pre-live 30-second countdown script, (2) A live open (first 3 minutes) that sets expectations and hooks late joiners, (3) A segment plan: intro, 3 main topic blocks, chat Q and A, super-chat priority rules, wrap-up, (4) 10 filler questions I can use if the chat goes quiet, (5) A mid-stream retention spike at the 25-minute mark (giveaway, poll, or reveal), (6) A strong end with a CTA to join Telegram/WhatsApp community, (7) Post-live actions (clip highlights, replay description, Shorts from live). Format as a run-of-show document with timestamps. Assume Indian audience, INR super chats, and mention YouTube Live monetization rules.",
+      "tags": [
+        "live-stream",
+        "video-structure",
+        "qa"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-032",
+      "title": "Evergreen Video Refresh Strategy",
+      "prompt": "Act as a YouTube growth consultant. I have an old video that used to perform well but views have dropped. Video topic: [INSERT]. Original upload date: [INSERT]. Current monthly views: [INSERT]. Please provide: (1) A diagnosis of why the video is declining (outdated info, new competitors, changed search intent, stale thumbnail), (2) A refresh plan: new title, new thumbnail, new description, pinned comment update, (3) A rewrite of the first 30 seconds as a re-upload option, (4) A companion Shorts strategy to feed viewers back to the video, (5) An external traffic plan (LinkedIn, X, Reddit India) to re-seed the video, (6) A decision framework on refresh vs re-upload vs replace, (7) KPIs to monitor over 30 days. Format as an action plan. Use Indian market examples for context.",
+      "tags": [
+        "optimization",
+        "refresh",
+        "evergreen",
+        "strategy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-033",
+      "title": "Advanced Retention Script Architecture",
+      "prompt": "Act as a senior YouTube retention architect who has engineered scripts for top-tier Indian creators with 80 percent plus average view duration. I need you to engineer a 12-minute script using advanced retention architecture. Topic: [INSERT]. Please provide: (1) An opening 15-second \"triple hook\" stacking curiosity gap, visual pattern interrupt, and bold promise, (2) Retention devices placed at every 45-second interval with specific mechanisms: open loops, foreshadowing, callback hooks, re-contextualization, (3) A \"false ending\" at the 10-minute mark that keeps viewers for the real conclusion, (4) Pacing map with word-per-minute targets for each section, (5) Emotional arc chart across 12 minutes (tension, release, tension), (6) Predicted retention curve by minute, (7) Testing hypotheses for which devices to swap if retention drops. Format as a fully annotated script plus a retention architecture diagram described in text. Use Indian creator examples (Dhruv Rathee, Think School style). Target 1,650 to 1,800 spoken words.",
+      "tags": [
+        "retention",
+        "advanced",
+        "video-script",
+        "architecture"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-034",
+      "title": "Full Channel Content System Design",
+      "prompt": "Act as a YouTube channel operating system designer. I run a solo Indian channel and need a scalable content system. Niche: [INSERT]. Current output: [INSERT videos/month]. Target: double output without burning out. Please provide: (1) A complete content operating system covering ideation, scripting, recording, editing, thumbnails, publishing, and community, (2) Templates for each stage (Notion / Airtable style), (3) A weekly schedule showing batch-production days, (4) Delegation map for when to hire a Rs 15,000/month editor and a Rs 25,000/month scriptwriter, (5) Quality gates to prevent drops in retention as volume scales, (6) KPI dashboards per stage, (7) A 12-week rollout plan, (8) Tool stack (free and paid Indian-friendly options). Format as a structured playbook with numbered sections. Assume solo creator in a tier-1 Indian city with limited capital.",
+      "tags": [
+        "workflow",
+        "operations",
+        "scaling",
+        "system"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-035",
+      "title": "Psychographic Script Personalization",
+      "prompt": "Act as an audience research expert. I know my subscriber psychographics deeply. Audience: [INSERT, e.g., \"Indian aspirational middle-class men 24-32, tier-2 cities, first-gen learners, anxious about career\"]. Topic: [INSERT]. Please provide: (1) An emotional pain-point map for this psychographic (5 core anxieties, 5 aspirations, 5 objections), (2) A 10-minute script that touches all 5 pain points with specific language this audience uses, (3) Cultural reference points (movies, cricket, family dynamics) that create instant connection, (4) INR anchoring examples that feel real for tier-2 incomes (e.g., Rs 35,000 salary), (5) A framing that reframes their self-identity from victim to hero, (6) A CTA that feels like a next logical step for their stage of life. Format as a psychographic brief followed by the full script. Avoid generic Bollywood cliches and stereotyping.",
+      "tags": [
+        "audience-research",
+        "psychographics",
+        "personalization",
+        "video-script"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-036",
+      "title": "Membership and Premium Content Strategy",
+      "prompt": "Act as a YouTube monetization strategist. I want to launch Channel Memberships at Rs 99, Rs 299, and Rs 999 tiers. Niche: [INSERT]. Current subscribers: [INSERT]. Please provide: (1) Tier design with specific perks per level (badges, emojis, exclusive posts, member-only videos, 1:1 calls), (2) A 12-video member-only content calendar, (3) Acquisition funnel from public video to membership (on-screen CTAs, end-screen scripts, description blocks, community posts), (4) Projected MRR math based on realistic conversion rates for Indian audiences (0.3 to 1 percent of subscribers), (5) Retention strategy to keep members beyond month 2, (6) Legal and GST considerations for Indian creators earning from memberships, (7) A launch-week promotional sequence. Format as a complete monetization playbook with INR projections. Include benchmarks from Indian creators who have scaled memberships successfully.",
+      "tags": [
+        "membership",
+        "monetization",
+        "strategy",
+        "pricing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-037",
+      "title": "Data-Driven Title Rewrite Engine",
+      "prompt": "Act as a YouTube title optimization scientist. I have a video with low CTR. Current title: [INSERT]. Current CTR: [INSERT percent]. Niche benchmark CTR: [INSERT percent]. Topic: [INSERT]. Please provide: (1) A diagnosis of why the current title underperforms (keyword stuffing, weak emotion, wrong audience signal, length), (2) 20 rewritten titles grouped into 5 frameworks: curiosity gap, number listicle, how-to, contrarian, personal story, (3) For each title, a predicted CTR lift with reasoning based on Indian market patterns, (4) The top 3 ranked with A/B test setup using TubeBuddy or YouTube's built-in title test tool, (5) A decision tree on when to kill a title test, (6) A template I can reuse for future title optimization. Format as a structured optimization report. Use real Indian channel benchmarks (finance: 6-10 percent, entertainment: 8-14 percent).",
+      "tags": [
+        "title",
+        "optimization",
+        "ctr-optimization",
+        "a-b-test"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-038",
+      "title": "Cross-Platform Video Distribution Plan",
+      "prompt": "Act as a cross-platform video distribution strategist. I upload one long-form YouTube video per week. I want maximum distribution across YouTube Shorts, Instagram Reels, LinkedIn, X, and WhatsApp Channels. Video topic: [INSERT]. Please provide: (1) A repurposing matrix: from 1 long-form, how many assets per platform (e.g., 5 Shorts, 3 Reels, 2 LinkedIn posts, 10 tweets, 2 WhatsApp broadcasts), (2) Platform-specific hook rewrites for each asset because audiences differ, (3) A 7-day posting schedule with optimal India Standard Time slots per platform, (4) UTM tracking scheme to measure which platform sends the most long-form views, (5) A repurposing checklist to avoid cross-platform penalties (watermark removal, aspect ratio, caption style), (6) A monthly review framework. Format as a distribution playbook with tables. Keep everything solo-operator feasible in 4 hours per week.",
+      "tags": [
+        "distribution",
+        "repurpose",
+        "cross-platform",
+        "strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-039",
+      "title": "Regional Language Channel Launch Blueprint",
+      "prompt": "Act as a regional YouTube expansion expert. I run a successful English channel in India and want to launch a Tamil (or Telugu or Bengali) sister channel. Original niche: [INSERT]. Target regional language: [INSERT]. Please provide: (1) A complete channel launch blueprint: positioning, channel name options, trailer script in the regional language, first 10 video topics, (2) Cultural adaptation notes (not just translation) including local heroes, movies, idioms, and market examples, (3) A dub vs native-script decision matrix, (4) Monetization differences (regional CPM, brand deal rates in INR), (5) Team needs (regional scriptwriter, voiceover artist, editor) with budget in INR, (6) A 90-day growth plan with realistic subscriber and view targets, (7) Pitfalls to avoid (common mistakes English-first creators make when entering regional markets). Format as a strategic launch document. Use actual examples from creators who have successfully expanded regionally.",
+      "tags": [
+        "regional",
+        "tamil",
+        "telugu",
+        "bengali",
+        "launch"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    },
+    {
+      "id": "writers-youtube-creators-040",
+      "title": "Algorithmic Experiment Design",
+      "prompt": "Act as a YouTube algorithm researcher. I want to run a controlled experiment to understand what the algorithm rewards on my channel right now. Niche: [INSERT]. Current channel size: [INSERT subscribers]. Please provide: (1) A hypothesis-driven experiment design with 3 hypotheses (e.g., \"longer videos get higher impressions\", \"thumbnails with faces beat text-only\", \"uploading at 8 PM IST beats 6 PM IST\"), (2) A 6-video experiment plan (2 videos per hypothesis) with controlled variables, (3) Metrics to measure (impressions, CTR, average view duration, suggested traffic share), (4) Statistical significance thresholds given small sample sizes, (5) A decision framework: when to double down, when to abandon a hypothesis, (6) A data collection template, (7) A post-experiment report structure, (8) Common confounders in Indian YouTube (festival seasons, cricket matches, exam weeks) to control for. Format as an experimental protocol. Keep it rigorous but executable by a solo creator.",
+      "tags": [
+        "algorithm",
+        "experiment",
+        "analytics",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "youtube-creators"
+    }
+  ]
+}

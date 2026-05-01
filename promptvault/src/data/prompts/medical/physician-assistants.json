@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "medical-physician-assistants-001",
+      "title": "OPD SOAP Note Template for General Medicine",
+      "prompt": "Act as a senior Physician Assistant with 10 years of experience working in the General Medicine OPD of a tertiary care hospital in Mumbai (Apollo/Fortis/Max equivalent). I need you to generate a structured SOAP note template for a routine OPD encounter that a PA can fill in during a 7-10 minute consultation. The patient context: 54-year-old male, Mr. Ramesh Kulkarni, presenting with fatigue, polyuria, and weight loss over 3 months, known hypertensive on Telmisartan 40mg, family history of type 2 diabetes. Please provide: (1) Subjective section with chief complaint, HPI using OLDCARTS, relevant ROS in Hinglish-friendly phrasing, past medical/surgical/family/social history fields, drug and allergy history with Indian brand name prompts; (2) Objective section with vitals in SI units, general examination, focused systemic examination checkboxes, and point-of-care test fields (RBS, urine dipstick); (3) Assessment with differential diagnoses ranked by likelihood; (4) Plan section including investigations ordered (HbA1c, FBS/PPBS, lipid profile, KFT, urine R/M), pharmacological advice, lifestyle counselling in Indian dietary context, and follow-up timeline. Format as a fillable NABH-compliant template with section headers, bullet prompts, and space markers. Ensure the note supports handover, medicolegal defensibility, and insurance claim documentation. Add a clinical-aid disclaimer: this template is a documentation aid only and does not replace independent clinical judgement by a licensed physician.",
+      "tags": [
+        "soap-note",
+        "opd-documentation",
+        "general-medicine",
+        "nabh"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-002",
+      "title": "Pediatric History Taking Template for Indian OPD",
+      "prompt": "Act as a Physician Assistant with 8 years of experience in a busy Pediatric OPD at a corporate hospital chain in Bengaluru. I need you to create a comprehensive pediatric history-taking template suitable for children aged 0-12, designed for use with parents who may communicate in Hindi/Kannada/English mix. The context: 4-year-old child, Baby Aarav Sharma, brought by mother for recurrent cough and low-grade fever for 10 days, schooling in LKG, immunisation status partially known. Please provide: (1) Demographic and source-of-history fields; (2) Presenting complaint and HPI section with child-specific cues (feeding, sleep, activity, school attendance); (3) Birth history (antenatal, natal, postnatal, NICU stay, birth weight); (4) Developmental milestones checklist across four domains with red flags; (5) Immunisation history mapped to the Indian IAP schedule with BCG, OPV, Pentavalent, MMR, Rotavirus, Typhoid, Hepatitis A/B markers and catch-up advice; (6) Nutritional history including breastfeeding duration, weaning, and current diet with Indian food examples (dal, roti, curd-rice); (7) Family, social, housing, and sibling health; (8) Past illnesses, hospitalisations, surgeries. Format as a printable template with Hinglish question prompts the PA can read aloud. Include a clinical-aid disclaimer noting it supports but does not replace supervising pediatrician assessment.",
+      "tags": [
+        "history-taking",
+        "pediatrics",
+        "iap-schedule",
+        "opd-documentation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-003",
+      "title": "Referral Letter to Cardiologist for Chest Pain",
+      "prompt": "Act as a Physician Assistant with 6 years of experience working under a General Physician at a secondary care hospital in Pune. I need you to draft a formal referral letter to a consultant cardiologist at a tertiary centre (Ruby Hall Clinic) for a patient with suspected unstable angina. Patient context: Mr. Suresh Patil, 58 years, known diabetic and hypertensive, presenting with retrosternal chest pain radiating to left arm on exertion for 2 weeks, ECG showing T-wave inversion in V4-V6, Trop-I mildly elevated, currently on Aspirin 75, Atorvastatin 40, Metoprolol 25, Telmisartan 40. Please provide: (1) A referral letter on hospital letterhead format with date, consultant name/designation, institution, reference number; (2) Concise clinical summary with presenting complaint, relevant history, risk factors, examination findings, investigations with values and dates; (3) Working diagnosis and reason for referral; (4) Current medications with doses; (5) Specific questions for the cardiologist (need for angiography, optimisation of therapy, risk stratification); (6) Urgency indicator and contact details of referring physician; (7) Patient consent note for sharing records. Format as a ready-to-print one-page letter following Indian referral conventions, signed by the supervising physician. Maintain a professional, respectful tone. Include a clinical-aid disclaimer that the letter must be reviewed and signed by the supervising licensed physician before dispatch.",
+      "tags": [
+        "referral-letter",
+        "cardiology",
+        "chest-pain",
+        "tertiary-referral"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-004",
+      "title": "IV Cannulation Procedure Note Template",
+      "prompt": "Act as a Physician Assistant with 5 years of experience in the Emergency Department of a NABH-accredited hospital in Chennai. I need you to create a standardised procedure note template for peripheral intravenous cannulation that complies with NABH infection control documentation. Context: cannulation performed on a 45-year-old female, Mrs. Lakshmi Iyer, for administration of IV fluids and antibiotics for community-acquired pneumonia. Please provide: (1) Patient identifiers and consent documentation fields; (2) Indication for cannulation; (3) Pre-procedure checks (allergies, coagulation status, preferred site); (4) Equipment used with cannula gauge (18G/20G/22G), dressing, antiseptic (chlorhexidine 2%), gloves; (5) Site selection and landmark; (6) Aseptic technique steps and hand hygiene as per WHO 5 moments; (7) Procedure description (number of attempts, successful site, blood return confirmed, flush with saline); (8) Post-procedure securing, labelling with date/time/gauge/initials; (9) Complications (none/hematoma/extravasation) and management; (10) VIP score baseline and monitoring frequency; (11) Signature block for PA and supervising nurse/physician. Format as a half-page structured note that can be pasted into EMR or paper chart. Include infection prevention reminders and a clinical-aid disclaimer that the procedure must be performed only within the scope of the PA's authorised training and under physician supervision.",
+      "tags": [
+        "procedure-note",
+        "iv-cannulation",
+        "nabh",
+        "infection-control"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-005",
+      "title": "Annual Corporate Health Check Screening Checklist",
+      "prompt": "Act as a Physician Assistant with 7 years of experience coordinating annual corporate health check packages at a premium health check facility in Gurugram (similar to Apollo Preventive Health or Max Wellness). I need you to design a comprehensive screening checklist for a 40-year-old male IT professional, Mr. Arjun Malhotra, enrolled in his employer's annual health package priced at INR 8,500. Please provide: (1) Pre-visit instructions (fasting 10-12 hours, no alcohol 24h, medication guidance, comfortable clothing); (2) Registration and consent workflow; (3) Anthropometry and vitals station (height, weight, BMI, waist-hip ratio, BP, SpO2); (4) Laboratory panel (CBC, FBS, HbA1c, lipid profile, LFT, KFT, TSH, urine R/M, vitamin D, vitamin B12); (5) Cardiac screening (resting ECG, TMT if indicated, 2D echo as per package); (6) Imaging (chest X-ray, USG abdomen); (7) Pulmonary function test; (8) Eye and dental screening; (9) Physician consultation and diet counselling; (10) Lifestyle and mental health questionnaire (PHQ-2, GAD-2); (11) Post-check report dispatch timeline and follow-up advice. Format as a station-by-station checklist with estimated time per station and completion tickboxes. Include NABH quality markers. Add a clinical-aid disclaimer that the checklist supports coordination only and clinical interpretation rests with the attending physician.",
+      "tags": [
+        "screening-checklist",
+        "corporate-health-check",
+        "preventive-health",
+        "nabh"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-006",
+      "title": "Obstetric History Template for Antenatal OPD",
+      "prompt": "Act as a Physician Assistant with 9 years of experience in the antenatal OPD of a women and child hospital in Hyderabad. I need you to generate a detailed obstetric history template suitable for a first antenatal visit under the Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA) protocol. Context: Mrs. Priya Reddy, 28 years, G2P1L1, 14 weeks gestation by LMP, previous LSCS 3 years ago, booking visit at a private hospital accepting CGHS. Please provide: (1) Demographic details including Aadhaar/CGHS/insurance number fields; (2) Menstrual history with LMP, EDD by Naegele, cycle regularity; (3) Present obstetric history (symptoms, nausea, bleeding, supplements); (4) Past obstetric history tabulated (year, gestation, mode of delivery, birth weight, complications, baby alive/dead); (5) Past medical/surgical/drug history relevant to pregnancy; (6) Family history (diabetes, hypertension, twins, congenital anomalies); (7) Personal and dietary history including iron-rich foods; (8) Examination template (weight, BP, pallor, edema, PA, per vaginal if indicated); (9) Investigations ordered per MoHFW ANC guidelines (CBC, blood group, HIV, HBsAg, VDRL, urine R/M, OGTT, TSH, USG); (10) Risk stratification and referral flag. Format as a two-page ANC booklet style template. Add a clinical-aid disclaimer that care must be supervised by a qualified obstetrician.",
+      "tags": [
+        "history-taking",
+        "obstetrics",
+        "antenatal-care",
+        "pmsma"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-007",
+      "title": "Ayushman Bharat PMJAY Referral Documentation",
+      "prompt": "Act as a Physician Assistant with 4 years of experience at an empanelled Ayushman Bharat PM-JAY hospital in Lucknow handling patient referrals and pre-authorisation documentation. I need you to create a referral documentation template for a PMJAY beneficiary requiring tertiary-level cardiac surgery. Context: Mr. Ramu Yadav, 62 years, PMJAY card holder, diagnosed with triple vessel disease on coronary angiography, referred from a district hospital to an empanelled tertiary cardiac centre for CABG under package code. Please provide: (1) Beneficiary verification fields (PMJAY ID, Aadhaar, family ID, eligibility status); (2) Referring hospital details with empanelment code; (3) Clinical summary (history, examination, investigations, diagnosis, ICD-10 code); (4) Proposed procedure with PMJAY package code and package amount in INR; (5) Pre-authorisation checklist (investigation reports, angiography CD, consent, photographs as required); (6) Supporting documents list; (7) Referring physician declaration and signature; (8) Transport and accommodation support under the scheme; (9) Patient counselling points in Hindi on expected out-of-pocket costs (should be zero), duration of hospitalisation, follow-up. Format as a ready-to-upload template aligned with the PMJAY TMS portal structure. Include a clinical-aid disclaimer that final authorisation is issued by the SHA/ISA and the supervising physician must approve all entries.",
+      "tags": [
+        "referral-letter",
+        "ayushman-bharat",
+        "pmjay",
+        "pre-authorisation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-008",
+      "title": "Suturing Procedure Note for Minor OT",
+      "prompt": "Act as a Physician Assistant with 5 years of experience assisting in the minor OT of an emergency department at a NABH hospital in Kolkata. I need you to draft a suturing procedure note template for a simple laceration repair. Context: 32-year-old male, Mr. Bikash Das, presents with a 4 cm clean linear laceration on the left forearm sustained from a kitchen knife 2 hours ago, tetanus status uncertain, no tendon or neurovascular injury. Please provide: (1) Patient identifiers and informed consent documentation; (2) Pre-procedure assessment (wound age, mechanism, contamination, bleeding, distal NV status, tetanus status); (3) Wound description with location, length, depth, edges, foreign bodies; (4) Equipment list (sterile tray, 5-0/4-0 ethilon, 2% lignocaine with/without adrenaline, chlorhexidine/povidone, gauze, gloves); (5) Anaesthesia technique and dose; (6) Wound irrigation with normal saline volume; (7) Suturing method (simple interrupted, number of sutures, knots); (8) Dressing applied; (9) Tetanus toxoid/Tdap administration; (10) Antibiotic prophylaxis if indicated with drug, dose, duration; (11) Discharge advice with wound care, red flags, suture removal schedule (5-10 days); (12) Signature block. Format as a one-page note suitable for EMR or register. Include a clinical-aid disclaimer stating the procedure must be within the PA's authorised scope and under physician supervision.",
+      "tags": [
+        "procedure-note",
+        "suturing",
+        "minor-ot",
+        "wound-care"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-009",
+      "title": "Diabetes Follow-up SOAP Note Template",
+      "prompt": "Act as a Physician Assistant with 8 years of experience in a diabetes clinic affiliated with a tertiary hospital in Ahmedabad. I need you to create a follow-up SOAP note template for a patient with type 2 diabetes mellitus attending a routine 3-monthly review. Context: Mrs. Meenaben Shah, 56 years, T2DM for 8 years, on Metformin 1g BD, Glimepiride 2mg OD, Telmisartan 40mg for hypertension, last HbA1c 8.2%, complains of occasional hypoglycaemic episodes and numbness in feet. Please provide: (1) Subjective: symptom review including polyuria, polydipsia, weight, hypoglycaemic events with frequency and timing, foot symptoms, vision, erectile function, diet compliance, exercise, medication adherence; (2) Objective: vitals, weight, BMI, waist circumference, foot examination with monofilament and vibration, fundoscopy notes, injection sites if on insulin, point-of-care capillary glucose; (3) Investigations review (HbA1c, FBS/PPBS, KFT, urine ACR, lipid profile, LFT) with trends; (4) Assessment: glycaemic control status, complications screening summary, comorbidity status; (5) Plan: medication adjustment prompts, dietary advice with Indian portion sizes (roti, rice, dal), lifestyle advice, referrals (ophthalmology, podiatry), next follow-up. Format as a fillable template. Add a clinical-aid disclaimer that prescription changes must be authorised by the supervising physician.",
+      "tags": [
+        "soap-note",
+        "diabetes",
+        "chronic-care",
+        "follow-up"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-010",
+      "title": "Insurance TPA Medical Officer Pre-auth Note",
+      "prompt": "Act as a Physician Assistant working as a Medical Officer for an Indian insurance TPA (like MediAssist/Paramount/FHPL) with 4 years of experience reviewing cashless pre-authorisation requests. I need you to create a structured pre-authorisation review note template for an elective laparoscopic cholecystectomy claim. Context: 45-year-old female, Mrs. Anjali Verma, insured under a corporate group mediclaim with Star Health, sum insured INR 5 lakhs, admission at a network hospital in Noida with diagnosis of symptomatic cholelithiasis, proposed LOS 2 days, estimated package INR 75,000. Please provide: (1) Claim identifiers (policy number, TPA ID, hospital code, date/time of request); (2) Patient clinical summary extracted from pre-auth form; (3) Diagnosis with ICD-10 code and justification of medical necessity; (4) Proposed procedure with CPT/package code; (5) Line-item review of estimate (room, surgeon, anaesthetist, OT, consumables, investigations, pharmacy); (6) Tariff comparison with empanelled package; (7) Policy exclusion check (waiting period, pre-existing disease, sub-limits); (8) Red flags and clarifications needed from hospital; (9) Decision recommendation (approve/query/partial/deny) with justification in 100 words; (10) Approved amount in INR and remarks field. Format as an internal TPA note. Include a clinical-aid disclaimer that the final authorisation decision rests with the senior reviewing physician per IRDAI norms.",
+      "tags": [
+        "referral-letter",
+        "insurance-tpa",
+        "pre-authorisation",
+        "medical-officer"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-011",
+      "title": "ABG Sampling Procedure Note",
+      "prompt": "Act as a Physician Assistant with 6 years of ICU experience at a multi-specialty hospital in Delhi. I need you to create a procedure note template for arterial blood gas sampling. Context: 68-year-old male, Mr. Ishwar Singh, admitted in MICU with acute exacerbation of COPD on non-invasive ventilation, ABG ordered to assess hypercapnia and acid-base status. Please provide: (1) Patient identifiers and indication for ABG; (2) Pre-procedure checks (coagulation status, anticoagulant use, Allen's test for radial site, previous ABG sites, oxygen therapy details at time of sampling); (3) Equipment (pre-heparinised 2 ml ABG syringe, 23G needle, chlorhexidine swab, gauze, ice pack for transport); (4) Site selected (radial/brachial/femoral) with justification; (5) Patient positioning and aseptic technique; (6) Local anaesthesia use if applicable; (7) Sampling technique and volume; (8) Post-sampling compression time and haemostasis check; (9) Sample labelling with patient details, FiO2, time; (10) Transport and laboratory delivery within 15 minutes; (11) Complications (hematoma, arterial spasm, infection) and management; (12) ABG values interpretation template (pH, pCO2, pO2, HCO3, BE, lactate, SaO2) with clinical correlation space; (13) Signature block. Format as a one-page ICU-ready note. Add a clinical-aid disclaimer emphasising supervision and scope of practice compliance.",
+      "tags": [
+        "procedure-note",
+        "abg-sampling",
+        "icu",
+        "critical-care"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-012",
+      "title": "Dressing Change Procedure Note Template",
+      "prompt": "Act as a Physician Assistant with 5 years of experience in the surgical ward of a corporate hospital in Bengaluru. I need you to create a dressing change procedure note template for a post-operative wound. Context: 55-year-old male, Mr. Ganesh Rao, post-op day 3 following right inguinal hernia mesh repair, clean and dry wound, first dressing change. Please provide: (1) Patient identifiers and operative details; (2) Indication for dressing change; (3) Pre-procedure hand hygiene and PPE (gloves, mask); (4) Equipment (sterile dressing tray, normal saline, povidone iodine, sterile gauze, adhesive dressing, scissors, forceps); (5) Patient positioning and privacy; (6) Old dressing removal observation (soakage, discharge, odour, bleeding); (7) Wound assessment using standardised descriptors (site, size, edges, approximation, signs of infection using ASEPSIS/REEDA framework where relevant, suture integrity); (8) Photographic documentation consent if applicable; (9) Cleaning sequence (inside-out, saline then antiseptic); (10) New dressing application and securing; (11) Patient education on wound care and red flags (fever, increased pain, discharge, wound gaping); (12) Pain score pre/post; (13) Next dressing change schedule; (14) Signature block with PA name and supervising nurse/surgeon. Format as an EMR-friendly template. Add a clinical-aid disclaimer regarding physician supervision.",
+      "tags": [
+        "procedure-note",
+        "wound-dressing",
+        "post-operative-care",
+        "surgical-ward"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-013",
+      "title": "Referral Letter to Oncologist for Suspected Malignancy",
+      "prompt": "Act as a Physician Assistant with 7 years of experience under a General Surgeon in a secondary hospital in Jaipur. I need you to draft a referral letter to a medical oncologist at a tertiary cancer centre (Bhagwan Mahaveer Cancer Hospital or Tata Memorial) for a patient with newly diagnosed breast carcinoma. Context: Mrs. Sunita Agarwal, 48 years, postmenopausal, presents with a 3 cm hard lump in the upper outer quadrant of right breast for 2 months, core needle biopsy confirms invasive ductal carcinoma grade 2, ER+/PR+/HER2 2+ awaiting FISH, USG axilla shows suspicious level 1 nodes. Please provide: (1) Letterhead format with date, oncologist name, institution; (2) Patient demographics and insurance status (CGHS/private); (3) Presenting history with symptom duration; (4) Relevant past medical, surgical, obstetric, family, and menstrual history; (5) Examination findings with TNM clinical staging; (6) Investigations with dates (mammography BIRADS, USG, biopsy, HPE, IHC); (7) Working diagnosis and reason for referral; (8) Specific questions for oncologist (need for FISH, neoadjuvant vs upfront surgery, systemic therapy plan); (9) Patient psychological preparedness and family awareness note; (10) Contact details for report sharing. Format as a one-page formal letter following Indian oncology referral conventions with empathetic but professional tone. Include a clinical-aid disclaimer that the letter requires supervising physician sign-off.",
+      "tags": [
+        "referral-letter",
+        "oncology",
+        "breast-cancer",
+        "tertiary-referral"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-014",
+      "title": "Geriatric Comprehensive Assessment History Template",
+      "prompt": "Act as a Physician Assistant with 6 years of experience in a geriatric OPD at a teaching hospital in Vellore. I need you to develop a comprehensive geriatric assessment history-taking template for an elderly Indian patient attending their first visit. Context: Mr. Krishna Iyengar, 78 years, lives with his son's family in Chennai, complains of frequent falls, memory lapses, and poor appetite. Please provide: (1) Source of history and reliability; (2) Presenting complaints with geriatric-specific probing; (3) Past medical history including polypharmacy review with Indian brand names; (4) Functional assessment using Barthel Index for ADLs and Lawton IADL scale adapted to Indian household context (cooking dal-chawal, managing pension account, using mobile phone); (5) Cognitive screening with MMSE or HMSE (Hindi Mental State Exam) prompt; (6) Mood assessment with Geriatric Depression Scale (GDS-15); (7) Falls history using 3-question screen; (8) Nutritional assessment with MNA-SF; (9) Continence, sleep, hearing, vision; (10) Social history including living arrangement, caregiver, financial dependence, elder abuse screen; (11) Advance care planning readiness; (12) Immunisation status (influenza, pneumococcal, shingles); (13) Medication reconciliation with STOPP/START criteria prompts. Format as a two-page structured template. Add a clinical-aid disclaimer that assessment must be reviewed by a geriatrician.",
+      "tags": [
+        "history-taking",
+        "geriatrics",
+        "comprehensive-assessment",
+        "falls"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-015",
+      "title": "CGHS Beneficiary Referral Letter Template",
+      "prompt": "Act as a Physician Assistant with 5 years of experience at a CGHS wellness centre in Delhi handling outpatient referrals to empanelled specialists. I need you to draft a CGHS referral letter template for a pensioner beneficiary requiring orthopaedic consultation. Context: Mr. R.K. Sharma, 67 years, retired central government pensioner, CGHS card holder, complains of chronic right knee pain with reduced walking distance for 6 months, X-ray shows grade 3 osteoarthritis, referred to an empanelled orthopaedic surgeon at a private hospital. Please provide: (1) CGHS wellness centre letterhead details; (2) Beneficiary details (name, CGHS beneficiary ID, card number, category main/dependent, ward entitlement); (3) Referring medical officer details; (4) Clinical summary with diagnosis and ICD-10; (5) Specific specialty referred to and purpose (OPD consultation/investigation/procedure); (6) Proposed investigations or procedures if known (MRI knee, intra-articular injection, TKR evaluation); (7) Validity period of referral per CGHS norms; (8) List of empanelled hospitals permitted; (9) Permissions regarding cashless treatment; (10) Beneficiary acknowledgement and signature. Format as a ready-to-print CGHS-compliant referral note. Include a clinical-aid disclaimer that the CGHS Additional Director or authorised medical officer must counter-sign as per CGHS guidelines before the beneficiary avails the referral.",
+      "tags": [
+        "referral-letter",
+        "cghs",
+        "orthopaedics",
+        "government-scheme"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-016",
+      "title": "Emergency Department Triage SOAP Template",
+      "prompt": "Act as a Physician Assistant with 5 years of experience in the Emergency Department of a busy urban hospital in Mumbai handling 200+ cases daily. I need you to create a rapid ED triage SOAP note template aligned with the Emergency Severity Index (ESI) used in Indian EDs. Context: 36-year-old male, Mr. Vijay Kamble, brought by family with sudden onset severe headache 2 hours ago, vomiting once, no loss of consciousness, BP 180/110, GCS 15. Please provide: (1) Patient identifiers and time of arrival, mode of arrival (walk-in/ambulance/108); (2) Triage category (ESI 1-5) with justification; (3) Subjective: chief complaint, HPI with red flag screening (chest pain, stroke, sepsis, trauma), AMPLE history (Allergies, Medications, Past history, Last meal, Events); (4) Objective: vitals, GCS, focused examination relevant to complaint, point-of-care tests (ECG, RBS, urine pregnancy where relevant); (5) Assessment: working diagnosis, differentials, severity; (6) Plan: investigations ordered (CT, labs), initial management (IV access, oxygen, analgesia, antihypertensive), specialist notification, admission/observation/discharge decision, door-to-decision time. Format as a one-page rapid note that can be completed in under 5 minutes. Include handover SBAR prompt. Add a clinical-aid disclaimer noting final triage and disposition require emergency physician approval.",
+      "tags": [
+        "soap-note",
+        "emergency-department",
+        "triage",
+        "esi"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-017",
+      "title": "Pre-employment Medical Screening Checklist",
+      "prompt": "Act as a Physician Assistant with 6 years of experience conducting pre-employment medical fitness examinations for corporates in Chennai (IT, manufacturing, banking sector clients). I need you to build a comprehensive pre-employment screening checklist aligned with industry and Factories Act requirements. Context: 27-year-old male candidate, Mr. Karthik Subramanian, joining a BPO in IT park, package INR 6 LPA, employer requires certificate of medical fitness before joining. Please provide: (1) Candidate consent and ID verification; (2) Self-declared health questionnaire (chronic diseases, medications, surgeries, psychiatric history, substance use); (3) Anthropometry and vitals; (4) General and systemic examination; (5) Vision testing (Snellen, colour vision with Ishihara); (6) Audiometry if job-relevant; (7) Laboratory tests (CBC, FBS, LFT, KFT, HIV with consent, HBsAg, urine R/M with drug screen if required); (8) ECG (especially age 30+); (9) Chest X-ray PA view; (10) Dental check for food handlers; (11) Infectious disease screen for healthcare workers; (12) Psychological fitness note for safety-critical roles; (13) Fitness categorisation (Fit/Fit with limitations/Temporary unfit/Permanent unfit) with justification; (14) Certificate template with validity. Format as a station-by-station checklist with tickboxes. Include a clinical-aid disclaimer that the fitness certificate must be signed by the authorised medical officer.",
+      "tags": [
+        "screening-checklist",
+        "pre-employment",
+        "occupational-health",
+        "fitness-certificate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-018",
+      "title": "Psychiatric History Template for OPD",
+      "prompt": "Act as a Physician Assistant with 5 years of experience in a psychiatric OPD at a mental health hospital in Bengaluru (NIMHANS equivalent). I need you to design a psychiatric history template for a new adult patient that respects Indian cultural context and stigma sensitivity. Context: Mrs. Pooja Nair, 34 years, software engineer, accompanied by husband, presents with low mood, poor sleep, anhedonia, and passive death wishes for 2 months following a miscarriage. Please provide: (1) Informant, reliability, mode of referral; (2) Presenting complaints in chronological order with duration, onset, course, severity; (3) History of present illness with biological, cognitive, affective, and behavioural domains; (4) Past psychiatric history, hospitalisations, self-harm attempts; (5) Past medical history and current medications; (6) Family history of mental illness, suicide, substance use; (7) Personal history (birth, childhood, schooling, occupation, marriage, sexual, premorbid personality); (8) Substance use history (tobacco, alcohol, cannabis, prescription); (9) Forensic history; (10) Cultural and spiritual explanatory models (evil eye, black magic, religious beliefs) commonly encountered; (11) Mental Status Examination framework; (12) Risk assessment (suicide, homicide, self-neglect) with PHQ-9 and C-SSRS prompts; (13) Formulation space. Format as a two-page template with Hinglish interview prompts. Include a clinical-aid disclaimer that the psychiatrist must review and sign all entries and manage risk.",
+      "tags": [
+        "history-taking",
+        "psychiatry",
+        "mental-health",
+        "risk-assessment"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-019",
+      "title": "Foley Catheterisation Procedure Note",
+      "prompt": "Act as a Physician Assistant with 5 years of experience in a general ward at a NABH tertiary hospital in Hyderabad. I need you to create a Foley urinary catheterisation procedure note template. Context: 70-year-old male, Mr. Ravi Shankar, admitted with acute urinary retention secondary to benign prostatic hyperplasia, indicated for indwelling catheter insertion. Please provide: (1) Patient identifiers and indication for catheterisation (clinical, not convenience); (2) Consent documentation; (3) Pre-procedure checks (allergies to latex/iodine, bleeding tendency, previous catheterisation difficulty, stricture history); (4) Equipment (sterile catheterisation tray, 16F/18F silicone Foley, 10 ml sterile water, 2% lignocaine jelly, povidone, sterile gloves, drainage bag, securing device); (5) Hand hygiene and aseptic technique per CAUTI prevention bundle; (6) Patient positioning and draping; (7) Cleaning sequence; (8) Lidocaine instillation and wait time; (9) Catheter insertion technique, depth, urine return confirmation, balloon inflation with 10 ml sterile water; (10) Initial urine volume drained and characteristics; (11) Securing catheter to thigh and drainage bag below bladder; (12) Documentation of catheter size, date, operator; (13) Daily CAUTI care plan and review for removal; (14) Complications; (15) Signature block. Format as one-page NABH-compliant note. Add a clinical-aid disclaimer on scope and supervision.",
+      "tags": [
+        "procedure-note",
+        "catheterisation",
+        "cauti-prevention",
+        "nabh"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-020",
+      "title": "Master Health Check-up Package Report Template",
+      "prompt": "Act as a Physician Assistant with 7 years of experience at a premium preventive health facility in Mumbai (Apollo/Fortis/Max equivalent). I need you to design a Master Health Check-up report template for a 50-year-old female executive, Mrs. Shobha Menon, who completed an INR 15,000 Executive package. Please provide: (1) Patient and package identifiers; (2) Executive summary with key findings highlighted in traffic-light format (green/amber/red); (3) Anthropometry and vitals with normal range comparison; (4) Cardiovascular risk scoring using Framingham or WHO-ISH Indian chart; (5) Section-wise results: haematology, biochemistry (glycaemic, renal, hepatic, lipid, thyroid, vitamin D and B12, iron studies), tumour markers (CA-125 as per package), urine analysis; (6) Imaging findings (chest X-ray, USG abdomen and pelvis, mammography, DEXA); (7) Cardiac (ECG, 2D echo, TMT); (8) Pulmonary (PFT); (9) Gynaecology (Pap smear); (10) Ophthalmology and dental; (11) Physician impression and overall risk stratification; (12) Personalised action plan with diet, exercise, target weight in kg, follow-up investigations, specialist referrals, next health check date; (13) Health coach contact. Format as a 4-6 page patient-friendly bilingual summary in English with Hindi/regional key terms. Include a clinical-aid disclaimer that final interpretation is by the attending physician.",
+      "tags": [
+        "screening-checklist",
+        "master-health-check",
+        "preventive-report",
+        "risk-stratification"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-021",
+      "title": "Orthopaedic Trauma History Template",
+      "prompt": "Act as a Physician Assistant with 6 years of experience in an orthopaedic OPD/casualty at a trauma centre in Chandigarh. I need you to build an orthopaedic trauma history-taking template for an adult patient presenting after a road traffic accident. Context: 29-year-old male, Mr. Jaspreet Singh, brought after a two-wheeler versus car collision on NH-1, helmet worn, complains of right wrist and left knee pain, abrasions on face. Please provide: (1) Demographics and mode of arrival; (2) Mechanism of injury in detail (vehicle types, speed, direction of impact, helmet/seat belt, ejection, loss of consciousness, amnesia); (3) Time since injury and pre-hospital care received; (4) Chief complaints by body region; (5) Pain characterisation by region (VAS, type, aggravation); (6) Ability to weight-bear or move affected limb; (7) Associated injuries screening head-to-toe; (8) Past medical history, bleeding disorders, anticoagulants; (9) Tetanus immunisation status; (10) Last meal (for anaesthesia planning); (11) Allergies; (12) Medicolegal case registration details (FIR number, police station, informant); (13) Examination framework (ATLS primary survey, secondary survey, regional orthopaedic examination with look-feel-move-measure, distal NV status); (14) Investigations planned (X-ray views, CT, FAST, labs). Format as an MLC-compliant template. Include a clinical-aid disclaimer that MLC documentation must be finalised by the treating physician.",
+      "tags": [
+        "history-taking",
+        "orthopaedics",
+        "trauma",
+        "mlc"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-022",
+      "title": "Dermatology OPD SOAP Note Template",
+      "prompt": "Act as a Physician Assistant with 5 years of experience in a dermatology OPD at a corporate hospital in Pune. I need you to create a dermatology-focused SOAP note template. Context: 22-year-old female, Ms. Neha Joshi, college student, presents with chronic facial acne for 2 years with recent worsening, OTC products ineffective, concerned about marriage prospects. Please provide: (1) Subjective: duration, progression, distribution, triggers (hormonal, dietary, stress, cosmetics), previous treatments tried (including traditional remedies like besan, haldi), menstrual correlation, sleep, OCP use, family history of acne, impact on quality of life (DLQI prompt); (2) Objective: general exam, skin examination with lesion morphology (comedones, papules, pustules, nodules, cysts), distribution, severity grading (mild/moderate/severe or GAGS score), post-inflammatory hyperpigmentation and scarring, Fitzpatrick skin type (common IV-V in India), photographs with consent; (3) Assessment: acne vulgaris grading, comorbid conditions (PCOS screen if indicated), differentials; (4) Plan: topical therapy (BPO, adapalene, clindamycin) with application instructions, systemic therapy (doxycycline, isatretinoin if indicated with contraception counselling), skincare regimen, photoprotection (SPF 30+ in Indian sun), dietary advice on low GI, myth-busting counselling, follow-up in 6-8 weeks. Format as a one-page template with lesion-mapping area. Include a clinical-aid disclaimer regarding supervising dermatologist approval.",
+      "tags": [
+        "soap-note",
+        "dermatology",
+        "acne",
+        "quality-of-life"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-023",
+      "title": "Nasogastric Tube Insertion Procedure Note",
+      "prompt": "Act as a Physician Assistant with 4 years of experience in a general ward of a tertiary hospital in Kolkata. I need you to draft a nasogastric tube insertion procedure note template. Context: 62-year-old male, Mr. Subrata Banerjee, post-stroke with dysphagia, indicated for enteral feeding via NG tube. Please provide: (1) Patient identifiers and indication (feeding, decompression, gastric lavage); (2) Consent documentation including capacity assessment; (3) Pre-procedure checks (no facial trauma, basilar skull fracture, oesophageal varices, recent upper GI surgery, coagulation status); (4) Equipment (Ryles tube 14F/16F, water-soluble lubricant, 50 ml syringe, pH strips, stethoscope, adhesive tape, drainage bag, gloves); (5) Patient positioning (semi-fowler's), explanation in language they understand; (6) Measurement technique (NEX method: nose-earlobe-xiphisternum); (7) Lubrication and gentle insertion through the more patent nostril; (8) Advancing during swallowing with sips of water if safe; (9) Confirmation of placement using multiple methods (pH of aspirate less than 5.5, auscultation adjunct only, chest X-ray as gold standard for feeding tubes); (10) Securing with adhesive tape; (11) Documentation of length inserted, external marking; (12) Complications (misplacement, epistaxis, coiling) and management; (13) Daily care plan; (14) Signature block. Format as a one-page ward note. Add a clinical-aid disclaimer on scope and physician supervision.",
+      "tags": [
+        "procedure-note",
+        "nasogastric-tube",
+        "enteral-feeding",
+        "ward-procedures"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-024",
+      "title": "Referral Letter to Diagnostic Centre for MRI",
+      "prompt": "Act as a Physician Assistant with 5 years of experience under a neurologist at a clinic in Noida. I need you to draft a referral letter to an external imaging centre (like Mahajan Imaging or Medanta Diagnostics) requesting MRI brain with contrast. Context: Mrs. Neelam Khurana, 48 years, presenting with new-onset focal seizures and right-sided weakness, CT brain shows a suspicious left frontal lesion, MRI requested for characterisation. Please provide: (1) Referring clinic letterhead with doctor's name and registration number; (2) Patient demographics and contact; (3) Clinical summary with onset, progression, examination findings, CT findings with date; (4) Working diagnosis with ICD-10; (5) Specific imaging protocol requested (MRI brain with and without gadolinium contrast, with perfusion and MR spectroscopy, specific sequences: T1, T2, FLAIR, DWI, SWI, post-contrast); (6) Clinical questions to be answered (tumour vs abscess vs demyelination, mass effect, enhancement pattern); (7) Relevant safety information (renal function for contrast, metallic implants, pacemaker, claustrophobia, pregnancy status); (8) Urgency (routine/urgent/STAT); (9) Report dispatch preference (email, WhatsApp, courier); (10) Payment method (cashless insurance/CGHS/cash) with estimated cost in INR; (11) Patient consent for imaging. Format as a one-page formal referral. Include a clinical-aid disclaimer that the referral must be validated and signed by the supervising physician.",
+      "tags": [
+        "referral-letter",
+        "diagnostic-imaging",
+        "mri",
+        "neurology"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-025",
+      "title": "ENT OPD History Taking Template",
+      "prompt": "Act as a Physician Assistant with 5 years of experience in an ENT OPD at a multi-specialty hospital in Hyderabad. I need you to create an ENT-focused history-taking template suitable for a high-volume clinic seeing 60+ patients daily. Context: 8-year-old child, Master Arjun Reddy, brought by mother for recurrent sore throat and snoring for 6 months, school performance affected. Please provide: (1) Demographics and informant; (2) Chief complaints with chronology; (3) Ear symptoms (hearing loss, discharge, tinnitus, vertigo, pain, itching); (4) Nose symptoms (obstruction, discharge, sneezing, bleeding, smell disturbance, post-nasal drip); (5) Throat symptoms (sore throat, dysphagia, odynophagia, hoarseness, cough, snoring, apnoea, mouth breathing); (6) Sleep-disordered breathing questions (STOP-BANG for adults, pediatric sleep questionnaire for children); (7) Allergy and asthma history; (8) Occupational or environmental exposures (dust, smoke, chemicals common in Indian workplaces); (9) Previous ENT surgeries; (10) Medication and allergy history; (11) Immunisation status; (12) Family history; (13) Focused examination template (otoscopy, anterior rhinoscopy, oropharyngeal, neck palpation, Weber/Rinne); (14) Investigations commonly ordered (PTA, tympanometry, X-ray PNS, flexible nasopharyngoscopy). Format as a one-page printable template. Add a clinical-aid disclaimer requiring ENT surgeon review.",
+      "tags": [
+        "history-taking",
+        "ent",
+        "pediatric-ent",
+        "adenoid-hypertrophy"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-026",
+      "title": "Insurance Claim Discharge Summary Template",
+      "prompt": "Act as a Physician Assistant with 6 years of experience handling insurance discharge documentation at a corporate hospital in Delhi. I need you to create a discharge summary template optimised for insurance claim processing by TPAs like MediAssist, Star Health, HDFC Ergo. Context: 52-year-old female, Mrs. Rekha Kapoor, admitted for 4 days with acute pancreatitis managed conservatively, policy sum insured INR 10 lakhs, cashless admission. Please provide: (1) Hospital and patient identifiers including claim number, policy number, TPA ID; (2) Admission and discharge date/time with LOS; (3) Final diagnosis with ICD-10 and comorbidities; (4) Procedures performed with CPT/PMJAY package codes where applicable; (5) Presenting complaints and brief history; (6) Examination and investigation findings with key reports; (7) Course in hospital day-wise with clinical improvement markers; (8) Treatment given with generic and brand names, doses, routes, duration; (9) Condition at discharge; (10) Discharge medications with duration and cost indication; (11) Follow-up advice with date and department; (12) Red flags warranting readmission; (13) Itemised bill summary segregating room, surgeon, investigation, pharmacy, consumables; (14) Pre-existing disease declaration; (15) Signature of treating physician with registration number. Format as a two-page TPA-ready discharge summary ensuring completeness to avoid claim rejection. Include a clinical-aid disclaimer that the treating physician must sign before dispatch.",
+      "tags": [
+        "soap-note",
+        "discharge-summary",
+        "insurance-claim",
+        "tpa"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-027",
+      "title": "Antenatal Visit SOAP Note Template",
+      "prompt": "Act as a Physician Assistant with 5 years of experience in a high-volume antenatal OPD at a government-aided hospital in Bhopal. I need you to create a SOAP note template for routine antenatal follow-up visits aligned with MoHFW ANC protocol and PMSMA. Context: Mrs. Sapna Chouhan, 26 years, G2P1, 28 weeks gestation, known iron deficiency anaemia, on Iron-Folic Acid and Calcium supplements. Please provide: (1) Subjective: gestational age by LMP and USG, fetal movements, symptoms (headache, blurring of vision, epigastric pain, bleeding, leaking, burning micturition, swelling), compliance with supplements and diet, TT vaccination status; (2) Objective: weight gain, BP, pallor, pedal edema, abdominal examination with fundal height, fetal lie, presentation, fetal heart rate by doppler, per speculum if indicated; (3) Investigations review (Hb trend, urine albumin/sugar, blood sugar, OGTT at 24-28 weeks, USG reports, HIV/HBsAg/VDRL status); (4) Assessment: gestational age confirmation, high-risk stratification (anaemia severity, pre-eclampsia, GDM, IUGR), immunisation status; (5) Plan: supplement prescription, dietary counselling with locally available iron-rich foods (palak, jaggery, ragi), danger signs education, next visit schedule, delivery planning, JSY/PMMVY scheme enrolment. Format as a one-page template compatible with the MCP card and RCH portal. Include a clinical-aid disclaimer on obstetrician oversight.",
+      "tags": [
+        "soap-note",
+        "antenatal-care",
+        "pmsma",
+        "high-risk-pregnancy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-028",
+      "title": "Hypertension Screening Checklist for Community Camp",
+      "prompt": "Act as a Physician Assistant with 5 years of experience supporting community health camps organised by a corporate CSR programme in rural Maharashtra. I need you to design a hypertension screening checklist for a camp expected to screen 150 adults in 6 hours. Context: camp organised in Ahmednagar district with local ASHA support, focusing on adults aged 30+, aligned with NPCDCS guidelines. Please provide: (1) Camp setup checklist (registration desk, measurement station, counselling corner, physician referral area, pharmacy table); (2) Equipment list (calibrated digital BP machines x3, weighing scale, stadiometer, measuring tape, glucometer with strips, urine dipsticks, stationery, IEC materials in Marathi); (3) Registration form fields (name, age, gender, Aadhaar, contact, address, ASHA name); (4) Risk factor questionnaire (family history, tobacco, alcohol, physical activity, diet, known DM, prior BP readings); (5) Measurement protocol (seated rest 5 min, correct cuff size, two readings averaged); (6) Classification per JNC 8/ICMR-NPCDCS (normal/elevated/Stage 1/Stage 2); (7) Referral algorithm (immediate referral if BP more than 180/110 or symptomatic, PHC follow-up for Stage 1/2); (8) Counselling points in Marathi (DASH-like diet, salt reduction, tobacco cessation, exercise); (9) Data recording format for NPCDCS reporting; (10) Follow-up linkage to Health and Wellness Centre. Format as a field-ready checklist with timelines. Include a clinical-aid disclaimer on supervising physician authority.",
+      "tags": [
+        "screening-checklist",
+        "community-health",
+        "hypertension",
+        "npcdcs"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-029",
+      "title": "Nebulisation Procedure Note Template",
+      "prompt": "Act as a Physician Assistant with 4 years of experience in a pediatric emergency of a private hospital in Surat. I need you to create a nebulisation procedure note template. Context: 5-year-old child, Baby Aarav Patel, brought with acute exacerbation of asthma, wheezing and tachypnoea, SpO2 92% on room air, plan for bronchodilator nebulisation. Please provide: (1) Patient identifiers, weight in kg, indication; (2) Consent from parent/guardian; (3) Pre-nebulisation assessment (vitals, respiratory rate, work of breathing, SpO2, auscultation, peak flow if age-appropriate, pediatric asthma severity score); (4) Equipment (jet nebuliser, mask appropriate for age, oxygen source or air compressor at 6-8 L/min); (5) Drug and dose (salbutamol 2.5 mg/2.5 ml for under 5 years, ipratropium if severe, budesonide if indicated) with preparation details; (6) Procedure (seat upright, mask application ensuring good seal, duration 10-15 minutes until nebuliser cup dry); (7) Monitoring during nebulisation (HR, SpO2, work of breathing, tremors, tachycardia); (8) Post-nebulisation reassessment with same parameters; (9) Response categorisation (good/partial/poor) and disposition; (10) Parent education on inhaler technique and red flags; (11) Documentation of cleaning and disposal per infection control; (12) Signature block. Format as a one-page pediatric-friendly template. Add a clinical-aid disclaimer on pediatrician supervision.",
+      "tags": [
+        "procedure-note",
+        "nebulisation",
+        "pediatric-asthma",
+        "emergency"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-030",
+      "title": "Gastroenterology Referral Letter for Endoscopy",
+      "prompt": "Act as a Physician Assistant with 5 years of experience under a general physician in a clinic in Kochi. I need you to draft a referral letter to a gastroenterologist at a higher centre for an upper GI endoscopy. Context: Mr. Joseph Thomas, 55 years, chronic alcohol user, presents with melena for 2 days, mild haemodynamic stability achieved with IV fluids, Hb 9.5 g/dL, referred for urgent UGIE to rule out variceal bleed. Please provide: (1) Letterhead details with referring doctor's name and MCI registration; (2) Date and addressed consultant; (3) Patient demographics with insurance/CGHS details; (4) Clinical summary (presenting complaint, relevant history, alcohol quantum, comorbidities, medications); (5) Examination findings (vitals trend, pallor, icterus, abdomen, PR examination); (6) Investigations with values (Hb, platelets, INR, LFT, KFT, viral markers, USG abdomen); (7) Current management given; (8) Reason for referral and urgency (urgent UGIE within 24 hours); (9) Specific requests (banding if varices, biopsy if ulcer, H. pylori testing); (10) Patient's haemodynamic status for procedure planning; (11) Consent status and NBM duration; (12) Contact details for report coordination. Format as a one-page urgent referral letter following Indian gastroenterology referral conventions. Add a clinical-aid disclaimer that the referral must be authorised and signed by the supervising physician.",
+      "tags": [
+        "referral-letter",
+        "gastroenterology",
+        "endoscopy",
+        "gi-bleed"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-031",
+      "title": "Wound Suture Removal Procedure Note",
+      "prompt": "Act as a Physician Assistant with 4 years of experience in the surgery OPD of a hospital in Indore. I need you to draft a suture removal procedure note template. Context: 38-year-old female, Mrs. Deepika Jain, post-op day 8 following excision of a sebaceous cyst on the back, wound healed well, presenting for planned suture removal. Please provide: (1) Patient identifiers and operative details (date, procedure, surgeon, suture material and type); (2) Indication and timing check per standard removal schedule (face 5-7 days, scalp/trunk 7-10, limbs 10-14); (3) Pre-procedure wound assessment (approximation, signs of infection, epithelialisation, suture tension, dehiscence risk); (4) Consent; (5) Equipment (sterile tray, suture removal scissors or stitch cutter, toothed forceps, saline, antiseptic, sterile gauze, adhesive strips/steri-strips); (6) Hand hygiene and aseptic technique; (7) Patient positioning to expose wound; (8) Cleaning with antiseptic; (9) Removal technique (lift knot, cut suture close to skin, pull gently in line of wound); (10) Count of sutures removed against operative note; (11) Application of steri-strips if wound tension concern; (12) Final dressing if needed; (13) Patient education on scar care, sun protection, massage, activity restrictions; (14) Red flags and follow-up; (15) Signature block. Format as a one-page ward/OPD note. Add a clinical-aid disclaimer on physician supervision.",
+      "tags": [
+        "procedure-note",
+        "suture-removal",
+        "wound-care",
+        "post-operative"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-032",
+      "title": "Diabetes Screening Checklist for Ayushman Camp",
+      "prompt": "Act as a Physician Assistant with 5 years of experience supporting Ayushman Bharat Health and Wellness Centres in rural Odisha. I need you to build a diabetes screening checklist for a camp targeting adults aged 30+ under the population-based NCD screening programme. Context: camp organised at an HWC in Khurda district, target population 200, supported by CHO, ANM, and ASHA workers. Please provide: (1) Pre-camp mobilisation tasks (ASHA house-to-house invitation, Anganwadi announcement, loudspeaker, IEC posters in Odia); (2) Registration and CBAC (Community-Based Assessment Checklist) completion per Ayushman Bharat NCD protocol; (3) Anthropometry station (height, weight, BMI, waist circumference); (4) BP measurement; (5) Capillary blood glucose testing (random/fasting) with glucometer QC note; (6) HbA1c if resources allow, else referral criteria; (7) Risk stratification (normal, prediabetes, diabetes likely) per NPCDCS cut-offs; (8) Lifestyle counselling corner with diet, physical activity messages adapted to local foods (rice, pakhala, vegetables); (9) Referral workflow to CHC/DH for confirmed cases with transport support; (10) Tele-consultation linkage with MBBS MO via eSanjeevani; (11) Entry into NCD portal with ABHA ID; (12) Follow-up linkage by ASHA; (13) Reporting formats to Block and District NCD cell. Format as a station-wise checklist with assigned roles. Add a clinical-aid disclaimer on physician supervision.",
+      "tags": [
+        "screening-checklist",
+        "diabetes",
+        "ayushman-bharat",
+        "hwc"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-033",
+      "title": "Neurology OPD History Template for Headache",
+      "prompt": "Act as a Physician Assistant with 6 years of experience in a neurology OPD at a quaternary hospital in Delhi. I need you to design a structured headache history-taking template. Context: 35-year-old female IT professional, Ms. Swati Malik, presents with recurrent severe throbbing headaches with nausea for 1 year, Indian family pressure around work-life balance, no red flag symptoms. Please provide: (1) Demographics and occupation; (2) Headache profile: onset, duration of individual episodes, frequency per month, time of day, site, character, severity (0-10), progression during attack; (3) Associated features (nausea, vomiting, photophobia, phonophobia, aura, autonomic features, neurological deficits); (4) Triggers (stress, lack of sleep, menstrual, foods like cheese/chocolate, fasting, strong smells); (5) Relieving factors and medications used with dosing and effect; (6) Red flag screen (SNOOP4: Systemic, Neurologic, Onset sudden, Older age, Pattern change, Precipitated by Valsalva, Postural, Papilledema); (7) Medication overuse screen (analgesics days per month); (8) Past medical, obstetric, drug history, contraception, HRT; (9) Family history of migraine; (10) Lifestyle (sleep, caffeine, screen time, exercise); (11) Impact on function (MIDAS/HIT-6 prompt); (12) Mental health screen (PHQ-2, GAD-2); (13) Examination framework including fundoscopy and neurological exam. Format as a two-page template. Add a clinical-aid disclaimer on neurologist oversight.",
+      "tags": [
+        "history-taking",
+        "neurology",
+        "headache",
+        "migraine"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-034",
+      "title": "Preoperative Anaesthesia Assessment Template",
+      "prompt": "Act as a Physician Assistant with 5 years of experience supporting pre-anaesthetic evaluation clinics at a NABH hospital in Ahmedabad. I need you to create a preoperative anaesthesia assessment template for an elective surgical patient. Context: Mr. Dinesh Mehta, 62 years, scheduled for elective total knee replacement, known hypertensive on Amlodipine, mild COPD, ex-smoker, BMI 29. Please provide: (1) Patient identifiers, proposed surgery, surgeon, planned date; (2) Informed consent and fasting instructions; (3) History (presenting condition, comorbidities, previous surgeries and anaesthesia experiences, drug allergies, current medications with hold/continue instructions per guidelines, smoking, alcohol, substance use, exercise tolerance in METs, functional status, OSA screen with STOP-BANG, GERD); (4) Family history of anaesthesia complications; (5) Examination (general, airway assessment with Mallampati, mouth opening, thyromental distance, neck mobility, dentition, cardiovascular and respiratory exam); (6) Investigations review (CBC, KFT, LFT, coagulation, FBS, HbA1c, ECG, chest X-ray, 2D echo, PFT as indicated); (7) ASA physical status classification with justification; (8) Risk assessment (cardiac using RCRI, pulmonary, VTE); (9) Anaesthesia plan discussion (GA/SA/regional), blood arrangement, ICU requirement; (10) Pre-op instructions (NBM timing, medications to continue/hold like aspirin, metformin, DOACs); (11) Signature of PA and anaesthetist. Format as a two-page NABH-compliant PAC form. Include a clinical-aid disclaimer on anaesthetist authority.",
+      "tags": [
+        "history-taking",
+        "anaesthesia",
+        "pre-operative",
+        "nabh"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-035",
+      "title": "Postnatal Ward SOAP Note Template",
+      "prompt": "Act as a Physician Assistant with 5 years of experience in the postnatal ward of a maternity hospital in Chennai. I need you to create a daily postnatal round SOAP note template. Context: Mrs. Divya Raj, 29 years, Day 2 post LSCS for failed progress of labour, primigravida with healthy female baby 3.1 kg, breastfeeding initiated, on IV antibiotics. Please provide: (1) Subjective: pain at incision site (VAS), abdominal distension, passage of flatus and motion, voiding, breast engorgement, lactation status, lochia (colour, amount, odour), general well-being, sleep, mood (EPDS prompt), baby feeding and handling confidence; (2) Objective: vitals, temperature graph, chest and heart auscultation, breast examination (engorgement, cracked nipples, mastitis signs), abdomen (soft, tenderness, incision site inspection, per speculum if indicated), fundal height involution, lochia examination, lower limb for DVT signs; (3) Investigations if any (CBC, Hb trend); (4) Assessment: POD 2 LSCS uncomplicated / complicated, lactation status, psychological state; (5) Plan: analgesia (paracetamol, diclofenac), antibiotics, IV fluids/oral, ambulation, breastfeeding support, dressing change, catheter removal, discharge planning, iron and calcium supplements, family planning counselling (LAM, Cu-T, PPIUCD), immunisation for baby, postnatal visit schedule under JSSK. Format as a one-page ward round template. Add a clinical-aid disclaimer on obstetrician oversight.",
+      "tags": [
+        "soap-note",
+        "postnatal-care",
+        "lscs",
+        "breastfeeding"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-036",
+      "title": "School Health Screening Checklist",
+      "prompt": "Act as a Physician Assistant with 4 years of experience coordinating school health check-ups under the Rashtriya Bal Swasthya Karyakram (RBSK) in Rajasthan. I need you to create a comprehensive school health screening checklist for students aged 6-14 years in a government school in Jodhpur. Please provide: (1) Pre-visit coordination with school head and parents with consent forms; (2) Team setup (PA, MO, nurse, ophthalmic assistant, dental assistant, ANM) and stations; (3) Registration and roll number linkage; (4) Anthropometry (height, weight, BMI for age, mid-upper arm circumference); (5) General examination (pallor, skin, hair, lymph nodes, hygiene); (6) Vision screening with Snellen chart 6 metre distance; (7) Hearing screening with whisper test or otoscopy; (8) Dental examination (caries, gum health, fluorosis); (9) Cardiovascular and respiratory screen; (10) Abdominal palpation for organomegaly and worm infestation signs; (11) Musculoskeletal screen (scoliosis, gait); (12) Developmental and behavioural observations; (13) Mental health screen for older children; (14) Immunisation status check against UIP; (15) Nutritional assessment and anaemia screen; (16) Deworming dose under NDD if due; (17) IFA supplementation under WIFS; (18) Referral categorisation (4 Ds: Defects at birth, Deficiencies, Diseases, Developmental delays) with linkage to DEIC; (19) RBSK reporting format. Format as a station-wise checklist with tally sheet. Add a clinical-aid disclaimer on MO responsibility.",
+      "tags": [
+        "screening-checklist",
+        "rbsk",
+        "school-health",
+        "child-health"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-037",
+      "title": "Urology Referral Letter for Renal Stone",
+      "prompt": "Act as a Physician Assistant with 5 years of experience under a general practitioner in a clinic in Jaipur. I need you to draft a referral letter to a urologist at a tertiary hospital for a patient with renal calculi. Context: Mr. Mahesh Sharma, 42 years, presents with recurrent right flank colicky pain radiating to groin for 2 weeks, haematuria, USG KUB shows a 9 mm right lower ureteric calculus with mild hydroureteronephrosis, normal renal function. Please provide: (1) Letterhead details with referring clinician's name and registration; (2) Date and addressed consultant; (3) Patient demographics with contact and insurance details; (4) Clinical summary (onset, character and duration of pain, number of episodes, associated symptoms, fever, UTI, previous stone history, family history of stones); (5) Examination findings (vitals, renal angle tenderness, abdomen, PR if indicated); (6) Investigations with values and dates (urine R/M, culture, serum creatinine, calcium, uric acid, USG KUB, non-contrast CT KUB if done); (7) Current management (analgesia, IV fluids, alpha blocker); (8) Working diagnosis and specific reason for urology referral (consideration for URS/ESWL/DJ stenting); (9) Questions for urologist (mode of definitive management, metabolic workup); (10) Patient's fitness for procedure and consent status; (11) Urgency level. Format as a one-page formal referral letter. Include a clinical-aid disclaimer that the letter requires sign-off by the supervising physician before dispatch.",
+      "tags": [
+        "referral-letter",
+        "urology",
+        "renal-stone",
+        "tertiary-referral"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-038",
+      "title": "Capillary Blood Glucose Procedure Note",
+      "prompt": "Act as a Physician Assistant with 4 years of experience in a diabetes day-care centre in Bengaluru. I need you to create a capillary blood glucose testing procedure note template. Context: Mrs. Kamala Shetty, 58 years, diabetic for 12 years on insulin, attending day-care for structured glucose monitoring, plan to do 7-point SMBG profile. Please provide: (1) Patient identifiers and indication; (2) Pre-test verification (glucometer QC, expiry of strips, fasting status, last meal, last insulin dose and type); (3) Hand hygiene and glove use; (4) Equipment (glucometer, test strips, lancet device, alcohol swab, cotton, sharps container); (5) Patient education and consent; (6) Site selection (lateral aspect of finger pulp, rotating sites); (7) Cleaning and drying site thoroughly before pricking (wet site causes error); (8) Pricking technique with adjustable depth; (9) Applying appropriate blood drop to strip without squeezing excessively; (10) Reading value and recording with time; (11) Post-procedure haemostasis and disposal of sharps; (12) Interpretation against ADA/RSSDI targets (fasting 80-130, postprandial less than 180 mg/dL); (13) Action on critical values (less than 70 or more than 300); (14) Logbook entry and communication to treating physician; (15) Cleaning of device per manufacturer; (16) Signature block. Format as a one-page SOP-style note. Add a clinical-aid disclaimer that insulin or medication titration requires physician authorisation.",
+      "tags": [
+        "procedure-note",
+        "capillary-glucose",
+        "diabetes-monitoring",
+        "smbg"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-039",
+      "title": "Infertility Clinic Couple History Template",
+      "prompt": "Act as a Physician Assistant with 5 years of experience in an infertility and IVF clinic in Mumbai. I need you to design a couple history-taking template sensitive to Indian cultural dynamics and privacy. Context: Mr. Rohit and Mrs. Anjali Khanna, both 31 years, married 4 years, primary infertility, first visit to the clinic, mother-in-law also present in waiting area. Please provide: (1) Couple demographics, duration of marriage, duration of attempting pregnancy, frequency and timing of intercourse (asked privately); (2) Female partner history: menstrual history (menarche, LMP, cycle length, regularity, flow, dysmenorrhoea), obstetric history, PCOS symptoms, galactorrhoea, thyroid symptoms, past surgeries (appendicectomy, ovarian cyst, D and C), PID history, contraception use, medications, lifestyle (smoking, alcohol rare in Indian women but asked, BMI), vaccination for rubella, stress and sleep; (3) Male partner history: puberty, sexual function, libido, erection, ejaculation, previous paternity, surgeries (hernia, varicocele, testicular), mumps orchitis, occupational heat/chemical exposure, smoking, alcohol, gym supplements, anabolic steroids; (4) Family history of infertility, genetic disorders, consanguinity (common in some Indian communities); (5) Couple's treatment history elsewhere and investigations done; (6) Psychosocial impact and family pressure; (7) Financial counselling readiness for IUI/IVF costs in INR. Format as a two-page template with privacy prompts. Add a clinical-aid disclaimer on specialist supervision.",
+      "tags": [
+        "history-taking",
+        "infertility",
+        "ivf",
+        "couple-assessment"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    },
+    {
+      "id": "medical-physician-assistants-040",
+      "title": "Senior Citizen Insurance Health Check Checklist",
+      "prompt": "Act as a Physician Assistant with 6 years of experience coordinating senior citizen health check-ups for insurance underwriting at a diagnostic centre in Delhi empanelled with multiple insurers (HDFC Ergo, Star Health, Niva Bupa). I need you to design a pre-policy medical examination checklist for a 65-year-old applicant, Mr. Pradeep Khanna, applying for a senior citizen mediclaim with sum insured INR 10 lakhs. Please provide: (1) Applicant verification (photo ID, application number, insurer name, policy type); (2) Self-declared questionnaire review (chronic conditions, medications, surgeries, hospitalisations, lifestyle, family history); (3) Anthropometry and vitals (BP x2 readings, HR, BMI, waist circumference); (4) General and systemic examination with emphasis on cardiovascular and respiratory; (5) Cognitive screen (MMSE short version); (6) Laboratory panel per insurer's tier (CBC, FBS, HbA1c, lipid, LFT, KFT, TSH, urine R/M with microalbumin, PSA for males, HIV with counselling, HBsAg, HCV); (7) Cardiac workup (resting ECG, TMT or 2D echo as per insurer); (8) Chest X-ray PA view; (9) Abdominal USG; (10) Additional tests triggered by declared conditions (e.g., HbA1c trend for known diabetics, carotid doppler for cardiac history); (11) Medical examiner's report section with risk classification (standard/sub-standard/decline) and loading recommendations; (12) Consent and signature. Format as a station-wise checklist with time estimates and an insurer-ready report skeleton. Include a clinical-aid disclaimer that final underwriting and medical opinion rest with the authorised medical examiner per IRDAI norms.",
+      "tags": [
+        "screening-checklist",
+        "insurance-underwriting",
+        "senior-citizen",
+        "pre-policy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physician-assistants"
+    }
+  ]
+}

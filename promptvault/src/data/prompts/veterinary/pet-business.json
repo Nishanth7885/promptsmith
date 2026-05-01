@@ -1,0 +1,151 @@
+{
+  "category": "veterinary",
+  "subcategory": "pet-business",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "veterinary-pet-business-001",
+      "title": "Pet Food Product Description",
+      "prompt": "Act as a senior copywriter at an Indian pet-food D2C brand (Drools / Heads Up For Tails / Wiggles scale). Write a 220-word product description for premium-grade chicken-based dog food (3 kg pack, ₹1,650). Cover: (1) hook (the dog parent's worry → solution), (2) hero ingredient story (Indian-sourced chicken), (3) nutritional benefits (protein %, AAFCO compliance), (4) life-stage suitability, (5) feeding guidance, (6) FSSAI regulatory compliance, (7) trust signal (vet-approved, FSSAI license #), (8) CTA (try with 100% money-back). Constraints: align with FSSAI Pet Food Order 2018; ASCI for marketing claims; bilingual.",
+      "category": "veterinary",
+      "subcategory": "pet-business",
+      "tags": ["pet-food", "product-description", "drools", "fssai", "aafco"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true
+    },
+    {
+      "id": "veterinary-pet-business-002",
+      "title": "Customer WhatsApp Reply Template",
+      "prompt": "Act as a customer-service lead at a pet brand. Write a 12-message WhatsApp reply template covering common queries: (1) order status, (2) shipping delay, (3) wrong product received, (4) damaged packaging, (5) feeding question, (6) ingredient query, (7) puppy size question, (8) refund process, (9) subscription pause, (10) loyalty points, (11) bulk-order discount, (12) negative review handler. Each ≤90 words. Constraints: bilingual; warm Indian-English tone; cap response time 2 hrs; align with consumer protection norms; ASCI on health claims.",
+      "category": "veterinary",
+      "subcategory": "pet-business",
+      "tags": ["whatsapp", "customer-service", "templates", "consumer-protection", "asci"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true
+    },
+    {
+      "id": "veterinary-pet-business-003",
+      "title": "Grooming SOP for Pet Salon",
+      "prompt": "Act as a senior pet grooming director (Heads Up For Tails / Captain Zack's school). Build SOP for full-grooming a Golden Retriever at our 1,200-sqft salon in Bengaluru. Cover: (1) client check-in + pet photo + waiver, (2) pre-bath brush + ear pluck + nail trim, (3) bath (de-shedding shampoo, conditioner, blueberry facial), (4) blow-dry + de-shed, (5) breed-style cut, (6) anal-sac expression (if requested), (7) photo + post-groom, (8) check-out + payment. Constraints: align with VCI welfare norms; bilingual instructions; allergen-disclosure on shampoo; INR ₹3,500 service price.",
+      "category": "veterinary",
+      "subcategory": "pet-business",
+      "tags": ["grooming", "sop", "golden-retriever", "salon", "bengaluru"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-pet-business-004",
+      "title": "Boarding Facility Daily Routine",
+      "prompt": "Act as a pet-boarding facility manager. Build daily routine for a 30-pet boarding facility (Pune). Cover: (1) morning roll-call + temperature check (6:30 AM), (2) breakfast + medication (7:00 AM), (3) playtime / yard time (8:30-10:00), (4) midday rest + photo update to parent (12:00), (5) afternoon walk + enrichment (3:00-4:30), (6) dinner + medication (6:00 PM), (7) evening cuddle + bedtime story (9:00 PM), (8) night-watch + emergency protocol. Plus: photo / video update to parent 2x daily. Constraints: respect dog welfare + species-specific stress; bilingual; INR per-day rate ₹1,200; insurance + vaccination check pre-boarding.",
+      "category": "veterinary",
+      "subcategory": "pet-business",
+      "tags": ["boarding", "daily-routine", "pune", "welfare", "vaccination"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-pet-business-005",
+      "title": "Marketing Email for Subscription Box",
+      "prompt": "Act as a CRM marketer at a pet subscription-box brand (Wiggles / The Pet Square scale). Write a 220-word email pitching a monthly box (toys + treats + accessory + vet pamphlet, ₹1,499). Cover: (1) hook (a delightful unboxing moment), (2) what's inside this month (curated theme — Indian summer cool-down), (3) value math (boxed contents = ₹2,200 retail), (4) flexibility (pause / cancel anytime, customise dietary), (5) social proof (5,000 happy parents), (6) CTA (try first box, 100% money back), (7) exclusive code SUMMER100 (₹100 off). Constraints: ASCI; consumer protection; bilingual; UTM-tagged links.",
+      "category": "veterinary",
+      "subcategory": "pet-business",
+      "tags": ["subscription-box", "wiggles", "crm-email", "asci", "utm"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-pet-business-006",
+      "title": "Negative Review Response (Public)",
+      "prompt": "Act as a customer-experience manager at a pet store. A customer left a 1-star Google review on our Bengaluru store complaining about (a) unhygienic store, (b) rude staff, (c) wrong feeding advice for puppy. Write a 120-word public response that: (1) thanks reviewer for feedback by name, (2) addresses each issue without defensiveness, (3) offers tangible recovery (manager call within 24 hrs + 100% money-back + new feeding consult by vet), (4) signals systemic action (training, hygiene audit), (5) sign-off with manager's name + direct contact. Constraints: ASCI tone; transparency; do not blame staff publicly; backstage corrective action.",
+      "category": "veterinary",
+      "subcategory": "pet-business",
+      "tags": ["review-response", "negative", "google-review", "service-recovery", "transparency"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-pet-business-007",
+      "title": "Influencer Outreach for Pet Brand",
+      "prompt": "Act as a pet-brand marketer. Outreach 6 pet influencers (10K-100K Insta) for a launch campaign for our new dental treat. Each: (1) personalised opener (referencing recent post about their dog's dental hygiene), (2) brand intro + product fit, (3) deliverable ask (1 reel + 2 stories, vet-grade ingredient highlight, before-after teeth check), (4) compensation (free product + ₹15K-50K), (5) ASCI #ad disclosure, (6) timeline (post within 14 days), (7) re-purpose rights, (8) Calendly slot. Constraints: ASCI; honest claims (no over-promise of medical effect); bilingual; vet-approval cited.",
+      "category": "veterinary",
+      "subcategory": "pet-business",
+      "tags": ["influencer", "pet-instagram", "dental-treat", "asci", "outreach"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-pet-business-008",
+      "title": "Inventory Management for Pet Store",
+      "prompt": "Act as a retail inventory manager. Design an inventory system for a 1,800-sqft pet store with 2,400 SKUs (food + treats + toys + accessories + healthcare). Cover: (1) ABC + XYZ classification, (2) reorder point + safety stock by category, (3) supplier matrix (food = Drools / Royal Canin / Hill's; toys = local + imported), (4) shelf-life + cold-chain (raw food, vet meds), (5) inventory tracking (Tally / Vyapar), (6) FIFO + dead-stock policy, (7) seasonal planning (summer vs monsoon vs winter), (8) audit cadence. Constraints: align with FSSAI for pet food; INR working capital optimisation.",
+      "category": "veterinary",
+      "subcategory": "pet-business",
+      "tags": ["inventory", "pet-store", "abc-xyz", "fssai", "tally"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-pet-business-009",
+      "title": "Adoption Drive Campaign Plan",
+      "prompt": "Act as a community manager. Plan a weekend adoption drive at our pet store + partner NGO (CUPA / Wagging Tails Foundation). Cover: (1) date + venue + capacity, (2) NGO partnership SOP, (3) animal welcoming + screening (rescue, vaccinated, neutered), (4) prospective adopter screening (form, home verification, follow-up), (5) marketing (Insta, GMB, RWA WhatsApp groups), (6) volunteer coordination, (7) photography + storytelling consent, (8) post-adoption support (vet, food sample, training tip). Constraints: align with PCA Act + AWBI rules; respect animal welfare + non-discriminatory adopter selection; bilingual.",
+      "category": "veterinary",
+      "subcategory": "pet-business",
+      "tags": ["adoption-drive", "cupa", "awbi", "rescue", "screening"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-pet-business-010",
+      "title": "Trainer Hiring + Certification",
+      "prompt": "Act as an HR manager at a pet-training company. Build hiring + certification plan for 15 dog trainers across 4 cities. Cover: (1) JD (force-free trainer, IAABC + KPA-CTP / CCPDT preferred), (2) screening (philosophy interview, video assessment of training session), (3) practical day with senior trainer, (4) reference + background, (5) compensation (₹40K-60K base + per-session bonus), (6) ongoing certification (1 cert / year), (7) ethics code (no aversive equipment, no alpha-dominance), (8) D&I (women trainers welcome, women-only sessions option). Constraints: align with VCI + IAABC; respect dog welfare > human ego; bilingual; documented offer.",
+      "category": "veterinary",
+      "subcategory": "pet-business",
+      "tags": ["trainer-hiring", "iaabc", "kpa", "force-free", "ethics"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-pet-business-011",
+      "title": "Pet Insurance Sales Conversation",
+      "prompt": "Act as an insurance partner at a pet store. Conversation script for selling pet insurance to a new puppy parent (3-mo German Shepherd). Cover: (1) discover (budget, vet history, breed-specific needs — hip dysplasia, bloat), (2) policy options (Bajaj Allianz / DigitInsurance / FuturePaws), (3) coverage (accident, illness, surgery, OPD optional), (4) premium ₹X / yr per coverage tier, (5) claim cashless network, (6) exclusions (hereditary, breeding), (7) consent + IRDAI disclosure, (8) digital onboarding. Constraints: IRDAI compliant; honest about exclusions; ASCI; bilingual; GST + 18%.",
+      "category": "veterinary",
+      "subcategory": "pet-business",
+      "tags": ["pet-insurance", "irdai", "bajaj-allianz", "puppy", "conversation"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-pet-business-012",
+      "title": "Online Marketplace Listing Optimisation",
+      "prompt": "Act as an e-commerce manager. Optimise our pet brand's listings on Amazon.in + Flipkart + Heads Up For Tails marketplace. For 15 SKUs cover: (1) title (5 SKU keyword variants), (2) bullet points (5 features in benefit form), (3) A+ content (visual story), (4) backend keywords (search terms), (5) image stack (8 images: hero + lifestyle + ingredient + size chart + benefits + before-after + UGC + comparison), (6) review-collection SOP, (7) negative-review response, (8) ASCI + FSSAI label compliance. Constraints: align with platform rules; INR + GST inclusive; bilingual product names where allowed; ASCI on health claims.",
+      "category": "veterinary",
+      "subcategory": "pet-business",
+      "tags": ["marketplace", "amazon", "flipkart", "asci", "huft"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    }
+  ]
+}

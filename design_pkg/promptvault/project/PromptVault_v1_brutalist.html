@@ -1,0 +1,1152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>PromptVault — Unlock the best prompts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --ink: #0A0A0A;
+    --ink-2: #121212;
+    --ink-3: #1a1a1a;
+    --line: #2a2a2a;
+    --line-2: #3a3a3a;
+    --paper: #F5F1E8;
+    --paper-dim: #b8b4ab;
+    --paper-mute: #6e6b65;
+    --acid: oklch(0.92 0.19 102);
+    --acid-deep: oklch(0.78 0.19 102);
+    --red: oklch(0.65 0.22 25);
+    --grid-gap: clamp(16px, 2.2vw, 28px);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    background: var(--ink);
+    color: var(--paper);
+    font-family: "Space Grotesk", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: geometricPrecision;
+    overflow-x: hidden;
+  }
+  body { min-height: 100vh; }
+
+  /* ── Background grid + scan ──────────────────────────────── */
+  .bg-grid {
+    position: fixed; inset: 0; pointer-events: none; z-index: 0;
+    background-image:
+      linear-gradient(to right, rgba(245,241,232,0.035) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(245,241,232,0.035) 1px, transparent 1px);
+    background-size: 80px 80px;
+    mask-image: radial-gradient(ellipse 90% 70% at 50% 30%, black 40%, transparent 90%);
+  }
+  .bg-noise {
+    position: fixed; inset: 0; pointer-events: none; z-index: 1;
+    opacity: 0.035; mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence baseFrequency='0.9' numOctaves='2'/><feColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.6 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+
+  main, header, footer { position: relative; z-index: 2; }
+
+  /* ── Layout container ────────────────────────────────────── */
+  .wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 clamp(20px, 4vw, 56px);
+  }
+
+  /* ── Top nav ─────────────────────────────────────────────── */
+  .nav {
+    position: sticky; top: 0; z-index: 50;
+    backdrop-filter: blur(14px);
+    background: rgba(10,10,10,0.7);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-row {
+    display: flex; align-items: center; justify-content: space-between;
+    height: 68px;
+  }
+  .logo {
+    display: flex; align-items: center; gap: 10px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700; letter-spacing: 0.04em;
+    text-transform: uppercase; font-size: 15px;
+    color: var(--paper);
+  }
+  .logo-mark {
+    width: 32px; height: 32px;
+    display: grid; place-items: center;
+    background: var(--acid); color: var(--ink);
+    font-weight: 700; font-size: 13px;
+    letter-spacing: -0.02em;
+    position: relative;
+  }
+  .logo-mark::before, .logo-mark::after {
+    content: ""; position: absolute; top: 0; bottom: 0; width: 4px;
+    background: var(--ink);
+  }
+  .logo-mark::before { left: 4px; border-right: 2px solid var(--acid); background: transparent; border-top: 2px solid var(--acid); border-bottom: 2px solid var(--acid); }
+  .logo-mark::after { right: 4px; border-left: 2px solid var(--acid); background: transparent; border-top: 2px solid var(--acid); border-bottom: 2px solid var(--acid); }
+  .logo-mark span { position: relative; z-index: 2; }
+
+  .nav-links {
+    display: flex; align-items: center; gap: 28px;
+    font-family: "JetBrains Mono", monospace; font-size: 12px;
+    text-transform: uppercase; letter-spacing: 0.08em;
+  }
+  .nav-links a { color: var(--paper-dim); text-decoration: none; transition: color .2s; }
+  .nav-links a:hover { color: var(--acid); }
+
+  .nav-cta {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 10px 18px;
+    background: var(--paper); color: var(--ink);
+    font-family: "JetBrains Mono", monospace; font-size: 12px;
+    font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    text-decoration: none;
+    border: 2px solid var(--paper);
+    transition: transform .15s ease, background .2s;
+  }
+  .nav-cta:hover { background: var(--acid); border-color: var(--acid); transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--paper); }
+
+  .menu-btn { display: none; background: none; border: 0; color: var(--paper); cursor: pointer; padding: 6px; }
+
+  @media (max-width: 760px) {
+    .nav-links { display: none; }
+    .menu-btn { display: block; }
+  }
+
+  /* ── Hero ────────────────────────────────────────────────── */
+  .hero {
+    padding: clamp(48px, 8vw, 96px) 0 clamp(60px, 9vw, 110px);
+    border-bottom: 1px solid var(--line);
+    position: relative;
+  }
+
+  .hero-meta {
+    display: flex; gap: 18px; align-items: center;
+    font-family: "JetBrains Mono", monospace; font-size: 12px;
+    color: var(--paper-mute); text-transform: uppercase; letter-spacing: 0.1em;
+    margin-bottom: 28px;
+  }
+  .hero-meta .dot { width: 8px; height: 8px; background: var(--acid); display: inline-block; }
+  .hero-meta .pulse { position: relative; }
+  .hero-meta .pulse::after {
+    content: ""; position: absolute; inset: -4px; background: var(--acid);
+    animation: ping 2.4s ease-out infinite; opacity: 0;
+  }
+  @keyframes ping { 0% { transform: scale(1); opacity: .8; } 100% { transform: scale(2.6); opacity: 0; } }
+
+  .hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+    gap: clamp(28px, 4vw, 64px);
+    align-items: end;
+  }
+  @media (max-width: 980px) { .hero-grid { grid-template-columns: 1fr; gap: 40px; align-items: stretch; } }
+
+  .hero h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: clamp(54px, 11vw, 168px);
+    line-height: 0.86;
+    letter-spacing: -0.045em;
+    text-transform: uppercase;
+  }
+  .hero h1 .line { display: block; overflow: hidden; }
+  .hero h1 .line span { display: inline-block; transform: translateY(110%); animation: reveal 1s cubic-bezier(.22,1,.36,1) forwards; }
+  .hero h1 .line:nth-child(1) span { animation-delay: 0.05s; }
+  .hero h1 .line:nth-child(2) span { animation-delay: 0.18s; }
+  .hero h1 .line:nth-child(3) span { animation-delay: 0.31s; }
+  @keyframes reveal { to { transform: translateY(0); } }
+
+  .hero h1 em {
+    font-style: normal; color: var(--acid);
+    position: relative; padding: 0 0.05em;
+  }
+  .hero h1 em::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: 0.06em; height: 0.08em;
+    background: var(--ink);
+  }
+
+  .hero-sub {
+    margin-top: 28px;
+    max-width: 540px;
+    font-size: clamp(15px, 1.2vw, 18px);
+    line-height: 1.55;
+    color: var(--paper-dim);
+  }
+
+  .hero-actions {
+    margin-top: 36px;
+    display: flex; flex-wrap: wrap; gap: 14px;
+  }
+  .btn {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 16px 24px;
+    font-family: "JetBrains Mono", monospace; font-size: 13px;
+    font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;
+    text-decoration: none; cursor: pointer; border: 2px solid;
+    transition: transform .15s ease, box-shadow .15s ease, background .2s;
+  }
+  .btn-primary {
+    background: var(--acid); color: var(--ink); border-color: var(--acid);
+  }
+  .btn-primary:hover { transform: translate(-3px,-3px); box-shadow: 6px 6px 0 var(--paper); }
+  .btn-ghost {
+    background: transparent; color: var(--paper); border-color: var(--paper);
+  }
+  .btn-ghost:hover { transform: translate(-3px,-3px); box-shadow: 6px 6px 0 var(--acid); background: var(--ink-2); }
+  .btn .arrow { transition: transform .2s; }
+  .btn:hover .arrow { transform: translateX(4px); }
+
+  .hero-counters {
+    margin-top: 56px;
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .hero-counters > div {
+    padding: 22px 18px 18px;
+    border-right: 1px solid var(--line);
+  }
+  .hero-counters > div:last-child { border-right: 0; }
+  .hero-counters .num {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: clamp(28px, 3.4vw, 44px);
+    letter-spacing: -0.03em;
+    line-height: 1;
+  }
+  .hero-counters .lbl {
+    margin-top: 8px;
+    font-family: "JetBrains Mono", monospace; font-size: 11px;
+    color: var(--paper-mute); text-transform: uppercase; letter-spacing: 0.1em;
+  }
+
+  /* ── Live demo console ───────────────────────────────────── */
+  .console {
+    background: var(--ink-2);
+    border: 2px solid var(--paper);
+    box-shadow: 8px 8px 0 var(--acid);
+    transform: translateY(0);
+    transition: transform .3s ease, box-shadow .3s ease;
+    position: relative;
+  }
+  .console:hover { transform: translate(-2px, -2px); box-shadow: 12px 12px 0 var(--acid); }
+
+  .console-bar {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 12px 16px;
+    border-bottom: 2px solid var(--paper);
+    background: var(--paper); color: var(--ink);
+    font-family: "JetBrains Mono", monospace; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700;
+  }
+  .console-bar .dots { display: flex; gap: 6px; }
+  .console-bar .dots span { width: 10px; height: 10px; background: var(--ink); }
+  .console-bar .status {
+    display: flex; align-items: center; gap: 8px;
+  }
+  .console-bar .status .led {
+    width: 8px; height: 8px; background: var(--red); border-radius: 50%;
+    box-shadow: 0 0 8px var(--red);
+    animation: blink 1.4s ease-in-out infinite;
+  }
+  .console-bar .status.live .led { background: oklch(0.7 0.18 145); box-shadow: 0 0 8px oklch(0.7 0.18 145); }
+  @keyframes blink { 50% { opacity: 0.3; } }
+
+  .console-tabs {
+    display: flex; border-bottom: 1px solid var(--line);
+    font-family: "JetBrains Mono", monospace; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.1em;
+  }
+  .console-tabs button {
+    flex: 1; padding: 11px 10px;
+    background: transparent; border: 0; border-right: 1px solid var(--line);
+    color: var(--paper-mute); cursor: pointer;
+    font-family: inherit; font-size: inherit; letter-spacing: inherit;
+    transition: all .15s;
+  }
+  .console-tabs button:last-child { border-right: 0; }
+  .console-tabs button.active {
+    color: var(--ink); background: var(--acid); font-weight: 700;
+  }
+  .console-tabs button:hover:not(.active) { color: var(--paper); background: var(--ink-3); }
+
+  .console-body {
+    padding: 22px 22px 18px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 13.5px; line-height: 1.65;
+    min-height: 280px;
+    position: relative;
+  }
+  .console-body .label {
+    font-size: 10px; color: var(--paper-mute); text-transform: uppercase;
+    letter-spacing: 0.1em; margin-bottom: 6px;
+  }
+  .console-body .prompt-text {
+    color: var(--paper); white-space: pre-wrap; word-break: break-word;
+    min-height: 4.4em;
+  }
+  .console-body .prompt-text .var { color: var(--acid); }
+  .console-body .prompt-text .caret {
+    display: inline-block; width: 9px; height: 1.1em; background: var(--acid);
+    vertical-align: -2px; margin-left: 2px;
+    animation: blink 1s steps(2) infinite;
+  }
+  .console-body .response {
+    margin-top: 18px; padding-top: 14px;
+    border-top: 1px dashed var(--line-2);
+    color: var(--paper-dim); font-size: 13px;
+  }
+  .console-body .response .typed { color: var(--paper); }
+
+  .console-foot {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 12px 16px; border-top: 1px solid var(--line);
+    font-family: "JetBrains Mono", monospace; font-size: 10.5px;
+    color: var(--paper-mute); text-transform: uppercase; letter-spacing: 0.1em;
+  }
+  .console-foot .meta { display: flex; gap: 16px; }
+  .console-foot .copy {
+    background: transparent; border: 1px solid var(--line-2);
+    color: var(--paper-dim); padding: 5px 10px; cursor: pointer;
+    font-family: inherit; font-size: inherit; letter-spacing: inherit;
+    transition: all .15s;
+  }
+  .console-foot .copy:hover { border-color: var(--acid); color: var(--acid); }
+  .console-foot .copy.copied { background: var(--acid); color: var(--ink); border-color: var(--acid); }
+
+  /* ── Marquee ─────────────────────────────────────────────── */
+  .marquee {
+    border-bottom: 1px solid var(--line);
+    background: var(--acid);
+    color: var(--ink);
+    overflow: hidden;
+    padding: 14px 0;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700; font-size: 14px;
+    text-transform: uppercase; letter-spacing: 0.08em;
+  }
+  .marquee-track {
+    display: flex; gap: 40px; width: max-content;
+    animation: marquee 28s linear infinite;
+  }
+  .marquee-track span { display: inline-flex; align-items: center; gap: 40px; white-space: nowrap; }
+  .marquee-track .star { display: inline-block; width: 14px; height: 14px; background: var(--ink); transform: rotate(45deg); }
+  @keyframes marquee { to { transform: translateX(-50%); } }
+
+  /* ── Section header ──────────────────────────────────────── */
+  .section { padding: clamp(60px, 9vw, 110px) 0; border-bottom: 1px solid var(--line); }
+  .section-head {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 40px;
+    align-items: end;
+    margin-bottom: 56px;
+  }
+  @media (max-width: 760px) { .section-head { grid-template-columns: 1fr; gap: 20px; } }
+  .section-tag {
+    font-family: "JetBrains Mono", monospace; font-size: 11px;
+    color: var(--paper-mute); text-transform: uppercase; letter-spacing: 0.12em;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .section-tag::before {
+    content: ""; width: 28px; height: 1px; background: var(--paper-mute);
+  }
+  .section-title {
+    margin-top: 14px;
+    font-size: clamp(40px, 6.5vw, 96px);
+    line-height: 0.9; letter-spacing: -0.04em;
+    font-weight: 700; text-transform: uppercase;
+  }
+  .section-title em { font-style: normal; color: var(--acid); }
+  .section-desc {
+    color: var(--paper-dim); max-width: 480px;
+    font-size: 16px; line-height: 1.55;
+  }
+
+  /* ── Filter chips ────────────────────────────────────────── */
+  .filters {
+    display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 28px;
+  }
+  .chip {
+    background: transparent; border: 1px solid var(--line-2);
+    color: var(--paper-dim);
+    padding: 8px 14px;
+    font-family: "JetBrains Mono", monospace; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.08em; font-weight: 500;
+    cursor: pointer; transition: all .15s;
+  }
+  .chip:hover { color: var(--paper); border-color: var(--paper); }
+  .chip.active { background: var(--paper); color: var(--ink); border-color: var(--paper); font-weight: 700; }
+
+  /* ── Prompt grid ─────────────────────────────────────────── */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--grid-gap);
+  }
+  @media (max-width: 980px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+
+  .card {
+    perspective: 1400px;
+    height: 360px;
+    position: relative;
+  }
+  .card-inner {
+    position: absolute; inset: 0;
+    transition: transform .7s cubic-bezier(.22,1,.36,1);
+    transform-style: preserve-3d;
+  }
+  .card.flipped .card-inner { transform: rotateY(180deg); }
+  .card-face {
+    position: absolute; inset: 0;
+    backface-visibility: hidden; -webkit-backface-visibility: hidden;
+    background: var(--ink-2);
+    border: 2px solid var(--line-2);
+    display: flex; flex-direction: column;
+    transition: border-color .2s, transform .2s;
+  }
+  .card-face.front { padding: 22px; }
+  .card:hover .card-face { border-color: var(--paper); }
+  .card-face.back {
+    transform: rotateY(180deg);
+    background: var(--paper); color: var(--ink);
+    padding: 22px;
+    border-color: var(--paper);
+  }
+
+  .card-cat {
+    font-family: "JetBrains Mono", monospace; font-size: 10.5px;
+    text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--paper-mute);
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .card-cat .badge {
+    background: var(--acid); color: var(--ink); padding: 3px 7px; font-weight: 700;
+  }
+  .card-cat .badge.free { background: var(--ink-3); color: var(--paper-dim); border: 1px solid var(--line-2); }
+  .card-title {
+    margin-top: auto;
+    font-size: 28px; line-height: 1.0;
+    font-weight: 700; letter-spacing: -0.025em;
+    text-transform: uppercase;
+  }
+  .card-meta {
+    margin-top: 14px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-family: "JetBrains Mono", monospace; font-size: 10.5px;
+    color: var(--paper-mute); text-transform: uppercase; letter-spacing: 0.1em;
+  }
+  .card-meta .price { color: var(--acid); font-weight: 700; }
+  .card-meta .price.free { color: var(--paper); }
+  .card-flip-hint {
+    position: absolute; top: 22px; right: 22px;
+    font-family: "JetBrains Mono", monospace; font-size: 10px;
+    color: var(--paper-mute); text-transform: uppercase; letter-spacing: 0.1em;
+    display: flex; align-items: center; gap: 6px;
+    opacity: 0; transition: opacity .25s;
+  }
+  .card:hover .card-flip-hint { opacity: 1; }
+  .card-flip-hint .ic { width: 10px; height: 10px; border: 1px solid currentColor; transform: rotate(45deg); }
+
+  .card-face.back .card-cat { color: rgba(10,10,10,0.6); }
+  .card-face.back .card-cat .badge.free { color: rgba(10,10,10,0.7); border-color: rgba(10,10,10,0.2); background: transparent; }
+  .card-back-snippet {
+    margin-top: 14px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px; line-height: 1.55;
+    color: rgba(10,10,10,0.78);
+    flex: 1;
+    overflow: hidden;
+  }
+  .card-back-snippet .v { color: var(--red); }
+  .card-back-foot {
+    display: flex; gap: 8px; margin-top: 12px;
+  }
+  .card-back-foot .b {
+    flex: 1;
+    padding: 10px 12px;
+    font-family: "JetBrains Mono", monospace; font-size: 11px;
+    font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    border: 2px solid var(--ink); cursor: pointer;
+    background: var(--ink); color: var(--paper);
+    transition: transform .15s;
+  }
+  .card-back-foot .b.alt { background: transparent; color: var(--ink); }
+  .card-back-foot .b:hover { transform: translate(-2px,-2px); box-shadow: 3px 3px 0 var(--ink); }
+  .card-back-foot .b.alt:hover { box-shadow: 3px 3px 0 var(--ink); background: var(--ink); color: var(--paper); }
+
+  /* per-card accent on hover */
+  .card:nth-child(3n+1) .card-face.front:hover { box-shadow: -6px 6px 0 var(--acid); }
+  .card:nth-child(3n+2) .card-face.front:hover { box-shadow: -6px 6px 0 var(--red); }
+  .card:nth-child(3n+3) .card-face.front:hover { box-shadow: -6px 6px 0 var(--paper); }
+
+  /* ── Pricing ─────────────────────────────────────────────── */
+  .price-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 0;
+    border: 2px solid var(--paper);
+  }
+  @media (max-width: 760px) { .price-grid { grid-template-columns: 1fr; } }
+
+  .tier {
+    padding: 36px clamp(24px, 3vw, 40px);
+    display: flex; flex-direction: column;
+    border-right: 2px solid var(--paper);
+    position: relative;
+  }
+  .tier:last-child { border-right: 0; }
+  @media (max-width: 760px) {
+    .tier { border-right: 0; border-bottom: 2px solid var(--paper); }
+    .tier:last-child { border-bottom: 0; }
+  }
+  .tier.featured {
+    background: var(--acid); color: var(--ink);
+  }
+  .tier.featured .tier-flag {
+    position: absolute; top: 0; right: 0;
+    background: var(--ink); color: var(--acid);
+    padding: 6px 12px;
+    font-family: "JetBrains Mono", monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.12em; font-weight: 700;
+  }
+  .tier-name {
+    font-family: "JetBrains Mono", monospace; font-size: 12px;
+    text-transform: uppercase; letter-spacing: 0.12em; font-weight: 700;
+  }
+  .tier-price {
+    margin-top: 18px;
+    font-size: clamp(64px, 8vw, 112px);
+    line-height: 0.9; letter-spacing: -0.04em; font-weight: 700;
+  }
+  .tier-price .per {
+    font-size: 14px; font-family: "JetBrains Mono", monospace;
+    text-transform: uppercase; letter-spacing: 0.1em;
+    margin-left: 8px; vertical-align: middle;
+    color: var(--paper-mute);
+  }
+  .tier.featured .tier-price .per { color: rgba(10,10,10,0.6); }
+  .tier-desc {
+    margin-top: 12px; font-size: 14.5px; line-height: 1.5;
+    color: var(--paper-dim);
+  }
+  .tier.featured .tier-desc { color: rgba(10,10,10,0.78); }
+  .tier-features {
+    list-style: none; margin: 28px 0;
+    display: flex; flex-direction: column; gap: 12px;
+  }
+  .tier-features li {
+    display: flex; gap: 12px; align-items: flex-start;
+    font-size: 14.5px; line-height: 1.45;
+    font-family: "JetBrains Mono", monospace; font-weight: 500;
+  }
+  .tier-features .tick {
+    flex: 0 0 16px; width: 16px; height: 16px; margin-top: 4px;
+    background: var(--paper); color: var(--ink);
+    display: grid; place-items: center;
+    font-size: 11px; font-weight: 700;
+  }
+  .tier.featured .tier-features .tick { background: var(--ink); color: var(--acid); }
+  .tier-cta {
+    margin-top: auto;
+    display: inline-flex; align-items: center; justify-content: space-between; gap: 10px;
+    padding: 18px 22px;
+    font-family: "JetBrains Mono", monospace; font-size: 13px;
+    font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;
+    text-decoration: none; cursor: pointer;
+    background: var(--paper); color: var(--ink);
+    border: 0; transition: all .15s;
+  }
+  .tier.featured .tier-cta { background: var(--ink); color: var(--acid); }
+  .tier-cta:hover { letter-spacing: 0.16em; }
+
+  /* ── Footer ──────────────────────────────────────────────── */
+  footer {
+    padding: clamp(48px, 7vw, 88px) 0 32px;
+  }
+  .footer-mark {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: clamp(72px, 16vw, 240px);
+    line-height: 0.85;
+    font-weight: 700; letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    -webkit-text-stroke: 1px var(--line-2);
+    user-select: none;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .footer-mark .acid { color: transparent; -webkit-text-stroke: 1px var(--acid); }
+  .footer-cols {
+    display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 32px;
+    margin-top: 56px; padding-top: 36px;
+    border-top: 1px solid var(--line);
+  }
+  @media (max-width: 760px) { .footer-cols { grid-template-columns: 1fr 1fr; } }
+  .footer-cols h4 {
+    font-family: "JetBrains Mono", monospace; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--paper-mute); margin-bottom: 14px; font-weight: 500;
+  }
+  .footer-cols a {
+    display: block; padding: 5px 0;
+    color: var(--paper); text-decoration: none;
+    font-size: 14px; transition: color .15s;
+  }
+  .footer-cols a:hover { color: var(--acid); }
+  .footer-cols p { color: var(--paper-dim); font-size: 14px; line-height: 1.6; max-width: 320px; }
+
+  .footer-base {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 56px; padding-top: 24px;
+    border-top: 1px solid var(--line);
+    font-family: "JetBrains Mono", monospace; font-size: 11px;
+    color: var(--paper-mute); text-transform: uppercase; letter-spacing: 0.1em;
+  }
+  @media (max-width: 600px) { .footer-base { flex-direction: column; gap: 12px; } }
+
+  /* ── Reveal on scroll ────────────────────────────────────── */
+  .reveal { opacity: 0; transform: translateY(28px); transition: opacity .8s ease, transform .8s cubic-bezier(.22,1,.36,1); }
+  .reveal.in { opacity: 1; transform: translateY(0); }
+  .reveal.delay-1 { transition-delay: .08s; }
+  .reveal.delay-2 { transition-delay: .16s; }
+  .reveal.delay-3 { transition-delay: .24s; }
+  .reveal.delay-4 { transition-delay: .32s; }
+
+  /* selection */
+  ::selection { background: var(--acid); color: var(--ink); }
+
+  /* reduce motion */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+</style>
+</head>
+<body data-screen-label="Landing — PromptVault">
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-noise" aria-hidden="true"></div>
+
+  <!-- ── Nav ─────────────────────────────────────────────── -->
+  <header class="nav">
+    <div class="wrap nav-row">
+      <a class="logo" href="#">
+        <span class="logo-mark"><span>PV</span></span>
+        PromptVault
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#vault">Vault</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#" >Docs</a>
+        <a href="#" >Sign in</a>
+      </nav>
+      <a class="nav-cta" href="#pricing">Get access <span aria-hidden="true">→</span></a>
+      <button class="menu-btn" aria-label="Menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ── Hero ────────────────────────────────────────────── -->
+  <section class="hero" data-parallax-root>
+    <div class="wrap">
+      <div class="hero-meta">
+        <span class="dot pulse" aria-hidden="true"></span>
+        <span>v.04 / 2026 RELEASE</span>
+        <span style="opacity:.4">//</span>
+        <span>2,847 PROMPTS · 38 CATEGORIES</span>
+      </div>
+
+      <div class="hero-grid">
+        <div>
+          <h1>
+            <span class="line"><span>Unlock</span></span>
+            <span class="line"><span>the <em>best</em></span></span>
+            <span class="line"><span>prompts.</span></span>
+          </h1>
+          <p class="hero-sub">A curated, battle-tested library of prompts for AI power users. Free to browse. Premium for the ones that actually work in production.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#pricing">Start free <span class="arrow">→</span></a>
+            <a class="btn btn-ghost" href="#vault">Browse vault <span class="arrow">↓</span></a>
+          </div>
+          <div class="hero-counters">
+            <div><div class="num" data-count="2847">0</div><div class="lbl">Prompts indexed</div></div>
+            <div><div class="num" data-count="148000" data-suffix="+">0</div><div class="lbl">Active users</div></div>
+            <div><div class="num" data-count="98" data-suffix="%">0</div><div class="lbl">Run success rate</div></div>
+          </div>
+        </div>
+
+        <!-- Live demo console -->
+        <div class="console" data-parallax="0.04" id="console">
+          <div class="console-bar">
+            <div class="dots"><span></span><span></span><span></span></div>
+            <div>PROMPT.LIVE / DEMO</div>
+            <div class="status" id="consoleStatus"><span class="led"></span><span id="statusText">Composing</span></div>
+          </div>
+          <div class="console-tabs" id="consoleTabs">
+            <button class="active" data-tab="0">Code review</button>
+            <button data-tab="1">Cold email</button>
+            <button data-tab="2">Storyboard</button>
+          </div>
+          <div class="console-body">
+            <div class="label">// PROMPT</div>
+            <div class="prompt-text" id="promptText"></div>
+            <div class="response">
+              <div class="label" style="margin-bottom: 8px;">// SAMPLE OUTPUT</div>
+              <div id="responseText"></div>
+            </div>
+          </div>
+          <div class="console-foot">
+            <div class="meta">
+              <span id="metaModel">GPT-5 / CLAUDE 4.5</span>
+              <span id="metaTokens">312 tok</span>
+            </div>
+            <button class="copy" id="copyBtn">Copy prompt</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Marquee ─────────────────────────────────────────── -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>
+        Battle-tested ✦ Updated weekly ✦ 2,847 prompts ✦ MIT-friendly ✦ Copy-paste ready ✦ No fluff
+        <span class="star"></span>
+        Battle-tested ✦ Updated weekly ✦ 2,847 prompts ✦ MIT-friendly ✦ Copy-paste ready ✦ No fluff
+        <span class="star"></span>
+      </span>
+      <span aria-hidden="true">
+        Battle-tested ✦ Updated weekly ✦ 2,847 prompts ✦ MIT-friendly ✦ Copy-paste ready ✦ No fluff
+        <span class="star"></span>
+        Battle-tested ✦ Updated weekly ✦ 2,847 prompts ✦ MIT-friendly ✦ Copy-paste ready ✦ No fluff
+        <span class="star"></span>
+      </span>
+    </div>
+  </div>
+
+  <!-- ── Vault ───────────────────────────────────────────── -->
+  <section class="section" id="vault">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <div class="section-tag">FEATURED · S25</div>
+          <h2 class="section-title">The <em>vault.</em></h2>
+        </div>
+        <p class="section-desc">Hand-picked prompts that consistently outperform. Click any card to flip and read the actual prompt. Premium ones run live the moment you join.</p>
+      </div>
+
+      <div class="filters reveal" id="filters" role="tablist">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="dev">Dev</button>
+        <button class="chip" data-filter="write">Writing</button>
+        <button class="chip" data-filter="design">Design</button>
+        <button class="chip" data-filter="research">Research</button>
+        <button class="chip" data-filter="biz">Business</button>
+      </div>
+
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <!-- ── Pricing ─────────────────────────────────────────── -->
+  <section class="section" id="pricing">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <div class="section-tag">PLANS · 02</div>
+          <h2 class="section-title">Free or <em>full power.</em></h2>
+        </div>
+        <p class="section-desc">Browse the entire vault for free. Pay once a month for the prompts that ship to production — plus weekly new drops, version control, and team workspace.</p>
+      </div>
+
+      <div class="price-grid reveal">
+        <div class="tier">
+          <div class="tier-name">// FREE</div>
+          <div class="tier-price">$0<span class="per">/forever</span></div>
+          <p class="tier-desc">Everything you need to explore the vault and run the basics.</p>
+          <ul class="tier-features">
+            <li><span class="tick">✓</span> Access to 600+ free prompts</li>
+            <li><span class="tick">✓</span> Copy &amp; paste any prompt</li>
+            <li><span class="tick">✓</span> Browse all 38 categories</li>
+            <li><span class="tick">✓</span> 5 saves per month</li>
+            <li><span class="tick">✓</span> Community ratings</li>
+          </ul>
+          <button class="tier-cta">Start free <span aria-hidden="true">→</span></button>
+        </div>
+        <div class="tier featured">
+          <div class="tier-flag">RECOMMENDED</div>
+          <div class="tier-name">// PREMIUM</div>
+          <div class="tier-price">$12<span class="per">/month</span></div>
+          <p class="tier-desc">Every prompt. Every update. Every workflow that actually ships.</p>
+          <ul class="tier-features">
+            <li><span class="tick">✓</span> All 2,847 prompts (+weekly drops)</li>
+            <li><span class="tick">✓</span> Production-grade prompt chains</li>
+            <li><span class="tick">✓</span> Version history &amp; A/B variants</li>
+            <li><span class="tick">✓</span> Unlimited saves &amp; collections</li>
+            <li><span class="tick">✓</span> Run prompts live in-browser</li>
+            <li><span class="tick">✓</span> Priority requests &amp; private discord</li>
+          </ul>
+          <button class="tier-cta">Unlock premium <span aria-hidden="true">→</span></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ──────────────────────────────────────────── -->
+  <footer>
+    <div class="wrap">
+      <div class="footer-mark" aria-hidden="true">PROMPT<span class="acid">VAULT</span></div>
+      <div class="footer-cols">
+        <div>
+          <h4>// MANIFESTO</h4>
+          <p>Curated by AI power users for AI power users. No filler, no SEO slop, no “25 ChatGPT hacks” lists. Just the prompts that work.</p>
+        </div>
+        <div>
+          <h4>// PRODUCT</h4>
+          <a href="#vault">Vault</a><a href="#pricing">Pricing</a><a href="#">Changelog</a><a href="#">API</a>
+        </div>
+        <div>
+          <h4>// RESOURCES</h4>
+          <a href="#">Docs</a><a href="#">Guides</a><a href="#">Discord</a><a href="#">Status</a>
+        </div>
+        <div>
+          <h4>// COMPANY</h4>
+          <a href="#">About</a><a href="#">Contact</a><a href="#">Privacy</a><a href="#">Terms</a>
+        </div>
+      </div>
+      <div class="footer-base">
+        <div>© 2026 PromptVault Labs</div>
+        <div>BUILT FOR AI POWER USERS · v.04.0</div>
+      </div>
+    </div>
+  </footer>
+
+<script>
+/* ─────────────────────────────────────────────────────────
+   Live console: typewriter cycling through prompts
+   ───────────────────────────────────────────────────────── */
+const PROMPTS = [
+  {
+    title: "Code review",
+    model: "GPT-5 / CLAUDE 4.5",
+    tokens: "312 tok",
+    prompt: `You are a senior {{language}} engineer reviewing a PR.
+
+Be terse. Flag only:
+1. Bugs that will cause runtime errors
+2. Security issues (injection, auth, secrets)
+3. Performance regressions > {{threshold}}ms
+
+Skip nitpicks. Output as a numbered list with file:line refs.`,
+    response: `1. auth.ts:42 — JWT verified after DB lookup. Reverse it; saves a query on every invalid token.
+2. handlers/upload.ts:118 — No size cap on multer config. DoS vector.
+3. db/queries.ts:201 — N+1 on user.posts. Use a single join.`
+  },
+  {
+    title: "Cold email",
+    model: "CLAUDE 4.5 OPUS",
+    tokens: "287 tok",
+    prompt: `Write a cold email to {{persona}} at {{company}}.
+
+Constraints:
+- Under 90 words
+- Reference one specific public detail (recent ship, hiring, post)
+- One CTA: a 15-min call
+- No "Hope this finds you well"
+- No adverbs
+
+Subject line: 5 words max. Curiosity, not clickbait.`,
+    response: `Subject: Saw the Series B — quick idea
+
+Hi Maya — congrats on the Series B. Noticed your team just opened three growth roles in two weeks; usually a sign onboarding is the bottleneck before scaling activation. We helped Linear and Pitch cut activation friction by 40% in 6 weeks. Worth a 15-min call next Tuesday?`
+  },
+  {
+    title: "Storyboard",
+    model: "GPT-5 VISION",
+    tokens: "421 tok",
+    prompt: `Generate a {{n}}-frame storyboard for a {{duration}}s product film.
+
+Product: {{product}}
+Tone: {{tone}}
+Audience: {{audience}}
+
+Per frame return:
+- Camera (angle, lens, movement)
+- Action (1 sentence)
+- VO (max 8 words)
+- Sound design
+
+Avoid: drone shots, "epic" anything, lens flares.`,
+    response: `Frame 1 — Macro 60mm. Hand reaches into shadow, flicks a switch.
+VO: "Most prompts are guesses."
+SFX: low hum, single click.
+
+Frame 2 — Static wide. Vault door rotates open in stop-motion.
+VO: "We tested 40,000."
+SFX: deep mechanical thud.`
+  }
+];
+
+(function liveDemo(){
+  const promptEl = document.getElementById('promptText');
+  const responseEl = document.getElementById('responseText');
+  const tabsEl = document.getElementById('consoleTabs');
+  const metaModel = document.getElementById('metaModel');
+  const metaTokens = document.getElementById('metaTokens');
+  const statusEl = document.getElementById('consoleStatus');
+  const statusTxt = document.getElementById('statusText');
+  const copyBtn = document.getElementById('copyBtn');
+
+  let active = 0;
+  let typingTimer = null;
+  let cycleTimer = null;
+  let userInteracted = false;
+
+  function fmt(text) {
+    // wrap {{var}} occurrences in span.var
+    return text.replace(/\{\{([^}]+)\}\}/g, '<span class="var">{{$1}}</span>');
+  }
+
+  function setActive(i, fromUser=false) {
+    if (fromUser) userInteracted = true;
+    active = i;
+    [...tabsEl.querySelectorAll('button')].forEach((b, idx) => b.classList.toggle('active', idx === i));
+    metaModel.textContent = PROMPTS[i].model;
+    metaTokens.textContent = PROMPTS[i].tokens;
+    typeOut(PROMPTS[i]);
+  }
+
+  function typeOut(p) {
+    clearTimeout(typingTimer); clearTimeout(cycleTimer);
+    statusEl.classList.remove('live'); statusTxt.textContent = 'Composing';
+    promptEl.innerHTML = '<span class="caret"></span>';
+    responseEl.innerHTML = '';
+    let i = 0;
+    const text = p.prompt;
+    const tick = () => {
+      i = Math.min(text.length, i + Math.max(1, Math.floor(Math.random() * 4) + 1));
+      promptEl.innerHTML = fmt(text.slice(0, i)) + '<span class="caret"></span>';
+      if (i < text.length) {
+        typingTimer = setTimeout(tick, 12 + Math.random() * 28);
+      } else {
+        promptEl.innerHTML = fmt(text);
+        // response
+        statusEl.classList.add('live'); statusTxt.textContent = 'Live';
+        let j = 0;
+        const r = p.response;
+        const rtick = () => {
+          j = Math.min(r.length, j + Math.max(1, Math.floor(Math.random() * 5) + 2));
+          responseEl.innerHTML = '<span class="typed">' + r.slice(0, j).replace(/\n/g, '<br>') + '</span>';
+          if (j < r.length) typingTimer = setTimeout(rtick, 8 + Math.random() * 18);
+          else if (!userInteracted) cycleTimer = setTimeout(() => setActive((active + 1) % PROMPTS.length), 3200);
+        };
+        rtick();
+      }
+    };
+    tick();
+  }
+
+  tabsEl.addEventListener('click', e => {
+    const b = e.target.closest('button[data-tab]'); if (!b) return;
+    setActive(parseInt(b.dataset.tab, 10), true);
+  });
+
+  copyBtn.addEventListener('click', () => {
+    navigator.clipboard?.writeText(PROMPTS[active].prompt).catch(()=>{});
+    copyBtn.classList.add('copied'); copyBtn.textContent = 'Copied ✓';
+    setTimeout(() => { copyBtn.classList.remove('copied'); copyBtn.textContent = 'Copy prompt'; }, 1600);
+  });
+
+  setActive(0);
+})();
+
+/* ─────────────────────────────────────────────────────────
+   Counters
+   ───────────────────────────────────────────────────────── */
+(function counters(){
+  const els = document.querySelectorAll('[data-count]');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      const el = entry.target;
+      observer.unobserve(el);
+      const target = parseInt(el.dataset.count, 10);
+      const suffix = el.dataset.suffix || '';
+      const start = performance.now();
+      const dur = 1600;
+      const ease = t => 1 - Math.pow(1 - t, 3);
+      function frame(now) {
+        const t = Math.min(1, (now - start) / dur);
+        const v = Math.floor(target * ease(t));
+        el.textContent = v.toLocaleString() + suffix;
+        if (t < 1) requestAnimationFrame(frame);
+      }
+      requestAnimationFrame(frame);
+    });
+  }, { threshold: 0.4 });
+  els.forEach(el => observer.observe(el));
+})();
+
+/* ─────────────────────────────────────────────────────────
+   Reveal on scroll
+   ───────────────────────────────────────────────────────── */
+(function reveal(){
+  const els = document.querySelectorAll('.reveal');
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('in'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.15 });
+  els.forEach(el => obs.observe(el));
+})();
+
+/* ─────────────────────────────────────────────────────────
+   Parallax (subtle)
+   ───────────────────────────────────────────────────────── */
+(function parallax(){
+  const items = [...document.querySelectorAll('[data-parallax]')];
+  if (!items.length) return;
+  let raf;
+  function update() {
+    items.forEach(el => {
+      const speed = parseFloat(el.dataset.parallax);
+      const r = el.getBoundingClientRect();
+      const center = (r.top + r.bottom) / 2 - window.innerHeight / 2;
+      el.style.transform = `translateY(${center * -speed}px)`;
+    });
+    raf = null;
+  }
+  window.addEventListener('scroll', () => {
+    if (!raf) raf = requestAnimationFrame(update);
+  }, { passive: true });
+  update();
+})();
+
+/* ─────────────────────────────────────────────────────────
+   Prompt grid (flip cards) + filters
+   ───────────────────────────────────────────────────────── */
+const VAULT = [
+  { cat:'dev', title:'Production Code Reviewer', tags:'Engineering · 12k uses', tier:'PRO', price:'PRO',
+    snippet:`You are a senior {{language}} engineer.\nFlag only bugs, security & perf > {{threshold}}ms.\nNo nitpicks. Numbered list w/ file:line.` },
+  { cat:'write', title:'90-Word Cold Email', tags:'Sales · 8.4k uses', tier:'FREE', price:'FREE',
+    snippet:`Cold email to {{persona}} at {{company}}.\nUnder 90 words, one specific reference,\none CTA. No adverbs. 5-word subject.` },
+  { cat:'design', title:'Brutalist Brand System', tags:'Design · 3.2k uses', tier:'PRO', price:'PRO',
+    snippet:`Generate a brutalist brand system for {{co}}.\nReturn: type pair, palette (oklch),\ngrid rules, motion principles.` },
+  { cat:'research', title:'Literature Synthesizer', tags:'Research · 5.1k uses', tier:'PRO', price:'PRO',
+    snippet:`Synthesize {{n}} papers on {{topic}}.\nOutput: consensus, conflicts,\nopen questions, methodological gaps.` },
+  { cat:'biz', title:'Investor Memo (1-pager)', tags:'Business · 6.8k uses', tier:'FREE', price:'FREE',
+    snippet:`1-page memo for {{round}} round.\nThesis · traction · market · ask.\nNo jargon. Numbers in tables.` },
+  { cat:'dev', title:'API Spec → Tests', tags:'Engineering · 4.7k uses', tier:'PRO', price:'PRO',
+    snippet:`Convert OpenAPI spec to {{framework}} tests.\nCover happy path, edge cases,\nauth failures, rate limits.` },
+  { cat:'write', title:'Anti-Slop Blog Post', tags:'Content · 9.1k uses', tier:'PRO', price:'PRO',
+    snippet:`Write a {{length}}-word post on {{topic}}.\nNo "in today's fast-paced world".\nNo bullet lists. One opinion.` },
+  { cat:'design', title:'UX Copy Auditor', tags:'Design · 2.8k uses', tier:'FREE', price:'FREE',
+    snippet:`Audit UX copy in {{screens}}.\nFlag: passive voice, jargon,\nambiguous CTAs. Suggest replacements.` },
+  { cat:'research', title:'Competitor Teardown', tags:'Strategy · 3.9k uses', tier:'PRO', price:'PRO',
+    snippet:`Teardown of {{competitor}}.\nPositioning · pricing · moat ·\nweaknesses · what we'd steal.` },
+];
+
+(function vault(){
+  const grid = document.getElementById('grid');
+  const filters = document.getElementById('filters');
+
+  function render(filter='all') {
+    grid.innerHTML = '';
+    VAULT.filter(p => filter === 'all' || p.cat === filter).forEach((p, i) => {
+      const card = document.createElement('div');
+      card.className = 'card reveal';
+      if (i % 3 === 1) card.classList.add('delay-1');
+      if (i % 3 === 2) card.classList.add('delay-2');
+      card.innerHTML = `
+        <div class="card-inner">
+          <div class="card-face front">
+            <div class="card-cat">
+              <span>// ${p.cat.toUpperCase()}</span>
+              <span class="badge ${p.tier === 'FREE' ? 'free' : ''}">${p.tier}</span>
+            </div>
+            <div class="card-flip-hint"><span class="ic"></span> Flip</div>
+            <div class="card-title">${p.title}</div>
+            <div class="card-meta">
+              <span>${p.tags}</span>
+              <span class="price ${p.price === 'FREE' ? 'free' : ''}">${p.price === 'FREE' ? 'FREE' : '$0.99'}</span>
+            </div>
+          </div>
+          <div class="card-face back">
+            <div class="card-cat">
+              <span>// PROMPT.SOURCE</span>
+              <span class="badge free">${p.tier}</span>
+            </div>
+            <div class="card-back-snippet">${p.snippet.replace(/\{\{([^}]+)\}\}/g, '<span class="v">{{$1}}</span>').replace(/\n/g,'<br>')}</div>
+            <div class="card-back-foot">
+              <button class="b" data-copy="${encodeURIComponent(p.snippet)}">Copy</button>
+              <button class="b alt">Run live</button>
+            </div>
+          </div>
+        </div>`;
+      // flip on click of front, but ignore back buttons
+      card.addEventListener('click', (e) => {
+        if (e.target.closest('.card-back-foot')) return;
+        card.classList.toggle('flipped');
+      });
+      // copy button
+      card.querySelector('[data-copy]')?.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const txt = decodeURIComponent(e.currentTarget.dataset.copy);
+        navigator.clipboard?.writeText(txt).catch(()=>{});
+        e.currentTarget.textContent = 'Copied ✓';
+        setTimeout(() => { e.currentTarget.textContent = 'Copy'; }, 1400);
+      });
+      grid.appendChild(card);
+    });
+    // run reveal observer for new cards
+    document.querySelectorAll('.card.reveal').forEach((el, i) => {
+      setTimeout(() => el.classList.add('in'), 60 + i * 60);
+    });
+  }
+
+  filters.addEventListener('click', e => {
+    const b = e.target.closest('.chip'); if (!b) return;
+    [...filters.querySelectorAll('.chip')].forEach(c => c.classList.toggle('active', c === b));
+    render(b.dataset.filter);
+  });
+
+  render('all');
+})();
+
+/* ─────────────────────────────────────────────────────────
+   Mobile menu (simple toggle to nav-links visibility)
+   ───────────────────────────────────────────────────────── */
+(function menu(){
+  const btn = document.querySelector('.menu-btn');
+  const links = document.querySelector('.nav-links');
+  if (!btn || !links) return;
+  btn.addEventListener('click', () => {
+    const isOpen = links.style.display === 'flex';
+    links.style.display = isOpen ? '' : 'flex';
+    links.style.position = 'absolute';
+    links.style.top = '68px';
+    links.style.left = '0';
+    links.style.right = '0';
+    links.style.flexDirection = 'column';
+    links.style.gap = '0';
+    links.style.background = 'var(--ink-2)';
+    links.style.padding = '8px 0';
+    links.style.borderBottom = '1px solid var(--line)';
+    [...links.children].forEach(a => { a.style.padding = '14px 24px'; a.style.borderBottom = '1px solid var(--line)'; });
+  });
+})();
+</script>
+</body>
+</html>

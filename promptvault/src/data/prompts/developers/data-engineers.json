@@ -1,0 +1,677 @@
+{
+  "prompts": [
+    {
+      "id": "developers-data-engineers-001",
+      "title": "Design Airflow DAG for Daily Sales ETL",
+      "prompt": "Act as a senior data engineer with 8 years experience building Airflow pipelines for Indian D2C brands. I need you to design a complete Airflow 2.8 DAG that ingests daily sales data from a MySQL OLTP database (order_items, orders, customers tables, ~2M rows/day) into a Snowflake warehouse for a Bengaluru-based beauty brand similar to Mamaearth. The DAG must run at 02:00 IST, land raw data in a RAW schema, and trigger downstream dbt models. Please provide: (1) Complete Python DAG file with task definitions using TaskFlow API, (2) Connection setup instructions for MySQL and Snowflake, (3) Sensible retries, SLA (4 hours), and email_on_failure configuration, (4) Idempotent extraction logic using watermark column updated_at, (5) XCom usage for passing row counts to a logging task, (6) A final data-quality task that fails the DAG if row count drops more than 30% day-over-day. Constraints: timezone must be Asia/Kolkata, use Snowflake COPY INTO from S3 staging (ap-south-1 Mumbai region for DPDP compliance), and tag the DAG with team=data-platform, cost_center=growth. Format the output as runnable code blocks with inline comments explaining each operator choice. Call out any secrets that should live in Airflow Variables or Connections rather than code.",
+      "tags": [
+        "airflow",
+        "etl",
+        "snowflake",
+        "python"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": true,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-002",
+      "title": "Star Schema for Swiggy-style Food Delivery",
+      "prompt": "Act as a data modeling expert with 10 years experience designing warehouses for Indian food-tech companies. I need you to design a complete star schema for an order analytics mart for a Swiggy/Zomato-style food delivery platform operating across Mumbai, Delhi, Bengaluru and Hyderabad. The business questions to answer: GMV by city/cuisine/hour, delivery SLA adherence, restaurant partner performance, promo ROI, and rider utilization. Please provide: (1) Fact table fct_orders with grain of one row per order with all measures (order_value_inr, discount_inr, delivery_fee_inr, commission_inr, prep_time_min, delivery_time_min), (2) Conformed dimensions dim_customer, dim_restaurant, dim_rider, dim_city, dim_date, dim_time_of_day, dim_promo with surrogate keys and SCD type-2 tracking for restaurant menu price changes, (3) DDL in Snowflake syntax with clustering keys on (order_date, city_id), (4) Sample dbt sources and staging model naming, (5) Three example analytical queries including one using QUALIFY for top-5 restaurants per city by GMV. Consider GST fields (cgst, sgst, igst) for B2B invoicing and handle cash-on-delivery vs UPI payment mode as a junk dimension. Format as a markdown doc with DDL, ERD description, and query examples. Flag any late-arriving dimension risk.",
+      "tags": [
+        "data-modeling",
+        "star-schema",
+        "snowflake",
+        "dbt"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": true,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-003",
+      "title": "dbt Project Structure for Fintech Warehouse",
+      "prompt": "Act as an analytics engineer with 6 years of dbt experience at Indian fintechs like Razorpay or CRED. I need you to scaffold a production-ready dbt 1.7 project structure for a payments company warehouse on BigQuery (asia-south1 Mumbai region). Please provide: (1) Complete folder layout under models/ with staging, intermediate, marts (marts/finance, marts/risk, marts/growth), (2) dbt_project.yml with materializations (views for staging, incremental for facts, table for dims), (3) sources.yml for raw_payments, raw_kyc, raw_chargebacks with freshness checks (warn_after 2 hours, error_after 6 hours), (4) Naming conventions (stg_, int_, fct_, dim_), (5) Example stg_payments.sql that casts types, renames columns, and applies a surrogate_key macro, (6) A packages.yml pulling dbt_utils and dbt_expectations, (7) profiles.yml template using keyfile auth for BigQuery. Constraints: all PII columns (pan, aadhaar_last4, mobile) must be tagged so a downstream masking policy can find them, incremental models must use merge strategy on a unique transaction_id, and every mart model must have at least two dbt tests. Format the output as a file tree followed by each file's contents in separate fenced code blocks.",
+      "tags": [
+        "dbt",
+        "bigquery",
+        "analytics-engineering"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-004",
+      "title": "Great Expectations Suite for Customer Table",
+      "prompt": "Act as a data quality engineer with 5 years experience at an Indian e-commerce company. I need you to write a Great Expectations 0.18 suite for a dim_customer table in our Redshift warehouse. The table has 40M rows and columns: customer_id (int, PK), email, mobile_e164, state_code, pincode, gst_registration_flag, lifetime_value_inr, created_at, updated_at. Please provide: (1) A Python script that creates the expectation suite programmatically, (2) At least 12 expectations covering not-null on PK, uniqueness on customer_id and email, mobile_e164 matching +91[6-9]\\d{9} regex, pincode as 6-digit string, state_code in a valid list of 28 states + 8 UTs, lifetime_value_inr between 0 and 50000000, and created_at not in future, (3) A checkpoint YAML that runs the suite against a Redshift datasource, (4) How to wire the checkpoint into an Airflow task with GreatExpectationsOperator, (5) Slack alert configuration on failure. Constraints: suite must run in under 5 minutes on the full table, use sampling where appropriate, and mask PII in Data Docs. Format as code blocks for Python and YAML, plus a short runbook on where results land.",
+      "tags": [
+        "great-expectations",
+        "data-quality",
+        "redshift",
+        "python"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-005",
+      "title": "BigQuery Partitioning and Clustering Strategy",
+      "prompt": "Act as a BigQuery specialist with 7 years of cost optimization experience at Indian startups. I need you to recommend a partitioning and clustering strategy for a new events table that will store clickstream data for a Flipkart-scale marketplace, expected volume 500M rows/day with a 400-day retention. Columns include event_id, user_id, session_id, event_name, event_ts (timestamp UTC), city, device_type, product_id, price_inr, and a JSON properties column. Typical queries filter by event_ts (last 1/7/30 days), group by event_name, and join to dim_user on user_id. Please provide: (1) Recommended PARTITION BY and CLUSTER BY clause with rationale, (2) DDL including require_partition_filter=true and partition_expiration_days=400, (3) Three query patterns with estimated bytes scanned before and after the optimization, (4) Cost estimate in INR assuming on-demand pricing at current rates, (5) When to switch to BI Engine or materialized views, (6) How to handle late-arriving events beyond the partition window. Consider the India data residency requirement (asia-south1) and call out any reservations vs on-demand tradeoff. Format as an architecture memo with DDL and query examples.",
+      "tags": [
+        "bigquery",
+        "partitioning",
+        "query-optimization",
+        "cost"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-006",
+      "title": "Snowflake Warehouse Sizing for SME Data Team",
+      "prompt": "Act as a Snowflake solutions engineer advising a 30-person data team at a Pune-based SaaS company. I need you to design a warehouse sizing and resource monitor strategy for a monthly budget of INR 3.5 lakh (~$4,200). Workloads: (1) ELT loads from Fivetran every 15 minutes, (2) dbt runs hourly for 90 models, (3) ad-hoc BI from 40 Looker users, (4) ML feature extraction nightly. Please provide: (1) Recommended warehouse topology (loading_wh, transform_wh, bi_wh, ml_wh) with sizes and auto-suspend/auto-resume settings, (2) Multi-cluster config for bi_wh with min=1, max=3, scaling policy, (3) Resource monitors with quotas and notification thresholds at 50/75/90/100%, (4) Account-level and warehouse-level credit quotas, (5) Query tagging convention so cost can be attributed to teams, (6) A monthly cost breakdown in INR. Constraints: Snowflake account is in AWS ap-south-1 (Mumbai), data must not leave India, and night jobs (00:00-06:00 IST) can use larger warehouses without impacting BI. Format as a sizing table plus SQL statements to create the warehouses and monitors.",
+      "tags": [
+        "snowflake",
+        "cost-optimization",
+        "capacity-planning"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-007",
+      "title": "Incremental Model for Orders Fact Table",
+      "prompt": "Act as a dbt practitioner with 5 years of experience at an Indian D2C startup. I need you to write an incremental dbt model fct_orders.sql on Snowflake that processes ~800k new orders per day from stg_orders. Please provide: (1) Full model SQL with config block using materialized='incremental', unique_key='order_id', on_schema_change='append_new_columns', incremental_strategy='merge', (2) A filter using {% if is_incremental() %} that picks up rows where updated_at > (select coalesce(max(updated_at), '1900-01-01') from {{ this }}) minus a 2-hour lookback window to catch late arrivals, (3) Casting and cleaning logic (order_value_inr as number(18,2), mobile cleaned via a macro clean_indian_mobile), (4) Derived columns order_gst_inr, net_revenue_inr, is_cod_flag, (5) schema.yml with not_null and unique tests on order_id, relationships to dim_customer and dim_date, (6) A custom generic test that order_value_inr >= discount_inr. Constraints: zero duplicates on order_id, must handle returns where order_value_inr is negative, and production runs must stay under 10 minutes. Format as code blocks with the model file and the schema.yml.",
+      "tags": [
+        "dbt",
+        "incremental",
+        "snowflake",
+        "data-quality"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-008",
+      "title": "Kafka Topic Design for Payment Events",
+      "prompt": "Act as a streaming data engineer with 6 years at an Indian payments company. I need you to design Kafka topics and a producer schema for payment lifecycle events (initiated, authorized, captured, failed, refunded) expected to peak at 25,000 events/sec during IPL ticket sales. Please provide: (1) Topic naming convention (env.domain.entity.event), partition count, replication factor, and retention, (2) Avro schema with fields event_id, merchant_id, txn_id, amount_inr, payment_method (upi/card/netbanking/wallet), status, event_ts_utc, plus a header for DPDP data classification, (3) Partition key choice and rationale for ordering guarantees per txn_id, (4) Producer config (acks=all, enable.idempotence=true, compression=zstd, linger.ms=20), (5) Consumer group strategy for downstream sinks (Snowflake via Snowpipe Streaming, fraud ML service, ClickHouse for real-time dashboards), (6) Schema Registry compatibility mode and evolution rules. Constraints: must survive a single-AZ outage in ap-south-1, PCI data must be tokenized before hitting Kafka, and end-to-end latency from producer to Snowflake must be under 60 seconds p95. Format as a design doc with schema JSON and config snippets.",
+      "tags": [
+        "kafka",
+        "streaming",
+        "avro",
+        "schema-registry"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-009",
+      "title": "SQL to Reconcile Source and Target Row Counts",
+      "prompt": "Act as a data engineer at a Mumbai-based insurance company. I need you to write a reusable reconciliation SQL that compares row counts and key aggregates between a source Oracle policies table and a target Snowflake fct_policies table for daily validation. Please provide: (1) A parameterized SQL template with placeholders {{ start_date }} and {{ end_date }}, (2) Count comparison by policy_status and product_type, (3) Sum comparison on premium_inr and sum_insured_inr, (4) A diff report query using FULL OUTER JOIN to flag rows present in one side only, (5) Tolerance thresholds (0 row diff, 0.01% amount diff) and a CASE expression that returns PASS/WARN/FAIL, (6) How to emit the result to a recon_log table including run_id, executed_at_ist, and status, (7) An Airflow task snippet that runs this and fails the DAG on FAIL. Constraints: the Oracle side is queried over a dblink-style external function, performance must stay under 3 minutes, and all timestamps in the report must be in IST. Format as SQL code blocks with comments and a short explanation of how to extend for new tables.",
+      "tags": [
+        "reconciliation",
+        "sql",
+        "snowflake",
+        "data-quality"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-010",
+      "title": "dbt Test Plan for Inventory Mart",
+      "prompt": "Act as an analytics engineer at a Gurugram-based D2C fashion brand. I need you to build a dbt test plan for fct_inventory_snapshot (daily grain, SKU-warehouse-date) that catches the most common inventory data issues. The table has 12M rows per day across 8 warehouses in Delhi, Mumbai, Bengaluru, Hyderabad, Kolkata, Chennai, Ahmedabad and Guwahati. Please provide: (1) schema.yml covering not_null on sku_id, warehouse_id, snapshot_date, unique combination of (sku_id, warehouse_id, snapshot_date), accepted_values for warehouse_id, relationships to dim_sku and dim_warehouse, (2) dbt_expectations tests for expect_column_values_to_be_between on on_hand_qty (0, 100000), (3) A singular test singular_tests/no_negative_available.sql that fails if available_qty < 0, (4) A singular test that reorders_qty matches the sum from stg_purchase_orders within 1% tolerance, (5) Severity levels (error for PK/uniqueness, warn for tolerance), (6) Slack notification on failure via dbt-slack-notify. Constraints: full test suite must run in under 8 minutes and not block the critical path for BI refreshes at 07:30 IST. Format as YAML and SQL code blocks with a short coverage summary.",
+      "tags": [
+        "dbt",
+        "data-quality",
+        "testing"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-011",
+      "title": "Airflow Sensor for S3 File Arrival",
+      "prompt": "Act as a data engineer maintaining Airflow on MWAA for a Mumbai bank. I need you to write an Airflow task that waits for a daily CSV dump from a core banking vendor to land in s3://bank-landing/core/transactions/dt={{ ds }}/transactions.csv.gz. Please provide: (1) A DAG snippet using S3KeySensor with mode='reschedule' (not poke) to free worker slots, poke_interval=300, timeout=6 hours, soft_fail=False, (2) A downstream ShortCircuitOperator that verifies the file size is between 50 MB and 2 GB before proceeding, (3) A BashOperator or PythonOperator that downloads and unzips to a local tmp path, (4) SLA miss callback that posts to a Slack #data-alerts channel using a SlackWebhookHook, (5) Retry config (3 retries, exponential backoff starting at 10 minutes), (6) A dummy fallback branch that triggers a manual ops runbook DAG if the file does not arrive by 10:00 IST. Constraints: vendor occasionally writes the file in parts, so treat the presence of a _SUCCESS marker as the real signal. Format as a runnable Airflow 2.8 Python DAG with comments explaining each operator and any MWAA-specific caveats.",
+      "tags": [
+        "airflow",
+        "s3",
+        "sensors",
+        "python"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-012",
+      "title": "Explain Plan Analysis for Slow Query",
+      "prompt": "Act as a senior SQL performance engineer with 10 years experience tuning warehouses at Indian enterprises. I will paste a slow Snowflake query and its query profile output. I need you to walk me through a structured analysis. Please provide: (1) A checklist you will apply (pruning efficiency, join order, spill to local/remote disk, exploding joins, skew, result cache hit), (2) For each step, the specific operator in the profile to inspect and what healthy vs unhealthy looks like, (3) Top 5 likely causes of poor performance ordered by probability, (4) Concrete rewrites (CTE flattening, QUALIFY vs window, pre-aggregation, search optimization service, clustering key changes), (5) A before/after benchmark template with WAREHOUSE_SIZE, elapsed_time, bytes_scanned, partitions_scanned, and estimated credits cost in INR, (6) When to escalate to Snowflake support. Constraints: assume the query runs on a MEDIUM warehouse and the table is 2 TB. If I do not paste a profile, ask clarifying questions first. Format the response as a structured diagnostic report with headings and bullet lists. Here is the query and profile: [PASTE QUERY AND PROFILE JSON HERE].",
+      "tags": [
+        "snowflake",
+        "query-optimization",
+        "performance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-013",
+      "title": "Data Contract for Upstream Service",
+      "prompt": "Act as a data platform lead at a Bengaluru fintech. I need you to draft a data contract between the payments microservice team and the data platform team for the payment_events Kafka stream. Please provide: (1) Contract in YAML (data-contract-cli style) with fields id, version, owner, producer_team, consumer_teams, sla, (2) Schema with field names, types, PII classification (DPDP sensitive / personal / public), nullability, (3) Quality guarantees (freshness <= 5 min p95, completeness >= 99.9%, duplicate rate <= 0.01%), (4) Change policy (breaking changes need 30 days notice, additive changes need 7 days), (5) On-call and escalation matrix with team Slack channels, (6) A sample CI check that validates a new schema against the registered contract. Constraints: include two PII fields (mobile, pan) and show how they are tokenized, reference DPDP 2023 requirements, and use IST for all SLA timings. Format as a single YAML contract file plus a short Confluence-ready explanation of how producers and consumers sign off. Include a rollout checklist.",
+      "tags": [
+        "data-contracts",
+        "governance",
+        "dpdp",
+        "yaml"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-014",
+      "title": "Backfill Strategy for Historical Data",
+      "prompt": "Act as a data engineer at a Noida-based edtech similar to Unacademy. I need you to design a backfill strategy for a new fct_learner_activity table over the last 18 months (approximately 4 billion rows) using Airflow and BigQuery. Please provide: (1) A chunking strategy by month with parallelism of 4 to avoid flooding the warehouse, (2) A Python Airflow DAG that generates dynamic tasks using TaskFlow API with a date range parameter, (3) Idempotent MERGE statements keyed on activity_id, (4) Guardrails (circuit breaker that pauses if slot utilization > 80%, row-count delta check between chunks), (5) Resumability (a backfill_state table that tracks which chunks are DONE/FAILED/PENDING), (6) Cost estimate in INR at on-demand BigQuery rates and recommended flat-rate reservation option, (7) A runbook section on how to kick off, monitor, and abort safely. Constraints: production dbt jobs must not be impacted, backfill must finish within 4 days, and all data stays in asia-south1. Format as a design doc with DAG code, SQL snippets, and a runbook checklist.",
+      "tags": [
+        "backfill",
+        "airflow",
+        "bigquery"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-015",
+      "title": "Monitoring Dashboard for Data Pipelines",
+      "prompt": "Act as a data reliability engineer at a Mumbai fintech. I need you to specify a Grafana dashboard that gives a single pane of glass for our Airflow + dbt + Snowflake stack. Please provide: (1) Panel list with title, metric source, PromQL or SQL, and visualization type covering: DAG success rate last 24h, top 10 longest-running DAGs, SLA miss count, dbt model failures, data freshness per source in hours behind, Snowflake credits burned today vs monthly budget in INR, warehouse queue depth, failed Great Expectations runs, (2) Alert rules with thresholds and routing to PagerDuty for P1 and Slack for P2, (3) A data source setup for Airflow StatsD exporter, Snowflake ACCOUNT_USAGE share, and dbt artifacts loaded into a metrics table, (4) Dashboard variables for environment (prod/stage) and team, (5) A health score formula that blends the above into a 0-100 number shown on a gauge. Constraints: refresh every 5 minutes, all timestamps in IST, and the dashboard should be understandable by a non-engineering business stakeholder. Format as a structured spec with JSON snippets for one panel as an example.",
+      "tags": [
+        "monitoring",
+        "grafana",
+        "observability",
+        "airflow"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-016",
+      "title": "Python Script to Load CSV to Redshift",
+      "prompt": "Act as a data engineer at a Chennai logistics company. I need you to write a production-grade Python 3.11 script that ingests a daily shipment CSV (~800 MB, 6M rows) from a vendor SFTP into Redshift using the COPY command via an S3 staging bucket. Please provide: (1) A main function with argparse for --date, --source-uri, --target-table, (2) Paramiko-based SFTP download with retry and checksum verification, (3) Upload to s3://logistics-stg/shipments/dt=YYYY-MM-DD/ using boto3 with server-side encryption (SSE-KMS), (4) Redshift COPY with IAM_ROLE, MAXERROR 100, COMPUPDATE OFF, STATUPDATE OFF, TIMEFORMAT 'auto', REGION 'ap-south-1', (5) A pre-stage TRUNCATE of a staging table and a post-load INSERT INTO production with dedupe on awb_number, (6) Structured logging with correlation_id and metrics (rows_loaded, bytes, duration_sec) emitted to CloudWatch, (7) Graceful shutdown and clear exit codes. Constraints: no secrets in code (use AWS Secrets Manager), the script must be idempotent for the same date, and log messages must include IST timestamps. Format as a single .py file with a requirements.txt section at the bottom.",
+      "tags": [
+        "python",
+        "redshift",
+        "etl",
+        "s3"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-017",
+      "title": "SCD Type 2 Implementation in dbt",
+      "prompt": "Act as an analytics engineer with deep dbt experience at an Indian insurance aggregator like Policybazaar. I need you to implement a SCD Type 2 for dim_agent (insurance agents) that tracks changes to branch, region, tier, and commission_pct over time. Source is stg_agents from the CRM, updated every 4 hours. Please provide: (1) A dbt snapshot using the check strategy on branch, region, tier, commission_pct with updated_at as the timestamp column, (2) A downstream dim_agent model built from the snapshot that exposes valid_from, valid_to, is_current, and a surrogate key agent_sk, (3) Handling for late-arriving facts by joining on agent_id and event_ts between valid_from and valid_to, (4) Tests for no overlapping validity windows per agent_id, exactly one current record, and referential integrity with fct_policies, (5) A macro to rebuild the snapshot from scratch safely in staging, (6) Performance notes for when the dim grows beyond 500k rows. Constraints: Snowflake target, zero-downtime deploys, and history must never be lost even for soft-deleted agents. Format as dbt files (snapshot .sql, model .sql, schema.yml, macro .sql) in separate code blocks.",
+      "tags": [
+        "dbt",
+        "scd-type-2",
+        "snapshots",
+        "snowflake"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-018",
+      "title": "Stream-to-Warehouse Pipeline with Kinesis",
+      "prompt": "Act as a streaming architect with 8 years experience. I need you to design an AWS Kinesis to Snowflake pipeline for real-time click events from an IRCTC-scale ticketing app, averaging 12k events/sec with 5x peaks during tatkal windows. Please provide: (1) End-to-end architecture diagram described in text (producer SDK -> Kinesis Data Stream -> Kinesis Firehose -> S3 -> Snowpipe -> raw table -> dbt incremental marts), (2) Shard count calculation and auto-scaling strategy, (3) Firehose buffering config (size 128 MB or 60 seconds) and GZIP Parquet conversion with a Glue Data Catalog schema, (4) Snowpipe auto-ingest using SQS notifications with error handling and a dead-letter table, (5) A dbt incremental model that dedupes on event_id and enforces exactly-once at the mart layer, (6) Monitoring with CloudWatch metrics (IteratorAge, PutRecord.Success) and Snowflake PIPE_USAGE_HISTORY, (7) Cost estimate in INR per month for peak and normal days. Constraints: latency source-to-mart <= 3 minutes, region ap-south-1, and PII (mobile, email) hashed before hitting S3. Format as an architecture memo with config snippets and a cost table.",
+      "tags": [
+        "kinesis",
+        "streaming",
+        "snowflake",
+        "snowpipe"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-019",
+      "title": "Data Vault 2.0 for Banking Warehouse",
+      "prompt": "Act as a Data Vault 2.0 expert with 10 years experience in Indian banking. I need you to design a Data Vault model for a core banking warehouse that must comply with RBI data retention and audit rules. Scope: customers, accounts, transactions, loans. Please provide: (1) Hub tables (hub_customer, hub_account, hub_loan, hub_transaction) with hash keys, load_date, record_source, (2) Link tables (lnk_customer_account, lnk_account_transaction, lnk_customer_loan), (3) Satellite tables with descriptive and slowly changing attributes split by rate of change and source, (4) Same-as links for customer deduplication across channels, (5) A PIT (point-in-time) table and a bridge table to simplify BI query patterns, (6) Loading patterns using dbtvault or Datavault4dbt macros with examples, (7) How audit columns support RBI's 10-year retention mandate. Constraints: Snowflake target, workloads must not exceed 500 credits/day, and PII satellites must be separated so they can be masked. Format as a design doc with DDL sketches, an ERD description, and dbt model examples. Call out the tradeoffs vs a classic Kimball model for this use case.",
+      "tags": [
+        "data-vault",
+        "data-modeling",
+        "snowflake",
+        "banking"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-020",
+      "title": "Optimize Redshift Query with Distribution Keys",
+      "prompt": "Act as a Redshift performance engineer at a Hyderabad-based SaaS company. I need you to optimize a slow query that joins fct_subscription_events (1.2B rows) with dim_customer (25M rows) and dim_plan (120 rows), grouping by plan_name and state, filtered to the last 90 days. Currently it takes 18 minutes on a 4-node ra3.4xlarge cluster. Please provide: (1) Analysis of the likely issues using STL_ALERT_EVENT_LOG and SVV_TABLE_INFO queries I should run, (2) Recommended diststyle and distkey for each table (KEY on customer_id for fact, ALL for dim_plan, KEY on customer_id for dim_customer), (3) Sort keys (compound on (event_date, customer_id) for the fact), (4) A rewrite of the query to push filters down and avoid broadcast joins, (5) Before/after EXPLAIN outputs I should compare, (6) VACUUM and ANALYZE schedule, (7) A WLM queue recommendation for this BI workload vs ETL. Constraints: schema changes require a table recreation via deep copy with minimal downtime (use CREATE TABLE AS LIKE, insert, rename). Format as a structured tuning report with SQL, expected improvements, and a rollback plan.",
+      "tags": [
+        "redshift",
+        "query-optimization",
+        "performance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-021",
+      "title": "dbt Exposures and Lineage for BI Tools",
+      "prompt": "Act as a data platform engineer at a Mumbai media company. I need you to set up dbt exposures so that business-critical Power BI and Metabase dashboards appear in our dbt lineage graph. Please provide: (1) exposures.yml with 6 example exposures (3 Power BI, 3 Metabase) including type, url, owner, maturity, depends_on, (2) A Python script that uses the Power BI REST API to auto-generate exposure entries from workspaces tagged data-platform, (3) A companion script that reads Metabase cards via /api/card and produces YAML, (4) Integration with dbt docs so a slash command in Slack returns the list of upstream models for a given dashboard, (5) Tests in CI that fail if a critical exposure depends on a model without a passing freshness check, (6) Ownership tags that map to on-call rotations. Constraints: scripts must authenticate with service principals (no user creds), run daily in Airflow, and handle up to 300 dashboards. Format as YAML, Python code blocks, and a short adoption playbook. Explain the value to the CDO in 3 bullets.",
+      "tags": [
+        "dbt",
+        "lineage",
+        "bi",
+        "governance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-022",
+      "title": "Dagster Assets Migration from Airflow",
+      "prompt": "Act as a data platform architect with experience migrating from Airflow to Dagster at an Indian martech startup. I need you to draft a migration plan and a proof-of-concept for a slice of our pipelines (5 Airflow DAGs covering customer ingest, events ingest, dbt run, reverse ETL to HubSpot, and a daily report). Please provide: (1) A mapping from Airflow concepts (DAG, Operator, XCom, Sensor) to Dagster (Job, Op, Asset, Sensor, IO Manager), (2) A Dagster project structure with definitions.py, assets/, resources/, schedules.py, (3) Software-defined asset code for the 5 flows using @asset and @multi_asset where relevant, with dbt integration via dagster-dbt, (4) A resource that wraps a Snowflake IO manager, (5) A schedule that runs at 03:00 IST and a sensor that triggers on S3 file arrival, (6) Test coverage using dagster.materialize_to_memory, (7) A cutover plan (parallel run for 2 weeks, shadow alerting, rollback). Constraints: no downtime, preserve existing SLAs, and the team has limited Dagster experience. Format as a migration doc plus the PoC code in separate blocks.",
+      "tags": [
+        "dagster",
+        "airflow",
+        "migration",
+        "orchestration"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-023",
+      "title": "Data Freshness SLO Framework",
+      "prompt": "Act as a data reliability engineer at a Bengaluru-based B2B SaaS company. I need you to design a data freshness SLO framework for our 60 most important tables. Please provide: (1) A tiering scheme (tier 1: 15 min, tier 2: 1 hour, tier 3: 6 hours, tier 4: 24 hours) with examples for each tier, (2) A metrics table dq_freshness_slo (table_name, tier, target_minutes, measured_minutes, breach_flag, measured_at_ist) populated by a Snowflake task every 15 minutes using INFORMATION_SCHEMA.TABLES or last-inserted watermark, (3) An error budget policy (30-day rolling, 99.5% for tier 1) with burn-rate alerts at 2x and 10x, (4) Integration with PagerDuty for tier 1 and Slack for others, (5) A monthly SLO report template showing attainment per domain, (6) A change-freeze rule when a tier 1 budget is exhausted, (7) How this aligns with DPDP data-minimization and RBI availability expectations. Constraints: solution should not require new tooling beyond Snowflake tasks and an existing Grafana stack. Format as a framework doc with SQL, config snippets, and a rollout plan.",
+      "tags": [
+        "slo",
+        "monitoring",
+        "reliability",
+        "snowflake"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-024",
+      "title": "Reverse ETL from Warehouse to Salesforce",
+      "prompt": "Act as a data engineer at a Gurugram B2B SaaS company. I need you to build a reverse ETL pipeline that syncs enriched account health scores from dbt models in BigQuery to Salesforce custom object Account_Health__c every 2 hours. Please provide: (1) A dbt model mart_account_health with columns sfdc_account_id, health_score, churn_risk_band, last_calculated_at, updated_at, plus tests for not-null and unique on sfdc_account_id, (2) A Python script using simple_salesforce (or Airbyte/Hightouch alternative) that performs upsert by External Id with batch size 200 and handles Salesforce API limits (daily API call budget), (3) A watermark table rev_etl_state to only send rows changed since last run, (4) Error handling with retries, dead-letter storage in GCS, and a Slack notification including failed record count, (5) An Airflow DAG at 0,2,4,...22 IST, (6) A dry-run mode controlled by an Airflow variable. Constraints: must respect Salesforce governor limits, never exceed 10k API calls per run, and include a kill switch. Format as code blocks for the model, script, and DAG, plus a short ops runbook.",
+      "tags": [
+        "reverse-etl",
+        "bigquery",
+        "salesforce",
+        "python"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-025",
+      "title": "Snowflake Dynamic Tables for Near-Real-Time",
+      "prompt": "Act as a Snowflake engineer with 7 years experience. I need you to refactor a chain of 6 scheduled dbt models (stg_events -> int_sessionization -> int_enrichment -> fct_sessions -> agg_hourly_kpis -> agg_realtime_dashboard) into Snowflake Dynamic Tables with a target lag of 1 minute for the top layer and 5 minutes for intermediate layers. Please provide: (1) DDL for each dynamic table with the right TARGET_LAG and WAREHOUSE, (2) Refactoring notes where existing dbt Jinja needs to become pure SQL or moved to a view upstream, (3) A dbt 1.7 config using materialized='dynamic_table' with target_lag and snowflake_warehouse, (4) A monitoring query against DYNAMIC_TABLE_REFRESH_HISTORY to detect lag breaches, (5) A rollback plan to classic incremental if dynamic tables prove too costly, (6) Estimated cost delta in INR per month at current on-demand rates, (7) Known limitations (non-deterministic functions, external tables) to watch for. Constraints: production cutover must be reversible within 15 minutes and must not break existing Looker dashboards. Format as DDL, dbt configs, and a migration checklist.",
+      "tags": [
+        "snowflake",
+        "dynamic-tables",
+        "dbt",
+        "real-time"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-026",
+      "title": "PII Masking Policy in Snowflake",
+      "prompt": "Act as a data governance engineer at a Chennai health-tech company under DPDP 2023. I need you to implement column-level masking policies in Snowflake for PII fields (name, mobile, email, aadhaar_last4, pan, address) on dim_patient and fct_consultation. Please provide: (1) DDL for each masking policy that returns the real value for roles ANALYTICS_ADMIN and COMPLIANCE, a hashed value for ANALYTICS_ENG, and a fully redacted value for BI_VIEWER, (2) ALTER TABLE statements applying the policies, (3) A tag-based approach (create tag PII with allowed values HIGH/MEDIUM/LOW and apply masking via tag association so new PII columns auto-inherit), (4) Row access policy to limit BI_VIEWER to their own state_code, (5) Tests that verify each role sees the expected output using EXECUTE AS, (6) An audit query over ACCESS_HISTORY to detect PII access anomalies, (7) How dbt models reference these tables without breaking. Constraints: must align with DPDP data-principal rights (access, erasure) and leave a clear audit trail. Format as SQL code blocks, a governance memo, and a test matrix.",
+      "tags": [
+        "snowflake",
+        "pii",
+        "masking",
+        "dpdp"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-027",
+      "title": "Delta Lake Ingestion on Databricks",
+      "prompt": "Act as a Databricks engineer at a Mumbai-based insurance company running on Azure India. I need you to build a medallion (bronze/silver/gold) Delta Lake pipeline that ingests policy transaction files from ADLS Gen2. Volume ~4 GB/day Parquet. Please provide: (1) Bronze Auto Loader notebook using cloudFiles with schema evolution and checkpoint location, (2) Silver notebook applying cleansing, type casting, SCD type 1 for reference data, with MERGE into a Delta table and OPTIMIZE with ZORDER on (policy_id, event_date), (3) Gold notebook building fct_policy_events and agg_monthly_premium aggregate, (4) DLT (Delta Live Tables) alternative implementation using @dlt.table and expect_or_drop for data quality, (5) Cluster config (job cluster, Photon enabled, 3 workers Standard_D8s_v3, spot for driver? no), (6) A Databricks Workflow YAML that chains the three notebooks with email alerts on failure, (7) Cost estimate in INR per month under DBU + Azure compute. Constraints: data residency in Central India, Unity Catalog enabled, and all PII columns tagged. Format as notebook pseudocode, DLT code, and workflow YAML.",
+      "tags": [
+        "databricks",
+        "delta-lake",
+        "medallion",
+        "dlt"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-028",
+      "title": "Anomaly Detection on Pipeline Metrics",
+      "prompt": "Act as a data reliability engineer at a Bengaluru e-commerce marketplace. I need you to implement automated anomaly detection on daily pipeline output metrics (row_count, sum_gmv_inr, distinct_user_count) for the top 20 fact tables. Please provide: (1) A design that stores daily metrics in a Snowflake table dq_daily_metrics with columns table_name, metric_name, metric_value, run_date, (2) An anomaly score using rolling 30-day median and MAD (median absolute deviation), flagging anything beyond 3 MAD or a 20% week-over-week swing, (3) A dbt model dq_anomalies that materializes the flags plus severity (info/warn/critical), (4) A Python UDF or Snowpark procedure that handles the statistical logic, (5) A notification Lambda / Airflow task that posts warn to Slack and critical to PagerDuty with a link to a runbook, (6) Handling for known seasonality (IPL, Diwali, end-of-month payroll), (7) A feedback loop where on-call can mark an alert as expected and feed it back into the model. Constraints: must run in under 10 minutes and not create alert fatigue. Format as a design doc with SQL, dbt, and Python snippets.",
+      "tags": [
+        "anomaly-detection",
+        "monitoring",
+        "snowflake",
+        "python"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-029",
+      "title": "GDPR and DPDP Erasure Pipeline",
+      "prompt": "Act as a data privacy engineer at a Delhi consumer app serving EU and Indian users. I need you to build an erasure pipeline that responds to DPDP 2023 and GDPR right-to-erasure requests within the mandated SLA (30 days DPDP, 30 days GDPR). Please provide: (1) A request intake table privacy_erasure_requests with request_id, subject_id, jurisdiction, status, received_at_ist, (2) A PII inventory data_catalog_pii that lists every table and column containing subject data (joined via subject_id or email_hash), (3) An Airflow DAG that picks queued requests, issues DELETE or UPDATE (tombstone) statements to 25 downstream tables and Kafka tombstones, (4) Hard-delete vs anonymization decision matrix (anonymize in facts for analytics integrity, hard-delete in dims), (5) Backup and snapshot handling with a documented exception window, (6) An audit log erasure_audit with tamper-evident hash chains, (7) A monthly compliance report for the DPO. Constraints: idempotent, resumable, and provable. Format as a design doc with DAG code, SQL, and a compliance checklist cross-referencing DPDP sections.",
+      "tags": [
+        "dpdp",
+        "gdpr",
+        "privacy",
+        "airflow"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-030",
+      "title": "Cost Attribution Model for Data Platform",
+      "prompt": "Act as a FinOps-minded data platform lead at a Bengaluru unicorn. I need you to build a cost attribution model that charges back Snowflake, BigQuery, and Airflow (MWAA) costs to business domains (growth, finance, risk, product). Monthly combined bill is approximately INR 42 lakh. Please provide: (1) A unified cost table cost_daily_domain with columns date, platform, domain, cost_usd, cost_inr, credits, query_count populated from Snowflake QUERY_HISTORY, BigQuery INFORMATION_SCHEMA.JOBS, and AWS CUR, (2) Attribution logic using query tags, dbt model tags, and Airflow DAG tags, (3) A fallback bucket for untagged usage and a policy to shrink it to <5% within 2 months, (4) A dbt model and a Looker dashboard spec with drill-downs, (5) A monthly showback email to domain leads in INR with trend and top-5 offenders, (6) Recommendations engine that flags expensive queries (>INR 5000 per run), (7) Conversion logic using the monthly average USD/INR rate. Constraints: numbers must reconcile to within 2% of the actual invoice. Format as a design doc with SQL, dbt, and a sample email.",
+      "tags": [
+        "finops",
+        "cost",
+        "snowflake",
+        "bigquery"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-031",
+      "title": "Airflow DAG Failure Playbook",
+      "prompt": "Act as an on-call data engineer writing a runbook for junior engineers at a Pune fintech. I need you to produce a comprehensive Airflow DAG failure triage playbook for common scenarios. Please provide: (1) A decision tree covering the 10 most common failure modes: task timeout, OOM killed, connection errors, upstream data missing, schema drift, quota exceeded, DAG parse error, scheduler lag, worker crash, SLA miss, (2) For each, the first 3 commands or UI actions to run (airflow tasks failed-deps, logs query, Snowflake query_history check), (3) Decision criteria to retry, skip, mark success, or escalate, (4) A standard Slack incident template to post in #data-incidents with severity, impact, ETA, (5) A post-mortem template with root cause categories and action items, (6) Example resolutions for 3 real incidents (late vendor file, Snowflake warehouse suspended by resource monitor, dbt model referencing dropped column), (7) Escalation matrix with platform lead on-call numbers. Constraints: readable in under 10 minutes at 02:00 IST, language simple enough for a new hire. Format as a markdown runbook with headings, flowcharts in mermaid, and copy-paste command blocks.",
+      "tags": [
+        "airflow",
+        "incident-response",
+        "runbook"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-032",
+      "title": "Schema Evolution Strategy for Parquet Lake",
+      "prompt": "Act as a data lake engineer at a Mumbai media company storing 120 TB of Parquet on S3 queried via Athena and Spark. I need you to design a schema evolution strategy that avoids breaking downstream consumers. Please provide: (1) Rules for additive vs breaking changes and how to version them (v1, v2 folder layout vs merged schemas), (2) How to use Glue Data Catalog with schema versioning and enable hive-style partitioning by dt=YYYY-MM-DD, (3) A producer checklist (nullable new columns, no type downgrades, default values), (4) A Spark job that safely rewrites a year of data when a type change is unavoidable, using Iceberg or Delta as the target with hidden partitioning, (5) A CI check that compares a new schema against the current one and fails on breaking changes, (6) Consumer guidance for Athena (MSCK REPAIR vs partition projection) and Spark (mergeSchema=true tradeoffs), (7) Migration path from vanilla Parquet to Apache Iceberg with minimal disruption. Constraints: must preserve query performance and avoid full rewrites of historical data where possible. Format as a design doc with rules, code examples, and a migration roadmap with INR cost estimates.",
+      "tags": [
+        "parquet",
+        "iceberg",
+        "schema-evolution",
+        "s3"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-033",
+      "title": "Multi-Region Warehouse for DPDP Compliance",
+      "prompt": "Act as a principal data architect at a Bengaluru fintech expanding to Singapore. I need you to design a multi-region data warehouse strategy that keeps Indian user data in India (ap-south-1 / asia-south1) per DPDP 2023 while serving a Singapore business unit from ap-southeast-1, with a unified global analytics layer. Please provide: (1) Reference architecture with Snowflake replication between a Mumbai primary and a Singapore secondary, or a federated BigQuery + cross-region dataset approach, including tradeoffs, (2) Data classification matrix (India-only, Singapore-only, global-aggregates) and the routing rules, (3) A deterministic tokenization service for cross-region joins so raw PII never crosses, (4) Identity and access patterns (SCIM-provisioned SSO, regional admin roles, break-glass procedure), (5) Replication lag monitoring and RPO/RTO targets (RPO 15 min, RTO 1 hour), (6) Cost model in INR and SGD per month, (7) Legal and compliance sign-off checklist referencing DPDP sections and MAS TRM where relevant. Constraints: no Indian personal data at rest outside India under any condition. Format as an architecture memo with diagrams described in text, a compliance matrix, and a phased rollout plan.",
+      "tags": [
+        "multi-region",
+        "dpdp",
+        "snowflake",
+        "architecture"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-034",
+      "title": "Lakehouse CDC with Debezium and Iceberg",
+      "prompt": "Act as a senior streaming architect with 10 years experience. I need you to design a production-grade CDC pipeline from a Postgres 15 OLTP (orders, payments, users, ~8k writes/sec) into an Apache Iceberg lakehouse on S3, queried by Trino and Spark. Please provide: (1) Architecture: Debezium connector on Kafka Connect -> Kafka topics (one per table) -> Flink or Spark Structured Streaming consumer -> Iceberg v2 tables with equality deletes, (2) Debezium config highlights (snapshot.mode=initial, heartbeat.interval.ms=5000, publication and replication slot setup), (3) Kafka topic partitioning (hash on primary key, 24 partitions, retention 7 days), (4) A Flink SQL job that performs upsert into Iceberg using the upsert-iceberg connector with 1-minute checkpoints, (5) Exactly-once semantics proof (Flink two-phase commit + Iceberg atomic commit), (6) Compaction, expiration of snapshots, and orphan file cleanup via Iceberg maintenance procedures, (7) Monitoring (MSK metrics, Flink checkpoint duration, Iceberg table metrics) and a chaos test plan. Constraints: end-to-end latency p95 <= 2 minutes, region ap-south-1, and schema evolution must be automatic for additive changes. Format as a deep architecture doc with config snippets, SQL, and a runbook.",
+      "tags": [
+        "cdc",
+        "debezium",
+        "iceberg",
+        "flink"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-035",
+      "title": "Snowflake Query Acceleration and Search Opt",
+      "prompt": "Act as a Snowflake optimization specialist. I need a deep diagnostic of whether to enable Query Acceleration Service (QAS) and Search Optimization Service (SOS) on a fct_events table with 15 TB, 90 billion rows, clustered on (event_date, user_id), for a Bengaluru ad-tech company. Query mix: 60% analytical aggregates filtered by date range and dimensions, 25% needle-in-haystack point lookups by user_id or campaign_id, 15% ad-hoc LIKE searches on url. Please provide: (1) A methodology using SYSTEM$ESTIMATE_SEARCH_OPTIMIZATION_COSTS and SYSTEM$ESTIMATE_QUERY_ACCELERATION to measure expected benefit, (2) Recommended candidate columns for SOS (user_id, campaign_id, url via SUBSTRING) and cost estimate in credits and INR, (3) QAS warehouse scaling factor and expected cost, (4) A decision matrix: enable SOS only, QAS only, both, or neither, per query class, (5) A benchmark plan using 5 representative queries with before/after metrics, (6) How clustering depth and AUTO_CLUSTERING interplay with SOS, (7) Kill switches if monthly cost overruns the INR 15 lakh budget by 10%. Constraints: no downtime, reversible within 1 hour. Format as a diagnostic doc with SQL probes, a decision table, and a recommendation.",
+      "tags": [
+        "snowflake",
+        "optimization",
+        "search-optimization",
+        "cost"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-036",
+      "title": "Feature Store Design for Fraud ML",
+      "prompt": "Act as a staff data engineer building a feature store for a real-time fraud detection system at a Mumbai-based UPI payments company processing 8k txn/sec. I need you to design both offline (training) and online (inference, p99 <= 30 ms) feature serving. Please provide: (1) Architecture using Feast or a custom build on Redis + Snowflake/BigQuery, with a reasoned recommendation, (2) Feature definitions YAML for 12 features (e.g., user_txn_count_1h, user_txn_amount_sum_24h, device_unique_users_7d, merchant_chargeback_rate_30d), (3) Point-in-time correct training dataset generation using ASOF JOIN in Snowflake or a Spark implementation, (4) Online store schema (Redis Hash per user) and write path from a Flink job consuming the payments Kafka topic, (5) Feature freshness SLO (1 minute for hot features, 1 hour for warm), (6) Monitoring for training-serving skew with PSI (Population Stability Index) computed daily, (7) Governance: feature ownership, deprecation policy, PII handling. Constraints: region ap-south-1, RBI compliance for payment data, and cost ceiling INR 8 lakh/month. Format as an architecture doc with config YAML, SQL, and code snippets.",
+      "tags": [
+        "feature-store",
+        "ml",
+        "feast",
+        "streaming"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-037",
+      "title": "Zero-Downtime Warehouse Migration",
+      "prompt": "Act as a principal data engineer leading a migration from on-prem Teradata to Snowflake at a 40-year-old Mumbai public sector bank. Current scale: 180 TB, 4,000 tables, 12,000 ETL jobs in Informatica. Please provide: (1) A phased migration plan (assess, mobilize, migrate, optimize) with 18-month timeline, (2) A wave strategy prioritizing marts over raw, user-facing BI over batch reports, (3) A dual-run architecture where Informatica continues to load Teradata while a new Airflow + dbt stack loads Snowflake in parallel, with daily reconciliation SQL at row-count and checksum levels, (4) A cutover playbook for each wave with rollback criteria, (5) SQL translation approach (SnowConvert for bulk, manual for 200 critical procedures) and testing harness, (6) Skills uplift plan for 60 legacy engineers (dbt bootcamp, pair programming, internal certification), (7) Risk register with top 10 risks and mitigations, (8) INR cost comparison (licensing, compute, people) over 3 years. Constraints: zero user-visible downtime, RBI audit findings must not be introduced, all data stays in India. Format as a migration program doc with Gantt description, SQL examples, and governance checkpoints.",
+      "tags": [
+        "migration",
+        "snowflake",
+        "teradata",
+        "banking"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-038",
+      "title": "Data Mesh Implementation Roadmap",
+      "prompt": "Act as a principal data architect at a Bengaluru unicorn with 12 domains and 400 engineers. I need you to draft a data mesh adoption roadmap based on Zhamak Dehghani's four principles (domain ownership, data as a product, self-serve platform, federated governance). Please provide: (1) A current-state assessment template and maturity model (level 0-4), (2) A minimum viable data product spec (discoverable, addressable, trustworthy, self-describing, interoperable, secure) with an example for a 'customer_360' domain, (3) Self-serve platform capabilities to build in 12 months (ingestion templates, dbt project generator, data catalog with DataHub, automated quality and lineage, cost showback), (4) Federated governance model with a core team owning policies and domains owning implementation, including a decision log, (5) Incentive structure (OKRs tied to data product SLOs), (6) A pilot selection rubric and 3 candidate domains, (7) Risks (domain bandwidth, duplicated work, governance drift) and mitigations, (8) 18-month milestones in INR-budgeted quarters. Constraints: must work within DPDP and existing RBAC, reuse Snowflake and Airflow rather than introduce new platforms. Format as a strategy doc with a maturity rubric and roadmap timeline.",
+      "tags": [
+        "data-mesh",
+        "architecture",
+        "governance",
+        "strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-039",
+      "title": "Unit Testing Framework for Data Pipelines",
+      "prompt": "Act as a staff data engineer building test infrastructure for a 60-person team at a Gurugram logistics unicorn. I need you to design a unit testing framework that covers SQL (dbt), Python (Airflow + custom operators), and Spark jobs, with fast feedback in CI. Please provide: (1) For dbt: an approach using dbt-unit-testing or the built-in unit_tests in dbt 1.8 with seed fixtures and expected outputs, example test for an int_sessionization model, (2) For Airflow: pytest-based tests that mock hooks (SnowflakeHook, S3Hook), validate DAG parse time under 2 seconds, task dependencies, and retry configs, (3) For Spark: chispa-based dataframe assertions, plus a shared pytest fixture that builds a local SparkSession, (4) Test data management: a synthetic data generator using Faker with Indian locale (names, PAN, mobile +91) and deterministic seeds, (5) CI pipeline (GitHub Actions) with matrix builds, caching, and a 10-minute target, (6) Coverage metrics and a minimum threshold of 70% on transformation logic, (7) A PR template requiring tests for any model or DAG change. Constraints: framework must not require a live Snowflake connection for fast tests. Format as a doc with code examples for each layer and a CI yaml.",
+      "tags": [
+        "testing",
+        "dbt",
+        "airflow",
+        "pyspark"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    },
+    {
+      "id": "developers-data-engineers-040",
+      "title": "Disaster Recovery for Analytics Platform",
+      "prompt": "Act as a principal SRE for data platforms at a Mumbai stock broker regulated by SEBI. I need you to design a disaster recovery plan for our analytics stack (Snowflake primary in ap-south-1 Mumbai, Airflow on MWAA, dbt Cloud, Looker, S3 data lake) with RPO 15 minutes and RTO 2 hours. Please provide: (1) Failure scenarios (region outage, accidental table drop, ransomware on S3, Snowflake account lockout, dbt Cloud outage) and the DR response for each, (2) Snowflake DR using account replication to a secondary region (ap-southeast-1) with failover groups covering databases, warehouses, and roles, with a scheduled quarterly failover drill, (3) S3 cross-region replication with object lock (compliance mode, 7 years) aligned to SEBI record-retention, (4) Airflow DR: infra-as-code (Terraform) that can recreate MWAA environment in 30 minutes, DAG code in Git, Variables and Connections restored from AWS Secrets Manager backup, (5) dbt: manifest.json and artifacts backed up to S3, alternative runners on self-hosted, (6) Runbook with step-by-step failover and failback procedures, (7) Tabletop exercise plan every 6 months with named roles. Constraints: RPO and RTO must be auditable, costs capped at INR 25 lakh/year incremental. Format as a DR plan document with scenarios table, procedures, and drill schedule.",
+      "tags": [
+        "disaster-recovery",
+        "snowflake",
+        "sebi",
+        "sre"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "data-engineers"
+    }
+  ]
+}

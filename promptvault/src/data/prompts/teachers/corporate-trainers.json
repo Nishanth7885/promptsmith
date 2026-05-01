@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "teachers-corporate-trainers-001",
+      "title": "ADDIE Framework Onboarding Module for IT Freshers",
+      "prompt": "Act as a senior corporate L&D designer with 12 years of experience in Indian IT services companies like TCS, Infosys, and Wipro. I need you to design a 4-week onboarding training module for 500 campus-hire engineering freshers joining as Systems Engineers in Pune, using the ADDIE framework (Analyze, Design, Develop, Implement, Evaluate). Context: batch includes graduates from Tier-2 and Tier-3 colleges across India with mixed English proficiency, Hindi/English bilingual delivery required, hybrid mode (week 1-2 in-office Hinjewadi campus, week 3-4 remote from hometowns). Please provide: (1) Analysis phase with learner persona and skill gap assessment, (2) Design phase with week-by-week learning objectives mapped to Bloom's taxonomy, (3) Development phase listing assets needed (videos, LMS modules, hands-on labs), (4) Implementation logistics including trainer-to-trainee ratios and batch splits, (5) Evaluation rubric using Kirkpatrick Level 1-4 with specific KPIs, (6) Budget estimate in INR covering trainer fees, LMS, and material costs. Format as a structured project plan with tables. Consider constraints: 9-hour workdays, Indian labor laws on training hours, cultural sensitivity to regional diversity, and need for Infosys-style mentor buddy system.",
+      "tags": [
+        "addie",
+        "onboarding",
+        "it-services",
+        "kirkpatrick"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-002",
+      "title": "POSH Act Compliance Training Role-Play Scenarios",
+      "prompt": "Act as a certified POSH (Prevention of Sexual Harassment) trainer with 10 years of experience conducting Internal Committee training for Indian corporates across Bengaluru, Mumbai, and Delhi-NCR. I need you to create 6 realistic role-play scenarios for a 2-hour mandatory POSH refresher workshop for 40 mid-level managers at a manufacturing company in Pune. Context: audience is 70% male, age 35-50, mix of Hindi and English speakers, many have completed POSH training once before and are disengaged. Please provide: (1) Scenario 1 on ambiguous workplace comments during Diwali celebrations, (2) Scenario 2 on after-hours WhatsApp messages from a manager to a subordinate, (3) Scenario 3 on client-initiated harassment during a Mumbai offsite, (4) Scenario 4 on a male employee filing a complaint, (5) Scenario 5 on retaliation against a complainant, (6) Scenario 6 on remote work harassment via Zoom. For each scenario include: role cards for 2-3 participants, situational context (300 words), 5 debrief questions tied to POSH Act 2013 sections, facilitator talking points, and common misconceptions to correct. Format as a facilitator handbook. Consider the Vishakha Guidelines, Indian hierarchical culture, and the 90-day complaint resolution timeline.",
+      "tags": [
+        "posh",
+        "role-play",
+        "compliance",
+        "facilitation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-003",
+      "title": "70-20-10 Learning Blueprint for First-Time Managers",
+      "prompt": "Act as a leadership development consultant with 15 years of experience training first-time managers at Indian companies like HCL, Tech Mahindra, and Cognizant. I need you to design a 6-month 70-20-10 learning journey for 30 newly promoted team leads (ex-individual contributors, average age 28, managing teams of 6-8) in a Bengaluru-based fintech. Context: most have never managed people, are technically strong but lack people skills, and struggle with giving feedback in the Indian hierarchical culture where direct feedback is uncommon. Please provide: (1) 70% on-the-job learning with 8 stretch assignments mapped to competencies, (2) 20% social learning plan including mentor matching, peer circles, and manager shadowing, (3) 10% formal learning with 5 workshop modules (each 4 hours), (4) Monthly check-in templates for L&D, mentor, and line manager, (5) Self-assessment rubric across 6 management competencies, (6) Escalation path for struggling managers. Format as a 6-month calendar with milestones. Consider constraints: remote-hybrid team, 2-hour weekly training time cap, INR 15,000 per-learner budget, and cultural nuances like saving face during feedback conversations.",
+      "tags": [
+        "70-20-10",
+        "first-time-managers",
+        "leadership",
+        "blended-learning"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-004",
+      "title": "Microlearning Series on GST for Finance Teams",
+      "prompt": "Act as a microlearning content designer with 8 years of experience creating bite-sized training for Indian BFSI and accounting teams. I need you to design a 15-module microlearning series (each module 5-7 minutes) on GST compliance updates for a 200-person finance team at a Mumbai-based logistics company. Context: learners are CAs, accountants, and AP/AR executives aged 25-45, access training on mobile during commutes on Mumbai locals, and need to stay current on CBIC notifications. Please provide: (1) Module-by-module title and learning objective, (2) Suggested format for each module (animated video, infographic, scenario-based quiz, podcast), (3) Script outline for modules 1, 5, and 10 covering input tax credit, e-invoicing, and GSTR-3B reconciliation, (4) Knowledge check questions (3 per module), (5) Spaced repetition schedule over 8 weeks, (6) LMS nudge campaign using WhatsApp Business. Format as a content matrix with columns for title, duration, format, and assessment. Consider constraints: mobile-first consumption, mix of Hindi and English preferences, and need for quarterly refreshes when GST rules change.",
+      "tags": [
+        "microlearning",
+        "gst",
+        "finance-training",
+        "mobile-learning"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-005",
+      "title": "SBI Feedback Framework Workshop Design",
+      "prompt": "Act as an executive coach and trainer with 12 years of experience teaching feedback skills to Indian managers. I need you to design a 4-hour in-person workshop on the SBI (Situation-Behavior-Impact) feedback framework for 25 project managers at an Infosys Bengaluru delivery center. Context: participants struggle with giving corrective feedback because of Indian cultural norms around indirectness, fear of damaging relationships, and chai-break gossip culture. Please provide: (1) Workshop agenda with timings and energy flow, (2) Opening icebreaker tied to feedback myths in Indian offices, (3) Teaching segment explaining SBI with 3 Indian workplace examples, (4) 4 practice role-plays (missed deadline, client escalation, peer conflict, late arrival), (5) Observer checklist for role-play debriefs, (6) Post-workshop 21-day application challenge with WhatsApp group nudges, (7) Facilitator FAQ on handling resistance like \"but sir, my team will get upset\". Format as a facilitator run-sheet. Consider constraints: bilingual audience (Hindi/English code-switching expected), post-lunch slot requiring high energizers, and need to address hierarchical reporting dynamics.",
+      "tags": [
+        "sbi",
+        "feedback",
+        "facilitation",
+        "workshop-design"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-006",
+      "title": "BANT Sales Qualification Training for B2B SaaS",
+      "prompt": "Act as a B2B sales enablement head with 14 years of experience training enterprise sales teams at Indian SaaS companies like Freshworks, Zoho, and Chargebee. I need you to design a 2-day sales training program on BANT (Budget, Authority, Need, Timeline) qualification adapted for the Indian enterprise buying culture. Context: 20 account executives selling to Indian mid-market companies (INR 100-500 crore revenue), average deal size INR 25 lakh ARR, long sales cycles with multiple stakeholders including promoters, family members, and finance heads. Please provide: (1) Day 1 agenda focused on BANT fundamentals with Indian-specific adaptations, (2) Day 2 agenda on advanced objection handling and stakeholder mapping, (3) 6 discovery call scripts using BANT for different Indian buyer personas (promoter-led, MNC subsidiary, family business, PSU), (4) Role-play exercises with realistic Indian objections like \"let me discuss with uncle\" or \"show me reference from Tata group\", (5) BANT scorecard template, (6) 30-60-90 day post-training application plan. Format as a facilitator guide with learner workbook sections. Consider constraints: hybrid delivery, multilingual audience, and Indian procurement cycles aligned to fiscal year March-end.",
+      "tags": [
+        "bant",
+        "sales-training",
+        "b2b-saas",
+        "role-play"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-007",
+      "title": "Icebreakers for Indian Corporate Audiences",
+      "prompt": "Act as a workshop facilitator with 10 years of experience running training programs for Indian corporate audiences across sectors. I need you to create 15 culturally relevant icebreakers and energizers specifically designed for Indian participants. Context: audiences range from campus hires to senior leaders, often hesitant to speak up, uncomfortable with Western-style \"trust falls\" or hugging exercises, and respond well to humor, storytelling, and regional references. Please provide: (1) 5 opening icebreakers (5 minutes each) for groups of 20-30 that work across age groups, (2) 5 post-lunch energizers to combat the after-meal slump common in Indian offices, (3) 5 closing activities tied to commitment and reflection, (4) For each activity: time needed, materials, step-by-step instructions, debrief questions, and why it works for Indian cultural context, (5) Adaptation notes for virtual vs in-person, (6) Red flags to avoid (touching strangers, religious references, political topics). Format as a facilitator quick-reference card. Consider constraints: mixed gender groups, varying English proficiency, hierarchical discomfort, and diverse regional backgrounds from Chennai to Chandigarh.",
+      "tags": [
+        "icebreakers",
+        "facilitation",
+        "energizers",
+        "cultural-adaptation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-008",
+      "title": "Kirkpatrick Level 4 ROI Measurement Plan",
+      "prompt": "Act as an L&D analytics consultant with 13 years of experience measuring training effectiveness at Indian Fortune 500 companies. I need you to design a complete Kirkpatrick Level 1-4 evaluation plan for a INR 80 lakh leadership development program at a Wipro business unit in Hyderabad. Context: 150 senior managers completed a 6-month program on strategic thinking, and the CHRO needs to present ROI to the CFO who questions L&D spend. Please provide: (1) Level 1 reaction survey (10 questions) with NPS methodology, (2) Level 2 learning assessment using pre/post knowledge tests and skill demos, (3) Level 3 behavior change measurement using 360-degree feedback at 3 and 6 months, (4) Level 4 business results linked to team productivity, retention, and project success rates, (5) ROI calculation formula in INR with isolation techniques to attribute results to training, (6) Executive dashboard design with 6 key metrics, (7) Counter-arguments to common CFO objections. Format as a measurement framework document. Consider constraints: data availability from HRMS, cultural reluctance to give honest upward feedback, and Indian fiscal year reporting cycles.",
+      "tags": [
+        "kirkpatrick",
+        "roi",
+        "evaluation",
+        "analytics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-009",
+      "title": "Customer Complaint Handling Role-Play for BPO",
+      "prompt": "Act as a customer experience trainer with 11 years of experience in Indian BPO and contact center industry. I need you to design 8 progressive role-play scenarios for a 1-day training on handling irate customer complaints for a 50-agent inbound voice team supporting a US telecom client from Gurugram. Context: agents are aged 21-28, speak English with Indian accent, face cultural friction with American customers, and average 60 calls/day with AHT pressure. Please provide: (1) Scenario 1-2 on easy complaints (billing error, service outage) for warm-up, (2) Scenario 3-4 on moderate complaints (repeated issues, refund disputes), (3) Scenario 5-6 on difficult complaints (racist remarks, verbal abuse), (4) Scenario 7-8 on escalation scenarios requiring supervisor involvement, (5) For each: caller persona, opening line, objection triggers, resolution path using LEAP framework (Listen, Empathize, Acknowledge, Pivot), (6) Observer scorecard with 10 parameters, (7) Debrief questions addressing emotional regulation. Format as a role-play facilitator kit. Consider constraints: night shift fatigue, cultural differences, and compliance with BPO conduct policies.",
+      "tags": [
+        "role-play",
+        "bpo",
+        "customer-complaints",
+        "leap-framework"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-010",
+      "title": "Performance Conversation Framework Training",
+      "prompt": "Act as a HR business partner and trainer with 12 years of experience coaching Indian managers on difficult conversations. I need you to design a half-day workshop on holding effective performance conversations for 20 middle managers at a Bengaluru-based product company during annual appraisal season. Context: managers dread rating conversations because of Indian culture where confrontation damages relationships, employees often cry or argue about bell-curve ratings, and attrition spikes post-appraisals. Please provide: (1) Workshop flow with 4 segments: preparation, opening, delivering message, closing, (2) Conversation framework using COIN model (Context, Observation, Impact, Next steps), (3) 5 role-plays for common scenarios (rating cut, PIP, no-increment year, star performer retention, peer comparison complaint), (4) Manager self-prep worksheet with data gathering checklist, (5) Phrases to use and phrases to avoid (with Hindi/English code-switching examples), (6) De-escalation techniques for emotional reactions, (7) Follow-up action plan template. Format as a manager playbook. Consider constraints: Indian appraisal politics, need to protect manager-employee rapport, and HR compliance requirements.",
+      "tags": [
+        "coin",
+        "performance-conversations",
+        "appraisals",
+        "role-play"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-011",
+      "title": "Virtual Workshop Facilitation Playbook",
+      "prompt": "Act as a virtual facilitator with 8 years of experience running online training for distributed Indian teams. I need you to create a comprehensive playbook for running high-engagement 90-minute virtual workshops on Zoom/MS Teams for Indian corporate audiences. Context: trainers struggle with cameras-off culture, low participation, multitasking learners, and bandwidth issues from Tier-2 cities. Please provide: (1) Pre-workshop checklist (tech, learner prep, engagement contracts), (2) Opening 10-minute high-energy hook with 3 options, (3) Engagement techniques every 7 minutes (polls, breakouts, chat storms, whiteboard), (4) 6 breakout room activity designs with clear instructions, (5) Handling common issues (silent rooms, dominant voices, connectivity drops, distracted learners), (6) Energizer library for virtual setting, (7) Closing and transfer-to-workplace techniques, (8) Facilitator dashboard to track engagement metrics. Format as a step-by-step playbook. Consider constraints: bilingual delivery, diverse tech literacy, work-from-home distractions (doorbells, kids, power cuts), and post-pandemic Zoom fatigue among Indian knowledge workers.",
+      "tags": [
+        "virtual-facilitation",
+        "remote-training",
+        "engagement",
+        "playbook"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-012",
+      "title": "MCQ Assessment Bank for Compliance Training",
+      "prompt": "Act as an assessment designer with 10 years of experience creating corporate compliance tests for Indian enterprises. I need you to build a 60-question MCQ assessment bank covering anti-bribery, data privacy (DPDP Act 2023), insider trading, and code of conduct for a listed Indian pharma company in Mumbai. Context: 3000 employees across manufacturing, sales, and corporate functions need annual recertification, with pass mark 80% and 3 attempts allowed. Please provide: (1) 15 questions each on 4 topics with difficulty mix (40% easy, 40% medium, 20% hard), (2) For each question: stem, 4 options, correct answer, distractor rationale, learning objective mapped, (3) Scenario-based questions (not just recall) tied to Indian pharma context (MR gifting doctors, patient data, clinical trial disclosures), (4) Question randomization logic, (5) Remediation content links for wrong answers, (6) Audit trail requirements for SEBI and DPDP compliance. Format as a structured question bank with metadata. Consider constraints: bilingual versions (Hindi/English), mobile-friendly formatting, and legal review requirements.",
+      "tags": [
+        "mcq",
+        "assessment",
+        "compliance",
+        "dpdp"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-013",
+      "title": "MEDDIC Adapted for Indian Enterprise Sales",
+      "prompt": "Act as a sales methodology trainer with 15 years of experience adapting Western sales frameworks for Indian markets. I need you to adapt the MEDDIC framework (Metrics, Economic Buyer, Decision Criteria, Decision Process, Identify Pain, Champion) for enterprise software sales to Indian CXOs and design a 1-day training for 15 enterprise AEs. Context: team sells INR 50 lakh+ deals to Indian banks, NBFCs, and manufacturing companies where decision-making involves promoters, family councils, and long bureaucratic cycles. Please provide: (1) MEDDIC adaptation with Indian-specific nuances for each letter, (2) Discovery question bank (10 per MEDDIC element) in Indian business English, (3) Economic buyer mapping for Indian org structures (promoter vs professional CEO vs CFO power dynamics), (4) Champion development playbook including relationship-building during festivals and family events, (5) Deal review template with MEDDIC scoring 0-4, (6) 4 role-play exercises with realistic Indian buyer personas, (7) Common pitfalls like under-qualifying due to relationship bias. Format as a sales methodology guide. Consider constraints: Indian business culture, procurement policies, and need to balance assertiveness with respect.",
+      "tags": [
+        "meddic",
+        "enterprise-sales",
+        "sales-training",
+        "methodology"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-014",
+      "title": "360-Degree Feedback Debrief Session Design",
+      "prompt": "Act as an executive development coach with 14 years of experience facilitating 360-degree feedback debriefs for Indian senior managers. I need you to design a structured 90-minute one-on-one 360 feedback debrief session for senior managers at a Pune-based automotive MNC. Context: managers often react defensively to critical feedback, blame the tool or specific raters, and Indian culture makes blind spot conversations especially sensitive. Please provide: (1) Pre-debrief preparation for the coach (report review, pattern analysis), (2) Session flow with 6 stages from rapport-building to action planning, (3) Scripts for introducing strengths vs development areas, (4) Techniques to handle denial, anger, rationalization, and tears, (5) Question bank to deepen self-reflection (15 powerful questions), (6) Development planning template with 3 SMART goals, (7) Follow-up cadence over 6 months, (8) Confidentiality and ethics boundaries. Format as a coach facilitation guide. Consider constraints: hierarchical comfort with upward feedback, tendency to attribute feedback to \"politics\", and need to balance honesty with dignity.",
+      "tags": [
+        "360-feedback",
+        "debrief",
+        "coaching",
+        "executive-development"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-015",
+      "title": "Behavior Observation Checklist for Leadership Lab",
+      "prompt": "Act as an assessment center designer with 12 years of experience running leadership assessment labs for Indian corporates. I need you to create a behavior observation checklist and rating framework for a 1-day leadership assessment center for 24 high-potential managers at an HCL Noida leadership pipeline program. Context: 6 assessors will observe candidates across 4 exercises (group discussion, case presentation, role-play, in-basket), rating 8 leadership competencies on a 1-5 BARS scale. Please provide: (1) 8 leadership competencies with behavioral definitions adapted for Indian context, (2) BARS scale (1-5) with anchor behaviors for each competency, (3) Exercise-competency matrix showing which exercise measures which competency, (4) Real-time observation recording templates, (5) Assessor calibration training script (60 minutes), (6) Integration discussion protocol for consensus ratings, (7) Participant feedback report template, (8) Bias-mitigation guidelines (gender, regional, educational background). Format as an assessor handbook. Consider constraints: inter-rater reliability targets, time pressure, and Indian cultural norms around group discussions where louder voices dominate.",
+      "tags": [
+        "assessment-center",
+        "observation",
+        "bars",
+        "leadership"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-016",
+      "title": "Bilingual Training Delivery Guide",
+      "prompt": "Act as a bilingual corporate trainer with 10 years of experience delivering Hindi-English blended training across North and Central India. I need you to create a practical guide for trainers on effectively delivering workshops in mixed Hindi-English (code-switched) mode for audiences in cities like Jaipur, Lucknow, Indore, and Kanpur. Context: participants are shop floor supervisors, field sales teams, and frontline managers whose English comprehension varies widely, and pure English training leads to disengagement. Please provide: (1) Principles for deciding when to use Hindi vs English (concept vs example, written vs spoken), (2) Techniques for smooth code-switching without losing flow, (3) Translation of 20 common L&D jargon terms (empowerment, accountability, stakeholder, KPI) into accessible Hindi, (4) Handling of technical terms that have no Hindi equivalent, (5) Managing groups with mixed proficiency, (6) Slide design tips (bilingual headers, Hindi examples), (7) Assessment design for bilingual audiences, (8) Red flags that indicate comprehension gaps. Format as a trainer field guide. Consider constraints: regional Hindi variations, learner dignity around English proficiency, and employer branding requirements for professional delivery.",
+      "tags": [
+        "bilingual",
+        "hindi-english",
+        "delivery",
+        "inclusion"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-017",
+      "title": "Train-the-Trainer Certification Program",
+      "prompt": "Act as a master trainer with 18 years of experience certifying internal trainers at Indian IT and BFSI companies. I need you to design a 5-day intensive train-the-trainer certification program for 15 subject matter experts at an Infosys learning academy who will become internal facilitators. Context: participants are senior engineers and project managers with deep domain knowledge but no formal training experience, and the goal is to certify them to deliver technical bootcamps to new hires. Please provide: (1) Day-by-day agenda with 5 learning modules (adult learning principles, session design, delivery skills, managing groups, assessment), (2) Practice teaching slots with peer feedback, (3) Video-recorded microteaching exercises (10 minutes each), (4) Certification rubric with pass/develop/fail criteria, (5) Observation checklist for evaluators, (6) 90-day post-certification mentoring plan, (7) Common SME-to-trainer transition challenges and remedies, (8) Trainer toolkit contents. Format as a program blueprint. Consider constraints: SMEs' day job pressures, varying comfort with public speaking, and need to preserve technical accuracy while improving pedagogy.",
+      "tags": [
+        "train-the-trainer",
+        "certification",
+        "facilitation",
+        "sme"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-018",
+      "title": "Gamified Onboarding Experience Design",
+      "prompt": "Act as a learning experience designer with 9 years of experience gamifying onboarding at Indian startups and unicorns. I need you to design a gamified 2-week onboarding journey for 100 new hires joining a Bengaluru-based consumer internet company (e-commerce). Context: hires range from engineering (50) to operations (30) to marketing (20), aged 22-32, expecting a fun Flipkart/Swiggy-style culture, and historically 20% dropped off in first 90 days. Please provide: (1) Game mechanics (points, badges, levels, leaderboards) mapped to onboarding milestones, (2) Narrative theme tied to company mission, (3) Week 1 daily missions (company history quest, product deep-dive, buddy interview), (4) Week 2 cross-functional challenges and capstone project, (5) Mobile-first LMS requirements, (6) Manager and buddy engagement touchpoints, (7) Rewards structure (swag, coffee vouchers, founder meet), (8) Analytics dashboard to track completion and engagement. Format as a gamified experience map. Consider constraints: remote-hybrid delivery, varying tech comfort, INR 5000 per-learner budget, and need to maintain seriousness for compliance topics.",
+      "tags": [
+        "gamification",
+        "onboarding",
+        "experience-design",
+        "engagement"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-019",
+      "title": "Pre-Workshop Needs Assessment Survey",
+      "prompt": "Act as an L&D needs analyst with 11 years of experience conducting training needs assessments for Indian enterprises. I need you to design a comprehensive pre-workshop needs assessment survey for a planned leadership communication workshop for 80 mid-level managers at a Chennai-based BPO. Context: the CHRO has mandated training but hasn't specified what communication gaps to address, and the L&D team needs data before designing content. Please provide: (1) Survey instrument with 25 questions across 4 sections (self-assessment, preferred topics, learning preferences, logistics), (2) Mix of Likert scale, multiple choice, ranking, and open-ended questions, (3) Behavioral competency self-rating on 8 communication dimensions, (4) Stakeholder interview guide for 5 senior leaders (for triangulation), (5) Focus group discussion protocol for 10 direct reports (feedback upward), (6) Analysis framework to identify top 3 priority themes, (7) Findings report template for CHRO, (8) Ethics and anonymity guidelines. Format as a needs assessment toolkit. Consider constraints: survey fatigue, social desirability bias common in Indian hierarchical cultures, and 2-week timeline.",
+      "tags": [
+        "needs-assessment",
+        "survey",
+        "analysis",
+        "training-design"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-020",
+      "title": "Diversity and Inclusion Workshop for Indian Teams",
+      "prompt": "Act as a DEI facilitator with 10 years of experience conducting diversity workshops in Indian corporate settings. I need you to design a 3-hour workshop on unconscious bias and inclusion for 30 engineering managers at a Wipro Pune delivery center. Context: team has diverse employees across gender, caste (though rarely discussed), regional backgrounds, LGBTQ+ identity, and disability, and managers need to create psychologically safe environments without triggering defensive reactions. Please provide: (1) Workshop flow with 5 segments (awareness, exploration, dialogue, commitment, action), (2) Opening exercise that surfaces bias safely without blame, (3) 4 case studies based on real Indian workplace scenarios (hiring bias, caste-adjacent microaggressions, gender stereotypes, regional jokes), (4) Small-group dialogue protocol with ground rules, (5) Inclusion toolkit with 10 practical manager behaviors, (6) Commitment card for personal action, (7) Handling resistance (\"this is Western concept\", \"reverse discrimination\" arguments), (8) Follow-up resource list. Format as a facilitator guide. Consider constraints: legally sensitive topics in India, religious and political neutrality, and diverse comfort levels with personal sharing.",
+      "tags": [
+        "dei",
+        "unconscious-bias",
+        "inclusion",
+        "facilitation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-021",
+      "title": "Simulation-Based Assessment for Project Managers",
+      "prompt": "Act as a simulation designer with 12 years of experience creating business simulations for Indian PMO training. I need you to design a 4-hour simulation-based assessment for 20 aspiring project managers at a TCS Bengaluru learning campus. Context: candidates need to demonstrate PM competencies in a realistic environment before being deployed on client projects worth INR 10 crore+. Please provide: (1) Simulation scenario: managing a stressed IT services project with angry client, attrition, and scope creep, (2) 6 injects (events) spread across simulation (team lead resigns, client escalation, budget cut, bug in production, COVID-like disruption, promoter visit), (3) Decision points with 3 options each and consequences, (4) Role cards for facilitators playing stakeholders (client, sponsor, team member), (5) Observation rubric across 8 PM competencies, (6) Debrief questions for individual and group reflection, (7) Scoring algorithm with weights, (8) Feedback report template. Format as a simulation facilitator kit. Consider constraints: realistic Indian IT services context, time compression techniques, and preventing simulation from becoming a game.",
+      "tags": [
+        "simulation",
+        "assessment",
+        "project-management",
+        "evaluation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-022",
+      "title": "Storytelling Skills Workshop for Leaders",
+      "prompt": "Act as a communication coach with 13 years of experience teaching business storytelling to Indian executives. I need you to design a half-day workshop on leadership storytelling for 20 AVP/VP-level leaders at a Mumbai-based investment bank. Context: leaders need to inspire teams through town halls, win over boards, and communicate change, but most rely on dry PowerPoint with numbers. Please provide: (1) Workshop flow using experiential learning (hear, practice, feedback, refine), (2) Story structures teaching (SCQA, Hero's Journey, 3-Act, Pixar formula) with Indian business examples, (3) Story bank building exercise: 5 types of stories every leader needs (origin, vision, values, failure, customer), (4) Craft exercise: transform a dry quarterly update into a story, (5) Delivery practice with peer feedback using a 5-point observation checklist, (6) Handling numbers within stories, (7) Audience-specific adaptation (board vs town hall vs 1:1), (8) 21-day post-workshop practice challenge. Format as a facilitator playbook. Consider constraints: discomfort with vulnerability in hierarchical culture, authenticity vs performance tension, and English-language polish.",
+      "tags": [
+        "storytelling",
+        "leadership-communication",
+        "workshop-design",
+        "facilitation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-023",
+      "title": "Behavioral Interview Training for Hiring Managers",
+      "prompt": "Act as a talent acquisition trainer with 11 years of experience teaching Indian hiring managers to conduct structured interviews. I need you to design a 1-day workshop on behavioral interviewing using STAR method for 25 hiring managers at an HCL Chennai delivery unit. Context: managers make gut-based hiring decisions, ask illegal or irrelevant questions (marital status, caste, plans for children), and struggle to assess candidates consistently, leading to poor quality hires and compliance risks. Please provide: (1) Morning session on legal interview do's and don'ts under Indian labor law, (2) STAR method deep-dive with probing techniques, (3) Competency-based question bank (20 questions across 6 core competencies), (4) Practice interviews with mock candidates and observer feedback, (5) Scorecard design with calibrated rating scales, (6) Bias awareness module covering affinity, halo, recency bias, (7) Decision-making protocol for panel interviews, (8) Post-workshop on-the-job application plan with coaching support. Format as a hiring manager bootcamp guide. Consider constraints: Indian cultural questions considered normal but legally risky, panel hierarchies, and urgent hiring pressure.",
+      "tags": [
+        "behavioral-interview",
+        "star-method",
+        "hiring",
+        "compliance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-024",
+      "title": "E-Learning Module Script for Cyber Security",
+      "prompt": "Act as an instructional designer with 10 years of experience creating e-learning for Indian enterprise security awareness. I need you to write a complete script for a 25-minute self-paced e-learning module on cyber security awareness for 5000 employees at a Pune-based pharma MNC. Context: employees fall for phishing emails, share passwords, and use personal devices for work, causing security incidents, and the CISO wants mandatory annual training. Please provide: (1) Module learning objectives aligned to NIST framework, (2) Scene-by-scene script with narration, on-screen text, visuals, and interactions, (3) 6 micro-scenarios covering phishing, password hygiene, USB risks, social engineering, WFH security, and incident reporting, (4) Indian-specific examples (UPI scams, WhatsApp forwards, fake HR emails), (5) Knowledge check questions every 5 minutes, (6) Final assessment with 10 scenario-based questions, (7) Accessibility considerations (captions, screen reader), (8) Completion certificate text. Format as a production-ready script with cue columns. Consider constraints: bilingual versions, mobile playback, and completion reporting for compliance.",
+      "tags": [
+        "elearning",
+        "cyber-security",
+        "script",
+        "awareness"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-025",
+      "title": "Experiential Outbound Training Design",
+      "prompt": "Act as an outbound training specialist with 14 years of experience designing experiential learning programs for Indian corporate teams. I need you to design a 2-day outbound team-building program for 40 senior managers at a Lonavala resort, sponsored by a Mumbai-based conglomerate. Context: team suffers from siloed thinking after a merger, needs trust-building and cross-functional collaboration, and has mixed physical abilities (age 35-55, some with mobility limitations). Please provide: (1) Day 1 agenda with 4 activities focused on trust and communication, (2) Day 2 agenda with 4 activities focused on problem-solving and collaboration, (3) For each activity: learning objective, equipment, safety briefing, facilitation script, debrief questions linking to workplace, (4) Inclusive alternatives for mobility-limited participants, (5) Facilitator safety protocols and insurance requirements, (6) Weather contingency plans, (7) Pre and post-program psychometric assessment, (8) Sustainability commitment template. Format as an outbound program manual. Consider constraints: Indian food preferences (veg/non-veg/Jain), alcohol policy, gender sensitivity, and ensuring learning outcomes beyond just fun.",
+      "tags": [
+        "outbound",
+        "experiential",
+        "team-building",
+        "facilitation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-026",
+      "title": "Learner Journey Map for Leadership Program",
+      "prompt": "Act as a learning experience strategist with 12 years of experience designing end-to-end leadership journeys at Indian conglomerates. I need you to create a detailed learner journey map for a 9-month senior leadership development program for 25 identified successors at a Tata group company in Mumbai. Context: program includes classroom, coaching, action learning projects, and global immersion, with a INR 3 crore budget and visibility to the group chairman. Please provide: (1) Journey map with 9 monthly touchpoints covering emotional, cognitive, and behavioral states, (2) Moments of truth where learner motivation peaks or dips, (3) Interventions at each touchpoint (pre-work, classroom, practice, reflection, reinforcement), (4) Stakeholder involvement at each stage (learner, manager, mentor, sponsor, HR), (5) Communication calendar (emails, WhatsApp, LMS nudges), (6) Risk register for common derailers (project urgency, travel, personal issues), (7) Success metrics at each milestone, (8) Graduation and transition plan. Format as a visual journey map with data tables. Consider constraints: senior executive calendars, Indian family commitments, and group-wide visibility pressure.",
+      "tags": [
+        "learner-journey",
+        "leadership-development",
+        "experience-design",
+        "mapping"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-027",
+      "title": "Post-Training Reinforcement Campaign",
+      "prompt": "Act as a learning transfer specialist with 10 years of experience designing post-training reinforcement for Indian corporate learners. I need you to design a 90-day post-training reinforcement campaign for 100 managers who recently completed a 2-day negotiation skills workshop at an ITC Kolkata leadership center. Context: research shows 70% of training is forgotten within 30 days, and the CHRO wants to ensure ROI through behavioral application. Please provide: (1) 90-day calendar with touchpoints at days 3, 7, 14, 21, 30, 45, 60, 75, 90, (2) Content mix: WhatsApp nudges, email tips, video bytes, case of the week, peer huddles, manager check-ins, (3) Behavioral application challenges (apply one skill per week with photo/video proof), (4) Peer accountability groups of 5 with rotating facilitator, (5) Manager discussion guide for 1:1 conversations, (6) Reinforcement content library (20 assets), (7) Engagement tracking dashboard, (8) Celebration and recognition at day 90. Format as a campaign playbook. Consider constraints: WhatsApp Business compliance, learner information fatigue, and manager bandwidth to engage.",
+      "tags": [
+        "reinforcement",
+        "transfer",
+        "learning-campaign",
+        "application"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-028",
+      "title": "Conflict Resolution Role-Play for Teams",
+      "prompt": "Act as a conflict resolution trainer with 12 years of experience facilitating team mediation workshops for Indian corporates. I need you to design 5 realistic conflict role-play scenarios for a 3-hour workshop on interpersonal conflict resolution for 30 software engineers at a Hyderabad GCC (global capability center) of a US MNC. Context: engineers work in agile squads, report to both Indian and overseas managers, and face conflicts around code reviews, on-call rotations, and credit for work. Please provide: (1) Scenario 1: peer conflict over code review style (harsh vs lenient), (2) Scenario 2: credit-stealing in a daily standup, (3) Scenario 3: on-call burden imbalance, (4) Scenario 4: cross-cultural conflict with US counterpart, (5) Scenario 5: senior vs junior disagreement on technical approach, (6) For each: role cards, background, emotional state, desired outcome, (7) Facilitator debrief using Thomas-Kilmann conflict modes, (8) Resolution framework: ICR (Inquire, Clarify, Resolve). Format as a role-play kit. Consider constraints: engineer discomfort with emotional topics, tech-specific context, and need for practical takeaways.",
+      "tags": [
+        "conflict-resolution",
+        "role-play",
+        "teams",
+        "mediation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-029",
+      "title": "Agile Mindset Workshop for Traditional Managers",
+      "prompt": "Act as an agile coach and trainer with 13 years of experience transitioning traditional managers to agile mindsets in Indian IT services. I need you to design a 1-day workshop on agile mindset for 25 PMs at a Cognizant Chennai unit who are moving from waterfall to scaled agile (SAFe). Context: managers see agile as \"just daily standups\", resist self-organizing teams, and struggle to give up command-and-control style common in Indian IT. Please provide: (1) Workshop flow from mindset to behaviors (not just mechanics), (2) Opening exercise surfacing current mental models, (3) Experiential activity simulating waterfall vs agile delivery, (4) 4 mindset shifts: plan-driven to value-driven, individual to team, output to outcome, perfection to learning, (5) Manager behavior change from manager to servant leader, (6) Common anti-patterns in Indian IT context (fake agile, status reports disguised as standups), (7) Action planning for next 30 days, (8) Leadership commitment card. Format as a facilitator guide. Consider constraints: SAFe certification requirements, client delivery pressures, and deeply ingrained Indian IT services culture.",
+      "tags": [
+        "agile",
+        "mindset",
+        "workshop",
+        "transformation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-030",
+      "title": "Leadership Book Club Facilitation Guide",
+      "prompt": "Act as an L&D program manager with 9 years of experience running leadership book clubs at Indian IT companies. I need you to design a 6-month leadership book club program for 40 middle managers at a Bengaluru GCC, covering 6 books (one per month). Context: managers are busy, English proficiency varies, and past book clubs failed due to low completion. Please provide: (1) Curated list of 6 leadership books with rationale (mix of Indian and global authors), (2) Monthly facilitation structure (reading schedule, discussion prep, session, application), (3) 90-minute discussion guide per book with 5 powerful questions linking concepts to their work, (4) Application challenges (try one idea this week, report back), (5) Alternative formats (audiobook, book summary, author podcast) for busy learners, (6) Small group of 8 design with rotating facilitators, (7) Digital community (Slack/Teams channel) management, (8) End-of-program reflection and certificate. Format as a program playbook. Consider constraints: voluntary participation, budget for books (INR 500 per book per participant), and leader bandwidth.",
+      "tags": [
+        "book-club",
+        "leadership",
+        "self-directed-learning",
+        "facilitation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-031",
+      "title": "Training Session Opening Hook Templates",
+      "prompt": "Act as a master facilitator with 15 years of experience opening training sessions for Indian corporate audiences. I need you to create 12 powerful opening hook templates that grab attention in the first 5 minutes of any corporate training session. Context: Indian learners come to training tired, distracted by work, skeptical, and expecting death by PowerPoint, and the first 5 minutes determine engagement for the rest of the session. Please provide: (1) Hook 1: surprising data point (how to find and use), (2) Hook 2: provocative question, (3) Hook 3: personal story, (4) Hook 4: physical demonstration, (5) Hook 5: relevant Bollywood or cricket reference, (6) Hook 6: scenario challenge, (7) Hook 7: historical anecdote, (8) Hook 8: current news tie-in, (9) Hook 9: role reversal (learner teaches), (10) Hook 10: mystery object, (11) Hook 11: group poll with live visualization, (12) Hook 12: vulnerable admission. For each: example script, when to use, potential pitfalls. Format as a hook library card set. Consider constraints: cultural sensitivities, age diversity, and avoiding clichés.",
+      "tags": [
+        "facilitation",
+        "openings",
+        "engagement",
+        "templates"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-032",
+      "title": "Competency Framework for Customer Success",
+      "prompt": "Act as a competency framework designer with 11 years of experience building skill models for Indian SaaS customer success teams. I need you to build a complete competency framework for a 60-person customer success team at a Bengaluru-based SaaS unicorn serving global SMB customers. Context: CSMs handle 80-100 accounts each, work night shifts for US time zones, and the VP wants a framework to drive hiring, training, and promotion decisions. Please provide: (1) Role levels (CSM-1, CSM-2, Senior CSM, Lead CSM) with scope, (2) 8 core competencies with definitions (technical product, customer communication, analytical, commercial, relationship-building, problem-solving, project management, strategic thinking), (3) Behavioral indicators at 4 proficiency levels per competency, (4) Role-level competency profiles showing minimum proficiency required, (5) Assessment methods (self, manager, customer NPS, work samples), (6) Learning pathway suggestions per competency, (7) Career progression rubric, (8) Gap analysis template. Format as a competency catalog document. Consider constraints: global alignment with US HQ frameworks, night shift realities, and high attrition in Indian CS roles.",
+      "tags": [
+        "competency-framework",
+        "customer-success",
+        "career-path",
+        "skills"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-033",
+      "title": "Debrief Script for Experiential Activities",
+      "prompt": "Act as a facilitator with 12 years of experience leading experiential debriefs for Indian management audiences. I need you to create 10 structured debrief scripts for common experiential activities used in corporate training (marshmallow tower, desert survival, paper airplane factory, egg drop, lost at sea, etc.). Context: facilitators often rush debriefs or ask shallow questions like \"what did you learn?\" leading to poor transfer, and Indian participants can be reluctant to share reflections in large groups. Please provide: (1) 10 popular experiential activities with brief description, (2) For each: 4-layer debrief script using the 4F model (Facts, Feelings, Findings, Futures), (3) 8-10 questions per debrief flowing from concrete to abstract, (4) Techniques to draw out quieter participants (pair-share, sticky notes, round robin), (5) Bridging questions linking activity insights to actual workplace challenges, (6) Handling superficial or joking responses, (7) Closing technique for commitment-making, (8) Common facilitator mistakes. Format as a debrief script collection. Consider constraints: time pressure, Indian reticence in group sharing, and the need to avoid forced analogies.",
+      "tags": [
+        "debrief",
+        "experiential",
+        "facilitation",
+        "4f-model"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-034",
+      "title": "Sales Coaching Framework for Sales Managers",
+      "prompt": "Act as a sales coaching expert with 14 years of experience training Indian sales managers to coach their teams. I need you to design a sales coaching framework and half-day workshop for 20 regional sales managers at a Mumbai-based FMCG company managing teams of 8-12 field salespeople each. Context: managers currently focus only on numbers, do not ride along with reps, and blame under-performers instead of developing them. Please provide: (1) Coaching framework: GROW model adapted for Indian field sales context, (2) Weekly coaching cadence (1 joint call, 1 deal review, 1 development conversation), (3) Joint field visit observation template, (4) Deal review script with 8 diagnostic questions, (5) Skill vs will matrix to tailor coaching approach, (6) 4 practice coaching conversations in workshop, (7) 30-60-90 day application plan, (8) Measurement of coaching impact on rep performance. Format as a sales coaching playbook. Consider constraints: field travel realities, monthly target pressure, and cultural norms around giving direct feedback to juniors who may be older.",
+      "tags": [
+        "sales-coaching",
+        "grow-model",
+        "field-sales",
+        "management"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-035",
+      "title": "Psychological Safety Workshop Facilitation",
+      "prompt": "Act as an organizational development facilitator with 13 years of experience building psychologically safe teams in Indian workplaces. I need you to design a 3-hour team workshop on psychological safety for a 15-person engineering team at a Pune product company that has recently experienced high attrition and silent meetings. Context: team lead is newly promoted, members from diverse backgrounds, and Indian hierarchical culture makes speaking up against seniors difficult. Please provide: (1) Workshop flow: awareness, diagnosis, dialogue, commitment, (2) Team psych safety diagnostic (Amy Edmondson's 7-item survey) administered anonymously, (3) Results sharing protocol that protects individuals, (4) Dialogue method using structured sharing (1-2-4-all), (5) 4 behavior agreements the team commits to (speaking up, admitting mistakes, asking questions, respectful disagreement), (6) Manager-specific actions to model safety, (7) 90-day team practice calendar with check-ins, (8) Handling sensitive revelations that emerge. Format as a team workshop guide. Consider constraints: team leader vulnerability risk, confidentiality, and avoiding turning session into a complaint fest.",
+      "tags": [
+        "psychological-safety",
+        "team-development",
+        "facilitation",
+        "edmondson"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-036",
+      "title": "L&D Annual Plan Presentation for Leadership",
+      "prompt": "Act as a Head of L&D with 15 years of experience at Indian Fortune 500 companies. I need you to create an L&D annual plan presentation to be delivered to the CEO and ELT of a Mumbai-based listed conglomerate with 12,000 employees across 4 business units. Context: budget requested is INR 18 crore, competing with other investment priorities, and the CEO is skeptical of L&D ROI and wants to see business impact. Please provide: (1) 15-slide executive presentation structure with key message per slide, (2) Opening with 3 business challenges L&D will address, (3) Strategic pillars aligned to business strategy (5 pillars), (4) Program portfolio organized by audience and priority, (5) Budget allocation with unit economics, (6) Success metrics tied to business KPIs (not completion rates), (7) Risks and mitigations, (8) Ask from leadership, (9) Appendix with detailed program catalog, (10) Anticipated questions and answers for Q&A. Format as a slide-by-slide outline with speaker notes. Consider constraints: Indian promoter-CEO communication style, budget scrutiny post-COVID, and need for hard business language.",
+      "tags": [
+        "strategy",
+        "annual-plan",
+        "presentation",
+        "ld-leadership"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-037",
+      "title": "Change Management Training for Digital Transformation",
+      "prompt": "Act as a change management trainer with 12 years of experience supporting digital transformations at Indian companies. I need you to design a 1-day workshop on leading change for 40 middle managers at a Chennai-based bank undergoing a core banking system migration over 18 months. Context: managers need to help their teams through SAP-style system change, fear of job loss from automation, and resistance from older employees. Please provide: (1) Workshop based on Kotter's 8 steps adapted for Indian banking, (2) Understanding change curve (Kubler-Ross) in their own experience first, (3) Diagnosing their team's change readiness, (4) Communication plan template for their team (what, why, how, WIIFM), (5) Handling 5 common resistance behaviors in Indian bank workplaces, (6) Coaching individuals through transition, (7) Celebrating short-term wins, (8) Sustaining change post go-live. Format as a change manager toolkit. Consider constraints: unionized employees, seniority culture, RBI regulatory deadlines, and varying digital literacy.",
+      "tags": [
+        "change-management",
+        "kotter",
+        "digital-transformation",
+        "workshop"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-038",
+      "title": "Training Effectiveness Survey Questionnaire",
+      "prompt": "Act as a training evaluation specialist with 10 years of experience designing effectiveness surveys for Indian L&D functions. I need you to build a comprehensive training effectiveness survey package for evaluating workshops at an Infosys Mysore training campus delivering 200 workshops per month. Context: current Level 1 surveys have 4 happy smiley questions and give no actionable data, and the CLO wants a data-driven approach. Please provide: (1) End-of-program Level 1 survey (12 questions measuring relevance, facilitator, content, logistics, intent to apply), (2) 30-day Level 3 follow-up survey (8 questions on behavior change and barriers), (3) 90-day Level 4 survey to managers (6 questions on observed impact), (4) Question wording that avoids leading and social desirability bias, (5) Response scale rationale (5-point vs NPS), (6) Free-text prompts for qualitative insights, (7) Response rate improvement tactics, (8) Dashboard reporting template with benchmarks. Format as a survey toolkit. Consider constraints: survey fatigue, anonymity concerns in hierarchical culture, and mobile completion.",
+      "tags": [
+        "survey",
+        "effectiveness",
+        "kirkpatrick",
+        "evaluation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-039",
+      "title": "Case Study Development for Leadership Training",
+      "prompt": "Act as a case writer with 12 years of experience developing teaching cases for Indian business school and corporate leadership programs. I need you to write a detailed 2500-word original teaching case study on a leadership dilemma for use in a senior manager leadership program at a Bengaluru-based IT company. Context: the case should feel realistic, be set in the Indian IT services industry, and force participants to wrestle with an ethical and strategic dilemma without clear right answers. Please provide: (1) Case title and opening hook, (2) Protagonist introduction (Indian name, background, role, pressures), (3) Company and industry context (~500 words), (4) Rising action: the dilemma unfolds (client pressure to cut corners on security, team member wants to quit, CEO wants quick revenue), (5) Decision moment at the end, (6) 3 exhibits (org chart, financial summary, email thread), (7) Teaching note with learning objectives, discussion questions, board plan for 90-minute class, suggested analytic frameworks, (8) Suggested answers with nuance. Format as a Harvard-style case with teaching note. Consider constraints: realistic Indian IT context, ambiguity preservation, and relevance to participant decisions.",
+      "tags": [
+        "case-study",
+        "leadership",
+        "ethics",
+        "pedagogy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    },
+    {
+      "id": "teachers-corporate-trainers-040",
+      "title": "Trainer Self-Improvement Reflection Journal",
+      "prompt": "Act as a master trainer and trainer-coach with 16 years of experience developing corporate trainers in India. I need you to design a weekly reflection journal template for corporate trainers to build self-awareness and continuously improve their craft over a 12-week cycle. Context: trainers rarely pause to reflect, repeat same mistakes, and plateau after 3-4 years without intentional practice. Please provide: (1) Weekly journal structure with 8 prompts covering: session review, what worked, what flopped, one learner story, skill being practiced, feedback received, self-rating on 5 facilitator competencies, next week intention, (2) Monthly deeper reflection with 5 bigger questions on identity, purpose, impact, (3) Quarterly self-assessment against a 10-competency facilitator rubric, (4) Accountability partner protocol (pair with another trainer), (5) Evidence collection method (video self-review, learner feedback, observation), (6) Personal development plan template, (7) 12-week theme suggestions (presence, questions, pacing, inclusion, etc.), (8) Pitfalls and how to sustain the practice. Format as a printable workbook. Consider constraints: trainer time pressure, honest self-evaluation difficulty, and solo nature of work.",
+      "tags": [
+        "reflection",
+        "trainer-development",
+        "self-improvement",
+        "journal"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "corporate-trainers"
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "engineering-manufacturing-safety-engineers-001",
+      "title": "HIRA Worksheet for Indian Manufacturing Unit",
+      "prompt": "Act as a certified Safety Engineer with 12 years of experience in Indian manufacturing plants operating under the Factories Act 1948. I need you to create a complete Hazard Identification and Risk Assessment (HIRA) worksheet for a medium-scale auto component plant in Pune employing 320 workers, with activities including CNC machining, MIG welding, powder coating, and forklift material handling. Build a table with these columns: Activity, Hazard Description, Existing Controls, Likelihood (1-5), Severity (1-5), Risk Score, Risk Rating (Low/Medium/High/Very High), Additional Controls Required, Residual Risk, Responsibility, Target Date. Populate at least 15 realistic hazard lines covering mechanical, electrical, chemical, ergonomic, fire, and behavioural hazards. Reference relevant Indian Standards (IS 3786, IS 15652, IS 2925) and Factories Act Section 7A duties of the occupier. Add a short legend explaining the 5x5 risk matrix and ALARP principle. After the table, provide: (1) top 5 priority actions the Safety Officer should close within 30 days, (2) recommended review frequency aligned with DGFASLI guidelines, (3) a note on how to integrate findings into the plant's Form 37 and On-Site Emergency Plan. Use clear headings, keep language suitable for a bilingual Indian shop-floor audience, and avoid generic global examples. Output as markdown with the table in proper markdown format.",
+      "tags": [
+        "hira",
+        "risk-assessment",
+        "factories-act",
+        "manufacturing-safety",
+        "dgfasli"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-002",
+      "title": "Toolbox Talk Script Hindi-English",
+      "prompt": "Act as a Safety Officer with 8 years of experience conducting toolbox talks at BOCW-registered construction sites and chemical plants in India. I need you to write a 10-minute bilingual (simple Hindi + English) toolbox talk script on the topic \"Safe Use of Angle Grinders and Hand Injuries Prevention\" for a mixed crew of 45 workers at a Dahej chemical plant expansion project. Structure the script as follows: (1) 1-minute greeting and attendance note, (2) 2-minute recap of last week's near-miss, (3) 4-minute core content covering wheel selection, guard position, RPM matching, PPE (IS 4770 gloves, IS 5983 face shield, IS 15298 safety shoes), body positioning, and kickback prevention, (4) 2-minute real incident story from an Indian site (anonymised), (5) 1-minute Q&A and commitment. Provide Hindi lines in Devanagari plus Roman transliteration so a non-Hindi supervisor can still read them aloud. Include 6 closed-ended questions the supervisor can ask to confirm understanding, and a simple attendance sheet template with columns for name, ticket number, signature, and language understood. End with 3 action points the crew must follow today. Keep vocabulary at 8th-standard reading level. Output as a printable one-page markdown document.",
+      "tags": [
+        "toolbox-talk",
+        "bilingual",
+        "construction-safety",
+        "bocw",
+        "ppe"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-003",
+      "title": "Lockout Tagout Procedure for Press Shop",
+      "prompt": "Act as a Safety Engineer with 10 years of experience in automotive press shops in Chennai and Gurgaon. I need you to draft a Lockout-Tagout (LOTO) procedure for a 630-ton mechanical power press used for sheet metal stamping. The facility operates under the Factories Act 1948 and follows IS 807 guidance. Include the following sections: (1) Purpose and scope, (2) Definitions (authorised, affected, other employees), (3) Energy sources to be isolated (electrical 415V, pneumatic 6 bar, hydraulic counterbalance, stored mechanical energy in flywheel), (4) Step-by-step shutdown sequence with 12 numbered steps, (5) Lock and tag application rules with colour coding, (6) Verification of zero energy state, (7) Release from LOTO sequence, (8) Group LOTO using a lockbox for maintenance crews, (9) Shift-handover rules, (10) Training and competency requirements, (11) Annual audit checklist with 15 items. Reference Factories Act Section 21 (fencing of machinery) and Section 24 (striking gear). Include a sample LOTO tag layout and a padlock register format. Keep sentences short, use active voice, and mark all critical warnings with the word CAUTION. Output as a structured document ready for plant SOP manual inclusion.",
+      "tags": [
+        "loto",
+        "press-shop",
+        "lockout-tagout",
+        "machine-safety",
+        "sop"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-004",
+      "title": "Confined Space Entry Permit Template",
+      "prompt": "Act as a Safety Engineer with 9 years of experience in OISD-compliant refineries such as IOCL Paradip and BPCL Mumbai. I need you to create a Confined Space Entry permit template aligned with OISD-STD-105 and IS 15656 for entry into a 50 KL fixed-roof crude oil storage tank during turnaround maintenance. The permit must include: (1) Permit number, date, validity (max 8 hours), location, (2) Description of work and number of entrants, (3) Pre-entry gas testing results (O2, LEL, H2S, CO, benzene) with acceptable ranges, (4) Isolation checklist (blinding, LOTO, drain-flush-purge, N2 inerting if required), (5) PPE list including SCBA or airline respirator, (6) Rescue arrangements with tripod, winch, and standby person, (7) Communication method, (8) Authorised gas tester and entry supervisor sign-off, (9) Hourly re-test log with 8 rows, (10) Emergency contact numbers for site fire station and nearest hospital. Add 10 pre-entry questions the Entry Supervisor must answer yes/no. Include a small flowchart describing the permit issue-and-close workflow. Output as a one-page printable form in markdown table format.",
+      "tags": [
+        "confined-space",
+        "permit-to-work",
+        "oisd",
+        "refinery-safety",
+        "scba"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-005",
+      "title": "Hot Work Permit for Jetty Welding",
+      "prompt": "Act as a Safety Engineer with 11 years of experience at POL product jetties such as the HPCL Visakhapatnam terminal. I need you to prepare a Hot Work Permit procedure and template for welding repair on a pipeline support bracket located 15 meters from an active MS loading arm. Align with OISD-STD-105 and PESO guidelines. The document should contain: (1) Scope and prohibited conditions (wind speed, vessel berthing, product transfer in progress), (2) Hazard identification specific to hydrocarbon jetty environment, (3) Preparation checklist covering gas freeing, surface cleaning, fire blanket, continuous LEL monitoring below 10%, (4) Fire watch duties with minimum 2 trained watchers, (5) Firefighting equipment list (2x 9kg DCP, 1x 45L DCP trolley, charged hose line), (6) Permit validity and re-validation rules, (7) Emergency stop criteria, (8) Close-out inspection after 60 minutes cooling, (9) Sign-off matrix (issuer, receiver, area authority, safety officer, jetty in-charge). Add a filled sample permit for the described scenario so users can see a realistic example. Output as a structured markdown document.",
+      "tags": [
+        "hot-work",
+        "permit-to-work",
+        "jetty-safety",
+        "oisd",
+        "peso"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-006",
+      "title": "Work at Height JSA for Tower Erection",
+      "prompt": "Act as a Safety Engineer with 7 years of experience supervising telecom and transmission tower erection across Rajasthan and Madhya Pradesh. I need you to develop a Job Safety Analysis (JSA) for erection of a 40-meter self-supporting lattice tower by a 6-member crew. The project is covered under the BOCW Act 1996 and must follow IS 3696 Part 1 (scaffolding), IS 3521 (full body harness), and the BIS specification for lifeline systems. Break the job into at least 12 sequential steps from site preparation to handover. For each step provide: potential hazards, control measures, PPE required, responsible person, and verification method. Cover rigging of the winch, manual handling of members, bolt tightening at height, simultaneous operations, dropped object prevention using tool tethers, and emergency rescue plan with descent time under 15 minutes. Add a pre-task briefing checklist in bilingual format (English + simple Hindi). Include a weather cut-off rule (wind above 36 kmph, lightning within 10 km). Output as a formal JSA table followed by the briefing checklist.",
+      "tags": [
+        "work-at-height",
+        "jsa",
+        "bocw",
+        "tower-erection",
+        "rescue-plan"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-007",
+      "title": "New Joinee Safety Induction Module",
+      "prompt": "Act as a Training Lead for EHS with 10 years of experience designing induction programs for Indian chemical plants in Ankleshwar and Dahej. I need you to build a 4-hour Safety Induction module for new joinees (operators, contractors, interns) at a specialty chemical plant handling flammable solvents and corrosive acids. The module must align with the Factories Act 1948, the Manufacture, Storage and Import of Hazardous Chemicals Rules 1989, and the plant's On-Site Emergency Plan. Provide a session-by-session plan with timings: (1) Welcome and plant overview 15 min, (2) Cardinal safety rules 20 min, (3) PPE demo with IS code references 30 min, (4) Chemical hazards, MSDS, labelling 30 min, (5) Permit system basics 20 min, (6) Emergency response, assembly points, siren codes 30 min, (7) Incident reporting and near-miss culture 20 min, (8) Plant walk-through 45 min, (9) Written test 20 min, (10) Q&A and feedback 10 min. For each session list learning objectives, key talking points, visual aids, and 3 sample test questions. Include a 20-question MCQ assessment with answer key and 80% passing criteria. Output as a structured training manual.",
+      "tags": [
+        "safety-induction",
+        "training",
+        "chemical-plant",
+        "new-joinee",
+        "msds"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-008",
+      "title": "PPE Matrix by Job Role",
+      "prompt": "Act as a Safety Engineer with 8 years of experience standardising PPE across multi-site Indian manufacturing operations. I need you to create a PPE Matrix for a fabrication and galvanising plant in Ahmedabad with 12 distinct job roles: welder, fitter, grinder operator, crane operator, rigger, galvaniser, acid tank operator, forklift driver, electrician, storekeeper, QC inspector, housekeeping. For each role list the mandatory PPE with specific Indian Standard reference (e.g., helmet IS 2925, safety shoes IS 15298, gloves IS 4770, goggles IS 5983, ear plugs IS 9167, respirator IS 9473), the task that triggers each PPE, expected life, issue frequency, and disposal method. Present as a master table. Add a second table showing chemical glove selection (nitrile, neoprene, PVC, butyl) against common chemicals on site (HCl, H2SO4, caustic, zinc chloride flux). Include a short policy note on PPE replacement within 24 hours of damage, and a sample acknowledgement form for worker sign-off in English and Hindi. Output in clean markdown with tables.",
+      "tags": [
+        "ppe",
+        "matrix",
+        "is-codes",
+        "galvanising",
+        "chemical-gloves"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-009",
+      "title": "Near Miss Reporting Form and Policy",
+      "prompt": "Act as a Safety Engineer with 9 years of experience building reporting cultures in Indian manufacturing SMEs. I need you to design a Near-Miss Reporting Form and short policy for a 180-worker pharma packaging unit in Baddi, Himachal Pradesh. The policy must encourage non-punitive reporting and align with Factories Act Section 88A spirit (though Section 88A covers dangerous occurrences, the plant wants a broader culture). Deliver: (1) A one-page policy statement signed by the Occupier, covering objectives, scope, definition of near-miss, no-blame principle, reward scheme (INR 500 voucher for top monthly report), confidentiality, (2) A simple bilingual reporting form with fields for reporter name (optional), date, time, location, description, immediate action taken, suggested root cause, photograph attachment, (3) A workflow showing reporting within 24 hours, investigation within 72 hours, closure within 15 days, (4) A monthly dashboard template tracking reports received, categories, closure rate, repeat themes, (5) Five sample near-miss scenarios relevant to pharma packaging (glass breakage, forklift, slip, electrical, chemical splash) to train new reporters. Output as markdown document ready for printing and plant notice board display.",
+      "tags": [
+        "near-miss",
+        "reporting",
+        "safety-culture",
+        "pharma",
+        "factories-act"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-010",
+      "title": "Fire Extinguisher Inspection Checklist",
+      "prompt": "Act as a Fire Safety Officer with 10 years of experience in Indian commercial and industrial premises. I need you to prepare a monthly fire extinguisher inspection checklist compliant with IS 2190 and IS 15683 for a warehouse and dispatch facility in Bhiwandi handling FMCG goods. The facility has 42 extinguishers across 4 zones: ABC dry powder (9 kg), CO2 (4.5 kg), mechanical foam (9 L), and water CO2 (9 L). The checklist must cover: (1) Location and accessibility, (2) Mounting height (1 meter from floor to top), (3) Safety pin and tamper seal, (4) Pressure gauge in green zone for stored pressure types, (5) Hose and nozzle condition, (6) Body corrosion and dent check, (7) Last refill date and next due date, (8) Signage and floor marking, (9) Weight check for CO2 using weighing scale with tolerance, (10) Name and signature of inspector. Provide the checklist as a table with 42 rows pre-numbered by zone. Add inspection instructions in 10 numbered bullets, hydrostatic testing frequency (every 3 or 5 years per type), and a non-conformity escalation matrix. Output as markdown.",
+      "tags": [
+        "fire-safety",
+        "extinguisher",
+        "is-2190",
+        "warehouse",
+        "inspection"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-011",
+      "title": "Emergency Evacuation Drill Plan",
+      "prompt": "Act as a Safety Engineer with 11 years of experience planning mock drills for Indian factories under Rule 13 of the Factories Act State Rules. I need you to prepare a half-yearly full-scale evacuation drill plan for a 4-block textile processing plant in Tirupur with 850 workers across 3 shifts. The scenario is a large fire in the dye-house resulting in dense smoke and blocked primary exit. Deliver: (1) Drill objectives and KPIs (evacuation time under 5 minutes, head count accuracy 100%, use of secondary exits), (2) Pre-drill communication plan to workers and local fire station, (3) Role assignments for Incident Controller, Fire Wardens per floor, First Aiders, Assembly Point Marshals, Security, (4) Step-by-step timeline from siren activation to all-clear, (5) Observer checklist with 20 items, (6) Post-drill debrief template, (7) Gap analysis format capturing what went well, what failed, action items with owner and date, (8) Regulatory intimation letter to the Chief Inspector of Factories Tamil Nadu. Include an assembly point layout description and head-count form. Output as a complete drill dossier.",
+      "tags": [
+        "evacuation",
+        "mock-drill",
+        "fire",
+        "textile",
+        "factories-act"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-012",
+      "title": "Chemical Storage Compatibility Chart",
+      "prompt": "Act as a Process Safety Engineer with 9 years of experience in Indian specialty chemical plants at Ankleshwar and Vapi. I need you to build a chemical storage compatibility chart and segregation plan for a warehouse holding the following: concentrated sulphuric acid, nitric acid, hydrochloric acid, caustic soda lye, sodium hypochlorite, hydrogen peroxide 50%, acetone, toluene, methanol, and calcium carbide. The plant is covered by the MSIHC Rules 1989 and is PESO licensed for flammable solvents. Provide: (1) A compatibility matrix using green/yellow/red indicators showing which pairs can share a bay, (2) Minimum segregation distances and bund wall requirements, (3) A storage zoning layout description (acids zone, alkalis zone, flammables zone, oxidisers zone, water-reactive zone), (4) Ventilation, flooring, and drainage design notes, (5) Required MSDS display and labelling per GHS adopted in India, (6) Spill response kit contents per zone, (7) Compliance checklist against MSIHC Schedule 2 and PESO SMPV rules. Explain the Vizag 2020 styrene leak lesson on polymerisation inhibitor monitoring where relevant. Output as markdown with the compatibility matrix as a table.",
+      "tags": [
+        "chemical-storage",
+        "compatibility",
+        "msihc",
+        "peso",
+        "vizag-lesson"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-013",
+      "title": "Electrical Safety Audit Checklist",
+      "prompt": "Act as an Electrical Safety Auditor with 12 years of experience conducting audits under the Central Electricity Authority (Measures Relating to Safety and Electric Supply) Regulations 2010 and IS 732. I need you to create a comprehensive electrical safety audit checklist for a 2 MVA engineering unit in Coimbatore with 11 kV incoming, one transformer, one main LT panel, 18 MCCs, and 240 machines. The checklist must cover: (1) Statutory documentation (CEIG approval, earth pit test reports, transformer oil BDV, relay coordination study), (2) Transformer yard safety (fencing, danger board, fire bucket, DCP, spill containment), (3) Switchgear condition, insulation mat IS 15652, shrouding, (4) Earthing and bonding with target resistance values, (5) Cable tray segregation and fire stopping, (6) MCC arc flash labels, (7) Portable tool double insulation and ELCB 30 mA, (8) DG set safety and exhaust, (9) Lightning protection per IS/IEC 62305, (10) Emergency lighting. Provide at least 60 line items across these categories with columns for status, evidence, risk rating, and corrective action. Add an executive summary template. Output as a structured audit workbook in markdown.",
+      "tags": [
+        "electrical-safety",
+        "audit",
+        "is-732",
+        "ceig",
+        "earthing"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-014",
+      "title": "Monthly Safety KPI Dashboard",
+      "prompt": "Act as an EHS Manager with 10 years of experience reporting safety performance to Indian manufacturing leadership teams. I need you to design a one-page monthly Safety KPI dashboard for a 3-plant group (Pune, Jamshedpur, Hosur) with combined 4,200 workers. The dashboard should follow IS 14489 audit framework and OISD reporting logic where applicable. Include the following KPIs with target values and traffic light indicators: (1) LTIFR per million man-hours, (2) TRIFR, (3) Severity rate, (4) Near-miss count, (5) Unsafe act and unsafe condition observations, (6) Open HIRA actions against due date, (7) Permit compliance audit score, (8) Safety training man-hours per employee, (9) Mock drill completion, (10) Statutory compliance percentage (Factories Act returns, Form 37, Rule 68V), (11) Contractor safety score. For each KPI specify formula, data source, owner, and target. Provide a commentary section template with three bullets: what improved, what worsened, top three focus actions next month. Output as a markdown layout that can be copied into PowerPoint.",
+      "tags": [
+        "kpi",
+        "dashboard",
+        "ltifr",
+        "ehs-reporting",
+        "is-14489"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-015",
+      "title": "Forklift Operator Pre-Use Check",
+      "prompt": "Act as a Material Handling Safety Specialist with 8 years of experience in Indian warehouses and auto plants. I need you to draft a daily pre-use inspection checklist and standard operating procedure for a 3-ton diesel counterbalance forklift used in a logistics hub at JNPT Navi Mumbai. Align with IS 4357 and ISO 3691-1. The checklist must include: (1) Visual check of tyres, forks, mast chains, hydraulic hoses, (2) Fluid levels (engine oil, hydraulic, coolant, fuel), (3) Seat belt and operator restraint, (4) Horn, reverse alarm, flashing beacon, headlights, (5) Service brake and parking brake test, (6) Steering play, (7) Mast tilt and lift function, (8) LPG cylinder bracket if applicable, (9) Operator licence validity under the Motor Vehicles Act for driving inside premises. Provide a tear-off daily check sheet with 25 items, a defect reporting workflow, and an authorised operator register. Add five golden rules for forklift operation (speed limit 10 kmph, no riders, horn at blind corners, forks down while travelling, no unattended load) displayed as a poster section. Output as markdown.",
+      "tags": [
+        "forklift",
+        "pre-use-check",
+        "warehouse",
+        "material-handling",
+        "is-4357"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-016",
+      "title": "First Aid Box Contents Per Factories Rules",
+      "prompt": "Act as an Occupational Health and Safety Officer with 9 years of experience implementing the Factories Act 1948 Section 45 and the respective State Factories Rules. I need you to prepare a First Aid Box contents list and monthly replenishment checklist for a plant employing 520 workers in Gujarat, requiring one first aid box per 150 workers. Use the Gujarat Factories Rules Schedule for First Aid Box contents. Deliver: (1) Complete itemised list with quantity per box (bandages, antiseptic, burn ointment, eye wash, scissors, tourniquet, splints, sterile gauze, CPR mask, disposable gloves, thermometer, BP apparatus), (2) Names and contact numbers format for trained first aiders (minimum ratio 1 per 150), (3) First aid room requirements if workforce exceeds 500, (4) Monthly inspection sheet with expiry date column, (5) Incident-wise usage log, (6) Reorder trigger levels, (7) Note on snake bite kit relevance for plants in rural Gujarat, (8) Training refresher schedule (St. John Ambulance or Red Cross certified). Include a wall-mounted index card format for the box. Output as a printable markdown document.",
+      "tags": [
+        "first-aid",
+        "factories-act",
+        "occupational-health",
+        "gujarat-rules",
+        "section-45"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-017",
+      "title": "HAZOP Node Study for Distillation Column",
+      "prompt": "Act as a Process Safety Engineer with 14 years of experience leading HAZOP studies in Indian refineries and petrochemical plants such as Reliance Jamnagar and IOCL Panipat. I need you to conduct a HAZOP study on a single node: feed line to a methanol recovery distillation column (C-201) in a specialty chemical plant at Dahej. Node definition: feed pump discharge to column inlet nozzle, design flow 25 m3/hr, temperature 65 degC, pressure 4.5 barg. Use the standard guideword set (No, More, Less, Reverse, As Well As, Part Of, Other Than) applied to parameters Flow, Temperature, Pressure, Level, Composition. For each meaningful deviation provide: causes, consequences (process and safety), existing safeguards (hardware and procedural), severity-likelihood ranking, and recommendations with owner category. Aim for at least 18 deviation lines. Consider consequences up to runaway reaction, column flooding, and relief valve lifting to flare. Reference IEC 61882 methodology and OISD-STD-178 on process safety management. Conclude with 5 priority recommendations and a note on LOPA trigger for any SIL assessment need. Output as a HAZOP worksheet table.",
+      "tags": [
+        "hazop",
+        "process-safety",
+        "distillation",
+        "iec-61882",
+        "oisd-178"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-018",
+      "title": "ICAM Incident Investigation Report",
+      "prompt": "Act as a Lead Incident Investigator with 11 years of experience applying the ICAM methodology in Indian mining and manufacturing. I need you to produce a full ICAM investigation report for a fatal incident: a contractor rigger at a Jharkhand steel plant was struck by a swinging load of refractory bricks during EOT crane operation in a melt shop, sustaining fatal injuries. Structure the report as: (1) Executive summary, (2) Incident description with sequence of events on a timeline, (3) People, Environment, Equipment, Procedure, Organisation data gathered, (4) ICAM chart showing absent or failed defences, individual and team actions, task and environmental conditions, organisational factors, (5) Root causes mapped to organisational factors, (6) Recommendations categorised by hierarchy of controls with SMART action owners, (7) Regulatory notification under Factories Act Section 88 and 88A within 24 hours to the Chief Inspector of Factories Jharkhand, (8) Lessons learned bulletin for cascade across group plants, (9) Family support note and statutory compensation reference under the Employees Compensation Act 1923. Write in neutral fact-based tone. Output as a structured markdown investigation report.",
+      "tags": [
+        "icam",
+        "incident-investigation",
+        "fatality",
+        "steel-plant",
+        "root-cause"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-019",
+      "title": "5-Why Analysis with Action Plan",
+      "prompt": "Act as a Safety Engineer with 8 years of experience facilitating Root Cause Analysis workshops at Indian automotive tier-1 suppliers. I need you to perform a 5-Why analysis on the following incident: an operator at a Manesar plant suffered a crush injury to the left hand while clearing a jam in a robotic weld cell because the safety door interlock had been bypassed with a magnet. Deliver: (1) Incident statement in one line, (2) Immediate cause, (3) 5-Why ladder drilling down to systemic cause, branched where needed (separate ladders for technical, human, and management factors), (4) Identified root causes (minimum 3), (5) Contributory factors, (6) Corrective and preventive actions mapped to hierarchy of controls with owner, due date, and verification method, (7) Similar risk search across the plant for other interlock bypass potential, (8) Short message for a plant-wide safety flash bulletin. Reference Factories Act Section 21 on fencing of machinery and Section 28 on hoists. Keep tone factual. Output as a structured markdown document with the 5-Why chain shown clearly.",
+      "tags": [
+        "5-why",
+        "root-cause-analysis",
+        "robotic-weld-cell",
+        "interlock-bypass",
+        "automotive"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-020",
+      "title": "Process Safety Management Gap Assessment",
+      "prompt": "Act as a PSM Specialist with 12 years of experience auditing Indian OISD-regulated sites including ONGC Hazira and HPCL Mahul. I need you to design a Process Safety Management gap assessment questionnaire aligned with OISD-STD-178 and covering all 14 PSM elements: process safety information, PHA, operating procedures, training, contractor management, mechanical integrity, pre-start-up safety review, hot work, management of change, incident investigation, emergency planning, compliance audits, trade secrets, employee participation. For each element provide: (1) Element objective, (2) 6 to 8 assessment questions with yes/no/partial options, (3) Evidence expected, (4) Common gaps observed in Indian refineries, (5) Scoring rubric 0 to 4. Add a summary spider-chart description showing current vs target maturity. Provide a 90-day remediation roadmap template for the top 5 weakest elements. Reference Vizag 2020 styrene leak findings on MoC and MI failures. Output as a structured markdown assessment workbook ready to be converted into Excel.",
+      "tags": [
+        "psm",
+        "oisd-178",
+        "gap-assessment",
+        "refinery",
+        "vizag-lesson"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-021",
+      "title": "Management of Change Procedure",
+      "prompt": "Act as a Process Safety Engineer with 10 years of experience implementing Management of Change systems in Indian chemical plants regulated by the MSIHC Rules 1989 and OISD. I need you to write a full Management of Change (MoC) procedure for a bulk drug manufacturing plant in Hyderabad. The procedure must cover: (1) Purpose and scope distinguishing temporary, permanent, and emergency MoC, (2) Types of changes covered (process, equipment, software, organisational, procedural), (3) Replacement-in-kind definition, (4) MoC request form fields, (5) Risk screening using a 5x5 matrix, (6) Mandatory reviews (process, mechanical, electrical, EHS, operations, QA), (7) Approval hierarchy by risk level, (8) Pre-Startup Safety Review (PSSR) linkage, (9) Documentation updates required (P&ID, SOP, training, HIRA, HAZOP, MSDS), (10) MoC register and KPI tracking, (11) Audit criteria with 15 check points. Add a worked example of a real change: switching solvent from dichloromethane to ethyl acetate in a crystallisation step. Reference the Vizag styrene leak where MoC and storage temperature controls failed. Output as a structured SOP.",
+      "tags": [
+        "management-of-change",
+        "moc",
+        "pharma",
+        "oisd",
+        "vizag-lesson"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-022",
+      "title": "Noise Exposure Survey and Action Plan",
+      "prompt": "Act as an Occupational Hygienist with 9 years of experience conducting noise surveys in Indian factories per the Factories Act Model Rule 114 and IS 9876. I need you to prepare a noise exposure assessment plan and action plan for a forging and hammering shop in Ludhiana with 14 drop hammers and 6 trimming presses employing 95 workers across two shifts. Deliver: (1) Survey methodology with instrument (Class 1 sound level meter plus personal dosimeters), grid spacing, measurement duration, (2) Template table to record area LAeq 8hr, peak dBC, task, worker exposure, TWA, (3) Action levels per IS 9876 (action level 85 dBA, exposure limit 90 dBA 8hr), (4) Engineering controls list (damping, enclosure, isolation mounts, silenced air exhaust), (5) Administrative controls (job rotation, exposure time limits), (6) Hearing protection selection with NRR and IS 9167 reference, (7) Audiometric surveillance programme, (8) Signage and zoning, (9) Compliance report to the Chief Inspector of Factories Punjab. Include a sample filled data sheet and a 12-month action plan Gantt outline. Output as markdown.",
+      "tags": [
+        "noise-survey",
+        "occupational-hygiene",
+        "forging",
+        "is-9876",
+        "hearing-conservation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-023",
+      "title": "LOPA Study for Reactor Overpressure",
+      "prompt": "Act as a Process Safety Engineer with 12 years of experience performing Layers of Protection Analysis in Indian petrochemical and specialty chemical plants. I need you to complete a LOPA worksheet for a single scenario: overpressure of a 20 m3 exothermic batch reactor due to cooling water failure leading to runaway reaction and potential rupture at an Ankleshwar specialty chemical plant. Deliver: (1) Scenario description, (2) Initiating event frequency (cooling water pump trip), (3) Consequence description and severity category, (4) Target mitigated event frequency based on company risk matrix (for example 1e-5 per year for a single fatality), (5) Independent Protection Layers with PFD values (BPCS high temp alarm, operator response, independent high high temp trip SIF, relief valve to scrubber, bund and emergency response), (6) Conditional modifiers (occupancy, ignition), (7) Calculated mitigated frequency, (8) SIL requirement gap against target, (9) Recommendation and documentation. Reference IEC 61511 and OISD-STD-152. Explain how the result would drive a SIL 2 interlock specification. Output as a LOPA worksheet table with clear calculation line.",
+      "tags": [
+        "lopa",
+        "sil",
+        "iec-61511",
+        "reactor-safety",
+        "process-safety"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-024",
+      "title": "Contractor Safety Management Program",
+      "prompt": "Act as an EHS Manager with 11 years of experience managing contractor safety at Indian mega projects and running facilities. I need you to design a complete Contractor Safety Management programme for a greenfield fertiliser plant expansion at Paradip employing 2,400 contract workers across 38 contractors. The programme must comply with the BOCW Act 1996, the Contract Labour (R&A) Act 1970, and OISD-STD-192. Include: (1) Pre-qualification questionnaire with 30 scoring items (legal, safety stats, training system, equipment, insurance), (2) Contract language clauses on safety (stop-work authority, penalties, bonuses), (3) Mobilisation checklist (licence, labour welfare cess, medical fitness, induction, PPE issue), (4) Site execution controls (permit to work, daily toolbox, supervisor ratio 1:20), (5) Monthly contractor safety performance scorecard with LTIFR, audit score, training completion, PPE compliance, (6) De-mobilisation checklist, (7) Annual contractor EHS award criteria, (8) Integration with the client HIRA and emergency plan. Provide sample templates for pre-qualification and scorecard. Output as a structured programme document.",
+      "tags": [
+        "contractor-safety",
+        "bocw",
+        "oisd-192",
+        "pre-qualification",
+        "mega-project"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-025",
+      "title": "Behaviour Based Safety Observation Program",
+      "prompt": "Act as a Behaviour Based Safety Consultant with 10 years of experience deploying BBS programmes at Tata, JSW, and Aditya Birla plants in India. I need you to design a BBS observation programme for a cement plant in Raipur with 1,100 direct and contract workers. The programme should follow DuPont STOP or similar structure adapted to Indian shop-floor culture. Deliver: (1) Programme charter with objectives and leading indicator targets, (2) Observation card format with 8 categories (PPE, body position, tools and equipment, procedures, housekeeping, reactions of people, permit compliance, work at height), (3) Observer training outline 4 hours, (4) Daily observation quota per observer, (5) Data entry and analysis workflow, (6) Weekly and monthly dashboards, (7) Pareto-based intervention planning, (8) Positive reinforcement and recognition scheme, (9) Guidelines to avoid fault-finding culture, (10) Integration with HIRA and safety committee. Provide a sample filled observation card from a cement packing area. Reference IS 18001 (OHSMS) principles and the Factories Act Section 41G safety committee. Output as a complete programme manual in markdown.",
+      "tags": [
+        "bbs",
+        "behaviour-based-safety",
+        "cement",
+        "leading-indicators",
+        "safety-culture"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-026",
+      "title": "Emergency Response Plan for Ammonia Leak",
+      "prompt": "Act as an Emergency Response Planner with 10 years of experience at Indian ammonia-handling fertiliser plants such as RCF Thal and KRIBHCO Hazira. I need you to prepare an On-Site Emergency Plan chapter for an ammonia leak scenario from a 50 MT horizontal bullet at a cold storage facility in Azadpur Delhi. The plan must comply with Rule 13 of the MSIHC Rules 1989 and PESO licence conditions. Deliver: (1) Hazard summary and worst credible scenario (catastrophic bullet rupture, 10-minute release), (2) Consequence modelling notes referencing ALOHA or PHAST for 2 km toxic plume radius for IDLH 300 ppm, (3) Incident command structure with roles, (4) Communication tree including District Collector, CIF, PESO regional office, nearest fire station, (5) Evacuation vs shelter-in-place decision criteria, (6) Personnel protection including full encapsulated suits and SCBA cascade, (7) Water curtain and dilution strategy, (8) Medical response with oxygen and bronchodilators, (9) Off-site coordination with District Disaster Management Authority, (10) Drill programme and review frequency. Output as a structured emergency plan chapter.",
+      "tags": [
+        "ammonia-leak",
+        "emergency-plan",
+        "msihc",
+        "peso",
+        "toxic-release"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-027",
+      "title": "Ergonomic Risk Assessment Assembly Line",
+      "prompt": "Act as an Occupational Ergonomist with 8 years of experience assessing Indian electronics and automotive assembly lines in Sriperumbudur and Manesar. I need you to perform an ergonomic risk assessment for a mobile phone assembly line at a Sriperumbudur EMS facility with 120 operators, cycle time 28 seconds, seated and standing stations. Use RULA and REBA methods. Deliver: (1) Job task breakdown for 5 representative stations (PCB placement, screw driving, display bonding, functional test, packaging), (2) RULA score sheet for each station, (3) REBA score for stations with bending or lifting, (4) Identified risk factors (static posture, repetition, force, contact stress, awkward wrist angle), (5) Engineering recommendations (height-adjustable workbench, tool balancer, anti-fatigue mat, jig orientation), (6) Work-rest cycle proposal, (7) Training on microbreak stretching, (8) Link to Musculoskeletal Disorder reporting via the plant occupational health centre under Factories Act Section 41F notifiable diseases, (9) Before-and-after KPI plan to measure improvement. Output as a structured markdown report with tables.",
+      "tags": [
+        "ergonomics",
+        "rula",
+        "reba",
+        "assembly-line",
+        "electronics"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-028",
+      "title": "Annual Safety Training Calendar",
+      "prompt": "Act as an EHS Training Manager with 9 years of experience designing annual training plans for Indian manufacturing plants with 500 to 1,500 employees. I need you to build an annual Safety Training Calendar for a glass container plant in Firozabad with 780 workers including furnace, IS machine, and packing areas. The plan must satisfy Factories Act Section 111A on worker training rights and Rule 12 of the respective State Factories Rules on mandatory safety training hours. Deliver: (1) Training needs analysis matrix mapping roles to topics (induction, refresher, LOTO, confined space, hot work, WAH, first aid, fire, chemical, HIRA, permit, behavioural safety, emergency response, forklift, crane, electrical), (2) Month-wise calendar with batches, duration, trainer, venue, target audience, budget in INR, (3) Internal vs external trainer mix, (4) Certification and validity periods, (5) Refresher frequency, (6) Evaluation method (Kirkpatrick Level 1 to 3), (7) Training KPI targets (man-hours per employee, pass percentage, coverage), (8) Record-keeping in Form 9 or equivalent, (9) Total annual budget summary. Output as a structured calendar and plan.",
+      "tags": [
+        "training-calendar",
+        "annual-plan",
+        "glass-industry",
+        "factories-act",
+        "kirkpatrick"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-029",
+      "title": "Radiation Safety Procedure Industrial Radiography",
+      "prompt": "Act as a Radiation Safety Officer with 10 years of experience in industrial radiography operations at Indian fabrication yards, certified by AERB under the Atomic Energy (Radiation Protection) Rules 2004. I need you to write a site-specific radiography work procedure for gamma radiography using an Ir-192 source (activity 40 Ci) at a pressure vessel fabrication shop in Dahej. The procedure must comply with AERB/RF-IR/SC-1 and SC-2 and PESO site requirements. Deliver: (1) Scope and personnel qualification (RSO, BRIT certified radiographer, helper), (2) Equipment list including collimator, remote handling device, source pit, survey meter, pocket dosimeter, TLD, (3) Shielding calculation summary for 1 mSv/week controlled area boundary, (4) Cordoning and barricade distances with lux-based signage, (5) Pre-exposure, during exposure, post-exposure checks, (6) Source retraction failure emergency procedure with contact numbers of AERB regional office, BRIT, and local police, (7) Transport rules under AERB Transport Code, (8) Dose record review and investigation level 15 mSv per year, (9) Waste disposal. Output as a formal procedure document.",
+      "tags": [
+        "radiation-safety",
+        "industrial-radiography",
+        "aerb",
+        "gamma-source",
+        "iridium"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-030",
+      "title": "Machine Guarding Assessment Workshop",
+      "prompt": "Act as a Machine Safety Specialist with 9 years of experience auditing mechanical guarding under the Factories Act Section 21 and IS 16504. I need you to conduct a machine guarding assessment for a tool room in Rajkot with 38 machines including lathes, milling machines, surface grinders, radial drills, power presses, and shearing machines. Deliver: (1) A standardised assessment form with columns for machine ID, make, hazard zones, current guard type, gap, interlock status, e-stop presence, two-hand control if applicable, light curtain if applicable, risk rating, (2) Non-compliance summary grouped by hazard severity, (3) Gap list against IS 16504 requirements for fixed, interlocked, and adjustable guards, (4) Recommended guard retrofits with indicative cost in INR, (5) Prioritised action plan over 90 days, (6) Operator training brief on purpose of each guard type, (7) Safety committee reporting note, (8) Vendor short-list criteria. Include two photo-description examples to illustrate how to record guarding findings clearly. Output as a structured audit report in markdown with tables.",
+      "tags": [
+        "machine-guarding",
+        "is-16504",
+        "tool-room",
+        "factories-act",
+        "audit"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-031",
+      "title": "Crane and Lifting Gear Inspection Register",
+      "prompt": "Act as a Lifting Operations Safety Engineer with 10 years of experience in Indian heavy engineering yards such as L&T Hazira and BHEL Haridwar. I need you to design a quarterly thorough inspection register and procedure for lifting appliances and loose gear per Factories Act Section 29 and IS 3938, IS 2266. The shop has 6 EOT cranes (capacities 10 to 75 MT), 2 gantry cranes, 3 mobile cranes, and 480 items of loose gear (slings, shackles, eye bolts, spreader beams). Deliver: (1) Inspection scope and competent person definition (Form 8 approved examiner), (2) Crane inspection checklist with 40 items covering structure, wire rope, hook, limit switches, brakes, controls, (3) Loose gear colour-coding system by quarter, (4) Sling inspection criteria (broken wires, kinks, corrosion), (5) Load test procedure at 125% SWL and documentation, (6) Register format for Form 8 and Form 9 entries, (7) Reject criteria and destruction log, (8) Training for riggers and signalmen, (9) Annual test certificate submission to CIF. Output as a structured inspection manual.",
+      "tags": [
+        "lifting-gear",
+        "crane-inspection",
+        "form-8",
+        "is-3938",
+        "competent-person"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-032",
+      "title": "Factories Act Statutory Compliance Checklist",
+      "prompt": "Act as a Regulatory Compliance Specialist with 12 years of experience auditing Factories Act 1948 compliance across Indian states. I need you to create a comprehensive statutory compliance checklist for a plant registered under the Maharashtra Factories Rules 1963. Cover the following chapters: approval and licensing (Section 6), health (Sections 11 to 20), safety (Sections 21 to 41), provisions relating to hazardous processes (Sections 41A to 41H), welfare (Sections 42 to 50), working hours (Sections 51 to 66), employment of young persons (Sections 67 to 77), annual leave (Sections 78 to 84), and special provisions. For each applicable section provide: (1) Requirement summary, (2) Evidence or record expected (Form, register, certificate), (3) Frequency (daily, monthly, annual), (4) Responsible function, (5) Common non-compliance observed. Add a separate table for periodic returns (half-yearly Form 21, annual Form 22, Form 37 for major accidents) with due dates and addressee (Chief Inspector of Factories Maharashtra). Close with a 20-item pre-inspector-visit readiness checklist. Output as a compliance workbook in markdown.",
+      "tags": [
+        "factories-act",
+        "compliance-checklist",
+        "maharashtra-rules",
+        "returns",
+        "statutory"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-033",
+      "title": "Quantitative Risk Assessment for LPG Storage",
+      "prompt": "Act as a Senior Risk Consultant with 15 years of experience delivering Quantitative Risk Assessments for PESO-licensed LPG installations in India including IOCL Uran and HPCL Mangalore. I need you to prepare the outline and methodology for a full QRA of a new 4 x 1,000 MT LPG mounded bullet facility at a bottling plant near Chennai. The deliverable is a detailed QRA report structure and content plan that a consultancy team can execute. Include: (1) Scope and objectives, (2) Regulatory framework (PESO SMPV Rules 1981, OISD-STD-144, OISD-STD-150, MSIHC Rules 1989), (3) Facility description and equipment inventory, (4) Hazard identification with loss of containment scenarios from hole sizes 5, 25, 100 mm and catastrophic rupture, (5) Frequency data sources (OGP, HSE UK, Indian historical), (6) Consequence modelling approach for BLEVE, jet fire, flash fire, VCE using PHAST, (7) Meteorological data assumptions for Chennai, (8) Population distribution and vulnerability, (9) Individual and societal risk calculation with FN curve targets (ALARP region), (10) Risk reduction recommendations, (11) Sensitivity analysis, (12) Limitations. Output as a structured methodology document.",
+      "tags": [
+        "qra",
+        "lpg-storage",
+        "peso",
+        "oisd-144",
+        "bleve"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-034",
+      "title": "SIL Verification for Burner Management",
+      "prompt": "Act as a Functional Safety Engineer TUV certified with 12 years of experience delivering SIL verification studies for Indian refineries and petrochemical plants. I need you to produce a SIL verification report outline and sample calculation for a Burner Management System SIF on a 25 TPH steam boiler at a Jamnagar refinery utility block. The SIF to verify is high-high combustion chamber pressure trip leading to fuel shut-off valves closing within 3 seconds. Target SIL is 2 per IEC 61511. Deliver: (1) SIF definition with sensor (2oo3 pressure transmitters), logic solver (safety PLC), final element (double block and bleed fuel shut-off valves), (2) Architecture constraints check (HFT, SFF), (3) PFDavg calculation using simplified formulas with realistic failure rate data (IEC 61508 generic), proof test interval 1 year, mission time 20 years, (4) PFH calculation for continuous mode comparison, (5) Common cause factor beta 5%, (6) Achieved SIL and margin vs target, (7) Proof test procedure outline, (8) Recommendations if SIL is not met, (9) Documentation per Safety Lifecycle. Include all formulas and numeric values. Output as a structured verification report.",
+      "tags": [
+        "sil-verification",
+        "iec-61511",
+        "burner-management",
+        "functional-safety",
+        "pfd"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-035",
+      "title": "Post Vizag Styrene Leak Lessons Implementation",
+      "prompt": "Act as a Process Safety Leader with 14 years of experience and deep familiarity with the May 2020 LG Polymers Vizag styrene vapour release that killed 12 people. I need you to prepare an implementation plan for applying Vizag lessons across a group of 5 styrene and polymerisable monomer handling sites in India. Deliver: (1) Summary of the NGT and HPC root causes (inadequate inhibitor management, refrigeration failure, tank design, polymerisation runaway, absent emergency response), (2) A gap assessment checklist with 35 questions covering monomer inhibitor concentration monitoring, tank temperature control, refrigeration redundancy, nitrogen blanketing, MoC of long shutdown restart, operator staffing during COVID-like disruptions, emergency plan adequacy, district authority interface, (3) Technical recommendations (inhibitor analysis frequency, high temperature trip, vapour scrubber, water curtain), (4) Organisational recommendations (competency, shift coverage, PSSR after long shutdown), (5) Regulatory recommendations aligning with MSIHC and PESO, (6) Implementation roadmap 6-12-18 months with owner and budget, (7) KPI to measure sustained improvement. Output as a structured lessons-learned implementation document.",
+      "tags": [
+        "vizag-styrene",
+        "process-safety",
+        "lessons-learned",
+        "msihc",
+        "polymerisation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-036",
+      "title": "Bow-Tie Analysis for Pipeline Rupture",
+      "prompt": "Act as a Process Safety Specialist with 13 years of experience building bow-tie diagrams for OISD pipeline operators including GAIL and IOCL cross-country networks. I need you to construct a full bow-tie analysis for the top event \"Loss of containment from a 24-inch cross-country crude oil pipeline segment passing through agricultural land in Gujarat\". Deliver: (1) Top event definition, (2) Threats on the left side (minimum 6) covering external corrosion, internal corrosion, third-party interference, geohazard, operational error, material defect, (3) Preventive barriers for each threat with barrier type (hardware, procedural) and effectiveness rating, (4) Consequences on the right side (minimum 5) covering fire, environmental damage, fatality, business interruption, regulatory action, (5) Mitigative barriers for each consequence (ESDV, leak detection, emergency response, oil spill contingency plan, NDMA interface), (6) Escalation factors and their controls for critical barriers, (7) Barrier owners and verification method, (8) Link to OISD-STD-141 and PNGRB pipeline integrity regulations, (9) Recommendations for barrier strengthening. Present as a textual bow-tie with clear left-to-right structure. Output as a markdown analysis.",
+      "tags": [
+        "bow-tie",
+        "pipeline-safety",
+        "oisd-141",
+        "pngrb",
+        "barriers"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-037",
+      "title": "Process Hazard Analysis Revalidation Plan",
+      "prompt": "Act as a PHA Facilitator with 15 years of experience conducting HAZOP and What-If revalidations at Indian refineries and petrochemical complexes. I need you to prepare a 5-yearly PHA revalidation plan for a 150 KTPA ethylene oxide and derivatives unit at a Reliance Dahej complex. Deliver: (1) Regulatory drivers (OISD-STD-178, MSIHC Rule 10, corporate PSM standard), (2) Revalidation scope decision matrix (redo vs update), (3) Node list covering EO reactor section, absorber, stripper, storage, loading, utilities (at least 22 nodes), (4) Team composition and competency requirements (facilitator, scribe, process, operations, maintenance, instrument, safety), (5) Pre-work data package contents (updated P&ID, PFD, MSDS, previous PHA, incident database, MoC log, inspection history, relief system documentation), (6) Schedule with session plan 8 hours per day, 4 weeks total, (7) Methodology (HAZOP + LOPA screening), (8) Documentation and action tracking, (9) Management review and sign-off, (10) Budget estimate in INR including consultant fees. Note special EO hazards (runaway polymerisation, decomposition). Output as a structured plan.",
+      "tags": [
+        "pha-revalidation",
+        "hazop",
+        "ethylene-oxide",
+        "oisd-178",
+        "reliance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-038",
+      "title": "Safety Case Document for Major Hazard Facility",
+      "prompt": "Act as a Safety Case Lead Author with 14 years of experience preparing Safety Reports for Major Accident Hazard installations in India under MSIHC Rules Schedules 2 and 3. I need you to prepare the full table of contents and detailed content guidance for a Safety Case for a chlor-alkali plant in Dahej with chlorine inventory 900 MT. Deliver: (1) Facility description, (2) Management of safety section covering policy, organisation, competency, MoC, audit, (3) Hazard identification and major accident scenarios (chlorine release, hydrogen explosion, mercury legacy if relevant), (4) Consequence modelling summary with toxic endpoints (IDLH 10 ppm, ERPG-2 3 ppm) and distances, (5) Risk assessment including individual and societal risk, (6) Demonstration of ALARP with cost-benefit examples, (7) Safety critical equipment list and performance standards, (8) Emergency response including off-site plan interface with District Collector and DDMA, (9) Land use planning consultation, (10) Implementation and continuous improvement, (11) Appendices (P&IDs, HAZOP records, inspection schedules). Provide content guidance of 4-6 sentences per section so that a writer can draft each chapter. Output as a complete Safety Case outline.",
+      "tags": [
+        "safety-case",
+        "chlor-alkali",
+        "msihc",
+        "alarp",
+        "major-hazard"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-039",
+      "title": "Human Factors Integration for Control Room",
+      "prompt": "Act as a Human Factors Engineer with 12 years of experience applying EEMUA 201 and IEC 60964 principles to control rooms in Indian refineries and power plants. I need you to prepare a Human Factors Integration plan for a new centralised control room at a combined cycle power plant in Kudgi, Karnataka operating 2 x 800 MW units. Deliver: (1) HFI objectives covering operator workload, situation awareness, alarm management, console ergonomics, shift handover quality, (2) Task analysis approach (hierarchical task analysis for startup, normal, upset, shutdown), (3) Alarm management per EEMUA 191 with targets (steady state under 1 per 10 minutes, flood rate management), (4) Console and screen layout principles, display hierarchy, colour coding, (5) Lighting, acoustics, HVAC per IEC 60964, (6) Fatigue and shift schedule review, (7) Competency and simulator training, (8) Incident factor analysis tie-in to CCPS human factors model, (9) Validation plan with usability testing prior to cutover, (10) KPIs post go-live. Reference lessons from Indian thermal plant incidents where operator overload contributed. Output as a structured HFI plan.",
+      "tags": [
+        "human-factors",
+        "control-room",
+        "eemua-201",
+        "alarm-management",
+        "power-plant"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-safety-engineers-040",
+      "title": "ISO 45001 OHSMS Implementation Roadmap",
+      "prompt": "Act as an OHSMS Lead Implementer with 13 years of experience certifying Indian manufacturing groups to ISO 45001:2018 and IS 18001. I need you to prepare a 12-month implementation roadmap for a 3-plant automotive stamping group in Pune, Pantnagar, and Chennai targeting group-level ISO 45001 certification. Deliver: (1) Gap assessment approach against 10 clauses of ISO 45001 with sample questions, (2) Month-wise Gantt covering leadership commitment, context and stakeholder analysis, worker consultation and participation, HIRA rollout, legal compliance register (Factories Act 1948, state rules, EPA 1986, Air and Water Acts, BOCW, CLRA), operational controls (permit system, MoC, contractor management, emergency preparedness), performance evaluation, internal audit, management review, (3) Training plan including internal auditor course, (4) Documentation architecture (manual, procedures, work instructions, forms, records) with numbering scheme, (5) Stage 1 and Stage 2 audit readiness checklist, (6) Budget in INR including certification body fees, consultant, training, (7) KPI dashboard for leading and lagging indicators, (8) Post-certification sustenance plan. Output as a structured roadmap document.",
+      "tags": [
+        "iso-45001",
+        "ohsms",
+        "implementation",
+        "automotive",
+        "certification"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "safety-engineers"
+    }
+  ]
+}

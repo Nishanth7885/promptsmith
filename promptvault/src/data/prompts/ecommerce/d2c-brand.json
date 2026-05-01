@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "ecommerce-d2c-brand-001",
+      "title": "Craft D2C Founder Brand Story",
+      "prompt": "Act as a brand storytelling consultant with 10 years of experience working with Indian D2C brands like Mamaearth, boAt, and The Whole Truth. I am launching a D2C [category: e.g., cold-pressed oils, sustainable activewear, baby skincare] brand in India and need a compelling founder brand story for my About Us page, pitch deck, and Instagram bio. Here is my context: Founder is a [background, city, trigger moment that led to the brand], target audience is [Tier 1/2 Indian millennials, age 25-38, monthly income ₹60,000+], price range ₹[X]-[Y], unique differentiator is [ingredient/process/philosophy]. Please provide: (1) A 150-word hero narrative for the About page with a clear before-after-bridge structure, (2) A 50-word elevator version for investor decks, (3) A 30-word Instagram bio version with emojis removed, (4) Three quotable founder lines I can use in PR interviews, (5) The 'enemy' my brand fights against (a cultural or category truth). Format as clearly labelled sections. Constraints: avoid cliches like 'passion project' or 'disrupting the industry', ground the story in a specific Indian moment (a tea stall, a Diwali dinner, a Mumbai monsoon), and reference one behavioural insight unique to Indian consumers.",
+      "tags": [
+        "brand-story",
+        "d2c",
+        "founder",
+        "storytelling"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-002",
+      "title": "Write Packaging Front-of-Pack Copy",
+      "prompt": "Act as a packaging copywriter with 8 years of experience writing for Indian FMCG and D2C brands sold on Nykaa, Amazon India, and Shopify. I need front-of-pack (FOP) copy for my product [product name, category, size e.g., 200ml face serum]. Brand positioning is [premium/mass-premium/value], target buyer is [Indian woman 24-35, Tier 1 metro, ₹1,200 AOV], and the hero ingredient/benefit is [e.g., 2% Kumkumadi, cold-pressed sesame, 14g protein]. Please provide: (1) Three brand name + tagline lockup options (tagline under 6 words), (2) Primary benefit headline (max 5 words, bold on pack), (3) Secondary benefit strip (3 bullets, max 4 words each), (4) Hero claim with a percentage stat (clinically/consumer tested), (5) 'Free from' badge list (5 items relevant to Indian skincare anxieties like parabens, sulphates, mineral oil), (6) Net quantity, MRP, and batch line in FSSAI-compliant format. Format as a labelled list ready for the designer. Constraints: every claim must be legally defensible under Indian CDSCO/FSSAI rules, avoid 'chemical-free' (illegal), use Hinglish only if brand is mass-premium, and keep reading age at class 8 English.",
+      "tags": [
+        "packaging",
+        "d2c",
+        "copywriting",
+        "fssai"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-003",
+      "title": "Design Unboxing Thank-You Card",
+      "prompt": "Act as a D2C unboxing experience designer who has worked with brands like Sugar Cosmetics, Neeman's, and Ugaoo. I need copy for a thank-you insert card that goes inside every order for my brand [brand name, category]. AOV is ₹[amount], repeat rate target is 35%, and the card is A6 size, printed double-sided on 300 GSM recycled kraft. Please provide: (1) Front-side hero line (max 8 words) that makes the customer smile within 3 seconds of opening, (2) Back-side 60-word personal note from the founder signed with first name, (3) A 'what to do next' micro-CTA (leave a review on Amazon, tag us on Instagram with #[hashtag]), (4) A WhatsApp care number with a friendly one-liner, (5) A small 'psst' section revealing one product care tip or hack. Format as front/back layout with word counts. Constraints: tone must match a warm Indian friend (not corporate), avoid the phrase 'thank you for your purchase', reference the specific city/pincode being shipped to as a personalisation idea, and include one line that subtly justifies the premium price.",
+      "tags": [
+        "unboxing",
+        "d2c",
+        "insert-card",
+        "retention"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-004",
+      "title": "Build 3-Tier Loyalty Program",
+      "prompt": "Act as a CRM and loyalty strategist with experience setting up Zoft, LoyaltyLion, and Flits programs for Indian D2C brands on Shopify. I run a D2C [category] brand with AOV ₹[800], monthly orders [5,000], and current repeat rate 22%. I want to launch a 3-tier loyalty program that lifts repeat rate to 40% in 6 months. Please provide: (1) Tier names that feel Indian and aspirational (not Bronze/Silver/Gold), (2) Entry threshold, annual spend requirement, and benefits for each tier, (3) Point-earning rules (per ₹ spent, review, referral, birthday, WhatsApp opt-in), (4) Point-burning rules (minimum redemption, max discount cap per order, exclusions), (5) Breakage assumption and P&L impact at 30-45% gross margin, (6) Launch comms plan across WhatsApp, email, and pack insert. Format as a table for tiers and bullet lists for rules. Constraints: must comply with Indian GST on discounts, avoid cash-equivalent points (RBI issue), and factor in Tier 2 buyer behaviour where COD share is 45%.",
+      "tags": [
+        "loyalty",
+        "d2c",
+        "retention",
+        "crm"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-005",
+      "title": "Plan Reddit India AMA Launch",
+      "prompt": "Act as a community marketing lead who has run successful Reddit AMAs on r/india, r/IndianSkincareAddicts, r/IndiaInvestments, and r/indiasocial. I am the founder of a D2C [category] brand and want to host an AMA on r/[relevant subreddit] to build trust and drive 500 first-time buyers. Please provide: (1) Subreddit selection rationale with subscriber count and posting rules, (2) A 150-word AMA announcement post with a verifiable proof image idea, (3) 10 anticipated tough questions Redditors will ask (pricing, greenwashing, dark patterns, founder credentials) with honest, non-PR answers, (4) 5 soft questions I can plant with real customers, (5) Post-AMA follow-up plan including a discount code that does not look like a bribe, (6) Moderator outreach DM template. Format as clearly labelled sections. Constraints: Reddit India hates overt marketing, karma under 500 gets auto-removed, so plan a 4-week karma-building runway, and avoid any language that sounds like a press release.",
+      "tags": [
+        "community",
+        "reddit",
+        "d2c",
+        "ama"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-006",
+      "title": "Write Back-of-Pack Ingredient Story",
+      "prompt": "Act as a packaging copywriter specialising in Indian clean-label D2C brands like The Whole Truth, Slurrp Farm, and Two Brothers Organic Farms. I need back-of-pack (BOP) copy for my [product, size] priced at ₹[MRP]. Hero ingredients are [list], and I want to turn the ingredient panel into a selling tool. Please provide: (1) A 40-word 'What's inside and why' storytelling block, (2) Full ingredient list in INCI/FSSAI-compliant order with simple English call-outs in brackets, (3) A 'What's NOT inside' list of 6 items, (4) Sourcing story (1 line per hero ingredient naming Indian village/farm/cooperative), (5) Usage direction in 20 words, (6) Storage, best-before, manufacturer address, FSSAI licence line, customer care number, and nutritional/claim panel as per law. Format as a print-ready BOP layout with character counts. Constraints: total BOP copy must fit within 450 words, all claims must be defensible, and tone should feel like a conversation with a nutritionist friend, not a chemistry textbook.",
+      "tags": [
+        "packaging",
+        "d2c",
+        "ingredients",
+        "back-of-pack"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-007",
+      "title": "Create Brand Manifesto Document",
+      "prompt": "Act as a brand strategist who has written manifestos for Indian D2C brands valued above ₹500 crore. I am building [brand name] in the [category] space targeting [audience]. I need a one-page brand manifesto that I can print, frame in my Bengaluru office, share with new hires, and excerpt on the website. Please provide: (1) A 12-word brand purpose statement starting with 'We exist to...', (2) A 'We believe' list of 7 convictions that are controversial enough to alienate non-customers, (3) The cultural tension we are fighting against (1 paragraph), (4) Our promise to the Indian consumer in 25 words, (5) The behaviour we want to change by 2030, (6) A rallying cry (max 5 words) that a customer could tattoo. Format as a single-page document with visual hierarchy suggestions. Constraints: avoid every word on the cliche list (passion, disrupt, revolutionise, game-changer), reference at least one uniquely Indian context like joint family decision-making or kirana competition, and ensure every line could withstand a journalist's 'prove it' question.",
+      "tags": [
+        "brand-story",
+        "d2c",
+        "manifesto",
+        "positioning"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-008",
+      "title": "Design Referral Program Mechanics",
+      "prompt": "Act as a growth marketer with experience running referral programs on GoKwik, ReferralCandy, and Flits for Indian D2C brands. My brand [name] has CAC of ₹[450] on Meta, AOV of ₹[900], and gross margin of 38%. I want to launch a give-get referral program that beats paid CAC by 40%. Please provide: (1) Give-get reward structure (absolute ₹ and % options) with unit economics showing effective CAC, (2) Eligibility rules (new customer only, minimum order value, category exclusions), (3) Sharing channels prioritised for India (WhatsApp first, then Instagram DM, then SMS), (4) Anti-fraud rules (same pincode, same device, COD block), (5) WhatsApp message template the referrer sends to friends (under 60 words, no shortened links, Hinglish), (6) Landing page copy for the referral recipient. Format as sections with tables for economics. Constraints: must stay profitable at 30% gross margin, respect DPDP Act consent rules for sharing friend numbers, and assume 25% of referrals will come from COD buyers.",
+      "tags": [
+        "referral",
+        "d2c",
+        "loyalty",
+        "growth"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-009",
+      "title": "Script Unboxing Video for Reels",
+      "prompt": "Act as a content strategist who has produced viral unboxing Reels for Indian D2C brands crossing 10 million views. I want to send my top 20 customers a surprise PR kit and get them to post organic unboxing Reels. My brand is [name], category [x], and the kit contains [items]. Please provide: (1) A creator brief under 200 words explaining the brand without sounding like an ad agency, (2) Suggested 15-second Reel script with second-by-second visual cues and voiceover lines in Hinglish, (3) 3 hook options for the first 1.5 seconds, (4) Caption template with hashtags that do not look botted (mix of #[brand] and organic ones), (5) Music suggestion from trending Indian audio, (6) A no-disclosure vs disclosure toggle with ASCI-compliant #ad guidance. Format as a creator-ready brief. Constraints: no paid-looking scripts, must comply with ASCI influencer guidelines, and hook must work even on mute because 85% of Indian Reels are watched silently.",
+      "tags": [
+        "unboxing",
+        "d2c",
+        "reels",
+        "community"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-010",
+      "title": "Draft Ambassador Program Contract",
+      "prompt": "Act as a D2C community manager who has run ambassador programs for brands like Sugar Cosmetics and Wakefit. I want to recruit 50 micro-ambassadors (1k-15k followers) in India for my [category] brand. Please provide: (1) Ambassador application form questions (10 questions, skip bland ones like 'why do you love us'), (2) Selection rubric with scores for engagement rate, audience India %, and content quality, (3) Monthly deliverables (posts, stories, UGC rights), (4) Compensation structure (free products, tiered commission, quarterly bonuses) with unit economics at 35% GM, (5) A 400-word ambassador agreement covering IP, ASCI disclosure, exclusivity carve-outs, and exit, (6) A private WhatsApp/Discord community charter. Format as sections with the contract in plain English. Constraints: comply with ASCI and Indian contract law, avoid unpaid labour optics, and structure rewards to motivate Tier 2 creators whose household income is under ₹8 LPA.",
+      "tags": [
+        "community",
+        "d2c",
+        "ambassador",
+        "ugc"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-011",
+      "title": "Write Founder LinkedIn Origin Post",
+      "prompt": "Act as a LinkedIn ghostwriter who has written viral founder posts for Indian D2C CEOs. I am the founder of [brand], a [category] D2C brand launching next month. I want to write a LinkedIn origin story post that gets 1 lakh views and 200 genuine comments from operators, not lurkers. My backstory is [3-5 lines]. Please provide: (1) Three hook options under 10 words that stop the scroll on mobile, (2) A full post of 250-300 words using short paragraphs, Indian cultural references, and one specific number or date, (3) A non-salesy closing CTA that invites a conversation, not clicks, (4) 5 hashtags that Indian D2C founders actually use, (5) First-comment pinned reply that adds substance. Format as a ready-to-paste LinkedIn post. Constraints: avoid 'humble brag' formats, no 'I quit my ₹50 LPA job' opening (overused), and include one vulnerable moment that would make a cynical VC pause.",
+      "tags": [
+        "brand-story",
+        "d2c",
+        "linkedin",
+        "founder"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-012",
+      "title": "Plan WhatsApp Community Launch",
+      "prompt": "Act as a WhatsApp Commerce strategist who has built communities on Interakt and AiSensy for Indian D2C brands. I want to launch a WhatsApp community for [brand, category] with a goal of 2,000 engaged members in 90 days who drive 25% of MRR. Please provide: (1) Community positioning and name (not 'Brand X Fans'), (2) Entry rules and a joining ritual that filters out freebie-hunters, (3) Weekly content calendar (tip Tuesday, poll Thursday, drop Friday) mapped to Indian festive and academic cycles, (4) Member-to-member rules that prevent spam without killing organic chatter, (5) Conversion mechanics that do not break WhatsApp Business Policy, (6) KPIs to report monthly including CPM equivalent vs Meta ads. Format as a 90-day rollout plan. Constraints: must respect DPDP Act consent, avoid bulk-broadcast fatigue by capping at 2 messages/week, and factor in that 60% of members will be on older Android phones with data caps.",
+      "tags": [
+        "community",
+        "d2c",
+        "whatsapp",
+        "retention"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-013",
+      "title": "Create Packaging Dieline Brief",
+      "prompt": "Act as a packaging design project manager who has briefed dielines for Indian D2C brands printed at Parksons, ITC, and TCPL. I need to write a dieline brief for my [product, format e.g., folding carton, mono-carton, sachet] manufactured in a 5,000-unit MOQ. Please provide: (1) Structural spec (dimensions LxWxH, GSM, board type, finish, lamination), (2) Print spec (CMYK + spot colour, Pantone references, varnish areas, emboss/deboss, foiling), (3) Copy placement map (FOP, BOP, side panels, flaps) with character limits per panel, (4) Regulatory panel checklist including FSSAI licence, GST, batch, mfg date, best-before, net quantity in metric, country of origin, consumer care, importer if applicable, (5) Sustainability notes (recyclable symbol, reduced ink coverage, FSC badge), (6) Sampling approval workflow with 3 milestones. Format as a brief that a packaging vendor can quote against. Constraints: must comply with Legal Metrology Act, Plastic Waste Management Rules 2022, and EPR registration, and keep total print cost under ₹[X] per unit at 5k MOQ.",
+      "tags": [
+        "packaging",
+        "d2c",
+        "dieline",
+        "manufacturing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-014",
+      "title": "Design Unboxing Experience Flow",
+      "prompt": "Act as a D2C experience designer who has mapped unboxing flows for brands like Neeman's and The Whole Truth. I want to design the end-to-end unboxing for my [category] brand where AOV is ₹[1,200] and I need to justify premium pricing. Please provide: (1) A 7-step unboxing choreography from courier drop to first use, with the emotion I want the customer to feel at each step, (2) Material and component list (outer courier bag, inner box, void fill, wrap, sticker, insert card, sample sachet, scent strip), (3) The 'wow moment' that gets filmed for Instagram, (4) Cost per unboxing at 35% GM constraint with trade-off options, (5) A 'repeatable surprise' that changes every quarter to give repeat customers something new, (6) Review-capture CTA placed at peak emotion. Format as a labelled flowchart description. Constraints: total unboxing cost must stay under 6% of AOV, use Indian vendors like Bizongo or Packman, and assume 45% of orders ship to Tier 2 cities where courier handling is rough.",
+      "tags": [
+        "unboxing",
+        "d2c",
+        "experience",
+        "packaging"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-015",
+      "title": "Write Brand Tone of Voice Guide",
+      "prompt": "Act as a brand voice consultant who has written tone guidelines for Indian D2C brands. I run [brand, category] targeting [audience]. I need a tone of voice guide my copywriter, CX team, and agency can all follow. Please provide: (1) Four personality dimensions on sliders (e.g., formal-playful, expert-peer, reserved-expressive, serious-irreverent) with our position marked, (2) 10 'we say / we don't say' examples across product pages, emails, customer support, and complaint responses, (3) Our attitude towards Hinglish (when yes, when no), (4) Punctuation and emoji rules, (5) How to write about competitors and category truths without being mean, (6) A 150-word sample refund-request reply that shows the voice in action. Format as a mini style guide. Constraints: must work across Shopify product pages, WhatsApp care, and Instagram captions, avoid sounding like a clone of Zomato or Swiggy, and reflect Indian politeness norms without becoming servile.",
+      "tags": [
+        "brand-story",
+        "d2c",
+        "tone-of-voice",
+        "copywriting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-016",
+      "title": "Map D2C Unit Economics Sheet",
+      "prompt": "Act as a D2C finance operator who has built P&Ls for brands like Mamaearth and boAt. I am launching [category] at a target MRP of ₹[999]. Please provide: (1) A unit economics sheet showing landed COGS, packaging, fulfilment, payment gateway fees (Razorpay 2%), platform fee, marketing CAC, returns cost, and contribution margin, (2) Benchmark ranges for Indian D2C (CAC ₹200-₹800, AOV ₹400-₹1,500, GM 30-45%) with my numbers plotted against them, (3) Break-even repeat rate assuming 40% contribution margin, (4) Three levers to improve CM by 5 percentage points, (5) A sensitivity table showing PAT at 0%, 10%, 20% return rate, (6) GST implications including ITC on packaging and marketing. Format as a labelled spreadsheet description with sample numbers. Constraints: assume Shopify + Razorpay + Shiprocket stack, 18% GST on product, and 15% blended return rate including RTOs from COD.",
+      "tags": [
+        "d2c",
+        "unit-economics",
+        "finance",
+        "gst"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-017",
+      "title": "Plan UGC Content Campaign",
+      "prompt": "Act as a UGC strategist who has run campaigns for Indian D2C brands on platforms like Trell (earlier), Instagram, and YouTube Shorts. I want to run a 90-day UGC campaign for my [brand, category] to collect 300 usable clips at a total budget of ₹3,00,000. Please provide: (1) Campaign theme and hashtag that is tweetable in under 20 characters, (2) Creator tier split (nano, micro, customer UGC) with budget and volume targets, (3) Creative brief with 5 must-have shots and 3 forbidden shots, (4) Rights and usage agreement covering paid ads, website, and in-perpetuity use, (5) Submission, selection, and payout workflow, (6) Repurposing plan that turns 300 clips into 45 ad creatives. Format as a 90-day plan with weekly milestones. Constraints: must comply with ASCI disclosure, avoid deepfake or AI-generated submissions, and ensure at least 40% clips come from Tier 2-3 cities to diversify away from Bombay-Delhi bubble.",
+      "tags": [
+        "community",
+        "d2c",
+        "ugc",
+        "content"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-018",
+      "title": "Write Product Launch Email Sequence",
+      "prompt": "Act as a D2C email marketer who has launched hero SKUs for Indian brands on Klaviyo and Mailmodo. I am launching a new [product, category] at ₹[price] on [date]. My list has 35,000 subscribers with 22% open rate and 3% CTR. Please provide: (1) A 5-email launch sequence (teaser, waitlist open, launch day, 24-hour social proof, last-call) with subject lines, preview text, and 120-150 word bodies, (2) Segment rules so past buyers and new subscribers get different versions, (3) A/B test hypotheses for each email, (4) WhatsApp broadcast companion messages under 60 words each, (5) Forecasted revenue at current rates and 1.5x stretch, (6) A post-launch win/loss learning doc template. Format as a campaign plan. Constraints: comply with DPDP Act opt-out, keep images under 600px wide for Indian mobile data, and include Hinglish subject line variants where the list is Tier 2 skewed.",
+      "tags": [
+        "d2c",
+        "email",
+        "launch",
+        "crm"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-019",
+      "title": "Design Subscription Box Concept",
+      "prompt": "Act as a D2C subscription strategist who has built box models for brands in Indian grocery, beauty, and wellness. I want to launch a monthly subscription for my [brand, category] priced at ₹[799]/month with a target of 5,000 active subs in 12 months. Please provide: (1) Box contents philosophy (core SKU + rotating discovery), (2) 12-month content calendar mapped to Indian seasons and festivals (holi, monsoon, diwali, wedding season), (3) Onboarding sequence from checkout to first box delivery, (4) Churn mitigation tactics (pause, skip, swap) with triggers, (5) Unit economics at 35% GM including shipping, box design, and discovery sample costs, (6) A referral overlay to acquire new subs at under ₹300 CAC. Format as a subscription playbook. Constraints: comply with RBI auto-debit e-mandate rules (AFA, pre-debit notification), use Razorpay or Cashfree subscriptions, and design for Tier 1+2 where subscription fatigue is rising in 2026.",
+      "tags": [
+        "d2c",
+        "subscription",
+        "retention",
+        "loyalty"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-020",
+      "title": "Craft Hero Product Page Story",
+      "prompt": "Act as a conversion copywriter who has rewritten hero product pages for Indian D2C brands and lifted conversion rate from 1.8% to 3.5%. My product is [name, category, price ₹X]. Current page converts at [Y]% and bounces at [Z]%. Please provide: (1) A 12-word above-the-fold headline, (2) A 3-line subheadline explaining who it is for and who it is not for, (3) 5 benefit-led bullets with a proof point next to each, (4) A 'why we made this' founder note in 80 words, (5) Ingredient/spec table with simple English callouts, (6) A FAQ section of 8 questions that pre-empt returns, (7) Review snippet format with city name and verified badge. Format as a Shopify section structure. Constraints: avoid stock photography cliches, use at least 3 Indian customer names with Tier 2 cities, pass Core Web Vitals for 3G networks, and pre-empt objections specific to Indian buyers like 'will it work in humid weather'.",
+      "tags": [
+        "d2c",
+        "brand-story",
+        "conversion",
+        "copywriting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-021",
+      "title": "Write Quora Category Thought-Leadership",
+      "prompt": "Act as a content marketer who has built Quora presence for Indian D2C brands and driven 15% of organic traffic from Quora alone. My brand is [name, category]. I want to answer 20 high-intent Quora questions over 60 days to own the category conversation. Please provide: (1) A keyword-to-question map for 20 questions with estimated monthly views, (2) Answer structure template (hook, personal story, data, framework, soft brand mention), (3) Three sample 400-word answers to the top questions in my category, (4) Rules for when to mention the brand and when to stay neutral, (5) Profile optimisation for the founder (credentials, bio, credentialing strategy), (6) Tracking setup using UTM on any links. Format as a 60-day content plan. Constraints: Quora India hates self-promotion, avoid more than 1 brand mention per 300 words, and write for readers on mobile with 6-second attention spans.",
+      "tags": [
+        "community",
+        "d2c",
+        "quora",
+        "content"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-022",
+      "title": "Build Loyalty Tier Naming System",
+      "prompt": "Act as a brand naming specialist with experience in Indian cultural branding. I run [brand, category] and my generic 'Silver-Gold-Platinum' loyalty tiers are not driving emotional engagement. I need a 4-tier naming system rooted in Indian culture that still feels modern and aspirational. Please provide: (1) Four tier names with meaning, pronunciation guide, and cultural origin (Sanskrit, regional, nature, philosophy), (2) A one-line description for each tier that a customer can screenshot, (3) Visual metaphor suggestions for the tier badge, (4) Tier progression narrative (what 'graduating' feels like), (5) Three alternative naming directions in case the first set feels too niche, (6) Linguistic risk check across Hindi, Tamil, Bengali, Marathi to avoid accidental negative meanings. Format as a naming rationale document. Constraints: avoid appropriation, avoid religious symbolism that excludes any community, and ensure names work for both Tier 1 English-first and Tier 2 Hinglish audiences.",
+      "tags": [
+        "loyalty",
+        "d2c",
+        "naming",
+        "brand-story"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-023",
+      "title": "Create Insert Card Referral Mechanic",
+      "prompt": "Act as a D2C retention strategist with experience designing pack-insert referral mechanics for Indian brands. I want to add a physical referral card to every order that drives at least 8% of new customer acquisition. My brand is [name, category], AOV ₹[900], margin 38%. Please provide: (1) Card copy front and back (max 30 words per side), (2) A unique reward structure (give-get) printed on the card, (3) Redemption mechanism that works offline via a human-readable code and a QR, (4) Anti-fraud rules (one-per-household, cap at 5 redemptions per card), (5) Print spec (size, GSM, finish, MOQ cost), (6) Tracking setup to attribute revenue to the printed card vs digital referral. Format as a card-ready brief. Constraints: total cost per card under ₹4, language friendly to Tier 2 reader, avoid shortened links, and ensure QR code deep-links via WhatsApp for one-tap share.",
+      "tags": [
+        "unboxing",
+        "d2c",
+        "referral",
+        "insert-card"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-024",
+      "title": "Plan Brand PR Launch Narrative",
+      "prompt": "Act as a PR strategist who has placed Indian D2C founders in YourStory, Inc42, ET Retail, and Moneycontrol. My brand [name, category] is launching in 4 weeks with ₹[X] seed raised and [metric] waitlist. I need a 30-day PR plan. Please provide: (1) A core launch narrative in 100 words that answers 'why now, why you', (2) Three angle hooks (funding, founder story, market data), (3) Target publication and journalist list (10 names with beats), (4) Pitch email template under 150 words with subject line, (5) Founder Q&A document with 15 anticipated questions, (6) Embargo and timeline plan. Format as a PR playbook. Constraints: avoid generic 'disrupt' language, ground story in one Indian macro insight with a number, and prepare for the hardest journalist question about unit economics at 35% GM.",
+      "tags": [
+        "brand-story",
+        "d2c",
+        "pr",
+        "launch"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-025",
+      "title": "Write Customer Welcome Email",
+      "prompt": "Act as a lifecycle email copywriter who has written welcome flows for Indian D2C brands. I need a first-purchase welcome email for my [brand, category] that converts browsers into subscribers at over 18% CTR. Please provide: (1) Subject line options (3 variants under 40 characters), (2) Preview text, (3) An 180-word body that thanks without being cringy, introduces 3 use tips, and sets expectations for next touchpoints, (4) A soft CTA to join the WhatsApp community, (5) A PS line that teases a surprise in the unboxing, (6) Mobile-first layout notes. Format as a ready-to-paste email. Constraints: must render well on Gmail India mobile app, avoid image-heavy layout for 3G users, comply with DPDP opt-in language, and sound like a friend, not a brand.",
+      "tags": [
+        "d2c",
+        "email",
+        "welcome",
+        "retention"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-026",
+      "title": "Draft Brand Positioning Statement",
+      "prompt": "Act as a brand strategist who uses the April Dunford category-defining positioning framework. I am positioning [brand, category] in India where competitors are [list]. Please provide: (1) A filled-in positioning canvas with competitive alternatives, unique attributes, value themes, who cares, and market category, (2) A one-sentence positioning statement that passes the 'mom test', (3) Three category names we could plausibly own (invent one new one), (4) The customer segment we are best for (be brutal about who we are not for), (5) Messaging hierarchy from category POV to product benefit to feature, (6) A 50-word homepage hero paragraph that operationalises the positioning. Format as a positioning brief. Constraints: avoid 'premium-affordable' sludge, pick a fight with one specific competitor, and reflect Indian buyer context where category literacy is often low.",
+      "tags": [
+        "brand-story",
+        "d2c",
+        "positioning",
+        "strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-027",
+      "title": "Plan Diwali Limited Edition Packaging",
+      "prompt": "Act as a D2C seasonal strategist who has launched Diwali limited editions for Indian brands. I want to launch a Diwali LE for my [brand, category] that drives 25% of Q3 revenue. Please provide: (1) LE concept and story (what makes it Diwali without being cliched rangoli and diyas), (2) Packaging upgrade spec (box structure, foil, insert card, gift tag), (3) SKU and pricing strategy (standalone, bundle, gift set), (4) Limited quantity and urgency mechanic, (5) Launch window and sell-through plan, (6) Post-Diwali exit plan for unsold stock. Format as a seasonal playbook. Constraints: cost must stay under 9% of LE MRP, LE inventory risk capped at 8% of quarterly revenue, and avoid cultural tone-deafness (no appropriation of regional festivals the brand does not understand).",
+      "tags": [
+        "packaging",
+        "d2c",
+        "diwali",
+        "seasonal"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-028",
+      "title": "Write Category Education Blog Post",
+      "prompt": "Act as an SEO content writer who has built category authority for Indian D2C brands. I am creating a hero blog post to rank for '[high-intent keyword]' in India (search volume ~5k/month). My brand [name] sells in this category. Please provide: (1) A 1,800-word outline with H2 and H3 structure, (2) A hook intro that is not 'Did you know', (3) Key stats with Indian sources (NSSO, Statista India, industry reports), (4) A comparison table with 5 options including our product (write honestly, do not rig it), (5) FAQ section of 8 People-Also-Ask-style questions, (6) Internal linking plan to 5 product pages and 3 other blogs. Format as a content brief the writer can execute. Constraints: EEAT compliant, cite sources with dates, include at least one quote from a credentialed Indian expert (dermatologist, nutritionist, whoever fits), and avoid AI-generated feel by including a specific anecdote.",
+      "tags": [
+        "d2c",
+        "content",
+        "seo",
+        "brand-story"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-029",
+      "title": "Map Customer Journey Touchpoints",
+      "prompt": "Act as a CX strategist who has mapped journeys for Indian D2C brands at the SKU-to-advocacy level. My brand [name, category] has AOV ₹[950] and NPS 42. I want to map the full customer journey and find 5 friction points worth fixing. Please provide: (1) A 9-stage journey from awareness to advocacy with the dominant channel at each stage, (2) Customer emotion curve across stages (what they feel, what they say, what they expect), (3) Top 3 friction points specific to Indian D2C (COD anxiety, delivery pincode uncertainty, returns), (4) Proposed fixes with owner and effort estimate, (5) Metrics to track per stage (cost, conversion, time, satisfaction), (6) Quick wins shippable in 30 days. Format as a journey map document. Constraints: reference real Indian logistics realities (Shiprocket, Delhivery SLAs), WhatsApp as primary support channel, and joint-household decision-making for higher AOV categories.",
+      "tags": [
+        "d2c",
+        "cx",
+        "journey",
+        "retention"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-030",
+      "title": "Create Review Request Flow",
+      "prompt": "Act as a retention marketer who has built review collection flows that achieve 18% review rate for Indian D2C brands using Judge.me and Loox. My brand [name, category] collects 4% today. Please provide: (1) A 4-touchpoint flow (unboxing CTA, day 3 WhatsApp, day 7 email, day 14 SMS) with copy under 40 words each, (2) Incentive structure that does not bribe reviews (loyalty points, not discounts), (3) Photo review upsell with ASCI-compliant language, (4) Negative review handling workflow (public reply template, private recovery DM), (5) Rules to comply with Consumer Protection (E-Commerce) Rules 2020 which bans fake reviews in India, (6) A dashboard to track star distribution and reply time. Format as a flow document. Constraints: no paid reviews, ensure verified-buyer badges, and include a path for the customer to request a reviewer-free return without retaliation.",
+      "tags": [
+        "d2c",
+        "retention",
+        "reviews",
+        "loyalty"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-031",
+      "title": "Write Instagram Bio and Story Highlights",
+      "prompt": "Act as an Instagram brand manager who has grown Indian D2C accounts to 100k+ organically. My brand [name, category] has [X] followers and wants to convert profile visitors at 4%+. Please provide: (1) A bio under 150 characters with 1 link, 1 hook, 1 social proof, 1 CTA, (2) 8 story highlight covers and titles (max 10 characters each) ordered strategically, (3) Pinned post strategy for the top 3 grid slots, (4) Highlight content recipes (what goes inside each), (5) Link-in-bio tool setup (Beacons, Linktree, or Shopify native) with priority order, (6) Weekly maintenance checklist. Format as a bio kit. Constraints: avoid emoji spam, use Hinglish only if brand voice allows, ensure highlight order matches the buyer journey, and include one highlight that answers the #1 objection for Indian D2C (authenticity or delivery).",
+      "tags": [
+        "community",
+        "d2c",
+        "instagram",
+        "brand-story"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-032",
+      "title": "Design Birthday Loyalty Perk",
+      "prompt": "Act as a CRM lifecycle manager who has run birthday campaigns for Indian D2C brands with 30%+ redemption. My brand [name, category] has 80,000 opted-in subscribers with birthdate captured for 60%. Please provide: (1) A 3-touch birthday sequence (7 days before, day of, day after) across WhatsApp and email, (2) Perk structure at 35% GM (gift vs discount vs free shipping) with unit economics, (3) A personalisation variable map (name, first purchase, favourite category), (4) Copy for each touch under 60 words, (5) Edge case handling for duplicate or dubious birthdates, (6) KPI benchmark vs average campaign. Format as a campaign plan. Constraints: comply with DPDP consent, avoid sounding automated, and respect the fact that many Indian customers list Jan 1 as a placeholder birthday (handle this segment separately).",
+      "tags": [
+        "loyalty",
+        "d2c",
+        "crm",
+        "retention"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-033",
+      "title": "Build Founder Content Pillars",
+      "prompt": "Act as a personal brand strategist who has positioned Indian D2C founders as category experts. I am the founder of [brand, category] and post 3x/week across LinkedIn, Instagram, and Twitter. I need a content pillar system. Please provide: (1) Four content pillars (e.g., category myths, build-in-public, customer stories, contrarian takes) with a 1-line definition, (2) 20 post ideas split across pillars, (3) Tone rules per platform, (4) Weekly posting rhythm mapped to my energy (deep posts on weekends, quick posts weekdays), (5) Engagement rules (reply windows, DM etiquette), (6) Quarterly review template. Format as a content OS document. Constraints: founder should not spend more than 4 hours/week on content, avoid performative vulnerability, and ensure at least 25% of posts create a point of view that could alienate lazy buyers.",
+      "tags": [
+        "brand-story",
+        "d2c",
+        "founder",
+        "content"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-034",
+      "title": "Plan Kirana and Offline Expansion",
+      "prompt": "Act as an omnichannel strategist who has taken Indian D2C brands from online-only to 2,000+ kirana and modern trade doors. My brand [name, category] is ₹[20] crore ARR online and wants to pilot offline without cannibalising D2C margins. Please provide: (1) Channel architecture (GT, MT, e-pharmacy, Q-commerce, self-operated kiosks) with rationale, (2) Pricing and margin structure that keeps MRP consistent with D2C, (3) SKU portfolio for offline (which products travel well, which do not), (4) Distribution partner evaluation rubric, (5) Launch city selection framework starting with 3 cities, (6) Brand consistency playbook across channels. Format as an offline expansion plan. Constraints: protect D2C economics (online must stay at 45%+ contribution), comply with Legal Metrology for MRP, and plan for trade margins of 8% distributor + 18% retailer without breaking the model.",
+      "tags": [
+        "d2c",
+        "offline",
+        "distribution",
+        "strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-035",
+      "title": "Write Complaint Response Playbook",
+      "prompt": "Act as a CX lead who has built support playbooks for Indian D2C brands handling 500+ tickets/day on WhatsApp, email, and Instagram DM. My brand [name] has NPS 38 and wants to hit 55. Please provide: (1) A 10-scenario response library (damaged product, wrong item, delayed, COD cancel, allergic reaction, review threat, payment stuck, address change, refund delay, rude agent) with 3-layer responses (acknowledge, resolve, recover), (2) Escalation matrix with SLA (first response under 30 minutes), (3) Tone rules per channel, (4) Empowerment budget (agent can refund up to ₹1,500 without approval), (5) Phrases to avoid, (6) Weekly QA audit template. Format as a playbook. Constraints: comply with Consumer Protection Act 2019 (14-day response), respect DPDP on data sharing, and acknowledge Indian customer preference for human over chatbot on sensitive issues.",
+      "tags": [
+        "d2c",
+        "cx",
+        "community",
+        "retention"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-036",
+      "title": "Create VIP Customer Experience",
+      "prompt": "Act as a high-touch CX designer who has built VIP programs for Indian premium D2C brands with AOV above ₹2,500. My brand [name, category] has 500 customers with LTV above ₹12,000 and I want to build a surprise-and-delight VIP experience. Please provide: (1) VIP identification rules and refresh cycle, (2) Quarterly touchpoint calendar (handwritten note, exclusive drop, birthday gift, founder call), (3) Budget per VIP per year with ROI logic, (4) A 'WOW moment' playbook (5 unexpected gestures under ₹500), (5) Private WhatsApp group rules and content mix, (6) Exit rules if a VIP churns or abuses. Format as a VIP playbook. Constraints: total VIP programme budget capped at 2% of revenue, respect DPDP when collecting personal details, and avoid performative luxury that does not match the brand voice.",
+      "tags": [
+        "loyalty",
+        "d2c",
+        "vip",
+        "community"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-037",
+      "title": "Write Sustainability Claim Copy",
+      "prompt": "Act as a sustainability communications specialist who has written claims for Indian D2C brands without greenwashing risk. My brand [name, category] wants to communicate [sustainability attribute: e.g., carbon neutral, refillable, compostable]. Please provide: (1) A 60-word honest claim block for the product page with evidence links, (2) The exact certification or methodology reference (GOTS, FSC, PCC, CII), (3) A 'things we have not figured out' transparency note in 40 words, (4) Back-of-pack icons with legal compliance under Plastic Waste Management Rules 2022 and EPR, (5) Customer FAQ covering recycling, returns, and end-of-life, (6) A red-team critique of the claim by an imagined investigative journalist. Format as a claim package. Constraints: avoid banned words like 'biodegradable' without certification, comply with CPCB rules, and never compare against a specific competitor in sustainability claims.",
+      "tags": [
+        "packaging",
+        "d2c",
+        "sustainability",
+        "brand-story"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-038",
+      "title": "Design Community Launch Event",
+      "prompt": "Act as a community event producer who has run IRL meetups for Indian D2C brands in Bengaluru, Mumbai, and Delhi. I want to host a 50-person community launch event for my [brand, category] in [city] with a budget of ₹2,00,000. Please provide: (1) Event concept and theme that attracts customers, not just free food hunters, (2) Venue options (cafe, co-working, experiential space) with pros-cons, (3) Run-of-show from 6pm to 9pm with founder fireside, product demo, and social moment, (4) Invite criteria and RSVP mechanism, (5) Content capture plan for post-event organic reach, (6) Budget breakdown including food, venue, photography, swag, contingency. Format as an event playbook. Constraints: total spend under ₹2L, zero alcohol if brand audience is family-skewed, and include one memorable 'takeaway moment' that is more valuable than swag.",
+      "tags": [
+        "community",
+        "d2c",
+        "event",
+        "launch"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-039",
+      "title": "Write Exit Intent Popup Offer",
+      "prompt": "Act as a conversion optimiser who has built exit intent popups for Indian D2C brands lifting conversion 1.1 to 1.6%. My brand [name] has 85,000 monthly sessions, 1.9% conversion, and 62% exit from product pages. Please provide: (1) A 3-variant popup test plan with headline, subhead, offer, CTA, and 1 tiny objection handler each, (2) Trigger rules (mobile vs desktop, first visit vs returning, scroll depth), (3) Offer economics at 35% GM so each code stays profitable, (4) Frequency rules so the same user does not see it twice in 14 days, (5) Analytics tagging, (6) A polite 'no thanks' exit copy that does not shame the user. Format as a CRO test brief. Constraints: must pass Core Web Vitals, avoid dark patterns banned by CCPA guidelines India is converging toward, and include WhatsApp opt-in as an alternative to email discount.",
+      "tags": [
+        "d2c",
+        "conversion",
+        "popup",
+        "growth"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    },
+    {
+      "id": "ecommerce-d2c-brand-040",
+      "title": "Build 12-Month Brand Roadmap",
+      "prompt": "Act as a fractional CMO who has scaled Indian D2C brands from ₹5 crore to ₹50 crore ARR. My brand [name, category] is at ₹[10] crore ARR, 60% contribution margin, CAC ₹[450], AOV ₹[950], repeat rate 28%. I need a 12-month brand-building roadmap that does not sacrifice profitability. Please provide: (1) A quarterly theme plan (Q1 trust, Q2 expansion, Q3 festive, Q4 retention) with 3 initiatives each, (2) Investment split across brand, performance, retention, and community with INR amounts, (3) Team structure needed (hire plan with roles and salary bands), (4) Quarterly OKRs with leading and lagging metrics, (5) Risk register (top 5 risks with mitigations), (6) Board-reporting dashboard template. Format as a roadmap document. Constraints: must stay EBITDA positive each quarter, respect Indian hiring realities including notice periods, and include contingency for Meta CPM inflation of 15-25% year-on-year.",
+      "tags": [
+        "d2c",
+        "brand-story",
+        "strategy",
+        "roadmap"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "d2c-brand"
+    }
+  ]
+}

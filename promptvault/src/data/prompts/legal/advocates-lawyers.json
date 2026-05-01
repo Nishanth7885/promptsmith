@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "legal-advocates-lawyers-001",
+      "title": "Draft Section 138 NI Act Legal Notice",
+      "prompt": "Act as a litigation advocate with 12 years experience in negotiable instruments matters practicing at Bombay High Court and Mumbai sessions courts. I need you to draft a statutory legal notice under Section 138 read with Section 141 of the Negotiable Instruments Act, 1881 for a dishonoured cheque matter. Context: My client M/s Shah Traders Pvt Ltd (Andheri, Mumbai) received cheque no. 234567 dated 12 January 2026 for Rs. 8,75,000 from M/s Verma Enterprises (Borivali) towards outstanding invoices for textile supply. The cheque, drawn on HDFC Bank, was dishonoured on 20 January 2026 with remark \"Funds Insufficient\". Bank memo received on 22 January 2026. Please provide: (1) complete notice on advocate letterhead format with reference numbers, (2) proper recitation of facts with invoice details, (3) dishonour particulars with bank memo reference, (4) demand for payment within 15 days from receipt as mandated by Section 138(b), (5) warning of criminal complaint before Metropolitan Magistrate under Section 138, (6) claim for interest and costs, (7) clause reserving civil remedies. Format as a formal legal notice with numbered paragraphs, proper salutation, and signature block. Ensure strict compliance with 30-day limitation from dishonour date under Section 138(b), include RPAD and email delivery methods, and cite Dashrath Rupsingh Rathod v. State of Maharashtra for territorial jurisdiction. Draft language must be precise, non-ambiguous, and court-ready since this notice will form the foundation of any subsequent complaint under Section 142.",
+      "tags": [
+        "section-138",
+        "legal-notice",
+        "cheque-bounce",
+        "ni-act",
+        "litigation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-002",
+      "title": "Consumer Complaint Drafting Framework",
+      "prompt": "Act as a consumer law practitioner with 10 years experience before District Consumer Disputes Redressal Commissions and State Commissions in India. I need you to draft a complete consumer complaint under Section 35 of the Consumer Protection Act, 2019. Context: My client Mrs. Priya Krishnan, a homemaker from Koramangala, Bengaluru, purchased a Samsung 55-inch QLED TV worth Rs. 1,45,000 from Reliance Digital on 15 October 2025 with 2-year warranty. The TV developed panel defects within 4 months, and despite 6 service visits and written complaints, the company refused replacement claiming \"physical damage\" which is factually incorrect. Please provide: (1) proper cause title with parties, (2) jurisdictional averments invoking pecuniary and territorial jurisdiction of Bengaluru Urban District Commission, (3) chronological facts with dates, invoice numbers, complaint ticket IDs, (4) specific deficiency of service and unfair trade practice pleadings under Sections 2(11) and 2(47), (5) detailed prayer clause seeking refund, compensation for mental agony (Rs. 50,000), litigation costs (Rs. 25,000), and interest at 12% p.a., (6) list of documents and witnesses, (7) verification clause and affidavit format. Format as a complete complaint petition with numbered paragraphs, proper margins, and court fee calculation. Reference relevant judgments like Lucknow Development Authority v. M.K. Gupta on compensation principles. Ensure the draft is ready for e-filing on edaakhil portal and complies with 2020 Consumer Commission Rules.",
+      "tags": [
+        "consumer-complaint",
+        "consumer-protection-act",
+        "legal-drafting",
+        "deficiency-of-service",
+        "edaakhil"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-003",
+      "title": "Eviction Notice Under Rent Control Act",
+      "prompt": "Act as a property law advocate with 15 years experience in landlord-tenant disputes in Delhi practicing before Rent Controller and Delhi High Court. I need you to draft a legal notice for eviction under the Delhi Rent Control Act, 1958. Context: My client Mr. Rajinder Malhotra owns a commercial shop at Karol Bagh rented to Mr. Iqbal Ahmed since 2018 at Rs. 35,000 monthly rent. Tenant has defaulted on rent for 8 months (total Rs. 2,80,000), sublet portion to a third party without consent, and materially altered the premises by breaking a load-bearing wall. Please provide: (1) notice on advocate letterhead with reference number, (2) recitation of tenancy terms citing lease deed dated 1 April 2018, (3) specific grounds under Section 14(1)(a) non-payment, 14(1)(b) subletting, and 14(1)(j) damage to property, (4) demand for arrears with interest and vacation of premises within 30 days, (5) warning of eviction petition before Rent Controller, Tis Hazari, (6) reservation of mesne profits claim, (7) compliance with Section 106 Transfer of Property Act notice requirements. Format as formal legal notice with numbered paragraphs. Ensure language distinguishes between statutory tenancy and contractual tenancy, addresses the 2020 MP Khurana v. Vimla Khurana ratio on subletting proof, and is served via registered AD post and speed post. The notice should preserve all legal grounds for subsequent eviction petition.",
+      "tags": [
+        "eviction-notice",
+        "rent-control",
+        "landlord-tenant",
+        "legal-notice",
+        "delhi-rent-act"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-004",
+      "title": "Matrimonial Legal Notice for Restitution",
+      "prompt": "Act as a matrimonial law advocate with 12 years experience at Family Courts in Chennai and Madras High Court. I need you to draft a pre-litigation legal notice under Section 9 of the Hindu Marriage Act, 1955 for restitution of conjugal rights. Context: My client Mr. Arjun Subramanian (software engineer, T. Nagar) married Ms. Kavitha on 18 May 2022 at Kapaleeshwarar Temple. The wife left the matrimonial home on 10 November 2025 after a family dispute and has been residing at her parental home in Coimbatore for over 5 months despite repeated reconciliation attempts. No physical or mental cruelty alleged by either side; it is a genuine reconciliation effort. Please provide: (1) formal notice on letterhead, (2) recitation of marriage, registration, cohabitation, and child details if any, (3) chronological narration of events without inflammatory language, (4) articulation of client's willingness to resume cohabitation and address any grievances, (5) invocation of Section 9 HMA with 30-day response window, (6) offer for mediation through Family Court Mediation Centre, (7) caveat that failure to respond will trigger Section 9 petition. Format as a measured, reconciliation-oriented notice that courts view favourably. Avoid aggressive tone since this notice will be exhibit in any subsequent divorce proceedings. Ensure compliance with Saroj Rani v. Sudarshan Kumar principles and emphasize good faith. Include Tamil translation clause if needed.",
+      "tags": [
+        "matrimonial",
+        "restitution-conjugal-rights",
+        "hindu-marriage-act",
+        "legal-notice",
+        "family-court"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-005",
+      "title": "Service Matter Legal Notice to Employer",
+      "prompt": "Act as a service law advocate with 14 years experience before CAT and Delhi High Court handling government service disputes. I need you to draft a legal notice under Section 80 CPC to a government employer challenging wrongful suspension. Context: My client Mr. Suresh Pandey, a Section Officer in Ministry of Railways, was placed under suspension on 5 December 2025 pending inquiry into alleged procurement irregularities of Rs. 15 lakh in a tender. No charge-sheet has been served despite 4 months lapse, violating Rule 10 of CCS (CCA) Rules, 1965. Subsistence allowance is being paid irregularly. Please provide: (1) notice addressed to Secretary, Ministry of Railways with copies to DoPT and CVC, (2) service history and designation details, (3) chronology of suspension order with file numbers, (4) legal grounds invoking Rule 10(5), (6) and (7) CCS(CCA) Rules on review of suspension, (5) reference to Ajay Kumar Choudhary v. Union of India (2015) on 90-day review mandate, (6) demand for revocation of suspension, regularisation of subsistence allowance, and expeditious charge-sheet or closure, (7) intimation of intent to file OA before CAT Principal Bench within 2 months. Format as formal Section 80 notice with clear cause of action, reliefs sought, and 2-month statutory waiting period. Ensure the notice preserves all grounds for subsequent CAT petition and cites Union of India v. Dipak Mali on principles of natural justice in suspension cases.",
+      "tags": [
+        "service-law",
+        "section-80-cpc",
+        "suspension",
+        "cat-petition",
+        "legal-notice"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-006",
+      "title": "Writ Petition Framework Under Article 226",
+      "prompt": "Act as a constitutional law practitioner with 18 years experience before Allahabad High Court handling writ matters. I need you to structure a complete writ petition under Article 226 of the Constitution challenging arbitrary cancellation of a government contract. Context: My client M/s Ganga Infrastructure Pvt Ltd, Lucknow, was awarded a Rs. 42 crore road construction contract by UP PWD in July 2025. The contract was cancelled on 10 March 2026 without show cause notice citing vague \"administrative reasons\" and security deposit of Rs. 2.1 crore forfeited. Please provide: (1) cause title with parties and jurisdiction of Allahabad HC Lucknow Bench, (2) synopsis of facts and dates of events, (3) list of dates and chronology table, (4) grounds A through J covering violation of Article 14 (arbitrariness), Article 19(1)(g) (right to trade), principles of natural justice, breach of contract terms, and non-application of mind, (5) relief clause seeking quashing of cancellation order, restoration of contract or compensation, release of security deposit, (6) prayer for interim relief restraining re-tender, (7) affidavit in support, (8) list of annexures with document numbering. Format as a complete writ petition skeleton. Cite Dwarkadas Marfatia v. Board of Trustees Port of Bombay on judicial review of contractual actions by State, ABL International v. ECGC on writ maintainability in contractual matters, and Kumari Shrilekha Vidyarthi on arbitrariness. Ensure compliance with Allahabad HC Rules 1952 on writ drafting format.",
+      "tags": [
+        "writ-petition",
+        "article-226",
+        "constitutional-law",
+        "government-contract",
+        "high-court"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-007",
+      "title": "SLP Drafting Before Supreme Court",
+      "prompt": "Act as a Supreme Court advocate with 20 years experience in constitutional and civil appeals practising under Senior Advocates at SCI. I need you to draft a Special Leave Petition under Article 136 against a Karnataka High Court judgment. Context: Division Bench of Karnataka HC dismissed my client's second appeal in a property partition dispute on 15 February 2026 in RSA No. 1234/2019. The HC upheld concurrent findings against my client Mr. Mahadev Shetty despite clear misreading of documentary evidence regarding ancestral property character and benami transaction. Property value Rs. 8.5 crore in Bengaluru. Please provide: (1) SLP cover page with SCI format, (2) synopsis with questions of law, (3) list of dates spanning 1998 trial to 2026 HC judgment, (4) grounds for interference raising substantial questions on benami law, Section 100 CPC scope, and perverse findings, (5) prayer for leave and stay of execution, (6) certificate of advocate on record, (7) interlocutory application for stay, (8) list of annexures including impugned judgment and lower court orders. Format strictly per Supreme Court Rules 2013 and SCI Handbook on Practice and Procedure. Cite Pritam Singh v. State on SLP jurisdiction, Mathai v. George on substantial questions, and Kunhayammed v. State of Kerala on scope of leave. Ensure the petition clearly demonstrates why this case raises matters of public importance or grave injustice warranting interference under Article 136.",
+      "tags": [
+        "slp",
+        "supreme-court",
+        "article-136",
+        "civil-appeal",
+        "petition-drafting"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-008",
+      "title": "Civil Suit Under CPC Order VII",
+      "prompt": "Act as a civil litigation advocate with 10 years experience handling money recovery suits before City Civil Court, Kolkata. I need you to draft a plaint under Order VII CPC for recovery of Rs. 28,50,000 along with interest. Context: My client M/s Bengal Commercials, a proprietorship of Mr. Sanjoy Dutta, supplied industrial chemicals to M/s Eastern Polymers Ltd between April and August 2024 under 14 invoices totalling Rs. 28,50,000. Despite repeated reminders and legal notice dated 12 October 2024, the defendant has failed to pay. Acknowledgement of debt exists via email dated 3 November 2024. Please provide: (1) cause title with correct CCC jurisdiction and pecuniary limit verification, (2) paragraph-wise plaint with parties, facts, cause of action, (3) details of invoices, delivery receipts, and ledger, (4) pleading on acknowledgement extending limitation under Section 18 Limitation Act, (5) interest claim under Section 34 CPC and Interest Act 1978 at 18% p.a. pendente lite and future, (6) prayer clause with principal, interest, and costs, (7) court fees calculation under West Bengal Court Fees Act, (8) verification, affidavit, list of documents, witness list. Format as court-ready plaint with proper numbering and margins. Ensure compliance with Order VII Rules 1-9 CPC on particulars, Order VI Rule 15 verification, and Commercial Courts Act 2015 if applicable (claim value triggers commercial dispute threshold). Include statement of truth mandated under 2018 amendments.",
+      "tags": [
+        "civil-suit",
+        "order-vii-cpc",
+        "money-recovery",
+        "commercial-courts",
+        "plaint-drafting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-009",
+      "title": "Case Research Query for IndianKanoon",
+      "prompt": "Act as a litigation research associate with 6 years experience using IndianKanoon, SCC Online, and Manupatra for High Court and Supreme Court research. I need you to formulate advanced search queries for a specific legal proposition. Research objective: I need binding precedents on whether an arbitration clause in an unregistered lease deed is enforceable under the Arbitration and Conciliation Act, 1996 in light of the Indian Stamp Act and Registration Act. Please provide: (1) exact IndianKanoon Boolean query strings using operators (AND, OR, NEAR, quotation marks) to find Supreme Court and High Court judgments from 2015-2026, (2) 8-10 keyword combinations covering \"unregistered lease deed arbitration\", \"Section 11 unstamped document\", \"N.N. Global Mercantile\", \"Vidya Drolia\", (3) SCC Online query syntax using segment search (Court: SC, Year range, Headnote), (4) Manupatra free-text and citation-based queries, (5) list of 12 most relevant judgments anticipated including N.N. Global 7-judge bench, In Re Interplay between Stamp Act and Arbitration Act, Garware Wall Ropes, SMS Tea Estates, and Dharmaratnakara Trust, (6) filter strategies by date, bench strength, and overruled status, (7) citation note for brief. Format as a research plan document with query strings in monospace, database-wise breakdown, and expected outcome hypothesis. Advise on cross-verification across databases to ensure no binding precedent is missed.",
+      "tags": [
+        "case-research",
+        "indiankanoon",
+        "scc-online",
+        "arbitration",
+        "legal-research"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-010",
+      "title": "Written Submissions for Civil Appeal",
+      "prompt": "Act as a seasoned civil appellate advocate with 15 years experience before Rajasthan High Court at Jodhpur. I need you to draft written submissions for a first appeal under Section 96 CPC. Context: First appeal against a specific performance decree passed by Addl. District Judge, Jaipur on 20 October 2025 in Civil Suit No. 456/2019 directing my client Mr. Dinesh Agarwal to execute sale deed for agricultural land worth Rs. 2.3 crore. Grounds: plaintiff was not ready and willing, time was essence, sale consideration wasn't tendered, and the agreement was obtained by misrepresentation. Please provide: (1) index with paragraph-wise headings, (2) preliminary submissions and scope of appeal under Section 96, (3) point-wise issues framed by trial court with our position, (4) written submissions covering Section 16 Specific Relief Act readiness and willingness doctrine, (5) analysis of trial court's findings highlighting perversity and misreading of evidence, (6) discussion of Sardar Singh v. Krishna Devi, Umabai v. Nilkanth Dhondiba, and N.P. Thirugnanam v. Dr. R. Jagan Mohan Rao on readiness and willingness, (7) impact of 2018 amendments to Specific Relief Act, (8) prayer for setting aside decree and dismissal of suit, (9) list of authorities with pin citations. Format as written submissions with proper headings, paragraph numbers, and legible citation style. Target length 15-20 pages. Ensure arguments are structured from jurisdictional points to merits and reflect appellate court's limited interference threshold in concurrent findings.",
+      "tags": [
+        "written-submissions",
+        "civil-appeal",
+        "specific-performance",
+        "argument-structuring",
+        "high-court"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-011",
+      "title": "Oral Argument Structure for Bail Application",
+      "prompt": "Act as a criminal law practitioner with 12 years experience at Sessions Court and Bombay High Court handling bail matters. I need you to structure oral arguments for a regular bail application under Section 439 CrPC (Section 483 BNSS). Context: My client Mr. Rohit Mehta, a 32-year-old CA professional from Thane, was arrested on 5 March 2026 under Sections 420, 406, 120B IPC and Section 66D IT Act for alleged involvement in a Rs. 6 crore GST input tax credit fraud. He has been in judicial custody for 45 days, chargesheet not yet filed, no prior antecedents, deep roots in society. Please provide: (1) opening salutation and case reference for oral presentation, (2) skeleton arguments with 5 core bail points, (3) triple test framework application (flight risk, tampering, non-appearance), (4) citations ready to cite: Arnesh Kumar v. State of Bihar, Satender Kumar Antil v. CBI, Arnab Goswami v. State of Maharashtra, (5) rebuttal points for prosecution's likely objections, (6) offer of stringent conditions (surrender of passport, weekly attendance, bond amount Rs. 5 lakh with 2 sureties), (7) closing argument invoking presumption of innocence and bail-not-jail principle, (8) sequence of delivery with approximate time per argument for 20-minute hearing. Format as a litigator's argument notes with bullet points, key phrases to emphasize, and judgments indexed with pin cites. Ensure arguments flow logically from custody duration to merits to conditions.",
+      "tags": [
+        "bail-application",
+        "oral-arguments",
+        "section-439",
+        "criminal-defence",
+        "argument-structuring"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-012",
+      "title": "Client Consultation Notes Template",
+      "prompt": "Act as a litigation advocate with 8 years experience managing a chamber practice in Hyderabad with 200+ active matters. I need you to create a structured client consultation notes template for first-time consultations. Context: I handle civil, commercial, and matrimonial matters and need a standardized intake form to ensure nothing is missed during 45-minute initial consultations, to document advice given, and to serve as the foundation for the case file and brief. Please provide: (1) header section with date, time, referral source, client personal details, Aadhaar masking policy, and contact preferences, (2) dispute background section with chronological narrative prompts, (3) opposite party details and relationship, (4) documents reviewed checklist and copies taken, (5) limitation analysis box, (6) jurisdiction assessment grid, (7) likely legal remedies with pros/cons column, (8) risk assessment (1-5 scale) and probability of success estimate, (9) fee structure discussion notes with advance and stage-wise payment table, (10) next steps and action items with deadlines, (11) client signature on advice given disclaimer, (12) follow-up date and file number allocation, (13) confidentiality acknowledgement per BCI Rules Chapter II. Format as a printable A4 two-page template with fillable fields and checkboxes. Ensure it captures privilege-protected information correctly and complies with BCI Standards of Professional Conduct. Include a Telugu/Hindi translation note field since clients may prefer vernacular.",
+      "tags": [
+        "client-consultation",
+        "intake-form",
+        "chamber-practice",
+        "client-management",
+        "documentation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-013",
+      "title": "Fee Estimate Communication to Client",
+      "prompt": "Act as a commercial litigation advocate with 10 years experience at Gujarat High Court handling mid-value disputes. I need you to draft a professional fee estimate email to a corporate client. Context: Client is M/s Patel Ceramics Pvt Ltd, Morbi, engaging me for a Rs. 3.8 crore commercial dispute against a Delhi-based distributor under Commercial Courts Act before Ahmedabad Commercial Court. Matter involves pleadings, case management hearing, mediation under Section 12A, evidence, and final arguments over estimated 18-24 months. Please provide: (1) professional email with subject line and reference number, (2) scope of engagement clearly defined (pleadings, interim applications, evidence, arguments, appeal separately priced), (3) fee structure with options: (a) stage-wise lumpsum Rs. 8.5 lakh split across 5 milestones, (b) hourly retainer at Rs. 12,000/hour with estimate, (4) out-of-pocket expenses policy (court fees, process fees, travel, pagination, e-filing), (5) GST applicability at 18% under SAC 9982, (6) payment terms with advance Rs. 1.5 lakh and interest on delayed payment, (7) termination and refund policy, (8) conflict check confirmation, (9) engagement letter attachment reference, (10) disclaimer on outcome-based assurance per BCI rules prohibiting contingency fees. Format as formal client communication email, polite but firm, 400-500 words. Ensure compliance with BCI Rules against contingent fees and include invoice issuance protocol. The tone should convey value and expertise without being presumptuous.",
+      "tags": [
+        "fee-estimate",
+        "client-communication",
+        "engagement-letter",
+        "commercial-litigation",
+        "billing"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-014",
+      "title": "Case Status Update Email to Client",
+      "prompt": "Act as a litigation advocate with 9 years experience managing a busy trial court practice in Pune. I need you to draft a monthly case status update email to a client that is clear, non-technical, and reassuring. Context: Client Mr. Narayan Joshi has filed a partition suit against his 3 siblings for ancestral property worth Rs. 4.2 crore in Pune City Civil Court. The matter is at the evidence stage of plaintiff. In the last hearing on 8 April 2026, cross-examination of PW-1 (client himself) was completed and PW-2 (village accountant) was examined in chief. Next hearing is 15 May 2026 for cross-examination of PW-2. Please provide: (1) email subject with matter name and date, (2) warm professional greeting, (3) summary of what happened at the last hearing in plain language, (4) translation of any legal terminology used (cross-examination, exhibits, deposition), (5) next steps and what client needs to do before next date (witness preparation meeting, document gathering), (6) realistic timeline projection for evidence completion and final arguments, (7) cost update for the quarter, (8) disclaimer that court schedules are uncertain, (9) offer for in-person or video conferencing meeting, (10) reassuring but truthful closing. Format as a 300-400 word email in English with Marathi salutation option. Ensure compliance with BCI Rules on client communication and tone. Avoid over-promising outcomes while maintaining client confidence.",
+      "tags": [
+        "client-update",
+        "status-email",
+        "case-management",
+        "client-communication",
+        "litigation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-015",
+      "title": "Cross-Examination Prep for Bank Witness",
+      "prompt": "Act as a criminal defence advocate with 14 years experience handling Section 138 NI Act trials before Metropolitan Magistrate courts in Chennai. I need you to prepare a witness-specific cross-examination question bank for the complainant bank witness (PW-2) in a cheque dishonour trial. Context: Defending accused M/s Lakshmi Traders in Section 138 case filed by SBI Anna Salai branch for dishonoured cheque of Rs. 22 lakh. The bank officer will produce the dishonour memo, cheque returning memo, and signature verification records. Our defence: complainant had pledged the cheque as security, not as discharge of liability. Please provide: (1) preliminary questions establishing witness competence, duration at branch, familiarity with account, (2) questions on cheque handling procedure, register entries, and custody chain, (3) questions probing whether bank has any record of the underlying transaction or only the cheque presentation, (4) questions on signature verification methodology and whether the witness personally verified, (5) questions to elicit admission that bank cannot speak to the purpose for which cheque was issued, (6) questions on dishonour memo dating and delivery, (7) trap questions testing independent recollection versus record-based answers, (8) impeachment questions using bank's own RBI circulars on cheque clearing, (9) damage control questions in case of hostile answers. Format as a numbered list of 40-50 questions in sequence with notes on expected answers, follow-up branches, and exhibits to put to witness. Include warnings on impermissible leading questions in examination-in-chief. Ensure questions comply with Sections 137-146 of Indian Evidence Act (now BSA Sections 143-151).",
+      "tags": [
+        "cross-examination",
+        "section-138",
+        "witness-preparation",
+        "bank-witness",
+        "criminal-defence"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-016",
+      "title": "Cross-Examination of Medical Witness MACT",
+      "prompt": "Act as a motor accident claims advocate with 11 years experience at MACT and Delhi High Court handling compensation matters. I need you to prepare a cross-examination question bank for the treating doctor witness in a MACT claim. Context: Defending an insurance company in a MACT claim of Rs. 85 lakh filed by injured claimant Mr. Mukesh Kumar who allegedly suffered 70% permanent disability in an accident on NH-24. Treating orthopaedic surgeon from Fortis Hospital will depose about injuries, treatment, disability certificate, and future medical needs. Insurance defence: exaggerated disability, pre-existing conditions, and inflated treatment costs. Please provide: (1) qualification and experience questions to gauge specialization, (2) questions on first examination, admission papers, and casualty records, (3) probing questions on mechanism of injury consistency with accident description, (4) questions on disability assessment methodology, use of Mehta Committee criteria, and percentage determination, (5) questions on whether ICD codes, X-ray, CT, MRI images were personally reviewed, (6) questions on pre-existing arthritis, diabetes, or conditions contributing to disability, (7) questions on future medical expenses basis and prescription records, (8) questions testing whether disability certificate issued as per Gazette notification, (9) questions on loss of earning capacity versus functional disability distinction per Raj Kumar v. Ajay Kumar, (10) strategic exit questions. Format as 40-45 numbered questions with expected admissions, danger zones, and judgments to be put to witness. Ensure questions align with Bhawani Kashyap and National Insurance v. Pranay Sethi principles on compensation assessment.",
+      "tags": [
+        "cross-examination",
+        "mact",
+        "medical-witness",
+        "insurance-defence",
+        "motor-accident"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-017",
+      "title": "Bail Application Drafting Under Section 439",
+      "prompt": "Act as a criminal defence counsel with 10 years experience before Sessions Courts and Punjab & Haryana High Court. I need you to draft a regular bail application under Section 439 CrPC (Section 483 BNSS) for an economic offence accused. Context: Accused Mr. Harpreet Singh Arora (age 48, resident of Chandigarh, businessman) was arrested on 2 March 2026 in FIR No. 145/2026 at EOW Chandigarh under Sections 420, 406, 467, 468, 471 IPC and Section 13 PC Act for alleged financial irregularities of Rs. 12 crore in a cooperative bank. He has been in custody for 52 days. Please provide: (1) cause title with court details and case number, (2) paragraph-wise averments: arrest particulars, nature of offence, custody period, (3) grounds for bail: no likelihood of absconding, local resident, cooperative investigation, no tampering risk as evidence is documentary, (4) medical grounds if applicable including diabetes and cardiac condition, (5) family responsibilities and standing in society, (6) reliance on Satender Kumar Antil v. CBI categories, P. Chidambaram v. Directorate of Enforcement, Sanjay Chandra v. CBI, (7) undertaking to abide by conditions, (8) prayer clause, (9) verification and affidavit, (10) list of documents. Format as complete bail application with proper court format, 8-12 pages. Ensure compliance with Section 437-439 CrPC, Punjab & Haryana HC Rules, and Chandigarh district court filing protocol. Include prayer for interim protection from coercive action if any related FIRs exist.",
+      "tags": [
+        "bail-application",
+        "section-439",
+        "economic-offence",
+        "petition-drafting",
+        "criminal-defence"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-018",
+      "title": "Quash Petition Under Section 482 CrPC",
+      "prompt": "Act as a criminal law practitioner with 13 years experience at Bombay High Court handling quashing petitions. I need you to draft a petition under Section 482 CrPC (now Section 528 BNSS) for quashing of FIR. Context: My client Ms. Deepa Ramachandran (senior manager, Andheri East) has been falsely implicated in FIR No. 89/2026 at Oshiwara Police Station under Sections 420, 406, 506 IPC by her former business partner over a civil commercial dispute of Rs. 45 lakh. The transaction is purely contractual, recorded in a written agreement with arbitration clause, and the complaint is a pressure tactic. Please provide: (1) cause title, synopsis, list of dates, (2) facts demonstrating purely civil nature of dispute, (3) legal grounds invoking State of Haryana v. Bhajan Lal (1992) seven categories, (4) reliance on Binod Kumar v. State of Bihar, Paramjeet Batra v. State of Uttarakhand, Thermax v. K.M. Johny on civil dress as criminal case, (5) demonstration of absence of mens rea and essential ingredients of cheating under Section 415 IPC, (6) argument that arbitration clause covers the dispute, (7) prejudice and abuse of process plea, (8) prayer for quashing and interim stay on investigation, (9) list of documents including FIR copy, agreement, statements. Format as a complete writ petition under Article 226/227 read with Section 482 CrPC, 15-20 pages. Ensure the petition clearly establishes that no offence is prima facie made out and continuation would be abuse of process. Include Randheer Singh v. State of UP on caution in quashing serious offences.",
+      "tags": [
+        "section-482",
+        "quash-petition",
+        "fir-quashing",
+        "bhajan-lal",
+        "criminal-defence"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-019",
+      "title": "Anticipatory Bail Application Drafting",
+      "prompt": "Act as a criminal defence advocate with 9 years experience at Patna High Court handling anticipatory bail matters. I need you to draft an application under Section 438 CrPC (Section 482 BNSS) for anticipatory bail. Context: Apprehension of arrest by applicant Mr. Vivek Kumar, a teacher in Gaya, in a suo motu complaint regarding an alleged dowry harassment case under Sections 498A, 323, 506 IPC and Sections 3/4 Dowry Prohibition Act being investigated by Gaya Mahila Thana. No FIR registered yet but police have summoned the applicant 3 times over last 15 days. Applicant denies all allegations as counter-blast to pending divorce petition filed by him. Please provide: (1) application format for High Court, (2) paragraphs establishing apprehension of arrest with evidentiary support, (3) factual background including pendency of matrimonial dispute, (4) grounds including Arnesh Kumar guidelines, Rajesh Sharma v. State of UP on 498A safeguards, Social Action Forum v. Union of India, (5) Sushila Aggarwal v. State NCT of Delhi on duration of anticipatory bail, (6) willingness to cooperate with investigation and terms, (7) family ties, no antecedents, no flight risk, (8) prayer for interim protection pending disposal, (9) undertaking clause, (10) affidavit. Format as complete application with proper headings, paragraph numbers, and annexures. Ensure compliance with Section 438 CrPC, 2018 amendments, and Patna HC Rules. Include reference to Notification excluding 498A from automatic arrest without preliminary inquiry and police standing orders on matrimonial cases. Reference latest Gauhati HC and SC judgments on anticipatory bail duration.",
+      "tags": [
+        "anticipatory-bail",
+        "section-438",
+        "498a",
+        "matrimonial-defence",
+        "petition-drafting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-020",
+      "title": "Cross-Examination of Handwriting Expert",
+      "prompt": "Act as a civil litigation advocate with 12 years experience handling document forgery disputes before Calcutta High Court. I need you to prepare cross-examination questions for a handwriting expert witness produced by the opposite party. Context: In a civil suit for cancellation of a sale deed dated 15 June 2019 for Rs. 1.8 crore property in Salt Lake, plaintiff claims signatures were forged. Opposite party has produced Government Examiner of Questioned Documents from Kolkata office who has opined signatures are genuine. We need to impeach this report. Please provide: (1) qualification questions on forensic training, courses, publications, (2) questions on standards used (natural variation, slant, pen pressure, terminal strokes), (3) questions on quality and quantity of standard specimen signatures compared, (4) questions on whether contemporaneous specimens were used or only later samples, (5) questions on equipment used (VSC, microscope, digital analysis), (6) probing questions on subjectivity in opinion and known error rates in handwriting science, (7) questions on whether disguised or simulated signatures were considered, (8) questions on Murari Lal v. State of MP on corroboration requirement, (9) questions raising doubt on chain of custody of documents, (10) exit questions on certainty level and possibility of alternative conclusion. Format as 40 numbered questions with anticipated answers and follow-up branches. Ensure questions test both the methodology and the conclusions under Sections 45, 47 Indian Evidence Act (now BSA Sections 39, 47) and align with Shashi Kumar Banerjee v. Subodh Kumar Banerjee principles on expert evidence weightage.",
+      "tags": [
+        "cross-examination",
+        "handwriting-expert",
+        "forgery",
+        "expert-witness",
+        "civil-litigation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-021",
+      "title": "Legal Opinion on Property Title",
+      "prompt": "Act as a property law advocate with 15 years experience issuing title reports for residential and commercial transactions in Bengaluru. I need you to draft a comprehensive legal opinion on property title. Context: Opinion sought by client M/s Prestige Finance Ltd for a Rs. 2.5 crore home loan application. Property is a 2400 sq ft residential flat in a builder apartment complex at Whitefield, Bengaluru. 30-year title chain from 1994 Gift Deed to 2024 Sale Deed via 4 transfers. Documents provided: mother deed, subsequent conveyances, khata, EC from 1994, RTC, BBMP approval, OC, sanctioned plan. Please provide: (1) title report header with property schedule and address, (2) flow of title in chronological table showing each transfer, (3) examination of each deed for stamp duty, registration, execution, (4) verification of 30-year EC and identification of any encumbrances, (5) analysis of BBMP khata transfer, property tax payments, (6) OC and sanctioned plan scrutiny for deviations, (7) applicable RERA registration status, (8) clearance checklist under Karnataka Stamp Act, Transfer of Property Act, and Registration Act, (9) identified risks, missing links, or red flags, (10) opinion paragraph with categorical view (clear/marketable/conditional), (11) recommendations for indemnity, vendor declarations, or additional documents. Format as a professional title opinion letter on letterhead, 6-8 pages. Ensure opinion addresses succession issues, latent defects, and complies with SBI/HDFC lender format requirements. Include disclaimer on scope and liability.",
+      "tags": [
+        "title-opinion",
+        "property-law",
+        "due-diligence",
+        "home-loan",
+        "legal-opinion"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-022",
+      "title": "Written Statement in Civil Suit",
+      "prompt": "Act as a civil litigation advocate with 11 years experience handling defences in money recovery suits before City Civil Court, Mumbai. I need you to draft a written statement under Order VIII CPC. Context: My client M/s Konkan Exports is sued by M/s Surat Silk Mills for recovery of Rs. 72 lakh towards alleged outstanding invoice dues for textile supply between 2022-2023. Our defence: goods were defective, counter-claim for refund and damages exists, part payment already made, and suit is time-barred for some invoices. Please provide: (1) cause title matching the plaint, (2) preliminary objections including limitation, misjoinder, and absence of cause of action, (3) paragraph-wise denial of each plaint averment (admitted, denied, not within knowledge), (4) affirmative pleadings on defective goods, inspection reports, and rejected delivery, (5) part payment details with bank statements, (6) plea of limitation under Article 14/15 of Limitation Act for time-barred invoices, (7) counter-claim under Order VIII Rule 6A CPC for Rs. 35 lakh towards losses suffered, (8) prayer for dismissal of suit and decree on counter-claim, (9) verification clause, affidavit, list of documents, statement of truth. Format as a complete written statement with proper paragraph numbering mirroring the plaint structure, 15-20 pages. Ensure compliance with Order VIII Rules 1-10 CPC including 30/90-day limit for filing, and Commercial Courts Act provisions if applicable. Include specific denial language to avoid deemed admissions per Order VIII Rule 5.",
+      "tags": [
+        "written-statement",
+        "order-viii-cpc",
+        "civil-defence",
+        "counter-claim",
+        "drafting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-023",
+      "title": "Case Brief Summary for Senior Counsel",
+      "prompt": "Act as a junior advocate with 5 years experience at a senior counsel's chamber in Delhi preparing briefs for court hearings. I need you to create a case brief summary for my senior's 15-minute review before a Supreme Court matter. Context: Senior has to argue a civil appeal at 2 PM before a 2-judge bench on constitutional validity of a UP state law regulating private educational institutions. My brief must give the senior complete command of facts, grounds, authorities, and anticipated bench questions. Please provide: (1) one-page case snapshot with parties, court, case number, date of hearing, coram, (2) 5-bullet factual background, (3) questions of law framed, (4) chronology of proceedings in brackets, (5) 5 strongest grounds with pin-cite authorities, (6) opposite party's likely arguments and our rebuttals, (7) judgments to cite with ratio in one line each (max 12 cases), (8) judgments to distinguish, (9) anticipated bench questions with suggested answers, (10) relief sought and alternative prayers, (11) index of paper book with page references, (12) sensitive points requiring senior's caution. Format as a 4-page brief in 11pt font with clear headings, ready for printed folder. Ensure brief distils a 200-page paper book into actionable arguments. Follow conventions of Chambers of Fali Nariman, KK Venugopal, and Rohinton Nariman in brief preparation. Include time allocation for each argument during the 20-minute slot.",
+      "tags": [
+        "case-brief",
+        "senior-counsel",
+        "supreme-court",
+        "chamber-practice",
+        "briefing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-024",
+      "title": "Interim Injunction Application Order XXXIX",
+      "prompt": "Act as a civil practitioner with 10 years experience before Delhi High Court handling commercial IP disputes. I need you to draft an application for ad-interim injunction under Order XXXIX Rules 1 and 2 CPC. Context: My client M/s Spice Kitchen Pvt Ltd, owner of registered trademark \"ZAIKA\" for ready-to-cook masalas, seeks injunction against M/s Zaika Foods (Delhi) which launched similar packaging in March 2026 causing confusion. Trademark class 30, registered since 2018, turnover Rs. 40 crore. Please provide: (1) cause title and reference to main suit, (2) facts establishing plaintiff's rights, registration, and reputation, (3) defendant's infringing activities with dates and evidence, (4) three-fold test pleading: prima facie case, balance of convenience, irreparable injury, (5) proximity of marks analysis using visual, phonetic, conceptual comparison, (6) reliance on Gujarat Bottling v. Coca Cola, Dalpat Kumar v. Prahlad Singh, Cadila Health Care v. Cadila Pharmaceuticals, (7) prayer for ex-parte ad-interim and ad-interim injunction, (8) undertaking on damages under Order XXXIX Rule 2(4), (9) affidavit in support, (10) list of documents including registration certificate, comparison charts, market surveys. Format as complete IA with proper numbering, 8-10 pages. Ensure compliance with Order XXXIX CPC, Delhi HC IPD Rules 2022, and Commercial Courts Act. Include specific prayer for John Doe injunction if defendant's addresses are incomplete. Reference Warner Bros v. Harinder Kohli on standard for ex-parte relief.",
+      "tags": [
+        "interim-injunction",
+        "order-xxxix",
+        "trademark",
+        "commercial-courts",
+        "ip-litigation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-025",
+      "title": "Arbitration Notice Under Section 21",
+      "prompt": "Act as a commercial arbitration practitioner with 12 years experience handling domestic arbitrations for construction and IT contracts. I need you to draft a notice invoking arbitration under Section 21 of the Arbitration and Conciliation Act, 1996. Context: My client M/s Bharat Infratech Ltd has a dispute with M/s Coastal Builders over a Rs. 18 crore road construction sub-contract executed in 2023 in Goa. Disputes concern delayed payment of 4 running bills totalling Rs. 3.2 crore, wrongful termination, and forfeiture of performance bond. Contract contains a Clause 25 arbitration agreement with seat at Mumbai, 3-arbitrator tribunal. Please provide: (1) notice on letterhead with reference number, (2) recital of contract and arbitration clause, (3) chronological narration of disputes and breaches, (4) specific claims: unpaid running bills with interest, damages for wrongful termination, return of performance bond, and costs, (5) invocation of arbitration under Section 21 with effective date, (6) proposal for sole arbitrator or panel with nomination, (7) 30-day period to respond and agree on tribunal constitution, (8) reservation of right to approach High Court under Section 11 if no agreement, (9) cause of action and limitation compliance, (10) list of documents. Format as a formal Section 21 notice with numbered paragraphs, 6-8 pages. Ensure compliance with 2015 and 2019 amendments to the Act, BALCO v. Kaiser Aluminium on seat, and Bharat Aluminium principles. Reference NN Global judgment on arbitration clause validity and registration. Ensure notice triggers limitation stopping under Section 21.",
+      "tags": [
+        "arbitration",
+        "section-21",
+        "adr",
+        "commercial-disputes",
+        "notice-drafting"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-026",
+      "title": "Rejoinder to Written Statement",
+      "prompt": "Act as a civil litigation lawyer with 9 years experience at District Court Dwarka, Delhi. I need you to draft a rejoinder/replication to a written statement filed in a specific performance suit. Context: My client Ms. Sonia Kapoor has sued Mr. Vinod Malhotra for specific performance of an Agreement to Sell dated 12 January 2024 for a residential plot in Dwarka Sector 18 worth Rs. 1.6 crore with Rs. 40 lakh advance paid. Defendant's written statement raises defences: the agreement is time-barred, plaintiff wasn't ready and willing, agreement was obtained under coercion, and receipt was forged. Please provide: (1) cause title matching the suit, (2) preliminary submissions rebutting jurisdictional and limitation objections, (3) paragraph-wise rejoinder mirroring the WS structure, denying new averments and supporting plaint, (4) affirmative rebuttal of coercion plea with evidentiary support, (5) documentary evidence establishing readiness and willingness (bank statements, loan sanction, reminder letters), (6) explanation for delay if any and invocation of Section 16(c) Specific Relief Act, (7) citation of N.P. Thirugnanam and U.N. Krishnamurthy on continuous readiness, (8) denial of forgery with signature comparison offer, (9) prayer, verification, and affidavit. Format as complete rejoinder with paragraph numbering, 10-12 pages. Ensure compliance with Order VIII Rule 9 CPC (no new facts beyond replication), Delhi HC Rules, and 2018 SRA amendments mandating specific performance as general rule. Maintain pleadings discipline to avoid contradicting the original plaint.",
+      "tags": [
+        "rejoinder",
+        "replication",
+        "specific-performance",
+        "civil-drafting",
+        "pleadings"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-027",
+      "title": "Legal Research on Limitation Period",
+      "prompt": "Act as a litigation research associate with 5 years experience in civil and commercial matters. I need you to conduct a structured legal research and prepare a note on limitation period for a specific scenario. Research question: What is the limitation period for filing a suit for recovery of money based on a written acknowledgement of debt in an email, where the original debt arose in 2019 and email acknowledgement was sent on 15 November 2023? Jurisdiction: Commercial Court, Mumbai. Please provide: (1) research methodology listing databases queried (IndianKanoon, SCC Online, Manupatra) and search terms, (2) applicable provisions: Article 14/19/52 Limitation Act 1963, Section 18 Limitation Act, Section 65B Evidence Act on electronic records (now BSA Section 63), (3) judgments analysis covering Shapoor Freedom Mazda v. Durga Prasad, Tilak Ram v. Nathu, and recent HC judgments on email as acknowledgement, (4) Information Technology Act provisions on legal validity of electronic communications, (5) application to facts with limitation calculation, (6) counter-arguments opponent may raise, (7) conclusion with confidence level (high/medium/low), (8) risks and alternative scenarios, (9) bibliography with pin citations. Format as an internal research memo, 6-8 pages with footnotes. Ensure the note addresses whether unsigned email amounts to signed acknowledgement under Section 18 read with IT Act 2000. Reference Trimex International v. Vedanta Alumina on electronic acceptance and Kotak Mahindra Bank v. A. Balakrishnan on limitation for IBC purposes vs civil suit.",
+      "tags": [
+        "legal-research",
+        "limitation-act",
+        "section-18",
+        "email-acknowledgement",
+        "research-memo"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-028",
+      "title": "Vakalatnama and Engagement Letter",
+      "prompt": "Act as an advocate enrolled with Bar Council of Maharashtra with 7 years experience drafting client engagement documents. I need you to create a comprehensive vakalatnama and engagement letter package. Context: Engaging M/s Deccan Pharma Ltd for a trademark infringement suit before Bombay High Court (Commercial Division). The matter involves pleadings, interim applications, hearings, and appeal if needed. Estimated 18 months. Please provide: (1) vakalatnama in Form 1 as per Bombay HC Rules with court name, case number (to be assigned), parties, my BCI enrolment number, signatures, and affixture of court fee stamp, (2) engagement letter on letterhead covering: scope of work, exclusions, (3) fee structure with advance Rs. 2 lakh, stage-wise milestone payments totalling Rs. 9 lakh, appearance fees, (4) out-of-pocket expenses policy, (5) GST clause at 18%, SAC 9982, (6) conflict check declaration, (7) privileged communication and confidentiality clauses per BCI Rules, (8) termination and refund policy, (9) dispute resolution clause, (10) file retention and destruction policy (7 years), (11) client responsibilities (instructions, documents, appearances), (12) no-assurance of outcome disclaimer, (13) signature blocks with witness. Format as two documents: one-page vakalatnama and 4-page engagement letter. Ensure compliance with Advocates Act 1961, BCI Rules Chapter II on professional conduct, and Maharashtra Stamp Act on vakalatnama stamping requirements. Include a copy retention and board resolution requirement for corporate clients.",
+      "tags": [
+        "vakalatnama",
+        "engagement-letter",
+        "client-onboarding",
+        "bci-rules",
+        "professional-conduct"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-029",
+      "title": "Argument Structure for 498A Defence",
+      "prompt": "Act as a matrimonial and criminal defence advocate with 13 years experience at Karnataka courts handling 498A cases. I need you to structure comprehensive defence arguments for a Section 498A IPC (now Section 85/86 BNS) trial at Magistrate court. Context: My client Mr. Ashok Reddy is accused in FIR No. 67/2025 at Jayanagar Women's Police Station, Bengaluru filed by wife alleging dowry harassment of Rs. 10 lakh cash, gold, and car. Marriage in 2021, wife left in August 2024 after husband filed divorce petition. Charge sheet filed under Sections 498A, 406, 506 IPC and Sections 3/4 DP Act. Trial at stage of defence evidence. Please provide: (1) opening argument framework establishing counter-blast nature, (2) chronology chart showing divorce petition precedes 498A by 3 months, (3) legal defence on essential ingredients of 498A (cruelty definition per Explanation), (4) documentary defence using chat records, family photos, joint bank statements showing cordial relations, (5) demolition of prosecution case on vague and omnibus allegations per Rajesh Sharma v. State of UP, Preeti Gupta v. State of Jharkhand, (6) specific challenges to dowry allegations invoking Kans Raj v. State of Punjab, (7) Section 406 entrustment defence and stridhan law, (8) use of witnesses' cross-examination contradictions, (9) closing argument on benefit of doubt, (10) alternative plea for compounding under 498A compromise. Format as structured trial argument notes with section headings and authorities. Ensure arguments comply with Arnesh Kumar guidelines on arrest and reference Social Action Forum v. Union of India on safeguards preserved post-2018.",
+      "tags": [
+        "498a-defence",
+        "argument-structuring",
+        "criminal-defence",
+        "matrimonial",
+        "trial-advocacy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-030",
+      "title": "Cross-Examination Prep for Hostile Witness",
+      "prompt": "Act as a public prosecutor with 14 years experience handling criminal trials at Sessions Court, Jaipur. I need you to prepare cross-examination strategy for a prosecution eye-witness who has turned hostile during examination-in-chief. Context: Murder trial under Section 302 IPC where PW-5 Mr. Jagdish (deceased's neighbour) was the only eye-witness who gave detailed statement under Section 161 CrPC to IO identifying accused. During chief examination, he denied witnessing the incident and said he was elsewhere. I need to cross-examine him under Section 154 Evidence Act (now BSA Section 157). Please provide: (1) immediate procedural request to court for declaring witness hostile and permission to cross-examine, (2) confrontation strategy using Section 161 statement, (3) questions to establish proximity to crime scene with documentary proof (mobile tower data, CCTV), (4) questions probing motives for turning hostile (threats, money, relationship with accused), (5) questions to elicit admissions on specific details only an eyewitness would know, (6) questions on inconsistency between pre-trial statement and court testimony, (7) strategy to use prior statement as substantive evidence under Sakharam v. State per Bhagwan Singh v. State of Haryana, (8) Khujji v. State of MP on weightage to hostile testimony, (9) follow-up on any admissions salvaged, (10) submissions to court on drawing adverse inference. Format as strategic trial notes with numbered question sequences, expected branches, and relevant judgments. Ensure approach complies with Section 154 Evidence Act, BSA 2023 provisions, and Lalu Manjhi v. State of Jharkhand on hostile witness evidence evaluation.",
+      "tags": [
+        "cross-examination",
+        "hostile-witness",
+        "section-154-evidence",
+        "prosecution",
+        "trial-advocacy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-031",
+      "title": "Consumer Notice for Insurance Repudiation",
+      "prompt": "Act as a consumer protection advocate with 8 years experience before National Consumer Disputes Redressal Commission and State Commissions. I need you to draft a pre-litigation legal notice to an insurance company for wrongful repudiation of a mediclaim. Context: My client Mrs. Anjali Verma, 54, from Noida, holds a Star Health family floater policy of Rs. 15 lakh sum insured, premium Rs. 32,000 annually, with 6-year continuous renewal. Her cashless claim of Rs. 7.8 lakh for cardiac surgery at Medanta was repudiated on 20 March 2026 citing \"pre-existing condition not disclosed\". She had only routine hypertension which was disclosed at policy inception. Please provide: (1) notice on advocate letterhead with policy number, (2) factual chronology of policy issuance, renewals, hospitalization, and repudiation, (3) legal grounds challenging repudiation: Section 45 Insurance Act 1938 on 3-year incontestability clause, IRDAI Health Insurance Regulations 2016, (4) citations from United India Insurance v. Manubhai Dharmasinhbhai Gajera, Satwant Kaur Sandhu v. New India Assurance, Dharmendra Goel v. Oriental Insurance on deemed disclosure and repudiation standards, (5) demand for claim sanction, interest at 12% p.a. under IRDAI guidelines, compensation for mental agony, (6) intimation of complaint before Gautam Budh Nagar District Commission, (7) 15-day response window, (8) list of documents. Format as formal legal notice with numbered paragraphs, 4-6 pages. Ensure compliance with Consumer Protection Act 2019 and IRDAI Protection of Policyholders Interests Regulations 2017. Include reference to Canara HSBC OBC Life Insurance v. Vishal Jain on burden of proof for concealment.",
+      "tags": [
+        "insurance-repudiation",
+        "mediclaim",
+        "legal-notice",
+        "consumer-protection",
+        "irdai"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-032",
+      "title": "Caveat Petition Drafting",
+      "prompt": "Act as a litigation advocate with 7 years experience at Bombay High Court handling interim applications. I need you to draft a caveat petition under Section 148A CPC. Context: My client M/s Aranya Realty Developers has reason to believe that a former sub-contractor M/s Bharat Constructions may approach the Bombay HC seeking ex-parte interim injunction to restrain my client from operating bank accounts or selling under-construction inventory at Thane project (Rs. 85 crore value). There is an ongoing arbitration and the sub-contractor is aggrieved. Please provide: (1) caveat petition format for Bombay HC, (2) cause title with anticipated petitioner and my client as caveator, (3) paragraph-wise averments: description of parties, anticipated proceedings, apprehension basis, prior correspondence, (4) prayer under Section 148A(1) CPC for notice before any interim relief is granted, (5) undertaking to accept service, (6) listing of potential IA types (injunction, attachment before judgment, receivership), (7) 90-day validity and renewal clause, (8) affidavit, (9) court fee calculation, (10) authorization if filed by advocate. Format as concise 3-4 page caveat petition. Ensure compliance with Section 148A CPC, Bombay HC OS/OOCJ rules, and case law including Siddharthbhai Chhotalal Parikh v. Chhotalal Keshavlal Parikh on caveat scope. Include practical note on filing multiple caveats across potential forums (City Civil Court, HC Original and Appellate Sides, Commercial Division).",
+      "tags": [
+        "caveat-petition",
+        "section-148a-cpc",
+        "interim-protection",
+        "drafting",
+        "civil-procedure"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-033",
+      "title": "Reply to Legal Notice Strategy",
+      "prompt": "Act as a commercial litigation advocate with 10 years experience handling pre-litigation correspondence in Gurgaon. I need you to draft a detailed reply to a legal notice received by my client. Context: My client M/s Skyline Apparel Pvt Ltd received a legal notice dated 5 April 2026 from counsel for M/s Rapid Logistics Ltd claiming Rs. 47 lakh towards alleged unpaid freight charges for 2024-25 with threat of Section 138 complaint (3 cheques issued as security) and civil suit. Our position: freight charges are disputed due to damaged goods worth Rs. 22 lakh, cheques were pledged as security only, and partial payments were already made. Please provide: (1) reply notice format on letterhead with reference to notice received, (2) preliminary objections on vague and exaggerated claims, (3) para-wise denial or qualified admission of each assertion in the notice, (4) narration of defective delivery with photographs and internal mail chain, (5) legal position on security cheques citing Sampelly Satyanarayana Rao v. Indian Renewable Energy Development Agency, Sripati Singh v. State of Jharkhand on debt/liability, (6) position on acknowledgement of partial payment, (7) counter-claim pleaded as set-off, (8) refusal to accept the threatened Section 138 complaint and willingness to defend, (9) reservation of legal rights and offer of mediation, (10) without prejudice tag and strict recipient-only distribution. Format as a robust reply notice, 6-8 pages. Ensure the reply preserves all defences for litigation, avoids inadvertent admissions, and complies with BCI Rules on notice correspondence. Reference Dalmia Cement Bharat Ltd v. Galaxy Trades on reply notice evidentiary value.",
+      "tags": [
+        "reply-notice",
+        "pre-litigation",
+        "section-138",
+        "notice-drafting",
+        "client-defence"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-034",
+      "title": "Chamber Management SOP for Junior Advocates",
+      "prompt": "Act as a senior advocate with 20 years experience at Madras High Court managing a chamber with 6 juniors and 150 active matters. I need you to draft a Standard Operating Procedure document for chamber management covering case allocation, drafting review, court appearances, and client communication. Please provide: (1) daily workflow SOP starting from 8 AM chamber briefing, hearing board review, drafting allocations, (2) case allocation matrix based on seniority (16B/16I/16A) and matter complexity, (3) drafting review protocol: 3-tier review (associate, senior junior, senior advocate) with turnaround time, (4) court dress code and conduct as per BCI Rules, (5) client meeting protocol (attendance by junior, note taking, follow-up email within 24 hours), (6) file management system with physical and digital copies, indexing, and backup, (7) hearing attendance rules: dress code, mentioning, seating, note-taking, (8) research assignment protocol with 48-hour turnaround, (9) monthly performance review criteria, (10) training calendar (moots, drafting workshops, guest lectures), (11) stipend structure, leave policy, (12) confidentiality and conflict of interest declarations, (13) mentorship framework and exit policy. Format as a 10-page SOP document with clear headings, checklists, and template references. Ensure compliance with BCI Rules on professional conduct, Advocates Act 1961 on practice, and Chamber ethics. Include specific note on senior-junior dynamics, expectation setting, and grievance redressal to retain talent in a competitive Chennai legal market.",
+      "tags": [
+        "chamber-management",
+        "sop",
+        "junior-advocates",
+        "practice-management",
+        "professional-conduct"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-035",
+      "title": "Compilation of Judgments for Hearing",
+      "prompt": "Act as a litigation researcher and junior advocate with 4 years experience at Delhi High Court preparing case compilations for hearings. I need you to prepare a compilation of judgments for a civil matter hearing. Context: Final hearing scheduled on 22 May 2026 in a property partition suit before Delhi HC Single Bench. Issues: coparcenary rights of daughters post-2005 amendment, limitation for partition, benami transaction, oral partition plea. Senior counsel needs a compilation with clean indexing. Please provide: (1) cover page with case name, number, court, date, parties, coram, (2) table of cases index with serial number, case name, citation, pin cite relevant to issue, page number, (3) topic-wise grouping: (a) daughters as coparceners - Vineeta Sharma v. Rakesh Sharma, Prakash v. Phulavati, (b) limitation for partition - K.K. Modi v. K.N. Modi, Anil Rishi v. Gurbaksh Singh, (c) benami law - Shyam Narayan Prasad v. Krishna Prasad, Binapani Paul, (d) oral partition - Digamber Adhar Patil v. Devram Girdhar Patil, (4) proper pagination with each judgment opening on a fresh page, (5) headnote highlights with relevant paragraphs marked, (6) brief note at start of each judgment explaining relevance (3-4 lines), (7) citation format check (SCC, AIR, Supreme, Bombay), (8) statutory compilation appendix with Hindu Succession Act, Benami Act, Limitation Act relevant provisions, (9) index of judgments cited by opposite side for distinguishing. Format as a bound compilation table of contents and instructions, ready for printing and service. Ensure compliance with Delhi HC Rules on paper books and compilation format. Include file name convention for digital copies.",
+      "tags": [
+        "case-compilation",
+        "court-preparation",
+        "judgments",
+        "junior-work",
+        "paper-book"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-036",
+      "title": "Cross-Examination Prep Investigating Officer",
+      "prompt": "Act as a criminal defence counsel with 15 years experience at Sessions Court and Karnataka HC handling defence in NDPS cases. I need you to prepare cross-examination questions for the Investigating Officer (IO) in an NDPS Section 20 trial. Context: My client Mr. Imran Khan is accused of possession of 4.2 kg ganja at Majestic Bus Stand, Bengaluru. Trial stage: cross-examination of PW-8 (IO, Sub-Inspector). Defence: recovery procedure violation, non-compliance with Section 42/50 NDPS Act, chain of custody issues, and false implication. Please provide: (1) qualification and investigation assignment questions, (2) questions on Section 42 information recording and supervisor communication, (3) questions on Section 50 option to be searched before Gazetted Officer/Magistrate and proof, (4) questions on independent witnesses (panchas) - whether locals or stock witnesses, relationship with police, (5) questions on seizure memo preparation, contents, and witness signatures, (6) questions on weighing, sampling, sealing procedures per Standing Orders and NDPS Rules, (7) chain of custody from seizure to FSL to court exhibit, (8) timeline of FIR registration and delay, (9) questions on case diary entries and discrepancies, (10) questions on FSL test method and quantification, (11) confrontation using Toofan Singh v. State of Tamil Nadu (statement under Section 67), Union of India v. Bal Mukund on NDPS procedure. Format as 50-60 sequential questions with expected answers, follow-up branches, and exhibits to mark. Ensure questions align with Vijaysinh Chandubha Jadeja v. State of Gujarat on mandatory compliance and Mohanlal v. State of Punjab on sampling.",
+      "tags": [
+        "cross-examination",
+        "ndps",
+        "investigating-officer",
+        "criminal-defence",
+        "toofan-singh"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-037",
+      "title": "Compromise Petition Drafting",
+      "prompt": "Act as a civil and criminal advocate with 11 years experience handling settlement documentation at Delhi District Courts. I need you to draft a compromise petition under Section 320 CrPC read with Order XXIII Rule 3 CPC. Context: Parties in a matrimonial dispute including pending Section 498A FIR, Section 125 CrPC maintenance petition, and HMA Section 13 divorce petition have agreed to mutual divorce and withdrawal of criminal case. Husband Mr. Karan Bhatia and wife Mrs. Nidhi Bhatia have agreed: one-time alimony of Rs. 18 lakh, return of stridhan, no child involved, quashing of 498A FIR, and withdrawal of all proceedings. Please provide: (1) cause title linking all proceedings (matrimonial, criminal, maintenance), (2) paragraph-wise recitation of facts and prior proceedings, (3) terms of settlement with numbered clauses covering alimony payment schedule (DD at signing, Balance on decree), stridhan list, 498A quashing undertaking, (4) mutual releases and no future claims covenant, (5) confidentiality clause, (6) provision for Section 13B HMA mutual divorce petition and waiver of cooling period citing Amardeep Singh v. Harveen Kaur, (7) joint request for quashing of 498A FIR per Gian Singh v. State of Punjab, (8) signatures of parties with identification, (9) counsel endorsement, (10) affidavit of voluntariness and absence of coercion, (11) schedule of documents. Format as a court-ready compromise petition, 6-8 pages, suitable for simultaneous filing before concerned forums. Ensure compliance with Section 13B HMA, Section 320 CrPC compoundable list, and Rajesh Sharma guidelines. Include clause preserving settlement even if one forum delays.",
+      "tags": [
+        "compromise-petition",
+        "mutual-divorce",
+        "498a-quashing",
+        "settlement",
+        "matrimonial"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-038",
+      "title": "Legal Notice for Partnership Dissolution",
+      "prompt": "Act as a commercial law advocate with 12 years experience handling partnership and LLP disputes in Ahmedabad. I need you to draft a legal notice under the Indian Partnership Act, 1932 for dissolution and accounts. Context: My client Mr. Rakesh Mehta is a 40% partner in M/s Mehta & Shah Traders (textile wholesale, Ring Road, Surat), a partnership at will formed in 2015 with Mr. Dilip Shah (60%). Since October 2025, Mr. Shah has been excluding my client from business decisions, manipulating accounts, refusing to share books, and drawing excess remuneration. Annual turnover Rs. 12 crore. Client wants dissolution and accounts. Please provide: (1) notice on letterhead with reference, (2) recitation of partnership deed terms and relationship, (3) chronology of breaches: denial of access, account manipulation, excess drawings, (4) invocation of Section 40 (dissolution by agreement if possible), Section 43 (dissolution of partnership at will by notice), Section 44 (dissolution by court on specified grounds), (5) demand for accounts under Section 9, inspection of books under Section 12, and preparation of final accounts, (6) 15-day notice period for cooperation, (7) intimation of suit for dissolution and accounts under Section 44(g), (8) reservation of rights including possible criminal complaint for fraud and misappropriation, (9) caution against alienation of firm assets, (10) demand for preservation of records. Format as formal legal notice, 5-7 pages. Ensure compliance with Partnership Act provisions, Gujarat HC Rules for potential suit, and account rendition jurisprudence per Juggilal Kamlapat v. Sew Chand Bagree. Reference Erach F.D. Mehta v. Minoo F.D. Mehta on dissolution at will.",
+      "tags": [
+        "partnership-dissolution",
+        "legal-notice",
+        "partnership-act",
+        "accounts-rendition",
+        "commercial-law"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-039",
+      "title": "Argument Structure for Anticipatory Bail Hearing",
+      "prompt": "Act as a criminal defence lawyer with 10 years experience at Punjab & Haryana High Court handling anticipatory bail matters. I need you to structure oral arguments for an anticipatory bail hearing under Section 438 CrPC before a Single Bench. Context: My client Mrs. Harinder Kaur, 58, Principal of a private school in Ludhiana, apprehends arrest in FIR No. 234/2026 under Sections 420, 406, 409, 120B IPC alleging embezzlement of Rs. 3.8 crore school fee collection. Co-accused (trustees) already arrested. Bail hearing scheduled for next week, 25-minute slot. Please provide: (1) opening with case reference and prayer, (2) brief case background in 3 sentences, (3) 6 core arguments: cooperative investigation, deep roots (60-year local family), no flight risk, medical condition (diabetes, BP), custodial interrogation not necessary, documentary evidence not susceptible to tampering, (4) sequence with approximate minutes per argument, (5) key citations: Sushila Aggarwal v. State NCT Delhi (full bench on duration), P. Chidambaram v. ED, Siddharam Satlingappa Mhetre v. State of Maharashtra, (6) anticipated prosecution objections and rebuttals (custodial interrogation necessity, recovery pending, flight risk), (7) offer of stringent conditions: surrender passport, weekly police station attendance, bond Rs. 5 lakh with 2 sureties, no contact with co-accused, (8) closing emphasizing liberty under Article 21, (9) fallback arguments if court inclined to deny, (10) contingency for adverse order (SLP preparation, surrender planning). Format as a barrister's argument brief with headings, talking points, and judgment tabs. Ensure compliance with Section 438 CrPC, 2018 amendments, and HC Rules on anticipatory bail hearings. Keep language suitable for courtroom advocacy.",
+      "tags": [
+        "anticipatory-bail",
+        "oral-arguments",
+        "section-438",
+        "argument-structuring",
+        "high-court"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    },
+    {
+      "id": "legal-advocates-lawyers-040",
+      "title": "Client Intake for Medical Negligence Case",
+      "prompt": "Act as a medical negligence and consumer protection advocate with 14 years experience before State Consumer Commission and NCDRC. I need you to create a detailed client intake questionnaire and preliminary opinion note for a medical negligence consultation. Context: Prospective client Mr. Rajeev Menon from Ernakulam approaches me regarding his wife's death allegedly due to negligence at a private hospital in Kochi during a routine laparoscopic surgery in December 2025. Hospital claims anaesthesia complication; family suspects lapses. Estimated claim value Rs. 60 lakh. Please provide: (1) intake questionnaire with patient details, illness history, hospital chronology, treating doctors, (2) specific questions on consent forms, explanation of risks, alternatives offered, (3) timeline reconstruction: admission, pre-op, surgery, intra-op events, post-op, death, (4) document checklist: IPD records, OT notes, anaesthesia chart, consent form, discharge summary, death certificate, post-mortem report, (5) questions on fee payment, insurance, and bills, (6) preliminary opinion framework applying Bolam/Bolitho test, Jacob Mathew v. State of Punjab, Martin F. D'Souza v. Mohd. Ishfaq, Kusum Sharma v. Batra Hospital, Maharaja Agrasen Hospital, (7) viability assessment (strong/medium/weak) based on documentary evidence, (8) forum selection (Consumer Commission vs Civil Suit vs Criminal Complaint under Section 304A IPC), (9) limitation analysis (2 years CPA 2019), (10) fee estimate structure with MCI/NMC expert opinion costs, (11) realistic timeline and settlement probability, (12) client expectations calibration. Format as 2-part document: 3-page intake form and 3-page opinion note. Ensure compliance with Consumer Protection Act 2019, NMC Professional Conduct Regulations 2002, and expert evidence requirements under V. Kishan Rao v. Nikhil Super Speciality Hospital.",
+      "tags": [
+        "medical-negligence",
+        "client-intake",
+        "consumer-protection",
+        "bolam-test",
+        "ncdrc"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "advocates-lawyers"
+    }
+  ]
+}

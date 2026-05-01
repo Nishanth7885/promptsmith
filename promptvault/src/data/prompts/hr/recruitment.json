@@ -1,0 +1,683 @@
+{
+  "prompts": [
+    {
+      "id": "hr-recruitment-001",
+      "title": "Write Job Description for SDE-2 Role in Bangalore",
+      "prompt": "Act as a senior technical recruiter with 8 years of experience hiring engineers for Indian product startups. I need you to write a compelling job description for a Software Development Engineer 2 (SDE-2) role based in Bangalore at a Series B fintech startup (150 employees). Here is the context: the role requires 3-5 years of experience in Java/Spring Boot, microservices, and AWS, working on a payments platform processing ₹500 crore monthly GMV. Salary range is ₹24-36 LPA fixed plus ESOPs worth ₹8 LPA over 4 years. The team values ownership, fast shipping, and mentorship. Please provide: (1) a punchy 2-line role hook, (2) a \"What you will do\" section with 6 bullets, (3) a \"What we are looking for\" section split into must-have and nice-to-have, (4) a \"Why join us\" section highlighting ESOPs, hybrid work (3 days from office in Koramangala), medical insurance for family and parents worth ₹10 lakh, and learning budget of ₹50,000 per year, (5) an equal-opportunity statement encouraging women and underrepresented candidates to apply. Format the output as a ready-to-post Naukri and LinkedIn JD under 650 words. Avoid clichés like \"rockstar\" or \"ninja\". Use inclusive, gender-neutral language and ensure the tone is warm but professional.",
+      "tags": [
+        "job-description",
+        "sde-hiring",
+        "tech-recruitment",
+        "bangalore"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-002",
+      "title": "Draft Phone Screening Questions for Sales Executive",
+      "prompt": "Act as an experienced HR business partner with 6 years in Indian B2B SaaS hiring. I need you to draft a structured 20-minute phone screening script for a Sales Development Representative role in Gurgaon, targeting candidates with 2-3 years of experience cold-calling SMBs. The target salary is ₹6-9 LPA fixed plus ₹3 LPA variable. The company sells HR-tech software priced at ₹50,000-₹3 lakh per year per client. Please provide: (1) a 30-second opening script that introduces the company and builds rapport, (2) 8 screening questions covering current CTC and expected CTC, reason for change, notice period (ideally 30 days), average dials per day, conversion metrics, CRM tools used (Salesforce, HubSpot, LeadSquared), English and Hindi fluency, and willingness to work from the Udyog Vihar office 5 days a week, (3) 3 red-flag follow-up probes for vague answers, (4) a scoring rubric from 1-5 for communication, hunger, and domain fit, (5) a closing that sets expectations on next steps and timelines. Format the output as a recruiter-friendly script with sections clearly labeled and space for notes. Keep the tone respectful and compliant with Indian hiring norms — do not ask about marital status, caste, or religion.",
+      "tags": [
+        "screening",
+        "phone-screen",
+        "sales-hiring",
+        "sdr"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-003",
+      "title": "Create Behavioral STAR Interview Question Bank",
+      "prompt": "Act as a talent acquisition lead with 7 years of experience designing interview loops at Indian unicorns. I need you to build a behavioral interview question bank using the STAR (Situation, Task, Action, Result) framework for a Product Manager role with 4-6 years of experience, based in Mumbai. Here is the context: the company is a D2C beauty brand doing ₹200 crore ARR, hiring a PM to own the mobile app and drive retention. Please provide: (1) 10 STAR questions across 5 competencies — ownership, stakeholder management, data-driven decision making, customer empathy, and conflict resolution — two questions per competency, (2) for each question, list 3 probing follow-ups and 3 green-flag signals interviewers should listen for, (3) 3 red-flag answers that indicate poor fit, (4) a calibration note on how to distinguish a strong senior PM from a mid-level PM based on depth of answers, (5) a scoring sheet with a 1-4 scale (1 = no signal, 4 = strong hire). Format as a structured table in markdown that a panel of 3 interviewers can use consistently. Assume candidates come from Flipkart, Swiggy, Nykaa, or similar Indian consumer companies and tailor examples accordingly.",
+      "tags": [
+        "star-interview",
+        "behavioral",
+        "product-manager",
+        "interview-bank"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-004",
+      "title": "Draft Offer Letter with CTC Breakup for Mid-Senior Hire",
+      "prompt": "Act as an HR operations specialist with 5 years of experience at Indian IT services companies. I need you to draft a complete offer letter for a Senior Data Engineer joining a Pune-based analytics firm at a fixed CTC of ₹28 LPA. Here is the context: the candidate has 6 years of experience, is currently at TCS, and will join after a 60-day notice period. Please provide: (1) a warm opening paragraph confirming the offer, (2) a detailed CTC breakup table with Basic (40% of CTC), HRA (50% of Basic), LTA, special allowance, employer PF (12% of Basic capped at ₹1,800), gratuity provision (4.81% of Basic), and annual performance bonus of ₹2 LPA at 100% rating, (3) an in-hand monthly estimate after tax under the new regime, (4) joining bonus of ₹1.5 lakh with a 12-month clawback clause, (5) clauses on probation (6 months), notice period (60 days post-confirmation), non-solicitation (12 months), confidentiality, and background verification partner (AuthBridge), (6) joining date, reporting manager, work location (Hinjewadi Phase 2), and documents required on day one (PAN, Aadhaar, Form 16, relieving letters, education certificates). Format as a professional letter on company letterhead, ready for legal review. Ensure compliance with the Indian Contract Act and Shops and Establishment Act.",
+      "tags": [
+        "offer-letter",
+        "ctc-breakup",
+        "data-engineer",
+        "compliance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-005",
+      "title": "Write Empathetic Rejection Email After Final Round",
+      "prompt": "Act as a compassionate recruiting manager with 8 years of experience at Indian product companies. I need you to write a rejection email for a candidate who cleared 4 rounds of interviews for a Senior Backend Engineer role in Bangalore but was not selected after the hiring manager round. Here is the context: the candidate is Priya Menon, 5 years of experience, currently at Infosys, who traveled from Chennai for an in-person loop. She was strong on system design but the panel felt her coding execution was slightly below the bar for the ₹32 LPA role. We want to keep her warm for future openings. Please provide: (1) a subject line that signals respect, (2) a personalized opening acknowledging her effort and specific strengths from the loop, (3) the rejection message delivered clearly without fake softness, (4) specific, constructive feedback on the one area to improve (coding speed under pressure), (5) an invitation to reapply in 9-12 months with a referral to join the company's talent community on LinkedIn, (6) an offer to stay in touch with the recruiter on LinkedIn, (7) a warm closing. Format as an email under 300 words. Tone must be human, specific to her, and avoid corporate clichés like \"we had many strong candidates\". Remember this email will be screenshotted and shared on LinkedIn — make the company look good.",
+      "tags": [
+        "rejection-email",
+        "candidate-experience",
+        "talent-community"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-006",
+      "title": "Design LinkedIn Employer Branding Post Series",
+      "prompt": "Act as an employer branding specialist with 6 years of experience building talent brands for Indian startups. I need you to design a 5-post LinkedIn content series to attract senior engineering talent to a Hyderabad-based climate-tech startup (80 employees, Series A). Here is the context: the company builds IoT sensors for solar farms, has raised ₹120 crore, and struggles to compete with Google, Microsoft, and Amazon Hyderabad offices on brand recall. The CEO is an IIT Madras alum and the CTO is ex-Qualcomm. Please provide: (1) post 1 — founder story angle, 180 words with a hook, (2) post 2 — day-in-the-life of a senior engineer highlighting the mission and tech stack (Rust, Kubernetes, time-series DBs), (3) post 3 — team milestone or customer win with specific numbers (e.g., 50 MW monitored), (4) post 4 — employee testimonial about growth and learning budget (₹75,000 per year), (5) post 5 — open role teaser with a direct application link. For each post provide the hook, body, CTA, 5 hashtags, and a visual suggestion. Format as a table. Include guidance on posting cadence (which day of the week, what time IST) and how to amplify via employee advocacy. Tone should be authentic, purpose-driven, and avoid generic startup bro language.",
+      "tags": [
+        "employer-branding",
+        "linkedin",
+        "content-series",
+        "climate-tech"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-007",
+      "title": "Write JD for Chartered Accountant in Mumbai",
+      "prompt": "Act as a finance recruiter with 7 years of experience hiring qualified CAs for Indian NBFCs and banks. I need you to write a job description for a Manager - Financial Reporting role at a mid-sized NBFC in BKC, Mumbai. Here is the context: the role requires a CA with 4-6 years of post-qualification experience in Ind-AS reporting, RBI returns, and statutory audit coordination with Big 4 firms. CTC range is ₹18-24 LPA. Please provide: (1) a role summary of 3 lines, (2) key responsibilities covering monthly close, Ind-AS 109 ECL computation, RBI DNBS returns, coordination with statutory auditors (Deloitte or EY), board pack preparation, and support to CFO for investor reporting, (3) must-have qualifications including CA from ICAI (first or second attempt preferred), Big 4 articleship, and advanced Excel, (4) nice-to-haves like experience with Oracle Fusion or SAP and exposure to IPO readiness, (5) compensation and benefits including medical for self, spouse, and parents (₹8 lakh), NPS contribution, and performance bonus up to 20% of fixed, (6) a compelling \"why this role\" paragraph emphasizing career path to AVP in 3 years. Format as a 550-word JD ready for Naukri, iimjobs, and LinkedIn. Avoid jargon that would confuse non-finance readers on social posts.",
+      "tags": [
+        "job-description",
+        "chartered-accountant",
+        "finance-hiring",
+        "nbfc"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-008",
+      "title": "Build Take-Home Assignment for Content Writer",
+      "prompt": "Act as a content hiring manager with 5 years of experience building content teams at Indian edtech companies. I need you to create a take-home assignment for a Senior Content Writer candidate applying for a role at a K-12 edtech startup in Bangalore, salary ₹10-14 LPA. Here is the context: the writer will produce SEO blog posts, landing pages, and email nurture sequences aimed at Indian parents of CBSE students in classes 6-10. The candidate has 3-4 years of experience and comes from a content agency. Please provide: (1) a brief assignment overview explaining time expectation (3 hours max, respecting candidate's time), (2) task 1 — write a 600-word SEO blog post on \"how to help your child prepare for class 10 CBSE board exams\" targeting the primary keyword, (3) task 2 — write 3 email subject lines and opening paragraphs for a re-engagement campaign to parents who stopped using the app, (4) task 3 — rewrite a given product landing page headline and sub-headline for higher conversion, (5) evaluation rubric with 5 criteria scored 1-5 (SEO understanding, clarity, empathy for parents, CTA quality, brand tone fit), (6) instructions on how to submit (Google Doc link), deadline (5 days), and confirmation that we do NOT use take-home work for client deliverables. Format as a candidate-facing brief under 500 words. Tone respectful and transparent.",
+      "tags": [
+        "take-home",
+        "content-writer",
+        "edtech",
+        "assessment"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-009",
+      "title": "Write Competency Interview Bank for Ops Manager",
+      "prompt": "Act as a hiring lead with 8 years of experience at Indian quick-commerce and logistics companies. I need you to create a competency-based interview question bank for a City Operations Manager role in Delhi NCR for a 10-minute grocery delivery startup. Here is the context: the candidate will manage 15 dark stores, 400 delivery riders, and P&L of ₹40 crore annually. Target profile is 5-8 years of experience with prior exposure to Zomato, Swiggy, Blinkit, Zepto, or BigBasket. CTC is ₹22-30 LPA. Please provide: (1) 12 competency questions across 6 areas — P&L ownership, unit economics, people management, crisis handling, data orientation, and stakeholder management with city police and RWAs, (2) for each question provide one sample strong answer signal and one weak answer signal drawing from real Indian ops scenarios like monsoon flooding in Gurgaon, rider strikes, or dark store pilferage, (3) 3 case-style questions with expected framework (e.g., how would you reduce delivery TAT from 12 to 9 minutes in Noida), (4) a rubric for evaluating answers on a 1-5 scale, (5) panel composition recommendation (who should ask what). Format as a structured interview guide in markdown. Ensure questions uncover both execution rigor and empathy toward frontline workers.",
+      "tags": [
+        "competency-interview",
+        "operations",
+        "quick-commerce",
+        "interview-bank"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-010",
+      "title": "Respond to Negative Glassdoor Review Professionally",
+      "prompt": "Act as a senior employer branding manager with 6 years of experience managing employer reputation at Indian IT services firms. I need you to draft a professional response to a negative Glassdoor review posted by a former employee of a 2,000-person Pune-based IT services company. Here is the context: the review is 2 stars and complains about (a) forced overtime during client escalations, (b) delayed appraisal cycle pushed from April to September, (c) HRBP not being responsive. The reviewer was a software engineer with 3 years of tenure who resigned 2 months ago. Please provide: (1) an opening that thanks the former employee without being defensive, (2) specific acknowledgments of each of the 3 issues, (3) concrete actions the company has taken or will take (e.g., new leave policy, quarterly pulse surveys, HRBP to employee ratio improvement to 1:150), (4) an invitation to share specific feedback privately with the VP-HR at a named email, (5) a closing that reinforces company values without sounding scripted, (6) a note for internal HR on what NOT to reveal (no defensive denial, no legal threats, no blaming the employee). Format as a 200-word public response plus a 100-word internal playbook note. Tone humble, accountable, and genuine.",
+      "tags": [
+        "glassdoor",
+        "employer-branding",
+        "reputation",
+        "crisis-response"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-011",
+      "title": "Create JD for Inside Sales Executive in Tier-2 City",
+      "prompt": "Act as a sales recruiter with 5 years of experience hiring for Indian B2B SaaS companies. I need you to write a job description for an Inside Sales Executive based out of Jaipur, targeting fresh graduates and candidates with 0-2 years of experience. Here is the context: the company sells accounting software to CAs and small businesses priced at ₹12,000-₹36,000 per year. CTC is ₹4-5.5 LPA with ₹1.5 LPA variable based on quota achievement. Please provide: (1) a friendly role hook, (2) responsibilities including 80 outbound calls per day, demo booking, CRM hygiene in Zoho, and achieving monthly quota of ₹4 lakh new MRR, (3) qualifications — graduation in any stream, Hindi and English fluency, comfort with cold calling, willingness to work from office in Malviya Nagar, (4) what we offer — structured training for 30 days, daily incentives, health insurance, Saturday half-day, clear promotion path to Account Executive in 18 months, (5) equal opportunity statement welcoming women returnees and first-generation graduates, (6) application instructions via Naukri or WhatsApp at a given number. Format as a 500-word JD optimized for Naukri and Apna.co. Avoid fake promises and use encouraging language that motivates freshers to apply.",
+      "tags": [
+        "job-description",
+        "inside-sales",
+        "tier-2",
+        "fresher-hiring"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-012",
+      "title": "Draft Reference Check Script for Senior Leader",
+      "prompt": "Act as an HR director with 10 years of experience conducting leadership reference checks at Indian private banks and NBFCs. I need you to design a structured reference check script for a candidate being considered for a VP-Credit Risk role at a mid-sized bank, CTC ₹55 LPA. Here is the context: the candidate is being cross-verified with 3 references — a former boss at ICICI Bank, a peer from HDFC Bank, and a direct report from Kotak. The role demands strong credit judgment, team building, and regulatory interface with RBI. Please provide: (1) a 60-second opening that explains purpose, confidentiality, and time commitment (20 minutes), (2) 8 probing questions covering technical credit acumen, leadership style, crisis handling during COVID moratorium era, team attrition record, integrity and escalation behavior, and one \"would you hire again\" question, (3) 3 tailored follow-ups for the ex-boss, peer, and direct report respectively, (4) red flags that should trigger additional checks (vague answers, hesitation on integrity, reluctance to rehire), (5) a closing that thanks the referee and asks if there is anything we did not ask that we should know, (6) a scoring template with qualitative notes and a hire/no-hire recommendation. Format as a recruiter-ready call script meeting ICICI, HDFC, and Kotak-level reference standards. Ensure compliance with Indian data privacy norms.",
+      "tags": [
+        "reference-check",
+        "leadership-hiring",
+        "banking",
+        "due-diligence"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-013",
+      "title": "Write Diversity-Focused JD for Women in Tech",
+      "prompt": "Act as a DEI recruiting lead with 6 years of experience increasing gender diversity at Indian product companies. I need you to write a job description for a Senior Frontend Engineer role explicitly encouraging women and non-binary candidates returning after career breaks. Here is the context: the company is a Bangalore-based health-tech startup with 200 employees and current gender ratio of 18% women in tech. Target CTC is ₹26-38 LPA. The role uses React, TypeScript, and Next.js. Please provide: (1) an inclusive role hook that signals psychological safety, (2) responsibilities and tech stack details, (3) must-haves emphasizing skills over years of experience (so that career-break candidates are not filtered out), (4) a dedicated \"returnship friendly\" section describing a 3-month structured ramp-up with a mentor, flexible hours, and no penalty for career gaps, (5) benefits including 26 weeks maternity leave, 2 weeks paternity leave, creche allowance of ₹10,000 per month, menstrual leave policy, and hybrid work, (6) a specific DEI commitment statement referencing Dalit, Adivasi, LGBTQ+, and PwD inclusion, (7) a dedicated application channel for underrepresented candidates with a named DEI recruiter. Format as a 600-word JD suitable for JobsForHer, LinkedIn, and Instahyre. Tone must be warm, specific, and avoid tokenism.",
+      "tags": [
+        "job-description",
+        "diversity",
+        "women-in-tech",
+        "returnship"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-014",
+      "title": "Create Technical Interview Questions for Backend Engineer",
+      "prompt": "Act as an engineering hiring manager with 9 years of experience conducting backend interviews at Indian unicorns. I need you to create a technical interview question bank for a Backend Engineer role with 2-4 years of experience, targeting ₹18-26 LPA at a Chennai-based fintech. Here is the context: the stack is Golang, PostgreSQL, Redis, Kafka, and Kubernetes on AWS. The candidate will work on payment ledger services. Please provide: (1) 5 data structures and algorithms questions of medium difficulty with expected time to solve (20 minutes each), (2) 3 system design questions like \"design a UPI transaction ledger\", \"design a rate limiter for 10k RPS\", and \"design an idempotent payment retry system\", (3) 5 language and database deep-dive questions on Go concurrency, PostgreSQL indexing, and Redis eviction, (4) 3 debugging scenarios with actual code snippets to paste during interview, (5) for each question provide strong and weak answer indicators, (6) a 1-5 rubric per competency (coding, system design, debugging, communication). Format as a structured interview guide in markdown with timings. Ensure questions are fair, specific, and do not rely on leetcode-hard tricks. Include notes on accommodating candidates interviewing in English-second-language.",
+      "tags": [
+        "technical-interview",
+        "backend-engineer",
+        "system-design",
+        "coding"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-015",
+      "title": "Draft Offer Withdrawal Letter Due to Hiring Freeze",
+      "prompt": "Act as an HR business partner with 7 years of experience handling difficult candidate communications at Indian startups. I need you to draft a sensitive offer withdrawal letter to a candidate who accepted a verbal offer for a Product Designer role in Bangalore, CTC ₹22 LPA, due to an unexpected hiring freeze after recent layoffs. Here is the context: the candidate, Arjun Rao, is currently serving a 60-day notice at Zomato and was set to join in 3 weeks. He has informed his current employer. This is a reputational risk. Please provide: (1) an opening that directly and respectfully communicates the withdrawal, (2) a clear, honest reason without corporate euphemisms, (3) an unconditional apology acknowledging the impact on his career decision, (4) a goodwill offer including a ₹2 lakh ex-gratia payment to compensate for his risk, help retracting his resignation via warm intros to his current manager if needed, and a guaranteed first-look when hiring resumes, (5) a named senior leader (VP-HR) available for a direct phone call within 24 hours, (6) a closing that preserves dignity. Also provide (7) a 100-word internal note for the CEO summarizing legal exposure under the Indian Contract Act and recommended next steps. Format as a formal email under 350 words plus the internal note. Tone must be deeply humane and take full accountability.",
+      "tags": [
+        "offer-withdrawal",
+        "difficult-communication",
+        "ethics",
+        "hiring-freeze"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-016",
+      "title": "Write Careers Page Copy for Startup",
+      "prompt": "Act as an employer branding copywriter with 5 years of experience crafting careers pages for Indian D2C brands. I need you to write the full copy for a careers page for a Bangalore-based sustainable fashion brand with 60 employees, positioning itself as a mission-led alternative to fast fashion. Here is the context: the brand sells at ₹1,500-₹5,000 price points, partners with weavers in Varanasi and Kanchipuram, and is hiring across design, tech, and operations. Please provide: (1) a hero headline and sub-headline (under 20 words combined), (2) a 120-word \"why we exist\" section, (3) a 100-word \"how we work\" section describing values (craft, care, candor), (4) a benefits grid with 8 tiles covering health insurance for parents, paid period leave, weaver visit trips twice a year, learning budget, ESOPs, mental health sessions, hybrid work, and festival bonus, (5) a team testimonial quote from a designer and an engineer, (6) an open roles section with 4 role tiles and apply CTAs, (7) a \"don't see a role\" section inviting open applications, (8) meta description for SEO. Format as structured copy blocks ready for the dev team to implement. Tone should be warm, proud, and never preachy — appeal to craftspeople and engineers equally.",
+      "tags": [
+        "careers-page",
+        "employer-branding",
+        "copywriting",
+        "d2c"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-017",
+      "title": "Design Campus Hiring JD for Engineering Freshers",
+      "prompt": "Act as a campus recruitment lead with 8 years of experience hiring freshers from Tier-1 and Tier-2 engineering colleges in India. I need you to write a job description for a Software Engineer Trainee role targeting 2027 graduates from colleges like NIT Trichy, VIT, BITS, IIIT Hyderabad, and Manipal. Here is the context: the company is a 500-person Bangalore SaaS firm hiring 40 freshers with a CTC of ₹12 LPA (₹9 LPA fixed + ₹3 LPA joining bonus and stock). Please provide: (1) a role hook designed to grab attention at a campus drive, (2) a \"what you will work on\" section describing real projects (not \"training program\"), (3) eligibility criteria — BE/BTech in CSE/IT/ECE, minimum 7.0 CGPA, no backlogs, DSA fundamentals, one side project or internship, (4) the selection process with 4 stages (online test on HackerEarth, 2 technical rounds, HR round), (5) CTC breakup explicitly listing fixed, joining bonus, RSUs, and benefits, (6) joining month (July 2027), location (Bangalore with relocation support of ₹75,000), and 6-month probation, (7) a section countering common fresher fears (work-life balance, mentorship, career growth path to SDE-2 in 18 months). Format as an 800-word JD with visual hierarchy, ready for campus placement cells to share on their portals.",
+      "tags": [
+        "job-description",
+        "campus-hiring",
+        "fresher",
+        "engineering"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-018",
+      "title": "Draft Rejection for Silver Medalist Candidate",
+      "prompt": "Act as a senior talent acquisition partner with 7 years of experience managing high-volume tech hiring at Indian product companies. I need you to write a rejection email to a \"silver medalist\" candidate — someone who was very close to an offer but another candidate was selected. Here is the context: the candidate is Kavya Srinivasan, 6 years of experience, who interviewed for a Staff Engineer role at a Bangalore fintech. She was the runner-up. We want to genuinely keep her engaged for the next similar role, expected to open in 3-4 months. CTC range was ₹55-70 LPA. Please provide: (1) a subject line that is honest, not generic, (2) a personalized opening mentioning 2 specific strengths observed across her rounds, (3) a transparent explanation that this was a close decision — without oversharing details of the selected candidate, (4) a concrete invitation to skip the first 2 rounds in the next similar opening, (5) a named recruiter point of contact with calendly link and direct email, (6) an invitation to a private talent community Slack group or quarterly newsletter, (7) a closing that is warm but not saccharine. Format as an email under 280 words. The goal is to make Kavya feel respected enough that she will say yes when we come back. Avoid any language that sounds templated.",
+      "tags": [
+        "rejection-email",
+        "silver-medalist",
+        "talent-pipeline",
+        "candidate-experience"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-019",
+      "title": "Write JD for Head of HR at Growth-Stage Startup",
+      "prompt": "Act as a senior executive recruiter with 10 years of experience placing HR leaders at Indian growth-stage startups. I need you to write a job description for a Head of HR role at a Gurgaon-based Series C health-tech startup with 450 employees, targeting a CTC of ₹55-75 LPA plus ESOPs worth ₹1.5 crore over 4 years. Here is the context: the company has grown 3x in headcount in 18 months and needs an HR leader to build scalable hiring, performance management, total rewards, and culture systems. Reports to the CEO and sits on the leadership team. Please provide: (1) a compelling 3-line opening pitch, (2) the mandate covering 5 priority areas — talent acquisition, performance and rewards, L&D, culture and DEI, and HR tech stack rollout, (3) ideal candidate profile with 12-16 years of experience, prior HR leadership at a 300-1000 person company, and exposure to funded startup environments, (4) must-have competencies — data literacy, board-level communication, and hands-on execution, (5) what success looks like in the first 12 months with 5 measurable outcomes, (6) compensation and ESOP details, (7) reporting structure and team size (22 reports), (8) a note on founder values and decision-making style. Format as a 700-word JD suitable for iimjobs, LinkedIn, and executive search firms. Tone should be ambitious, specific, and respectful of senior candidates' time.",
+      "tags": [
+        "job-description",
+        "leadership-hiring",
+        "head-of-hr",
+        "executive-search"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-020",
+      "title": "Build Structured Interview Loop for PM Hiring",
+      "prompt": "Act as a hiring program manager with 8 years of experience designing interview loops at Indian product companies. I need you to design a structured 4-round interview loop for a Senior Product Manager role in Bangalore at a fintech startup. Here is the context: target experience is 5-8 years, CTC ₹38-55 LPA, the role owns a core lending product doing ₹80 crore disbursal monthly. Please provide: (1) round 1 — 45-minute recruiter screen with 6 must-ask questions including CTC, notice period (30 days), reason for change, and mission fit, (2) round 2 — 60-minute product sense interview with 2 case prompts specific to Indian lending (e.g., how would you reduce NPA by 15% using product levers), (3) round 3 — 60-minute execution and analytics interview with an SQL-style data interpretation task and a prioritization exercise, (4) round 4 — 45-minute leadership and culture fit round with the CEO, (5) a debrief template with competencies scored on a 1-4 rubric (product sense, execution, analytics, leadership, culture), (6) a go/no-go decision framework requiring 4 out of 5 strong hires, (7) a candidate experience checklist (calendar invites, prep materials, reimbursement policy for outstation candidates). Format as a complete interview kit in markdown that can be handed to the hiring manager. Ensure every round maps to a distinct competency — no redundancy.",
+      "tags": [
+        "interview-loop",
+        "product-manager",
+        "structured-hiring",
+        "debrief"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-021",
+      "title": "Write LinkedIn Recruiter InMail for Passive Candidate",
+      "prompt": "Act as a tech recruiter with 5 years of experience sourcing passive candidates on LinkedIn India. I need you to write 3 variants of a cold InMail targeting a Senior Data Scientist currently at Flipkart, to attract her to a Series B climate-tech startup in Bangalore offering ₹45 LPA plus ESOPs. Here is the context: the candidate has 7 years of experience, an MTech from IIT Delhi, and has been at Flipkart for 4 years working on search ranking. Please provide: (1) variant A — mission-led hook, 90 words, (2) variant B — career growth hook emphasizing ownership of the full ML platform from day one, 90 words, (3) variant C — compensation-transparent hook stating CTC range upfront, 90 words, (4) for each variant provide subject line, body, and closing CTA (15-minute chat), (5) guidance on which variant to use based on candidate signals (profile updates, recent likes, connection degree), (6) 2 follow-up messages to send on day 4 and day 9 if no response, (7) 3 hard rules on what NOT to do (no fake urgency, no name-drops, no generic flattery). Format as a ready-to-send InMail pack. Tone should be respectful, confident, and specific to her background — not spammy.",
+      "tags": [
+        "sourcing",
+        "inmail",
+        "passive-candidate",
+        "linkedin"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-022",
+      "title": "Create Offer Negotiation Playbook for Recruiters",
+      "prompt": "Act as a talent acquisition director with 12 years of experience leading recruiting at Indian unicorns. I need you to create an offer negotiation playbook for recruiters handling Senior and Staff Engineer negotiations in the ₹40-85 LPA range. Here is the context: recruiters frequently face counter-offers from Google India, Microsoft, Amazon, and Atlassian. The company's ESOP story is strong but cash is tighter. Please provide: (1) a 5-step negotiation framework (discovery, anchoring, exploring levers, closing, post-signature retention), (2) scripts for 5 common objections — \"my current company is counter-offering\", \"I want 20% more on base\", \"ESOPs don't matter to me\", \"I have a better offer from Google\", and \"can you match Amazon's sign-on bonus\", (3) a decision matrix on when to walk away vs escalate to hiring manager, (4) levers available beyond base — joining bonus (up to 2 months base), sign-on RSU, relocation, accelerated vesting, flex on start date, title bump, (5) compliance guardrails — no verbal commitments without finance approval, no counter-offer to fail the candidate, (6) a 48-hour post-acceptance warmth script to prevent drop-offs during notice period, (7) a tracker template with candidate name, stage, lever used, and outcome. Format as a recruiter-facing playbook in markdown. Tone professional and ethically grounded.",
+      "tags": [
+        "negotiation",
+        "offer-management",
+        "playbook",
+        "compensation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-023",
+      "title": "Draft JD for Marketing Manager in Mumbai",
+      "prompt": "Act as a marketing recruiter with 6 years of experience hiring for Indian consumer brands. I need you to write a job description for a Performance Marketing Manager role at a Mumbai-based D2C skincare brand with ₹80 crore ARR. Here is the context: the role owns a monthly marketing budget of ₹1.2 crore across Meta, Google, and affiliates, targeting a blended ROAS of 3.2x. Target CTC is ₹18-25 LPA with a 15% annual bonus. Please provide: (1) a role hook, (2) responsibilities covering budget allocation, creative testing, attribution modeling, working with the in-house creative studio, and weekly reporting to the CMO, (3) must-haves — 4-6 years of D2C performance marketing experience, fluency with Meta Ads Manager and Google Ads, comfort with tools like Triple Whale or Northbeam, SQL basics, (4) nice-to-haves — experience with MarTech stacks like CleverTap or WebEngage, influencer marketing exposure, and Tamil or Hindi content sensibility, (5) compensation and benefits including hybrid work from BKC office 3 days a week, ₹30,000 L&D budget, and product allowance, (6) equal opportunity statement, (7) application instructions. Format as a 550-word JD ready for LinkedIn and Cutshort. Avoid buzzwords like \"growth hacker\" and keep the tone crisp and data-literate.",
+      "tags": [
+        "job-description",
+        "performance-marketing",
+        "d2c",
+        "mumbai"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-024",
+      "title": "Write Rejection After Background Check Failure",
+      "prompt": "Act as an HR compliance specialist with 7 years of experience handling sensitive background verification cases at Indian IT companies. I need you to draft a carefully worded rejection letter to a candidate whose offer is being rescinded after the background check partner (AuthBridge) flagged a discrepancy — the candidate claimed 4 years at a previous company but actual employment was 2.5 years. Here is the context: the candidate had signed the offer for a Senior Engineer role at ₹30 LPA in Bangalore. This is legally sensitive. Please provide: (1) a formal opening that states the decision clearly and without ambiguity, (2) a factual reference to the specific clause in the signed offer letter regarding accuracy of disclosures (cite the typical clause wording), (3) the finding stated neutrally without accusation, (4) an opportunity for the candidate to respond with documentation within 5 working days before the decision is final, (5) the contact details of the HR compliance officer, (6) a closing that remains respectful, (7) an attached internal note for the HR and Legal team on data retention, communication protocol, and escalation path if the candidate disputes. Format as a formal letter under 400 words plus a 100-word internal note. Ensure language is legally defensible, free of defamation risk, and compliant with Indian labour law and data privacy norms.",
+      "tags": [
+        "background-check",
+        "offer-rescind",
+        "compliance",
+        "legal"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-025",
+      "title": "Design Internship JD for Product Interns",
+      "prompt": "Act as an early-careers recruiter with 4 years of experience hiring student interns at Indian startups. I need you to write a job description for a 3-month Product Management Internship at a Bangalore edtech startup, offering a stipend of ₹40,000 per month plus a pre-placement offer (PPO) opportunity. Here is the context: targeting second-year MBA students from ISB, IIMs, XLRI, and top MDI candidates, graduating in 2027. Please provide: (1) a punchy role hook, (2) what the intern will actually own — one real mini-project tied to a measurable outcome like improving onboarding funnel by 10%, (3) what they will learn — product discovery, SQL basics, stakeholder management, and running A/B tests, (4) eligibility criteria including MBA program, prior product or consulting exposure, comfort with data, and availability for an in-person 3-month stint in Bangalore, (5) application process via Internshala plus campus placement cell, (6) stipend, accommodation support (₹15,000 per month HRA), and PPO conversion benchmark, (7) mentorship structure with weekly 1:1 with a senior PM and exposure to founders, (8) a closing encouraging candidates from non-top-tier schools to still apply if they have strong projects. Format as a 500-word JD. Tone should feel exciting without overpromising.",
+      "tags": [
+        "job-description",
+        "internship",
+        "product-intern",
+        "mba-hiring"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-026",
+      "title": "Write Screening Questions for Customer Success Role",
+      "prompt": "Act as a customer success hiring manager with 6 years of experience at Indian B2B SaaS companies. I need you to create a 25-minute phone screen script for a Customer Success Manager role in Bangalore, targeting candidates with 3-5 years of experience managing enterprise SaaS accounts worth ₹20 lakh-₹2 crore ARR. CTC is ₹14-20 LPA. Please provide: (1) a 45-second opening script that frames the role and company, (2) 10 screening questions covering current portfolio size, NRR and gross retention numbers, largest account handled, QBR experience, cross-sell and upsell exposure, comfort with tools like Gainsight or ChurnZero, handling of escalations, and communication in English for US-based clients, (3) a probe for notice period, current CTC, expected CTC, and reason for leaving, (4) 3 situational questions — \"an account is churning\", \"a customer demands a feature your roadmap doesn't have\", and \"your largest account's champion just left\", (5) red flags like inability to quote specific numbers or vague answers on churn, (6) a scoring rubric on a 1-5 scale across communication, domain depth, and fit, (7) a professional closing with clear next steps. Format as a structured screening script with notes fields. Tone professional, conversational, and respectful of the candidate's time.",
+      "tags": [
+        "screening",
+        "customer-success",
+        "phone-screen",
+        "saas"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-027",
+      "title": "Create Employer Branding Calendar for Year",
+      "prompt": "Act as an employer branding manager with 8 years of experience building talent brands at Indian tech companies. I need you to create a 12-month employer branding content calendar for a 600-person Bangalore IT product company that wants to improve its Glassdoor rating from 3.6 to 4.2 and increase inbound applications by 40%. Here is the context: the budget is ₹45 lakh annually across content, events, and tooling. The target audience is senior engineers, product managers, and designers in Tier-1 Indian cities. Please provide: (1) monthly themes across 12 months (e.g., January — new year culture reset, March — women's day spotlight, July — engineering day, October — Diwali team stories), (2) for each month list 3 content deliverables across LinkedIn, YouTube shorts, and blog posts, (3) 4 signature events across the year — an internal tech fest, a women-in-tech meetup, a campus hackathon, and an ex-employee alumni day, (4) 3 ongoing initiatives — a Glassdoor response SLA of 48 hours, an employee advocacy program with 50 champions, and a monthly \"ask me anything\" with the CTO, (5) KPIs per quarter tied to application volume, career page visits, and Glassdoor rating, (6) budget allocation per initiative, (7) a RACI matrix showing ownership across HR, marketing, and leadership. Format as a comprehensive calendar in table form. Tone strategic and measurable.",
+      "tags": [
+        "employer-branding",
+        "content-calendar",
+        "strategy",
+        "glassdoor"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-028",
+      "title": "Write Warm Welcome Email to New Joiner",
+      "prompt": "Act as an onboarding specialist with 5 years of experience at Indian growth-stage startups. I need you to write a warm pre-joining welcome email to a new hire who just signed the offer letter for a Senior Designer role in Bangalore, joining in 45 days after notice period. Here is the context: the new joiner is Meera Iyer, coming from Swiggy. The email is sent by the hiring manager 3 days after offer acceptance to build excitement and reduce drop-off risk during notice. Please provide: (1) a celebratory subject line, (2) an opening that genuinely welcomes her and mentions something specific from her interview (her portfolio project on accessibility), (3) a clear preview of what the first 30 days will look like — buddy assignment, introductions to the team, first project she'll touch, (4) logistical details — joining date, location (Indiranagar office), what to bring on day one (PAN, Aadhaar, Form 16, relieving letter from Swiggy), laptop preference form link, (5) an offer to connect on a casual virtual coffee during her notice period, (6) a lighter note — team lunch plan on day one at a favorite spot, (7) a closing with the manager's personal mobile number for any questions. Format as a warm email under 300 words. Tone should feel personal and human — like a friend welcoming another friend, not a corporate form letter.",
+      "tags": [
+        "welcome-email",
+        "pre-joining",
+        "candidate-experience",
+        "onboarding"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-029",
+      "title": "Draft JD for Senior Finance Controller",
+      "prompt": "Act as a finance recruiter with 9 years of experience placing controllers at Indian listed companies and startups. I need you to write a job description for a Senior Finance Controller role at a Bangalore-based Series D SaaS company (₹350 crore ARR, 800 employees) preparing for an IPO in 24 months. CTC range is ₹45-60 LPA plus ESOPs. Please provide: (1) a compelling opening tied to the IPO journey, (2) key responsibilities — monthly close in 5 working days, Ind-AS compliance, revenue recognition under Ind-AS 115 for SaaS contracts, coordination with Big 4 auditors, implementing internal controls over financial reporting (ICFR), and supporting DRHP preparation, (3) must-haves — qualified CA with 10-14 years of experience, prior IPO exposure or Big 4 audit background, team leadership of 8+, advanced knowledge of Ind-AS and SEBI LODR, (4) nice-to-haves — exposure to NetSuite or Oracle Fusion, SaaS ARR metrics, and working capital management, (5) CTC including base, variable, ESOPs with vesting schedule, and benefits, (6) reporting line to the CFO and team size, (7) the first 6-month mandate with 4 measurable milestones, (8) application process via iimjobs and executive search. Format as a 700-word JD. Tone should be ambitious, technically credible, and designed to attract candidates from competitive Indian SaaS firms.",
+      "tags": [
+        "job-description",
+        "finance-controller",
+        "ipo",
+        "leadership"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-030",
+      "title": "Write Screening Questions for Remote Developer",
+      "prompt": "Act as a remote hiring specialist with 5 years of experience building distributed engineering teams at Indian startups. I need you to create a 30-minute screening script for a Full Stack Developer role that is fully remote across India, CTC ₹15-22 LPA. Here is the context: the team has 40 engineers across 18 Indian cities and needs async-friendly, self-driven candidates. Please provide: (1) an opening script explaining the company's remote-first culture, (2) 10 screening questions covering years of experience with the MERN or MEAN stack, prior remote work experience, home office setup (internet speed, power backup, quiet room), async communication tools used (Slack, Notion, Linear), time-zone overlap willingness (4 hours with US-East), CTC and notice period, (3) 3 situational questions testing async-readiness — \"how do you handle getting stuck when your manager is offline\", \"how do you communicate progress without daily standups\", and \"describe a time you wrote great documentation\", (4) a technical pulse question — one quick code debugging prompt in JavaScript, (5) red flags specific to remote work (vague answers on setup, reluctance to write things down, dependency on in-person supervision), (6) 1-5 scoring rubric, (7) clear next-step communication on take-home assignment timeline. Format as a structured screening script. Tone friendly but rigorous about remote work fit.",
+      "tags": [
+        "screening",
+        "remote-hiring",
+        "full-stack",
+        "distributed-team"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-031",
+      "title": "Build Interview Debrief and Decision Framework",
+      "prompt": "Act as a hiring operations lead with 8 years of experience designing decision frameworks at Indian product companies. I need you to build a structured interview debrief template and decision framework for a 4-round loop for Senior Engineer hires in the ₹35-50 LPA range. Here is the context: interview panels often disagree, leading to delayed decisions and inconsistent hiring bar. Please provide: (1) a pre-debrief checklist — each interviewer submits written feedback within 24 hours before the meeting starts, (2) a standard scoring rubric across 5 competencies (coding, system design, problem solving, ownership, communication) on a 1-4 scale with anchor definitions for each level, (3) a debrief meeting agenda for 30 minutes with time-boxed slots for each interviewer, (4) rules of engagement — no one shares scores until all feedback is on table, most senior voice speaks last, disagreements are probed not averaged, (5) a decision framework requiring at least 3 out of 4 strong hires and no strong no-hires to move forward, (6) an escalation path when panels are split, (7) a post-decision action template for both hire and no-hire outcomes including debrief for rejected candidates, (8) a calibration review process running every 6 weeks to align panels. Format as a complete playbook in markdown ready for hiring managers to adopt. Tone disciplined, evidence-based, and bias-aware.",
+      "tags": [
+        "debrief",
+        "decision-framework",
+        "calibration",
+        "structured-hiring"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-032",
+      "title": "Write JD for Data Analyst in Delhi",
+      "prompt": "Act as a data hiring specialist with 5 years of experience recruiting analysts for Indian internet companies. I need you to write a job description for a Data Analyst role in Delhi at a fast-growing consumer internet company with 300 employees. CTC range is ₹10-16 LPA depending on experience. Here is the context: the role sits in the marketing team and uses SQL, Python, Tableau, and Mixpanel to analyze user funnels and marketing spend. Target experience is 2-4 years. Please provide: (1) a clear role hook, (2) responsibilities covering weekly dashboards, funnel analysis, marketing attribution, A/B test reporting, and ad-hoc deep dives for leadership, (3) must-haves — strong SQL including window functions, Python (pandas), experience with product analytics tools like Mixpanel or Amplitude, and business storytelling skills, (4) nice-to-haves — exposure to dbt, Looker, or DBT, experience in consumer tech or D2C, and working knowledge of statistics, (5) education — engineering, statistics, economics, or math background preferred but not mandatory for strong portfolios, (6) CTC, benefits (health insurance ₹5 lakh, food allowance, hybrid work from Gurgaon office 3 days), (7) a \"how we evaluate\" section transparently listing screen, SQL test, case study, and hiring manager round. Format as a 550-word JD for Naukri, LinkedIn, and Instahyre. Keep tone inclusive and growth-oriented.",
+      "tags": [
+        "job-description",
+        "data-analyst",
+        "sql",
+        "delhi"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-033",
+      "title": "Create Hiring Manager Intake Meeting Template",
+      "prompt": "Act as a talent acquisition partner with 7 years of experience at Indian product companies. I need you to create a comprehensive intake meeting template that recruiters use with hiring managers before opening any new role. Here is the context: recruiters often struggle because hiring managers change their requirements mid-pipeline, leading to wasted time and frustrated candidates. Please provide: (1) a 45-minute intake meeting agenda with 6 sections, (2) 20 discovery questions grouped into — business context (why this role now), role scope (deliverables in first 6 months), must-have vs nice-to-have skills (force ranking), ideal candidate source companies (5 target Indian companies), compensation range (CTC bands with hiring manager sign-off from HRBP), interview panel and rubric, (3) a calibration exercise showing 3 sample resumes to align on \"yes\", \"maybe\", \"no\" before sourcing begins, (4) a deliverables checklist at end of meeting including approved JD, approved interview loop, approved CTC range, and SLA on feedback turnaround (48 hours), (5) a sign-off form that the hiring manager signs committing to the scope, (6) a process for handling scope changes mid-pipeline requiring a 20-minute realignment call, (7) a post-30 day retro review of whether intake assumptions held. Format as a recruiter-facing playbook. Tone should be firm but collaborative — recruiters push back on hiring managers respectfully.",
+      "tags": [
+        "intake-meeting",
+        "hiring-manager",
+        "alignment",
+        "playbook"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-034",
+      "title": "Write JD for UX Researcher in Bangalore",
+      "prompt": "Act as a design recruiter with 6 years of experience hiring UX researchers for Indian consumer product companies. I need you to write a job description for a Senior UX Researcher role at a Bangalore-based health-tech startup with 200 employees and 5 million monthly active users. Target CTC is ₹22-32 LPA. Here is the context: the role reports into the Head of Design, leads qualitative and quantitative research, and works closely with product and engineering. Please provide: (1) a mission-led role hook, (2) responsibilities — running 3-5 generative and evaluative studies per quarter, owning the research repository, training product teams on research methods, and partnering with data science on mixed-method studies, (3) must-haves — 4-6 years of UX research experience, strong qualitative methods, familiarity with tools like Dovetail, UserTesting, and Maze, ability to recruit participants across Indian tier-2 and tier-3 cities, and multilingual comfort (Hindi, Tamil, or Telugu a plus), (4) nice-to-haves — healthcare domain exposure, basic statistical literacy, and published portfolio of case studies, (5) CTC, ESOPs, benefits including mental health support and ₹50,000 research conference allowance, (6) application process with a 30-minute portfolio walkthrough instead of a take-home, (7) DEI statement welcoming candidates from diverse educational backgrounds. Format as a 550-word JD. Tone warm, research-literate, and respectful of senior researchers' expertise.",
+      "tags": [
+        "job-description",
+        "ux-research",
+        "design-hiring",
+        "health-tech"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-035",
+      "title": "Draft Counter Offer Response Strategy",
+      "prompt": "Act as a senior recruiter with 8 years of experience handling counter-offer scenarios at Indian tech companies. I need you to draft a structured recruiter response playbook for when a candidate who verbally accepted an offer receives a counter offer from their current employer. Here is the context: a Senior Engineer candidate, Rahul Deshmukh, who accepted a ₹38 LPA offer from a Pune SaaS firm has just received a counter of ₹45 LPA plus a promotion from his current employer after he resigned. Please provide: (1) a 60-minute action plan from the moment the recruiter learns about the counter, (2) a phone call script for the recruiter to understand why the counter was given and what's pulling Rahul back, (3) the 5 key questions to ask — what problem is the counter actually solving, what has changed about the role that was not there before, will the relationships with his manager heal after this episode, why did it take resignation for them to recognize his value, and what's the real long-term trajectory, (4) data-backed talking points on counter offer risks (80% of candidates who accept counter-offers leave within 12 months), (5) an escalation path to the hiring manager for a personal call, (6) levers the recruiter can still pull (sign-on bonus, title upgrade, start date flex), (7) a 24-hour decision deadline script that respects Rahul's autonomy. Format as a complete playbook. Tone empathetic but persuasive, never manipulative.",
+      "tags": [
+        "counter-offer",
+        "negotiation",
+        "playbook",
+        "retention"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-036",
+      "title": "Write Bulk Rejection for High-Volume Role",
+      "prompt": "Act as a talent acquisition operations lead with 6 years of experience managing high-volume hiring at Indian BPOs and IT services. I need you to draft a thoughtful bulk rejection email template for 1,200 applicants who applied for 40 openings for an Associate Software Engineer role in Chennai with ₹4.5 LPA CTC. Here is the context: most applicants were freshers or candidates with 0-2 years of experience. Even for a bulk email, we want to preserve dignity and talent community goodwill. Please provide: (1) a subject line that is honest and human, (2) an opening that acknowledges the effort of applying, (3) a clear statement that the application was not successful this time, (4) 2-3 constructive, generic but genuine tips for improving future applications (strengthening the resume project section, clarifying tech stack, adding portfolio links), (5) an invitation to follow the company's careers page and LinkedIn for future openings, (6) a link to a publicly available free learning resource (e.g., the company's blog or YouTube tutorials), (7) a warm closing signed by the head of talent, not a no-reply bot, (8) a variant for candidates who cleared the first round but were rejected after that. Format as two email templates — one for first-screen rejects and one for later-stage rejects. Tone warm, respectful, and never transactional. The goal is zero hate posts on social media.",
+      "tags": [
+        "rejection-email",
+        "bulk-hiring",
+        "candidate-experience",
+        "volume-hiring"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-037",
+      "title": "Write JD for Hindi-Speaking Call Center Team Lead",
+      "prompt": "Act as a BPO hiring manager with 7 years of experience recruiting voice process teams in India. I need you to write a job description for a Team Leader - Voice Process role at a Noida-based customer service center serving a D2C grocery brand. CTC is ₹5-7 LPA plus monthly incentives up to ₹15,000. Here is the context: the team leader will manage 18 agents handling inbound calls in Hindi, English, and Punjabi from customers across North India. Please provide: (1) a clear role summary, (2) responsibilities including daily huddles, call auditing (10 calls per agent per week), coaching underperformers, maintaining SLA targets (AHT under 5 minutes, CSAT above 4.3), rostering, and escalation handling, (3) must-haves — graduation in any stream, 2-3 years of voice process experience with at least 6 months as a senior CSR, fluency in Hindi and English, comfort with tools like Freshdesk or Zendesk, and willingness to work rotational shifts (24x7 operations), (4) nice-to-haves — experience in D2C or quick-commerce support, (5) CTC breakup, transport allowance for night shifts, medical insurance, and meal coupons, (6) growth path to Assistant Manager in 18 months, (7) inclusive statement welcoming women candidates with safe transport and security policies for night shifts. Format as a 500-word JD for Naukri and Apna.co. Tone warm, practical, and respectful of frontline workers.",
+      "tags": [
+        "job-description",
+        "bpo",
+        "team-lead",
+        "voice-process"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-038",
+      "title": "Create JD for Legal Counsel at Fintech",
+      "prompt": "Act as a legal recruitment specialist with 8 years of experience placing lawyers at Indian fintech and banking clients. I need you to write a job description for a Legal Counsel role at a Mumbai-based fintech startup offering UPI and lending products, CTC ₹28-42 LPA. Here is the context: the role reports to the General Counsel and supports product, compliance, and regulatory interactions with RBI, SEBI, and NPCI. Target profile is a lawyer with 5-8 years of experience, mix of top law firm and in-house background. Please provide: (1) a role summary tied to the regulatory complexity of Indian fintech, (2) responsibilities including contract review and negotiation with banks and payment partners, RBI digital lending guidelines compliance, data protection under the DPDP Act, drafting customer-facing T&Cs, supporting product counsel for new features, and managing external law firms, (3) must-haves — LLB from NLS/NALSAR/NUJS or comparable, 5-8 years of experience with 2+ years in fintech, strong grasp of Payment and Settlement Systems Act and RBI master directions, (4) nice-to-haves — RBI interaction experience, litigation management, and IPO readiness, (5) CTC, benefits including life insurance, health cover for parents, and learning budget, (6) reporting structure, (7) application process through iimjobs and direct referrals. Format as a 600-word JD. Tone should reflect legal precision and the high-stakes nature of fintech regulation in India.",
+      "tags": [
+        "job-description",
+        "legal-counsel",
+        "fintech",
+        "regulatory"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-039",
+      "title": "Write Annual Recruiting Metrics Report Narrative",
+      "prompt": "Act as a talent acquisition analytics lead with 9 years of experience reporting to CXOs at Indian unicorns. I need you to write the narrative section of an annual recruiting metrics report for a 700-person Bangalore SaaS company that will be presented to the board. Here is the context: in the last 12 months, the company hired 212 people, time-to-hire averaged 38 days (down from 52), offer-acceptance rate was 74% (target 80%), cost per hire was ₹82,000, 42% of hires came via referrals, diversity share for women in tech hires was 27% (up from 19%), and 90-day retention was 96%. Please provide: (1) an executive summary under 150 words highlighting the 3 biggest wins and 2 biggest misses, (2) a section on hiring velocity explaining what drove the improvement in time-to-hire, (3) a section on offer acceptance analyzing why 26% of offers declined and what patterns emerged (counter-offers, compensation gaps, long notice periods), (4) a section on source effectiveness ranking Naukri, LinkedIn, referrals, iimjobs, and direct sourcing by cost per hire and quality of hire, (5) a diversity section with a candid analysis of what worked (returnship program, inclusive JDs) and what didn't, (6) 5 priorities for the next 12 months with measurable targets, (7) budget ask of ₹1.8 crore justified against projected 280 hires. Format as a board-ready written narrative with section headers. Tone confident, self-critical, and data-grounded.",
+      "tags": [
+        "analytics",
+        "metrics-report",
+        "board-report",
+        "talent-strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    },
+    {
+      "id": "hr-recruitment-040",
+      "title": "Draft JD for HR Business Partner Role",
+      "prompt": "Act as a senior HR recruiter with 7 years of experience hiring HR professionals for Indian technology companies. I need you to write a job description for an HR Business Partner role at a Bangalore-based fintech with 400 employees, supporting the engineering and product functions (150 people). CTC is ₹18-28 LPA. Here is the context: the HRBP will partner with 3 directors, drive performance management cycles, support talent reviews, coach managers, and own engagement and retention for the tech org. Please provide: (1) a clear role hook positioning this as a true business partner role, not HR-operations, (2) responsibilities including quarterly 1:1s with engineering managers, running talent calibration, supporting hiring decisions, handling sensitive employee relations cases, driving performance improvement plans, and partnering with L&D on skill-building, (3) must-haves — 5-8 years of HR experience with 2+ years as an HRBP at a product or tech company, MBA in HR from a recognized institute preferred, strong data literacy using tools like Darwinbox or SuccessFactors, (4) nice-to-haves — experience in high-growth startups, coaching certification, and prior exposure to ESOP communication, (5) CTC, benefits, hybrid work from Koramangala 3 days, (6) success metrics for first 12 months including voluntary attrition under 12%, manager NPS improvement, and performance review completion rate above 95%, (7) application process. Format as a 600-word JD. Tone should signal seriousness about the HRBP discipline, not generic HR.",
+      "tags": [
+        "job-description",
+        "hrbp",
+        "hr-hiring",
+        "people-partner"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "recruitment"
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "developers-qa-testing-001",
+      "title": "UPI Payment Flow Test Case Suite",
+      "prompt": "Act as a Senior QA Engineer with 8 years of experience testing fintech products at companies like Razorpay and PhonePe. I need you to generate a comprehensive test case suite for a UPI payment flow on a merchant checkout page. Here is the context: a D2C Indian e-commerce app accepts UPI payments via intent (PhonePe/GPay/Paytm) and UPI collect request, with order values ranging from INR 99 to INR 50,000. Expected flows include success, failure, pending, timeout, and refund. Please provide: (1) 25 functional test cases covering happy path, (2) 15 negative test cases including insufficient balance, wrong VPA, bank server down, (3) 10 edge cases for UPI autopay, mandate creation, and partial refunds, (4) test data examples with valid/invalid VPAs (like test@okhdfcbank), and (5) preconditions and expected results for each case. Format the output as a table with columns: TC_ID, Title, Precondition, Steps, Test Data, Expected Result, Priority (P0-P3), Type (Functional/Negative/Edge). Consider NPCI UPI 2.0 specifications, RBI payment aggregator guidelines, and common failure scenarios during IPL season traffic spikes. Map each test case to a user story ID format QA-UPI-XXX for Zephyr Scale import.",
+      "tags": [
+        "upi",
+        "test-case",
+        "fintech",
+        "payment-testing",
+        "zephyr"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-002",
+      "title": "JIRA Bug Report Template Generator",
+      "prompt": "Act as a QA Lead with 6 years of experience at an Indian SaaS product company like Freshworks or Zoho. I need you to create a standardized JIRA bug report template that my team of 12 QA engineers can reuse for filing defects. Here is the context: we test a B2B CRM web application used by 50,000+ Indian SMBs across Mumbai, Bengaluru, and Delhi NCR. We use JIRA Cloud with Xray for test management, and bugs often get rejected by devs for missing information. Please provide: (1) a complete bug report template with all required fields (Summary, Environment, Build, Steps to Reproduce, Actual vs Expected, Severity, Priority, Attachments), (2) severity matrix (S1 Blocker to S4 Cosmetic) with INR-based business impact examples, (3) priority matrix (P0-P3) aligned with SLA, (4) three sample filled-in bug reports for login failure, GST invoice calculation error, and UI alignment issue on Chrome Android, and (5) a checklist the reporter must complete before submitting. Format as markdown ready to paste into JIRA description field. Consider Indian business hours support windows, regional language content testing (Hindi/Tamil), and typical dev-QA handoff friction points.",
+      "tags": [
+        "bug-report",
+        "jira",
+        "xray",
+        "defect-management",
+        "template"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-003",
+      "title": "Playwright Login Automation Script",
+      "prompt": "Act as an SDET with 4 years of experience automating web applications using Playwright and TypeScript. I need you to write a complete Playwright test script for login functionality of an Indian edtech platform similar to Unacademy. Here is the context: the login page at https://app.example.in/login supports email+password and mobile OTP, with reCAPTCHA v3, and redirects to /dashboard on success. Test user: learner@example.in / Test@1234. Please provide: (1) a Playwright test file in TypeScript using page object model, (2) LoginPage.ts class with locators and methods, (3) three test cases covering valid login, invalid password, and blank field validation, (4) proper use of expect assertions and auto-waiting, and (5) a playwright.config.ts snippet for running on Chrome, Firefox, and mobile Safari viewport 375x812. Format as separate code blocks for each file with filenames as headers. Consider flaky test prevention, parallel execution, handling reCAPTCHA in staging using test keys, and generating HTML reports. Use TypeScript strict mode and async/await patterns. Include a sample GitHub Actions workflow step to run the suite headlessly.",
+      "tags": [
+        "playwright",
+        "automation",
+        "typescript",
+        "page-object-model",
+        "e2e"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-004",
+      "title": "JMeter IPL Flash Sale Load Test Plan",
+      "prompt": "Act as a Performance Test Engineer with 7 years of experience load testing Indian e-commerce platforms like Flipkart and Myntra. I need you to design a JMeter test plan for an IPL-themed flash sale expecting 5 lakh concurrent users on a jersey landing page. Here is the context: product page /ipl-jersey, add-to-cart API POST /api/cart, checkout API POST /api/checkout, with expected peak at 8 PM during the CSK vs MI match. Current infrastructure: AWS ap-south-1, 20 EC2 app nodes behind ALB, Aurora MySQL. Please provide: (1) JMeter test plan structure with Thread Groups, ramp-up strategy, and think times, (2) the JMX configuration logic explained for stepping load from 0 to 500K users over 15 minutes, (3) 8 critical transactions to capture with assertions and SLA thresholds (p95 under 800ms), (4) CSV data set for 10,000 test users and product SKUs, and (5) listeners and backend listener config for pushing metrics to Grafana + InfluxDB. Format as structured sections with code/XML snippets where applicable. Consider distributed JMeter setup using 10 load generators, warm-up cache behavior, and realistic Indian user patterns from Jio 4G networks.",
+      "tags": [
+        "jmeter",
+        "performance-testing",
+        "load-testing",
+        "flash-sale",
+        "ipl"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-005",
+      "title": "Postman Collection for Payment Gateway API",
+      "prompt": "Act as an API Test Engineer with 5 years of experience testing REST APIs using Postman and Newman. I need you to create a complete Postman collection for testing a payment gateway API similar to Razorpay. Here is the context: base URL https://api.example.in/v1, endpoints include POST /orders, POST /payments, GET /payments/:id, POST /refunds, with Basic Auth using key_id:key_secret. Test amounts in INR paise (e.g., 49900 for INR 499). Please provide: (1) a Postman collection JSON structure with 12 requests organized in folders (Orders, Payments, Refunds, Webhooks), (2) environment variables for dev/staging/prod, (3) pre-request scripts to generate idempotency keys and timestamps, (4) test scripts using pm.test with assertions for status code, response schema, and business rules, and (5) a Newman CLI command to run the collection in CI with HTML report. Format as JSON snippets and JavaScript test code blocks. Include sample assertions like pm.expect(jsonData.amount).to.eql(49900) and validation that currency equals \"INR\". Consider rate limiting, webhook signature verification using HMAC SHA256, and handling 402 Payment Required responses.",
+      "tags": [
+        "postman",
+        "api-testing",
+        "newman",
+        "payment-gateway",
+        "rest-api"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-006",
+      "title": "Aadhaar KYC Test Scenarios",
+      "prompt": "Act as a QA Engineer with 5 years of experience testing KYC workflows at Indian fintech startups. I need you to generate a test scenario document for Aadhaar-based eKYC on a neobank onboarding flow. Here is the context: the flow uses UIDAI OTP-based eKYC via an authorized AUA/KUA, captures Aadhaar number, sends OTP to registered mobile, and fetches demographic data. Please provide: (1) 20 functional test scenarios covering valid 12-digit Aadhaar, masked Aadhaar, VID (Virtual ID), and XML offline KYC, (2) 10 negative scenarios for invalid Aadhaar, wrong OTP, expired OTP, locked biometric, and UIDAI server timeout, (3) 8 compliance checks for UIDAI regulations including consent capture and data masking, (4) data privacy test cases for logs, screen recording, and network traces, and (5) edge cases for NRIs, minors, and recently updated Aadhaar. Format as a scenario table with columns: Scenario_ID, Description, Preconditions, Test Steps, Expected Result, Compliance_Ref. Consider DPDP Act 2023, UIDAI circulars, and the need to avoid storing raw Aadhaar in QA test databases.",
+      "tags": [
+        "aadhaar",
+        "kyc",
+        "test-case",
+        "compliance",
+        "fintech"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-007",
+      "title": "Selenium Java Test Framework Skeleton",
+      "prompt": "Act as a Senior Automation Engineer with 8 years of experience building Selenium frameworks for Indian IT services companies like TCS and Infosys. I need you to scaffold a complete Selenium WebDriver framework in Java using TestNG and Maven. Here is the context: the project will automate regression tests for a banking portal, run on Chrome and Edge, integrate with Jenkins, and produce ExtentReports. Please provide: (1) the pom.xml with dependencies for Selenium 4, TestNG, ExtentReports, WebDriverManager, and Log4j2, (2) a BaseTest.java with @BeforeMethod setup for driver initialization and @AfterMethod teardown, (3) a DriverFactory.java supporting Chrome, Edge, and remote grid, (4) a sample LoginPageTest.java with two TestNG test methods and data provider reading from Excel, and (5) testng.xml structured for smoke and regression suites. Format each file as a labeled code block. Consider parallel execution with threadLocal WebDriver, explicit waits, thread-safe page objects, and screenshot capture on failure. Include the Jenkins pipeline groovy snippet for running mvn clean test with parameters for browser and environment.",
+      "tags": [
+        "selenium",
+        "java",
+        "testng",
+        "framework",
+        "automation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-008",
+      "title": "OTP Verification Edge Case Tests",
+      "prompt": "Act as a QA Engineer with 4 years of experience testing authentication flows in Indian mobile apps. I need you to write detailed test cases for OTP-based login verification. Here is the context: users enter an Indian mobile number +91-XXXXXXXXXX, receive a 6-digit OTP via SMS (primary) and WhatsApp (fallback), with a 60-second resend timer and 3 attempt lockout. SMS provider is MSG91 and timeout is 120 seconds. Please provide: (1) 15 positive test cases covering first-time OTP, resend, expired OTP, and auto-read on Android, (2) 12 negative cases for wrong OTP, network loss, SIM change, DND-registered numbers, and TRAI template mismatch, (3) security test cases for brute force, OTP replay, and session hijacking, (4) device-specific scenarios for Jio, Airtel, Vi networks, and (5) fallback behavior when SMS fails. Format as a test case spreadsheet structure with TC_ID, Preconditions, Steps, Expected Result, Priority. Consider TRAI DLT regulations for SMS templates, common delivery delays on Indian telecom networks, and RBI guidelines on two-factor authentication. Include verification points for OTP masking in logs and UI.",
+      "tags": [
+        "otp",
+        "test-case",
+        "authentication",
+        "mobile-testing",
+        "security"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-009",
+      "title": "Cypress E2E Test for Checkout Flow",
+      "prompt": "Act as a Frontend Test Engineer with 3 years of experience writing Cypress tests for Indian D2C brands. I need you to write a Cypress test suite for an end-to-end checkout flow. Here is the context: a Next.js storefront at https://shop.example.in, product listing page, add to cart, shipping form with Indian pincode validation, COD and Razorpay payment options, with GST calculation at 18 percent. Please provide: (1) a cypress/e2e/checkout.cy.js file with 5 test cases covering guest checkout, logged-in checkout, pincode serviceability, COD flow, and invalid pincode, (2) custom commands in cypress/support/commands.js for cy.addToCart and cy.fillAddress, (3) fixture file checkout-users.json with 3 Indian addresses from Mumbai, Bengaluru, Jaipur, (4) intercept stubs for payment gateway using cy.intercept, and (5) a cypress.config.js with baseUrl, viewport, and retry settings. Format as separate labeled code blocks. Consider Shopify-style session cookies, handling third-party iframes, GST tax line assertions in INR, and stable selectors using data-testid. Include a package.json script \"test:e2e\" to run in CI.",
+      "tags": [
+        "cypress",
+        "e2e",
+        "javascript",
+        "checkout",
+        "automation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-010",
+      "title": "Appium Mobile Test for Android Banking App",
+      "prompt": "Act as a Mobile Test Automation Engineer with 6 years of experience using Appium for Indian banking apps. I need you to write an Appium test script in Python for a money transfer feature on an Android banking app. Here is the context: app package com.example.bank, activity .LoginActivity, test device Samsung Galaxy M14 running Android 13, BrowserStack cloud execution. Flow: login with mPIN, navigate to Transfer, select beneficiary, enter INR 5000, confirm with OTP. Please provide: (1) a pytest-based Appium script with WebDriver setup using UiAutomator2, (2) page object classes for LoginPage, HomePage, and TransferPage, (3) desired capabilities for BrowserStack including project and build name, (4) three test methods covering happy path, insufficient balance, and beneficiary not added, and (5) explicit waits using WebDriverWait with AppiumBy locators. Format as Python code blocks with clear file separation. Consider handling biometric prompts, system dialogs, toast messages, and OTP autofill. Include a conftest.py with fixtures and a sample BrowserStack config. Use environment variables for credentials and avoid hardcoding secrets.",
+      "tags": [
+        "appium",
+        "mobile-testing",
+        "python",
+        "android",
+        "browserstack"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-011",
+      "title": "Regression Test Suite Prioritization",
+      "prompt": "Act as a QA Manager with 10 years of experience at an Indian SaaS product company. I need you to help me prioritize a regression test suite that has grown to 1,200 test cases and now takes 14 hours to execute manually. Here is the context: our team of 8 manual testers supports a HR management product used by 3,000 Indian companies, with releases every 2 weeks. Recent production incidents were in payroll, leave, and attendance modules. Please provide: (1) a risk-based prioritization framework with scoring rubric (business impact, frequency of use, defect density, recent changes), (2) a recommended split into P0 smoke (50 cases, 1 hour), P1 critical regression (200 cases, 3 hours), P2 full regression (950 cases), (3) criteria for test case retirement and consolidation, (4) a shift-left strategy to push 300 cases into automated CI, and (5) a 90-day roadmap with milestones. Format as a structured plan document with tables. Consider Indian payroll compliance (PF, ESI, TDS), monthly payroll cycles that cannot slip, and the cost of manual QA effort in INR assuming INR 8 lakh annual cost per tester. Include KPIs to track regression efficiency.",
+      "tags": [
+        "regression-testing",
+        "test-strategy",
+        "prioritization",
+        "qa-management",
+        "test-case"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-012",
+      "title": "Smoke Test Checklist Generator",
+      "prompt": "Act as a QA Analyst with 2 years of experience at an Indian product startup. I need you to generate a smoke test checklist for a food delivery app similar to Swiggy, to be executed after every staging deployment. Here is the context: the app has customer Android and iOS builds, restaurant partner web dashboard, and delivery partner Android app, with backend microservices for ordering, payments, and tracking. Smoke test should finish in under 45 minutes. Please provide: (1) 25 smoke test checkpoints covering customer app (signup, location, search, order, payment, track), restaurant app (order accept, ready), delivery app (pickup, deliver), (2) preconditions like test accounts, test restaurant, test menu items, (3) expected results for each checkpoint, (4) rollback decision criteria, and (5) a slack notification template for smoke test results. Format as a numbered checklist grouped by application. Consider Bengaluru as the test city, Razorpay test mode, Google Maps sandbox keys, and dummy delivery partners. Keep each checkpoint phrased as a verifiable step that a new tester can execute without additional context.",
+      "tags": [
+        "smoke-test",
+        "checklist",
+        "test-case",
+        "mobile-testing",
+        "deployment"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-013",
+      "title": "K6 API Performance Test Script",
+      "prompt": "Act as a Performance Engineer with 5 years of experience using K6 for load testing Indian SaaS APIs. I need you to write a K6 JavaScript test script for a ticketing API similar to BookMyShow. Here is the context: endpoints POST /api/shows/search, POST /api/seats/block, POST /api/bookings, with expected ticket release traffic for a Shah Rukh Khan movie at 10 AM on a Friday. Target load: 30,000 concurrent users, p95 under 500ms. Please provide: (1) a k6 script in ES modules format with options for stages ramping up to 30K VUs, (2) custom metrics using Trend and Counter for each endpoint, (3) thresholds for http_req_duration and checks, (4) a helper module for authentication and data generation, and (5) the CLI command to run the script and export results to InfluxDB. Format as code blocks with filenames. Consider realistic user think time of 2-5 seconds, session cookies, JSON payload validation, and handling 429 rate limit responses. Use escaped strings in payloads like \"{ \\\"city\\\": \\\"Mumbai\\\" }\". Include a grafana dashboard panel suggestion for visualizing VU ramp and response time percentiles.",
+      "tags": [
+        "k6",
+        "performance-testing",
+        "javascript",
+        "api-testing",
+        "load-testing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-014",
+      "title": "GST Invoice Calculation Test Cases",
+      "prompt": "Act as a QA Engineer with 3 years of experience testing accounting and billing modules in Indian SaaS products like Zoho Books or ClearTax. I need you to write test cases for GST invoice calculation. Here is the context: the module calculates CGST, SGST, IGST based on supplier and buyer GSTIN states, supports intra-state and inter-state sales, with HSN codes and tax slabs (0, 5, 12, 18, 28 percent). Please provide: (1) 20 test cases covering intra-state sales (supplier and buyer both in Karnataka, CGST+SGST), (2) 15 inter-state cases (Karnataka supplier to Maharashtra buyer, IGST), (3) edge cases for composition dealers, SEZ supplies, reverse charge, and rounding, (4) test data with sample GSTINs and item amounts in INR, and (5) expected results validating invoice totals, tax breakdown, and amount in words. Format as a test case table with TC_ID, Description, Input, Expected Output, GST Reference. Consider CBIC GST rules, Rule 46 invoice format requirements, e-invoicing threshold, and rounding to nearest rupee. Include negative cases for invalid GSTIN format and tax slab mismatch.",
+      "tags": [
+        "gst",
+        "test-case",
+        "invoice",
+        "billing",
+        "tax-testing"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-015",
+      "title": "Bug Triage Meeting Summary Template",
+      "prompt": "Act as a QA Lead with 5 years of experience running bug triage meetings at a product company in Bengaluru. I need you to create a bug triage meeting template and summary format. Here is the context: the weekly triage meeting includes QA, Engineering Manager, Product Manager, and Support Lead, reviewing 40-60 open bugs in JIRA with fields like severity, priority, affected version, and customer impact. Please provide: (1) a meeting agenda template covering new bugs, aging bugs, P0/P1 status, and customer-raised issues, (2) a decision framework for closing, deferring, or escalating bugs with criteria, (3) a triage output format that updates JIRA with labels, fix version, and assignee, (4) a one-page summary email template for leadership with key metrics, and (5) common triage pitfalls to avoid. Format as markdown suitable for Confluence. Consider Indian working hours coordination with US-based customers, typical support escalation patterns, and the need to protect engineer focus time. Include example rows showing a bug moving from New to Triaged to Assigned, with sample comments in natural language.",
+      "tags": [
+        "bug-triage",
+        "jira",
+        "qa-management",
+        "process",
+        "template"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-016",
+      "title": "Boundary Value Analysis for Loan Application",
+      "prompt": "Act as a QA Engineer with 4 years of experience testing lending apps at Indian NBFCs. I need you to apply boundary value analysis and equivalence partitioning to a personal loan application form. Here is the context: loan amount INR 10,000 to INR 5,00,000, tenure 3 to 36 months, applicant age 21 to 58 years, monthly income INR 15,000 to INR 10,00,000, CIBIL score 300 to 900 (eligibility threshold 650). Please provide: (1) equivalence partitions for each input field with valid and invalid classes, (2) boundary values (min, min+1, nominal, max-1, max) for each field, (3) 25 derived test cases combining fields, (4) expected results including approval, rejection, and error messages, and (5) a decision table for age and CIBIL score combinations. Format as tables grouped by technique. Consider RBI fair practices code, NBFC digital lending guidelines, and typical Indian salary ranges. Include cases for exactly INR 650 CIBIL, exactly 21 years old applicant, and boundary values like INR 10,001 loan amount. Map each case to a risk level and priority.",
+      "tags": [
+        "boundary-value",
+        "test-case",
+        "lending",
+        "equivalence-partitioning",
+        "bfsi"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-017",
+      "title": "Test Plan Document for Mobile App Release",
+      "prompt": "Act as a QA Manager with 9 years of experience at an Indian consumer mobile app company. I need you to draft a test plan document for a major release of a mobile wallet app. Here is the context: version 5.0 adds UPI Lite, rewards, bill payments, and a new dark mode, with an 8-week test window and a team of 6 testers, targeted for launch before Diwali. Please provide: (1) a complete IEEE 829 style test plan with sections for scope, features tested, features not tested, approach, entry/exit criteria, deliverables, resources, schedule, and risks, (2) a feature-wise test coverage matrix, (3) device coverage plan for top 15 Indian Android devices (Redmi, Realme, Samsung, Oppo, Vivo) and top 5 iOS devices, (4) test environments (dev, QA, UAT, staging, prod-mirror), and (5) a risk register with 10 risks and mitigations. Format as structured markdown with clear headings. Consider Diwali traffic spike, Play Store and App Store review timelines, Indian regulatory approvals for wallet features, and coordination with marketing. Include an RACI matrix for the release team.",
+      "tags": [
+        "test-plan",
+        "release-testing",
+        "mobile-testing",
+        "qa-management",
+        "documentation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-018",
+      "title": "Exploratory Testing Charter",
+      "prompt": "Act as an Exploratory Tester with 5 years of experience at an Indian SaaS company. I need you to write exploratory testing charters for a newly released feature. Here is the context: a customer support ticketing product like Freshdesk is launching an AI auto-reply suggestion feature, with a 4-hour exploratory testing session planned. Please provide: (1) 5 exploratory test charters using the format \"Explore [target] with [resources] to discover [information]\", (2) session-based test management (SBTM) time allocation with setup, test design, bug investigation, and reporting percentages, (3) personas to test as (new agent, senior agent, admin, end-customer), (4) heuristics to apply (SFDPOT, FEW HICCUPPS, boundaries), and (5) a debrief template capturing areas explored, issues found, and follow-up questions. Format as a charter document with examples. Consider multilingual support Hindi and English, common Indian customer support scenarios, and the tendency of AI features to hallucinate. Include sample notes for a 90-minute session with realistic observations and 3 sample bugs found during exploration.",
+      "tags": [
+        "exploratory-testing",
+        "sbtm",
+        "test-charter",
+        "ai-testing",
+        "qa-strategy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-019",
+      "title": "TestRail Test Case Import CSV",
+      "prompt": "Act as a QA Engineer with 3 years of experience using TestRail as your test management tool. I need you to generate a TestRail-compatible CSV with test cases for a user profile management feature. Here is the context: the feature allows users to update name, mobile, email, profile photo, and address on an Indian grocery app like BigBasket, with OTP verification for mobile change. Please provide: (1) a CSV header row matching TestRail import fields (Section, Title, Preconditions, Steps, Expected Result, Type, Priority, Estimate), (2) 20 test cases as data rows, (3) cases split into sections \"Edit Profile\", \"Change Mobile\", \"Upload Photo\", and \"Manage Addresses\", (4) at least 5 negative cases, and (5) notes on handling multi-line steps using newline escaping. Format as a plain CSV code block that can be saved as .csv and imported directly. Consider Indian mobile number format validation, photo size limits, address pin code check, and typical privacy concerns. Use realistic Indian names like Priya Sharma and Rahul Iyer in example data, and include sample pincodes like 560001 Bengaluru and 400001 Mumbai.",
+      "tags": [
+        "testrail",
+        "test-case",
+        "csv",
+        "test-management",
+        "import"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-020",
+      "title": "Accessibility Testing Checklist WCAG",
+      "prompt": "Act as an Accessibility QA Specialist with 4 years of experience auditing Indian government and enterprise websites for WCAG 2.1 compliance. I need you to build an accessibility testing checklist for a government services portal. Here is the context: the portal enables citizens to apply for ration cards, driving licenses, and birth certificates, must comply with GIGW 3.0 and WCAG 2.1 Level AA, and supports English, Hindi, and 4 regional languages. Please provide: (1) a 30-item checklist mapped to WCAG success criteria (perceivable, operable, understandable, robust), (2) tools to use (axe DevTools, WAVE, Lighthouse, NVDA screen reader), (3) keyboard-only navigation test steps, (4) color contrast test cases with sample color pairs, and (5) a remediation severity rubric. Format as a checklist table with columns: ID, WCAG_Ref, Check, Tool, Severity, Pass/Fail. Consider Rights of Persons with Disabilities Act 2016, Indian language script rendering issues, and form labeling for complex Aadhaar-linked fields. Include 5 common defects with suggested fixes and code examples in HTML with aria attributes.",
+      "tags": [
+        "accessibility",
+        "wcag",
+        "testing",
+        "government",
+        "checklist"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-021",
+      "title": "Contract Testing with Pact",
+      "prompt": "Act as an API Test Engineer with 5 years of experience implementing consumer-driven contract testing using Pact. I need you to set up contract tests between a React frontend consumer and a Spring Boot order service provider. Here is the context: the frontend calls GET /api/orders/:id and POST /api/orders, and the team wants to prevent breaking changes during independent deployments at an Indian logistics company like Delhivery. Please provide: (1) a consumer-side Pact test in JavaScript using @pact-foundation/pact with 2 interactions, (2) a provider-side verification in Java JUnit 5 using pact-jvm-provider, (3) a pact broker publish command and CI workflow step, (4) a sample pact JSON file generated, and (5) versioning and can-i-deploy strategy. Format as code blocks labeled by file. Consider realistic order schemas with fields like orderId, pincode, codAmount in INR, and statuses (Pending, Picked, Delivered). Escape inner quotes properly like \"{ \\\"orderId\\\": \\\"ORD123\\\" }\". Include a matcher example using Pact.somethingLike for dynamic fields and an explanation of provider states.",
+      "tags": [
+        "pact",
+        "contract-testing",
+        "api-testing",
+        "microservices",
+        "junit"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-022",
+      "title": "Defect Root Cause Analysis Report",
+      "prompt": "Act as a QA Lead with 7 years of experience conducting RCA for production defects at an Indian fintech. I need you to write a root cause analysis report for a payment failure incident. Here is the context: on 25 March 2026, between 10 AM and 12 PM, 12 percent of UPI transactions failed with error UPI_TIMEOUT, affecting 4,500 customers and INR 1.8 crore in transaction value, during TDS filing deadline traffic. Please provide: (1) an executive summary, (2) timeline of events with Indian Standard Time stamps, (3) technical root cause analysis using 5-Whys and fishbone diagram description, (4) impact assessment covering customers, revenue in INR, SLA breaches, and regulatory reporting, and (5) corrective and preventive actions (CAPA) with owners and due dates. Format as a structured RCA document ready to share with RBI and internal leadership. Consider bank connector timeouts, queue backpressure, missing alerting, and gaps in load testing coverage. Include action items like adding circuit breakers, improving JMeter baselines, and creating a game day runbook. End with lessons learned for the QA team about pre-release testing gaps.",
+      "tags": [
+        "rca",
+        "defect-analysis",
+        "incident-report",
+        "fintech",
+        "qa-process"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-023",
+      "title": "SQL Queries for Test Data Setup",
+      "prompt": "Act as a QA Engineer with 3 years of experience writing SQL scripts for test data preparation at an Indian EdTech company. I need you to write SQL queries to create test data for a student enrollment system. Here is the context: MySQL 8 database with tables students, courses, enrollments, payments, and the tests need 100 students across grades 6-12 from 5 Indian cities, enrolled in JEE and NEET courses with INR-priced fee records. Please provide: (1) INSERT statements for 100 students with realistic Indian names, emails, and mobile numbers, (2) INSERT statements for 10 courses with fees ranging INR 5,000 to INR 75,000, (3) enrollment records linking students to courses with random dates in 2026, (4) payment records with statuses paid, pending, failed, and (5) a cleanup script to delete test data safely using a tag column test_data=1. Format as SQL code blocks, one per section. Consider foreign key constraints, idempotent inserts using INSERT IGNORE, and avoiding collisions with real data. Use city-state pairs like Hyderabad Telangana, Kota Rajasthan, and Chennai Tamil Nadu. Include a verification SELECT query at the end.",
+      "tags": [
+        "sql",
+        "test-data",
+        "mysql",
+        "database-testing",
+        "edtech"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-024",
+      "title": "CI/CD Test Pipeline with GitHub Actions",
+      "prompt": "Act as a DevOps-minded QA Engineer with 4 years of experience integrating test automation into CI/CD pipelines. I need you to write a GitHub Actions workflow for running a test suite on every pull request. Here is the context: a Node.js backend repository with Jest unit tests, Supertest integration tests, and Playwright e2e tests, deployed to AWS Mumbai ap-south-1. Please provide: (1) a complete .github/workflows/test.yml with jobs for lint, unit, integration, and e2e, (2) matrix strategy to run on Node 18 and 20, (3) caching for node_modules and Playwright browsers, (4) artifact upload for test reports and screenshots on failure, and (5) a required status check configuration. Format as a single YAML code block with inline comments. Consider running integration tests against a MySQL service container, secrets for test API keys, parallelization across 4 workers, and posting a PR comment with coverage summary. Ensure the pipeline fails if coverage drops below 75 percent. Include a manual workflow_dispatch trigger so QA can run the suite ad-hoc with environment input options staging or preprod.",
+      "tags": [
+        "github-actions",
+        "ci-cd",
+        "automation",
+        "pipeline",
+        "test-automation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-025",
+      "title": "Penetration Testing Scope Document",
+      "prompt": "Act as a Security QA Specialist with 6 years of experience coordinating pen tests for Indian BFSI applications. I need you to draft a pen test scope document for an upcoming VAPT engagement. Here is the context: a digital banking portal and mobile app used by 2 lakh customers, with features like account opening, UPI, fund transfer, and loan application, to be tested by an external CERT-In empanelled vendor over 3 weeks. Please provide: (1) scope inclusions and exclusions with URLs, IPs, and app packages, (2) testing methodology following OWASP Top 10 and OWASP MASVS, (3) test environments, test accounts, and rate limit coordination, (4) rules of engagement covering working hours IST, communication channels, and emergency contacts, and (5) deliverables expected (findings report, risk ratings, remediation guidance). Format as a formal scoping document. Consider RBI cyber security framework for banks, CERT-In guidelines, and responsible disclosure. Include a risk rating rubric (Critical, High, Medium, Low) and a template table for findings with CVSS scores. Add a section on retesting expectations and sign-off criteria before production release.",
+      "tags": [
+        "security-testing",
+        "vapt",
+        "pen-test",
+        "owasp",
+        "bfsi"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-026",
+      "title": "Test Case for Pincode Serviceability",
+      "prompt": "Act as a QA Engineer with 2 years of experience testing Indian e-commerce apps. I need you to write test cases for a pincode serviceability check feature. Here is the context: on a product detail page, users enter a 6-digit Indian pincode and the system checks if the seller delivers to that area, showing delivery date, COD availability, and shipping charges in INR. Please provide: (1) 12 positive test cases covering valid serviceable pincodes from 6 metro and 4 tier-2 cities, (2) 10 negative cases for non-serviceable pincodes, invalid format, remote areas, PO boxes, (3) edge cases for pincode boundaries and newly added pincodes, (4) test data table with sample pincodes and expected delivery days, and (5) UI verification points for loader, error messages, and caching. Format as test case rows with TC_ID, Steps, Test Data, Expected Result. Consider PIN codes like 110001 Delhi, 700001 Kolkata, 797001 Kohima, 744301 Port Blair. Include a scenario for Jammu and Kashmir pincodes with extended delivery timelines and a case where COD is blocked for high-value orders.",
+      "tags": [
+        "test-case",
+        "ecommerce",
+        "pincode",
+        "functional-testing",
+        "india"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-027",
+      "title": "API Schema Validation with JSON Schema",
+      "prompt": "Act as an API Test Engineer with 4 years of experience validating REST API contracts. I need you to write JSON Schema definitions and Ajv validation tests for a hotel booking API similar to MakeMyTrip. Here is the context: the endpoint POST /api/bookings accepts guest details, hotel ID, check-in and check-out dates, room count, and returns a booking confirmation with PNR, totalAmount in INR, and taxes. Please provide: (1) a request JSON Schema file booking-request.schema.json, (2) a response JSON Schema file booking-response.schema.json, (3) a Node.js test file using Ajv to validate 3 sample request and response payloads, (4) sample invalid payloads showing validation failures, and (5) integration with Postman test scripts using tv4 or pm.response.json. Format as separate code blocks with filenames. Consider Indian GST tax breakdown fields, mobile numbers with +91 pattern, PAN format validation, and date formats in ISO 8601. Escape inner strings properly like { \\\"pattern\\\": \\\"^[6-9]\\\\\\\\d{9}$\\\" }. Include a schema versioning strategy and a CI check that rejects PRs introducing breaking schema changes.",
+      "tags": [
+        "json-schema",
+        "api-testing",
+        "ajv",
+        "contract-testing",
+        "validation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-028",
+      "title": "Mobile App Crash Log Analysis Prompt",
+      "prompt": "Act as a Mobile QA Engineer with 5 years of experience debugging Android and iOS crashes using Firebase Crashlytics. I need you to create a structured crash triage workflow for daily review. Here is the context: an Indian ride-hailing app similar to Ola sees around 200 crashes per day across Android and iOS, tracked in Firebase Crashlytics, and linked to JIRA for fixing. Please provide: (1) a daily crash triage checklist for the QA on-duty, (2) criteria to classify crashes as critical, major, minor based on users affected and revenue impact in INR, (3) a template for filing a crash bug in JIRA with stack trace, device, OS, app version, and user journey, (4) sample analysis of 3 fictitious crashes showing how to identify root cause from stack trace, and (5) a weekly crash trend report template for engineering leadership. Format as a workflow document with examples. Consider high Android fragmentation across Xiaomi, Samsung, Realme, Oppo devices with MIUI customizations, low-end RAM devices, and the pattern of spikes during peak Mumbai office hours. Include a rule for when to hotfix versus wait for next release.",
+      "tags": [
+        "crash-analysis",
+        "firebase",
+        "crashlytics",
+        "mobile-testing",
+        "triage"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-029",
+      "title": "Visual Regression Test with Percy",
+      "prompt": "Act as a Frontend QA Engineer with 3 years of experience implementing visual regression testing. I need you to set up Percy visual testing for an Indian news website homepage. Here is the context: the site is a Next.js app similar to Times of India with sections for News, Sports, Cricket, Business, Tech, and runs on desktop 1280px and mobile 375px breakpoints. Please provide: (1) a percy.config.js file with widths, min-height, and network idle timeout, (2) a Playwright test file taking snapshots of 6 key pages using @percy/playwright, (3) snapshot naming conventions and responsive test strategy, (4) a CI integration snippet to run percy exec with PERCY_TOKEN, and (5) review workflow for approving visual diffs. Format as code blocks with filenames. Consider dynamic content like live scores and timestamps that need masking, ad slot placeholders, and Hindi font rendering on mobile. Include a sample playwright test with page.evaluate to hide time-stamp elements before snapshotting, and note how to handle infinite scroll pages. Add guidance on stabilizing screenshots against flakiness caused by lazy-loaded images.",
+      "tags": [
+        "visual-testing",
+        "percy",
+        "playwright",
+        "regression",
+        "frontend"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-030",
+      "title": "User Acceptance Testing Script",
+      "prompt": "Act as a QA Lead with 6 years of experience coordinating UAT with business users at Indian IT services clients. I need you to write a UAT script for a new leave management module. Here is the context: a HRMS product for a 2,000-employee Indian manufacturing company in Pune, UAT involves HR, Finance, and 10 department heads over 5 business days. Please provide: (1) UAT objectives, entry criteria, and exit criteria, (2) 30 UAT test scenarios grouped by role (employee applies leave, manager approves, HR configures policy), (3) sample leave data covering casual, sick, earned, maternity, paternity, comp-off, (4) a signoff template for stakeholders, and (5) a defect logging process during UAT. Format as a complete UAT plan and script document. Consider Indian leave policies like LTC, Factories Act compliance, religious holidays like Diwali and Eid, and the difference between privileged and casual leave. Include a scenario for leave encashment calculation in INR and one for LOP handling when balance is insufficient. Add realistic employee names and employee IDs like EMP001042 for examples.",
+      "tags": [
+        "uat",
+        "test-script",
+        "hrms",
+        "acceptance-testing",
+        "documentation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-031",
+      "title": "Database Migration Test Checklist",
+      "prompt": "Act as a QA Engineer with 4 years of experience testing database migrations at an Indian SaaS company. I need you to build a migration test checklist for moving from MySQL 5.7 to MySQL 8.0 on AWS RDS. Here is the context: a multi-tenant CRM product with 450 GB data, 180 tables, 40 stored procedures, and downtime window of 2 hours on a Sunday 2 AM IST. Please provide: (1) a 25-item pre-migration checklist covering backups, compatibility, schema diffs, character sets utf8mb4, (2) 15 during-migration validation checks, (3) 20 post-migration test cases including data integrity, query performance, replication lag, and application connectivity, (4) a rollback plan, and (5) sign-off criteria. Format as a checklist table grouped by phase. Consider timezone handling for IST, collation changes, sql_mode differences between 5.7 and 8.0, and deprecated features. Include SQL queries to compare row counts and checksums between source and target databases. Add a runbook style step-by-step for the on-call QA during the maintenance window, with clear go/no-go decision points at T+30, T+60, T+90 minutes.",
+      "tags": [
+        "database-testing",
+        "migration",
+        "mysql",
+        "checklist",
+        "rds"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-032",
+      "title": "Localization Testing Cases Hindi Support",
+      "prompt": "Act as a Localization QA Tester with 3 years of experience testing multilingual Indian apps. I need you to write localization test cases for Hindi language support in a grocery delivery app. Here is the context: the app is launching Hindi UI for tier-2 and tier-3 cities, with translations for 850 strings, Devanagari script rendering, and INR currency formatting. Please provide: (1) 15 test cases for UI text verification ensuring Hindi strings appear instead of English, (2) 10 cases for text truncation, overflow, and wrapping in buttons, labels, toasts, (3) 8 cases for date, time, currency formatting with Indian numbering like 1,00,000, (4) 5 cases for mixed content (product names in English, categories in Hindi), and (5) font rendering cases across Android versions and devices. Format as a test case table with Screen, Element, Expected Hindi Text, Actual, Pass/Fail. Consider glyph support for conjunct characters, right context for shopkeeper names, and pluralization differences. Include examples like INR 1,50,000 formatted as the Hindi numbering lakh system and common grocery terms translation like vegetables as sabziyan.",
+      "tags": [
+        "localization",
+        "i18n",
+        "hindi",
+        "test-case",
+        "mobile-testing"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-033",
+      "title": "Chaos Engineering Test Scenario",
+      "prompt": "Act as an SRE-minded QA Engineer with 6 years of experience running chaos experiments. I need you to design a chaos engineering game day for a payment microservices platform. Here is the context: 12 microservices deployed on EKS in ap-south-1, handling 10,000 TPS during peak, with a steady state SLO of 99.95 percent availability and p99 latency under 400ms. Please provide: (1) 6 chaos experiment scenarios (pod kill, network latency injection, CPU stress, disk fill, DNS failure, AZ outage) using Litmus or Chaos Mesh, (2) steady state hypothesis for each, (3) blast radius controls and abort conditions, (4) observability dashboards and alerts to watch during the experiment, and (5) a post-mortem template. Format as a game day runbook with pre-flight checklist. Consider RBI regulatory requirements for payment systems, Mumbai region single-AZ outage simulation, and customer impact mitigation. Include an INR-based business impact calculation showing projected revenue loss if experiment escalates uncontrolled. Add roles for incident commander, scribe, and comms lead, and a clear escalation path.",
+      "tags": [
+        "chaos-engineering",
+        "sre",
+        "resilience-testing",
+        "litmus",
+        "microservices"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-034",
+      "title": "Test Strategy for AI Chatbot",
+      "prompt": "Act as a QA Manager with 5 years of experience testing AI-powered products. I need you to create a test strategy for a customer support AI chatbot built on GPT-4. Here is the context: a health insurance company in Mumbai is deploying a chatbot to answer policy queries, claims status, and network hospitals, in English and Hindi, handling 15,000 conversations per day. Please provide: (1) a test strategy covering functional, conversational, hallucination, safety, bias, and performance aspects, (2) prompt testing approach using golden datasets and regression prompts, (3) safety test cases for PII disclosure, medical advice boundaries, IRDAI regulatory compliance, (4) evaluation metrics (accuracy, BLEU, answer relevance, escalation rate), and (5) a human-in-the-loop review process. Format as a structured strategy document. Consider IRDAI guidelines on grievance redressal, data privacy under DPDP Act, and typical Indian customer questions about claim rejections. Include 10 sample golden prompts with expected answers and 5 adversarial prompts to test jailbreaking. Add a drift detection plan to monitor quality degradation monthly and retraining triggers.",
+      "tags": [
+        "ai-testing",
+        "chatbot",
+        "llm-testing",
+        "test-strategy",
+        "insurance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-035",
+      "title": "Excel Test Data Template for Payroll",
+      "prompt": "Act as a QA Analyst with 2 years of experience in Indian payroll software testing. I need you to create an Excel test data template for payroll calculation tests. Here is the context: a payroll module processes salaries for employees with components basic, HRA, conveyance, special allowance, PF, ESI, TDS, professional tax, and generates payslips for Indian states like Maharashtra and Karnataka. Please provide: (1) an Excel sheet structure with columns EmployeeID, Name, Location, Basic, HRA percent, Gross, PF, ESI, TDS slab, PT, Net Salary, Expected Output, (2) 25 test data rows covering different salary ranges INR 15,000 to INR 25,00,000 annual, (3) edge cases for minimum wage, PF ceiling INR 15,000, ESI ceiling INR 21,000, and senior citizens, (4) formulas or calculation logic for expected values, and (5) instructions for import into test management tool. Format as a tab-separated data block that can be pasted into Excel. Consider FY 2025-26 tax slabs under new regime, state-wise professional tax, and Maharashtra PT slab. Include a few Indian names like Anjali Deshpande and Vikram Rao, and employee IDs in the format EMP-2026-XXXX.",
+      "tags": [
+        "test-data",
+        "payroll",
+        "excel",
+        "test-case",
+        "india-compliance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-036",
+      "title": "API Security Test Cases OWASP",
+      "prompt": "Act as an API Security Tester with 5 years of experience testing Indian BFSI APIs against OWASP API Top 10. I need you to write security test cases for a customer account API. Here is the context: endpoints GET /api/accounts/:id, POST /api/transfers, GET /api/statements, protected by OAuth2 Bearer tokens, used by an Indian neobank. Please provide: (1) 15 test cases mapped to OWASP API Top 10 2023 (BOLA, broken auth, unrestricted resource consumption, etc.), (2) sample curl commands or Postman requests demonstrating each attack, (3) expected secure behavior, (4) a section on IDOR testing with multi-tenant account IDs, and (5) rate limiting and JWT manipulation tests. Format as a test case table with ID, OWASP Category, Description, Attack Request, Expected Secure Response. Consider RBI cyber security directives, SEBI cybersecurity framework, and DPDP Act data minimization. Escape inner strings in curl examples like -H \\\"Authorization: Bearer eyJ...\\\". Include a test for sensitive data exposure checking that API responses do not include CVV, full card number, or masked Aadhaar fields.",
+      "tags": [
+        "api-security",
+        "owasp",
+        "security-testing",
+        "bfsi",
+        "test-case"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-037",
+      "title": "Flaky Test Investigation Framework",
+      "prompt": "Act as a Senior SDET with 7 years of experience stabilizing flaky test suites at an Indian product company. I need you to build a framework for investigating and fixing flaky tests in a Playwright suite of 800 tests with a 6 percent flakiness rate. Here is the context: the team runs tests in parallel on GitHub Actions with 8 shards, and flaky failures delay 15 PRs per day on average. Please provide: (1) a flaky test classification rubric (timing, network, test data, environment, race condition), (2) a detection pipeline using test retries and failure rate tracking over 14 days, (3) a dashboard schema to display top-10 flaky tests, (4) 8 common anti-patterns to fix with code examples, and (5) a quarantine process that moves flaky tests to a separate suite with an SLA to fix. Format as a framework document with code snippets. Consider the cost in engineer hours of each flaky PR retry, and calculate a business case in INR to justify stabilization work. Include Playwright specific fixes like using page.waitForURL instead of arbitrary timeouts, and proper use of test.step for granular debugging.",
+      "tags": [
+        "flaky-tests",
+        "playwright",
+        "test-stability",
+        "sdet",
+        "ci-cd"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-038",
+      "title": "Test Coverage Report Interpretation",
+      "prompt": "Act as a QA Engineer with 3 years of experience analyzing code coverage reports. I need you to help interpret a Jest coverage report for a Node.js backend at an Indian logistics startup. Here is the context: current coverage is 62 percent statements, 55 percent branches, 70 percent functions, 63 percent lines, target is 80 percent across all metrics, with 320 files and 45,000 lines of code. Please provide: (1) a framework to prioritize which files to cover first based on business criticality and defect history, (2) a checklist for distinguishing meaningful coverage from vanity coverage, (3) 10 examples of test smells that inflate coverage without testing behavior, (4) a plan to reach 80 percent in 6 sprints with weekly milestones, and (5) a sample Jest config with coverageThreshold settings. Format as an analysis document with a summary table. Consider that shipping modules like tracking, pickup, and delivery are more critical than internal admin screens, and cases like integrations with Shiprocket or Delhivery need careful mocking. Include talking points to convince engineering leads about why raw percentage alone is misleading.",
+      "tags": [
+        "code-coverage",
+        "jest",
+        "test-strategy",
+        "metrics",
+        "nodejs"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-039",
+      "title": "BrowserStack Cross Browser Test Matrix",
+      "prompt": "Act as a QA Engineer with 4 years of experience running cross-browser tests on BrowserStack for Indian web applications. I need you to define a browser and device test matrix for a travel booking website. Here is the context: 45 percent of traffic comes from Android Chrome, 20 percent desktop Chrome, 10 percent desktop Safari, 8 percent iOS Safari, 7 percent desktop Edge, rest from others, with users primarily from Mumbai, Delhi, Bengaluru, Chennai, Hyderabad, Kolkata. Please provide: (1) a prioritized test matrix covering 12 browser-OS-device combinations, (2) rationale for each combination based on traffic share and business risk, (3) a BrowserStack Automate capabilities snippet for Selenium, (4) a cost estimate in INR per month assuming 500 automated runs, and (5) a plan for monthly review as usage patterns change. Format as a matrix table followed by capabilities JSON. Consider low-end Android devices like Redmi Note 10, iOS 17 on iPhone 14, Safari Technology Preview for early regression, and older Chrome versions still prevalent in tier-2 cities. Include a note on accessibility-oriented testing with screen readers on at least one combination.",
+      "tags": [
+        "browserstack",
+        "cross-browser",
+        "test-matrix",
+        "selenium",
+        "compatibility"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    },
+    {
+      "id": "developers-qa-testing-040",
+      "title": "Stress Test Scenario for Diwali Sale",
+      "prompt": "Act as a Performance Test Lead with 8 years of experience preparing Indian e-commerce platforms for festive sales like Big Billion Days and Great Indian Festival. I need you to design a stress test scenario for a Diwali sale expected to serve 10 lakh concurrent users. Here is the context: the platform uses microservices on GKE ap-south1, Redis cache, CockroachDB, and CloudFront for static assets, with the sale starting at midnight on 1 November 2026. Please provide: (1) a test strategy with baseline, load, stress, spike, and soak phases across 3 weeks of dress rehearsals, (2) key user journeys to script (home, search, PDP, add to cart, payment, order confirmation) with realistic business transaction mix, (3) tool choice between JMeter and k6 with rationale, (4) infrastructure scaling targets and observability setup with Prometheus and Grafana, and (5) go/no-go decision criteria for production readiness. Format as a structured test plan with phased milestones. Consider Jio 4G network profile, payment gateway rate limits, Redis hot key issues for popular SKUs, and war room setup in Bengaluru office. Include a rollback plan and the INR cost impact of a 5-minute outage at peak.",
+      "tags": [
+        "stress-testing",
+        "performance-testing",
+        "diwali-sale",
+        "ecommerce",
+        "capacity-planning"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "qa-testing"
+    }
+  ]
+}

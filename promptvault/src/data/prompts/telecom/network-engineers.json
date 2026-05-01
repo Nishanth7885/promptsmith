@@ -1,0 +1,151 @@
+{
+  "category": "telecom",
+  "subcategory": "network-engineers",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "telecom-network-engineers-001",
+      "title": "Network Troubleshooting Playbook",
+      "prompt": "Act as a senior network engineer (CCNP / JNCIP) at an Indian ISP / enterprise. Build a troubleshooting playbook for 'no internet connectivity' tickets. Cover: (1) layer-1 check (cable, port LED, SFP), (2) layer-2 (ARP, MAC, VLAN, STP), (3) layer-3 (IP, gateway, route, ping, traceroute), (4) DNS + DHCP, (5) firewall + ACL, (6) WAN link (BGP, OSPF), (7) ISP escalation matrix, (8) ticket-closure SOP. Per step: command (Cisco IOS / Juniper Junos), expected output, escalation. Constraints: align with ITIL incident management; bilingual user-facing scripts; documented for KB.",
+      "category": "telecom",
+      "subcategory": "network-engineers",
+      "tags": ["troubleshooting", "ccnp", "isp", "itil", "playbook"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true
+    },
+    {
+      "id": "telecom-network-engineers-002",
+      "title": "Network Design Documentation (HLD)",
+      "prompt": "Act as a senior solution architect. Build HLD (High-Level Design) for an Indian enterprise's 22-branch MPLS + SD-WAN network (HQ Bengaluru, branches across India). Cover: (1) topology (hub-spoke + dual-internet at HQ), (2) ISP selection (Airtel Business + Tata Communications + Reliance Jio), (3) routing (BGP for ISP, OSPF for internal), (4) QoS (voice + video + data classes), (5) security (firewall, IDS, NAC, ZTNA), (6) WAN optimisation (Cato / Versa / Velocloud), (7) cloud connectivity (AWS Direct Connect Mumbai), (8) BCP (link redundancy, DC failover). Constraints: align with TRAI + DoT for ISP licensing; INR cost optimisation; IPv6-ready.",
+      "category": "telecom",
+      "subcategory": "network-engineers",
+      "tags": ["hld", "sd-wan", "mpls", "bgp", "trai"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true
+    },
+    {
+      "id": "telecom-network-engineers-003",
+      "title": "Security Policy Drafting (Network ACL)",
+      "prompt": "Act as a network security engineer. Draft network access control policy for an Indian BFSI enterprise. Cover: (1) zone definitions (DMZ, internal, untrusted, partner, IoT), (2) inter-zone rules (default-deny + explicit allow), (3) ACL templates per zone (Cisco ASA / Palo Alto), (4) microsegmentation logic, (5) jump-host + bastion policy, (6) third-party VPN policy, (7) audit + log retention (180 days), (8) review cadence (quarterly). Constraints: align with RBI cybersecurity framework + DPDP + ISO 27001; cite CERT-In + recent advisories; documented for audit.",
+      "category": "telecom",
+      "subcategory": "network-engineers",
+      "tags": ["acl", "network-security", "rbi", "iso-27001", "microsegmentation"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false
+    },
+    {
+      "id": "telecom-network-engineers-004",
+      "title": "Change Management Request (CR)",
+      "prompt": "Act as a senior network engineer. Submit a CR (Change Request) for a planned MPLS link migration from Airtel to Tata Communications at our 5 metro branches. Cover: (1) summary, (2) business justification (lower cost, better SLA), (3) scope (5 sites + WAN edge + monitoring), (4) impact (~2-min downtime per site), (5) rollback plan, (6) test plan + acceptance criteria, (7) timeline (6 maintenance windows), (8) risk register, (9) approver matrix (CIO, COO, network head), (10) post-implementation review. Constraints: align with ITIL change management; respect branch operational hours; documented for audit.",
+      "category": "telecom",
+      "subcategory": "network-engineers",
+      "tags": ["change-request", "mpls", "airtel", "tata-comm", "itil"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "telecom-network-engineers-005",
+      "title": "Capacity Planning for ISP Backbone",
+      "prompt": "Act as a senior capacity planner at an Indian ISP. Build 24-month capacity-planning for a 200 Gbps backbone serving 80,000 subscribers across Bengaluru. Cover: (1) traffic forecast (current 80% peak, growth 22% YoY), (2) per-subscriber consumption growth (Netflix / OTT, gaming, work-from-home), (3) bottleneck identification (uplink, peering, content cache), (4) capex options (DWDM upgrade, additional peering, CDN cache deployment — Akamai, Cloudflare, Netflix Open Connect), (5) ROI per option, (6) procurement cycle, (7) DR + redundancy. Constraints: align with TRAI + DoT licensing; INR capex transparent; net-neutrality compliant.",
+      "category": "telecom",
+      "subcategory": "network-engineers",
+      "tags": ["capacity-planning", "isp-backbone", "dwdm", "trai", "cdn"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "telecom-network-engineers-006",
+      "title": "Wi-Fi Site Survey for Office",
+      "prompt": "Act as a wireless engineer. Build a Wi-Fi site-survey + design for a 30,000-sqft Indian software company office (4 floors + cafeteria + auditorium, 350 employees). Cover: (1) coverage requirement (-65 dBm minimum office, -70 dBm cafe), (2) capacity (24 devices / AP avg), (3) AP count + placement (Ekahau / Hamina survey), (4) controller + cloud (Cisco Meraki / Aruba), (5) SSID design (corp + guest + IoT), (6) WPA3 + 802.1X, (7) PoE switch sizing, (8) interference + channel plan. Constraints: align with WPC 2.4 + 5 + 6 GHz approval; budget ₹38L; DPDP for guest data.",
+      "category": "telecom",
+      "subcategory": "network-engineers",
+      "tags": ["wifi", "site-survey", "ekahau", "meraki", "wpa3"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "telecom-network-engineers-007",
+      "title": "Network Disaster Recovery Drill",
+      "prompt": "Act as a network DR coordinator. Plan a half-yearly DR drill at our Indian financial institution simulating Mumbai DC failure + failover to Hyderabad DR. Cover: (1) drill scope (network only, not full app), (2) participants (network, security, ops, business), (3) timeline (Saturday 10 PM - Sunday 6 AM), (4) test cases (BGP failover, VPN re-route, branch reachability, latency), (5) rollback criteria, (6) communication (status calls every hour), (7) measurement (RTO + RPO), (8) post-drill report + action items. Constraints: align with RBI + SEBI BCM; document audit-ready; client-impact zero.",
+      "category": "telecom",
+      "subcategory": "network-engineers",
+      "tags": ["dr-drill", "bcm", "bgp-failover", "rbi", "rto-rpo"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "telecom-network-engineers-008",
+      "title": "5G Network Architecture for Enterprise",
+      "prompt": "Act as a 5G enterprise solution architect. Design a 5G private network for a 60-acre Indian manufacturing plant (Maruti / Mahindra scale). Cover: (1) use-cases (AGV, AR/VR for maintenance, IoT sensors, real-time video QC), (2) frequency band (DoT-allocated CBRS-equivalent / SA-3.5 GHz), (3) RAN selection (Nokia / Ericsson / Indian — TCS / TejasNet), (4) core (cloud-native 5GC), (5) edge compute (MEC), (6) SLA (99.999% uptime, <10 ms latency), (7) regulatory (DoT licensing, WPC equipment approval), (8) capex ₹85 Cr. Constraints: align with India 5G PMA + DoT spectrum allocation; security per TEC + CERT-In.",
+      "category": "telecom",
+      "subcategory": "network-engineers",
+      "tags": ["5g-private", "5gc", "mec", "dot", "tec"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "telecom-network-engineers-009",
+      "title": "Outage Post-Mortem Report",
+      "prompt": "Act as a senior network engineer. Write post-mortem for a 4-hour outage at our Indian SaaS service. Root cause: BGP misconfiguration during a maintenance window. Cover: (1) timeline (with IST timestamps), (2) what happened, (3) impact (customers + revenue + SLA breach), (4) detection (PagerDuty trigger, customer complaints), (5) response (war-room, mitigation, full restore), (6) root cause + 5-why, (7) corrective actions (SRE-grade), (8) lessons learned, (9) communication (customer letter), (10) accountability without blame culture. Constraints: align with SRE + ITIL; transparent + factual; document for SLA credit calculation.",
+      "category": "telecom",
+      "subcategory": "network-engineers",
+      "tags": ["post-mortem", "bgp", "outage", "sre", "5-why"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "telecom-network-engineers-010",
+      "title": "VPN Setup for Remote Workforce",
+      "prompt": "Act as a network security engineer. Design VPN setup for an Indian company with 800 remote workers post-COVID. Cover: (1) VPN technology (IPSec vs SSL vs WireGuard vs ZTNA — pros/cons), (2) recommended (Zscaler ZTNA), (3) authentication (SAML SSO + MFA), (4) split-tunnel policy, (5) endpoint posture check, (6) bandwidth + concurrent-user sizing, (7) DPDP-compliant logging, (8) DR + multi-region. Constraints: align with DPDP + ISO 27001; CERT-In incident-reporting capability; cost-optimised; bilingual end-user docs.",
+      "category": "telecom",
+      "subcategory": "network-engineers",
+      "tags": ["vpn", "ztna", "zscaler", "remote-work", "dpdp"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "telecom-network-engineers-011",
+      "title": "DDoS Protection Strategy",
+      "prompt": "Act as a CISO advisor. Build DDoS protection strategy for an Indian e-commerce platform (₹450 Cr GMV). Cover: (1) threat-model (volumetric, protocol, application-layer), (2) on-prem appliance + cloud-scrubbing (Cloudflare / Akamai / AWS Shield Advanced / Indian providers like SecPod / Indusface), (3) BGP-based traffic redirection (RTBH), (4) WAF + rate-limit, (5) detection (anomaly + signature), (6) incident response runbook, (7) post-attack analysis, (8) cost-coverage SLA. Constraints: align with CERT-In incident reporting <6hrs; align with PCI-DSS if accepting cards; INR transparent; bilingual customer communication.",
+      "category": "telecom",
+      "subcategory": "network-engineers",
+      "tags": ["ddos", "cloudflare", "rtbh", "cert-in", "waf"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "telecom-network-engineers-012",
+      "title": "Network Monitoring Dashboard",
+      "prompt": "Act as a NOC lead. Design a 24/7 network monitoring dashboard for a 500-device Indian enterprise network. Cover: (1) telemetry sources (SNMP, NetFlow, Syslog, telemetry streaming, packet capture), (2) tool stack (LibreNMS / SolarWinds / PRTG + Grafana + Wazuh SIEM), (3) KPI (uptime, latency, packet loss, error rate, bandwidth utilisation), (4) alert thresholds + escalation, (5) SLA dashboard for business, (6) ticket-creation auto in JIRA, (7) MTTD + MTTR target, (8) reporting (daily, weekly, monthly). Constraints: align with ITIL + ISO 20000; INR cost optimisation; integrate with cloud (AWS Mumbai); CERT-In log retention.",
+      "category": "telecom",
+      "subcategory": "network-engineers",
+      "tags": ["noc", "monitoring", "librenms", "grafana", "siem"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    }
+  ]
+}

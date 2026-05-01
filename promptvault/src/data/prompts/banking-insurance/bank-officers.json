@@ -1,0 +1,151 @@
+{
+  "category": "banking-insurance",
+  "subcategory": "bank-officers",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "banking-insurance-bank-officers-001",
+      "title": "MSME Loan Assessment Memo",
+      "prompt": "Act as a Senior Credit Officer with 12 years at HDFC / ICICI Bank. Draft a credit assessment memo for an MSME term loan ₹85L sought by a 6-year-old auto-component supplier. I will paste financials. Cover: (1) borrower profile + management, (2) financial analysis (revenue, EBITDA, leverage, working capital cycle), (3) industry + customer concentration risk, (4) cash-flow projection, (5) DSCR + sensitivities, (6) collateral + LTV, (7) covenants, (8) credit committee recommendation. Constraints: align with RBI MSME definitions; CGTMSE option; CIBIL ≥ 700 floor; documentation per IBA template.",
+      "category": "banking-insurance",
+      "subcategory": "bank-officers",
+      "tags": ["msme-loan", "credit-memo", "rbi", "cgtmse", "dscr"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true
+    },
+    {
+      "id": "banking-insurance-bank-officers-002",
+      "title": "Customer Communication on Loan Approval",
+      "prompt": "Act as a Branch Manager. Write a 220-word loan approval letter (home loan ₹62L) to an Indian salaried customer. Cover: (1) approval headline, (2) sanction terms (rate 8.65%, tenure 240 months, EMI ₹54,200), (3) processing fee + GST, (4) document requirements before disbursement, (5) insurance cross-sell (HLPP + property), (6) disbursement timeline, (7) RM + branch contact, (8) thank-you. Constraints: align with RBI Fair Practices Code; bilingual (Hindi + English); avoid hidden charges; CIBIL impact disclosure; cooling-off mention.",
+      "category": "banking-insurance",
+      "subcategory": "bank-officers",
+      "tags": ["loan-approval", "home-loan", "rbi-fpc", "cibil", "communication"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true
+    },
+    {
+      "id": "banking-insurance-bank-officers-003",
+      "title": "Mutual Fund Cross-Sell Pitch Script",
+      "prompt": "Act as a Wealth Manager + SEBI-RIA. Write a 4-min pitch script to recommend a goal-based MF SIP to a salaried customer (35-yr-old, ₹18L p.a., looking for retirement corpus). Cover: (1) goal discovery questions, (2) risk profile assessment, (3) suggested asset allocation, (4) recommended schemes (3 MFs from AMC empanelled at bank), (5) SIP amount ₹15K/month, (6) expected corpus at 60 (real terms), (7) tax efficiency, (8) consent capture + SEBI disclosure + KYC. Constraints: align with SEBI RIA + KYC; cover commission disclosure to customer; do not push high-commission products; document for audit.",
+      "category": "banking-insurance",
+      "subcategory": "bank-officers",
+      "tags": ["mf-sip", "wealth-manager", "sebi-ria", "goal-planning", "kyc"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-bank-officers-004",
+      "title": "AML / KYC Compliance Documentation",
+      "prompt": "Act as a Branch Compliance Officer. Build the AML / KYC documentation SOP for a customer onboarding (high-risk PEP-related). Cover: (1) customer due diligence (CDD), (2) PEP identification + EDD, (3) document verification (Aadhaar, PAN, beneficial owner), (4) source of funds, (5) ongoing transaction monitoring, (6) STR threshold + reporting to FIU-IND, (7) record retention 5 years, (8) customer privacy (DPDP). Constraints: align with PMLA + RBI Master Direction on KYC; CKYC registry usage; STR confidentiality; staff training.",
+      "category": "banking-insurance",
+      "subcategory": "bank-officers",
+      "tags": ["aml", "kyc", "pmla", "fiu-ind", "ckyc"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-bank-officers-005",
+      "title": "NPA Recovery Letter to Defaulter",
+      "prompt": "Act as a Recovery Officer. Draft a 280-word recovery letter to a defaulter with a 90+ DPD home loan (₹26L outstanding, EMI ₹22K). Cover: (1) factual loan + DPD status, (2) RBI Fair Practices recovery agent norms, (3) repayment options (one-time settlement / restructuring / step-up), (4) consequence of inaction (CIBIL hit, SARFAESI, NCLT), (5) 30-day window + branch contact, (6) Cooling-off + grievance mechanism. Constraints: align with RBI Fair Practices Code on recovery; non-coercive language; bilingual; cite SARFAESI provisions only as legal info, not threat.",
+      "category": "banking-insurance",
+      "subcategory": "bank-officers",
+      "tags": ["npa", "recovery-letter", "sarfaesi", "rbi-fpc", "cibil"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-bank-officers-006",
+      "title": "Working Capital Assessment for Trader",
+      "prompt": "Act as a Senior Credit Officer. Assess working capital limit (cash credit ₹1.5 Cr) for a trader of textiles (30-year established, FY25 turnover ₹14 Cr). Cover: (1) operating cycle (debtor + inventory - creditor), (2) MPBF method (Tandon Committee), (3) drawing power calculation, (4) margin + collateral, (5) seasonal vs perennial limit, (6) hedge requirement, (7) inspection + stock audit, (8) renewal terms. Constraints: align with RBI working capital guidelines; cite Tandon / Chore committee; cyclical industry buffer; stock statement monthly.",
+      "category": "banking-insurance",
+      "subcategory": "bank-officers",
+      "tags": ["working-capital", "mpbf", "tandon", "stock-audit", "trader"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-bank-officers-007",
+      "title": "Branch Sales Target Plan",
+      "prompt": "Act as a Branch Manager. Draft a quarterly sales target plan for a metro branch (8-staff, 40K liability customers). Targets: (1) CASA growth ₹4 Cr, (2) MF AUM ₹6 Cr, (3) home loan disbursal ₹12 Cr, (4) personal loan ₹2 Cr, (5) credit card 800 issuances, (6) gold loan ₹3 Cr, (7) insurance 200 policies. Build per-staff allocation, daily activity matrix, customer cohort prioritisation, incentive ladder, manager review cadence. Constraints: align with bank's product mix; respect mis-selling boundary; SEBI / IRDAI compliance; staff wellness.",
+      "category": "banking-insurance",
+      "subcategory": "bank-officers",
+      "tags": ["sales-target", "branch", "casa", "mf-aum", "incentive"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-bank-officers-008",
+      "title": "Suspicious Transaction Report (STR)",
+      "prompt": "Act as a Compliance Officer. Draft a sample STR for a customer's high-velocity cash deposits ₹4 Cr in 30 days, structured as ₹49,000 each. Cover: (1) customer + account profile, (2) transaction pattern + RED flags, (3) suspicion grounds (placement layering integration), (4) supporting documentation, (5) investigative steps, (6) FIU-IND filing format, (7) confidentiality (no tipping-off), (8) post-filing customer treatment. Constraints: align with PMLA + FIU-IND format (STR template); cite RBI Master Direction; protect employee whistleblower; legal opinion preserved.",
+      "category": "banking-insurance",
+      "subcategory": "bank-officers",
+      "tags": ["str", "fiu-ind", "pmla", "structuring", "tipping-off"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-bank-officers-009",
+      "title": "Fraud Alert Customer Communication",
+      "prompt": "Act as a Customer Service Manager. Draft a 200-word fraud alert WhatsApp + SMS + email message to customers after a phishing campaign targeting bank brand. Cover: (1) bank's official communication channels (no calls asking OTP), (2) common fraud red-flags (urgency, threat, KYC SMS), (3) what to do if customer suspects fraud, (4) RBI 1930 cyber-helpline, (5) bank's grievance escalation, (6) chargeback rights. Constraints: align with RBI fraud reporting; bilingual; do not panic customers; cite Sahay App / NCRP for cyber-fraud reporting; concise.",
+      "category": "banking-insurance",
+      "subcategory": "bank-officers",
+      "tags": ["fraud-alert", "phishing", "rbi-1930", "ncrp", "customer-comms"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-bank-officers-010",
+      "title": "Credit Card Cross-Sell Conversation",
+      "prompt": "Act as a Branch Sales Officer. Write a 5-min branch conversation script to cross-sell a credit card to a savings-account customer (38-yr-old salaried, eligible for ₹5L limit). Cover: (1) qualifying questions (spending pattern, existing cards, credit score awareness), (2) value framing (rewards, EMI conversion, fuel surcharge waiver), (3) eligible card offer (lifetime free + 10K reward points joining + lounge access), (4) handle 3 objections (hidden charges, high APR, debt risk), (5) responsible-credit + GFC compliance disclosure, (6) close + biometric application kiosk. Constraints: respect customer autonomy; SEBI / IRDAI / RBI fair practices; mis-selling penalty awareness.",
+      "category": "banking-insurance",
+      "subcategory": "bank-officers",
+      "tags": ["credit-card", "cross-sell", "branch-script", "rbi-fpc", "objection"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-bank-officers-011",
+      "title": "Risk-Weighted Asset Calculation",
+      "prompt": "Act as a Senior Risk Analyst at a Tier-1 Indian bank. Walk me through RWA calculation for a ₹500 Cr portfolio (40% retail home, 25% MSME, 20% large corporate, 10% personal, 5% credit card). Cover: (1) Basel III standardised approach, (2) risk weights per category, (3) credit risk mitigation (CRM) under collateral / guarantee, (4) operational risk + market risk, (5) total RWA + Tier-1 capital requirement, (6) buffer (CCB, CCYB), (7) report format (RBI return). Constraints: align with RBI Basel III circulars; cite latest 2026 RBI guidance; honest about CRM eligibility; documentation for audit.",
+      "category": "banking-insurance",
+      "subcategory": "bank-officers",
+      "tags": ["rwa", "basel-iii", "credit-risk", "rbi", "tier-1"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-bank-officers-012",
+      "title": "Deposit Mobilisation Drive Plan",
+      "prompt": "Act as a Branch Head. Plan a 60-day CASA + retail FD mobilisation drive in a tier-2 Indian city. Targets: (1) ₹15 Cr CASA + ₹35 Cr FD. Cover: (1) market segmentation (salaried, retired, business, students, professionals), (2) product fit per segment (FD ladder, RD, smart save, sweep), (3) outbound calling, RM-led visits, ATM micro-events, (4) pricing differential within RBI deposit-rate norms, (5) digital onboarding (account-opening kiosk + UPI integration), (6) staff incentive, (7) review cadence. Constraints: align with RBI fair practices on deposit; senior citizen 50bps higher; protect funded base from cannibalisation.",
+      "category": "banking-insurance",
+      "subcategory": "bank-officers",
+      "tags": ["casa", "fd-mobilisation", "branch-head", "tier-2", "rbi"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    }
+  ]
+}

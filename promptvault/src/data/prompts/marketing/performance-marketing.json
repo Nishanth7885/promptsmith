@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "marketing-performance-marketing-001",
+      "title": "Meta Ads Full-Funnel Campaign Brief for D2C Brand",
+      "prompt": "Act as a senior performance marketing strategist with 8+ years running Meta Ads for Indian D2C brands. I need you to build a full-funnel Meta Ads campaign brief for a Bengaluru-based skincare D2C brand launching a new vitamin C serum at ₹899 (AOV ₹1,400). Monthly budget is ₹12 lakh, target CAC is ₹450, target blended ROAS is 3.2x. Current Shopify store converts at 1.8%. Here is the context: the brand sells on Shopify with Meta Pixel and CAPI set up, uses Interakt for WhatsApp, and has a 60,000-member email list. Please provide: (1) campaign structure across TOF/MOF/BOF with budget split, (2) objective and optimization event per campaign, (3) audience definitions (broad, interest stacks, lookalikes from purchasers), (4) placement and bid strategy per stage, (5) creative format mix (reels, carousels, UGC) with 5 creative angles, (6) expected CPM, CTR, CPC, CVR benchmarks for Indian beauty category, (7) week 1-4 testing plan. Format as a structured brief with tables where relevant. Consider Indian festive calendar, iOS 14.5+ signal loss, and Meta CAPI deduplication. Flag any unit economics risks if AOV or CVR drifts 15% below plan.",
+      "tags": [
+        "meta-ads",
+        "campaign-brief",
+        "d2c",
+        "full-funnel",
+        "roas"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-002",
+      "title": "Google Ads Search Campaign Brief for SaaS Lead Gen",
+      "prompt": "Act as a Google Ads specialist with 7 years scaling B2B SaaS accounts in India. I need you to write a detailed Google Ads Search campaign brief for a Gurugram HR-tech SaaS selling payroll software to SMBs at ₹15,000/month. Monthly Google Ads budget is ₹6 lakh, target CPL is ₹1,200, target MQL-to-SQL is 35%, and the sales team needs 400 MQLs/month. Here is the context: landing pages are on Webflow, CRM is HubSpot, offline conversions are imported via OCI, and competitors include Zoho Payroll, Keka, and RazorpayX Payroll. Please provide: (1) account structure (campaigns, ad groups, match types), (2) keyword list organized by intent (brand, competitor, category, problem), (3) negative keyword seed list, (4) bid strategy recommendation (Manual CPC vs tCPA vs Max Conversions) with rationale for account maturity, (5) ad copy variations (3 RSAs) with pinned headlines, (6) sitelink/callout/structured snippet extensions, (7) conversion tracking plan with OCI for SQL stage, (8) first 30-day optimization checklist. Format as a Google Ads brief ready to hand to an executive. Consider GST-inclusive pricing, Indian business hours ad scheduling, and bid adjustments for tier-1 metros.",
+      "tags": [
+        "google-ads",
+        "campaign-brief",
+        "saas",
+        "lead-gen",
+        "tcpa"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-003",
+      "title": "Meta Lookalike Audience Strategy for Fashion D2C",
+      "prompt": "Act as a paid social strategist with deep expertise in Meta audience targeting for Indian fashion D2C brands. I need you to design a comprehensive lookalike audience strategy for a Mumbai-based ethnic wear brand with ₹8 crore annual revenue, AOV ₹2,100, and 85,000 lifetime purchasers. Current CAC is ₹620 and target is ₹480. Here is the context: the brand has Meta Pixel + CAPI, a 1.2 lakh WhatsApp subscriber list, and high-LTV customers identified in Shopify tags. Please provide: (1) a seed audience hierarchy ranked by expected quality (purchasers, high-LTV, 90-day purchasers, ATC, VC, engagers), (2) recommended LAL percentages (1%, 1-3%, 3-5%, 5-10%) for prospecting vs retargeting, (3) country targeting recommendation given India market size, (4) value-based LAL setup using Shopify customer LTV export, (5) overlap management across ad sets, (6) testing matrix for 4 weeks with budget allocation per LAL, (7) KPIs to judge LAL quality (frequency, CPA drift, CTR). Format as a structured playbook. Consider Indian regional preferences, tier-1 vs tier-2 CPM differences, and the fact that Meta's Advantage+ often cannibalizes manual LAL setups.",
+      "tags": [
+        "meta-ads",
+        "lookalike",
+        "audience-targeting",
+        "d2c",
+        "value-based"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-004",
+      "title": "Interest Stack Targeting for Meta Prospecting",
+      "prompt": "Act as a Meta Ads media buyer with 6 years managing Indian performance accounts. I need you to build a detailed interest-based targeting strategy for a Pune-based home fitness equipment brand (treadmills, ₹35,000 AOV) launching on Meta. Budget is ₹5 lakh/month for prospecting, target CAC is ₹2,800. Here is the context: Advantage+ broad isn't scaling past ₹50k/day without CPA inflation, and the client wants structured interest stacks for testing. Please provide: (1) 6 distinct interest clusters (fitness enthusiasts, home gym buyers, weight loss intent, premium lifestyle, cricket/sports fans, health-conscious parents) with 8-12 interests each, (2) recommended age/gender/income proxy targeting, (3) geo-targeting split across Mumbai, Delhi NCR, Bangalore, Hyderabad, Pune, (4) exclusion audiences (existing customers, recent purchasers, employees), (5) ad-set structure with CBO vs ABO recommendation, (6) creative-audience pairing logic, (7) kill criteria per ad set (spend threshold, CPA ceiling). Format as a ready-to-launch media plan table. Consider the Indian EMI mindset for high-ticket purchases, Bajaj Finserv no-cost EMI messaging, and seasonal spikes around New Year resolutions.",
+      "tags": [
+        "meta-ads",
+        "interest-targeting",
+        "prospecting",
+        "media-plan",
+        "cbo"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-005",
+      "title": "tROAS Bid Strategy Analysis for Shopping Campaigns",
+      "prompt": "Act as a Google Ads senior analyst with expertise in Smart Bidding for Indian e-commerce. I need you to analyze whether a Shopify electronics retailer (AOV ₹4,200, 65% margin, ₹18 lakh/month Google Ads spend) should move from Max Conversion Value to tROAS bidding on their Performance Max and Shopping campaigns. Current blended ROAS is 4.1x, target is 5.0x. Here is the context: the account has 90 days of conversion data, ~2,800 conversions/month, GA4 and enhanced conversions enabled, and uses a custom asset group structure. Please provide: (1) minimum data thresholds for tROAS to work reliably, (2) step-by-step transition plan (set target, ramp up, monitor), (3) expected volume drop during learning phase and mitigation, (4) tROAS target setting logic based on contribution margin and target CAC, (5) reporting cadence and metrics to watch, (6) risk scenarios (seasonality, GMC feed issues, bid cap behavior), (7) fallback plan if ROAS drops 20% below target for 7+ days. Format as an executive analysis memo with a clear recommendation. Consider Indian festive spike dynamics (Diwali, Republic Day sale) and how to pause automated learning during promo weeks.",
+      "tags": [
+        "google-ads",
+        "troas",
+        "smart-bidding",
+        "pmax",
+        "bid-optimization"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-006",
+      "title": "WhatsApp Cart Abandonment Retargeting Sequence",
+      "prompt": "Act as a conversational commerce strategist with experience integrating Interakt/AiSensy with Shopify for Indian D2C brands. I need you to design a 3-touch WhatsApp cart abandonment retargeting sequence for a beauty brand (AOV ₹950, cart abandonment rate 68%, current recovery rate 4%). Target: 12% cart recovery. Here is the context: the brand uses Interakt, has WhatsApp Business API approved, and customers consent via checkout checkbox (DPDP-compliant). Please provide: (1) message 1 at 30 minutes post-abandonment (soft reminder, no discount), (2) message 2 at 6 hours (social proof + objection handling), (3) message 3 at 24 hours (incentive: free shipping or 10% code), (4) template copy in English and Hinglish with approved template categories (marketing/utility), (5) personalization tokens (name, product, image), (6) CTA button types (URL, quick reply), (7) suppression logic to avoid messaging purchasers, (8) measurement framework with UTMs and Shopify attribution. Format as a message-by-message playbook. Consider Meta WhatsApp marketing template approval rules, 24-hour session window, and DPDP Act consent requirements.",
+      "tags": [
+        "whatsapp",
+        "retargeting",
+        "cart-abandonment",
+        "interakt",
+        "d2c"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-007",
+      "title": "Dynamic Product Ads Setup for Shopify + Meta",
+      "prompt": "Act as a Meta Ads technical specialist experienced in Shopify catalog integrations. I need you to write a setup and optimization brief for Dynamic Product Ads (DPA) for a Delhi-based jewellery D2C brand with 1,200 SKUs on Shopify, AOV ₹5,800, and current retargeting CAC of ₹1,100 (target ₹750). Here is the context: the product feed has mixed image quality, some SKUs lack GTIN, and the client wants both retargeting and prospecting DPA (Advantage+ Catalog Ads). Please provide: (1) catalog hygiene checklist (required fields, image specs, availability, price currency), (2) product set segmentation (best-sellers, high-margin, new arrivals, price buckets ₹2k-5k, ₹5k-10k, ₹10k+), (3) retargeting audience windows (1-day VC, 7-day ATC, 14-day VC, 30-day purchasers), (4) creative template design (frame, logo, price overlay, offer badge), (5) placement strategy (Feed, Reels, Stories, Marketplace), (6) prospecting DPA setup with broad targeting, (7) KPIs to track by product set. Format as a step-by-step implementation guide. Consider Shopify Meta sales channel quirks, GST inclusive pricing display, and catalog sync lag during flash sales.",
+      "tags": [
+        "meta-ads",
+        "dpa",
+        "shopify",
+        "catalog",
+        "retargeting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-008",
+      "title": "ROAS Improvement Playbook via Creative Refresh",
+      "prompt": "Act as a creative strategist for performance marketing with 5 years running Meta Ads for Indian D2C brands. I need you to build a 30-day ROAS improvement playbook focused on creative refresh for a food supplements brand whose Meta ROAS dropped from 3.8x to 2.4x over 8 weeks. Monthly spend is ₹9 lakh. Here is the context: creative fatigue is suspected (frequency >4.2, CTR dropped 40%), the brand has a stock of 12 UGC videos, 6 founder-led reels, and 20 product carousels. Please provide: (1) creative audit framework (CTR, thumb-stop rate, hook retention, hold rate), (2) diagnosis of winning vs losing creative patterns, (3) refresh calendar with 3 new concepts/week, (4) hook variations (problem-agitate, social proof, curiosity, founder-story), (5) format diversification plan (Reels-first, then carousel and static), (6) testing structure (creative testing campaign with CBO, ₹1,500/ad minimum), (7) promotion criteria from test to scale, (8) expected ROAS trajectory week-by-week. Format as a playbook with a creative brief template. Consider Indian cultural hooks, language mix (English, Hindi, Hinglish), and regional relevance for tier-2 scaling.",
+      "tags": [
+        "meta-ads",
+        "creative-refresh",
+        "roas",
+        "d2c",
+        "creative-testing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-009",
+      "title": "Landing Page CRO Audit for Paid Traffic",
+      "prompt": "Act as a CRO specialist with experience optimizing Shopify and landing pages for Indian paid traffic. I need you to audit a landing page for a ₹1,299 wireless earbuds D2C brand that receives ₹4 lakh/month in Meta Ads traffic at 1.4% CVR (target 2.5%). Here is the context: the page is mobile-first, loads in 3.8s on 4G, has no sticky CTA, and the checkout drops off at the address step. Razorpay is the PG. Please provide: (1) above-the-fold audit (hero, value prop, CTA, trust badges), (2) mobile page speed fixes (image compression, lazy load, third-party scripts), (3) social proof recommendations (reviews, UGC carousel, press logos), (4) checkout friction diagnosis (guest checkout, address autofill via PIN code, COD toggle placement), (5) Razorpay Magic Checkout / Shopify Shop Pay evaluation, (6) A/B test roadmap with 6 prioritized tests and expected lift, (7) heatmap and session recording setup (Clarity, Hotjar). Format as a prioritized audit report with impact/effort scoring. Consider COD-heavy Indian buyer behavior, PIN code serviceability checks, and mobile network variability in tier-2 cities.",
+      "tags": [
+        "cro",
+        "landing-page",
+        "shopify",
+        "razorpay",
+        "checkout"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-010",
+      "title": "Custom Audience Segmentation from Shopify CRM",
+      "prompt": "Act as a CRM and paid media integration expert for Indian D2C. I need you to design a custom audience segmentation strategy exporting Shopify customer data into Meta Ads for a skincare brand with 1.1 lakh customers, AOV ₹1,150, and 28% repeat rate. Goal: reduce retention CAC and increase LTV. Here is the context: the brand uses Shopify native customer tags, Klaviyo for email, and wants to use value-based audiences. Please provide: (1) segmentation logic (VIP >₹5,000 LTV, repeat buyers, 1-time buyers, lapsed 90-180 days, churned 180+ days), (2) Shopify export fields required (email, phone hashed, LTV, last order date), (3) Meta custom audience upload process and hashing requirements, (4) value-based lookalike setup from VIP segment, (5) campaign use cases per segment (upsell, winback, referral), (6) suppression logic to avoid wasted spend, (7) refresh cadence (weekly auto-sync via Zapier or Airbyte). Format as a structured playbook with a segment matrix. Consider DPDP Act compliance for data sharing, Meta's hashed PII requirements, and typical match rates for Indian phone numbers.",
+      "tags": [
+        "custom-audience",
+        "shopify",
+        "crm",
+        "segmentation",
+        "lookalike"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-011",
+      "title": "Manual vs Automated Bidding Decision Framework",
+      "prompt": "Act as a Google Ads strategist with 10 years experience in Indian performance marketing. I need you to create a decision framework that helps media buyers choose between Manual CPC, Enhanced CPC, Maximize Clicks, Maximize Conversions, tCPA, and tROAS bidding for Indian advertisers. Here is the context: the framework will be used by a 15-person agency managing accounts from ₹50k/month to ₹40 lakh/month across e-commerce, lead gen, and app install verticals. Please provide: (1) decision tree based on account maturity (conversion volume, data age), campaign type, and goal, (2) minimum conversion thresholds per strategy, (3) when to transition from manual to automated, (4) red flags that indicate automated bidding is failing, (5) target setting logic (CPA from CAC, ROAS from margin), (6) seasonal considerations (festive, summer lull), (7) budget pacing implications, (8) a one-page cheat sheet summary. Format as a decision framework document with flowcharts described in text. Consider PMax specific behavior, audience signals, and how Smart Bidding reacts to sudden budget increases during Diwali sales.",
+      "tags": [
+        "google-ads",
+        "bid-strategy",
+        "tcpa",
+        "troas",
+        "decision-framework"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-012",
+      "title": "Festive Sale Budget Allocation Plan",
+      "prompt": "Act as a performance marketing head at an Indian D2C brand planning Diwali/Big Billion Days. I need you to build a festive sale budget allocation plan across Meta, Google, and WhatsApp for a home decor brand with ₹40 lakh normal monthly spend scaling to ₹1.2 crore during the October-November window. AOV ₹1,800, target blended ROAS 4.5x. Here is the context: last year the brand saw 3.2x volume spike and 18% CPM inflation, Amazon and Flipkart Big Billion cannibalize D2C traffic, and the brand offers 25% off + free shipping. Please provide: (1) week-by-week budget pacing (pre-hype, early access, main sale, last call), (2) channel split with rationale (Meta 55%, Google 30%, WhatsApp 10%, others 5%), (3) campaign structure changes (separate sale campaigns vs edits to existing), (4) creative refresh cadence during sale, (5) audience strategy (retargeting amplification, lookalike expansion, existing customers), (6) inventory-linked campaign controls, (7) CPM inflation buffer, (8) daily dashboard KPIs. Format as a CMO-ready festive playbook. Consider GST invoicing, COD volume spike, logistics SLA risks, and coordinating with marketplace promo calendar.",
+      "tags": [
+        "festive-sale",
+        "budget-allocation",
+        "diwali",
+        "d2c",
+        "campaign-brief"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-013",
+      "title": "CAC Payback and LTV Analysis for D2C",
+      "prompt": "Act as a D2C growth analyst with finance background. I need you to build a CAC payback and LTV analysis template for an Indian D2C coffee brand (AOV ₹650, COGS 42%, target CAC ₹320, repeat rate 38%, 6-month LTV ₹1,450). Here is the context: the CFO wants to understand whether current Meta Ads spend of ₹8 lakh/month is profitable and how much the brand can afford to bid per new customer. Please provide: (1) contribution margin calculation per order, (2) first-order profitability with CAC, (3) 6-month and 12-month LTV projections based on repeat cohorts, (4) CAC payback period by cohort, (5) maximum allowable CAC (MAC) calculation, (6) sensitivity analysis on AOV ±15%, repeat rate ±10%, CAC ±20%, (7) recommended blended ROAS target, (8) red flags for unit economics deterioration. Format as a structured financial analysis with a table showing numbers. Consider Razorpay transaction fees (~2%), shipping costs (₹60 per order), RTO losses on COD (~12%), and GST treatment.",
+      "tags": [
+        "cac",
+        "ltv",
+        "unit-economics",
+        "d2c",
+        "roas"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-014",
+      "title": "Google Shopping Feed Optimization Checklist",
+      "prompt": "Act as a Google Merchant Center specialist for Indian e-commerce brands. I need you to build a Google Shopping feed optimization checklist for a Shopify fashion retailer with 3,500 SKUs, frequent disapprovals, and ₹6 lakh/month Shopping spend. Here is the context: the feed has 22% disapproval rate, title truncation issues, and missing GTINs on private label SKUs. Please provide: (1) title optimization formula (brand + gender + product type + attribute + size), (2) description best practices with keyword priority, (3) GTIN exemption process for private label, (4) image requirements (white background, no watermark, 800x800+), (5) custom labels setup (margin tier, bestseller, seasonal, clearance) for campaign segmentation, (6) availability and price sync frequency, (7) disapproval resolution workflow, (8) Shopping feed A/B testing via supplemental feeds. Format as a checklist with examples. Consider GST-inclusive pricing as per Indian policy, Shipping configuration for Cashify/Delhivery zones, and tax declarations in Merchant Center for India marketplace.",
+      "tags": [
+        "google-shopping",
+        "merchant-center",
+        "feed-optimization",
+        "shopify",
+        "custom-labels"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-015",
+      "title": "Retargeting Funnel Map with Audience Windows",
+      "prompt": "Act as a paid media strategist specializing in retargeting funnels. I need you to design a complete retargeting funnel map for a Bengaluru home appliances brand (AOV ₹12,000, long consideration cycle ~14 days) spending ₹3 lakh/month on retargeting across Meta and Google. Here is the context: the brand has product video views, ATC abandoners, checkout abandoners, and past purchasers across 90 days. Please provide: (1) retargeting stage definitions (engaged, considering, intent, abandoner, customer), (2) audience windows per stage (1, 3, 7, 14, 30, 60, 90 days), (3) creative message match per stage (education vs urgency vs offer), (4) budget split across stages, (5) frequency caps per stage, (6) exclusion logic to avoid overlap, (7) cross-channel coordination (Meta for discovery retarget, Google RLSA for intent), (8) measurement framework with view-through and click-through attribution. Format as a funnel diagram described in text with a supporting table. Consider Indian EMI decision lag for high-ticket appliances, weekend vs weekday intent, and urban monsoon seasonality impact.",
+      "tags": [
+        "retargeting",
+        "funnel",
+        "audience-windows",
+        "meta-ads",
+        "rlsa"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-016",
+      "title": "Meta CAPI Setup and Event Match Quality Audit",
+      "prompt": "Act as a Meta Ads technical implementation expert. I need you to write a CAPI (Conversions API) setup and event match quality audit guide for an Indian Shopify D2C brand spending ₹15 lakh/month on Meta Ads with current EMQ score of 5.8/10. Here is the context: the brand has Meta Pixel + CAPI via Shopify native integration but hasn't enabled advanced matching parameters. Goal: raise EMQ to 8.5+ to reduce CPA by 15-20%. Please provide: (1) EMQ score interpretation and impact on delivery, (2) required user data parameters (email, phone, first name, last name, city, state, zip, country, external_id, fbp, fbc), (3) Shopify setup steps to enable advanced matching, (4) server-side event deduplication (event_id, event_name matching), (5) hashing requirements (SHA-256, normalization), (6) testing workflow via Events Manager Test Events, (7) ongoing monitoring dashboard, (8) common pitfalls (missing phone country code, unhashed data). Format as a technical guide. Consider Indian phone number formatting (+91), PIN codes as zip, DPDP Act compliance for PII sharing, and iOS 14.5+ signal loss context.",
+      "tags": [
+        "meta-ads",
+        "capi",
+        "event-match-quality",
+        "pixel",
+        "shopify"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-017",
+      "title": "Beginner Meta Ads Campaign Setup for Local Business",
+      "prompt": "Act as a friendly Meta Ads trainer teaching first-time advertisers. I need you to create a step-by-step Meta Ads campaign setup guide for a Jaipur-based home bakery owner with ₹15,000/month budget who wants to drive WhatsApp inquiries for custom cakes (AOV ₹1,800). Here is the context: the owner has a Facebook Business Page, Instagram account, and Interakt for WhatsApp, but has never run paid ads. Please provide: (1) Business Manager and Ad Account setup checklist, (2) campaign objective selection (Messages or Leads) with reasoning, (3) audience targeting (Jaipur + 25 km radius, age 25-45, interests in cakes/desserts/parties), (4) budget and schedule (₹500/day, 7-day test), (5) ad creative guidance (3 photo options + caption hooks), (6) WhatsApp CTA integration with Interakt, (7) first-week metrics to check (reach, CPM, CTR, CPR), (8) common beginner mistakes to avoid. Format as a numbered walkthrough a beginner can follow. Consider local dialects, festive occasion targeting (birthdays, anniversaries, weddings), and COD vs UPI payment preference.",
+      "tags": [
+        "meta-ads",
+        "beginner",
+        "local-business",
+        "whatsapp",
+        "campaign-brief"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-018",
+      "title": "Google Ads Account Structure for New Advertiser",
+      "prompt": "Act as a Google Ads coach helping a beginner set up their first account. I need you to write a Google Ads account structure guide for a Hyderabad yoga studio owner with ₹20,000/month budget wanting leads for a ₹4,500/month yoga membership. Here is the context: the owner has a Google Business Profile, a simple WordPress site with a lead form, and no prior paid search experience. Please provide: (1) Google Ads account creation basics, (2) conversion tracking via Google Tag (GA4 and Google Ads), (3) campaign types recommendation (Search + Performance Max), (4) account structure (campaigns, ad groups, keywords), (5) keyword list with match types (phrase + exact), (6) negative keyword starter list, (7) ad copy examples with 3 headlines and 2 descriptions, (8) budget and bid settings for beginners. Format as a beginner-friendly setup walkthrough with screenshots described. Consider local Hyderabad targeting, Telugu + English keyword considerations, and morning/evening yoga class timing in ad scheduling.",
+      "tags": [
+        "google-ads",
+        "beginner",
+        "account-structure",
+        "local",
+        "lead-gen"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-019",
+      "title": "Ad Copy Variations for Meta Reels",
+      "prompt": "Act as a performance copywriter for Meta Reels ads with Indian D2C experience. I need you to write 10 ad copy variations (primary text, headline, description) for a Chennai-based organic haircare brand launching a ₹499 onion oil bottle. Here is the context: target audience is women 24-40 dealing with hair fall, the brand has strong UGC and a ₹50 off launch offer. Please provide: (1) 3 problem-agitate-solution copies, (2) 2 social proof copies with review quotes, (3) 2 founder-story copies, (4) 2 curiosity-hook copies, (5) 1 offer-led copy with urgency. For each: primary text (90-125 words), headline (under 40 chars), description (under 30 chars), CTA button choice. Format as a copy matrix table. Consider Hinglish mix where it helps relatability, emoji usage appropriate for the audience, and compliance with Meta advertising policies for beauty/health claims.",
+      "tags": [
+        "ad-copy",
+        "meta-ads",
+        "reels",
+        "d2c",
+        "copywriting"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-020",
+      "title": "Daily Performance Report Template for Media Buyer",
+      "prompt": "Act as a performance marketing team lead at an Indian agency. I need you to design a daily performance report template for junior media buyers managing ₹5-15 lakh/month D2C accounts on Meta and Google. Here is the context: reports are sent to clients every morning by 10 AM IST and need to highlight action items, not just metrics. Please provide: (1) report structure (header, KPI summary, channel breakdown, insights, actions), (2) KPIs to include (spend, impressions, CTR, CPC, conversions, CPA, ROAS, daily vs MTD vs target), (3) comparison logic (day-on-day, week-on-week, target delta), (4) insight narrative framework (what happened, why, what next), (5) action item format (owner, deadline, expected impact), (6) creative performance section, (7) audience performance section, (8) red flag alerts (CPA spike, ROAS drop, learning phase). Format as a template with sample filled example. Consider Indian client expectations around WhatsApp-friendly short summaries and detailed Google Sheets versions for CFO review.",
+      "tags": [
+        "reporting",
+        "dashboard",
+        "media-buying",
+        "kpi",
+        "agency"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-021",
+      "title": "UTM Parameter Naming Convention Guide",
+      "prompt": "Act as a marketing analytics lead building tracking standards. I need you to write a UTM parameter naming convention guide for a 25-person Indian D2C brand running Meta, Google, WhatsApp (Interakt), influencer, and email campaigns. Here is the context: current UTMs are inconsistent, GA4 reports are messy, and attribution is unreliable. Please provide: (1) standard format (utm_source, utm_medium, utm_campaign, utm_content, utm_term), (2) source taxonomy (meta, google, whatsapp, klaviyo, influencer, affiliate), (3) medium taxonomy (paid-social, cpc, email, referral, organic-social), (4) campaign naming (brand-objective-audience-date e.g., sn-diwali-sale-lal-oct24), (5) content naming for creative variants, (6) URL builder tool recommendation, (7) governance process (naming review, campaign tracker sheet), (8) GA4 custom channel grouping setup to match. Format as a guide with examples and a quick reference table. Consider multi-team coordination, Shopify order attribution, and how Interakt WhatsApp clicks flow into GA4.",
+      "tags": [
+        "utm",
+        "tracking",
+        "analytics",
+        "ga4",
+        "attribution"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-022",
+      "title": "Meta Ads Audit Checklist for New Account",
+      "prompt": "Act as a Meta Ads auditor taking over a new client account. I need you to create a comprehensive audit checklist for an Indian D2C fashion brand with ₹10 lakh/month spend and underperforming ROAS of 1.9x (target 3.5x). Here is the context: the account has been running 18 months across multiple agencies, has 40+ campaigns, and messy structure. Please provide: (1) account setup audit (Business Manager, pages, pixel, CAPI, domain verification), (2) campaign structure review (CBO/ABO, objectives, consolidation opportunities), (3) audience overlap and saturation check, (4) creative audit (fatigue, variety, format mix), (5) bid strategy and budget pacing, (6) placement analysis, (7) conversion event hierarchy and aggregated event measurement, (8) competitor benchmarking, (9) top 15 issues with severity and fix effort, (10) quick wins achievable in 7 days. Format as an audit report template. Consider iOS signal loss, Advantage+ campaign migration, and the trade-off between simplification and learning phase resets.",
+      "tags": [
+        "audit",
+        "meta-ads",
+        "account-review",
+        "roas",
+        "checklist"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-023",
+      "title": "Google Ads Audit Report for Lead Gen Account",
+      "prompt": "Act as a senior Google Ads consultant. I need you to build a Google Ads audit report template for a Mumbai fintech lead gen account spending ₹25 lakh/month with CPL of ₹1,800 (target ₹1,100) and low SQL-to-customer conversion. Here is the context: the account uses Search, PMax, and Display, has offline conversion imports, and conversion tracking is partially broken. Please provide: (1) conversion tracking audit (GTM, GA4, Google Ads conversions, OCI), (2) campaign and ad group structure review, (3) keyword match type analysis and search terms report mining, (4) negative keyword gaps, (5) bid strategy evaluation (tCPA health, learning status), (6) ad copy relevance and Quality Score diagnosis, (7) landing page alignment, (8) PMax asset group and audience signals, (9) geo, device, schedule bid adjustments, (10) prioritized 30-60-90 day action plan with expected CPL reduction. Format as a client-ready audit with scoring per section. Consider RBI compliance in fintech ad copy, restricted financial services categories, and use of enhanced conversions for leads.",
+      "tags": [
+        "google-ads",
+        "audit",
+        "lead-gen",
+        "fintech",
+        "cpl"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-024",
+      "title": "Beginner Guide to Conversion Tracking Setup",
+      "prompt": "Act as a digital marketing teacher explaining conversion tracking to first-timers. I need you to write a beginner's guide to setting up conversion tracking on Meta and Google Ads for an Indian Shopify store owner selling handmade candles (AOV ₹750). Here is the context: the owner has no developer, uses Shopify's native Meta and Google sales channels, and wants to track purchases, add-to-cart, and initiate checkout. Please provide: (1) why conversion tracking matters (in simple terms), (2) Meta Pixel + CAPI setup via Shopify integration, (3) Google Ads conversion tag via Google and YouTube sales channel, (4) GA4 property setup and linking, (5) verification via Meta Events Manager test events and Google Tag Assistant, (6) common mistakes (duplicate events, currency mismatch), (7) simple dashboard to monitor setup health, (8) what to do if numbers don't match Shopify. Format as a beginner walkthrough with checkpoints. Consider INR currency configuration, GST-inclusive values, and Shopify's automatic event firing behavior.",
+      "tags": [
+        "conversion-tracking",
+        "beginner",
+        "shopify",
+        "pixel",
+        "ga4"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-025",
+      "title": "Cart Abandonment Email Sequence for Shopify",
+      "prompt": "Act as an email marketing strategist working with Klaviyo on Indian Shopify stores. I need you to write a 3-email cart abandonment sequence for a home fragrance D2C brand (AOV ₹1,200, current recovery rate 6%). Target: 14%. Here is the context: emails complement a WhatsApp sequence, brand tone is warm and aspirational, and the brand offers free shipping above ₹999. Please provide: (1) email 1 at 1 hour (friendly reminder, no discount), (2) email 2 at 12 hours (product story + reviews), (3) email 3 at 36 hours (₹100 off code + urgency), (4) subject lines (3 variants each), (5) preheaders, (6) hero copy, body copy, CTA, (7) personalization tokens (name, cart items, total), (8) suppression rules (purchased, unsubscribed, in active flow). Format as a ready-to-build Klaviyo flow doc. Consider Indian mobile email rendering (Gmail app dominance), Hinglish snippets where warm, and coordination with WhatsApp messages to avoid duplication.",
+      "tags": [
+        "email-marketing",
+        "cart-abandonment",
+        "klaviyo",
+        "retargeting",
+        "d2c"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-026",
+      "title": "Meta Advantage+ Shopping Campaign Strategy",
+      "prompt": "Act as a Meta Ads strategist specializing in Advantage+ Shopping Campaigns (ASC). I need you to write an ASC strategy guide for an Indian jewellery D2C brand with AOV ₹3,500 and ₹20 lakh/month Meta spend wanting to test ASC vs their current manual structure. Here is the context: the brand has 180 days of purchase data, Meta CAPI, and strong creative variety. Please provide: (1) ASC eligibility and prerequisites, (2) budget allocation (start with 20% shift to ASC, scale based on performance), (3) existing customer budget cap setting, (4) creative upload strategy (min 10 creatives, mix of formats), (5) audience signal input (optional audiences), (6) measurement framework (ASC vs manual, incrementality check), (7) scaling rules, (8) when to pause or expand ASC. Format as an implementation playbook. Consider the trade-off between ASC simplicity and loss of granular control, Indian category CPMs, and how ASC reacts to creative fatigue differently from manual CBO.",
+      "tags": [
+        "meta-ads",
+        "advantage-plus",
+        "asc",
+        "shopping-campaign",
+        "d2c"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-027",
+      "title": "Incrementality Testing Plan for Paid Media",
+      "prompt": "Act as a marketing measurement scientist with experience in incrementality testing for Indian brands. I need you to design an incrementality testing plan for a D2C brand spending ₹60 lakh/month on Meta Ads questioning whether reported ROAS reflects true incremental lift. Here is the context: the brand has strong organic and WhatsApp channels, and the CFO suspects Meta is taking credit for organic conversions. Please provide: (1) incrementality test types (geo holdout, conversion lift study, ghost bid, PSA), (2) recommended approach (geo holdout via city splits), (3) test vs control city selection (matched pairs based on population, AOV, past performance), (4) test duration and power calculation, (5) measurement metrics (incremental revenue, iROAS, lift %), (6) statistical significance threshold, (7) implementation steps, (8) how to act on results (reallocate budget, adjust reported ROAS targets). Format as a scientific test plan. Consider Indian tier-1 vs tier-2 seasonality, holiday effects, and practical limitations of Meta's native Conversion Lift for mid-sized advertisers.",
+      "tags": [
+        "incrementality",
+        "measurement",
+        "geo-holdout",
+        "meta-ads",
+        "roas"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-028",
+      "title": "Influencer Whitelisting Setup on Meta",
+      "prompt": "Act as a paid social operator with experience scaling influencer whitelisted ads on Meta. I need you to write a complete setup and scaling guide for an Indian fashion D2C brand wanting to run Partnership Ads from 20 creators with ₹8 lakh/month dedicated spend. Here is the context: creators range from 50k to 500k Instagram followers, the brand has already tested organic collabs, and wants to convert top-performing posts to paid. Please provide: (1) Partnership Ads vs classic whitelisting comparison, (2) creator onboarding (access request via Meta Business Suite), (3) ad setup flow using existing post vs new creative, (4) audience strategy (cold prospecting to creator followers, cold prospecting to broad with creator post), (5) creative performance prioritization, (6) budget allocation per creator based on CTR and engagement, (7) reporting framework with creator-level ROAS, (8) scaling and cutoff rules. Format as a step-by-step playbook. Consider ASCI influencer disclosure guidelines, payment flows via invoice/GST, and UGC content rights in creator contracts.",
+      "tags": [
+        "meta-ads",
+        "influencer",
+        "whitelisting",
+        "partnership-ads",
+        "d2c"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-029",
+      "title": "Moloco Programmatic Campaign Brief for Indian E-comm",
+      "prompt": "Act as a programmatic media buyer with experience running Moloco for Indian e-commerce app install and retargeting. I need you to build a Moloco campaign brief for an Indian grocery app (AOV ₹850, current CAC ₹280 via Meta/Google, target CAC on Moloco ₹220). Monthly Moloco budget ₹15 lakh. Here is the context: the app has MMP integration (Appsflyer), strong first-party purchase data, and wants Moloco for retargeting and prospecting of high-intent users. Please provide: (1) Moloco account setup prerequisites and MMP postbacks, (2) campaign objectives (install, purchase, retention), (3) audience segments using first-party data (high-value, lapsed, cart abandoners), (4) creative specs and asset requirements, (5) bidding model recommendation (oCPM, tCPI), (6) budget pacing and scaling rules, (7) reporting dashboard and incrementality plan, (8) Moloco vs Meta/Google trade-offs. Format as a brief ready to share with the programmatic team. Consider Indian tier-1 city concentration for quick-commerce, app store category CPIs, and fraud filtering via Appsflyer Protect 360.",
+      "tags": [
+        "moloco",
+        "programmatic",
+        "app-install",
+        "retargeting",
+        "ecommerce"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-030",
+      "title": "YouTube Ads Campaign Brief for D2C Awareness",
+      "prompt": "Act as a YouTube Ads strategist. I need you to build a YouTube Ads campaign brief for an Indian tea D2C brand launching a new chai blend with ₹8 lakh/month YouTube budget across awareness, consideration, and action stages. AOV ₹550, target CAC ₹350. Here is the context: the brand has a 30-sec hero film, a 15-sec cutdown, and 6-sec bumpers, plus influencer UGC repurposed for In-feed ads. Please provide: (1) campaign type recommendations (Video Reach, Video Views, Video Action), (2) audience targeting (affinity, in-market, custom segments from search queries, customer match), (3) placement strategy (skippable in-stream, bumpers, in-feed, Shorts), (4) bidding (tCPM, tCPA, Max Conversions), (5) creative rotation and sequencing via Video Ad Sequencing, (6) brand lift study setup, (7) measurement with Google Ads + GA4 + YouTube Analytics, (8) optimization checkpoints week 1-4. Format as a structured brief. Consider Indian regional language variants (Hindi, Tamil, Telugu), YouTube Shorts consumption patterns on cheaper smartphones, and co-viewing behavior on TV via YouTube on Smart TVs.",
+      "tags": [
+        "youtube-ads",
+        "video",
+        "campaign-brief",
+        "d2c",
+        "awareness"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-031",
+      "title": "WhatsApp Broadcast Campaign for Re-engagement",
+      "prompt": "Act as a WhatsApp marketing strategist using AiSensy or Gupshup. I need you to design a WhatsApp broadcast re-engagement campaign for a D2C nutrition brand with 80,000 opted-in subscribers, 38% open rate, and 6% CTR. Target: bring back 1-time buyers with a ₹150 off offer. Here is the context: the brand has DPDP-compliant consent, uses AiSensy, and wants to push traffic to a dedicated landing page with UTM tracking. Please provide: (1) audience segmentation (1-time buyers 60-180 days, opened last broadcast, engaged clickers), (2) template message copy in English and Hinglish (marketing category), (3) variables for personalization, (4) CTA button strategy (quick reply vs URL), (5) sending schedule (day and time optimization for Indian users), (6) landing page alignment, (7) measurement (delivery, read, click, conversion, revenue per message), (8) compliance guardrails (opt-out, frequency). Format as a campaign plan. Consider WhatsApp marketing template pricing tiers from July 2025 changes, 24-hour session window for follow-ups, and avoiding template disapproval for promotional language.",
+      "tags": [
+        "whatsapp",
+        "aisensy",
+        "broadcast",
+        "retargeting",
+        "re-engagement"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-032",
+      "title": "Attribution Model Comparison for D2C",
+      "prompt": "Act as a marketing analytics consultant. I need you to write an attribution model comparison document for an Indian D2C brand running Meta, Google, WhatsApp, email, and influencer channels, spending ₹45 lakh/month and unsure which channels are driving incremental revenue. Here is the context: the brand uses GA4 data-driven attribution, but Meta and Google report inflated numbers individually. Please provide: (1) attribution models overview (last click, first click, linear, time decay, position, data-driven), (2) pros and cons per model for Indian D2C context, (3) recommended primary and secondary models, (4) GA4 setup for cross-channel attribution, (5) reconciling platform reports vs GA4 vs Shopify, (6) multi-touch reporting template, (7) role of incrementality tests to validate attribution, (8) decision framework for budget reallocation based on attributed vs incremental ROAS. Format as a consulting memo. Consider Indian customer journey quirks (WhatsApp as closer), iOS signal loss, and Shopify Order Source as the ground truth for revenue.",
+      "tags": [
+        "attribution",
+        "ga4",
+        "analytics",
+        "d2c",
+        "multi-touch"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-033",
+      "title": "A/B Test Plan for Meta Creative Testing",
+      "prompt": "Act as a paid social testing lead. I need you to design a structured creative A/B testing plan for a Meta Ads account spending ₹12 lakh/month on an Indian men's grooming D2C brand (AOV ₹700). Here is the context: the brand needs disciplined creative testing to beat its current winner (2.8x ROAS) and wants statistical rigor. Please provide: (1) test hypothesis template (we believe X will improve Y because Z), (2) test ad set setup (dedicated creative testing campaign, CBO vs ABO, isolated audience), (3) minimum budget per creative (₹1,500 or 50 conversions), (4) test duration (7 days), (5) statistical significance checks (90% confidence, minimum sample), (6) win criteria (CPA lower than control by 15%+), (7) promotion workflow from test to scale campaign, (8) tracking sheet template. Format as a testing operations playbook. Consider avoiding learning phase resets, the role of Meta's A/B test tool vs manual holdouts, and handling seasonal bias in short test windows.",
+      "tags": [
+        "ab-testing",
+        "creative-testing",
+        "meta-ads",
+        "experimentation",
+        "d2c"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-034",
+      "title": "Campaign Budget Pacing Plan for CMO",
+      "prompt": "Act as a performance marketing director reporting to a CMO. I need you to write a monthly budget pacing plan for an Indian D2C home decor brand with ₹35 lakh/month combined Meta + Google budget, target blended ROAS 4.0x, with strong weekend spikes. Here is the context: last month overspent by 12% in week 4 and underdelivered ROAS at 3.3x, CMO wants tighter control. Please provide: (1) daily budget allocation by weekday vs weekend, (2) channel split and flex rules, (3) spend pacing dashboard (daily target, actual, variance, MTD), (4) escalation triggers (spend +/-10%, ROAS -15%), (5) reallocation logic (move budget from underperforming ad sets weekly), (6) creative refresh pacing aligned with budget, (7) end-of-month pacing (avoid rush spending, preserve ROAS), (8) monthly review agenda. Format as a CMO-ready document. Consider Meta's daily vs lifetime budget behavior, Google Ads spend over-delivery up to 2x daily, and festive week spikes.",
+      "tags": [
+        "budget-pacing",
+        "cmo",
+        "reporting",
+        "roas",
+        "campaign-management"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-035",
+      "title": "Meta Ads Troubleshooting Guide for Sudden CPA Spike",
+      "prompt": "Act as a senior Meta Ads troubleshooter. I need you to write a diagnostic guide for when Meta Ads CPA suddenly spikes 40%+ overnight on an Indian D2C account. Context: account spends ₹18 lakh/month on a personal care brand (AOV ₹900), ROAS dropped from 3.6x to 2.1x in 3 days, no obvious campaign changes. Please provide: (1) first 15-minute triage checklist (tracking health, delivery status, policy issues, budget), (2) creative fatigue diagnosis (frequency, CTR, thumb-stop trend), (3) audience saturation check (reach, overlap), (4) auction competition analysis (CPM spike, competitor activity), (5) landing page check (speed, checkout errors, Razorpay downtime), (6) attribution window changes, (7) learning phase disruption check, (8) prioritized action list and rollback options, (9) when to pause vs ride it out. Format as a troubleshooting playbook. Consider Indian flash sale CPM spikes when Flipkart/Amazon run Big Billion Days, Meta algo updates, and seasonal intent drops.",
+      "tags": [
+        "meta-ads",
+        "troubleshooting",
+        "cpa",
+        "diagnosis",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-036",
+      "title": "Beginner Retargeting Campaign Setup on Meta",
+      "prompt": "Act as a beginner-friendly Meta Ads coach. I need you to write a step-by-step retargeting campaign setup guide for a first-time advertiser running a Shopify store selling handloom sarees (AOV ₹2,400) in Kolkata with ₹30,000/month retargeting budget. Here is the context: the owner has Meta Pixel installed and gets ~1,500 website visitors/month but no retargeting campaigns yet. Please provide: (1) what retargeting is (simple explanation), (2) custom audience creation (website visitors 30 days, ATC 14 days, VC 14 days), (3) campaign objective and budget, (4) exclusion audiences (purchasers 60 days), (5) ad creative approach (product reminder, reviews, limited offer), (6) ad copy examples, (7) first-week metrics to watch, (8) common beginner mistakes (audience too small, same creative as prospecting). Format as a friendly tutorial with checkboxes. Consider handloom buyer intent cycles, Durga Puja and wedding season seasonality, and the importance of warm tone in saree marketing.",
+      "tags": [
+        "retargeting",
+        "meta-ads",
+        "beginner",
+        "shopify",
+        "custom-audience"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-037",
+      "title": "Google Ads Negative Keyword Research Process",
+      "prompt": "Act as a Google Ads specialist refining search term hygiene. I need you to write a negative keyword research and management process for an Indian B2B SaaS account spending ₹8 lakh/month on Search campaigns with 22% wasted spend on irrelevant search terms. Here is the context: the account sells accounting software to CAs and SMBs, and the search terms report shows queries about free tools, jobs, and unrelated categories. Please provide: (1) search terms report review cadence (weekly), (2) negative keyword categories (jobs, free, tutorials, competitors on certain campaigns, irrelevant categories), (3) negative keyword match types (phrase vs exact), (4) shared negative keyword lists structure, (5) broad match vs phrase match implications, (6) automated rules to flag high-spend no-conversion terms, (7) governance and documentation, (8) expected spend efficiency gain. Format as a process document. Consider Indian English search variations, Hinglish queries, and Tally competitor queries that may or may not be targetable.",
+      "tags": [
+        "google-ads",
+        "negative-keywords",
+        "search-terms",
+        "saas",
+        "optimization"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-038",
+      "title": "ROAS Diagnosis Framework for Dropping Accounts",
+      "prompt": "Act as a performance marketing doctor diagnosing a sick account. I need you to build a ROAS diagnosis framework that helps marketers systematically identify why ROAS has dropped from target on a Meta + Google paid media account. Here is the context: the framework will be used by agency planners and in-house managers dealing with Indian D2C accounts ₹5-50 lakh/month. Please provide: (1) diagnosis tree starting with funnel step (impression, click, LP, ATC, checkout, purchase), (2) metric decomposition (ROAS = CTR x CVR x AOV / CPC), (3) identify which lever(s) are broken, (4) root cause hypotheses per lever, (5) data needed to confirm (platform, GA4, Shopify), (6) fix playbook per root cause, (7) recovery timeline expectations, (8) escalation to CMO criteria. Format as a framework with a decision flow described in text and a worked example. Consider that AOV drops may be mix-shift (discount heavy), CPC spikes may be auction competition, and CVR drops may be LP or checkout friction.",
+      "tags": [
+        "roas",
+        "diagnosis",
+        "framework",
+        "optimization",
+        "troubleshooting"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-039",
+      "title": "Weekly Performance Review Meeting Agenda",
+      "prompt": "Act as a performance marketing head running weekly reviews with a cross-functional team. I need you to create a weekly performance review meeting agenda and template for a 60-minute Monday meeting with media buyers, creative, CRM, and the CMO at an Indian D2C brand spending ₹30 lakh/month. Here is the context: the team needs to align on last week's results, creative pipeline, and this week's priorities. Please provide: (1) pre-read document structure (KPI summary, wins, losses, blockers), (2) meeting agenda (5 min wins, 15 min KPI review, 15 min creative pipeline, 10 min experiments, 10 min risks, 5 min action items), (3) KPI slide template, (4) creative pipeline slide (tested, scaling, killed, in production), (5) experiment tracker format, (6) action item capture and owner assignment, (7) escalations to CMO, (8) followup cadence. Format as a runnable meeting kit. Consider Indian work culture around Monday morning meetings, the CMO's need for narrative not raw numbers, and the creative team's need for briefs by Tuesday.",
+      "tags": [
+        "reporting",
+        "meeting",
+        "performance-review",
+        "team-management",
+        "kpi"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    },
+    {
+      "id": "marketing-performance-marketing-040",
+      "title": "Content Calendar Aligned to Paid Media",
+      "prompt": "Act as a content-paid integration strategist. I need you to build a 4-week content calendar aligned with paid media for an Indian D2C plant-based protein brand running Meta and Google Ads with ₹10 lakh/month spend. Here is the context: the brand posts 4x/week on Instagram, has a new flavour launching in week 3, and wants organic content to feed into paid ads. Please provide: (1) content themes per week (education, founder story, UGC, product launch), (2) post types (Reels, carousels, static), (3) briefs per post with hook, body, CTA, (4) which organic posts get boosted to Meta Ads as whitelisted creative, (5) budget boost plan per post, (6) measurement (organic reach vs paid CTR after boost), (7) alignment with Google Ads PMax assets, (8) content repurposing plan (Reel to YouTube Shorts to WhatsApp status). Format as a calendar with a post-level brief template. Consider Indian festive content calendars (Navratri fasting menu tie-in), regional language captions, and fitness creator collab timing.",
+      "tags": [
+        "content-calendar",
+        "organic-paid",
+        "meta-ads",
+        "d2c",
+        "campaign-brief"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "performance-marketing"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "category": "veterinary",
+  "subcategory": "veterinarians",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "veterinary-veterinarians-001",
+      "title": "Case Documentation (Indian Indie Dog)",
+      "prompt": "Act as a senior veterinarian (BVSc + MVSc) with 12 years' practice in Bengaluru. Document a clinical case for an Indie dog (2-yr, 22 kg, female, intact) presenting with vomiting + diarrhoea (2 days). Cover: (1) signalment + history (vaccine, deworm, diet, exposure, stray), (2) clinical examination (TPR, hydration, abdomen palpation, mucous membrane), (3) differential diagnosis (parvo, distemper, dietary indiscretion, parasites, FB), (4) diagnostic plan (CBC, biochem, parvo snap test, faecal float), (5) treatment plan (IV fluids, antiemetic, antibiotic if indicated), (6) prognosis + cost INR ₹X. Constraints: align with VCI guidelines; educational disclaimer for client; bilingual; respect indie-dog welfare.",
+      "category": "veterinary",
+      "subcategory": "veterinarians",
+      "tags": ["case-documentation", "indie-dog", "parvo", "vci", "bvsc"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true
+    },
+    {
+      "id": "veterinary-veterinarians-002",
+      "title": "Client Education for Diabetes in Cat",
+      "prompt": "Act as a small-animal vet. Create a client-education handout for a 9-yr-old domestic short-hair cat newly diagnosed with diabetes mellitus. Cover: (1) what diabetes is (analogy), (2) why it happened (predisposing factors), (3) treatment plan (insulin Lantus / ProZinc dosing + administration video), (4) home monitoring (blood glucose curve, urine ketone), (5) diet (high-protein, low-carb — Royal Canin Diabetic / Hills m/d), (6) lifestyle (exercise, weight loss), (7) red-flags + when to call vet, (8) cost INR ₹X / month. Constraints: simple non-medical language; bilingual; printable + WhatsApp shareable; respect client autonomy.",
+      "category": "veterinary",
+      "subcategory": "veterinarians",
+      "tags": ["client-education", "feline-diabetes", "insulin", "diet", "monitoring"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true
+    },
+    {
+      "id": "veterinary-veterinarians-003",
+      "title": "Treatment Plan Explanation (Surgery)",
+      "prompt": "Act as a veterinary surgeon. Write a treatment plan explanation for an OVH (spay) surgery for a 1-yr-old female Labrador. Cover: (1) why neuter (pyometra prevention, mammary cancer reduction, behaviour, population control), (2) pre-anaesthetic blood work, (3) procedure overview (laparotomy / laparoscopic option), (4) anaesthesia (propofol + isoflurane), (5) recovery (24 hrs hospitalised, 10-day E-collar), (6) cost INR ₹X (depending on technique), (7) complications + risk (low), (8) post-op care + suture removal. Constraints: align with VCI surgical norms; written consent + signature; bilingual; respect client choice.",
+      "category": "veterinary",
+      "subcategory": "veterinarians",
+      "tags": ["treatment-plan", "spay", "ovh", "labrador", "consent"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-veterinarians-004",
+      "title": "Referral Letter to Specialist",
+      "prompt": "Act as a primary-care vet. Draft a 250-word referral letter to a veterinary cardiologist for a 7-yr-old Cavalier King Charles Spaniel with suspected mitral valve disease (grade 3/6 systolic murmur, exercise intolerance, mild cough). Cover: (1) signalment, (2) presenting complaint + duration, (3) clinical findings, (4) initial diagnostics done (X-ray, ECG, BP), (5) reason for referral (echo + advanced cardiology), (6) attached records, (7) primary-vet contact, (8) thank-you. Constraints: align with WSAVA Cardiology Guidelines + VCI; respect client privacy; bilingual fallback.",
+      "category": "veterinary",
+      "subcategory": "veterinarians",
+      "tags": ["referral-letter", "cardiology", "ckcs", "echocardiogram", "mvd"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-veterinarians-005",
+      "title": "Wellness Check Template (Annual)",
+      "prompt": "Act as a senior small-animal vet. Build a wellness-check template for a 5-yr-old dog (annual visit). Cover: (1) interview (diet, exercise, behaviour, water intake, urination, defecation), (2) physical exam (TPR, weight, BCS, dental, eyes, ears, skin, coat, lymph nodes, MS, abdomen, GU, anal sacs), (3) preventive care (vaccines DHPPi+L, rabies, deworming, ectoparasite), (4) screening (CBC, biochem, urine, FNA on lumps), (5) discussion (senior care prep), (6) cost INR ₹X annually, (7) follow-up cadence. Constraints: align with WSAVA Wellness Guidelines + VCI; bilingual; client-takeaway report.",
+      "category": "veterinary",
+      "subcategory": "veterinarians",
+      "tags": ["wellness-check", "annual", "wsava", "vaccination", "preventive"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-veterinarians-006",
+      "title": "Behavioural Consult Report",
+      "prompt": "Act as a veterinary behaviourist. Document behaviour consult for a 3-yr-old male intact Indie dog showing leash reactivity to other dogs. Cover: (1) history (rescue, age of acquisition, socialisation), (2) presenting behaviour (specific contexts, triggers, distance threshold), (3) functional analysis (antecedent → behaviour → consequence), (4) physiological screening (pain, thyroid), (5) behaviour modification plan (BAT 2.0 + LAT), (6) management (avoid triggers, equipment), (7) pharmacology if needed (fluoxetine), (8) timeline + recheck. Constraints: align with IAABC + VCI behaviour ethics; respect dog welfare; bilingual client material.",
+      "category": "veterinary",
+      "subcategory": "veterinarians",
+      "tags": ["behaviour-consult", "leash-reactivity", "indie-dog", "iaabc", "bat"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-veterinarians-007",
+      "title": "End-of-Life Care Discussion",
+      "prompt": "Act as a senior vet. Build a 30-min compassionate end-of-life conversation script for a family whose 14-yr-old Lab has terminal lymphoma. Cover: (1) clinical reality + what's happening, (2) quality of life assessment (HHHHHMM scale), (3) palliative options (analgesia, anti-nausea, appetite stimulant), (4) hospice support, (5) when to consider euthanasia (factual + compassionate), (6) procedure description + at-home option, (7) aftercare (cremation, burial, paw print), (8) family + child support. Constraints: respectful + non-judgmental; bilingual; no rush; family pace; documented consent.",
+      "category": "veterinary",
+      "subcategory": "veterinarians",
+      "tags": ["end-of-life", "lymphoma", "euthanasia", "quality-of-life", "compassion"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-veterinarians-008",
+      "title": "Emergency Triage Protocol",
+      "prompt": "Act as an emergency vet at a 24/7 hospital in Mumbai. Build triage protocol for incoming emergencies. Cover: (1) telephone triage (red / amber / green), (2) vital sign categories on arrival, (3) red-flag conditions (GDV, dyspnoea, seizure, trauma, toxicity, dystocia), (4) immediate stabilisation (oxygen, IV access, fluids, analgesia), (5) parallel diagnostics + treatment, (6) blood-bank + ICU readiness, (7) communication with owner, (8) handover to day team. Constraints: align with WSAVA Emergency Guidelines + VCI; bilingual front-desk; ethical informed-consent for high-cost; INR transparent.",
+      "category": "veterinary",
+      "subcategory": "veterinarians",
+      "tags": ["emergency", "triage", "wsava", "gdv", "mumbai"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-veterinarians-009",
+      "title": "Vaccine Protocol for Indian Conditions",
+      "prompt": "Act as a vaccine expert. Write a 2026-updated vaccine protocol for dogs + cats in Indian conditions. Cover: (1) core vaccines (DHPPi+L for dogs; FVRCP for cats; rabies for both), (2) non-core (KC for dogs in boarding, FeLV for outdoor cats), (3) puppy / kitten schedule (6-8 wk, 10-12 wk, 14-16 wk + 1 yr booster), (4) titre testing (DHP titres adult), (5) rabies legal compliance (state laws), (6) high-prevalence Indian considerations (parvo, leptospirosis monsoon, tick-borne — Babesia, Ehrlichia), (7) brand options (Nobivac, Vanguard, Rabivax). Constraints: align with WSAVA Vaccine Guidelines + VCI; INR cost; bilingual.",
+      "category": "veterinary",
+      "subcategory": "veterinarians",
+      "tags": ["vaccine-protocol", "wsava", "rabies", "leptospirosis", "kc"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-veterinarians-010",
+      "title": "Diagnostic Imaging Interpretation",
+      "prompt": "Act as a senior vet diagnostician. Interpret diagnostic imaging — I will paste 4 abdominal radiographs (lateral + VD) + 2 ultrasound stills for a 5-yr-old vomiting Pug. Provide: (1) systematic radiographic review (organ + body wall), (2) ultrasound findings (per organ), (3) differential diagnosis (foreign body, intussusception, neoplasia), (4) recommended next-step (contrast study, surgical exploration, biopsy), (5) prognosis. Constraints: respect that AI cannot replace board-certified radiologist; recommend referral to vet radiologist for definitive read; bilingual client report; cost-aware.",
+      "category": "veterinary",
+      "subcategory": "veterinarians",
+      "tags": ["radiology", "ultrasound", "vomiting", "pug", "interpretation"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-veterinarians-011",
+      "title": "Practice Marketing for New Clinic",
+      "prompt": "Act as a vet practice marketer. Plan a 90-day marketing launch for a new small-animal clinic in Pune. Cover: (1) GMB listing + reviews, (2) Insta + Facebook (case-study posts, vaccine reminders, behind-the-scenes), (3) referral partnerships (boarding, groomers, pet-parent influencers), (4) community vaccination camps (free / subsidised), (5) WhatsApp business automation, (6) opening offer (free 1st consult), (7) partnerships with breeders + rescues + RWAs, (8) review-collection SOP. Constraints: align with VCI advertising guidelines (no misleading); bilingual; respect ASCI; ethical pricing.",
+      "category": "veterinary",
+      "subcategory": "veterinarians",
+      "tags": ["practice-marketing", "vet-clinic", "gmb", "pune", "asci"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "veterinary-veterinarians-012",
+      "title": "OPD Workflow + Productivity",
+      "prompt": "Act as a clinic manager. Design OPD workflow for a 35-appointment-day vet clinic. Cover: (1) appointment-booking (online + phone), (2) check-in (digital intake form, weight, temperature), (3) doctor consultation (15-min slot + buffer), (4) diagnostics (in-house lab + outsource), (5) treatment + dispensing, (6) follow-up scheduling + reminders, (7) billing + insurance (if pet has Bajaj Allianz), (8) digital records (LIM + EHR). KPIs: turn-around, no-show, NPS, revenue per appointment. Constraints: align with VCI; respect client + animal welfare; bilingual; INR cost optimisation.",
+      "category": "veterinary",
+      "subcategory": "veterinarians",
+      "tags": ["opd-workflow", "appointment", "ehr", "kpi", "productivity"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    }
+  ]
+}

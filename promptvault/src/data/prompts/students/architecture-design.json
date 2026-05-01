@@ -1,0 +1,754 @@
+{
+  "prompts": [
+    {
+      "id": "students-architecture-design-001",
+      "title": "3BHK Apartment Space Planning for Mumbai",
+      "prompt": "Act as a senior residential architect with 15 years of experience designing apartments in Mumbai under MCGM Development Control Regulations. I need you to generate a detailed space planning layout for a 3BHK apartment on an 1150 sqft (107 sq m) carpet area plot on the 8th floor of a residential tower in Andheri West. Here is the context: The client is a family of four (couple with two school-going children), budget-conscious, prefers vastu-compliant layouts with north-east entry, needs a small pooja space, and wants cross-ventilation given Mumbai's warm-humid climate. Balcony should overlook the west side for sunset views. Please provide: (1) A room-by-room area distribution table in sq m and sqft with justification for each allocation, (2) Zoning diagram described in text (public, private, service zones), (3) Circulation analysis with corridor widths per NBC 2016 Part 4, (4) Ventilation and daylight strategy using stack effect and window-to-floor ratio, (5) Three layout alternatives with pros and cons, (6) Vastu compliance notes for each room orientation. Format as a structured design brief with clearly labelled sections. Consider MCGM parking norms, NBC fire safety refuge area requirements, and the 1.2 FSI permissible in the zone.",
+      "tags": [
+        "space-planning",
+        "mcgm",
+        "nbc-2016",
+        "vastu",
+        "residential",
+        "mumbai"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-002",
+      "title": "NATA Portfolio Design Statement Writer",
+      "prompt": "Act as an architecture admissions mentor with 12 years of experience preparing students for NATA and JEE Paper 2 for SPA Delhi, CEPT Ahmedabad, and Sir JJ College Mumbai. I need you to help me draft a compelling design statement and portfolio narrative for my B.Arch admission portfolio. Here is the context: I am a Class 12 PCM student from Pune with a 78 percent PCM aggregate, NATA score of 142/200, and a portfolio containing six projects — a pencil still-life, a clay model of a Warli-inspired hut, a measured drawing of my home, a sketchbook of Shaniwar Wada, a conceptual poster on urban density, and a photo essay on monsoon streets. Please provide: (1) A 300-word personal design statement emphasising observation and context, (2) A one-paragraph narrative for each of the six projects linking craft to concept, (3) A portfolio running order with rationale, (4) Three likely jury questions with model answers, (5) Tips on layout, typography and print specifications for an A3 booklet, (6) Red flags to avoid. Format as a ready-to-use portfolio guidebook in markdown. Consider the CoA evaluation culture and typical Indian jury expectations.",
+      "tags": [
+        "nata",
+        "portfolio",
+        "b-arch",
+        "admissions",
+        "design-statement",
+        "spa-delhi"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-003",
+      "title": "GRIHA 5-Star Rating Strategy for College Project",
+      "prompt": "Act as a GRIHA-certified sustainability consultant with 10 years of experience rating institutional buildings in India. I need you to create a point-by-point GRIHA Version 2019 strategy for my 5th semester B.Arch studio project — a 4000 sq m community library in Jaipur (hot-dry climatic zone). Here is the context: The site is a 6000 sq m plot, ground plus two floors, budget Rs 8 crore, primary users are college students and school children. Target rating is GRIHA 5-star (minimum 81 points). Please provide: (1) Criterion-wise point targeting table across all 31 criteria showing achievable points and strategy, (2) Passive design moves specific to hot-dry climate — courtyard, jaali, thermal mass, earth-air tunnels, (3) Water strategy with rainwater harvesting calculation for Jaipur rainfall (550 mm), (4) Material palette using locally sourced Dholpur stone, lime plaster, and recycled content, (5) Renewable energy sizing for rooftop PV, (6) Documentation checklist for GRIHA submission. Format as a sustainability report with tables. Consider ECBC 2017 envelope compliance and NBC 2016 Part 11 sustainability provisions.",
+      "tags": [
+        "griha",
+        "sustainability",
+        "passive-design",
+        "hot-dry-climate",
+        "ecbc",
+        "jaipur"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-004",
+      "title": "NBC 2016 Fire Safety Compliance Checker",
+      "prompt": "Act as a fire safety consultant and architect with 18 years of experience interpreting NBC 2016 Part 4 for high-rise buildings in India. I need you to audit my 4th year studio project — a 15-storey mixed-use tower in Bengaluru with retail on ground and first floor, offices on floors 2 to 8, and residential apartments on floors 9 to 15. Here is the context: Total built-up 18000 sq m, single core with two staircases, one fire lift, plot area 2500 sq m under BBMP jurisdiction. Please provide: (1) Occupancy classification per NBC Group A, C, D, E with floor-wise mapping, (2) Travel distance compliance check for each typical floor, (3) Staircase width calculation based on occupant load, (4) Refuge area requirement and location strategy above 24 m height, (5) Fire tender access road width and turning radius, (6) Compartmentation and fire-rated wall schedule, (7) List of 10 deviations or risks with remediation steps. Format as a compliance audit report with clause references. Consider BBMP byelaws, Karnataka Fire Force NOC requirements and NBC 2016 amendments.",
+      "tags": [
+        "nbc-2016",
+        "fire-safety",
+        "high-rise",
+        "bbmp",
+        "compliance",
+        "bengaluru"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-005",
+      "title": "Revit Family Creation for Indian Door Schedule",
+      "prompt": "Act as a Revit BIM specialist with 8 years of experience authoring parametric families for Indian architectural practices. I need you to guide me through creating a parametric door family that matches Indian standard sizes and includes typical details used in residential projects. Here is the context: I am a 6th semester student working on my studio project in Revit 2024. I need doors of 750, 800, 900, and 1000 mm widths with heights of 2100 mm, frame options for teak and sal wood, panel types (flush, panelled, louvered), and the family should schedule correctly in an Indian door schedule showing lintel level and sill level in mm. Please provide: (1) Step-by-step family template selection and reference planes setup, (2) Parameter list (type vs instance) with formulas, (3) Geometry creation sequence for frame, panel, and hardware, (4) Visibility settings for coarse, medium, fine detail levels, (5) Shared parameters for door schedule fields, (6) Testing checklist and common pitfalls. Format as a numbered tutorial with parameter tables. Consider IS 4021 timber door specifications and typical Indian site documentation practices.",
+      "tags": [
+        "revit",
+        "bim",
+        "family-creation",
+        "door-schedule",
+        "parametric"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-006",
+      "title": "Passive Design for Warm-Humid Kerala House",
+      "prompt": "Act as a climate-responsive architect inspired by Laurie Baker with 20 years of experience designing houses in Kerala's warm-humid zone. I need you to develop a passive design strategy for a 200 sq m single-family house on a 500 sq m plot in Thrissur. Here is the context: The client is a retired couple, budget Rs 45 lakh, site slopes gently south with mature coconut trees on the north edge, annual rainfall 3000 mm, temperature range 22-34 C, relative humidity 75-95 percent. Please provide: (1) Site analysis and sun path implications for Thrissur latitude 10.5 N, (2) Roof strategy — pitched Mangalore tile vs filler slab with thermal performance comparison, (3) Wall system using rat-trap bond exposed brick with embodied energy estimate, (4) Opening design for cross ventilation with calculated free area, (5) Verandah and courtyard sizing for buffer zones, (6) Rainwater harvesting and greywater recycling plan, (7) Material palette honouring Baker's ethos. Format as a design report with sketched concept descriptions. Consider Kerala Panchayat Building Rules and IGBC Green Homes credits.",
+      "tags": [
+        "passive-design",
+        "warm-humid",
+        "laurie-baker",
+        "kerala",
+        "vernacular",
+        "rat-trap-bond"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-007",
+      "title": "FAR/FSI Yield Calculator for Delhi Plot",
+      "prompt": "Act as an architect-developer advisor with 14 years of experience optimising FAR and FSI for residential plots under DDA Master Plan Delhi 2021. I need you to calculate the maximum buildable potential and recommend a scheme for a 250 sq m residential plot in Vasant Kunj. Here is the context: Plot is rectangular 12.5 m x 20 m, corner plot facing 12 m road, client wants to build a ground plus three storey house with stilt parking for three cars, family of six across two generations. Please provide: (1) Applicable DDA byelaw clauses and ground coverage, FAR, setbacks, height limits, (2) Gross and net built-up calculation with mezzanine and balcony rules, (3) Stilt parking vs covered parking implications on FAR, (4) Floor-wise area programme showing carpet, built-up, super built-up, (5) Setback diagram in text form, (6) Three massing options balancing FAR utilisation and livability, (7) MCD sanction drawing checklist. Format as a feasibility report with calculation tables. Consider DDA Unified Building Byelaws 2016 and GRAP air quality construction restrictions.",
+      "tags": [
+        "far-fsi",
+        "dda",
+        "delhi",
+        "byelaws",
+        "feasibility",
+        "residential"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-008",
+      "title": "SketchUp Workflow for Thesis Site Model",
+      "prompt": "Act as a SketchUp Pro expert with 9 years of experience modelling urban contexts for Indian architecture thesis projects. I need you to design an efficient modelling workflow for my B.Arch thesis — a riverside cultural centre on a 1.2 hectare site along the Sabarmati in Ahmedabad. Here is the context: I have a CAD survey file with contours at 0.5 m interval, Google Earth imagery, and need to produce a 1:500 context model covering 500 m radius plus a 1:200 building model integrated seamlessly. Please provide: (1) File structure and component vs group strategy to keep the model under 200 MB, (2) Steps to import CAD contours and generate terrain using Sandbox tools, (3) Tagging/layer system for context buildings, roads, vegetation, water, (4) Scenes setup for plan, section, and perspective views, (5) Proxy component strategy for trees using 2D face-me components, (6) Export settings for LayOut sheets, (7) Tips for VRay or Enscape lighting with Ahmedabad sun position. Format as a numbered workflow document. Consider typical CEPT thesis jury expectations.",
+      "tags": [
+        "sketchup",
+        "thesis",
+        "site-model",
+        "cept",
+        "modelling-workflow",
+        "ahmedabad"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-009",
+      "title": "Charles Correa-Inspired Courtyard Housing",
+      "prompt": "Act as an urban housing architect deeply influenced by Charles Correa's tube house and Belapur housing with 16 years of experience designing low-rise high-density schemes. I need you to develop a site plan and unit design for a 50-unit incremental housing cluster on a 1 hectare plot in Navi Mumbai for EWS beneficiaries. Here is the context: Plot is flat, warm-humid climate, budget Rs 6 lakh per unit, CIDCO regulations apply, target FAR 1.5, each family of five needs at minimum a one-room living space expandable to two rooms over time. Please provide: (1) Cluster typology analysis referencing Belapur and Aranya principles, (2) Unit plan at 30 sq m with expansion logic to 55 sq m, (3) Shared courtyard hierarchy — personal, cluster, community, (4) Climate response using open-to-sky spaces and shaded verandahs, (5) Infrastructure plan for water, sewage, access, (6) Phasing strategy for incremental growth, (7) Cost breakdown per unit. Format as a housing design report with typological diagrams described in text. Consider PMAY-U norms and CIDCO byelaws.",
+      "tags": [
+        "charles-correa",
+        "housing",
+        "courtyard",
+        "ews",
+        "cidco",
+        "pmay"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-010",
+      "title": "Daylight Analysis for Studio Classroom",
+      "prompt": "Act as a daylighting consultant with 11 years of experience analysing educational buildings in India using Climate Studio and Velux Daylight Visualizer. I need you to design a daylight strategy for a 120 sq m architecture design studio classroom on the third floor of a college building in Chennai. Here is the context: The room is 15 m x 8 m with one long side facing east, ceiling height 3.6 m, required illuminance 500 lux on work plane, Chennai latitude 13 N, warm-humid climate with high overcast sky frequency. Please provide: (1) Target metrics — sDA 300/50 percent, ASE 1000/250 hours — with NBC 2016 Part 8 cross-reference, (2) Window-to-wall ratio calculation and sill height recommendation, (3) Shading device design — horizontal louvers vs light shelves — with depth calculation, (4) Glazing specification VLT and SHGC for ECBC compliance, (5) Interior surface reflectance recommendations, (6) Avoiding glare on drafting tables and screens, (7) Simulation workflow outline. Format as a technical design note with calculations. Consider ECBC 2017 prescriptive compliance and IGBC daylight credit.",
+      "tags": [
+        "daylight-analysis",
+        "ecbc",
+        "classroom",
+        "chennai",
+        "shading",
+        "igbc"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-011",
+      "title": "AutoCAD Layer Standards for Studio",
+      "prompt": "Act as a CAD manager at a mid-size Indian architectural practice with 12 years of experience standardising drawing production. I need you to define a complete AutoCAD layer standard and drawing template that my B.Arch batch can adopt for studio projects and internship work. Here is the context: Students submit drawings from 1st to 5th year at scales 1:100, 1:50, 1:20, and 1:5 on A1 and A2 sheets, and most go on to intern at firms using NATSPEC or BIS-aligned standards. Please provide: (1) Layer naming convention with prefix, discipline, element, modifier pattern, (2) Complete layer list with colours, linetypes, lineweights for walls, doors, windows, furniture, annotation, dimensions, hatches, grids, (3) Text styles and dimension styles scaled for metric mm, (4) Title block template content per IS 696 and IS 10711, (5) Plotting CTB file recommendations, (6) Xref and block library strategy, (7) Do's and don'ts for neat drawings. Format as a CAD standards manual. Consider Indian drawing conventions and typical firm handoff requirements.",
+      "tags": [
+        "autocad",
+        "cad-standards",
+        "drawing-production",
+        "layer-naming",
+        "is-696"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-012",
+      "title": "Thesis Jury Narrative Structure Builder",
+      "prompt": "Act as a thesis coordinator at a leading Indian school of architecture with 17 years of experience mentoring final year students through CoA-recognised thesis reviews. I need you to structure the jury presentation narrative for my B.Arch final thesis — a climate-responsive transit-oriented development node around Hebbal Metro station in Bengaluru. Here is the context: I have 20 minutes to present to a five-member jury including external examiners from IIM and IISc, total 15 A1 sheets, a physical model, and a video walkthrough. Please provide: (1) A three-act narrative structure (problem, proposition, proof) with time allocation, (2) Opening hook — a single strong question or image to anchor attention, (3) Slide-by-slide talking points mapping to each A1 sheet, (4) Handling of critical questions about feasibility, cost, and regulation, (5) Strategic pauses and body language cues, (6) Back-pocket slides for anticipated deep dives, (7) A 60-second elevator summary. Format as a presentation playbook. Consider typical Indian jury dynamics and CoA thesis evaluation rubric.",
+      "tags": [
+        "thesis",
+        "jury-presentation",
+        "narrative",
+        "b-arch",
+        "transit-oriented",
+        "coa"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-013",
+      "title": "Doshi-Inspired Institutional Campus Master Plan",
+      "prompt": "Act as a campus planner influenced by B.V. Doshi's IIM Bangalore and CEPT Ahmedabad with 19 years of experience master planning Indian educational institutions. I need you to develop a conceptual master plan for a new 20 acre design school campus in Hyderabad. Here is the context: Programme includes studios, workshops, library, hostels for 600 students, faculty housing, dining, sports, and administrative block. Composite climate, basalt bedrock, gentle slope east to west, budget Rs 180 crore. Please provide: (1) Design principles drawing from Doshi's pedagogy of open spaces and pause points, (2) Land use distribution and phasing, (3) Pedestrian spine and bicycle loop logic, (4) Building cluster typologies with shaded streets and courtyards, (5) Water body and landscape integration, (6) Sustainability framework targeting GRIHA LD 4-star, (7) Key sectional ideas for climate response. Format as a master plan brief with described diagrams. Consider UGC norms, AICTE hostel guidelines, and Telangana municipal byelaws.",
+      "tags": [
+        "master-planning",
+        "bv-doshi",
+        "campus",
+        "griha-ld",
+        "hyderabad",
+        "institutional"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-014",
+      "title": "Rhino Grasshopper Parametric Facade",
+      "prompt": "Act as a computational designer with 7 years of experience teaching Rhino and Grasshopper at CEPT and SPA. I need you to guide me through building a parametric jaali facade for my 7th semester project — a contemporary office tower in Ahmedabad responding to solar radiation on the west facade. Here is the context: Facade is 40 m wide and 60 m tall, west exposure with peak solar gain in afternoon, client wants a perforated GFRC screen inspired by traditional jaali patterns, need 30-50 percent porosity varying with solar incidence. Please provide: (1) Grasshopper definition logic — surface subdivision, attractor, remap, perforation, (2) Plug-ins required (Ladybug, Honeybee, Weaverbird) and installation notes, (3) Solar radiation analysis workflow using Ladybug with Ahmedabad EPW weather file, (4) Mapping radiation values to perforation size, (5) Panelisation for fabrication, 1.5 m x 3 m panels, (6) Export to Revit or CNC, (7) Performance validation. Format as a numbered tutorial with component names. Consider ECBC envelope compliance.",
+      "tags": [
+        "rhino",
+        "grasshopper",
+        "parametric",
+        "jaali",
+        "facade",
+        "ladybug"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-015",
+      "title": "Composite Climate House in Lucknow",
+      "prompt": "Act as a sustainable architect with 13 years of experience designing homes in north Indian composite climates. I need you to develop a climate strategy for a 180 sq m independent house on a 300 sq m plot in Gomti Nagar, Lucknow. Here is the context: Client is a joint family of seven, plot is south-facing, budget Rs 65 lakh, climate swings from 2 C winters to 46 C summers with a hot-dry summer, warm-humid monsoon, and cold winter. Please provide: (1) Seasonal strategy summary — what works in summer vs winter vs monsoon, (2) Envelope design with wall U-value and roof insulation targets, (3) Window placement logic with winter solar gain and summer shading, (4) Courtyard or verandah integration for transitional seasons, (5) Evaporative cooling options and thermal mass choices, (6) Material palette using fly ash brick and mud phuska roof terrace, (7) Estimated energy savings vs a conventional design. Format as a climate-responsive design report. Consider LDA byelaws and ECBC-R residential guidelines.",
+      "tags": [
+        "composite-climate",
+        "passive-design",
+        "lucknow",
+        "ecbc-r",
+        "residential",
+        "lda"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-016",
+      "title": "Portfolio Layout for Internship Applications",
+      "prompt": "Act as a senior associate at a top Indian architectural firm like Morphogenesis or Studio Lotus with 10 years of experience reviewing internship portfolios. I need you to help me design the layout and content strategy for my B.Arch internship portfolio targeting firms in Delhi, Mumbai, and Bengaluru. Here is the context: I am a 6th semester student with four studio projects, one measured drawing, one construction detail sheet, sketches, and a photography series. I will submit a 20 page A4 landscape PDF under 10 MB. Please provide: (1) Cover and contents page logic, (2) Project page template — hierarchy of title, one line pitch, key drawing, process, images, (3) Grid system and whitespace guidance, (4) Typography pairing suggestions using free Indic-friendly fonts, (5) Colour discipline and image treatment, (6) CV and contact page format, (7) Common mistakes junior students make. Format as a layout guidebook. Consider Indian firm aesthetics and hiring expectations.",
+      "tags": [
+        "portfolio",
+        "internship",
+        "layout-design",
+        "b-arch",
+        "graphic-design"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-017",
+      "title": "Hospital Space Programming per NBC Part 9",
+      "prompt": "Act as a healthcare architect with 15 years of experience designing hospitals compliant with NBC 2016 Part 9 and NABH accreditation requirements. I need you to develop a space programme and adjacency matrix for a 150 bed secondary care hospital in Indore on a 2 hectare plot. Here is the context: Composite climate, plot has road access on north and east, budget Rs 90 crore, services include OPD, emergency, IPD, ICU, OT complex, diagnostics, pharmacy, administration, kitchen, laundry. Please provide: (1) Bed mix — general, private, semi-private, ICU, HDU, (2) Department-wise area tabulation in sq m with NBC benchmarks, (3) Adjacency matrix showing critical, desirable, and neutral relationships, (4) Vertical vs horizontal zoning strategy, (5) Clean and dirty circulation separation for OT, (6) Parking requirement per Indore municipal byelaws, (7) NABH infection control spatial considerations. Format as a hospital programming document with tables. Consider NBC 2016 Part 9 and MP Bhawan Nirman byelaws.",
+      "tags": [
+        "healthcare",
+        "nbc-part-9",
+        "nabh",
+        "space-programming",
+        "hospital",
+        "indore"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-018",
+      "title": "Rendering Settings for Enscape Interiors",
+      "prompt": "Act as an architectural visualiser with 8 years of experience producing photorealistic interiors using Enscape and SketchUp for Indian residential clients. I need you to dial in rendering settings and a shot list for my studio project presentation — a 3BHK apartment interior in Kochi. Here is the context: Scene is modelled in SketchUp with correct materials, Kerala warm-humid context, client wants dusk lighting with warm artificial sources mixed with the last daylight. I need to output six hero images at 3840 x 2160 and one 30 second walkthrough at 1080p. Please provide: (1) Enscape general, image, atmosphere, and output tab settings, (2) Sun azimuth and altitude suggestions for Kochi at 6 pm, (3) Artificial light placement — warm 2700 K downlights, cove lights, table lamps — with intensity guidance, (4) Material tweaks for fabric, rattan, wood, terrazzo, (5) Shot list with camera heights and focal lengths, (6) Post-processing tips in Photoshop or Lightroom, (7) Common rendering pitfalls. Format as a render production checklist.",
+      "tags": [
+        "enscape",
+        "rendering",
+        "interior",
+        "sketchup",
+        "visualisation",
+        "kochi"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-019",
+      "title": "Heritage Conservation Approach for Stepwell",
+      "prompt": "Act as a heritage conservation architect accredited by INTACH with 20 years of experience restoring stepwells and water structures in Gujarat and Rajasthan. I need you to outline a conservation approach for a 16th century stepwell in a village near Patan, Gujarat, as my elective studio project. Here is the context: The baoli has five levels, partial collapse on the south wing, algae growth, modern encroachments at the ground level, local community uses it only during festivals. Please provide: (1) Significance assessment framework using Venice Charter and INTACH Charter values, (2) Condition mapping method — crack, spalling, biological, structural, (3) Documentation protocol using photogrammetry and hand measures, (4) Intervention philosophy — preservation, consolidation, restoration, reconstruction — with justifications, (5) Material compatibility notes for lime mortar and local sandstone, (6) Community engagement plan, (7) Long-term management recommendations. Format as a conservation report outline. Consider ASI and State Archaeology frameworks and INTACH guidelines.",
+      "tags": [
+        "conservation",
+        "heritage",
+        "intach",
+        "stepwell",
+        "gujarat",
+        "asi"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-020",
+      "title": "Low-Cost School Design for Rural Bihar",
+      "prompt": "Act as an architect practising in the spirit of Didi Contractor and Revathi Kamath with 12 years of experience designing low-cost rural schools. I need you to develop a design concept for a 4-room primary school on a 1200 sq m plot in a village near Muzaffarpur, Bihar. Here is the context: Client is an NGO, budget Rs 22 lakh, composite climate with severe floods, site on slightly raised ground, target 160 students, local labour and materials available — bamboo, lime, brick, mud, GI sheets. Please provide: (1) Design ethos statement rooted in context, (2) Plan diagram in text — classrooms, toilets, verandahs, kitchen, play, (3) Structural system using load-bearing brick with bamboo roof trusses, (4) Flood resilience measures including plinth height, (5) Toilet block meeting Swachh Bharat Vidyalaya norms, (6) Cost estimate per sq m and total, (7) Participatory construction approach. Format as a design brief. Consider RTE Act space norms and Bihar rural development guidelines.",
+      "tags": [
+        "low-cost",
+        "rural",
+        "school",
+        "bamboo",
+        "bihar",
+        "swachh-bharat"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-021",
+      "title": "Revit Sheet Set for Municipal Sanction",
+      "prompt": "Act as a BIM coordinator with 10 years of experience producing municipal sanction drawings from Revit for projects in Pune under PMC byelaws. I need you to set up a complete sheet set in Revit for a G+4 residential building sanction submission. Here is the context: Plot 400 sq m in Kothrud, FSI 1.1, project has stilt plus four floors, client approval already received. PMC requires site plan, location plan, floor plans, sections, elevations, area statement, structural layout, drainage, rainwater harvesting, and fire NOC plans at specified scales. Please provide: (1) Complete sheet list with numbers, names, scales, sizes, (2) View templates per drawing type to ensure correct visibility, (3) Schedules for area statement, door, window, (4) Legends required by PMC — signage, colour coding, (5) Title block with declaration, architect seal, owner signature blocks, (6) Tag and annotation standards, (7) Export-to-PDF batch workflow. Format as a BIM delivery checklist. Consider PMC Development Control Regulations.",
+      "tags": [
+        "revit",
+        "sanction-drawings",
+        "pmc",
+        "sheet-set",
+        "bim",
+        "pune"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-022",
+      "title": "Cold Climate Design for Leh Homestay",
+      "prompt": "Act as a Himalayan architect with 14 years of experience designing homestays in Ladakh responsive to cold and arid climate. I need you to develop a design strategy for a 6 room homestay on a 800 sq m plot in Leh. Here is the context: Site at 3500 m altitude, temperature range minus 20 to plus 25 C, minimal rainfall, high solar radiation, scarce fuelwood, traditional construction uses rammed earth and poplar wood. Client is a local family, budget Rs 40 lakh. Please provide: (1) Trombe wall and direct gain strategy for winter heating, (2) Wall system using rammed earth or compressed stabilised earth block with U-value target, (3) Roof insulation using timber joists and local willow mat with mud overlay, (4) Window specification — double glazing, south orientation, night shutters, (5) Composting toilet solution for water scarcity, (6) PV sizing for off-peak backup, (7) Ladakh vernacular references for form. Format as a cold climate design report. Consider Ladakh Hill Development Council guidelines.",
+      "tags": [
+        "cold-climate",
+        "ladakh",
+        "trombe-wall",
+        "rammed-earth",
+        "passive-solar",
+        "vernacular"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-023",
+      "title": "BIS Compliant Stair Design for Studio",
+      "prompt": "Act as an architect and building code specialist with 12 years of experience applying NBC 2016 and BIS codes to everyday design decisions. I need you to help me design a compliant staircase for my 3rd year residential project — a duplex apartment on an 1800 sqft built-up unit in Kolkata. Here is the context: Floor to floor 3.2 m, staircase well is 1.5 m x 3.2 m, NBC 2016 Part 3 and Part 4 apply, warm-humid climate. Please provide: (1) Tread-riser calculation using 2R + T = 600 mm rule, (2) Minimum clear width, headroom, and landing dimensions per NBC, (3) Handrail and baluster detail with heights, (4) Non-slip nosing and finishing options, (5) Structural options — RCC waist slab vs folded plate vs steel stringer, (6) 2D plan and section described in text, (7) Deviations to avoid and common marking errors. Format as a design note with dimensioned descriptions. Consider NBC 2016 Part 3 Section 3 and IS 875 loadings.",
+      "tags": [
+        "nbc-2016",
+        "staircase",
+        "bis-codes",
+        "residential",
+        "structural-detail"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-024",
+      "title": "IGBC Green Homes for Bengaluru Villa",
+      "prompt": "Act as an IGBC accredited professional with 11 years of experience certifying Green Homes projects in Bengaluru. I need you to create an IGBC Green Homes Version 3 strategy for a 320 sq m villa on a 500 sq m plot in Whitefield. Here is the context: Temperate climate, budget Rs 1.8 crore, client wants Platinum rating, plot faces east. Please provide: (1) Credit-wise targeting table across all mandatory and optional credits, (2) Site selection and water efficiency strategies, (3) Energy efficiency moves including BEE 5-star appliances and LED loads, (4) Material selection rubric prioritising regional, recycled, and rapidly renewable content, (5) Indoor air quality measures for paints, adhesives, composite wood, (6) Innovation credits and documentation, (7) Cost premium estimate vs baseline. Format as an IGBC strategy report with credit tables. Consider BBMP byelaws and Karnataka solar policy.",
+      "tags": [
+        "igbc",
+        "green-homes",
+        "bengaluru",
+        "bbmp",
+        "sustainability",
+        "platinum"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-025",
+      "title": "Urban Design Concept for TOD Corridor",
+      "prompt": "Act as an urban designer with 15 years of experience developing Transit Oriented Development schemes along metro corridors in Indian cities. I need you to prepare an urban design concept for a 500 m influence zone around a metro station in Nagpur. Here is the context: Station is in a mixed old-new area, 40 percent vacant or underutilised land, existing FSI 1.5, proposed TOD FSI 3.0 per MoHUA TOD Policy. Please provide: (1) Station area vision and design principles, (2) Land use mix targets for residential, commercial, public, green, (3) Street network hierarchy with complete street section described, (4) Public realm strategy — plazas, pedestrian spines, shaded walks, (5) Density and height transition plan, (6) Affordable housing and informal sector integration, (7) Key performance indicators. Format as an urban design concept note with tables. Consider Nagpur Improvement Trust byelaws and MoHUA TOD guidelines.",
+      "tags": [
+        "urban-design",
+        "tod",
+        "metro",
+        "nagpur",
+        "mohua",
+        "public-realm"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-026",
+      "title": "Measured Drawing Workflow for Haveli",
+      "prompt": "Act as an architectural documentation expert with 14 years of experience leading measured drawing exercises at SPA Delhi and CEPT. I need you to plan a measured drawing exercise for a 200 year old haveli in Shekhawati, Rajasthan, as a 2nd year studio exercise with a team of six students. Here is the context: Haveli has two courtyards, three floors, ornate frescoes, fragile stone jaalis, 3 days of on-site access, tools include tapes, laser distance meter, DSLR, drone for aerial. Please provide: (1) Pre-visit research checklist including historical sources, (2) Day-wise activity plan for three days on site, (3) Team role distribution — leader, draftsperson, photographer, recorder, (4) Measurement protocol for plans, sections, elevations, and ornament details, (5) Photography checklist and scale reference, (6) Post-site inking and digitisation workflow, (7) Final deliverables — A1 sheets and a bound report. Format as an exercise manual. Consider INTACH documentation standards.",
+      "tags": [
+        "measured-drawing",
+        "haveli",
+        "documentation",
+        "shekhawati",
+        "intach",
+        "studio-exercise"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-027",
+      "title": "Retail Shop Design for GST Compliance",
+      "prompt": "Act as a retail designer with 9 years of experience fitting out stores in Indian malls and high streets. I need you to design a 60 sq m apparel store in Phoenix Marketcity Chennai for a mid-market Indian fashion brand. Here is the context: Rectangular shell 6 m x 10 m, floor to ceiling 4 m, mall hands over bare shell with basic MEP stubs, opening inventory for 1500 SKUs, target footfall 500 per day, brand identity is contemporary Indian. Please provide: (1) Space zoning — entry, display, fitting rooms, cash, staff, storage, (2) Fixture plan with wall, mid-floor, and feature units, (3) Lighting design with ambient, accent, and display layers in lux targets, (4) Material palette and finishes aligned with brand, (5) BOQ line items with indicative INR costs, (6) Mall fit-out compliance notes including GST invoicing for vendors, (7) Signage and graphic system brief. Format as a store design package. Consider NBC fire exit rules and mall fit-out guidelines.",
+      "tags": [
+        "retail-design",
+        "store-design",
+        "mall-fitout",
+        "chennai",
+        "lighting-design"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-028",
+      "title": "Parking Design per Indian Byelaws",
+      "prompt": "Act as a parking consultant with 12 years of experience designing parking for commercial buildings under Indian municipal byelaws. I need you to design the parking strategy for a 5000 sq m commercial office building on a 2000 sq m plot in Sector 18, Noida. Here is the context: Tower is G+6, Noida byelaws require 1 ECS per 60 sq m built-up, plot frontage 35 m, basements allowed up to two levels, ramp width minimum 6 m for two-way. Please provide: (1) ECS calculation and count, (2) Basement layout logic with column grid and ramp placement, (3) Turning radius and aisle widths per IRC guidelines, (4) Ventilation and fire safety requirements for enclosed parking, (5) EV charging provision per NBC 2016 amendment, (6) Surface parking and drop-off integration, (7) Accessibility parking per RPwD Act. Format as a parking design report. Consider Noida Building Regulations and IRC SP 41.",
+      "tags": [
+        "parking-design",
+        "noida",
+        "ecs",
+        "irc",
+        "ev-charging",
+        "basement"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-029",
+      "title": "Thesis Topic Brainstorm with Feasibility",
+      "prompt": "Act as a thesis guide at a top Indian B.Arch school with 18 years of experience steering students to CoA-accepted thesis topics. I need you to generate and evaluate 10 thesis topic ideas relevant to contemporary Indian challenges. Here is the context: I am entering my 10th semester, interested in urban ecology, climate resilience, and vernacular craft, want a topic that is academically rigorous and personally meaningful, and willing to travel for fieldwork within India. Please provide: (1) 10 topic ideas spanning housing, public infrastructure, heritage, ecology, and urban design, (2) Tagline and problem statement for each, (3) Site suggestion with latitude, longitude, and city, (4) Theoretical framework and key readings, (5) Feasibility matrix scoring on data access, site access, and scope in 20 weeks, (6) Top 3 recommendations with justification, (7) Risks and mitigations. Format as a thesis shortlisting document with a comparison table. Consider CoA thesis guidelines.",
+      "tags": [
+        "thesis-topic",
+        "b-arch",
+        "coa",
+        "feasibility",
+        "research-methodology"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-030",
+      "title": "Landscape Design for Corporate Campus",
+      "prompt": "Act as a landscape architect with 13 years of experience designing corporate campuses in India using native and adaptive species. I need you to develop a landscape master plan for a 5 acre IT campus in Hinjewadi, Pune. Here is the context: Composite climate, existing contours with 4 m drop, rainwater harvesting target 60 percent of annual demand, 800 employees, client wants biophilic wellness-focused landscape and GRIHA LD rating support. Please provide: (1) Design concept and zoning — entry, plaza, courtyards, break-out, buffer, (2) Plant palette — trees, shrubs, ground cover, native and adaptive, with scientific names, (3) Hardscape material palette, (4) Water feature and rainwater harvesting system sizing, (5) Biophilic design interventions, (6) Maintenance regime and budget indication, (7) Biodiversity and pollinator strategy. Format as a landscape design report with plant tables. Consider PMC byelaws and GRIHA LD criteria.",
+      "tags": [
+        "landscape",
+        "biophilic",
+        "native-plants",
+        "griha-ld",
+        "pune",
+        "corporate-campus"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-031",
+      "title": "RPwD Act Accessibility Audit",
+      "prompt": "Act as an accessibility auditor certified under Harmonised Guidelines 2021 with 10 years of experience auditing Indian public buildings. I need you to audit my 5th semester studio project — a 2500 sq m community centre in Kanpur — for compliance with the Rights of Persons with Disabilities Act 2016 and the Harmonised Guidelines. Here is the context: Building has two floors, main entrance off a 9 m road with a 150 mm kerb, includes auditorium, library, cafeteria, meeting rooms. Please provide: (1) Site approach check — pedestrian path, kerb ramp, drop-off, parking, (2) Entrance and door width audit, (3) Vertical circulation — ramp gradient, lift dimensions, handrails, (4) Toilet dimensions and grab bar placement, (5) Signage, tactile tiles, and wayfinding, (6) Auditorium wheelchair positions and hearing loop, (7) A prioritised remediation list with clause references. Format as an accessibility audit report. Consider Harmonised Guidelines 2021 and NBC 2016 Part 3.",
+      "tags": [
+        "accessibility",
+        "rpwd-act",
+        "harmonised-guidelines",
+        "universal-design",
+        "audit"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-032",
+      "title": "Design Concept Writing Workshop",
+      "prompt": "Act as an architectural writing coach with 11 years of experience helping students translate design ideas into clear written concepts for studio and thesis. I need you to coach me through writing a design concept for my 7th semester studio project — a riverfront ghat redevelopment in Varanasi. Here is the context: I have strong visual ideas about layering, light, and ritual but my writing tends to be vague and flowery. The concept note is 500 words, will appear on the first A1 sheet, and is read first by the jury. Please provide: (1) A three-part concept scaffold — observation, insight, proposition, (2) Verb bank and vocabulary of spatial operations to replace cliches, (3) Example of a weak paragraph rewritten into a strong one, (4) Rules for specificity — name the place, the ritual, the material, (5) Editing checklist for length, flow, and image-word match, (6) Two sample concept notes in different voices, (7) A final 500-word template to customise. Format as a writing workshop handout.",
+      "tags": [
+        "design-writing",
+        "concept-note",
+        "studio",
+        "thesis",
+        "jury-communication"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-033",
+      "title": "BOQ Preparation for Studio Project",
+      "prompt": "Act as a quantity surveyor with 16 years of experience preparing Bills of Quantities for residential projects in India using DSR rates. I need you to prepare a sample BOQ for my 4th year housing studio project — a 280 sq m house in Gurgaon — so I learn the format used by real practices. Here is the context: Building is G+1 with basement parking, brick-RCC construction, basic finishes of vitrified tiles, POP ceilings, flush doors. I want rates as per DSR 2023 with 15 percent Gurgaon market premium. Please provide: (1) Sections — earthwork, PCC, RCC, masonry, plaster, flooring, doors and windows, painting, electrical, plumbing, external works, (2) Tabular BOQ with item description, unit, quantity, rate, amount, (3) Abstract summary by section, (4) Preliminaries and contingencies, (5) GST at 18 percent line, (6) Total project cost and cost per sq ft, (7) Notes on assumptions. Format as an Excel-ready BOQ document. Consider DSR 2023 and Haryana market conditions.",
+      "tags": [
+        "boq",
+        "quantity-survey",
+        "dsr-2023",
+        "costing",
+        "gurgaon",
+        "studio-project"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-034",
+      "title": "Urban Regeneration for Mill Lands",
+      "prompt": "Act as an urban regeneration architect with 18 years of experience working on industrial heritage sites like Mumbai's mill lands and Kolkata's jute belt. I need you to propose a regeneration concept for a 4 hectare disused cotton mill site in Parel, Mumbai, as my 9th semester studio. Here is the context: Site has two heritage chimneys, one Grade II-A weaving shed, two abandoned godowns, soil contamination, surrounded by dense residential fabric, connected by suburban rail. Please provide: (1) Heritage and ecology baseline, (2) Programme mix justifying cultural, residential, commercial, and public open space, (3) Retention strategy for heritage structures with adaptive reuse, (4) Massing and FSI distribution under MCGM DCR 33(7B), (5) Public realm design with shaded streets, (6) Community and livelihood integration, (7) Phasing and financing outline. Format as an urban regeneration report. Consider MCGM Heritage Regulations and DCR 33(7B).",
+      "tags": [
+        "urban-regeneration",
+        "mill-lands",
+        "mumbai",
+        "adaptive-reuse",
+        "mcgm",
+        "heritage"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-035",
+      "title": "Revit Phasing for Adaptive Reuse Project",
+      "prompt": "Act as a Revit specialist with 9 years of experience modelling adaptive reuse projects for Indian architectural firms. I need you to set up a phased Revit model for my studio project — converting a 1920s colonial bungalow in Bengaluru into a boutique cafe. Here is the context: Existing structure has load-bearing walls, Mangalore tile roof, and timber trusses. The design keeps the shell but removes internal walls, adds a steel mezzanine, a new glazed rear extension, and landscape upgrades. I need the model to clearly show existing, demolished, and new work on separate drawings. Please provide: (1) Phases setup — Existing, Demolition, New Construction, (2) Phase filters for relevant views, (3) Graphic overrides for existing vs demolished vs new, (4) Approach to modelling load-bearing walls with correct material and phase, (5) Room and area calculation strategy per phase, (6) Sheet set structure showing comparative drawings, (7) Pitfalls and common fixes. Format as a Revit workflow guide.",
+      "tags": [
+        "revit",
+        "phasing",
+        "adaptive-reuse",
+        "bengaluru",
+        "bim-workflow"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-036",
+      "title": "Acoustics Design for Auditorium",
+      "prompt": "Act as an acoustic consultant with 14 years of experience designing auditoriums and studios in India. I need you to propose an acoustic design for a 300 seat multipurpose auditorium in my 6th semester project in Bhubaneswar. Here is the context: Space is 22 m long x 14 m wide x 8 m average height, used for drama, classical music concerts, lectures, and film screenings. Target reverberation times vary with use, background noise NC 25. Please provide: (1) Target RT60 values at 500 Hz for each function, (2) Room shape analysis to avoid flutter echo and focusing, (3) Surface treatment strategy — absorbing, reflecting, diffusing — with percentage areas, (4) Material options commercially available in India with NRC values, (5) HVAC noise control and duct attenuation, (6) Isolation strategy from road noise, (7) Validation by Sabine calculation. Format as an acoustic design note with calculations. Consider IS 2526 and NBC 2016 acoustic provisions.",
+      "tags": [
+        "acoustics",
+        "auditorium",
+        "rt60",
+        "bhubaneswar",
+        "sabine",
+        "nbc-2016"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-037",
+      "title": "Climate Zone Identification and Strategy",
+      "prompt": "Act as a climate-responsive design teacher with 15 years of experience teaching B.Arch students to read Indian climatic zones. I need you to create a quick-reference decision framework I can apply to any site brief in India during the first week of studio. Here is the context: Students often receive unfamiliar sites — a mini project in Bhuj, Gangtok, Visakhapatnam, or Chandigarh — and must set a climate-responsive direction within 3 days. Please provide: (1) A flow-chart logic for identifying hot-dry, warm-humid, composite, temperate, or cold climate using temperature, humidity, rainfall cutoffs, (2) Key passive design moves per zone with rationale, (3) Typical vernacular precedents for each zone with locations, (4) Top 3 wall and roof system choices per zone, (5) Opening and shading thumb rules, (6) Water strategy per zone, (7) A one-page worksheet template students can fill. Format as a studio handout. Consider SP 41 and NBC 2016 Part 11.",
+      "tags": [
+        "climate-zones",
+        "passive-design",
+        "sp-41",
+        "studio-framework",
+        "vernacular"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-038",
+      "title": "Smart Village Master Plan Concept",
+      "prompt": "Act as a rural development architect with 16 years of experience master planning smart villages under the SAGY and Rurban Mission frameworks. I need you to prepare a conceptual master plan for a 600-household village in Wardha district, Maharashtra, as my 8th semester studio. Here is the context: Composite climate, agrarian economy, existing infrastructure gaps in water, sanitation, street lighting, and primary health. Available funding Rs 25 crore over 5 years. Please provide: (1) Baseline assessment checklist, (2) Vision and guiding principles rooted in Gandhian self-reliance, (3) Spatial strategy — housing upgrades, common facilities, street network, (4) Infrastructure interventions for water, sanitation, energy, connectivity, (5) Livelihood nodes — market, cold storage, processing, (6) Community participation mechanism, (7) Phasing with year-wise milestones. Format as a village development plan document. Consider SAGY, Rurban Mission, and Maharashtra gram panchayat norms.",
+      "tags": [
+        "smart-village",
+        "rural",
+        "sagy",
+        "wardha",
+        "master-plan",
+        "rurban"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-039",
+      "title": "Detail Drawing for RCC Chajja",
+      "prompt": "Act as a construction detailing expert with 14 years of experience producing working drawings for Indian residential projects. I need you to develop a construction detail for an RCC chajja (window sunshade) projecting 600 mm over a 1200 mm wide window in a G+2 house in Ahmedabad. Here is the context: Hot-dry climate, south-west facade, finished with 20 mm sand-cement plaster and weatherproof paint, reinforcement designed for 1 kN/m live load, drip groove on underside, waterproof fillet at wall junction. Please provide: (1) Design logic — thickness, reinforcement, cover, drip groove, slope, (2) 2D section described in text with clearly labelled components, (3) Reinforcement detail with bar sizes, spacing, development length, (4) Waterproofing layer sequence from slab to finish, (5) Materials specification with IS code references, (6) Common site errors and how to avoid them, (7) Cost per metre run. Format as a construction detail sheet description. Consider IS 456 RCC code and IS 2645 waterproofing code.",
+      "tags": [
+        "construction-detail",
+        "chajja",
+        "rcc",
+        "is-456",
+        "working-drawing",
+        "ahmedabad"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    },
+    {
+      "id": "students-architecture-design-040",
+      "title": "Hostel Design for AICTE Norms",
+      "prompt": "Act as an architect with 13 years of experience designing student hostels compliant with AICTE and UGC norms in India. I need you to design a 200 bed girls hostel for an engineering college in Coimbatore on a 3000 sq m plot. Here is the context: Warm-humid climate, G+3 permissible, FSI 1.8, double occupancy rooms, typical AICTE allocation 10 sq m per student including common areas. Please provide: (1) Space programme with room count, dining, kitchen, laundry, warden, visitors, common rooms, (2) Typical floor plan logic — double loaded corridor vs courtyard type, (3) Bathroom and toilet ratio per AICTE, (4) Safety and privacy zoning for girls hostel, (5) Passive cooling using stack ventilation and cross ventilation, (6) Fire safety and refuge area per NBC 2016 Part 4, (7) Sustainability measures targeting GRIHA 4-star. Format as a hostel design brief with tables. Consider AICTE Handbook and Coimbatore Municipal byelaws.",
+      "tags": [
+        "hostel-design",
+        "aicte",
+        "coimbatore",
+        "warm-humid",
+        "nbc-2016",
+        "griha"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "architecture-design"
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "category": "writers",
+  "subcategory": "creative-writers",
+  "count": 40,
+  "prompts": [
+    {
+      "id": "writers-creative-writers-001",
+      "title": "Generate Small-Town India Story Premises",
+      "prompt": "Act as a seasoned fiction editor with 15 years experience at Penguin India and HarperCollins India, specializing in literary fiction in the tradition of R.K. Narayan's Malgudi and Arundhati Roy's Ayemenem. I need you to generate 10 original story premises set in small-town India (population under 200,000). Each premise must be rooted in a specific real or fictional town (e.g., Kumbakonam, Jhumri Telaiya, Shillong, Bhuj, Pondicherry). For each premise, provide: (1) a one-line logline, (2) the protagonist with age, caste/community, and occupation, (3) the central conflict tied to a specifically Indian tension (inter-generational marriage, land disputes, caste reservation, linguistic identity, religious conversion), (4) the inciting incident, (5) the thematic question the story explores, (6) a potential opening image, and (7) two comparable published works (one Indian, one international). Avoid cliches like the \"arranged marriage runaway bride\" or \"NRI returns home.\" Instead, focus on quieter, more textured conflicts. Format as a numbered list with clear sub-headers per premise. Constraint: at least 3 premises must feature female protagonists over 40, and at least 2 must be set in the Northeast or Jammu & Kashmir. Avoid Mumbai, Delhi, and Bangalore entirely.",
+      "tags": [
+        "story-premise",
+        "small-town",
+        "literary-fiction",
+        "indian-setting"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-002",
+      "title": "Develop a Multi-Generational Indian Family Character",
+      "prompt": "Act as a character development coach trained in the methods of Jhumpa Lahiri and Amitav Ghosh, with deep knowledge of Indian joint-family dynamics. I am writing a literary novel and need a richly detailed character sheet for a single protagonist: a 62-year-old Bengali widow named Protima Sen, a retired Sanskrit professor from Jadavpur University now living alone in a crumbling North Kolkata house. Please produce a 1,500-word character bible covering: (1) physical description grounded in age and class, (2) three generations of family history including Partition trauma and the Naxalite era, (3) her relationship with her estranged software-engineer son in Seattle and her Muslim domestic helper Sufia, (4) five specific habits, tics, or rituals (including at least one tied to Hindu widow customs she has rejected), (5) her private contradictions and self-deceptions, (6) what she wants, what she needs, and what she fears, (7) her voice — include 3 sample lines of interior monologue and 2 sample lines of dialogue in English with Bengali phrases, (8) a wound from her past that still controls her, and (9) her potential arc. Avoid stereotypes of the bitter widow or the saintly mother.",
+      "tags": [
+        "character-development",
+        "literary-fiction",
+        "bengali",
+        "widow-protagonist"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-003",
+      "title": "Write Hinglish Dialogue With Subtext",
+      "prompt": "Act as a dialogue specialist for Netflix India originals with credits on shows like Sacred Games and Delhi Crime. I need you to write a 2-page dialogue scene (approximately 600 words) between two characters in natural, code-switched Hinglish that carries strong subtext. Scene context: Raghav, a 34-year-old Gurgaon-based product manager at a fintech unicorn, is having chai at a roadside tapri in Lajpat Nagar with his cousin Kavya, a 29-year-old IAS aspirant who has failed UPSC twice. On the surface they are discussing Kavya's next attempt. Underneath, Raghav is actually asking for a loan of 18 lakhs because his startup ESOPs are worthless, and Kavya is trying to tell him their mutual grandmother is dying of pancreatic cancer. Neither character directly states their real topic until the final beat. Requirements: (1) use authentic Delhi Hinglish (not Bollywood Hinglish), (2) include natural interruptions and overlaps, (3) embed at least 3 class-and-status tells in word choice, (4) use one recurring physical object (the chai glass, a phone) as an emotional anchor, (5) end on a silence or an unfinished sentence. Annotate the subtext in italic parentheticals after each important beat.",
+      "tags": [
+        "dialogue",
+        "hinglish",
+        "subtext",
+        "ott-writing"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-004",
+      "title": "Build a Mythological World From the Puranas",
+      "prompt": "Act as a world-building consultant who has worked on Amish Tripathi's Shiva Trilogy and Devdutt Pattanaik's mythological retellings. I am writing a fantasy novel reimagining the Markandeya Purana for modern readers. Help me construct the world in 1,200 words across these sections: (1) Cosmology — the seven lokas and seven patalas, with one original twist that serves my plot, (2) Magic system — how tapas (austerity) converts to siddhis (powers), with specific costs and limits inspired by Patanjali's Yoga Sutras, (3) Political geography — four rival kingdoms modeled on Vedic janapadas with distinct cultures, economies, and military traditions, (4) Creatures — three original beings inspired by but not copied from yakshas, gandharvas, and rakshasas, (5) Religion and rituals that ordinary people practice daily, (6) Language and naming conventions drawn from Sanskrit without being inaccessible, (7) One specific technological or social anachronism I can use to create wonder. Constraints: avoid Western fantasy tropes (no Tolkien elves, no Hogwarts-style schools), ground every magical element in a real Hindu philosophical concept, and ensure women have agency beyond devoted wives. Provide 3 story seeds this world enables.",
+      "tags": [
+        "world-building",
+        "mythology",
+        "puranas",
+        "fantasy"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-005",
+      "title": "Outline a Three-Act Structure for a Mumbai Noir",
+      "prompt": "Act as a screenwriting instructor from FTII Pune who has taught three-act structure to writers now working on SonyLIV and ZEE5 originals. I am developing a noir novel set in contemporary Mumbai and need a detailed three-act outline of approximately 1,500 words. Premise: Zoya Merchant, a 38-year-old Parsi forensic accountant at a Big Four firm, discovers her late father's chawl in Dongri is about to be demolished by a builder with Shiv Sena ties, and the demolition is linked to a money-laundering trail she has been investigating at work. Deliver: (1) Act One setup with inciting incident by page 25 equivalent, (2) first plot point forcing commitment, (3) Act Two-A rising action with three escalating complications, (4) midpoint reversal at the 50% mark, (5) Act Two-B with ticking clock and false victory, (6) Act Three climax and resolution, (7) thematic argument the structure makes. Include for each beat: the scene location in Mumbai (be specific — Kala Ghoda, Bhendi Bazaar, Nariman Point), the stakes, and what Zoya learns about herself. Avoid Bollywood melodrama; tone should be closer to Vikram Chandra's Sacred Games than a 90s thriller.",
+      "tags": [
+        "three-act-structure",
+        "noir",
+        "mumbai",
+        "plot-outline"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-006",
+      "title": "Analyze Rushdie's Prose Style",
+      "prompt": "Act as a literary critic specializing in postcolonial fiction with a PhD in English from JNU. I want to understand and internalize Salman Rushdie's prose style from Midnight's Children so I can apply its techniques (not imitate them) in my own novel. Analyze his style in roughly 1,200 words across these dimensions: (1) sentence architecture — his use of long, accumulating sentences with semicolons and dashes, with 2 quoted examples and a breakdown of the rhythm, (2) chutneyfication of English — how he embeds Hindi, Urdu, and Bombay slang without italicizing or explaining, (3) unreliable narrator techniques Saleem uses, (4) magical realism as political allegory, (5) use of lists, catalogs, and anaphora, (6) humor as a structural device, (7) how he handles crowds and collective consciousness. For each technique, give me one quoted passage, a brief analysis, and one exercise I can do to practice the technique on my own material. End with a warning list of 5 Rushdie mannerisms I should avoid because they have become cliches in Indian English fiction since 1981.",
+      "tags": [
+        "style-analysis",
+        "rushdie",
+        "postcolonial",
+        "craft"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-007",
+      "title": "Generate Flawed Protagonists for Indian Campus Fiction",
+      "prompt": "Act as a commissioning editor at Rupa Publications who has worked on the campus-fiction wave that followed Chetan Bhagat. I need you to generate 8 original, deeply flawed protagonists for contemporary Indian campus novels set in real institutions (IIT, IIM, NLSIU, AIIMS, JNU, Jamia, St. Stephen's, Loyola Chennai, BITS Pilani, NID Ahmedabad). Each character profile should be 150 words and include: (1) name, age, year of study, and home state, (2) scholarship or financial background (crucial in Indian context), (3) a specific, novel-worthy flaw that is not just arrogance or heartbreak — think internalized caste shame, academic fraud, bulimia, political radicalization, closeted queerness in a hostile hostel, (4) the lie they tell themselves, (5) their secret ambition beyond placement, (6) one vivid sensory detail (a smell, a ringtone, a food). Constraints: no two protagonists from the same institution, at least 3 women, at least 2 from Tier-3 towns, at least one non-Hindu, and at least one engaged with student politics. Avoid the love-triangle-on-campus template. Format as a numbered list with bold character names.",
+      "tags": [
+        "character-development",
+        "campus-fiction",
+        "protagonists",
+        "indian-colleges"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-008",
+      "title": "Write an Opening Chapter Hook",
+      "prompt": "Act as a literary agent at Writer's Side or Red Ink who has sold debut novels to Penguin Random House India. I need you to write the opening 600 words of a literary novel that will immediately hook an acquisitions editor. Premise I provide: A 45-year-old Malayali priest in a Syrian Orthodox church in Kottayam finds a stack of love letters from the 1970s hidden inside the pulpit, addressed to his dead mother and signed with an initial that matches the current bishop. Your opening must accomplish: (1) establish voice in the first sentence, (2) ground the reader in place through 2-3 specific sensory details unique to Kerala church interiors (the smell of frankincense, worn teak, monsoon damp), (3) introduce the protagonist's interiority without info-dumping backstory, (4) plant the letters as the inciting object by the end of the passage, (5) raise exactly one narrative question that makes the reader turn the page, (6) avoid opening with weather, dreams, or the protagonist waking up. Write in third-person close past tense. After the prose, provide a 150-word craft note explaining the choices you made and how an editor would read the opening.",
+      "tags": [
+        "opening-chapter",
+        "hook",
+        "literary-fiction",
+        "kerala"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-009",
+      "title": "Develop a Villain with Coherent Ideology",
+      "prompt": "Act as a character psychologist who has consulted on antagonists for Amazon Prime Video India thrillers like Paatal Lok and The Family Man. I need you to develop a fully realized antagonist for my political thriller novel set in Lucknow. Do not give me a mustache-twirling villain. Instead, build a man whose worldview is internally coherent and almost seductive. Character brief: Daulat Ram Tripathi, 58, a three-term BJP MLA from a rural UP constituency, former RSS shakha pracharak, now the minister of urban development. In 1,200 words provide: (1) his origin story and the specific humiliation at age 17 that forged him, (2) the intellectual tradition he draws from (Savarkar, Deendayal Upadhyaya, Golwalkar — pick one and go deep), (3) his genuine virtues (he really does love his wife, really did build that school), (4) the exact line of reasoning by which he justifies the violence the plot will reveal, (5) his blind spot, (6) his relationship with his Oxford-educated daughter who opposes him, (7) three scenes that reveal him without telling. Avoid making him a caricature of the Hindu right; let him be dignified and dangerous.",
+      "tags": [
+        "antagonist",
+        "character-development",
+        "political-thriller",
+        "lucknow"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-010",
+      "title": "Generate Short Story Ideas in the R.K. Narayan Tradition",
+      "prompt": "Act as a short-story editor who has read every R.K. Narayan collection and edited anthologies for Aleph Book Company. I need 12 original short-story ideas in the quiet, ironic, observational tradition of Narayan's Malgudi Days — but set in contemporary India, not colonial India. Each story should fit in 3,000-5,000 words and turn on a small, recognizable human moment rather than a dramatic plot. For each idea, provide in 120 words: (1) the Malgudi-equivalent setting (a real contemporary town like Udupi, Kalimpong, Nashik, Dharamshala, Alwar), (2) the ordinary protagonist (a government clerk, a priest, a tailor, a widowed landlady, a school bus driver), (3) the small disruption to their routine, (4) the ironic recognition or quiet shift at the end, (5) the Narayan-like theme (ambition vs contentment, modernity vs tradition, dignity vs survival). Do not use supernatural elements. Do not use twists. At least 4 ideas must feature characters over 60, and at least 3 must be told from a child's point of view. Number them clearly.",
+      "tags": [
+        "short-story",
+        "rk-narayan",
+        "ideas",
+        "literary-fiction"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-011",
+      "title": "Write Sensory Description of an Indian Setting",
+      "prompt": "Act as a prose stylist known for immersive settings in the manner of Amitav Ghosh's Hungry Tide and Arundhati Roy's God of Small Things. I need you to write a 500-word descriptive passage of a single Indian location that works as both atmosphere and character. Location: a decaying Irani cafe in Dhobi Talao, South Bombay, at 4:15 pm on a monsoon Thursday in 2024. The cafe is nearly empty; only the elderly owner Boman and one customer remain. Requirements: (1) engage all five senses explicitly but without listing them, (2) include at least 3 period-specific details that date the passage to 2024 (a UPI QR code on the table, a specific news headline on a wall TV), (3) suggest the cafe's 80-year history through objects without flashback, (4) use one extended metaphor that runs through the passage, (5) let the weather mirror an unstated emotional weather, (6) avoid food-writing cliches like \"aromatic\" or \"fragrant.\" The passage should stand alone but clearly be the opening of a larger scene. After the passage, provide a 100-word annotation of which sensory choices you made and why.",
+      "tags": [
+        "description",
+        "setting",
+        "sensory",
+        "bombay"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-012",
+      "title": "Brainstorm Conflict Beats for a Love Story",
+      "prompt": "Act as a story structure coach who has broken stories for OTT romance shows on ZEE5 and Disney+ Hotstar. I am writing a contemporary Indian love story and need 15 distinct conflict beats to sustain a 90,000-word novel. The couple: Aditi, a 31-year-old Tamil Brahmin classical dancer from Mylapore, Chennai, and Feroze, a 33-year-old Kashmiri Muslim documentary filmmaker based in Delhi. They meet at a residency in Goa and fall in love over three weeks. Now they must sustain it across the novel. Generate 15 conflict beats ranging from small (an argument over whose family to visit for Eid vs Pongal) to large (a communal riot in Delhi that tests their public identities). For each beat provide: (1) the trigger, (2) who wants what, (3) the underlying unresolved wound it pokes, (4) how it escalates or resolves in a way that changes the relationship. At least 4 conflicts must be internal (jealousy, ambition, past trauma) and at least 3 must be external social forces (family, law, politics). Avoid the standard \"parents disapprove\" beat; go for subtler ground.",
+      "tags": [
+        "conflict",
+        "romance",
+        "plot-beats",
+        "interfaith"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-013",
+      "title": "Create a Family Tree for a Saga Novel",
+      "prompt": "Act as a genealogical consultant for literary sagas in the tradition of Amitav Ghosh's Ibis Trilogy. I am writing a multi-generational novel spanning 1919 to 2024, following a Marwari trading family originally from Shekhawati, Rajasthan, whose branches spread to Calcutta, Rangoon, Singapore, and eventually London. Design a four-generation family tree with approximately 22 named characters. For each character provide: (1) full name in proper Marwari conventions (including gotra), (2) years of birth and death, (3) marriage and business alliance, (4) one sentence on their role in the family business (opium, jute, tea, steel, tech), (5) their relationship to a major historical event (Jallianwala Bagh, Partition, 1962 war, Emergency, 1992 Babri, 2008 crash, demonetization), (6) a secret they carry. Ensure at least 3 women have independent arcs (not just wives), include one character who converts religion, one who disappears mysteriously, and one gay character from a generation where he could not name himself. Format as a text-based tree with generation headers, then a 400-word narrative summary of the family's trajectory through the century.",
+      "tags": [
+        "family-tree",
+        "saga",
+        "marwari",
+        "multi-generational"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-014",
+      "title": "Apply Save the Cat Beats to a Bollywood-Style Story",
+      "prompt": "Act as a structure specialist trained in Blake Snyder's Save the Cat method and adapted for Indian commercial fiction. I want you to take my logline and generate all 15 Save the Cat beats mapped precisely to specific scene ideas. Logline: After her mother's sudden death reveals a hidden second family in Hyderabad, a 28-year-old software engineer from Bangalore must spend 40 days performing Hindu death rituals with her half-sister she never knew existed, as they try to fulfill their mother's final wish of scattering her ashes in the Godavari. Generate the full beat sheet including: Opening Image, Theme Stated, Set-Up, Catalyst, Debate, Break Into Two, B Story, Fun and Games, Midpoint, Bad Guys Close In, All Is Lost, Dark Night of the Soul, Break Into Three, Finale (5-point breakdown), Final Image. For each beat, give the approximate page percentage, one paragraph of scene description grounded in Indian ritual specifics (tarpanam, pinda daan, shraddha), and the emotional shift. Ensure the Midpoint reverses whose journey we think this is. The story must earn its catharsis without sentimentality.",
+      "tags": [
+        "save-the-cat",
+        "structure",
+        "beat-sheet",
+        "grief"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-015",
+      "title": "Write a Scene of Controlled Violence",
+      "prompt": "Act as a craft mentor who has taught Indian MFA students how to write violence with restraint, in the tradition of Vikram Chandra and Aravind Adiga. I need you to write a 700-word scene depicting a specific moment of violence without resorting to gore or cinematic glamorization. Scene: In the predawn hours of July 2013, in Muzaffarnagar, UP, a 17-year-old Jat boy named Rinku is pulled off his motorcycle by four men who believe (wrongly) that he eloped with a Muslim girl from their family. The scene should be written entirely from Rinku's interior point of view, using close third-person past tense. Craft requirements: (1) slow down time through noticing — the pattern of a shirt button, the taste of dust, a distant radio, (2) do not describe injuries graphically; imply through sensation and sound, (3) include one incongruous beauty (a koel, a flowering neem), (4) let Rinku's mind go to a small domestic memory at the worst moment, (5) end on an image, not a death or rescue, (6) zero adjectives like brutal, horrific, savage. After the scene, give me a 150-word craft note on restraint.",
+      "tags": [
+        "violence",
+        "craft",
+        "restraint",
+        "communal-tension"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-016",
+      "title": "Develop an Unreliable Narrator Voice",
+      "prompt": "Act as a narrative strategist specializing in unreliable narrators in the tradition of Kiran Desai's Inheritance of Loss and Aravind Adiga's White Tiger. I am writing a novel narrated entirely by a character who systematically misrepresents events, and I need you to help me design her voice. Narrator: Mrs. Usha Krishnamurthy, 71, a retired Carnatic music teacher in T. Nagar, Chennai, writing a long letter to her granddaughter explaining why she disinherited her son. Across 1,000 words, design the voice by providing: (1) three signature verbal tics that reveal her class and generation, (2) the gap between what she says and what the reader is meant to understand, (3) two sample paragraphs (150 words each) that demonstrate the unreliability in action — the reader should catch her in a small lie or self-deception without her announcing it, (4) the controlling metaphor of her self-image (she sees herself as a raga, perhaps), (5) how her voice will shift in the final third as her defenses crack, (6) three narrative techniques (selective memory, strategic digression, passive-aggressive parentheticals) she uses to manipulate the reader. Make her sympathetic despite everything.",
+      "tags": [
+        "unreliable-narrator",
+        "voice",
+        "first-person",
+        "carnatic"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-017",
+      "title": "Map a Hero's Journey onto a Mahabharata Retelling",
+      "prompt": "Act as a mythology-structure consultant who has advised Amish Tripathi and Anand Neelakantan on contemporary retellings. I want you to map Joseph Campbell's 17-stage Hero's Journey onto a fresh retelling of Karna's life from the Mahabharata, framed as a standalone novel of 110,000 words. For each of the 17 stages (Call to Adventure through Freedom to Live), provide: (1) the stage name, (2) the specific Mahabharata episode or invented scene that fulfills it, (3) the page range in a 400-page novel, (4) Karna's internal shift, (5) which traditional interpretation you are departing from and why. The retelling must treat Karna not as a tragic victim but as a man with genuine moral complexity — including his complicity in Draupadi's humiliation. Draw on both Vyasa's Sanskrit text and regional Mahabharatas (Villiputhurar's Tamil version, the Bhil Bharat). Avoid turning the novel into a critique of caste alone; let Karna's dharmic confusion carry equal weight. End with a 200-word note on which Campbell stages resist mapping onto Indian itihasa structure and how you adapted them.",
+      "tags": [
+        "heros-journey",
+        "mahabharata",
+        "karna",
+        "mythology-retelling"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-018",
+      "title": "Critique My Chapter for Show vs Tell",
+      "prompt": "Act as a rigorous line editor with 20 years at Indian literary presses (Seagull, Westland, Speaking Tiger). I will paste a chapter from my novel at the end of this prompt. Read it as if preparing a developmental edit letter and deliver a 1,200-word critique focused specifically on the show-vs-tell balance. Your critique must include: (1) a one-paragraph overall assessment of where the chapter sits on the show-tell spectrum, (2) at least 8 specific lines quoted from the chapter where telling should become showing, with a concrete rewrite of each, (3) at least 3 places where I over-showed and should have summarized, (4) assessment of interior monologue — is it earning its space or slowing pace, (5) one paragraph on how sensory specificity (or its absence) affects the reader's immersion, (6) one structural note on scene shape, (7) three exercises to address my recurring weaknesses. Be direct and unsentimental; I can take hard notes. Do not praise what is not praiseworthy. At the end, give me a single sentence naming the most important revision I should make. [Paste your chapter below this line.]",
+      "tags": [
+        "editing",
+        "show-dont-tell",
+        "critique",
+        "revision"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-019",
+      "title": "Write a Letter From One Character to Another",
+      "prompt": "Act as a voice-writing specialist who has crafted epistolary sections for Indian literary novels. I need you to write a complete 900-word letter from one character to another that reveals plot, character, and subtext simultaneously. Setup: The letter is from Shakuntala Devi Reddy, a 48-year-old Telugu woman working as a domestic helper in a wealthy Juhu apartment, to her 19-year-old daughter Padma who has just been accepted into a BSc Nursing program at NIMS Hyderabad on scholarship. Shakuntala is writing to tell her the truth about her father, whom Padma believes died in a farm accident but who is actually in prison for a caste-based honor killing in their village. The letter must: (1) be in the cadence of a semi-literate but intelligent woman writing in English because her daughter's school has discouraged Telugu, (2) contain 3 deliberate Telugu-inflected English errors that feel authentic and not mocking, (3) bury the central revelation not at the start or end but in the middle, (4) reference 2 specific small gifts Shakuntala has enclosed, (5) end with a blessing that carries an undertone of warning. Avoid melodrama. The letter should feel like an heirloom.",
+      "tags": [
+        "epistolary",
+        "letter",
+        "voice",
+        "domestic-worker"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-020",
+      "title": "Design a Dual Timeline Novel Structure",
+      "prompt": "Act as a structural editor who has worked on dual-timeline literary novels for Pan Macmillan India. I need you to design the architecture of a dual-timeline novel across approximately 1,200 words. Premise: One timeline follows Yasmin, a 34-year-old Kashmiri architect in Srinagar in 2024, restoring a haveli in the old city that belonged to her great-grandmother. The second timeline follows her great-grandmother Noor, a Pandit woman who converted to Islam for love in 1931, living in the same haveli through 1947. Deliver: (1) a chapter map of 24 chapters showing which timeline each belongs to and the emotional beat, (2) the three echo-points where a specific object, phrase, or place mirrors across timelines, (3) the narrative question driving each timeline and how they converge, (4) the decision on tense (both past, or past and present) with reasoning, (5) where to begin each timeline for maximum tension, (6) how to handle the Partition and Kashmir Pandit exodus responsibly, (7) the final chapter structure that resolves both timelines without neatness. Warn me about 3 structural traps dual-timeline novels commonly fall into and how to avoid them.",
+      "tags": [
+        "dual-timeline",
+        "structure",
+        "kashmir",
+        "partition"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-021",
+      "title": "Generate Theme-Driven Symbolism",
+      "prompt": "Act as a thematic craft coach who has taught symbolism workshops at the Jaipur Writers Festival. I am writing a literary novel whose central theme is the inheritance of silence — how women in a conservative Syrian Christian family in Thrissur have been trained across four generations to not-speak about desire, loss, and violence. I need you to generate a complete symbolic scaffolding of 1,000 words: (1) one primary symbol (an object, place, or recurring image) that will appear in at least 7 scenes and evolve in meaning, (2) three secondary symbols that complement without competing, (3) a specific taxonomy of how the primary symbol will look different in the voices of each of the four women across generations, (4) two recurring motifs (not symbols — motifs, smaller and more frequent: a kind of light, a turn of phrase, a gesture), (5) one deliberate anti-symbol that resists interpretation and grounds the book in the real, (6) the one scene in which the symbol is named aloud and why that scene is the climax. Warn me away from obvious choices like veils, mirrors, and birds. Ground symbols in Kerala material culture.",
+      "tags": [
+        "symbolism",
+        "theme",
+        "motif",
+        "kerala"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-022",
+      "title": "Write a Scene of Family Confrontation",
+      "prompt": "Act as a dramaturg who has worked on family dramas for SonyLIV series like Gullak and Scam 1992. I need you to write a 1,000-word scene of confrontation between adult siblings in a Gujarati family, set during the 13th-day ritual (tervu) after their father's death. Characters: Kiran (41, son, works at his father's diamond polishing unit in Surat), Meghna (38, daughter, married and living in Toronto, flown in for the rituals), and Yash (34, son, a struggling actor in Mumbai who wasn't in touch with the father). Trigger: Kiran has revealed that the father's will leaves the factory entirely to him, with small cash bequests to the others. The scene must happen in the kitchen during the preparation of the funeral feast. Requirements: (1) three-way power shifts — no character dominates the whole scene, (2) at least one silence that changes everything, (3) food preparation (cutting onions, rolling rotis) as physical business carrying metaphor, (4) one accusation that is factually wrong but emotionally true, (5) resolve without reconciling, (6) Gujarati phrases used naturally (transliterated, not translated inline). End on the mother entering the room.",
+      "tags": [
+        "confrontation",
+        "family-drama",
+        "gujarati",
+        "scene-writing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-023",
+      "title": "Craft an Ensemble Cast for an OTT Limited Series",
+      "prompt": "Act as a showrunner who has developed ensemble limited series for Netflix India. I am adapting my short story collection into a 6-episode limited series set in a decaying colony of retired government servants in R.K. Puram, Delhi. I need you to design an ensemble of 8 principal characters whose arcs interweave across the season. For each character, in 180 words, provide: (1) name, age, former profession (IAS, Army, DDA engineer, schoolteacher, etc.), and current circumstance, (2) the personal secret or longing that their episode will expose, (3) their web of connection to at least 2 other characters in the ensemble, (4) their want, need, and ghost, (5) a signature visual or behavioral detail a director could build on, (6) the episode number in which they are the POV. Constraints: at least 3 women and 3 non-Hindu characters, at least one LGBTQ+ elder (a rarely explored demographic), a caretaker who is a migrant from Bihar or Jharkhand, and one character who never speaks on screen. Include a one-paragraph statement of the season-long thematic question.",
+      "tags": [
+        "ensemble-cast",
+        "ott-writing",
+        "limited-series",
+        "delhi"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-024",
+      "title": "Write Internal Monologue During a Mundane Task",
+      "prompt": "Act as a stream-of-consciousness craft coach drawing on Virginia Woolf, Jhumpa Lahiri's Unaccustomed Earth, and Anjum Hasan's work. I need a 700-word passage of internal monologue from a character performing a single mundane task, in which the interior life is the entire drama. Character: Devyani, 42, a high-school biology teacher in Pune, washing her in-laws' dinner dishes alone in the kitchen at 10:45 pm on a Tuesday in March 2024. Everyone else is asleep. Within this ordinary action, her mind must travel through: (1) a specific irritation with her husband from earlier that evening, (2) a memory from her MSc days in 2002 involving a classmate she lost touch with, (3) a half-formed decision about whether to apply for a PhD program at SPPU, (4) a realization about her 15-year-old daughter, and (5) a moment of unexpected tenderness toward her father-in-law. The physical action of washing must stay precise and continuous — no break to flashback. Use close third-person present tense. Let one dish break somewhere in the middle.",
+      "tags": [
+        "internal-monologue",
+        "stream-of-consciousness",
+        "domestic",
+        "craft"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-025",
+      "title": "Construct a Reliable Chronology for a Complex Novel",
+      "prompt": "Act as a continuity editor who has worked on Amitav Ghosh's Ibis Trilogy. I am writing a novel with 6 POV characters whose paths cross across three cities (Guwahati, Dhaka, London) between March 2019 and March 2024. I keep losing track of who knows what when, and what real-world events (CAA protests, COVID lockdowns, Dhaka's Hefazat rally, the 2021 Assam-Mizoram border clash) intersect with which character's arc. Build me a working chronology document of about 1,400 words organized as: (1) a monthly timeline grid from March 2019 to March 2024, marking major political/public events in each city, (2) per-character timelines showing where each POV is each month and what they know and do not know, (3) 5 convergence points where two or more characters are in the same city in the same month, (4) information gap analysis — what fact does each character discover and when, and what do they still not know at the novel's end, (5) 4 continuity risks and how to watch for them. Format as markdown tables and bullet lists.",
+      "tags": [
+        "chronology",
+        "continuity",
+        "multi-pov",
+        "worldbuilding"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-026",
+      "title": "Generate a Magical Realism Device for Contemporary India",
+      "prompt": "Act as a magical realism craft mentor who has studied Rushdie, Githa Hariharan's When Dreams Travel, and Latin American sources. I am writing a novel set in contemporary Guwahati and need one central magical device that feels earned and specific to Northeast India, not imported from Macondo or Bombay. In 1,200 words, develop: (1) the single magical element (e.g., the river remembers names of the dead spoken to it, or every person born in a particular year can taste the mood of rain), (2) its precise rules, limits, and costs, (3) the cultural or folk tradition it draws from (Assamese, Bodo, Khasi, or Mising), sourced respectfully, (4) how ordinary characters treat the magic (matter-of-factly, never as wondrous), (5) what it is a metaphor for thematically without becoming a reducible allegory, (6) three scenes it enables at different points of the novel, (7) the one scene where its rules are broken or reach their cost, (8) two magical-realism cliches to avoid, (9) one sample paragraph deploying the device in Ghosh-like prose. Ground everything in real Northeast cultural texture.",
+      "tags": [
+        "magical-realism",
+        "northeast",
+        "craft",
+        "folklore"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-027",
+      "title": "Rewrite My Paragraph in Three Different Voices",
+      "prompt": "Act as a voice-study instructor who has taught writers how to calibrate voice to purpose. I will paste a 200-word paragraph of my own prose at the end of this prompt. Rewrite it three separate ways, each 200 words, in three distinct voices that I can compare to find my own: (1) in the maximalist, list-loving, anaphora-driven voice of Rushdie's early period, (2) in the spare, Chekhovian, understated voice of R.K. Narayan with a hint of dry irony, (3) in the Lahiri voice of precise, emotionally restrained third-person close with an emphasis on small domestic gestures and diasporic distance. After the three rewrites, provide a 400-word comparative analysis covering: which voice best serves the content and why, which voice feels most like mine and why, what each voice sacrifices, and which specific techniques from each I should steal into a hybrid voice. Conclude with a single declarative sentence identifying the voice I should commit to for this book. Be honest, not diplomatic. [Paste your 200-word paragraph below.]",
+      "tags": [
+        "voice",
+        "rewriting",
+        "craft",
+        "style-comparison"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-028",
+      "title": "Design a Braided Short Story Structure",
+      "prompt": "Act as a structural specialist in braided short fiction, in the lineage of Anjum Hasan and Kanishk Tharoor. I am writing a 6,500-word short story for a literary magazine (The Caravan or Granta India). I want to braid three strands that never quite touch but speak to each other. Strand A: a 70-year-old retired postmaster in Ooty pressing tea leaves into a photo album. Strand B: a climate scientist in Munnar watching a landslide warning move across her screens. Strand C: a tea-estate worker's 12-year-old daughter skipping school to sell peaches at a bus stop on the Ooty-Munnar road. Design the structure in 1,000 words: (1) the controlling theme (time, erosion, inheritance) that all three strands triangulate, (2) a section-by-section map of 12 sections showing which strand each belongs to, with length and function, (3) the image or phrase that echoes across strands without explanation, (4) the pacing principle for when to break from one strand to another, (5) the ending — does the story converge, diverge, or hover? Argue for one, (6) 3 braided stories to study. Do not suggest the strands meet.",
+      "tags": [
+        "braided-structure",
+        "short-story",
+        "craft",
+        "literary"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-029",
+      "title": "Stress-Test My Novel's Thematic Coherence",
+      "prompt": "Act as a developmental editor with a forensic eye, trained in the interrogation methods of editors like Ravi Singh and Karthika V.K. I will paste a 500-word synopsis of my novel-in-progress at the end. Perform a 1,500-word thematic stress-test covering: (1) state the theme I seem to be reaching for in one sentence, then state the theme I have actually written in one sentence, and show the gap, (2) identify the novel's central argument (what it asserts about the human condition) and test whether every subplot supports or contradicts it, (3) find at least 3 scenes I described where theme and plot work against each other, (4) identify the one character whose arc is actually carrying my theme and the one character who is just furniture, (5) audit the novel for unearned consolations, sentimental moves, or politically safe equivocations, (6) suggest 3 revisions that would sharpen the thematic argument, even if painful, (7) name the book I am in conversation with whether I know it or not. Do not flatter me; I need the hard read. End with a single sentence of encouragement only if earned. [Paste synopsis below.]",
+      "tags": [
+        "theme",
+        "developmental-edit",
+        "critique",
+        "advanced-craft"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-030",
+      "title": "Write a Polyphonic Chapter With Four Consciousnesses",
+      "prompt": "Act as a point-of-view specialist familiar with Virginia Woolf's The Waves, Kiran Desai's The Inheritance of Loss, and experimental Indian fiction. I need you to write a 1,400-word chapter that moves fluidly between four consciousnesses in a single physical space within a single continuous hour, without section breaks or indicated POV shifts — the reader must orient themselves through voice alone. Setting: the waiting room of the oncology department at Tata Memorial Hospital, Parel, Mumbai, on a Wednesday morning in August 2024. Four characters: (1) Rukmini, 56, a farmer's wife from Beed, Maharashtra, here with her husband's reports, (2) Dr. Anup Sengupta, a 41-year-old consultant oncologist on a 15-minute break, (3) Farzana, a 12-year-old in remission waiting for a follow-up, (4) Jonas, a South Sudanese medical tourist's nurse. Each consciousness must have a distinct register, sensory preoccupation, and underlying preoccupation. At least one character must think about another. No named tags. End on a single shared sensory event (a dropped tray, an announcement) that all four register differently. After the chapter, annotate in 250 words how the POV modulations work.",
+      "tags": [
+        "polyphonic",
+        "point-of-view",
+        "experimental",
+        "advanced-craft"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-031",
+      "title": "Develop a Counter-Myth From the Ramayana",
+      "prompt": "Act as a mythology-studies scholar in the tradition of A.K. Ramanujan's \"Three Hundred Ramayanas\" and Nabaneeta Dev Sen's Sita feminist retellings. I am writing a literary novel that retells a single episode from the Ramayana as a counter-myth — not a simple inversion, but a deepening. Pick the agnipariksha episode and develop the counter-myth in 1,400 words: (1) the standard Valmiki version summarized in 150 words, (2) at least 3 existing regional or oral variants (Kamban's Tamil, Krittivasi's Bengali, Adivasi retellings) that complicate the standard reading, (3) the counter-myth premise — Sita's interiority in a version where the fire is a public performance she chooses to perform for reasons both she and Rama silently understand, (4) the philosophical question the counter-myth poses, (5) three scenes in the novel where the counter-myth plays out, (6) how to frame the story so it honors devotees without capitulating to fundamentalism, (7) the risk of appropriation and how to navigate it. Ground the work in primary and regional scholarship. Name the two living scholars whose work I should read first.",
+      "tags": [
+        "ramayana",
+        "counter-myth",
+        "sita",
+        "mythology-retelling"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-032",
+      "title": "Construct a Novel's Interior Architecture of Silences",
+      "prompt": "Act as an advanced craft mentor concerned with what novels leave out — ellipsis, white space, elision — in the tradition of W.G. Sebald and Arundhati Roy's Ministry of Utmost Happiness. I am writing a novel about the 1984 anti-Sikh riots in Trilokpuri, Delhi, and I do not want to represent the violence directly on the page; I want to build a structure whose silences do the work. In 1,500 words, design: (1) a taxonomy of four different silences my novel will deploy (ellipsis of event, silence of a character, withheld document, typographic gap), (2) where in the structure each silence lives and what signals the reader that something has been withheld, (3) how to handle the one scene in 1984 that the book cannot entirely avoid — is it seen from a child's distance, through a neighbor's door, through a later document? argue for one, (4) the craft risk that withholding becomes evasion or aestheticization of violence, and how to guard against it, (5) three published works I should study on the ethics of silence, (6) a 200-word sample passage enacting one of the silences.",
+      "tags": [
+        "ellipsis",
+        "silence",
+        "1984-riots",
+        "advanced-craft"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-033",
+      "title": "Architect a Novel-in-Stories Collection",
+      "prompt": "Act as a structural editor who has shepherded novel-in-stories collections in the tradition of Jhumpa Lahiri's Unaccustomed Earth and Anjum Hasan's Difficult Pleasures. I want to architect a collection of 11 linked stories, totaling 85,000 words, set in a single apartment building in Thane West, Mumbai, across 2019-2024. Across 1,500 words, design: (1) the building as a character — floors, history, management committee politics, one shared object (a broken lift, a banyan in the courtyard), (2) the 11 protagonists, each from a different flat, with one-line descriptions including caste/community, migration origin, and occupation, (3) the principle of sequencing — should we ascend the floors, follow time, or braid, (4) the 4 recurring minor characters who appear across multiple stories as peripheral figures, (5) the season or event (lockdown, a cyclone, a child's disappearance) that threads through, (6) which single story opens the collection and which closes it and why, (7) the collection's unifying thematic question, (8) 3 published collections to study for architecture, (9) the risks of novel-in-stories form and how to mitigate them.",
+      "tags": [
+        "novel-in-stories",
+        "linked-collection",
+        "architecture",
+        "advanced-craft"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-034",
+      "title": "Write Metafiction That Interrogates Its Own Making",
+      "prompt": "Act as a metafiction specialist trained on Italo Calvino, Jorge Luis Borges, and Upamanyu Chatterjee's English August in its self-aware moments. I want you to write a 1,500-word metafictional passage in which the narrator, a novelist living in Dehradun in 2024, confronts the ethical problem of writing a novel based on a real murder case in Rudrapur — a crime whose victim's family has asked them to stop. The passage must: (1) begin as a straightforward scene of the narrator at their desk, (2) break the fourth wall by the third paragraph through a specific technique (direct address, visible revision, a crossed-out line), (3) hold two contradictory moral positions simultaneously without resolving them, (4) incorporate at least one real document (a newspaper clipping, an email from the victim's brother) in a way that feels ethically charged, (5) refuse the easy metafictional moves of self-congratulation or winking cleverness, (6) end with the narrator making a concrete decision about whether to continue the book, without telling the reader whether the decision is right. After the passage, write 200 words on why metafiction must earn its self-consciousness through stakes.",
+      "tags": [
+        "metafiction",
+        "ethics",
+        "self-reflexive",
+        "advanced-craft"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-035",
+      "title": "Analyze Arundhati Roy's Syntactic Rebellions",
+      "prompt": "Act as a stylistician with a working knowledge of Indian English prosody and Arundhati Roy's two novels. Deliver a 1,600-word technical analysis of Roy's specific syntactic rebellions — the grammatical choices she makes that violate standard English for thematic effect. Cover: (1) her use of capitalization (Capital Letters on ordinary nouns, what they do to meaning and voice), (2) sentence fragments and one-word paragraphs as emotional punctuation, (3) the coinage of compound words and portmanteaus specific to a child's logic, (4) the repetition of phrases across hundreds of pages as refrain, (5) her handling of tense within a single paragraph and the effect on time, (6) the way she lineates sentences almost as verse, (7) her use of parentheticals as asides from a second consciousness. For each, quote 2 passages from The God of Small Things or The Ministry of Utmost Happiness, explain the effect, and give me a disciplined exercise for practicing the technique without imitating her. Conclude with 400 words on the dangers of absorbing Roy's style too directly and how to metabolize it into my own voice.",
+      "tags": [
+        "style-analysis",
+        "arundhati-roy",
+        "syntax",
+        "advanced-craft"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-036",
+      "title": "Brainstorm Titles for My Indian Novel",
+      "prompt": "Act as a publishing consultant who has titled books for HarperCollins India, Penguin, and Juggernaut. I need 20 original title candidates for my literary novel, with reasoning for each. Premise of the novel (please use this exactly): A 38-year-old Catholic nurse from Mangalore returns to her ancestral home after 14 years in the Gulf, carrying a secret about her employer's death, and must decide whether to stay in India or go back to Dubai to face an investigation. Provide 20 titles across five categories: (1) 4 evocative-object titles (think The God of Small Things, The Inheritance of Loss), (2) 4 place-based titles, (3) 4 phrase-from-the-text titles that promise voice, (4) 4 single-word titles with resonance, (5) 4 biblical or devotional echo titles suited to the Mangalore Catholic context. For each title provide: the title itself, a one-sentence rationale, its tonal promise to the reader, and one comparable published title it evokes. Then pick your top 3 and rank them with a 100-word defense. Avoid titles that are translations from Konkani or explicitly religious unless they add real meaning. Flag any title that might already be taken.",
+      "tags": [
+        "titles",
+        "brainstorming",
+        "publishing",
+        "literary-fiction"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-037",
+      "title": "Generate First-Line Hooks for Different Genres",
+      "prompt": "Act as a craft teacher who studies opening lines obsessively. I am experimenting with different genres before I commit to one novel, and I need you to generate 15 compelling first lines, each calibrated to a specific Indian genre and voice. Generate 3 opening lines for each of these 5 genres: (1) literary fiction set in a small Indian town, (2) a Mumbai-based crime thriller in the Vikram Chandra lineage, (3) a mythological retelling drawn from the Mahabharata, (4) a campus-fiction novel set at a contemporary IIT, (5) a speculative/near-future novel set in 2040 Bengaluru. Each first line must: be 8-30 words, imply voice, imply a narrator with a specific problem, and avoid the five deadly opening traps (waking up, weather, dreams, mirrors, epigraph-sounding aphorisms). After each line, give me a 40-word note on what the line commits the novel to doing and what kind of second sentence it demands. Finally, rank all 15 lines and tell me which one I should actually build a novel around, with reasoning. Do not sacrifice specificity for universality.",
+      "tags": [
+        "first-line",
+        "opening",
+        "genre",
+        "hook"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-038",
+      "title": "Build a Scene List for My First Novel",
+      "prompt": "Act as a patient structure coach for first-time Indian novelists. I have a premise and know roughly where the story is going, but I cannot translate it into a scene list. Premise: A 27-year-old Dalit woman from Nagpur wins a scholarship to a creative writing MFA at a private university in Delhi and navigates her first semester while drafting a novel based on her grandmother's life as a bonded labourer. Build me a 40-scene list for an 80,000-word first novel. For each scene provide: scene number, location, characters present, the emotional purpose of the scene, the decision or revelation that moves the plot, approximate word count, and the connection to the scene before and after. Ensure: (1) the inciting incident lands by scene 5, (2) the midpoint reversal at scene 20, (3) the dark night at scene 32, (4) exactly 3 flashback scenes, no more, (5) at least 5 scenes are set inside the MFA workshop itself. Warn me about 3 scenes in this list that first-time novelists typically overwrite and 3 that they typically skip.",
+      "tags": [
+        "scene-list",
+        "outlining",
+        "first-novel",
+        "mfa"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-039",
+      "title": "Write a Festival Scene Without Cliches",
+      "prompt": "Act as a craft mentor who winces at every cliched festival scene in Indian fiction. I need you to write a 700-word scene set during Durga Puja in a North Kolkata para in 2024, without using any of the standard moves: no dhak drums as exotic soundtrack, no grandmother's hands shaping sweets, no narrator explaining the festival to an imagined Western reader, no tearful immersion at the river, no saree-shopping montage. Characters: Rwitobroto, a 29-year-old closeted gay man home from a job in Berlin for the first time in 4 years, and his childhood best friend Monidipa, now married and mother to a 2-year-old, walking from Bagbazar to Shyambazar on Ashtami evening. Requirements: (1) the festival is the weather, not the subject, (2) one sharp unfamiliar detail (a QR-code for donations at the pandal, an argument about a politician's face on a backdrop), (3) a conversation that is mostly about nothing but carries their whole history, (4) one moment where the crowd becomes a single breathing organism, (5) end on a small refusal, not a revelation. Use Bengali phrases naturally, untranslated.",
+      "tags": [
+        "festival",
+        "durga-puja",
+        "scene-writing",
+        "kolkata"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    },
+    {
+      "id": "writers-creative-writers-040",
+      "title": "Design a Subplot That Shadows the Main Plot",
+      "prompt": "Act as a plot architect who understands how subplots earn their keep in literary fiction. I am writing a novel whose main plot follows Vikramjit, a 45-year-old Sikh trucker from Ludhiana, making a 10-day haul from Punjab to Chennai to deliver agricultural machinery, during which he wrestles with whether to leave his wife of 20 years. I need a subplot that shadows and interrogates the main plot without duplicating it. In 1,200 words, design: (1) three candidate subplots with different relationships to the main (parallel, contrasting, ironic), (2) the one you recommend and why, (3) the subplot's protagonist — ideally a character Vikramjit encounters only glancingly (a dhaba owner's daughter he meets on day 3, say), (4) the subplot's own three-act shape in miniature, (5) the 5 specific points in the novel where the subplot appears and what it does to the reader's reading of Vikramjit, (6) the thematic echo between the two plots that the reader should feel but never be told, (7) how to prevent the subplot from feeling like a short story stapled on, (8) the final image of the subplot and how it frames Vikramjit's final decision.",
+      "tags": [
+        "subplot",
+        "plot-architecture",
+        "structure",
+        "intermediate-craft"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "creative-writers"
+    }
+  ]
+}

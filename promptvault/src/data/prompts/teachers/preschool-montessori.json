@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "teachers-preschool-montessori-001",
+      "title": "Weekly Activity Plan for 3-4 Year Olds",
+      "prompt": "Act as a preschool curriculum designer with 12 years experience working with Indian preschool chains like EuroKids, Kidzee, and Tree House. I need you to create a detailed 5-day activity plan for a class of 15 children aged 3-4 years at a Montessori-inspired preschool in Pune. The week's theme is \"My Family & Home.\" Please provide: (1) Monday to Friday day-wise plan with circle time, practical life, sensorial, language, and numeracy slots, (2) One hands-on activity per day using low-cost materials available in Indian households (ragi grains, tamarind seeds, old bangles, katoris), (3) A simple Hindi or regional rhyme/song connection, (4) Snack-time conversation starters that reinforce the theme, (5) One gross motor outdoor game suitable for Indian weather (mid-November), (6) End-of-week mini assessment checklist covering 5 observable behaviors. Format as a clean markdown table per day with timing slots (9:00 AM to 12:30 PM), followed by the assessment checklist. Keep activities NEP 2020 Balvatika aligned and avoid screen-based learning. Mention Indian child names like Aarav, Diya, Kabir, Saanvi in sample scenarios.",
+      "tags": [
+        "weekly-plan",
+        "montessori",
+        "age-3-4",
+        "balvatika",
+        "family-theme"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-002",
+      "title": "Panchatantra Storytelling Session Script",
+      "prompt": "Act as a preschool storytelling expert with 10 years experience narrating Indian folk tales to children aged 2-6 years. I need you to create a fully scripted 15-minute interactive storytelling session based on the Panchatantra story \"The Monkey and the Crocodile\" for a mixed-age Montessori group of 20 children in Bengaluru. Please provide: (1) A warm-up rhyme or action song (2 minutes) to gather attention, (2) The story retold in simple English with 8-10 built-in pause points where children predict, mimic animal sounds, or answer questions, (3) Three props suggestions using easily available items (dupatta for river, cardboard cut-outs, finger puppets from old socks), (4) Two follow-up questions for toddlers (2-3 yrs) and two deeper questions for older kids (4-6 yrs) to respect developmental differences, (5) A simple moral discussion wrap-up in 3 sentences a child can repeat, (6) One extension craft activity using newspaper and crayons. Format as a teacher-ready script with stage directions in italics and dialogue in plain text. Weave in Indian context naturally without being preachy.",
+      "tags": [
+        "panchatantra",
+        "storytelling",
+        "script",
+        "interactive",
+        "indian-tales"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-003",
+      "title": "Diwali Themed 2-Week Curriculum Plan",
+      "prompt": "Act as a Montessori head teacher with 8 years experience running preschool programs in India. I need you to design a 2-week Diwali-themed curriculum for children aged 4-5 years at a Shemrock branch in Jaipur. Please provide: (1) Learning objectives across 5 domains (language, numeracy, fine motor, social-emotional, cultural awareness), (2) Day-wise activity grid for 10 school days including diya decoration with eco-friendly clay, rangoli counting with coloured rice, storytelling around Rama's return, and a safe \"fireworks\" art project using cotton buds and paint, (3) A simple Sanskrit/Hindi word-of-the-day list (10 words), (4) Parent involvement ideas for 2 take-home activities, (5) A culminating Diwali celebration plan with inclusive messaging for non-Hindu families, (6) A photo-op list for school social media. Format as a week-wise markdown plan with objectives at the top. Ensure all activities avoid allergens (no actual nuts), are fire-safe, and respect diverse Indian family backgrounds including Jain, Muslim, and Christian children in the class.",
+      "tags": [
+        "diwali",
+        "festival-curriculum",
+        "age-4-5",
+        "shemrock",
+        "cultural"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-004",
+      "title": "Fine Motor Activities Using Ragi and Tamarind Seeds",
+      "prompt": "Act as a Montessori practical life specialist with 15 years experience in Indian preschools. I need you to design 10 fine motor activities for children aged 2.5-4 years using only low-cost Indian kitchen materials: ragi grains, tamarind seeds, moong dal, rajma, small katoris, tongs, and old spoons. Please provide: (1) Activity name and target fine motor skill (pincer grasp, tripod grip, wrist rotation, bilateral coordination), (2) Step-by-step setup for a Montessori tray (max 5 minutes to prepare), (3) Child's work cycle description in 4-6 steps, (4) Common mistakes at this age and how the teacher should respond without interrupting, (5) A natural progression/extension for a child who has mastered the activity, (6) Safety note specific to Indian classroom conditions (ants, humidity, choking hazards). Format as 10 numbered activity cards. Name the activities in a child-friendly way like \"Spooning Ragi Magic\" and include Indian child examples. Emphasize that no plastic or imported Montessori materials are needed — cost per tray should stay under Rs 100.",
+      "tags": [
+        "fine-motor",
+        "practical-life",
+        "low-cost",
+        "ragi",
+        "pincer-grasp"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-005",
+      "title": "WhatsApp Parent Update Template Weekly",
+      "prompt": "Act as a preschool coordinator at a Kidzee branch in Hyderabad with 6 years experience managing parent communication. I need you to draft a weekly WhatsApp update template that teachers can quickly customize every Friday for parents of children aged 3-5 years. Please provide: (1) A warm opening line in English with a Hindi/Telugu greeting option, (2) A \"This Week We Explored\" section with 3 bullet points covering theme, key concepts, and one standout classroom moment, (3) A \"Your Child's Shining Moment\" placeholder section with 2 example fill-ins for children named Ishaan and Myra, (4) A \"Try at Home\" mini-activity parents can do in 10 minutes using household items, (5) A gentle reminder section for next week (what to send, dress code, events), (6) A closing with a child-quote or funny classroom snippet. Format as copy-paste ready WhatsApp text with emoji placement suggestions, keeping total length under 280 words so it fits one screen. Tone should be warm but professional, avoiding education jargon that overwhelms working parents.",
+      "tags": [
+        "parent-update",
+        "whatsapp",
+        "weekly",
+        "communication",
+        "template"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-006",
+      "title": "Developmental Milestone Checklist 2-3 Years",
+      "prompt": "Act as a child development specialist with 12 years experience advising Indian preschools on NEP 2020 Balvatika implementation. I need you to create a comprehensive developmental milestone tracking checklist for children aged 2-3 years (playgroup/nursery level). Please provide: (1) 5 gross motor milestones (climbing, jumping, running), (2) 5 fine motor milestones (scribbling, turning pages, stacking), (3) 5 language milestones in a bilingual Indian context where children hear Hindi/regional language at home and English at school, (4) 5 social-emotional milestones including separation from parents (relevant for Indian joint families), (5) 5 cognitive/pre-academic milestones, (6) 5 self-help milestones (toilet training norms in Indian context, eating with hands vs spoon, wearing chappals). For each milestone include: observed/emerging/not yet columns, space for teacher notes, and a flag indicator for concerns needing parent conversation. Format as a printable A4 checklist with clear sections. Include a note on cultural sensitivity since Indian children often hit some milestones later due to joint family dynamics and that is not always a concern.",
+      "tags": [
+        "milestone",
+        "checklist",
+        "age-2-3",
+        "tracking",
+        "assessment"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-007",
+      "title": "Holi Safe Sensory Activities Plan",
+      "prompt": "Act as a preschool activity designer with 9 years experience at Tree House schools in Mumbai. I need you to create a Holi-themed sensory and art plan for children aged 3-5 years that is completely safe, non-toxic, and mess-manageable for a classroom of 20. Please provide: (1) 3 colour-play activities using only food-grade colours made from beetroot, turmeric, spinach, and gulal-alternatives, (2) A colour sorting Montessori tray using coloured pulses and katoris, (3) A simple story circle script explaining Holi to young children including non-Hindu classmates respectfully, (4) A music and movement activity with a traditional Holi song and actions, (5) Parent-facing safety note in WhatsApp format explaining what children wore/did and how to clean up, (6) Photo composition tips for 5 Instagram-worthy classroom shots for school social media. Format as a sequential day plan for Holi-eve celebration (2 hours). Emphasize no water play indoors, no synthetic colours, and inclusion of children with skin sensitivities. Mention sample children Aanya, Vihaan, and Fatima to model inclusive language.",
+      "tags": [
+        "holi",
+        "sensory",
+        "safe-colours",
+        "festival",
+        "inclusive"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-008",
+      "title": "Tenali Rama Interactive Story for 5-6 Year Olds",
+      "prompt": "Act as a storyteller specialising in Indian folk wisdom tales with 11 years experience at Montessori schools. I need you to adapt the Tenali Rama story \"The Well That Talked\" into a 20-minute interactive session for children aged 5-6 years (Balvatika stage). Please provide: (1) Pre-story vocabulary building for 5 new words (clever, court, villager, trick, fair), (2) The story retold in 250-300 words with built-in \"freeze and think\" moments (3 of them), (3) Puppet-making mini activity using ice-cream sticks and chart paper that doubles as a craft session, (4) A drama corner invitation where children re-enact the story in small groups with simple costume hints (dupatta as turban), (5) A critical thinking discussion with 5 open-ended questions about honesty, cleverness, and fairness, (6) A journal-drawing prompt children can complete in 10 minutes. Format as a full teacher guide with timings. Keep language at early-reader level and ensure the moral comes from the children's discussion, not teacher lecturing.",
+      "tags": [
+        "tenali-rama",
+        "storytelling",
+        "age-5-6",
+        "critical-thinking",
+        "drama"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-009",
+      "title": "Monsoon Term Outdoor Gross Motor Plan",
+      "prompt": "Act as a physical development coach with 8 years experience at Indian preschools dealing with monsoon-limited outdoor time. I need you to design a 4-week gross motor plan for children aged 3-5 years for the July monsoon term in Kolkata where outdoor play is restricted due to rain. Please provide: (1) 12 indoor gross motor activities that can be done in a 10x15 foot classroom or veranda (balance beams from masking tape, pillow jumping, animal walks), (2) A weekly progression across 4 weeks increasing complexity, (3) Safety modifications for wet floors and humid conditions, (4) A \"rainy day circuit\" with 5 stations children rotate through in 20 minutes, (5) A Hindi/Bengali rhyme or counting song to accompany one activity, (6) Observation sheet for teachers to note gross motor progress in balance, coordination, and stamina. Format as a 4-week grid plus a detailed circuit diagram described in text. Make sure all activities need zero purchased equipment and use only chairs, dupattas, chart paper, and masking tape available at any Indian preschool.",
+      "tags": [
+        "gross-motor",
+        "monsoon",
+        "indoor",
+        "circuit",
+        "age-3-5"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-010",
+      "title": "Photo Caption Generator for Parent Album",
+      "prompt": "Act as a preschool social media coordinator with 5 years experience at Bachpan schools. I need you to generate 20 warm, specific, classroom-photo captions that teachers can quickly pick from when sharing daily photos on the parent WhatsApp group or school app. Please provide captions for these scenarios: (1) A child concentrating on a Montessori tray, (2) Group snack time, (3) Outdoor free play, (4) Art and craft in action, (5) Storytelling circle, (6) A child helping another child, (7) Practical life pouring activity, (8) Singing rhymes, (9) First day of a new theme, (10) Birthday celebration, plus 10 more festival/seasonal moments. Each caption should be 15-30 words, avoid identifying children by full name (use first name only), celebrate the learning behind the moment (not just \"so cute\"), and include one relevant emoji placement suggestion. Format as a numbered list. Use sample child names Aarav, Kiara, Zara, Dhruv, and Meera. Avoid cliches like \"little champs\" and instead highlight specific developmental wins parents care about.",
+      "tags": [
+        "photo-caption",
+        "parent-update",
+        "social-media",
+        "whatsapp",
+        "template"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-011",
+      "title": "Montessori Language Shelf Hindi English Bilingual",
+      "prompt": "Act as a Montessori-trained language specialist with 10 years experience adapting Montessori language curriculum for Indian bilingual contexts. I need you to design a language shelf layout and 6-week rotation plan for children aged 4-5 years where both Hindi and English are supported alongside the child's mother tongue. Please provide: (1) Shelf layout description with 8 work stations (sandpaper letters, object-picture matching, sound games, three-period lessons), (2) How to handle Devanagari alongside English Roman script without confusing children, (3) 6-week rotation plan introducing specific phonetic sounds and Hindi swar/vyanjan progressively, (4) Indian objects for the object basket (bindi, bangle, chappal, katori, diya), (5) Teacher scripts for presenting a three-period lesson in both languages, (6) Assessment notes to track letter-sound recognition without formal testing. Format as a shelf-by-shelf breakdown with weekly objectives. Respect that most Indian children come with strong oral language in mother tongue and that should be an asset, not something to replace. Avoid pushing early reading which violates NEP 2020 Balvatika guidelines.",
+      "tags": [
+        "language-shelf",
+        "bilingual",
+        "hindi",
+        "montessori",
+        "nep-2020"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-012",
+      "title": "Parent Teacher Meeting Script 4 Year Old",
+      "prompt": "Act as a senior preschool teacher with 9 years experience conducting PTMs at EuroKids branches. I need you to draft a complete 20-minute parent-teacher meeting script for discussing the progress of a 4-year-old child named Arjun with his parents. Arjun has strong fine motor skills and language but struggles with sharing and waiting his turn. Please provide: (1) A warm opening with a positive anecdote (2 minutes), (2) A structured progress discussion across 5 developmental domains with specific classroom examples, (3) How to raise the social-emotional concern compassionately without alarming parents, (4) 3 specific home strategies parents can try with Indian household context (shared eating, joint family interactions, no-screen-time alternatives), (5) Clear next-step commitments from both teacher and parents, (6) A graceful closing that invites ongoing communication. Format as a dialogue script with teacher lines and anticipated parent responses/questions. Include handling of a defensive parent reaction professionally. Use language that respects Indian parents' high academic expectations while gently reframing holistic development as the priority at this age.",
+      "tags": [
+        "ptm",
+        "parent-update",
+        "script",
+        "age-4",
+        "social-emotional"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-013",
+      "title": "Pongal Harvest Theme Week Plan",
+      "prompt": "Act as a South Indian preschool curriculum designer with 7 years experience at Chennai-based Montessori schools. I need you to design a 5-day Pongal harvest-themed week for children aged 3-5 years. Please provide: (1) Day-wise theme progression (the sun, the cow, the harvest, the pot, the celebration), (2) A simple Pongal cooking demonstration safe for observation not participation, using a small mud pot and rice, (3) Sensorial activities with various rice types, sugarcane pieces (supervised), turmeric, and jaggery for smell/texture exploration, (4) A Tamil rhyme or simple Pongal song with action movements, (5) A kolam/rangoli fine motor activity using chalk and dot patterns, (6) A gratitude circle where children share what they are thankful for. Format as a day-wise plan. Include cultural notes on why Pongal matters and how to explain it inclusively to children from North Indian or non-Hindu families. Use sample Tamil/Indian names like Lakshmi, Karthik, Priya, and Anirudh. Ensure activities are safe around fire and hot pots — demonstration only, no child participation near heat.",
+      "tags": [
+        "pongal",
+        "festival",
+        "south-indian",
+        "harvest",
+        "sensorial"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-014",
+      "title": "Circle Time Opening Routine 15 Minutes",
+      "prompt": "Act as an early childhood educator with 8 years experience running circle time at Indian Montessori preschools. I need you to design a consistent 15-minute morning circle time routine for children aged 3-4 years that works every school day. Please provide: (1) A welcome song with Indian cultural flavour (in simple Hindi/English mix), (2) A weather and date ritual with visual cards, (3) A \"feelings check-in\" where children point to a face chart, (4) A short mindful breathing exercise (balloon belly) suited to wiggly 3-year-olds, (5) The day's theme introduction with one provocative question, (6) A transition song to move children to work stations smoothly. Format as a minute-by-minute teacher script with exact words to say and expected children's actions. Include 3 variations for when children are restless, sleepy, or overstimulated. Emphasize that the routine should feel predictable and calming — Indian children especially benefit from structure given often noisy home environments. Keep total classroom prep to under 3 minutes.",
+      "tags": [
+        "circle-time",
+        "routine",
+        "age-3-4",
+        "script",
+        "morning"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-015",
+      "title": "Observation Report Template Quarterly",
+      "prompt": "Act as a Montessori directress with AMI certification and 11 years experience at Indian preschools. I need you to create a structured quarterly observation report template that teachers fill in for each child aged 3-6 years. Please provide: (1) Child profile header section (name, age, period covered, observer), (2) A narrative observation section with 3 prompts guiding the teacher to write specific behaviours not generic praise, (3) Work cycle observations across 5 Montessori areas (practical life, sensorial, language, mathematics, culture), (4) Social-emotional development section with observable behaviour examples, (5) Independence and concentration metrics on a 4-point rubric, (6) Next-quarter goals aligned with NEP 2020 Balvatika learning outcomes, (7) Parent conversation talking points summary. Format as a 2-page printable template with clear sections and example entries using a fictional child \"Siya Sharma, age 4.5.\" Entries should model specific, non-judgmental observation language that Montessori training emphasizes. Avoid rating children as \"good/bad\" or comparing to peers.",
+      "tags": [
+        "observation",
+        "report",
+        "quarterly",
+        "montessori",
+        "template"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-016",
+      "title": "Birbal Story Interactive Drama Session",
+      "prompt": "Act as a drama-in-education specialist with 6 years experience at Indian preschools. I need you to design a 30-minute interactive drama session for children aged 5-6 years based on a Birbal tale of your choice (suggest \"Birbal and the Well\"). Please provide: (1) A warm-up drama game to build group trust (5 minutes), (2) The story introduction with voice modulation tips for teachers, (3) Role assignment that includes every child (no one left out) with parts like villagers, the well, the courtiers, Akbar, and Birbal, (4) A rehearsal flow with 3 practice passes, (5) A simple performance structure without memorized lines — improvisation encouraged, (6) A reflection circle after the drama where children share what their character felt. Format as a teacher guide with timing and facilitation tips. Include how to handle shy children (give them non-verbal roles like \"the tree\") and energetic children (lead roles). Use sample Indian names for role assignments. Emphasize process over performance and that there is no audience — this is not a parent show.",
+      "tags": [
+        "birbal",
+        "drama",
+        "storytelling",
+        "age-5-6",
+        "improvisation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-017",
+      "title": "Onam Flower Rangoli Fine Motor Lesson",
+      "prompt": "Act as a Kerala-based Montessori teacher with 8 years experience designing festival activities. I need you to plan an Onam-themed pookalam (flower rangoli) activity for children aged 4-5 years that builds fine motor skills and cultural awareness. Please provide: (1) Pre-activity circle time explaining Onam and King Mahabali in 3 minutes using simple language, (2) Material list using real or paper flowers (marigold, rose petals, chrysanthemum) and a circular chart paper base, (3) A scaffolded process where children first sort flowers by colour, then place them in a pre-drawn pattern, (4) Fine motor skills targeted (pincer grasp, crossing midline, colour sequencing), (5) A group vs individual option depending on class size, (6) Photo documentation plan and parent update note in WhatsApp format. Format as a step-by-step lesson with timings. Include a simple Malayalam greeting children can learn (\"Onam Ashamsakal\") and respectful explanation of the festival for non-Malayali classmates. Avoid real flowers if any child has pollen allergies and offer paper alternative.",
+      "tags": [
+        "onam",
+        "pookalam",
+        "fine-motor",
+        "festival",
+        "kerala"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-018",
+      "title": "Developmental Red Flags 3-4 Years Screening",
+      "prompt": "Act as a paediatric developmental consultant with 14 years experience supporting Indian preschools in early intervention. I need you to create a red flag screening guide for preschool teachers working with children aged 3-4 years. Please provide: (1) 5 speech and language red flags that warrant parent conversation (single words only, no sentence formation, echolalia patterns), (2) 5 social-emotional red flags (no eye contact, extreme tantrums, isolation, no pretend play), (3) 5 motor development red flags, (4) 5 sensory processing red flags common in Indian classrooms (food texture refusal, covering ears, spinning), (5) How to raise concerns with Indian parents who may be defensive or in denial about developmental delays due to cultural stigma, (6) A referral pathway including Indian resources like DMHP, government CDCs, private occupational therapists, and paediatric speech pathologists. Format as a reference guide with clear \"observe, document, discuss, refer\" action steps. Stress that teachers should not diagnose — only observe and gently recommend professional assessment. Use empathetic language respecting Indian family dynamics.",
+      "tags": [
+        "red-flags",
+        "screening",
+        "milestone",
+        "early-intervention",
+        "age-3-4"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-019",
+      "title": "Transition Songs Collection Classroom",
+      "prompt": "Act as a music-in-classroom specialist with 7 years experience at Indian preschools. I need you to create a collection of 15 original simple transition songs for children aged 2-5 years that teachers can sing to smoothly move children between activities. Please provide transitions for: (1) Welcome arrival, (2) Hand washing before snack, (3) Clean up time, (4) Line up for outdoor play, (5) Settling down for story, (6) Water break, (7) Toilet time, (8) Lunch arrival, (9) Nap time, (10) Goodbye going home, plus 5 more for specific moments. Each song should be 4-6 lines, sung to a familiar Indian or universal tune (like \"Lakdi ki Kathi\" or \"Twinkle Twinkle\"), have simple actions, and include one Hindi word where possible. Format as a songbook with song title, tune reference, lyrics, and action notes. Avoid songs that require musical ability from teachers — all should be chant-able. Include a note on why consistent transition songs reduce classroom chaos and help children with sensory sensitivities anticipate changes.",
+      "tags": [
+        "transitions",
+        "songs",
+        "music",
+        "routine",
+        "classroom-management"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-020",
+      "title": "Sensorial Tray Designs 10 Low Cost",
+      "prompt": "Act as a Montessori sensorial area specialist with 12 years experience setting up classrooms in India without imported materials. I need you to design 10 sensorial trays using only materials found in any Indian home or kirana store for children aged 3-4 years. Please provide for each tray: (1) Sensorial concept targeted (size grading, colour matching, sound discrimination, texture, weight, temperature, smell, taste, shape, baric sense), (2) Materials list (e.g., bangles of 5 sizes, spice smell jars with hing/elaichi/jeera, coloured kumkum boxes), (3) Setup instructions, (4) Presentation script for the three-period lesson, (5) Error self-correction mechanism built in, (6) Approximate cost in INR (all should be under Rs 150). Format as 10 numbered tray cards with photo description in words. Emphasize Dr. Maria Montessori's principle of \"isolation of quality\" — each tray should teach one concept clearly. Note that authentic Indian materials often work better than plastic imports because they carry cultural familiarity for children.",
+      "tags": [
+        "sensorial",
+        "low-cost",
+        "montessori",
+        "trays",
+        "age-3-4"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-021",
+      "title": "Christmas Inclusive Celebration Plan",
+      "prompt": "Act as an inclusive education specialist with 9 years experience at Indian multicultural preschools. I need you to plan a Christmas celebration for children aged 3-6 years that honours the festival while being culturally sensitive for a classroom with Hindu, Muslim, Sikh, Jain, and Christian children. Please provide: (1) A child-friendly explanation of Christmas focusing on values of giving, kindness, and family rather than religious doctrine, (2) A simple craft activity making paper stars or a classroom tree using recycled newspaper, (3) A secret Santa \"kind deed exchange\" where children give compliments instead of gifts, (4) A simple carol or song that is universal in tone, (5) A storytelling moment connecting to the Indian context (like Indian Christmas in Goa or Kerala), (6) Parent communication in WhatsApp format explaining the inclusive approach in advance. Format as a 90-minute celebration plan with setup notes. Address potential parent concerns proactively and highlight that learning about others' festivals builds empathy and secular values aligned with Indian constitutional spirit.",
+      "tags": [
+        "christmas",
+        "inclusive",
+        "celebration",
+        "multicultural",
+        "festival"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-022",
+      "title": "Toilet Training Support Plan School Home",
+      "prompt": "Act as a preschool nursery coordinator with 10 years experience handling toilet training at Indian preschools. I need you to create a structured 3-week toilet training support plan for a 2.5-year-old girl named Anaya who is newly starting at a Kidzee branch and is still in diapers. Please provide: (1) Week 1 observation phase — what teachers note about her signals, (2) Week 2 gentle introduction phase — routine, language, cues, (3) Week 3 practice phase with accidents handled compassionately, (4) A parent partnership plan with clear home routines that match school routines, (5) Language to use with the child (avoiding shame words in both Hindi and English), (6) Handling common challenges like nap-time accidents, refusing to sit, and regression. Format as a week-by-week plan with daily actions. Include an Indian context note that toilet training varies widely across families and joint family grandmothers may already have different methods — the school should partner not contradict. Add 5 do's and 5 don'ts for teachers during this phase.",
+      "tags": [
+        "toilet-training",
+        "age-2-3",
+        "parent-partnership",
+        "self-help",
+        "routine"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-023",
+      "title": "Number Concepts Through Indian Objects",
+      "prompt": "Act as a Montessori mathematics specialist with 10 years experience teaching numeracy to Indian preschoolers. I need you to design 8 hands-on number concept activities for children aged 4-5 years using only Indian cultural objects. Please provide: (1) Counting bangles 1-10, (2) Sorting coins (Re 1, Rs 2, Rs 5, Rs 10) by value, (3) Matching numeral cards to quantity using chana/rajma groups, (4) Odd/even with ladoos (made from clay), (5) Pattern making with bindi stickers in rows, (6) Shape hunt around classroom identifying circles, squares, triangles in Indian objects (bangle, katori, rangoli shapes), (7) Simple addition with tamarind seed groupings, (8) Sequencing numbers 1-10 with painted pebbles. For each activity include: Montessori-style presentation script, learning objective, error correction, and extension. Format as 8 lesson cards. Emphasize concrete-to-abstract progression which is the Montessori math principle. Avoid worksheets and flashcards — all work must be hands-on. Note that NEP 2020 Balvatika discourages rote counting beyond meaningful context.",
+      "tags": [
+        "numeracy",
+        "montessori-math",
+        "hands-on",
+        "age-4-5",
+        "balvatika"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-024",
+      "title": "Grandparents Day Special Activity",
+      "prompt": "Act as a preschool event coordinator with 6 years experience designing family engagement programs. I need you to plan a 2-hour Grandparents Day celebration at a Tree House preschool for children aged 3-6 years where grandparents visit the classroom. Please provide: (1) An arrival and welcome ritual where children greet their grandparents with a handmade card, (2) An interactive storytelling session where one grandparent shares a childhood memory or folk tale, (3) A Montessori work demonstration where children show their favourite activity to their grandparent, (4) A shared snack time with traditional Indian foods (fruits, homemade biscuits, jaggery), (5) A photo booth area with props, (6) A closing circle with a thank-you song. Format as a timed program schedule with facilitator roles. Include handling of children whose grandparents cannot attend (assign a \"school grandparent\" volunteer), mobility considerations for elderly visitors, and Hindi/regional language warmth — many grandparents may not speak English. Note this event reinforces the Indian value of respecting elders without making it performative.",
+      "tags": [
+        "grandparents-day",
+        "family-event",
+        "multigenerational",
+        "celebration",
+        "inclusive"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-025",
+      "title": "Sleep Time Routine Nap Hour",
+      "prompt": "Act as a preschool daycare coordinator with 8 years experience managing nap time at full-day Indian preschools. I need you to design a calming 45-minute nap routine for children aged 2-4 years in a classroom of 18 where half the children resist sleep. Please provide: (1) Pre-nap wind-down ritual (10 minutes) with lights dimming, soft music, and a predictable sequence, (2) Storytelling voice-over script for a short calming tale (3 minutes), (3) A placement strategy for mats based on children's sleep patterns (deep sleepers vs restless vs awake), (4) Activities for non-sleepers that allow others to rest, (5) Gentle waking ritual at the end, (6) Teacher observation notes to share with parents about sleep quality. Format as a sequenced routine with exact timings and teacher actions. Include handling of crying children, those who need a specific \"chaddar\" or soft toy from home, and cultural sensitivity — some Indian families don't practice daytime napping and children may not be used to it. Provide a gentle script to discuss this with parents.",
+      "tags": [
+        "nap-time",
+        "routine",
+        "daycare",
+        "calming",
+        "age-2-4"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-026",
+      "title": "Annual Day Performance Non Rehearsed",
+      "prompt": "Act as a Montessori-aligned event designer with 9 years experience creating process-based performances. I need you to design an annual day performance concept for children aged 3-6 years that does NOT involve weeks of rehearsal, memorized lines, or parent-pleasing choreography — aligned with Montessori philosophy. Please provide: (1) The performance concept: children show their daily work rather than perform for parents, (2) A 45-minute program structure with 4 segments — circle time demonstration, Montessori work showcase, group song (no solo), and a child-led gallery walk, (3) A parent-education letter explaining why this approach serves children better than traditional annual day, (4) How to handle parent disappointment or pressure for \"cute performances,\" (5) Simple costume/dress code (everyday school uniform or simple kurta), (6) Photo and video guidelines that focus on children at work. Format as an event plan plus parent communication letter. Emphasize the Indian preschool industry's cultural shift toward authentic early education and how this builds trust with conscious parents who will pay premium fees for genuine Montessori.",
+      "tags": [
+        "annual-day",
+        "montessori-philosophy",
+        "event",
+        "parent-education",
+        "process"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-027",
+      "title": "Cultural Studies Cooking Chapati Activity",
+      "prompt": "Act as a practical life and culture curriculum designer with 11 years experience at Indian Montessori schools. I need you to plan a chapati-making practical life activity for children aged 4-6 years where children safely knead, roll, and observe cooking (without touching hot tawa). Please provide: (1) Material and ingredient list for 15 children (atta, water, small rolling pins, small plates), (2) Setup for child-sized work stations with aprons and head covers, (3) A demonstration script showing each step slowly without words first, (4) Safety protocols — teacher handles the tawa, children observe from a safe distance, (5) Vocabulary building for Hindi food words (atta, roti, tawa, belan), (6) Cultural conversation about roti in Indian meals and regional variations (paratha, phulka, thalipeeth), (7) Clean-up as part of the work cycle. Format as a 60-minute lesson plan. Include Montessori principles of independence, respect for food, and care of self. Note the deep cultural significance — chapati-making is a core Indian household skill and giving young children agency in food preparation builds confidence.",
+      "tags": [
+        "cooking",
+        "practical-life",
+        "culture",
+        "chapati",
+        "age-4-6"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-028",
+      "title": "Emotion Regulation Calm Down Corner",
+      "prompt": "Act as a social-emotional learning specialist with 7 years experience at Indian preschools. I need you to design a classroom \"calm down corner\" for children aged 3-5 years and a protocol for how teachers introduce and use it. Please provide: (1) Physical setup with low-cost materials (floor mat, cushions, soft toys, a small tent or dupatta canopy), (2) 5 calming tools for the corner (sensory bottle with glitter, breathing cards, soft stress ball, picture books on feelings, a feelings chart), (3) A teacher protocol for inviting (not sending as punishment) a distressed child to the corner, (4) Scripts in English and Hindi for validating feelings (\"I see you are feeling upset, your body looks tight\"), (5) Follow-up conversation once the child is calm, (6) Parent communication about the corner so they understand it is not a timeout. Format as a setup guide plus teacher protocol. Address the Indian cultural tendency to dismiss children's emotions (\"chup ho jao,\" \"bade ladke rote nahi\") and reframe this as outdated. Include handling of intense tantrums respectfully.",
+      "tags": [
+        "social-emotional",
+        "calm-corner",
+        "emotion-regulation",
+        "age-3-5",
+        "protocol"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-029",
+      "title": "Animal Sounds Memory Game Indian Animals",
+      "prompt": "Act as a preschool activity designer with 6 years experience creating language games. I need you to design an animal sounds memory matching game for children aged 3-4 years featuring Indian animals. Please provide: (1) A set of 10 animal pairs to match (cow, peacock, elephant, tiger, monkey, parrot, buffalo, goat, rooster, crow) with both Hindi and English names, (2) DIY card-making instructions using chart paper and markers, (3) A presentation script introducing one pair at a time over the week, (4) A memory matching game rules simplified for 3-year-olds (start with 4 pairs, grow to 10), (5) Extension with animal sound mimicry circle where children make and guess sounds, (6) A connection to a Panchatantra or Jataka tale featuring one of these animals. Format as an activity guide with card design specs and game rules. Include fine motor extension where children trace the animal outline. Note that Indian children often have strong familiarity with these animals through daily life, stories, and bhajans — use that existing knowledge as the foundation.",
+      "tags": [
+        "animal-sounds",
+        "memory-game",
+        "language",
+        "age-3-4",
+        "hindi-english"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-030",
+      "title": "Water Play Summer Safe Activities",
+      "prompt": "Act as a summer term preschool coordinator with 8 years experience managing hot weather programs in India. I need you to design 10 safe water play activities for children aged 3-5 years during May-June peak summer in Delhi heat. Please provide: (1) Activity name and sensory benefit, (2) Water pouring between jugs and katoris practice, (3) Floating and sinking exploration with natural objects (leaves, pebbles, bangles), (4) Ice melting observation experiment, (5) Sponge squeeze transfer game, (6) Water colour mixing using primary colours, (7) Boat making with leaves and paper, (8) Handwashing practice station, (9) Plant watering in the garden, (10) A cool-water foot dip relaxation. For each activity: materials, setup, safety protocol, developmental benefit, and clean-up. Format as 10 activity cards. Include hydration reminders for children throughout the day and monitoring for heat exhaustion signs. Note that water in India is precious — all activities should minimize waste and reuse water for plants. Avoid pool-style play which has drowning risks.",
+      "tags": [
+        "water-play",
+        "summer",
+        "sensory",
+        "safety",
+        "age-3-5"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-031",
+      "title": "Advanced Observation Notes Language Lab",
+      "prompt": "Act as an AMI-certified Montessori trainer with 15 years experience observing classrooms and mentoring Indian Montessori teachers. I need you to create a detailed observation framework and sample observation narrative for a 30-minute work cycle in a 3-6 mixed-age classroom. Please provide: (1) The 5 scientific observation principles (be invisible, record objectively, no interpretation during observation, note patterns over time, observe the whole child), (2) A structured observation template with columns for time, child, activity, duration, concentration level, and notes, (3) A sample 30-minute observation of a 4-year-old child named \"Kabir Mehta\" choosing, working on, and completing a sensorial work, (4) Post-observation analysis identifying what the observation reveals about Kabir's developmental stage, concentration, and next presentation needs, (5) How this observation informs Individual Work Plans, (6) Common observation mistakes Indian teachers make and how to avoid them. Format as a framework plus a narrative sample plus analysis. The sample observation should demonstrate Montessori objectivity — no judgments, no \"good boy\" language, just facts. This is training content for teacher upskilling workshops.",
+      "tags": [
+        "observation",
+        "advanced",
+        "ami",
+        "training",
+        "work-cycle"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-032",
+      "title": "Bullying Prevention Age Appropriate 4 6",
+      "prompt": "Act as a preschool behavioural specialist with 10 years experience handling peer conflicts at Indian Montessori schools. I need you to create an age-appropriate anti-bullying prevention plan for children aged 4-6 years, acknowledging that \"bullying\" at this age is mostly unkind behaviour being learned and shaped. Please provide: (1) A definition of what counts as unkind behaviour at this age vs normal conflict, (2) 5 classroom read-aloud story suggestions (blend of Western and Indian like Panchatantra) that teach kindness, (3) Role-play scripts for 3 common scenarios (excluding a child, name-calling, grabbing toys), (4) Restorative conversation protocol between children (\"How did that feel? What can you do to make it better?\"), (5) Handling the aggressor child without shaming but with firm boundaries, (6) Parent communication when incidents occur — sample WhatsApp message. Format as a comprehensive plan. Address the Indian cultural instinct to label children as \"bad\" or to use corporal discipline, and provide alternatives rooted in Montessori respect. Emphasize that early intervention at this age prevents future bullying patterns.",
+      "tags": [
+        "behaviour",
+        "bullying-prevention",
+        "age-4-6",
+        "conflict",
+        "restorative"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-033",
+      "title": "Seed Planting Science Life Cycle",
+      "prompt": "Act as a preschool science and nature educator with 7 years experience at Indian Montessori schools. I need you to design a 3-week seed planting and life cycle observation project for children aged 4-5 years using moong/rajma/methi seeds which sprout quickly in Indian climate. Please provide: (1) Week 1 — seed exploration, sorting, soaking; daily observation journal format, (2) Week 2 — planting in small earthen pots, watering ritual, sprout observation; vocabulary building (seed, root, stem, shoot, leaf), (3) Week 3 — growth measurement, leaf observation, connection to food and farmer gratitude, (4) Simple observation drawing journal with dated entries, (5) A parent home extension with one seed to plant together, (6) A closing celebration with a gratitude circle for farmers and nature. Format as a 3-week lesson plan. Include a circle time song about growing, a cultural connection to Indian agriculture, and NEP 2020 Balvatika's environmental awareness goals. Emphasize patience and daily observation as scientific skills. Note that methi sprouts in 3 days making it ideal for young children's attention spans.",
+      "tags": [
+        "science",
+        "nature",
+        "life-cycle",
+        "seeds",
+        "age-4-5"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-034",
+      "title": "Daily Observation Anecdotal Note Template",
+      "prompt": "Act as a preschool teacher trainer with 9 years experience at Indian Kidzee and Bachpan chains. I need you to create a simple daily anecdotal observation note template that classroom teachers can use in 5 minutes at the end of each day to capture 3-5 meaningful moments. Please provide: (1) A header section (date, teacher name, class), (2) A \"Moment of the Day\" prompt with a 3-sentence format (context, child behaviour, significance), (3) Quick-tick observation boxes for 5 children (rotate daily so every child is noted weekly), (4) A \"Follow-up needed\" section for concerns to discuss with the head teacher, (5) A parent-shareable snippet section that can be lifted directly for WhatsApp, (6) An end-of-week compilation guide to roll daily notes into weekly reports. Format as a printable A5 daily note card. Provide 3 sample filled entries using child names Arjun, Diya, and Vedika to show what good vs generic entries look like. Emphasize specificity over generic praise — \"Diya carried the water jug with both hands today\" beats \"Diya was good.\" This template reduces teacher burnout while improving parent communication quality.",
+      "tags": [
+        "anecdotal",
+        "observation",
+        "daily",
+        "template",
+        "teacher-workflow"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-035",
+      "title": "Independence Dressing Skills Lesson",
+      "prompt": "Act as a practical life Montessori specialist with 10 years experience teaching self-dressing to Indian preschoolers. I need you to design a progression of dressing independence lessons for children aged 2.5-5 years. Please provide: (1) Age 2.5-3 — putting on chappals, pulling up pants with elastic waist (scripted steps), (2) Age 3-4 — buttoning with large buttons on a dressing frame, putting on a kurta, (3) Age 4-5 — zipping a school bag, velcro shoes, folding a handkerchief, (4) Age 5+ — buttoning small school uniform buttons, tying a simple knot on a dupatta, (5) DIY dressing frames using fabric and a wooden frame for practice, (6) Teacher script for each lesson using Montessori's slow silent demonstration followed by invitation. Format as an age-progression guide with exact dressing frames to build in-house. Note the Indian context — children often come from families where mothers/maids dress them even at age 5, which delays independence. Provide a parent conversation guide explaining why self-dressing builds self-esteem and executive function. Emphasize respect for the child's pace — never rush.",
+      "tags": [
+        "practical-life",
+        "dressing",
+        "independence",
+        "progression",
+        "self-help"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-036",
+      "title": "Jataka Tale Kindness Circle Session",
+      "prompt": "Act as a values-based storytelling facilitator with 8 years experience at Indian Montessori schools. I need you to design a 25-minute kindness-themed circle based on the Jataka tale \"The Banyan Deer\" for children aged 5-6 years. Please provide: (1) An opening gratitude round where each child shares one kind thing someone did for them today (3 minutes), (2) The story narration with dramatic voice changes and 3 pause points for children to predict, (3) A deep discussion with 5 questions exploring sacrifice, kindness to strangers, and compassion for animals, (4) A silent reflection moment with soft music (1 minute), (5) A kindness commitment activity where children name one kind act they will do this week, (6) A closing song or chant celebrating kindness. Format as a circle time script with facilitation notes. Include connection to the Indian Buddhist and Jain ahimsa traditions in simple child-language. Emphasize that this is not a moral lecture — children arrive at the values through discussion, not instruction. Mention sample children Rohan, Tara, Ayaan, and Meher in example responses.",
+      "tags": [
+        "jataka",
+        "kindness",
+        "values",
+        "age-5-6",
+        "storytelling"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-037",
+      "title": "Classroom Environment Setup Montessori Checklist",
+      "prompt": "Act as a Montessori environment consultant with 13 years experience setting up and auditing classrooms at Indian preschools. I need you to create a comprehensive classroom environment checklist for a new 3-6 mixed-age Montessori classroom being set up in Ahmedabad for 20 children. Please provide: (1) Physical environment checklist (child-sized furniture, low shelves, natural materials, soft colours, indoor plants), (2) 5 prepared areas audit (practical life, sensorial, language, math, cultural), (3) Indian-context adaptations (floor seating option, small shoe rack at entry, hand-washing station, prayer/quiet corner, climate-appropriate ventilation), (4) Safety audit (electrical outlets, sharp edges, heavy items, chokable objects), (5) Aesthetic audit (clutter-free, beautiful, inviting, not over-decorated with plastic charts), (6) A daily/weekly/monthly maintenance schedule. Format as a checklist with tick boxes. Note that many Indian preschools over-decorate walls with printed charts which violates Montessori principles of calm environments. The checklist should serve as an audit tool for head teachers. Include cost estimates in INR for a basic setup (target Rs 1.5-2 lakh for materials).",
+      "tags": [
+        "classroom-setup",
+        "environment",
+        "audit",
+        "advanced",
+        "montessori"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-038",
+      "title": "Music Movement Lesson Bhajan Simple",
+      "prompt": "Act as a music and movement educator with 6 years experience at Indian Montessori preschools. I need you to design a 20-minute music and movement session for children aged 3-5 years using simple Indian bhajans, folk songs, and rhythm instruments. Please provide: (1) A warm-up body awareness exercise (stretching, touching body parts with Hindi names), (2) A simple bhajan or folk song in Hindi like \"Hari Bol\" or \"Chanda Mama\" with actions, (3) A rhythm exploration with handmade shakers (small bottles with rice, tamarind seeds), (4) A freeze-dance game with a mix of Indian classical and folk music, (5) A cool-down slow-motion activity mimicking animals from Panchatantra, (6) A closing silence bell exercise. Format as a 20-minute timed plan. Include teacher facilitation tips — this is not a performance, it is exploration. Suggest 3 recorded music options from Indian classical, folk, and children's songs (avoid Bollywood item songs). Note that Indian music is a cultural inheritance — exposure at this age builds auditory discrimination and emotional connection to heritage. Keep all movements accessible to children of varying abilities.",
+      "tags": [
+        "music",
+        "movement",
+        "bhajan",
+        "folk",
+        "age-3-5"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-039",
+      "title": "Teacher Self Care Burnout Prevention",
+      "prompt": "Act as an early childhood wellness coach with 9 years experience supporting preschool teachers across Indian chains. I need you to create a practical self-care guide for preschool teachers working long hours (8 AM to 6 PM) at Indian daycares with 20 high-energy children. Please provide: (1) Morning pre-class grounding routine (5 minutes) that fits any teacher's commute, (2) Mid-day 2-minute reset techniques between sessions, (3) Voice care for teachers who strain their vocal cords all day (hydration, tone modulation, gentle commands over shouting), (4) Physical care (back stretches for constant bending, wrist care from craft prep, foot care from standing), (5) Emotional care strategies for difficult days (a crying child, a demanding parent, a tantrum), (6) A weekly reflection practice to process classroom experiences. Format as a teacher wellness handbook section. Acknowledge the Indian reality — preschool teachers are often underpaid, over-managed, and expected to be perpetually cheerful. Validate the emotional labour and offer realistic strategies. Add a note to school owners about how teacher burnout directly affects children's learning environment.",
+      "tags": [
+        "teacher-wellness",
+        "self-care",
+        "burnout",
+        "support",
+        "workflow"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    },
+    {
+      "id": "teachers-preschool-montessori-040",
+      "title": "Year End Progress Portfolio Compilation",
+      "prompt": "Act as a senior Montessori directress with 14 years experience preparing year-end progress portfolios at Indian preschools. I need you to create a framework for compiling a year-end individual portfolio for each child aged 3-6 years that parents receive at the end of the academic session. Please provide: (1) Portfolio structure with 8 sections (child intro, developmental domains summary, work photos, art samples, observation anecdotes, milestone tracker, next-year recommendations, teacher's personal letter), (2) Selection criteria for which photos and work samples to include (curated, not comprehensive), (3) Writing guidelines for observation narratives — specific, respectful, strength-based language, (4) Format for the personal teacher letter that warmly summarizes the child's year without generic praise, (5) Handling sensitive areas like developmental concerns with clarity and care, (6) A sample portfolio entry for a 5-year-old named Ananya showing one full section. Format as a directress guide plus a sample section. Emphasize that this portfolio becomes a precious keepsake for Indian families and is worth the effort. Target 60-90 minutes of prep time per child across the final 2 weeks of the year.",
+      "tags": [
+        "portfolio",
+        "year-end",
+        "assessment",
+        "advanced",
+        "report"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "preschool-montessori"
+    }
+  ]
+}

@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "startup-founders-growth-001",
+      "title": "Design WhatsApp Viral Loop for Bharat Users",
+      "prompt": "Act as a growth marketing strategist with 10 years experience scaling Indian consumer apps like Meesho, Khatabook, and ShareChat. I'm building a personal finance app for Tier 2/3 Indian users (250K MAU, 60% Hindi speakers, average age 28). I need you to design a complete WhatsApp-driven viral loop that can take us from K-factor 0.4 to 1.2+. Here is the context: Our current referral is a basic ₹50 cashback per signup, but only 8% of users share. Average user has 12 WhatsApp groups, mostly family and locality. Users are price-sensitive but trust peer recommendations heavily. We have ₹40 lakh quarterly growth budget. Please provide: (1) Complete viral loop architecture with shareable artifacts (templates, statuses, group invites), (2) 5 specific WhatsApp message templates in Hinglish that drive forwarding, (3) Trigger points in the user journey where sharing prompts appear, (4) Reward structure balancing viral coefficient with unit economics (CAC under ₹120), (5) A/B test plan with 6 variants and success metrics, (6) Anti-spam guardrails to avoid WhatsApp bans. Format as a structured growth playbook with implementation timeline. Consider WhatsApp Business API limits, Indian data costs (users avoid heavy media), and the fact that screenshots spread faster than links in Bharat.",
+      "tags": [
+        "viral-loop",
+        "whatsapp-marketing",
+        "bharat-growth",
+        "k-factor"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-002",
+      "title": "Build Indian SaaS Pricing Tiers in INR",
+      "prompt": "Act as a pricing strategist with 8 years experience at Indian SaaS companies like Zoho, Freshworks, and Razorpay. I run a B2B HR-tech SaaS targeting Indian SMBs (10-200 employees), currently charging a flat ₹2,999/month with 180 customers and 6% monthly churn. I need you to design a 3-tier INR pricing structure that increases ARPU by 40% without hurting conversion. Here is the context: Our competitors charge $5-15/user/month converted to INR; Indian SMBs strongly prefer monthly INR billing over annual USD; 70% of customers use only core features; top 15% want advanced workflows; GST adds 18% on top. Average MSME founder spends 22 minutes evaluating pricing pages. Please provide: (1) Three tier names with INR pricing (Starter/Growth/Scale style), (2) Feature gating logic per tier with 8-10 features distributed strategically, (3) User-based vs flat pricing analysis with breakeven math, (4) Annual discount structure (typical Indian SaaS uses 15-20%), (5) Recommended add-ons priced separately, (6) Anchor pricing psychology for the page layout, (7) Migration plan for existing customers without churning them. Format as a complete pricing page spec with rationale for each decision. Reference Indian buyer psychology — they negotiate, want \"jugaad\" features, and respond to GST-inclusive transparency.",
+      "tags": [
+        "pricing-strategy",
+        "saas-pricing",
+        "inr-pricing",
+        "indian-smb"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-003",
+      "title": "Design Growth Experiment Backlog for Indian D2C",
+      "prompt": "Act as a head of growth with 7 years experience at Indian D2C brands like Mamaearth, boAt, and Sugar Cosmetics. I run a D2C ayurvedic skincare brand doing ₹80 lakh monthly revenue across Shopify, Amazon, and Flipkart. I need you to build a 90-day growth experiment backlog with 25 prioritized experiments. Here is the context: Current CAC is ₹420 (target ₹280), AOV ₹680, repeat rate 22%, 65% of orders from Tier 1 metros, weak presence in Tier 2/3. Marketing spend is split 60% Meta, 25% Google, 15% influencers. Please provide: (1) 25 experiments across acquisition, activation, retention, referral, and revenue (5 each), (2) ICE score (Impact, Confidence, Ease, 1-10) for each, (3) Hypothesis statement for each experiment in \"We believe X will cause Y measured by Z\" format, (4) Required budget per experiment (₹), (5) Expected lift and time-to-result, (6) Sequenced roadmap by week. Format as a sortable table. Consider Indian D2C realities: COD is 60% of orders, return rates 18%, regional language ads outperform English in Tier 2/3, festive sales (Diwali, Rakhi) move 35% of annual revenue.",
+      "tags": [
+        "growth-experiment",
+        "ice-prioritization",
+        "d2c-india",
+        "experiment-backlog"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-004",
+      "title": "Analyze CAC Payback for Indian B2C App",
+      "prompt": "Act as a growth analytics expert with experience at Dream11, CRED, and Groww. I need you to analyze the CAC payback period for my Indian fintech B2C app and recommend optimization levers. Here is the context: Current blended CAC is ₹380, Day 1 retention 42%, Day 30 retention 14%, average revenue per paying user ₹85/month, paying user conversion 11%, gross margin 68%, monthly churn of paying users 9%. We acquire via Meta ads (CAC ₹290), Google UAC (CAC ₹520), and influencer marketing (CAC ₹410). Please provide: (1) Calculated CAC payback period per channel in months with full math, (2) LTV calculation with cohort decay assumptions for Indian users, (3) LTV/CAC ratio per channel and verdict (healthy is 3x+), (4) Three highest-leverage levers to reduce payback period below 8 months, (5) Channel reallocation recommendation with expected blended CAC, (6) Sensitivity analysis on payback if churn improves 2% or ARPU grows 15%. Format as a financial analysis with tables and a one-page executive summary. Use realistic Indian fintech benchmarks (Groww, Zerodha, Upstox public data) for sanity-checking.",
+      "tags": [
+        "metric-analysis",
+        "cac-payback",
+        "ltv-cac",
+        "unit-economics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-005",
+      "title": "Design Referral Program Like CRED Gamified Rewards",
+      "prompt": "Act as a referral program designer who studied CRED, PhonePe, and Cult.fit referral mechanics deeply. I run a fitness app for Indian urban professionals (45K MAU, ₹699/month subscription). I need you to design a gamified referral program that lifts referral-driven signups from 6% to 25% of new users. Here is the context: Users are 24-38, India metros, status-conscious, share LinkedIn and Instagram heavily. Current referral is a flat ₹500 credit per side — only 4% participate. Budget allows ₹250 average per successful referral. Please provide: (1) Reward architecture with tiers (1st referral, 5th, 10th, 20th) — escalating rewards with status elements, (2) Variable reward mechanics (scratch cards, mystery rewards) with expected value math, (3) Leaderboard or social proof element design, (4) Anti-gaming rules to prevent fake accounts, (5) Sharing UX flow with 3 touchpoints (in-app, post-workout, billing), (6) Copy for share message in Hinglish that drives clicks, (7) Success metrics dashboard with 8 KPIs. Format as a product spec with wireframe descriptions. Reference CRED's coin economy and Cult.fit's referral pass — explain what to copy and what to avoid for a fitness audience.",
+      "tags": [
+        "referral-program",
+        "gamification",
+        "cred-style",
+        "viral-mechanics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-006",
+      "title": "A/B Test Plan for Onboarding Activation",
+      "prompt": "Act as an experimentation lead with 6 years experience running A/B tests at Indian consumer companies like Swiggy and Meesho. I need you to design a rigorous A/B test plan to improve onboarding activation in my Indian edtech app. Here is the context: Currently 55% of signups complete onboarding (5 steps), and only 28% take the activation action (first lesson completed) within 24 hours. We have 1,800 daily signups across Hindi, Tamil, and English users. Please provide: (1) Hypothesis statement and primary metric definition, (2) Sample size calculation showing how long to reach significance at 95% confidence with MDE of 5%, (3) Three test variants with specific UI/UX changes (skip step, vernacular video, progress nudge), (4) Guardrail metrics to monitor (D7 retention, paid conversion), (5) Segmentation plan (by language, device, source), (6) Sequential testing pitfalls and how to avoid peeking, (7) Decision framework for ship/kill/iterate. Format as a complete test brief with timeline. Consider Indian-specific factors: low-RAM Android devices dominate, vernacular users have higher patience for long videos, data costs make heavy onboarding flows risky.",
+      "tags": [
+        "ab-test",
+        "onboarding",
+        "activation",
+        "growth-experiment"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-007",
+      "title": "Build North Star Metric Framework for Indian Marketplace",
+      "prompt": "Act as a metrics strategist who has worked at Urban Company, Meesho, and Nykaa. I run a B2B marketplace connecting Indian SMB retailers with FMCG distributors (12K active retailers, ₹14 crore monthly GMV). I need you to define a North Star Metric and supporting input metric tree. Here is the context: Current KPIs are scattered (orders, GMV, MAU, take rate) and the team optimizes locally without alignment. Investors want clarity on growth quality. Please provide: (1) Recommended North Star Metric with rationale and Indian marketplace precedents, (2) Input metric tree with 4 layers (NSM → drivers → leading indicators → operational metrics), (3) Counter-metrics to prevent gaming (e.g., GMV inflated by discounts), (4) Cohort-based view of NSM evolution, (5) Team OKR mapping per function (sales, ops, product, marketing), (6) Dashboard layout with 12 metrics and review cadence, (7) Comparison table vs Meesho's NSM and Udaan's NSM with lessons. Format as a metrics framework document. Consider Indian marketplace dynamics: high COD, regional concentration, repeat purchase as the real signal of value.",
+      "tags": [
+        "metric-analysis",
+        "north-star-metric",
+        "marketplace-metrics",
+        "okr"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-008",
+      "title": "Design ShareChat and Moj Vernacular Growth Strategy",
+      "prompt": "Act as a vernacular growth marketer with 5 years experience launching apps on ShareChat, Moj, and Josh. I run a short-video commerce app targeting Tier 2/3 Indian users in Hindi, Bhojpuri, and Marathi. I need you to design a 60-day growth strategy across ShareChat and Moj to acquire 200K installs at sub-₹40 CAC. Here is the context: We currently have 8K users from Meta ads at ₹160 CAC. Vernacular content is core to our product. Budget is ₹35 lakh. We have 4 in-house creators producing daily content. Please provide: (1) Channel mix and budget allocation between ShareChat ads, Moj influencers, and organic content, (2) 5 creative concepts that work in Tier 2/3 (festival hooks, family humor, regional pride), (3) Influencer tier strategy (nano, micro, mid) with INR pricing benchmarks, (4) Tracking and attribution plan when MMP coverage on these platforms is weak, (5) Organic content calendar with 30 video concepts, (6) Funnel benchmarks expected (CTR, install rate, D1 retention), (7) Risks (platform algorithm changes, content fatigue) and mitigations. Format as a media plan with weekly milestones. Reference real ShareChat ad cost benchmarks and successful Moj brand campaigns.",
+      "tags": [
+        "vernacular-marketing",
+        "sharechat-growth",
+        "tier-2-3",
+        "growth-experiment"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-009",
+      "title": "Analyze Funnel Drop-Off for Indian E-commerce",
+      "prompt": "Act as a funnel analytics expert with experience at Flipkart, Myntra, and Ajio. I need you to analyze my Indian e-commerce funnel and identify the top 3 leakage points to fix. Here is the context: Last month we had 8,20,000 sessions, 3,40,000 product views, 95,000 add-to-carts, 28,000 checkouts started, 11,200 orders placed, of which 8,400 successful (rest were COD cancellations or payment fails). Average time on site 2:40, mobile 78%, returning users 31%. Please provide: (1) Conversion rate at each funnel step with industry benchmarks (Indian e-comm), (2) Top 3 leakage points ranked by revenue impact if fixed, (3) Hypotheses for why each leak happens (UPI failure rates, COD trust, login friction), (4) 5 specific fixes per leakage point with expected lift, (5) Instrumentation gaps to fill before re-measuring, (6) Quick wins (fixable in 2 weeks) vs structural fixes (quarter-long), (7) Estimated revenue uplift if all fixes work (₹). Format as a diagnostic report with funnel visualization described in text. Consider Indian-specific issues: UPI mandate fails, address pin code coverage, regional language checkout, COD-to-prepaid nudges.",
+      "tags": [
+        "metric-analysis",
+        "funnel-analysis",
+        "ecommerce",
+        "conversion-optimization"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-010",
+      "title": "Build Razorpay-Style PLG Motion for Indian SaaS",
+      "prompt": "Act as a product-led growth expert who studied Razorpay, Postman, and Zoho's self-serve motion. I run a developer-tool SaaS for Indian fintech engineers (₹1,499/month, 320 paying customers, 80% sales-led today). I need you to design a 6-month transition plan from sales-led to product-led growth. Here is the context: 60% of inbound leads churn before sales reaches them; documentation is strong but onboarding is poor; pricing is hidden. We want to drop CAC from ₹14,000 to ₹4,500. Please provide: (1) Self-serve activation milestone (the \"aha\" event), (2) Free tier design with usage limits that drive upgrade, (3) In-product upgrade nudges and triggers (event-based), (4) Onboarding redesign with time-to-value target under 10 minutes, (5) Sales-assist motion for self-serve users hitting expansion threshold, (6) Pricing page transparency changes with INR display, (7) PLG metrics scorecard (PQL, free-to-paid conversion, expansion rate, time-to-value). Format as a transition roadmap with milestones. Reference Razorpay's developer onboarding and Postman's free tier specifically as patterns to adapt for Indian buyers who still want a sales conversation before larger commitments.",
+      "tags": [
+        "pricing-strategy",
+        "product-led-growth",
+        "saas-india",
+        "self-serve"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-011",
+      "title": "Design Khatabook-Style Bharat Acquisition Loop",
+      "prompt": "Act as a Bharat-focused growth strategist who studied Khatabook's path to 50M downloads. I'm launching a similar utility app for Indian shopkeepers (currently 2,000 daily active users, target 1M MAU in 12 months). I need you to design an end-to-end acquisition strategy. Here is the context: Target user is a 35-50 year old kirana store owner, Hindi/regional language, basic Android phone, learns from peers. CAC budget is ₹35 per install. Current org channels: Play Store SEO, WhatsApp shares. Please provide: (1) Top 5 channels ranked by expected CAC and scalability with Bharat audiences, (2) Play Store ASO optimization plan (keywords, screenshots, vernacular listings), (3) On-ground/offline channel test (mandi visits, distributor partnerships) with budget, (4) Content moat strategy (Hindi YouTube tutorials, WhatsApp broadcast lists), (5) Viral mechanics built into core product loops (sharing customer ledgers, payment requests), (6) Retention hooks specific to shopkeepers (daily reminders at 8 PM closing time), (7) 12-month milestone plan with monthly install targets. Format as a growth playbook. Reference Khatabook's actual playbook (vernacular content, distributor tie-ups, OkCredit competition) and explain what to copy vs differentiate.",
+      "tags": [
+        "bharat-growth",
+        "acquisition-loop",
+        "growth-experiment",
+        "kirana-tech"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-012",
+      "title": "Analyze Cohort Retention Curves",
+      "prompt": "Act as a retention analytics expert with experience at Inshorts, Glance, and MX TakaTak. I need you to analyze my cohort retention data and recommend interventions. Here is the context: I'll provide 6 monthly cohorts of an Indian content app. Cohort sizes: Jan 12K, Feb 18K, Mar 22K, Apr 28K, May 35K, Jun 41K. Day 1 retention: 38%, 36%, 33%, 31%, 29%, 28%. Day 7: 18%, 17%, 15%, 14%, 13%, 12%. Day 30: 9%, 8%, 7%, 6%, 5%, 5%. Please provide: (1) Diagnosis of why retention is decaying cohort-over-cohort despite growth, (2) Three hypotheses (channel quality, onboarding regression, market saturation), (3) Required investigation steps with SQL/analytics queries described, (4) Benchmark comparison vs Indian content app norms (D1 35%+, D30 8%+), (5) Five intervention experiments to stabilize and improve D7 retention, (6) Expected lift and confidence per intervention, (7) Reporting cadence and dashboard structure. Format as an analytical memo to the CEO. Consider that Indian content app retention is heavily affected by data costs, low-RAM device crashes, and content freshness in vernacular.",
+      "tags": [
+        "metric-analysis",
+        "cohort-analysis",
+        "retention",
+        "growth-experiment"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-013",
+      "title": "Design Dream11-Style Cricket Viral Campaign",
+      "prompt": "Act as a campaign strategist who has worked on IPL marketing for Dream11, MPL, and My11Circle. I run a cricket-prediction social app and need to design a viral campaign for the upcoming IPL season. Here is the context: 80K MAU, target 500K by end of IPL, ₹1.2 crore budget, 65 days runway, must stay compliant (no real-money gaming claims). Please provide: (1) Big-idea campaign theme tied to fan emotion and Indian cricket culture, (2) 3 viral mechanics (predictions, leaderboards, friend challenges) with shareable artifacts, (3) Creator partnership plan with 12 Tier 1 cricket influencers and 50 micro-creators, (4) Match-day moment-marketing playbook with templates ready for any winning team scenario, (5) Paid amplification budget split (Meta, YouTube, TV, OTT), (6) WhatsApp-first sharing flow with auto-generated prediction cards, (7) Compliance guardrails per fantasy gaming/social app advertising norms in India, (8) Daily and weekly KPI tracker. Format as an IPL campaign brief. Reference Dream11's IPL playbook (celebrity endorsements, last-over hype, regional language) and explain how to win without their budget.",
+      "tags": [
+        "viral-loop",
+        "cricket-marketing",
+        "ipl-campaign",
+        "growth-experiment"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-014",
+      "title": "Build Zerodha Varsity-Style Content Moat",
+      "prompt": "Act as a content marketing strategist who studied Zerodha Varsity and Groww's content engine. I run a personal finance fintech for young Indians (₹50L revenue/month, mostly paid acquisition). I need you to design a content moat that drives 40% of new signups within 18 months. Here is the context: Target audience is 22-32 year olds, English/Hindi, want to learn about mutual funds, stocks, taxes. Team: 1 content lead, budget ₹18 lakh/month for content. Please provide: (1) Content pillar structure (5 pillars, what to own), (2) Format mix (long-form articles, YouTube, Instagram, courses, tools), (3) SEO strategy with 100 target keyword clusters in EN and HI, (4) Free tools/calculators that act as lead magnets (SIP, tax, EMI), (5) Distribution playbook beyond SEO (newsletter, communities, schools), (6) Expected timeline to organic traffic milestones (10K, 100K, 1M monthly visits), (7) Talent and tooling budget allocation, (8) Measurement framework (signup attribution to content). Format as an 18-month content moat strategy. Reference Zerodha Varsity's specific structure (modules, free, no fluff) and Groww's blog playbook — copy patterns and adapt.",
+      "tags": [
+        "growth-experiment",
+        "content-moat",
+        "seo-india",
+        "fintech-growth"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-015",
+      "title": "Analyze Pricing Elasticity Test Results",
+      "prompt": "Act as a pricing economist with 8 years experience analyzing pricing tests for Indian D2C and SaaS companies. I ran a 4-week pricing elasticity test and need you to interpret the results. Here is the context: Tested 4 price points on a subscription product — ₹299, ₹399, ₹499, ₹599. Conversion rates: 8.2%, 6.4%, 4.1%, 2.8%. ARPU per visitor: ₹24.5, ₹25.5, ₹20.4, ₹16.7. Each cell had 12,000 unique visitors over 28 days. Refund rates: 3%, 4%, 6%, 9%. Please provide: (1) Optimal price point based on revenue per visitor, (2) Price elasticity coefficient calculation with full math, (3) Statistical significance check given the sample sizes, (4) Effect of refund rates on \"true\" net revenue per price point, (5) Recommendation: ship a single price or use price discrimination/anchor strategy, (6) Risks of choosing higher price (brand perception, churn signal in refunds), (7) Follow-up tests to run (annual plan, regional pricing, EMI). Format as a pricing analysis memo. Consider Indian buyer psychology: ₹399 and ₹499 hit different mental anchors; UPI and EMI access change willingness to pay.",
+      "tags": [
+        "pricing-strategy",
+        "price-elasticity",
+        "ab-test",
+        "metric-analysis"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-016",
+      "title": "Design Telegram Community-Led Growth Loop",
+      "prompt": "Act as a community-led growth expert who has built Telegram communities for Indian crypto, trading, and edtech brands. I run a stock-market education startup and want to build a 200K-member Telegram community as my primary growth engine in 6 months. Here is the context: Currently 4K Telegram members, 60K social followers, paid course at ₹4,999. Compliance is critical (no stock tips). Please provide: (1) Community structure — main channel, sub-groups by topic, premium gates, (2) Daily content cadence (free signals analysis, market open recaps, learning posts) with templates, (3) Top-of-funnel acquisition into Telegram (Instagram bio links, YouTube CTAs, partnerships), (4) Activation flow inside Telegram (welcome bot, pinned starter pack, first 7-day journey), (5) Monetization path from free community to paid course with conversion rate target, (6) Moderator hiring and rules to avoid spam/pump-dump groups, (7) Compliance guardrails per SEBI advertising and influencer rules, (8) Metrics to track weekly. Format as a 6-month community growth playbook. Note Indian Telegram dynamics: groups grow via WhatsApp invites, screenshot virality, and forwards from existing groups.",
+      "tags": [
+        "growth-experiment",
+        "telegram-marketing",
+        "community-led",
+        "viral-loop"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-017",
+      "title": "Calculate LTV with Indian Cohort Decay",
+      "prompt": "Act as a unit economics expert who has modeled LTV for Indian B2C subscriptions including OTT, fintech, and edtech. I need you to build an LTV model for my Indian video-streaming app. Here is the context: Monthly subscription at ₹149, gross margin 72% after content costs. Cohort retention curves: Month 1 100%, M2 78%, M3 64%, M6 41%, M12 24%, M18 16%, M24 11%. Refund rate 4%, payment failure rate 8% (UPI mandate fails). Please provide: (1) Calculated LTV with both ARPU x average lifetime and cohort sum methods, (2) Adjusted LTV after gross margin, refunds, and failed payments, (3) Decay curve fit (exponential vs power-law) and which fits Indian behavior better, (4) LTV by acquisition channel if I provided different curves (template format), (5) Payback period vs CAC scenarios at ₹250, ₹400, ₹600 CAC, (6) Sensitivity table on retention improvements (5% better M3 retention impact on LTV), (7) Financial assumptions and risks. Format as a clear unit economics model with the key formulas explained. Reference Hotstar and SonyLIV churn benchmarks where public, and Indian-specific issues like UPI mandate cancellations dragging effective LTV down.",
+      "tags": [
+        "metric-analysis",
+        "ltv-modeling",
+        "unit-economics",
+        "cohort-analysis"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-018",
+      "title": "Build Two-Sided Referral for Indian Marketplace",
+      "prompt": "Act as a marketplace growth designer who worked on Urban Company, Meesho, and Apna referral programs. I run a hyperlocal services marketplace (plumbers, electricians, cooks) in Bangalore and Pune (12K customers, 2K service partners). I need a two-sided referral program. Here is the context: Customer CAC ₹320, partner acquisition cost ₹600. Want to drop both by 30% via referrals. Average customer ticket ₹450, partner takes 80%. Please provide: (1) Customer-to-customer referral structure with dual-sided rewards, (2) Partner-to-partner referral for service pros (training, kit, first jobs), (3) Customer-to-partner cross-referral (customers refer their society plumber to platform), (4) Reward calibration math ensuring CAC stays below targets, (5) Anti-fraud rules (geo-checks, first-job verification, payout delays), (6) Sharing UX in app (post-service prompt, WhatsApp share, scratch card), (7) Expected K-factor per side and sensitivity, (8) Communication and rollout plan. Format as a marketplace referral spec. Consider Indian context: trust matters more than rewards; partners share via WhatsApp groups of fellow tradesmen; customers refer building neighbors.",
+      "tags": [
+        "referral-program",
+        "marketplace-growth",
+        "two-sided",
+        "viral-loop"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-019",
+      "title": "Design Pricing Page Copy for Indian SMBs",
+      "prompt": "Act as a conversion copywriter with 6 years experience optimizing SaaS pricing pages for Indian SMB buyers. I have 3 pricing tiers (Starter ₹999, Growth ₹2,499, Scale ₹6,999/month) for an inventory management SaaS targeting kirana wholesalers and small retailers. Current pricing page converts 1.4% of visitors. I need you to rewrite all the copy. Here is the context: Audience is Hindi/English bilingual, prefers monthly billing, suspicious of \"contact us\" tiers, wants WhatsApp support promised, compares to Vyapar and TallyPrime. Please provide: (1) Tier names (recommend keeping or changing), (2) Headline and subheadline that addresses Indian SMB pain (\"khata, GST, stock\"), (3) Per-tier value proposition (one line each), (4) Feature list per tier — 8-12 lines each with \"Bharat-friendly\" framing, (5) Social proof section copy with imagined Indian customer quotes (specify city + business type), (6) FAQ with 10 SMB-specific questions (GST invoicing, refund policy, multi-shop, vernacular), (7) Final CTA button copy variants (3 options to test), (8) Trust badges/seals to display. Format as ready-to-ship pricing page copy. Use simple Hinglish where it converts; avoid jargon.",
+      "tags": [
+        "pricing-strategy",
+        "pricing-page",
+        "saas-india",
+        "conversion-copy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-020",
+      "title": "Run Pre-Mortem on Growth Experiment",
+      "prompt": "Act as a senior experimentation lead who has killed many bad experiments before launch. I'm about to launch a major growth experiment: switching my Indian D2C brand homepage from product-grid layout to story-led editorial layout. Expected traffic 4 lakh visits over 14 days. I need you to run a pre-mortem analysis. Here is the context: Current homepage converts 2.1% to add-to-cart. Hypothesis: editorial story layout will improve emotional connection and AOV by 12%. Risk: it might tank conversion entirely. Please provide: (1) 10 ways this experiment could fail and the leading indicators of each, (2) Pre-launch checklist (instrumentation, sample size, kill switch), (3) Stop-loss criteria with specific numbers (e.g., halt if conversion drops below 1.6% on day 3), (4) Segments most likely to be hurt (mobile, returning, paid traffic), (5) Anti-confirmation plan: what would make me kill this even if vanity metrics look good, (6) Post-test analysis plan with cohort splits, (7) Communication plan if test bombs (team morale, leadership). Format as a pre-mortem document. Reference Indian D2C realities: festive season interactions, COD orders skewing AOV, Meta retargeting cookies expiring fast.",
+      "tags": [
+        "growth-experiment",
+        "ab-test",
+        "pre-mortem",
+        "experimentation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-021",
+      "title": "Design Tier 2/3 YouTube Vernacular Strategy",
+      "prompt": "Act as a YouTube growth strategist with experience growing channels in Hindi, Tamil, Telugu, and Marathi to 1M+ subscribers. I run an agritech app for Indian farmers and need to use vernacular YouTube as a primary acquisition channel. Here is the context: Target — 50K subscribers and 2 lakh app installs from YouTube in 9 months. Budget ₹40 lakh. Current 1.2K subs, 80 videos with avg 800 views. Please provide: (1) Channel positioning and content pillar plan in 3 languages, (2) Video format mix (long-form farmer interviews, shorts, demo videos) with weekly cadence, (3) SEO strategy — 60 keyword targets per language with search volume estimates, (4) Thumbnail and title playbook tested on Indian audiences, (5) Creator partnership plan (paid placements with farmer YouTubers like Discovery Agriculture, Krushidoot), (6) Conversion path from YouTube to app install (description, pinned comment, end screen, deep-linking), (7) Attribution model with realistic install lift expectations, (8) Monthly KPI scorecard. Format as a 9-month YouTube growth plan. Note rural India consumes YouTube as TV — long videos work; data costs matter; Tier 3 farmers prefer specific dialects.",
+      "tags": [
+        "growth-experiment",
+        "youtube-growth",
+        "vernacular-marketing",
+        "agritech-india"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-022",
+      "title": "Build Activation Metric for Indian Edtech",
+      "prompt": "Act as a growth product manager with experience at Byju's, Unacademy, and Vedantu. I run an edtech app for Indian K-10 students (₹999/month subscription, 8K MAU). I need you to define the right activation metric. Here is the context: Currently we call \"signup completed\" activation, but it doesn't predict retention. We have data on first-week behaviors: video lessons watched, quizzes attempted, questions asked, parent app linked, study plan created. Please provide: (1) Methodology to find the activation metric (correlation analysis, retention curves by behavior), (2) Three candidate metrics ranked with predicted D30 retention each, (3) Recommended activation event with the magic-number threshold (e.g., \"Watched 3 videos in 4 days\"), (4) Activation rate target and current baseline, (5) Onboarding redesign to drive users to that metric (steps, nudges, parent push), (6) Counter-checks — segments where this metric fails (very young students, parent-driven users), (7) Reporting dashboard with cohort view, (8) 4 experiments to test in next 6 weeks. Format as a product growth strategy. Reference Byju's-style activation (free trial book → first concept video) and what actually works for paid Indian edtech today.",
+      "tags": [
+        "metric-analysis",
+        "activation-metric",
+        "edtech-growth",
+        "magic-number"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-023",
+      "title": "Plan ONDC Channel Strategy for D2C Brand",
+      "prompt": "Act as an ONDC commerce expert who has helped Indian D2C brands list and grow on Open Network for Digital Commerce. I run a Bangalore-based organic food D2C brand (₹60 lakh/month revenue, 90% own website, 10% Amazon). I need you to plan an ONDC channel launch. Here is the context: ONDC promises lower commissions (5-8% vs 15-25% on marketplaces) and broader Tier 2/3 reach via buyer apps like Paytm, PhonePe, MagicPin. We have 200 SKUs, want to test before scaling. Please provide: (1) Onboarding steps via a Seller Network Participant (SNP) like Mystore, Digiit, or eSamudaay with cost comparison, (2) SKU catalog prep checklist (images, GST, FSSAI, attributes), (3) Pricing strategy on ONDC vs own website to avoid channel conflict, (4) Logistics and packaging via ONDC logistics SNPs, (5) 90-day launch plan with weekly milestones and order targets, (6) Marketing on ONDC buyer apps (Paytm Mall ads, PhonePe stores), (7) KPIs to track (ONDC revenue %, CAC, return rate), (8) Risks (refund disputes, multi-buyer-app coordination) and mitigations. Format as an ONDC channel playbook. Cite real ONDC commission rates and 2025 Indian D2C ONDC adoption examples.",
+      "tags": [
+        "growth-experiment",
+        "ondc-strategy",
+        "d2c-india",
+        "channel-expansion"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-024",
+      "title": "Design Annual Plan Pricing for Indian Subscription",
+      "prompt": "Act as a subscription pricing strategist with experience at Hotstar, Cult.fit, and Headspace India. I sell a meditation app at ₹399/month with 24K paying users and 7% monthly churn. I need you to design an annual plan that becomes 60% of new subscriptions within 6 months. Here is the context: Current annual offering doesn't exist; users churn after 3 months on average. Indian buyers respond to UPI auto-pay, EMI, and \"per day\" framing. Please provide: (1) Annual plan price with discount % vs monthly, (2) Mathematical justification — even with discount, what's the LTV uplift due to reduced churn, (3) Per-day pricing communication (\"₹X/day, less than chai\"), (4) Bundling options (annual + family + offline retreats), (5) UPI auto-pay vs one-time payment trade-off, (6) Trial-to-annual flow design, (7) Win-back offer for monthly subscribers approaching churn, (8) Forecast of revenue impact across two scenarios (50% adopt vs 20% adopt annual). Format as a pricing plan launch document with go-to-market for the annual plan. Consider Indian payment behaviors: UPI mandate failures, preference for ₹500-2,500 spend bands, festival timing (Diwali offers).",
+      "tags": [
+        "pricing-strategy",
+        "annual-plan",
+        "subscription-pricing",
+        "ltv-cac"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-025",
+      "title": "Run Sensitivity Analysis on Growth Model",
+      "prompt": "Act as a growth modeler who has built financial models for Indian startups raising Series A/B. I need you to build a sensitivity analysis for my growth model. Here is the context: Indian B2C app, current 1L MAU, ₹38 lakh monthly revenue. 12-month plan assumes: organic growth 8%/month, paid growth adds 6K MAU/month at ₹350 CAC, paid conversion 12%, ARPU ₹260, monthly churn 6%. I need to know how robust this plan is. Please provide: (1) Base case month-by-month projection table (MAU, paying users, revenue, CAC spend, net), (2) Sensitivity to 5 key variables (CAC ±30%, conversion ±25%, churn ±2pp, ARPU ±15%, organic growth ±3pp), (3) Tornado chart description showing which variable matters most to revenue, (4) Two stress-test scenarios (bear: all variables 1 std dev worse; bull: 1 std dev better), (5) Cash runway impact under each scenario, (6) Three highest-leverage actions to derisk the plan, (7) Investor narrative — which assumptions to defend hardest. Format as a financial sensitivity analysis. Use Indian B2C benchmarks for sanity-checking and explicitly call out Indian seasonal effects (Diwali revenue spike, summer slowdown).",
+      "tags": [
+        "metric-analysis",
+        "growth-model",
+        "sensitivity-analysis",
+        "financial-planning"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-026",
+      "title": "Design Refer-and-Earn for Indian Fintech",
+      "prompt": "Act as a referral program designer who has worked on Groww, INDmoney, and Upstox referral campaigns. I run a digital gold investment app (₹49 minimum, 60K active investors). I need a refer-and-earn program. Here is the context: Investors are 24-40, urban Indian, share in college/office WhatsApp groups. Compliance important (SEBI, IRDAI rules on incentives for financial products). Please provide: (1) Reward structure (referrer + referee) compliant with regulations, (2) Activation criteria for reward (first ₹100 investment, KYC complete), (3) Tiered rewards encouraging multiple referrals (10, 25, 50 referrals milestones), (4) Anti-fraud (PAN dedup, IP, device, KYC mismatch detection), (5) Sharing UX with one-tap WhatsApp, custom referral link, social cards, (6) In-app gamification (referral progress bar, badges), (7) Compliance disclosures and rate limits per the SEBI advertisement code, (8) Expected viral coefficient and CAC reduction model. Format as a fintech referral program spec. Reference Groww's referral mechanic (₹100 per referral) and explain how to outperform without breaking SEBI norms.",
+      "tags": [
+        "referral-program",
+        "fintech-india",
+        "viral-loop",
+        "compliance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-027",
+      "title": "Build Growth Loops Map for Marketplace",
+      "prompt": "Act as a systems thinker who maps growth loops for marketplace startups. I run a B2B raw material marketplace for Indian textile manufacturers in Surat and Tirupur (4K active buyers, 1K active sellers, ₹22 crore monthly GMV). I need you to map all growth loops in my business and find the strongest. Here is the context: Multiple loops exist (content, referrals, sales-led, supply-driven repeat orders) but I don't know which to invest in. Please provide: (1) Map of 6-8 distinct growth loops with input → action → output → reinvestment cycle for each, (2) Loop strength score (frequency, magnitude, defensibility) for each, (3) Top 2 loops to double down on with rationale, (4) Loops to deprioritize and why, (5) Cross-loop synergies (where one loop feeds another), (6) Investment plan in INR for the top 2 loops over 6 months, (7) Metrics to track per loop, (8) Anti-patterns and ways loops can break. Format as a growth-loop document with clear diagrams described in text. Reference Indian B2B marketplace dynamics: WhatsApp-led repeat orders, language-localized seller onboarding, mandi-association partnerships.",
+      "tags": [
+        "growth-experiment",
+        "growth-loops",
+        "marketplace-growth",
+        "systems-thinking"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-028",
+      "title": "Analyze A/B Test for Statistical Validity",
+      "prompt": "Act as a statistician who reviews A/B tests for Indian growth teams. I ran a checkout button test and want you to validate the result before shipping. Here is the context: Variant A (control) — ₹699 button, 4,800 visitors, 312 purchases (6.5%). Variant B — ₹699 with \"Pay via UPI\" subline, 4,950 visitors, 358 purchases (7.23%). Test ran 11 days. We assigned via session-based randomization, not user-based. We peeked at results on day 5 and day 8. Please provide: (1) Statistical significance check with p-value and confidence interval, (2) Effect size and practical significance assessment, (3) Issues with our methodology (peeking, session randomization, day-of-week effects), (4) Sample ratio mismatch test, (5) Whether to ship, run longer, or rerun the test cleanly, (6) Indian-specific concerns (festive checkout spikes, weekend behavior, COD vs prepaid mix shifts), (7) Template for future test reads. Format as a statistical review memo. Use plain language explanations alongside the math so a founder without a stats background can act on it.",
+      "tags": [
+        "ab-test",
+        "statistical-significance",
+        "experimentation",
+        "metric-analysis"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-029",
+      "title": "Design Festive Pricing Strategy for Diwali",
+      "prompt": "Act as a festive pricing strategist who has run Diwali campaigns for Indian D2C brands and SaaS companies. I run a personal-care D2C brand (₹50 lakh monthly, 15K orders) and need a Diwali pricing strategy that lifts revenue 80% without destroying brand equity. Here is the context: Last Diwali we discounted 25% across the board and revenue grew 40%, but margin contracted heavily and AOV dropped 18%. Audience is 25-45 urban Indian women, gift-buying use case is large. Competitors run flat 30-40% discounts. Please provide: (1) Pricing architecture mixing bundles, gift sets, BOGO, and tiered discounts (avoid flat % off), (2) Three Diwali bundles with INR pricing and margin impact, (3) Anchor pricing on category pages to make discounts feel bigger, (4) Limited-edition Diwali SKUs at premium pricing, (5) Free gift / GWP thresholds tied to AOV target, (6) Discount communication that protects brand (\"festive curation\" not \"sale\"), (7) Channel-specific pricing (Amazon, Flipkart, own site, ONDC), (8) Post-Diwali return-to-normal pricing transition. Format as a 6-week Diwali pricing playbook. Use Indian D2C festive benchmarks (Mamaearth, Sugar, Plum) for context.",
+      "tags": [
+        "pricing-strategy",
+        "festive-marketing",
+        "d2c-india",
+        "diwali"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-030",
+      "title": "Build Partner Channel Growth Plan",
+      "prompt": "Act as a partnerships growth lead who has built channel motions at Razorpay, Freshworks, and Postman. I run an Indian B2B SaaS for accountants (₹2,499/month, 1,100 paying CA firms). I need you to design a partner channel that delivers 30% of new revenue in 12 months. Here is the context: Direct sales is ₹6 lakh CAC, payback 14 months. CAs talk to other CAs, ICAI events matter, Tally and Zoho integrators are natural partners. Please provide: (1) Partner archetypes (referral CAs, Tally resellers, ICAI chapters, accounting podcasts) with revenue share %, (2) Partner program tiers (Bronze/Silver/Gold) with rewards and requirements, (3) Onboarding flow for new partners (kit, training, certification), (4) Co-marketing plan (joint webinars, ICAI events, festive campaigns), (5) Tooling (PRM, attribution, payouts via UPI/Razorpay), (6) Forecast — 30 partners in 6 months delivering X revenue, (7) Risks (channel conflict, partner ghost) and mitigations, (8) Quarterly KPIs. Format as a partner channel program document. Reference Razorpay's partner program structure and adapt for the smaller CA-firm SaaS niche.",
+      "tags": [
+        "growth-experiment",
+        "channel-partnerships",
+        "b2b-saas",
+        "partner-program"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-031",
+      "title": "Analyze Paid Channel Saturation Curves",
+      "prompt": "Act as a paid media analyst with experience scaling Indian B2C startups across Meta, Google, and YouTube. I need you to analyze if my paid channels are saturating and recommend the next channel. Here is the context: Last 6 months on Meta — spend ₹8L → 12L → 18L → 25L → 32L → 38L; CAC ₹240 → 245 → 268 → 295 → 340 → 395. Google UAC — ₹3L → 5L → 7L → 9L → 11L; CAC ₹420 → 410 → 430 → 460 → 510. Conversion rates and AOV roughly stable. Please provide: (1) Saturation diagnosis per channel with curve fitting (linear, sqrt, log), (2) Estimated efficient frontier for each channel (max spend before CAC explodes), (3) Recommended budget reallocation immediately, (4) 3 next channels to test (ranked) with expected CAC and learning budget, (5) Indian channel options to test (ShareChat, Moj, JioAds, Inshorts, Hotstar, regional TV), (6) Test design per new channel (₹ budget, duration, success criteria), (7) Diversification target (no single channel >X% of CAC budget). Format as a paid media health audit. Cite Indian-specific channel CPMs and CAC ranges from publicly known benchmarks.",
+      "tags": [
+        "metric-analysis",
+        "paid-channel",
+        "channel-saturation",
+        "growth-experiment"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-032",
+      "title": "Design Welcome Bonus for First-Time Users",
+      "prompt": "Act as a growth manager designing first-time-user offers for Indian B2C apps. I run a quick-commerce grocery app in Mumbai and Pune (50K MAU, AOV ₹420, 28% repeat rate). I need to design a welcome offer that maximizes long-term LTV, not just first-order conversion. Here is the context: Today we offer flat ₹150 off on first order (cost ₹150 per signup). 65% of those users never order again. Competitors are offering ₹200-300 off. Please provide: (1) Three welcome offer designs (single big discount, two-step bonus, free product) with math, (2) Predicted impact on first-order conversion vs second-order conversion, (3) Recommended structure with rationale, (4) Eligibility rules and abuse prevention (referrals, multi-account, device fingerprinting), (5) Communication framing in Hinglish (\"pehla order free\" vs \"₹200 off\"), (6) Gating to high-margin SKUs to protect margin, (7) Test plan with ₹15L budget over 5 weeks, (8) Expected LTV impact. Format as an offer-design document. Reference Zepto, Blinkit, BigBasket welcome-offer history and what's actually known to drive repeat purchase versus one-time exploitation.",
+      "tags": [
+        "growth-experiment",
+        "welcome-offer",
+        "activation",
+        "quick-commerce"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-033",
+      "title": "Build Win-Back Campaign for Churned Indian Users",
+      "prompt": "Act as a CRM and lifecycle marketing expert with experience at Swiggy, Cult.fit, and Nykaa. I run a meal-delivery subscription (₹2,499/month for 30 meals, 15K active subs, 8% monthly churn). I need a win-back campaign for the 1,200 users who churned in the last 60 days. Here is the context: Reasons for churn — quality complaints (35%), price (25%), travel/lifestyle change (20%), competitor switch (10%), other (10%). Please provide: (1) Segmentation of churned users into 5 personas with reactivation likelihood, (2) Channel sequence per segment (WhatsApp first, email second, SMS, push, call), (3) Specific message templates in Hinglish per segment (4 messages per segment), (4) Offer architecture (no offer, soft offer, deep offer based on persona value), (5) Timing plan (Day 7, 14, 30, 45 post-churn), (6) Cost per recovery target and budget cap, (7) Reactivation success metric and how to count true \"won back\" (90-day stickiness, not just one order), (8) A/B test on 3 segments. Format as a win-back lifecycle plan. Use Indian behaviors — WhatsApp open rates dwarf email; voice calls work for older users; price-led copy underperforms quality-led copy in food.",
+      "tags": [
+        "growth-experiment",
+        "win-back",
+        "churn-recovery",
+        "lifecycle-marketing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-034",
+      "title": "Design Quarterly Growth OKRs for Startup",
+      "prompt": "Act as a head of growth setting quarterly OKRs for an Indian Series A startup. I'm the CEO of a B2C logistics SaaS (₹14L MRR, 320 customers, 7% monthly churn, ₹38L CAC payback, 5 growth team members). I need you to draft Q3 growth OKRs aligned to our Series B narrative. Here is the context: Investors expect MRR ₹25L by year-end, NRR 110%+, payback under ₹24L. Team has 12 weeks. Please provide: (1) Top-level objective (one sentence), (2) 3-4 measurable Key Results with specific INR/percentage targets, (3) For each KR — owner, baseline, target, stretch, (4) Initiatives mapped to KRs (5-7 initiatives), (5) Anti-goals (things we won't pursue this quarter to stay focused), (6) Weekly review cadence and dashboard, (7) Risks and mitigation, (8) Connection to Series B story for investors. Format as a quarterly OKR document. Use realistic Indian SaaS benchmarks: NRR 105-120% is good; magic number 0.8+ is ideal; CAC payback under 18 months for SMB SaaS.",
+      "tags": [
+        "growth-experiment",
+        "okr-planning",
+        "saas-india",
+        "metric-analysis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-035",
+      "title": "Run Multivariate Test on Landing Page",
+      "prompt": "Act as a CRO specialist with 7 years experience running multivariate tests for Indian D2C and SaaS landing pages. I want to run an MVT on my homepage. Here is the context: Indian astrology app, 1.8L monthly visitors, 3.2% signup rate. Three variables to test — Hero headline (3 versions), Hero image (2 versions: deity-led vs human-led), CTA copy (3 versions: \"Get Free Reading\", \"Talk to Astrologer\", \"Apna Bhavishya Janein\"). That's 18 combinations. Please provide: (1) MVT vs sequential A/B trade-off analysis given my traffic, (2) Sample size required for MVT to detect 10% relative lift at 95% confidence, (3) Time to result given current traffic, (4) Recommendation: full MVT, fractional factorial, or sequential A/B, (5) If sequential, the order to test variables, (6) Statistical pitfalls (interactions, p-hacking) and how to handle, (7) Cultural test variants likely to win (Hindi-led copy, deity imagery, festival timing), (8) Reporting template. Format as a CRO test plan. Note Indian users respond strongly to vernacular copy, family/devotional imagery, and price transparency.",
+      "tags": [
+        "ab-test",
+        "multivariate-testing",
+        "landing-page-optimization",
+        "growth-experiment"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-036",
+      "title": "Build Network Effects Strategy for Social App",
+      "prompt": "Act as a network-effects strategist who has studied Sharechat, Pratilipi, and Koo. I'm building an Indian creator-led social app (currently 25K DAU, 80K MAU). I need you to design a strategy to deepen network effects so that the value compounds with each new user. Here is the context: Today engagement is creator-led, 90% of users consume but don't post. Network is shallow — losing a top creator drops engagement materially. Please provide: (1) Diagnosis of which network effects exist (data, social, marketplace) and how strong, (2) Strategies to deepen each (e.g., follow graph density, comment culture, creator-fan economy), (3) Side network effects to add (chats, communities, commerce), (4) Cold-start solutions for new geography/language expansion, (5) Anti-network-effect risks (toxic content driving users away), (6) Metrics that quantify network strength (median follow count, time-to-engagement, retention by graph density), (7) 6-month plan with milestones, (8) Comparison to ShareChat's network strategy and Koo's failures. Format as a network strategy document. Reference Indian-specific dynamics: vernacular content moats, creator monetization expectations, WhatsApp as substitute network.",
+      "tags": [
+        "viral-loop",
+        "network-effects",
+        "social-app",
+        "growth-experiment"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-037",
+      "title": "Design Coupon Strategy Without Margin Damage",
+      "prompt": "Act as a margin-conscious growth marketer with experience at Tata Cliq, Myntra, and Meesho. I run an Indian D2C jewellery brand (₹1.2 crore monthly, 35% gross margin, 4K orders). My team keeps issuing flat coupons that erode margin. I need a coupon strategy that drives growth without sacrificing margin below 28%. Here is the context: Currently 40% of orders use coupons; average discount 18%. Many users wait for coupons. Please provide: (1) Diagnosis — how coupons are training my customers, (2) Coupon segmentation (new user, win-back, AOV-builder, clearance) with specific rules, (3) Coupon distribution gating (no public sitewide codes; selective channels), (4) Margin-protective coupon design (% off above ₹X cart, free gift, bundle), (5) Coupon expiry, scarcity, and personalization, (6) Margin impact projection over 6 months under new strategy, (7) Communication plan to wean off coupon-trained customers without churning them, (8) Scorecard tracking margin, AOV, full-price ratio, repeat. Format as a coupon governance document. Reference how Indian D2C brands like Mamaearth and Sugar manage discount discipline through Diwali and EOSS cycles.",
+      "tags": [
+        "pricing-strategy",
+        "coupon-strategy",
+        "margin-protection",
+        "d2c-india"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-038",
+      "title": "Plan Geographic Expansion to Tier 2 Cities",
+      "prompt": "Act as a market expansion strategist with experience taking Indian D2C and services brands from metros into Tier 2 cities. I run a beauty services aggregator (currently in Mumbai, Bangalore, Delhi, ₹1.8 crore monthly revenue). I need to plan expansion into 6 Tier 2 cities (Indore, Lucknow, Coimbatore, Chandigarh, Bhubaneswar, Visakhapatnam) over 12 months. Here is the context: Each city needs supply (50+ stylists), demand (5K+ customers), ops (1 city manager). Budget ₹6 crore. Please provide: (1) City prioritization framework with weighted scoring (population, internet penetration, disposable income, beauty service demand), (2) Sequenced launch plan — which city first, second, third, why, (3) Per-city launch playbook (supply → demand → ops, 90 days), (4) Marketing mix per city (vernacular, hyperlocal Meta, OOH, society activations), (5) Pricing adjustments for Tier 2 (15-25% lower than metros), (6) Unit economics targets and breakeven months per city, (7) Risks (low repeat, supply quality, language gaps) and mitigations, (8) Centralized vs city-team operating model. Format as a Tier-2 expansion playbook. Cite known Indian Tier 2 expansion examples (Urban Company, Lenskart, Cult.fit) and lessons.",
+      "tags": [
+        "growth-experiment",
+        "geographic-expansion",
+        "tier-2-cities",
+        "market-entry"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-039",
+      "title": "Design Loyalty Program for Indian Quick-Commerce",
+      "prompt": "Act as a loyalty program designer who has built rewards programs for Indian retail and e-commerce. I run an Indian quick-commerce app (5L MAU, AOV ₹390, 32% repeat rate, 4.2 orders/customer/year). I want to launch a paid loyalty program (Amazon Prime-style) that drives repeat rate to 50%+ and AOV up by 20%. Here is the context: Membership target ₹299/year. Competitors: Flipkart Plus (free), Amazon Prime (₹1,499), Swiggy One (₹899). Please provide: (1) Membership pricing (recommend ₹299, ₹499, or tiered) with rationale, (2) Member benefits stack (free delivery, member-only prices, priority slots, exclusive SKUs, partner perks), (3) Pricing math — is the program a profit center or loss leader, (4) Forecast — % of users adopting in 6 months and revenue impact, (5) Activation flow — how to convert one-time buyers to members at checkout, (6) Renewal mechanics with grace periods and auto-renew via UPI mandate, (7) Comparative table vs Swiggy One and Zepto Pass, (8) Risks (cannibalizing margin) and guardrails. Format as a loyalty program launch spec. Use Indian quick-commerce realities: thin margins, repeat depth matters more than acquisition.",
+      "tags": [
+        "pricing-strategy",
+        "loyalty-program",
+        "quick-commerce",
+        "retention"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    },
+    {
+      "id": "startup-founders-growth-040",
+      "title": "Build Growth KPI Dashboard for Founder",
+      "prompt": "Act as a growth analyst who has built dashboards for Indian startup CEOs. I'm a B2C founder (Indian fintech app, ₹85L MRR, 1.5L MAU). I need a single-page growth dashboard I can review daily in 10 minutes. Here is the context: Today I look at 30 metrics across Mixpanel, GA4, Razorpay, and a Sheet. I want one dashboard that surfaces what's important and hides the noise. Please provide: (1) The 12 metrics that should appear above-the-fold organized into Acquisition, Activation, Revenue, Retention, Health, (2) Specific KPI definitions (numerator/denominator/window) for each, (3) Benchmarks per metric (industry, internal target), (4) Visual treatment recommendations (sparklines, day-on-day, week-on-week, MoM), (5) Alert thresholds — values that should trigger an investigation, (6) Daily, weekly, monthly review rituals using this dashboard, (7) Tools to build it (Metabase, Mixpanel boards, Google Looker Studio) with cost trade-offs in INR, (8) Anti-pattern metrics to exclude (vanity metrics like total signups). Format as a dashboard spec. Reference what Indian fintech founders (Razorpay, Groww, CRED leadership) reportedly track daily.",
+      "tags": [
+        "metric-analysis",
+        "growth-dashboard",
+        "founder-kpi",
+        "data"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "growth"
+    }
+  ]
+}

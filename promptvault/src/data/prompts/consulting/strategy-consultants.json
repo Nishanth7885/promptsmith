@@ -1,0 +1,151 @@
+{
+  "category": "consulting",
+  "subcategory": "strategy-consultants",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "consulting-strategy-consultants-001",
+      "title": "Market Entry Analysis for Foreign Brand",
+      "prompt": "Act as a senior strategy consultant. Help a European premium luggage brand (Tumi-style) decide market entry into India. Cover: (1) market sizing (TAM, SAM 2026), (2) consumer segmentation (HNI, premium business traveller, urban millennial), (3) competitive landscape (Samsonite, American Tourister, VIP, Mokobara, Uppercase), (4) channel options (own retail + EBO, MBO, online, premium hotels), (5) pricing strategy + INR positioning, (6) localisation (Indian wedding luggage need), (7) regulatory + FDI route, (8) entry mode (subsidiary vs JV vs distributor), (9) 3-year P&L, (10) risk register. Constraints: align with FEMA + FDI policy; honest about price-point gap; cite Indian luxury market reports.",
+      "category": "consulting",
+      "subcategory": "strategy-consultants",
+      "tags": ["market-entry", "luggage", "fdi", "premium", "tam"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true
+    },
+    {
+      "id": "consulting-strategy-consultants-002",
+      "title": "Competitive Positioning Map",
+      "prompt": "Act as a strategy advisor. Build a perceptual + competitive positioning map for the Indian quick-commerce sector. Axes: price-point (premium ↔ value) × delivery-speed (10-min ↔ 60-min). Players: Zepto, Blinkit, Swiggy Instamart, BBNow, JioMart, Big Basket, Amazon Fresh. For each: (1) plot position with rationale, (2) USP, (3) cohort served, (4) economics, (5) defence + offence moves, (6) probable winner in 3-yr horizon. Constraints: data-led; cite recent funding + GMV reports; INR figures; honest about hyper-competition.",
+      "category": "consulting",
+      "subcategory": "strategy-consultants",
+      "tags": ["positioning-map", "quick-commerce", "perceptual", "blinkit", "zepto"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true
+    },
+    {
+      "id": "consulting-strategy-consultants-003",
+      "title": "Scenario Planning (Indian Macro)",
+      "prompt": "Act as a strategy planner. Build 4 scenarios for Indian economy 2026-2030 affecting an Indian capital-goods company (₹4,500 Cr revenue). Scenarios: (1) High growth (8% GDP, infra-led capex), (2) Slowing growth (5%), (3) Geopolitical disruption (oil + FX shock), (4) Climate stress. For each: assumptions, sectoral impact, our company's revenue + margin, capex decisions, talent + supply chain, M&A windows. Constraints: cite RBI + IMF + NITI Aayog projections; INR + USD; flag early indicators per scenario.",
+      "category": "consulting",
+      "subcategory": "strategy-consultants",
+      "tags": ["scenario-planning", "macro", "capital-goods", "rbi", "niti"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-strategy-consultants-004",
+      "title": "Due Diligence Report Outline (M&A)",
+      "prompt": "Act as a Big-4 M&A advisor. Build commercial due-diligence outline for acquisition target: ₹350 Cr Indian D2C beauty brand. Cover: (1) market + opportunity, (2) business model + product portfolio, (3) growth + margin trajectory + cohort + LTV/CAC, (4) channel mix (own + Amazon + Nykaa + Q-comm), (5) brand + customer perception (NPS), (6) team + capability, (7) supply chain + IP, (8) regulatory + ESG, (9) deal-killer flags, (10) value-creation roadmap (3-yr). Constraints: align with SEBI + FEMA for cross-border buyer; cite peer benchmarks (Mamaearth, Sugar, MyGlamm); honest about churn + repeat assumptions.",
+      "category": "consulting",
+      "subcategory": "strategy-consultants",
+      "tags": ["due-diligence", "m-and-a", "d2c", "ltv-cac", "deal-killer"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-strategy-consultants-005",
+      "title": "Board Presentation (5-Year Strategy)",
+      "prompt": "Act as a CXO advisor. Build a 28-slide board presentation: 5-year strategy refresh for an Indian listed company (₹6,200 Cr, listed 2018). Sections: (1) executive summary (3 slides), (2) where-we-are (5 slides — financial, market, customer, capability), (3) where-we-want-to-go (3 slides — vision, ambition, KPI), (4) where-to-play (5 slides — segments, geos, products), (5) how-to-win (5 slides — moats, capabilities, partnerships), (6) what-we-need (4 slides — capex, talent, governance), (7) ask (3 slides — board approvals + commitments). Constraints: SEBI LODR-aligned disclosures; data-led; respect promoter-led culture; INR Cr.",
+      "category": "consulting",
+      "subcategory": "strategy-consultants",
+      "tags": ["board-deck", "5-year-strategy", "where-to-play", "lodr", "cxo"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "consulting-strategy-consultants-006",
+      "title": "Pricing Strategy Optimization",
+      "prompt": "Act as a pricing strategist. Optimise pricing for an Indian B2B SaaS company (₹95 Cr ARR, 1,200 customers). Cover: (1) current pricing audit (per-seat vs usage vs flat), (2) value-based pricing redesign, (3) tier-restructure (Starter / Pro / Enterprise / Custom), (4) packaging (modular features), (5) discount + commit guardrails, (6) competitive benchmarking (Indian + global), (7) churn + upsell impact, (8) rollout phasing (new vs existing customers), (9) revenue projection +18% in year-1. Constraints: avoid customer-shock; respect grandfathering; align with SaaS unit-economics best practice; INR transparent.",
+      "category": "consulting",
+      "subcategory": "strategy-consultants",
+      "tags": ["pricing", "saas", "value-based", "tiering", "arr"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-strategy-consultants-007",
+      "title": "Adjacent Market Expansion",
+      "prompt": "Act as a growth strategist. An Indian D2C grooming brand (₹220 Cr ARR, men's care) wants to expand. Evaluate 5 adjacent options: (1) women's care (Sugar territory), (2) hair-care extension, (3) deodorant + perfume, (4) supplements + nutrition, (5) international (UAE, SE Asia). For each: market size, competitive intensity, brand permission, capability gap, capital required, expected payback, risk. Recommend top 2 with rationale + 18-month launch plan. Constraints: align with brand identity; honest about brand-stretch limits; INR Cr; respect regulatory differences (cosmetics vs nutraceuticals — FSSAI/CDSCO).",
+      "category": "consulting",
+      "subcategory": "strategy-consultants",
+      "tags": ["adjacency", "d2c", "expansion", "fssai", "cdsco"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-strategy-consultants-008",
+      "title": "Capability Build vs Buy vs Partner",
+      "prompt": "Act as a strategy advisor. An Indian retail bank wants AI-led credit underwriting. Evaluate build vs buy vs partner: (1) build (in-house ML team, 24-month timeline, ₹35 Cr), (2) buy (acquire fintech ML startup, ₹220 Cr deal), (3) partner (Paisabazaar / Lentra / Perfios — 5-year SaaS at ₹6 Cr/year). Compare on cost, time, capability, risk, IP, regulatory. Recommend with rationale. Constraints: align with RBI digital lending guidelines; cite Indian fintech case-studies; respect data-residency; honest about talent scarcity for ML in BFSI.",
+      "category": "consulting",
+      "subcategory": "strategy-consultants",
+      "tags": ["build-buy-partner", "ai-credit", "rbi", "fintech", "digital-lending"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-strategy-consultants-009",
+      "title": "ESG + BRSR Strategy",
+      "prompt": "Act as an ESG strategist. Build an ESG materiality assessment + strategy for an Indian top-100 listed company (₹12,000 Cr revenue, manufacturing). Cover: (1) double materiality (financial + impact), (2) BRSR Core 9 principles mapping, (3) sector-specific (cement / textile / chemicals / pharma — pick), (4) baseline + targets (Scope 1-2 net zero by 2050, Scope 3 reduction), (5) social (DEI + community), (6) governance (board, ethics), (7) ESG-linked remuneration, (8) reporting (CDP, TCFD, GRI), (9) investor-grade narrative. Constraints: align with SEBI BRSR Core mandate FY26; SBTi + IFRS S1-S2; honest gaps.",
+      "category": "consulting",
+      "subcategory": "strategy-consultants",
+      "tags": ["esg", "brsr-core", "sebi", "sbti", "materiality"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-strategy-consultants-010",
+      "title": "Activist Investor Defence Plan",
+      "prompt": "Act as a strategy + IR advisor. An Indian listed company faces letter from activist investor (5% stake) demanding board change + capital return. Build defence playbook: (1) understand activist demands + valuation argument, (2) board + management alignment, (3) operational rebuttal (commit to publicised KPIs), (4) capital allocation review (buyback vs dividend vs M&A), (5) shareholder communication (with-vs-against analysis), (6) proxy advisor engagement (IiAS, SES, ISS, Glass Lewis), (7) AGM strategy, (8) escalation path (legal, regulator). Constraints: align with SEBI LODR + Companies Act; respect minority shareholder rights; document for audit.",
+      "category": "consulting",
+      "subcategory": "strategy-consultants",
+      "tags": ["activist-investor", "ir", "proxy-advisor", "buyback", "lodr"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-strategy-consultants-011",
+      "title": "Innovation Pipeline Stage-Gate",
+      "prompt": "Act as innovation head. Build a stage-gate process for an Indian FMCG (₹3,200 Cr) launching 12 new products/year. Stages: (1) ideation, (2) screen, (3) concept (consumer test), (4) feasibility (technical, supply), (5) development, (6) test market, (7) commercial launch. Per stage: criteria, deliverables, investment, kill / iterate / advance, governance. Add: (a) cycle-time target (12 months avg), (b) success-rate target (40% of launches survive 12 months), (c) brand + portfolio fit. Constraints: align with FSSAI (food) / CDSCO (where applicable); INR investment per stage; honest fail-fast.",
+      "category": "consulting",
+      "subcategory": "strategy-consultants",
+      "tags": ["stage-gate", "innovation", "fmcg", "concept-test", "kill-iterate"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-strategy-consultants-012",
+      "title": "International Expansion (India → SE Asia)",
+      "prompt": "Act as international strategy advisor. An Indian SaaS company (₹140 Cr ARR) wants to expand to SE Asia (Indonesia, Vietnam, Philippines). Build plan: (1) market sizing per country, (2) buyer behaviour + sales motion (PLG vs sales-led), (3) regulatory (data, payments), (4) localisation (language, payment, tax invoice), (5) GTM (digital marketing, partner channel, BD), (6) team (local hire vs Indian export), (7) financial model 3-year, (8) capital ₹40 Cr, (9) risk + mitigation. Constraints: align with FEMA + ODI; respect cultural differences; cite Indian SaaS success stories (Freshworks, Zoho, BrowserStack); honest about Indian-built bias.",
+      "category": "consulting",
+      "subcategory": "strategy-consultants",
+      "tags": ["international-expansion", "saas", "se-asia", "fema", "plg"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    }
+  ]
+}

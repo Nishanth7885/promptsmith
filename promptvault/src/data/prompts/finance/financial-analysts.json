@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "finance-financial-analysts-001",
+      "title": "Build One-Page DCF Summary for Nifty 50 Stock",
+      "prompt": "Act as a sell-side equity analyst with 6 years experience covering Indian large-caps at a domestic brokerage like Motilal Oswal or Kotak Institutional Equities. I need you to structure a one-page DCF valuation summary for a Nifty 50 company (assume Infosys, TCS, or HDFC Bank as example). Here is the context: I cover Indian IT/BFSI and need a standardized DCF template I can reuse across my coverage universe, with INR cr figures and India-specific WACC inputs. Please provide: (1) a clean layout with explicit FY24-FY28E revenue build, EBITDA margin, and FCFF lines in ₹ cr, (2) WACC calculation showing India risk-free rate (10Y G-Sec ~7.1%), equity risk premium (6-7%), beta sourced from NSE, and cost of debt post-tax, (3) terminal value using both Gordon growth (4-5% nominal INR) and exit EV/EBITDA, (4) sensitivity table on WACC vs terminal growth, (5) bridge from enterprise value to equity value per share, (6) comparison to current NSE price and implied upside. Format the output as a markdown table followed by bullet commentary. Consider constraints: SEBI research analyst disclosure norms, INR depreciation assumption, and that terminal growth should not exceed long-term India nominal GDP growth.",
+      "tags": [
+        "dcf",
+        "valuation",
+        "nifty-50",
+        "wacc"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-002",
+      "title": "Summarize Quarterly Earnings Concall for Indian Analyst",
+      "prompt": "Act as an equity research associate with 3 years experience at an Indian brokerage (ICICI Securities, HDFC Securities, or Axis Capital) supporting a senior analyst who covers Indian FMCG or auto. I need you to produce a structured concall summary from a quarterly earnings call transcript I will paste. Here is the context: my analyst needs a 1-page readable note within 90 minutes of the call, focused on management commentary, guidance changes, and incremental data points versus the last quarter. Please provide: (1) 5-bullet key takeaways at the top, (2) revenue and margin walk versus consensus with variance in ₹ cr and bps, (3) segment-wise commentary (domestic vs exports, urban vs rural for FMCG, PV vs CV for auto), (4) guidance parsed into explicit, implicit, and withdrawn categories, (5) capex and working capital updates, (6) top 5 analyst Q&A exchanges with management tone (defensive, confident, evasive), (7) changes to our model assumptions. Format as a structured brief with headers, max 600 words. Consider constraints: SEBI insider trading norms (only use public disclosures), NSE/BSE filing timelines, and flag any material non-public information to avoid.",
+      "tags": [
+        "concall",
+        "earnings",
+        "quarterly-results",
+        "guidance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-003",
+      "title": "Construct Peer Set for Relative Valuation",
+      "prompt": "Act as an equity analyst with 4 years experience building peer comps for Indian listed companies at a domestic research house. I need you to construct a defensible peer set for relative valuation of an Indian mid-cap company (assume a specialty chemicals player like SRF, Aarti Industries, or Navin Fluorine). Here is the context: I am initiating coverage and need to justify my peer selection to my research head, using NSE/BSE listed comparables primarily and ADR/global peers only where Indian peers are thin. Please provide: (1) a 3-tier peer framework (core Indian peers, adjacent Indian peers, global peers), (2) 6-8 selection criteria (end-market overlap, product mix, margin profile, size, growth, return ratios, leverage, geographic mix), (3) a table with 8 potential peers scored on each criterion, (4) final core peer set of 4-5 names with justification, (5) key comparability adjustments needed (one-offs, accounting differences under Ind AS), (6) which multiple is most defensible (EV/EBITDA vs P/E vs EV/Sales) for this sector. Format as a markdown table plus reasoning. Consider constraints: free float and liquidity on NSE, SEBI research norms on coverage disclosures, and avoiding peers in CCI or SEBI enforcement actions.",
+      "tags": [
+        "peer-comp",
+        "relative-valuation",
+        "initiation",
+        "mid-cap"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-004",
+      "title": "Parse Management Guidance From Concall Transcript",
+      "prompt": "Act as an equity research associate with 2 years experience at Nuvama or JM Financial covering Indian capital goods. I need you to parse management guidance from a quarterly concall transcript I will paste, and classify every forward-looking statement into a structured table. Here is the context: my senior analyst wants to track guidance reliability over 8 quarters and needs every piece of guidance categorized consistently so we can back-test management credibility. Please provide: (1) a table with columns for metric, guided value, time horizon, specificity (hard number, range, directional, qualitative), confidence language used, and source page in transcript, (2) comparison to prior quarter guidance on the same metric, (3) flags for any withdrawn or softened guidance, (4) commentary on new KPIs management introduced this quarter, (5) a short paragraph on overall tone shift versus last call. Format as a structured markdown table plus a 150-word summary note. Consider constraints: only use publicly disclosed concall content on the BSE/NSE portal, avoid over-interpretation of colloquial Hindi-English phrasing, and note that SEBI LODR requires material guidance changes to be separately disclosed as stock exchange filings.",
+      "tags": [
+        "concall",
+        "guidance",
+        "earnings",
+        "management-commentary"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-005",
+      "title": "Revenue Build Template for Indian IT Services Company",
+      "prompt": "Act as a sell-side IT services analyst with 5 years experience covering TCS, Infosys, Wipro, HCLT, and Tech Mahindra at an Indian broker. I need you to design a revenue build template for an Indian Tier-1 IT services company in USD, converted to INR cr at realized rates. Here is the context: I need a reusable quarterly and annual model structure that captures the key revenue drivers Indian IT analysts track, so I can maintain 5 companies with consistency. Please provide: (1) revenue build starting from headcount, utilization, realization per employee, and pricing, (2) alternative build from vertical mix (BFSI, retail, manufacturing, healthcare, hi-tech) with organic growth rates, (3) geographic split (North America, Europe, RoW) with constant currency growth and cross-currency impact, (4) service line mix (ADM, digital, ERP, BPO, infra) with digital revenue call-out, (5) INR realization assumption and hedge impact, (6) deal TCV to revenue conversion logic. Format as a structured template with formulas explained in plain English. Consider constraints: SEBI and SEC filing differences for ADR-listed names, quarterly NSE disclosures, and that management reports constant currency growth as the primary metric.",
+      "tags": [
+        "it-services",
+        "revenue-build",
+        "financial-model",
+        "tcs"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-006",
+      "title": "WACC Calculation Framework for Indian Listed Company",
+      "prompt": "Act as a valuation analyst with 4 years experience at an Indian brokerage. I need you to walk through a defensible WACC calculation for an Indian listed company, using India-specific inputs rather than blindly applying US textbook assumptions. Here is the context: I am training a new junior analyst who keeps using US risk-free rate and Damodaran US ERP, and I need a reusable India WACC template. Please provide: (1) risk-free rate selection (10Y G-Sec yield, current ~7.1%, with rationale on why not 30Y), (2) India equity risk premium with three approaches (implied from Nifty, historical, country risk premium add-on to mature market), suggesting 6.5-7.5%, (3) beta sourcing from NSE 2Y weekly regression versus Nifty 500, with Blume adjustment, (4) cost of debt from latest NCD/bank borrowing rate in annual report plus tax shield at 25.17%, (5) target capital structure debate (current vs sector median vs management target), (6) final WACC range and sensitivity. Format as a step-by-step worked example using a real Nifty 50 name. Consider constraints: Ind AS disclosures of borrowing cost, SEBI quarterly filings, and that WACC should be in INR nominal, not real.",
+      "tags": [
+        "wacc",
+        "valuation",
+        "dcf",
+        "cost-of-capital"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-007",
+      "title": "Porter Five Forces for Indian Cement Sector",
+      "prompt": "Act as a sector analyst with 6 years experience covering Indian cement at a domestic broker, having tracked UltraTech, Shree Cement, Ambuja, ACC, and Dalmia Bharat. I need you to produce a Porter Five Forces analysis for the Indian cement sector in FY26 context. Here is the context: I am writing an initiation report and need a framework section that goes beyond textbook Porter and reflects actual Indian cement dynamics like regional pricing, limestone reserves, and freight economics. Please provide: (1) rivalry intensity with regional concentration analysis (North, South, East, West, Central), HHI by region, and pricing discipline history, (2) buyer power across trade vs non-trade channel and infrastructure buyers, (3) supplier power with petcoke, coal, and limestone mining lease dynamics, (4) threat of substitutes (fly ash, GGBS, ready-mix), (5) threat of new entrants given capex intensity at ₹550-650 cr per MTPA and MMDR Act mining lease barriers, (6) overall attractiveness rating and key monitorables. Format as a structured framework with each force rated High/Medium/Low with evidence. Consider constraints: CCI cement cartel orders, BRSR emission disclosures, and NSE-listed peer data only.",
+      "tags": [
+        "porter",
+        "cement",
+        "sector-analysis",
+        "industry-research"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-008",
+      "title": "EV/EBITDA Trading Comps Table for Indian Auto OEMs",
+      "prompt": "Act as an auto sector analyst with 5 years experience covering Indian PV, CV, and 2W OEMs at a domestic broker. I need you to build a trading comps table for Indian auto OEMs (Maruti Suzuki, M&M, Tata Motors, Bajaj Auto, Hero MotoCorp, TVS Motor, Eicher Motors, Ashok Leyland). Here is the context: I need a standardized trading comps output that I can drop into any sector note, with EV/EBITDA, P/E, and EV/Sales over FY25E and FY26E, sourced from consensus and my own estimates. Please provide: (1) market data header (CMP, market cap in ₹ cr, 52W range, ADTV), (2) financial summary (revenue, EBITDA, EBITDA margin, EPS for FY25E/FY26E in ₹ cr), (3) valuation multiples (EV/EBITDA, P/E, EV/Sales, P/B for FY25E/FY26E), (4) return ratios (RoE, RoCE, RoIC), (5) growth (revenue CAGR FY24-26E, EPS CAGR), (6) median, mean, and my target company's premium/discount to peer median with rationale. Format as a wide markdown table followed by 5-bullet observations. Consider constraints: Ind AS lease accounting impact on EBITDA, JLR consolidation for Tata Motors, and SEBI disclosure on related-party transactions.",
+      "tags": [
+        "relative-valuation",
+        "trading-comps",
+        "auto",
+        "ev-ebitda"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-009",
+      "title": "Dividend Discount Model for Indian Private Bank",
+      "prompt": "Act as a BFSI analyst with 4 years experience covering Indian private banks (HDFC Bank, ICICI Bank, Axis, Kotak, IndusInd) at a domestic brokerage. I need you to build a two-stage Dividend Discount Model structure for an Indian private bank. Here is the context: for banks, DCF is theoretically problematic because of financing, so I use DDM or residual income; I need a reusable DDM template with bank-specific drivers. Please provide: (1) explicit forecast period FY25-FY30 with NII, non-interest income, opex, PPOP, credit cost, PAT, (2) dividend payout assumption linked to CET1 capital adequacy under Basel III and RBI norms, (3) cost of equity using CAPM with India risk-free rate, beta, and ERP, (4) terminal value with sustainable RoE, payout, and growth consistent with Gordon growth constraint (g < Ke), (5) per-share value and comparison to current NSE price and P/BV multiple, (6) sensitivity on CoE and terminal RoE. Format as a step-by-step worked example with a sample Indian private bank. Consider constraints: RBI Basel III CET1 minimum of 11.5%, ICDR on capital raise, and that PSU banks would need separate treatment due to government ownership.",
+      "tags": [
+        "ddm",
+        "banks",
+        "valuation",
+        "cost-of-equity"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-010",
+      "title": "Read BRSR Disclosures for ESG Integration Into Model",
+      "prompt": "Act as an equity analyst with 5 years experience covering Indian large-caps and integrating ESG into financial models at a domestic research house. I need you to extract material ESG data points from a company's BRSR (Business Responsibility and Sustainability Report) filing under SEBI LODR and translate them into model inputs. Here is the context: BRSR is now mandatory for the top 1,000 listed companies in India and contains 9 principles with quantitative disclosures, but most analysts ignore it; I want to use it systematically. Please provide: (1) a mapping of the 9 BRSR principles to financial model line items (opex, capex, tax, cost of debt, terminal growth), (2) top 10 quantitative data points to extract (Scope 1-2-3 emissions, energy intensity, water intensity, waste, gender diversity, CSR spend, safety LTIFR, community spend, product recalls, grievances), (3) how each impacts the model (carbon price scenario on opex, green capex on capex, tax benefits on ETR), (4) red flags that justify a valuation haircut, (5) a 1-page output template. Format as a structured table. Consider constraints: SEBI LODR BRSR Core, NGRBC principles, and that BRSR Assurance is mandatory for top 150 names from FY24.",
+      "tags": [
+        "brsr",
+        "esg",
+        "disclosures",
+        "sebi"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-011",
+      "title": "CFA Level I Equity Valuation Practice Questions India Context",
+      "prompt": "Act as a CFA charterholder with 8 years of buy-side experience in India and experience tutoring CFA Level I equity candidates at Mumbai prep institutes. I need you to create 10 multiple-choice CFA Level I equity investments practice questions using Indian market examples instead of generic US ones. Here is the context: Indian candidates struggle to relate to Microsoft/Apple examples in the CFA curriculum; I want questions that use Nifty 50 companies while staying faithful to CFA Institute LOS. Please provide: (1) 10 MCQs covering DDM, FCFE, FCFF, P/E, P/B, EV/EBITDA, and market-based valuation, each with Indian company context (Infosys, HDFC Bank, Reliance, ITC, etc.), (2) each question in CFA format (vignette-lite, 3 answer choices A/B/C), (3) detailed answer with calculation shown step-by-step, (4) LOS reference from the latest CFA curriculum, (5) difficulty tag (easy/moderate/hard). Format as a numbered list with clear separation between question, answer, and explanation. Consider constraints: CFA Institute ethics on using real company names, India-specific tax rates (25.17%), and INR figures in ₹ cr for realism.",
+      "tags": [
+        "cfa",
+        "equity-valuation",
+        "practice-questions",
+        "level-1"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-012",
+      "title": "Forecast Revenue for Indian FMCG Company",
+      "prompt": "Act as a consumer sector analyst with 5 years experience covering HUL, ITC, Nestle India, Britannia, Dabur, and Marico at an Indian broker. I need you to structure a volume-price-mix revenue forecast for an Indian FMCG company for FY25-FY28. Here is the context: FMCG companies disclose UVG (underlying volume growth) and price-led growth separately, and I need a forecast framework that captures rural-urban mix, category growth, distribution expansion, and premiumisation. Please provide: (1) category-wise volume growth with rural vs urban split, referencing NielsenIQ and Kantar data patterns, (2) realization per unit with price hikes linked to RM (palm oil, wheat, milk) cost cycle, (3) mix benefit from premiumisation and new launches, (4) distribution expansion impact (direct reach, Project Shakti-style, e-commerce mix), (5) GST rate pass-through assumption, (6) sanity check against management UVG guidance from concalls. Format as a structured markdown table with FY24A, FY25E-FY28E columns. Consider constraints: rural recovery narrative, monsoon impact on rural demand, and that FMCG companies report under Ind AS with specific revenue recognition norms under Ind AS 115.",
+      "tags": [
+        "fmcg",
+        "revenue-forecast",
+        "financial-model",
+        "volume-price-mix"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-013",
+      "title": "Draft Investment Thesis Bullets for Indian Mid-Cap",
+      "prompt": "Act as an equity analyst with 4 years experience writing initiation reports on Indian mid-caps at a domestic brokerage. I need you to draft a 5-bullet investment thesis and 3-bullet key risks for an Indian mid-cap company (assume a capital goods, specialty chemicals, or CDMO pharma name with market cap ₹10,000-40,000 cr). Here is the context: my research head wants every initiation to have a sharp thesis and risk section on page 1, written in a factual, evidence-backed tone rather than promotional language. Please provide: (1) 5 thesis bullets each tied to a quantifiable driver (revenue CAGR, margin expansion bps, RoCE improvement, market share gain, capex monetisation), (2) supporting evidence for each (management commentary from concall, capex announcement on BSE/NSE, customer wins, industry data), (3) 3 risk bullets covering demand, margin, and balance sheet risks with quantified downside, (4) base/bull/bear EPS scenarios for FY27E, (5) target multiple and price. Format as a structured one-pager. Consider constraints: SEBI research analyst disclosure norms, avoiding forward-looking guarantees, and keeping promotional adjectives out of the language.",
+      "tags": [
+        "investment-thesis",
+        "mid-cap",
+        "initiation",
+        "research-report"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-014",
+      "title": "Quarterly Results Variance Table vs Consensus",
+      "prompt": "Act as a sell-side equity research associate with 2 years experience supporting a senior analyst during Indian earnings season at a domestic broker. I need you to produce a variance table comparing reported quarterly results to Bloomberg/Refinitiv consensus and our internal estimates for an Indian listed company. Here is the context: within 15 minutes of the press release hitting BSE, I need to send a flash note with headline variance, and I want a reusable template. Please provide: (1) a table with revenue, EBITDA, EBITDA margin, other income, interest, depreciation, PBT, tax rate, PAT, and EPS lines, (2) columns for reported, consensus, our estimate, variance vs consensus (₹ cr and %), variance vs our estimate, and YoY/QoQ growth, (3) a one-line reason for each major variance (volume, pricing, RM, one-off), (4) segment revenue and margin table if applicable, (5) a 3-bullet flash takeaway at the top. Format as a compact markdown table. Consider constraints: SEBI LODR requires results filing within 45 days of quarter end, press release vs detailed financial statement timing, and Ind AS segment reporting rules.",
+      "tags": [
+        "quarterly-results",
+        "variance-analysis",
+        "consensus",
+        "flash-note"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-015",
+      "title": "Credit Rating Rationale Extract Into Analyst Checklist",
+      "prompt": "Act as a credit-oriented equity analyst with 4 years experience tracking Indian corporates at a domestic broker or rating agency (CRISIL, ICRA, CARE, India Ratings). I need you to design a checklist that extracts the most decision-relevant items from a published Indian credit rating rationale for an Indian listed company. Here is the context: CRISIL/ICRA rationales are dense PDFs; I want a structured checklist that pulls the 15 most relevant data points any equity analyst should note. Please provide: (1) a 15-point checklist covering rating action, outlook, key rating drivers, strengths, weaknesses, liquidity, coverage ratios (DSCR, ISCR, Debt/EBITDA, FFO/Debt), covenants, debt maturity profile, capex plans, promoter pledge, contingent liabilities, and monitorables, (2) how each item informs an equity model input, (3) red flags that should trigger an equity rating downgrade, (4) a template output block for an equity research note. Format as a table. Consider constraints: SEBI Credit Rating Agency regulations 1999, that rating rationales are publicly disclosed on rating agency websites, and RBI's Prudential Framework for Stressed Assets.",
+      "tags": [
+        "credit-analysis",
+        "ratings",
+        "checklist",
+        "crisil"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-016",
+      "title": "Basic Sum-of-the-Parts Valuation for Indian Conglomerate",
+      "prompt": "Act as an equity analyst with 5 years experience covering Indian diversified conglomerates like Reliance Industries, Grasim, L&T, ITC, or Adani Enterprises at a domestic broker. I need you to build a basic sum-of-the-parts (SOTP) valuation framework for an Indian conglomerate with 4-6 distinct business segments. Here is the context: for diversified names, a single EV/EBITDA multiple hides value, so I want a clean SOTP template with segment-wise methodology and a holdco discount discussion. Please provide: (1) segment list with methodology choice for each (EV/EBITDA for cement, P/BV for financial services, DCF for telecom/new-energy, market price for listed subsidiaries), (2) segment FY26E EBITDA/PAT/BV in ₹ cr and applied multiple/per-share, (3) net debt allocation across segments or at parent, (4) holdco discount (10-20%) with rationale, (5) bridge to equity value per share and comparison to NSE CMP. Format as a structured SOTP table with sources. Consider constraints: listed subsidiary treatment at market cap with minority interest, Ind AS consolidation rules, and SEBI related-party transaction disclosures on inter-segment flows.",
+      "tags": [
+        "sotp",
+        "conglomerate",
+        "valuation",
+        "holdco-discount"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-017",
+      "title": "Three-Stage DCF With Explicit Capex Ramp for Indian Steel",
+      "prompt": "Act as a metals and mining analyst with 7 years experience covering Tata Steel, JSW Steel, SAIL, and Jindal Steel at a domestic broker. I need you to build a three-stage DCF for an Indian steel company with an explicit capex ramp phase, a normalization phase, and a terminal phase. Here is the context: Indian steel players are mid-cycle capex heavy (e.g., JSW and Tata Steel brownfield expansions), and a 5-year single-stage DCF under-captures FCF profile; I need a framework that handles this. Please provide: (1) Stage 1 (FY25-FY29) explicit capex cycle with volume ramp from new capacity, realisation per tonne linked to global HRC spreads, EBITDA per tonne, and negative FCF years, (2) Stage 2 (FY30-FY34) normalisation with capex normalising to 6-8% of sales and working capital release, (3) Stage 3 terminal value at mid-cycle EBITDA per tonne and 4% nominal INR growth, (4) WACC reflecting cyclical sector beta of 1.2-1.4, (5) sensitivity on HRC realisation and capex overrun, (6) cross-check with EV/tonne of replacement cost. Format as a structured model walkthrough. Consider constraints: iron ore royalty regime, coking coal import dependence, and China steel export cycle impact.",
+      "tags": [
+        "dcf",
+        "steel",
+        "capex-cycle",
+        "three-stage-dcf"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-018",
+      "title": "Residual Income Model for Indian Bank Cross-Check",
+      "prompt": "Act as a BFSI analyst with 6 years experience covering Indian private and PSU banks at a domestic broker. I need you to build a residual income (excess return) model for an Indian bank as a cross-check to my P/BV relative valuation and DDM. Here is the context: Indian bank P/BV multiples diverge widely (HDFC Bank 2.5x vs SBI 1.3x), and residual income theory ties P/BV directly to RoE-CoE spread and growth, so I want a bridge. Please provide: (1) starting book value per share from latest FY, (2) explicit forecast of RoE for 5 years with book value rollforward including capital raises and buybacks, (3) residual income = (RoE - CoE) x Book Value each year, (4) terminal residual income with fade assumption on RoE toward CoE over 10 years, (5) present value at CoE and addition to starting BV to get fair value per share, (6) implied P/BV multiple and comparison to current NSE multiple, (7) sensitivity on terminal RoE and CoE. Format as a structured worksheet with all intermediate steps. Consider constraints: RBI Basel III capital rules, dividend distribution constraints when capital is tight, and PCA framework for PSU banks.",
+      "tags": [
+        "residual-income",
+        "banks",
+        "valuation",
+        "p-bv"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-019",
+      "title": "Capacity Analysis Framework for Indian Cement Industry",
+      "prompt": "Act as a cement sector analyst with 6 years experience tracking UltraTech, Shree, Ambuja, ACC, Dalmia, JK Cement, and Ramco at a domestic broker. I need you to build a capacity analysis framework for the Indian cement industry across FY25-FY28. Here is the context: cement is a commodity where utilisation, regional demand-supply, and pricing are tightly linked, and I want a reusable framework to forecast all-India and regional utilisation, pricing, and EBITDA per tonne. Please provide: (1) all-India installed capacity, effective capacity (85% of installed), demand forecast (linked to GDP multiplier, housing, infra capex, urban vs rural mix), and implied utilisation, (2) regional split (North, South, East, West, Central) with regional utilisation and pricing differential, (3) company-level capacity addition pipeline with commissioning timelines announced on NSE/BSE, (4) EBITDA per tonne walk from pricing, petcoke/coal cost, freight, and operating leverage, (5) consolidation scenario (Adani cement acquisitions) impact on pricing discipline. Format as a structured sector model. Consider constraints: CCI orders on cement cartelisation, MMDR Act mining leases, and BRSR emissions disclosures from top listed names.",
+      "tags": [
+        "cement",
+        "capacity-analysis",
+        "sector-model",
+        "utilisation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-020",
+      "title": "Earnings Call Q&A Deep-Read With Pattern Detection",
+      "prompt": "Act as a senior equity research analyst with 8 years experience at Kotak Institutional Equities or Motilal Oswal, known for reading concall Q&A for subtle management signals. I need you to perform a deep-read of the Q&A section of an Indian earnings call transcript I paste, with pattern detection across repeated questions, deflections, and tone shifts. Here is the context: my PM clients pay for incremental insight from Q&A that most flash notes miss; I want a structured analytical output. Please provide: (1) the 5 most material Q&A exchanges with analyst name, firm, question intent, management response, and my interpretation, (2) pattern analysis on topics management deflected or refused to quantify, (3) new disclosures made for the first time versus prior calls, (4) language confidence scoring (e.g., \"confident\", \"comfortable\", \"cautiously optimistic\", \"monitoring\") mapped to a 1-5 scale, (5) contradictions with prior commentary if any, (6) 3 actionable incremental takeaways for my model. Format as a structured analytical note, 500-700 words. Consider constraints: only use publicly disclosed concall content, avoid speculating on material non-public information, and respect SEBI research analyst norms.",
+      "tags": [
+        "concall",
+        "q-and-a",
+        "deep-read",
+        "pattern-analysis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-021",
+      "title": "FCFF Walk From Ind AS P&L For Indian Company",
+      "prompt": "Act as a valuation analyst with 5 years experience building models on Indian listed companies at a domestic broker. I need you to walk me through the explicit Free Cash Flow to Firm (FCFF) calculation from an Ind AS-reported P&L and balance sheet for an Indian listed company, making every Ind AS adjustment explicit. Here is the context: junior analysts often miss Ind AS 116 lease capitalisation impact, Ind AS 109 ECL, and minority interest treatment, leading to inconsistent FCFF. Please provide: (1) starting from reported PAT, adding back depreciation and amortisation (including Ind AS 116 ROU asset depreciation), (2) adjusting for lease interest versus rental treatment if switching to pre-Ind AS 116 view for consistency, (3) adding back post-tax interest, (4) subtracting change in working capital with clean definition (excluding cash, debt, investments), (5) subtracting cash capex, (6) handling other income treatment (interest income, dividend income, mark-to-market), (7) deriving equity FCF from FCFF via net debt walk. Format as a step-by-step numeric example using ₹ cr figures. Consider constraints: Ind AS vs IFRS parity, minority interest for subsidiaries, and SEBI LODR consolidated reporting requirements.",
+      "tags": [
+        "fcff",
+        "ind-as",
+        "dcf",
+        "valuation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-022",
+      "title": "Margin Ramp Modeling for Indian Specialty Chemicals",
+      "prompt": "Act as a specialty chemicals analyst with 5 years experience covering SRF, Navin Fluorine, Aarti Industries, Deepak Nitrite, PI Industries, and Clean Science at a domestic broker. I need you to model an EBITDA margin ramp for an Indian specialty chemicals company commissioning a new capex project. Here is the context: chemical capex typically ramps over 2-3 years from commissioning with utilisation curve, product mix shift, and initial inefficiency; analysts routinely over-estimate Year 1 margins. Please provide: (1) project-level revenue ramp with utilisation curve (30% Y1, 60% Y2, 85% Y3), (2) EBITDA margin path with trough-to-steady-state (often 800-1200 bps ramp), (3) separation between fixed cost absorption and variable contribution effects, (4) cross-check with management stated peak margins on concall, (5) blended company EBITDA margin walk including legacy business, (6) sensitivity on utilisation and pricing. Format as a time-series table with clear assumptions. Consider constraints: Ind AS 16 capitalisation of initial ramp losses, REACH and EPA regulatory delays, and China-plus-one customer qualification timelines typically 12-24 months.",
+      "tags": [
+        "specialty-chemicals",
+        "margin-ramp",
+        "capex",
+        "financial-model"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-023",
+      "title": "NIM Walk for Indian Bank With Rate Cycle Sensitivity",
+      "prompt": "Act as a BFSI analyst with 6 years experience covering Indian banks across rate cycles at a domestic broker. I need you to build a NIM walk framework for an Indian private bank across a rising-then-easing rate cycle (FY25-FY27), reflecting RBI repo rate actions. Here is the context: Indian bank NIMs are asymmetric across cycles due to asset-liability mix, EBLR (external benchmark-linked rate) loans, MCLR-linked loans, and CASA repricing lag; I want a structured walk. Please provide: (1) asset-side yield walk (EBLR loans, MCLR loans, fixed corporate, retail fixed) linked to repo, (2) liability cost walk (CASA, term deposits, borrowings, tier-II bonds) with repricing lag, (3) NIM bridge decomposing change into yield, cost of funds, LDR, and CASA share, (4) sensitivity to 25 bps repo change with asymmetric impact, (5) comparison framework for private vs PSU bank NIM behavior, (6) tie to PPOP and credit cost normalization. Format as a clean NIM walk table. Consider constraints: RBI EBLR framework since Oct 2019, CRR-SLR requirements, and RBI's IRRBB (interest rate risk in banking book) guidelines.",
+      "tags": [
+        "banks",
+        "nim",
+        "rate-cycle",
+        "bfsi"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-024",
+      "title": "Build Operating Model for Indian Hospital Chain",
+      "prompt": "Act as a healthcare sector analyst with 5 years experience covering Apollo Hospitals, Max Healthcare, Fortis, Narayana, and KIMS at an Indian broker. I need you to design an operating model structure for an Indian hospital chain with multiple hospital vintages. Here is the context: hospital economics depend on ARPOB (average revenue per occupied bed), occupancy, ALOS (average length of stay), and hospital vintage (new hospitals take 3-5 years to mature); I want a hospital-by-hospital model. Please provide: (1) hospital list split by vintage (mature, ramp-up, new), (2) bed capacity, operational beds, occupancy %, ALOS, and ARPOB per hospital with vintage-linked assumptions, (3) payer mix (cash, insurance, PSU schemes, international) and its impact on ARPOB, (4) EBITDA margin by vintage (mature 25-28%, ramp 15-20%, new 0-10%), (5) network-level blended EBITDA walk, (6) capex pipeline and commissioning schedule from announced BSE/NSE filings. Format as a hospital-level table feeding into consolidated P&L. Consider constraints: NABH accreditation, PMJAY rate caps, state-level price controls (e.g., Delhi), and Ind AS 115 revenue recognition for insurance receivables.",
+      "tags": [
+        "hospitals",
+        "operating-model",
+        "healthcare",
+        "arpob"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-025",
+      "title": "Value Chain Analysis for Indian EV Ecosystem",
+      "prompt": "Act as an auto and industrials analyst with 5 years experience covering Indian EV ecosystem (Tata Motors EV, M&M Electric, Ola Electric, TVS, Bajaj, Ather, Exide, Amara Raja, battery makers, charging infra) at a domestic broker. I need you to produce a value chain analysis of the Indian EV ecosystem, mapping economics and listed investable names at each node. Here is the context: investor interest in EVs is high but unstructured; I want a clean value chain framework showing which nodes capture economic rent and which are commoditised. Please provide: (1) value chain nodes (raw material, cell, battery pack, motor, power electronics, OEM, dealer, charging, finance, recycling), (2) Indian vs imported sourcing share at each node, (3) gross margin and RoCE profile of each node based on public data, (4) listed Indian names mapped to each node with rationale on investability, (5) policy support at each node (FAME II, PLI ACC, PLI Auto Components), (6) 3-year investment attractiveness ranking. Format as a value chain diagram described in text plus a summary table. Consider constraints: MHI PLI scheme timelines, state EV policies, and Ind AS 115 on warranty and battery replacement obligations.",
+      "tags": [
+        "ev",
+        "value-chain",
+        "sector-analysis",
+        "auto"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-026",
+      "title": "Reconcile Street Consensus vs Bottom-Up Model",
+      "prompt": "Act as a sell-side analyst with 6 years experience covering Indian mid-caps at a domestic broker whose estimates often diverge materially from Bloomberg consensus. I need you to design a structured reconciliation between my bottom-up model and the sell-side consensus for an Indian listed mid-cap. Here is the context: when I am 10-15% above or below consensus on FY26 EPS, I need to articulate exactly where the delta is so sales can pitch the call. Please provide: (1) a reconciliation table walking from consensus revenue to my revenue (volume delta, pricing delta, mix delta, forex delta, inorganic delta) in ₹ cr, (2) same walk for EBITDA (gross margin, employee cost, other opex), (3) below-EBITDA walk (depreciation, interest, tax rate, other income), (4) final EPS bridge with ₹/share impact of each driver, (5) a 1-page narrative explaining the 2 most material differences with supporting evidence, (6) a check on how many consensus analysts I would need to convince to move to my number. Format as a structured walk plus narrative. Consider constraints: Bloomberg consensus definition (mean, median, mode), SEBI research analyst disclosure on estimate revisions, and avoiding non-public information.",
+      "tags": [
+        "consensus",
+        "reconciliation",
+        "earnings-model",
+        "street-view"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-027",
+      "title": "Working Capital Cycle Forecast for Indian Exporter",
+      "prompt": "Act as an equity analyst with 5 years experience covering Indian exporters (pharma, textiles, chemicals, engineering) at a domestic broker. I need you to build a working capital cycle forecast for an Indian exporter with 60-70% export revenue. Here is the context: exporters have longer receivable days due to international customers, FX hedging, ECGC coverage, and packing credit funding; analysts often model flat WC days and miss the cyclicality. Please provide: (1) historical WC cycle decomposition (inventory days, receivable days, payable days, net WC days) over 8 quarters, (2) segmentation of receivables by geography (US, EU, RoW) with payment terms, (3) packing credit and export bill discounting impact on effective WC funding, (4) FX hedge book disclosure from notes to accounts and P&L impact, (5) 3-year forecast of WC cycle with volume growth and geography mix changes, (6) cash conversion cycle comparison to global peers, (7) sensitivity of FCF to 10-day change in WC. Format as a structured forecast table. Consider constraints: RBI export credit refinancing norms, Ind AS 109 ECL on trade receivables, and SEBI LODR disclosures on FX hedging.",
+      "tags": [
+        "working-capital",
+        "exports",
+        "financial-model",
+        "fcf"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-028",
+      "title": "Transaction Comps for Indian M&A Deal",
+      "prompt": "Act as an M&A-focused equity analyst with 6 years experience at a domestic broker tracking Indian deal activity in sectors like pharma, consumer, and chemicals. I need you to build a transaction comps table for an announced Indian M&A deal to back out the implied multiple and compare it to trading comps. Here is the context: when a strategic deal is announced on BSE/NSE, I need to quickly assess whether the deal multiple is rich or cheap versus trading comps and historical transaction benchmarks, to inform my target price for the acquirer. Please provide: (1) deal summary (announced date, acquirer, target, stake, consideration mix cash/stock/earnout, ₹ cr), (2) target TTM financials (revenue, EBITDA, PAT) from annual report or RHP, (3) implied EV/EBITDA, EV/Sales, P/E on TTM and forward, (4) comparison to 5 precedent Indian transactions in same sector over 3 years, (5) trading comps for listed peers, (6) premium/discount of transaction multiple to trading comps with control premium narrative, (7) accretion/dilution analysis for acquirer EPS. Format as a transaction comps one-pager. Consider constraints: SEBI SAST (Takeover Code), CCI clearance timelines, and Ind AS 103 business combination accounting for goodwill and PPA.",
+      "tags": [
+        "transaction-comps",
+        "m-and-a",
+        "deal-multiples",
+        "precedent-transactions"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-029",
+      "title": "Build Bear-Case Scenario for High-PE Indian Stock",
+      "prompt": "Act as a sell-side analyst with 7 years experience covering Indian quality compounders trading at premium multiples (Asian Paints, Pidilite, Nestle India, HDFC AMC, etc.) at a domestic broker. I need you to build a rigorous bear-case scenario for a high-PE Indian stock to stress-test the premium multiple. Here is the context: these stocks often trade at 55-80x PE on FY26E and any compression hurts; I need a disciplined bear case I can defend to my PM clients who question the premium. Please provide: (1) 5 bear-case assumptions (slower volume growth, margin compression from competition/RM, distribution disruption from quick commerce, promoter action, regulatory risk), (2) P&L build for FY26 and FY27 under bear case versus base case with bps and ₹ cr deltas, (3) bear-case EPS and target multiple (typically 30-40% discount to 5Y mean), (4) bear-case target price and downside to CMP, (5) probability-weighted expected return combining base/bull/bear, (6) the 3 monitorables that would trigger moving to bear case. Format as a structured scenario note. Consider constraints: SEBI research analyst disclosure, avoiding sensationalism, and evidence-based assumptions tied to public disclosures.",
+      "tags": [
+        "scenario-analysis",
+        "bear-case",
+        "high-pe",
+        "stress-test"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-030",
+      "title": "Unit Economics Framework for Indian Quick Commerce",
+      "prompt": "Act as an internet and new-economy analyst with 4 years experience covering Indian listed and pre-IPO quick commerce and e-commerce names (Zomato/Blinkit, Swiggy/Instamart, Zepto) at a domestic broker. I need you to build a unit economics framework for an Indian quick commerce business at the dark store level. Here is the context: street models vary wildly because orders/day, AOV, take rate, delivery cost per order, and contribution margin are disclosed inconsistently; I want a clean framework. Please provide: (1) revenue build per dark store (orders/day, AOV in ₹, take rate, ads revenue), (2) variable cost build (product COGS, delivery partner payout, packaging, payment gateway, last-mile logistics), (3) fixed cost build (rent, staff, utilities, depreciation), (4) contribution margin at store level and path to EBITDA breakeven at what order density, (5) cohort analysis by store vintage, (6) scale test from 500 to 1,500 stores and its impact on overheads leverage. Format as a store-level unit economics table feeding into consolidated P&L. Consider constraints: Ind AS 115 revenue recognition on platform vs inventory model, FDI norms on e-commerce inventory-based models, and disclosure conventions in DRHP filings.",
+      "tags": [
+        "unit-economics",
+        "quick-commerce",
+        "internet",
+        "new-economy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-031",
+      "title": "Forensic Red Flag Checklist for Indian Annual Report",
+      "prompt": "Act as a forensic-minded equity analyst with 8 years experience who has flagged accounting concerns on Indian listed companies at a domestic broker. I need you to build a forensic red flag checklist for reading an Indian company's annual report under Ind AS. Here is the context: post-incidents like Yes Bank, IL&FS, DHFL, Vakrangee, and Gensol, buyside clients ask for explicit forensic screens; I want a 20-item checklist tuned for Indian filings. Please provide: (1) 20 red flag items across revenue quality (round-trip, channel stuffing, days sales outstanding), expense quality (capitalised vs expensed, RM/employee cost volatility), balance sheet (contingent liabilities, off-balance sheet, related-party transactions, auditor comments), cash flow (OCF vs PAT divergence, FCF drought), governance (promoter pledge, auditor change, resignation of independent directors, SEBI enforcement), and disclosures (segment reporting, ESOP accounting, tax disputes), (2) where in the annual report to find each, (3) scoring rubric to aggregate findings, (4) action to take when a red flag is confirmed. Format as a table. Consider constraints: SEBI LODR, Companies Act 2013 Section 143 auditor reporting, NFRA orders, and Ind AS 24 related party disclosures.",
+      "tags": [
+        "forensic",
+        "red-flags",
+        "annual-report",
+        "accounting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-032",
+      "title": "Event-Driven Analysis of SEBI Regulatory Change",
+      "prompt": "Act as an event-driven analyst with 5 years experience tracking SEBI, RBI, TRAI, and IRDAI regulatory actions and their impact on Indian listed companies. I need you to build a structured event-driven analysis template for a newly announced SEBI circular or RBI draft guideline. Here is the context: regulatory events like SEBI F&O margin changes, RBI credit card rules, or IRDAI surrender charge rules materially impact listed names and I want a consistent analytical frame. Please provide: (1) regulation summary in 5 bullets (what changed, effective date, transition period, scope), (2) impacted listed names with primary and secondary exposure tagged, (3) quantified P&L impact on each name (revenue at risk, margin impact, one-time cost) in ₹ cr, (4) offsetting factors (repricing ability, substitution, already reflected in guidance), (5) historical precedent where SEBI/RBI revised or diluted final rules post-consultation, (6) trade implications (upgrades, downgrades, pair trades), (7) key monitorables (final notification, clarification circulars). Format as a structured event note. Consider constraints: SEBI consultation paper vs final regulation lifecycle, SEBI LODR Reg 30 material disclosure timelines, and research analyst norms on speculating.",
+      "tags": [
+        "event-driven",
+        "regulation",
+        "sebi",
+        "policy-analysis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-033",
+      "title": "Multi-Stage DCF With Fade for Indian Moat Compounder",
+      "prompt": "Act as a fundamental analyst with 10 years experience covering Indian quality franchises (Asian Paints, Pidilite, Bajaj Finance, Titan, Nestle India) at a buy-side domestic asset manager. I need you to build a multi-stage DCF with an explicit competitive fade assumption for an Indian moat compounder currently earning RoIC of 30-50%. Here is the context: assuming perpetual excess returns is aggressive; assuming immediate fade is too conservative; I want an economic fade model consistent with McKinsey Valuation / Mauboussin frameworks but tuned for Indian reality where moats in paints, adhesives, or jewellery have held for 20+ years. Please provide: (1) Stage 1 explicit 10-year forecast with RoIC, reinvestment rate, and growth tied to value-creation identity g = RoIC * RR, (2) Stage 2 15-year fade where RoIC linearly declines toward WACC + 200 bps, (3) terminal value on faded RoIC with 4% nominal INR growth, (4) implied P/E, EV/EBITDA, and P/B cross-check with current NSE multiples, (5) sensitivity on fade period length (5, 15, 25 years), (6) identification of where the majority of value sits (explicit, fade, terminal), (7) narrative tying fade rate to identified competitive threats. Format as a structured DCF walkthrough. Consider constraints: Indian competition dynamics, FDI thresholds, and Ind AS consolidation.",
+      "tags": [
+        "dcf",
+        "fade-dcf",
+        "moat",
+        "compounder"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-034",
+      "title": "Monte Carlo Simulation of Terminal Value Assumptions",
+      "prompt": "Act as a quantitative equity analyst with 7 years experience building probabilistic DCF models for Indian listed companies at a domestic broker. I need you to specify a Monte Carlo simulation framework to stress-test terminal value assumptions for an Indian cyclical (steel, cement, or capital goods). Here is the context: point-estimate DCFs hide the fact that terminal value often accounts for 60-75% of enterprise value and is highly sensitive to g and WACC; I want a distributional approach to present to my PMs. Please provide: (1) specification of probability distributions for key inputs (terminal growth, terminal EBITDA margin, WACC, reinvestment rate), with Indian-context ranges and rationale, (2) correlation structure between inputs (e.g., growth and reinvestment), (3) simulation design (number of trials, random seed, sampling method), (4) output distributions (EV, equity value per share) with mean, median, 5th-95th percentile, (5) interpretation framework (at what percentile does current NSE CMP sit?), (6) sensitivity of output to specific input distributions, (7) pitfalls to avoid (independence assumption, fat tails, model risk). Format as a methodology spec with a worked numeric example. Consider constraints: SEBI research norms on probabilistic disclosures, avoiding over-precision, and Indian cyclical sector volatility benchmarks.",
+      "tags": [
+        "monte-carlo",
+        "dcf",
+        "terminal-value",
+        "probabilistic"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-035",
+      "title": "Reverse DCF to Back Out Market-Implied Growth",
+      "prompt": "Act as a senior equity analyst with 9 years experience using reverse DCF to challenge market prices on Indian high-multiple names at a buy-side fund. I need you to build a reverse DCF for an Indian listed company trading at 70-90x forward PE to back out the growth and RoIC the market is implying. Here is the context: forward DCF on premium names requires heroic assumptions; reverse DCF flips the problem and asks \"what does the CMP require?\", which is more defensible to an investment committee. Please provide: (1) starting from current NSE CMP and shares outstanding to get equity value, (2) adding net debt (from latest quarterly SEBI filing) to get enterprise value, (3) fixed WACC with India inputs, (4) fixed terminal growth (4% nominal INR), (5) solving for either 10-year EBITDA CAGR or a composite growth-RoIC pair needed to justify EV, (6) comparison of implied growth to last 10-year actual, management guidance, and industry long-term growth, (7) conclusion on whether price is asking for plausible, heroic, or absurd performance. Format as a structured reverse DCF output with narrative. Consider constraints: SEBI research analyst disclosure norms, INR nominal conventions, and avoiding selection bias in historical growth comparisons.",
+      "tags": [
+        "reverse-dcf",
+        "market-implied",
+        "high-multiple",
+        "valuation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-036",
+      "title": "Holding Company Discount Analysis for Indian Holdcos",
+      "prompt": "Act as an equity strategist with 8 years experience analysing Indian listed holding companies (Bajaj Holdings, Pilani Investments, Tata Investment, Kalyani Investment, Maharashtra Scooters, BF Investment) at a domestic asset manager. I need you to build an analytical framework explaining and forecasting the holdco discount in India. Here is the context: Indian holdcos trade at 40-80% discounts to NAV, far wider than global averages, and clients repeatedly ask whether these discounts ever close. Please provide: (1) NAV build for a sample holdco (listed stakes at CMP, unlisted stakes at book, net cash), (2) historical discount range and mean reversion analysis over 10 years, (3) drivers of discount (liquidity, tax inefficiency at operating-co dividend to holdco, Section 115BBDA / DDT history, lack of monetisation catalysts, promoter control), (4) catalysts that have historically narrowed discounts (demerger, buyback, SEBI delisting route, liquidation), (5) regulatory constraints on holdco restructuring (SEBI SAST, Section 2(22)(e) deemed dividend, Income Tax Act capital gains), (6) return-to-target framework (base/bull/bear discount assumption and expected return). Format as a structured framework. Consider constraints: SEBI SAST Regulations 2011, Companies Act 2013 on schemes of arrangement, and Ind AS 110 consolidation.",
+      "tags": [
+        "holdco-discount",
+        "holding-company",
+        "nav",
+        "valuation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-037",
+      "title": "Integrated Residual Income And DCF Cross-Check",
+      "prompt": "Act as a senior valuation analyst with 10 years experience at an Indian buy-side fund. I need you to build an integrated valuation that reconciles DCF (FCFF-based) and residual income (ROIC spread-based) valuation for the same Indian listed company, showing they are mathematically identical under consistent assumptions. Here is the context: junior analysts often treat DCF and residual income as separate methodologies, which causes silent inconsistencies in NOPAT, reinvestment, and terminal; I want a unified model that forces consistency. Please provide: (1) starting income statement and balance sheet rebuilt on invested capital basis (NOPAT, invested capital, ROIC), (2) reinvestment rate tied to growth and ROIC (g = ROIC * RR), (3) explicit forecast period with both FCFF = NOPAT - reinvestment and economic profit = (ROIC - WACC) * IC, (4) PV of FCFF = invested capital + PV of economic profit identity, (5) terminal value using both approaches converging to the same number, (6) a reconciliation table showing equivalence, (7) diagnostic tests where the two approaches disagree indicating an inconsistency to fix. Format as a structured reconciliation with numeric example in ₹ cr. Consider constraints: Ind AS NOPAT adjustments, India WACC inputs, and avoiding double-count of synergies.",
+      "tags": [
+        "residual-income",
+        "dcf",
+        "economic-profit",
+        "reconciliation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-038",
+      "title": "Structural Margin Analysis for Indian Pharma CRDMO",
+      "prompt": "Act as a pharma analyst with 8 years experience covering Indian CRDMO and API players (Divi's, Syngene, Piramal Pharma, Laurus Labs, Suven Pharma, Sai Life) at a domestic broker. I need you to build a structural margin analysis framework for an Indian CRDMO company to separate cyclical from structural margin drivers. Here is the context: CRDMO margins swing 300-500 bps over cycles due to customer project timing, BD win rate, capacity utilisation, and INR/USD, and analysts often extrapolate trough or peak margins incorrectly. Please provide: (1) 10-year historical EBITDA margin decomposition (gross margin, employee cost, other opex, each as % sales), (2) separation of structural drivers (mix toward commercial supply vs development, customer concentration, molecule complexity) from cyclical drivers (utilisation, operating leverage, INR realisation, RM cost), (3) normalisation of reported margin by cycle position using regression or moving-average, (4) forward margin path tied to disclosed capex ramp and customer pipeline, (5) benchmarking against global CDMO peers (Lonza, Catalent, WuXi), (6) identification of inflection signals (capex commissioning, RFP win, regulatory audit outcome). Format as a structured margin analysis. Consider constraints: BIOSECURE-related demand shifts, USFDA audit status, and Ind AS 20 government grants treatment for PLI incentives.",
+      "tags": [
+        "pharma",
+        "crdmo",
+        "margin-analysis",
+        "structural"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-039",
+      "title": "Optionality Valuation for Indian New Energy Bets",
+      "prompt": "Act as a fundamental analyst with 8 years experience valuing optionality in Indian conglomerates with new energy bets (Reliance New Energy, Adani New Industries, JSW Neo, L&T Green, NTPC Green, ReNew, Tata Power Renewables) at a domestic broker. I need you to build a real-options valuation framework for a nascent new energy business embedded within a listed Indian conglomerate. Here is the context: standard DCF under-values optionality because it treats future investment decisions as committed; real options better capture staged capex and abandonment flexibility. Please provide: (1) framing the investment as a sequence of options (exploration, pilot, scale-up, abandonment), (2) identifying the underlying asset value (PV of operating cash flows), strike price (capex commitment), volatility estimate (commodity or power price), time to expiration (project lifecycle), and risk-free rate, (3) Black-Scholes or binomial lattice approach with inputs justified, (4) comparison of real-option value vs standard DCF NPV to quantify the optionality premium, (5) how to embed this in SOTP for the parent conglomerate, (6) sensitivity to volatility and strike, (7) caveats on misuse of real options (double-counting, flexibility that doesn't exist). Format as a methodology spec with numeric example in ₹ cr. Consider constraints: MNRE policy volatility, PPA tariff ceilings, and Ind AS 16 vs 38 on R&D capitalisation.",
+      "tags": [
+        "real-options",
+        "new-energy",
+        "optionality",
+        "sotp"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    },
+    {
+      "id": "finance-financial-analysts-040",
+      "title": "End-to-End Initiation Report Outline With India Depth",
+      "prompt": "Act as a senior equity research analyst with 12 years experience publishing initiation reports on Indian listed companies at Motilal Oswal, Kotak, or ICICI Securities. I need you to produce the detailed outline (not full text) for a 60-page initiation report on an Indian mid-cap, reflecting the structural depth that top sell-side reports exhibit. Here is the context: junior analysts draft shallow initiations; I want an outline template my team can reuse that goes beyond \"company-industry-financials-valuation\" and reflects Indian-specific disclosures and frameworks. Please provide: (1) full table of contents with section, sub-section, and page count, covering executive summary, investment thesis, valuation and target, company overview, promoter and governance, business segments, TAM and industry, competitive positioning (Porter, value chain), financial analysis (5-year quality of earnings, WC cycle, capital allocation, return ratios, forensic screen), ESG/BRSR integration, forecast (revenue build, margin ramp, capex, WC, debt, dividend, buyback), valuation (DCF, DDM/RI if bank, relative comps, SOTP, reverse DCF, scenario), risks, annexures (management bios, shareholding, peer data, disclosure statement), (2) key charts/tables per section, (3) data sources per section (annual report, BRSR, concall transcript, BSE filings, rating rationale, industry body data), (4) SEBI research analyst disclaimer block. Format as a detailed outline with page ranges. Consider constraints: SEBI (Research Analysts) Regulations 2014, LODR, and buyside reader expectations.",
+      "tags": [
+        "initiation-report",
+        "research-outline",
+        "equity-research",
+        "template"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "financial-analysts"
+    }
+  ]
+}

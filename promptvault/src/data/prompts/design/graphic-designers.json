@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "design-graphic-designers-001",
+      "title": "Decode Client Brief into Design Direction",
+      "prompt": "Act as a senior graphic designer with 8 years of experience at a Mumbai-based agency like Elephant Design or Ideaspice. I have received a client brief from a Bengaluru D2C skincare brand launching an Ayurvedic face oil range priced at Rs. 1,299. The brief mentions \"premium yet approachable, rooted in Indian heritage but contemporary.\" I need you to decode this brief into a concrete design direction. Please provide: (1) Three distinct visual territories with mood board descriptors (materials, textures, references), (2) Suggested design principles (minimal vs maximal, symmetric vs asymmetric), (3) A shortlist of Indian cultural cues that fit without looking touristy (avoid cliche paisleys, mandalas), (4) Recommended art direction for product photography, (5) Key visual DONTs based on the brief's tone. Format the output as a structured creative brief response with headings for each section. Consider constraints: client has Rs. 8 lakh design budget, needs to work across Amazon, Nykaa, Instagram, and offset-printed cartons from a Sivakasi printer. Highlight where brief language is ambiguous and which questions I should send back to the client before starting concept development.",
+      "tags": [
+        "brief-interpretation",
+        "design-direction",
+        "d2c-brands",
+        "creative-strategy"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-002",
+      "title": "Generate Culturally Resonant Color Palette",
+      "prompt": "Act as a brand identity designer with 6 years of experience working with Indian FMCG and D2C brands. I am designing the visual identity for a Chennai-based filter coffee brand targeting urban millennials across Tier-1 Indian cities. The brand positioning is \"unapologetically South Indian, proudly modern.\" I need you to generate a culturally resonant color palette. Please provide: (1) A primary palette of 5 colors with HEX, RGB, CMYK values and Pantone equivalents suitable for Indian offset printing, (2) Cultural rationale for each color referencing South Indian visual traditions (Tanjore, Chettinad, temple architecture, filter coffee tumblers), (3) WCAG AA accessibility contrast pairings for digital use, (4) A secondary accent palette of 3 colors for festive campaigns (Pongal, Diwali), (5) Specific colors to AVOID and why (saffron political connotations, etc.), (6) Print warnings for colors that shift on uncoated kraft board used by Indian packaging suppliers. Format the output as a palette specification document. Consider constraints: must work on matte-laminated coffee pouches, Instagram reels, and Swiggy Instamart tile thumbnails, and must not visually clash with competitor Levista and Narasus packaging on the same retail shelf.",
+      "tags": [
+        "color-palette",
+        "brand-identity",
+        "cultural-design",
+        "accessibility"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-003",
+      "title": "Pair Devanagari and Latin Typefaces",
+      "prompt": "Act as a typography specialist with experience designing bilingual identity systems for Indian brands. I am designing a logo and brand system for a Delhi-based artisanal ghee brand that needs to display both Hindi (Devanagari) and English equally prominently on packaging sold at Nature's Basket and Modern Bazaar. I need you to recommend typography pairings. Please provide: (1) Three pairings of a Latin display typeface with a matching Devanagari typeface (include Noto Sans Devanagari, Mukta, Yatra, Akshar, Kohinoor Devanagari as options), (2) X-height and optical size compatibility notes, (3) Licensing cost and commercial usage rights in INR, (4) Where to download or purchase legally (Google Fonts, ITF, Indian Type Foundry), (5) Sample usage across logo, product name, ingredients list, nutrition panel. Format the output as a typography recommendation deck. Consider constraints: packaging will be printed at a Noida offset printer at 300 dpi, text must remain legible at 6pt for ingredient lists per FSSAI labeling requirements, and the brand owner prefers warm, traditional but not dated aesthetics.",
+      "tags": [
+        "typography",
+        "devanagari",
+        "bilingual-design",
+        "packaging"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-004",
+      "title": "Critique Social Media Layout",
+      "prompt": "Act as an art director with 7 years of experience reviewing junior designer work at a Mumbai agency. I will describe an Instagram carousel layout I have designed for a Pune-based fintech startup announcing their new UPI autopay feature. The carousel has 6 slides: cover with product shot, 4 feature slides with icon + headline + body, and a CTA slide. I am using Inter for English and Mukta for Hindi, a blue and white palette, and left-aligned text. I need you to critique this layout. Please provide: (1) Composition and hierarchy issues, (2) Spacing and grid problems, (3) Typography legibility concerns especially for Hindi co-setting, (4) Color accessibility check for Indian users viewing on budget Android devices with low-brightness screens, (5) Cultural appropriateness of iconography, (6) Specific changes with priority (must-fix, should-fix, nice-to-have), (7) Two alternate layout directions. Format the output as a structured design review document like a senior designer would write in Figma comments. Consider constraints: must follow RBI guidelines on fintech advertising, must not mimic Google Pay or PhonePe's visual system, and must be reviewable by a non-design founder.",
+      "tags": [
+        "layout-critique",
+        "design-review",
+        "social-media",
+        "fintech"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-005",
+      "title": "Client Presentation Talking Points for Logo Concepts",
+      "prompt": "Act as a brand strategist and designer with experience presenting concepts to Indian SME founders who are not design-literate. I have created three logo concept routes for a Jaipur-based handblock printed apparel brand called \"Chhapai\" that will be presented to the founders (a husband-wife team, first-generation entrepreneurs). I need you to write client presentation talking points. Please provide: (1) Opening framing that sets expectations without design jargon, (2) Storytelling narrative for each of the three routes tying back to their brand brief, (3) Rationale for each design decision translated into business benefit (recall, differentiation, scalability), (4) Anticipated founder questions with prepared responses (e.g., \"Can we make the logo bigger?\", \"Why is there so much white space?\"), (5) Decision-making framework to help them choose without design degrees, (6) Next steps and timeline. Format the output as a presenter's script with slide-by-slide speaker notes. Consider constraints: the presentation will be conducted in Hinglish over a 90-minute Google Meet, the founders will likely loop in their adult children for opinions, and budget for revisions is limited to 2 rounds.",
+      "tags": [
+        "client-presentation",
+        "logo-design",
+        "presentation-skills",
+        "sme-clients"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-006",
+      "title": "Interpret Vague \"Make it Premium\" Brief",
+      "prompt": "Act as a creative director with 10 years of experience handling Indian client feedback. A Hyderabad-based real estate developer has asked me to redesign their brochure to \"look more premium\" for a luxury villa project priced at Rs. 4.5 crore onwards. The existing brochure uses gold gradients, marble textures, and Trajan Pro headings. I need you to interpret this vague brief into a concrete design plan. Please provide: (1) A decoded interpretation of what \"premium\" likely means in their context vs global standards, (2) A visual audit checklist for the existing brochure's problems, (3) Five design moves that signal premium without cliches (gold, marble, Trajan), (4) Paper stock, finish, and bindery recommendations from Indian print suppliers in Hyderabad/Chennai, (5) Photography direction (what to shoot, what to avoid), (6) Clarifying questions to send back to the client. Format the output as a design director's internal planning document. Consider constraints: target buyers are NRIs and senior executives at Hyderabad IT firms, print run is 2,000 copies, unit cost ceiling is Rs. 180 per brochure, and the developer's sales team will hand these out at property expos.",
+      "tags": [
+        "brief-interpretation",
+        "real-estate",
+        "premium-design",
+        "print-design"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-007",
+      "title": "Diwali Festival Campaign Color System",
+      "prompt": "Act as a seasonal campaign designer for an Indian e-commerce platform. I am designing the Diwali 2026 campaign visual identity for a homegrown Mumbai marketplace selling home decor and gifting products. I need you to build a festival color system that feels fresh and not generic. Please provide: (1) A hero palette of 6 colors inspired by regional Diwali traditions (Bengal, Maharashtra, Tamil Nadu, Gujarat, Punjab) with HEX and CMYK values, (2) Mood rationale for each color tied to specific regional customs, (3) Gradient and pattern application rules, (4) Dark mode and light mode variants for the app, (5) Print-safe warnings for saturated oranges and reds on Indian newsprint, (6) Accessibility pairings that pass WCAG AA. Format the output as a festival style guide section. Consider constraints: must visually differ from last year's Diwali palette, must not overlap with Flipkart Big Billion Days and Amazon Great Indian Festival color territory, and must work for both young Gen Z shoppers and traditional 45+ gifting audiences.",
+      "tags": [
+        "color-palette",
+        "festival-campaign",
+        "diwali",
+        "ecommerce"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-008",
+      "title": "Tamil and Latin Typography Pairing for Regional Brand",
+      "prompt": "Act as a multiscript typography designer familiar with Tamil script conventions. I am designing a visual system for a Coimbatore-based textile brand whose target market is equally divided between Tamil-first and English-first audiences across Tamil Nadu. I need you to recommend Tamil-Latin type pairings. Please provide: (1) Three pairings combining a Latin sans/serif with a compatible Tamil typeface (consider Noto Sans Tamil, Catamaran, Hind Madurai, Meera Inimai), (2) Notes on Tamil glyph complexity and how it matches the Latin counterpart's visual weight, (3) Line-height and leading recommendations when setting Tamil alongside English, (4) Licensing and commercial usage pricing in INR, (5) Legibility test results at 8pt and 48pt sizes, (6) Cultural considerations for Tamil readers (traditional vs modern letterforms). Format the output as a typography recommendation document with visual examples described in text. Consider constraints: design will be applied across saree tags, shop signage, Instagram, and offset-printed catalogues distributed at the brand's 18 retail stores in Tamil Nadu, and the brand owner is particular about authentic Tamil representation.",
+      "tags": [
+        "typography",
+        "tamil-script",
+        "regional-design",
+        "multiscript"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-009",
+      "title": "Grid System for Indian Newspaper Advertisement",
+      "prompt": "Act as a print layout specialist with experience designing for Times of India, Hindu, and Anandabazar Patrika. I am designing a half-page full-colour advertisement for a Kolkata-based jewellery brand's Durga Puja campaign. I need you to design a grid system and layout framework. Please provide: (1) Recommended column grid for a standard Indian newspaper half-page (approximately 32 cm x 25 cm), (2) Hierarchy zones (headline, product, offer, logo, CTA, footer), (3) Safe bleed and gutter specifications for Indian newsprint, (4) Font size minimums for readability on rough newsprint, (5) Colour separation guidance for 4-colour process on uncoated stock, (6) A layout critique checklist before going to press. Format the output as a print production brief. Consider constraints: newsprint absorbs ink heavily (dot gain of 25-30%), headlines must be readable by 55+ audiences, the ad will run in both English ABP editions and Bengali Anandabazar Patrika with mirrored language versions, and the client wants their Park Street showroom address prominently displayed.",
+      "tags": [
+        "layout-critique",
+        "print-design",
+        "newspaper",
+        "grid-system"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-010",
+      "title": "Pitch Deck Talking Points for Rebrand",
+      "prompt": "Act as a design consultant presenting a rebrand proposal to an Indian mid-market client. I am pitching a full rebrand to a 25-year-old Ahmedabad-based textile export company whose founders feel their identity looks dated compared to newer D2C competitors. The engagement fee is Rs. 18 lakh. I need you to write client presentation talking points. Please provide: (1) Opening slide narrative that positions rebranding as a business investment, not a cosmetic exercise, (2) Business case with Indian brand-refresh examples (Tata Nexon, Airtel, Zomato), (3) Scope breakdown and deliverables translated into business value, (4) Timeline with milestones tied to their export cycles, (5) Cost justification against international agencies, (6) Risk mitigation for founders worried about losing legacy equity, (7) Q&A preparation for cost objections. Format the output as a presentation script with slide titles and speaker notes. Consider constraints: the meeting will be with the founding chairman (68 years old, emotionally attached to the existing logo) and his US-educated daughter (32, brand-savvy, pushing the rebrand), and decision will be made jointly.",
+      "tags": [
+        "client-presentation",
+        "rebrand",
+        "pitch-deck",
+        "business-case"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-011",
+      "title": "Interpret Ambiguous \"Youthful\" Brief",
+      "prompt": "Act as a design strategist who specialises in decoding founder language. A Gurgaon-based healthy snacks brand founder has told me \"I want it to feel youthful, but my actual customers are 35-45 year old women buying for their kids.\" I need you to interpret this contradictory brief. Please provide: (1) A reconciliation framework for what \"youthful\" likely means vs what actually sells to the target audience, (2) Three design direction options that balance both audiences (kid-appealing vs mom-decision-making), (3) Category benchmarks from Indian brands like Slurrp Farm, Yoga Bar, Happilo, (4) Visual cues to include and avoid, (5) Packaging architecture recommendations, (6) Structured feedback questions to align the founder with their real audience. Format the output as a design strategy memo. Consider constraints: product is Rs. 120 per pack, sold on Amazon Pantry, BigBasket, and in Reliance SMART kids' aisle, packaging needs FSSAI compliance, and the founder is also the primary marketing decision-maker.",
+      "tags": [
+        "brief-interpretation",
+        "packaging",
+        "d2c-brands",
+        "design-strategy"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-012",
+      "title": "Accessible Palette for Government Communication",
+      "prompt": "Act as an accessibility-focused designer with experience on Indian government and public sector projects. I am designing posters for a Maharashtra state health department vaccination awareness campaign that will be displayed in PHCs, urban hospitals, and rural panchayat offices. I need you to build an accessible color palette. Please provide: (1) A primary palette of 4 colors that pass WCAG AAA contrast ratios for large-print text, (2) Secondary palette of 3 colors for icons and supporting graphics, (3) Colour-blindness safe pairings (deuteranopia, protanopia, tritanopia), (4) Print-safe CMYK values for offset printing on uncoated posters, (5) Cultural safety check (avoiding political party colours, saffron/green religious associations), (6) Accessibility disclaimer language for the final artwork. Format the output as an accessibility compliance document. Consider constraints: posters will be printed at district-level government printers with inconsistent colour calibration, target audience includes low-literacy readers and elderly citizens, and the design must conform to Government of India brand guidelines for health communications.",
+      "tags": [
+        "color-palette",
+        "accessibility",
+        "government-design",
+        "public-health"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-013",
+      "title": "Bengali Script Typography for Magazine",
+      "prompt": "Act as a multilingual editorial designer with experience in Bengali literary publishing. I am redesigning a monthly Bengali culture magazine based out of Kolkata that also includes English editorial sections. I need you to recommend typography pairings. Please provide: (1) Three Bengali-Latin font pairings using fonts like Noto Serif Bengali, Kalpurush, Lohit Bengali, Baloo Da 2, (2) Recommendations for body text, headlines, pull quotes, captions, (3) Line-height and paragraph spacing notes for Bengali which has tall conjuncts, (4) Licensing details and Indian Type Foundry availability, (5) Print quality expectations on Indian magazine paper (70 gsm bond), (6) Sample hierarchy for a 2-page spread. Format the output as an editorial typography system. Consider constraints: the magazine has a 40-year legacy and readers expect classical Bengali typographic conventions, editors frequently mix English quotes within Bengali paragraphs, and the magazine is printed at a Howrah offset press.",
+      "tags": [
+        "typography",
+        "bengali-script",
+        "editorial-design",
+        "magazine"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-014",
+      "title": "Critique Wedding Invitation Layout",
+      "prompt": "Act as a senior designer specialising in Indian wedding stationery. I have designed a wedding invitation for a Marwari family in Jodhpur with five language panels: English, Hindi, Marwari, and two event-specific handwritten-style inserts. I need you to critique the layout. Please provide: (1) Hierarchy analysis across all language panels, (2) Cultural appropriateness review (family god invocation, elder names prominence, auspicious motifs), (3) Readability issues at standard invitation sizes (5x7 inches), (4) Balance between traditional and contemporary elements, (5) Printing feasibility for hot foil, letterpress, and offset at Sadar Bazaar Delhi printers, (6) Specific improvements with priority ranking. Format the output as a detailed design review. Consider constraints: the family expects to show elders before finalising, total print run is 600 invites with a budget of Rs. 350 per invite including envelope, and delivery must fit within 12 days before the Haldi ceremony.",
+      "tags": [
+        "layout-critique",
+        "wedding-design",
+        "stationery",
+        "traditional-design"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-015",
+      "title": "Explain Design Decisions to Non-Design CEO",
+      "prompt": "Act as a design lead at a Bengaluru SaaS startup explaining design decisions to a non-design CEO. I have designed a new homepage hero section for a B2B HR tech product. The CEO has pushed back saying \"it looks too empty\" and wants more content above the fold. I need you to write talking points for a 20-minute meeting defending the design. Please provide: (1) Opening acknowledgement that validates CEO's concern without capitulating, (2) Data-driven rationale referring to Indian user research on SaaS landing page behaviour, (3) Competitor benchmarks from Zoho, Freshworks, Darwinbox, Keka, (4) Trade-off explanations (density vs clarity vs conversion), (5) Proposed A/B test to settle the debate with numbers, (6) Compromise options if CEO still insists. Format the output as a meeting script with anticipated interruptions. Consider constraints: the CEO is a first-time founder who recently read a book on conversion optimisation, the design team is two people including me, and the product launch is in 3 weeks.",
+      "tags": [
+        "client-presentation",
+        "design-defence",
+        "saas",
+        "stakeholder-management"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-016",
+      "title": "Extract Design Direction from Mood Words",
+      "prompt": "Act as a visual strategist who converts abstract brand words into design direction. I am starting a project for a Kochi-based sustainable homeware brand. The founders have given me five mood words: \"quiet, coastal, ancestral, honest, slow.\" I need you to convert these into a design direction brief. Please provide: (1) A decoded interpretation of each word in visual terms, (2) Three territory options combining these words differently, (3) Material, texture, and photography cues for each territory, (4) Type and colour characteristics that reinforce the mood, (5) Specific references to Indian coastal aesthetics (Chettinad, Mangalore tile, Kerala backwaters) that fit without becoming postcard-cliche, (6) A shortlist of clarifying questions. Format the output as a design direction memo. Consider constraints: the brand will launch on their own Shopify store and at design-conscious retailers like Nicobar and The Filter Shop, budget is Rs. 6 lakh for identity, and the founders want to avoid looking like every other \"sustainable\" brand on Instagram.",
+      "tags": [
+        "brief-interpretation",
+        "mood-board",
+        "sustainable-design",
+        "design-direction"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-017",
+      "title": "Build Brand Colour System with Variants",
+      "prompt": "Act as a brand systems designer with experience at Landor India or Futurebrands. I am developing a brand colour system for a Mumbai-based fintech lending app targeting gig workers (delivery partners, drivers, small vendors). The brand needs to signal trust and approachability while differentiating from Paytm, PhonePe, and Cred. I need you to build a full colour system. Please provide: (1) Core palette (1 primary, 2 secondary, 1 neutral) with HEX, RGB, HSL values, (2) Tint and shade ramps (100 to 900) for each colour, (3) Semantic colours (success, warning, error, info) aligned with the palette, (4) Accessibility pairings documented with WCAG ratios, (5) Dark mode inversions, (6) Print equivalents for offline ATL work, (7) Usage rules and anti-patterns. Format the output as a design system colour specification. Consider constraints: app is Android-first (90% of users), must be legible on sub-Rs. 10,000 smartphones with poor screen calibration, target users have mid-to-low digital literacy, and the brand must comply with RBI's Digital Lending Guidelines for non-misleading colour use.",
+      "tags": [
+        "color-palette",
+        "design-system",
+        "fintech",
+        "brand-systems"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-018",
+      "title": "Multiscript Type System for Pan-India Campaign",
+      "prompt": "Act as a type system architect designing for pan-India communications. I am building a typographic system for a national FMCG brand's campaign that needs to run simultaneously in 8 Indian scripts: Latin, Devanagari, Bengali, Tamil, Telugu, Kannada, Malayalam, and Gurmukhi. I need you to design the type system. Please provide: (1) A recommended typeface family or group (Noto family, ITF, Ek Mukta, etc.) that offers harmonised design across all 8 scripts, (2) Weight and size scaling rules so scripts look visually balanced, (3) Baseline and line-height normalisation strategies, (4) Fallback strategies when a script lacks a matched weight, (5) Licensing structure and costs across all scripts, (6) QA checklist to prevent rendering errors at the production stage, (7) File management and handoff structure for regional art directors. Format the output as a type system specification document. Consider constraints: campaign runs on TV title cards, OOH hoardings, digital banners, and offset-printed point-of-sale material, regional agencies in Chennai, Kolkata, Hyderabad will localise, and launch is in 6 weeks.",
+      "tags": [
+        "typography",
+        "multiscript",
+        "type-system",
+        "pan-india"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-019",
+      "title": "Reinterpret Brief with Strategic Counter-Proposal",
+      "prompt": "Act as a strategic design director who challenges briefs constructively. A Delhi-based heritage spice brand has briefed me to create a \"modern, minimal, Scandinavian-inspired\" packaging redesign. I believe this direction will destroy their shelf equity and dilute their heritage advantage. I need you to write a strategic counter-proposal. Please provide: (1) A respectful framing that does not dismiss the client's original brief, (2) A diagnosis of why the proposed direction may backfire (consumer data, shelf context, category conventions), (3) An alternative direction that meets the client's underlying goal (looking \"relevant to younger buyers\") without the Scandinavian cliches, (4) Visual references from Indian brands that have nailed this balance (Paper Boat, Forest Essentials, Pure & Sure), (5) A phased risk-mitigation approach (test, learn, scale), (6) Presentation script framing. Format the output as a strategic design memo. Consider constraints: the brand has 40 years of market equity, is sold in kirana stores and modern trade, total redesign budget is Rs. 22 lakh, and the client's marketing head has already signed off on the Scandinavian direction internally.",
+      "tags": [
+        "brief-interpretation",
+        "strategic-design",
+        "counter-proposal",
+        "packaging"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-020",
+      "title": "Cultural Palette for Holi Product Campaign",
+      "prompt": "Act as a culturally informed campaign designer for Indian festival work. I am designing a limited-edition Holi 2026 campaign for a Bengaluru-based haircare brand's range of colour-protect shampoos. I need you to design a culturally resonant colour palette that differentiates from the generic \"gulal rainbow\" cliche. Please provide: (1) A hero palette of 6 colours inspired by specific regional Holi traditions (Barsana Lathmar, Vrindavan, Shantiniketan Basanta Utsav, Manipuri Yaoshang), (2) Cultural rationale linking each colour to a real tradition, (3) Pattern and texture directions that avoid cliche gulal splatters, (4) Print specifications for product sleeves and cartons, (5) Digital adaptation for Instagram Reels and Amazon A+ content, (6) Potentially sensitive colour combinations to avoid (caste, religious, political associations), (7) Accessibility pairings. Format the output as a campaign style guide. Consider constraints: the product is priced at Rs. 449, target audience is 22-35 year old women in metros, campaign must not appropriate a specific community's tradition without credit, and must be shippable via Amazon's FBA standards.",
+      "tags": [
+        "color-palette",
+        "festival-campaign",
+        "holi",
+        "cultural-design"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-021",
+      "title": "Audit Type Hierarchy in App Redesign",
+      "prompt": "Act as a design systems auditor with experience on Indian consumer app redesigns. I am auditing the typography hierarchy of a Hindi-first news app used by 15 million readers across North India. Current issues include inconsistent heading sizes, Devanagari conjuncts breaking at smaller sizes, and poor readability on low-end devices. I need you to run a typography audit. Please provide: (1) A framework for auditing existing hierarchy (heading levels, body, captions, buttons, metadata), (2) Specific Devanagari rendering issues to check at 12pt, 14pt, and 16pt, (3) Recommended type scale using a modular ratio suited for Devanagari proportions, (4) Font substitution rules for devices that lack the primary typeface, (5) Accessibility remediations, (6) Before-and-after documentation template, (7) Handoff specifications for Android developers using Compose. Format the output as a typography audit playbook. Consider constraints: audit must be completed in 10 working days, the app uses Noto Sans Devanagari UI as primary, performance budget for font files is under 200KB, and dev team is resistant to major type scale changes without data.",
+      "tags": [
+        "typography",
+        "design-audit",
+        "devanagari",
+        "mobile-apps"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-022",
+      "title": "Critique Annual Report Cover Designs",
+      "prompt": "Act as a corporate communications design specialist who has worked on annual reports for BSE-listed companies. I have prepared four cover design options for a Mumbai-based cement company's FY26 annual report. The theme the CFO has given is \"Building Tomorrow's India.\" I need you to critique the four options. Please provide: (1) A rubric for evaluating annual report covers (gravitas, recall, theme relevance, printability, investor-appropriateness), (2) Individual critiques for each of my four options based on described elements, (3) Comparison matrix ranking each option, (4) Issues flagged for SEBI compliance (nothing misleading, nothing that implies guarantees), (5) Print feasibility at a Mumbai-based commercial printer like Print Ocean or Repro India, (6) Recommended option with rationale and one next-round direction. Format the output as a creative review document. Consider constraints: the report will be printed in 5,000 copies for shareholders, AGM attendees, and institutional investors, budget per copy is Rs. 220, delivery is in 18 days, and the chairman expects to see the cover before final approval.",
+      "tags": [
+        "layout-critique",
+        "annual-report",
+        "corporate-design",
+        "sebi-compliance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-023",
+      "title": "Present Design Concepts to Marketing Committee",
+      "prompt": "Act as a design lead presenting to a marketing committee at a large Indian enterprise. I need to present three packaging concept routes for a new tea launch to a 7-person committee at a Kolkata-based tea major (likely includes the CMO, brand manager, category head, regional sales heads, and a procurement lead). I need you to write a comprehensive presentation script. Please provide: (1) Opening framing that aligns the room on decision criteria before showing work, (2) Route-by-route narrative with business rationale, not just aesthetic justification, (3) Anticipated objections by role (CMO will ask X, procurement will ask Y), (4) Cost-benefit comparison between the routes factoring in print costs, (5) Decision-making mechanism to prevent design-by-committee compromises, (6) Close with clear next steps and approval milestones. Format the output as a structured presentation deck with speaker notes. Consider constraints: meeting is 90 minutes, presented in English with Bengali translations for two regional heads, budget for identity plus pack system is Rs. 35 lakh, and the committee has a reputation for mixing all routes into a worst-of-all-worlds final design.",
+      "tags": [
+        "client-presentation",
+        "committee-presentation",
+        "packaging",
+        "enterprise-clients"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-024",
+      "title": "Translate Discovery Session into Design Brief",
+      "prompt": "Act as a design researcher and strategist who converts discovery sessions into briefs. I have just completed a 4-hour discovery workshop with the founders of a Pune-based vegan leather startup. I have raw notes with 180 post-its covering brand values, customer insights, competitor anxieties, and founder ambitions. I need you to synthesise this into a structured design brief. Please provide: (1) A brief template with sections for brand purpose, positioning, target audience, tone of voice, competitive landscape, visual principles, and deliverables, (2) A clustering method for grouping raw notes into themes, (3) A prioritisation framework for conflicting founder inputs, (4) Key tensions that need to be resolved before design begins, (5) Assumptions flagged for validation, (6) A founder-friendly version of the brief for sign-off. Format the output as a design brief template plus a facilitation guide. Consider constraints: the startup has two co-founders with conflicting visions (one minimalist, one maximalist), funding is limited to Rs. 4 lakh for identity, and they need to launch in 8 weeks at Lakme Fashion Week.",
+      "tags": [
+        "brief-interpretation",
+        "discovery-workshop",
+        "design-strategy",
+        "startup"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-025",
+      "title": "Inclusive Palette for Healthcare Brand",
+      "prompt": "Act as an inclusive design specialist with experience on Indian healthcare communications. I am designing a visual identity for a Chennai-based teleconsultation platform that serves patients across Tamil Nadu, Andhra Pradesh, and Karnataka, including rural and low-literacy users. I need you to build an inclusive colour palette. Please provide: (1) A primary palette of 5 colours optimised for trust, calm, and clarity in a medical context, (2) Contrast-tested pairings for WCAG AAA compliance on large text, (3) Colour-blindness safe combinations, (4) Cultural research on colour meanings in South Indian traditions (avoiding white/black death associations), (5) Gender-neutral and age-inclusive cues, (6) Semantic colour rules (appointment, emergency, prescription, general info), (7) Print variants for regional pharmacy tie-up materials. Format the output as an inclusive design colour guide. Consider constraints: users include elderly patients using WhatsApp for consultations, rural health workers using basic Android tablets, and urban professionals on iPhones, and the brand must comply with the Clinical Establishments Act advertising rules.",
+      "tags": [
+        "color-palette",
+        "healthcare-design",
+        "inclusive-design",
+        "accessibility"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-026",
+      "title": "Variable Fonts for Multi-Device Indian App",
+      "prompt": "Act as a type engineering specialist who works with Indian app teams on variable font strategy. I am implementing variable fonts for a pan-India e-commerce app used across Android, iOS, and PWA. The app supports 9 Indian scripts. I need you to design a variable font strategy. Please provide: (1) A recommended variable font family that offers Devanagari plus Latin axes (Recursive, Noto variable families, ITF variable), (2) Axis mapping for weight, width, optical size, and script harmonisation, (3) Fallback strategy when variable fonts fail to load, (4) Performance budget analysis (file size, subset loading, WOFF2 compression), (5) Implementation code pattern for React Native and Flutter, (6) QA checklist for Devanagari conjunct rendering, (7) Cost-benefit analysis vs static fonts. Format the output as a type engineering specification. Consider constraints: the app has a 3 second load target on 4G networks, performance budget for all fonts is 350KB, dev team has intermediate experience with font subsetting, and the brand wants to avoid paid licences where Google Fonts suffices.",
+      "tags": [
+        "typography",
+        "variable-fonts",
+        "performance",
+        "indian-scripts"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-027",
+      "title": "Critique Hoarding Design for Legibility",
+      "prompt": "Act as an outdoor advertising designer with experience designing for Indian OOH. I have designed a 20x10 feet hoarding for a Mumbai-based real estate launch. The hoarding will be placed on the Western Express Highway near Andheri. I need you to critique it for legibility and effectiveness. Please provide: (1) Readability analysis at 30 metres driving distance at 60 kmph, (2) Message hierarchy audit (can the primary message be absorbed in 3 seconds?), (3) Colour contrast check in harsh Mumbai daylight and night conditions, (4) Typography critique especially for bilingual co-setting of English and Marathi, (5) Image and negative space balance, (6) Print production warnings for vinyl flex at a Bhiwandi print shop, (7) Alternative layout with fewer elements. Format the output as an OOH design review. Consider constraints: the hoarding must display RERA registration number as per Maharashtra regulations, the developer wants to include 6 USPs which I believe is too many, the contract runs 30 days, and the hoarding will be viewed by commuters during peak Mumbai traffic.",
+      "tags": [
+        "layout-critique",
+        "ooh-design",
+        "hoarding",
+        "legibility"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-028",
+      "title": "Handle Founder Design Feedback Loop",
+      "prompt": "Act as a design project manager handling a difficult feedback loop. I am designing a brand identity for a Bangalore-based wellness startup. The founder has given conflicting feedback across 4 rounds: \"make it bolder,\" then \"make it softer,\" then \"bolder but not too bold,\" then \"just feel it.\" I need you to create a structured feedback reset meeting plan. Please provide: (1) An opening framing that protects the relationship while resetting expectations, (2) A feedback framework that forces specific, actionable input (replace vague adjectives with concrete decisions), (3) A design principles document co-created with the founder to use as an evaluation rubric, (4) A pivot-or-continue decision tree, (5) Anticipated founder reactions with responses, (6) A revised contract or scope statement if necessary. Format the output as a client relationship reset playbook. Consider constraints: I have already used 5 of the 6 contracted revision rounds, additional rounds are billed at Rs. 15,000 each, the founder is paying from personal savings and emotionally invested, and I want to preserve the relationship for future work.",
+      "tags": [
+        "client-presentation",
+        "feedback-management",
+        "project-management",
+        "client-relationship"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-029",
+      "title": "Interpret RFP for Government Design Tender",
+      "prompt": "Act as a design consultant who interprets Indian government tenders for design projects. I am responding to an RFP from a state tourism board for a visual identity and campaign system. The RFP is 72 pages long with buried requirements, vague success metrics, and strict procurement language. I need you to decode this brief. Please provide: (1) A decoded requirements checklist extracted from bureaucratic language, (2) Hidden or implicit expectations that are not written but commonly expected in Indian government design tenders, (3) A scope breakdown matching typical tourism board deliverables (logo, tagline, guidelines, collateral, templates, handover), (4) Effort estimation mapped to a team structure, (5) Risk flags for scope creep, payment cycles, and IP clauses, (6) Clarification questions to submit during the pre-bid meeting, (7) A strategic angle to differentiate from larger agencies. Format the output as a tender interpretation memo. Consider constraints: total budget is Rs. 48 lakh inclusive of GST, project timeline is 6 months, payment is tied to milestones with 90-day processing cycles, and the tender includes a performance security deposit requirement.",
+      "tags": [
+        "brief-interpretation",
+        "government-tender",
+        "rfp-analysis",
+        "tourism-design"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-030",
+      "title": "Season-Cycling Colour System for Retail Brand",
+      "prompt": "Act as a retail brand designer who builds dynamic seasonal systems. I am designing a colour architecture for a Delhi-based ethnic-wear retail chain with 42 stores across North India. The brand refreshes its visual merchandising four times a year: Spring-Summer, Monsoon, Festive, Winter-Wedding. I need you to build a season-cycling colour system. Please provide: (1) A core brand palette that remains constant across seasons, (2) Seasonal accent palettes for each of the 4 cycles tied to Indian weather, festivals, and wedding calendars, (3) Colour transition rules between seasons, (4) Print and visual merchandising specifications for in-store signage, tags, bags, gift boxes, (5) Digital adaptations for website, app, and email marketing, (6) A governance framework for regional franchise owners who may want to add local festival colours (Onam, Pongal, Bihu). Format the output as a seasonal colour system playbook. Consider constraints: print production is distributed across 6 regional printers with varying colour calibration, the VM budget per store per season is Rs. 1.2 lakh, and the brand president wants consistency nationally without feeling repetitive to loyal customers.",
+      "tags": [
+        "color-palette",
+        "retail-design",
+        "seasonal-design",
+        "brand-system"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-031",
+      "title": "Critique Packaging System Across SKU Range",
+      "prompt": "Act as a packaging design critic with experience at Elephant Design or Bang in the Middle. I am reviewing a packaging system I designed for a Mumbai-based millet snacks brand with 14 SKUs across 3 sub-ranges. Colour differentiation, hierarchy consistency, and shelf-presence are my concerns. I need you to critique the system. Please provide: (1) A shelf-impact analysis as if standing in a modern trade aisle at Star Bazaar, (2) SKU differentiation audit (does each flavour/variant stand out while feeling part of the range?), (3) Hierarchy consistency check across flavour name, weight, USPs, FSSAI marks, (4) Critique of the master architecture vs individual SKU expressions, (5) Production feasibility across flexo and offset printing used by Indian packaging suppliers, (6) Recommended changes with SKU-level priorities, (7) Test plan for shopper comprehension. Format the output as a packaging system review. Consider constraints: packs are priced Rs. 40 to Rs. 180, sold through general trade, modern trade, and quick commerce, must comply with FSSAI labelling regulations, and the client has already locked the structural packaging so my changes must be graphic-only.",
+      "tags": [
+        "layout-critique",
+        "packaging",
+        "sku-system",
+        "shelf-impact"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-032",
+      "title": "Pitch Visual Identity to Series B Startup Board",
+      "prompt": "Act as a senior brand strategist presenting a visual identity proposal to a Series B startup board. The startup is a Bengaluru-based climate-tech company that has just raised Rs. 180 crore and wants a brand refresh before a go-to-market scale-up. I am presenting to the CEO, two co-founders, a VC board member from Accel India, and an independent director. I need you to write presentation talking points. Please provide: (1) Opening that establishes strategic credibility before showing creative work, (2) A positioning framework that ties visual identity to the startup's category creation story, (3) Three concept routes with business case for each, (4) Investment justification (why the brand refresh is a multiplier, not a cost), (5) Anticipated VC board member questions tied to growth metrics, (6) Rollout roadmap across product, marketing, PR, and hiring, (7) Decision framework to prevent board-level design-by-committee. Format the output as a board-level presentation script. Consider constraints: the VC board member has a reputation for challenging anything that does not connect to GTM metrics, the founders are technical and design-cautious, and the proposal fee is Rs. 42 lakh for identity plus Rs. 28 lakh for implementation.",
+      "tags": [
+        "client-presentation",
+        "startup-branding",
+        "board-presentation",
+        "series-b"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-033",
+      "title": "Architect Enterprise Design System Governance",
+      "prompt": "Act as a design systems lead at a large Indian conglomerate. I am architecting the governance model for an enterprise design system that will serve 14 business units across financial services, retail, and hospitality divisions of a Mumbai-based group. I need you to design a governance framework. Please provide: (1) A governance model with contribution, approval, deprecation, and versioning workflows, (2) Role definitions (system owner, contributors, consumers, reviewers) mapped to likely job titles in Indian enterprises, (3) Component contribution criteria and review rubric, (4) A decision escalation path for conflicting BU demands, (5) Quarterly release cadence and communication plan, (6) Metrics to measure system health (adoption, contribution, deprecation), (7) Risk register for common pitfalls in Indian enterprise design systems. Format the output as a design system governance charter. Consider constraints: BUs operate with P&L independence and will resist centralised mandates, the system must support both consumer-facing apps and internal enterprise tools, procurement requires SLA language for any centralised function, and the group chairman has asked for a 12-month rollout timeline.",
+      "tags": [
+        "design-system",
+        "governance",
+        "enterprise-design",
+        "systems-architecture"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-034",
+      "title": "Design Research-Driven Colour System for Social Impact",
+      "prompt": "Act as a research-led designer working on social-impact projects in India. I am designing a visual system for a public-private initiative aimed at encouraging women entrepreneurship in Bihar and Jharkhand. The system will be used across training manuals, village-level posters, mobile app, and television PSAs. I need you to build a research-driven colour system. Please provide: (1) A proposed ethnographic research plan to inform colour choices (what to observe in village contexts, how colour is associated with agency, work, dignity), (2) A hypothesis palette based on known regional textile, rangoli, and folk art traditions of Bihar/Jharkhand, (3) A testing protocol for colour comprehension with semi-literate rural women, (4) Accessibility considerations for low-quality print and low-end mobile displays, (5) Cultural safeguards against caste or religious coding, (6) Iteration and validation loop, (7) Reporting format for the funding partners (government, World Bank, local NGO). Format the output as a research-driven colour strategy. Consider constraints: the project budget for research is Rs. 12 lakh, timeline is 4 months including field visits, and the visual system must be open-sourced for other state governments to adopt.",
+      "tags": [
+        "color-palette",
+        "social-impact",
+        "design-research",
+        "rural-design"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-035",
+      "title": "Commission a Custom Devanagari Typeface",
+      "prompt": "Act as a type director overseeing a custom typeface commission for a major Indian brand. I am leading the commissioning of a bespoke Devanagari plus Latin typeface family for a Delhi-based heritage hotel group. The type family will be used across wayfinding, menus, collateral, app, and website. I need you to architect the commissioning process. Please provide: (1) A full specification brief for the type designer covering character set, weights, styles, language support beyond Devanagari (Marathi, Nepali, Konkani), (2) A shortlist of Indian and international type designers or foundries suited to the work (Indian Type Foundry, Ek Type, Universal Thirst, etc.), (3) Deliverables and milestone structure (sketches, drafts, testing, mastering, hinting, release), (4) Licensing, ownership, and future derivative rights clauses appropriate for Indian contract law, (5) Quality testing protocol including print at the hotel group's commercial printer and digital rendering on signage LED, (6) Budget breakdown with industry-standard ranges in INR, (7) Governance for future updates. Format the output as a custom type commissioning playbook. Consider constraints: total budget is Rs. 38 lakh, project timeline is 14 months, and the type family is expected to be a defining brand asset for the next 15 years.",
+      "tags": [
+        "typography",
+        "custom-type",
+        "devanagari",
+        "type-commissioning"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-036",
+      "title": "Critique Design System Adoption Dashboard",
+      "prompt": "Act as a design operations lead analysing a design system adoption dashboard. I am reviewing 6 months of usage metrics for a design system rolled out across a 180-person product design and engineering team at a Bengaluru fintech. Metrics include component pull rate, Figma library usage, code package downloads, issue submission velocity, and documentation page views. I need you to critique the dashboard and recommend changes. Please provide: (1) Interpretation of the existing metrics and what they genuinely tell us vs what they look like they tell us, (2) Missing metrics that would reveal true adoption vs surface activity, (3) A segmented analysis framework by product area and team maturity, (4) Qualitative indicators to complement quantitative data, (5) Leading vs lagging indicators for design system health, (6) Recommended dashboard redesign with prioritised KPIs, (7) A narrative report template for quarterly leadership reviews. Format the output as a design system analytics critique. Consider constraints: the design system has 84 components and 12 patterns, leadership is skeptical that investment is paying off, three product teams have actively rejected components and rolled their own, and the budget for continued investment is up for renewal next quarter.",
+      "tags": [
+        "layout-critique",
+        "design-operations",
+        "design-system",
+        "analytics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-037",
+      "title": "Present Rebrand Rationale to Founding Family",
+      "prompt": "Act as a senior brand consultant presenting a rebrand to a founding Indian family. I am leading a rebrand for a 75-year-old Kolkata-based confectionery brand owned by the third-generation of a family that still makes decisions collectively. The rebrand involves significant departure from the legacy logo which was designed by the founding grandfather. I need you to write a presentation strategy. Please provide: (1) An opening ritual that honours the legacy without patronising, (2) Emotional-to-rational progression (story, evidence, decision), (3) A heritage preservation framework that shows what we are keeping, evolving, and retiring, (4) Business case tied to generational shifts (Gen Z consumers, modern trade, D2C expansion), (5) Anticipated family tensions (grandfather attachment, uncle's doubts, young daughter's push for modernity) with mediation tactics, (6) A ceremonial sign-off moment that builds family consensus, (7) Post-approval communication to family elders who were not in the room. Format the output as a family-business presentation playbook. Consider constraints: the matriarch of the family has veto power, decisions are made in Bengali and translated for younger members, the brand is sold primarily in West Bengal but expanding to Delhi and Mumbai, and the rebrand budget is Rs. 65 lakh.",
+      "tags": [
+        "client-presentation",
+        "rebrand",
+        "family-business",
+        "legacy-brands"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-038",
+      "title": "Interpret Ambiguous Pan-India Campaign Brief",
+      "prompt": "Act as a regional strategy lead decoding a pan-India campaign brief. I have received a brief from a Mumbai HQ marketing team for a nationwide campaign that assumes one visual language will work everywhere. Having worked across all 4 regions of India, I know this is flawed. I need you to build a strategic reinterpretation. Please provide: (1) A diagnosis of what the central team has overlooked (regional preferences, language dominance, cultural nuances, media consumption patterns), (2) A framework for central-vs-regional creative flex (what stays constant, what adapts), (3) Regional adaptation principles for North, South, East, West, and Northeast with specific examples, (4) Production and localisation workflow for the creative team, (5) Governance and approval model for regional variations, (6) Budget reallocation proposal, (7) A presentation to the HQ marketing lead justifying the strategic shift. Format the output as a strategic pan-India campaign memo. Consider constraints: the original campaign budget is Rs. 14 crore, launch is in 10 weeks, the HQ team has already shot one hero film in Hindi, and regional brand managers are privately complaining that campaigns never work in their markets.",
+      "tags": [
+        "brief-interpretation",
+        "pan-india-campaign",
+        "regional-strategy",
+        "localization"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-039",
+      "title": "Build Dynamic Identity System with Generative Rules",
+      "prompt": "Act as a generative identity designer with experience building flexible visual systems. I am designing a dynamic identity for a Bengaluru-based arts foundation that commissions and showcases Indian contemporary art. The identity must flex across thousands of applications without losing coherence. I need you to design a generative identity system. Please provide: (1) A core visual grammar (shape primitives, mark rules, compositional logic) that can generate infinite variations, (2) Typography pairing that supports Latin plus Devanagari plus Kannada equally, (3) Colour system with algorithmic generation rules (based on season, exhibition theme, artist input), (4) Technical implementation options (p5.js, Cavalry, custom script, Figma variables), (5) Governance rules that prevent the system from collapsing into chaos, (6) Application examples (posters, catalogues, social, wayfinding, digital ticketing), (7) A handoff framework for in-house designers without generative coding skills. Format the output as a generative identity specification. Consider constraints: the foundation runs 24 exhibitions a year, has a 2-person in-house design team, budget for the identity system is Rs. 32 lakh, and the system should still feel recognisable 10 years later.",
+      "tags": [
+        "typography",
+        "generative-design",
+        "dynamic-identity",
+        "arts-branding"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    },
+    {
+      "id": "design-graphic-designers-040",
+      "title": "Advanced Critique of Flagship Retail Brand Expression",
+      "prompt": "Act as a senior design critic reviewing a flagship retail brand expression. I have been asked to provide an external critique of the full visual system of a newly launched flagship store in Mumbai for a premium Indian home decor brand. The review will be shared with the brand's board and the agency that built the identity. I need you to structure a rigorous critique. Please provide: (1) An evaluation framework covering strategy, distinctiveness, coherence, flexibility, craft, and cultural intelligence, (2) A store-walkthrough analysis covering exterior signage, windows, interior wayfinding, product tags, packaging, receipts, staff uniforms, and digital screens, (3) A benchmark comparison to international peers (Aesop, Muji) and Indian peers (Nicobar, Good Earth), (4) Diagnosis of where the system excels and where it falters, (5) Root-cause analysis of the failures (brief, process, execution, governance), (6) Recommendations classified as quick-wins, structural fixes, and strategic rebuilds, (7) A diplomatic delivery format that is honest without being adversarial. Format the output as a senior design critique document. Consider constraints: the agency that built the identity is a respected Mumbai shop, the brand's founder is personally invested in the identity, my role is that of an independent advisor, and the critique will be circulated to a 9-person board including a private equity partner.",
+      "tags": [
+        "layout-critique",
+        "retail-design",
+        "brand-audit",
+        "design-critique"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "graphic-designers"
+    }
+  ]
+}

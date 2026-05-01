@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "marketing-social-media-marketing-001",
+      "title": "Instagram Monthly Content Calendar for D2C Brand",
+      "prompt": "Act as a senior Instagram strategist with 8 years experience managing Indian D2C brands like Mamaearth, boAt, and Sugar Cosmetics. I need you to build a 30-day Instagram content calendar for a Bengaluru-based organic skincare brand (price range Rs 299-1,499) targeting women aged 22-35 in metros and tier-2 cities. The brand's monthly goals are: 15% follower growth, 50K reel views average, and 2,000 website clicks. Current follower count is 28,000. Please provide: (1) a day-by-day table with date, content pillar (educational, UGC, founder story, product demo, meme, reel, carousel), caption hook first line, primary CTA, and best posting time in IST, (2) theme weeks with clear narrative arcs, (3) 5 reel concepts with trending audio suggestions from Indian creators, (4) 3 collab post ideas with nano influencers, (5) 2 giveaway mechanics compliant with Instagram's promotion guidelines, and (6) hashtag clusters of 15 tags each mixing niche and broad. Format as a markdown table followed by detailed notes. Consider these constraints: avoid direct medical claims per ASCI guidelines, factor in upcoming Indian festivals during the month, and ensure at least 40% reels since Instagram India's algorithm favours short video. Include Hinglish caption options where natural.",
+      "tags": [
+        "instagram",
+        "content-calendar",
+        "d2c",
+        "reels",
+        "social-media-strategy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-002",
+      "title": "Instagram Reel Script 30 Seconds Hook Value CTA",
+      "prompt": "Act as a viral Instagram reels scriptwriter with 6 years experience creating content for Indian creators and brands that have crossed 10 million views. I need you to write 5 complete 30-second reel scripts for a Mumbai-based personal finance educator targeting young professionals aged 24-32 earning Rs 6-15 lakh per annum. The creator's niche is demystifying mutual funds, tax saving under Section 80C, and SIP strategies. Please provide for EACH reel: (1) a scroll-stopping hook in the first 3 seconds written in Hinglish, (2) on-screen text overlays for every 3-second beat, (3) voice-over script with pacing notes, (4) B-roll or visual cue suggestions frame by frame, (5) a trending audio recommendation appropriate for finance content in India, (6) a clear single CTA at the end (follow, save, share, comment), and (7) 12 hashtags mixing #personalfinanceindia #sipinvesting and niche tags. Format each script as a numbered table with Time, Visual, Audio, Text columns. Consider these constraints: avoid SEBI-flagged phrases like \"guaranteed returns\", keep language simple enough for tier-2 viewers, reference Indian examples (HDFC, Zerodha, Groww), and ensure each reel answers one specific question a young Indian investor actually asks.",
+      "tags": [
+        "instagram-reels",
+        "reel-script",
+        "personal-finance",
+        "hinglish",
+        "viral-content"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-003",
+      "title": "LinkedIn Monthly Content Calendar for B2B SaaS Founder",
+      "prompt": "Act as a LinkedIn ghostwriter with 7 years experience building personal brands for Indian SaaS founders who grew from 500 to 50,000 followers. I need you to design a 30-day LinkedIn content calendar for the founder of a Bengaluru-based HR tech SaaS company (ARR Rs 12 crore) targeting CHROs and People Ops leaders at Indian enterprises. Goals: 3,000 new followers, 25 inbound demo requests, and 3 speaking invitations. Please provide: (1) daily post schedule with date, content format (text post, carousel, document PDF, poll, video, repost with commentary), topic, and hook line, (2) 4 pillar themes distributed across the month (founder lessons, product insights, industry data, hot takes), (3) 5 carousel outlines with slide-by-slide breakdowns, (4) 3 polls designed to spark CHRO debate, (5) 2 long-form thought leadership posts of 1,200 words each, and (6) optimal posting times for Indian B2B audience in IST. Format as a weekly sprint table plus expanded notes. Consider these constraints: avoid humble-brag tone, reference Indian labour codes and EPFO updates where relevant, include names of Indian HR leaders for tagging, and maintain a 70-20-10 split between value, personal story, and promotion.",
+      "tags": [
+        "linkedin",
+        "content-calendar",
+        "b2b-saas",
+        "founder-branding",
+        "thought-leadership"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-004",
+      "title": "YouTube Shorts Monthly Plan for Edtech Channel",
+      "prompt": "Act as a YouTube growth strategist with 5 years experience scaling Indian edtech channels from zero to 1 million subscribers. I need you to create a 30-day YouTube Shorts content plan for a JEE preparation channel based in Kota targeting Class 11-12 students across India. Current subscriber count: 85,000. Goals: 200K new subscribers, 20 million Shorts views, and 8% click-through to long-form videos. Please provide: (1) a daily Shorts schedule with date, topic (Physics trick, Math shortcut, Chemistry mnemonic, motivation, topper story, myth-busting), title under 60 characters, and thumbnail concept, (2) 10 trending hook formats proven on Indian edu Shorts, (3) series ideas with episode arcs to drive binge-watching, (4) 5 scripts showing how to tease a long-form video inside a Short, (5) optimal upload times factoring Indian school schedules, and (6) a tagging and description template for maximum discovery. Format as a calendar table plus script section. Consider these constraints: align with NCERT and NTA syllabus, avoid discouraging weaker students, use bilingual Hindi-English explanations, and follow YouTube's Made for Kids settings correctly since the audience includes minors.",
+      "tags": [
+        "youtube-shorts",
+        "content-calendar",
+        "edtech",
+        "jee",
+        "content-strategy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-005",
+      "title": "X Twitter India Monthly Plan for Fintech Brand",
+      "prompt": "Act as an X (Twitter) strategist with 6 years experience managing Indian fintech handles like Zerodha Varsity and CRED. I need you to build a 30-day X content calendar for a Mumbai-based neobank targeting founders, freelancers, and GenZ professionals. Current followers: 42,000. Goals: 10K new followers, 500 app signups from bio link, and 3 viral tweets with 1M+ impressions. Please provide: (1) daily tweet schedule with date, tweet type (single tweet, thread, poll, image, meme, quote tweet, reply bait), topic, and first line, (2) 6 thread outlines of 10-15 tweets each on topics like UPI evolution, tax-saving for freelancers, and startup stipend stories, (3) 10 reply-guy opportunities with top Indian fintech handles to build visibility, (4) 5 meme formats adapted for finance Twitter India, (5) a community engagement ritual (weekly Spaces, monthly AMA), and (6) tracking KPIs per format. Format as a content sprint table. Consider these constraints: comply with RBI advertising norms for regulated entities, avoid misleading return claims, use Hinglish sparingly on X since the audience skews English-first, and engage only during peak Indian hours 8-11am and 7-11pm IST.",
+      "tags": [
+        "twitter",
+        "x-india",
+        "content-calendar",
+        "fintech",
+        "thread-writing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-006",
+      "title": "Hashtag Research and Clustering Instagram Beauty",
+      "prompt": "Act as an Instagram SEO specialist with 5 years experience researching hashtags for Indian beauty and lifestyle brands. I need you to build a complete hashtag strategy for a Delhi-based vegan lipstick brand priced at Rs 499-799 targeting college girls and young professionals aged 18-28. Please provide: (1) a research framework with 5 seed keywords and how to expand them, (2) 8 hashtag clusters of 15 tags each organized by intent: broad awareness (1M+ posts), mid-tier discovery (100K-1M), niche community (10K-100K), branded, location-based Delhi-NCR, festival-specific, competitor audience, and trending seasonal, (3) a banned or shadowbanned hashtag checklist for beauty niche in India, (4) a rotation schedule so Instagram doesn't flag spammy behaviour, (5) 5 regional language hashtags in Hindi and Tamil for Bharat reach, and (6) a monthly audit template to drop underperforming tags. Format as tables with hashtag, estimated post count, intent, and rotation group. Consider these constraints: Instagram's 30-hashtag limit, evolving algorithm that favours keywords in caption over hashtags, ASCI compliance for beauty claims, and avoid hashtags flagged for adult content which affect reach.",
+      "tags": [
+        "hashtag",
+        "hashtag-strategy",
+        "instagram",
+        "beauty",
+        "social-media-seo"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-007",
+      "title": "LinkedIn Hashtag Strategy B2B Professional",
+      "prompt": "Act as a LinkedIn marketing expert with 7 years experience growing Indian B2B brands to top voice status. I need you to create a LinkedIn hashtag strategy for a Pune-based logistics SaaS startup targeting supply chain heads and COOs at Indian manufacturing companies. The company publishes 4 posts per week covering industry insights, customer stories, and product updates. Please provide: (1) 5 hashtag clusters: industry authority, trending business topics, regional business hubs, LinkedIn communities, and branded, (2) 3-5 hashtags per post with rationale on why fewer performs better on LinkedIn than Instagram, (3) a list of 15 active Indian B2B hashtags with estimated follower counts and recent post activity, (4) branded hashtag creation guidelines and 3 sample options, (5) how to piggyback on hashtags used by Indian unicorns and business leaders, and (6) a 90-day measurement framework with impressions per hashtag. Format as a reference table plus strategy memo. Consider these constraints: LinkedIn algorithm rewards hashtags in the first comment less than in body, Indian B2B hashtag ecosystem is still maturing compared to US, avoid generic tags like #business which dilute reach, and ensure alignment with the founder's personal brand hashtags.",
+      "tags": [
+        "hashtag",
+        "linkedin",
+        "b2b-saas",
+        "hashtag-strategy",
+        "professional-branding"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-008",
+      "title": "Instagram Poll and Question Engagement Prompts",
+      "prompt": "Act as an Instagram engagement specialist with 5 years experience driving story completion rates above 70% for Indian lifestyle brands. I need you to create 30 high-engagement story prompts (polls, quizzes, sliders, emoji reactions, and question stickers) for a Jaipur-based home decor brand targeting women aged 28-45 who are new homeowners or renovating. The brand sells handcrafted items priced Rs 799-4,999. Please provide: (1) 10 poll prompts with two options each designed to feel like a fun choice, (2) 8 question sticker prompts that invite stories and DMs (\"What is your biggest home decor regret?\"), (3) 5 slider emoji prompts on product reveals, (4) 4 quiz sticker sets with 4 options each, (5) 3 emoji reaction prompts for behind-the-scenes content, and (6) a daily story arc showing how to sequence 5-7 frames to move a viewer from hook to DM to link tap. Format as a numbered list grouped by sticker type with expected engagement rate benchmarks. Consider these constraints: Indian users love UGC repost opportunities so prompts should invite tagging, avoid questions that sound like a marketing survey, use warm Hinglish where it feels natural, and reference Indian festivals and housewarming rituals like griha pravesh.",
+      "tags": [
+        "instagram-stories",
+        "engagement",
+        "polls",
+        "community-building",
+        "home-decor"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-009",
+      "title": "Nano Influencer DM Outreach Template Instagram",
+      "prompt": "Act as an influencer marketing manager with 6 years experience running barter and paid collaborations with Indian nano influencers (1K-10K followers). I need you to write a complete DM outreach template set for a Mumbai-based sustainable fashion brand looking to partner with 50 nano influencers in Delhi, Mumbai, Bengaluru, and Pune. The campaign offers barter (Rs 2,500 product value) plus Rs 500 shipping for 1 reel and 3 stories. Please provide: (1) a 120-word opening DM with personalized slot, value proposition, and soft CTA, (2) a follow-up DM after 3 days if no response, (3) a third nudge DM with social proof, (4) a DM template for influencers who counter-ask for cash compensation, (5) a polite decline template for unsuitable profiles, (6) a content brief to share once they say yes, and (7) a relationship-building DM for creators who post successfully. Format as copy-paste blocks with instructions on personalization variables. Consider these constraints: Indian nano influencers often reply slowly and prefer Hinglish, ASCI disclosure rules require #ad or #paidpartnership on every piece, avoid pushy tone which is flagged on Instagram, and respect weekend boundaries by scheduling DMs for Tuesday-Thursday 11am-2pm IST.",
+      "tags": [
+        "influencer-outreach",
+        "nano-influencer",
+        "dm-template",
+        "instagram",
+        "barter-campaign"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-010",
+      "title": "Micro Influencer Email Pitch Long Form",
+      "prompt": "Act as a senior influencer marketing lead with 8 years experience closing paid deals with Indian micro influencers (10K-100K followers) for brands like Myntra and Nykaa. I need you to write a detailed email pitch to a 45K-follower fitness creator in Bengaluru for a 90-day ambassador program with a protein supplement brand. Budget: Rs 75,000 per month plus affiliate commission of 8% on sales through unique code. Please provide: (1) a subject line with 40% open rate benchmark, (2) a 350-word email body with warm opener referencing two of their recent reels, clear campaign scope, deliverables table, compensation breakdown, exclusivity clause summary, and a soft CTA for a 20-minute call, (3) an attachment checklist (brand deck, product info, FSSAI and Ayush licences), (4) 3 alternative subject lines for A/B testing, (5) a follow-up email sequence for days 3, 7, and 14, and (6) negotiation playbook with three price-defence arguments. Format as email-ready blocks. Consider these constraints: Indian creators increasingly have managers, GST invoicing adds 18% to talent fees, ASCI requires clear paid-partnership disclosure, and build in a usage rights clause for 6-month paid ad repurposing.",
+      "tags": [
+        "influencer-outreach",
+        "micro-influencer",
+        "email-pitch",
+        "ambassador-program",
+        "negotiation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-011",
+      "title": "Macro Influencer Negotiation Script Rate Card",
+      "prompt": "Act as an influencer talent negotiator with 9 years experience closing six-figure deals with Indian macro influencers (100K-1M followers). I need you to write a full negotiation playbook for a situation where a Mumbai-based beverage brand wants to book a 650K-follower lifestyle creator for a 6-reel integrated campaign. The creator's manager quoted Rs 18 lakh; the brand budget is Rs 11 lakh. Please provide: (1) an opening counter-offer email that acknowledges their value without conceding price, (2) a rate card comparison showing fair market pricing for similar Indian creators with data points, (3) 5 value-add swaps to close the gap without raising cash (extended usage rights, performance bonuses, affiliate code, additional stories, event appearance), (4) a phone-call script with objection-handling for \"my rate is fixed\", \"we have higher offers\", and \"brand fit concerns\", (5) a final best-and-final email template, and (6) a walk-away clause with graceful language. Format as a negotiation flowchart plus scripts. Consider these constraints: Indian macro creator rates have inflated 40% post-COVID, GST at 18%, TDS deduction under Section 194R, exclusivity for 30 days is standard, and relationship preservation matters for future collaborations.",
+      "tags": [
+        "influencer-outreach",
+        "macro-influencer",
+        "negotiation",
+        "rate-card",
+        "talent-management"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-012",
+      "title": "ORM Complaint Response Instagram Public Comment",
+      "prompt": "Act as an online reputation management specialist with 7 years experience handling social media crises for Indian consumer brands. I need you to draft a complete response playbook for a scenario where a customer has posted a public Instagram comment on a Chennai-based cloud kitchen brand's reel accusing them of serving stale biryani and causing food poisoning, with 340 likes and 80 angry replies in 2 hours. Please provide: (1) an immediate holding response within 15 minutes using empathetic language, (2) a detailed DM template to move the conversation private, (3) a pinned comment update after 24 hours explaining the action taken, (4) an internal escalation checklist covering FSSAI compliance, refund policy, and medical bill reimbursement, (5) a follow-up public post acknowledging the incident with concrete corrective action, (6) 5 phrases to avoid that would inflame the situation, and (7) a post-mortem document template for the leadership team. Format as a timeline with time-stamps and copy-paste response blocks. Consider these constraints: Indian consumers often tag news handles and consumer forums, avoid legal language that sounds defensive, never offer cash compensation in public, follow FSSAI Section 63 complaint protocol, and maintain a Hinglish tone that matches the brand's usual voice.",
+      "tags": [
+        "orm",
+        "crisis-management",
+        "customer-complaint",
+        "instagram",
+        "food-delivery"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-013",
+      "title": "Twitter Misinformation Crisis Response Thread",
+      "prompt": "Act as a crisis communications strategist with 10 years experience managing viral misinformation incidents on X India. I need you to write a complete response plan for a scenario where a fake screenshot claiming a Bengaluru-based edtech company has shut down and is not refunding students is going viral with 45,000 retweets in 6 hours, including reposts by 2 news aggregator handles with 500K+ followers each. The company is operationally healthy. Please provide: (1) an immediate official tweet within 30 minutes clearly stating the facts without being defensive, (2) a follow-up thread of 8 tweets with evidence, timelines, and founder video, (3) DM templates for the 10 highest-impact handles spreading the misinformation requesting correction, (4) a legal-cease-and-desist email template for malicious accounts, (5) an internal stakeholder communication plan for investors, employees, and customers, (6) a post-crisis X Space script with the founder, and (7) a 7-day monitoring and response rhythm. Format as a time-stamped action plan. Consider these constraints: IT Rules 2021 require grievance officer response, avoid legal threats in public tweets, Indian media picks up social media stories fast, maintain calm factual tone, and never delete tweets which worsens conspiracy theories.",
+      "tags": [
+        "orm",
+        "crisis-management",
+        "misinformation",
+        "twitter",
+        "edtech"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-014",
+      "title": "Diwali Festival Campaign Calendar Multi Platform",
+      "prompt": "Act as a festival marketing director with 10 years experience running Diwali campaigns for Indian D2C brands worth Rs 5-25 crore. I need you to build a complete 35-day Diwali campaign calendar (Dussehra to Bhai Dooj) for a Hyderabad-based home appliance brand selling smart lights, air purifiers, and mixers priced Rs 1,999-14,999. Target: Rs 4 crore revenue, 3X ROAS on paid social, and 40% first-time buyers. Please provide: (1) a 5-week phased plan (tease, launch, build, peak, after-sales) across Instagram, YouTube, and Facebook with daily content themes, (2) 8 big-moment content pieces aligned to Dhanteras, Choti Diwali, Diwali, Govardhan, and Bhai Dooj, (3) 5 influencer collab concepts with tier recommendations, (4) a paid amplification budget split of Rs 35 lakh across platforms and formats, (5) an offer ladder from early-bird to last-day urgency, (6) UGC contest mechanics, and (7) sustainability messaging since Diwali ads face eco-scrutiny. Format as a Gantt-style calendar plus platform breakdowns. Consider these constraints: ASCI festive advertising code, patakhe sensitivity in Delhi-NCR, Hindi regional nuances across Andhra and Telangana, warehouse shipping cutoffs, and DPDP Act 2023 data consent for remarketing.",
+      "tags": [
+        "festival-campaign",
+        "diwali",
+        "content-calendar",
+        "d2c",
+        "multi-platform"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-015",
+      "title": "Rakshabandhan Gift Campaign Reel Series",
+      "prompt": "Act as a social media creative director with 7 years experience producing Rakshabandhan campaigns for Indian gifting brands. I need you to design a 10-reel series for a Delhi-based chocolate and gift hamper brand priced Rs 499-2,499 running from 15 days before Rakshabandhan. Target: 5 million views, 30K website visits, and 8% conversion on landing page. Please provide: (1) a narrative arc connecting all 10 reels as a mini-series about 5 different sibling archetypes (protective elder brother, bratty younger sister, long-distance NRI sibling, cousin siblings, chosen-family friend), (2) for each reel a complete script with hook, beats, on-screen text, and CTA, (3) trending audio suggestions popular on Indian emotional content, (4) casting notes for relatable actors not influencers, (5) a release schedule aligned to discovery timing, (6) paid boosting budget of Rs 6 lakh by reel priority, and (7) a UGC hashtag campaign inviting viewers to tag their siblings. Format as a series bible plus episode scripts. Consider these constraints: avoid gender stereotypes which get backlash on Indian Twitter, include inclusive representation of all sibling types, Hindi-first language with English subtitles, respect the emotional sanctity of the festival, and align with Meta's music licensing rules.",
+      "tags": [
+        "festival-campaign",
+        "rakshabandhan",
+        "instagram-reels",
+        "gifting",
+        "storytelling"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-016",
+      "title": "Ganesh Chaturthi Regional Campaign Marathi Content",
+      "prompt": "Act as a regional marketing strategist with 8 years experience running Ganesh Chaturthi campaigns for Maharashtra and Mumbai audiences. I need you to create a 11-day Ganesh Chaturthi campaign plan for a Pune-based sweets and modak brand priced Rs 299-1,299 with franchise outlets across Mumbai, Pune, Nashik, and Nagpur. Target: Rs 80 lakh revenue, 15K store walk-ins, and 2 million reel views. Please provide: (1) a day-by-day content calendar from sthapana to visarjan with Marathi-first captions and English subtitles, (2) 5 reel concepts showcasing eco-friendly modak and traditional recipes, (3) a Mandal partnership playbook for sponsoring 8 local pandals with activation ideas, (4) a regional influencer list profile for Marathi creators with rate expectations, (5) store-level photo-op installations for UGC, (6) a paid spend split of Rs 12 lakh between Instagram, Facebook, and Google, and (7) FM radio tie-up recommendations since Marathi audio still drives store visits. Format as a phased calendar plus asset brief. Consider these constraints: sensitivity around eco-Ganesha messaging after Mumbai noise pollution rulings, Marathi versus Hindi audience preference in different cities, BMC permissions for public installations, and authentic cultural references not stereotypes.",
+      "tags": [
+        "festival-campaign",
+        "ganesh-chaturthi",
+        "regional-marketing",
+        "marathi",
+        "local-activation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-017",
+      "title": "Karwa Chauth Modern Campaign Sensitive Messaging",
+      "prompt": "Act as a brand strategist with 9 years experience navigating cultural campaigns that balance tradition and modernity for Indian audiences. I need you to build a Karwa Chauth campaign concept for a Gurugram-based jewellery brand (price point Rs 15,000-1.5 lakh) that wants to honour the festival without reinforcing regressive gender narratives. Target: 8 million impressions, Rs 2 crore revenue, and positive sentiment score above 85%. Please provide: (1) a campaign core insight and creative territory with a one-line manifesto, (2) a 15-day content calendar covering teaser, launch, and festival day, (3) 3 hero film scripts of 60 seconds each featuring diverse couple archetypes (married 10 years, same-sex partners if brand is progressive, older couple, newlyweds), (4) 6 Instagram reel concepts with modern narratives, (5) a founder POV LinkedIn post on redefining rituals, (6) risk assessment of possible backlash on Twitter with pre-approved response templates, and (7) paid amplification plan of Rs 22 lakh. Format as a campaign deck outline plus scripts. Consider these constraints: ASCI gender stereotyping guidelines updated 2023, avoid preachy feminism which alienates traditional buyers, Hindi-Punjabi-English mix for Delhi-NCR, jewellery has strict hallmarking claims, and prepare for Twitter troll response within 30 minutes.",
+      "tags": [
+        "festival-campaign",
+        "karwa-chauth",
+        "brand-strategy",
+        "jewellery",
+        "sensitive-messaging"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-018",
+      "title": "Tamil Reel Script Regional Content Chennai",
+      "prompt": "Act as a Tamil content creator and scriptwriter with 6 years experience producing viral reels for Chennai and tier-2 Tamil Nadu audiences. I need you to write 5 Tamil-language reel scripts of 45 seconds each for a Coimbatore-based filter coffee brand priced Rs 299-599 per 250g pack. The target audience is Tamil households aged 30-55 who value authentic kaapi culture. Please provide: (1) for each reel a hook in pure Tamil with English transliteration, (2) scene-by-scene breakdown with visual cues of a traditional Tamil kitchen, davara-tumbler, and morning routines, (3) a voiceover script with pronunciation notes, (4) on-screen Tamil text overlays, (5) culturally resonant audio or nadaswaram music suggestions, (6) a clear CTA to visit store locator or order online, and (7) a hashtag mix including #tamilreels #kaapi #chennaifoodie plus niche tags. Format as scene tables. Consider these constraints: respect Tamil pride sensitivity avoiding North Indian defaults, do not mispronounce culturally loaded words, FSSAI label compliance for any health claims, Kollywood reference cues work well for engagement, and ensure captions also carry Tamil text for accessibility since Instagram algorithm increasingly indexes regional text.",
+      "tags": [
+        "regional-content",
+        "tamil",
+        "instagram-reels",
+        "reel-script",
+        "fmcg"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-019",
+      "title": "Hindi Heartland Reel Script Bharat Audience",
+      "prompt": "Act as a Hindi content strategist with 7 years experience creating Bharat-focused content for tier-2 and tier-3 Indian cities. I need you to script 5 Hindi reels of 60 seconds each for an Agri-tech brand based in Indore selling crop advisory app subscriptions at Rs 499 per season to farmers in UP, Bihar, MP, and Rajasthan. Target: 2 million views per reel on ShareChat, Moj, and Instagram combined. Please provide: (1) hooks that speak directly to farmer pain points like unseasonal rain, MSP confusion, and fertilizer availability, (2) scene-by-scene visual direction shot in real village settings not stock, (3) voiceover scripts in colloquial Hindi avoiding Sanskritized vocabulary, (4) testimonial format featuring a real farmer character with name, village, and land size, (5) a simple CTA (missed call, WhatsApp, app download) since data literacy is low, (6) distribution plan across ShareChat Moj Instagram and YouTube Shorts with platform-specific tweaks, and (7) a trust-building element like PM-KISAN reference or ICAR collaboration. Format as a script pack. Consider these constraints: avoid English jargon, use currency and land units farmers actually use (bigha not acre in some regions), ASCI guidelines for agri-input claims, and build for low-bandwidth viewers on Jio networks.",
+      "tags": [
+        "regional-content",
+        "hindi",
+        "bharat",
+        "agri-tech",
+        "tier-2-marketing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-020",
+      "title": "Telugu Short Form Content Hyderabad Audience",
+      "prompt": "Act as a Telugu content specialist with 5 years experience creating short-form video for Hyderabad and Andhra Telangana audiences. I need you to develop 5 YouTube Shorts scripts of 50 seconds each for a Hyderabad-based biryani cloud kitchen chain priced Rs 199-499 per meal. Target: 10 million Shorts views in 60 days and 15,000 new app installs. Please provide: (1) hooks in Telugu with English transliteration referencing local Hyderabadi biryani culture and pride, (2) scene-by-scene visuals including dum process, raita, and mirchi ka salan, (3) Telugu voiceover with phonetic notes, (4) references to local landmarks like Charminar, Hussain Sagar, and Hitech City, (5) comparison hooks about Bangalore versus Hyderabad biryani that invite comment wars, (6) a CTA pattern that uses Telugu-Hindi Dakhni mix which is natural in Hyderabad, and (7) trending Tollywood audio suggestions that would not trigger copyright flags. Format as script cards. Consider these constraints: respect the Telangana versus Andhra cultural distinction, do not confuse Telugu with Tamil which is a common offence, FSSAI and pricing transparency, Ramzan-specific marketing when timing is right, and authentic Dakhni Urdu phrases rather than Bollywood Hindi defaults.",
+      "tags": [
+        "regional-content",
+        "telugu",
+        "youtube-shorts",
+        "food-delivery",
+        "hyderabad"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-021",
+      "title": "ShareChat Moj Campaign Plan Tier 3 Reach",
+      "prompt": "Act as a vernacular platform strategist with 5 years experience running campaigns on ShareChat and Moj targeting Indian Bharat users. I need you to create a 45-day campaign plan for a Lucknow-based personal hygiene brand launching a Rs 99 sachet pack targeting women aged 25-45 in UP, Bihar, Jharkhand, and Chhattisgarh villages. Goal: 5 million impressions, 200K sachet sales through kirana stores, and top-of-mind awareness measured by pre-post survey. Please provide: (1) a Moj reel content plan with 20 reel ideas in Hindi and Bhojpuri, (2) ShareChat status image and text plan for WhatsApp forward culture, (3) a 10-creator list profile specifically active on these platforms with tier-3 follower base, (4) a paid spend plan of Rs 8 lakh on platform ads, (5) branded filter or sticker pack ideas, (6) language localization matrix across Hindi, Bhojpuri, Magahi, and Chhattisgarhi, and (7) measurement beyond vanity metrics using offline store surveys. Format as a 6-week sprint calendar. Consider these constraints: low data literacy requires simple CTAs, WhatsApp is the primary share destination, avoid urban metro aesthetics which feel alien, regulatory compliance for personal care claims, and respect modesty norms while educating openly.",
+      "tags": [
+        "sharechat",
+        "moj",
+        "vernacular-marketing",
+        "tier-3",
+        "bharat"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-022",
+      "title": "Indian Meme Marketing Playbook Brand Voice",
+      "prompt": "Act as a meme marketer with 6 years experience building cult brand followings on Indian social media through meme-first content. I need you to build a meme marketing playbook for a Bengaluru-based SaaS HR tool targeting Indian startup employees aged 22-35 who spend time on Twitter and Instagram. The goal is to go from 5K to 50K followers in 6 months using 60% meme content. Please provide: (1) 15 Indian meme formats currently working (Pushpa, Phineas, CA Rahul, Tharki Chokro, Binod-style) with caption templates, (2) a daily meme creation workflow from trend-spotting to publishing within 2 hours, (3) 10 ready meme ideas adapted for HR and workplace humour that the brand can post this week, (4) a 5-point filter for meme safety to avoid cancellation (no caste, no religion, no political, no body shaming, no sexist), (5) a meme amplification tactic of reply-guy engagement on viral trends, (6) ideal posting times, and (7) a monthly measurement dashboard focused on shares and saves rather than likes. Format as a playbook document. Consider these constraints: Indian meme culture evolves weekly, copyright from film stills is a grey area, brand voice must stay self-aware not cringe, and engagement matters more than reach on meme accounts.",
+      "tags": [
+        "meme-marketing",
+        "brand-voice",
+        "indian-memes",
+        "social-strategy",
+        "saas"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-023",
+      "title": "Instagram Carousel Content 10 Slide Education",
+      "prompt": "Act as an Instagram carousel designer and copywriter with 5 years experience creating educational carousels that cross 100K saves for Indian creators. I need you to write 5 complete 10-slide carousels for a Mumbai-based certified financial planner educating women aged 28-40 about personal finance. Topics: (1) How to build a Rs 1 crore corpus in 15 years, (2) Term insurance myths, (3) How to read a salary slip, (4) Emergency fund setup, and (5) NPS versus PPF. Please provide for EACH carousel: (1) a cover slide hook with 5-word headline and visual description, (2) slides 2-9 with title, 30-word body copy, and visual layout notes, (3) a final slide with a strong save-and-share CTA and profile tag, (4) caption of 150 words with personal story opener, (5) 15 hashtags, and (6) a reference to Indian products (HDFC Life, LIC, Zerodha) with disclaimer language. Format as slide-by-slide tables. Consider these constraints: SEBI investment advisor disclosure if giving specific advice, avoid guaranteed-return language, women-first framing without stereotype, visual hierarchy for mobile reading, and maintain a friendly not preachy tone.",
+      "tags": [
+        "instagram",
+        "carousel",
+        "educational-content",
+        "personal-finance",
+        "content-design"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-024",
+      "title": "LinkedIn Carousel PDF Document B2B Thought",
+      "prompt": "Act as a LinkedIn content strategist with 6 years experience producing high-save document posts for Indian B2B brands. I need you to design 3 LinkedIn PDF carousels of 12 slides each for a Gurugram-based management consulting firm targeting founders of Indian SMEs with revenues Rs 10-100 crore. Topics: (1) 7 tax-saving strategies for Indian SMEs post-new-tax-regime, (2) How to prepare for your first round of external funding, and (3) Employee retention playbook for Indian startups. Please provide for EACH document: (1) a cover slide with bold title, subtitle, author credit, and brand logo placement, (2) slides 2-11 with headline, 50-word body, and one data point from Indian sources (Inc42, RBI, MCA), (3) a final call-to-action slide offering a free 30-minute consultation, (4) a 200-word LinkedIn post caption with personal anchor, (5) tagging strategy for 10 relevant SME founders, and (6) repurposing notes for Twitter thread and email newsletter. Format as slide outlines. Consider these constraints: LinkedIn compresses PDFs so use readable fonts, Indian CA and tax references require current FY rates, avoid jargon, include WhatsApp Business contact since Indian SME founders prefer WhatsApp over email, and ensure data sources are linked.",
+      "tags": [
+        "linkedin",
+        "carousel",
+        "document-post",
+        "b2b",
+        "sme-marketing"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-025",
+      "title": "User Generated Content Campaign Hashtag Contest",
+      "prompt": "Act as a UGC campaign manager with 7 years experience running hashtag contests for Indian lifestyle brands. I need you to design a complete 30-day UGC campaign for a Jaipur-based ethnic wear brand priced Rs 999-3,999 with goals of 5,000 user submissions, 20 million reach, and 2,000 incremental sales. Please provide: (1) a campaign concept with a single memorable branded hashtag plus a participation mechanic, (2) a step-by-step entry process with 3 simple tasks, (3) prize ladder across grand prize, 10 runner-ups, and 50 consolation gifts, (4) influencer seeding plan with 20 nano influencers to kick-start participation, (5) legal terms and conditions template compliant with Indian contest rules and GST implications above Rs 10,000 prize value, (6) weekly content to spotlight best entries, (7) a repost permission DM template, and (8) post-campaign measurement framework including earned media value calculation. Format as a full campaign brief document. Consider these constraints: avoid luck-based mechanics which can trigger gaming laws in some states, GST and TDS on prize value, ASCI disclosure on seeded entries, privacy consent for reposting user faces, and ensure the contest is accessible to non-English speakers.",
+      "tags": [
+        "ugc",
+        "hashtag-contest",
+        "campaign",
+        "ethnic-wear",
+        "community"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-026",
+      "title": "Instagram Live Event Script Product Launch",
+      "prompt": "Act as an Instagram Live producer with 5 years experience running live product launches for Indian D2C brands with average viewership of 8,000 concurrent. I need you to write a complete run-of-show for a 60-minute Instagram Live launching a new haircare product by a Bengaluru-based clean beauty brand priced Rs 599. Target: 15K live viewers, 2,000 cart additions during the live, and 500 instant purchases. Please provide: (1) a minute-by-minute rundown with host cues, product reveal timing, and expert interview segments, (2) a pre-live promotion plan 7 days before with teasers, (3) 10 engagement questions to keep viewers typing in comments, (4) 5 exclusive live-only offers and codes, (5) a hero guest expert intro script (dermatologist with credentials), (6) giveaway mechanics mid-live, (7) post-live follow-up DM template for high-intent viewers, and (8) technical checklist for lighting, audio, and backup device. Format as a runsheet table. Consider these constraints: Indian viewers peak between 8-10pm IST, avoid long dead air which spikes drop-off, SEBI and ASCI guidelines for cosmetic claims, maintain a bilingual Hinglish flow, and pre-seed comments with planted questions to trigger conversation.",
+      "tags": [
+        "instagram-live",
+        "product-launch",
+        "live-commerce",
+        "beauty",
+        "event-script"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-027",
+      "title": "LinkedIn Poll Series B2B Engagement Ideas",
+      "prompt": "Act as a LinkedIn engagement specialist with 6 years experience running poll series that generate 10K+ votes for Indian B2B brands. I need you to design a 4-week poll series (3 polls per week totalling 12) for a Pune-based enterprise cybersecurity startup targeting CISOs and IT heads at Indian banks, NBFCs, and insurance firms. Goal: 50K poll votes, 2K new followers, and 20 inbound sales conversations. Please provide: (1) 12 poll questions with 4 answer options each covering topics like RBI cyber guidelines, zero-trust adoption, budget allocation, and talent shortage, (2) for each poll a 100-word accompanying post explaining context, (3) a follow-up post after each poll sharing results with commentary, (4) a tagging strategy inviting 5 Indian cybersecurity leaders per poll, (5) repurposing plan to turn top 3 polls into a research report, (6) paid amplification of top-performing polls with Rs 50K budget, and (7) a monthly engagement report template. Format as a weekly schedule. Consider these constraints: LinkedIn poll limits (4 options, 2 weeks max duration), avoid leading questions which feel biased, Indian BFSI compliance sensitivity, do not reveal client names without permission, and maintain a neutral industry-observer tone.",
+      "tags": [
+        "linkedin",
+        "polls",
+        "engagement",
+        "cybersecurity",
+        "b2b-marketing"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-028",
+      "title": "YouTube Community Tab Engagement Plan Creator",
+      "prompt": "Act as a YouTube community manager with 5 years experience growing community tab engagement for Indian creators with 100K-500K subscribers. I need you to create a 30-day community tab engagement plan for a Chennai-based tech review channel with 280K subscribers targeting gadget enthusiasts aged 18-35. Please provide: (1) a daily schedule of 30 community posts mixing polls, text updates, image posts, quizzes, and video teasers, (2) poll questions designed to drive comment threads of 500+ replies, (3) 5 giveaway mechanics that comply with YouTube community guidelines, (4) a workflow to turn popular poll results into next week's video topic, (5) a regional language angle using Tamil and English mix, (6) spoiler and teaser patterns for upcoming phone reviews, (7) a member-only tab content plan for channel members, and (8) a measurement framework tracking poll votes, post likes, and resulting video clicks. Format as a calendar plus post templates. Consider these constraints: community tab is only available above 500 subscribers, YouTube algorithm values community engagement for video recommendations, do not post affiliate links in community tab which is against policy, maintain consistent posting cadence, and tag timing around phone launch cycles.",
+      "tags": [
+        "youtube",
+        "community-tab",
+        "engagement",
+        "tech-creator",
+        "channel-growth"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-029",
+      "title": "Twitter Thread Writing Viral Framework Finance",
+      "prompt": "Act as a Twitter thread copywriter with 5 years experience writing finance threads that regularly cross 1 million impressions on Indian Twitter. I need you to write 3 complete Twitter threads of 12-15 tweets each for a Mumbai-based wealth management firm targeting HNIs and professionals earning Rs 25-50 lakh per annum. Topics: (1) Mistakes Indian investors made in 2024 and how to avoid them in 2025, (2) How to actually read a mutual fund factsheet, and (3) The real math behind tax-free LTCG on equity. Please provide for EACH thread: (1) a first tweet hook under 240 characters with a visual or data point, (2) a 1/n pattern through the thread with concrete examples using Indian funds and rupee figures, (3) a soft CTA in the final tweet with a lead magnet offer, (4) a pinned-comment follow-up for high traction, (5) reply templates for likely questions, and (6) a schedule for optimal 9am IST drop. Format as tweet-by-tweet scripts. Consider these constraints: SEBI RIA disclosure, avoid specific stock tips, use real data from Value Research or Morningstar India, include a screenshot asset description, and keep language that is understood by intermediate investors.",
+      "tags": [
+        "twitter",
+        "thread-writing",
+        "finance",
+        "viral-content",
+        "copywriting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-030",
+      "title": "Facebook Group Community Strategy Monetization",
+      "prompt": "Act as a Facebook group community manager with 7 years experience growing paid and free Indian communities from zero to 100K members. I need you to design a 90-day strategy to grow and monetize a Facebook group for a Hyderabad-based home-baker community targeting women aged 28-50 running small home bakeries. Goal: Grow from 3,200 to 25,000 members and launch a paid coaching product at Rs 4,999. Please provide: (1) a content calendar mix of daily posts, weekly lives, and monthly challenges, (2) 10 pinned resource templates (pricing calculator, FSSAI checklist, packaging tips), (3) a screening question set for new member approval to keep group quality high, (4) a peer-spotlight format to make members the heroes, (5) an engagement ritual schedule (Monday menu, Wednesday wins, Friday Q&A), (6) a soft-launch sequence for the paid coaching program without spamming, (7) moderation guidelines and a ban list for self-promo rules, and (8) a referral mechanic to invite friends. Format as a community playbook. Consider these constraints: Facebook India still dominates tier-2 and tier-3 women audiences, FSSAI registration norms for home bakers, do not share personal WhatsApp numbers publicly, and respect the relational trust that these communities are built on.",
+      "tags": [
+        "facebook-groups",
+        "community",
+        "monetization",
+        "home-business",
+        "women-entrepreneurs"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-031",
+      "title": "Instagram Bio and Highlight Optimization Audit",
+      "prompt": "Act as an Instagram profile optimization specialist with 5 years experience auditing and rebuilding profiles for Indian small businesses. I need you to create a complete profile optimization audit and rebuild plan for a Kochi-based artisanal spice brand with 12K followers priced Rs 249-899 per pack. Please provide: (1) a bio rewrite with 3 alternative 150-character bios each with a clear value proposition, one emoji, and a CTA, (2) name field optimization including SEO keywords Indian buyers search, (3) profile photo and grid aesthetic recommendations, (4) 8 highlight covers with category names (Recipes, Reviews, FAQs, Shipping, About, Shop, Press, Reels), (5) the exact content to save into each highlight, (6) link-in-bio landing page structure with 6 tap-worthy links, (7) pinned-post selection criteria with 3 post recommendations, and (8) a 30-day profile refresh checklist. Format as a before-after audit document. Consider these constraints: Instagram bio supports one clickable link only (or use Linktree alternatives), Indian shoppers value trust cues like FSSAI number and return policy, Malayalam-English bilingual option, and avoid overusing emojis which look spammy in business profiles.",
+      "tags": [
+        "instagram",
+        "profile-optimization",
+        "bio-writing",
+        "small-business",
+        "audit"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-032",
+      "title": "Social Listening Brand Mention Crisis Early",
+      "prompt": "Act as a social listening analyst with 6 years experience setting up monitoring dashboards for Indian FMCG brands. I need you to design a complete social listening and early warning system for a Mumbai-based packaged snacks brand with annual revenue Rs 180 crore. Goal: Detect crisis signals within 15 minutes and respond within 1 hour. Please provide: (1) a keyword and hashtag monitoring list including brand names, product names, founder name, competitors, and common misspellings across Hindi and English, (2) platform coverage matrix for Instagram, Twitter, YouTube comments, Reddit India, Google Reviews, and news aggregators, (3) sentiment scoring rubric with 5 severity tiers from green to red, (4) an escalation flowchart showing who gets notified at each tier, (5) a triage response playbook for each tier with sample replies, (6) weekly and monthly reporting templates, (7) tool recommendations (Brandwatch, Meltwater, Sprinklr) with Indian pricing, and (8) an FSSAI-specific incident protocol. Format as an operations manual. Consider these constraints: Indian regional languages require multilingual keyword coverage, avoid over-alerting which causes fatigue, integrate with WhatsApp Business for frontline escalation, and comply with DPDP Act 2023 when processing user-identifiable social data.",
+      "tags": [
+        "social-listening",
+        "orm",
+        "brand-monitoring",
+        "fmcg",
+        "crisis-early-warning"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-033",
+      "title": "Paid Social Creative Brief Meta Ads",
+      "prompt": "Act as a paid social creative strategist with 7 years experience producing high-ROAS Meta ad creatives for Indian D2C brands spending Rs 50 lakh to 2 crore per month. I need you to write a complete creative brief for a 60-day Meta ads campaign for a Delhi-based athleisure brand priced Rs 799-2,499 targeting women aged 22-35 in metros. Budget Rs 25 lakh. Goal: 4X ROAS and CAC below Rs 450. Please provide: (1) 3 campaign concept territories with positioning angles, (2) 12 static ad concepts with headline, subhead, body copy, and visual description, (3) 8 reel ad scripts of 15 seconds each with hook-problem-solution-CTA structure, (4) 5 UGC-style ad scripts featuring relatable customer archetypes, (5) a landing page copy brief that matches the ad promise, (6) audience targeting clusters with interest layers, (7) a creative testing framework rotating variables every 72 hours, and (8) a fatigue-detection rule and refresh cadence. Format as a creative brief document. Consider these constraints: Meta's 20% text rule for images has softened but still affects delivery, avoid sizeism and body shaming, ASCI influencer disclosure if UGC is paid, include authentic Indian body types in casting, and optimize for mobile-vertical first.",
+      "tags": [
+        "paid-social",
+        "meta-ads",
+        "creative-brief",
+        "d2c",
+        "performance-marketing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-034",
+      "title": "Instagram Broadcast Channel Launch Plan",
+      "prompt": "Act as a community growth manager with experience launching Instagram Broadcast Channels for Indian creators and brands in the 100K-1M follower range. I need you to create a launch and content plan for a new Instagram Broadcast Channel for a Bengaluru-based fitness creator with 420K followers targeting urban women interested in home workouts. Goal: 50K channel joiners in 30 days and 60% message open rate. Please provide: (1) a pre-launch teaser plan across feed, reels, and stories for 7 days, (2) a welcome message sequence for new joiners, (3) a 30-day content drop calendar with daily message types (voice note, poll, image, video, workout plan), (4) 5 exclusive member-only offers and content pieces, (5) engagement prompts that feel intimate not broadcast, (6) cross-promotion with 3 similar creators, (7) a boundary and moderation policy for the channel, and (8) weekly KPIs and a pulse-check survey template. Format as a launch playbook. Consider these constraints: Broadcast Channels are one-way so design for consumption not conversation, Indian users are notification-sensitive so limit to 1-2 messages per day, respect time zones by sending between 7-9am IST, and avoid pure promo which triggers leaves.",
+      "tags": [
+        "instagram",
+        "broadcast-channel",
+        "community",
+        "fitness-creator",
+        "launch-plan"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-035",
+      "title": "Influencer Campaign Post Mortem Report Template",
+      "prompt": "Act as an influencer marketing analyst with 6 years experience measuring campaigns for Indian brands spending Rs 20 lakh to 2 crore per quarter on creators. I need you to create a complete post-mortem report template and narrative for a just-concluded 45-day campaign where a Bengaluru-based skincare brand worked with 25 micro influencers and 3 macro influencers, total spend Rs 42 lakh, to launch a new serum priced Rs 899. Please provide: (1) an executive summary with headline numbers (impressions, engagement rate, CPM, CPE, attributed revenue, ROAS), (2) a creator-by-creator performance table ranked by CPE and conversion, (3) top 3 reels that broke out with qualitative reasons, (4) 5 key learnings about casting, brief quality, and content timing, (5) a comparison against benchmarks from previous campaigns, (6) attribution methodology notes covering promo codes, UTM, and platform insights, (7) recommendations for the next campaign including creators to re-engage and avoid, and (8) a board-ready one-pager. Format as a structured report. Consider these constraints: Instagram's API limits for third-party insights, Indian creator fees disclosed with 18% GST, respect creator NDAs, and factor in earned media value formulas accepted in Indian marketing departments.",
+      "tags": [
+        "influencer-marketing",
+        "campaign-report",
+        "analytics",
+        "post-mortem",
+        "roi-measurement"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-036",
+      "title": "Competitor Social Media Audit Benchmark Report",
+      "prompt": "Act as a competitive intelligence analyst with 6 years experience auditing Indian brand social media for strategic decision-making. I need you to produce a detailed competitor audit report for a Mumbai-based premium coffee brand benchmarking against 5 competitors (Blue Tokai, Sleepy Owl, Third Wave Coffee, Rage Coffee, Subko). Please provide: (1) a data collection plan covering Instagram, LinkedIn, YouTube, and Twitter over the last 90 days, (2) a scorecard comparing follower growth rate, posting frequency, engagement rate, top content format, and estimated paid spend, (3) content pillar analysis showing what themes each competitor prioritizes, (4) 10 best-performing posts across competitors with reasons for success, (5) gap analysis identifying 5 white spaces our brand can own, (6) creator and influencer overlap map, (7) a 60-day counter-strategy with specific content hooks, and (8) a quarterly refresh cadence for this audit. Format as a board-ready slide deck outline. Consider these constraints: do not scrape in ways that violate platform terms, use Meta Ad Library and LinkedIn Insights publicly, avoid copying competitor content which harms brand equity, and respect the Indian coffee community which is small and interconnected.",
+      "tags": [
+        "competitor-analysis",
+        "audit",
+        "benchmark",
+        "coffee-brand",
+        "strategic-intelligence"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-037",
+      "title": "Social Media Brand Voice Guidelines Document",
+      "prompt": "Act as a brand voice strategist with 8 years experience writing voice and tone guidelines for Indian consumer brands. I need you to create a complete social media brand voice document for a Gurugram-based millennial-first insurance brand targeting customers aged 25-35 buying their first term or health insurance. Please provide: (1) a brand personality statement in one paragraph capturing 4 core traits, (2) a voice spectrum chart with 6 dials (formal-casual, serious-playful, respectful-irreverent, traditional-modern, aspirational-grounded, expert-friend) marked for this brand, (3) do and don't lists with 15 examples each, (4) platform-specific tone adjustments for Instagram, LinkedIn, Twitter, YouTube, and WhatsApp, (5) 10 commonly used phrases to always use and 10 phrases to never use, (6) Hinglish usage rules explaining when to use English-only versus mixed, (7) sensitive topic guidance for death, illness, and financial loss which are inherent to insurance, and (8) 5 rewritten examples taking a generic caption and making it on-voice. Format as a brand book chapter. Consider these constraints: IRDAI advertising norms, avoid fear-based marketing which feels outdated, respectful handling of mortality topics, and cultural humility around regional diversity.",
+      "tags": [
+        "brand-voice",
+        "guidelines",
+        "tone-of-voice",
+        "insurance",
+        "brand-identity"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-038",
+      "title": "Employee Advocacy Program LinkedIn Playbook",
+      "prompt": "Act as an employee advocacy program lead with 6 years experience scaling social advocacy at Indian IT services and product companies with 500-5,000 employees. I need you to design a complete LinkedIn employee advocacy program for a Pune-based IT services company with 1,200 employees aiming to drive 10X organic reach and 100 inbound recruiting applications per month. Please provide: (1) a 90-day rollout plan with pilot-scale-sustain phases, (2) a content toolkit of 20 pre-approved post templates employees can personalize, (3) a training module outline covering LinkedIn profile optimization, post writing, and engagement etiquette, (4) a gamification and recognition system with monthly leaderboards, (5) a leadership buy-in script for CEO and CHRO, (6) measurement framework tracking share of voice, EAS (employee advocacy score), and attribution to hires, (7) a compliance and safety guide covering confidential info, customer names, and opinionated content, and (8) a tool recommendation (Sociabble, Hootsuite Amplify, EveryoneSocial) with Indian pricing. Format as a playbook deck. Consider these constraints: participation must be voluntary and documented, avoid forced-share which LinkedIn penalizes, Indian IT HR compliance around social media policy, and cultural sensitivity across diverse employees from different states.",
+      "tags": [
+        "employee-advocacy",
+        "linkedin",
+        "it-services",
+        "program-design",
+        "internal-marketing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-039",
+      "title": "Instagram Collaboration Post Cross Promotion Plan",
+      "prompt": "Act as a brand partnerships manager with 5 years experience orchestrating collab posts between Indian D2C brands for compounded reach. I need you to create a 60-day Instagram collaboration plan for a Bengaluru-based cold brew brand priced Rs 299-499 partnering with 6 non-competing lifestyle brands (a cookie brand, a stationery brand, a sneaker brand, a candle brand, a plant brand, and a linen brand). Goal: 3 million combined reach, 15K new followers per brand, and 5% conversion to each other's audiences. Please provide: (1) a partnership brief template to pitch each brand with value proposition and expected deliverables, (2) a 6-post content calendar with collab-post mechanics (both brands are tagged as co-authors and appear in both feeds), (3) creative concepts for each post including a bundle offer, a giveaway, a photo-shoot share, and a founder interview, (4) a joint reel idea featuring all 6 brands, (5) a shared hashtag and bundle landing page, (6) asset handover process and approvals, (7) FTC-equivalent ASCI disclosure notes, and (8) a measurement template attributing leads to each partner. Format as a partnership playbook. Consider these constraints: use Instagram's native collab feature to show in both feeds, avoid conflicting brand voices in shared captions, GST invoicing if cash changes hands, and respect each brand's audience tone.",
+      "tags": [
+        "collaboration",
+        "cross-promotion",
+        "brand-partnership",
+        "instagram",
+        "d2c"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    },
+    {
+      "id": "marketing-social-media-marketing-040",
+      "title": "Instagram Shop Tag Product Launch Social Commerce",
+      "prompt": "Act as a social commerce strategist with 6 years experience running Instagram Shop and product tagging campaigns for Indian D2C brands with GMV of Rs 5-30 crore per year. I need you to create a 30-day launch plan for a new collection of 15 SKUs from a Jaipur-based handbag brand priced Rs 1,499-4,999. Goal: Rs 45 lakh GMV from Instagram Shop in 30 days and 6% product tag click-through. Please provide: (1) a catalog setup checklist including product title, description, price, and hero image guidelines, (2) a 30-day content calendar with daily posts each carrying 1-3 product tags (reels, carousels, stories with product stickers, shopping live sessions), (3) 5 hero reel scripts that organically tag products without feeling like ads, (4) story templates using product stickers with swipe-to-buy, (5) 3 collab posts with nano influencers tagging products, (6) paid boost plan for top-performing organic posts with Rs 3 lakh budget, (7) user review and UGC strategy to build social proof, and (8) an analytics tracking sheet for tag clicks and shop conversions. Format as a campaign playbook. Consider these constraints: Instagram Shopping in India routes purchases to the brand's website not in-app checkout, GST-inclusive pricing must be clearly shown, product return policy must be linked, and avoid over-tagging which Meta penalizes.",
+      "tags": [
+        "instagram-shop",
+        "social-commerce",
+        "product-launch",
+        "d2c",
+        "shopping-tags"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "social-media-marketing"
+    }
+  ]
+}

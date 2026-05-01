@@ -1,0 +1,647 @@
+{
+  "category": "startup-founders",
+  "subcategory": "fundraising",
+  "count": 40,
+  "prompts": [
+    {
+      "id": "startup-founders-fundraising-001",
+      "title": "Build a 12-Slide Seed Stage Pitch Deck Outline",
+      "prompt": "Act as a pitch deck consultant with 10+ years experience helping Indian startups raise from Peak XV, Accel India, and Lightspeed India. I need you to build a complete 12-slide seed stage pitch deck outline for my startup. Here is the context: I am the founder of a B2B SaaS startup based in Bengaluru building a vendor management platform for D2C brands. We have INR 45 lakh ARR from 32 paying customers, growing 18% MoM, and we are raising INR 8 crore at a INR 32 crore pre-money valuation. Please provide: (1) Slide-by-slide structure with title, key message, and 3-5 bullet points per slide covering Problem, Solution, Market (TAM/SAM/SOM in INR), Product, Traction, Business Model, GTM, Competition, Team, Financials (3-year projection), Ask, and Use of Funds; (2) Specific data points and benchmarks I should highlight versus Indian SaaS comps like Zoho, Freshworks early stage; (3) Three storytelling hooks that resonate with Indian VCs in 2026; (4) Common pitch deck mistakes Indian founders make at seed stage. Format as a structured slide-by-slide markdown document with speaker notes for each slide. Consider Indian VC preferences for capital efficiency, founder-market fit, and unit economics over GMV growth.",
+      "tags": [
+        "pitch-deck",
+        "seed-stage",
+        "saas"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-002",
+      "title": "Draft Cold Investor Outreach Email to Indian VC Partner",
+      "prompt": "Act as a fundraising advisor with experience drafting investor outreach for 50+ Indian startups that closed rounds with Nexus, Matrix Partners India, Blume Ventures, and Kalaari Capital. I need you to draft a cold outreach email to a Partner at an Indian VC firm. Here is the context: I am Priya Sharma, founder of LogiKart, a Mumbai-based logistics tech startup digitizing last-mile delivery for kirana stores. We have 1,800 active kiranas across Mumbai and Pune, INR 2.1 crore monthly GMV, 11% take rate, and we are raising a INR 25 crore Series A. The target is a Partner at Nexus Venture Partners who has invested in similar logistics plays. Please provide: (1) A 150-180 word email with compelling subject line, personalized opening referencing their portfolio, problem-solution-traction narrative, specific ask, and clear next step; (2) Three subject line variations optimized for Indian VC inbox patterns; (3) A 90-second voice memo script for LinkedIn follow-up; (4) Three warm intro paths I should pursue in parallel through Indian Angel Network or LetsVenture connections. Format as ready-to-send email with HTML formatting hints. Consider Indian VC norms around brevity, traction proof, and avoiding aggressive language.",
+      "tags": [
+        "investor-email",
+        "cold-outreach",
+        "series-a"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-003",
+      "title": "Construct 5-Year Financial Projection Narrative for Series A",
+      "prompt": "Act as a CFO with 12 years experience preparing financial models for Indian startups raising Series A from Accel India and Stellaris Venture Partners. I need you to construct a 5-year financial projection narrative. Here is the context: I run a Chennai-based vertical SaaS for Indian dental clinics. Current ARR is INR 6.2 crore, ACV INR 84,000, gross margin 78%, CAC payback 14 months, net revenue retention 118%. We are raising INR 60 crore Series A. Please provide: (1) Year-by-year narrative covering ARR growth (FY26-FY30), customer count, ACV expansion, gross margin trajectory, S&M efficiency (magic number), R&D ratio, and path to INR 250 crore ARR; (2) Three scenarios (base, bull, bear) with specific INR numbers and growth assumptions; (3) Key SaaS metrics benchmarked against Indian comps like Mindtickle, Whatfix, Chargebee at similar stage; (4) Sensitivity analysis on CAC, churn, and pricing; (5) Narrative bridge explaining how INR 60 crore deploys across hiring, GTM, and product. Format as a written narrative document followed by a summary table. Consider Indian SaaS benchmarks for Rule of 40, burn multiple, and capital efficiency that VCs prioritize in 2026.",
+      "tags": [
+        "financial-projection",
+        "series-a",
+        "saas-metrics"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-004",
+      "title": "Analyze Series A Term Sheet Clauses for Founder Friendliness",
+      "prompt": "Act as a startup lawyer with 15 years experience reviewing Indian Series A term sheets at firms like Khaitan & Co, IndusLaw, and Trilegal. I need you to analyze a term sheet clause-by-clause. Here is the context: I am founder of a Gurgaon-based fintech raising INR 80 crore Series A from a tier-1 Indian VC. The term sheet includes: 1x non-participating liquidation preference, broad-based weighted average anti-dilution, 15% post-money ESOP top-up, ROFR + co-sale on founder shares, 2 board seats for investor + 1 independent, drag-along at 60% threshold, CCPS instrument with 0.001% dividend, and standard MFN. Please provide: (1) Clause-by-clause analysis flagging founder-friendly, market-standard, and aggressive terms versus Indian Series A norms; (2) Negotiation priorities ranked by long-term impact on cap table and control; (3) Specific counter-language I should propose for the three most aggressive clauses; (4) Comparison to typical terms from Peak XV, Lightspeed, and Matrix at Series A stage; (5) Red flags that warrant walking away. Format as a structured table with clause name, current language, market norm, risk level, and recommended action. Consider Indian Companies Act 2013 implications for CCPS, FDI rules, and SHA enforceability.",
+      "tags": [
+        "term-sheet",
+        "negotiation",
+        "series-a"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-005",
+      "title": "Prepare Due Diligence Data Room Checklist for Indian VC",
+      "prompt": "Act as a startup operations consultant with experience preparing 30+ Indian startups for VC due diligence by Big4 (EY, PwC, Deloitte, KPMG) and law firms like Cyril Amarchand. I need you to prepare a comprehensive DD data room checklist. Here is the context: I am closing a INR 45 crore Series A with Blume Ventures for my Hyderabad-based healthtech startup. The lead VC has triggered legal, financial, tax, and tech DD with EY and IndusLaw. Please provide: (1) Folder-by-folder data room structure covering Corporate (MOA, AOA, board resolutions, shareholding), Financial (audited statements, MIS, tax returns, GST filings), Commercial (top 20 customer contracts, vendor agreements), HR (employment contracts, ESOP grants, PF/ESI compliance), IP (trademarks, patents, copyright assignments), Tech (architecture docs, security audits, data privacy under DPDP Act), Litigation (pending matters, notices); (2) Specific document list under each folder with naming conventions; (3) Common red flags Indian VCs find during DD that delay closing; (4) Sequencing: what to prepare in week 1 vs week 4; (5) Coordination protocol with founders, CFO, CS, and external auditor. Format as a downloadable checklist with status columns (Ready, In Progress, Pending). Consider DPIIT recognition documents, GST input credit reconciliation, and ROC filings.",
+      "tags": [
+        "due-diligence",
+        "data-room",
+        "series-a"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-006",
+      "title": "Write Problem and Solution Slides with Indian Market Data",
+      "prompt": "Act as a pitch deck storyteller with 8 years experience crafting narratives for Indian startups that raised from Kalaari, Stellaris, and Chiratae. I need you to write the Problem and Solution slides. Here is the context: I am building a credit underwriting platform for Indian MSMEs that lack formal financial statements. Target customer is NBFCs and small finance banks. Indian MSME credit gap is INR 25 lakh crore per RBI estimates. Please provide: (1) Problem slide with 3 sharp bullet points, one provocative stat from RBI/IFC reports, and a customer quote (fictional but realistic) from an NBFC credit head; (2) Solution slide with 3 bullets explaining our approach using GST data, bank statement analysis, and alternate signals, plus a one-line product positioning statement; (3) Speaker notes for both slides (60 seconds each); (4) Two alternative framings emphasizing different angles (regulatory tailwind from RBI account aggregator vs. AI-first underwriting); (5) Visual layout suggestions including charts and customer logos to include. Format as slide content with title, body, speaker notes, and design notes. Consider Indian VC fatigue with generic \"financial inclusion\" pitches and the need for sharp differentiation.",
+      "tags": [
+        "pitch-deck",
+        "storytelling",
+        "fintech"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-007",
+      "title": "Build TAM SAM SOM Analysis for Indian Market Slide",
+      "prompt": "Act as a market research analyst with experience sizing markets for Indian startups across consumer, SaaS, and fintech sectors. I need you to build a defensible TAM-SAM-SOM analysis. Here is the context: I am founder of a Pune-based EdTech startup offering UPSC preparation through AI-powered personalized coaching. Pricing is INR 24,000 per year per student. We are raising a INR 18 crore Series A. Please provide: (1) Top-down TAM calculation using NCERT, MHRD, and UPSC aspirant data with INR numbers and credible sources; (2) Bottom-up SAM calculation focused on serious aspirants in tier-1 and tier-2 cities who pay for coaching, with assumptions clearly stated; (3) SOM with 3-year capture rate and revenue projection; (4) Comparable market share data from Unacademy, Byjus, PhysicsWallah at similar stage; (5) Three slide layout options (single chart, three-circle Venn, bottom-up table); (6) Speaker notes addressing the typical Indian VC pushback that EdTech market is overestimated post-Byjus collapse. Format as slide content with embedded calculations and source citations. Consider regional language opportunities, NEP 2020 implications, and Indian household spend on education from NSSO data.",
+      "tags": [
+        "pitch-deck",
+        "market-sizing",
+        "edtech"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-008",
+      "title": "Craft Traction Slide Showcasing Capital Efficiency",
+      "prompt": "Act as a fundraising coach who has helped 40+ Indian B2B startups close Series A rounds emphasizing capital efficiency over GMV. I need you to craft the Traction slide. Here is the context: I am founder of a Bengaluru-based dev tools startup. Metrics: INR 12 crore ARR, 145 customers, 22% MoM growth, INR 95 lakh raised so far (seed), INR 6 crore burned, gross margin 84%, NRR 132%, CAC payback 9 months, 38 NPS. Please provide: (1) Traction slide with 6 hero metrics displayed in a clear grid with INR figures, growth rates, and time periods; (2) A growth chart showing monthly ARR trajectory with key inflection points labeled; (3) Logo wall structure showing 12 marquee customers grouped by segment; (4) One-line capital efficiency narrative (INR raised vs ARR built) versus typical Indian SaaS comps; (5) Speaker notes (75 seconds) connecting traction to the funding ask; (6) Three alternative metric framings if the audience is product-focused vs growth-focused VC. Format as slide layout description plus speaker script. Consider that 2026 Indian VCs prioritize burn multiple, magic number, and Rule of 40 over vanity metrics like signups or app downloads.",
+      "tags": [
+        "pitch-deck",
+        "traction",
+        "capital-efficiency"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-009",
+      "title": "Write Warm Intro Request Email to Mutual Connection",
+      "prompt": "Act as a startup networking expert with experience helping Indian founders secure 200+ warm intros to VCs at Peak XV, Accel India, and Elevation Capital. I need you to write a warm intro request email. Here is the context: I am founder of a Delhi NCR-based agritech startup with INR 4.5 crore ARR working with 12,000 farmers across Punjab and Haryana. I want an introduction to a Principal at Elevation Capital who led a similar agritech investment 2 years ago. The mutual connection is a former colleague who is now a Director at a portfolio company of Elevation. Please provide: (1) A 120-150 word email to my mutual connection requesting the intro, including a forwardable blurb they can paste; (2) A separate 80-word forwardable blurb summarizing my company, traction, and ask in third person; (3) Three subject line options for both emails; (4) Etiquette tips for warm intros in the Indian VC ecosystem (timing, follow-up cadence, gratitude); (5) What to do if the connection goes silent for 7 days. Format as ready-to-send emails with clear labels. Consider Indian professional norms around making asks, offering reciprocity, and respecting the connector's social capital.",
+      "tags": [
+        "investor-email",
+        "warm-intro",
+        "networking"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-010",
+      "title": "Draft Investor Update Email for Existing Cap Table",
+      "prompt": "Act as a startup CEO coach who has reviewed investor updates for 100+ Indian startups backed by Indian Angel Network, AngelList India, and tier-1 VCs. I need you to draft a monthly investor update email. Here is the context: I am the founder of a Mumbai-based D2C beauty brand with INR 14 crore annualized revenue, 28% MoM growth, INR 1.2 crore monthly burn, 8 months runway. We have 14 angels and 1 institutional seed investor (Blume) on the cap table. We are planning to start Series A conversations in 60 days. Please provide: (1) A complete monthly update email structured as: TLDR, Wins, Lows, Asks, Metrics dashboard (revenue, growth, burn, runway, CAC, AOV), Team updates, Next month focus; (2) A specific Asks section listing 3 actionable requests including warm intros to Series A leads; (3) A subject line that drives open rates among busy investors; (4) A structured metrics table with previous month, current month, and trend; (5) Tone guidance balancing transparency about challenges with confidence in execution. Format as ready-to-send markdown email. Consider Indian investor expectations around frequency (monthly), transparency on burn, and avoiding the founder mistake of only sharing good news.",
+      "tags": [
+        "investor-email",
+        "investor-update",
+        "communication"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-011",
+      "title": "Build Bottom-Up Revenue Model for B2B SaaS Startup",
+      "prompt": "Act as a SaaS finance expert with 10 years experience modeling revenue for Indian startups that raised from SaaSBoomi network and Together Fund. I need you to build a bottom-up revenue model. Here is the context: I run a Chennai-based HR tech SaaS targeting Indian mid-market companies (200-2000 employees). Current state: 28 customers, INR 2.4 crore ARR, ACV INR 8.5 lakh, 4-month sales cycle, INR 18 lakh CAC, 95% gross retention, 112% net retention. Sales team: 3 AEs, each closing 1.2 deals/month. Please provide: (1) Bottom-up monthly revenue projection for 36 months covering new ACV from each AE cohort, expansion revenue from existing customers, and churn losses; (2) Hiring plan tied to revenue (when to add AE 4, 5, 6, SDR support, CS, sales engineer); (3) S&M efficiency metrics (magic number, CAC payback, LTV/CAC) by quarter; (4) Three scenarios varying AE ramp time (4 vs 6 vs 9 months) and quota attainment (60% vs 80% vs 100%); (5) Key assumptions sheet with sensitivity flags. Format as detailed narrative with summary tables; suggest Excel/Google Sheets structure. Consider Indian B2B SaaS norms around longer sales cycles, lower ACVs versus US comps, and the recent compression in valuation multiples in 2026.",
+      "tags": [
+        "financial-projection",
+        "revenue-model",
+        "b2b-saas"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-012",
+      "title": "Model Burn Rate and Runway with Hiring Plan",
+      "prompt": "Act as a fractional CFO with 12 years experience advising Indian startups on cash management and runway planning. I need you to build a detailed burn and runway model. Here is the context: I am founder of a Bengaluru-based AI infrastructure startup. Current cash INR 28 crore (post seed close), monthly burn INR 1.85 crore, headcount 32, average fully-loaded cost INR 38 lakh per year per employee. Planned hiring: 18 engineers, 4 GTM, 2 product, 1 finance over next 12 months. Cloud costs scaling at INR 12 lakh per month and growing 15% MoM. Please provide: (1) Month-by-month burn projection for 18 months with line items: salaries, cloud/infra, GTM spend, office/operations, professional fees, contingency; (2) Runway calculation with and without revenue assumption (INR 35 lakh MRR by month 6 growing 20% MoM); (3) Three scenarios: bull (hit revenue plan), base (70% of plan), bear (30% of plan with hiring freeze trigger); (4) Triggers that force expense cuts and the specific cuts at each runway threshold (12 mo, 9 mo, 6 mo, 4 mo); (5) Bridge financing options if Series A delays. Format as monthly cash flow statement plus narrative. Consider Indian payroll cycles, GST input credit timing, TDS, and ESOP exercise tax implications.",
+      "tags": [
+        "financial-projection",
+        "burn-rate",
+        "runway"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-013",
+      "title": "Negotiate Liquidation Preference and Anti-Dilution Terms",
+      "prompt": "Act as a startup law professor and former M&A partner with 18 years experience negotiating Indian Series A and B term sheets. I need you to develop a negotiation playbook for liquidation preference and anti-dilution clauses. Here is the context: I am founder of a Delhi-based logistics startup negotiating a INR 110 crore Series B. Lead investor proposed: 1.5x participating liquidation preference with 3x cap, full ratchet anti-dilution for 24 months, and pay-to-play. Existing Series A investors had 1x non-participating with broad-based weighted average. Please provide: (1) Clause-by-clause analysis explaining mechanics and dollar impact in 4 exit scenarios (INR 200 crore, 500 crore, 1000 crore, 2500 crore exit); (2) Market data on what is typical for Indian Series B in 2026 from comparable rounds; (3) Counter-proposal language for each clause with rationale; (4) Trade-off matrix showing what to concede vs hold firm based on leverage; (5) Three negotiation tactics specific to Indian VC culture (anchoring, walking away, using competing term sheets); (6) The downstream impact on Series C and exit dynamics. Format as a negotiation memo with comparative tables. Consider that participating preferences are increasingly contested in Indian deals post-2022 valuation correction.",
+      "tags": [
+        "term-sheet",
+        "negotiation",
+        "series-b"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-014",
+      "title": "Compare SAFE vs CCPS vs CCD Instruments for Indian Seed",
+      "prompt": "Act as a corporate finance attorney with 14 years experience structuring Indian seed rounds for startups raising from AngelList India, LetsVenture, and Indian Angel Network. I need you to compare investment instruments for an Indian seed round. Here is the context: I am founder of a Bengaluru-based DPIIT-recognized startup raising INR 4 crore seed from 12 angels (8 Indian residents, 4 NRIs) and 1 institutional micro-VC. Investors are pushing different instruments: SAFE notes, CCPS, CCDs, and direct equity at a fixed valuation. Please provide: (1) Detailed comparison table covering legal structure, conversion mechanics, valuation cap and discount, dividend rights, voting rights, FEMA/FDI implications, tax treatment under Indian Income Tax Act, and stamp duty; (2) Pros and cons for founder, Indian resident angel, and NRI investor for each instrument; (3) Why iSAFE (Indian SAFE variant from 100x.VC) gained traction and its limitations; (4) Recommendation for my specific scenario with rationale; (5) Documentation checklist (SHA, SSA, board resolution, RBI filings if NRI); (6) Common pitfalls Indian founders face when mixing instruments. Format as comparative analysis with clear recommendation. Consider the now-removed Section 56(2)(viib) angel tax history and current tax position.",
+      "tags": [
+        "term-sheet",
+        "instruments",
+        "seed-stage"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-015",
+      "title": "Prepare Founder Q&A Prep Doc for VC Partner Meeting",
+      "prompt": "Act as a fundraising coach who has prepared 60+ Indian founders for partner meetings at Peak XV, Accel India, Lightspeed, and Matrix. I need you to build a Q&A prep document. Here is the context: I have a partner meeting next week at Lightspeed India for my Series A pitch. I am founder of a Mumbai-based fintech offering credit cards for thin-file Indian millennials. Metrics: 85,000 active cards, INR 22 crore monthly TPV, 4.2% take rate equivalent, 18% NPA at 90+ DPD, INR 6 crore monthly net revenue. Please provide: (1) 25 anticipated tough questions across categories: market size and competition (CRED, Slice, Jupiter), unit economics (CAC, LTV, contribution margin), credit risk and NPA trajectory, regulatory (RBI digital lending norms, BNPL guidelines), team gaps, capital efficiency, exit narrative; (2) A 3-4 sentence ideal answer for each with specific numbers; (3) Three landmines I should avoid bringing up unprompted; (4) Questions I should ask the partner to demonstrate strategic thinking; (5) Logistics prep (deck flow, who attends, follow-up timing). Format as a structured prep document organized by category. Consider the partner's known portfolio interests and recent thesis articles published by Lightspeed India.",
+      "tags": [
+        "pitch-deck",
+        "investor-meeting",
+        "preparation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-016",
+      "title": "Build Competition Slide with Honest Differentiation",
+      "prompt": "Act as a positioning strategist with experience helping Indian B2B and consumer startups craft competition slides for tier-1 VC pitches. I need you to build a Competition slide. Here is the context: I am founder of a Hyderabad-based corporate travel SaaS competing with established players (MakeMyTrip Corporate, Yatra for Business) and well-funded startups (ITILITE, TravelPerk India operations, Fyle). My differentiation: AI-powered policy compliance, regional language support, and INR 2.5 lakh ACV vs competitors' INR 8-12 lakh. Please provide: (1) Three Competition slide layouts: 2x2 matrix, feature comparison table, and quadrant chart, with rationale for each; (2) Specific axes/dimensions that highlight my advantage without lying; (3) Honest acknowledgment of where competitors are better and how I plan to address; (4) The narrative bridge: why I will win in the Indian mid-market segment specifically; (5) Speaker notes (60 seconds) anticipating the inevitable question about MakeMyTrip Corporate's distribution advantage; (6) How to handle questions about international entrants like SAP Concur or Navan entering India. Format as slide content plus speaker script. Consider Indian VC skepticism about \"category creation\" claims and preference for clear wedge strategies in crowded markets.",
+      "tags": [
+        "pitch-deck",
+        "competition",
+        "positioning"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-017",
+      "title": "Write Reply to VC No With Path Back",
+      "prompt": "Act as a fundraising advisor who has coached 80+ Indian founders through VC rejection cycles. I need you to write a thoughtful reply to a VC no. Here is the context: I just received a pass from a Principal at Nexus Venture Partners after 3 meetings for my Series A. Their reasons: concerns about market size in Indian B2B procurement SaaS, questions on sales cycle length (9 months), and timing (they recently invested in adjacent space). Round size INR 35 crore. Please provide: (1) A 180-220 word reply email that thanks them, addresses the concerns with new data points, asks for specific feedback, and keeps the door open for future stages; (2) Three potential follow-up actions over the next 90 days (share traction milestones, new customer logos, market data refresh); (3) The exact language to ask if they would intro to other funds in their network; (4) When to politely re-engage if I close the round in 6 months at higher valuation; (5) How to extract maximum learning from the rejection without seeming defensive. Format as ready-to-send email plus follow-up plan. Consider Indian VC ecosystem norms where rejections are often rooted in pacing or thesis fit rather than fundamental disbelief in the company.",
+      "tags": [
+        "investor-email",
+        "rejection-handling",
+        "relationship"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-018",
+      "title": "Build Unit Economics Slide for Consumer Startup",
+      "prompt": "Act as a consumer startup operator who has built unit economics decks for Indian D2C, food, and quick commerce companies that raised from Sofina, Fireside Ventures, and DSG Consumer Partners. I need you to build the Unit Economics slide. Here is the context: I am founder of a Bengaluru-based premium tea D2C brand. Metrics: INR 750 AOV, 42% gross margin, INR 280 CAC blended, 2.4 orders per customer per year, 38% repeat rate at 6 months, INR 95 fulfillment cost, INR 65 packaging, INR 35 marketing per order on top of CAC. Please provide: (1) A unit economics slide showing per-order P&L, per-customer LTV calculation over 24 months, contribution margin 1 and 2, and CAC payback; (2) The progression from unit economics today to projected unit economics at 5x scale (with leverage assumptions); (3) Cohort retention data presentation showing month 1, 3, 6, 12 retention curves; (4) Speaker notes (60 seconds) connecting unit economics to scalability narrative; (5) The honest answer to the inevitable VC question: \"Why are you not yet contribution margin positive at scale?\"; (6) Comparison benchmarks against Mamaearth, BoAt, and Plix at similar revenue stage. Format as slide layout plus calculation tables. Consider Indian D2C realities of high fulfillment costs, return rates, and platform commissions on Amazon and Flipkart.",
+      "tags": [
+        "pitch-deck",
+        "unit-economics",
+        "d2c"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-019",
+      "title": "Draft Bridge Round Email to Existing Investors",
+      "prompt": "Act as a fundraising consultant with experience structuring bridge rounds for 25+ Indian startups during the 2022-2024 funding winter. I need you to draft a bridge round request email to existing investors. Here is the context: I am founder of a Pune-based logistics tech startup. We raised INR 22 crore Series A in 2024 at INR 110 crore post-money. Current state: INR 6.5 crore cash, INR 95 lakh monthly burn, 7 months runway, 22% MoM growth slowing to 12%. Series B conversations are 4-6 months away. We need INR 8 crore bridge from 3 existing investors at flat valuation with discount to next round. Please provide: (1) A 200-250 word email to the lead Series A investor explaining the ask, why bridge vs Series B now, terms proposed (flat valuation + 20% discount + valuation cap), use of funds; (2) A 2-page memo attachment covering current performance, runway scenarios, Series B readiness milestones, and downside protection; (3) The conversation flow if they ask \"why not lower valuation\" or \"why not go to market now\"; (4) How to handle existing investors who may pass and require new investors to fill bridge; (5) Documentation needed (SHA amendment, board resolution). Format as email plus memo outline. Consider Indian VC norms around bridge rounds and the stigma management required.",
+      "tags": [
+        "investor-email",
+        "bridge-round",
+        "existing-investors"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-020",
+      "title": "Prepare Legal Due Diligence Response Document",
+      "prompt": "Act as a senior associate at a top Indian corporate law firm (Khaitan, IndusLaw, Cyril Amarchand) with 9 years experience handling startup DD. I need you to prepare a comprehensive legal DD response document. Here is the context: I am founder of a Gurgaon-based B2B marketplace closing INR 75 crore Series B with Matrix Partners India. Their lawyers (IndusLaw) sent a 45-question legal DD checklist covering corporate structure, contracts, IP, employment, regulatory, and litigation. Please provide: (1) A structured response template addressing each category with sample answers and supporting document references; (2) The 8 most common red flags Indian VCs uncover in legal DD (founder share lock-in disputes, missing IP assignments from contractors, GST non-compliance, ESOP grants without board approval, etc.) and how to pre-empt them; (3) Specific Indian regulatory issues to flag (FEMA for foreign customers, Information Technology Act compliance, DPDP Act readiness, sectoral licenses); (4) ESOP plan documentation review checklist; (5) Litigation disclosure framework for pending consumer complaints, ex-employee disputes, and tax notices; (6) Coordination protocol with our company secretary, external counsel, and CFO. Format as a response framework with category-wise templates. Consider DPIIT recognition status, MCA filings, and recent amendments to the Companies Act 2013.",
+      "tags": [
+        "due-diligence",
+        "legal-dd",
+        "series-b"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-021",
+      "title": "Write Team Slide Highlighting Founder-Market Fit",
+      "prompt": "Act as a pitch deck writer with 7 years experience crafting Team slides for Indian startups that raised from Together Fund, Stellaris, and Better Capital. I need you to write the Team slide. Here is the context: I am co-founder of a Bengaluru-based developer platform startup. Co-founders: Me (CEO, ex-Razorpay engineering manager, IIT Bombay 2014), Rahul Mehta (CTO, ex-Atlassian Bengaluru, IIT Madras 2015), Anjali Raina (Head of GTM, ex-Postman, IIM Ahmedabad 2018). Team of 18 engineers, 80% from tier-1 colleges, 60% from product unicorns. Please provide: (1) Team slide layout with founder photos, 2-line bios emphasizing relevant operating experience, and a clear founder-market fit thesis; (2) The narrative thread connecting our backgrounds to why we are uniquely positioned to build this; (3) How to handle the gap (no prior CFO/finance leader); (4) Advisor and angel investor section showing strategic value adds; (5) Speaker notes (60 seconds) addressing the Indian VC obsession with \"why this team, why now\"; (6) Three alternative framings if I am pitching to a VC who values pedigree vs. one who values execution chops. Format as slide layout plus speaker script. Consider that Indian VCs in 2026 have moved past pedigree-only filters and want concrete operating wins as proof points.",
+      "tags": [
+        "pitch-deck",
+        "team-slide",
+        "founder-market-fit"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-022",
+      "title": "Build Cap Table Waterfall Analysis for Exit Scenarios",
+      "prompt": "Act as a startup CFO with 13 years experience modeling cap tables and exit waterfalls for Indian startups across seed to Series D. I need you to build a cap table waterfall analysis. Here is the context: I am founder of a Mumbai-based fintech with current cap table: Founders 58%, ESOP 12%, Seed investors (Blume + angels) 14% with 1x non-participating preference, Series A (Accel India) 16% with 1x non-participating + 1.5x participating senior preference at INR 80 crore investment. We are raising Series B at INR 400 crore pre-money for INR 100 crore. Please provide: (1) Pro-forma cap table showing dilution from Series B for all stakeholders; (2) Exit waterfall analysis at 4 scenarios: INR 800 crore, 1500 crore, 3000 crore, and 6000 crore exit, showing dollar payouts to each class; (3) The breakeven valuation where common shareholders (founders, ESOP) start participating; (4) Impact of converting preferred to common in optimal vs. preference scenarios; (5) ESOP pool top-up impact (Series B requires 5% top-up to 17%); (6) Founder takeaway on what valuations require what level of preferences to maintain healthy economics. Format as detailed waterfall tables plus narrative. Consider Indian Companies Act 2013 implications on different share classes and FEMA pricing guidelines.",
+      "tags": [
+        "term-sheet",
+        "cap-table",
+        "waterfall"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-023",
+      "title": "Craft Use of Funds Slide With Specific Allocation",
+      "prompt": "Act as a fundraising strategist who has reviewed 200+ Indian Series A and B decks for tier-1 VCs. I need you to craft the Use of Funds slide. Here is the context: I am founder of a Chennai-based vertical SaaS for Indian manufacturing SMBs. Raising INR 50 crore Series A from Stellaris. Current ARR INR 8 crore, target INR 35 crore ARR in 24 months. Need to invest in: engineering (rebuild platform on microservices), GTM expansion (3 to 9 AEs), customer success (build onboarding playbook), founder hires (VP Eng, VP Sales). Please provide: (1) A clear Use of Funds slide showing percentage allocation across Engineering and Product (40%), Sales and Marketing (35%), Customer Success (10%), G&A (10%), Working Capital (5%) with INR amounts; (2) Specific milestones each bucket will achieve in 24 months tied to revenue, headcount, and product outcomes; (3) The narrative connecting fund deployment to the path to Series B at INR 35-40 crore ARR; (4) Speaker notes (45 seconds) emphasizing capital efficiency; (5) Two alternative views: function-wise vs milestone-wise; (6) How to defend against VC pushback that GTM allocation should be higher. Format as slide content plus speaker script. Consider Indian VC preference for showing detailed bottoms-up rationale rather than vague percentages.",
+      "tags": [
+        "pitch-deck",
+        "use-of-funds",
+        "series-a"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-024",
+      "title": "Build Sensitivity Analysis on Key Financial Drivers",
+      "prompt": "Act as a financial analyst with 11 years experience building sensitivity models for Indian startups at Series A and B stage. I need you to build a sensitivity analysis on key financial drivers. Here is the context: I run a Pune-based B2B logistics SaaS. Base case: INR 12 crore ARR today, projected INR 60 crore ARR in 36 months. Key drivers: ACV INR 6 lakh growing 15% per year, sales cycle 5 months, AE quota INR 2 crore per year at 80% attainment, gross retention 92%, net retention 118%, CAC payback 18 months. Please provide: (1) One-variable sensitivity tables for ARR endpoint at varying levels of ACV, attainment, retention, sales cycle, and CAC; (2) Two-variable sensitivity (tornado chart logic) showing the most impactful driver pairs; (3) Best case, base case, downside case with specific numbers and probability weights; (4) The 3 metrics that most determine outcome and how I should monitor and intervene; (5) A scenario where I miss base case by 30%, what triggers a fundraise vs cut; (6) Presentation format suitable for a VC partner meeting. Format as analytical narrative with embedded tables. Consider Indian B2B sales cycle realities, festive quarter effects on enterprise budgets, and currency fluctuation impact on cloud costs.",
+      "tags": [
+        "financial-projection",
+        "sensitivity-analysis",
+        "modeling"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-025",
+      "title": "Draft Founder Reference Call Brief for Investors",
+      "prompt": "Act as a fundraising operations expert who has prepared founder briefs for 50+ reference calls in Indian VC due diligence. I need you to draft a founder reference call brief. Here is the context: I am founder of a Bengaluru-based AI startup raising INR 60 crore Series A. The lead VC (Peak XV) has requested 8 reference calls: 3 customers, 2 ex-employees, 2 prior investors, 1 advisor. I need to brief each reference. Please provide: (1) Brief template covering: context for the call (who is calling, why, what role you played with the founder), suggested talking points (specific examples, outcomes, growth moments), questions to expect, and what NOT to volunteer unprompted; (2) Tailored briefs for each of the 8 reference categories with specific examples I should remind them of; (3) Etiquette and consent norms (notify them in advance, send a thank-you note, do not coach them on what to say); (4) Red flags VCs look for in reference calls and how to pre-empt them; (5) How to handle a reference who may give lukewarm feedback; (6) Logistics: how to coordinate with the VC's analyst doing the calls. Format as a master brief plus 8 customized snippets. Consider Indian professional norms around references and the importance of authenticity over orchestration.",
+      "tags": [
+        "due-diligence",
+        "reference-calls",
+        "preparation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-026",
+      "title": "Write Series A Announcement Press Release Draft",
+      "prompt": "Act as a startup PR consultant with experience writing 80+ funding announcements for Indian startups featured in Inc42, YourStory, Entrackr, Moneycontrol, and Economic Times. I need you to write a Series A announcement press release. Here is the context: My company TaxNova, a Gurgaon-based GST compliance SaaS, just closed INR 42 crore Series A led by Lightspeed India with participation from Together Fund and existing seed investor Blume. Current customers: 2,400 SMBs across 18 Indian states, INR 10 crore ARR, 22% MoM growth. Use of funds: AI-powered tax filing, GTM expansion, partnerships with CA firms. Please provide: (1) A 400-500 word press release with compelling headline, subhead, dateline, lead paragraph (5W1H), founder quote, lead investor quote (placeholder), customer quote (placeholder), company boilerplate, contact details; (2) Three alternative headline options optimized for Indian tech media; (3) Tweet thread (8 tweets) for the founder's personal handle; (4) LinkedIn post (200 words) for the company page; (5) A 3-line WhatsApp forwardable announcement; (6) Pitch list of 15 Indian tech journalists who cover SaaS funding. Format as ready-to-publish PR plus social copy. Consider Indian PR cycle norms (embargo timing, exclusive vs broad release, regional language pickup).",
+      "tags": [
+        "investor-email",
+        "press-release",
+        "announcement"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-027",
+      "title": "Analyze Board Composition and Governance Terms",
+      "prompt": "Act as a corporate governance expert with 16 years experience advising Indian startup boards from seed to IPO stage. I need you to analyze proposed board composition and governance terms. Here is the context: I am founder of a Mumbai-based consumer health startup. We are raising INR 90 crore Series B from a tier-1 VC. Their proposed board composition: 2 founder seats, 1 Series B investor seat, 1 Series A investor (Kalaari) seat, 1 independent. Reserved matters require investor consent for: budgets above INR 2 crore variance, hiring above INR 1 crore CTC, M&A, fundraising, and key contracts above INR 50 lakh. Please provide: (1) Analysis of the 5-member board composition versus typical Indian Series B norms (founder control, independent profile, observer seats); (2) Reserved matters list assessment: which are market-standard, which are aggressive, and recommended counters; (3) Information rights, board meeting frequency, and committee structures (audit, comp, nomination); (4) The trade-offs between founder operational autonomy and investor oversight; (5) Independent director profile recommendation and how to source from Indian Angel Network or BoardEx India; (6) How governance evolves as we add Series C investors. Format as governance memo with clause-level recommendations. Consider Companies Act 2013 board composition rules, related party transaction approvals, and SEBI ICDR regulations for future IPO readiness.",
+      "tags": [
+        "term-sheet",
+        "governance",
+        "board"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-028",
+      "title": "Build Tax Due Diligence Response for Big4 Auditor",
+      "prompt": "Act as a tax partner from a Big4 firm (EY, PwC, Deloitte, KPMG) with 14 years experience leading tax DD on Indian startup transactions. I need you to prepare a tax DD response document. Here is the context: I am founder of a Chennai-based marketplace startup closing INR 65 crore Series B with Peak XV. EY has been appointed for tax DD covering corporate income tax, GST, TDS, transfer pricing (we have a small US sales subsidiary), payroll taxes, and historical angel tax exposure. Please provide: (1) Document checklist organized by tax type covering 5 years of returns, assessment orders, notices, ITRs, GST returns (GSTR-1, 3B, 9), TDS returns (24Q, 26Q), and litigation status; (2) Proactive disclosures to make for known issues (small GST input credit reversal in FY24, one TDS short deduction, an ESOP perquisite tax matter); (3) Treatment of pre-2024 angel tax history under Section 56(2)(viib) since it has been removed and what residual risk remains; (4) Transfer pricing documentation for US subsidiary including Form 3CEB, master file, local file readiness; (5) Indirect tax exposures to flag (e-invoicing compliance, cross-border GST on SaaS exports, place of supply analysis); (6) How to structure responses to minimize representations and warranties exposure in the SHA. Format as response framework with category-wise sections. Consider DPIIT recognition tax benefits, Section 80-IAC, and recent CBDT circulars.",
+      "tags": [
+        "due-diligence",
+        "tax-dd",
+        "compliance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-029",
+      "title": "Write Investor Memo for Internal VC Partnership Review",
+      "prompt": "Act as a former VC Principal with 7 years experience writing investment memos at Accel India and Lightspeed India. I need you to write an investor memo from the VC's perspective for internal partnership review. Here is the context: I am founder of a Bengaluru-based vertical SaaS for Indian gyms and fitness studios. The VC associate is writing a memo recommending INR 20 crore Series A investment at INR 80 crore pre-money. My metrics: 850 active gyms, INR 7 crore ARR, 18% MoM growth, INR 2.4 lakh ACV, 14% gross logo churn annually, INR 95 lakh CAC, 11-month payback. Please provide: (1) A 1500-word investment memo structured as: Executive Summary, Market Opportunity, Product and Tech, Business Model and Unit Economics, Competition, Team Assessment, Financial Plan and Returns, Risks and Mitigations, Recommendation; (2) Specific data points and benchmarks the associate would cite from comps like Mindbody, Glofox internationally and Cult.fit ecosystem in India; (3) Risk section with 5 candid risks and how the team has thought about them; (4) Returns analysis showing path to 5x and 10x at exit scenarios; (5) The exact framing that gets Investment Committee approval. Format as a complete VC memo. This will help me anticipate the diligence narrative and arm my partner champion. Consider Indian VC partnership decision-making dynamics, IC dynamics, and Monday partnership meeting cadence.",
+      "tags": [
+        "due-diligence",
+        "investor-memo",
+        "perspective"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-030",
+      "title": "Build Cohort Retention Analysis for Investor Pitch",
+      "prompt": "Act as a growth analyst with 9 years experience presenting cohort data to Indian VCs at SaaS, consumer, and fintech startups. I need you to build a cohort retention analysis. Here is the context: I am founder of a Delhi-based subscription meal kit startup. We have 24 months of cohort data: monthly cohorts of 800-3,000 customers, AOV INR 950, 3.2 orders/month/active customer at peak. Cohort retention curves vary significantly by acquisition channel (Instagram organic vs paid Meta vs influencer vs referral). Please provide: (1) Cohort retention table presentation showing month 1, 3, 6, 12 retention by acquisition channel; (2) Revenue retention (not just logo retention) by cohort, weighted by AOV and order frequency; (3) The narrative explaining why retention curves differ by channel and which channel I will scale; (4) Identification of the \"smiling curve\" pattern (resurrection of dormant customers in month 8-10) and its implications; (5) LTV calculation by cohort with sensitivity to retention assumptions; (6) Speaker notes for the slide explaining the data to a VC who will ask about \"true retention vs survivor bias\"; (7) Three alternative chart formats (heat map, line chart, layer cake). Format as analytical document plus slide layout. Consider Indian D2C food category benchmarks and seasonality from festivals impacting cohort behavior.",
+      "tags": [
+        "financial-projection",
+        "cohort-analysis",
+        "retention"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-031",
+      "title": "Draft ESOP Pool Negotiation Email to Lead Investor",
+      "prompt": "Act as an experienced startup operator who has negotiated ESOP pool sizing in 30+ Indian funding rounds. I need you to draft an email to the lead investor negotiating the ESOP pool top-up. Here is the context: I am founder of a Bengaluru-based fintech raising INR 50 crore Series A from Stellaris. They are demanding a 17% post-money ESOP pool, which means a 12% pre-money top-up that dilutes only existing shareholders. Current ESOP usage: 8% allocated, 3% available. We need to hire VP Engineering, VP Sales, Head of Compliance, and 4 senior ICs in next 18 months. Please provide: (1) A 220-280 word email politely pushing back on the 17% pool proposing 14% with a refresh at Series B if needed; (2) A bottoms-up justification showing role-by-role grant requirements (VP Engineering 1.5%, VP Sales 1.2%, etc.) totaling exactly what we need; (3) The framing on shifting some pool dilution to post-money pool (shared dilution) instead of pre-money (founder-only dilution); (4) Compromise positions if they hold firm at 17%; (5) The downstream Series B impact of agreeing to a too-large pool now; (6) How to handle this without losing the term sheet. Format as ready-to-send email plus negotiation memo. Consider Indian ESOP exercise tax implications under Section 17(2) and DPIIT recognized startup exemptions.",
+      "tags": [
+        "term-sheet",
+        "esop",
+        "negotiation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-032",
+      "title": "Prepare Tech Due Diligence Walkthrough Document",
+      "prompt": "Act as a CTO who has led tech DD walkthroughs for 25+ Indian startups raising Series A and B. I need you to prepare a tech DD walkthrough document. Here is the context: I am CTO at a Mumbai-based fintech startup. The lead VC (Matrix Partners India) has appointed a tech DD advisor (an ex-CTO of a unicorn) to spend 4 hours reviewing our tech, security, scalability, and team. Stack: Python/Django backend, React frontend, PostgreSQL, Redis, AWS Mumbai region. Team: 22 engineers, 3 SREs, 1 security lead. Compliance: ISO 27001, SOC 2 Type 1, RBI cyber security framework. Please provide: (1) A walkthrough agenda for 4 hours covering architecture overview (45 min), code quality and engineering practices (30 min), scalability and performance (30 min), security and compliance (45 min), data and ML (30 min), team and processes (30 min), Q&A (30 min); (2) Architecture diagram talking points highlighting wise design decisions and trade-offs; (3) Honest disclosure of tech debt and remediation plan; (4) DPDP Act compliance status and roadmap; (5) Disaster recovery, RTO/RPO, and incident response posture; (6) Team scaling plan and the gap (no formal AppSec engineer yet); (7) Anticipated tough questions and prepared answers. Format as a presenter playbook. Consider Indian regulatory landscape for fintech (RBI, NPCI, CERT-In) and 2026 emphasis on AI/ML governance.",
+      "tags": [
+        "due-diligence",
+        "tech-dd",
+        "fintech"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-033",
+      "title": "Write Demo Day Pitch Script for Accelerator",
+      "prompt": "Act as a pitch coach who has prepared 60+ Indian founders for demo days at Y Combinator, Sequoia Surge, Antler India, and 100x.VC. I need you to write a demo day pitch script. Here is the context: I am founder of a Bengaluru-based developer security startup graduating from Sequoia Surge cohort 14. I have exactly 4 minutes (180 seconds for pitch + 60 seconds for Q&A buffer). Audience: 200+ VCs, angels, and operators. Metrics: 28 paying customers, INR 1.4 crore ARR, 30% MoM growth, raised INR 2 crore in seed prior to Surge. Please provide: (1) A 180-second pitch script with timestamps (0:00 hook, 0:20 problem, 0:50 solution, 1:30 traction, 2:00 market and differentiation, 2:30 ask and close); (2) A killer opening hook (15 words or less) that creates intrigue; (3) Specific phrases that resonate with Indian VC audience post-2024 winter (capital efficiency, default alive, profitability path); (4) Slides to back the script (8 slides max, what goes on each); (5) How to handle the inevitable Q1 about competition (Snyk, Wiz); (6) The 3 things to mention in pre-pitch and post-pitch coffee chats; (7) Common demo day mistakes Indian founders make (cramming numbers, hedging language, weak ask). Format as timed script plus stage directions. Consider Indian VC demo day expectations around clarity over cleverness.",
+      "tags": [
+        "pitch-deck",
+        "demo-day",
+        "accelerator"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-034",
+      "title": "Build Comparable Transaction Analysis for Valuation Defense",
+      "prompt": "Act as an investment banker with 11 years experience advising Indian startups on valuation in private rounds and IPOs. I need you to build a comparable transaction analysis to defend my Series B valuation. Here is the context: I am founder of a Pune-based vertical SaaS for Indian schools. Raising INR 80 crore Series B at INR 320 crore pre-money. Current ARR INR 18 crore growing 80% YoY, gross margin 76%, NRR 116%, 280 schools as customers. Please provide: (1) Public market comparables analysis using Indian listed peers (Zaggle, IndiaMart, Saregama for SaaS-like multiples) with EV/Revenue and EV/ARR multiples; (2) Private transaction comparables: 8 recent Indian SaaS Series B rounds with disclosed valuation, ARR, growth rate, and implied multiples; (3) Indian SaaS multiple compression analysis 2021 vs 2026 and where my deal sits; (4) Premium/discount justification for my company versus the median (growth rate, NRR, vertical specificity, profitability path); (5) DCF cross-check using 5-year projections and Indian risk-adjusted discount rates (16-22%); (6) The narrative I should use with the lead investor to anchor INR 320 crore valuation; (7) How to handle if they counter at INR 240 crore. Format as valuation memo with detailed comp tables. Consider Indian SaaS multiples versus US comps (typically 30-40% discount), and the premium markets are giving for Indian-built-for-India category leaders.",
+      "tags": [
+        "financial-projection",
+        "valuation",
+        "comparables"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-035",
+      "title": "Draft Side Letter Provisions for Strategic Investor",
+      "prompt": "Act as a corporate lawyer with 12 years experience drafting side letters for Indian startups with strategic investors and family offices. I need you to draft side letter provisions. Here is the context: I am founder of a Hyderabad-based supply chain SaaS. Closing INR 45 crore Series A with Accel India as lead and INR 15 crore from a strategic investor (a listed Indian conglomerate via their corporate VC arm). The strategic wants additional rights via side letter beyond the SHA: information rights for their listed parent's quarterly disclosures, ROFR on supply chain customers in their industries, MFN clause, and a non-binding partnership exploration framework. Please provide: (1) Draft side letter provisions covering each of the 4 asks with specific legal language; (2) The boundaries between standard SHA rights and side letter rights, and what should not be in a side letter; (3) How information rights interact with their listed entity's SEBI insider trading regulations; (4) ROFR scope limitation language to prevent it from blocking my GTM; (5) MFN scope (financial vs all rights) and how to limit; (6) Partnership clause that does not create exclusivity or expectations; (7) Founder-friendly counter-positions if they push for binding terms; (8) Disclosure of the side letter to other investors. Format as legal memo with sample clauses. Consider SEBI prohibition of insider trading regulations and FDI sectoral caps for strategic investments.",
+      "tags": [
+        "term-sheet",
+        "side-letter",
+        "strategic-investor"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-036",
+      "title": "Build Customer Reference Brief for VC Diligence Calls",
+      "prompt": "Act as a customer success leader who has coordinated 150+ customer reference calls during VC diligence for Indian B2B startups. I need you to build a customer reference brief. Here is the context: I am founder of a Gurgaon-based contract management SaaS. Lead VC (Lightspeed India) has requested 5 customer reference calls during Series A diligence. My top 5 customers I am proposing: a fintech (high engagement, 24-month customer), a manufacturing company (recently expanded), a logistics company (referral source), a healthcare provider (early customer with deep usage), and a retail D2C brand (recent win). Please provide: (1) A reference call brief template for each customer covering: my history with them, talking points (specific use cases, ROI metrics, integration depth, support experience), questions VCs typically ask (would you renew, would you recommend, what is missing), tone guidance; (2) How to ask permission for reference without making it transactional; (3) The order in which to schedule references for maximum positive momentum; (4) What to do if a customer is lukewarm and I need to substitute; (5) Post-call thank you and gift policy (avoiding influence-buying perception); (6) How VCs triangulate and verify reference authenticity; (7) Disclosure of free pilots, discounts, or special arrangements. Format as a master playbook plus 5 customer-specific briefs. Consider Indian B2B norms around references and the relationship investment required.",
+      "tags": [
+        "due-diligence",
+        "customer-references",
+        "b2b"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-037",
+      "title": "Write Founder LinkedIn Post Announcing Series A",
+      "prompt": "Act as a founder branding consultant who has crafted 100+ Series A announcement posts for Indian startup founders that drove 50K+ engagement and warm inbound. I need you to write a founder LinkedIn post announcing Series A. Here is the context: I am Arjun Kapoor, co-founder of HealthBridge, a Bengaluru-based digital health startup. We just closed INR 38 crore Series A led by Peak XV with participation from existing seed investors (Blume, Kalaari) and new angels including 4 prominent doctors. Building digital practice management for tier-2 and tier-3 clinics in India. We grew from 200 clinics to 3,400 clinics in 18 months. Please provide: (1) A 280-word LinkedIn post that authentically tells the journey, thanks investors and team, shares 1-2 honest moments of doubt, names 5-7 specific people, includes a clear ask (we are hiring + open to clinic partnerships); (2) Three alternative opening hook variations (vulnerability, milestone-celebration, customer-story); (3) Hashtag strategy for maximum Indian tech LinkedIn reach; (4) Image suggestions (team photo, customer screenshot, milestone graphic); (5) Comment seeding plan: which 8 people in my network should comment first to drive algorithmic reach; (6) Follow-up content calendar (3 posts in next 14 days riding the announcement momentum); (7) How to handle inbound DMs from candidates, customers, and media. Format as ready-to-post copy plus engagement strategy. Consider Indian LinkedIn culture and the cringe-vs-authentic balance.",
+      "tags": [
+        "investor-email",
+        "linkedin",
+        "announcement"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-038",
+      "title": "Build 3-Statement Financial Model for Series B Pitch",
+      "prompt": "Act as a senior financial modeling expert with 13 years experience building 3-statement models for Indian startups raising Series B and C. I need you to build a 5-year 3-statement financial model. Here is the context: I am founder of a Mumbai-based marketplace startup. Current state: INR 95 crore GMV annualized, 12% take rate, INR 11.4 crore net revenue, INR 14 crore burn over last 12 months. Raising INR 120 crore Series B. Please provide: (1) Income Statement structure for 60 months covering revenue (gross GMV, take rate, net revenue), COGS (payment fees, fulfillment subsidies, refunds), gross profit, operating expenses (S&M, R&D, G&A) with detailed line items, EBITDA, and net income; (2) Balance Sheet covering cash, accounts receivable, inventory if any, fixed assets, intangibles, accounts payable, deferred revenue, debt, and equity sections; (3) Cash Flow Statement (indirect method) with operating, investing, and financing activities; (4) Working capital schedule showing AR days, AP days, deferred revenue evolution; (5) Three scenarios: base, bull, bear with explicit assumption changes; (6) Sanity-check ratios (gross margin, contribution margin, S&M as % of revenue, Rule of 40); (7) Model architecture guidance (separate assumptions tab, calc tabs, output tabs). Format as structural narrative with formulas described and worked examples. Consider Indian GST treatment in marketplace flows, TCS under Section 194-O for e-commerce, and FEMA implications for cross-border revenues.",
+      "tags": [
+        "financial-projection",
+        "three-statement",
+        "series-b"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-039",
+      "title": "Compose Final Term Sheet Acceptance Email With Conditions",
+      "prompt": "Act as an experienced founder-CEO who has closed 4 funding rounds with Indian VCs and reviewed 100+ acceptance emails for peer founders. I need you to compose a final term sheet acceptance email with conditions. Here is the context: I am founder of a Chennai-based AI startup. Lightspeed India sent me a Series A term sheet for INR 55 crore at INR 220 crore pre-money. After 3 rounds of negotiation, we landed on: 1x non-participating liquidation preference, broad-based weighted average, 15% post-money ESOP top-up (down from 17%), founder-friendly drag, 90-day exclusivity. Two minor open items: independent director profile selection and the exact information rights cadence. Please provide: (1) A 200-250 word acceptance email confirming the term sheet, expressing genuine enthusiasm for the partnership, summarizing the agreed terms in 5-6 lines, and noting the 2 open items to be resolved during definitive docs; (2) The exact phrasing for the exclusivity period start date and what activities are/are not allowed; (3) Internal communication plan for existing investors, board, leadership team, and employees; (4) The closing timeline expectation (60-90 days for legal DD and definitive docs); (5) Tone calibration: confident but not casual, partnership-oriented, no second-guessing; (6) What to NOT include in writing (verbal commitments, side discussions, prior negotiation history); (7) The legal disclaimer about non-binding nature except for exclusivity. Format as ready-to-send email plus internal comms plan. Consider Indian VC norms around term sheet acceptance ceremonies and the importance of the first 7 days post-acceptance.",
+      "tags": [
+        "term-sheet",
+        "acceptance",
+        "closing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    },
+    {
+      "id": "startup-founders-fundraising-040",
+      "title": "Build Investor FAQ Document for Roadshow",
+      "prompt": "Act as a fundraising advisor with experience preparing 40+ Indian founders for fundraising roadshows of 30-50 investor meetings. I need you to build a comprehensive investor FAQ document. Here is the context: I am founder of a Bengaluru-based vertical SaaS for Indian real estate developers. Starting Series A roadshow, raising INR 40 crore. Targeting 35 meetings with VCs (Peak XV, Accel India, Lightspeed, Matrix, Stellaris, Blume, Together, Kalaari, Chiratae, Elevation, Iron Pillar, A91, 3one4) and family offices. ARR INR 9 crore, growing 14% MoM, 95 customers (developers), INR 9.4 lakh ACV, NRR 124%. Please provide: (1) A 50-question FAQ organized into 8 categories: Market and TAM, Product and Tech, Customers and Sales, Unit Economics, Competition, Team and Hiring, Financials and Projections, Risks and Concerns; (2) For each question: a 2-4 sentence ideal answer with specific numbers, plus an extended answer if the investor probes; (3) The 5 questions I should NEVER answer with hedging language and what to say instead; (4) The 3 questions where my answer should differ based on whether the VC is generalist vs vertical SaaS specialist; (5) Sensitive questions about churn, key person risk, and pricing pressure with prepared transparent answers; (6) Personal questions about my motivation, exit appetite, and life plans; (7) The post-meeting follow-up email template referencing the specific FAQ topics that came up. Format as a structured FAQ document indexed by topic. Consider Indian VC interview style which often probes specifics versus US VCs who probe vision.",
+      "tags": [
+        "pitch-deck",
+        "investor-faq",
+        "roadshow"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "fundraising"
+    }
+  ]
+}

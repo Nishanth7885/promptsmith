@@ -1,0 +1,727 @@
+{
+  "category": "developers",
+  "subcategory": "frontend",
+  "count": 40,
+  "prompts": [
+    {
+      "id": "developers-frontend-001",
+      "title": "React UPI Checkout Component with Tailwind",
+      "prompt": "Act as a senior React developer with 7 years of experience building fintech UIs for Indian startups like Razorpay and CRED. I need you to generate a production-ready React functional component called `UpiCheckoutCard` using TypeScript and Tailwind CSS. The component should render a UPI payment card that accepts props: `amount` (number in INR paise), `merchantName` (string), `vpa` (string like \"merchant@okhdfcbank\"), and `onPay` (callback). Requirements: (1) Display formatted amount in rupees with the ₹ symbol and Indian digit grouping (e.g., ₹1,20,500.00), (2) Show a list of common UPI apps (GPay, PhonePe, Paytm, BHIM, CRED) as clickable tiles with logos as `<img>` placeholders, (3) Include a \"Pay Now\" button that calls `onPay(selectedApp)`, (4) Handle empty/invalid VPA with an inline error, (5) Be fully keyboard navigable and mobile-first (min 360px). Please provide: 1) The full TSX file, 2) A short usage example, 3) Tailwind classes only (no custom CSS), 4) Prop types via `interface UpiCheckoutCardProps`. Format the output as two fenced code blocks. Constraints: no external libraries beyond React + Tailwind, must work on slow 3G (keep bundle < 5KB gzipped), and follow Indian UX norms where UPI is the primary payment method above cards.",
+      "tags": [
+        "react",
+        "typescript",
+        "tailwind",
+        "upi",
+        "fintech"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": true,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-002",
+      "title": "Hinglish Language Toggle Vue Component",
+      "prompt": "Act as a Vue 3 developer with 5 years of experience building consumer apps for Indian users at companies like Meesho and Flipkart. I need you to create a Vue 3 SFC `<LangToggle>` using the Composition API and `<script setup>` that allows users to switch between English, Hindi, and Hinglish labels across an app. Context: Indian tier-2/tier-3 users often prefer Hinglish (e.g., \"Order Karein\" instead of pure Hindi \"ऑर्डर करें\"). The component should: (1) Render three pill buttons labeled EN / हिं / Hinglish, (2) Persist the selection in `localStorage` under key `pv_lang`, (3) Emit a `lang-change` event and also write to a `provide/inject` key `appLang` for global consumption, (4) Show the active pill with a filled background using Tailwind, (5) Be accessible with `role=\"radiogroup\"` and `aria-checked`. Please provide: 1) The full `.vue` file, 2) A tiny sample `useTranslations` composable showing how components would read `appLang` and return strings, 3) Sample JSON with three keys `home.cta`, `cart.empty`, `checkout.pay` in all three languages. Format as fenced code blocks. Constraints: no i18n libraries like vue-i18n — hand-rolled only, works offline, total JS added < 3KB.",
+      "tags": [
+        "vue",
+        "composition-api",
+        "i18n",
+        "hinglish",
+        "tailwind"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": true,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-003",
+      "title": "Responsive Product Grid for Meesho-style Catalog",
+      "prompt": "Act as a frontend developer with 4 years of experience building e-commerce catalogs for Indian marketplaces similar to Meesho and Flipkart. I need you to write a pure CSS Grid layout (no framework) for a product listing page that displays product cards responsively. Requirements: (1) 2 columns on mobile (< 480px, common for Indian budget Android), (2) 3 columns on 481-768px, (3) 4 columns on 769-1200px, (4) 5 columns above 1200px, (5) Use `minmax()` and `auto-fit` where sensible, (6) 12px gap on mobile, 20px on desktop, (7) Each card has an image (4:5 aspect ratio), title (2-line clamp), ₹ price, strike-through MRP, and a small \"Free Delivery\" badge. Please provide: 1) The HTML markup for one card plus a `<ul class=\"product-grid\">` container, 2) All CSS including the grid, aspect-ratio, and line-clamp rules, 3) A note on which properties fall back gracefully on older Android WebViews (Chrome 70+). Format as a single HTML file with a `<style>` block. Constraints: no JavaScript, must pass Lighthouse mobile score > 95, avoid `vh` units for iOS Safari compatibility, use system font stack to avoid web font downloads on slow 3G.",
+      "tags": [
+        "css-grid",
+        "responsive",
+        "ecommerce",
+        "mobile-first",
+        "html"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-004",
+      "title": "Accessible Form Input with Floating Label",
+      "prompt": "Act as a frontend engineer with 3 years of experience at an Indian SaaS company like Freshworks or Zoho. I need you to build an accessible floating-label input component in React + TypeScript + Tailwind. Context: used in signup forms on pv.in where users enter name, email, and mobile (+91). Requirements: (1) Label floats above the input when focused or when the field has a value, (2) Uses a real `<label htmlFor>` tied to the input id for screen reader support, (3) Supports an `error` prop that renders a red message with `aria-describedby` and `aria-invalid`, (4) Supports a `helperText` prop shown in muted gray when there is no error, (5) For the mobile variant, prefix with a non-editable `+91` chip, (6) No external UI library. Please provide: 1) `FloatingInput.tsx` with `FloatingInputProps` interface, 2) A usage example rendering three fields (Name, Email, Mobile) with validation errors, 3) Keyboard tab order notes. Format as two code blocks plus a short bullet list. Constraints: must meet WCAG 2.2 AA contrast (4.5:1 minimum), work without JS for the base `<input>` (progressive enhancement), and avoid placeholder-only labels which fail a11y.",
+      "tags": [
+        "react",
+        "accessibility",
+        "forms",
+        "wcag",
+        "tailwind"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-005",
+      "title": "Skeleton Loader for Swiggy-style Restaurant Cards",
+      "prompt": "Act as a React developer with 4 years of experience building food-delivery UIs similar to Swiggy and Zomato. I need you to create a `<RestaurantCardSkeleton>` component in React + Tailwind that shows a shimmer placeholder while restaurant data loads over slow 3G connections (common in tier-3 cities). Requirements: (1) Matches the final card layout: 16:9 image, title line, cuisine line, rating pill, delivery time, (2) Uses a CSS `@keyframes` shimmer animation (gradient moving left-to-right), (3) Respects `prefers-reduced-motion` and switches to a static gray block when set, (4) Exportable as a single component, (5) Accepts a `count` prop to render N skeletons in a responsive grid (1 col mobile, 2 col tablet, 3 col desktop). Please provide: 1) The full TSX component with inline `<style>` for shimmer keyframes (since Tailwind doesn't ship them by default), 2) A parent `RestaurantList` example that swaps skeletons for real cards when `isLoading` is false, 3) A brief note on why skeletons beat spinners for perceived performance on slow networks. Format as two code blocks plus a 3-bullet note. Constraints: no third-party shimmer libraries, must not trigger layout shift (CLS = 0), and total CSS added < 1KB.",
+      "tags": [
+        "react",
+        "tailwind",
+        "loading-states",
+        "performance",
+        "cls"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-006",
+      "title": "Responsive Nav Bar with Mobile Hamburger",
+      "prompt": "Act as a frontend developer with 3 years of experience building marketing sites for Indian B2B SaaS like Zoho and Freshworks. I need you to build a responsive top navigation bar in plain HTML + CSS + a tiny bit of vanilla JS (no framework). Requirements: (1) Desktop (> 900px): logo on left, 5 links in the middle (Home, Products, Pricing, Customers, Contact), and two CTAs on the right (\"Login\", \"Start Free\"), (2) Mobile: hamburger button that toggles a slide-in drawer from the right, (3) Drawer has a backdrop, closes on backdrop click and on ESC key, (4) Uses CSS custom properties for the brand color (default `#1e40af`), (5) Sticky on scroll with a subtle shadow only after 20px scroll. Please provide: 1) The full HTML, 2) All CSS (no Tailwind), 3) A 20-30 line JS module that handles the toggle with proper `aria-expanded` and focus trapping. Format as three code blocks. Constraints: total page weight for nav < 4KB, WCAG 2.2 AA compliant, works on Chrome 80+ / Safari 14+ (covers ~99% of Indian mobile), and no external icon library — use inline SVG for the hamburger.",
+      "tags": [
+        "html",
+        "css",
+        "vanilla-js",
+        "responsive",
+        "accessibility"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-007",
+      "title": "Indian Address Form with PIN Code Autofill",
+      "prompt": "Act as a React developer with 3 years of experience at an Indian logistics/e-commerce company like Delhivery or Flipkart. I need you to build a `<IndianAddressForm>` React component with fields: Full Name, Mobile (+91), Flat/House No, Area/Street, Landmark, PIN Code, City, State. When the user types a 6-digit PIN code, call the free public endpoint `https://api.postalpincode.in/pincode/{pin}` and autofill City and State fields, disabling them once filled. Requirements: (1) TypeScript + React Hook Form for validation, (2) Mobile field accepts only 10 digits and prefixes +91 visually, (3) PIN field validates as exactly 6 digits, (4) Loading spinner on City/State while fetching, (5) Graceful fallback: if API fails, unlock City and State for manual entry with a small inline message. Please provide: 1) The component file, 2) The Zod or Yup schema used for validation, 3) A sample submit handler that logs the payload. Format as three code blocks. Constraints: debounce the PIN lookup by 400ms, cache results in a module-level `Map` to avoid repeat calls, handle abort on unmount with `AbortController`, and keep total added JS under 20KB gzipped.",
+      "tags": [
+        "react",
+        "react-hook-form",
+        "forms",
+        "api",
+        "typescript"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-008",
+      "title": "Modal Dialog Component with Focus Trap",
+      "prompt": "Act as a frontend engineer with 4 years of experience building design systems for Indian product companies. I need you to build a reusable `<Modal>` component in React + TypeScript that is accessible per WCAG 2.2. Requirements: (1) Props: `isOpen`, `onClose`, `title`, `children`, `size` (sm/md/lg), (2) Renders via `createPortal` into `document.body`, (3) Focus is trapped inside the modal while open — Tab/Shift+Tab cycle through focusable children, (4) ESC key closes the modal, (5) On open, focus moves to the close button; on close, focus returns to the triggering element, (6) Backdrop click closes, (7) `role=\"dialog\"` + `aria-modal=\"true\"` + `aria-labelledby` pointing to the title. Please provide: 1) The full `Modal.tsx`, 2) A small `useFocusTrap` custom hook, 3) A demo `App.tsx` that opens a modal containing a form with Name and Email fields. Format as three code blocks. Constraints: no Radix or Headless UI — hand-rolled, total code under 150 lines for the modal itself, and must not break `<body>` scroll on iOS Safari (apply `position: fixed` technique).",
+      "tags": [
+        "react",
+        "accessibility",
+        "focus-trap",
+        "wcag",
+        "typescript"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-009",
+      "title": "Tailwind Pricing Table with INR Toggles",
+      "prompt": "Act as a frontend developer with 3 years of experience building marketing pages for Indian SaaS startups. I need you to build a three-tier pricing table in React + Tailwind showing Starter, Growth, Enterprise plans. Requirements: (1) Toggle between Monthly and Yearly billing with a switch; yearly shows a \"Save 20%\" badge, (2) Prices: Starter ₹499/mo or ₹4,790/yr, Growth ₹1,999/mo or ₹19,190/yr, Enterprise \"Contact us\", (3) Each tier has 5 feature bullets, a CTA button, and the middle tier is highlighted as \"Most Popular\" with a blue border, (4) Fully responsive: stacks to single column below 768px, (5) Prices use Indian digit grouping (₹19,190 not ₹19190). Please provide: 1) The full TSX component with state for billing cycle, 2) A tiny `formatINR` helper using `Intl.NumberFormat(\"en-IN\")`, 3) A note on which plans should include GST messaging (\"+ 18% GST\"). Format as two code blocks plus a short note. Constraints: Tailwind only, no custom CSS, dark mode compatible using `dark:` variants, and ensure tap targets on mobile are at least 44x44px for iOS guidelines.",
+      "tags": [
+        "react",
+        "tailwind",
+        "pricing",
+        "intl",
+        "saas"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-010",
+      "title": "Tab Component with ARIA and Keyboard Support",
+      "prompt": "Act as a senior frontend developer with 4 years of experience building design systems for Indian B2B products. I need you to build a fully accessible `<Tabs>` React component with proper ARIA roles and keyboard navigation per the WAI-ARIA Authoring Practices for tabs. Requirements: (1) Props: `tabs: { id, label, content }[]` and optional `defaultActive`, (2) Wrapper has `role=\"tablist\"`, each tab button has `role=\"tab\"`, `aria-selected`, `aria-controls`, and `tabIndex` (0 when active, -1 otherwise), (3) Each panel has `role=\"tabpanel\"` and `aria-labelledby`, (4) Keyboard: Left/Right arrows move between tabs, Home jumps to first, End jumps to last, Enter/Space activates, (5) Visual active state with an underline bar. Please provide: 1) The full `Tabs.tsx` in TypeScript, 2) A sample usage with three tabs: \"Overview\", \"Pricing\", \"FAQs\", 3) A short explanation of why `tabIndex={-1}` matters for roving focus. Format as two code blocks plus a short explanation. Constraints: Tailwind for styling, no external libraries, must meet WCAG 2.2 AA, and work with screen readers (NVDA, VoiceOver).",
+      "tags": [
+        "react",
+        "accessibility",
+        "aria",
+        "keyboard",
+        "wcag"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-011",
+      "title": "CSS Flexbox Cheatsheet for Common Layouts",
+      "prompt": "Act as a CSS instructor with 6 years of experience teaching frontend bootcamps in Bengaluru and Pune. I need you to produce a practical Flexbox cheatsheet showing 10 common layout patterns I'll actually use while building Indian consumer web apps. For each pattern provide: (1) A plain-English name (e.g., \"Center everything\", \"Holy Grail\", \"Sticky footer\"), (2) A tiny HTML snippet, (3) The CSS using flexbox, (4) One-line notes on browser quirks on Android WebView / iOS Safari, (5) A note if it can be done better with CSS Grid instead. The 10 patterns to cover: center X+Y, two-column with sidebar, equal-height cards, sticky footer, responsive navbar with logo + links, form label + input row, pill-shaped chip list that wraps, split screen hero, media object (avatar + text), bottom-aligned button inside a card. Format as a numbered markdown list with fenced code blocks for each. Constraints: examples should use Indian-context content (e.g., \"Namaste, Rohan\", \"₹499\", Swiggy-style cards), no Tailwind — pure CSS, and total output under 800 lines. Aim this at developers with 0-2 years experience.",
+      "tags": [
+        "css",
+        "flexbox",
+        "layout",
+        "cheatsheet",
+        "responsive"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-012",
+      "title": "Dark Mode Toggle with System Preference",
+      "prompt": "Act as a frontend developer with 3 years of experience building consumer products at an Indian startup like CRED or Groww. I need you to implement a dark mode toggle in Next.js 14 (App Router) + Tailwind CSS with three states: Light, Dark, System. Requirements: (1) Use Tailwind's `darkMode: \"class\"` strategy, (2) On first load, respect `prefers-color-scheme` unless the user has a saved choice in `localStorage` under `theme`, (3) The toggle is a dropdown button showing Sun / Moon / Monitor icons (inline SVG), (4) Apply/remove the `dark` class on `<html>` via a small script injected before hydration to avoid a flash of wrong theme (FOUC), (5) Server components friendly — no client-only rendering of the whole app. Please provide: 1) The `ThemeProvider` client component, 2) The `<ThemeToggle>` button component, 3) The inline `<script>` for early theme application (placed in `app/layout.tsx`), 4) A sample card styled for both light and dark. Format as four code blocks. Constraints: no `next-themes` library — hand-rolled, zero hydration mismatches, and the toggle must be keyboard accessible with `aria-haspopup` and `aria-expanded`.",
+      "tags": [
+        "next-js",
+        "tailwind",
+        "dark-mode",
+        "react",
+        "ssr"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-013",
+      "title": "Toast Notification System in React",
+      "prompt": "Act as a React developer with 3 years of experience building consumer apps for Indian fintech users. I need you to build a lightweight toast notification system with a provider + `useToast` hook, without using libraries like react-hot-toast. Requirements: (1) `<ToastProvider>` wraps the app and renders a portal at `document.body`, (2) `useToast()` returns `{ showToast(message, type, duration) }` where type is `success | error | info | warning`, (3) Toasts stack bottom-right on desktop and bottom-center on mobile (< 640px), (4) Auto-dismiss after `duration` ms (default 4000), slide-in and fade-out animation, (5) `role=\"status\"` and `aria-live=\"polite\"` for accessibility, (6) Max 3 visible at once — older ones drop. Use cases on an Indian app: \"Payment successful\", \"UPI timed out\", \"Address updated\". Please provide: 1) `ToastProvider.tsx` with context and state, 2) `Toast.tsx` for a single toast, 3) A `useToast.ts` hook, 4) A sample button that triggers each toast type. Format as four code blocks. Constraints: Tailwind only, total code under 200 lines, no memory leaks (clear timers on unmount), and mobile swipe-to-dismiss is NOT required.",
+      "tags": [
+        "react",
+        "context",
+        "hooks",
+        "tailwind",
+        "a11y"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-014",
+      "title": "Data-Light Image Component for 3G Users",
+      "prompt": "Act as a frontend performance engineer with 4 years of experience optimizing apps for Indian tier-2/tier-3 users on slow 3G and 4G. I need you to build a `<DataLightImage>` React component that minimizes bandwidth without sacrificing UX. Requirements: (1) Accepts `src`, `alt`, `width`, `height`, and optional `lowQualitySrc`, (2) Uses native `loading=\"lazy\"` and `decoding=\"async\"`, (3) Sets explicit `width`/`height` attributes so CLS = 0, (4) If `lowQualitySrc` (a 20x20 base64 blurred placeholder) is provided, render it first and swap to full image on load, (5) Expose a prop `saveData` that, when true, serves a WebP at 40% quality instead of the default, (6) Detect `navigator.connection?.saveData` in a `useEffect` and auto-enable it. Please provide: 1) The component, 2) A short utility `getOptimizedSrc(url, quality)` that appends query params like `?q=40&fm=webp` (for a CDN like Cloudinary or ImageKit, both popular in India), 3) A brief note on why `fetchpriority=\"high\"` matters for LCP images. Format as two code blocks plus a note. Constraints: TypeScript, no external libraries, zero CLS, and must work server-side in Next.js.",
+      "tags": [
+        "react",
+        "performance",
+        "lcp",
+        "images",
+        "3g"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-015",
+      "title": "Razorpay Button with Loading & Error States",
+      "prompt": "Act as a React developer with 4 years of experience integrating payment gateways for Indian D2C brands. I need you to build a `<RazorpayButton>` React component that opens Razorpay checkout and handles all common states. Requirements: (1) Props: `amountInPaise`, `orderId`, `customerName`, `customerEmail`, `customerPhone`, `onSuccess`, `onFailure`, (2) Dynamically load the Razorpay script `https://checkout.razorpay.com/v1/checkout.js` only once, (3) Show loading spinner while script loads, disabled button until ready, (4) Open checkout on click using the global `Razorpay` object with proper `key`, `amount`, `currency: \"INR\"`, `name`, `prefill` options, (5) Handle the `payment.failed` event and call `onFailure`, (6) TypeScript types for the Razorpay options. Please provide: 1) The full TSX component, 2) A type declaration snippet for the `window.Razorpay` global, 3) A usage example inside a checkout page. Format as three code blocks. Constraints: do NOT hardcode the Razorpay key — read from `process.env.NEXT_PUBLIC_RAZORPAY_KEY`, handle the case where script load fails (firewalled networks), keyboard accessible, and clean up script tag is NOT needed (let it persist for future clicks).",
+      "tags": [
+        "react",
+        "razorpay",
+        "payments",
+        "typescript",
+        "integration"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-016",
+      "title": "CSS Grid Dashboard Layout for Admin Panel",
+      "prompt": "Act as a frontend developer with 3 years of experience building admin dashboards for Indian SaaS products. I need you to build an admin dashboard shell using CSS Grid (no framework). Layout: (1) Top header (60px) spanning full width with logo + user avatar, (2) Left sidebar (240px) with 6 nav items — collapses to icons-only (64px) on click, (3) Main content area with padding, (4) Right notifications panel (320px) only on screens > 1280px — hidden below that. The grid should use `grid-template-areas` for readability. Mobile (< 768px): sidebar becomes a full-screen drawer toggled by a hamburger; header stays, notifications panel is hidden. Please provide: 1) The semantic HTML skeleton (`<header>`, `<aside>`, `<main>`, `<aside>`), 2) All CSS including the grid areas and media queries, 3) A 15-line vanilla JS snippet to toggle the sidebar collapse and mobile drawer. Format as three code blocks. Constraints: no Bootstrap/Tailwind, use CSS custom properties for dimensions so they can be tweaked, ARIA landmarks on all regions, and the layout must not scroll horizontally at any breakpoint from 320px to 1920px.",
+      "tags": [
+        "css-grid",
+        "dashboard",
+        "layout",
+        "responsive",
+        "html"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-017",
+      "title": "Virtualized Table for Large Datasets",
+      "prompt": "Act as a senior React developer with 5 years of experience building analytics dashboards for Indian fintech companies like Groww and Zerodha. I need you to build a virtualized table component that can smoothly render 50,000+ rows of portfolio holdings without lag. Requirements: (1) Use `@tanstack/react-virtual` for row virtualization, (2) Columns: Symbol (NSE), Qty, Avg Cost (₹), LTP (₹), Day Change (%), P&L (₹), (3) Sticky header, (4) Click column header to sort (multi-column not needed), (5) Row height fixed at 48px, overscan 5, (6) Highlight gain rows green and loss rows red using `text-green-600` / `text-red-600`, (7) Format all INR values with `Intl.NumberFormat(\"en-IN\")`, (8) Empty state shows \"No holdings yet\". Please provide: 1) The full `<HoldingsTable>` component in TypeScript, 2) A `generateMockHoldings(n)` helper returning realistic NSE symbols (RELIANCE, TCS, HDFCBANK, INFY, ITC, etc.), 3) A tiny performance note on why virtualization wins over pagination here. Format as two code blocks plus a short note. Constraints: Tailwind for styling, memoize sort function with `useMemo`, avoid re-renders during scroll, and keep initial bundle impact under 15KB gzipped.",
+      "tags": [
+        "react",
+        "virtualization",
+        "tanstack",
+        "performance",
+        "tables"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-018",
+      "title": "Core Web Vitals Audit Prompt for Landing Page",
+      "prompt": "Act as a Google-certified web performance consultant with 6 years of experience optimizing e-commerce sites for Indian audiences on slow networks. I will paste the HTML + critical CSS of a landing page and you will perform a full Core Web Vitals audit targeting LCP < 2.5s, INP < 200ms, CLS < 0.1 on a mid-range Android phone over Fast 3G. Please provide the audit as: (1) LCP analysis — identify the LCP element, flag if images lack `fetchpriority=\"high\"`, `preload`, proper sizing, or modern formats (WebP/AVIF), and suggest concrete fixes, (2) INP analysis — call out long main-thread tasks, third-party scripts, hydration-heavy components, and recommend code splitting or `defer`/`async`, (3) CLS analysis — spot missing width/height on images, web font FOIT/FOUT risks, dynamic ad slots, and banners inserted above existing content, (4) Bundle hygiene — flag unused CSS, duplicate libraries, polyfills for already-supported features, (5) A prioritized fix list with estimated ms saved and effort (S/M/L). Format as a markdown report with headings for each vital. Constraints: only suggest fixes that work on Next.js 14 / Vite + React, focus on techniques that help Indian users on 3G more than US users on fiber, and cite Lighthouse metric names exactly. [PASTE YOUR HTML + CSS HERE]",
+      "tags": [
+        "core-web-vitals",
+        "performance",
+        "lcp",
+        "inp",
+        "cls"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-019",
+      "title": "WCAG 2.2 Accessibility Audit of React Component",
+      "prompt": "Act as a senior accessibility consultant with 7 years of experience auditing Indian government and fintech websites for WCAG 2.2 AA conformance. I will paste a React component (JSX/TSX) and you will perform a comprehensive a11y audit. Please provide: (1) A list of violations grouped by WCAG 2.2 Success Criterion (e.g., 1.4.3 Contrast, 2.1.1 Keyboard, 2.4.7 Focus Visible, 2.5.8 Target Size Minimum, 3.3.2 Labels), (2) For each, the severity (blocker/major/minor), the offending code snippet, and the exact fix with replacement code, (3) ARIA review — flag incorrect roles, missing `aria-label`/`aria-labelledby`, over-use of `role=\"button\"` on non-buttons, (4) Keyboard review — trace tab order, identify keyboard traps, missing focus styles, (5) Screen reader review — what NVDA/JAWS/VoiceOver will announce vs. what should be announced, (6) Test recommendations using axe-core, Lighthouse, and manual keyboard walkthrough. Format as a markdown report with a summary table at the top (issue count by severity) followed by detailed findings. Constraints: assume the component will be used by users with motor, visual, and cognitive disabilities on both desktop and Android, and cite the WCAG 2.2 criterion number for every issue. [PASTE YOUR COMPONENT HERE]",
+      "tags": [
+        "accessibility",
+        "wcag",
+        "audit",
+        "aria",
+        "react"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-020",
+      "title": "Bundle Size Reduction Plan for Next.js App",
+      "prompt": "Act as a frontend performance engineer with 5 years of experience optimizing Next.js apps for Indian D2C brands like Mamaearth and boAt. I will paste a `package.json` and a screenshot description of my Next.js bundle analyzer output. You will produce a concrete plan to reduce First Load JS below 170KB gzipped. Please provide: (1) Heaviest offenders — identify likely culprits (moment, lodash, chart.js, full Firebase, icon libraries imported as `* as`), (2) Replacement suggestions — date-fns or dayjs for moment, native ES for lodash, tree-shakable icon imports, `next/dynamic` for charts, modular Firebase imports, (3) Code splitting strategy — which routes/components should be `dynamic(() => import(...), { ssr: false })`, (4) Dependency audit — flag duplicate packages, old versions with known bloat, and polyfills no longer needed given Browserslist targets India-appropriate (Chrome 90+, iOS 14+), (5) A step-by-step rollout plan with estimated KB saved per step, (6) How to verify with `@next/bundle-analyzer` and Lighthouse. Format as a markdown report with a before/after KB table and ranked action list. Constraints: no breaking changes to user-facing behavior, keep SEO-critical content server-rendered, and prioritize wins that help mobile 3G users more than desktop. [PASTE YOUR package.json + BUNDLE ANALYSIS HERE]",
+      "tags": [
+        "next-js",
+        "bundle-size",
+        "performance",
+        "tree-shaking",
+        "dynamic-import"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-021",
+      "title": "Container Queries for Card Component",
+      "prompt": "Act as a CSS specialist with 5 years of experience building component libraries for Indian SaaS products. I need you to rebuild a `<ProductCard>` using modern CSS container queries so the same component adapts based on its container's width, not the viewport. Context: the card is used in the sidebar (narrow, 280px), main grid (medium, 360px), and hero feature slot (wide, 640px) without any JavaScript or prop toggles. Requirements: (1) Mark the parent grid cell as `container-type: inline-size` with a container name, (2) Default layout: image on top, title, price below, (3) At `@container (min-width: 420px)`: image on left (40% width), content on right, (4) At `@container (min-width: 600px)`: larger title, add description paragraph, add secondary CTA, (5) Use modern syntax `cqw`/`cqi` units for fluid font sizing where useful, (6) Fallback for browsers without container query support (use `@supports not`). Please provide: 1) The HTML for a parent grid with three differently-sized containers and one card in each, 2) The full CSS including container queries and fallbacks, 3) A browser support note citing Chrome 105+, Safari 16+. Format as an HTML file with embedded `<style>` plus a note. Constraints: no JS, no preprocessor, semantic HTML, and the card must stay WCAG 2.2 AA compliant at every size.",
+      "tags": [
+        "css",
+        "container-queries",
+        "responsive",
+        "modern-css",
+        "fallbacks"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-022",
+      "title": "Debounced Search with React Query",
+      "prompt": "Act as a React developer with 5 years of experience building search-heavy UIs for Indian marketplaces like Meesho. I need you to build a `<ProductSearchBar>` component that performs debounced, cancellable search against a REST API using TanStack Query v5. Requirements: (1) Input field with a magnifying-glass icon, (2) Debounce user keystrokes by 350ms using `useEffect` + `setTimeout` or a `useDebounce` hook, (3) `useQuery` with `queryKey: [\"products\", debouncedTerm]`, `queryFn` calling `GET /api/search?q=...`, `enabled: debouncedTerm.length >= 2`, (4) Show states: idle, loading spinner, empty (\"No products found for 'xyz'\"), error (\"Something went wrong. Please retry.\"), success (list of 10 results), (5) Each result shows product name, ₹ price, and a thumbnail, (6) Abort in-flight requests on new input using the signal from TanStack Query's `queryFn` context, (7) Keyboard Down/Up arrows to highlight results, Enter to select. Please provide: 1) The component in TypeScript + Tailwind, 2) The `useDebounce` hook, 3) A mock API example returning Indian product data. Format as three code blocks. Constraints: no Redux, no external debounce library, must handle rapid typing without UI jank, and keep network calls to 1 per settled input.",
+      "tags": [
+        "react",
+        "tanstack-query",
+        "debounce",
+        "search",
+        "typescript"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-023",
+      "title": "Vue 3 Composable for Form Validation",
+      "prompt": "Act as a Vue 3 expert with 5 years of experience building Nuxt apps for Indian D2C brands. I need you to build a reusable composable `useFormValidation` that handles field-level validation without external libraries. Requirements: (1) Accepts an object of rules, e.g., `{ email: [required(), email()], mobile: [required(), indianMobile()] }`, (2) Returns reactive `values`, `errors`, `touched`, and helpers `validateField(name)`, `validateAll()`, `reset()`, `handleBlur(name)`, (3) Built-in validators: `required`, `minLength(n)`, `maxLength(n)`, `email`, `indianMobile` (10 digits, starts with 6-9), `indianPincode` (6 digits, first cannot be 0), `panNumber` (ABCDE1234F format regex), (4) Each validator is a function returning `(value) => string | null`, (5) TypeScript generics so `values` is typed from the initial object. Please provide: 1) The `useFormValidation.ts` composable, 2) The validator functions in a separate `validators.ts`, 3) A sample `<SignupForm.vue>` using it with Name, Email, Mobile, PAN, Pincode fields. Format as three code blocks. Constraints: Vue 3 Composition API only, no VeeValidate/Zod/Yup, must work with Nuxt 3 SSR, and show errors only after the field has been blurred at least once.",
+      "tags": [
+        "vue",
+        "nuxt",
+        "composables",
+        "validation",
+        "typescript"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-024",
+      "title": "Infinite Scroll with IntersectionObserver",
+      "prompt": "Act as a React developer with 4 years of experience building feed-based products for Indian startups similar to ShareChat and Moj. I need you to build an infinite-scrolling feed using `IntersectionObserver` (not scroll events) and TanStack Query's `useInfiniteQuery`. Requirements: (1) Fetches pages of 20 items from `/api/feed?cursor=X`, where the API response is `{ items, nextCursor }`, (2) A sentinel `<div ref={sentinelRef}>` placed at the bottom of the list triggers `fetchNextPage` when visible, (3) Shows a loading spinner while fetching next page, a \"You're all caught up\" message when `hasNextPage` is false, and a retry button on error, (4) Each feed item has author name, avatar, timestamp (\"2 ghante pehle\" for Hinglish), image, like/share buttons, (5) Memoize feed items with `React.memo` to prevent re-renders during fetch. Please provide: 1) The `<FeedList>` component in TypeScript, 2) A custom `useIntersection` hook returning a ref and `isIntersecting` flag, 3) A mock `fetchFeedPage` function returning Indian-context mock data. Format as three code blocks. Constraints: no `react-intersection-observer` library, cleanup the observer on unmount, handle the case where the sentinel mounts after data, and keep FPS > 55 while scrolling.",
+      "tags": [
+        "react",
+        "intersection-observer",
+        "infinite-scroll",
+        "tanstack-query",
+        "performance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-025",
+      "title": "State Management with Zustand Store",
+      "prompt": "Act as a React architect with 6 years of experience building e-commerce apps for Indian brands. I need you to design a Zustand store for a cart feature with proper TypeScript types, slices, persistence, and devtools. Requirements: (1) Store shape: `items: CartItem[]`, `couponCode: string | null`, `discount: number`, `isDrawerOpen: boolean`, (2) Actions: `addItem`, `removeItem`, `updateQty`, `clearCart`, `applyCoupon`, `removeCoupon`, `openDrawer`, `closeDrawer`, (3) Computed values via `get()`: `subtotal`, `gstAmount` (18% on subtotal), `shippingFee` (free above ₹499, else ₹49), `grandTotal`, `itemCount`, (4) Persist to `localStorage` under key `pv_cart` using `zustand/middleware/persist` but skip `isDrawerOpen`, (5) `devtools` middleware wired up, (6) Selectors exported (`useCartItems`, `useCartTotal`) to prevent unnecessary re-renders. Please provide: 1) The store file in TypeScript, 2) A `CartItem` type, 3) A sample `<CartDrawer>` component that reads via selectors, 4) A note on why selectors matter for perf. Format as three code blocks plus a note. Constraints: Zustand v4, no Redux, must survive page reloads, and GST should be configurable via a constant for easy update when rates change.",
+      "tags": [
+        "zustand",
+        "state-management",
+        "typescript",
+        "ecommerce",
+        "gst"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-026",
+      "title": "Responsive Charts with Recharts for Fintech",
+      "prompt": "Act as a React developer with 5 years of experience building fintech dashboards for Indian wealth platforms like Groww and Kuvera. I need you to build a `<PortfolioChart>` component using Recharts that displays portfolio value over time. Requirements: (1) Line chart with X-axis = dates (last 1M, 3M, 1Y, 5Y via a toggle), Y-axis = portfolio value in ₹, (2) Tooltip shows ₹ value formatted with `Intl.NumberFormat(\"en-IN\")` plus absolute and percentage change from start, (3) Positive gain line in green `#16a34a`, loss in red `#dc2626`, decided dynamically, (4) Responsive: `<ResponsiveContainer>` with aspect ratio 16:9 on desktop and 4:3 on mobile, (5) Custom X-axis tick formatter: \"DD MMM\" for 1M/3M, \"MMM YY\" for 1Y/5Y, (6) Loading skeleton while data fetches, (7) Empty state if user has no holdings. Please provide: 1) The full TSX component, 2) A sample data generator for 5 years of daily points, 3) The time-range toggle component. Format as three code blocks. Constraints: Recharts v2, TypeScript, no additional chart libraries, must remain smooth (60fps) on a mid-range Android, and tooltip text must meet 4.5:1 contrast.",
+      "tags": [
+        "react",
+        "recharts",
+        "fintech",
+        "data-viz",
+        "typescript"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-027",
+      "title": "Next.js Image Optimization Strategy",
+      "prompt": "Act as a Next.js performance engineer with 5 years of experience at Indian e-commerce companies. I need you to design a complete image optimization strategy for a product catalog site using Next.js 14 App Router + `next/image`. Requirements covered in the plan: (1) `next.config.js` — configure `images.domains` or `remotePatterns` for a Cloudinary / ImageKit CDN popular in India, set `formats: [\"image/avif\", \"image/webp\"]`, configure `deviceSizes` tuned for Indian phones (360, 414, 480, 640, 750, 828, 1080, 1200), (2) Per-component rules: hero image uses `priority` + `fetchPriority=\"high\"`, grid thumbnails use `loading=\"lazy\"` + `sizes` calculated from grid breakpoints, (3) `placeholder=\"blur\"` vs LQIP vs dominant color — when to use each, (4) Handling product images without known dimensions at build time, (5) Art direction — using `<picture>` via `next/image` with different crops for mobile vs desktop, (6) CDN caching headers (`s-maxage=31536000, immutable`). Please provide: 1) The `next.config.js` snippet, 2) A `<HeroImage>` and `<GridThumb>` component example, 3) A 10-point checklist for reviewing image usage in PRs, 4) A note on how this helps LCP on slow 3G. Format as four sections with code blocks. Constraints: assume Cloudinary is the CDN, TypeScript, and target LCP < 2.5s on mid-range Android.",
+      "tags": [
+        "next-js",
+        "images",
+        "performance",
+        "lcp",
+        "cloudinary"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-028",
+      "title": "Form Wizard Multi-Step Component",
+      "prompt": "Act as a React developer with 5 years of experience building KYC flows for Indian fintech companies. I need you to build a multi-step form wizard for customer onboarding with 4 steps: Personal Details, Address, PAN/Aadhaar, Review. Requirements: (1) Progress bar at the top showing current step and step names, (2) Each step is its own component with its own form state, validated with react-hook-form + Zod, (3) A parent `<KycWizard>` maintains the merged `formData` state and passes it down, (4) Next button is disabled until the current step is valid; Previous is always enabled except on step 1, (5) Step 3 (PAN/Aadhaar) validates PAN regex `[A-Z]{5}[0-9]{4}[A-Z]` and Aadhaar must be 12 digits with Verhoeff-compatible check skipped for simplicity (just length), (6) Step 4 shows a read-only review of all fields with an Edit button that jumps back to the relevant step, (7) On submit, log the full payload. Please provide: 1) The `<KycWizard>` parent, 2) A sample step component for PAN/Aadhaar, 3) The combined Zod schema, 4) The step config array. Format as four code blocks. Constraints: TypeScript, Tailwind, no external wizard libraries, fully keyboard navigable with arrow keys on the progress bar not required, and mobile-responsive at 360px width.",
+      "tags": [
+        "react",
+        "react-hook-form",
+        "zod",
+        "kyc",
+        "wizard"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-029",
+      "title": "Tailwind Design System Configuration",
+      "prompt": "Act as a design systems engineer with 6 years of experience building token libraries for Indian SaaS products. I need you to produce a `tailwind.config.ts` for a brand called \"Rupee\" — a fintech targeting Indian millennials. Requirements: (1) Custom color palette with `brand` (50-950 shades, primary indigo-ish `#4f46e5`), `success`, `warning`, `danger`, and neutral grays, (2) Extended `fontFamily` with \"Inter\" as default sans and \"JetBrains Mono\" as mono, loaded via `next/font`, (3) Custom `fontSize` scale tuned for mobile readability (base 16px, with `display-xl` down to `caption`), (4) Custom `spacing` tokens on a 4px grid with a couple of odd values for tap-target compliance (`11` = 44px), (5) Custom `borderRadius` (`none`, `sm`, `md`, `lg`, `xl`, `2xl`, `full`), (6) A `boxShadow` scale for elevation including a `focus` ring variant for WCAG focus visible, (7) Dark mode via class strategy, (8) A `safelist` example for dynamic class names. Please provide: 1) The full `tailwind.config.ts` in TypeScript, 2) A short design-token rationale in bullets, 3) A small `<Button>` component using only these tokens. Format as three sections. Constraints: Tailwind v3.4+, TypeScript, no plugins beyond `@tailwindcss/forms`, and tokens must be extendable without breaking existing apps.",
+      "tags": [
+        "tailwind",
+        "design-system",
+        "typescript",
+        "tokens",
+        "dark-mode"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-030",
+      "title": "React Error Boundary with Fallback UI",
+      "prompt": "Act as a React architect with 5 years of experience running production SaaS for Indian customers. I need you to build a robust `<ErrorBoundary>` component plus a `useErrorBoundary` hook pattern. Requirements: (1) Class component `ErrorBoundary` implementing `getDerivedStateFromError` and `componentDidCatch`, (2) Props: `fallback` (component or render prop), `onError` callback for logging to Sentry, `resetKeys` (re-renders children when any key changes, useful after navigation), (3) Default fallback UI: friendly Hinglish message \"Oops! Kuch gadbad ho gayi.\" with a \"Try Again\" button that calls a `reset` method, (4) For async errors inside event handlers and effects, provide a `useErrorHandler` hook that re-throws to the boundary, (5) A top-level `<RootErrorBoundary>` example for a Next.js `app/layout.tsx`, (6) TypeScript with proper generics for children. Please provide: 1) The `ErrorBoundary.tsx` class, 2) The `useErrorHandler` hook, 3) A `RootErrorBoundary` wrapper example with Sentry stub, 4) A unit test outline with React Testing Library. Format as four code blocks. Constraints: must work in Next.js 14 App Router, avoid catching errors during SSR (client-only), and fallback UI must itself be accessible with `role=\"alert\"`.",
+      "tags": [
+        "react",
+        "error-boundary",
+        "sentry",
+        "typescript",
+        "next-js"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-031",
+      "title": "Internationalization Setup with next-intl",
+      "prompt": "Act as a Next.js developer with 5 years of experience localizing apps for Indian vernacular audiences (Hindi, Tamil, Telugu, Bengali, Marathi). I need you to set up `next-intl` in a Next.js 14 App Router project with locale routing. Requirements: (1) Middleware that detects locale from URL prefix (`/en`, `/hi`, `/ta`) with `en` as default, (2) Route structure `app/[locale]/page.tsx`, (3) `messages/en.json`, `messages/hi.json`, `messages/ta.json` with sample keys: `home.hero.title`, `home.hero.cta`, `nav.pricing`, `checkout.payNow`, `checkout.total` with `{amount}` interpolation, (4) A `LocaleSwitcher` component that preserves the current path when switching, (5) Number formatting using `useFormatter` to show ₹ with en-IN grouping regardless of UI locale, (6) Date formatting that uses the locale (e.g., Hindi uses Devanagari numerals if desired — show how to opt out), (7) SEO: `alternates.languages` in metadata for each page. Please provide: 1) The middleware file, 2) The three JSON message files, 3) The `LocaleSwitcher` component, 4) A sample home page using `useTranslations` and `useFormatter`. Format as four code blocks. Constraints: Next.js 14, TypeScript, next-intl v3+, and the bundle must not ship all locales to every page — use per-locale dynamic loading.",
+      "tags": [
+        "next-js",
+        "next-intl",
+        "i18n",
+        "vernacular",
+        "typescript"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-032",
+      "title": "Drag and Drop Sortable List",
+      "prompt": "Act as a React developer with 4 years of experience building productivity tools for Indian SMBs. I need you to build a drag-and-drop sortable list using `@dnd-kit/core` + `@dnd-kit/sortable` for a to-do style UI. Requirements: (1) Each item has a drag handle (dotted icon) on the left, a text label in the middle, and a delete button on the right, (2) Reordering persists to `localStorage` under key `pv_todos`, (3) Keyboard accessibility — Space to pick up, Arrow keys to move, Space again to drop, Escape to cancel, using dnd-kit's keyboard sensor, (4) Visual feedback: dragged item has slight rotation, drop target has dashed outline, (5) `<DragOverlay>` renders a clone so the original stays in the list, (6) `onDragEnd` uses `arrayMove` to reorder, (7) Touch support for mobile via `TouchSensor`. Please provide: 1) The `<SortableTodoList>` parent component, 2) A `<SortableItem>` child using `useSortable`, 3) A small demo seed with 5 Indian-context tasks (\"Call Ramesh about invoice\", \"Ship Chennai order\", etc.). Format as three code blocks. Constraints: TypeScript, Tailwind, screen readers should announce item position changes via dnd-kit's built-in `accessibility.announcements`, and the list must work on both desktop and Android Chrome.",
+      "tags": [
+        "react",
+        "dnd-kit",
+        "drag-drop",
+        "accessibility",
+        "typescript"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-033",
+      "title": "Advanced React Server Components Architecture",
+      "prompt": "Act as a Next.js architect with 8 years of frontend experience, currently leading the web team at a large Indian e-commerce company similar to Flipkart. I need you to design a React Server Components (RSC) architecture for a product detail page that must render in under 2.5s LCP on a mid-range Android over Fast 3G. The page includes: product gallery, title, price, reviews (fetched from a slow internal service), related products, and a client-interactive \"Add to Cart\" + variant selector. Please provide: (1) Component tree diagram in markdown showing server vs client components and where the boundary lives, (2) Data fetching plan using `async` server components with parallel `Promise.all`, plus `Suspense` boundaries for slow reviews so they stream in, (3) The tradeoffs of `\"use client\"` placement — why the variant selector is client but the price display is server, (4) How `next/dynamic` and `loading.tsx` fit in, (5) Caching strategy using `fetch` with `next: { revalidate: 60 }` and tag-based revalidation via `revalidateTag`, (6) Code for the top-level `page.tsx`, a server `<Reviews>` component wrapped in Suspense, and a client `<VariantSelector>`, (7) Expected waterfall vs streaming timeline. Format as a markdown report with inline code blocks. Constraints: Next.js 14 App Router, TypeScript, must degrade gracefully if JS is blocked, and prioritize INP under 200ms on variant clicks.",
+      "tags": [
+        "next-js",
+        "rsc",
+        "streaming",
+        "suspense",
+        "performance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-034",
+      "title": "Micro-Frontend Architecture with Module Federation",
+      "prompt": "Act as a principal frontend architect with 10 years of experience, now consulting for an Indian conglomerate rolling out multiple web apps (banking, insurance, wealth) that must share a common header, footer, and auth but be deployed independently by different teams. I need you to design a micro-frontend architecture using Webpack Module Federation (or Vite equivalent). Please provide: (1) High-level diagram in markdown: host shell app + 3 remote apps + 1 shared UI remote + 1 auth remote, (2) A sample `webpack.config.js` for the host and one remote exposing components, (3) Versioning strategy for shared deps (React, React-DOM, the design system) to avoid duplicate React instances and dreaded \"Invalid Hook Call\" errors, (4) Runtime remote URL resolution so remotes can be upgraded without rebuilding the host, (5) Cross-app navigation and shared auth token propagation (via `postMessage`, shared cookies, or a Zustand store in the shared remote), (6) SSR considerations — when to use SSR and when to stay CSR, (7) Observability — error boundaries per remote so one crash doesn't kill the shell, (8) CI/CD implications for independent deploys, (9) Common pitfalls specific to this setup and how to avoid them. Format as a markdown architecture doc with code snippets. Constraints: React 18, TypeScript, must support rollback of a single remote, and keep First Load JS under 200KB per remote.",
+      "tags": [
+        "module-federation",
+        "micro-frontend",
+        "webpack",
+        "architecture",
+        "react"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-035",
+      "title": "Advanced CSS Animations with GPU Compositing",
+      "prompt": "Act as a senior frontend engineer with 7 years of experience building delightful UIs for Indian consumer products like CRED and Dunzo. I need you to design a set of 5 reusable CSS animations that stay smooth (60fps) on mid-range Android devices and respect `prefers-reduced-motion`. The animations: (1) Page transition fade + 8px upward slide using `transform` and `opacity` only, (2) Pulse micro-interaction on a \"Pay\" button to draw attention after 3 seconds of inactivity, (3) Confetti burst on successful payment — pure CSS, no canvas, using 20 pseudo-elements and `transform` keyframes, (4) Skeleton shimmer using `background-position` animation on a linear gradient, (5) Parallax scroll hero that uses `will-change: transform` with care. For each animation please provide: (a) The HTML, (b) The CSS with `@keyframes`, (c) A note on which properties are GPU-accelerated (transform, opacity) vs layout-triggering (top, left, width) and why this matters, (d) The `@media (prefers-reduced-motion: reduce)` override, (e) FPS expectations on a Snapdragon 4xx chipset common in Indian budget phones. Format as 5 sections each with HTML + CSS + notes. Constraints: no JS, no animation libraries (GSAP, Framer), use only transform/opacity for high-frequency frames, and avoid `will-change` overuse that bloats GPU memory.",
+      "tags": [
+        "css",
+        "animation",
+        "performance",
+        "gpu",
+        "reduced-motion"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-036",
+      "title": "Custom React Hooks for IndexedDB Offline Cache",
+      "prompt": "Act as a senior React engineer with 8 years of experience building offline-first PWAs for Indian users in low-connectivity tier-3 cities and rural areas. I need you to build a generic `useIndexedDBCache<T>` custom hook and related utilities that cache API responses in IndexedDB (via `idb` library) and serve them when offline. Requirements: (1) Hook signature: `useIndexedDBCache<T>(key: string, fetcher: () => Promise<T>, options: { ttlMs, staleWhileRevalidate })`, (2) Returns `{ data, isLoading, isStale, error, refetch }`, (3) On mount: reads IDB first for instant paint, then if online + data is stale/missing, calls `fetcher`, updates IDB, and swaps UI, (4) Offline detection via `navigator.onLine` + `online`/`offline` events, (5) Background revalidation (SWR-style) when `staleWhileRevalidate` is true, (6) Eviction of entries older than TTL on each read, (7) Handles schema migrations via IDB version bumps, (8) TypeScript generics throughout. Please provide: 1) The `useIndexedDBCache` hook file, 2) A `db.ts` that initializes the `idb` database with a `kv` object store, 3) A sample component `<ProductList>` using the hook against a `/api/products` endpoint, showing an \"Offline — showing cached data\" banner when applicable, 4) A unit test outline. Format as four code blocks plus a short explanation of why IDB > localStorage for this use case. Constraints: React 18, `idb` v8+, handle quota exceeded errors gracefully, and work inside a Next.js PWA.",
+      "tags": [
+        "react",
+        "indexeddb",
+        "pwa",
+        "offline",
+        "custom-hooks"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-037",
+      "title": "Web Workers for Heavy Client-Side Computation",
+      "prompt": "Act as a senior frontend engineer with 7 years of experience building data-heavy dashboards for Indian fintech (tax filing, portfolio analytics). I need you to offload a heavy computation — calculating capital gains tax across 10,000 equity transactions per Indian tax rules (LTCG 10% above ₹1L, STCG 15%, holding period 12 months for equity) — from the main thread to a Web Worker so the UI stays responsive. Requirements: (1) A `taxWorker.ts` (TypeScript) that receives an array of `{ buyDate, sellDate, qty, buyPrice, sellPrice }` and returns `{ ltcg, stcg, taxableLtcg, totalTax, breakdown }`, (2) A `useTaxWorker` React hook that instantiates the worker (via `new Worker(new URL(\"./taxWorker.ts\", import.meta.url))`), sends messages, and resolves with results, (3) Progress reporting — worker posts `{ type: \"progress\", pct }` every 500 records so UI can show a progress bar, (4) Cancellation support via `AbortController`-style message, (5) Proper cleanup in the hook's effect, (6) A sample `<TaxCalculator>` component that lets the user click \"Calculate\" and shows a progress bar + final numbers formatted in INR. Please provide: 1) The worker file, 2) The hook, 3) The component, 4) The Vite / Next.js config note for bundling the worker. Format as four code blocks plus a config note. Constraints: TypeScript strict mode, no `workerize-loader`, must work in Next.js 14 App Router, and the main thread must remain at 60fps during calculation.",
+      "tags": [
+        "web-workers",
+        "react",
+        "performance",
+        "typescript",
+        "fintech"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-038",
+      "title": "Production Debugging Playbook for INP Regressions",
+      "prompt": "Act as a web performance lead with 9 years of experience running large React apps for Indian consumer brands. Our Core Web Vitals report from the Chrome UX Report shows INP has regressed from 180ms to 340ms over the past two sprints on our product listing page, affecting 60% of users on mid-range Android. I need you to produce a production debugging playbook to root-cause and fix the regression. Please provide: (1) A step-by-step investigation plan — start with RUM data (web-vitals library) to confirm the regression, segment by device and network, (2) Reproduction strategy in Chrome DevTools Performance panel with 4x CPU throttling + Fast 3G, capturing Event Timing and Long Animation Frames (LoAF), (3) Common INP culprits specific to React apps: excessive re-renders from unstable context, unbatched state updates, hydration cost, large synchronous click handlers, third-party tag managers (GTM, Clevertap, MoEngage common in India), heavy useEffect on interaction, (4) Mitigation techniques: `useTransition`, `useDeferredValue`, `startTransition`, splitting handlers with `requestIdleCallback`/`scheduler.yield`, memoization, debouncing, moving work to workers, (5) Validation: how to A/B test a fix and confirm INP improvement in CrUX vs field RUM, (6) Guardrails: a PR checklist and a Lighthouse CI budget for INP going forward. Format as a markdown runbook with headings and checklists. Constraints: React 18, Next.js 14, assume access to GA4 + custom RUM, and cite specific Chrome DevTools panels and flags.",
+      "tags": [
+        "inp",
+        "core-web-vitals",
+        "debugging",
+        "react",
+        "rum"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-039",
+      "title": "Design Token Pipeline with Style Dictionary",
+      "prompt": "Act as a design systems architect with 8 years of experience running multi-platform token pipelines for Indian conglomerates spanning web (React), iOS, and Android. I need you to design a token pipeline using Style Dictionary that consumes a single source of truth (Figma Tokens exported as JSON) and generates platform-specific outputs. Requirements: (1) Source JSON structure organized by `color`, `spacing`, `typography`, `radius`, `shadow`, `motion`, with alias tokens (`color.brand.primary` → `color.base.indigo.500`), (2) Outputs: CSS custom properties, Tailwind config values, TypeScript const objects, iOS Swift UIColor extension, Android XML colors, (3) Custom transforms: px → rem for web, px → dp for Android, hex → UIColor for iOS, (4) Token naming convention `[category]-[type]-[variant]-[state]` (BEM-like) with kebab-case for web and camelCase for JS/TS, (5) Theme support: light, dark, and a high-contrast variant required for Indian public-sector accessibility compliance, (6) CI: GitHub Actions workflow that rebuilds tokens on push to `tokens/*.json` and opens a PR bumping the generated files in consumer repos, (7) Versioning and semver strategy for breaking token changes. Please provide: 1) A sample source `tokens/color.json`, 2) A `style-dictionary.config.cjs` with build configs for 5 platforms, 3) A custom transform example, 4) The GitHub Actions YAML, 5) A `CHANGELOG` template for token PRs. Format as five sections. Constraints: Style Dictionary v4, Node 20, monorepo-friendly, and document how downstream apps consume the outputs.",
+      "tags": [
+        "design-tokens",
+        "style-dictionary",
+        "design-system",
+        "ci-cd",
+        "tailwind"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    },
+    {
+      "id": "developers-frontend-040",
+      "title": "End-to-End Frontend Testing Strategy with Playwright",
+      "prompt": "Act as a QA architect with 9 years of experience setting up testing pyramids for production React apps at Indian unicorns. I need you to design a complete frontend testing strategy and produce a runnable Playwright setup for a Next.js 14 e-commerce app. Please provide: (1) Test pyramid philosophy — unit (Vitest), component (React Testing Library + Vitest), integration, and E2E (Playwright) — with rough percentages and what belongs at each level, (2) A `playwright.config.ts` configured for Chromium, WebKit, and Mobile Chrome (Pixel 5) targeting the staging URL, with retries, traces on first retry, and parallel workers, (3) A Page Object Model for the cart flow (`HomePage`, `ProductPage`, `CartPage`, `CheckoutPage`) in TypeScript, (4) One full E2E spec that: lands on the home page, searches for a product, adds to cart, proceeds to checkout, fills the address form with Indian PIN code, stubs the Razorpay window via `page.route`, and asserts success toast, (5) Accessibility checks using `@axe-core/playwright` on key pages, (6) Visual regression strategy using Playwright's `toHaveScreenshot` with thresholds, (7) CI integration — a GitHub Actions job that runs on PRs with caching and uploads the HTML report as an artifact, (8) Flake management policy. Format as a markdown document with code blocks for config, POMs, the spec, and the CI YAML. Constraints: Playwright v1.45+, TypeScript, must run against a locally-served build in CI (`next start`), and keep total runtime under 8 minutes.",
+      "tags": [
+        "playwright",
+        "e2e-testing",
+        "testing",
+        "ci-cd",
+        "next-js"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "frontend"
+    }
+  ]
+}

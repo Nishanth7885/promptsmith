@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "ecommerce-customer-service-001",
+      "title": "Bilingual WhatsApp Order Delay Response Template",
+      "prompt": "Act as a senior customer service specialist with 8 years of experience handling Indian D2C e-commerce support on WhatsApp Business. I need you to write a bilingual (Hindi-English / Hinglish) WhatsApp response template for customers complaining about a delayed order that was supposed to arrive in 3-5 days but is now on day 7. Here is the context: Our brand sells ethnic wear from Jaipur, ships pan-India via Delhivery and Bluedart, and 40% of our customers are from Tier 2-3 cities like Indore, Lucknow, Kanpur, and Surat. Customer paid Rs. 2,499 via UPI. Please provide: (1) An empathetic opening in Hinglish acknowledging the delay, (2) A clear status update request template, (3) A goodwill gesture offer (e.g., Rs. 100 coupon or free shipping on next order), (4) An escalation path mentioning email and toll-free number, (5) A closing with estimated resolution TAT. Format the output as a ready-to-copy WhatsApp message under 1,000 characters with emoji usage appropriate for Indian customers. Consider these constraints: maintain the 'aap' respectful form throughout, avoid corporate jargon, comply with Consumer Protection Act 2019 requirements for transparent communication, and ensure the tone remains warm and respectful even if the customer is aggressive.",
+      "tags": [
+        "response-template",
+        "whatsapp",
+        "order-delay",
+        "bilingual",
+        "hinglish"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-002",
+      "title": "COD Refund Failure Explanation Email",
+      "prompt": "Act as a customer experience manager with 6 years of experience at Indian e-commerce companies like Myntra and Nykaa. I need you to draft a professional email response to a customer whose COD order worth Rs. 3,450 was returned, but they haven't received the refund even after 10 days. Here is the context: The customer paid cash on delivery in Pune, returned the product, and we've already processed the refund to their bank account via NEFT, but they claim it hasn't reflected. They are threatening to post on Twitter and tag consumer forums. Please provide: (1) A respectful subject line, (2) An empathetic opening acknowledging their frustration, (3) A clear explanation of the NEFT refund process and typical 5-7 working day timeline, (4) Specific next steps including a UTR number check request, (5) An escalation offer with a dedicated agent contact, (6) A sincere closing with apology. Format the output as a complete email with subject, salutation, body paragraphs, and signature block. Consider these constraints: the tone must be polite but not overly apologetic, reference Consumer Protection Act 2019 provisions on refund timelines, offer ODR (Online Dispute Resolution) as a last resort, and avoid any language that admits legal liability prematurely.",
+      "tags": [
+        "refund",
+        "cod",
+        "email-template",
+        "response-template",
+        "escalation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-003",
+      "title": "Top 20 FAQ Generator for Fashion E-Commerce",
+      "prompt": "Act as a customer support content strategist with 7 years of experience building help centres for Indian D2C fashion brands. I need you to generate a comprehensive list of the top 20 frequently asked questions (with answers) for a women's ethnic wear e-commerce website targeting Indian customers aged 22-40. Here is the context: The brand ships across India, accepts UPI, cards, netbanking, COD (up to Rs. 5,000), offers free shipping above Rs. 999, has a 7-day return policy, and uses Freshdesk as the CX platform. Average order value is Rs. 1,800. Please provide: (1) 20 FAQs covering sizing, shipping, returns, exchanges, payments, cancellations, tracking, account issues, product care, and customer loyalty, (2) Concise 2-4 sentence answers for each, (3) Category tags for each FAQ, (4) Suggested keywords for SEO. Format the output as a numbered list with Question, Answer, Category, and Keywords fields. Consider these constraints: answers must reference Indian pincodes/couriers like Delhivery, Xpressbees, and India Post; use INR currency; mention GST inclusive pricing; and keep language simple enough for Tier 2 city readers with English as a second language.",
+      "tags": [
+        "faq",
+        "help-center",
+        "fashion",
+        "d2c",
+        "content-strategy"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-004",
+      "title": "5-Star Amazon Review Response Template",
+      "prompt": "Act as a brand reputation manager with 5 years of experience managing seller accounts on Amazon India and Flipkart. I need you to write 5 different response templates for 5-star positive reviews on Amazon India for a kitchen appliance brand selling mixer grinders in the Rs. 2,500-4,000 range. Here is the context: We want to thank reviewers warmly, encourage repeat purchases, and subtly invite them to share photos or videos. Our brand positioning is 'affordable quality for the Indian kitchen.' Please provide: (1) 5 distinct response templates of 40-60 words each, (2) A warm Indian greeting in each, (3) Specific acknowledgment of what the reviewer praised (dal grinding, chutney making, motor power, etc.), (4) A cross-sell or upsell hint without being pushy, (5) An invitation to follow the brand on Instagram or join the WhatsApp community. Format the output as a numbered list with template titles. Consider these constraints: comply with Amazon India's review response guidelines (no discount codes, no off-platform communication requests), use respectful Indian tone (avoid 'Hey buddy' casual style), and ensure responses don't look copy-pasted by varying openers and closers.",
+      "tags": [
+        "review-response",
+        "amazon",
+        "5-star",
+        "reputation-management",
+        "response-template"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-005",
+      "title": "1-Star Negative Review Recovery Response",
+      "prompt": "Act as a senior ORM (Online Reputation Management) specialist with 8 years of experience handling crisis reviews for Indian e-commerce brands on Amazon, Flipkart, and Google Business Profile. I need you to draft a response to a 1-star review where a customer from Chennai complained that their Rs. 1,299 bluetooth earphones stopped working after 3 days, claims our support was unresponsive, and wrote the word 'fraud' in the review. Here is the context: We actually did respond within 24 hours, offered a replacement, but the customer didn't reply to our email. We want to publicly demonstrate accountability without admitting fault. Please provide: (1) A public response template of 80-120 words, (2) An empathetic opening that does NOT start with 'Sorry', (3) A factual mention of our response attempt without sounding defensive, (4) A clear next-step CTA with a specific support email and case reference request, (5) A respectful closing. Format the output as a ready-to-post response. Consider these constraints: never use the customer's full name, comply with Amazon India review guidelines, maintain the polite 'aap' tone, never accuse the customer of lying, and leave room for offline resolution.",
+      "tags": [
+        "review-response",
+        "1-star",
+        "orm",
+        "crisis-management",
+        "reputation-management"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-006",
+      "title": "UPI Payment Failed but Money Debited Response",
+      "prompt": "Act as a payment operations support lead with 6 years of experience resolving UPI disputes for Indian e-commerce platforms. I need you to write a customer-friendly response template explaining the 'payment failed but money debited' scenario that is extremely common in India with UPI, PhonePe, GPay, and Paytm transactions. Here is the context: A customer tried to pay Rs. 1,899 for a beauty product order, the UPI transaction showed 'failed' on our checkout page, but the amount was debited from their HDFC Bank account. They are panicking and messaging us on Instagram DM. Please provide: (1) A reassuring opening message, (2) A clear explanation of the pending settlement cycle (T+1 to T+5 working days for auto-refund by the bank), (3) A request for the UPI transaction reference (UTR/RRN number), (4) Instructions to raise a dispute with their bank if auto-refund doesn't happen, (5) Our commitment to manually intervene if needed. Format the output as an Instagram DM-friendly response under 600 characters and an email version of 150 words. Consider these constraints: reference NPCI guidelines, avoid technical jargon, use respectful Hinglish optional, and ensure the customer feels supported rather than dismissed.",
+      "tags": [
+        "upi",
+        "payment-failure",
+        "refund",
+        "response-template",
+        "instagram"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-007",
+      "title": "Size Exchange Request WhatsApp Script",
+      "prompt": "Act as a customer care team lead with 5 years of experience handling fashion exchanges for Indian e-commerce brands like Bewakoof and The Souled Store. I need you to write a WhatsApp conversation script for handling a size exchange request for a men's t-shirt ordered in size M, but the customer wants L. Here is the context: The customer ordered from Hyderabad, paid Rs. 699, the product is unused with tags intact, and our exchange policy allows size swaps within 7 days at no extra cost. Please provide: (1) A welcome message acknowledging the exchange request, (2) A checklist question sequence to verify eligibility (tags, unused, within window), (3) A confirmation message with the reverse pickup schedule, (4) An ETA for the new size delivery (typically 7-10 days), (5) A closing with a tracking link placeholder. Format the output as a numbered sequence of 6-8 WhatsApp bubbles that flow conversationally. Consider these constraints: keep each bubble under 300 characters, use polite Hinglish, mention the courier partner (Delhivery), avoid pushing the customer to call, and reassure them the exchange is free.",
+      "tags": [
+        "exchange",
+        "whatsapp",
+        "size",
+        "response-template",
+        "fashion"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-008",
+      "title": "Out-of-Stock Product Apology and Alternative",
+      "prompt": "Act as a customer retention specialist with 6 years of experience at Indian D2C brands. I need you to write an email template for notifying a customer that the product they ordered is out of stock after payment was already received. Here is the context: The customer from Bangalore ordered a specific shade of lipstick (Berry Burst) for Rs. 499, but due to a warehouse inventory mismatch, the product is unavailable for the next 15 days. We want to offer: (a) full refund, (b) a similar shade alternative with Rs. 100 discount, or (c) a pre-order with 10% off when stock arrives. Please provide: (1) An apologetic subject line, (2) A warm opening that takes responsibility without being excessively apologetic, (3) A clear explanation of the stock situation, (4) Three options presented as clickable CTAs, (5) A contact escalation path, (6) A respectful closing signed by the Customer Care Manager. Format the output as a complete HTML-friendly email with clear sections. Consider these constraints: maintain Indian tone of respect, offer the highest-value option first, mention refund timelines per Consumer Protection Act 2019, and avoid blaming the warehouse or logistics partner.",
+      "tags": [
+        "out-of-stock",
+        "email-template",
+        "refund",
+        "retention",
+        "response-template"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-009",
+      "title": "Wrong Product Delivered Complaint Response",
+      "prompt": "Act as a customer service supervisor with 7 years of experience at Indian marketplaces. I need you to craft an email response for a customer who received the wrong product: they ordered Fabindia kurta size 38 in blue for Rs. 1,895 but received a red size 42. Here is the context: The customer is from Kolkata, understandably upset, and has attached photos. Our SLA for wrong product cases is pickup within 48 hours and correct product dispatch within 72 hours. Please provide: (1) A subject line with the order ID placeholder, (2) A sincere apology acknowledging the mistake, (3) A clear resolution plan with specific dates, (4) Reverse pickup instructions, (5) A goodwill gesture (Rs. 200 voucher for next order), (6) A contact person's name and direct email for escalation. Format the output as a complete email under 250 words. Consider these constraints: use respectful 'aap' tone, avoid technical blame on warehouse staff, comply with Consumer Protection Act 2019 on defective/wrong product delivery, and ensure the customer does not have to call support.",
+      "tags": [
+        "wrong-product",
+        "email-template",
+        "refund",
+        "response-template",
+        "apology"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-010",
+      "title": "Cancellation Request Before Shipping Response",
+      "prompt": "Act as a customer support agent with 4 years of experience at Indian e-commerce companies. I need you to write three response templates for order cancellation requests based on order status: (a) cancellation before packing, (b) cancellation after packing but before shipping, and (c) cancellation denial because order has already shipped. Here is the context: Orders average Rs. 1,200, customers usually pay via UPI or COD, and our policy allows free cancellation until the shipping stage. Please provide: (1) Three distinct email templates of 100-150 words each, (2) A clear status explanation, (3) Refund timeline per payment method (UPI: 5-7 days, Cards: 7-10 days), (4) For denials, a polite explanation and the option to refuse delivery for a full refund, (5) A closing offering additional help. Format the output as three labelled templates. Consider these constraints: maintain respectful Indian tone, comply with Consumer Protection Act 2019, never make the customer feel guilty for cancelling, and always offer an alternative path in denial cases.",
+      "tags": [
+        "cancellation",
+        "email-template",
+        "response-template",
+        "refund",
+        "order-management"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-011",
+      "title": "Damaged Product Return WhatsApp Response",
+      "prompt": "Act as a WhatsApp support specialist with 5 years of experience at Indian D2C brands. I need you to write a WhatsApp response sequence for a customer who received a damaged ceramic diya set worth Rs. 799 just before Diwali. Here is the context: The customer from Ahmedabad shared photos of broken pieces, is upset because the gift was for their mother, and Diwali is 3 days away. We need to resolve emotionally and operationally. Please provide: (1) An empathetic opening that acknowledges the emotional context of Diwali, (2) A request for photos (if not already shared) and order ID, (3) An immediate resolution offer (replacement via express shipping or full refund + keep the damaged pieces), (4) An apology with a small goodwill gesture like a free Ganesh idol add-on, (5) A closing wishing them a happy Diwali. Format the output as 5-6 WhatsApp message bubbles under 400 characters each. Consider these constraints: use warm Hinglish tone, be culturally sensitive to Diwali context, act quickly given the deadline, and avoid long corporate apology paragraphs.",
+      "tags": [
+        "damaged-product",
+        "whatsapp",
+        "festival",
+        "response-template",
+        "refund"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-012",
+      "title": "Delivery Address Change Request Response",
+      "prompt": "Act as an order fulfilment support executive with 4 years of experience at Indian e-commerce companies. I need you to write a response template for a customer who wants to change their delivery address after placing the order. Here is the context: A customer ordered a Rs. 3,299 home decor product to their Mumbai address but now wants it delivered to Pune because they are travelling. The order has already been packed but not yet handed over to the courier. Our policy allows address changes only before handover, subject to pincode serviceability. Please provide: (1) A polite response acknowledging the request, (2) A request for the new full address with pincode, (3) Confirmation of feasibility based on packing status, (4) A disclaimer about same-state vs inter-state delivery time impact, (5) A fallback plan if change is not possible (cancel and re-order). Format the output as an email of 200 words. Consider these constraints: use respectful Indian tone, mention courier partner limitations (Delhivery, Ecom Express), be transparent about what can and cannot be changed, and avoid overpromising.",
+      "tags": [
+        "address-change",
+        "response-template",
+        "email-template",
+        "order-management",
+        "fulfillment"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-013",
+      "title": "Promo Code Not Working Chat Response",
+      "prompt": "Act as a live chat support agent with 5 years of experience at Indian D2C brands. I need you to write a live chat response script for a customer complaining that their welcome discount code 'WELCOME10' is not applying at checkout. Here is the context: The customer is shopping for a Rs. 1,599 skincare set, first-time buyer, on mobile. Common reasons for code failure include: minimum cart value (Rs. 999), already-discounted items, expired code, or being applied on wrong product category. Please provide: (1) A friendly opening acknowledging the issue, (2) A systematic troubleshooting checklist of 4-5 questions, (3) A manual override offer if troubleshooting fails (applying the discount from backend), (4) A confirmation of the final cart total, (5) A closing invitation to continue shopping. Format the output as a chat transcript with agent messages under 200 characters each. Consider these constraints: use friendly Hinglish, keep each message short for mobile readability, avoid technical terms like 'backend' or 'SKU', and maintain helpful energy throughout.",
+      "tags": [
+        "promo-code",
+        "live-chat",
+        "response-template",
+        "discount",
+        "troubleshooting"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-014",
+      "title": "Product Quality Complaint Email Template",
+      "prompt": "Act as a senior customer experience specialist with 6 years of experience at Indian food and FMCG e-commerce brands. I need you to draft an email response to a customer complaining about the quality of a Rs. 450 organic honey jar, claiming it tastes artificial and looks different from the website image. Here is the context: The customer from Delhi is a repeat buyer, has purchased from us 4 times, and is threatening to leave a bad review. We source from FSSAI-certified farms and the product is genuine. Please provide: (1) A respectful subject line, (2) A warm opening recognising their loyalty, (3) A factual explanation of why organic honey can vary in colour and texture seasonally, (4) An offer to replace or refund, (5) A link to our sourcing story page, (6) A closing offering a personal call if they'd like. Format the output as an email of 220 words. Consider these constraints: don't dismiss the customer's perception, reference FSSAI certification, use Indian respectful tone, and turn the complaint into a relationship-building opportunity.",
+      "tags": [
+        "quality-complaint",
+        "email-template",
+        "fmcg",
+        "response-template",
+        "retention"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-015",
+      "title": "New Customer Onboarding Welcome Message",
+      "prompt": "Act as a customer engagement specialist with 5 years of experience at Indian D2C brands. I need you to write a multi-channel welcome message sequence for a new customer who just completed their first purchase of Rs. 2,199 on our ayurvedic wellness store. Here is the context: We want to send a welcome message via WhatsApp (first), followed by an email (next day), and an SMS reminder (day 3). The customer is from Jaipur, female, aged 32. We want to make her feel valued and introduce our loyalty program. Please provide: (1) A warm WhatsApp welcome under 500 characters, (2) A detailed welcome email of 200 words with brand story, (3) An SMS of 160 characters with loyalty program invitation, (4) Suggested emoji usage per channel, (5) CTAs for each touch. Format the output as three labelled sections. Consider these constraints: use respectful 'aap' tone, reference ayurvedic heritage, mention WhatsApp community link, comply with TRAI DND rules for SMS, and avoid sounding like a generic marketing blast.",
+      "tags": [
+        "welcome-message",
+        "onboarding",
+        "whatsapp",
+        "response-template",
+        "retention"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-016",
+      "title": "Shipping Tracking Not Updated Response",
+      "prompt": "Act as a logistics support agent with 4 years of experience at Indian e-commerce companies. I need you to write a response template for a customer complaining that their tracking link shows 'Shipment Created' for 4 days with no movement. Here is the context: The customer from Chandigarh ordered a Rs. 1,450 gift for their wedding anniversary, which is 2 days away. The shipment is actually stuck at the Delhi sortation hub due to courier backlog. Please provide: (1) An empathetic opening acknowledging anniversary context, (2) A transparent explanation of the courier hub delay, (3) A commitment to escalate with the courier partner today, (4) A backup plan offer (cancel and refund, or express reshipment from nearest warehouse), (5) A personal follow-up promise with a specific name and time, (6) A closing with anniversary wishes. Format the output as a WhatsApp message sequence and an email version. Consider these constraints: avoid making excuses that blame the customer, be honest about the delay, offer concrete alternatives, and use warm Indian tone.",
+      "tags": [
+        "shipping",
+        "tracking",
+        "response-template",
+        "whatsapp",
+        "escalation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-017",
+      "title": "Freshdesk Macro Library for Common Queries",
+      "prompt": "Act as a CX operations manager with 8 years of experience setting up Freshdesk for Indian e-commerce companies. I need you to design a library of 15 Freshdesk macro templates for handling the most common customer queries efficiently. Here is the context: Our team handles 800 tickets per day for a fashion D2C brand, uses Freshdesk with tags, and needs macros that automatically set priority, assign to the right agent group, and reply with a templated response. Please provide: (1) 15 macro titles covering order tracking, refund status, cancellation, size exchange, damaged goods, wrong product, promo code issues, COD availability, GST invoice request, duplicate order, account login issues, delivery delay, product availability, return pickup, and loyalty points, (2) The action sequence per macro (set priority, set tag, assign group, reply template), (3) Short 80-word reply templates for each, (4) Suggested trigger keywords for automation. Format the output as a structured table. Consider these constraints: use respectful Indian tone in replies, reference Freshdesk feature names accurately, ensure macros follow the Consumer Protection Act 2019 disclosure requirements, and design for bilingual (English and Hinglish) usage.",
+      "tags": [
+        "freshdesk",
+        "macros",
+        "workflow",
+        "automation",
+        "response-template"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-018",
+      "title": "Angry Customer De-escalation Script",
+      "prompt": "Act as a customer service trainer with 10 years of experience at Indian BPOs serving e-commerce clients. I need you to create a de-escalation call script for handling an angry customer who is yelling on the phone about a Rs. 8,500 smartphone that stopped working in 10 days. Here is the context: The customer from Lucknow is demanding a full refund plus compensation, is threatening to go to the consumer court, and keeps interrupting the agent. Please provide: (1) A calm opening acknowledgment without sounding scripted, (2) An active listening phrase bank with 5 Indian-context expressions, (3) A 4-step LEAPS framework application (Listen, Empathise, Apologise, Problem-solve, Summarise), (4) Specific phrases for handling interruptions politely, (5) A resolution offer sequence (warranty claim, replacement, refund), (6) A closing commitment with case number. Format the output as a realistic call script of 500 words with customer and agent turns. Consider these constraints: use respectful 'aap' form, reference Consumer Protection Act 2019 and ODR options, avoid corporate jargon, and train the agent to stay calm even when insulted.",
+      "tags": [
+        "de-escalation",
+        "call-script",
+        "escalation",
+        "complaint-handling",
+        "training"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-019",
+      "title": "Consumer Forum Threat Response Template",
+      "prompt": "Act as a legal-aware customer care manager with 8 years of experience handling escalated complaints at Indian e-commerce companies. I need you to draft an email response for a customer who has threatened to file a complaint with the District Consumer Disputes Redressal Commission over a Rs. 12,000 faulty air purifier. Here is the context: The product is 45 days old, we've already offered one replacement which the customer refused, and they are demanding a full refund plus Rs. 5,000 compensation for mental harassment. We want to de-escalate before they file legally. Please provide: (1) A respectful subject line with the case number, (2) An opening acknowledging their concern without admitting liability, (3) A factual timeline of our prior resolution attempts, (4) A final resolution offer (full refund + Rs. 1,000 goodwill), (5) A mention of the National Consumer Helpline (1915) and ODR platform as neutral options, (6) A closing signed by a senior manager. Format the output as a formal email of 280 words. Consider these constraints: every sentence must be legally defensible, reference Consumer Protection Act 2019 Section 2(7) on defective goods, avoid emotional language, and preserve the relationship.",
+      "tags": [
+        "legal",
+        "escalation",
+        "consumer-forum",
+        "email-template",
+        "complaint-handling"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-020",
+      "title": "Twitter Public Complaint ORM Response",
+      "prompt": "Act as a social media customer service specialist with 6 years of experience handling public complaints on Twitter/X for Indian e-commerce brands using tools like Sprinklr and LocoBuzz. I need you to write a public Twitter response for a customer who tweeted 'Worst service ever @BrandName 2 weeks no refund on order #12345 Rs 4500 shame on you' and tagged consumer forums and the Ministry of Consumer Affairs. Here is the context: The customer has 2,400 followers, the tweet already has 34 retweets, and it's gaining traction. We actually processed the refund yesterday but it's still in banking settlement. Please provide: (1) A public reply under 280 characters, (2) A private DM invitation, (3) A follow-up public tweet once resolved (for closing the loop), (4) Internal escalation flags for the CX team, (5) Suggested hashtags to avoid. Format the output as three labelled tweets plus internal notes. Consider these constraints: respond within 2 hours (industry SLA), don't argue publicly, take sensitive details private, reference the UTR number politely, and preserve brand reputation without sounding robotic.",
+      "tags": [
+        "twitter",
+        "orm",
+        "social-media",
+        "public-complaint",
+        "response-template"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-021",
+      "title": "Google Business Profile Review Response Kit",
+      "prompt": "Act as a local SEO and reputation manager with 7 years of experience managing Google Business Profiles for Indian retail and e-commerce brands. I need you to create a response kit for Google reviews across the 5-star spectrum for a consumer electronics retailer with both online and physical store presence in Bangalore. Here is the context: The brand has 4.2 average rating with 1,200 reviews and receives about 30 new reviews per week. We want responses that improve local SEO while maintaining authenticity. Please provide: (1) Five response templates (one each for 5, 4, 3, 2, and 1 star), (2) Each template must include the brand name, city, and a specific product category keyword naturally, (3) Instructions on when to take conversations offline, (4) Phrases to avoid (legally risky language, generic filler), (5) A review request follow-up template for neutral customers. Format the output as five labelled sections with templates and rationale. Consider these constraints: follow Google's review response guidelines, use respectful Indian tone, maintain character limits that display well on mobile, and ensure SEO value without keyword stuffing.",
+      "tags": [
+        "google-reviews",
+        "review-response",
+        "local-seo",
+        "orm",
+        "reputation-management"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-022",
+      "title": "Trustpilot 2-Star Review Public Recovery",
+      "prompt": "Act as an international ORM specialist with 7 years of experience managing Trustpilot reviews for Indian D2C brands that export to NRI customers. I need you to write a public response to a 2-star Trustpilot review from an NRI customer in Dubai who complained about slow international shipping (14 days instead of 7) for a Rs. 6,500 ethnic wear order. Here is the context: The delay was due to UAE customs clearance, not our fault, but the customer blamed us. Trustpilot allows businesses to request review edits with evidence. Please provide: (1) A public response of 100-150 words acknowledging the experience, (2) A factual but non-defensive explanation of the customs process, (3) A clear apology for the stress caused, (4) An invitation to verify via invoice and tracking evidence, (5) A goodwill gesture offer (20% off next order), (6) A closing inviting review update after resolution. Format the output as a ready-to-post response. Consider these constraints: follow Trustpilot's response policy, don't name-drop customs as excuse, maintain professional English (NRI audience), and leave the door open for review revision.",
+      "tags": [
+        "trustpilot",
+        "review-response",
+        "2-star",
+        "international-shipping",
+        "nri"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-023",
+      "title": "Kapture CX Workflow for Refund Escalations",
+      "prompt": "Act as a CX platform implementation consultant with 8 years of experience deploying Kapture CRM for Indian e-commerce brands. I need you to design a refund escalation workflow in Kapture for a beauty e-commerce brand handling 500 refund tickets per day. Here is the context: Refunds currently take 8-10 days on average, customers complain on social media, and we want to bring the TAT to 4-5 days using automation, SLA tiers, and auto-escalation. Please provide: (1) A 4-tier escalation matrix (L1 agent, L2 supervisor, L3 manager, L4 head of CX) with specific trigger rules, (2) SLA timers per tier (e.g., 24 hours, 48 hours), (3) Auto-reminder email content at each tier, (4) A final-resolution template for L4 cases, (5) Dashboard KPIs to track. Format the output as a structured document with sections and a flow diagram description. Consider these constraints: use Kapture feature names accurately, reference Indian banking refund timelines (NEFT/IMPS/UPI), ensure workflow respects RBI guidelines, and maintain respectful customer communication throughout.",
+      "tags": [
+        "kapture",
+        "workflow",
+        "refund",
+        "escalation",
+        "automation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-024",
+      "title": "Instagram DM Complaint Triage Playbook",
+      "prompt": "Act as a social customer care lead with 6 years of experience handling Instagram DMs for Indian D2C fashion and beauty brands. I need you to create a DM triage playbook for a team that receives 300 Instagram DMs per day. Here is the context: DMs range from pre-sales questions to product complaints to influencer collab requests, and the team struggles to prioritise. Please provide: (1) A 5-tier triage matrix (urgent complaint, refund request, product query, collab inquiry, general), (2) Response time SLAs per tier, (3) Template responses of 50-80 words each, (4) Handoff criteria to email or phone for complex issues, (5) Escalation rules for PR risks, (6) A daily reporting template. Format the output as a structured playbook with tables and examples. Consider these constraints: use casual-professional Indian tone suited for Instagram audience, reference emoji conventions, comply with Meta Business Platform policies on external links in DMs, and design for mobile-first agents using the Instagram mobile app.",
+      "tags": [
+        "instagram",
+        "social-media",
+        "triage",
+        "playbook",
+        "response-template"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-025",
+      "title": "Loyalty Program Issue Resolution Script",
+      "prompt": "Act as a loyalty program support specialist with 5 years of experience at Indian e-commerce brands with tier-based rewards systems. I need you to write a response template for a customer complaining that their loyalty points (2,500 points = Rs. 250 value) disappeared after the brand migrated to a new rewards platform. Here is the context: The customer from Pune is a Gold tier member since 2022, has spent Rs. 45,000 lifetime, and is understandably angry. Our platform migration did cause some data sync issues. Please provide: (1) A respectful subject line, (2) An acknowledgment opening that validates their concern, (3) A transparent explanation of the migration without making excuses, (4) A clear resolution offer (manual points credit + 500 bonus points for inconvenience), (5) An invitation to verify points balance within 24 hours, (6) A closing with personal follow-up commitment. Format the output as an email of 230 words. Consider these constraints: preserve the VIP customer's trust, don't blame the tech team, reference Consumer Protection Act 2019 on promised benefits, and use warm Indian tone.",
+      "tags": [
+        "loyalty-program",
+        "email-template",
+        "retention",
+        "response-template",
+        "vip"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-026",
+      "title": "GST Invoice Request Response Template",
+      "prompt": "Act as a billing support specialist with 6 years of experience at Indian e-commerce companies handling B2B and corporate orders. I need you to write a response template for a customer requesting a GST invoice with their company GSTIN after they already placed an order without mentioning GST details. Here is the context: A corporate buyer from Gurugram ordered Rs. 22,000 worth of office supplies, paid via corporate card, and now needs a proper GST invoice for input tax credit claims. Our system normally generates invoices at order time but allows manual updates within 30 days. Please provide: (1) A professional subject line, (2) An acknowledging opening, (3) A request for the complete company details (name, GSTIN, registered address, PAN), (4) A timeline for revised invoice delivery (48 hours), (5) A verification process note, (6) A closing with a dedicated B2B contact. Format the output as a formal email of 200 words. Consider these constraints: comply with CGST Act 2017 invoice rules, reference input tax credit eligibility, use professional business English (no Hinglish for B2B), and mention the 30-day amendment window clearly.",
+      "tags": [
+        "gst",
+        "invoice",
+        "b2b",
+        "email-template",
+        "response-template"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-027",
+      "title": "Repeat Complaint Second-Offence Response",
+      "prompt": "Act as a senior customer retention manager with 8 years of experience at Indian e-commerce brands. I need you to write an email response for a customer who has raised a complaint for the second time in 3 months — first for a delayed delivery, now for a defective product worth Rs. 3,750. Here is the context: The customer from Kochi has placed 6 orders with us, is a valuable repeat buyer, and is frustrated that this is happening again. We want to save the relationship. Please provide: (1) A subject line that acknowledges the repeat issue, (2) An honest opening that admits the pattern is unacceptable, (3) A specific resolution (immediate replacement + Rs. 500 credit + free shipping for next 3 orders), (4) A personal commitment from a named senior manager, (5) A direct phone number for future issues, (6) A sincere closing. Format the output as an email of 240 words. Consider these constraints: avoid generic apology language, take clear ownership, don't offer excuses, reference Consumer Protection Act 2019, and use respectful Indian tone.",
+      "tags": [
+        "repeat-complaint",
+        "retention",
+        "email-template",
+        "escalation",
+        "response-template"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-028",
+      "title": "Flipkart Seller Review Response Strategy",
+      "prompt": "Act as a marketplace reputation specialist with 6 years of experience managing seller accounts on Flipkart and Amazon India. I need you to write a comprehensive response strategy for handling seller reviews on Flipkart for a home appliance brand. Here is the context: We have a Flipkart Plus seller account with 4.3 rating on 8,500 reviews, receive about 50 new reviews per week across 40 SKUs in the Rs. 1,200-9,000 range. We want to optimise for the Flipkart 'Preferred Seller' badge. Please provide: (1) Response templates for 5-star, 4-star, 3-star, and 1-2 star reviews (4 templates), (2) A specific policy on when NOT to respond (fake reviews, abusive language), (3) A reporting workflow for policy violations, (4) KPIs to track (response rate, response time, sentiment trend), (5) A weekly review summary template for leadership. Format the output as a structured document. Consider these constraints: follow Flipkart's seller review guidelines, use Indian respectful tone, optimise for category keywords (home appliances, mixer grinder, etc.), and maintain under-100-word response templates.",
+      "tags": [
+        "flipkart",
+        "review-response",
+        "marketplace",
+        "seller",
+        "reputation-management"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-029",
+      "title": "COD Refusal and RTO Prevention Communication",
+      "prompt": "Act as an operations and CX specialist with 7 years of experience reducing COD return-to-origin (RTO) rates for Indian e-commerce brands. I need you to create a proactive communication sequence sent to COD customers before delivery to reduce refusal rates. Here is the context: Our brand has 32% COD orders with an RTO rate of 18%, costing Rs. 450 per RTO in shipping and handling. We want to send WhatsApp confirmations 24 hours before delivery to verify intent. Please provide: (1) A WhatsApp pre-delivery confirmation message of 400 characters asking the customer to confirm cash availability, (2) A response flow based on their reply (Yes, No, No response), (3) An SMS fallback for customers without WhatsApp, (4) A polite re-engagement message 2 hours before delivery, (5) A final agent call script if all digital attempts fail. Format the output as a labelled sequence. Consider these constraints: use respectful Hinglish, comply with TRAI commercial communication rules, avoid pushing customers to prepay, and mention our delivery partner (Delhivery/Ecom Express) by name.",
+      "tags": [
+        "cod",
+        "rto-prevention",
+        "whatsapp",
+        "response-template",
+        "operations"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-030",
+      "title": "Festive Season Surge Customer Comms Plan",
+      "prompt": "Act as a CX programme manager with 8 years of experience handling Diwali and Big Billion Day peak seasons at Indian e-commerce brands. I need you to design a customer communication plan for managing the 3x volume surge during Diwali week. Here is the context: Our brand typically handles 400 tickets/day but expects 1,200/day during Oct 15-Nov 5, covering order confirmations, delivery delays, product queries, and refund requests. Our team of 25 agents cannot scale immediately. Please provide: (1) A proactive status-setting message sent to all new customers, (2) A delayed response acknowledgment auto-reply for queries, (3) A chatbot deflection script for top 5 FAQ types, (4) An email template for delivery delay notifications, (5) A post-festive thank-you and apology message, (6) KPIs to monitor daily. Format the output as a 6-section playbook. Consider these constraints: use warm Diwali-themed Indian tone, reference Consumer Protection Act 2019 for delay transparency, comply with TRAI DND rules, and maintain brand warmth under pressure.",
+      "tags": [
+        "festive-season",
+        "diwali",
+        "surge",
+        "response-template",
+        "planning"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-031",
+      "title": "Glassdoor Employee Review Brand Response",
+      "prompt": "Act as an employer brand and communications specialist with 7 years of experience managing Glassdoor reviews for Indian e-commerce companies. I need you to draft a response to a 2-star Glassdoor review posted by a former customer service agent complaining about 'toxic culture, low pay (Rs. 18,000/month), and no work-life balance.' Here is the context: The review has 12 helpful votes and is affecting candidate pipelines. The reviewer worked for 14 months in our Bengaluru office. We are genuinely working on improvements but can't admit all failures publicly. Please provide: (1) A public response of 120-180 words from the HR/CX leadership, (2) An acknowledgment of the concerns without blanket denial, (3) A factual mention of recent improvements (wellness programmes, salary revisions), (4) An invitation to reconnect with HR, (5) A respectful closing. Format the output as a ready-to-post Glassdoor reply. Consider these constraints: never reveal personal details, follow Glassdoor's community guidelines, use professional Indian corporate tone, avoid legal risk language, and preserve credibility with future candidates.",
+      "tags": [
+        "glassdoor",
+        "review-response",
+        "employer-brand",
+        "hr",
+        "reputation-management"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-032",
+      "title": "Proactive Delay Apology for Cyclone Impact",
+      "prompt": "Act as a crisis communications specialist with 6 years of experience handling weather and natural disaster disruptions at Indian e-commerce companies. I need you to write a proactive customer communication for delays caused by Cyclone Remal impacting deliveries to West Bengal, Odisha, and Bangladesh border regions. Here is the context: 3,400 orders are stuck at Kolkata hub, estimated 5-7 day delay, customers are already complaining, and we need to get ahead of the narrative. Please provide: (1) A WhatsApp broadcast message of 500 characters, (2) A detailed email of 180 words with revised ETAs, (3) A website banner message of 100 characters, (4) A social media post for X and Instagram, (5) A refund/cancellation option note for those who can't wait, (6) A follow-up message once operations normalise. Format the output as six labelled channels. Consider these constraints: be empathetic to affected regions, never sound tone-deaf about the cyclone's human impact, comply with Consumer Protection Act 2019 delay disclosure, and offer genuine alternatives.",
+      "tags": [
+        "crisis-communication",
+        "weather-delay",
+        "response-template",
+        "proactive",
+        "apology"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-033",
+      "title": "AI Chatbot Intent Taxonomy for D2C Brand",
+      "prompt": "Act as a conversational AI and CX architect with 10 years of experience designing chatbots for Indian D2C e-commerce brands using platforms like Haptik, Yellow.ai, and Gupshup. I need you to design a complete intent taxonomy and fallback strategy for an AI chatbot handling pre-sales and post-sales queries for a premium skincare brand. Here is the context: The brand has 250 SKUs, accepts WhatsApp, web chat, and Instagram, sees 40,000 monthly conversations, and needs to deflect 65% of queries without human escalation. Please provide: (1) A 30-intent taxonomy grouped into 6 categories (order, product, payment, shipping, returns, account), (2) Sample utterances for each intent (3 per intent in English and Hinglish), (3) A fallback hierarchy (retry, clarify, handoff to agent), (4) A bot-to-human handoff script, (5) Confidence thresholds per intent category, (6) A bot testing checklist. Format the output as a structured document with tables. Consider these constraints: design for Indian linguistic variety including code-switching, comply with DPDP Act 2023 on PII handling, reference WhatsApp Business API limits, and ensure graceful degradation to human agents.",
+      "tags": [
+        "chatbot",
+        "ai",
+        "intent-taxonomy",
+        "whatsapp",
+        "architecture"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-034",
+      "title": "CSAT and NPS Program Design for E-commerce",
+      "prompt": "Act as a CX analytics leader with 12 years of experience building CSAT and NPS measurement programs at Indian e-commerce unicorns. I need you to design a complete voice-of-customer (VOC) measurement program for a D2C home decor brand with Rs. 80 crore annual revenue. Here is the context: Currently we only measure post-delivery CSAT via email with 8% response rate and no closed-loop feedback. Leadership wants a proper VOC program with CSAT, NPS, CES, and verbatim analysis to drive product and CX improvements. Please provide: (1) A measurement framework with when/where to ask each metric (post-purchase, post-delivery, post-support, quarterly relationship), (2) Question wording for each (CSAT, NPS, CES), (3) Channel strategy (WhatsApp, email, in-app), (4) A closed-loop process for detractors with SLAs, (5) A dashboard design with 8 KPIs, (6) A monthly executive report template. Format the output as a structured playbook. Consider these constraints: comply with DPDP Act 2023 on consent, reference Indian sampling considerations across tiers, use respectful Indian tone in question wording, and target 25% response rate.",
+      "tags": [
+        "csat",
+        "nps",
+        "voc",
+        "analytics",
+        "program-design"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-035",
+      "title": "ODR Platform Filing Preparation Response",
+      "prompt": "Act as a consumer law expert and CX escalation manager with 10 years of experience handling Online Dispute Resolution (ODR) cases under the Consumer Protection (E-commerce) Rules 2020. I need you to create an internal playbook and customer-facing communication for a case where a customer has indicated intent to file on an ODR platform (like Jupitice or Sama) for a Rs. 18,500 appliance dispute. Here is the context: The customer from Mumbai has escalated through email, WhatsApp, and Twitter, claims defective product, and we've offered one replacement which failed. Please provide: (1) An internal case assessment checklist (product genuineness, previous resolutions, legal exposure, settlement authority), (2) A customer-facing email acknowledging the ODR intent and offering direct resolution (full refund + Rs. 1,500 compensation), (3) A template response if the customer still proceeds to ODR, (4) Evidence collection list for ODR proceedings, (5) An internal escalation flag process to legal counsel, (6) A post-resolution closure email. Format the output as a legal-operations playbook. Consider these constraints: reference Consumer Protection (E-commerce) Rules 2020, DPDP Act 2023, maintain formal legal English, and preserve legal defensibility throughout.",
+      "tags": [
+        "odr",
+        "legal",
+        "escalation",
+        "consumer-protection",
+        "playbook"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-036",
+      "title": "Sprinklr Command Center Social Listening Setup",
+      "prompt": "Act as a social CX architect with 9 years of experience deploying Sprinklr command centres for Indian e-commerce companies. I need you to design a social listening and response setup in Sprinklr for a fashion D2C brand handling 15,000 monthly brand mentions across Twitter/X, Instagram, Facebook, YouTube, and Reddit India. Here is the context: The brand wants to detect customer service issues in real-time, route them to the right team, and respond within 30 minutes. We also want to detect PR crises early. Please provide: (1) A topic query design with Boolean logic for positive and negative sentiment detection (including Hindi and Hinglish keywords), (2) A routing ruleset with 6 categories (complaint, query, praise, influencer, PR risk, spam), (3) Response SLA rules per category, (4) An alert configuration for PR crises (spike detection, influential author, negative sentiment), (5) A daily reporting dashboard design, (6) Integration points with Freshdesk for closed-loop resolution. Format the output as a technical implementation document. Consider these constraints: reference Sprinklr feature names accurately, include Hindi transliteration keywords, comply with DPDP Act 2023, and design for a 15-person team.",
+      "tags": [
+        "sprinklr",
+        "social-listening",
+        "orm",
+        "architecture",
+        "automation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-037",
+      "title": "Tiered Support Model for Rs 500 Cr GMV Brand",
+      "prompt": "Act as a CX operations director with 15 years of experience building customer service organisations at Indian e-commerce unicorns like Nykaa, Myntra, and Mamaearth. I need you to design a tiered support model for a D2C brand scaling from Rs. 100 Cr to Rs. 500 Cr GMV over 18 months. Here is the context: Current CX is 30 agents handling 1,200 tickets/day with 18-hour first response time and 72-hour resolution time. Target: 100 agents, 4,500 tickets/day, 2-hour FRT, 24-hour resolution. Please provide: (1) A 4-tier support model (L1 chatbot/self-serve, L2 generalist agents, L3 specialists, L4 escalation team) with headcount, (2) A channel strategy across WhatsApp, email, chat, phone, social, (3) A hiring and training roadmap over 18 months, (4) Technology stack recommendations (Freshdesk/Zoho/Kapture + chatbot + analytics), (5) SLA matrix by ticket type and priority, (6) Cost model per ticket with optimisation levers, (7) Monthly KPIs. Format the output as a comprehensive operating plan. Consider these constraints: reference Indian salary bands, comply with DPDP Act 2023, use Indian vendor pricing, and respect Consumer Protection Act 2019 SLA implications.",
+      "tags": [
+        "operations",
+        "scaling",
+        "org-design",
+        "strategy",
+        "leadership"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-038",
+      "title": "Customer Journey Pain Point Audit Framework",
+      "prompt": "Act as a CX research and insights leader with 11 years of experience conducting customer journey audits for Indian e-commerce brands. I need you to design a complete customer journey pain point audit framework for a beauty D2C brand with declining repeat purchase rate (from 38% to 28% over 12 months). Here is the context: Leadership wants to understand where customers are dropping off across the 9-stage journey from awareness to advocacy. We have access to GA4, Freshdesk tickets, WhatsApp chat logs, NPS verbatims, and social listening. Please provide: (1) A 9-stage journey map definition (awareness, consideration, purchase, payment, confirmation, delivery, unboxing, usage, advocacy), (2) A pain point detection methodology per stage combining qualitative and quantitative data, (3) A specific data source mapping per stage, (4) 5 customer interview discussion guides, (5) A pain point prioritisation framework (frequency x severity), (6) A 90-day action plan template. Format the output as a research playbook. Consider these constraints: reference Indian behavioural context (Tier 2-3 buyers, payment trust, festival spikes), comply with DPDP Act 2023 on research consent, use respectful interview wording, and deliver CEO-ready insight summaries.",
+      "tags": [
+        "customer-journey",
+        "research",
+        "insights",
+        "audit",
+        "framework"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-039",
+      "title": "Crisis Communication Playbook for Data Breach",
+      "prompt": "Act as a crisis communications and CX continuity leader with 12 years of experience managing PR and customer communication during data incidents at Indian e-commerce companies. I need you to create a complete crisis communication playbook for a scenario where our e-commerce brand suffers a data breach exposing 4.2 lakh customer records (names, phone numbers, emails, order history — no payment details). Here is the context: We have 72 hours to notify customers per DPDP Act 2023, the breach has been contained, and we need to protect trust while meeting legal obligations. Please provide: (1) A T+0 to T+72 hour communication timeline, (2) A CEO-signed customer email of 220 words, (3) An SMS notification under 160 characters, (4) A website banner and FAQ page content, (5) A media statement for press, (6) An internal agent script for handling inbound inquiries, (7) A post-incident follow-up email at T+7 and T+30 days, (8) Escalation matrix for media and regulator queries. Format the output as a crisis playbook. Consider these constraints: comply with DPDP Act 2023 notification rules, IT Act 2000 Section 43A, maintain legal defensibility, use formal corporate English, and prioritise customer trust preservation.",
+      "tags": [
+        "crisis-communication",
+        "data-breach",
+        "playbook",
+        "legal",
+        "dpdp-act"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    },
+    {
+      "id": "ecommerce-customer-service-040",
+      "title": "CX Voice of Customer to Product Feedback Loop",
+      "prompt": "Act as a VOC-to-Product integration leader with 10 years of experience connecting customer service insights to product development at Indian D2C brands. I need you to design an end-to-end voice-of-customer feedback loop that systematically converts CX tickets, reviews, and NPS verbatims into product and service improvements for a Rs. 200 Cr GMV home essentials brand. Here is the context: Currently CX insights sit in Freshdesk, reviews in Amazon/Flipkart, NPS in Qualtrics, and social mentions in Sprinklr — with no synthesis into product roadmap. Product team complains CX insights are 'anecdotal.' Please provide: (1) A weekly thematic analysis framework using a tag taxonomy of 40 issue categories, (2) A quantification methodology converting ticket volume to business impact (revenue at risk, churn correlation), (3) A bi-weekly CX-Product sync meeting agenda and deliverables, (4) A scoring model prioritising product fixes by CX impact, (5) A closed-loop customer notification template when their feedback leads to a product fix, (6) Quarterly insight report template for executive leadership. Format the output as a complete operating system document. Consider these constraints: reference Indian CX tools (Freshdesk, Sprinklr, Qualtrics), comply with DPDP Act 2023 on verbatim handling, use Indian business context, and make the loop auditable for leadership reviews.",
+      "tags": [
+        "voc",
+        "feedback-loop",
+        "product-integration",
+        "analytics",
+        "framework"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "customer-service"
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "medical-public-health-001",
+      "title": "Calculate District TB Incidence from NTEP Data",
+      "prompt": "Act as a district epidemiologist with 10 years experience working with India's National TB Elimination Programme (NTEP). I need you to build a clean analytical workflow for calculating TB incidence and notification rates for a district in Maharashtra. Here is the context: I have Nikshay portal exports showing 4,820 notified TB cases in 2024 across 18 blocks, district population of 28.4 lakh per Census 2011 projected to 2024 using SRS growth rates, and block-wise ASHA-reported presumptive TB numbers. I need to present findings to the District Health Officer and State TB Officer. Please provide: (1) step-by-step incidence and notification rate calculations per 1,00,000 population with worked example, (2) methodology to adjust for private sector under-notification using Nikshay private notifications and projected 2.1x multiplier, (3) block-wise ranking table template showing notification rate, presumptive-to-confirmed ratio, and treatment success rate, (4) three red-flag thresholds that should trigger block-level review, (5) a short epidemiological interpretation paragraph suitable for the monthly DHO review. Format output as a structured analysis with formulas, sample worked numbers, and a markdown table. Consider these constraints: align with NTEP 2025 elimination targets, use Nikshay data fields as they actually appear, reference RNTCP-to-NTEP terminology, and flag data quality caveats around migrant populations and denominator estimation.",
+      "tags": [
+        "ntep",
+        "tb-elimination",
+        "nikshay",
+        "incidence-calculation",
+        "district-health"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-002",
+      "title": "Draft Hindi SMS Campaign for Dengue Prevention",
+      "prompt": "Act as a health communication specialist with 8 years experience designing IEC/BCC campaigns for the National Vector Borne Disease Control Programme (NVBDCP). I need you to draft a complete pre-monsoon dengue prevention SMS and WhatsApp campaign for urban wards in Lucknow. Here is the context: the Chief Medical Officer wants to push 6 SMS messages over 4 weeks from mid-May to peak transmission in July, targeting 3.2 lakh households, with messages in Hindi (Devanagari) and transliterated Hindi for feature phones. Last year the district reported 1,847 dengue cases with 4 deaths, concentrated in wards near construction sites and water-storage-dependent colonies. Please provide: (1) six SMS messages under 160 characters each in Devanagari Hindi plus English backtranslation, covering source reduction, early symptom recognition, free testing at UPHC, and when to visit district hospital, (2) a weekly release schedule with rationale, (3) three WhatsApp broadcast variants up to 300 characters each with a clear call-to-action, (4) a short list of culturally grounded do's and don'ts avoiding fear appeals that backfire, (5) measurable KPIs the CMO can track. Format as a campaign brief with tables. Consider constraints: MoHFW IEC guidelines, avoid medical jargon, respect ASHA workers as trusted messengers, and ensure messages work for low-literacy recipients.",
+      "tags": [
+        "nvbdcp",
+        "dengue",
+        "health-communication",
+        "sms-campaign",
+        "hindi-iec"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-003",
+      "title": "Outbreak Investigation Protocol for Cholera Cluster",
+      "prompt": "Act as a field epidemiologist with IDSP training and 7 years experience investigating waterborne outbreaks in rural India. I need you to produce a complete outbreak investigation plan for a suspected cholera cluster in a block of Murshidabad district, West Bengal. Here is the context: IDSP-P form reported 34 acute watery diarrhoea cases across 3 villages over 5 days, 2 deaths, rice-water stools described by MO PHC, and the block has shared tubewells and open defecation pockets. The District Surveillance Officer needs a rapid response plan within 24 hours. Please provide: (1) a numbered 10-step investigation protocol following IDSP guidelines from case definition to report submission, (2) standardized case definitions for suspected, probable, and confirmed cholera, (3) a line list template with exactly the columns to capture, (4) sampling strategy for stool, water, and environmental specimens including transport medium and the nearest VRDL/state lab routing, (5) immediate control measures covering ORS corners, chlorination dosage for tubewells, ASHA household visits, and risk communication. Format as a field-ready SOP with checkboxes. Consider constraints: IDSP reporting timelines (L-form, P-form, S-form), NCDC cholera guidelines, coordination with PHED for water testing, and the need for action before lab confirmation arrives.",
+      "tags": [
+        "idsp",
+        "outbreak-investigation",
+        "cholera",
+        "field-epidemiology",
+        "waterborne"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-004",
+      "title": "NFHS-5 Indicator Comparison Analysis Across States",
+      "prompt": "Act as a public health researcher with 9 years experience analysing NFHS and SRS datasets for policy work. I need you to design an analytical framework comparing maternal and child health indicators across five EAG states using NFHS-5. Here is the context: a state health department wants to benchmark Bihar, Uttar Pradesh, Madhya Pradesh, Jharkhand, and Odisha on institutional delivery, full immunization coverage (12-23 months), stunting, anaemia in women 15-49, and ANC-4 visits, and wants a readable two-page brief for the Principal Secretary Health. Please provide: (1) an indicator table pulling NFHS-5 values for each state with NFHS-4 change percentage points, (2) methodology notes on NFHS sampling weights, urban-rural disaggregation, and why simple ranking can mislead, (3) three analytical observations linking indicators (for example ANC-4 correlation with institutional delivery), (4) two specific programmatic recommendations per state rooted in NHM Programme Implementation Plans, (5) a clearly labelled data limitations section. Format as a structured brief with tables and short paragraphs suitable for a non-technical secretary. Consider constraints: cite NFHS-5 factsheet indicator numbers accurately, respect confidence intervals, avoid causal language, and link to SDG 3 targets where relevant.",
+      "tags": [
+        "nfhs",
+        "maternal-health",
+        "child-health",
+        "eag-states",
+        "benchmarking"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-005",
+      "title": "PHC Catchment Community Health Assessment Framework",
+      "prompt": "Act as a community medicine specialist with 12 years experience running block-level public health programmes under NHM. I need you to design a comprehensive community health needs assessment framework for a PHC catchment area of 32,000 population in rural Rajasthan. Here is the context: the Medical Officer PHC has 6 sub-centres, 28 ASHAs, 6 ANMs, and wants to prioritize the next annual PIP submission to the state NHM. The catchment has migrant labour, high anaemia prevalence, and scattered hamlets. Please provide: (1) a six-domain assessment framework covering demographic profile, morbidity pattern, health service utilisation, social determinants, environmental risks, and community perceptions, (2) data sources to triangulate including HMIS, RCH portal, Anganwadi registers, and household surveys, (3) a mixed-methods plan with sample sizes for quantitative household survey and 8-10 FGD locations, (4) a scoring rubric to rank health problems by magnitude, severity, community concern, and feasibility, (5) a 90-day timeline with ASHA-ANM-MO PHC role split. Format as an implementation-ready framework with tables and a Gantt-style timeline. Consider constraints: align with Ayushman Bharat HWC service package, use tools ASHAs can actually administer, and stay within typical PHC untied funds.",
+      "tags": [
+        "community-assessment",
+        "phc",
+        "asha",
+        "needs-assessment",
+        "nhm"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-006",
+      "title": "Policy Brief on Ayushman Bharat HWC Scale-Up",
+      "prompt": "Act as a health policy analyst with 10 years experience writing briefs for MoHFW and state health departments. I need you to draft a two-page policy brief on accelerating Health and Wellness Centre (HWC) conversion under Ayushman Bharat in a lagging state. Here is the context: Chhattisgarh has converted 4,200 sub-centres and PHCs into HWCs against a target of 5,650, with gaps in Community Health Officer (CHO) posting, teleconsultation uptake, and NCD screening coverage. The Principal Secretary wants evidence-based options for the next financial year. Please provide: (1) a crisp executive summary under 120 words, (2) a situation analysis with 4-5 data points from HWC portal and NHM dashboards, (3) three policy options with cost, feasibility, and expected impact for each, (4) a recommended option with justification and implementation pathway over 12 months, (5) risks and mitigation in a short table, (6) three annexure references. Format strictly as a two-page brief using the MoHFW style: bold headings, bullet points, and a banner box with the headline recommendation. Consider constraints: align with Ayushman Bharat operational guidelines, respect 15th Finance Commission grants for health, realistic CHO recruitment timelines through NHSRC, and political sensitivities around PHC staffing.",
+      "tags": [
+        "policy-brief",
+        "ayushman-bharat",
+        "hwc",
+        "mohfw",
+        "health-systems"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-007",
+      "title": "Measles-Rubella Outbreak 2x2 Table Analysis",
+      "prompt": "Act as an epidemiologist with 8 years experience supporting Mission Indradhanush and measles-rubella elimination activities. I need you to walk through a 2x2 table analysis for a suspected measles outbreak in a tribal block of Jharkhand. Here is the context: IDSP reports 62 rash-fever cases among children under 10 in a 3-week window across 4 villages, vaccination status recorded as per MCP card or ANM register. Of 62 cases, 48 are unvaccinated or have unknown status; among 520 unaffected peers surveyed, 210 are unvaccinated. The DIO wants a vaccine effectiveness estimate and attack rate breakdown before the state review. Please provide: (1) a filled 2x2 table with exposure as unvaccinated status, (2) attack rates for vaccinated and unvaccinated groups with formulas, (3) relative risk, risk difference, and vaccine effectiveness calculations with worked numbers, (4) interpretation paragraph with caveats about recall bias and denominator uncertainty, (5) immediate actions including outbreak response immunisation and case-based surveillance. Format as an analytical worksheet with formulas, tables, and interpretation. Consider constraints: WHO-SEARO measles elimination case definitions, MR campaign quality standards, IgM sample routing to VRDL, and the tribal context where MCP card retention is low.",
+      "tags": [
+        "measles",
+        "mission-indradhanush",
+        "vaccine-effectiveness",
+        "2x2-table",
+        "outbreak"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-008",
+      "title": "Doordarshan PSA Script for Leprosy Stigma Reduction",
+      "prompt": "Act as a health communication writer with 7 years experience producing scripts for Doordarshan and community radio on behalf of NLEP and state health departments. I need you to write a 60-second Doordarshan public service announcement on reducing stigma around leprosy and encouraging early reporting. Here is the context: the National Leprosy Eradication Programme is running a case-finding fortnight across Odisha and wants a Hindi and Odia script targeting rural viewers aged 25-55. The message must reinforce that leprosy is curable with free MDT at the nearest PHC, early diagnosis prevents disability, and treated persons can live normal lives. Please provide: (1) a 60-second bilingual script (Hindi primary with Odia translation) with scene directions, dialogue, and visual cues, (2) character brief for two speaking roles including an ASHA and a cured person, (3) a 20-second cutdown variant for radio, (4) on-screen super text for key facts, (5) closing call-to-action with toll-free helpline. Format as a broadcast-ready script with timecodes. Consider constraints: NLEP messaging guidelines, avoid terms like \"leper\", respect dignity of affected persons, Prasar Bharati broadcast standards, and ensure claims are medically accurate about MDT availability.",
+      "tags": [
+        "nlep",
+        "leprosy",
+        "doordarshan",
+        "psa-script",
+        "stigma-reduction"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-009",
+      "title": "SRS-Based Under-5 Mortality Trend Analysis",
+      "prompt": "Act as a demographer and public health analyst with 10 years experience using Sample Registration System (SRS) data for programme monitoring. I need you to analyse under-5 mortality rate trends for Uttar Pradesh versus Kerala over the last decade and interpret drivers. Here is the context: a state health society wants a 15-minute presentation for the Mission Director NHM showing where UP stands, plausible reasons behind Kerala's lead, and what is actionable. Use SRS Statistical Report figures for U5MR, IMR, neonatal mortality, and the rural-urban split. Please provide: (1) a trend table from 2013 to the most recent SRS year with CAGR calculation, (2) a short methodology note on how SRS estimates differ from NFHS and civil registration data, (3) three driver hypotheses linking indicators to programme inputs such as skilled birth attendance, immunisation coverage, and sick newborn care units, (4) five specific NHM programmatic actions for UP ranked by expected impact, (5) slide-ready bullet points under 20 words each. Format as a structured analysis plus speaker notes. Consider constraints: avoid causal claims without evidence, reference published SRS bulletins correctly, respect urban-rural disparities, and align suggestions with existing RMNCH+A operational framework.",
+      "tags": [
+        "srs",
+        "under-5-mortality",
+        "rmncha",
+        "trend-analysis",
+        "nhm"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-010",
+      "title": "Anganwadi Nutrition Bulletin Poster Copy",
+      "prompt": "Act as a health promotion specialist with 6 years experience working with ICDS and Poshan Abhiyaan teams across north India. I need you to write copy for a wall poster to be displayed at 240 Anganwadi centres in a block of Bihar promoting the first 1000 days nutrition window. Here is the context: stunting prevalence in the block is 42 percent per NFHS-5, the DPO ICDS wants a single A2 poster in Hindi with simple illustrations and 5 key messages, readable by caregivers with limited literacy. Please provide: (1) a headline under 8 Hindi words, (2) five key messages in Hindi with one-line English backtranslation each, covering exclusive breastfeeding, timely complementary feeding at 6 months, iron-rich local foods, hygiene, and growth monitoring at AWC, (3) visual cue suggestions beside each message, (4) a footer with helpline and AWW credit line, (5) a printer spec note on size, colour, and paper. Format as a poster brief with labelled sections. Consider constraints: Poshan Abhiyaan messaging framework, use locally available foods like sattu, ragi, and dal-chawal combos, avoid promoting commercial baby food, and keep language warm and non-judgemental toward mothers.",
+      "tags": [
+        "poshan-abhiyaan",
+        "icds",
+        "anganwadi",
+        "nutrition-iec",
+        "poster"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-011",
+      "title": "IDSP Weekly Surveillance Data Quality Audit",
+      "prompt": "Act as a state epidemiologist with 8 years experience overseeing IDSP operations across districts. I need you to design a weekly data quality audit protocol for L, P, and S form reporting across 15 districts in Tamil Nadu. Here is the context: the State Surveillance Unit sees variable reporting completeness and timeliness, with some districts reporting zero outbreaks for consecutive months while others over-report. The State Surveillance Officer wants a replicable weekly audit template. Please provide: (1) an audit scorecard with six dimensions including completeness, timeliness, internal consistency, zero-reporting plausibility, laboratory linkage, and feedback loop closure, (2) threshold bands for green, amber, and red classification, (3) three investigative queries to run on IHIP portal data per district, (4) a short weekly feedback note template for DSOs, (5) escalation pathway for repeated red status. Format as a protocol with tables and sample scorecard entries. Consider constraints: IDSP operational manual definitions, IHIP data fields, respect district capacity limitations, and avoid penalising districts that correctly report many outbreaks.",
+      "tags": [
+        "idsp",
+        "ihip",
+        "surveillance",
+        "data-quality",
+        "audit"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-012",
+      "title": "Heatwave Action Plan for District Health Team",
+      "prompt": "Act as a climate and health adviser with 7 years experience supporting NCDC's National Programme on Climate Change and Human Health. I need you to draft a district-level heatwave action plan for a peri-urban district in Telangana for the March to June season. Here is the context: last year the district reported 38 suspected heat-related deaths, the Collector wants a health-sector specific plan aligned with the NDMA heatwave guidelines and IMD colour-coded alerts. The district has 8 Taluka hospitals, 42 PHCs, and 180 HWCs. Please provide: (1) a pre-season preparedness checklist covering ORS buffer stocks, cold chain for fluids, cool rooms at PHCs, and ASHA sensitisation, (2) trigger-based response actions mapped to IMD yellow, orange, and red alerts, (3) case definition and line list template for heat illness surveillance, (4) specific risk-group outreach for outdoor workers, pregnant women, and elderly in old-age homes, (5) communication messages for SMS and wall writing in Telugu and Hindi. Format as an action plan with tables and an alert-response matrix. Consider constraints: NCDC heat guidelines, coordinate with labour department for MGNREGA worker hours, and keep recommendations within routine PHC budgets.",
+      "tags": [
+        "heatwave",
+        "ncdc",
+        "climate-health",
+        "action-plan",
+        "district-health"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-013",
+      "title": "Mission Indradhanush Microplan Gap Analysis",
+      "prompt": "Act as an immunisation officer with 9 years experience supporting Mission Indradhanush rounds in hard-to-reach areas. I need you to build a microplan gap analysis tool for a block of Assam where full immunisation coverage is 68 percent per NFHS-5 against state average 77 percent. Here is the context: the block has riverine char areas, tea garden populations, and migrant labourers, with 26 sub-centres, 32 ANMs, and 74 ASHAs. The District Immunisation Officer wants to identify dropouts, left-outs, and resistant pockets before the next IMI round. Please provide: (1) a microplan review checklist covering head count, due list generation, session site adequacy, vaccinator availability, and cold chain, (2) three data triangulation steps between U-WIN portal, tally sheets, and ASHA registers, (3) a dropout and left-out tracking table template by antigen, (4) a mop-up strategy for char areas and tea gardens specifying mobile teams and session frequency, (5) key performance indicators for the upcoming round. Format as a field-ready microplan toolkit with tables. Consider constraints: Mission Indradhanush operational guidelines, U-WIN data fields, sensitivities around tea garden management permissions, and ANM workload realities.",
+      "tags": [
+        "mission-indradhanush",
+        "immunization",
+        "microplan",
+        "u-win",
+        "dropouts"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-014",
+      "title": "Policy Brief on Non-Communicable Disease Screening",
+      "prompt": "Act as a senior public health policy adviser with 12 years experience working on NCDs with MoHFW's NP-NCD programme. I need you to draft a two-page policy brief proposing how to scale population-based hypertension and diabetes screening through HWCs in Karnataka. Here is the context: the state has screened 1.3 crore adults over 30 years age under PM-JAY linked NCD screening, but follow-up and treatment continuation is low, with only 34 percent of hypertensives on regular treatment. The Health Minister has asked for options in the next state budget cycle. Please provide: (1) an executive summary under 120 words, (2) a situation analysis with 5 data points from NP-NCD portal and STEPS survey, (3) three policy options including service delivery redesign, free drug supply under JAS, and digital follow-up via eSanjeevani, (4) a recommended option with costed rollout phases over 18 months, (5) risks and assumptions in a table. Format as a two-page MoHFW style brief. Consider constraints: NP-NCD operational guidelines, CPHC service package under HWC, realistic CHO workload, state drug procurement rules, and integration with PMJAY package rates.",
+      "tags": [
+        "policy-brief",
+        "ncd",
+        "hypertension",
+        "hwc",
+        "pmjay"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-015",
+      "title": "Attack Rate Calculation for Food Poisoning Outbreak",
+      "prompt": "Act as a public health officer with 6 years experience investigating foodborne outbreaks under IDSP. I need you to compute attack rates and identify a suspect food vehicle for a wedding-linked gastroenteritis outbreak in Ludhiana. Here is the context: 214 guests attended a wedding dinner, 147 later reported vomiting and diarrhoea within 8-14 hours. A retrospective cohort was conducted covering 9 food items including paneer tikka, biryani, raita, and gulab jamun. I have item-wise exposure numbers for ill and well guests. Please provide: (1) a worked cohort analysis table showing food-specific attack rates among exposed and unexposed, (2) relative risk calculation for each food item with interpretation, (3) identification of the most likely vehicle with statistical justification, (4) a short hypothesis on likely pathogen based on incubation and symptoms, (5) recommended environmental sampling and control actions including notification to food safety officer under FSSAI. Format as an outbreak investigation worksheet with tables and formulas. Consider constraints: IDSP foodborne outbreak SOP, FSSAI coordination, respect confidentiality of the hosting family, and avoid premature public naming.",
+      "tags": [
+        "attack-rate",
+        "foodborne",
+        "outbreak",
+        "cohort-study",
+        "fssai"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-016",
+      "title": "ASHA Incentive Structure Review Analysis",
+      "prompt": "Act as an NHM consultant with 8 years experience analysing frontline worker performance and incentives across states. I need you to review ASHA incentive payouts in a district of Madhya Pradesh and recommend rebalancing for the next financial year. Here is the context: the district has 2,840 ASHAs receiving task-based incentives across 60 plus activities, total annual payout about INR 9.6 crore, with concerns that low-value tasks crowd out priority activities like TB case finding and HBYC visits. The CMHO wants an evidence-based proposal. Please provide: (1) a categorisation of current ASHA tasks by priority tier based on health outcome relevance, (2) a review of average payouts per ASHA per month and coefficient of variation across blocks, (3) three rebalancing options with trade-offs, (4) a recommendation prioritising 10-12 high-impact activities with proposed rates, (5) an implementation note covering Kayakalp-style recognition, training refreshers, and grievance redressal. Format as a structured policy analysis with tables. Consider constraints: NHM ASHA guidelines, cannot reduce total ASHA income, state finance department approval cycle, and community-level equity concerns.",
+      "tags": [
+        "asha",
+        "incentives",
+        "nhm",
+        "frontline-workers",
+        "performance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-017",
+      "title": "JE Vaccination Campaign Community Mobilisation Plan",
+      "prompt": "Act as a public health specialist with 7 years experience running Japanese Encephalitis vaccination campaigns in endemic districts of eastern Uttar Pradesh. I need you to design a community mobilisation plan for a two-week JE catch-up campaign targeting 1.4 lakh children in a Gorakhpur district block. Here is the context: the block has 180 session sites, dominant Bhojpuri speaking population, history of vaccine hesitancy in two blocks due to 2017 adverse event rumours, and heavy paddy fields linked to vector presence. Please provide: (1) a day-by-day mobilisation calendar for the 14-day campaign, (2) roles for ASHA, ANM, AWW, PRI members, and religious leaders, (3) Bhojpuri SMS and wall-writing messages with English backtranslation, (4) rumour response and AEFI communication SOP aligned with ITSU guidelines, (5) a monitoring dashboard listing daily indicators including coverage, dropout, and AEFI reporting. Format as an implementation plan with tables. Consider constraints: NVBDCP and UIP operational norms, respect past AEFI concerns with transparent communication, involve local influencers authentically, and plan around paddy transplantation labour patterns.",
+      "tags": [
+        "japanese-encephalitis",
+        "community-mobilisation",
+        "uip",
+        "hesitancy",
+        "aefi"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-018",
+      "title": "Slum Health Assessment Tool for Urban PHCs",
+      "prompt": "Act as an urban health specialist with 10 years experience under the National Urban Health Mission. I need you to design a rapid health assessment tool for a UPHC serving 48,000 population across 6 slum clusters in Surat. Here is the context: the UPHC Medical Officer wants to prioritise outreach activities and Mahila Arogya Samiti engagement, with known challenges around migrant populations, TB clustering, and low institutional delivery in one cluster. The assessment must be completed in 4 weeks by 2 ANMs and 16 ASHAs. Please provide: (1) a 20-item household level checklist covering demographics, water, sanitation, known chronic illness, child immunisation, and ANC registration, (2) a cluster-level observation guide for environmental and access factors, (3) sampling plan with justified sample size per cluster, (4) a simple tally and analysis template that ANMs can complete manually, (5) a summary output format for the MO UPHC to share with the Mahila Arogya Samiti. Format as a toolkit with forms and tables. Consider constraints: NUHM framework, UPHC staffing realities, sensitivities around undocumented migrant households, and language mix of Gujarati, Hindi, and Odia in slums.",
+      "tags": [
+        "nuhm",
+        "urban-health",
+        "slum",
+        "rapid-assessment",
+        "uphc"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-019",
+      "title": "Anaemia Mukt Bharat Indicator Dashboard Design",
+      "prompt": "Act as an M&E specialist with 8 years experience building dashboards for nutrition programmes under MoHFW. I need you to design a district-level Anaemia Mukt Bharat (AMB) indicator dashboard for quarterly review. Here is the context: AMB has six target beneficiary groups including children, adolescents, pregnant women, and lactating mothers, with interventions like IFA distribution, deworming, and testing via digital haemoglobinometers. The district M&E officer wants a single page dashboard linked to HMIS, RCH portal, and AMB tracker data. Please provide: (1) a list of 12 core indicators mapped to the six beneficiary groups with numerators and denominators, (2) data source for each indicator with refresh frequency, (3) a one-page dashboard layout sketch using ASCII tables showing KPI tiles, trend panels, and block-wise heatmap, (4) three automated alert rules for underperforming blocks, (5) a quarterly review meeting agenda tied to dashboard insights. Format as a dashboard specification document. Consider constraints: AMB operational guidelines, HMIS indicator definitions, avoid indicator overload, and ensure the dashboard is usable without special BI tools at DHO level.",
+      "tags": [
+        "anaemia-mukt-bharat",
+        "dashboard",
+        "monitoring-evaluation",
+        "hmis",
+        "nutrition"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-020",
+      "title": "Rabies Post-Exposure Prophylaxis Protocol Training",
+      "prompt": "Act as a zoonoses specialist with 9 years experience supporting the National Rabies Control Programme. I need you to design a half-day refresher training module for MO PHCs and ANMs on animal bite management and post-exposure prophylaxis. Here is the context: the district reports 18,000 animal bites annually, with inconsistent category assessment and under-use of rabies immunoglobulin at category 3 bites. The DHO wants standardised training for 120 staff across 28 PHCs. Please provide: (1) a 4-hour session agenda with timings and methods, (2) core content on WHO category 1/2/3 classification with Indian case examples, (3) step-by-step wound washing and ARV schedule options including intradermal regimen, (4) a bite register template and referral pathway for RIG where stock is limited, (5) a 10-item pre-post knowledge quiz with answer key. Format as a facilitator guide with session-wise notes and handouts. Consider constraints: National Rabies Control Programme guidelines 2019, respect ASHA and ANM levels of authority, address stock-out realities, and coordinate with Animal Husbandry department for dog population management messaging.",
+      "tags": [
+        "rabies",
+        "nrcp",
+        "training-module",
+        "animal-bite",
+        "protocol"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-021",
+      "title": "Prevalence Survey Sample Size Calculation",
+      "prompt": "Act as a biostatistician with 10 years experience designing public health surveys in Indian districts. I need you to calculate and justify sample size for a district-level diabetes prevalence survey among adults aged 30 and above in a Kerala district. Here is the context: expected prevalence based on NFHS-5 and ICMR-INDIAB is around 18 percent, the DHO wants district-level estimate with 3 percent absolute precision and urban-rural stratification. The district has 12 lakh adults aged 30 plus with 62 percent rural share. Please provide: (1) sample size formula and step-by-step calculation for simple random sampling, (2) design effect adjustment for cluster sampling with rationale, (3) stratified allocation between urban and rural with proportional and optimum methods, (4) non-response adjustment assumption, (5) final recommended sample sizes with sensitivity table for prevalence assumptions from 15 to 22 percent. Format as a statistical note with formulas and tables. Consider constraints: ICMR-INDIAB methodology, feasibility within a 3-month field window, available trained field staff, and alignment with NP-NCD screening definitions.",
+      "tags": [
+        "sample-size",
+        "biostatistics",
+        "diabetes",
+        "prevalence",
+        "icmr-indiab"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-022",
+      "title": "Health Fair Script for Rural Village Outreach",
+      "prompt": "Act as a community health mobiliser with 5 years experience organising Swasthya Melas under NHM. I need you to write a detailed script and run sheet for a one-day village health fair in a block of Uttarakhand. Here is the context: the PHC is organising a mela at a panchayat bhavan with stalls on NCD screening, immunisation, anaemia testing, TB symptom screening, eye check-up, and ABHA ID creation. Expected footfall 600 villagers, 2 MBBS doctors, 4 staff nurses, 10 ASHAs, and 3 AYUSH practitioners will be present. Please provide: (1) a detailed run sheet from 8 am to 5 pm with stall-wise activities and timings, (2) announcement script in Hindi for the Pradhan and ANM to use over loudspeaker, (3) a registration and referral flow from entry to exit, (4) a short skit or nukkad natak outline on NCD prevention in 8 minutes, (5) post-event data capture sheet for reporting to block MO. Format as an event run book. Consider constraints: NHM untied fund rules, seasonal accessibility, avoid over-promising free services not actually available, and coordinate AYUSH colocation respectfully.",
+      "tags": [
+        "health-fair",
+        "swasthya-mela",
+        "community-outreach",
+        "nhm",
+        "abha"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-023",
+      "title": "COVID-19 Lessons Applied to Respiratory Preparedness",
+      "prompt": "Act as a pandemic preparedness adviser with 10 years experience including COVID-19 response support to state health departments. I need you to distill key operational lessons from India's COVID-19 response and apply them to a district respiratory pathogen preparedness plan in Andhra Pradesh. Here is the context: the district health team wants a living preparedness document covering surveillance, laboratory, surge capacity, oxygen, and risk communication, drawing on lessons from first and second wave experience and the PM-ABHIM investments. Please provide: (1) eight concrete lessons from COVID-19 rooted in Indian operational reality, (2) a mapping of each lesson to a current district-level action, (3) a surge capacity framework covering beds, oxygen, human resource, and referral, (4) a laboratory readiness checklist for VRDL and district public health lab, (5) a risk communication playbook with spokesperson protocol and rumour response. Format as a preparedness playbook with tables. Consider constraints: MoHFW pandemic preparedness framework, NCDC IHR core capacities, PSA oxygen plant maintenance realities, and avoid politically loaded language about past response.",
+      "tags": [
+        "covid-19",
+        "preparedness",
+        "pm-abhim",
+        "surge-capacity",
+        "respiratory"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-024",
+      "title": "Maternal Death Review Facilitation Guide",
+      "prompt": "Act as a maternal health specialist with 9 years experience facilitating Maternal Death Surveillance and Response (MDSR) reviews at district level. I need you to prepare a facilitation guide for a district-level maternal death review meeting in a Bihar district that reported 42 maternal deaths last year. Here is the context: the CMO wants to move reviews from blame-oriented discussion to system learning, with participation from MO PHCs, FRUs, obstetricians, and district officials. The guide must support MDSR operational guidelines from MoHFW. Please provide: (1) a pre-meeting checklist for case file compilation and verbal autopsy summaries, (2) a 2-hour meeting agenda with time allocations, (3) a three delays framework worksheet with prompting questions for each case, (4) a standardised action-plan template to capture facility-level and system-level corrective actions with owners and timelines, (5) a follow-up tracker for previous meeting action points. Format as a facilitator toolkit with forms and scripts. Consider constraints: MDSR guidelines, confidentiality and no-blame principles, respect for bereaved families, and realistic capacity at FRUs.",
+      "tags": [
+        "mdsr",
+        "maternal-death-review",
+        "three-delays",
+        "facilitator-guide",
+        "mohfw"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-025",
+      "title": "Water Quality Surveillance Analysis with PHED",
+      "prompt": "Act as an environmental health specialist with 8 years experience coordinating with Public Health Engineering Departments on drinking water surveillance. I need you to analyse last year's water quality test results for a district in Odisha and produce actionable findings. Here is the context: 1,480 samples were tested covering H2S strip tests at source and bacteriological tests at PHC lab, plus chemical tests for fluoride, iron, and arsenic in suspect blocks. Contamination rate for bacteriological parameters was 23 percent. The DHO wants a clear analysis linking results to diarrhoeal disease surveillance and actions under Jal Jeevan Mission. Please provide: (1) a block-wise analysis table of contamination rates by parameter, (2) spatial concordance check with IDSP diarrhoeal disease trends, (3) root cause interpretation for the three worst blocks, (4) recommended actions spanning source protection, chlorination, household level treatment, and PHED coordination, (5) a monthly surveillance calendar for the coming year. Format as an analytical report with tables. Consider constraints: Uniform Drinking Water Quality Monitoring Protocol, Jal Jeevan Mission framework, respect PHED data custodianship, and integrate with IDSP without duplicating reporting.",
+      "tags": [
+        "water-quality",
+        "jal-jeevan-mission",
+        "phed",
+        "surveillance",
+        "diarrhoea"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-026",
+      "title": "TB Active Case Finding Microplan for High-Risk Groups",
+      "prompt": "Act as an NTEP consultant with 7 years experience designing active case finding (ACF) drives for key vulnerable populations. I need you to design an ACF microplan for a Mumbai ward covering slum dwellers, construction labour, and people living with HIV. Here is the context: the ward has estimated 3.2 lakh vulnerable population across 18 clusters, 14 DMCs, 3 CBNAAT sites, and Truenat available at ward TB unit. The STO Mumbai wants a 45-day microplan aligned with the National Strategic Plan for TB Elimination. Please provide: (1) a population enumeration and mapping step with data sources, (2) team composition and daily workload per team covering symptom screening, sputum collection, and CBNAAT referral, (3) an algorithm for presumptive TB case flow including child TB and EPTB, (4) logistics plan covering specimen transport, consumables, and ARV patient linkages, (5) a weekly indicator dashboard with targets. Format as a ward level microplan with tables. Consider constraints: NTEP ACF guidelines, NACO coordination for PLHIV, sensitivities around construction site access permissions, and BMC ward health office reporting lines.",
+      "tags": [
+        "ntep",
+        "active-case-finding",
+        "tb",
+        "vulnerable-populations",
+        "microplan"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-027",
+      "title": "Panchayat Level Health Scorecard Design",
+      "prompt": "Act as a health governance specialist with 8 years experience working with PRIs and Village Health Sanitation and Nutrition Committees (VHSNCs). I need you to design a gram panchayat health and nutrition scorecard to be reviewed quarterly by the Sarpanch and VHSNC in a district of Jharkhand. Here is the context: the district wants to foster local accountability by sharing simple health indicators with panchayats, covering ASHA services, ANC registration, immunisation, ODF status, and malnutrition. The scorecard must be understandable by non-medical panchayat members. Please provide: (1) a 10-indicator scorecard with icons and plain language labels in Hindi, (2) a traffic light colouring rule for each indicator with thresholds, (3) data capture plan from HMIS, ICDS, and ASHA registers, (4) a quarterly Gram Sabha agenda template to discuss the scorecard, (5) a one-page feedback form for VHSNC to record actions. Format as a scorecard kit with layout mockup. Consider constraints: Panchayati Raj norms, untied VHSNC funds usage, avoid stigmatising poorly performing panchayats, and keep the tool usable with minimal digital infrastructure.",
+      "tags": [
+        "panchayat",
+        "vhsnc",
+        "scorecard",
+        "governance",
+        "accountability"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-028",
+      "title": "Snakebite Mortality Reduction District Strategy",
+      "prompt": "Act as a public health specialist with 7 years experience working on snakebite envenoming as a neglected tropical disease in India. I need you to draft a district strategy to reduce snakebite mortality in a district of Tamil Nadu reporting 46 suspected snakebite deaths per year. Here is the context: MoHFW has released the National Action Plan for Snakebite Envenoming (NAP-SE) 2024, the state wants to pilot the strategy in this district with functional PHC-level ASV availability, community awareness, and referral strengthening. Please provide: (1) a situation analysis template including deaths, ASV consumption, and PHC readiness, (2) a prevention pillar covering footwear, torches, and bed net use messaging, (3) ASV availability and cold chain plan for PHCs and CHCs, (4) referral pathway with airway and anti-venom initiation SOP for MO PHC, (5) a training plan for 180 MO PHCs and staff nurses. Format as a strategic plan with tables. Consider constraints: NAP-SE framework, ICMR snakebite treatment guidelines, state drug budget cycle, and coordination with forest department on species mapping.",
+      "tags": [
+        "snakebite",
+        "nap-se",
+        "ntd",
+        "asv",
+        "district-strategy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-029",
+      "title": "Adolescent Health Day RKSK Session Plan",
+      "prompt": "Act as an adolescent health programme officer with 6 years experience implementing Rashtriya Kishor Swasthya Karyakram (RKSK) in schools and AFHCs. I need you to design a 90-minute Adolescent Health Day session for class 9 students at a government school in a block of Haryana. Here is the context: the block has a functional Adolescent Friendly Health Clinic at the CHC, 8 peer educators, and high concerns around anaemia and menstrual hygiene. The session must cover RKSK's six strategic priorities in an age-appropriate way. Please provide: (1) a 90-minute session flow with icebreaker, core content, activity, and Q&A, (2) a Hindi-English bilingual facilitator script with suggested questions, (3) three activity options including a myth-busting game and an anaemia symptom matching task, (4) take-home messages and a referral card to the AFHC, (5) a short feedback form with 6 questions. Format as a facilitator guide with time blocks. Consider constraints: RKSK operational framework, school authority sensitivities, gender-segregated discussion where needed, and Poshan Abhiyaan linkages for adolescent girls.",
+      "tags": [
+        "rksk",
+        "adolescent-health",
+        "afhc",
+        "school-health",
+        "facilitator-guide"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-030",
+      "title": "District Hospital Infection Control Gap Assessment",
+      "prompt": "Act as an infection prevention and control specialist with 10 years experience supporting NABH and Kayakalp assessments in district hospitals. I need you to design a rapid IPC gap assessment for a 300-bed district hospital in a district of West Bengal. Here is the context: the Superintendent wants a baseline before the Kayakalp external assessment, covering hand hygiene, sharps and biomedical waste, isolation capacity, antimicrobial stewardship, and surveillance of healthcare associated infections. Please provide: (1) a 40-item assessment checklist organised under six IPC domains with scoring rubric, (2) observation and audit methodology including hand hygiene opportunities and BMW segregation audit, (3) a scoring sheet producing a domain-wise and overall percentage score, (4) top five gap areas expected in typical district hospitals and quick-win remediations, (5) a 60-day corrective action plan template. Format as an assessment toolkit with forms. Consider constraints: Kayakalp criteria, NCDC NICU IPC guidelines, BMW Rules 2016, AMR containment action plan, and realistic district hospital budgets.",
+      "tags": [
+        "ipc",
+        "kayakalp",
+        "infection-control",
+        "district-hospital",
+        "bmw"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-031",
+      "title": "Mental Health District Programme Situation Analysis",
+      "prompt": "Act as a public mental health specialist with 8 years experience implementing the District Mental Health Programme (DMHP). I need you to prepare a situation analysis for DMHP scale-up in a district of Rajasthan with population 22 lakh. Here is the context: the district has 1 psychiatrist, 2 clinical psychologists, and limited outreach, with suspected high prevalence of depression and alcohol use disorder based on NMHS 2016 estimates. The DHO wants a short document to request additional state support. Please provide: (1) estimated burden using NMHS prevalence applied to district population with age-sex disaggregation, (2) service availability mapping across CHC, DH, and private sector, (3) treatment gap estimation with caveats, (4) five prioritised actions covering PHC-level mhGAP style training, tele-MANAS integration, de-addiction services, and community outreach through ASHAs, (5) resource request with indicative costs. Format as a short situation brief with tables. Consider constraints: DMHP operational framework, Mental Healthcare Act 2017 obligations, state finance realities, and stigma reduction language norms.",
+      "tags": [
+        "dmhp",
+        "mental-health",
+        "nmhs",
+        "tele-manas",
+        "situation-analysis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-032",
+      "title": "Scrub Typhus Outbreak Line List and Response",
+      "prompt": "Act as a field epidemiologist with 6 years experience handling rickettsial disease clusters in Himalayan districts. I need you to produce an outbreak response package for a suspected scrub typhus cluster in a block of Himachal Pradesh. Here is the context: the block reported 22 cases of undifferentiated febrile illness with eschar noted in 9, two deaths, over a 4-week period post-monsoon. IDSP has notified the State Surveillance Unit. Please provide: (1) case definition for suspected and confirmed scrub typhus aligned with NCDC guidelines, (2) a line list template with exactly the variables to collect including eschar site, occupation, and treatment initiation time, (3) a 2x2 analysis plan for suspected exposures including farm work and shrubland contact, (4) clinical management reminder for MO PHCs including empirical doxycycline initiation, (5) control measures spanning environmental, personal protective, and community messaging. Format as a field response packet. Consider constraints: NCDC scrub typhus guidelines, ICMR-VRDL sample routing for IgM and PCR, remote hilly terrain logistics, and respect for traditional occupational patterns.",
+      "tags": [
+        "scrub-typhus",
+        "outbreak",
+        "line-list",
+        "ncdc",
+        "rickettsial"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-033",
+      "title": "Tobacco Control COTPA Enforcement Review",
+      "prompt": "Act as a public health policy specialist with 8 years experience supporting the National Tobacco Control Programme (NTCP) at state level. I need you to review COTPA 2003 enforcement in a district of Punjab and recommend improvements. Here is the context: the district has a district tobacco control cell, but enforcement of Section 4 (no smoking in public places) and Section 6 (sales near schools) is weak, and GATS-2 showed 23 percent current tobacco use prevalence in the state. The District Collector wants a review note. Please provide: (1) a section-wise COTPA enforcement scorecard for Sections 4, 5, 6, and 7 with evidence columns, (2) a summary of fines collected versus potential covered under Indian Penal Code referrals, (3) three intersectoral coordination actions involving police, education, and food safety departments, (4) a 6-month acceleration plan with monthly targets, (5) a communication campaign brief aligned with ministry media buys. Format as an enforcement review note. Consider constraints: COTPA rules, NTCP operational framework, state excise realities, and Ministry of Information and Broadcasting coordination for surrogate advertisement complaints.",
+      "tags": [
+        "ntcp",
+        "cotpa",
+        "tobacco-control",
+        "enforcement",
+        "policy-review"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-034",
+      "title": "Iodine Deficiency Survey Protocol for Hilly District",
+      "prompt": "Act as a nutrition epidemiologist with 7 years experience supporting the National Iodine Deficiency Disorders Control Programme (NIDDCP). I need you to design a district-level iodine survey protocol for a hilly district in Uttarakhand. Here is the context: the DHO wants to assess iodine nutrition using salt iodine content at household level and urinary iodine concentration among school children, aligned with WHO and NIDDCP methodology. Available resources include 4 field teams and a salt testing kit supply. Please provide: (1) a cluster sampling plan for 30 clusters with 20 households each and 10 school children per cluster, (2) data collection tools for household salt testing and urine sample collection, (3) laboratory routing for urine to the state public health laboratory, (4) data entry and analysis plan including median urinary iodine and inadequately iodised salt percentage, (5) reporting template for state and national review. Format as a survey protocol. Consider constraints: NIDDCP operational guidelines, ethical approval requirements, consent procedures for school children, and logistics in mountainous terrain.",
+      "tags": [
+        "niddcp",
+        "iodine",
+        "survey-protocol",
+        "nutrition",
+        "cluster-sampling"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-035",
+      "title": "PMJAY Claims Data Analysis for Public Health Insight",
+      "prompt": "Act as a health economist with 8 years experience analysing Ayushman Bharat PMJAY claims data for policy insights. I need you to outline an analysis plan using PMJAY claims data to understand hospitalisation patterns for cardiovascular disease in a district of Telangana. Here is the context: the State Health Agency has 3 years of approved claims data with package codes, procedure type, and hospital tier. The Mission Director wants public health actionable insights beyond just volume counts. Please provide: (1) analytical questions covering incidence trends, hospital concentration, package mix, and equity by SECC category, (2) data preparation steps including deduplication of linked admissions, (3) three analytical outputs such as age-sex standardised hospitalisation rates, procedure mix index, and Herfindahl index of hospital concentration, (4) interpretation cautions about supply-induced demand and selection bias, (5) two specific preventive actions linked to findings such as HWC screening and drug supply at PHC. Format as an analytical plan with methods and expected outputs. Consider constraints: PMJAY claims data access rules, SECC targeting framework, respect for beneficiary confidentiality, and realistic SHA analytical capacity.",
+      "tags": [
+        "pmjay",
+        "claims-analysis",
+        "cardiovascular",
+        "health-economics",
+        "ayushman-bharat"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-036",
+      "title": "Diarrhoea Control Fortnight Campaign Messaging",
+      "prompt": "Act as an IEC specialist with 6 years experience running Intensified Diarrhoea Control Fortnights (IDCF) under Dastak and NHM. I need you to develop campaign messaging for IDCF in a district of Madhya Pradesh targeting under-5 children. Here is the context: the district has 1.9 lakh children under 5, ORS and zinc supply is assured, and the campaign runs for 14 days with ASHA household visits, AWC demonstrations, and mass media. The CMHO wants crisp messaging in Hindi. Please provide: (1) three core messages in Hindi with English backtranslation focused on when to start ORS, continued feeding, and danger signs, (2) a 30-second radio spot script, (3) a door hanger design brief with visual cues, (4) a WhatsApp message series of 5 notes for ASHA forwarded groups, (5) monitoring indicators for the fortnight. Format as a campaign package. Consider constraints: IDCF operational guidelines, avoid promoting home remedies that delay care, respect caregiver time, and align with Poshan Abhiyaan feeding messages.",
+      "tags": [
+        "idcf",
+        "diarrhoea",
+        "ors",
+        "iec-campaign",
+        "under-5"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-037",
+      "title": "Public Health Emergency Operations Centre SOP",
+      "prompt": "Act as an emergency preparedness adviser with 10 years experience supporting state and district Public Health Emergency Operations Centres (PHEOCs). I need you to draft a lean SOP for activating a district PHEOC in Kerala for a respiratory outbreak scenario. Here is the context: the district has prior EOC experience during Nipah and COVID-19, with an identified physical space, ICT infrastructure, and a trained core team from DSU, surveillance, and clinical units. The DMO wants a 10 page ready-to-use SOP. Please provide: (1) activation criteria with clear triggers from IDSP signals, (2) organisational structure with roles for incident commander, operations, planning, logistics, and finance adapted to district context, (3) daily battle rhythm with three meetings per day and reporting cadence to state and NCDC, (4) information products including sitrep template and rumour log, (5) deactivation criteria and after action review plan. Format as an SOP document with diagrams and tables. Consider constraints: NCDC PHEOC framework, Disaster Management Act 2005 linkages, state health secretary reporting lines, and avoid duplication with Collector-led EOC.",
+      "tags": [
+        "pheoc",
+        "emergency-operations",
+        "ncdc",
+        "sop",
+        "preparedness"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-038",
+      "title": "Chikungunya Risk Mapping Using GIS Data",
+      "prompt": "Act as a spatial epidemiologist with 7 years experience mapping vector-borne disease risk in urban Indian contexts. I need you to design a chikungunya risk mapping exercise for an urban local body in Bengaluru. Here is the context: the ULB has ward-level case data for three years, BBMP vector surveillance breteau indices, and population density from Census 2011 projected to 2024. The City Health Officer wants a simple, reproducible mapping approach without requiring paid GIS licenses. Please provide: (1) data requirements and preprocessing steps including ward boundary shapefiles from the ULB, (2) a composite risk index combining case rate, breteau index, and vulnerability factors with weights and justification, (3) a step-by-step QGIS workflow for visualisation, (4) a classified risk map layout with 5 risk bands, (5) interpretation note and action recommendations by risk band. Format as a technical methods note with steps. Consider constraints: NVBDCP guidelines, BBMP data sharing arrangements, open-source tools only, and ward-level administrative decisions by Health Officer.",
+      "tags": [
+        "chikungunya",
+        "gis",
+        "risk-mapping",
+        "nvbdcp",
+        "urban-health"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-039",
+      "title": "State Budget Memorandum for Public Health Laboratories",
+      "prompt": "Act as a health financing adviser with 9 years experience supporting state budget memoranda for health departments. I need you to draft a budget memorandum requesting enhanced allocation for district public health laboratories (DPHLs) in a state of northeast India. Here is the context: the state has 8 districts, currently 3 functional DPHLs under IPHL scheme with gaps in reagents, human resources, and biosafety. The Principal Secretary Health wants a 5-page memorandum for the Finance Department for the upcoming budget. Please provide: (1) an introduction linking lab capacity to IHR core capacities and IDSP needs, (2) a current status table showing DPHL functionality gaps, (3) a 3-year proposal with year-wise incremental funding for consumables, equipment, HR, and recurring costs in INR lakh, (4) expected outputs and outcomes in measurable terms, (5) a risk and assumption section. Format as a budget memorandum. Consider constraints: PM-ABHIM resource envelope, state finance department templates, NHM PIP cycle timing, and NCDC IPHL technical guidelines.",
+      "tags": [
+        "budget-memorandum",
+        "dphl",
+        "iphl",
+        "public-health-lab",
+        "pm-abhim"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    },
+    {
+      "id": "medical-public-health-040",
+      "title": "Community Based Assessment Checklist for NCD Risk",
+      "prompt": "Act as a non-communicable disease prevention specialist with 6 years experience rolling out the Community Based Assessment Checklist (CBAC) under Ayushman Bharat HWC. I need you to design a CBAC rollout plan for 210 HWCs in a district of Gujarat. Here is the context: CBAC has been partially implemented, with concerns around ASHA training quality, incomplete filling of risk score, and weak follow-up for high-risk individuals. The DPM wants a rollout plan to cover 5.8 lakh adults aged 30 plus over 6 months. Please provide: (1) a phased rollout plan with three waves of HWCs, (2) ASHA and CHO training content including role play on CBAC administration, (3) a data flow from paper to the NCD portal with quality check steps, (4) a follow-up algorithm for high-risk individuals including HWC review, referral to CHC, and PMJAY linkage where indicated, (5) a monthly supportive supervision checklist for block programme managers. Format as an operational rollout plan with tables. Consider constraints: Ayushman Bharat CBAC operational guidelines, NCD portal data fields, realistic ASHA workload, and language considerations in tribal blocks of the district.",
+      "tags": [
+        "cbac",
+        "ncd",
+        "hwc",
+        "ayushman-bharat",
+        "rollout-plan"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "public-health"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "category": "parenting",
+  "subcategory": "childcare-providers",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "parenting-childcare-providers-001",
+      "title": "Daily Activity Plan for Toddler Group",
+      "prompt": "Act as a Montessori-trained childcare lead at an Indian daycare (EuroKids / Kidzee scale). Plan a 6-hour daily activity schedule for 8 toddlers (2-3 yrs). Cover: (1) arrival circle, (2) free play, (3) structured activity (sensory + cognitive), (4) lunch + nap, (5) outdoor / motor play, (6) story time, (7) departure routine. Each block: time, materials, learning outcome, safety. Constraints: align with NEP 2020 ECCE; safety SOPs; food allergens flagged; bilingual.",
+      "category": "parenting",
+      "subcategory": "childcare-providers",
+      "tags": ["daycare", "toddler", "montessori", "ecce", "schedule"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true
+    },
+    {
+      "id": "parenting-childcare-providers-002",
+      "title": "Parent Daily Report Template",
+      "prompt": "Act as a Montessori daycare director. Build a daily-report WhatsApp template for parents covering: (1) meals (what + how much), (2) nap (duration + quality), (3) bowel + urine, (4) mood + behaviour, (5) social interaction, (6) learning highlight, (7) photos (1-2), (8) any concerns + next-day reminder. Cap at 80 words. Constraints: respect privacy (no other-child names); bilingual fallback; mobile-friendly; daily 5 PM IST.",
+      "category": "parenting",
+      "subcategory": "childcare-providers",
+      "tags": ["parent-report", "whatsapp", "daycare", "daily-update", "privacy"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true
+    },
+    {
+      "id": "parenting-childcare-providers-003",
+      "title": "Safety Protocol for Indoor Play",
+      "prompt": "Act as a child-safety auditor. Build indoor-play safety SOP for an 80-child daycare in Pune. Cover: (1) equipment safety (smooth edges, fall-protection, age-appropriate), (2) child-staff ratio (1:5 toddlers, 1:8 preschool), (3) hazard removal (cords, plug-points, sharp objects), (4) emergency drill (fire, earthquake), (5) first-aid kit + AED, (6) injury reporting to parents within 30 min, (7) medical liaison (paediatrician on-call), (8) staff training. Constraints: align with NCPCR + CBSE / Maharashtra ECCE norms; document for licensing; bilingual; CCTV with privacy.",
+      "category": "parenting",
+      "subcategory": "childcare-providers",
+      "tags": ["safety-sop", "ratios", "ncpcr", "first-aid", "pune"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "parenting-childcare-providers-004",
+      "title": "Curriculum Design (Preschool)",
+      "prompt": "Act as a curriculum designer for preschools. Build a 9-month preschool curriculum (Lower KG, age 3-4) aligned with NEP 2020 Balvatika + Indian context. Cover: (1) themes (My Family, Festivals, Animals, Plants, Transport, Community Helpers, Health, Environment, India), (2) per-theme learning outcomes (cognitive, language, social, motor, creative), (3) weekly activity plan, (4) bilingual exposure (English + Hindi / regional), (5) Indian story integration, (6) parent partnership. Constraints: align with NCERT preschool framework; play-based; Vasudhaiva Kutumbakam values; assessment portfolio-based.",
+      "category": "parenting",
+      "subcategory": "childcare-providers",
+      "tags": ["curriculum", "lower-kg", "balvatika", "ncert", "thematic"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "parenting-childcare-providers-005",
+      "title": "Developmental Assessment Report",
+      "prompt": "Act as an early-childhood educator. Write a quarterly developmental assessment report for a 4-yr-old child. Cover domains: (1) cognitive (problem-solving, pre-numeracy), (2) language (vocabulary, expression), (3) gross motor + fine motor, (4) social-emotional, (5) creative, (6) self-help. For each: observed behaviour + age-band benchmark + suggested next steps. Constraints: align with Indian ECCE framework; positive language; bilingual; family + teacher action plan.",
+      "category": "parenting",
+      "subcategory": "childcare-providers",
+      "tags": ["developmental-assessment", "ecce", "4-year-old", "quarterly", "report"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "parenting-childcare-providers-006",
+      "title": "Difficult Conversation with Parent",
+      "prompt": "Act as a daycare director. A child shows behaviour signs (aggression, regression). I need to discuss with parents respectfully. Build 25-min conversation script: (1) start with strengths (3 specific), (2) describe specific incidents factually (no labels), (3) explore home factors (recent changes, parents' stress), (4) propose collaborative steps (consistency, paediatrician check, school protocol), (5) follow-up cadence (2 weeks). Constraints: respect parent dignity; non-clinical language; cite developmental context; bilingual.",
+      "category": "parenting",
+      "subcategory": "childcare-providers",
+      "tags": ["parent-conversation", "behaviour", "daycare", "regression", "collaborative"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "parenting-childcare-providers-007",
+      "title": "Emergency Evacuation Plan",
+      "prompt": "Act as a safety officer for a 120-child preschool in a Mumbai high-rise. Build an emergency evacuation plan for fire + earthquake + medical emergency. Cover: (1) primary + secondary evacuation routes, (2) staff role (5 staff for 120 kids — 1 lead, 1 sweep, 3 batches), (3) head-count protocol, (4) parent communication (WhatsApp blast within 5 min), (5) assembly point, (6) drill cadence (monthly fire, half-yearly earthquake), (7) collaboration with society + fire dept, (8) medical emergency call (108). Constraints: align with NDMA + state DM rules + Mumbai BMC; mock drill records for licensing.",
+      "category": "parenting",
+      "subcategory": "childcare-providers",
+      "tags": ["evacuation", "fire-drill", "ndma", "mumbai", "preschool"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "parenting-childcare-providers-008",
+      "title": "Hiring Daycare Staff Interview",
+      "prompt": "Act as an HR head at a daycare chain. Build interview question set + evaluation rubric for hiring daycare teachers. Cover: (1) qualifications (NTT / B.Ed / Montessori cert), (2) experience (situational questions), (3) child-handling scenarios (tantrum, injury, parent complaint), (4) communication skills (mock interaction with kid), (5) safeguarding awareness (POCSO Act), (6) bilingual fluency, (7) emotional regulation. Provide 15 questions across 5 dimensions + 5-pt rubric. Constraints: police verification + medical fitness mandatory; reference check 2 sources; align with daycare licensing.",
+      "category": "parenting",
+      "subcategory": "childcare-providers",
+      "tags": ["hiring", "interview", "pocso", "daycare-staff", "rubric"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "parenting-childcare-providers-009",
+      "title": "Inclusive Activity for Special Needs Child",
+      "prompt": "Act as a special-education + daycare hybrid lead. Plan an inclusive activity for a daycare with a 4-yr-old autistic child + 12 neurotypical peers. Activity: 'Sensory Garden Walk'. Cover: (1) activity design with universal design principles, (2) modifications for the autistic child (visual schedule, noise-cancelling headphones option), (3) peer education (briefing without singling out), (4) staff support ratios, (5) sensory regulation backup, (6) success indicators, (7) parent communication. Constraints: align with RPwD Act 2016; respect dignity; avoid tokenism; positive peer integration.",
+      "category": "parenting",
+      "subcategory": "childcare-providers",
+      "tags": ["inclusive", "autism", "rpwd", "sensory", "udl"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "parenting-childcare-providers-010",
+      "title": "Parent Workshop Curriculum",
+      "prompt": "Act as a parent-engagement coordinator. Plan a 6-session monthly parent workshop series at a Bengaluru daycare. Topics: (1) Understanding 3-yr-old, (2) Discipline without Punishment, (3) Healthy Eating, (4) Screen-Time Boundaries, (5) Emotional Literacy, (6) School-Readiness. Each session: 90 min, 25 parents, format (talk + activity + Q&A), expert if needed, take-home handout. Constraints: bilingual; weekend Saturday morning; refreshments; parent-feedback; expert curated from IAP / NIMHANS / Mindler.",
+      "category": "parenting",
+      "subcategory": "childcare-providers",
+      "tags": ["parent-workshop", "engagement", "bengaluru", "iap", "curriculum"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "parenting-childcare-providers-011",
+      "title": "POCSO Act Awareness for Staff",
+      "prompt": "Act as a child-protection officer. Build a 90-min POCSO Act 2012 awareness training for daycare staff (15 employees). Cover: (1) overview + definitions, (2) mandatory reporting (Section 19), (3) Sec 21 penalties for non-reporting, (4) safe-touch / unsafe-touch teaching for kids, (5) recognising abuse signs, (6) child-friendly reporting + complaint to Special Juvenile Police Unit, (7) confidentiality, (8) staff conduct rules. Provide handout + quiz + signed code of conduct. Constraints: align with POCSO Rules + NCPCR; respect victim child; staff zero-tolerance.",
+      "category": "parenting",
+      "subcategory": "childcare-providers",
+      "tags": ["pocso", "child-protection", "ncpcr", "training", "mandatory-reporting"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "parenting-childcare-providers-012",
+      "title": "Daycare Regulatory Compliance Checklist",
+      "prompt": "Act as a daycare licensing consultant. Build compliance checklist for opening a daycare in Bengaluru (BBMP jurisdiction). Cover: (1) Maharashtra Children's Establishment Rules / state equivalent, (2) BBMP trade license, (3) fire NOC, (4) building OC + structural stability, (5) health + sanitation, (6) staff police verification + medical, (7) child:staff ratios per ECCE norms, (8) infrastructure (sqft / child, washroom, kitchen, sick room), (9) insurance (general + child accident), (10) GST + EPF + ESI. Constraints: align with NCPCR + state ECCE rules; INR fee schedule; renewal cycle.",
+      "category": "parenting",
+      "subcategory": "childcare-providers",
+      "tags": ["licensing", "bbmp", "ecce", "compliance", "fire-noc"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    }
+  ]
+}

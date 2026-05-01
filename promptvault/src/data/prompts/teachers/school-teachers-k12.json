@@ -1,0 +1,786 @@
+{
+  "category": "teachers",
+  "subcategory": "school-teachers-k12",
+  "prompts": [
+    {
+      "id": "teachers-school-teachers-k12-001",
+      "title": "CBSE Class 6 Math Lesson Plan — Fractions",
+      "prompt": "Act as a senior CBSE mathematics teacher with 12 years of experience teaching middle school in an English-medium school in Pune. I need you to design a detailed 40-minute lesson plan for Class 6 on \"Introduction to Fractions\" aligned with NCERT Chapter 7 and NEP 2020 competency-based learning outcomes. The class has 45 mixed-ability students, including 6 slow learners and 4 advanced learners. Please provide: (1) Learning objectives mapped to NCERT learning outcomes and Bloom's taxonomy levels, (2) Prerequisite check (3 minutes) with 2 quick recall questions, (3) Introduction hook using a real Indian context like dividing a roti or sharing mithai during Diwali, (4) Concept explanation with blackboard work, visual aids, and manipulatives available in Indian classrooms, (5) Guided practice with 4 graded examples, (6) Independent practice worksheet structure (6 questions, easy-to-hard), (7) Differentiation strategies for slow and advanced learners, (8) Formative assessment via exit ticket (3 questions), (9) Homework aligned to NCERT exercise, (10) Closure and link to next lesson on equivalent fractions. Format as a structured table with time stamps, teacher activity, student activity, and resources columns. Include at least 3 CCE-aligned assessment checkpoints and suggest one activity that can be done without printed materials for low-resource settings.",
+      "tags": [
+        "ncert",
+        "cbse",
+        "lesson-plan",
+        "class-6",
+        "fractions",
+        "bloom-taxonomy",
+        "nep-2020"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-002",
+      "title": "Positive Report Card Comments Generator",
+      "prompt": "Act as an experienced CBSE primary school class teacher with 15 years of experience writing report card remarks for Indian parents. I need you to generate 20 unique, positive-framed yet honest report card comments for Class 3 students at the end of Term 1. The comments must follow CCE guidelines and avoid generic phrases like \"good student\" or \"needs improvement\". Here is the context: the school follows NCERT curriculum, has a mix of English and Hindi medium parents, and the principal insists on specific behavioural and academic observations. Please provide comments covering these student profiles: (1) Academically strong and helpful, (2) Creative but inattentive, (3) Struggling with reading but improving, (4) Excellent in Hindi but weak in English, (5) Shy but participates in art, (6) Disruptive but sharp in math, (7) Regular absentee with potential, (8) Below grade level in writing, (9) Strong in oral communication, (10) Average across subjects. Each comment must be 35-55 words, mention one specific strength, one growth area framed positively, and one actionable suggestion for home support. Use simple English that Indian parents can understand. Avoid jargon. Format as a numbered list with the student profile label in bold, followed by the comment. Also give 3 tips on phrasing concerns respectfully so parents don't feel offended during PTM.",
+      "tags": [
+        "report-card",
+        "cce",
+        "cbse",
+        "class-3",
+        "parent-communication",
+        "comments"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-003",
+      "title": "Class 9 Science Worksheet — Motion",
+      "prompt": "Act as a CBSE Class 9 physics teacher with 10 years of experience in a Delhi school. I need you to create a printable, differentiated worksheet on \"Motion\" from NCERT Science Chapter 8, aligned with NEP 2020 competency framework. The class has 50 students with mixed ability levels. Please provide a worksheet with: (1) A header block with student name, roll number, class, section, date, (2) Section A: 5 MCQs on distance, displacement, speed, velocity, acceleration (1 mark each), (3) Section B: 5 very short answer questions definitions and formulas (2 marks each), (4) Section C: 4 numerical problems using Indian context — e.g., a Delhi Metro train, Mumbai local, auto-rickshaw from Connaught Place (3 marks each), (5) Section D: 2 graph-based questions with distance-time and velocity-time interpretation (4 marks each), (6) Section E: 1 HOTS challenge question for advanced learners (5 marks), (7) A \"Try this at home\" experiment using household items, (8) Answer key on a separate page. Include difficulty indicators with star symbols. Add a learning outcome statement at the top mapped to NCERT LOs. Format in clean printable layout with space for working. Total marks should be 30 and estimated completion time 45 minutes.",
+      "tags": [
+        "ncert",
+        "cbse",
+        "worksheet",
+        "class-9",
+        "physics",
+        "motion",
+        "differentiation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-004",
+      "title": "PTM Invitation Letter — Bilingual",
+      "prompt": "Act as the class teacher of Class 5-B in a CBSE school in Jaipur with 40 students. I need you to draft a warm, professional Parent-Teacher Meeting (PTM) invitation letter for the Term 1 assessment review. Here is the context: the PTM is on Saturday, 25 October, from 9:00 AM to 1:00 PM, parents will receive report cards, discuss academic progress, and hear about the upcoming Diwali break and winter activities. The school follows NEP 2020 competency-based assessment. Please provide: (1) School letterhead placeholder, (2) Subject line, (3) English version of the letter 150-180 words — polite greeting, purpose, date, time, venue room number, what to bring, token system for time slots, request punctuality, signature block, (4) Hindi translation of the same letter in simple Devanagari for Hindi-medium parents, (5) A tear-off acknowledgement slip at the bottom for parents to confirm attendance with child's name, parent name, mobile number, preferred time slot, (6) A short WhatsApp broadcast version 60-80 words for quick reminder two days before, (7) Tone guidance notes on cultural sensitivity. Format with clear sections and placeholders in square brackets. Ensure the letter reflects respect for Indian parents and encourages participation without sounding demanding.",
+      "tags": [
+        "ptm",
+        "parent-communication",
+        "bilingual",
+        "hindi",
+        "cbse",
+        "letter"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-005",
+      "title": "Classroom Seating Plan for 55 Students",
+      "prompt": "Act as an experienced ICSE middle school teacher with 14 years of classroom management expertise in a Bangalore school. I need you to design a strategic seating arrangement plan for a Class 7 classroom with 55 students. Here is the context: the room has 9 rows of benches, each bench seats 3 students, there is one blackboard, one smart board on the left wall, and windows on the right. The class has 4 students with vision issues, 3 hyperactive students, 6 slow learners, 2 students with hearing concerns, 5 top performers, and two pairs of friends who distract each other. Please provide: (1) A visual text-based diagram of the seating layout with student profile codes, (2) Rationale for each strategic placement, (3) Three rotation strategies to rotate seating every 3 weeks fairly, (4) Special considerations for group activities — how to quickly reconfigure into 4-person pods, (5) A buddy system mapping pairing strong with weak students, (6) Rules for seat changes and consequences, (7) How to handle requests from parents for front-row seats politely, (8) A quarterly review checklist. Format as a structured document with diagram, tables, and bullet points. Include tips on managing a 55-student classroom in typical Indian conditions with limited space and noise from adjacent classrooms.",
+      "tags": [
+        "classroom-management",
+        "seating-plan",
+        "icse",
+        "class-7",
+        "differentiation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-006",
+      "title": "Class 1 Hindi Lesson Plan — Varnamala",
+      "prompt": "Act as a pre-primary and primary Hindi teacher with 8 years of experience in a Maharashtra State Board school where the medium of instruction is Marathi and English. I need you to create a 35-minute lesson plan for Class 1 introducing Hindi Varnamala (swar — vowels) from NCERT Rimjhim textbook. The class has 38 students aged 6, most of whom are new to Hindi script. Please provide: (1) Learning objectives in behavioural terms aligned with NEP 2020 foundational literacy goals, (2) Materials needed — flashcards, chalk, slate, song audio, (3) Warm-up 5 minutes using a Hindi rhyme or action song, (4) Introduction of 4 swar — अ आ इ ई — with pronunciation drill, tracing in air, on slate, (5) Visual association using Indian objects — अ for अनार, आ for आम, इ for इमली, ई for ईख, (6) Group chanting and peer practice, (7) Worksheet activity — tracing and matching letters to pictures, (8) Assessment through oral recall and one-to-one check, (9) Closure with a goodbye rhyme, (10) Homework — trace letters in notebook with parent support note. Format as a time-stamped table. Include tips for students who speak Marathi or Tamil at home and find Hindi unfamiliar, and suggestions for multisensory learning suited to Indian classroom resources.",
+      "tags": [
+        "ncert",
+        "hindi",
+        "lesson-plan",
+        "class-1",
+        "varnamala",
+        "foundational-literacy",
+        "nep-2020"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-007",
+      "title": "Parent Concern Email — Academic Decline",
+      "prompt": "Act as a Class 8 CBSE class teacher in Chennai with 11 years of experience. I need you to draft a sensitive, professional email to the parents of a student whose academic performance has dropped significantly in the last two months. Here is the context: the student Aarav used to score 85%+ in all subjects, but recent unit tests show scores around 55-60%, he seems withdrawn, misses homework frequently, and has had 6 absences. You suspect something at home or emotional distress but don't want to accuse. Please provide: (1) A clear subject line that is neutral and non-alarming, (2) Email opening with warm greeting acknowledging their involvement, (3) Specific observations with data — test scores, attendance, behavioural changes — stated factually without judgement, (4) A collaborative tone requesting their perspective, (5) Request for a face-to-face meeting with 3 suggested time slots, (6) Assurance of confidentiality and support, (7) Closing with teacher contact details and availability, (8) Hindi-translated version of key paragraphs for parents who prefer Hindi. The email should be 220-280 words, warm but professional, and culturally appropriate for Indian parents who may feel defensive. Also provide 5 phrases to avoid and 5 phrases to use. Format as a complete ready-to-send email draft.",
+      "tags": [
+        "parent-communication",
+        "email",
+        "concern",
+        "cbse",
+        "class-8",
+        "sensitive"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-008",
+      "title": "Class 10 English Literature Lesson — Poem",
+      "prompt": "Act as a CBSE Class 10 English literature teacher with 15 years of experience in a Lucknow school. I need you to create a 45-minute lesson plan for the poem \"The Ball Poem\" by John Berryman from NCERT First Flight textbook. The class has 42 students with mixed English proficiency, some from Hindi-medium backgrounds struggling with literary language. Please provide: (1) Learning objectives covering comprehension, literary devices, and personal response, (2) Anticipatory set — 3 minutes connecting to a personal loss students have experienced, (3) First reading by teacher with expression, (4) Vocabulary glossary of 8 difficult words with Hindi meanings and examples, (5) Second reading paragraph-wise with guided questions, (6) Analysis of literary devices — symbolism, metaphor, epiphany — with examples, (7) Discussion questions 5 at different Bloom's levels, (8) Think-pair-share activity on the theme of \"learning to grow up\", (9) Written task — a 100-word reflection, (10) Board work plan and key points, (11) Homework — NCERT textbook questions plus one creative task, (12) Assessment rubric for the reflection. Format as a structured lesson plan with timings, teacher talk, student activity, and resources. Include tips for explaining Western cultural context to Indian students and linking the poem to Indian values of attachment and detachment.",
+      "tags": [
+        "ncert",
+        "cbse",
+        "lesson-plan",
+        "class-10",
+        "english",
+        "poetry",
+        "literature"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-009",
+      "title": "Diwali-Themed Integrated Activity Week",
+      "prompt": "Act as a primary school coordinator with 12 years of experience in CBSE schools across North India. I need you to design a 5-day integrated activity week for Classes 3-5 themed around Diwali, aligned with NEP 2020 experiential learning and NCF guidelines. The activities must integrate math, science, English, Hindi, SST, art, and values education. Each day should have 2 activities of 40 minutes each. Please provide: (1) Theme and learning outcomes for the week, (2) Day 1 — History and significance of Diwali SST, diya decoration art, (3) Day 2 — Rangoli geometry math, story writing English, (4) Day 3 — Science of fireworks chemistry simplified, Hindi poem recitation, (5) Day 4 — Market math pretend shopping with INR, values education on sharing with less fortunate, (6) Day 5 — Diwali card making English letter writing, culmination assembly, (7) Materials list with low-cost Indian resources, (8) Assessment rubric for participation and outcome, (9) Safety guidelines especially on fire and crackers, (10) Parent involvement suggestions, (11) A take-home family activity. Format as a day-wise table plus supporting notes. Emphasise inclusivity so non-Hindu children feel respected, and connect activities to Indian festivals like Kali Puja, Bandi Chhor Divas for holistic understanding.",
+      "tags": [
+        "festival",
+        "diwali",
+        "activity",
+        "integrated-learning",
+        "nep-2020",
+        "ncf"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-010",
+      "title": "Class 4 EVS Worksheet — Water Cycle",
+      "prompt": "Act as a Class 4 EVS teacher with 9 years of experience in a Karnataka State Board school. I need you to create a printable, differentiated worksheet on the water cycle aligned with NCERT Looking Around Chapter on water. The class has 48 students including 8 slow learners and 5 advanced learners. Please provide: (1) Header with student details, (2) Section A — label the diagram of the water cycle with 6 blanks, (3) Section B — fill in the blanks 5 questions on evaporation, condensation, precipitation, (4) Section C — match the following, 5 pairs linking processes to examples like a puddle drying up in Bengaluru summer, (5) Section D — short answers 3 questions connecting to local rivers Cauvery, groundwater, monsoons, (6) Section E — draw and colour the water cycle with labels, (7) Bonus HOTS question on water conservation at home with 3 actions, (8) A \"Did you know\" fact box about India's monsoon, (9) Answer key. Add Kannada translations for key terms for regional language support. Include a home activity to measure water usage at home. Format as a clean A4 printable with clear fonts, space for writing, and visual appeal. Total time estimated 35 minutes, total marks 25. Include a star rating self-assessment section.",
+      "tags": [
+        "ncert",
+        "evs",
+        "worksheet",
+        "class-4",
+        "water-cycle",
+        "karnataka",
+        "differentiation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-011",
+      "title": "WhatsApp Broadcast Messages for Parents",
+      "prompt": "Act as a Class 2 teacher in a Tamil Nadu CBSE school with 7 years of experience managing a WhatsApp broadcast group of 40 parents. I need you to draft 10 ready-to-send WhatsApp broadcast messages covering common communication scenarios for a full term. Please provide messages for: (1) Weekly homework reminder, (2) Unit test schedule announcement, (3) PTM date and token system, (4) Holiday notice Pongal, (5) Field trip permission request, (6) Uniform and grooming reminder, (7) Fee reminder gentle tone, (8) Request for stationery kit donation for needy children, (9) Birthday celebration guidelines in class, (10) Emergency early closure due to heavy rain. Each message should be 50-90 words, warm, clear, use appropriate emojis sparingly, include key details date, time, action required, and end with teacher name. Include a mix of English and Tanglish for parents who prefer it. Add one Hindi version for Hindi-speaking families. Also provide: (a) 5 do's and don'ts for teacher WhatsApp etiquette, (b) Best times to send messages, (c) How to handle late replies or complaints professionally. Format as numbered messages with a clear label above each. Ensure cultural sensitivity and respect for parents' time.",
+      "tags": [
+        "whatsapp",
+        "parent-communication",
+        "broadcast",
+        "tamil-nadu",
+        "class-2"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-012",
+      "title": "Class 12 Biology Lesson — Genetics",
+      "prompt": "Act as a CBSE Class 12 biology teacher with 18 years of experience preparing students for board exams and NEET in a Kota school. I need you to design a 50-minute lesson plan on \"Principles of Inheritance — Mendel's Laws\" from NCERT Chapter 5. The class has 60 students aspiring for medical entrance exams. Please provide: (1) Learning objectives mapped to NCERT and NEET syllabus, (2) Quick recap 5 minutes of meiosis with 3 questions, (3) Introduction to Mendel with historical context and Indian scientists who contributed to genetics, (4) Monohybrid cross explanation with Punnett square on board, (5) Worked example with clear steps, (6) Law of segregation derivation, (7) Common misconceptions addressed, (8) NEET-style MCQ practice 5 questions with explanations, (9) Board exam long-answer practice 1 question, (10) Summary mind map, (11) Homework including NCERT exemplar problems, (12) Next lesson teaser on dihybrid cross. Format with timings, objectives, activities, and formative assessment checkpoints. Include tips on managing competitive exam pressure while covering board syllabus, and suggest 3 Indian online resources or apps for revision. Also add a differentiation note for students weak in basic biology.",
+      "tags": [
+        "ncert",
+        "cbse",
+        "lesson-plan",
+        "class-12",
+        "biology",
+        "genetics",
+        "neet"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-013",
+      "title": "Honest Report Comments for Struggling Students",
+      "prompt": "Act as a Class 6 class teacher with 13 years of CBSE experience writing report cards for students who are academically below grade level. I need you to generate 15 honest yet compassionate report card comments for struggling students that convey concern without crushing self-esteem, following CCE and NEP 2020 guidelines. Here is the context: Indian parents tend to react strongly to negative comments and may punish children, so language must be balanced, constructive, and solution-oriented. Please provide comments for these situations: (1) Below grade level in reading, (2) Struggles with basic math operations, (3) Poor handwriting affecting scores, (4) Inconsistent effort, (5) Frequent absences causing gaps, (6) Shy and doesn't ask doubts, (7) Easily distracted during class, (8) Does not complete homework, (9) Weak in English writing, (10) Struggling with concept understanding, (11) Copies work from peers, (12) Below average in oral participation, (13) Needs help organising notebooks, (14) Low confidence affecting performance, (15) Requires consistent parent support. Each comment must be 40-60 words, acknowledge one genuine strength, state the concern factually, and suggest one specific home action. Format as a numbered list. Also provide: (a) Phrases to avoid that hurt, (b) Positive framing alternatives, (c) Tips on delivering these during PTM.",
+      "tags": [
+        "report-card",
+        "cce",
+        "struggling-students",
+        "comments",
+        "parent-communication",
+        "sensitive"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-014",
+      "title": "Group Project Design — Class 7 SST",
+      "prompt": "Act as a CBSE Class 7 Social Science teacher with 10 years of experience designing project-based learning activities in a Mumbai school. I need you to design a 3-week group project on \"Our Local Community and Government\" aligned with NCERT Social and Political Life textbook and NEP 2020 experiential learning. The class has 48 students to be divided into 8 groups of 6. Please provide: (1) Project objectives and learning outcomes, (2) Driving question to spark curiosity, (3) Group formation strategy mixing abilities and gender, (4) Role assignments within each group leader, researcher, designer, presenter, data collector, documenter, (5) Week-wise breakdown of tasks — Week 1 research on ward, municipal corporation, elected representatives, Week 2 field visit or interviews with local officials, Week 3 presentation preparation, (6) Required deliverables — report, chart, role play, digital presentation, (7) Rubric for assessment 25 marks covering content, teamwork, creativity, presentation, (8) Timeline with check-in dates, (9) Safety and parent consent for field visits, (10) Reflection questions for students, (11) How to handle free-riders and conflicts, (12) Extension activity. Format as a complete project handbook. Use Mumbai local government context BMC, ward committees and real examples to make it relevant.",
+      "tags": [
+        "project-based-learning",
+        "sst",
+        "ncert",
+        "class-7",
+        "mumbai",
+        "nep-2020",
+        "group-work"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-015",
+      "title": "Attention Management Techniques",
+      "prompt": "Act as a veteran primary school teacher with 20 years of experience managing attention in large Indian classrooms. I need you to compile a practical handbook of 15 attention management techniques suitable for Classes 1-5 in CBSE and State Board schools with 40-55 students per class. Here is the context: Indian classrooms often have limited tech, noisy environments, and diverse learners, so techniques must be low-cost and proven. Please provide: (1) 5 attention-grabbing signals — call-and-response, clapping patterns, bell, song cues, silent signals, (2) 5 attention-sustaining strategies — brain breaks, movement activities, partner turns, questioning technique, visual aids, (3) 5 attention-refocusing tactics for when the class gets restless — proximity control, change of tone, mini quiz, stretch break, mindfulness minute, (4) For each technique describe — name, when to use, how to implement step by step, expected outcome, common mistakes, (5) A daily attention routine schedule suggestion, (6) Tips for teachers with hoarse throats or low energy, (7) Cultural adaptations for Indian contexts, (8) 3 techniques that work even with 60 students, (9) How to measure attention improvement over a month. Format as a structured handbook with numbered techniques, bullet steps, and a quick-reference cheat sheet at the end. Keep language practical and teacher-friendly.",
+      "tags": [
+        "classroom-management",
+        "attention",
+        "primary",
+        "techniques",
+        "low-resource"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-016",
+      "title": "Class 5 Math Worksheet — Decimals",
+      "prompt": "Act as a Class 5 CBSE math teacher with 8 years of experience in a Delhi school. I need you to create a differentiated printable worksheet on decimals aligned with NCERT Math Magic Chapter 10. The class has 44 students with mixed abilities. Please provide: (1) Header block with name, roll, date, (2) Concept box briefly explaining decimals with a place value chart, (3) Level 1 — basic 5 questions identifying and writing decimals, (4) Level 2 — intermediate 5 questions on addition and subtraction of decimals, (5) Level 3 — advanced 4 word problems using INR and Indian context — buying vegetables at a Delhi mandi, petrol prices, mobile recharge, (6) Bonus challenge — 1 HOTS question comparing decimal and fraction equivalents, (7) Mental math section 5 quick questions, (8) Self-assessment smiley rating, (9) Space for teacher remark, (10) Answer key on a separate sheet. Include visual aids — number line, place value chart. Use Indian names like Ravi, Priya, Fatima in word problems. Ensure the worksheet is A4 print-ready with appropriate font size and spacing. Total marks 25, estimated time 40 minutes. Include a parent note at the bottom with one tip on reinforcing decimals at home while grocery shopping.",
+      "tags": [
+        "ncert",
+        "cbse",
+        "worksheet",
+        "class-5",
+        "math",
+        "decimals",
+        "differentiation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-017",
+      "title": "Behaviour Intervention Plan — Disruptive Student",
+      "prompt": "Act as a school counsellor cum senior teacher with 16 years of experience handling challenging student behaviour in Indian schools. I need you to create a 4-week behaviour intervention plan for a Class 6 student who is frequently disruptive, talks back, distracts peers, and has refused to do classwork. Here is the context: the student Rohan scored well last year but his parents are going through a divorce, he is an only child, and has started acting out. The class has 50 students, the CBSE school follows NEP 2020 and prioritises inclusive education. Please provide: (1) Assessment of possible underlying causes, (2) SMART goals for behaviour improvement, (3) Week 1 — rapport building, private check-ins, seat change, (4) Week 2 — positive reinforcement system with daily report card, (5) Week 3 — peer buddy and structured classroom tasks, (6) Week 4 — review, parent meeting, long-term plan, (7) Daily behaviour tracking template, (8) Teacher scripts for common situations — talking back, refusing work, disrupting others, (9) When to escalate to principal or counsellor, (10) Parent communication strategy sensitive to the divorce situation, (11) Do's and don'ts for the teacher, (12) Self-care reminder for the teacher. Format as a complete intervention toolkit. Emphasise empathy and avoid punitive language, following NEP 2020 inclusive guidelines.",
+      "tags": [
+        "classroom-management",
+        "behaviour-intervention",
+        "inclusive-education",
+        "nep-2020",
+        "counselling"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-018",
+      "title": "Class 3 English Lesson — Story Comprehension",
+      "prompt": "Act as a Class 3 English teacher with 9 years of experience in a Hyderabad CBSE school. I need you to create a 40-minute lesson plan for a story comprehension lesson using an NCERT Marigold textbook story. The class has 42 students including 12 whose mother tongue is Telugu and who find English challenging. Please provide: (1) Learning objectives for reading, vocabulary, comprehension, and speaking, (2) Pre-reading activity — picture walk and predictions 5 minutes, (3) Vocabulary pre-teaching — 8 new words with actions, pictures, Telugu/Hindi meanings, (4) Teacher read-aloud with expression 7 minutes, (5) Choral reading 3 minutes, (6) Comprehension check with 5 questions at different levels literal, inferential, evaluative, (7) Partner reading activity 5 minutes, (8) Creative response — draw your favourite scene and write one sentence, (9) Closure — story moral discussion, (10) Homework — read at home and tell parents, (11) Formative assessment via exit ticket. Include differentiation strategies for English Language Learners and early finishers. Add 3 games for vocabulary reinforcement. Format as a structured lesson plan with clear timings. Emphasise oral language development before writing, aligning with NEP 2020 foundational literacy priorities.",
+      "tags": [
+        "ncert",
+        "cbse",
+        "lesson-plan",
+        "class-3",
+        "english",
+        "comprehension",
+        "ell"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-019",
+      "title": "Differentiated Worksheet — Class 8 History",
+      "prompt": "Act as a Class 8 Social Science teacher with 11 years of experience teaching in a Kolkata ICSE school. I need you to create a differentiated worksheet on \"The Revolt of 1857\" aligned with NCERT Our Pasts 3 textbook. The class has 46 students with varied reading levels. Please provide: (1) Header and learning objectives, (2) Tier 1 basic level — 5 MCQs on key dates, leaders Mangal Pandey, Rani Lakshmibai, Nana Saheb, places, (3) Tier 2 intermediate — 4 short answer questions 3 marks each on causes, events, immediate outcomes, (4) Tier 3 advanced — 2 long answer questions 5 marks analysing why the revolt failed and its legacy, (5) Source-based question — a primary source excerpt with 3 interpretation questions, (6) Map work — mark 5 key locations on a blank India map, (7) Timeline activity — arrange 8 events in correct order, (8) HOTS question — compare 1857 with another freedom movement, (9) Reflection box — write 3 sentences on what impressed you, (10) Answer key. Include historical images references, Bengali translations for key terms for regional support. Format as an A4 printable, total 35 marks, estimated time 50 minutes. Ensure accuracy with NCERT content and avoid biased language.",
+      "tags": [
+        "ncert",
+        "icse",
+        "worksheet",
+        "class-8",
+        "history",
+        "1857",
+        "differentiation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-020",
+      "title": "Republic Day Classroom Activity",
+      "prompt": "Act as an upper primary teacher with 10 years of experience organising patriotic celebrations in Indian schools. I need you to design a 60-minute classroom activity for Class 4 students to commemorate Republic Day 26 January meaningfully beyond flag hoisting. The class has 40 students in a CBSE school. Please provide: (1) Activity objectives linking to constitutional values, fundamental rights, duties, (2) Opening — 5 minute story on the making of the Constitution and Dr B R Ambedkar, (3) Activity 1 — my rights and duties 15 minutes — students list 3 rights and 3 duties on a worksheet, (4) Activity 2 — flag craft 15 minutes using paper, crayons, sticks, (5) Activity 3 — poster making in pairs 15 minutes with slogans on unity in diversity, (6) Closure 10 minutes — students share posters, sing national anthem, take a pledge, (7) Discussion questions on what India means to you, (8) Material list with low-cost Indian resources, (9) Values reinforced — equality, justice, fraternity, (10) Follow-up homework — interview one elder about what Republic Day means to them. Format as a time-stamped lesson plan. Include safety tips, inclusive language for all religions and communities, and a simple pledge script for children. Make it engaging, age-appropriate, and patriotic without jingoism.",
+      "tags": [
+        "republic-day",
+        "activity",
+        "class-4",
+        "constitution",
+        "values-education",
+        "festival"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-021",
+      "title": "Class 11 Chemistry Lesson — Mole Concept",
+      "prompt": "Act as a CBSE Class 11 chemistry teacher with 14 years of experience teaching in a Chandigarh senior secondary school. I need you to design a 50-minute lesson on the mole concept aligned with NCERT Chapter 1 Some Basic Concepts of Chemistry. The class has 52 students, many aiming for JEE and NEET. Please provide: (1) Learning objectives linked to NCERT and entrance exam syllabus, (2) Pre-test 3 minute with 2 questions on atomic mass and Avogadro's number, (3) Conceptual introduction using a relatable Indian example — counting grains of rice in a kilo, (4) Formal definition of mole, Avogadro's number, molar mass, (5) Board work with 3 worked examples — converting grams to moles, moles to particles, volume of gas at STP, (6) Common misconceptions and clarifications, (7) Guided practice — 4 problems with graduated difficulty, (8) JEE-style problem 1 advanced question, (9) Quick MCQ exit ticket 3 questions, (10) Homework from NCERT plus 2 exemplar problems, (11) Preview of next lesson on stoichiometry. Format with timestamps, teacher activity, student activity, and learning outcomes. Include board diagrams description, tips for students weak in math, and 3 mnemonic devices to remember key numbers. Emphasise conceptual clarity over rote learning per NEP 2020.",
+      "tags": [
+        "ncert",
+        "cbse",
+        "lesson-plan",
+        "class-11",
+        "chemistry",
+        "mole-concept",
+        "jee-neet"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-022",
+      "title": "Parent-Teacher Conference Talking Points",
+      "prompt": "Act as an experienced CBSE class teacher with 12 years of PTM experience handling diverse Indian parents. I need you to prepare a structured talking points document for a 10-minute one-on-one parent-teacher conference for a Class 5 student. Here is the context: each PTM slot is strict 10 minutes, parents range from highly educated professionals to first-generation learners, and the teacher must cover academics, behaviour, and home support in that short window. Please provide a reusable framework with: (1) Opening 1 minute — warm greeting, thank them for coming, (2) Student's academic profile 3 minutes — subject-wise performance with specific examples, 2 strengths, 2 growth areas, (3) Behaviour and social development 2 minutes — participation, peer relations, classroom conduct, (4) Specific home support suggestions 2 minutes — 3 actionable tips parents can implement, (5) Parent questions and concerns 1 minute, (6) Closing 1 minute — agreement on next steps, thank them. Include: (a) 10 powerful phrases to use, (b) 10 phrases to avoid, (c) How to handle a defensive parent, (d) How to handle an overly pushy parent, (e) How to gently decline unreasonable demands, (f) What to do if time runs out. Format as a ready-to-use PTM prep template. Include bilingual Hindi-English phrases for mixed-language settings.",
+      "tags": [
+        "ptm",
+        "parent-communication",
+        "talking-points",
+        "class-5",
+        "framework"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-023",
+      "title": "Class 2 Math Activity — Addition Games",
+      "prompt": "Act as a Class 2 math teacher with 7 years of experience in a CBSE school in Indore. I need you to design 5 engaging addition games for Class 2 students aligned with NCERT Math Magic 2 and NEP 2020 play-based learning. The class has 45 young students aged 7 who learn best through movement and play. Please provide: (1) Game 1 — Market shopping role play with toy INR notes, steps, materials, learning outcomes, (2) Game 2 — Bean bag toss with numbers on a grid, (3) Game 3 — Dice racing where students add two dice and move forward, (4) Game 4 — Story problem charades with Indian context like sharing mangoes or counting marigolds for a puja, (5) Game 5 — Card matching addition pairs. For each game provide: name, objective, materials low-cost Indian resources, setup, rules, how to play, differentiation for slow and fast learners, assessment through observation, time required. Include classroom management tips to keep 45 seven-year-olds engaged, safety precautions, cultural inclusivity, and a rotation schedule so all students play all games in a week. Also add a brief parent note in Hindi encouraging home games like counting while shelling peas. Format as a structured activity guide with clear steps and a materials checklist.",
+      "tags": [
+        "ncert",
+        "cbse",
+        "class-2",
+        "math",
+        "addition",
+        "games",
+        "nep-2020",
+        "play-based"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-024",
+      "title": "Board Exam Revision Plan — Class 10",
+      "prompt": "Act as a CBSE Class 10 class teacher with 15 years of experience guiding students through board exams in a Ghaziabad school. I need you to create a 30-day intensive revision plan for Class 10 students preparing for board exams starting 15 February. The class has 55 students with varied academic levels. Please provide: (1) Week 1 — subject-wise concept revision day plan covering English, Hindi, Math, Science, SST, (2) Week 2 — NCERT exemplar and past year questions practice, (3) Week 3 — mock tests and error analysis, (4) Week 4 — focused weak areas and self-study, (5) Daily schedule template — 6 hours of study split into subjects with breaks, (6) Subject-specific revision strategies for each of the 5 core subjects, (7) List of 3 recommended NCERT and 2 reference materials per subject, (8) Stress management tips — sleep, nutrition, exercise, (9) Parent support guidelines, (10) Exam day strategy — reaching on time, handling nerves, time management in paper, (11) How teachers will support — doubt sessions, practice tests, (12) Warning signs of burnout and how to address. Format as a structured 30-day calendar with daily tasks. Include Indian context — handling pressure from tuition, coaching, family expectations, and cultural factors. Emphasise well-being alongside academics per NEP 2020.",
+      "tags": [
+        "board-exam",
+        "class-10",
+        "revision",
+        "cbse",
+        "ncert",
+        "nep-2020",
+        "planner"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-025",
+      "title": "Inclusive Classroom Strategy — Special Needs",
+      "prompt": "Act as an inclusive education specialist with 18 years of experience in Indian mainstream schools. I need you to create a practical inclusive classroom strategy for a Class 4 teacher whose class has 42 students including 1 child with mild autism, 1 child with dyslexia, 1 child with ADHD, and 2 slow learners. The school follows CBSE, NEP 2020 inclusive education guidelines, and RPWD Act 2016. Please provide: (1) Brief overview of each condition and common classroom manifestations, (2) Universal Design for Learning principles adapted for Indian contexts, (3) Specific accommodations for each child — seating, instruction, assessment, peer support, (4) 5 teaching strategies that benefit all learners — visual schedules, chunking, multisensory instruction, cooperative learning, choice boards, (5) How to handle meltdowns or shutdowns quietly and respectfully, (6) Parent partnership approach including sensitive communication, (7) Buddy system design, (8) Classroom culture — how to teach peers about differences without singling out any child, (9) Assessment modifications allowed under CBSE for CWSN, (10) When to involve special educator or counsellor, (11) Teacher self-care tips, (12) Resources — NCERT inclusive education materials, helpful Indian NGOs. Format as a practical handbook with clear sections. Emphasise dignity, inclusion, and zero-labelling language. Avoid medical jargon.",
+      "tags": [
+        "inclusive-education",
+        "special-needs",
+        "cbse",
+        "nep-2020",
+        "rpwd",
+        "class-4"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-026",
+      "title": "Class 6 English Grammar Worksheet",
+      "prompt": "Act as a Class 6 English grammar teacher with 8 years of experience in a Gujarat State Board school. I need you to create a printable grammar worksheet on tenses present simple, present continuous, and simple past aligned with NCERT Honeysuckle textbook. The class has 48 students including many from Gujarati-medium backgrounds who find English tenses confusing. Please provide: (1) Header with name, date, (2) Concept recap box — brief table of 3 tenses with structure and examples, (3) Part A — identify the tense 6 sentences, (4) Part B — fill in the blanks with correct verb form 8 sentences in Indian contexts, (5) Part C — error correction 5 sentences with common Indian-English mistakes, (6) Part D — rewrite the paragraph changing tense 1 paragraph of 5 sentences about a day at the Ahmedabad market, (7) Part E — creative writing 3-sentence response about your last Navratri using all three tenses, (8) Grammar tip box, (9) Self-check section, (10) Answer key. Include examples using Indian names and settings. Keep language accessible. Total marks 25, estimated time 40 minutes. Format as a clean printable A4 with clear spacing. Add a short note for teachers on common Gujarati-to-English translation errors and how to address them.",
+      "tags": [
+        "ncert",
+        "worksheet",
+        "class-6",
+        "english",
+        "grammar",
+        "tenses",
+        "gujarat"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-027",
+      "title": "Competency-Based Assessment Rubric",
+      "prompt": "Act as an assessment expert and teacher trainer with 17 years of experience in NEP 2020 implementation. I need you to create a competency-based assessment rubric for a Class 7 Science project on \"Sources of Energy\" aligned with NCF and NEP 2020. The project will be done in groups of 5 over 2 weeks, involving research, a model, and a presentation. Please provide: (1) Competencies being assessed — scientific inquiry, conceptual understanding, collaboration, communication, creativity, (2) A detailed rubric with 5 levels — beginning 1, developing 2, proficient 3, advanced 4, expert 5 — across 6 criteria, (3) Criterion 1 — research depth and source quality, (4) Criterion 2 — conceptual accuracy and NCERT alignment, (5) Criterion 3 — model design, functionality, creativity, (6) Criterion 4 — oral presentation clarity, confidence, (7) Criterion 5 — teamwork and individual contribution, (8) Criterion 6 — sustainability and Indian relevance, (9) Total 30 marks with weightages, (10) Self-assessment and peer-assessment version, (11) Feedback template for teacher comments, (12) How to convert rubric scores to report card grades. Format as a clean printable rubric with descriptors in each cell. Include guidance notes for teachers on avoiding bias and ensuring fairness in group assessments.",
+      "tags": [
+        "assessment",
+        "rubric",
+        "nep-2020",
+        "ncf",
+        "competency-based",
+        "science",
+        "class-7"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-028",
+      "title": "Class 1 Circle Time Morning Routine",
+      "prompt": "Act as a pre-primary and Class 1 teacher with 9 years of experience in a Bengaluru CBSE school. I need you to design a structured 20-minute morning circle time routine for a Class 1 class of 36 students to start the school day calmly and joyfully. The routine should align with NEP 2020 foundational stage guidelines and NCF-FS 2022. Please provide: (1) Warm welcome and greeting song 2 minutes with actions, (2) Attendance with a twist — each child says \"present\" with a mood word or emoji feeling 3 minutes, (3) Calendar activity 2 minutes — day, date, weather in English and Hindi, (4) News sharing 3 minutes — 2 children share one thing from home, (5) Story or read-aloud 5 minutes — a short picture book, (6) Movement song 2 minutes — a Hindi or English action song, (7) Day's preview 2 minutes — what we will learn today, (8) Intention setting 1 minute — today I will be kind, (9) A daily gratitude moment. Include songs suitable for Indian classrooms, how to handle a cranky morning, inclusivity for non-English speakers, and a weekly rotation so all children get chances to share. Provide 5 song ideas with lyrics. Format as a time-stamped routine with teacher scripts. Emphasise emotional wellbeing and belonging per NEP 2020 SEL priorities.",
+      "tags": [
+        "circle-time",
+        "class-1",
+        "ncf-fs",
+        "nep-2020",
+        "foundational-stage",
+        "routine",
+        "sel"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-029",
+      "title": "Annual Lesson Plan — Class 8 Math",
+      "prompt": "Act as a Class 8 math teacher with 13 years of experience in a CBSE school in Bhopal. I need you to create a year-long lesson plan for Class 8 Mathematics aligned with NCERT textbook and CBSE academic calendar. The academic year runs from April to March with approximately 180 working days. Please provide: (1) Chapter-wise distribution across 10 months, (2) Estimated periods per chapter with justification, (3) Term 1 plan — April to September — chapters, assessments, projects, (4) Term 2 plan — October to March — chapters, assessments, projects, (5) Unit test schedule 4 unit tests, (6) Half-yearly and annual exam timelines, (7) Integration of lab activities and math games, (8) Cross-curricular links with science and SST, (9) Real-life application projects — e.g., household budgeting with INR, Indian census data analysis, (10) Remedial and enrichment weeks, (11) Buffer days for revision and unexpected disruptions like monsoon holidays, festivals, (12) CCE formative assessment plan, (13) Resources needed and procurement list. Format as a structured annual planner with monthly tables. Account for major Indian holidays Diwali, Dussehra, Republic Day, Holi, Eid, and ensure syllabus is completed 3 weeks before final exams for revision.",
+      "tags": [
+        "annual-plan",
+        "ncert",
+        "cbse",
+        "class-8",
+        "math",
+        "lesson-plan",
+        "calendar"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-030",
+      "title": "Mid-Term Progress Letter to Parents",
+      "prompt": "Act as a Class 7 class teacher with 10 years of experience writing progress letters for Indian parents in a CBSE school. I need you to draft a comprehensive mid-term progress letter template that teachers can personalise for each student. The letter goes out halfway through Term 1 before the unit test results. Please provide: (1) Header with school details, date, student name field, (2) Opening paragraph — warm greeting, purpose of letter, appreciation for parent partnership, (3) Academic update section — space for subject-wise observations 6 subjects with prompts for teachers, (4) Behaviour and social development section — prompts on participation, respect, peer relations, (5) Strengths section — space for 2 specific strengths, (6) Areas for growth — space for 2 growth areas framed positively, (7) Home support suggestions — 3 concrete actions parents can take, (8) Upcoming important dates — unit test, PTM, holidays, (9) Teacher availability and contact, (10) Closing — encouragement and thanks, (11) Parent acknowledgement and query section at the bottom. Include 3 versions — formal English, simple English, Hindi. Word count 250-320 per version. Format as a fillable template with clear fields and instructional notes in italics. Use warm, collaborative tone suited to Indian parent culture.",
+      "tags": [
+        "progress-letter",
+        "parent-communication",
+        "class-7",
+        "cbse",
+        "template",
+        "bilingual"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-031",
+      "title": "Science Experiment — Class 6 Low Cost",
+      "prompt": "Act as a Class 6 science teacher with 8 years of experience in a rural Rajasthan government school with limited lab resources. I need you to design 5 low-cost science experiments for Class 6 aligned with NCERT Science textbook using easily available household items costing under 50 INR each. The experiments should match NCERT chapters on food, materials, water, air, magnets. Please provide for each experiment: (1) Chapter and learning objective, (2) Materials with cost estimates in INR using items like glass, thread, magnets, salt, oil, newspaper, (3) Safety precautions, (4) Step-by-step procedure 5-7 steps, (5) Observation table for students, (6) Questions for discussion 3 per experiment, (7) Concept explanation in simple language, (8) Real-life Indian application, (9) Differentiation for slow learners, (10) Extension challenge for fast finishers. Format each experiment as a one-page mini lab card. Ensure experiments can be done in a regular classroom without a dedicated lab, can be performed by groups of 5-6 students, and are safe for 11-year-olds. Emphasise hands-on learning aligned with NEP 2020 experiential learning principles. Include tips for teachers on managing experiments with 50 students and minimal support staff.",
+      "tags": [
+        "ncert",
+        "class-6",
+        "science",
+        "experiments",
+        "low-cost",
+        "rural",
+        "nep-2020"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-032",
+      "title": "Bullying Incident Response Protocol",
+      "prompt": "Act as a senior school teacher with 16 years of experience handling bullying incidents in Indian CBSE schools. I need you to create a clear response protocol for a Class 8 teacher who has witnessed or received a report of bullying in her classroom of 48 students. The school follows NEP 2020 guidelines and POCSO Act where applicable. Please provide: (1) Immediate response steps within 24 hours — ensuring victim's safety, documentation, reporting to principal, (2) Investigation steps — interviewing involved students separately, collecting statements, checking witnesses, (3) Confidentiality principles, (4) How to interview the victim sensitively, (5) How to interview the alleged bully without prejudging, (6) Parent communication approach for both victim and bully separately, (7) Restorative action rather than purely punitive — apology, reflection, peer mediation, (8) Follow-up support for the victim — counsellor referral, safety plan, (9) Consequences and corrective measures for the bully, (10) Documentation template, (11) When to involve police or child welfare committee, (12) Prevention strategies — classroom rules, awareness sessions, empathy activities, (13) Teacher self-care after handling incidents. Format as a step-by-step protocol with timelines and templates. Include cultural sensitivities around Indian families' reactions to bullying allegations. Emphasise child protection and dignity.",
+      "tags": [
+        "bullying",
+        "classroom-management",
+        "protocol",
+        "child-protection",
+        "nep-2020",
+        "pocso"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-033",
+      "title": "Class 4 Art and Craft Weekly Plan",
+      "prompt": "Act as a primary school art and craft teacher with 10 years of experience in a CBSE school in Kochi. I need you to design a 4-week art and craft plan for Class 4 aligned with NEP 2020 arts-integrated learning and NCF recommendations. The class has 40 students, one 45-minute period per week, limited materials, and a budget of 500 INR for the month. Please provide: (1) Theme for the month — \"Indian Festivals and Culture\", (2) Week 1 — Warli art introduction with black chart paper and white paint, cultural context of Maharashtra tribal art, (3) Week 2 — Madhubani-inspired peacock drawing with fine markers, linking to Bihar tradition, (4) Week 3 — Rangoli design on paper with colour sand or chalk powder, geometric patterns, (5) Week 4 — Clay diya decoration with local clay or air-dry clay. For each week provide: objectives, materials with cost in INR, step-by-step instructions, cultural story or context 3-4 lines, assessment rubric, differentiation, classroom management tips, display plan. Also include: (a) Material procurement list, (b) Safety guidelines, (c) Cross-curricular links with SST and English, (d) End-of-month mini exhibition plan for parents. Format as a weekly planner. Emphasise inclusive representation of Indian art traditions from different states.",
+      "tags": [
+        "art-craft",
+        "class-4",
+        "nep-2020",
+        "ncf",
+        "culture",
+        "indian-art",
+        "planner"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-034",
+      "title": "Worksheet — Class 9 Hindi Grammar",
+      "prompt": "Act as a Class 9 Hindi teacher with 12 years of experience in a CBSE school in Varanasi. I need you to create a printable Hindi grammar worksheet on संधि sandhi aligned with NCERT Sparsh and Kritika textbooks. The class has 50 students with mixed proficiency in Hindi. Please provide: (1) शीर्षक header with student details, (2) संक्षिप्त संधि परिचय box in simple Hindi, (3) भाग अ — स्वर संधि — identify the type of sandhi in 5 given words, (4) भाग ब — व्यंजन संधि — break 5 compound words into their components, (5) भाग स — विसर्ग संधि — 4 questions on sandhi viched, (6) भाग द — 4 MCQs on sandhi rules, (7) भाग इ — वाक्य प्रयोग — use 3 sandhi words in sentences, (8) बोनस प्रश्न — 1 HOTS question, (9) self-assessment, (10) उत्तर माला answer key. Use devanagari script throughout. Keep the format clean for A4 printing. Total marks 25, estimated time 40 minutes. Include brief explanatory notes in simple Hindi for students weak in grammar. Add a teacher note on common mistakes students make and pronunciation tips. Ensure content matches CBSE Class 9 Hindi Course B syllabus.",
+      "tags": [
+        "ncert",
+        "cbse",
+        "worksheet",
+        "class-9",
+        "hindi",
+        "grammar",
+        "sandhi"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-035",
+      "title": "Lesson Plan — Class 5 EVS Our Body",
+      "prompt": "Act as a Class 5 EVS teacher with 9 years of experience in a Tamil Nadu State Board school in Coimbatore. I need you to create a 40-minute lesson plan on \"Our Body — Digestive System\" aligned with NCERT Looking Around textbook and Tamil Nadu State Board syllabus. The class has 44 students, some Tamil-medium and some English-medium. Please provide: (1) Learning objectives in behavioural terms, (2) Hook 3 minutes — ask students what happens to the food we eat during Pongal celebrations, (3) Concept introduction 10 minutes — labelled diagram of digestive system on board, naming mouth, oesophagus, stomach, small intestine, large intestine, (4) Function of each organ in simple language with Tamil key words, (5) Activity 10 minutes — group labelling worksheet with body outline, (6) Healthy food discussion 5 minutes — Indian foods that help digestion like curd rice, buttermilk, (7) Quick quiz 5 minutes — 5 oral questions, (8) Closure 3 minutes — today's learning summary and key takeaway, (9) Homework — maintain a food diary for 2 days and categorise items, (10) Assessment checkpoints, (11) Differentiation for slow learners. Format as a time-stamped lesson plan with teacher actions and student activities. Include a model labelled diagram description, Tamil translations of 10 key terms, and cross-curricular links with health education. Emphasise experiential learning per NEP 2020.",
+      "tags": [
+        "ncert",
+        "evs",
+        "lesson-plan",
+        "class-5",
+        "digestive-system",
+        "tamil-nadu",
+        "bilingual"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-036",
+      "title": "Teacher Email — Requesting Substitute",
+      "prompt": "Act as a middle school teacher with 10 years of experience in a CBSE school in Pune. I need you to draft a professional email to the principal and academic coordinator requesting a substitute teacher for two days due to a family medical emergency. Here is the context: you teach Class 7-A and Class 8-B Mathematics, both classes have ongoing chapters, there are unit tests scheduled next week, and you want to ensure continuity of learning. Please provide: (1) Clear subject line conveying urgency but professionalism, (2) Respectful greeting, (3) Brief statement of the reason without oversharing private details, (4) Specific dates of absence, (5) Detailed handover plan — current chapter, lesson continuation notes for each class, worksheets to distribute, behaviour notes for both classes, seating arrangement reference, (6) Emergency contact for urgent academic matters, (7) Commitment to catch up missed content on return, (8) Request for principal's approval and substitute arrangement, (9) Apology for short notice, (10) Polite closing and signature. Email should be 250-320 words, professional yet warm, and culturally appropriate for Indian school hierarchies where respect and humility matter. Also provide: (a) A separate one-page handover note for the substitute teacher with daily plan, class rules, and two key students to watch, (b) A WhatsApp backup message version.",
+      "tags": [
+        "email",
+        "substitute",
+        "handover",
+        "professional",
+        "communication"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-037",
+      "title": "Class 10 English Writing — Letter Format",
+      "prompt": "Act as a CBSE Class 10 English teacher with 14 years of experience preparing students for board exams. I need you to create a comprehensive teaching resource on formal letter writing aligned with the NCERT First Flight and the revised CBSE 2024-25 board exam pattern. The class has 52 students. Please provide: (1) Introduction 5 minutes — importance of formal letters in Indian professional life, (2) Structural breakdown of a formal letter — sender's address, date, receiver's address, subject, salutation, body, closing, signature, (3) Marking scheme as per CBSE 5 marks, (4) Types commonly asked — letter to editor, letter of complaint, letter of enquiry, letter to authorities, (5) Detailed model letter 1 — complaint to Municipal Commissioner of Pune about garbage collection with annotations, (6) Detailed model letter 2 — letter to editor of Times of India about road safety in Delhi, (7) 10 common phrases to use in body, (8) 10 common mistakes Indian students make — spelling, tone, address format, (9) Practice task 5 letter prompts with Indian scenarios for students, (10) Self-check rubric, (11) Tips on managing letter writing within 20 minutes in board exam. Format as a complete teaching handout with examples. Use real Indian contexts — RTO, banks, newspapers, schools, government offices. Ensure alignment with latest CBSE sample paper format.",
+      "tags": [
+        "ncert",
+        "cbse",
+        "class-10",
+        "english",
+        "letter-writing",
+        "board-exam",
+        "writing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-038",
+      "title": "Student Leadership Election Activity",
+      "prompt": "Act as a Class 6 class teacher with 11 years of experience conducting student leadership elections in a CBSE school in Noida. I need you to design a structured 3-day class monitor election activity for Class 6 that teaches democratic values, aligns with NCERT Social and Political Life textbook, and reflects NEP 2020 values education. The class has 45 students. Please provide: (1) Day 1 — Introduction to democracy and leadership 40 minutes — brief lesson, role and responsibilities of class monitor, eligibility criteria, nomination process, (2) Day 2 — Candidate speeches 40 minutes — each of 4-6 candidates gives a 2-minute speech with guided template, peer questions, poster display, (3) Day 3 — Voting and declaration 40 minutes — secret ballot with paper slips, counting by student volunteers, announcement, acceptance speech, (4) A nomination form template, (5) A speech guide for young candidates with a sample outline, (6) Voting ballot template, (7) Rules of fair play, (8) Post-election reflection discussion — what makes a good leader, handling loss gracefully, (9) Follow-up — monthly review of monitor's work, rotation plan so others get a chance, (10) Cross-curricular links with civics. Format as a day-wise activity plan with resources needed. Emphasise values of fairness, respect, responsibility, and making the experience positive for all students including non-winners.",
+      "tags": [
+        "values-education",
+        "leadership",
+        "election",
+        "class-6",
+        "ncert",
+        "nep-2020",
+        "activity"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-039",
+      "title": "Worksheet — Class 3 Math Multiplication Tables",
+      "prompt": "Act as a Class 3 math teacher with 8 years of experience in a CBSE school in Ranchi. I need you to create an engaging printable worksheet on multiplication tables 2 to 10 aligned with NCERT Math Magic 3. The class has 42 students, many of whom find memorising tables stressful. Please provide: (1) Header with student details, (2) Fun intro box — \"Table ka Jaadu\" with a friendly character, (3) Section A — fill the missing numbers in tables of 2, 5, 10 — 9 blanks, (4) Section B — multiplication grid to complete — partial grid from 2x2 to 5x5, (5) Section C — word problems in Indian context — 5 questions using mangoes, marbles, rupees, chocolates, laddoos with Indian names, (6) Section D — match the product to the expression 5 matches, (7) Section E — colour by number where correct answers reveal a picture of a peacock, (8) Self assessment with stars, (9) Fun fact about numbers in India, (10) Parent note on reinforcing tables at home through games, (11) Answer key. Keep visuals simple, large fonts, child-friendly language. Total time 30 minutes, total marks 20. Ensure inclusive imagery and names. Format as a colourful yet printable A4 worksheet suitable for photocopying. Add a tip for teachers on using chants and rhymes to help memorisation.",
+      "tags": [
+        "ncert",
+        "cbse",
+        "worksheet",
+        "class-3",
+        "math",
+        "multiplication",
+        "tables"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    },
+    {
+      "id": "teachers-school-teachers-k12-040",
+      "title": "Year-End Report Card Commentary Bank",
+      "prompt": "Act as a veteran CBSE primary teacher with 20 years of experience writing year-end report cards. I need you to build a comprehensive report card commentary bank with 30 ready-to-adapt comments for Class 4 students covering various profiles and competencies, aligned with CCE and NEP 2020 holistic progress card HPC principles. Here is the context: year-end comments are more detailed than term comments, cover the whole year's growth, and set the tone for next year. Indian parents take year-end comments very seriously. Please provide: (1) 10 comments for academic performance profiles — top performer, consistent performer, improved significantly, struggled throughout, subject-specific strengths math, English, Hindi, science, EVS, (2) 10 comments for behavioural and social-emotional profiles — helpful leader, shy but kind, confident, respectful, cooperative, quick tempered improving, polite, empathetic, disciplined, eager learner, (3) 10 comments for co-curricular and life skills — creative, sporty, musical, good in art, responsible, punctual, hardworking, resilient, curious, well-mannered. Each comment should be 50-80 words, use specific observations rather than generic praise, include one forward-looking statement for next year, and be phrased in warm professional English. Format as a categorised bank with clear labels. Also provide guidance on personalising comments, adapting tone for different parent backgrounds, and avoiding comparison language.",
+      "tags": [
+        "report-card",
+        "year-end",
+        "cce",
+        "nep-2020",
+        "hpc",
+        "class-4",
+        "commentary"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "teachers",
+      "subcategory": "school-teachers-k12"
+    }
+  ]
+}

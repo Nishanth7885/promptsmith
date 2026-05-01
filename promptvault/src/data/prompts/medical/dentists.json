@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "medical-dentists-001",
+      "title": "Patient-Friendly RCT Treatment Plan Explanation",
+      "prompt": "Act as a senior BDS practitioner with 10 years of experience running a clinic in Pune, India. I need you to draft a patient-friendly explanation of a Root Canal Treatment (RCT) plan for a 35-year-old Marathi-speaking patient with deep caries in tooth 46 (lower right first molar), now presenting with irreversible pulpitis. Here is the context: the patient is anxious, cost-sensitive, earns around INR 40,000/month, and has heard scary stories about RCT from neighbours. Please provide: (1) a simple Hindi + English explanation of what RCT is and why it is needed instead of extraction, (2) a step-wise 3-visit plan (access opening, biomechanical preparation, obturation, post-endo crown), (3) an itemised INR cost range typical for a tier-2 Indian city (RCT INR 3,500-6,000; PFM crown INR 2,500-4,500; zirconia INR 8,000-15,000), (4) risks, alternatives (extraction + implant/bridge) and what happens if ignored, (5) post-op care instructions, (6) an empathetic FAQ covering pain, duration, and pregnancy safety. Format as a printable one-page handout with short bullet points, a small cost table, and a consent footer for signature. Keep language at 8th-standard reading level. Include a clinical-aid disclaimer that this explanation supports but does not replace chairside counselling and professional judgement by a DCI-registered dentist.",
+      "tags": [
+        "treatment-plan",
+        "rct",
+        "patient-education",
+        "endodontics",
+        "hindi-counselling"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-002",
+      "title": "Informed Consent Form for Tooth Extraction",
+      "prompt": "Act as a DCI-registered oral surgeon with 12 years of experience practising in Delhi NCR. I need you to draft a comprehensive informed consent form for a simple/surgical extraction of a mandibular third molar (tooth 48) under local anaesthesia. Here is the context: the patient is a 28-year-old IT professional, non-smoker, no systemic illness, walking into a mid-sized clinic chain similar to Clove Dental. Please provide: (1) patient identification block (name, age, UHID, date, tooth number, FDI notation), (2) plain-language description of the procedure and LA used (2% lignocaine with adrenaline 1:80,000), (3) a clearly numbered list of risks and complications (dry socket, nerve paraesthesia of IAN/lingual nerve, bleeding, infection, sinus communication if upper, jaw fracture rare), (4) alternatives including coronectomy and no treatment, (5) post-op instructions and emergency contact, (6) separate signature blocks for patient, witness, and treating dentist with DCI registration number, (7) an Indian medico-legal clause referencing the Consumer Protection Act 2019 and DCI Code of Ethics. Format as a print-ready two-page A4 form in English with space for a Hindi verbal translation attestation. Add a clinical-aid disclaimer that this template must be vetted by the clinic's legal advisor before routine use.",
+      "tags": [
+        "consent-form",
+        "extraction",
+        "oral-surgery",
+        "medico-legal",
+        "dci"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-003",
+      "title": "Crown Treatment Plan for Fractured Molar",
+      "prompt": "Act as a prosthodontist with 8 years of experience in a Bengaluru multi-specialty dental clinic. I need you to create a detailed treatment plan explanation for a 45-year-old patient who fractured the disto-lingual cusp of tooth 36 while eating. Here is the context: the tooth has an old amalgam restoration, is vital, and requires a full-coverage crown after core build-up. The patient has a budget of INR 10,000-12,000 and asks about metal vs ceramic vs zirconia. Please provide: (1) a brief clinical reasoning in plain English and Hindi explaining why a crown is better than a large filling, (2) a comparison table of PFM (INR 2,500-4,500), full metal (INR 2,000-3,500), all-ceramic E-max (INR 8,000-12,000), and monolithic zirconia (INR 6,000-15,000) with longevity and aesthetic trade-offs, (3) a 2-visit workflow (preparation + impression/scan, cementation) with tentative dates, (4) post-cementation care and warranty terms typical in Indian private practice, (5) red flags requiring recall. Format as a shared-decision one-pager with a cost table and a checkbox for the patient's final choice. Include a clinical-aid disclaimer that final material choice must be confirmed after clinical examination.",
+      "tags": [
+        "treatment-plan",
+        "crown",
+        "prosthodontics",
+        "patient-education",
+        "shared-decision"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-004",
+      "title": "Orthodontic Treatment Plan for Class II Malocclusion",
+      "prompt": "Act as an MDS orthodontist with 10 years of experience practising in Hyderabad. I need you to draft a patient-facing treatment plan for a 14-year-old girl with Angle's Class II Division 1 malocclusion, 7 mm overjet, proclined upper incisors, and mild crowding. Here is the context: the parents are middle-income (household INR 1.2 lakh/month), comparing metal braces vs ceramic vs clear aligners (Invisalign/makeO toothsi), worried about school exams and duration. Please provide: (1) a simple diagnosis summary in Hindi + English, (2) three treatment options with duration (18-24 months), appliance type, visit frequency, and INR cost range (metal INR 30,000-50,000; ceramic INR 45,000-70,000; aligners INR 1.2-2.5 lakh), (3) extraction vs non-extraction rationale, (4) compliance requirements (elastics, oral hygiene, retainers), (5) expected outcomes with retention protocol, (6) risks (root resorption, decalcification, relapse). Format as a parent-friendly 2-page handout with a decision matrix and EMI options common with Indian dental chains. Include a clinical-aid disclaimer that this plan requires confirmation after cephalometric analysis and model study.",
+      "tags": [
+        "treatment-plan",
+        "orthodontics",
+        "braces",
+        "aligners",
+        "patient-education"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-005",
+      "title": "Single Tooth Implant Treatment Plan",
+      "prompt": "Act as an implantologist with 12 years of experience in a Mumbai private clinic. I need you to create a comprehensive treatment plan explanation for a 52-year-old patient who lost tooth 11 (upper central incisor) in a road traffic accident 3 months ago. Here is the context: adequate bone on CBCT, no systemic disease, non-smoker, asks about Nobel Biocare vs Osstem vs Adin implants and total cost. Please provide: (1) a step-wise clinical roadmap (extraction site evaluation, implant placement, 3-4 month osseointegration, abutment, crown), (2) comparison of Indian-used implant systems (premium Nobel/Straumann INR 40,000-70,000 per unit; mid-range Osstem/Dentium INR 25,000-40,000; economy Adin/Equinox INR 15,000-25,000) with crown add-on INR 8,000-18,000, (3) pros/cons vs 3-unit bridge or RPD, (4) maintenance and peri-implantitis prevention, (5) success rates (95%+ at 10 years), (6) medico-legal consent points. Format as a detailed 3-page patient pack with a cost breakdown, timeline Gantt-style, and an FAQ in simple English and Hindi. Include a clinical-aid disclaimer that costs and suitability require in-person assessment.",
+      "tags": [
+        "treatment-plan",
+        "implant",
+        "prosthodontics",
+        "patient-education",
+        "cost-breakdown"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-006",
+      "title": "Consent Form for Root Canal Treatment",
+      "prompt": "Act as an endodontist with 9 years of experience in a Chennai clinic. I need you to draft a DCI-compliant informed consent form for single-visit root canal treatment on tooth 26 with rotary NiTi files and bioceramic obturation. Here is the context: the patient is a 40-year-old diabetic (HbA1c 7.2), on metformin, mildly anxious. Please provide: (1) patient and tooth identification header, (2) procedure description in simple terms including rubber dam, LA, access, instrumentation, irrigation (NaOCl), obturation, temporary filling, (3) numbered list of risks (instrument separation, perforation, post-op pain/flare-up, need for retreatment or apicoectomy, tooth fracture, crown requirement), (4) alternatives (extraction, no treatment), (5) diabetes-specific considerations and antibiotic prophylaxis note, (6) post-op instructions, (7) cost disclosure (INR 4,500-7,000 RCT + crown), (8) signature block with witness and DCI registration number, (9) Hindi translation attestation line. Format as a 2-page A4 print form. Include a clinical-aid disclaimer that this form must be customised per case and reviewed by a legal advisor.",
+      "tags": [
+        "consent-form",
+        "rct",
+        "endodontics",
+        "medico-legal",
+        "dci"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-007",
+      "title": "Consent Form for Dental Implant Surgery",
+      "prompt": "Act as an oral implantologist with 15 years of experience in a Kolkata multi-specialty dental practice. I need you to draft a detailed informed consent form for a single implant placement in tooth 46 region under local anaesthesia with guided surgery. Here is the context: 55-year-old hypertensive patient on amlodipine, non-smoker, CBCT done, bone height 12 mm. Please provide: (1) identification block with FDI notation, (2) step-by-step procedure description (flap, osteotomy, implant placement, cover screw/healing abutment, suturing), (3) risks (IAN injury, paraesthesia, implant failure, peri-implantitis, sinus involvement if upper, need for bone graft), (4) alternatives (bridge, RPD, no treatment), (5) systemic considerations for hypertension and anticoagulants, (6) expected healing timeline (3-6 months), (7) maintenance obligations, (8) INR cost disclosure and refund/warranty policy, (9) Consumer Protection Act 2019 clause, (10) patient/witness/dentist signature with DCI number. Format as a 3-page A4 form with Hindi verbal translation attestation. Include a clinical-aid disclaimer that clinical judgment overrides any template.",
+      "tags": [
+        "consent-form",
+        "implant",
+        "oral-surgery",
+        "medico-legal",
+        "dci"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-008",
+      "title": "Case Presentation: Complex Endodontic Retreatment",
+      "prompt": "Act as a senior endodontist preparing a CME case presentation for a DCI-accredited continuing education event in Ahmedabad. I need you to structure a 20-minute case presentation on a complex retreatment of tooth 16 with a separated file in the MB canal and peri-apical radiolucency. Here is the context: 38-year-old female, previous RCT 4 years ago, now with sinus tract, referred from a general dentist. Please provide: (1) title slide and learning objectives (3 points), (2) patient history and clinical findings, (3) radiographic and CBCT interpretation, (4) differential diagnosis, (5) treatment options (retreatment vs apicoectomy vs extraction + implant) with evidence from Indian and international literature, (6) step-by-step retreatment protocol (gutta percha removal, file bypass/retrieval, MTA use), (7) 6-month and 1-year follow-up with radiographs, (8) discussion with 3 teaching pearls, (9) references in Vancouver style. Format as a slide-by-slide outline (15-18 slides) suitable for PowerPoint. Include a clinical-aid disclaimer that images and identifiers must be anonymised per DCI ethics guidelines.",
+      "tags": [
+        "case-presentation",
+        "cme",
+        "endodontics",
+        "retreatment",
+        "teaching"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-009",
+      "title": "Case Presentation: Full Mouth Rehabilitation",
+      "prompt": "Act as a prosthodontist presenting a full-mouth rehabilitation case at an Indian Prosthodontic Society (IPS) regional conference. I need you to outline a 30-minute case presentation on a 58-year-old male with severe attrition, collapsed VDO, and multiple missing posteriors. Here is the context: patient is a retired bank officer, non-smoker, former pan masala user (quit 5 years ago), willing to invest INR 3-5 lakh. Please provide: (1) title and objectives, (2) history, clinical and radiographic examination, (3) diagnosis (generalised attrition, loss of VDO 4 mm, Kennedy Class I mandible), (4) treatment planning steps (diagnostic wax-up, face-bow, semi-adjustable articulator, provisional restorations, VDO reestablishment), (5) definitive prosthesis plan (implants 36, 46, 37, 47 + full-arch zirconia crowns), (6) cost breakdown in INR with EMI options, (7) 1-year follow-up outcomes, (8) discussion and teaching points, (9) references. Format as a 20-slide outline with sections and talking notes. Include a clinical-aid disclaimer on patient consent for image use and DCI ethical compliance.",
+      "tags": [
+        "case-presentation",
+        "prosthodontics",
+        "full-mouth-rehab",
+        "cme",
+        "teaching"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-010",
+      "title": "Patient Education: Correct Brushing Technique",
+      "prompt": "Act as a preventive dentistry consultant creating patient education material for a Jaipur dental clinic chain. I need you to draft a brushing technique handout for adult Indian patients. Here is the context: most patients use hard-bristle brushes, brush once daily in horizontal strokes, and consume chai with sugar 4-5 times a day. Please provide: (1) a simple Hindi + English explanation of why plaque causes caries and gingivitis, (2) step-by-step modified Bass technique with timing (2 minutes, twice daily), (3) choice of brush (soft bristle), toothpaste (1,000-1,500 ppm fluoride), and replacement frequency (3 months), (4) common mistakes Indian patients make (horizontal scrubbing, over-brushing, skipping tongue), (5) role of flossing and interdental brushes, (6) chai-and-sugar counselling, (7) 6-monthly recall reminder. Format as a colourful single-page A4 handout with 6 numbered illustrations described in placeholder text, and a short parent-and-child version at the bottom. Include a clinical-aid disclaimer that individual needs vary and in-clinic demonstration is recommended.",
+      "tags": [
+        "patient-education",
+        "oral-hygiene",
+        "brushing",
+        "preventive",
+        "handout"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-011",
+      "title": "Gutka and Pan Masala Cessation Counselling Script",
+      "prompt": "Act as an oral medicine specialist with 10 years of experience in a Lucknow dental college. I need you to create a motivational counselling script for a 30-year-old male construction worker diagnosed with early oral submucous fibrosis (OSMF) due to 8 years of gutka and pan masala use. Here is the context: he chews 6-8 pouches daily, earns INR 18,000/month, has mouth-opening reduced to 32 mm, burning sensation on spicy food, and is in denial about cancer risk. Please provide: (1) a 10-minute counselling script in simple Hindi with English gloss, covering what OSMF is and its link to oral cancer, (2) a fact sheet on Indian oral cancer statistics (ICMR data, 1.3 lakh new cases/year), (3) a stepwise quit plan (set quit date, identify triggers, substitute habits, NRT/bupropion referral), (4) family and peer support tips, (5) financial reframing (INR 150/day = INR 54,750/year), (6) follow-up schedule and red-flag symptoms needing biopsy. Format as a printable 2-page script with bold key phrases and a quit-date pledge footer. Include a clinical-aid disclaimer and a referral note to a tobacco cessation clinic.",
+      "tags": [
+        "patient-education",
+        "tobacco-cessation",
+        "osmf",
+        "gutka",
+        "counselling"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-012",
+      "title": "TPA Pre-Authorization Letter for OPD Dental",
+      "prompt": "Act as a dental billing coordinator at a Delhi-based multi-specialty clinic empanelled with major Indian TPAs (MediAssist, Paramount, FHPL, Vidal Health). I need you to draft a pre-authorization request letter to a TPA for an inpatient dental procedure. Here is the context: 42-year-old corporate patient with a group health policy covering dental under accident/injury clause, requiring surgical extraction of impacted tooth 38 with pericoronitis and cellulitis, planned under IV sedation as a day-care admission. Please provide: (1) letter header with clinic details, DCI registration, and TPA empanelment number, (2) patient demographics and policy number, (3) brief clinical history and examination findings, (4) diagnosis with ICD-10 code (K01.1, K12.2), (5) proposed procedure with CPT/procedure codes and justification for day-care admission, (6) itemised INR estimate (surgeon fee, OT charges, sedation, medicines, investigations) totalling approximately INR 28,000-35,000, (7) duration of stay and expected discharge, (8) supporting documents list (OPG, blood reports, consent). Format as a formal 1-page letter with signature block. Include a clinical-aid disclaimer that final approval depends on TPA policy terms.",
+      "tags": [
+        "pre-authorization",
+        "insurance",
+        "tpa",
+        "billing",
+        "day-care"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-013",
+      "title": "Consent Form for Dental Crown Procedure",
+      "prompt": "Act as a prosthodontist with 7 years of experience in a Chandigarh dental practice. I need you to draft an informed consent form for a full-coverage zirconia crown on tooth 36. Here is the context: 48-year-old patient with a large MOD composite, crack visible on transillumination, tooth vital. Please provide: (1) patient and tooth identification, (2) procedure description (tooth preparation, impression/digital scan, temporary crown, cementation), (3) numbered list of risks (post-op sensitivity, need for RCT if pulp exposure, crown fracture, decementation, secondary caries), (4) alternatives (onlay, large filling, extraction), (5) material choice disclosure with INR cost (zirconia INR 8,000-15,000), (6) warranty and follow-up terms, (7) post-cementation care, (8) signature block with DCI registration, (9) Hindi verbal explanation attestation. Format as a 2-page A4 form. Include a clinical-aid disclaimer that the form should be reviewed by the clinic's legal advisor before routine use.",
+      "tags": [
+        "consent-form",
+        "crown",
+        "prosthodontics",
+        "medico-legal",
+        "dci"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-014",
+      "title": "Consent Form for Orthodontic Treatment",
+      "prompt": "Act as an MDS orthodontist with 12 years of experience in a Kochi dental clinic. I need you to draft an informed consent form for fixed orthodontic treatment with MBT brackets including possible extractions of 14 and 24. Here is the context: 15-year-old minor patient, treatment duration 20-24 months, parental signature required. Please provide: (1) patient and parent identification block, (2) treatment description (records, bonding, monthly adjustments, extractions, retention), (3) risks (root resorption, decalcification/white spots, TMJ discomfort, relapse, allergy to nickel, gingival recession), (4) compliance requirements (oral hygiene, elastics, avoiding hard/sticky food), (5) alternatives (aligners, no treatment, limited treatment), (6) retention phase commitment (minimum 2 years bonded + removable retainers), (7) INR cost breakdown and EMI terms, (8) missed appointment policy, (9) parent + minor signature with DCI number. Format as a 3-page A4 form with Hindi translation attestation. Include a clinical-aid disclaimer.",
+      "tags": [
+        "consent-form",
+        "orthodontics",
+        "braces",
+        "medico-legal",
+        "minor"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-015",
+      "title": "Patient Education: Flossing and Interdental Care",
+      "prompt": "Act as a periodontist creating educational material for a Bhubaneswar dental clinic. I need you to draft a flossing and interdental cleaning handout tailored to Indian adult patients. Here is the context: most patients skip flossing, have tight contacts due to Indian diet, and commonly use toothpicks inappropriately. Please provide: (1) a simple Hindi + English explanation of why brushing alone is insufficient (40% tooth surface missed), (2) step-by-step technique for dental floss (C-shape, 18-inch length), (3) alternatives: interdental brushes sized 0.4-1.5 mm, water flosser, soft picks, (4) when to use which (crowded teeth, braces, implants, bridges), (5) common mistakes (snapping floss, skipping back teeth), (6) cost guidance in INR for Indian brands (Colgate, Oral-B, Sensodyne floss INR 150-350; interdental brushes INR 200-500), (7) 2-week habit-building plan. Format as a single-page A4 handout with 5 illustrations described as placeholders. Include a clinical-aid disclaimer that technique should be demonstrated chairside for best results.",
+      "tags": [
+        "patient-education",
+        "flossing",
+        "interdental",
+        "oral-hygiene",
+        "handout"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-016",
+      "title": "Pre-Auth Letter for Accident-Related Dental Trauma",
+      "prompt": "Act as a dental insurance coordinator at a Bengaluru dental hospital. I need you to draft a pre-authorization letter for a 25-year-old patient who suffered avulsion of tooth 11 and luxation of 21 in a two-wheeler accident. Here is the context: patient has a corporate group health policy that covers accidental dental injury. Procedures planned: splinting, RCT of 11 and 21, post and core, zirconia crowns, total estimate INR 45,000. Please provide: (1) clinic header with DCI and TPA empanelment, (2) patient and policy details, (3) incident summary with FIR reference number and accident date, (4) clinical findings with photographs and radiograph references, (5) diagnosis with ICD-10 codes (S02.5, S03.2), (6) itemised treatment plan and INR cost, (7) justification for urgency and aesthetic necessity for anterior teeth, (8) expected outcome and follow-up schedule, (9) attached documents list. Format as a formal 1.5-page letter with signature block. Include a clinical-aid disclaimer that approval is subject to TPA review.",
+      "tags": [
+        "pre-authorization",
+        "insurance",
+        "trauma",
+        "accident",
+        "tpa"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-017",
+      "title": "Case Presentation: Pediatric Pulpectomy",
+      "prompt": "Act as a pedodontist preparing a case presentation for the Indian Society of Pedodontics and Preventive Dentistry (ISPPD) annual conference. I need you to structure a 15-minute case on a pulpectomy in tooth 85 of a 5-year-old child with early childhood caries. Here is the context: uncooperative child, Frankl behaviour rating 2, multiple carious teeth, bottle-feeding history. Please provide: (1) title and learning objectives, (2) behaviour management strategies (tell-show-do, distraction, N2O if available, parental presence), (3) clinical and radiographic findings, (4) treatment plan sequencing, (5) pulpectomy procedure with Metapex/ZOE obturation and stainless steel crown, (6) caries risk assessment and diet counselling for the parent, (7) 6-month follow-up, (8) teaching pearls on managing anxious children in Indian clinic settings, (9) references. Format as a 12-slide outline with presenter notes. Include a clinical-aid disclaimer on image anonymisation and consent.",
+      "tags": [
+        "case-presentation",
+        "pedodontics",
+        "pulpectomy",
+        "cme",
+        "teaching"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-018",
+      "title": "Treatment Plan for Periodontal Disease",
+      "prompt": "Act as a periodontist with 9 years of experience in a Nagpur dental clinic. I need you to draft a treatment plan explanation for a 50-year-old patient with generalised chronic periodontitis Stage III Grade B, pocket depths 5-7 mm, bleeding on probing, and type 2 diabetes (HbA1c 7.8). Here is the context: patient smokes 10 cigarettes/day, is on metformin, and has a moderate budget. Please provide: (1) a plain-English + Hindi explanation of periodontitis and its link to diabetes, (2) Phase I non-surgical plan (oral hygiene instruction, scaling and root planing 4 quadrants, INR 3,500-6,000), (3) re-evaluation at 6 weeks, (4) Phase II surgical plan if needed (flap surgery, regenerative procedures with bone graft/PRF, INR 8,000-20,000), (5) smoking cessation and glycaemic control advice, (6) 3-monthly maintenance recall, (7) prognosis and home care kit (waterpik, interdental brushes, chlorhexidine rinse). Format as a 2-page patient handout with a cost table and a diabetes control checklist. Include a clinical-aid disclaimer and referral to the treating physician for HbA1c optimisation.",
+      "tags": [
+        "treatment-plan",
+        "periodontics",
+        "periodontitis",
+        "diabetes",
+        "patient-education"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-019",
+      "title": "Consent Form for Periodontal Flap Surgery",
+      "prompt": "Act as a periodontist with 11 years of experience in a Thiruvananthapuram dental hospital. I need you to draft an informed consent form for periodontal flap surgery with bone graft (xenograft) and PRF membrane in the lower right quadrant. Here is the context: 47-year-old non-diabetic female with stage III periodontitis, pocket depth 7 mm on 46 and 47. Please provide: (1) identification and site block, (2) procedure description (LA, flap elevation, debridement, bone graft placement, PRF, suturing), (3) risks (bleeding, swelling, infection, recession, tooth sensitivity, partial graft failure, need for re-surgery), (4) alternatives (continued SRP, extraction, no treatment), (5) post-op instructions (diet, chlorhexidine rinse, analgesics, no brushing at site for 1 week), (6) INR cost disclosure (INR 12,000-18,000), (7) expected healing and follow-up schedule, (8) signature block with DCI number, (9) Hindi translation attestation. Format as a 2-page A4 form. Include a clinical-aid disclaimer for legal review.",
+      "tags": [
+        "consent-form",
+        "periodontics",
+        "flap-surgery",
+        "bone-graft",
+        "medico-legal"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-020",
+      "title": "Diet Counselling for Cariogenic Indian Diet",
+      "prompt": "Act as a preventive dentistry consultant at a Surat dental clinic. I need you to create a diet counselling handout for patients with high caries risk due to typical Indian dietary habits. Here is the context: patient consumes sweet chai 4-5 times/day, biscuits, mithai during festivals, paan, and frequent snacking. Please provide: (1) an explanation of the caries process and Stephan curve in simple Hindi + English, (2) a list of high-cariogenic Indian foods (mithai, jalebi, biscuits, sweet chai, cold drinks, chikki, aam panna), (3) low-cariogenic alternatives (buttermilk, cheese, nuts, fruits), (4) timing strategy (sweets with meals rather than between), (5) a 7-day diet diary template, (6) fluoride toothpaste and xylitol gum recommendations, (7) festival-specific tips (Diwali, Eid, Raksha Bandhan), (8) red-flag symptoms for recall. Format as a colourful 2-page A4 handout with a diet diary table and emoji-free visual placeholders. Include a clinical-aid disclaimer that individualised counselling is recommended chairside.",
+      "tags": [
+        "patient-education",
+        "diet-counselling",
+        "caries-prevention",
+        "preventive",
+        "handout"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-021",
+      "title": "Treatment Plan for Missing Molar: Bridge vs Implant",
+      "prompt": "Act as a prosthodontist with 10 years of experience in an Indore dental clinic. I need you to create a patient-friendly treatment plan comparing a 3-unit bridge vs a single implant for a missing tooth 46. Here is the context: 45-year-old male, adjacent teeth 45 and 47 are caries-free, adequate bone on OPG, budget concerns INR 15,000-40,000. Please provide: (1) brief Hindi + English explanation of both options, (2) comparison table covering cost (bridge PFM INR 7,500-13,500; zirconia bridge INR 18,000-45,000; implant + crown INR 30,000-70,000), longevity, tooth preservation, hygiene, aesthetics, treatment duration, (3) pros/cons of each, (4) a shared-decision checklist, (5) warranty and maintenance, (6) what happens if the gap is left untreated (drifting, supra-eruption, TMJ strain). Format as a 2-page handout with a clear comparison table and a final patient-choice checkbox. Include a clinical-aid disclaimer that final suitability depends on clinical and radiographic examination.",
+      "tags": [
+        "treatment-plan",
+        "bridge",
+        "implant",
+        "shared-decision",
+        "patient-education"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-022",
+      "title": "Case Presentation: Oral Submucous Fibrosis Management",
+      "prompt": "Act as an oral medicine and radiology specialist presenting a case at an AIIMS CDE programme. I need you to structure a 25-minute case presentation on moderate OSMF management in a 32-year-old male with a 10-year gutka habit. Here is the context: mouth opening 25 mm, blanching of buccal mucosa, burning sensation, no biopsy-proven dysplasia yet. Please provide: (1) learning objectives, (2) epidemiology of OSMF in India (ICMR data), (3) etiopathogenesis and areca nut role, (4) clinical staging (Khanna and Andrade), (5) investigations (biopsy, haematinics), (6) management plan (habit cessation, intralesional steroid + hyaluronidase, lycopene, physiotherapy, CO2 laser if severe), (7) 6-month follow-up, (8) long-term cancer surveillance, (9) teaching pearls and 5 references. Format as a 15-slide outline with presenter notes. Include a clinical-aid disclaimer on consent and anonymisation.",
+      "tags": [
+        "case-presentation",
+        "osmf",
+        "oral-medicine",
+        "cme",
+        "tobacco"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-023",
+      "title": "Pre-Auth for Orthognathic Surgery",
+      "prompt": "Act as a maxillofacial surgery coordinator at a tertiary Indian dental hospital. I need you to draft a pre-authorization request to a health insurer for bilateral sagittal split osteotomy (BSSO) in a 22-year-old with skeletal Class III malocclusion causing functional and psychosocial issues. Here is the context: patient has a comprehensive health policy that covers medically necessary corrective surgery (not cosmetic). Please provide: (1) hospital header with accreditation (NABH), (2) patient and policy details, (3) detailed medical necessity justification (functional chewing impairment, TMJ issues, speech, documented psychological impact), (4) diagnosis with ICD-10 (M26.22), (5) CPT codes for BSSO, (6) itemised INR estimate (surgeon fee, anaesthesia, OT, hospital stay 3 days, implants, total INR 2.5-4 lakh), (7) expected hospitalisation duration and rehabilitation, (8) attached records (cephalometrics, photos, orthodontist letter, psychology report), (9) signature block. Format as a formal 2-page letter. Include a clinical-aid disclaimer that cosmetic exclusions may apply.",
+      "tags": [
+        "pre-authorization",
+        "orthognathic",
+        "insurance",
+        "maxillofacial",
+        "medical-necessity"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-024",
+      "title": "Patient Handout on Dental Caries Prevention",
+      "prompt": "Act as a public health dentist with 8 years of experience running preventive camps in rural Maharashtra. I need you to create a simple caries prevention handout for school-going children and their parents. Here is the context: target audience has limited English, uses neem datun occasionally, and relies on sarkari/school health check-ups. Please provide: (1) an illustrated explanation (text placeholders) of how cavities form in Hindi/Marathi + English, (2) daily routine (brush twice, rinse after meals, limit sweets), (3) fluoride toothpaste and pea-size guidance by age, (4) role of milk, cheese, and vegetables, (5) red-flag signs (pain, hole, swelling), (6) schedule for first dental visit by age 1, (7) a mother-child pledge card footer, (8) local clinic/camp contact placeholders. Format as a single-page A4 handout in a school-friendly tone. Include a clinical-aid disclaimer that camp screenings supplement but do not replace regular dental care.",
+      "tags": [
+        "patient-education",
+        "caries-prevention",
+        "paediatric",
+        "public-health",
+        "handout"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-025",
+      "title": "Treatment Plan for Smile Makeover",
+      "prompt": "Act as a cosmetic dentist with 10 years of experience in a South Mumbai luxury dental clinic. I need you to prepare a treatment plan for a 30-year-old bride-to-be requesting a smile makeover before her wedding in 4 months. Here is the context: she has mild fluorosis, a diastema between 11 and 21, a chipped 22, and mild crowding. Budget INR 1-2 lakh. Please provide: (1) a structured assessment (smile analysis, shade, gingival zenith), (2) treatment options: clear aligners + whitening vs direct composite veneers vs porcelain veneers (E-max) vs a combination, (3) INR cost breakdown (whitening INR 8,000-15,000; composite veneers INR 3,000-6,000/tooth; porcelain veneers INR 12,000-25,000/tooth), (4) 4-month timeline with milestones, (5) risks (sensitivity, debonding, reversibility), (6) maintenance and night guard recommendation, (7) photograph and digital smile design (DSD) workflow. Format as a 2-page plan with a timeline chart. Include a clinical-aid disclaimer that outcomes depend on clinical assessment.",
+      "tags": [
+        "treatment-plan",
+        "cosmetic-dentistry",
+        "veneers",
+        "smile-makeover",
+        "patient-education"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-026",
+      "title": "Consent Form for Teeth Whitening Procedure",
+      "prompt": "Act as a cosmetic dentist with 6 years of experience in a Gurgaon dental clinic. I need you to draft an informed consent form for in-office teeth whitening with 40% hydrogen peroxide and LED activation. Here is the context: 28-year-old female, no restorations on anterior teeth, mild extrinsic staining from chai and coffee. Please provide: (1) identification block, (2) procedure description (isolation, gingival barrier, 3 cycles of 15 minutes), (3) risks (transient sensitivity, gum irritation, uneven whitening, relapse), (4) contraindications disclosure (pregnancy, allergies, hypersensitive teeth), (5) expected outcome (2-4 shades improvement), (6) maintenance advice and touch-up protocol, (7) INR cost (INR 6,000-12,000), (8) non-guarantee clause, (9) signature block with DCI registration, (10) Hindi translation attestation. Format as a 2-page A4 form. Include a clinical-aid disclaimer.",
+      "tags": [
+        "consent-form",
+        "whitening",
+        "cosmetic",
+        "medico-legal",
+        "dci"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-027",
+      "title": "Treatment Plan for Complete Denture",
+      "prompt": "Act as a prosthodontist with 15 years of experience in a Varanasi dental practice. I need you to draft a treatment plan explanation for a 68-year-old fully edentulous patient who lost his last teeth 2 years ago. Here is the context: patient has a limited pension budget, is not keen on implants, wants functional and aesthetic complete dentures. Please provide: (1) a brief Hindi + English explanation of complete dentures and adaptation period, (2) 5-visit workflow (primary impression, secondary impression, jaw relation, try-in, insertion), (3) options: conventional heat-cure acrylic (INR 8,000-15,000), high-impact acrylic (INR 15,000-25,000), flexible valplast where applicable, BPS dentures (INR 30,000-60,000), (4) expected adaptation issues (sore spots, gagging, speech), (5) aftercare and denture hygiene, (6) 6-monthly recall for relining, (7) future option of implant-retained overdentures (INR 1-2 lakh). Format as a 2-page handout with a cost table and a Do/Don't list. Include a clinical-aid disclaimer that individual fit depends on ridge anatomy.",
+      "tags": [
+        "treatment-plan",
+        "complete-denture",
+        "prosthodontics",
+        "geriatric",
+        "patient-education"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-028",
+      "title": "Case Presentation: Management of Dental Trauma",
+      "prompt": "Act as a pedodontist presenting a dental trauma case at an ISPPD conference. I need you to structure a 15-minute presentation on the management of a complicated crown fracture of tooth 11 in an 8-year-old boy after a playground fall. Here is the context: pulp exposure 2 mm, bleeding, patient presented within 2 hours. Please provide: (1) learning objectives based on IADT guidelines, (2) history and examination findings, (3) radiographic assessment for root development (open apex), (4) treatment plan: pulp capping vs partial pulpotomy with MTA/Biodentine vs pulpectomy, rationale for chosen option, (5) restorative plan with composite + fragment reattachment if available, (6) follow-up protocol (1, 3, 6, 12 months), (7) outcomes at 1 year, (8) teaching pearls on paediatric trauma in Indian ER settings, (9) references. Format as a 12-slide outline with presenter notes. Include a clinical-aid disclaimer on consent and anonymisation.",
+      "tags": [
+        "case-presentation",
+        "trauma",
+        "pedodontics",
+        "iadt",
+        "cme"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-029",
+      "title": "Pre-Auth for Impacted Wisdom Tooth Removal",
+      "prompt": "Act as a dental billing coordinator at a Pune dental hospital empanelled with Star Health and Bajaj Allianz. I need you to draft a pre-authorization letter for removal of all four impacted wisdom teeth under IV sedation as a day-care procedure. Here is the context: 26-year-old patient with recurrent pericoronitis on 38 and 48, orthodontic referral for prophylactic removal of 18 and 28. Please provide: (1) clinic header with NABH/DCI details, (2) patient and policy information, (3) medical necessity justification for day-care admission and sedation, (4) diagnosis with ICD-10 (K01.1), (5) CPT codes for surgical extraction, (6) itemised INR estimate (surgeon INR 20,000-30,000, OT/sedation INR 15,000-25,000, medicines INR 3,000, total INR 40,000-60,000), (7) expected stay (4-6 hours), (8) attached documents (OPG, blood reports, consent), (9) signature block. Format as a formal 1.5-page letter. Include a clinical-aid disclaimer that approval depends on policy terms.",
+      "tags": [
+        "pre-authorization",
+        "wisdom-teeth",
+        "insurance",
+        "day-care",
+        "tpa"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-030",
+      "title": "Patient Education: Care After Extraction",
+      "prompt": "Act as an oral surgeon at a Ranchi dental clinic. I need you to draft a post-extraction care handout for patients in simple Hindi + English. Here is the context: patients often rinse vigorously, eat hot spicy food, and skip antibiotics after extractions, leading to dry socket and infection. Please provide: (1) 24-hour golden rules (bite on gauze 30 min, no spitting, no rinsing, no smoking), (2) diet advice (cold/lukewarm soft food for 24 hours, avoid chai for 2 hours, no straw), (3) medication schedule (antibiotic, analgesic, antacid), (4) pain and swelling management (cold pack 10 min on/off for 24 hours), (5) red-flag symptoms requiring urgent review (bleeding >30 min, severe pain after day 3, fever, swelling increasing), (6) follow-up timeline and suture removal if any, (7) helpline number placeholder, (8) do/don't visual list. Format as a single-page A4 handout. Include a clinical-aid disclaimer.",
+      "tags": [
+        "patient-education",
+        "post-op",
+        "extraction",
+        "handout",
+        "oral-surgery"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-031",
+      "title": "Treatment Plan for Pediatric Caries with Sedation",
+      "prompt": "Act as a pedodontist with 10 years of experience in a Noida children's dental clinic. I need you to draft a treatment plan for a 4-year-old with early childhood caries affecting 10 teeth, requiring full-mouth rehabilitation under IV sedation. Here is the context: child is uncooperative, from a working-class family, father earns INR 35,000/month, no dental insurance. Please provide: (1) simple parent explanation of why sedation is needed, (2) pre-operative assessment (paediatric physician clearance, fasting protocol), (3) planned procedures (pulpectomy on 4 teeth, SSC on 6 teeth, extractions of 2 unrestorable teeth, fluoride varnish, space maintainer), (4) INR cost breakdown with EMI options (total INR 40,000-70,000), (5) risks of sedation and written consent requirements, (6) post-op diet and follow-up, (7) long-term prevention plan including bottle-feeding cessation. Format as a 3-page parent pack with a cost table and EMI disclosure. Include a clinical-aid disclaimer and note on ISPPD guidelines.",
+      "tags": [
+        "treatment-plan",
+        "pedodontics",
+        "sedation",
+        "ecc",
+        "patient-education"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-032",
+      "title": "Consent Form for Pediatric Dental Sedation",
+      "prompt": "Act as a pedodontist in a Chennai children's hospital. I need you to draft an informed consent form for IV sedation with midazolam and ketamine for full-mouth dental rehabilitation in a 4-year-old child. Here is the context: parental signature required, paediatric anaesthetist available on site. Please provide: (1) child and parent identification block, (2) medical and drug history checklist (allergies, asthma, cardiac), (3) fasting instructions (solids 6 hours, clear liquids 2 hours), (4) procedure description (sedation induction, monitoring, recovery), (5) risks (allergic reaction, airway compromise, prolonged sedation, paradoxical reaction), (6) alternatives (GA in OT, multi-visit behaviour management), (7) post-sedation care and discharge criteria, (8) INR cost disclosure, (9) parent signature + witness + dentist + anaesthetist signatures with DCI/MCI numbers, (10) Hindi verbal explanation attestation. Format as a 3-page A4 form. Include a clinical-aid disclaimer and note that this must be reviewed by legal counsel.",
+      "tags": [
+        "consent-form",
+        "sedation",
+        "pedodontics",
+        "medico-legal",
+        "paediatric"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-033",
+      "title": "Treatment Plan for TMJ Disorder",
+      "prompt": "Act as a TMJ and orofacial pain specialist in a Delhi dental practice. I need you to draft a conservative treatment plan for a 34-year-old IT professional with myofascial pain, clicking, and limited mouth opening (32 mm). Here is the context: patient grinds teeth at night, high work stress, mild depression, no systemic disease. Please provide: (1) brief explanation of TMJ disorder in Hindi + English, (2) diagnosis summary (myofascial pain + disc displacement with reduction), (3) Phase I: conservative care (soft diet, hot/cold packs, NSAIDs, stress management, jaw exercises), (4) Phase II: occlusal splint/night guard (INR 4,500-9,000), (5) Phase III: referral for physiotherapy, CBT, or botox if refractory, (6) red-flag symptoms needing MRI and specialist review, (7) 6-week review protocol. Format as a 2-page patient handout with a jaw exercise diagram placeholder and a self-care checklist. Include a clinical-aid disclaimer and referral option.",
+      "tags": [
+        "treatment-plan",
+        "tmj",
+        "occlusal-splint",
+        "patient-education",
+        "orofacial-pain"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-034",
+      "title": "Case Presentation: Oral Cancer Early Detection",
+      "prompt": "Act as an oral and maxillofacial pathologist presenting at a Tata Memorial Hospital CME. I need you to structure a 20-minute case on the early detection of tongue squamous cell carcinoma in a 45-year-old tobacco chewer. Here is the context: patient presented with a non-healing ulcer on the right lateral tongue for 3 weeks, referred by a general dentist. Please provide: (1) learning objectives, (2) history and risk factors (gutka, alcohol, betel quid), (3) clinical examination and photographic findings, (4) differential diagnosis (traumatic ulcer, TB, syphilis, cancer), (5) investigations (toluidine blue, incisional biopsy, CT/MRI, neck ultrasound), (6) histopathology findings and TNM staging, (7) referral pathway to oncology, treatment overview (surgery + radio/chemo), (8) prognosis and 5-year survival data from ICMR/NCDIR, (9) teaching pearls on oral screening for every dental visit, (10) 5 references. Format as a 15-slide outline with notes. Include a clinical-aid disclaimer.",
+      "tags": [
+        "case-presentation",
+        "oral-cancer",
+        "oral-pathology",
+        "cme",
+        "screening"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-035",
+      "title": "Denial Appeal Letter for Dental Insurance Claim",
+      "prompt": "Act as an insurance coordinator at a dental chain similar to Apollo White. I need you to draft an appeal letter to a TPA that denied pre-authorization for surgical extraction and bone grafting in a 40-year-old patient, citing the procedure as 'elective cosmetic'. Here is the context: patient has documented pericoronitis, pain, and bone loss; TPA rejection letter dated 2 weeks ago. Please provide: (1) letter header with clinic and empanelment details, (2) patient and claim reference, (3) concise statement of appeal with citation of the denial reason, (4) clinical justification with ICD-10 codes, radiographs, and symptoms supporting medical necessity, (5) reference to the policy clause covering surgical dental procedures under medical necessity, (6) supporting documents list (photographs, OPG, clinical notes, referral), (7) request for reconsideration within 7 working days, (8) escalation warning to IRDAI Insurance Ombudsman if unresolved, (9) signature block with DCI number. Format as a formal 1.5-page letter. Include a clinical-aid disclaimer that appeal outcomes depend on policy terms.",
+      "tags": [
+        "insurance",
+        "appeal",
+        "denial",
+        "tpa",
+        "irdai"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-036",
+      "title": "Patient Handout: Caring for Dental Implants",
+      "prompt": "Act as a periodontist specialising in implant maintenance at a Hyderabad dental clinic. I need you to draft a post-implant care and long-term maintenance handout. Here is the context: patients often neglect home care after implant placement, leading to peri-implant mucositis and peri-implantitis. Please provide: (1) brief Hindi + English explanation of why implants can 'fail' without care, (2) first 2 weeks: soft diet, chlorhexidine rinse, gentle brushing at the site, (3) daily home care: soft brush, interdental brushes, water flosser, implant-specific floss, (4) avoid: hard foods, smoking, tongue piercings, (5) 3-monthly professional maintenance visits for first year, then 6-monthly, (6) warning signs (bleeding, swelling, mobility, pain), (7) INR costs for maintenance cleaning (INR 1,500-3,000/visit), (8) lifetime habit building. Format as a 2-page A4 handout with a monthly checklist. Include a clinical-aid disclaimer.",
+      "tags": [
+        "patient-education",
+        "implant",
+        "maintenance",
+        "peri-implantitis",
+        "handout"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-037",
+      "title": "Consent Form for Composite Veneer Procedure",
+      "prompt": "Act as a cosmetic dentist with 8 years of experience in a Bengaluru clinic. I need you to draft an informed consent form for direct composite veneers on teeth 11, 12, 21, 22 to correct mild diastema and staining. Here is the context: 26-year-old female, budget-conscious, opting for composite over porcelain. Please provide: (1) identification block, (2) procedure description (minimal prep, etching, bonding, layered composite, polishing), (3) risks (staining over time, chipping, debonding, need for replacement in 5-8 years, post-op sensitivity), (4) alternatives (porcelain veneers, orthodontics, whitening alone), (5) maintenance (avoid dark foods, no nail biting, nightguard if bruxism), (6) INR cost (INR 3,000-6,000/tooth, total INR 12,000-24,000), (7) non-guarantee clause for longevity, (8) signature block with DCI number, (9) Hindi translation attestation. Format as a 2-page A4 form. Include a clinical-aid disclaimer.",
+      "tags": [
+        "consent-form",
+        "composite-veneers",
+        "cosmetic",
+        "medico-legal",
+        "dci"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-038",
+      "title": "Treatment Plan for Pregnant Patient with Dental Caries",
+      "prompt": "Act as a dentist with 7 years of experience in a Kolkata dental practice. I need you to draft a safe treatment plan for a 28-year-old pregnant patient in her second trimester with multiple carious teeth and gingivitis. Here is the context: patient is anxious about harming the baby, obstetrician has cleared routine dental care. Please provide: (1) brief reassurance in Hindi + English about dental safety during pregnancy (ACOG/FDI guidelines), (2) prioritised treatment (scaling + simple restorations during 2nd trimester; defer electives to post-partum), (3) safe medications (paracetamol yes, NSAIDs and tetracycline no, lignocaine with adrenaline acceptable in small doses), (4) radiograph safety (IOPA with lead apron if essential), (5) oral hygiene protocol for pregnancy gingivitis, (6) diet and morning sickness erosion management, (7) post-partum recall. Format as a 2-page handout with a safety do/don't table. Include a clinical-aid disclaimer and note to coordinate with the treating obstetrician.",
+      "tags": [
+        "treatment-plan",
+        "pregnancy",
+        "patient-education",
+        "safety",
+        "gingivitis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-039",
+      "title": "Case Presentation: Management of Dentinal Hypersensitivity",
+      "prompt": "Act as a conservative dentistry and endodontics faculty member preparing a UG-level teaching case at a dental college in Manipal. I need you to structure a 15-minute case presentation on the management of generalised dentinal hypersensitivity in a 38-year-old patient. Here is the context: patient brushes with hard bristles, consumes citrus frequently, has gingival recession 1-2 mm on multiple teeth. Please provide: (1) learning objectives, (2) definition and etiopathogenesis (hydrodynamic theory), (3) history and examination (air blast test, cold test, Schiff scale), (4) differential diagnosis (cracked tooth, caries, pulpitis), (5) stepwise management: home-use desensitising toothpaste (potassium nitrate, stannous fluoride, NovaMin), in-office (fluoride varnish, GIC, diode laser, Gluma), (6) habit modification (soft brush, Bass technique, avoid citrus), (7) 4-week follow-up outcomes, (8) teaching pearls, (9) 5 references. Format as a 12-slide outline with presenter notes. Include a clinical-aid disclaimer.",
+      "tags": [
+        "case-presentation",
+        "hypersensitivity",
+        "conservative-dentistry",
+        "cme",
+        "teaching"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    },
+    {
+      "id": "medical-dentists-040",
+      "title": "Pre-Auth for Jaw Cyst Enucleation",
+      "prompt": "Act as a maxillofacial surgery billing coordinator at a Coimbatore tertiary dental hospital. I need you to draft a pre-authorization letter for enucleation of a large dentigerous cyst around an impacted tooth 38, planned under general anaesthesia with 2-day hospital admission. Here is the context: 35-year-old patient with a health insurance policy covering medically necessary surgeries, cyst 3x2 cm on OPG, biopsy-confirmed benign. Please provide: (1) hospital header with NABH accreditation, (2) patient and policy details, (3) clinical history and examination, (4) radiographic and histopathology findings, (5) diagnosis with ICD-10 (K09.0), (6) CPT code for cyst enucleation, (7) medical necessity justification (risk of mandibular fracture, infection, malignant transformation), (8) itemised INR estimate (surgeon, anaesthesia, 2-day stay, OT, implants, medicines, total INR 60,000-1.2 lakh), (9) supporting documents list, (10) signature block with DCI registration. Format as a formal 2-page letter. Include a clinical-aid disclaimer that approval depends on policy review.",
+      "tags": [
+        "pre-authorization",
+        "cyst-enucleation",
+        "maxillofacial",
+        "insurance",
+        "medical-necessity"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "dentists"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "category": "ngo",
+  "subcategory": "program-managers",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "ngo-program-managers-001",
+      "title": "Theory of Change for Program",
+      "prompt": "Act as a senior NGO program director (Pratham / Akshaya Patra / Goonj scale). Build a Theory of Change (ToC) for an education program targeting 15,000 first-generation learners in rural Bihar. Cover: (1) long-term outcome (income / agency in 10 yrs), (2) intermediate outcomes (learning levels, school retention, transition to higher ed), (3) outputs (teacher training, library, digital lab, community engagement), (4) activities, (5) inputs, (6) assumptions + risks (caste dynamics, monsoon school closure, migration), (7) measurement framework (baseline + endline). Constraints: align with NEP 2020 + ASER assessment; respect community agency; gender + caste lens; CSR-funder compatible.",
+      "category": "ngo",
+      "subcategory": "program-managers",
+      "tags": ["theory-of-change", "education", "bihar", "asercc", "csr"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true
+    },
+    {
+      "id": "ngo-program-managers-002",
+      "title": "Donor Report (Quarterly)",
+      "prompt": "Act as a senior NGO grants manager. Write a 1,500-word quarterly donor report for a ₹4 Cr education program funded by Cipla Foundation. Cover: (1) executive summary (key wins + challenges), (2) progress vs targets (per indicator), (3) beneficiary stories (3 with consent), (4) financial utilisation (₹ + variance), (5) lessons learned, (6) plans for next quarter, (7) ask from donor (additional support / introduction), (8) appendix (photos, MIS data). Constraints: align with FCRA reporting if foreign funder; respect beneficiary privacy + dignity (no exploitative imagery); transparent + honest gaps; signed by ED + program head.",
+      "category": "ngo",
+      "subcategory": "program-managers",
+      "tags": ["donor-report", "fcra", "cipla-foundation", "csr", "quarterly"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true
+    },
+    {
+      "id": "ngo-program-managers-003",
+      "title": "Beneficiary Story (Ethical Documentation)",
+      "prompt": "Act as a communications officer at an NGO. Write a 350-word beneficiary story about a 12-year-old girl in rural Jharkhand whose education was supported by the program. Cover: (1) introduction (context — village, family, situation), (2) before-the-program reality (factual without victim-tropes), (3) intervention (program support), (4) outcome (her words + verifiable impact), (5) future (her aspirations), (6) call to readers (donate / amplify). Constraints: align with ethical photography + storytelling guidelines; signed consent (and parent consent for minor); avoid 'saviour' framing; respect dignity; bilingual.",
+      "category": "ngo",
+      "subcategory": "program-managers",
+      "tags": ["beneficiary-story", "ethical-storytelling", "jharkhand", "consent", "dignity"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "ngo-program-managers-004",
+      "title": "Proposal to Foundation Grant",
+      "prompt": "Act as a senior grant writer. Draft a 2,500-word proposal to Tata Trusts for ₹2.4 Cr over 3 years for a women's livelihoods program in rural Odisha (1,200 SHG members). Cover: (1) executive summary, (2) problem context, (3) proposed program (theory of change, activities, outputs, outcomes), (4) team + capacity, (5) timeline, (6) budget (₹ break-up by year + cost head), (7) sustainability post-grant, (8) risk + mitigation, (9) measurement, (10) annexures (org info, audited accounts, prior projects). Constraints: align with Tata Trusts focus areas; FCRA-compliant if international funding; honest about challenges; INR transparent; CSR + tax 80G mention.",
+      "category": "ngo",
+      "subcategory": "program-managers",
+      "tags": ["grant-proposal", "tata-trusts", "shg", "odisha", "fcra"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "ngo-program-managers-005",
+      "title": "Monitoring + Evaluation Framework",
+      "prompt": "Act as an M&E specialist. Build M&E framework for an NGO running maternal-health intervention across 8 districts in MP (60,000 pregnant women / year). Cover: (1) results framework (impact, outcome, output, activity), (2) indicators per level (with definition, source, frequency), (3) baseline + endline survey design, (4) routine MIS (mobile-based), (5) third-party evaluation at year-3, (6) data quality assurance, (7) community-feedback mechanism, (8) reporting cadence + format, (9) DPDP-aligned data handling. Constraints: align with NHM + NRHM indicators; respect respondent privacy; cost-effective for NGO budget; documented for funder.",
+      "category": "ngo",
+      "subcategory": "program-managers",
+      "tags": ["m-and-e", "maternal-health", "mp", "nhm", "dpdp"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "ngo-program-managers-006",
+      "title": "Volunteer Management Program",
+      "prompt": "Act as a volunteer coordinator. Build a volunteer management program for 250 volunteers across 5 cities (Bengaluru, Mumbai, Delhi, Chennai, Kolkata). Cover: (1) recruitment channels (LinkedIn, Daan Utsav, Goonj NGO partnerships, college NSS), (2) on-boarding (orientation, role match, code of conduct, POSH for women + child safeguarding), (3) engagement (monthly call, recognition, certificate), (4) retention strategies, (5) volunteer-led-events, (6) tracking (hours, outputs, impact), (7) DPDP-compliant data handling. Constraints: respect volunteer time + dignity; align with NCPCR safeguarding for child-facing volunteers; INR ₹X annual program budget.",
+      "category": "ngo",
+      "subcategory": "program-managers",
+      "tags": ["volunteer", "management", "daan-utsav", "ncpcr", "safeguarding"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "ngo-program-managers-007",
+      "title": "Government Partnership Proposal",
+      "prompt": "Act as a senior NGO partnerships head. Draft a partnership proposal to a state government department (Department of Women & Child Development, Karnataka) to scale a tested model for adolescent girls' empowerment from 5 to 50 districts. Cover: (1) context + alignment with state priorities (Beti Bachao Beti Padhao, POCSO Awareness, ICDS), (2) proven model evidence (5-district outcomes), (3) proposed scale-up (50 districts in 4 years), (4) cost ₹86 Cr (50% govt + 30% CSR + 20% NGO bring-in), (5) partnership structure (MoU, JD with ICDS), (6) governance, (7) M&E, (8) ask + signing path. Constraints: align with state govt format; transparent; cite ICDS framework; respect state autonomy.",
+      "category": "ngo",
+      "subcategory": "program-managers",
+      "tags": ["govt-partnership", "scale-up", "icds", "karnataka", "mou"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "ngo-program-managers-008",
+      "title": "CSR Project Closure Report",
+      "prompt": "Act as a CSR project lead. Draft a CSR project closure report for a 24-month ₹1.8 Cr Wipro CSR-funded skills program (1,500 youth trained). Cover: (1) executive summary, (2) project objectives + delivery, (3) beneficiary numbers vs target, (4) outcomes (placement %, salary, retention), (5) impact stories, (6) financial utilisation (item-wise + variance + audit), (7) sustainability beyond grant, (8) ESG + SDG mapping, (9) lessons + recommendations, (10) annexures. Constraints: align with Companies Act Section 135 + Schedule VII + CSR Rules 2014; FCRA if foreign; transparent + audited; bilingual.",
+      "category": "ngo",
+      "subcategory": "program-managers",
+      "tags": ["csr-closure", "wipro", "section-135", "schedule-vii", "skills"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "ngo-program-managers-009",
+      "title": "Field Staff Recruitment Plan",
+      "prompt": "Act as an HR head at an NGO. Build a recruitment plan for 22 field staff for an SHG program in rural West Bengal. Cover: (1) JD (block coordinator, field officer, social worker), (2) competency model (community connect + Bengali fluency + women-friendly), (3) sourcing (local schools, BSW interns, referral, NSS), (4) selection (GD + interview + community-walk), (5) induction (4-week — village immersion + program training), (6) compensation ₹18-32K depending on role, (7) retention strategies (career path, recognition), (8) D&I (50% women, 30% local block resident). Constraints: respect rural context; PoSH compliance; bilingual; documented offer.",
+      "category": "ngo",
+      "subcategory": "program-managers",
+      "tags": ["recruitment", "field-staff", "shg", "west-bengal", "posh"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "ngo-program-managers-010",
+      "title": "Research Report (Field Study)",
+      "prompt": "Act as a senior research lead at an NGO. Write a 1,200-word research report on adolescent menstrual health knowledge in rural UP (n=400 girls aged 12-18 surveyed). Cover: (1) introduction + research questions, (2) methodology (sampling, instrument, ethics), (3) key findings (knowledge, practices, taboos, school absenteeism), (4) socio-cultural drivers, (5) policy implications, (6) program recommendations, (7) limitations, (8) acknowledgements + ethics approval (IRB + parent consent for minors). Constraints: align with ICMR ethics + NCPCR safeguarding + UNICEF guidelines; respect dignity; commit to community-feedback session before publishing.",
+      "category": "ngo",
+      "subcategory": "program-managers",
+      "tags": ["research-report", "menstrual-health", "up", "ethics", "icmr"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "ngo-program-managers-011",
+      "title": "Annual Report Narrative",
+      "prompt": "Act as a senior communications officer. Write a 3,500-word annual report narrative for an NGO (₹14 Cr annual budget, 6 programs, 50,000 beneficiaries). Sections: (1) chairperson message, (2) ED letter, (3) year in numbers (infographic), (4) program highlights (per program: context, work, outcomes, story), (5) governance + team, (6) finance summary, (7) donor + partner thanks, (8) future plans. Constraints: align with FCRA + Companies Act for Section 8 reporting; transparent; warm tone; commit to website upload + 80G donor mailing.",
+      "category": "ngo",
+      "subcategory": "program-managers",
+      "tags": ["annual-report", "narrative", "fcra", "section-8", "donors"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "ngo-program-managers-012",
+      "title": "Crisis Response Plan (Disaster)",
+      "prompt": "Act as a humanitarian response lead. Build a crisis response plan template for an NGO operating in flood-prone Assam districts. Cover: (1) early warning + alert system (IMD + state DM), (2) pre-positioned relief stock (rations, medical, tarp, hygiene kit), (3) trained volunteer + boat network, (4) needs assessment in first 72 hrs (WASH, food, shelter, health, women + child protection), (5) coordination with NDMA + SDMA + IFRC, (6) partnerships (Gov, WHO, UNICEF, local CSO), (7) media + donor communication, (8) accountability to affected populations (CHS standard), (9) post-crisis recovery + rehabilitation. Constraints: align with Sphere standards + CHS; INR contingency reserve; FCRA cleared funding.",
+      "category": "ngo",
+      "subcategory": "program-managers",
+      "tags": ["disaster-response", "assam", "ndma", "sphere", "chs"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    }
+  ]
+}

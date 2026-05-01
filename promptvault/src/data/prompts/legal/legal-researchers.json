@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "legal-legal-researchers-001",
+      "title": "Supreme Court Judgment Ratio vs Obiter Analysis",
+      "prompt": "Act as a senior legal researcher with 12 years experience at a Tier-1 Indian law firm like Cyril Amarchand Mangaldas specialising in Supreme Court jurisprudence. I need you to analyse a Supreme Court of India judgment and separate the ratio decidendi from obiter dicta with precision. Here is the context: I am preparing a research note for a partner who will argue a commercial dispute before the Bombay High Court and needs to cite the judgment authoritatively without overstating its binding effect under Article 141. Please provide: (1) a one-paragraph factual matrix of the case with parties, forum history, and the precise question of law; (2) the ratio decidendi stated as a single binding proposition with paragraph references; (3) a list of obiter observations with paragraph numbers and a note on their persuasive value; (4) concurring or dissenting opinions and whether any observations blur the ratio; (5) the \"neutral citation\" and parallel citations (SCC, SCR, AIR); (6) three lower-court judgments that have applied the ratio and one that has distinguished it. Format the output as a structured memo with headings and a final \"How to Cite\" box. Consider these constraints: Article 141 binding effect, the Constitution Bench strength rule, and the distinction between per incuriam and sub silentio. Ask me for the judgment citation or text if not provided.",
+      "tags": [
+        "case-analysis",
+        "ratio-decidendi",
+        "supreme-court",
+        "precedent"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-002",
+      "title": "Statutory Interpretation Memo Using Three Rules",
+      "prompt": "Act as a statutory interpretation specialist with 10 years experience researching for Khaitan & Co on tax and commercial statutes. I need you to produce an interpretation memo on a contested provision of an Indian statute applying the literal rule, the golden rule, the mischief rule, and the purposive approach in sequence. Here is the context: a client faces an ambiguity in a section of the Companies Act 2013 (or any statute I specify) where the plain text appears to produce an absurd commercial result, and the Ministry of Corporate Affairs circulars are silent. Please provide: (1) the exact text of the provision with marginal note and any proviso; (2) a literal reading and the result it produces; (3) a golden rule reading that avoids absurdity; (4) a mischief rule analysis using Heydon's Case, identifying the pre-amendment defect and the remedy; (5) a purposive reading drawing on the Statement of Objects and Reasons, Parliamentary debates, and Law Commission reports; (6) a reconciled recommended interpretation with risk rating (low/medium/high). Format as a formal opinion memo of 1,200 words with footnotes. Consider these constraints: Section 6 of the General Clauses Act 1897, the rule against retrospectivity, and the ejusdem generis canon where relevant. Ask me for the provision if not provided.",
+      "tags": [
+        "statutory-interpretation",
+        "legal-opinion",
+        "companies-act",
+        "purposive-construction"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-003",
+      "title": "Distinguishing a Binding Precedent",
+      "prompt": "Act as a High Court advocate with 8 years experience drafting distinguishing notes for Shardul Amarchand Mangaldas litigation teams. I need you to build a robust argument distinguishing a binding Supreme Court or High Court precedent from the facts of my current matter. Here is the context: the opposing counsel is relying on a judgment that superficially resembles my client's dispute but differs on material facts, commercial context, or the statutory regime in force at the relevant time. Please provide: (1) a side-by-side factual matrix comparing the cited precedent with my case in tabular form; (2) at least five points of material distinction covering parties, transaction structure, governing statute, remedy sought, and factual matrix; (3) the ratio of the cited precedent stated narrowly so as not to cover my facts; (4) supporting Supreme Court authority that approves narrow reading of precedents; (5) a draft oral argument of 300 words the senior counsel can deliver; (6) anticipated rebuttals from opposing counsel and counter-responses. Format as a litigation brief with headings. Consider these constraints: the doctrine of stare decisis, Article 141, and the risk of being accused of ignoring binding precedent. Ask me for both judgments before proceeding.",
+      "tags": [
+        "case-analysis",
+        "precedent",
+        "distinguishing",
+        "litigation-strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-004",
+      "title": "IBC Section 29A Precedent Map",
+      "prompt": "Act as an insolvency law researcher with 7 years experience supporting AZB & Partners resolution professionals. I need you to build a comprehensive precedent map on Section 29A of the Insolvency and Bankruptcy Code 2016 tracking how the ineligibility provisions have been interpreted since 2018. Here is the context: a resolution applicant in a CIRP of a mid-sized steel company in Raipur with claims of INR 1,850 crore is at risk of disqualification and we need to advise the Committee of Creditors on whether the plan can be accepted. Please provide: (1) a chronological table of the top 15 Supreme Court and NCLAT judgments on Section 29A with citation, key holding, and sub-clause interpreted; (2) the evolution of the \"connected person\" test post ArcelorMittal v Satish Gupta; (3) the current position on ineligibility of promoters under 29A(c) and 29A(h); (4) any pending references or overruled positions; (5) a one-page flowchart a CoC member can use to pre-screen applicants; (6) three strategic drafting tips for plan proponents. Format as a research bulletin with an executive summary. Consider these constraints: the 330-day CIRP timeline, Regulation 38 of CIRP Regulations, and the Swiss Ribbons judgment on constitutional validity.",
+      "tags": [
+        "precedent",
+        "ibc",
+        "case-analysis",
+        "insolvency"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-005",
+      "title": "Arbitration Act Amendment Comparative Analysis",
+      "prompt": "Act as an arbitration researcher with 9 years experience tracking the Arbitration and Conciliation Act 1996 amendments for Trilegal's dispute resolution practice. I need you to prepare a comparative analysis of the 2015, 2019, and 2021 amendments to the Act and their impact on the grounds for setting aside an arbitral award under Section 34. Here is the context: our client, a Mumbai-based infrastructure company, has received an adverse INR 420 crore award from a Delhi-seated tribunal and we are evaluating Section 34 strategy. Please provide: (1) a three-column table mapping Section 34 as it stood in the 1996 Act, post-2015, and post-2019 with the precise textual changes; (2) the judicial response in BCCI v Kochi Cricket, Ssangyong Engineering, and Delhi Metro v DAMEPL; (3) the \"patent illegality\" test as currently understood; (4) the \"public policy\" ground after Renusagar, Saw Pipes, and Western Geco; (5) transitional provisions and which version applies to our award based on commencement of arbitration; (6) a recommended ground ranking for the challenge. Format as a structured research note with citations. Consider these constraints: the 120-day limitation under Section 34(3), the conditional stay regime, and the minimal intervention doctrine.",
+      "tags": [
+        "statutory-interpretation",
+        "arbitration",
+        "amendments",
+        "case-analysis"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-006",
+      "title": "Headnote Drafting for Reported Judgment",
+      "prompt": "Act as a law reporter with 15 years experience drafting headnotes for the Supreme Court Cases (SCC) reporter. I need you to draft a publication-quality headnote for a recent Supreme Court judgment I will provide. Here is the context: the judgment is a 78-page ruling on a question of constitutional law and the editor wants a headnote that is faithful to the ratio, easy to cite, and suitable for inclusion in the next SCC volume. Please provide: (1) a short title line with parties, case number, and bench composition; (2) the \"Held\" portion with the core ratio in no more than 150 words broken into sub-propositions; (3) a catchwords string using standard SCC conventions (Act, Section, Key terms); (4) a factual summary of 200 words; (5) a \"Cases Referred\" table listing judgments relied on, distinguished, and overruled with citations; (6) cross-references to treatises like Seervai, HM Seervai's Constitutional Law of India, or Mulla where appropriate. Format in the exact SCC headnote style with bold catchwords and numbered sub-paras. Consider these constraints: avoiding editorial opinion, maintaining neutrality, and faithfully reflecting dissenting views if any. Request the judgment text before starting.",
+      "tags": [
+        "case-analysis",
+        "headnote",
+        "law-reporting",
+        "supreme-court"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-007",
+      "title": "Comparative Law: India vs Singapore Arbitration Seat",
+      "prompt": "Act as an international arbitration researcher with 10 years experience at Luthra & Luthra advising clients on seat selection. I need you to draft a comparative analysis between India and Singapore as arbitral seats for a cross-border commercial dispute worth USD 75 million between an Indian technology company and a Japanese investor. Here is the context: the parties are finalising a shareholders' agreement and need a neutral recommendation on seat, curial law, and enforcement pathway. Please provide: (1) a comparative table on ten parameters: governing statute, default rules, interim relief, court intervention, appointment of arbitrators, challenge grounds, enforcement, cost, timeline, and confidentiality; (2) the position under Indian law post BALCO and Amazon v Future Retail; (3) the Singapore position under the International Arbitration Act and recent SICC jurisprudence; (4) enforcement of the resulting award in India under the New York Convention and Section 48; (5) tax and FEMA considerations for the Indian party; (6) a reasoned recommendation with risk rating. Format as an advisory memo of 1,500 words with footnotes. Consider these constraints: DPDP 2023 on cross-border data, the Foreign Awards regime, and recent SC rulings on unstamped arbitration agreements.",
+      "tags": [
+        "comparative-law",
+        "arbitration",
+        "legal-opinion",
+        "cross-border"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-008",
+      "title": "Literal Interpretation of GST Provision",
+      "prompt": "Act as an indirect tax researcher with 8 years experience supporting SAM Partners tax litigation teams. I need you to apply the literal rule of statutory interpretation to a contested provision of the Central Goods and Services Tax Act 2017 and test whether the literal meaning holds against departmental circulars. Here is the context: the department has issued a show cause notice of INR 64 crore to a Gurugram-based SaaS exporter alleging wrong claim of refund under Section 54 read with Rule 89 of the CGST Rules, and we believe the literal reading of the proviso supports the assessee. Please provide: (1) the exact wording of the section, rule, and proviso with punctuation preserved; (2) the literal meaning of each operative word using authoritative dictionaries; (3) the departmental circular position and why it strays from the text; (4) Supreme Court authority on literal construction of taxing statutes (Cape Brandy Syndicate, Dilip Kumar); (5) a draft reply paragraph of 250 words asserting the literal reading; (6) risk of the tribunal preferring a purposive reading. Format as a tax opinion memo. Consider these constraints: the rule that taxing statutes are strictly construed, benefit of doubt to the assessee, and Section 11B of the Central Excise Act as predecessor.",
+      "tags": [
+        "statutory-interpretation",
+        "gst",
+        "legal-opinion",
+        "tax"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-009",
+      "title": "Positive Precedent Bundle for Writ Petition",
+      "prompt": "Act as a constitutional law researcher with 6 years experience preparing precedent bundles for L&L Partners writ practice. I need you to assemble a bundle of positive precedents supporting a writ petition under Article 226 before the Delhi High Court challenging a regulatory order of the Directorate General of Foreign Trade. Here is the context: the client is a Ludhiana exporter whose IEC code has been suspended without a hearing in alleged violation of natural justice, and we need cases that establish (a) maintainability of the writ, (b) audi alteram partem, and (c) scope of judicial review of administrative action. Please provide: (1) five Supreme Court judgments directly on point with citation, ratio, and paragraph reference for each proposition; (2) three Delhi High Court judgments on the same points; (3) a precedent hierarchy table showing binding strength; (4) any adverse authority and how to distinguish it; (5) a draft \"List of Authorities\" in the format accepted by Delhi HC; (6) a 200-word synopsis for the court. Format as a litigation bundle index with Roman numeral headings. Consider these constraints: the self-imposed limits on writ jurisdiction, alternative remedy doctrine, and the Maneka Gandhi expansion of Article 14.",
+      "tags": [
+        "precedent",
+        "writ-petition",
+        "constitutional-law",
+        "litigation-strategy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-010",
+      "title": "Harmonious Construction Across Two Statutes",
+      "prompt": "Act as a legal researcher with 11 years experience on statutory conflicts at Cyril Amarchand Mangaldas. I need you to resolve an apparent conflict between two Indian statutes using the rule of harmonious construction. Here is the context: there is a perceived tension between Section 238 of the Insolvency and Bankruptcy Code 2016 (non-obstante clause) and Section 34 of the SARFAESI Act 2002, and my client, a secured creditor of a steel mill under CIRP, needs to know which statute prevails over the other on enforcement of security interest. Please provide: (1) the exact text of both provisions with marginal notes; (2) the doctrinal test for harmonious construction from Venkataramana Devaru and CIT v Hindustan Bulk Carriers; (3) an analysis reconciling the two provisions without rendering either otiose; (4) the Supreme Court's treatment in Innoventive Industries, Pr. CIT v Monnet Ispat, and Sundaresh Bhatt v CBIC; (5) a recommended hierarchy rule for future transactions; (6) drafting language for a legal opinion to the client. Format as a detailed research memo with bluebook-style citations. Consider these constraints: the generalia specialibus non derogant rule, legislative intent drawn from the BLRC Report, and Article 254 where central statutes are involved.",
+      "tags": [
+        "statutory-interpretation",
+        "harmonious-construction",
+        "ibc",
+        "sarfaesi"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-011",
+      "title": "Regulatory Risk Memo Under DPDP Act 2023",
+      "prompt": "Act as a data protection researcher with 5 years experience advising Indian subsidiaries of global tech companies for Khaitan & Co. I need you to draft a regulatory risk memo under the Digital Personal Data Protection Act 2023 for a Bengaluru-based fintech processing data of 12 million Indian users. Here is the context: the company is launching an AI-driven credit scoring model that uses behavioural data and wants a pre-launch opinion on DPDP compliance, cross-border transfer, and exposure under Section 33 penalties up to INR 250 crore. Please provide: (1) a mapping of the product flow to DPDP obligations (consent, notice, purpose limitation, significant data fiduciary); (2) the role and obligations of a Data Protection Officer; (3) cross-border transfer analysis under Section 16 and awaited government notifications; (4) likely DPDP Rules positions based on the draft rules of January 2025; (5) a heatmap of high/medium/low risks with mitigation steps; (6) an executive summary of 200 words for the CEO. Format as a regulatory opinion memo with footnotes and an Annexure of provisions. Consider these constraints: RBI data localisation directives, SEBI cybersecurity framework, and the IT Act 2000 residual operation.",
+      "tags": [
+        "legal-opinion",
+        "dpdp",
+        "data-protection",
+        "regulatory-risk"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-012",
+      "title": "Tracing an Overruled Precedent",
+      "prompt": "Act as a legal researcher with 9 years experience tracing the judicial afterlife of Indian precedents for AZB & Partners. I need you to trace whether a cited judgment of the Supreme Court of India has been overruled, doubted, or watered down by later benches. Here is the context: opposing counsel in a commercial suit before the Karnataka High Court is relying heavily on a 1998 three-judge bench judgment on contractual damages under Section 73 of the Indian Contract Act 1872, and we suspect it has been diluted by later Constitution Bench observations. Please provide: (1) full citation and paragraph of the cited judgment; (2) a chronological list of all subsequent Supreme Court cases that referred to it, grouped as followed, distinguished, doubted, or overruled; (3) the bench strength comparison and the rule that a larger bench is needed to overrule; (4) the current doctrinal position with the most authoritative recent judgment; (5) a draft 300-word submission for oral argument asserting the case is no longer good law; (6) a cautionary note on the difference between overruling and mere distinguishing. Format as a research memo with a citation trail diagram. Consider these constraints: Article 141, the per incuriam doctrine, and the Central Board of Dawoodi Bohra rule on bench strength.",
+      "tags": [
+        "precedent",
+        "overruled",
+        "case-analysis",
+        "contract-act"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-013",
+      "title": "Transactional Memo on Share Purchase Agreement",
+      "prompt": "Act as a corporate law researcher with 8 years experience at Trilegal supporting M&A transactions. I need you to draft a transactional legal memo on key indemnity and warranty positions for a INR 1,200 crore share purchase agreement where our client is the Indian buyer of a Mumbai-headquartered pharma target. Here is the context: the seller is a promoter group and the target has pending GST litigation of INR 85 crore and a DRT proceeding. Please provide: (1) a summary of standard warranty baskets (title, tax, litigation, employment, environment, IP, data) with Indian market baseline positions; (2) indemnity cap, de minimis, basket, and survival period benchmarks for Indian M&A circa 2025; (3) specific indemnities drafted for the tax and DRT exposures; (4) escrow and holdback structuring under FEMA and RBI pricing guidelines; (5) dispute resolution clause with seat, venue, and emergency arbitrator; (6) a closing checklist. Format as a partner-ready transactional memo. Consider these constraints: the Companies Act 2013 related party provisions, Section 281 of the Income Tax Act on transfer with tax arrears, and Competition Commission of India filing thresholds.",
+      "tags": [
+        "legal-opinion",
+        "transactional",
+        "mergers-acquisitions",
+        "contract-drafting"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-014",
+      "title": "PMLA Scheduled Offence Analysis",
+      "prompt": "Act as a white-collar crime researcher with 7 years experience defending PMLA matters at Karanjawala & Co. I need you to analyse whether a given predicate offence qualifies as a \"scheduled offence\" under the Prevention of Money Laundering Act 2002 and whether the Enforcement Directorate has jurisdiction to register an ECIR. Here is the context: our client, a Delhi-based real estate developer, is under investigation for an alleged INR 340 crore diversion based on a predicate FIR under Sections 420 and 120B of the IPC, and we need a crisp research note on jurisdictional challenges. Please provide: (1) the test for a valid scheduled offence post Vijay Madanlal Choudhary v Union of India; (2) paragraph references to Pavana Dibbur and Prem Prakash on twin conditions; (3) challenge points: absence of predicate, quashing of predicate, territorial jurisdiction, and retrospective application; (4) a table of five recent Supreme Court bail orders in PMLA cases with grounds relied upon; (5) a draft 400-word writ petition ground; (6) risks of the ED invoking Section 50 summons. Format as a litigation research note. Consider these constraints: Section 45 twin conditions, Article 21, and the presumption under Section 24 PMLA.",
+      "tags": [
+        "case-analysis",
+        "pmla",
+        "criminal-law",
+        "litigation-strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-015",
+      "title": "Purposive Construction of Competition Act",
+      "prompt": "Act as a competition law researcher with 6 years experience at Shardul Amarchand Mangaldas. I need you to apply the purposive rule of interpretation to a disputed provision of the Competition Act 2002 to support a client seeking leniency under the Lesser Penalty Regulations. Here is the context: a Pune-based auto components manufacturer has discovered internal evidence of cartelisation in braking systems supply to OEMs and wants to file a leniency application but the wording of Regulation 4 creates ambiguity on marker priority. Please provide: (1) the exact text of the relevant section and regulation; (2) the legislative objects drawn from the Raghavan Committee Report and the Act's preamble; (3) a purposive reading that maximises incentives for first-in leniency applicants; (4) comparative reference to EU leniency guidelines as persuasive authority; (5) CCI's own guidance in Brushless DC Fans and Dry Cell Battery cases; (6) a recommended marker application strategy. Format as an advisory note of 1,200 words. Consider these constraints: Section 46 of the Competition Act, the 2023 amendment introducing settlement and commitment mechanisms, and the CCI's discretionary reduction range of 0-100%.",
+      "tags": [
+        "statutory-interpretation",
+        "competition-law",
+        "legal-opinion",
+        "cartel"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-016",
+      "title": "Case Brief Template for Constitutional Law",
+      "prompt": "Act as a constitutional law tutor with 10 years experience training junior associates at Tier-1 Indian law firms. I need you to prepare a case brief of a Supreme Court constitutional law judgment using a structured 9-heading template. Here is the context: I will share a judgment and need a consistent brief format that can be reused across a research library of 150 constitutional cases. Please provide the brief with these 9 headings: (1) Case name, citation, bench, date; (2) Procedural history across forums; (3) Material facts in 150 words; (4) Issues framed in the form of questions; (5) Arguments of petitioner and respondent in two columns; (6) Majority reasoning with paragraph references; (7) Concurring and dissenting opinions; (8) Ratio decidendi in one sentence; (9) Significance for constitutional doctrine and subsequent citation. Format the output in Markdown with H2 headings and a citation block at the top. Consider these constraints: neutrality of tone, accurate paragraph referencing, and noting whether the case has been referred to a larger bench. Please request the judgment citation before starting and flag if it is not reported in SCC.",
+      "tags": [
+        "case-analysis",
+        "constitutional-law",
+        "case-brief",
+        "research-template"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-017",
+      "title": "FEMA Opinion on Overseas Direct Investment",
+      "prompt": "Act as a FEMA researcher with 8 years experience at SAM Partners advising Indian corporates on outbound investments. I need you to draft a legal opinion on the permissibility of an overseas direct investment of USD 45 million by a Mumbai listed entity into a Dubai special purpose vehicle for acquiring a logistics business in Kenya. Here is the context: the structure involves layered SPVs and the client wants comfort on FEMA compliance, reporting, and round-tripping risk. Please provide: (1) applicability of FEM (Overseas Investment) Rules and Regulations 2022; (2) bona fide business test for the intermediate SPV; (3) round-tripping prohibition under Rule 19(3) and exceptions; (4) Form FC and APR filing timelines with RBI; (5) tax interplay with the India-UAE tax treaty and the recent PPT provisions; (6) a clearly worded opinion statement with assumptions and caveats. Format as a formal FEMA opinion memo with an executive summary and a risk-rated conclusion. Consider these constraints: RBI Master Directions, SEBI LODR obligations of the listed entity, and the Black Money Act disclosure requirements. Ask for the shareholding structure diagram before finalising the opinion.",
+      "tags": [
+        "legal-opinion",
+        "fema",
+        "outbound-investment",
+        "regulatory-risk"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-018",
+      "title": "Precedent Identification in Section 498A IPC",
+      "prompt": "Act as a criminal law researcher with 6 years experience briefing senior advocates at the Punjab & Haryana High Court. I need you to identify the current leading Supreme Court precedents on quashing First Information Reports under Section 498A of the Indian Penal Code and Section 85 of the Bharatiya Nyaya Sanhita 2023 on matrimonial cruelty allegations. Here is the context: our client, a software engineer in Chandigarh, is an accused named with his parents and married sister in a 498A FIR and we are exploring Section 482 CrPC / Section 528 BNSS quashing before the High Court. Please provide: (1) the top 10 Supreme Court judgments from Arnesh Kumar to the most recent 2024-25 ruling with citations and one-line ratios; (2) the Preeti Gupta line of cases on omnibus allegations against distant relatives; (3) the Kahkashan Kausar judgment on quashing against in-laws; (4) guidelines on arrest under Section 41A CrPC; (5) a draft ground of quashing petition of 300 words; (6) anticipated prosecution responses. Format as a research note for the senior counsel. Consider these constraints: the BNSS transition, the recent SC concern over misuse, and the non-compoundable nature of the offence.",
+      "tags": [
+        "precedent",
+        "criminal-law",
+        "quashing",
+        "case-analysis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-019",
+      "title": "SEBI LODR Obligation Map for IPO",
+      "prompt": "Act as a capital markets researcher with 7 years experience at Cyril Amarchand Mangaldas supporting IPO transactions. I need you to map the post-listing SEBI LODR obligations for a Bengaluru-based SaaS company with a proposed IPO size of INR 4,500 crore on the main board. Here is the context: the company has a complex cap table with foreign VC investors and pre-IPO employee stock options, and the board wants a compliance roadmap for the first 12 months post-listing. Please provide: (1) a timeline chart of mandatory filings under LODR Regulations 30, 33, 34, and 44; (2) the \"materiality policy\" threshold guidance; (3) related party transaction framework under Regulation 23 post the 2023 amendments; (4) insider trading compliance under PIT Regulations 2015; (5) corporate governance obligations including board composition and committees; (6) a list of 10 common post-IPO compliance errors. Format as a compliance calendar memo with a RACI matrix. Consider these constraints: SEBI ICDR Regulations for the IPO itself, the Companies Act 2013 on listed company governance, and the exchange-specific circulars of BSE and NSE.",
+      "tags": [
+        "legal-opinion",
+        "sebi",
+        "capital-markets",
+        "compliance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-020",
+      "title": "Comparative Contract Remedies India vs UK",
+      "prompt": "Act as a comparative law researcher with 10 years experience at Trilegal advising on cross-border contracts. I need you to prepare a comparative analysis of remedies for breach of contract under the Indian Contract Act 1872 and English common law as modified by the Sale of Goods Act 1979 and relevant jurisprudence. Here is the context: an Indian exporter and a UK buyer are negotiating a three-year supply contract for specialty chemicals worth GBP 18 million per year and want to choose governing law with a clear understanding of remedial consequences. Please provide: (1) a side-by-side table comparing damages measures (Section 73 ICA vs Hadley v Baxendale and Victoria Laundry), specific performance, injunctions, and termination for breach; (2) the Indian position on liquidated damages under Section 74 after Kailash Nath and ONGC v Saw Pipes; (3) the UK Supreme Court position after Cavendish v Makdessi; (4) mitigation obligations in both jurisdictions; (5) practical drafting recommendations for the dispute resolution clause; (6) a reasoned governing law recommendation. Format as a comparative research memo of 1,500 words. Consider these constraints: enforcement reciprocity under the 1953 Civil Procedure Code Section 44A, UK post-Brexit contract law, and Indian Specific Relief Amendment 2018.",
+      "tags": [
+        "comparative-law",
+        "contract-act",
+        "legal-opinion",
+        "remedies"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-021",
+      "title": "NCLT Oppression and Mismanagement Brief",
+      "prompt": "Act as a corporate litigation researcher with 7 years experience at Khaitan & Co drafting petitions under Sections 241-242 of the Companies Act 2013. I need you to prepare a research brief on what constitutes \"oppression\" and \"mismanagement\" as interpreted by the NCLT, NCLAT, and Supreme Court post-2013. Here is the context: our client, a minority shareholder holding 18 percent of a Hyderabad-based private company in the edtech space, alleges dilution of shareholding, siphoning of funds of INR 42 crore, and denial of board access. Please provide: (1) the statutory tests under Sections 241 and 242 with essential ingredients; (2) five leading post-2013 judgments defining oppression (Tata Consultancy v Cyrus Mistry included) and five on mismanagement; (3) the \"continuous and continuing acts\" requirement; (4) the thresholds of Section 244 and waiver practice; (5) available reliefs under Section 242 including just and equitable winding up; (6) a draft list of prayers for the petition. Format as a litigation research brief. Consider these constraints: the distinction from minority buy-out under Section 236, the limitation period, and the overlap with the Arbitration Act where the AoA contains an arbitration clause.",
+      "tags": [
+        "case-analysis",
+        "companies-act",
+        "oppression-mismanagement",
+        "litigation-strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-022",
+      "title": "Ejusdem Generis Applied to Regulatory List",
+      "prompt": "Act as a statutory interpretation specialist with 8 years experience at AZB & Partners advising on regulatory classifications. I need you to apply the ejusdem generis canon to a list of items in a schedule to the Environment (Protection) Rules 1986 where the client's product may or may not fall within a \"catch-all\" expression. Here is the context: a Vadodara-based specialty chemicals manufacturer faces an environmental compliance notice of INR 12 crore because the department interprets the catch-all clause expansively. Please provide: (1) the exact schedule entry with the enumerated items and the general words; (2) the ejusdem generis test as explained in Kavalappara Kochuni and Amar Chandra Chakraborty; (3) an analysis of whether the enumerated items share a common genus; (4) whether the client's product falls within that genus; (5) counter-authority favouring wide construction of environmental statutes (MC Mehta line of cases); (6) a recommended reply strategy with risk rating. Format as a statutory interpretation opinion memo. Consider these constraints: the beneficial construction rule for environmental protection, the polluter pays principle, and the precautionary principle under Article 21.",
+      "tags": [
+        "statutory-interpretation",
+        "ejusdem-generis",
+        "environmental-law",
+        "legal-opinion"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-023",
+      "title": "Comparative Insolvency India vs US Chapter 11",
+      "prompt": "Act as an insolvency researcher with 9 years experience at L&L Partners comparing cross-border insolvency regimes. I need you to draft a comparative analysis between the Corporate Insolvency Resolution Process under the IBC 2016 and Chapter 11 of the US Bankruptcy Code. Here is the context: a Chennai-based textile group with USD 220 million of external borrowings and operations in both India and Delaware is evaluating restructuring options and needs a structured comparison for the board. Please provide: (1) a table comparing initiation triggers, moratorium scope, debtor-in-possession vs creditor-in-control, resolution plan approval thresholds, and timelines; (2) treatment of operational creditors in both regimes; (3) avoidance transactions under Sections 43-51 IBC vs US preferences and fraudulent transfers; (4) the role of the resolution professional vs the US trustee; (5) cross-border recognition gaps and draft Section 234-235 IBC provisions; (6) a recommendation on forum shopping risks. Format as a structured comparative memo of 1,400 words. Consider these constraints: the absence of notified cross-border provisions in India, UNCITRAL Model Law adoption status, and FEMA implications for repatriation.",
+      "tags": [
+        "comparative-law",
+        "ibc",
+        "cross-border-insolvency",
+        "legal-opinion"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-024",
+      "title": "Negative Precedent Warning Note",
+      "prompt": "Act as a litigation research associate with 5 years experience at Shardul Amarchand Mangaldas. I need you to prepare a negative precedent warning note that identifies binding judgments that work against my client's position in a commercial suit. Here is the context: we represent a Bengaluru IT services company in a recovery suit before the Commercial Court of INR 67 crore, and the partner wants full disclosure of adverse authority before filing written statements. Please provide: (1) five Supreme Court and three High Court judgments that could be cited against us on the core issue of quantum meruit claims; (2) a one-paragraph ratio of each with paragraph reference; (3) a candid \"impact assessment\" scoring each on a 1-5 scale; (4) distinguishing points available for each adverse case; (5) alternative legal theories to sidestep the adverse line; (6) a partner advisory note of 250 words summarising the risk. Format as an internal risk memo marked \"Privileged and Confidential\". Consider these constraints: the Bar Council of India's duty to disclose binding adverse authority in the course of argument, and the advocate's role as an officer of the court.",
+      "tags": [
+        "precedent",
+        "negative-precedent",
+        "litigation-strategy",
+        "case-analysis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-025",
+      "title": "Bail Jurisprudence Research Note",
+      "prompt": "Act as a criminal law researcher with 6 years experience supporting senior advocates in bail matters before the Bombay High Court. I need you to prepare a research note on the evolution of bail jurisprudence in India with emphasis on the recent shift towards \"bail as the rule\". Here is the context: our client is a businessman in judicial custody for 47 days in an alleged INR 95 crore economic offence under the IPC, and we are drafting a regular bail application. Please provide: (1) the triple test from State v Jagjit Singh and recent reaffirmations; (2) the Satender Kumar Antil guidelines and four categories; (3) the bail jurisprudence in economic offences post Sanjay Chandra and P Chidambaram; (4) the recent \"bail not jail\" assertions in Manish Sisodia and Prabir Purkayastha; (5) a table of ten 2024-25 Supreme Court bail orders with facts, quantum, and ground of grant; (6) a draft 400-word ground paragraph. Format as a criminal litigation research note. Consider these constraints: Article 21 personal liberty, the BNSS 2023 provisions on bail, and Section 45 of the PMLA twin conditions which do not apply to IPC offences.",
+      "tags": [
+        "case-analysis",
+        "bail",
+        "criminal-law",
+        "litigation-strategy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-026",
+      "title": "Interpretation of a Contractual Term Using Cases",
+      "prompt": "Act as a commercial litigation researcher with 7 years experience at Trilegal. I need you to interpret a contested commercial term in a contract by applying Indian contractual interpretation principles and decided cases. Here is the context: parties to a master services agreement for IT outsourcing worth INR 320 crore are in dispute over the meaning of \"consequential losses\" in an exclusion clause, with the service provider arguing narrow construction and the customer asserting it covers any loss of profits. Please provide: (1) the Indian law on contractual interpretation drawing from Nabha Power v PSPCL and DLF Universal v Director Town and Country Planning; (2) the distinction between ordinary and commercial meaning; (3) English authorities that Indian courts routinely consider (Investors Compensation Scheme, Rainy Sky, Arnold v Britton); (4) the contra proferentem rule; (5) a recommended interpretation of the disputed term with reasoning; (6) a draft 350-word opinion statement. Format as an interpretation memo with a bullet-point conclusion. Consider these constraints: Section 74 of the Indian Contract Act on liquidated damages, commercial common sense test, and the principle that an exclusion clause must be clearly worded to exclude consequential losses.",
+      "tags": [
+        "statutory-interpretation",
+        "contract-act",
+        "case-analysis",
+        "legal-opinion"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-027",
+      "title": "Writ Petition Draft Grounds under Article 32",
+      "prompt": "Act as a constitutional law researcher with 8 years experience at SAM Partners supporting Supreme Court practice. I need you to draft the grounds section of a writ petition under Article 32 challenging a notification issued under the Foreign Contribution (Regulation) Act 2010. Here is the context: our client, a Delhi-based educational NGO with annual foreign receipts of INR 28 crore, has had its FCRA registration suspended without a show cause notice, affecting ongoing operations and salary payments to 240 employees. Please provide: (1) a summary of the impugned action with dates and statutory provisions; (2) ten grounds of challenge covering violation of Articles 14, 19(1)(c), and 21; (3) supporting Supreme Court authority for each ground including Noel Harper v Union of India; (4) interim relief prayers; (5) maintainability justification under Article 32 as distinct from Article 226 remedy; (6) a concise synopsis of dates and events. Format as the \"Grounds\" section ready for partner review with numbered paragraphs and inline citations. Consider these constraints: the recent FCRA amendments, Section 12(4) of FCRA on suspension powers, and locus of an NGO to invoke fundamental rights.",
+      "tags": [
+        "legal-opinion",
+        "writ-petition",
+        "fcra",
+        "constitutional-law"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-028",
+      "title": "Consumer Protection Act 2019 Precedent Update",
+      "prompt": "Act as a consumer law researcher with 5 years experience at Luthra & Luthra advising corporate respondents before consumer commissions. I need you to prepare a precedent update note on significant NCDRC and Supreme Court judgments under the Consumer Protection Act 2019 since its commencement. Here is the context: a Gurugram-based real estate developer has received 340 complaints aggregating claims of INR 670 crore alleging delayed possession, and the legal team needs current defensive precedents. Please provide: (1) the top 15 judgments under the 2019 Act from the Supreme Court and NCDRC; (2) issues covered: pecuniary jurisdiction, territorial jurisdiction, force majeure defences for COVID delays, RERA vs Consumer Commission overlap, and unilateral cancellation; (3) the Newtech Promoters line of cases on concurrent remedies; (4) five defensive arguments with supporting citations; (5) three offensive precedents plaintiffs typically cite and how to distinguish them; (6) a tactical note on e-filing and limitation. Format as an updating memorandum. Consider these constraints: the transition from the 1986 Act, the Central Consumer Protection Authority powers, and the 2020 Rules.",
+      "tags": [
+        "precedent",
+        "consumer-law",
+        "case-analysis",
+        "litigation-strategy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-029",
+      "title": "Comparative Competition Law India vs EU Abuse of Dominance",
+      "prompt": "Act as a competition law researcher with 8 years experience at Cyril Amarchand Mangaldas. I need you to prepare a comparative analysis of abuse of dominance law under Section 4 of the Competition Act 2002 and Article 102 of the TFEU. Here is the context: a Bengaluru-based digital marketplace with 68 percent market share in hyperlocal grocery delivery faces a CCI information alleging predatory pricing, tying, and self-preferencing, and the client wants a comparative view informed by the Google Shopping, Android, and recent DMA decisions. Please provide: (1) the substantive test for dominance under India and EU law; (2) the behavioural conduct covered, with a table mapping Section 4(2) clauses to Article 102 examples; (3) the Digital Markets Act 2022 concepts that may influence CCI thinking; (4) the CCI's approach in MakeMyTrip-OYO, Google Android, and WhatsApp-Meta cases; (5) defences based on objective justification and efficiencies; (6) a recommended defence strategy. Format as a comparative research memo with an executive summary. Consider these constraints: the 2023 amendments to the Competition Act including deal value thresholds, the Competition Appellate procedure before NCLAT, and market definition challenges in digital markets.",
+      "tags": [
+        "comparative-law",
+        "competition-law",
+        "abuse-of-dominance",
+        "case-analysis"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-030",
+      "title": "Legal Opinion on Slump Sale Structure",
+      "prompt": "Act as a corporate tax and transactions researcher with 7 years experience at Khaitan & Co. I need you to draft a legal opinion on the tax and regulatory consequences of a slump sale transaction where a Mumbai pharma company is transferring its API division to a wholly owned subsidiary for a lump sum consideration of INR 950 crore. Here is the context: the promoters want tax-efficient carve-out before an external investor infusion in the subsidiary and need assurance that Section 2(42C) conditions are satisfied. Please provide: (1) the statutory requirements of a slump sale under Section 2(42C) of the Income Tax Act and capital gains computation under Section 50B; (2) stamp duty analysis across Maharashtra and Gujarat where the assets are located; (3) GST consequences under Notification 12/2017-CT(Rate) for transfer of a going concern; (4) Companies Act 2013 approvals under Section 180(1)(a); (5) FEMA considerations if the subsequent investment is from a non-resident; (6) a final opinion statement with assumptions and caveats. Format as a partner-signed opinion memo with Annexures. Consider these constraints: the recent amendment on fair market value under Rule 11UAE, the GAAR provisions, and the Competition Act filing exemption for intra-group transfers.",
+      "tags": [
+        "legal-opinion",
+        "transactional",
+        "slump-sale",
+        "tax"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-031",
+      "title": "Section 34 Challenge Grounds Template",
+      "prompt": "Act as an arbitration researcher with 6 years experience drafting Section 34 petitions at AZB & Partners. I need you to produce a template set of grounds for challenging an arbitral award under Section 34 of the Arbitration and Conciliation Act 1996 before the Commercial Division of the Delhi High Court. Here is the context: our client, an Indian infrastructure company, has lost a domestic arbitration with an adverse award of INR 210 crore on an EPC dispute and we have 90 days to file. Please provide: (1) a numbered template of 12 standard grounds covering Section 34(2) and 34(2A); (2) specific sub-grounds on patent illegality, perverse findings, ignoring vital evidence, and unreasoned findings; (3) supporting authorities for each ground (Associate Builders, Ssangyong, Delhi Metro); (4) public policy ground framed post-2015 amendment; (5) a draft prayer clause with alternative reliefs; (6) strategic notes on the conditional stay regime under Section 36(3). Format as a reusable drafting template in a numbered format. Consider these constraints: limitation and condonation under Section 34(3), the bar against re-appreciation of evidence, and the \"shock the conscience\" threshold.",
+      "tags": [
+        "legal-opinion",
+        "arbitration",
+        "litigation-strategy",
+        "drafting-template"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-032",
+      "title": "Comparative Privacy India vs GDPR Consent",
+      "prompt": "Act as a privacy law researcher with 5 years experience at Shardul Amarchand Mangaldas. I need you to draft a comparative analysis of the consent requirements under the Digital Personal Data Protection Act 2023 and the EU General Data Protection Regulation. Here is the context: a Mumbai-headquartered e-commerce company serving 40 million Indian users and 6 million EU users needs a unified consent architecture and wants a crisp comparison to design the user flow. Please provide: (1) a side-by-side comparison of definitions of consent, specificity, granularity, withdrawal, and record-keeping; (2) DPDP Section 6 requirements vs GDPR Articles 6, 7, and 9; (3) the \"legitimate use\" categories under Section 7 DPDP vs the six lawful bases under GDPR Article 6; (4) children's data under Section 9 DPDP vs Article 8 GDPR; (5) a recommended harmonised consent UX flow with Indian-language support; (6) a risk register covering DPB penalties and GDPR DPA fines. Format as a comparative legal memo of 1,300 words. Consider these constraints: the Draft DPDP Rules 2025, the One Trust framework adoption, and the SPDI Rules 2011 residual operation for non-digital data.",
+      "tags": [
+        "comparative-law",
+        "dpdp",
+        "privacy",
+        "legal-opinion"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-033",
+      "title": "Precedent Mapping for Cheque Bounce Defence",
+      "prompt": "Act as a negotiable instruments law researcher with 4 years experience assisting criminal litigation counsel in Hyderabad. I need you to prepare a precedent map of defences available under Section 138 of the Negotiable Instruments Act 1881 based on Supreme Court and High Court rulings. Here is the context: our client, a small business owner, is an accused in a Section 138 complaint for a bounced cheque of INR 42 lakh and we need to identify viable defences and supporting authorities. Please provide: (1) the ingredients of the offence under Section 138 and the statutory presumptions under Sections 118 and 139; (2) a table of defences: rebuttal of presumption, absence of legally enforceable debt, friendly loan defence, blank cheque, time-barred debt, and security cheque; (3) supporting Supreme Court cases for each defence (Rangappa, Basalingappa, Sripati Singh); (4) burden and standard of rebuttal; (5) the impact of the 2018 amendment on interim compensation under Section 143A; (6) a draft 300-word cross-examination note. Format as a defence research note. Consider these constraints: the magistrate's power under Section 143A, limitation under Section 142, and the recent SC guidelines on expeditious trial.",
+      "tags": [
+        "case-analysis",
+        "cheque-bounce",
+        "criminal-law",
+        "precedent"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-034",
+      "title": "Mischief Rule for Benami Property Act",
+      "prompt": "Act as a white-collar crime researcher with 6 years experience at L&L Partners. I need you to apply the mischief rule of interpretation to a contested provision of the Prohibition of Benami Property Transactions Act 1988 as amended in 2016. Here is the context: the Initiating Officer has provisionally attached assets worth INR 180 crore of a Delhi businessman on the allegation of being benami, and the challenge is whether the 2016 amendment can be applied to transactions entered into in 2011. Please provide: (1) the pre-amendment defect identified by the legislature; (2) the remedy introduced by the 2016 amendment; (3) the mischief sought to be suppressed as per the Statement of Objects and Reasons; (4) the Supreme Court's ruling in Ganpati Dealcom on the prospective operation of the 2016 amendment; (5) the current position on the scope of Section 2(9) definition of benami transaction; (6) a draft 300-word reply challenging the attachment. Format as a statutory interpretation memo. Consider these constraints: Article 20(1) against retrospective criminal liability, Heydon's Case four-step test, and the PMLA overlap where the same facts can attract both regimes.",
+      "tags": [
+        "statutory-interpretation",
+        "benami",
+        "mischief-rule",
+        "legal-opinion"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-035",
+      "title": "Trade Mark Infringement Research Brief",
+      "prompt": "Act as an intellectual property researcher with 5 years experience at Anand and Anand. I need you to prepare a research brief on passing off and trade mark infringement standards under the Trade Marks Act 1999 for an e-commerce counterfeit matter. Here is the context: our client, a Mumbai-based premium apparel brand with annual turnover of INR 420 crore, has discovered identical-mark counterfeits being sold on a major marketplace and wants to proceed with a John Doe order before the Bombay High Court. Please provide: (1) the essential ingredients of infringement under Section 29 and passing off under common law; (2) the trinity test from Reckitt & Colman and its Indian adoption; (3) leading Bombay High Court and Delhi High Court orders granting Ashok Kumar (John Doe) injunctions; (4) marketplace intermediary liability under Section 79 of the IT Act and the Myntra-Shantanu litigation; (5) a draft 250-word prayer for interim relief; (6) evidentiary checklist for the ex parte application. Format as a litigation research brief. Consider these constraints: the Commercial Courts Act procedural regime, the Intermediary Rules 2021, and safe harbour conditions.",
+      "tags": [
+        "case-analysis",
+        "trademark",
+        "intellectual-property",
+        "litigation-strategy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-036",
+      "title": "Constitutional Bench Reference Analysis",
+      "prompt": "Act as a Supreme Court researcher with 10 years experience tracking Constitution Bench references for Cyril Amarchand Mangaldas. I need you to analyse a recent reference of a question of law to a larger bench of the Supreme Court and assess its likely impact on existing jurisprudence. Here is the context: a three-judge bench has referred a question on the scope of \"substantial question of law\" under Section 100 CPC or similar to a five-judge bench doubting an earlier coordinate bench ruling, and counsel wants a strategic brief on whether to intervene. Please provide: (1) the reference order summary with paragraph references and doubted authorities; (2) the earlier jurisprudence in chronological order; (3) the doctrinal tension identified by the referring bench; (4) the positions of scholars and commentators (Justice Chandrachud, Arvind Datar) in published commentary; (5) likely outcomes with probability weights; (6) the strategic value of intervention under Order 1 Rule 8A CPC or amicus briefing. Format as a Supreme Court research note. Consider these constraints: the Central Board of Dawoodi Bohra rule on bench hierarchy, Article 145(3) on substantial questions of law as to interpretation of the Constitution, and the operational effect of a reference pending decision.",
+      "tags": [
+        "case-analysis",
+        "constitutional-bench",
+        "precedent",
+        "supreme-court"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-037",
+      "title": "Regulatory Opinion on Crypto Assets",
+      "prompt": "Act as a fintech law researcher with 4 years experience at Nishith Desai Associates. I need you to draft a regulatory opinion on the legal status of virtual digital assets in India and the permissibility of a Bengaluru-based crypto exchange to offer spot trading and derivative products to Indian retail users. Here is the context: the exchange has 2.3 million active users and the board wants certainty on its operating licence position, tax, anti-money laundering, and advertising compliance. Please provide: (1) the current regulatory landscape (absence of a dedicated statute, partial coverage by PMLA 2023 amendment, tax treatment under Section 115BBH); (2) the Supreme Court's position in IAMAI v RBI; (3) FIU-IND registration obligations and reporting; (4) derivatives offering analysis under SEBI (Stock Brokers) Regulations and commodity derivatives rules; (5) ASCI guidelines on crypto advertising; (6) a risk-rated opinion with a recommended operating model. Format as a formal regulatory opinion memo. Consider these constraints: the 1 percent TDS under Section 194S, the 30 percent flat tax, the Prevention of Money-Laundering (Maintenance of Records) Rules, and the proposed Crypto Bill status.",
+      "tags": [
+        "legal-opinion",
+        "crypto",
+        "regulatory-risk",
+        "fintech"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-038",
+      "title": "Case Comment on Landmark Judgment",
+      "prompt": "Act as a legal academic with 12 years experience writing case comments for the National Law School of India Review. I need you to write a 1,500-word case comment on a recent landmark Supreme Court judgment I will provide. Here is the context: the journal editors want a critical, doctrinally rigorous comment that places the judgment in its jurisprudential context and assesses its implications. Please provide: (1) an abstract of 150 words; (2) the factual matrix and procedural history in 250 words; (3) a summary of the court's reasoning with paragraph-level citations; (4) a doctrinal critique analysing consistency with precedent, constitutional principles, and scholarly writing; (5) a normative evaluation on whether the judgment is desirable; (6) implications for future litigation and legislative response; (7) a bibliography of at least 15 sources including books, articles, and cases. Format as an academic case comment with footnotes in Bluebook 21st edition. Consider these constraints: maintaining academic neutrality while offering critique, engaging with comparative and theoretical literature, and ensuring citation accuracy. Please provide the judgment citation before proceeding.",
+      "tags": [
+        "case-analysis",
+        "case-comment",
+        "academic",
+        "legal-writing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-039",
+      "title": "Comparative Directors Duties India vs Delaware",
+      "prompt": "Act as a corporate governance researcher with 9 years experience at Trilegal supporting Indian boards of listed companies. I need you to draft a comparative analysis of directors' fiduciary duties under the Companies Act 2013 and Delaware General Corporation Law as supplemented by Delaware Chancery Court case law. Here is the context: an Indian listed company with ADRs listed on the NYSE is facing a derivative action in Delaware and parallel oppression proceedings in India, and the board wants a comparative duty framework. Please provide: (1) a comparison of statutory duties under Sections 166 and 134(3)(c) of the Companies Act 2013 with the Delaware duties of care, loyalty, and good faith; (2) the business judgment rule in India (if any) and Delaware; (3) liability standards and entire fairness review; (4) indemnification and D&O insurance under Section 197 CA 2013 and Section 145 DGCL; (5) the impact of recent SC rulings such as Tata Sons v Cyrus Mistry; (6) a recommended board process with cross-compliant features. Format as a governance research memo of 1,600 words. Consider these constraints: SEBI LODR independence rules, the Stewardship Code for institutional investors, and the Caremark duty of oversight as extended to Indian boards.",
+      "tags": [
+        "comparative-law",
+        "corporate-governance",
+        "directors-duties",
+        "legal-opinion"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    },
+    {
+      "id": "legal-legal-researchers-040",
+      "title": "Quick Precedent Search for Oral Argument",
+      "prompt": "Act as a junior legal researcher with 3 years experience supporting senior advocates at tea-break urgency at Delhi High Court. I need you to produce a quick-reference precedent sheet that a senior counsel can carry to the courtroom for a mentioning or oral argument the same afternoon. Here is the context: the matter is a commercial appeal involving a disputed interim injunction under Order 39 Rules 1 and 2 CPC against enforcement of a bank guarantee worth INR 58 crore, and the partner wants the top five authorities the bench respects, the opposing side's likely citations, and one-line responses. Please provide: (1) five pithy authorities on the \"special equities\" and \"irretrievable injustice\" exceptions to injunction against bank guarantees (UP State Sugar, Himadri Chemicals, Standard Chartered Bank v Heavy Engineering); (2) one-line ratio and paragraph reference for each; (3) the anticipated opposing authorities; (4) crisp counter points; (5) a 100-word oral opening script; (6) a suggested prayer line. Format as a one-page cheat sheet with bold headings and bullet points. Consider these constraints: the fraud exception test, the distinction between conditional and unconditional guarantees, and the equitable jurisdiction threshold.",
+      "tags": [
+        "precedent",
+        "oral-argument",
+        "litigation-strategy",
+        "quick-reference"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "legal",
+      "subcategory": "legal-researchers"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "category": "telecom",
+  "subcategory": "telecom-managers",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "telecom-telecom-managers-001",
+      "title": "Service Proposal to Enterprise Client",
+      "prompt": "Act as a senior telecom enterprise sales manager (Airtel Business / Tata Communications / Jio Business). Draft a 1-page service proposal to a 30-branch Indian retail client for a managed SD-WAN + voice + cybersecurity bundle. Cover: (1) understanding their need, (2) proposed solution architecture, (3) inclusions per service (link, equipment, monitoring, support), (4) SLA (99.95% uptime, 4-hr resolution), (5) commercial (₹X / branch / month + one-time), (6) implementation timeline 90 days, (7) account management + escalation, (8) contract term 36 months. Constraints: align with TRAI tariff transparency; INR + 18% GST; honest about coverage gaps in tier-3.",
+      "category": "telecom",
+      "subcategory": "telecom-managers",
+      "tags": ["service-proposal", "sd-wan", "airtel-business", "trai", "sla"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true
+    },
+    {
+      "id": "telecom-telecom-managers-002",
+      "title": "SLA Documentation",
+      "prompt": "Act as an enterprise SLA specialist. Write a comprehensive SLA document for a managed connectivity service. Cover: (1) availability (99.95% uptime exclusive of maintenance), (2) MTTR (4 hrs for critical, 8 hrs for major, 24 hrs for minor), (3) latency + packet-loss thresholds, (4) credit matrix (10-50% billing-credit per breach), (5) maintenance windows + advance notice, (6) escalation matrix (T1-T2-T3), (7) reporting (monthly), (8) force-majeure exclusions, (9) termination + early-exit clauses. Constraints: align with TRAI consumer-protection norms; transparent; legal-counsel reviewed.",
+      "category": "telecom",
+      "subcategory": "telecom-managers",
+      "tags": ["sla", "uptime", "mttr", "trai", "credit-matrix"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true
+    },
+    {
+      "id": "telecom-telecom-managers-003",
+      "title": "Customer Escalation Handling",
+      "prompt": "Act as a customer service manager at an Indian telco. Build escalation handling SOP for an enterprise customer's repeated network issues. Cover: (1) acknowledgement + RCA initiation within 2 hrs, (2) tier-1 customer-service rep dispatch, (3) tier-2 senior engineer involvement, (4) RCA + corrective + preventive within 7 days, (5) executive review meeting at customer office (if SLA breach 3 months consecutively), (6) credit + concession per agreement, (7) contract review meeting, (8) churn-prevention escalation to senior leadership. Constraints: align with TRAI consumer-protection + complaint redressal; bilingual; preserve B2B relationship; transparent.",
+      "category": "telecom",
+      "subcategory": "telecom-managers",
+      "tags": ["customer-escalation", "rca", "trai", "churn-prevention", "b2b"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "telecom-telecom-managers-004",
+      "title": "Technology Migration Plan (4G → 5G)",
+      "prompt": "Act as a telecom CTO advisor. Build a 5G migration plan for a Tier-2 Indian telco upgrading 12,000 sites from 4G to 5G NSA / SA. Cover: (1) phased site-by-site upgrade strategy (urban → tier-2 → rural), (2) spectrum strategy (3.5 GHz + mmWave + DSS), (3) RAN vendor mix (Ericsson + Nokia + Indian — Tejas + TCS), (4) core upgrade (5GC + cloud-native), (5) backhaul (microwave + fibre + DWDM), (6) capex ₹X Cr over 3 yrs, (7) regulatory (DoT + TRAI), (8) customer communication + SIM upgrade, (9) test + acceptance, (10) energy efficiency. Constraints: align with DoT 5G framework + India spectrum auction; FOSS + Made-in-India preference; honest realism on rural ROI.",
+      "category": "telecom",
+      "subcategory": "telecom-managers",
+      "tags": ["5g-migration", "telco", "spectrum", "dot", "make-in-india"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "telecom-telecom-managers-005",
+      "title": "Tariff Plan Design",
+      "prompt": "Act as a telecom product manager. Design a postpaid family plan for an Indian telco. Cover: (1) target audience (urban family of 4, ₹15K-30K monthly income), (2) inclusions (4 connections, 200 GB shared 5G, unlimited voice, 100 SMS / day, 12 OTT — Netflix Mobile + Hotstar + Prime + JioSaavn + Wynk), (3) price ₹1,499 / month + tax, (4) competitor benchmarking (Airtel / Jio / Vi), (5) family management portal, (6) billing + invoice format, (7) roaming + ILD, (8) churn-protection (loyalty discount). Constraints: align with TRAI tariff filing norms; INR transparent; UPI autopay friendly.",
+      "category": "telecom",
+      "subcategory": "telecom-managers",
+      "tags": ["tariff", "postpaid-family", "trai", "ott-bundling", "jio"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "telecom-telecom-managers-006",
+      "title": "Spectrum Auction Strategy",
+      "prompt": "Act as a telecom strategy advisor. Build spectrum-auction strategy for an Indian telco's participation in upcoming spectrum auction. Cover: (1) bands of interest (700 MHz / 800 / 1800 / 2100 / 2300 / 3.5 / 26 GHz), (2) circle prioritisation (metros + tier-2 urban), (3) competitor analysis (Jio / Airtel / Vi cash position + circle holdings), (4) reserve price analysis, (5) bidding strategy + cap, (6) financing (₹X Cr deferred payment options + NPV), (7) post-auction rollout obligation (DoT minimum), (8) ARPU + ROI scenarios. Constraints: align with DoT spectrum auction framework; cite TRAI recommendations; INR transparent.",
+      "category": "telecom",
+      "subcategory": "telecom-managers",
+      "tags": ["spectrum-auction", "dot", "trai", "telco", "arpu"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "telecom-telecom-managers-007",
+      "title": "Customer Churn Reduction Plan",
+      "prompt": "Act as a customer-success leader at an Indian telco. Build a 6-month churn reduction plan (current 28% annual postpaid churn vs industry 22%). Cover: (1) churn cohort analysis (network issues, billing, OTT bundles, competitor offer), (2) intervention per cohort, (3) outbound retention call SOP + offer-script, (4) network-quality monitoring + proactive outreach, (5) loyalty rewards, (6) win-back program for recently churned, (7) frontline staff incentive, (8) measurement (NPS + churn + LTV). Constraints: align with TRAI consumer-protection + DPDP for data; INR transparent; bilingual; honest about commercial limits.",
+      "category": "telecom",
+      "subcategory": "telecom-managers",
+      "tags": ["churn-reduction", "retention", "trai", "ltv", "dpdp"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "telecom-telecom-managers-008",
+      "title": "Tower Co-Location Negotiation",
+      "prompt": "Act as a telco infrastructure procurement manager. Negotiate tower co-location with Indus Towers / ATC / Bharti Infratel for 800 sites across Uttar Pradesh + Bihar. Cover: (1) baseline (current rentals ₹38 cr / yr), (2) MSA renewal terms (10-year, 5-year mutual extension), (3) per-site rental band (urban / rural), (4) value-add (power consumption indexed, security, AMC), (5) exit / migration clauses, (6) GST + 18%, (7) MSP (Master Services Provider) opt-in, (8) signed MoU. Constraints: align with TRAI tower regulation + DoT towers' policy; documented; align with state MOEF norms.",
+      "category": "telecom",
+      "subcategory": "telecom-managers",
+      "tags": ["tower-colocation", "indus-towers", "msa", "trai", "negotiation"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "telecom-telecom-managers-009",
+      "title": "Customer Onboarding Journey",
+      "prompt": "Act as a CX designer at an Indian telco. Build a digital customer-onboarding journey (post-paid plan). Cover: (1) discovery (web + app + retail), (2) eligibility (age, income proof, ID), (3) plan selection + family-add, (4) Aadhaar e-KYC (DPDP-compliant), (5) UPI Autopay setup (Razorpay / NPCI), (6) MNP if porting from another telco, (7) SIM delivery (eSIM + physical), (8) activation + welcome call, (9) first-bill + statement format, (10) NPS @ Day-7 + Day-30. Constraints: align with TRAI MNP + DPDP + RBI Aadhaar guidelines; bilingual; document for audit.",
+      "category": "telecom",
+      "subcategory": "telecom-managers",
+      "tags": ["customer-onboarding", "ekyc", "mnp", "dpdp", "esim"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "telecom-telecom-managers-010",
+      "title": "Compliance Audit (DoT + TRAI)",
+      "prompt": "Act as a regulatory compliance officer. Audit our telco's compliance with DoT + TRAI + DPDP + Telegraph Act. Cover: (1) UL (Unified License) terms compliance, (2) AGR + LF reporting, (3) SACFA + WPC for radio frequency, (4) lawful interception (LI) capability + secure infrastructure, (5) DPDP for subscriber data, (6) TRAI commercial communication regulations (UCC + UCB) + DLT, (7) UFC NORMS + NRA mandatory CERT-In incident reporting <6hrs, (8) emergency services (112 routing). Output gap-list with INR fine schedule. Constraints: cite latest DoT circulars + TRAI orders; documented for board audit.",
+      "category": "telecom",
+      "subcategory": "telecom-managers",
+      "tags": ["compliance", "dot", "trai", "agr", "li"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "telecom-telecom-managers-011",
+      "title": "Enterprise Voice / SIP Trunk Pitch",
+      "prompt": "Act as an enterprise voice manager. Pitch SIP trunking + cloud-PBX to a mid-sized Indian client (180-employee BPO + 22 Mumbai branches). Cover: (1) current pain (PRI lines, hardware cost, scaling), (2) proposed (SIP trunk via TPS / Tata Communications + cloud-PBX — 8x8, RingCentral, Knowlarity, Exotel), (3) commercial savings (40% on connectivity, scalable per-seat), (4) integration with CRM (Zoho, Freshworks, Salesforce), (5) call-recording for compliance + DPDP, (6) IVR + auto-attendant, (7) reliability + DR, (8) onboarding 30 days. Constraints: align with TRAI + DoT for SIP; DLT for outbound; INR transparent; bilingual.",
+      "category": "telecom",
+      "subcategory": "telecom-managers",
+      "tags": ["sip-trunk", "cloud-pbx", "knowlarity", "exotel", "dlt"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "telecom-telecom-managers-012",
+      "title": "FTTH Rollout Plan for Tier-2",
+      "prompt": "Act as a fixed-broadband ops manager. Plan FTTH rollout for 60,000 homes across 4 Tier-2 Indian cities (Indore, Bhubaneswar, Coimbatore, Lucknow). Cover: (1) right-of-way (ROW) approval — local body + DoT, (2) civil work (trenching + ducting + manhole), (3) optical-distribution (GPON / XGS-PON), (4) ONT distribution + installation, (5) sales + activation (per-pin-code), (6) channel partnership (LCO model), (7) tariff (₹399 / 599 / 999 per month), (8) capex per home ₹X + payback period, (9) competitor positioning (Jio Fiber / Airtel Xstream / ACT). Constraints: align with DoT BharatNet ambition + state ROW; INR transparent; bilingual customer materials.",
+      "category": "telecom",
+      "subcategory": "telecom-managers",
+      "tags": ["ftth", "gpon", "tier-2", "row", "lco"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    }
+  ]
+}

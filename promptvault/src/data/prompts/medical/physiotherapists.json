@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "medical-physiotherapists-001",
+      "title": "OA Knee Exercise Program for Urban Middle-Aged Patient",
+      "prompt": "Act as a senior musculoskeletal physiotherapist with 15 years of experience in Indian outpatient clinics (BPT/MPT background, IAP member). I need you to design a 6-week progressive exercise program for a 58-year-old urban middle-class female patient from Pune with bilateral Grade II-III knee osteoarthritis (Kellgren-Lawrence), BMI 29, who works as a school teacher and climbs stairs daily. Pain VAS 6/10, morning stiffness 20 minutes, mild quadriceps wasting, WOMAC stiffness 6/20. She has no access to a gym but owns a yoga mat and resistance band. Please provide: (1) Week-by-week progression (sets, reps, hold times, frequency) across isometric quads, SLR, mini-squats, step-ups, proprioception, and aerobic component, (2) Pain-monitoring rules (2-hour rule, VAS thresholds for load adjustment), (3) Progression and regression criteria for each exercise, (4) Home-based alternatives using household items (cushion squeeze, towel rolls, chair), (5) Patient education points on load management, weight reduction (target 5 percent), Indian squatting/toilet modifications, and footwear. Format as a clean table plus bullet narrative. Constraints: align with OARSI and IAP clinical guidelines, avoid deep squats and jumping, include Hindi/Marathi translation cues for key instructions. Add a one-line disclaimer that this is educational content and must be individualised by a licensed physiotherapist after clinical assessment.",
+      "tags": [
+        "oa-knee",
+        "exercise-prescription",
+        "geriatric",
+        "home-exercise",
+        "indian-context"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-002",
+      "title": "SOAP Progress Note for Post-Stroke Hemiplegia",
+      "prompt": "Act as a neuro-physiotherapist with 10 years of experience working in tertiary hospitals and Portea/Nightingales home-care settings in India. I need you to draft a detailed SOAP progress note for a 62-year-old male patient, Mr Ramesh Iyer from Chennai, on day 21 post-left MCA ischaemic stroke with right hemiplegia, currently receiving home-based physiotherapy 5 days a week. Baseline: Brunnstrom Stage 3 upper limb, Stage 4 lower limb, MAS 1+ at elbow flexors, Berg Balance Score 28/56, FIM 72. Today he walked 15 metres with a quad cane and minimal assist, managed 4 sit-to-stands independently, and reported mild shoulder pain (VAS 3/10). Please provide: (1) Subjective section capturing patient and family concerns in professional language, (2) Objective section with structured outcome measures (Brunnstrom, MAS, BBS, 10MWT, FIM), ROM, tone, gait deviations, (3) Assessment paragraph linking findings to ICF domains (body function, activity, participation), (4) Plan with short-term goals (2 weeks), long-term goals (6 weeks), and today's treatment given with dosage. Format the note to fit a single A4 page suitable for hospital records and insurance documentation in India. Include a closing educational disclaimer.",
+      "tags": [
+        "soap-note",
+        "stroke-rehab",
+        "documentation",
+        "home-care",
+        "icf"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-003",
+      "title": "Post-TKR Rehabilitation Protocol Weeks 0-12",
+      "prompt": "Act as an orthopaedic physiotherapist with 12 years of experience in Indian corporate hospitals handling high-volume joint replacement caseloads. I need you to build a comprehensive 12-week post-Total Knee Replacement rehabilitation protocol for a 65-year-old female patient from Delhi following uncomplicated cemented TKR of the right knee. Please provide: (1) Phase-wise structure (Phase 1 inpatient day 0-3, Phase 2 week 1-2, Phase 3 week 3-6, Phase 4 week 7-12), (2) Goals, precautions, ROM targets, and weight-bearing status per phase, (3) Specific exercises with sets/reps/frequency (ankle pumps, quadriceps sets, heel slides, SLR, terminal knee extension, mini-squats, step-ups, stationary cycling, gait re-education), (4) Objective discharge criteria for each phase (ROM, quadriceps lag, TUG, 6MWT), (5) Red flags that warrant surgeon referral (calf pain and swelling, fever, wound discharge, sudden ROM loss), (6) Indian contextual modifications for toilet use, floor sitting avoidance, and stair negotiation in typical apartment buildings. Format as a structured protocol document with tables. Follow AAOS and IAP guidelines. End with an educational disclaimer that individualisation based on surgeon instructions is mandatory.",
+      "tags": [
+        "post-tkr",
+        "rehab-protocol",
+        "orthopaedic",
+        "phased-rehab",
+        "discharge-criteria"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-004",
+      "title": "Hindi Home Exercise Sheet for Low Back Pain",
+      "prompt": "Act as a community physiotherapist with 8 years of experience serving North Indian patients in Tier-2 cities. I need you to create a patient-friendly home exercise instruction sheet in simple Hindi (Devanagari script) with English transliteration, for a 42-year-old male IT worker from Lucknow with mechanical low back pain (non-radicular, 3-week history) from prolonged desk sitting and long car commutes. Please provide: (1) A short educational paragraph explaining back pain reassurance and the importance of staying active, (2) Five core exercises (pelvic tilt, knee-to-chest, cat-camel, bird dog, glute bridge) with step-by-step instructions in Hindi, sets and reps, and simple line-drawing descriptions the patient can visualise, (3) Postural correction tips for desk work and driving (monitor height, lumbar roll using a rolled towel, 30-minute break rule), (4) Red flag symptoms in Hindi that require immediate doctor consultation (saddle anaesthesia, bowel/bladder changes, progressive weakness, night pain with fever), (5) A daily tick-box diary for 14 days. Keep language at class 8 reading level. Format as a single double-sided A4 handout ready to print at a clinic. Include an educational disclaimer in both Hindi and English.",
+      "tags": [
+        "low-back-pain",
+        "home-exercise",
+        "hindi-instructions",
+        "patient-education",
+        "desk-worker"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-005",
+      "title": "Frozen Shoulder 4-Stage Exercise Program",
+      "prompt": "Act as a musculoskeletal physiotherapist with 12 years of experience treating adhesive capsulitis in Indian urban clinics. I need you to design a stage-specific exercise program for a 52-year-old female diabetic patient from Kolkata with right frozen shoulder in the freezing-to-frozen transition phase (duration 4 months, passive ER 15 degrees, abduction 80 degrees, night pain VAS 7/10). Please provide: (1) Stage identification criteria and when to advance, (2) Pain-predominant phase routine focused on pain relief, pendulum, gentle ROM within pain-free range, and pacing rules, (3) Stiffness-predominant phase routine with sustained stretches (pulley, wall walks, towel stretch, sleeper stretch, cross-body), including hold durations and end-range dosing, (4) Strengthening re-introduction criteria and rotator cuff isometrics progressing to theraband work, (5) Home exercise frequency (3 times a day for short sessions), (6) Diabetic-specific considerations including glycaemic control's impact on capsular recovery and counselling points. Format as a staged table followed by a daily routine card. Include IAP and BESS guideline references and an educational disclaimer noting that imaging and medical review are recommended before starting.",
+      "tags": [
+        "frozen-shoulder",
+        "exercise-prescription",
+        "diabetic-patient",
+        "staged-rehab",
+        "shoulder"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-006",
+      "title": "SMART Goals for Sub-Acute Stroke Patient",
+      "prompt": "Act as a neuro-rehabilitation physiotherapist with 10 years of experience in Indian rehabilitation centres. I need you to write a structured set of SMART patient goals for a 58-year-old male patient from Hyderabad, 5 weeks post right MCA stroke with left hemiparesis, currently Brunnstrom LE Stage 4, BBS 32/56, FAC 2, who wants to return to walking independently inside his independent house and attending his temple visits. Please provide: (1) Three short-term goals (2 weeks) covering body function, activity, and participation domains as per the ICF framework, (2) Three mid-term goals (6 weeks) with clear outcome measures (BBS, 10MWT, TUG, mRS), (3) Two long-term goals (12 weeks) aligned with patient priorities, (4) Specific, Measurable, Achievable, Relevant, Time-bound justification for each goal, (5) Family involvement and caregiver goals, (6) Review and re-assessment schedule. Format as an ICF-SMART goal table with columns for domain, goal, baseline, target, measure, and review date. End with an educational disclaimer clarifying that goals must be co-created with the patient and treating team.",
+      "tags": [
+        "smart-goals",
+        "icf",
+        "stroke-rehab",
+        "goal-setting",
+        "neuro-physio"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-007",
+      "title": "Cricket Fast Bowler Return-to-Play Program",
+      "prompt": "Act as a sports physiotherapist with 10 years of experience working with BCCI-affiliated academies and Ranji Trophy cricketers. I need you to design a 10-week return-to-bowl program for a 22-year-old right-arm fast bowler from a Mumbai cricket academy recovering from a Grade 1 lumbar stress reaction (diagnosed on MRI 6 weeks ago, currently pain-free on extension and rotation). Please provide: (1) Phased progression (rest, re-conditioning, run-up build, bowling load progression, match simulation), (2) Weekly total bowling ball count progression following ECB/CA guidelines adapted for Indian turf conditions, (3) Core, gluteal, and hip mobility routines specific to fast bowlers, (4) Return-to-run protocol with timing and pain-monitoring rules, (5) Objective return-to-bowl clearance criteria (pain, ROM, trunk endurance tests, single-leg hop), (6) Bowling action screening checklist to flag mixed action and counter-rotation, (7) Off-field load management and rest-day rules. Format as a week-by-week plan with a summary dashboard. Reference IAP sports chapter guidelines and add an educational disclaimer recommending clearance from sports physician and bowling coach before returning to competition.",
+      "tags": [
+        "sports-physio",
+        "cricket",
+        "return-to-play",
+        "lumbar-stress",
+        "bowling-load"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-008",
+      "title": "Cardiac Rehabilitation Phase I and II Protocol",
+      "prompt": "Act as a cardiopulmonary physiotherapist with 12 years of experience in tertiary cardiac hospitals in India. I need you to develop a structured Phase I (inpatient) and Phase II (outpatient, 6 weeks) cardiac rehabilitation protocol for a 56-year-old male patient from Ahmedabad, post uncomplicated CABG (3 grafts), EF 45 percent, no arrhythmia, discharged on day 6. Please provide: (1) Phase I bedside mobilisation protocol day-wise with METs progression, sternal precautions, and incentive spirometry, (2) Discharge criteria and home walking program using RPE 11-13 on Borg scale, (3) Phase II supervised outpatient program structure (3 sessions per week), (4) Exercise prescription using Karvonen formula with sample HR targets, warm-up, aerobic component, resistance training (starting at 40 percent 1RM), and cool-down, (5) Symptom monitoring and stop criteria (angina, dyspnoea, SpO2 drop, BP response), (6) Patient education on secondary prevention, medication compliance, Indian diet modification, and smoking cessation. Format as a phase-wise protocol document. Align with AACVPR and CSI guidelines. End with an educational disclaimer and requirement for cardiologist clearance.",
+      "tags": [
+        "cardiac-rehab",
+        "post-cabg",
+        "rehab-protocol",
+        "cardiopulmonary",
+        "exercise-prescription"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-009",
+      "title": "SOAP Note for OA Knee Outpatient Visit",
+      "prompt": "Act as a musculoskeletal physiotherapist with 8 years of experience in a busy OPD setting in Bengaluru. I need you to write a concise SOAP note for a follow-up visit (session 6 of 10) with Mrs Lakshmi Rao, a 60-year-old female with bilateral Grade II knee osteoarthritis. Baseline: WOMAC 42/96, VAS 5/10, TUG 14 seconds, bilateral quadriceps MMT 3+/5. Today she reports reduced morning stiffness (10 minutes), VAS improved to 3/10 on right and 4/10 on left, walks in her apartment park for 20 minutes. Treatment included mobilisation, supervised exercise, and TENS. Please provide: (1) Subjective section with direct patient quotes in professional language, (2) Objective section with updated outcome measures, observation, palpation, ROM, MMT, functional tests, (3) Assessment paragraph comparing to baseline and linking to ICF, (4) Plan with today's intervention (modalities, manual therapy, exercise dosage), home program updates, and next session focus. Format suitable for a clinic electronic record or paper chart. Include an educational disclaimer.",
+      "tags": [
+        "soap-note",
+        "oa-knee",
+        "documentation",
+        "outpatient",
+        "progress-note"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-010",
+      "title": "Lumbar Disc Herniation McKenzie Protocol",
+      "prompt": "Act as a spine physiotherapist with 10 years of experience and McKenzie credentialed (Cred MDT). I need you to create a directional-preference based treatment plan for a 38-year-old male software engineer from Pune with L5-S1 posterolateral disc herniation, right-sided leg pain down to the calf (VAS 6/10), positive SLR at 45 degrees, centralisation on repeated extension in lying. Please provide: (1) Mechanical diagnosis summary (derangement syndrome), (2) Week 1 protocol (repeated extensions in prone, prone press-ups, sustained prone, frequency and dosage), (3) Postural correction strategy for 9-hour desk work including lumbar roll, sit-stand hygiene, driving setup, (4) Progression to self-treatment and force progressions (patient-generated to clinician overpressure), (5) Return-to-gym and return-to-running criteria, (6) Red flag surveillance (cauda equina, progressive neurological deficit), (7) Objective outcome measures (ODI, NPRS, centralisation status). Format as a phased plan with clear instructions the patient can follow at home three times a day. Reference McKenzie Institute and IAP guidelines. Add an educational disclaimer.",
+      "tags": [
+        "lumbar-disc",
+        "mckenzie",
+        "directional-preference",
+        "low-back-pain",
+        "desk-worker"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-011",
+      "title": "Home Exercise Sheet for Post-Stroke Caregivers",
+      "prompt": "Act as a neuro-physiotherapist with 10 years of experience in home-based stroke rehabilitation with Portea and Nightingales in India. I need you to create a caregiver-oriented home exercise instruction sheet for the family of a 68-year-old post-stroke patient in Jaipur with left hemiplegia, Brunnstrom UE Stage 2, LE Stage 3, who is now 4 weeks post-discharge. The primary caregiver is the patient's 40-year-old daughter-in-law who has no medical background. Please provide: (1) Positioning guide for bed and chair (2-hourly turns, shoulder protection, pillow support) with simple diagrams described in words, (2) Passive ROM routine for upper and lower limb (10 repetitions each, twice a day) explained step by step, (3) Bed mobility and sit-to-stand assistance technique with safety cues, (4) Five active-assisted exercises the patient can attempt, (5) Red flag symptoms that require urgent medical attention, (6) A daily checklist the caregiver can tick off. Use simple English suitable for Hindi translation, avoid jargon, keep to two A4 pages. Add a prominent educational disclaimer and helpline numbers.",
+      "tags": [
+        "home-exercise",
+        "caregiver",
+        "stroke-rehab",
+        "passive-rom",
+        "positioning"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-012",
+      "title": "Kabaddi Player ACL Reconstruction Rehab",
+      "prompt": "Act as a sports physiotherapist with 10 years of experience working with Pro Kabaddi League teams and state-level kabaddi academies in Haryana. I need you to design a 9-month return-to-play rehabilitation protocol for a 24-year-old male kabaddi raider who has undergone hamstring autograft ACL reconstruction of the right knee 2 weeks ago. Please provide: (1) Phase 1 (0-6 weeks) with ROM, swelling control, quad activation, gait re-education, (2) Phase 2 (6-12 weeks) with closed-chain strengthening, proprioception, stationary cycling, (3) Phase 3 (3-5 months) with running progression, agility, plyometric introduction, (4) Phase 4 (5-7 months) sport-specific kabaddi drills (raids, ankle holds, dodging, turning), (5) Phase 5 (7-9 months) return-to-play criteria including limb symmetry index above 90 percent on hop battery, isokinetic H/Q ratio, Y-balance, and psychological readiness (ACL-RSI), (6) Re-injury prevention program (FIFA 11+ adapted for kabaddi). Format as a phase table with criteria-based progression. Reference MOON and Delaware-Oslo protocols and IAP sports chapter. Add an educational disclaimer.",
+      "tags": [
+        "acl-rehab",
+        "kabaddi",
+        "sports-physio",
+        "return-to-play",
+        "limb-symmetry"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-013",
+      "title": "Geriatric Fall Prevention Exercise Program",
+      "prompt": "Act as a geriatric physiotherapist with 12 years of experience running community fall prevention clinics in Mumbai and Pune. I need you to design a 12-week group and individual fall prevention exercise program for community-dwelling older adults aged 65-80 with a history of one or more falls in the last year, living in typical Indian apartment complexes. Please provide: (1) Entry assessment battery (TUG, BBS, 30-second sit-to-stand, 4-stage balance test, FES-I), (2) Exercise components based on Otago Exercise Program adapted for Indian context (strength, balance, walking), (3) Weekly progression with sets, reps, and difficulty advancement, (4) Home environment modification checklist addressing Indian-specific hazards (bathroom steps, loose rugs, poor lighting, temple puja room floor sitting), (5) Footwear and assistive device guidance, (6) Group session structure (45 minutes, warm-up, circuit, cool-down), (7) Outcome re-assessment at weeks 6 and 12. Format as a program manual with weekly lesson plans. Reference Otago and WHO falls prevention guidelines. Add an educational disclaimer and medical clearance requirement.",
+      "tags": [
+        "geriatric",
+        "fall-prevention",
+        "otago",
+        "balance-training",
+        "community"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-014",
+      "title": "Bell's Palsy Facial Re-Education Program",
+      "prompt": "Act as a neuro-musculoskeletal physiotherapist with 8 years of experience treating facial nerve disorders in Indian hospitals. I need you to create a 6-week facial re-education program for a 34-year-old female primary school teacher from Chennai with right-sided Bell's palsy of 10 days duration, House-Brackmann Grade IV. Please provide: (1) Assessment and grading at initial and re-assessment points (House-Brackmann, Sunnybrook), (2) Week-by-week exercise progression from mental imagery and gentle symmetry work to mirror biofeedback, specific muscle isolations (frontalis, orbicularis oculi, zygomaticus, orbicularis oris, buccinator, platysma), and eventually functional speech and expression drills, (3) Massage technique (effleurage and stretching) with patient self-application, (4) Eye-care instructions to prevent corneal exposure (lubricant drops, taping, sunglasses), (5) Advice against electrical stimulation and overactive strengthening to reduce synkinesis risk, (6) Return-to-work guidance for a classroom teacher. Format as a patient-handout plus clinician protocol. Include IAP and EBP references. End with an educational disclaimer and ENT referral note.",
+      "tags": [
+        "bells-palsy",
+        "facial-rehab",
+        "neuro-physio",
+        "mirror-therapy",
+        "patient-education"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-015",
+      "title": "Chronic COPD Pulmonary Rehab Program",
+      "prompt": "Act as a cardiopulmonary physiotherapist with 12 years of experience delivering pulmonary rehabilitation in Indian chest clinics. I need you to develop an 8-week outpatient pulmonary rehabilitation program for a 65-year-old male retired bus driver from Delhi with GOLD Stage III COPD, mMRC dyspnoea 3, CAT 22, 6MWT 280 metres, on LAMA-LABA and low-dose ICS. Please provide: (1) Entry screening and baseline (6MWT, mMRC, CAT, BODE index, 1RM estimation), (2) Program structure (3 supervised sessions per week, 60 minutes, warm-up, aerobic training on treadmill or cycle, resistance training, cool-down), (3) Aerobic prescription using Borg 4-6 and 60-80 percent peak WR, (4) Resistance training for upper and lower limbs (2 sets of 10-15 reps at 40-70 percent 1RM), (5) Breathing retraining (pursed lip, diaphragmatic, active cycle of breathing), (6) Energy conservation and pacing education, (7) Home exercise prescription and action plan for exacerbations, (8) Re-assessment at week 8. Format as a program manual. Reference ATS/ERS and ICS guidelines. Add an educational disclaimer.",
+      "tags": [
+        "copd",
+        "pulmonary-rehab",
+        "cardiopulmonary",
+        "6mwt",
+        "exercise-prescription"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-016",
+      "title": "SOAP Note Template for Sports Injury Clinic",
+      "prompt": "Act as a sports physiotherapist with 8 years of experience in a Bengaluru sports injury clinic. I need you to create a reusable SOAP note template tailored for acute and sub-acute sports injuries across cricket, football, kabaddi, and badminton athletes. Please provide: (1) Subjective section fields covering mechanism of injury, onset, symptom behaviour, aggravating and easing factors, training load, sleep, nutrition, psychological readiness, (2) Objective section fields for observation, gait, ROM, MMT, special tests (sport-specific), functional tests (hop battery, Y-balance, agility T-test), outcome measures (VISA-A, VISA-P, NPRS, ACL-RSI), (3) Assessment section with clinical reasoning, ICF linkage, and stage of healing, (4) Plan section covering today's intervention, home program, load management, liaison with coach and sports physician, and next review, (5) A short example filled in for a 20-year-old footballer with lateral ankle sprain Grade II. Format as a clean one-page template with example. Align with IAP sports chapter standards. Include an educational disclaimer.",
+      "tags": [
+        "soap-note",
+        "sports-physio",
+        "template",
+        "documentation",
+        "clinical-reasoning"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-017",
+      "title": "Plantar Fasciitis Home Program in Hindi",
+      "prompt": "Act as a musculoskeletal physiotherapist with 8 years of experience running a clinic in Indore. I need you to create a patient home exercise instruction sheet in bilingual Hindi-English for a 45-year-old female homemaker with right plantar fasciitis (morning first-step pain VAS 7/10, duration 8 weeks, BMI 28). Please provide: (1) A short educational paragraph on plantar fasciitis in simple Hindi (why it happens, expected recovery 6-12 weeks), (2) Five exercises (calf stretch on wall, gastroc-soleus step stretch, plantar fascia stretch with towel, towel scrunches, marble pickups) with step-by-step Hindi instructions, sets and reps, frequency, (3) Ice rolling technique using a frozen water bottle, (4) Footwear advice suitable for Indian conditions (avoid flat chappals at home, use cushioned slippers, arch support), (5) Activity modification for household chores and prolonged standing, (6) Self-monitoring tracker for pain and function over 6 weeks, (7) When to return to clinic. Keep the reading level at class 8. Format as a double-sided A4 printable handout. Add a bilingual educational disclaimer.",
+      "tags": [
+        "plantar-fasciitis",
+        "home-exercise",
+        "hindi-instructions",
+        "patient-education",
+        "footwear"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-018",
+      "title": "Cervicogenic Headache Exercise Program",
+      "prompt": "Act as a musculoskeletal physiotherapist with 10 years of experience and advanced training in Mulligan and craniocervical techniques. I need you to design a 6-week exercise and manual-therapy supported program for a 36-year-old female marketing executive from Gurugram with cervicogenic headache, unilateral right-sided, NPRS 5/10, positive cervical flexion-rotation test (20 degrees right), weak deep neck flexors on CCFT, poor workstation ergonomics. Please provide: (1) Assessment summary and clinical reasoning, (2) Week 1-2 focus on pain control, craniocervical flexion training (pressure biofeedback at 22 mmHg progressing to 30 mmHg, 10 second holds), postural cueing, (3) Week 3-4 progression to scapular stabiliser endurance, thoracic mobility (foam roller extensions), and loaded deep neck flexor work, (4) Week 5-6 functional integration with desk-based breaks and strengthening, (5) Ergonomic workstation checklist (monitor height, chair, keyboard, phone use, 30-30 rule), (6) Outcome measures (NPRS, NDI, HIT-6, CCFT score), (7) Progression criteria and discharge plan. Format as a week-by-week table plus clinician notes. Reference Jull and O'Leary CCFT protocol. Include an educational disclaimer.",
+      "tags": [
+        "cervicogenic-headache",
+        "ccft",
+        "neck-pain",
+        "ergonomics",
+        "manual-therapy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-019",
+      "title": "ICF-Based Assessment Report for Spinal Cord Injury",
+      "prompt": "Act as a senior neuro-physiotherapist with 12 years of experience in spinal cord injury rehabilitation at a tertiary centre in India. I need you to write a comprehensive ICF-based initial assessment report for a 28-year-old male patient, Mr Arjun Singh from Chandigarh, with traumatic T10 ASIA A paraplegia, 6 weeks post-injury, currently in the rehabilitation unit. Please provide: (1) Demographic and medical background summary, (2) Body function and structure section (ASIA impairment scale, tone, sensation, bladder and bowel, respiratory, ROM, MMT of key muscles, skin integrity, pain), (3) Activity section (bed mobility, transfers, wheelchair skills, balance, SCIM III), (4) Participation section (vocational, social, family roles, accessibility of home and workplace in Indian context), (5) Environmental factors (family support, finances, accessibility of public spaces, assistive devices), (6) Personal factors (motivation, coping, education), (7) Rehabilitation problem list and prioritised goals, (8) Plan with discipline-specific inputs. Format as a formal 2-3 page report suitable for MDT meeting and insurance. Reference ICF-SCI core sets and ISCoS guidelines. Add an educational disclaimer.",
+      "tags": [
+        "icf",
+        "spinal-cord-injury",
+        "assessment-report",
+        "neuro-physio",
+        "paraplegia"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-020",
+      "title": "Post-Fracture Wrist Rehab Program",
+      "prompt": "Act as a hand therapist and musculoskeletal physiotherapist with 10 years of experience in Indian orthopaedic clinics. I need you to design a 10-week rehabilitation program for a 55-year-old female patient from Hyderabad who fell on an outstretched hand sustaining a right distal radius fracture (Colles type), treated with closed reduction and cast for 5 weeks, now 1 week post-cast removal. Please provide: (1) Initial assessment (ROM, grip strength with dynamometer, pain, oedema, functional tests - PRWE, DASH), (2) Week 1-2 focus on oedema control, AROM, tendon gliding, scar care if any, (3) Week 3-4 progression to PROM, gentle stretching, putty exercises, (4) Week 5-7 strengthening (grip, wrist flexors/extensors, supination/pronation with dumbbell), (5) Week 8-10 functional integration (cooking, writing, carrying vessels, religious rituals), (6) Osteoporosis screening counselling and fall prevention, (7) Red flags (CRPS signs, median nerve symptoms), (8) Discharge criteria. Format as a phased protocol with exercise dosage table. Reference IFSHT guidelines. Include an educational disclaimer.",
+      "tags": [
+        "wrist-fracture",
+        "hand-therapy",
+        "rehab-protocol",
+        "oedema-control",
+        "osteoporosis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-021",
+      "title": "Pediatric Cerebral Palsy Home Program",
+      "prompt": "Act as a paediatric physiotherapist with 10 years of experience in NDT and Bobath approach, working with CP children at an Indian special school. I need you to create a home exercise and activity program for a 5-year-old male child with spastic diplegic cerebral palsy, GMFCS Level II, who can walk short distances with a posterior walker, lives in a joint family in Nagpur, whose mother is the primary caregiver. Please provide: (1) Family-centred goal discussion framework, (2) Daily routine-embedded activities for functional mobility (sit-to-stand during play, standing at table for eating, floor sitting transitions), (3) Stretching program for hamstrings, calves, hip adductors (3 times a day, 30-60 second holds), (4) Strengthening through play (stair games, obstacle course, tricycle), (5) Balance and co-ordination tasks, (6) Splinting and orthotic reminders (AFO wear schedule), (7) Play-based cognitive and social goals, (8) Red flags (contracture progression, seizure, regression). Format as a one-week pictorial activity calendar the mother can follow. Reference GMFCS and F-words in childhood disability. Add an educational disclaimer.",
+      "tags": [
+        "cerebral-palsy",
+        "paediatric-physio",
+        "home-program",
+        "gmfcs",
+        "family-centred"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-022",
+      "title": "Rotator Cuff Tendinopathy Graded Loading",
+      "prompt": "Act as a shoulder specialist physiotherapist with 12 years of experience in Indian sports and occupational clinics. I need you to design a 12-week graded loading rehabilitation program for a 48-year-old male painter from Kochi with right rotator cuff tendinopathy (supraspinatus), painful arc 70-120 degrees, positive Jobe and Hawkins-Kennedy, NPRS 5/10, SPADI 40, intact full-thickness on USG. Please provide: (1) Education on tendinopathy pathology and expected recovery timeline, (2) Stage 1 (weeks 1-3) isometric external rotation and abduction at 45-degree abduction, 5 sets of 45-second holds, daily, (3) Stage 2 (weeks 4-6) heavy slow resistance with theraband progressing to dumbbells for external rotation, scaption, row, and press, 3 sets of 12-15 reps, every other day, (4) Stage 3 (weeks 7-9) energy storage loading and eccentric work, (5) Stage 4 (weeks 10-12) return to overhead painting with load management rules, (6) Pain-monitoring (allowable NPRS up to 5 during, settling within 24 hours), (7) Outcome measures (SPADI, NPRS, DASH). Format as a staged table with dosage. Reference Cook and Purdam continuum and Littlewood protocols. Include an educational disclaimer.",
+      "tags": [
+        "rotator-cuff",
+        "tendinopathy",
+        "graded-loading",
+        "shoulder",
+        "occupational"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-023",
+      "title": "Post-Natal Physiotherapy Program",
+      "prompt": "Act as a women's health physiotherapist with 10 years of experience at an Indian corporate maternity hospital. I need you to design a 6-week post-natal rehabilitation program for a 30-year-old primipara female from Bengaluru who delivered vaginally 2 weeks ago, reports mild urinary leakage on sneezing, diastasis recti of 2.5 fingers at the umbilicus, and low back ache. Please provide: (1) Post-natal assessment (DRAM test, PERFECT scheme for pelvic floor, posture, core activation), (2) Week 1-2 focus on diaphragmatic breathing, pelvic floor activation (PFMT, 10 slow and 10 fast, 3 times daily), TA activation, (3) Week 3-4 progression to core integration, bridging, modified dead bug, (4) Week 5-6 functional strengthening and return-to-exercise guidance, (5) Posture and ergonomics for breastfeeding and baby lifting, (6) Red flags (heavy bleeding, fever, severe pain, infection signs), (7) Return-to-running criteria per Tom Goom guidelines adapted for Indian context, (8) Counselling on scar massage if LSCS. Format as a week-by-week patient-friendly guide. Reference POGP and IAP women's health chapter. Add an educational disclaimer and obstetric clearance note.",
+      "tags": [
+        "post-natal",
+        "womens-health",
+        "pelvic-floor",
+        "diastasis-recti",
+        "return-to-exercise"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-024",
+      "title": "Parkinson's Disease LSVT BIG-Inspired Program",
+      "prompt": "Act as a neuro-physiotherapist with 10 years of experience and LSVT BIG certification, working in an Indian movement disorder clinic. I need you to design a 4-week intensive exercise program for a 68-year-old male patient from Kolkata with idiopathic Parkinson's disease, Hoehn and Yahr Stage 2.5, MDS-UPDRS motor score 32, bradykinesia, mild freezing during turns, currently on levodopa 3 times a day. Please provide: (1) LSVT BIG-inspired principles (amplitude over speed, high effort, daily practice), (2) 4 sessions per week supervised plus daily home practice structure, (3) 7 maximal daily exercises with sets and reps, (4) 5 functional tasks (sit-to-stand, turning, stepping over obstacles, reaching, bed mobility), (5) Gait and cueing strategies (visual tape cues, auditory metronome, counting) for Indian home environments, (6) Fall prevention and freezing management, (7) Outcome measures (MDS-UPDRS, BBS, TUG, 10MWT, 9HPT, PDQ-39), (8) Caregiver education. Format as a daily schedule and exercise card. Reference LSVT BIG and EDGE Task Force guidelines. Add an educational disclaimer.",
+      "tags": [
+        "parkinsons",
+        "lsvt-big",
+        "neuro-physio",
+        "gait-training",
+        "amplitude"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-025",
+      "title": "SOAP Note for Home-Visit Physiotherapy",
+      "prompt": "Act as a home-care physiotherapist with 8 years of experience working with Portea and Nightingales across Bengaluru. I need you to draft a SOAP progress note for session 10 of a home-visit package with Mr Suresh Menon, a 72-year-old male patient, 5 weeks post-right hip hemiarthroplasty following an intertrochanteric fracture. Baseline: TUG 28 seconds, BBS 34/56, walks 8 metres with a walker and contact guard, HHS 58. Today: TUG 22 seconds, BBS 40, walks 15 metres independently with walker, HHS 66, reports mild groin discomfort VAS 2/10. Treatment given: hip precautions review, progressive strengthening, gait training, stair practice on his 3-step apartment entrance. Please provide: (1) Subjective section with patient and daughter's concerns, (2) Objective section with structured outcome measures and observation, (3) Assessment with ICF linkage and progress summary, (4) Plan with updated goals, today's intervention dosage, home program, and next visit focus, (5) Family training note. Format for a home-care app progress entry. Include an educational disclaimer.",
+      "tags": [
+        "soap-note",
+        "home-care",
+        "post-op",
+        "hip-fracture",
+        "geriatric"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-026",
+      "title": "Tennis Elbow Eccentric Loading Program",
+      "prompt": "Act as a musculoskeletal physiotherapist with 10 years of experience in Indian urban clinics. I need you to design an 8-week eccentric loading program for a 40-year-old female tennis player and bank employee from Mumbai with right lateral epicondylalgia (chronic 4 months, NPRS 5/10, PRTEE 48, positive Cozen's and Mill's test). Please provide: (1) Education on tendinopathy and load management principles, (2) Pain-free isometric wrist extension at week 1 (5 x 45 seconds, 3 times daily), (3) Eccentric wrist extensor loading with 1 kg dumbbell progressing from week 2 (3 sets of 15 reps, daily) per Tyler Twist protocol using Flexbar, (4) Concentric-eccentric heavy slow resistance by week 4, (5) Grip strengthening and forearm stretching, (6) Kinetic chain scapular and shoulder strengthening, (7) Work and sport ergonomics (backhand technique, mouse use, grip size), (8) Return-to-sport criteria with grip strength symmetry above 90 percent and PRTEE below 20, (9) Outcome measures. Format as a week-by-week plan with exercise card. Reference Vicenzino and Coombes research. Include an educational disclaimer.",
+      "tags": [
+        "tennis-elbow",
+        "eccentric-loading",
+        "lateral-epicondylalgia",
+        "flexbar",
+        "return-to-sport"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-027",
+      "title": "ICU Early Mobilisation Protocol",
+      "prompt": "Act as a critical care physiotherapist with 10 years of experience in Indian multi-speciality hospital ICUs. I need you to develop an early mobilisation protocol for mechanically ventilated adult patients in a medical ICU, targeting ICU-acquired weakness prevention. Please provide: (1) Inclusion and exclusion criteria based on cardiorespiratory stability (FiO2, PEEP, vasopressors, lactate), neurological status, and safety, (2) Daily safety screening checklist before mobilisation, (3) Progressive mobilisation levels (Level 0 passive ROM, Level 1 active ROM and in-bed exercises, Level 2 sitting over edge of bed, Level 3 standing, Level 4 marching and transfer, Level 5 walking), (4) Stop criteria (HR, BP, SpO2, RR, patient distress, line displacement), (5) MRC sum score and CPAx assessment at baseline and weekly, (6) Equipment and staffing requirements for each level, (7) Documentation template. Format as a clinical protocol document for nurse and physio use. Reference Hodgson et al. and ICS critical care physiotherapy guidelines. Include an educational disclaimer and institutional approval note.",
+      "tags": [
+        "icu-rehab",
+        "early-mobilisation",
+        "critical-care",
+        "cpax",
+        "protocol"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-028",
+      "title": "Ankle Sprain Lateral Ligament Rehab",
+      "prompt": "Act as a sports physiotherapist with 8 years of experience treating recreational athletes in a Pune clinic. I need you to create a 6-week rehabilitation program for a 26-year-old male recreational footballer with a Grade II right lateral ankle sprain (ATFL and CFL), day 3 post-injury, swelling present, unable to weight-bear fully, NPRS 6/10. Please provide: (1) Acute phase (days 1-5) POLICE protocol, gentle AROM, isometric ankle eversion, (2) Early rehab (week 2) progressive weight-bearing, calf raises, theraband eversion and inversion, balance on firm surface, (3) Mid rehab (weeks 3-4) single-leg balance on foam, calf strengthening, step-ups, agility ladder, (4) Late rehab (weeks 5-6) plyometric progression, hop battery, cutting drills, sport-specific drills, (5) Return-to-sport criteria (limb symmetry above 90 percent on hop tests, star excursion balance, FAAM above 90), (6) Proprioceptive taping and bracing advice, (7) Re-injury prevention program. Format as a week-by-week plan. Reference Vuurberg et al. and IAP sports chapter. Include an educational disclaimer.",
+      "tags": [
+        "ankle-sprain",
+        "sports-physio",
+        "return-to-play",
+        "proprioception",
+        "hop-test"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-029",
+      "title": "Diabetic Foot Care and Exercise Sheet",
+      "prompt": "Act as a community physiotherapist with 10 years of experience working in Indian diabetes clinics. I need you to create a bilingual Hindi-English patient education and exercise sheet for a 58-year-old male type 2 diabetic patient from Kanpur with peripheral neuropathy (monofilament 5/10 sites insensate), no active ulcer, BMI 27, HbA1c 8.2. Please provide: (1) Simple explanation of diabetic neuropathy and why foot care matters, (2) Daily foot inspection checklist with a mirror, (3) Foot care do's and don'ts (avoid walking barefoot on temple floors, check footwear for stones, no hot water, nail trimming), (4) Ankle mobility and toe exercises (ankle pumps, alphabet tracing, toe curls with marbles, towel scrunches, calf stretch), (5) Low-impact aerobic suggestion (walking 30 minutes, 5 days per week, with supportive shoes), (6) Balance exercises to reduce fall risk, (7) Red flags that need urgent review (ulcer, redness, heat, tingling change), (8) A weekly tracker. Format as a double-sided printable A4 handout. Reference IWGDF and RSSDI guidelines. Include a bilingual educational disclaimer.",
+      "tags": [
+        "diabetic-foot",
+        "neuropathy",
+        "patient-education",
+        "hindi-instructions",
+        "home-exercise"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-030",
+      "title": "Shoulder Post-Op Rotator Cuff Repair Protocol",
+      "prompt": "Act as a shoulder specialist physiotherapist with 12 years of experience in Indian tertiary hospitals. I need you to develop a phased rehabilitation protocol following arthroscopic rotator cuff repair of a medium-sized supraspinatus tear in a 55-year-old right-hand-dominant male patient from Mumbai, 1 week post-op, in sling. Please provide: (1) Phase 1 (weeks 0-6) protection, sling use, passive ROM goals (flexion to 120, ER to 30), pendulum, scapular setting, (2) Phase 2 (weeks 6-12) active-assisted to active ROM, scapular stabilisation, submaximal isometrics, (3) Phase 3 (weeks 12-18) progressive resistance, rotator cuff strengthening, closed-chain work, (4) Phase 4 (weeks 18-26) advanced strengthening, endurance, return-to-work for desk duties, (5) Phase 5 (weeks 26+) return to recreational activity criteria, (6) Sleeping position and daily living modifications, (7) Red flags, (8) Outcome measures (NPRS, SPADI, ASES, Constant-Murley). Format as a phase-wise table with dosage and criteria. Reference MOON shoulder group and ASES protocols. Include an educational disclaimer and surgeon liaison note.",
+      "tags": [
+        "rotator-cuff-repair",
+        "post-op",
+        "rehab-protocol",
+        "shoulder",
+        "phased-rehab"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-031",
+      "title": "Fibromyalgia Graded Exercise Program",
+      "prompt": "Act as a musculoskeletal physiotherapist with 10 years of experience in chronic pain management in a Delhi clinic. I need you to design a 12-week graded exercise and pain-science education program for a 42-year-old female patient with fibromyalgia (ACR 2016 criteria, WPI 12, SSS 8, symptoms 2 years), generalised pain NPRS 6/10, fatigue, poor sleep, FIQR 58. Please provide: (1) Pain neuroscience education outline (4 sessions), (2) Graded aerobic program starting at patient's tolerance (walking 5-10 minutes, progressing by 10 percent per week, target 30 minutes 3-5 times a week at RPE 11-13), (3) Low-intensity resistance program (body weight progressing to light weights, 2 non-consecutive days), (4) Stretching and gentle yoga routine, (5) Pacing and activity diary, (6) Sleep hygiene and stress management integration, (7) Flare management plan, (8) Outcome measures (FIQR, NPRS, PSQI, PCS, 6MWT). Format as a week-by-week plan with self-monitoring template. Reference EULAR fibromyalgia guidelines and pain science references. Include an educational disclaimer and MDT liaison note.",
+      "tags": [
+        "fibromyalgia",
+        "chronic-pain",
+        "graded-exercise",
+        "pain-neuroscience",
+        "pacing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-032",
+      "title": "Pediatric Torticollis Home Program",
+      "prompt": "Act as a paediatric physiotherapist with 8 years of experience in Indian early-intervention clinics. I need you to create a parent-friendly home program for a 3-month-old infant from Ahmedabad with right congenital muscular torticollis, right SCM tightness, head tilt 20 degrees to right, limited left rotation by 25 degrees, no skull asymmetry. Please provide: (1) Parent education on torticollis (what it is, expected resolution with timely intervention), (2) Positioning strategies during feeding, sleeping (supine always, alternating ends of cot), carrying, and nappy change, (3) Environmental set-up to encourage left rotation (toys, light, parent's face on preferred side), (4) Gentle active rotation and side-bending stretches with step-by-step instructions, 3 sets of 10 holds 10 seconds, 3 times daily, (5) Tummy time program (target 60 minutes cumulative per day), (6) Developmental milestone monitoring checklist, (7) Red flags that need urgent review (plagiocephaly progression, vision concerns, limited progress in 4 weeks), (8) When to start a cranial remoulding consult. Format as a parent handout with simple diagrams described in words. Reference APTA pediatric CPG. Add an educational disclaimer.",
+      "tags": [
+        "torticollis",
+        "paediatric-physio",
+        "home-program",
+        "positioning",
+        "tummy-time"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-033",
+      "title": "ICF Goal Setting for OA Knee Patient",
+      "prompt": "Act as a senior musculoskeletal physiotherapist with 12 years of experience and ICF training. I need you to co-create a structured SMART-ICF goal document with a 62-year-old female retired government employee from Bhopal with bilateral moderate knee OA, whose primary concerns are climbing 2 floors to her apartment, attending morning bhajan sessions that require floor sitting, and walking in the local park with her husband. Baseline: VAS 5/10, WOMAC 46/96, TUG 13 seconds, 30-second sit-to-stand 8 reps, quadriceps MMT 4/5. Please provide: (1) ICF problem list across body function (pain, weakness), activity (stair climbing, floor transitions, walking), and participation (social, religious, family), (2) Three short-term SMART goals (4 weeks) across ICF domains, (3) Three mid-term goals (8 weeks), (4) Two long-term goals (12 weeks) aligned with her priorities, (5) Environmental and personal factor considerations, (6) Outcome measures for each goal, (7) Review schedule. Format as an ICF-SMART table. Include an educational disclaimer noting patient involvement is essential.",
+      "tags": [
+        "smart-goals",
+        "icf",
+        "oa-knee",
+        "goal-setting",
+        "patient-centred"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-034",
+      "title": "Vestibular Rehabilitation for BPPV",
+      "prompt": "Act as a vestibular physiotherapist with 8 years of experience in Indian ENT and neurology clinics. I need you to create a structured management plan for a 55-year-old female patient from Chennai with right posterior canal BPPV (positive Dix-Hallpike with classic torsional upbeating nystagmus, duration 2 weeks, severe vertigo on rolling over in bed). Please provide: (1) Diagnostic summary and canal identification, (2) Epley manoeuvre step-by-step with positional holds and safety precautions, (3) Alternative Semont manoeuvre if Epley not tolerated, (4) Post-manoeuvre instructions (activity, sleep position for 48 hours, avoid sudden head movements), (5) Home Brandt-Daroff exercises if recurrence, (6) Vestibular habituation exercises for residual imbalance, (7) Gaze stabilisation (VOR x1, VOR x2) and balance training, (8) Fall prevention counselling, (9) Outcome measures (DHI, ABC scale, VAS for vertigo), (10) Red flags requiring neurology referral (central signs, new headache, diplopia). Format as a clinician protocol plus patient handout. Reference AAO-HNS BPPV guideline. Include an educational disclaimer and ENT liaison note.",
+      "tags": [
+        "bppv",
+        "vestibular-rehab",
+        "epley-manoeuvre",
+        "dizziness",
+        "protocol"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-035",
+      "title": "Pregnancy Low Back and Pelvic Pain Program",
+      "prompt": "Act as a women's health physiotherapist with 10 years of experience in Indian prenatal clinics. I need you to design a safe 8-week exercise and education program for a 28-year-old primigravida female, 22 weeks gestation, from Bengaluru, with pregnancy-related low back and pelvic girdle pain (NPRS 5/10, positive posterior pelvic pain provocation test), working a desk job. Please provide: (1) Obstetric clearance and red flag screen (bleeding, contractions, PPROM), (2) Education on pregnancy-related biomechanical changes and pacing, (3) Pelvic floor activation and breathing exercises, (4) Core stability program (modified for pregnancy, avoiding supine after 16 weeks), (5) Hip and gluteal strengthening (clamshells, side-lying abduction, bridges), (6) Stretching (hip flexors, piriformis, thoracic rotation), (7) Posture and ergonomics at desk and home, use of pregnancy pillow for sleep, (8) Pain relief strategies (pelvic belt, heat, positioning), (9) Exercise intensity rules (talk test, HR monitoring), (10) Outcome measures (NPRS, PGQ, ODI). Format as a week-by-week plan with patient handout. Reference POGP pregnancy guidelines and FOGSI. Add an educational disclaimer.",
+      "tags": [
+        "pregnancy",
+        "pelvic-girdle-pain",
+        "womens-health",
+        "antenatal",
+        "exercise-prescription"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-036",
+      "title": "Clinic Intake and Screening Questionnaire",
+      "prompt": "Act as a musculoskeletal physiotherapist and clinic owner with 12 years of experience running an outpatient practice in Indore. I need you to design a comprehensive new-patient intake and screening questionnaire suitable for Indian outpatient physiotherapy clinics. Please provide: (1) Demographics and consent section (including Aadhaar optional, insurance), (2) Chief complaint with body chart, onset, aggravating/easing factors, 24-hour pattern, NPRS, (3) Medical history (PMH, medications, surgeries, allergies, comorbidities), (4) Red flag screening for serious pathology across spine (cauda equina, malignancy, fracture, infection) and other regions, (5) Yellow flag screening (STarT Back, fear-avoidance, depression PHQ-2), (6) Functional limitation checklist and occupation-specific demands, (7) Outcome measure selection (region-specific PROMs), (8) Goals and expectations, (9) Physiotherapy history and prior imaging, (10) Consent for assessment, treatment, and data use under DPDP Act 2023. Format as a 3-page printable form plus a clinician scoring key. Reference IAP ethical standards. Include an educational disclaimer noting clinical judgement is required.",
+      "tags": [
+        "intake-form",
+        "screening",
+        "red-flags",
+        "yellow-flags",
+        "clinic-operations"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-037",
+      "title": "Hamstring Strain Return-to-Sport Protocol",
+      "prompt": "Act as a sports physiotherapist with 10 years of experience with Indian football and athletics athletes. I need you to design a return-to-sport protocol for a 24-year-old male state-level sprinter from Kerala with a Grade II right proximal biceps femoris strain (MRI confirmed), day 4 post-injury, NPRS 4/10 on palpation, unable to run. Please provide: (1) Injury classification and prognosis, (2) Phase 1 (days 0-7) PEACE and LOVE, pain-free isometrics in lengthened position, neural mobilisation, (3) Phase 2 (days 7-14) progressive eccentric loading with Nordic hamstring curls, lunge matrix, low-intensity running introduction, (4) Phase 3 (weeks 3-4) sport-specific running, accelerations, change of direction, (5) Phase 4 (weeks 4-6) sprinting progression and return-to-sport, (6) Return-to-sport criteria (pain-free, full ROM, strength symmetry above 90 percent on NordBord or handheld dynamometer, Askling H-test negative, completion of on-field progression), (7) Re-injury prevention program (Nordic hamstring, FIFA 11+), (8) Outcome measures. Format as a phase-wise table. Reference Askling and Mendiguchia protocols. Include an educational disclaimer.",
+      "tags": [
+        "hamstring-strain",
+        "sports-physio",
+        "return-to-sport",
+        "nordic-curl",
+        "athletics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-038",
+      "title": "Group Exercise Class Plan for Arthritis Patients",
+      "prompt": "Act as a community physiotherapist with 8 years of experience running group therapy classes at an Indian municipal health centre. I need you to create a structured 60-minute group exercise class plan for 10 older adults (aged 60-75) with early-to-moderate knee or hip osteoarthritis, conducted twice a week for 8 weeks in a community hall in Pune. Please provide: (1) Pre-class screening and consent protocol, (2) Warm-up (10 minutes) with seated mobility and marching, (3) Strengthening circuit (25 minutes) with chair-based sit-to-stand, step-ups, resistance band work, mini squats, wall push-ups, (4) Balance and functional component (10 minutes) with tandem stance, single-leg stance, obstacle walking, (5) Aerobic component (10 minutes) of chair-based or slow walking intervals, (6) Cool-down and stretching (5 minutes), (7) Music and peer-support integration suitable for Indian context (regional instrumentals), (8) Session safety and emergency plan, (9) Home exercise reinforcement, (10) Outcome measures (TUG, 30-second sit-to-stand, WOMAC, NPRS) at weeks 0, 4, 8. Format as a class lesson plan. Reference OARSI and NICE OA guidelines. Add an educational disclaimer.",
+      "tags": [
+        "group-exercise",
+        "osteoarthritis",
+        "community-physio",
+        "geriatric",
+        "class-plan"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-039",
+      "title": "Chronic Low Back Pain Biopsychosocial Plan",
+      "prompt": "Act as a musculoskeletal physiotherapist with 12 years of experience and training in cognitive functional therapy. I need you to create a biopsychosocial assessment and 10-week management plan for a 45-year-old male truck driver from Amritsar with chronic non-specific low back pain (duration 3 years, NPRS 6/10, ODI 42, STarT Back high risk, PCS 32, fear-avoidance beliefs high), working 10-12 hour driving shifts. Please provide: (1) Biopsychosocial assessment summary including physical, psychological, and social domains, (2) Pain neuroscience education delivered over 3 sessions, (3) Cognitive functional therapy approach to identify and challenge avoidance, (4) Graded movement and exposure program to feared activities (bending, lifting, prolonged sitting), (5) Strength and conditioning component (2 days per week), (6) Occupational modifications for truck cabin setup, pacing during long drives, rest breaks and stretches, (7) Sleep, stress, and smoking cessation counselling, (8) Goal setting and action plan, (9) Outcome measures (NPRS, ODI, PCS, STarT Back, PSFS), (10) Relapse prevention. Format as a 10-week plan with session structure. Reference O'Sullivan CFT. Include an educational disclaimer and MDT referral note.",
+      "tags": [
+        "chronic-low-back-pain",
+        "biopsychosocial",
+        "cognitive-functional-therapy",
+        "graded-exposure",
+        "occupational"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    },
+    {
+      "id": "medical-physiotherapists-040",
+      "title": "Discharge Summary for OPD Physiotherapy",
+      "prompt": "Act as a musculoskeletal physiotherapist with 10 years of experience in an Indian corporate hospital OPD. I need you to draft a formal discharge summary for Mrs Priya Sharma, a 48-year-old female patient from Noida who completed 12 sessions of physiotherapy over 6 weeks for right frozen shoulder (stiffness-predominant phase). Baseline: VAS 7/10, passive abduction 85 degrees, ER 20 degrees, SPADI 62, DASH 48. Discharge: VAS 2/10, passive abduction 155 degrees, ER 55 degrees, SPADI 18, DASH 14, full functional return to cooking, dressing, and overhead reaching. Please provide: (1) Patient and referral information, (2) Diagnosis and presenting complaint, (3) Assessment summary at admission and discharge with outcome measure comparison table, (4) Treatment provided (manual therapy, graded exercise, home program, modalities) with session count, (5) Goal attainment summary, (6) Home exercise program to continue for 3 months post-discharge, (7) Red flags and when to return, (8) Recommendations for referring orthopaedic surgeon, (9) Patient satisfaction note, (10) INR-denominated invoice summary if relevant. Format as a 1-page formal discharge document. Include an educational disclaimer.",
+      "tags": [
+        "discharge-summary",
+        "documentation",
+        "frozen-shoulder",
+        "outcome-measures",
+        "opd"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "physiotherapists"
+    }
+  ]
+}

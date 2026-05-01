@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "ecommerce-merchandising-pricing-001",
+      "title": "Diwali Flash Sale Discount Ladder Planner",
+      "prompt": "Act as a senior merchandising manager with 10 years experience in Indian D2C and marketplace retail. I need you to design a 7-day Diwali flash sale discount ladder for my fashion brand selling on Flipkart Big Billion Days and Amazon Great Indian Festival. Here is the context: my catalog has 240 SKUs, average MRP ₹1,499, blended margin 55%, target GMV lift of 3.2x over baseline, and I must respect Flipkart's minimum 20% off claim rule and Legal Metrology MRP display norms. Please provide: (1) a day-wise discount ladder (Day 1 teaser to Day 7 close) with specific percentage bands per SKU tier, (2) psychological price points ending in ₹99 / ₹499 / ₹999, (3) the exact post-discount price for 3 sample SKUs at MRP ₹799, ₹1,499 and ₹2,999, (4) a coupon stacking rule so total discount never exceeds 60%, (5) a contribution margin check at each tier, and (6) a rollback plan if sell-through crosses 70% by Day 3. Format the output as a table followed by a short rationale paragraph. Consider these constraints: GST 5% on apparel under ₹1,000 and 12% above, marketplace commission 18-22%, and the Consumer Protection (E-Commerce) Rules 2020 on misleading discount claims.",
+      "tags": [
+        "pricing-strategy",
+        "festive-sale",
+        "discount-ladder",
+        "diwali"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-002",
+      "title": "Slow-Mover SKU Liquidation Analyzer",
+      "prompt": "Act as an inventory planning analyst with 8 years experience in Indian e-commerce. I need you to analyze a slow-mover SKU list and recommend a liquidation strategy before the end-of-season sale (EOSS) in July. Here is the context: I will paste a CSV of 60 SKUs with columns SKU, category, MRP, landed cost, on-hand units, days-of-cover, last-30-day velocity, warehouse (Bhiwandi/Bengaluru). My blended storage cost is ₹14 per unit per month and I need to free up 40% of shelf space before Independence Day drops arrive. Please provide: (1) an ABC-XYZ classification of the 60 SKUs, (2) a recommended action per SKU (deep discount, bundle, B2B dump, return to vendor, write-off), (3) the minimum acceptable price per SKU that still recovers landed cost plus 5%, (4) a combo-bundle suggestion pairing slow movers with fast movers to lift AOV to ₹1,200, and (5) a 4-week liquidation calendar. Format the output as a prioritized action table. Consider these constraints: GST input credit reversal on write-offs under Section 17(5), marketplace return penalties, and the Indian monsoon impact on Bhiwandi warehouse throughput.",
+      "tags": [
+        "inventory",
+        "slow-mover",
+        "liquidation",
+        "eoss"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-003",
+      "title": "Basic BOGO Offer Builder for Kirana D2C",
+      "prompt": "Act as a promotions executive at an Indian D2C snacks brand. I need you to draft a simple Buy-One-Get-One (BOGO) offer for my Shopify store targeting tier-2 city customers during Raksha Bandhan week. Here is the context: hero SKU is a ₹249 namkeen gift pack, current AOV is ₹420, COGS is ₹95 per pack, and I want to push AOV to ₹550 without hurting contribution margin below 30%. Please provide: (1) three BOGO variants (B1G1 free, B2G1 free, B1G1 at 50%), (2) the effective discount and margin for each variant, (3) banner copy in Hindi and English under 12 words, (4) a landing page headline and sub-headline, and (5) a 3-line WhatsApp broadcast message. Format the output as clearly labelled sections. Consider these constraints: free items must show MRP as per Legal Metrology rules, GST 12% on namkeen, and Shopify's automatic discount limits.",
+      "tags": [
+        "promo",
+        "bogo",
+        "d2c",
+        "festive-sale"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-004",
+      "title": "₹999 Price Point Psychology Audit",
+      "prompt": "Act as a pricing strategist with deep expertise in Indian consumer psychology. I need you to audit my catalog pricing and recommend charm price points (₹99, ₹199, ₹499, ₹999, ₹1,499) that maximize click-through on Flipkart search. Here is the context: I sell home decor with 120 SKUs currently priced at round numbers like ₹500, ₹1,000, ₹2,000. My conversion rate on Flipkart is 1.8% vs category benchmark 2.6%. Please provide: (1) a recommended new price for each of 10 sample SKUs I will paste, (2) the percentage change and margin impact, (3) a rationale grounded in Indian price-ending research, (4) a Flipkart search-filter bucket analysis (will the SKU fall into the ₹500-₹1,000 filter?), and (5) an A/B test plan for 2 weeks. Format the output as a before-after table plus a short strategy note. Consider these constraints: MRP must remain unchanged, only selling price moves, and GST is already inclusive.",
+      "tags": [
+        "pricing-strategy",
+        "psychology",
+        "charm-pricing",
+        "flipkart"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-005",
+      "title": "Wedding Season Bundle Creator",
+      "prompt": "Act as a category manager for an Indian jewellery D2C brand. I need you to create three wedding-season gift bundles targeting the November-February peak. Here is the context: I have 80 SKUs across earrings (₹499-₹2,499), necklaces (₹999-₹4,999), and bangles (₹299-₹1,499). Current AOV is ₹1,100 and I want to push bundle AOV to ₹2,500. Target customer is a 28-40 year old urban woman buying for sister or cousin's shaadi. Please provide: (1) three named bundles (Sangeet Set, Haldi Glow, Reception Grand) with SKU mix, (2) bundle MRP, bundle selling price, and saving callout, (3) a gifting card message in Hinglish, (4) the attach-rate uplift assumption, and (5) packaging SKU requirement. Format the output as a bundle spec sheet. Consider these constraints: BIS hallmarking disclosure, 3% GST on gold jewellery, and Indian gifting etiquette around odd-number denominations.",
+      "tags": [
+        "bundle",
+        "wedding-season",
+        "aov",
+        "jewellery"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-006",
+      "title": "Reorder Point Calculator for Festive Peak",
+      "prompt": "Act as a demand planner at an Indian beauty D2C brand. I need you to calculate reorder points and safety stock for my top 20 SKUs ahead of the Navratri-to-Diwali 45-day festive window. Here is the context: lead time from my Baddi contract manufacturer is 21 days, historical festive sales lift is 2.8x baseline, stockout cost is ₹180 per unit in lost margin, and I hold inventory at Delhi NCR warehouse. Please provide: (1) formula used for reorder point and safety stock, (2) a SKU-level table showing baseline velocity, festive velocity, ROP, safety stock, and order-up-to quantity, (3) a PO schedule with cut-off dates, (4) a risk note on Baddi lorry transporter strikes and Delhi pollution lockdowns, and (5) a capital requirement summary. Format the output as a planning worksheet. Consider these constraints: MSME supplier payment terms under 45 days per MSMED Act, and GST input credit timing.",
+      "tags": [
+        "inventory",
+        "reorder-point",
+        "festive-sale",
+        "planning"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-007",
+      "title": "Tiered Discount Structure for AOV Lift",
+      "prompt": "Act as a CRM and pricing manager at an Indian home essentials brand. I need you to design a tiered cart discount that lifts AOV from ₹680 to ₹950. Here is the context: my Shopify store gets 12,000 monthly sessions, current conversion 2.1%, blended margin 48%. Customers are price-sensitive tier-2 buyers from Pune, Indore, Lucknow. Please provide: (1) a three-tier discount (flat ₹50 off ₹599, ₹120 off ₹899, ₹250 off ₹1,299), (2) margin impact per tier, (3) a forecast of order-mix shift, (4) on-site banner copy and cart-page nudges, and (5) an abandonment recovery message. Format the output as a tier table plus copy snippets. Consider these constraints: GST invoicing on discounts must follow Section 15(3) of CGST Act, and Shopify's discount-stacking rules.",
+      "tags": [
+        "promo",
+        "tiered-discount",
+        "aov",
+        "cart"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-008",
+      "title": "MRP vs Selling Price Compliance Checker",
+      "prompt": "Act as a legal-pricing coordinator at an Indian D2C electronics brand. I need you to audit my product listings for MRP and discount display compliance. Here is the context: I will paste 15 product listings from my website showing MRP, strike-through price, selling price, and discount percentage callout. The Legal Metrology Department recently issued notices to three brands for misleading strike-through prices. Please provide: (1) a listing-by-listing compliance verdict (compliant / risk / non-compliant), (2) the specific rule violated if any, (3) a recommended corrected display, (4) a master style guide for future listings, and (5) a risk score. Format the output as an audit table. Consider these constraints: Legal Metrology (Packaged Commodities) Rules 2011, Consumer Protection (E-Commerce) Rules 2020, and ASCI guidelines on discount claims.",
+      "tags": [
+        "pricing-strategy",
+        "compliance",
+        "mrp",
+        "legal"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-009",
+      "title": "Penetration Pricing for New SKU Launch",
+      "prompt": "Act as a new-product pricing strategist for an Indian D2C personal care brand. I need you to recommend a penetration pricing plan for a new face serum launching on Nykaa and my own Shopify store. Here is the context: category leader prices at ₹899 for 30ml, my landed cost is ₹165, target first-90-day volume is 8,000 units, and I want 25% market share in the ₹500-₹900 bracket. Please provide: (1) a recommended launch price with rationale, (2) a 90-day price escalation plan moving from penetration to sustain price, (3) the break-even volume at each price point, (4) a Nykaa Luxe vs mass positioning trade-off note, and (5) a defensive plan if a competitor drops price by 15%. Format the output as a strategy brief. Consider these constraints: Nykaa's commission of 25-30%, GST 18% on cosmetics, and Drug and Cosmetics Act labelling.",
+      "tags": [
+        "pricing-strategy",
+        "penetration",
+        "launch",
+        "nykaa"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-010",
+      "title": "Overstock Alert Report Generator",
+      "prompt": "Act as a warehouse inventory controller for an Indian multi-brand e-commerce seller. I need you to generate an overstock alert report for my Bhiwandi warehouse. Here is the context: I will paste a CSV of 200 SKUs with on-hand, 90-day sales, expiry date (if applicable), and storage cost per unit. Overstock is defined as days-of-cover greater than 120. Please provide: (1) the overstocked SKU list sorted by capital locked, (2) a root-cause tag per SKU (over-forecasted, lost ranking, seasonality miss, quality issue), (3) an action plan (markdown, bundle, B2B, return), (4) the projected cash release in INR over 30/60/90 days, and (5) an escalation list for leadership. Format the output as a ranked table plus summary. Consider these constraints: monsoon-driven Bhiwandi humidity damage, GST write-off rules, and Amazon FBA long-term storage fees.",
+      "tags": [
+        "inventory",
+        "overstock",
+        "reporting",
+        "warehouse"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-011",
+      "title": "Big Billion Days War Room Price Sheet",
+      "prompt": "Act as a marketplace pricing manager with 7 years experience on Flipkart. I need you to build a war-room price sheet for my 50 hero SKUs for Big Billion Days. Here is the context: BBD runs for 7 days, I must submit deal prices to Flipkart 21 days prior, Lightning Deals require extra 5% off, and I compete with three rivals whose historical BBD discounts ranged 35-55%. Please provide: (1) a SKU-level sheet with MRP, current selling price, BBD deal price, Lightning Deal price, floor price, (2) a competitor-reaction matrix, (3) a margin-per-unit view at each tier, (4) a daily repricing trigger rule, and (5) a post-BBD price recovery ladder over 14 days. Format as a war-room dashboard spec. Consider these constraints: Flipkart Smart Buy commission, seller protection policy, and the Consumer Protection Act rules on inflated MRPs.",
+      "tags": [
+        "pricing-strategy",
+        "flipkart",
+        "festive-sale",
+        "bbd"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-012",
+      "title": "Attach-Rate Bundle Optimizer",
+      "prompt": "Act as a data-driven merchandising analyst at an Indian D2C kitchen brand. I need you to optimize product bundles to maximize attach rate. Here is the context: I have 3 months of order data showing frequent co-purchases between my chopping board (₹399), knife set (₹799), and apron (₹249). Current attach rate between board and knife is 14%. I want to push it to 30%. Please provide: (1) a market-basket style affinity score for my top 10 product pairs, (2) three bundle offers with SKU combos and prices, (3) an expected attach-rate lift per bundle, (4) a PDP cross-sell widget copy, and (5) the incremental GMV and margin forecast. Format the output as an affinity matrix plus bundle spec. Consider these constraints: GST mixed-supply vs composite-supply rules on bundles, and Shopify bundle app limitations.",
+      "tags": [
+        "bundle",
+        "attach-rate",
+        "aov",
+        "analytics"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-013",
+      "title": "Sharad Navratri 9-Day Campaign Calendar",
+      "prompt": "Act as a festive campaign planner at an Indian ethnic wear D2C brand. I need you to build a 9-day Sharad Navratri promotional calendar aligned with the daily goddess colour tradition. Here is the context: my catalog has 180 SKUs across lehengas, kurtas, and dupattas priced ₹699-₹4,999. Target is to sell 5,000 units in 9 days with AOV ₹1,800. Please provide: (1) a day-by-day colour theme (red, royal blue, yellow, green, grey, orange, white, pink, sky blue) matched to SKU selections, (2) the daily offer hook, (3) an Instagram reel idea per day, (4) a WhatsApp broadcast schedule, and (5) a daily GMV target. Format the output as a 9-day calendar table. Consider these constraints: GST 5% on apparel below ₹1,000, Indian logistics cut-off for same-state dispatch, and ASCI guidelines on festive claims.",
+      "tags": [
+        "festive-sale",
+        "navratri",
+        "campaign",
+        "calendar"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-014",
+      "title": "Value-Based Pricing for Premium SKU",
+      "prompt": "Act as a premium-category pricing consultant. I need you to set a value-based price for my new Ayurveda hair oil targeting urban millennials. Here is the context: ingredient cost ₹120, packaging ₹35, competitors Kama Ayurveda (₹895), Forest Essentials (₹1,150), Khadi Natural (₹299). My unique value is clinically tested bhringraj and 60-day money-back. I sell on own D2C and Nykaa Luxe. Please provide: (1) a perceived-value analysis vs three competitors, (2) a recommended selling price with justification, (3) a willingness-to-pay survey plan for 200 respondents, (4) a price-quality cue checklist (packaging, claims, certifications), and (5) a scenario table at ₹599 / ₹799 / ₹999. Format as a strategy memo. Consider these constraints: AYUSH licensing display, GST 12% on Ayurveda, and Nykaa Luxe minimum price filters.",
+      "tags": [
+        "pricing-strategy",
+        "value-based",
+        "premium",
+        "ayurveda"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-015",
+      "title": "Skimming Price Launch for Tech Gadget",
+      "prompt": "Act as a product-launch pricing strategist for an Indian consumer electronics brand. I need you to design a price-skimming plan for a new TWS earbud launching exclusively on Amazon India. Here is the context: BOM cost ₹780, competitor launch price range ₹1,999-₹2,999, early-adopter segment is gadget enthusiasts in Bengaluru and Hyderabad. Please provide: (1) a launch-price recommendation with skim rationale, (2) a 6-month price glidepath with trigger events, (3) expected early-adopter volume vs mainstream volume, (4) an Amazon deal-of-the-day strategy, and (5) a grey-market risk note. Format as a launch playbook. Consider these constraints: BIS compliance, GST 18% on electronics, and Amazon's price-parity clause.",
+      "tags": [
+        "pricing-strategy",
+        "skimming",
+        "launch",
+        "electronics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-016",
+      "title": "EOSS Markdown Cascade Planner",
+      "prompt": "Act as a merchandising planner at an Indian fashion retailer. I need you to plan an End-of-Season Sale (EOSS) markdown cascade for summer collection in July. Here is the context: 320 SKUs, ₹28 lakh inventory at cost, target sell-through 75% in 21 days, current week-1 discount is 30%. Please provide: (1) a 3-phase markdown cascade (30% > 45% > 60%), (2) the trigger for moving to the next phase, (3) SKU selection rules for each phase, (4) the expected realization and margin, and (5) a residual-inventory plan post-EOSS. Format as a markdown schedule. Consider these constraints: Flipkart EOSS rules, GST implications of deep discounts, and the monsoon dispatch delay to southern metros.",
+      "tags": [
+        "pricing-strategy",
+        "eoss",
+        "markdown",
+        "fashion"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-017",
+      "title": "Simple Festive Gift Card Offer",
+      "prompt": "Act as a D2C promotions associate. I need you to draft a simple Diwali gift card offer for my Shopify store. Here is the context: I sell scented candles priced ₹299-₹899, my AOV is ₹540, and I want first-time buyers. Please provide: (1) three gift card denominations (₹500, ₹1,000, ₹2,000), (2) a bonus offer (e.g., buy ₹1,000 get ₹100 extra), (3) a landing page headline and body copy, (4) an email subject line, and (5) a terms-and-conditions snippet. Format as a campaign brief. Consider these constraints: gift cards are treated as vouchers under GST Section 12(4), and Shopify gift card expiry rules.",
+      "tags": [
+        "promo",
+        "gift-card",
+        "diwali",
+        "d2c"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-018",
+      "title": "SKU Velocity Classification Report",
+      "prompt": "Act as a junior inventory analyst at an Indian marketplace seller. I need you to classify 150 SKUs by sales velocity into Fast, Medium, Slow, and Dead. Here is the context: I will paste a CSV with SKU, 30-day units sold, 60-day units sold, 90-day units sold, and current on-hand. Fast = 100+ units/month, Medium = 30-99, Slow = 5-29, Dead = under 5. Please provide: (1) the classified list, (2) a summary count and capital locked per tier, (3) a recommended action per tier, (4) a SKU rationalization suggestion (delist, keep, promote), and (5) a cover-days view. Format the output as a classification table. Consider these constraints: Amazon FBA storage fees, Flipkart listing quality score, and seasonal demand drift.",
+      "tags": [
+        "inventory",
+        "velocity",
+        "classification",
+        "reporting"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-019",
+      "title": "Flash Sale Hour-by-Hour Playbook",
+      "prompt": "Act as a flash-sale operations manager. I need you to build an hour-by-hour playbook for a 12-hour Independence Day flash sale on my D2C website. Here is the context: 9am-9pm window, expected 8x traffic spike, 50 hero SKUs, target GMV ₹18 lakh. Please provide: (1) an hourly schedule of offers (tripwire, hero deal, midday reveal, evening push), (2) a banner rotation plan, (3) a WhatsApp and email send schedule, (4) a live inventory monitoring checklist, and (5) a crash-contingency rollback. Format as an hourly ops sheet. Consider these constraints: CDN load limits, payment gateway throughput, and the Consumer Protection Act on sale claim disclosures.",
+      "tags": [
+        "promo",
+        "flash-sale",
+        "playbook",
+        "independence-day"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-020",
+      "title": "Amazon Great Indian Festival Deal Builder",
+      "prompt": "Act as an Amazon India account manager. I need you to build a Lightning Deal and Best Deal submission pack for the Amazon Great Indian Festival (GIF). Here is the context: 25 SKUs across kitchen and home, deal submission window closes 18 days before GIF, Amazon requires minimum 15% off lowest-30-day price for Best Deal and 20% for Lightning. Please provide: (1) per-SKU deal price calculation honouring the floor rule, (2) the deal-type recommendation, (3) the deal badge text, (4) a stock commitment plan per deal, and (5) a post-deal price restoration plan. Format as a submission checklist. Consider these constraints: Amazon's referral fee 12-17%, GST 18% on most kitchenware, and the GIF preview day rules.",
+      "tags": [
+        "pricing-strategy",
+        "amazon",
+        "festive-sale",
+        "gif"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-021",
+      "title": "Cross-Sell Bundle for Rakhi Gifting",
+      "prompt": "Act as a gifting-category manager. I need you to create cross-sell bundles for Raksha Bandhan on my chocolate D2C store. Here is the context: SKUs include assorted chocolate box (₹499), rakhi set (₹199), greeting card (₹49), gift wrap (₹79). AOV target ₹750. Please provide: (1) three bundle SKUs (Brother Basic, Brother Premium, Brother Deluxe), (2) a pricing ladder with saving callout, (3) a PDP cross-sell widget text, (4) a courier cut-off timeline for pan-India delivery by Rakhi day, and (5) a sibling emotion-driven ad copy. Format as a bundle spec sheet. Consider these constraints: FSSAI labelling, GST 18% on chocolate, and Blue Dart surcharges during festive peak.",
+      "tags": [
+        "bundle",
+        "rakhi",
+        "gifting",
+        "cross-sell"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-022",
+      "title": "Competitor Price Monitoring Brief",
+      "prompt": "Act as a competitive intelligence analyst. I need you to set up a daily competitor price monitoring brief. Here is the context: I track 5 rivals on Amazon and Flipkart across 30 SKUs. I want a daily 7am summary I can forward to leadership. Please provide: (1) the brief template with fields (SKU, my price, rival prices, delta, rank change), (2) a red/amber/green alert logic, (3) an automated action recommendation (hold, match, undercut by 2%), (4) a weekly trend chart spec, and (5) a commentary prompt I can reuse. Format as a report template. Consider these constraints: marketplace price-parity terms and the CCI's scrutiny of predatory pricing.",
+      "tags": [
+        "pricing-strategy",
+        "competitor",
+        "monitoring",
+        "reporting"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-023",
+      "title": "Minimum Advertised Price Policy Draft",
+      "prompt": "Act as a channel policy manager at an Indian consumer brand. I need you to draft a Minimum Advertised Price (MAP) policy for my 40 authorised resellers on Amazon and Flipkart. Here is the context: unauthorised discounting is eroding my brand equity, and I have no current MAP document. Please provide: (1) a MAP policy outline with definitions, (2) a tiered enforcement ladder (warning, stop-supply, terminate), (3) a sample reseller notification email, (4) a monitoring SOP using marketplace scrapers, and (5) a legal risk note. Format as a policy document. Consider these constraints: Competition Act Section 3 on vertical agreements, CCI's position on resale price maintenance, and FDI policy on marketplace selling.",
+      "tags": [
+        "pricing-strategy",
+        "map-policy",
+        "compliance",
+        "channel"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-024",
+      "title": "Dead Stock Write-Off Proposal",
+      "prompt": "Act as a finance-merchandising coordinator. I need you to prepare a dead stock write-off proposal for the CFO. Here is the context: 1,200 units of obsolete SKUs with landed cost ₹6.4 lakh, held in Bhiwandi for 18+ months, zero velocity. Please provide: (1) a SKU-level write-off schedule, (2) the accounting treatment and GST ITC reversal calculation, (3) a salvage plan (B2B dump, NGO donation, scrap), (4) the net financial impact, and (5) a prevention checklist for the future. Format as a board-ready memo. Consider these constraints: Section 17(5) CGST ITC reversal, Income Tax Act Section 37 deduction rules, and Companies Act disclosure norms.",
+      "tags": [
+        "inventory",
+        "dead-stock",
+        "write-off",
+        "finance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-025",
+      "title": "Beginner Coupon Code Generator Plan",
+      "prompt": "Act as a growth marketing associate. I need you to plan a coupon code campaign for my D2C store's first anniversary. Here is the context: catalog is ayurvedic wellness products, AOV ₹680, 15,000 customers in database. Please provide: (1) five coupon codes with labels (WELCOME10, BIRTHDAY15, VIP20, LAPSED25, FRIEND30), (2) usage rules and minimum cart, (3) targeting segments, (4) a WhatsApp and email rollout plan, and (5) a redemption forecast. Format as a campaign brief. Consider these constraints: GST invoice-level discount rules and Shopify coupon conflict prevention.",
+      "tags": [
+        "promo",
+        "coupon",
+        "anniversary",
+        "d2c"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-026",
+      "title": "Category Margin Mix Rebalancing",
+      "prompt": "Act as a category head at a mid-size Indian e-commerce seller. I need you to rebalance my category margin mix to lift blended margin from 38% to 44%. Here is the context: 5 categories (Apparel 42%, Home 36%, Beauty 48%, Electronics 22%, Accessories 52%), total GMV ₹4.8 crore annually. Please provide: (1) a scenario analysis of shifting GMV share between categories, (2) the marketing spend reallocation, (3) SKU rationalization per category, (4) a 90-day execution plan, and (5) a risk register. Format as a strategy deck outline. Consider these constraints: marketplace commission differentials, GST rate differences, and festive demand seasonality.",
+      "tags": [
+        "pricing-strategy",
+        "margin",
+        "category",
+        "planning"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-027",
+      "title": "Cart Abandonment Discount Ladder",
+      "prompt": "Act as a retention marketing manager. I need you to design an abandonment discount ladder for my Shopify store. Here is the context: 38% cart abandonment rate, AOV ₹890, margin 45%, current recovery rate 6%. Please provide: (1) a three-touch email sequence (1hr, 24hr, 72hr) with escalating offers (free shipping, 5% off, 10% off), (2) email subject lines and preview text, (3) a WhatsApp opt-in message, (4) the expected recovery lift, and (5) a margin protection cap. Format as a sequence blueprint. Consider these constraints: DPDP Act 2023 consent, TRAI DLT templates for SMS, and GST on shipping.",
+      "tags": [
+        "promo",
+        "abandonment",
+        "discount-ladder",
+        "retention"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-028",
+      "title": "Holi Colour-Themed Campaign Pack",
+      "prompt": "Act as a festive marketing planner. I need you to build a Holi campaign pack for my herbal gulal D2C brand. Here is the context: 12 SKUs, 4-day sale window, target 6,000 orders, AOV ₹450. Please provide: (1) a hero offer (Combo of 5 colours at ₹399), (2) a tier-2 influencer list of 10 creators, (3) a Reel script in Hinglish, (4) a landing page copy, and (5) a dispatch cut-off schedule. Format as a campaign pack. Consider these constraints: FSSAI herbal claim rules, Blue Dart Holi-eve dispatch cut-off, and GST 12% on herbal gulal.",
+      "tags": [
+        "promo",
+        "holi",
+        "festive-sale",
+        "campaign"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-029",
+      "title": "Price Elasticity Test Design",
+      "prompt": "Act as a pricing scientist. I need you to design a price elasticity A/B test for 5 hero SKUs on my D2C store. Here is the context: I want to measure demand elasticity between ₹499 and ₹699 for a ₹599 anchor SKU across 4 weeks. Traffic is 40,000 monthly sessions split equally across variants. Please provide: (1) the test hypothesis and success metric, (2) the split design and sample size calc, (3) the elasticity formula and interpretation, (4) a statistical significance threshold, and (5) a rollout decision tree. Format as a test plan. Consider these constraints: Shopify AB test app limitations, ethical price testing principles, and ASCI non-deceptive pricing norms.",
+      "tags": [
+        "pricing-strategy",
+        "elasticity",
+        "ab-test",
+        "analytics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-030",
+      "title": "Reorder Schedule for Wedding Season Peak",
+      "prompt": "Act as a supply chain planner at an Indian ethnic footwear brand. I need you to build a reorder schedule for the November-February wedding peak. Here is the context: 40 SKUs sourced from Agra and Jaipur, lead time 28 days, festive demand 3.1x baseline, current on-hand coverage 45 days. Please provide: (1) a week-by-week PO schedule, (2) safety stock per SKU, (3) a split between Agra and Jaipur suppliers, (4) a cash flow requirement, and (5) a fallback plan for Jaipur monsoon shutdown. Format as a planning calendar. Consider these constraints: MSME supplier 45-day payment terms, GST input credit timing, and diesel surcharge volatility on inter-state transport.",
+      "tags": [
+        "inventory",
+        "reorder",
+        "wedding-season",
+        "planning"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-031",
+      "title": "Subscription Box Pricing Model",
+      "prompt": "Act as a subscription commerce strategist. I need you to price a monthly snack subscription box. Here is the context: 6 products per box, COGS ₹180, packaging ₹40, fulfillment ₹65, target 2,500 subscribers in 6 months. Please provide: (1) a 3-tier subscription price (monthly, quarterly, annual) with discount ladder, (2) a unit economics calculation, (3) a churn-adjusted LTV model, (4) a first-box acquisition offer, and (5) a GST treatment note on recurring billing. Format as a pricing worksheet. Consider these constraints: RBI recurring mandate rules for under-₹15,000 auto-debit, FSSAI labelling, and GST 12% on namkeen.",
+      "tags": [
+        "pricing-strategy",
+        "subscription",
+        "ltv",
+        "d2c"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-032",
+      "title": "Dynamic Pricing Rule Engine Spec",
+      "prompt": "Act as a pricing tech lead. I need you to specify a dynamic pricing rule engine for my marketplace listings. Here is the context: 800 SKUs on Amazon and Flipkart, competitor-driven repricing needed every 4 hours, floor price must protect 18% contribution margin. Please provide: (1) the rule hierarchy (floor, competitor, box, buy-box chase, festive override), (2) a JSON rule schema, (3) an escalation path for conflicts, (4) a simulation plan for 2 weeks, and (5) a governance board for rule changes. Format as a technical spec. Consider these constraints: Amazon repricer API rate limits, Flipkart seller protection on buy box, and CCI concerns on algorithmic collusion.",
+      "tags": [
+        "pricing-strategy",
+        "dynamic-pricing",
+        "automation",
+        "marketplace"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-033",
+      "title": "Pooja Essentials Bundle for Dhanteras",
+      "prompt": "Act as a festive category manager at a home essentials D2C brand. I need you to create a Dhanteras pooja essentials bundle. Here is the context: SKUs include brass diya (₹199), kumkum box (₹99), rangoli stencil (₹149), marigold garland (₹129), silver-coated coin (₹299). AOV target ₹650. Please provide: (1) two bundle versions (Classic and Premium), (2) bundle pricing with saving callout, (3) a Hindi-English banner copy, (4) a PDP description, and (5) a delivery-by-Dhanteras cut-off note. Format as a bundle spec. Consider these constraints: BIS hallmark on silver-coated items, GST 3% on silver, and Indian postal regional cut-offs.",
+      "tags": [
+        "bundle",
+        "dhanteras",
+        "festive-sale",
+        "d2c"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-034",
+      "title": "ABC Analysis for SKU Rationalization",
+      "prompt": "Act as an inventory analyst. I need you to run an ABC analysis on 500 SKUs to drive rationalization. Here is the context: I will paste a CSV with SKU, 12-month revenue, 12-month units, margin. A = top 70% revenue, B = next 20%, C = bottom 10%. Please provide: (1) the classified list, (2) a SKU count and revenue share per tier, (3) a rationalization plan (prune C, promote A, grow B), (4) a shelf-space reallocation, and (5) the expected working capital release. Format as an analysis report. Consider these constraints: Flipkart listing-level SLA penalties and GST HSN code consolidation.",
+      "tags": [
+        "inventory",
+        "abc-analysis",
+        "rationalization",
+        "analytics"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-035",
+      "title": "Prebook Launch Offer Plan",
+      "prompt": "Act as a launch marketing manager. I need you to build a prebook offer plan for a new premium coffee SKU on my D2C store. Here is the context: launch in 30 days, launch MRP ₹799, target 1,500 prebook orders at ₹599. Please provide: (1) a prebook incentive ladder (early bird, standard, late), (2) a countdown landing page copy, (3) a WhatsApp waitlist flow, (4) a refund and fulfilment SLA, and (5) a GST advance-receipt note. Format as a launch plan. Consider these constraints: GST Section 13 time-of-supply on advances, FSSAI roast-date labelling, and the Consumer Protection Act on prebook delivery commitments.",
+      "tags": [
+        "promo",
+        "prebook",
+        "launch",
+        "d2c"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-036",
+      "title": "Republic Day Bundle Sale",
+      "prompt": "Act as a promotions planner at a home textiles D2C brand. I need you to build a Republic Day bundle sale. Here is the context: 30 SKUs across bedsheets, cushions, curtains priced ₹499-₹2,499. Target AOV ₹1,700. Please provide: (1) three tri-colour themed bundles, (2) bundle pricing with saving callout, (3) a banner copy referencing national pride, (4) an SMS broadcast text within TRAI DLT template, and (5) a 3-day sale timeline. Format as a campaign brief. Consider these constraints: Flag Code of India on tricolour usage in advertising, ASCI sensitivity rules, and GST 5-12% on home textiles.",
+      "tags": [
+        "promo",
+        "republic-day",
+        "bundle",
+        "festive-sale"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-037",
+      "title": "Marketplace Buy Box Win-Rate Analysis",
+      "prompt": "Act as a marketplace analyst. I need you to analyse buy box win-rate for my 60 Amazon SKUs and recommend price actions. Here is the context: average win-rate 42%, target 75%, my seller rating 4.6, FBA fulfilled. Please provide: (1) a SKU-level diagnosis of loss reasons (price, rating, fulfilment), (2) a recommended price delta vs buy box winner, (3) a floor-price guard, (4) the expected GMV uplift, and (5) a weekly monitoring dashboard spec. Format as an analysis report. Consider these constraints: Amazon buy box algorithm signals, FBA long-term storage fees, and CCI scrutiny of buy box.",
+      "tags": [
+        "pricing-strategy",
+        "buy-box",
+        "amazon",
+        "analytics"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-038",
+      "title": "Inventory Health Scorecard",
+      "prompt": "Act as an inventory operations manager. I need you to build a monthly inventory health scorecard. Here is the context: 3 warehouses (Bhiwandi, Bengaluru, Delhi), 650 SKUs, ₹1.8 crore inventory value. Please provide: (1) the scorecard metrics (cover days, sell-through, aged inventory %, stockout %, shrinkage %), (2) target and alert thresholds, (3) a warehouse-level comparison view, (4) a commentary template, and (5) an escalation matrix. Format as a scorecard spec. Consider these constraints: GST stock transfer e-way bill rules and monsoon damage provisioning.",
+      "tags": [
+        "inventory",
+        "scorecard",
+        "operations",
+        "reporting"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-039",
+      "title": "Loss Leader Pricing Strategy Memo",
+      "prompt": "Act as a pricing strategy consultant. I need you to write a memo recommending a loss-leader pricing play for traffic generation. Here is the context: my D2C grocery store needs traffic, margin currently 22%, basket size 4.2 items, AOV ₹620. Please provide: (1) 3 candidate loss-leader SKUs with rationale, (2) the loss per unit and total subsidy budget, (3) the expected basket-lift and blended margin, (4) a stop-loss rule if basket size fails to lift, and (5) a 4-week test plan. Format as a strategy memo. Consider these constraints: Competition Act Section 4 on predatory pricing, GST below-cost supply rules, and FSSAI pricing disclosures.",
+      "tags": [
+        "pricing-strategy",
+        "loss-leader",
+        "traffic",
+        "d2c"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    },
+    {
+      "id": "ecommerce-merchandising-pricing-040",
+      "title": "Advanced Festive Inventory War Plan",
+      "prompt": "Act as a head of merchandising at an Indian omnichannel retailer. I need you to build an advanced inventory war plan for the Sharad Navratri to Bhai Dooj 45-day festive peak. Here is the context: 1,200 SKUs, ₹8.2 crore inventory budget, three sales channels (own D2C, Amazon, Flipkart), target festive GMV ₹22 crore. Please provide: (1) a channel-wise inventory allocation with reasoning, (2) a SKU-tier prioritization (hero, halo, tail), (3) a dynamic reallocation trigger during the sale, (4) a stockout and overstock risk matrix, (5) a post-festive clearance ladder, and (6) a cash flow and working capital plan. Format as a master war plan. Consider these constraints: marketplace stock commitment penalties, GST e-way bill across state borders, MSME supplier terms, and the Reserve Bank's tight credit cycle during Q3.",
+      "tags": [
+        "inventory",
+        "festive-sale",
+        "war-plan",
+        "planning"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "merchandising-pricing"
+    }
+  ]
+}

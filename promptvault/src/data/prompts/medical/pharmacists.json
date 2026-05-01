@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "medical-pharmacists-001",
+      "title": "Comprehensive DDI Analysis for Indian Brand Combination",
+      "prompt": "Act as a senior clinical pharmacist with 15 years of experience in hospital pharmacy practice in India, familiar with Indian brand names and PCI guidelines. I need you to conduct a thorough drug-drug interaction analysis for a polypharmacy case. Here is the context: a 62-year-old male from Pune on Eliquis 5mg BD (Apixaban), Storvas 20mg HS (Atorvastatin), Cardace 5mg OD (Ramipril), Glycomet 500mg BD (Metformin), Pan 40mg OD (Pantoprazole), and newly prescribed Azithral 500mg OD (Azithromycin) for LRTI. Please provide: (1) a tabular DDI matrix listing each pair with severity (contraindicated/major/moderate/minor), (2) pharmacokinetic/pharmacodynamic mechanism, (3) clinical monitoring parameters with Indian lab test names and approximate costs in INR, (4) specific management recommendations (dose adjustment, timing separation, alternative Indian brand substitutes from Jan Aushadhi where possible), (5) a patient-facing summary in simple English plus a Hindi transliteration, (6) red-flag symptoms warranting emergency referral. Format as a structured clinical note suitable for documentation in an NABH-accredited hospital. Consider these constraints: cite Indian National Formulary (NFI), Lexicomp equivalents, and PvPI ADR reporting requirements. Include DPCO 2013 price ceiling awareness where relevant. This is a clinical decision-support aid only — final therapeutic decisions must be made by the treating physician and verified against current product monographs and patient-specific factors.",
+      "tags": [
+        "ddi",
+        "polypharmacy",
+        "indian-brands",
+        "clinical-pharmacy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-002",
+      "title": "Hindi Inhaler Counselling Script for Asthma Patient",
+      "prompt": "Act as a retail pharmacist with 10 years experience counselling patients at a Tata 1mg partner pharmacy in Lucknow, fluent in Hindi and English. I need you to create a comprehensive patient counselling script for a newly diagnosed asthma patient being dispensed Foracort 200 Forte Inhaler (Budesonide 200mcg + Formoterol 6mcg) with a spacer device. Here is the context: the patient is a 45-year-old homemaker with limited English literacy, never used an inhaler before, and is anxious about steroid use due to common misconceptions in India. Please provide: (1) a step-by-step MDI-with-spacer technique script in Devanagari Hindi with English transliteration, covering shake, exhale, seal, actuate, breathe-hold 10 seconds, rinse mouth, (2) a myth-busting section addressing steroid fears (comparing inhaled vs oral dose), (3) storage instructions considering Indian summer heat and humidity, (4) refill timing and PCI Schedule H compliance notes, (5) red-flag symptoms requiring ER visit (108 ambulance), (6) a teach-back checklist with 5 verification questions in Hindi. Format as a two-column bilingual counselling card ready for printing at the pharmacy counter. Consider these constraints: cultural sensitivity, low health literacy, cost concerns (suggest Jan Aushadhi generic equivalent if available), and NABH patient education standards. Disclaimer: this script supports pharmacist counselling and does not replace physician instructions or personalised assessment.",
+      "tags": [
+        "patient-counselling",
+        "inhaler-technique",
+        "hindi",
+        "asthma"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-003",
+      "title": "Warfarin INR Monitoring and Counselling Plan",
+      "prompt": "Act as an anticoagulation clinic pharmacist with 12 years experience at a tertiary care hospital in Delhi. I need you to design a complete warfarin initiation and monitoring plan for a patient being started on Warf 5mg (Warfarin sodium) post mechanical mitral valve replacement. Here is the context: a 58-year-old Bengali-speaking male, target INR 2.5-3.5, concurrent medications include Dytor 10mg (Torsemide), Cardivas 3.125mg BD (Carvedilol), and Ecosprin 75mg (Aspirin). He consumes traditional Bengali cuisine rich in leafy greens (palak, methi, sarson ka saag). Please provide: (1) an INR monitoring schedule for the first 8 weeks with recommended NABH-accredited lab turnaround considerations, (2) a vitamin-K consistent diet plan listing Indian vegetables/foods by vitamin K content (high/medium/low), (3) a warfarin dose-adjustment nomogram for INR ranges, (4) drug interaction warnings with commonly self-medicated Indian products (giloy, ashwagandha, turmeric supplements, Crocin, Combiflam), (5) a bilingual Bengali-English counselling script covering bleeding precautions and missed-dose instructions, (6) an emergency action card with INR >5 and bleeding scenarios. Format as a structured anticoagulation care plan with tables. Consider PvPI ADR reporting for bleeding events. Clinical-aid disclaimer: final dosing decisions rest with the treating cardiologist and clinical pharmacist based on individual patient response.",
+      "tags": [
+        "patient-counselling",
+        "warfarin",
+        "anticoagulation",
+        "inr-monitoring"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-004",
+      "title": "Geriatric Polypharmacy MTM Review Using Beers Criteria",
+      "prompt": "Act as a clinical pharmacist specializing in geriatric medication therapy management with 10 years experience at an Apollo hospital in Chennai. I need you to perform a comprehensive MTM review using AGS Beers Criteria 2023 adapted for Indian practice. Here is the context: an 81-year-old Tamil-speaking female with hypertension, type 2 diabetes, osteoarthritis, insomnia, and mild cognitive impairment. Current medications: Amlong 10mg (Amlodipine), Glynase MF (Glibenclamide+Metformin), Zerodol SP (Aceclofenac+Paracetamol+Serratiopeptidase), Alprax 0.5mg HS (Alprazolam), Pan D (Pantoprazole+Domperidone), Shelcal 500 (Calcium+Vit D3), and Neurobion Forte. Please provide: (1) a Beers Criteria violation table listing each potentially inappropriate medication with risk rationale, (2) deprescribing recommendations with taper schedules for benzodiazepine and sulfonylurea, (3) safer Indian brand alternatives with approximate INR monthly cost and Jan Aushadhi equivalents, (4) fall-risk and renal function (eGFR-based) considerations, (5) a simplified medication chart for caregiver with Tamil labels, (6) follow-up plan with 30/60/90 day checkpoints. Format as an MTM SOAP note. Consider DPCO ceiling prices and Ayushman Bharat reimbursement. Disclaimer: this analysis is clinical decision support — physician review and patient-specific assessment remain essential.",
+      "tags": [
+        "mtm",
+        "geriatric",
+        "beers-criteria",
+        "deprescribing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-005",
+      "title": "Pediatric Suspension Compounding Calculation",
+      "prompt": "Act as a hospital compounding pharmacist with 8 years experience at a pediatric tertiary care centre in Mumbai. I need you to perform a complete compounding calculation and procedure for an extemporaneous oral suspension. Here is the context: a 3-year-old child weighing 14 kg with a rare seizure disorder requires Spironolactone 5 mg/mL suspension, 100 mL total, because no commercial pediatric liquid is available in India and only Aldactone 25 mg tablets are accessible. Please provide: (1) step-by-step calculation of tablets needed (including 10% overage), (2) vehicle selection justification (Ora-Sweet/Ora-Plus vs simple syrup IP vs 1:1 methylcellulose), (3) a detailed compounding SOP with weighing, trituration, levigation, and q.s. steps, (4) beyond-use date rationale per USP 795 adapted for Indian climate (consider room temperature 30 degree C), (5) labelling requirements per PCI and Drugs and Cosmetics Rules including Schedule H warning, (6) patient caregiver counselling script in Marathi and English covering shake-before-use, dosing syringe technique, and storage, (7) stability indicators and visual rejection criteria. Format as a compounding master formulation record. Consider NABH medication management standards. Clinical-aid disclaimer: verify all calculations independently and confirm physician order before dispensing; compounding must follow institutional SOPs.",
+      "tags": [
+        "compounding",
+        "pediatric",
+        "suspension",
+        "calculation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-006",
+      "title": "NABH Hospital Formulary Review for Antimicrobials",
+      "prompt": "Act as a chairperson of the Pharmacy and Therapeutics Committee at a 500-bed NABH-accredited multispecialty hospital in Hyderabad with 14 years of hospital pharmacy experience. I need you to conduct a systematic formulary review of the antimicrobial section. Here is the context: current formulary lists 48 antibiotics with overlapping spectra and procurement cost issues; hospital antibiogram shows rising ESBL E. coli and MRSA rates; ICMR AMR surveillance data must be incorporated; budget pressure from Ayushman Bharat PMJAY package rates. Please provide: (1) a formulary rationalization matrix classifying each agent as Access/Watch/Reserve per WHO AWaRe, (2) candidates for deletion with justification and therapeutic equivalents, (3) restricted-use protocols for Reserve agents (Colistin, Tigecycline, Ceftazidime-Avibactam) including ID consult requirements, (4) cost-impact analysis in INR comparing innovator vs Indian generics with DPCO considerations, (5) antimicrobial stewardship KPIs aligned with NABH 5th edition standards, (6) a 90-day implementation roadmap with stakeholder communication plan. Format as a P&T Committee agenda document with tables and decision points. Consider ICMR, NCDC, and PCI guidance. Clinical-aid disclaimer: formulary decisions require committee consensus, institutional antibiogram review, and physician input beyond this analytical framework.",
+      "tags": [
+        "formulary",
+        "antimicrobial-stewardship",
+        "nabh",
+        "awar-e"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-007",
+      "title": "Insulin Pen Counselling for Type 2 Diabetic",
+      "prompt": "Act as a diabetes educator pharmacist with 9 years experience at a PharmEasy partner store in Jaipur. I need you to create a first-time insulin counselling session for a patient newly started on Lantus SoloStar (Insulin Glargine 100 U/mL) 10 units HS. Here is the context: a 55-year-old Hindi-speaking shopkeeper with poorly controlled T2DM (HbA1c 10.2%), previously on Glycomet GP2 (Metformin+Glimepiride), afraid of needles and injections, limited refrigeration access at home. Please provide: (1) a step-by-step pen priming, air-shot, dose dialling, and injection technique script in Hindi-English, (2) site rotation diagram (abdomen, thigh, arm) with lipohypertrophy prevention, (3) hypoglycemia recognition and treatment plan with Indian foods (glucose biscuits, fruit juice, sugar packets) and 15-15 rule, (4) storage guidance addressing Indian climate (in-use at room temp up to 28 days vs refrigerated 2-8 degree C, matka/clay-pot improvisation cautions), (5) sharps disposal per Bio-Medical Waste Management Rules 2016, (6) DPCO pricing and Jan Aushadhi alternatives (Basalog One), (7) a teach-back checklist. Format as a structured counselling session plan with timings. Clinical-aid disclaimer: dose titration must be under endocrinologist supervision; counselling supports but does not replace medical management.",
+      "tags": [
+        "patient-counselling",
+        "insulin",
+        "diabetes",
+        "hindi"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-008",
+      "title": "Antibiotic Course Counselling and Adherence Plan",
+      "prompt": "Act as a community pharmacist with 7 years experience at a NetMeds pickup point in Bengaluru. I need you to create a comprehensive antibiotic counselling plan to reduce non-adherence and AMR. Here is the context: a 28-year-old Kannada-speaking software engineer dispensed Augmentin 625 Duo (Amoxicillin+Clavulanate) TDS for 7 days for acute bacterial sinusitis, with a history of stopping antibiotics early when feeling better. Please provide: (1) a counselling script covering mechanism, importance of completing course, and AMR risks in simple Kannada-English, (2) timing guidance with meals, (3) common side effects (GI upset, diarrhea, rash) and red flags including C. difficile warning, (4) drug interactions with oral contraceptives and alcohol commonly overlooked in India, (5) a daily adherence reminder plan using WhatsApp reminders or smartphone alarm, (6) probiotic co-recommendation (Vizylac, Econorm, Darolac) with evidence-based framing, (7) a follow-up call script for day 3 and day 7, (8) PvPI ADR reporting criteria. Format as a pharmacist-patient dialogue with pauses for teach-back. Consider PCI Schedule H prescription requirements. Clinical-aid disclaimer: counselling supports but does not substitute physician diagnosis and prescription decisions.",
+      "tags": [
+        "patient-counselling",
+        "antibiotics",
+        "adherence",
+        "amr"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-009",
+      "title": "DDI Screening for Tuberculosis and HIV Co-therapy",
+      "prompt": "Act as an infectious disease clinical pharmacist with 11 years experience at a RNTCP-linked ART centre in Kolkata. I need you to conduct a DDI analysis for a co-infected patient. Here is the context: a 34-year-old male newly diagnosed with pulmonary TB and HIV (CD4 180), initiated on fixed-dose combination 4FDC (HRZE — Isoniazid, Rifampicin, Pyrazinamide, Ethambutol) from NTEP and ART regimen TLD (Tenofovir+Lamivudine+Dolutegravir). Also on Pan 40 (Pantoprazole), Benadon (Pyridoxine), and OTC Crocin (Paracetamol) PRN. Please provide: (1) a DDI matrix focusing on Rifampicin CYP3A4 induction impact on Dolutegravir (double-dose requirement), (2) hepatotoxicity monitoring plan with LFT schedule and cut-offs, (3) Rifampicin enzyme-induction timeline and washout considerations, (4) supportive therapy rationale (Pyridoxine for INH neuropathy), (5) patient counselling script in Bengali-English covering urine discolouration, adherence, and hepatic red flags, (6) DOTS and differentiated care integration, (7) PvPI ADR reporting procedure for DILI. Format as a structured ID pharmacy consult note. Reference NACO and NTEP 2023 guidelines. Clinical-aid disclaimer: co-therapy decisions require ID specialist oversight; this is decision support only.",
+      "tags": [
+        "ddi",
+        "tuberculosis",
+        "hiv",
+        "rifampicin"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-010",
+      "title": "Alligation Calculation for IV Dilution",
+      "prompt": "Act as an IV admixture pharmacist with 6 years experience at an NABH-accredited oncology day-care unit in Ahmedabad. I need you to perform an alligation-based dilution calculation and preparation SOP. Here is the context: a prescription requires Dopamine 400 mg to be diluted in 250 mL D5W for a 68 kg ICU patient at 5 mcg/kg/min starting rate; the hospital stocks Dopacard 200 mg/5 mL ampoules. Please provide: (1) step-by-step calculation of ampoules needed and final concentration in mcg/mL, (2) infusion rate calculation in mL/hr for the infusion pump, (3) dose-escalation ladder (5, 10, 15 mcg/kg/min) with corresponding pump rates, (4) compatibility check with common co-infusions (NS vs D5W, Y-site with Furosemide, Sodium bicarbonate), (5) aseptic preparation SOP per USP 797 adapted for Indian LAF hood, (6) labelling requirements with patient ID, concentration, prep time, beyond-use, and nurse-check signature per NABH MOM standards, (7) high-alert medication double-verification protocol. Format as a preparation worksheet with calculation showing. Consider Schedule H and institutional high-alert policy. Clinical-aid disclaimer: all calculations must be independently verified by a second pharmacist before dispensing; errors in high-alert medications can be fatal.",
+      "tags": [
+        "compounding",
+        "calculation",
+        "iv-admixture",
+        "high-alert"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-011",
+      "title": "NSAID Selection for Elderly with CKD",
+      "prompt": "Act as a clinical pharmacist with 10 years experience reviewing analgesic prescriptions at a nephrology clinic in Kochi. I need you to provide a therapeutic review for pain management in a CKD patient. Here is the context: a 72-year-old Malayalam-speaking woman with CKD stage 3b (eGFR 38), hypertension, and chronic osteoarthritis of both knees, self-medicating with Combiflam (Ibuprofen+Paracetamol) from a local medical store for the past 6 months. Current medications include Telma 40 (Telmisartan) and Lasix 20 (Furosemide). Please provide: (1) a risk analysis of current NSAID use (AKI, hyperkalemia, HTN worsening) with mechanism, (2) alternative analgesic ladder (topical diclofenac, paracetamol, tramadol, duloxetine) with Indian brand names and DPCO-compliant pricing, (3) non-pharmacological options including physiotherapy and Ayurvedic adjuncts with evidence caveats, (4) a counselling script in Malayalam-English about OTC NSAID avoidance, (5) monitoring plan for renal function, (6) red flags for urgent nephrology referral, (7) PvPI ADR reporting for AKI event. Format as a therapeutic consult note. Consider Ayushman Bharat coverage. Clinical-aid disclaimer: therapy changes require coordination with nephrologist and treating physician; this is pharmacist-led decision support.",
+      "tags": [
+        "mtm",
+        "ckd",
+        "nsaid",
+        "geriatric"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-012",
+      "title": "SSRI to SNRI Cross-taper Plan",
+      "prompt": "Act as a psychiatric pharmacist with 8 years experience at a mental health hospital in Bengaluru affiliated with NIMHANS. I need you to design a safe cross-taper protocol. Here is the context: a 42-year-old IT professional on Nexito 20 mg (Escitalopram) for 2 years with partial response to major depressive disorder, being switched to Duzela 30 mg (Duloxetine) by the psychiatrist. Also on Restyl 0.25 mg (Alprazolam) PRN and Pan 40 OD. Please provide: (1) a day-by-day cross-taper schedule over 2 weeks minimising discontinuation syndrome and serotonin syndrome risk, (2) washout vs overlap rationale based on half-lives, (3) a symptom-monitoring diary template (dizziness, GI, brain zaps, mood) patient can fill daily, (4) DDI check with alprazolam and PPI, (5) counselling script in English-Hindi covering realistic expectations (4-6 week response), (6) suicidality warning and crisis helpline (iCall, Vandrevala Foundation, NIMHANS helpline), (7) PvPI reporting for severe discontinuation symptoms. Format as a structured taper plan table with daily doses and warning signs. Consider PCI Schedule H compliance. Clinical-aid disclaimer: all psychotropic changes must be psychiatrist-directed; this protocol supports but does not replace clinical judgment.",
+      "tags": [
+        "mtm",
+        "psychiatric",
+        "cross-taper",
+        "ssri"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-013",
+      "title": "Ophthalmic Drop Instillation Counselling",
+      "prompt": "Act as a retail pharmacist with 6 years experience counselling post-cataract patients in Vadodara. I need you to create a counselling session for multi-drop ophthalmic regimens. Here is the context: a 67-year-old Gujarati-speaking patient post-phacoemulsification prescribed Moxigram 0.5% (Moxifloxacin) QID, Predmet 1% (Prednisolone acetate) QID tapering, and Nepaflam (Nepafenac) TDS for 4 weeks. Patient has tremor and lives alone. Please provide: (1) a step-by-step instillation technique in Gujarati-English including hand-washing, lower-lid pouch, nasolacrimal occlusion, and wait 5 minutes between drops, (2) a colour-coded timing chart mapping each drop to clock times, (3) taper schedule for prednisolone with week-by-week dose reduction, (4) storage instructions and expiry once opened (28 days), (5) red flags — pain, vision loss, redness requiring urgent ophthalmology review, (6) adaptations for tremor (eye-drop guide, lying-down technique, caregiver assist), (7) cost comparison with Jan Aushadhi alternatives. Format as a patient-friendly bilingual instruction card. Consider NABH patient education and PCI counselling standards. Clinical-aid disclaimer: follow the ophthalmologist's exact taper schedule; this script supports pharmacist counselling only.",
+      "tags": [
+        "patient-counselling",
+        "ophthalmic",
+        "cataract",
+        "adherence"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-014",
+      "title": "Formulary Addition Request for Novel Oral Anticoagulant",
+      "prompt": "Act as a drug information pharmacist with 9 years experience at a corporate hospital in Gurgaon preparing a P&T committee submission. I need you to draft a comprehensive formulary addition monograph. Here is the context: the cardiology department is requesting addition of Dabigatran 150 mg (Pradaxa) to the formulary for non-valvular AF stroke prevention; Apixaban and Rivaroxaban are already listed. Please provide: (1) executive summary with clinical rationale, (2) pharmacology, pharmacokinetics, and place in therapy comparison vs existing NOACs with RE-LY, ARISTOTLE, ROCKET-AF key outcomes, (3) Indian-specific considerations — body weight, renal function, cost in INR (innovator vs generic Dabigat), DPCO status, (4) reversal agent availability (Idarucizumab/Praxbind) and institutional stocking implications, (5) safety profile with PvPI ADR data if available, (6) budget impact analysis over 12 months assuming 200 patients/year, (7) committee recommendation (add with restrictions, add unrestricted, reject) with rationale, (8) post-addition utilization review plan. Format as an NABH-compliant formulary monograph with references. Consider Ayushman Bharat PMJAY package coverage. Clinical-aid disclaimer: formulary decisions require multidisciplinary committee review and institutional budget alignment.",
+      "tags": [
+        "formulary",
+        "noac",
+        "drug-monograph",
+        "p-and-t"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-015",
+      "title": "Pediatric Antibiotic Dose Calculation Check",
+      "prompt": "Act as a pediatric clinical pharmacist with 7 years experience at a children's hospital in Chennai. I need you to verify and prepare dispensing calculations for a pediatric prescription. Here is the context: a 4-year-old boy weighing 16 kg with acute otitis media prescribed Amoxyclav DS 228.5 mg/5 mL suspension (Amoxicillin 200 + Clavulanate 28.5 per 5 mL) at 45 mg/kg/day of amoxicillin component BD for 7 days. Please provide: (1) step-by-step dose calculation showing mg/day, mg/dose, mL/dose, and total mL for 7 days with reconstitution volume, (2) verification that the dose is within BNF-C range and not exceeding max, (3) reconstitution instructions (water volume, shake vigorously, BUD after reconstitution 7 days refrigerated), (4) caregiver counselling in Tamil-English with measuring syringe technique not kitchen spoon, (5) food-timing guidance to minimise GI upset, (6) red flags (rash, severe diarrhea, anaphylaxis), (7) PvPI reporting criteria for allergic reaction, (8) Jan Aushadhi equivalent pricing. Format as a pharmacy dispensing checklist with double-check signatures. Consider NABH medication safety standards. Clinical-aid disclaimer: independently verify all calculations and confirm weight and prescriber order before dispensing pediatric medications.",
+      "tags": [
+        "compounding",
+        "pediatric",
+        "calculation",
+        "dispensing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-016",
+      "title": "Chemotherapy DDI Review for Breast Cancer Patient",
+      "prompt": "Act as an oncology clinical pharmacist with 12 years experience at a Tata Memorial affiliate hospital in Mumbai. I need you to conduct a thorough DDI review for a chemotherapy patient. Here is the context: a 52-year-old postmenopausal woman with HER2-positive early breast cancer receiving AC-TH regimen (Doxorubicin+Cyclophosphamide followed by Paclitaxel+Trastuzumab). Comorbidities include hypertension (Amlong 5 mg), GERD (Razo 20 mg Rabeprazole), and recent UTI started on Cifran 500 mg (Ciprofloxacin) by family physician. She also takes Giloy and Ashwagandha capsules as immune boosters recommended by a relative. Please provide: (1) a DDI matrix covering cytotoxic-QTc interactions (Ciprofloxacin), CYP3A4 considerations, and herbal-chemo interactions, (2) cardiotoxicity monitoring plan for Doxorubicin and Trastuzumab (2D-Echo LVEF schedule), (3) herbal product cessation rationale with patient-friendly script, (4) PPI-taxane interaction evidence review, (5) supportive care recommendations (antiemetics per NCCN, G-CSF), (6) patient counselling in Marathi-English addressing traditional medicine beliefs respectfully, (7) PvPI reporting for grade 3+ toxicity. Format as an oncology pharmacy consult note. Consider Ayushman Bharat PMJAY chemotherapy packages. Clinical-aid disclaimer: oncology therapy decisions require multidisciplinary tumour board review; this is decision support.",
+      "tags": [
+        "ddi",
+        "oncology",
+        "chemotherapy",
+        "herbal-interactions"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-017",
+      "title": "Beginner Guide Sheet on DDI Basics",
+      "prompt": "Act as a senior pharmacist training interns at a D.Pharm college in Pune. I need you to create an introductory learning sheet on drug-drug interaction fundamentals. Here is the context: the audience is first-year pharmacy interns with no clinical exposure, needing to grasp DDI basics before hospital rotations at a civil hospital. Please provide: (1) a one-paragraph plain-language definition of DDI with a relatable Indian example (Crocin+alcohol), (2) the four main mechanisms — pharmacokinetic (A, D, M, E) and pharmacodynamic — each with one common Indian-brand example like Warf+Cifran, (3) a severity classification (contraindicated/major/moderate/minor) with one example each, (4) top 10 must-know DDI pairs for Indian retail pharmacy practice, (5) 5 practical screening questions a pharmacist should ask every patient at the counter, (6) PvPI ADR reporting basics and QR-code link, (7) a 5-question self-assessment quiz with answers. Format as a two-page intern study handout. Consider PCI curriculum alignment. Clinical-aid disclaimer: this is educational material only and not a substitute for validated DDI checkers or clinical judgment in patient care.",
+      "tags": [
+        "ddi",
+        "education",
+        "intern-training",
+        "basics"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-018",
+      "title": "Simple OTC Cold and Cough Counselling",
+      "prompt": "Act as a community pharmacist with 4 years experience at a small town pharmacy in Indore. I need you to create a simple counselling script for common OTC cold and cough requests. Here is the context: a 30-year-old Hindi-speaking customer asks for a cough syrup for himself, a 3-year-old child, and his 75-year-old diabetic father with hypertension — all with common cold symptoms. Please provide: (1) a triage-style decision guide covering when to sell OTC vs refer to physician, (2) age-appropriate and comorbidity-appropriate recommendations (avoid pseudoephedrine in HTN, avoid codeine in children, caution in diabetes), (3) specific Indian brand suggestions (Benadryl, Ascoril, Honitus, Grilinctus) with ingredient rationale, (4) dosing and duration caps (no more than 5 days self-medication), (5) a simple Hindi counselling script with home remedies (warm water, honey-ginger, steam inhalation), (6) red flags requiring doctor consultation (high fever, SOB, blood in sputum), (7) PCI Schedule H awareness for Schedule H1 cough preparations. Format as a counter-side quick-reference card. Clinical-aid disclaimer: OTC recommendations are pharmacist-guided self-care; any worsening or doubt should trigger physician referral.",
+      "tags": [
+        "patient-counselling",
+        "otc",
+        "cold-cough",
+        "hindi"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-019",
+      "title": "Renal Dose Adjustment Table for Common Drugs",
+      "prompt": "Act as a clinical pharmacist with 10 years experience at a dialysis-equipped nephrology unit in Hyderabad. I need you to compile a practical renal dose adjustment reference. Here is the context: the nephrology ward frequently admits patients with varying eGFR, and nurses and junior doctors request a quick-access chart for the top 30 commonly used drugs including antibiotics, analgesics, antidiabetics, and anticoagulants. Please provide: (1) a table listing each drug with Indian brand name, normal dose, and adjusted doses across eGFR bands (60-89, 30-59, 15-29, <15, HD), (2) highlight drugs to avoid entirely in severe CKD (Metformin, NSAIDs, Nitrofurantoin), (3) dosing after hemodialysis notes for relevant drugs (Vancomycin, Piperacillin-Tazobactam, Gabapentin), (4) monitoring parameters per drug, (5) source references (KDIGO, Indian Nephrology guidelines, product monograph), (6) a patient counselling note template in Telugu-English on why doses differ, (7) NABH medication safety alignment. Format as a printable laminated-card-ready reference table. Consider Jan Aushadhi and DPCO pricing awareness. Clinical-aid disclaimer: this reference supports clinical decisions; patient-specific adjustments require pharmacist and physician review.",
+      "tags": [
+        "mtm",
+        "renal-dosing",
+        "ckd",
+        "reference"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-020",
+      "title": "Heparin Drip Calculation and Titration",
+      "prompt": "Act as an ICU clinical pharmacist with 8 years experience at a cardiac hospital in Delhi. I need you to prepare a complete heparin drip preparation and aPTT-based titration plan. Here is the context: a 70 kg patient with acute pulmonary embolism requires Unfractionated Heparin per institutional nomogram — 80 U/kg bolus then 18 U/kg/hr infusion; the pharmacy stocks Beparine 5000 IU/mL vials. Standard dilution is 25,000 IU in 250 mL NS. Please provide: (1) step-by-step calculation for bolus dose (mL to draw) and initial infusion rate (mL/hr), (2) standard concentration and total volume preparation SOP with aseptic technique, (3) aPTT-based titration nomogram (target 1.5-2.5 x control) with dose increment/decrement table, (4) monitoring schedule (baseline, 6-hourly aPTT, platelet count for HIT, hemoglobin), (5) bleeding precautions and protamine reversal dose if required, (6) double-check protocol for high-alert medication per NABH, (7) nurse handoff communication template, (8) PvPI reporting for major bleeding. Format as an ICU pharmacy worksheet. Consider institutional high-alert medication policy. Clinical-aid disclaimer: all heparin calculations must be independently verified; dosing errors can cause fatal bleeding or thrombosis.",
+      "tags": [
+        "compounding",
+        "heparin",
+        "calculation",
+        "icu"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-021",
+      "title": "Formulary Rationalization for Proton Pump Inhibitors",
+      "prompt": "Act as a pharmacoeconomics pharmacist with 9 years experience at an NABH hospital in Pune. I need you to conduct a formulary rationalization exercise for PPIs. Here is the context: the current formulary lists 6 PPIs (Omeprazole Omez, Pantoprazole Pan 40, Rabeprazole Razo, Esomeprazole Nexpro, Dexrabeprazole Dexorab, Lansoprazole Lan 30) with overlapping utilisation, and the P&T committee wants to reduce to 2-3 based on cost-effectiveness and clinical evidence. Please provide: (1) a comparative table of PPIs showing mechanism, half-life, CYP2C19 interactions, onset, IV availability, and DPCO-ceiling prices in INR, (2) evidence-based clinical differentiation if any, (3) utilisation data template for the last 12 months to guide decision, (4) recommended formulary list (oral + IV) with rationale, (5) therapeutic interchange protocol for removed agents, (6) prescriber communication memo, (7) anticipated annual savings estimate, (8) NABH medication management alignment. Format as a P&T committee briefing document. Consider Jan Aushadhi substitution and Ayushman Bharat cost constraints. Clinical-aid disclaimer: formulary decisions require committee consensus and physician input beyond this economic analysis.",
+      "tags": [
+        "formulary",
+        "ppi",
+        "pharmacoeconomics",
+        "rationalization"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-022",
+      "title": "Diabetic Ketoacidosis Insulin Infusion Prep",
+      "prompt": "Act as an emergency department pharmacist with 7 years experience at a tertiary hospital in Lucknow. I need you to prepare DKA insulin infusion calculations and protocol. Here is the context: a 28-year-old type 1 diabetic male weighing 60 kg presenting with DKA (glucose 520, pH 7.15, ketones 4+), requiring 0.1 U/kg/hr Regular Insulin (Actrapid) infusion after a 0.1 U/kg bolus, plus fluid and potassium protocol. Please provide: (1) standard Actrapid infusion preparation (50 IU in 50 mL NS = 1 IU/mL), step-by-step aseptic prep, (2) bolus dose and initial infusion rate calculation, (3) glucose-based titration table (when to add D5, when to reduce insulin), (4) potassium replacement protocol (K+ thresholds, replacement rates), (5) monitoring schedule (capillary glucose hourly, VBG/electrolytes 2-hourly, anion gap), (6) transition-to-subcutaneous criteria and basal-bolus calculation, (7) counselling script for patient in Hindi-English on DKA prevention and sick-day rules, (8) PvPI reporting if adverse event. Format as an ED pharmacy protocol worksheet. Consider NABH critical care standards and high-alert medication rules. Clinical-aid disclaimer: DKA management requires ED physician and endocrinology oversight; pharmacist supports medication preparation and verification.",
+      "tags": [
+        "compounding",
+        "dka",
+        "insulin",
+        "emergency"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-023",
+      "title": "Deprescribing Plan for Long-term PPI Use",
+      "prompt": "Act as a clinical pharmacist with 11 years experience leading a deprescribing initiative at a multispeciality hospital in Bengaluru. I need you to design a structured PPI deprescribing plan. Here is the context: a 66-year-old retired teacher has been on Pan 40 OD (Pantoprazole) for 8 years since a single episode of NSAID-related gastritis, with no current indication. He is concerned about deprescribing due to fear of symptom return and has read about PPI long-term risks (osteoporosis, B12 deficiency, CKD, C. difficile). Please provide: (1) indication review and deprescribing eligibility assessment, (2) a step-down taper schedule over 4-8 weeks (OD to alternate day to on-demand), (3) H2-blocker bridging with Famocid 20 (Famotidine) if needed, (4) lifestyle and dietary modification counselling with Indian foods (avoid spicy masala, late dinners, fried items), (5) symptom-monitoring diary template and rebound acid hypersecretion education, (6) reassurance script in Kannada-English addressing fears, (7) follow-up plan at 2, 4, 8, 12 weeks, (8) safety-net criteria to resume therapy. Format as a patient-centred deprescribing plan. Consider NABH and Choosing Wisely India recommendations. Clinical-aid disclaimer: deprescribing should be coordinated with the treating physician and individualised.",
+      "tags": [
+        "mtm",
+        "deprescribing",
+        "ppi",
+        "polypharmacy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-024",
+      "title": "Counselling for Oral Methotrexate in Rheumatoid Arthritis",
+      "prompt": "Act as a rheumatology clinical pharmacist with 8 years experience at an NABH hospital in Coimbatore. I need you to create a first-dose counselling session for a DMARD initiation. Here is the context: a 48-year-old Tamil-speaking housewife newly diagnosed with seropositive RA prescribed Folitrax 15 mg (Methotrexate) once weekly every Sunday morning, with Folvite 5 mg (Folic acid) daily except Sundays, plus HCQs 200 (Hydroxychloroquine) BD. Please provide: (1) a counselling script in Tamil-English emphasising once-weekly dosing danger and fatal-error prevention, (2) colour-coded pill organiser recommendation to prevent daily accidental dosing, (3) common side effects (nausea, mouth ulcers, hair thinning, fatigue) with management tips, (4) monitoring schedule (CBC, LFT, RFT baseline and 2-4 weekly), (5) contraception and pregnancy warnings (teratogenic — 3 months washout both partners), (6) avoid-alcohol and vaccination cautions (no live vaccines), (7) red flags — severe cough SOB (pneumonitis), jaundice, bleeding, (8) HCQ retinal monitoring annually. Format as a DMARD initiation counselling checklist. Consider PCI Schedule H and NABH patient education. Clinical-aid disclaimer: DMARD therapy requires rheumatologist supervision; this supports pharmacist counselling.",
+      "tags": [
+        "patient-counselling",
+        "methotrexate",
+        "rheumatology",
+        "tamil"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-025",
+      "title": "Polypharmacy Review Using STOPP/START Criteria",
+      "prompt": "Act as a geriatric pharmacist with 10 years experience at a senior-care integrated hospital in Chandigarh. I need you to apply STOPP/START criteria version 3 to a complex polypharmacy case. Here is the context: a 79-year-old Punjabi-speaking male with 11 diagnoses (HTN, T2DM, CAD post-PCI, HFrEF EF 35%, CKD 3a, AF, BPH, depression, osteoarthritis, GERD, insomnia) on 14 medications including Ecosprin, Clopilet, Atorva, Cardace, Cardivas, Lasix, Aldactone, Glycomet, Amaryl, Tamsulosin, Nexito, Alprax, Pan D, and Crocin PRN. Please provide: (1) a STOPP-identified list of potentially inappropriate medications with rationale, (2) a START-identified list of omitted evidence-based therapies (SGLT2 inhibitor for HFrEF, statin intensification, gastroprotection if indicated), (3) risk-benefit reassessment for each flagged medication, (4) deprescribing vs addition sequencing plan over 12 weeks, (5) simplified once-daily regimen where possible with FDC options and Indian brands, (6) caregiver education in Punjabi-English, (7) coordinated follow-up with cardiologist, endocrinologist, and GP, (8) Ayushman Bharat coverage considerations. Format as a comprehensive MTM report. Clinical-aid disclaimer: multispecialty coordination and patient-preference discussion are essential; pharmacist analysis supports but does not replace these.",
+      "tags": [
+        "mtm",
+        "stopp-start",
+        "geriatric",
+        "polypharmacy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-026",
+      "title": "Topical Steroid Dilution Compounding",
+      "prompt": "Act as a dermatology compounding pharmacist with 6 years experience at a skin-care specialty hospital in Mumbai. I need you to perform a topical steroid dilution calculation and preparation plan. Here is the context: a dermatologist prescribes Betnovate-N cream (Betamethasone valerate 0.1% + Neomycin 0.5%) to be diluted to 0.025% betamethasone strength in 30 g, using white soft paraffin IP as diluent, for a pediatric atopic dermatitis patient with sensitive facial skin. Please provide: (1) step-by-step calculation using proportion method showing grams of original cream and diluent, (2) alligation verification of final concentration, (3) compounding SOP with geometric dilution technique, mortar-pestle vs ointment-slab choice, (4) stability and BUD assignment per USP 795 (typically 30 days for non-preserved), (5) final product labelling per Drugs and Cosmetics Rules and NABH, (6) caregiver counselling on application (fingertip unit method, twice daily, facial area only, max 2 weeks continuous), (7) cautions on dilution preserving Neomycin efficacy, (8) PvPI reporting criteria for skin atrophy. Format as a compounding master record. Clinical-aid disclaimer: compounded preparations must follow institutional SOPs, and dilution of fixed-dose combinations should be confirmed with the prescriber.",
+      "tags": [
+        "compounding",
+        "dermatology",
+        "dilution",
+        "pediatric"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-027",
+      "title": "Counselling on Newly Prescribed Statin",
+      "prompt": "Act as a cardiology-linked retail pharmacist with 5 years experience at a chain pharmacy in Nagpur. I need you to create a first-fill counselling session for a statin starter. Here is the context: a 50-year-old Marathi-speaking bank manager with recent cardiac event prescribed Rosuvas 20 mg (Rosuvastatin) HS. He has heard negative things about statins from WhatsApp forwards regarding muscle damage and diabetes. Current BMI 29, sedentary, non-vegetarian diet. Please provide: (1) an evidence-based counselling script in Marathi-English addressing WhatsApp myths with simple analogies, (2) expected LDL reduction and why adherence matters for cardiovascular mortality benefit, (3) timing (night dose rationale, evening meal), (4) common side effects (myalgia 5-10%, rare rhabdomyolysis) with when to stop and seek help, (5) monitoring plan (lipid panel at 6-12 weeks, LFT baseline, CK if symptoms), (6) food and lifestyle counselling with Indian diet swaps (ghee moderation, more fibre, walking), (7) DDI education (avoid grapefruit, careful with macrolides), (8) Jan Aushadhi and DPCO-compliant generic pricing. Format as a first-fill counselling dialogue. Clinical-aid disclaimer: this counselling complements cardiologist advice; patient should not stop statins without medical guidance.",
+      "tags": [
+        "patient-counselling",
+        "statin",
+        "cardiology",
+        "marathi"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-028",
+      "title": "Antibiogram Based Empirical Antibiotic Guidance",
+      "prompt": "Act as an antimicrobial stewardship pharmacist with 9 years experience at a 300-bed NABH hospital in Jaipur. I need you to draft empirical antibiotic guidance based on the latest hospital antibiogram. Here is the context: the 2025 antibiogram shows E. coli resistance — Ampicillin 78%, Cotrimoxazole 62%, Ciprofloxacin 55%, Ceftriaxone 38%, Piperacillin-Tazobactam 14%, Meropenem 6%, Amikacin 8%. Klebsiella shows Carbapenem resistance 18%. Staph aureus MRSA 24%. The hospital must update empirical protocols for community-acquired UTI, hospital-acquired pneumonia, and skin-soft-tissue infection. Please provide: (1) a syndromic empirical antibiotic recommendation table per WHO AWaRe classification, (2) dose and duration with Indian brand names and DPCO pricing, (3) de-escalation criteria once culture results available at 48-72 hours, (4) allergy alternatives, (5) renal-dose adjustment table for top 5 agents, (6) antimicrobial stewardship KPIs to monitor impact, (7) prescriber education memo, (8) ICMR and NCDC alignment notes. Format as an institutional empirical therapy pocket guide. Consider NABH 5th edition stewardship standards. Clinical-aid disclaimer: empirical protocols must be institution-specific and reviewed annually by a multidisciplinary committee.",
+      "tags": [
+        "formulary",
+        "antimicrobial-stewardship",
+        "antibiogram",
+        "empirical"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-029",
+      "title": "Nebulization Counselling for COPD Patient",
+      "prompt": "Act as a respiratory pharmacist with 7 years experience at a chest hospital in Kolkata. I need you to design a home nebulization counselling session. Here is the context: a 68-year-old Bengali-speaking retired ex-smoker with severe COPD discharged on Duolin respules (Levosalbutamol 1.25 mg + Ipratropium 500 mcg) QID and Budecort respules (Budesonide 0.5 mg) BD via jet nebulizer at home. Family has no prior nebuliser experience. Please provide: (1) step-by-step nebuliser setup, cup filling, mask vs mouthpiece choice in Bengali-English, (2) session duration (8-10 min) and breathing pattern (tidal with periodic deep breaths), (3) cleaning and disinfection protocol (soap, boiling, vinegar soak weekly) considering Indian water quality, (4) electricity backup suggestion for areas with power cuts, (5) avoid mixing incompatibilities with other respules, (6) mouth rinse after Budesonide to prevent candidiasis, (7) COPD red flags — increased breathlessness, purulent sputum, fever — requiring hospital return, (8) Ayushman Bharat coverage for nebuliser purchase and refills, (9) Jan Aushadhi respule availability. Format as a home-care instruction booklet. Clinical-aid disclaimer: nebulization therapy follows pulmonologist prescription; counselling supports safe home use.",
+      "tags": [
+        "patient-counselling",
+        "nebulization",
+        "copd",
+        "bengali"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-030",
+      "title": "ADR Reporting to PvPI Workflow",
+      "prompt": "Act as a pharmacovigilance pharmacist with 8 years experience at an AMC (Adverse drug reaction Monitoring Centre) under the Pharmacovigilance Programme of India. I need you to create a complete ADR identification, assessment, and reporting workflow. Here is the context: a 45-year-old Telugu-speaking patient on Allopurinol 300 mg (Zyloric) for gout developed severe cutaneous reaction (SJS-TEN overlap) 3 weeks after initiation; presently admitted in ICU. Please provide: (1) a structured ADR case summary template with patient de-identified data, (2) Naranjo causality score computation with each question answered, (3) WHO-UMC causality categorisation, (4) severity grading per CTCAE, (5) preventability assessment (Schumock-Thornton), (6) suspected HLA-B*58:01 genetic consideration for Indian population, (7) completed CDSCO PvPI red form (ADR reporting form) template ready to fill, (8) communication plan — attending physician, hospital DTC, patient family counselling in Telugu-English, (9) mandatory reporting timeline for serious unexpected reactions, (10) follow-up and outcome documentation. Format as a complete ADR case workup document. Consider PvPI NCC-IPC and CDSCO guidelines. Clinical-aid disclaimer: causality and clinical management remain physician responsibilities; pharmacist supports documentation and reporting.",
+      "tags": [
+        "mtm",
+        "pharmacovigilance",
+        "pvpi",
+        "adr-reporting"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-031",
+      "title": "Pediatric Weight-Based IV Fluid Calculation",
+      "prompt": "Act as a pediatric hospital pharmacist with 6 years experience at a children's ward in Bhopal. I need you to perform a pediatric IV maintenance fluid calculation using the Holliday-Segar method with deficit correction. Here is the context: a 6-year-old boy weighing 22 kg admitted with acute gastroenteritis, moderate dehydration (estimated 7%), vitals stable, no shock. Physician orders IV fluid resuscitation bolus followed by deficit correction over 24 hours plus maintenance. Please provide: (1) step-by-step Holliday-Segar maintenance fluid calculation (100/50/20 rule) showing mL/day and mL/hr, (2) deficit volume calculation (7% x weight), (3) bolus calculation (20 mL/kg NS), (4) fluid type selection (NS vs Isolyte-P vs D5 half NS) with rationale per ISPN and NICE, (5) potassium addition only after urine output confirmed, (6) infusion pump rate programming, (7) monitoring parameters (urine output 1 mL/kg/hr, electrolytes 6-12 hourly, clinical reassessment), (8) transition to ORS counselling in Hindi for parents (Jeevan Jal/Electral), (9) double-check protocol per NABH. Format as a pediatric fluid order worksheet. Clinical-aid disclaimer: pediatric fluid management errors can cause harm; independently verify calculations and confirm with treating pediatrician.",
+      "tags": [
+        "compounding",
+        "pediatric",
+        "iv-fluids",
+        "calculation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-032",
+      "title": "Counselling for Oral Iron Supplementation in Pregnancy",
+      "prompt": "Act as an obstetric pharmacist with 5 years experience at a Janani Suraksha Yojana-linked maternity hospital in Patna. I need you to counsel a pregnant patient on iron supplementation. Here is the context: a 24-year-old Bhojpuri-speaking woman in her 20th week of pregnancy with Hb 9.2 g/dL (mild anemia) prescribed Ferium XT tablets (Ferrous ascorbate 100 mg elemental iron + Folic acid 1.5 mg) OD under the Anemia Mukt Bharat programme. She reports nausea and constipation with her previous iron tablet. Please provide: (1) a simple Bhojpuri-Hindi counselling script on why iron matters in pregnancy, (2) correct timing — empty stomach or with vitamin C source (amla, orange, lemon water), avoid with tea, coffee, milk, calcium, (3) side-effect management (nausea — take with small snack, constipation — increase fibre and water), (4) stool darkening reassurance, (5) expected Hb rise timeline (0.5-1 g/dL/month), (6) dietary iron sources relevant to local cuisine (palak, ragi, jaggery, dates, kala chana), (7) danger signs requiring hospital visit (severe pallor, breathlessness, palpitations), (8) free supply under Anemia Mukt Bharat and WIFS, (9) follow-up Hb at 4 weeks. Format as a patient-friendly counselling sheet. Clinical-aid disclaimer: treatment follows ANC physician advice; this supports counselling only.",
+      "tags": [
+        "patient-counselling",
+        "iron",
+        "pregnancy",
+        "anemia-mukt-bharat"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-033",
+      "title": "High-Alert Medication Safety Audit",
+      "prompt": "Act as a medication safety officer pharmacist with 10 years experience at a 400-bed NABH hospital in Delhi. I need you to design a high-alert medication safety audit tool. Here is the context: the ISMP high-alert medication list is to be operationalised locally and audited quarterly — categories include insulin, heparin, concentrated electrolytes (KCl, NaCl 3%), opioids, chemotherapy, and neuromuscular blockers. Please provide: (1) a facility-level high-alert medication list customised for Indian hospital context with Indian brand examples, (2) storage segregation requirements (separate bins, red tags, no look-alike shelving), (3) independent double-check protocol and documentation template, (4) prescription and label standardisation rules (TALLman lettering, dose range checks), (5) smart pump library programming recommendations, (6) staff competency assessment questionnaire, (7) incident and near-miss review using root cause analysis template, (8) KPIs (error rate per 1000 doses, double-check compliance %) with targets aligned to NABH MOM chapter, (9) quarterly audit checklist. Format as a medication safety audit toolkit. Consider PCI, CDSCO, and ISMP-India alignment. Clinical-aid disclaimer: audit findings should drive systemic quality improvement with multidisciplinary committee input.",
+      "tags": [
+        "formulary",
+        "medication-safety",
+        "high-alert",
+        "audit"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-034",
+      "title": "Diabetes Sick-Day Rules Counselling",
+      "prompt": "Act as a diabetes care pharmacist with 6 years experience at a DM clinic in Surat. I need you to counsel a type 2 diabetic patient on sick-day management during illness. Here is the context: a 55-year-old Gujarati-speaking woman with T2DM on Glycomet GP 2 (Metformin 500 + Glimepiride 2), Jardiance 10 (Empagliflozin), and Januvia 100 (Sitagliptin) calls the pharmacy asking what to do as she has viral fever, vomiting, and poor oral intake for 2 days. Please provide: (1) a Gujarati-English sick-day rules card covering which medications to stop (Metformin, SGLT2i due to AKI and DKA risk), which to continue or adjust, (2) hydration emphasis with ORS and small frequent sips, (3) glucose monitoring frequency (every 2-4 hours), (4) ketone check guidance if Empagliflozin user (euDKA risk), (5) when to call physician vs go to ER (persistent vomiting, glucose >300, ketones, breathlessness, altered sensorium), (6) food suggestions (khichdi, dahi-rice, ORS, coconut water) during illness, (7) resumption of medications once recovered, (8) emergency contact 108 and diabetes helpline, (9) free medicines under Ayushman Bharat or state schemes. Format as a laminated sick-day rules card. Clinical-aid disclaimer: during illness, contact the treating physician; this card supports but does not replace medical advice.",
+      "tags": [
+        "patient-counselling",
+        "diabetes",
+        "sick-day-rules",
+        "gujarati"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-035",
+      "title": "Generic Substitution Decision Tree for Retail",
+      "prompt": "Act as a retail pharmacy trainer with 12 years experience at a Jan Aushadhi Kendra in Bhubaneswar. I need you to create a generic substitution decision tree for counter pharmacists. Here is the context: customers present prescriptions with expensive innovator brands and ask if cheaper generics are available; pharmacists must navigate PCI ethics, Drugs and Cosmetics Act provisions, prescriber permission, and patient counselling. Please provide: (1) a yes/no decision tree flowchart covering prescription validity, narrow vs wide therapeutic index drugs (avoid substitution for warfarin, levothyroxine, antiepileptics, immunosuppressants), Jan Aushadhi availability, quality assurance labels (WHO-GMP, CDSCO approved), (2) patient counselling script in Odia-English explaining bioequivalence and cost savings, (3) documentation requirement (substitution log), (4) when to call the prescriber before substituting, (5) top 20 commonly substituted Indian drugs with innovator vs Jan Aushadhi price comparison in INR, (6) ethics and PCI Code of Ethics quote on generic substitution, (7) customer objection handling, (8) refusal to substitute script when inappropriate. Format as a counter-side SOP with flowchart. Clinical-aid disclaimer: substitution decisions must comply with current regulations and prescriber intent; consult the prescriber when in doubt.",
+      "tags": [
+        "mtm",
+        "generic-substitution",
+        "jan-aushadhi",
+        "retail"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-036",
+      "title": "TPN Compounding Calculation for Adult",
+      "prompt": "Act as a nutrition support pharmacist with 9 years experience at an NABH surgical ICU in Vellore. I need you to perform a total parenteral nutrition calculation. Here is the context: a 60 kg adult post-major abdominal surgery requires TPN for 7 days — 25 kcal/kg/day total energy, 1.5 g/kg/day protein, 30% lipid calories, rest as dextrose, plus standard electrolytes, multivitamins, and trace elements. Hospital stocks Aminoven 10% (100 g/L amino acids), Intralipid 20%, Dextrose 50%, and a sterile compounding LAF hood. Please provide: (1) stepwise calculation of protein, lipid, and dextrose grams and volumes, (2) total fluid volume and osmolarity check (central vs peripheral), (3) electrolyte addition in standard ranges with Ca-PO4 precipitation avoidance note, (4) MVI and trace element addition timing (immediately before infusion), (5) aseptic preparation SOP per USP 797 with LAF and line-clearance documentation, (6) stability and BUD (typically 24 hours at room temp, 9 days refrigerated), (7) labelling per NABH with patient ID, composition, rate, BUD, (8) infusion monitoring plan (glucose, electrolytes, triglycerides, LFT), (9) transition to enteral plan, (10) double-check protocol. Format as a TPN prescription and preparation worksheet. Clinical-aid disclaimer: TPN errors are high-risk; calculations require verification and physician authorisation.",
+      "tags": [
+        "compounding",
+        "tpn",
+        "calculation",
+        "nutrition-support"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-037",
+      "title": "Smoking Cessation Counselling with NRT",
+      "prompt": "Act as a public health pharmacist with 5 years experience at a community health centre in Agra. I need you to create a smoking cessation counselling session using NRT. Here is the context: a 38-year-old Hindi-speaking male smoker (15 cigarettes/day for 18 years, Fagerstrom score 6 — high dependence) wants to quit before his child's birth. Asking about Nicotex gum 2 mg vs 4 mg, patches (Nicotinell), and Varenicline (Champix). Please provide: (1) a motivational interviewing opening and 5A framework (Ask, Advise, Assess, Assist, Arrange), (2) NRT selection rationale (4 mg gum given dependence), dosing schedule with tapering over 12 weeks, correct chewing technique (chew-park method), (3) patch vs gum comparison with practical suitability, (4) Varenicline counselling if prescribed — start 1-2 weeks before quit date, neuropsychiatric warnings, (5) quit-date setting and trigger identification, (6) Hindi counselling script addressing cultural triggers (paan/gutkha/bidi), (7) withdrawal symptom management and relapse-prevention plan, (8) mCessation India (1800-11-2356) toll-free helpline referral, (9) follow-up schedule at 1, 2, 4, 8, 12 weeks, (10) cost comparison and Jan Aushadhi availability. Format as a counselling session plan. Clinical-aid disclaimer: NRT and Varenicline require physician prescription and health assessment; this counselling supports the quit journey.",
+      "tags": [
+        "patient-counselling",
+        "smoking-cessation",
+        "nrt",
+        "public-health"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-038",
+      "title": "Beginner Reference for Schedule H1 Drugs",
+      "prompt": "Act as a retail pharmacy trainer with 8 years experience educating D.Pharm graduates in Delhi. I need you to create a beginner reference on Schedule H1 drugs and dispensing rules. Here is the context: junior pharmacists must understand Schedule H1 compliance to prevent AMR and avoid legal penalties under the Drugs and Cosmetics Act. Please provide: (1) a plain-language explanation of why Schedule H1 exists and the difference from regular Schedule H, (2) the current Schedule H1 drug list categorised (3rd-4th gen cephalosporins, carbapenems, anti-TB, anti-psychotic, habit-forming), (3) mandatory dispensing rules — red-border prescription only, separate register entry with prescription retention 3 years, prescriber details, patient details, (4) sample Schedule H1 register entry template, (5) penalties for non-compliance (Drugs and Cosmetics Act), (6) customer counselling script when refusing OTC sale, (7) common customer objections and firm but polite refusal language in Hindi-English, (8) practical checklist for every Schedule H1 dispense, (9) link with AMR stewardship and ICMR guidance. Format as an easy-to-read one-page reference plus a register template. Consider PCI and CDSCO guidance. Clinical-aid disclaimer: this is educational guidance; always consult current Drugs and Cosmetics Rules and institutional SOPs.",
+      "tags": [
+        "formulary",
+        "schedule-h1",
+        "dispensing",
+        "compliance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-039",
+      "title": "Counselling for Oral Contraceptive Pill Start",
+      "prompt": "Act as a women's health pharmacist with 6 years experience at an urban pharmacy in Pune. I need you to create a first-time OCP counselling session. Here is the context: a 26-year-old Marathi-speaking woman prescribed Yasmin (Drospirenone 3 mg + Ethinyl estradiol 0.03 mg) for contraception and mild acne, never used hormonal contraception before, anxious about side effects she read online. Please provide: (1) a Marathi-English counselling script on mechanism (simple analogy), (2) when to start (Day 1 vs Sunday start vs quick-start) and backup contraception need for first 7 days, (3) daily dosing same time, missed-dose rules (one missed vs two missed) with backup guidance, (4) expected benefits (regular periods, acne, dysmenorrhea) and realistic timeline, (5) common side effects (breakthrough bleeding first 3 months, nausea, breast tenderness) with reassurance, (6) ACHES warning signs — Abdominal pain, Chest pain, Headache, Eye vision changes, Severe leg pain — requiring urgent care, (7) DDI warnings (Rifampicin, certain antiepileptics, St John's Wort), (8) smoking contraindication over age 35, (9) annual follow-up and BP check, (10) privacy and confidentiality. Format as a first-time OCP counselling guide. Clinical-aid disclaimer: OCP suitability requires physician assessment; counselling supports informed use.",
+      "tags": [
+        "patient-counselling",
+        "contraception",
+        "womens-health",
+        "marathi"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    },
+    {
+      "id": "medical-pharmacists-040",
+      "title": "MTM Review for Heart Failure with GDMT Gaps",
+      "prompt": "Act as a cardiology clinical pharmacist with 11 years experience at a tertiary cardiac centre in Kochi. I need you to conduct a guideline-directed medical therapy (GDMT) optimisation review for HFrEF. Here is the context: a 64-year-old Malayalam-speaking male with HFrEF (LVEF 28%), NYHA II, ischemic cardiomyopathy, eGFR 55, K+ 4.3, BP 118/70, HR 78. Current medications: Cardace 5 mg (Ramipril), Cardivas 6.25 mg BD (Carvedilol), Lasix 40 mg OD, and Ecosprin 75 mg. Missing pillars of quadruple therapy — no MRA, no SGLT2 inhibitor, no ARNI. Please provide: (1) a GDMT gap analysis against 2022 AHA/ESC HF guidelines, (2) stepwise addition plan over 4-6 weeks with starting doses and titration targets for Eplerzon/Eplerenone 25 mg (MRA), Jardiance 10 mg (Empagliflozin), and switching Ramipril to Vymada (Sacubitril-Valsartan) with 36-hour washout, (3) monitoring plan — BP, K+, creatinine, weight, symptoms, (4) hyperkalemia risk management, (5) cost impact in INR with Jan Aushadhi and DPCO considerations, (6) Ayushman Bharat PMJAY coverage check, (7) patient counselling script in Malayalam-English on pillar rationale and adherence, (8) red flags and 30-day readmission prevention, (9) coordination with cardiologist for each addition. Format as a GDMT optimisation MTM plan. Clinical-aid disclaimer: GDMT additions require cardiologist approval; pharmacist supports optimisation through decision support.",
+      "tags": [
+        "mtm",
+        "heart-failure",
+        "gdmt",
+        "cardiology"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "pharmacists"
+    }
+  ]
+}

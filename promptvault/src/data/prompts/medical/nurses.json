@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "medical-nurses-001",
+      "title": "NANDA Care Plan for Pulmonary Tuberculosis Patient",
+      "prompt": "Act as a senior staff nurse with 10 years of experience in a pulmonology ward at a government tertiary hospital in India (AIIMS/Safdarjung type setup). I need you to draft a complete NANDA-format nursing care plan for a 42-year-old male patient newly diagnosed with sputum-positive pulmonary tuberculosis, started on Category I DOTS regimen (2HRZE + 4HR) under RNTCP/NTEP. Context: Patient is a daily-wage labourer from Uttar Pradesh, Hindi-speaking, BMI 17.2, hemoglobin 9.1 g/dL, productive cough with occasional hemoptysis, admitted for initial stabilization. Ward nurse-to-patient ratio is 1:10. Please provide: (1) Top 5 prioritized NANDA nursing diagnoses with related-to and as-evidenced-by statements, (2) SMART short-term and long-term goals for each diagnosis, (3) At least 6 nursing interventions per diagnosis with Indian-context rationales (airborne isolation per NTEP, N95 mask usage, sputum disposal in 5% phenol, DOTS adherence counselling), (4) Evaluation criteria with measurable indicators, (5) Patient and family education points in simple Hindi/English bilingual bullets, (6) NABH-compliant documentation format for the nurses' notes. Format as a structured table followed by narrative notes. Include a disclaimer that this is an educational aid and not a substitute for institutional protocols or physician orders.",
+      "tags": [
+        "nanda",
+        "care-plan",
+        "tuberculosis",
+        "dots",
+        "ntep"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-002",
+      "title": "SBAR Shift Handoff for ICU Post-Operative Patient",
+      "prompt": "Act as an ICU charge nurse with 8 years of critical care experience at a tertiary private hospital in India (Apollo/Fortis/Manipal setup). I need you to create a complete SBAR (Situation-Background-Assessment-Recommendation) shift handoff report template and a fully filled example for handing over a 58-year-old female patient, Day 1 post-CABG (coronary artery bypass graft), currently on ventilator (SIMV mode), noradrenaline infusion at 0.08 mcg/kg/min, and receiving Inj. Augmentin 1.2 g IV Q8H and Inj. Pantop 40 mg IV OD. Context: Handover is from night shift to morning shift at 7:00 AM, nurse-patient ratio 1:1 in ICU, NABH-accredited unit. Please provide: (1) Blank SBAR template with all standard fields, (2) Completed SBAR example with realistic Indian vitals, labs (ABG, electrolytes, Hb, creatinine), drain outputs, GCS, RASS, pain score, (3) Pending tasks and investigations checklist, (4) Medication administration times due in next 4 hours with double-check rights, (5) Family communication status and code status, (6) Red-flag parameters requiring urgent physician notification. Format as printable bedside handover sheet. Note: This is an educational template — always follow your hospital's handover protocol.",
+      "tags": [
+        "sbar",
+        "handoff",
+        "icu",
+        "post-operative",
+        "critical-care"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-003",
+      "title": "NANDA Care Plan for Diabetic Ketoacidosis (DKA)",
+      "prompt": "Act as a medical ward nurse with 6 years of experience at a 500-bed government district hospital in India. I need you to develop a comprehensive NANDA-format nursing care plan for a 35-year-old male patient admitted with diabetic ketoacidosis: blood glucose 512 mg/dL, pH 7.18, bicarbonate 10 mEq/L, ketones 3+, potassium 3.1 mEq/L, BP 96/60, HR 122, Kussmaul breathing. Patient has Type 1 DM for 8 years, missed insulin doses due to financial constraints. Context: Ward has limited ABG access, nurse-to-patient ratio 1:8, insulin infusion pump available. Please provide: (1) Five prioritized NANDA diagnoses (fluid volume deficit, impaired gas exchange, risk for electrolyte imbalance, deficient knowledge, risk for unstable blood glucose) with full PES statements, (2) Hourly monitoring plan for first 12 hours, (3) Insulin infusion titration reminders and potassium replacement nursing checkpoints, (4) Specific nursing interventions for each diagnosis, (5) Discharge teaching covering Indian-context insulin storage (no refrigerator households), affordable glucometer use, sick-day rules in Hindi, (6) NABH documentation sample entries. Educational aid only — follow hospital DKA protocol and physician orders.",
+      "tags": [
+        "nanda",
+        "care-plan",
+        "dka",
+        "diabetes",
+        "endocrine"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-004",
+      "title": "Discharge Teaching for Post-MI Patient in Hindi/English",
+      "prompt": "Act as a cardiac care nurse educator with 7 years of experience at a cardiology unit in a tier-2 Indian city hospital. I need you to create a bilingual (Hindi and English) discharge education handout for a 55-year-old male patient being discharged on Day 5 after an anterior wall STEMI managed with primary PCI and DES stent placement. Discharge medications: Ecosprin 75 mg, Clopitab 75 mg, Rosuvas 20 mg, Metolar-XR 25 mg, Pantop 40 mg, Sorbitrate SL PRN. Context: Patient is a shopkeeper, moderate literacy, family caregiver is wife. Please provide: (1) Simple bilingual medication schedule table with timing, food relation, and what-to-do-if-missed-dose, (2) Warning signs requiring immediate ER visit (chest pain, SOB, bleeding) in Hindi and English, (3) Diet advice using Indian foods (reduce ghee, namak, pickles; include dal, roti, sabzi portions), (4) Activity guidelines and cardiac rehab introduction, (5) Follow-up schedule and investigations (lipid profile, ECG, Echo), (6) Emergency contact template. Format as printable A4 handout, pictographs where helpful. Include educational disclaimer.",
+      "tags": [
+        "discharge-teaching",
+        "patient-education",
+        "cardiac",
+        "hindi",
+        "post-mi"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-005",
+      "title": "Five Rights Medication Administration Checklist",
+      "prompt": "Act as a nursing quality and patient safety officer with 9 years of experience at a NABH-accredited multispecialty hospital in India. I need you to create a comprehensive bedside medication administration checklist based on the Five Rights (right patient, right drug, right dose, right route, right time) plus additional Indian-context safety checks. Context: Ward has electronic MAR and paper backup, nurse-patient ratio 1:6, commonly administered medications include Inj. Monocef, Inj. Lasix, Inj. Pan, Tab. Ecosprin, Inj. Human Actrapid. Please provide: (1) Pre-administration checklist (order verification, allergy check, LASA drug identification, patient identification with two identifiers per NABH), (2) During-administration steps with aseptic technique reminders, (3) Post-administration documentation template for MAR, (4) Common LASA (look-alike sound-alike) drug pairs in Indian hospitals with differentiation tips, (5) High-alert medication extra checks (insulin, heparin, KCl, opioids), (6) Incident reporting format for medication errors per NABH. Format as laminated pocket card plus full reference document. Educational aid — follow your institution's medication policy.",
+      "tags": [
+        "medication-administration",
+        "five-rights",
+        "nabh",
+        "patient-safety",
+        "lasa"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-006",
+      "title": "NANDA Care Plan for Acute Ischemic Stroke Patient",
+      "prompt": "Act as a neuro-medical ward nurse with 5 years of experience at a stroke-ready private hospital in India. I need you to prepare a NANDA-format nursing care plan for a 68-year-old female patient, Day 2 post-admission for right MCA territory acute ischemic stroke, received thrombolysis (Inj. Actilyse) within window. Current status: left-sided hemiplegia (power 1/5), NIHSS 12, dysphagia (failed bedside swallow screen), GCS E3V4M6, on Inj. Clexane 40 mg SC BD, Tab. Ecosprin 75 mg via Ryle's tube. Context: Ward nurse-patient ratio 1:6, physiotherapist visits once daily. Please provide: (1) Six prioritized NANDA diagnoses including risk for aspiration, impaired physical mobility, risk for impaired skin integrity, self-care deficit, impaired verbal communication, (2) Goals and outcome criteria, (3) Positioning schedule (2-hourly turning), DVT prophylaxis steps, Ryle's tube feeding protocol per Indian dietitian recommendation, (4) Family involvement plan in Hindi/regional language, (5) NIHSS reassessment documentation, (6) NABH-compliant nursing notes sample. Educational aid only.",
+      "tags": [
+        "nanda",
+        "care-plan",
+        "stroke",
+        "neurology",
+        "thrombolysis"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-007",
+      "title": "Insulin Administration Guide for Ward Nurses",
+      "prompt": "Act as a diabetes educator nurse (CDE) with 8 years of experience at an endocrinology department of an Indian tertiary hospital. I need you to create a detailed insulin administration reference guide for ward nurses. Context: Ward stocks Human Actrapid, Human Mixtard 30/70, Humalog, Lantus, Tresiba, and pre-mixed Novomix 30; multiple patients on sliding scale and basal-bolus regimens; nurse-patient ratio 1:8. Please provide: (1) Classification of insulins available in India with onset-peak-duration table and brand names, (2) Correct subcutaneous injection technique with site rotation diagram (abdomen, thigh, arm, buttock), (3) Pre-meal timing rules for rapid vs regular insulin, (4) Sliding scale example based on capillary blood glucose with hypoglycemia protocol (15-15 rule using glucose biscuits/sugar available in Indian wards), (5) Storage and stability rules (in-use vial at room temp, unopened in fridge), (6) Double-check and documentation per NABH high-alert medication policy, (7) Common errors and how to avoid them (U-40 vs U-100 syringes, Mixtard shaking). Include educational-aid disclaimer.",
+      "tags": [
+        "medication-administration",
+        "insulin",
+        "diabetes",
+        "high-alert",
+        "nabh"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-008",
+      "title": "Wound Care Teaching for Post-Op Patient at Home",
+      "prompt": "Act as a surgical ward nurse with 6 years of experience at a general surgery unit in an Indian district hospital. I need you to draft a patient and caregiver education handout on home wound care for a 45-year-old patient being discharged Day 4 post open appendectomy with a clean, healing abdominal wound closed with staples. Context: Patient lives in a semi-rural area, will return for staple removal on Day 10, caregiver is spouse with basic literacy. Please provide: (1) Step-by-step daily dressing change instructions using locally available supplies (normal saline, povidone iodine, sterile gauze, micropore), (2) Hand hygiene steps before and after, (3) Signs of wound infection to watch for (redness, pus, fever >100.4 F, foul odour) with pictograph cues, (4) Bathing and clothing advice appropriate to Indian climate and sari/dhoti/kurta wearing, (5) Diet for wound healing using affordable Indian foods (egg, dal, paneer, seasonal fruits), (6) When to return to hospital and emergency contact, (7) Bilingual Hindi-English phrases. Format as simple illustrated handout. Educational aid — follow surgeon's specific instructions.",
+      "tags": [
+        "discharge-teaching",
+        "wound-care",
+        "patient-education",
+        "post-op",
+        "hindi"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-009",
+      "title": "NABH-Compliant Nurses Notes for Fall Incident",
+      "prompt": "Act as a nurse supervisor with 10 years of experience at a NABH-accredited 300-bed hospital in Bengaluru. I need you to prepare a NABH-compliant nursing documentation sample and incident reporting format for an unwitnessed patient fall. Scenario: A 72-year-old male patient, admitted for CAP and dehydration, was found on the floor beside his bed at 2:15 AM by the night duty staff nurse; patient is conscious, complains of right hip pain, has a small abrasion on right forearm; on Tab. Lasix 40 mg and Tab. Amlong 5 mg; previously assessed as Morse Fall Scale 55 (high risk). Please provide: (1) Complete nursing notes entry in SOAPIE format with exact time stamps, (2) Immediate nursing actions taken (vitals, neuro check, physician notification, investigations, family intimation), (3) Post-fall reassessment documentation, (4) NABH fall incident reporting form sample with root cause analysis prompts, (5) Updated care plan entries including repeat Morse scale, (6) Handover communication for the next shift. Format as printable documentation template. Educational aid only — use institutional format.",
+      "tags": [
+        "nabh",
+        "documentation",
+        "fall-incident",
+        "patient-safety",
+        "soapie"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-010",
+      "title": "Patient Education on DOTS Adherence for TB",
+      "prompt": "Act as a DOTS provider nurse at a government chest clinic in a tier-3 Indian city with 5 years of RNTCP/NTEP experience. I need you to develop a patient counselling script and education leaflet for a newly diagnosed sputum-positive pulmonary TB patient starting Category I (2HRZE + 4HR) therapy under the NTEP. Context: Patient is a 32-year-old migrant construction worker from Bihar, Hindi-speaking, low literacy, fears job loss and social stigma. Please provide: (1) Opening rapport-building script in simple Hindi, (2) Disease explanation using non-medical language and simple analogies, (3) Medication schedule table with fixed-dose combination tablets (morning empty stomach) and pill count per weight band, (4) Common side effects (hepatitis warning, orange urine from rifampicin, peripheral neuropathy, vision changes with ethambutol) with action steps, (5) Sputum follow-up schedule (2, 4, 6 months), (6) Nutrition advice using Nikshay Poshan Yojana benefits and affordable foods, (7) Confidentiality and stigma counselling points. Format as script plus leaflet. Educational aid only.",
+      "tags": [
+        "patient-education",
+        "dots",
+        "tuberculosis",
+        "ntep",
+        "hindi"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-011",
+      "title": "Pre-Operative Nursing Checklist for Elective Surgery",
+      "prompt": "Act as an OT coordinator staff nurse with 7 years of experience at a multispecialty hospital in Hyderabad. I need you to create a comprehensive pre-operative nursing checklist for an elective laparoscopic cholecystectomy patient, NABH-compliant. Context: 48-year-old female, BMI 29, known hypertensive on Tab. Amlong 5 mg, scheduled for surgery at 8:00 AM; admitted the previous evening. Please provide: (1) Evening-before checklist (consent, NPO orders, bowel prep, skin prep, bath, jewellery/dentures removal, allergy band, DVT stockings if indicated, pre-op medications), (2) Morning-of checklist (vitals, final NPO verification, voiding, hospital gown, ID band, consent re-verification, pre-medication as ordered, transport with chart and investigations), (3) Site marking and WHO Surgical Safety Checklist sign-in prompts, (4) Patient education script for what to expect, (5) Family briefing points, (6) NABH-aligned documentation sample. Format as printable ward handover sheet. Educational aid — follow institutional pre-op policy.",
+      "tags": [
+        "pre-operative",
+        "nabh",
+        "checklist",
+        "surgery",
+        "documentation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-012",
+      "title": "Antibiotic Administration Timing and Stewardship Guide",
+      "prompt": "Act as an infection control nurse with 6 years of experience at a tertiary private hospital in India participating in an antimicrobial stewardship program. I need you to create a ward nurse reference guide for IV antibiotic administration and timing. Context: Commonly used antibiotics include Inj. Monocef (ceftriaxone), Inj. Magnex (cefoperazone-sulbactam), Inj. Meropenem, Inj. Augmentin, Inj. Vancomycin, Inj. Amikacin; nurse-patient ratio 1:6. Please provide: (1) Dosing interval table for each drug with reconstitution fluid and volume, (2) Infusion rate and compatibility chart (which drugs need slow infusion over 60 minutes, which are IV push), (3) First-dose timing criticality for sepsis (golden hour), (4) Signs of adverse reactions (anaphylaxis, red-man syndrome with vanco, nephrotoxicity with amikacin) and nursing actions, (5) Peak/trough sampling reminders for vancomycin and amikacin, (6) Stewardship nursing role (de-escalation prompts, IV-to-oral switch criteria), (7) NABH-compliant MAR entries. Educational aid only.",
+      "tags": [
+        "medication-administration",
+        "antibiotics",
+        "stewardship",
+        "nabh",
+        "infection-control"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-013",
+      "title": "NANDA Care Plan for Congestive Heart Failure",
+      "prompt": "Act as a cardiology ward staff nurse with 6 years of experience at a teaching hospital in Kolkata. I need you to create a NANDA-format nursing care plan for a 65-year-old male patient admitted with NYHA Class IV decompensated congestive heart failure, LVEF 28%. Clinical data: orthopnea, PND, bilateral pedal edema 3+, bibasilar crepitations, BP 138/82, HR 108, SpO2 90% on room air; on Inj. Lasix 40 mg IV BD, Tab. Carvedilol 3.125 mg BD, Tab. Dytor plus, Tab. Ecosprin. Context: Ward nurse-patient ratio 1:8, NABH hospital. Please provide: (1) Five NANDA diagnoses with PES statements (fluid volume excess, impaired gas exchange, decreased cardiac output, activity intolerance, deficient knowledge), (2) Strict intake-output charting method, (3) Daily weight and edema grading protocol, (4) Semi-Fowler positioning and oxygen therapy nursing interventions, (5) Patient education on sodium restriction using Indian food examples (avoid pickles, papad, namkeen) in Hindi, (6) NABH documentation samples. Educational aid only.",
+      "tags": [
+        "nanda",
+        "care-plan",
+        "heart-failure",
+        "cardiac",
+        "fluid-balance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-014",
+      "title": "NANDA Care Plan for Severe Pre-Eclampsia",
+      "prompt": "Act as an obstetric ward senior nurse with 8 years of experience at a government maternity hospital in India. I need you to develop a NANDA-format nursing care plan for a 28-year-old primigravida at 34 weeks gestation admitted with severe pre-eclampsia: BP 172/114, proteinuria 3+, headache, epigastric pain, reflexes 3+, platelet 110,000. On MgSO4 (Pritchard regimen) loading and maintenance, Tab. Labetalol 100 mg TDS, Inj. Betnesol for lung maturation. Context: Nurse-patient ratio 1:4 in high-risk obstetric unit. Please provide: (1) Six prioritized NANDA diagnoses (risk for injury, risk for impaired fetal gas exchange, risk for decreased cardiac output, acute pain, anxiety, deficient knowledge), (2) Magnesium toxicity monitoring protocol (reflexes, respiration, urine output, serum Mg) with antidote (calcium gluconate) readiness, (3) Seizure precautions and ready-to-use eclampsia tray inventory, (4) Hourly BP monitoring chart, fetal heart sounds, (5) Delivery room preparedness, (6) Hindi/regional language reassurance script for patient and family, (7) NABH documentation. Educational aid only.",
+      "tags": [
+        "nanda",
+        "care-plan",
+        "pre-eclampsia",
+        "obstetric",
+        "magnesium-sulfate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-015",
+      "title": "SBAR Communication for Deteriorating Ward Patient",
+      "prompt": "Act as a senior ward nurse with 7 years of experience at a NABH-accredited secondary care hospital in Pune. I need you to create an SBAR escalation script for contacting the medical officer on-call at 3:30 AM about a deteriorating patient. Scenario: 60-year-old male, Day 3 post admission for community-acquired pneumonia, suddenly developed increased breathlessness, RR 32, SpO2 86% on 4L O2 via nasal prongs, BP 92/58, HR 124, GCS 14 (drowsy), temperature 38.9 C, urine output 15 mL in last 2 hours. On Inj. Monocef 2 g IV BD, Inj. Azee 500 mg IV OD. Please provide: (1) Fully scripted SBAR conversation (what to say verbatim), (2) MEWS/NEWS2 scoring of the patient, (3) Immediate nursing actions before physician arrival (positioning, O2 escalation, IV access, fluids, crash cart ready), (4) Vitals reassessment frequency plan, (5) Documentation entry for the escalation event, (6) Rapid response team activation criteria. Format as printable bedside tool. Educational aid only.",
+      "tags": [
+        "sbar",
+        "escalation",
+        "deteriorating-patient",
+        "rapid-response",
+        "news2"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-016",
+      "title": "NANDA Care Plan for Post-Operative Laparotomy",
+      "prompt": "Act as a surgical ICU staff nurse with 6 years of experience at a private tertiary hospital in Chennai. I need you to prepare a NANDA-format nursing care plan for a 52-year-old male patient, Day 1 post emergency exploratory laparotomy for perforated duodenal ulcer with peritonitis. Current status: conscious, on Ryle's tube (free drainage), Foley catheter, two abdominal drains, IV fluids, Inj. Magnex 1.5 g IV Q8H, Inj. Metrogyl 500 mg IV Q8H, Inj. Tramadol infusion, NPO. Context: Nurse-patient ratio 1:2 in SICU, NABH hospital. Please provide: (1) Six NANDA diagnoses (acute pain, risk for infection, imbalanced nutrition less than body requirements, impaired skin integrity, risk for fluid volume deficit, ineffective breathing pattern), (2) Pain assessment using NRS with Indian cultural considerations, (3) Drain care and output charting protocol, (4) Early ambulation and incentive spirometry plan, (5) Wound dressing schedule, (6) Family update communication script, (7) NABH documentation samples. Educational aid only.",
+      "tags": [
+        "nanda",
+        "care-plan",
+        "post-operative",
+        "laparotomy",
+        "surgical"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-017",
+      "title": "Diabetic Diet Education in Hindi for OPD Patient",
+      "prompt": "Act as a nurse educator at a diabetes OPD of a public hospital in Lucknow with 5 years of experience. I need you to create a bilingual (Hindi-English) diabetic diet education handout for a newly diagnosed Type 2 diabetic patient. Context: 50-year-old female homemaker, HbA1c 9.2%, BMI 28, vegetarian, family of 5, limited budget, cooks on LPG. Please provide: (1) Plate-method visual guide adapted to Indian thali (portions of roti, dal, sabzi, rice, curd), (2) Food groups with Hindi names and glycemic index context (low/medium/high GI Indian foods), (3) Sample 1600 kcal vegetarian day menu (breakfast poha/upma, mid-morning fruit, lunch, evening snack, dinner) with portion sizes in katori/roti count, (4) Foods to avoid list (sweets, white rice excess, fried namkeen, packaged juices), (5) Festival and fasting guidance (Navratri, Karva Chauth), (6) Simple exercise add-ons, (7) Warning signs of hypo-hyperglycemia in simple Hindi. Format as printable A4 bilingual handout. Educational aid only.",
+      "tags": [
+        "patient-education",
+        "diabetes",
+        "diet",
+        "hindi",
+        "discharge-teaching"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-018",
+      "title": "ICU SBAR Handoff for Septic Shock Patient",
+      "prompt": "Act as an ICU senior staff nurse with 9 years of critical care experience at a tertiary hospital in Mumbai. I need you to draft a complete SBAR handover for a complex patient changing from evening to night shift. Patient: 63-year-old male, admitted 48 hours ago with urosepsis progressing to septic shock; currently intubated on AC-VC, FiO2 50%, PEEP 8; on noradrenaline 0.15 mcg/kg/min, vasopressin 0.03 U/min, Inj. Meropenem 1 g IV Q8H, Inj. Vancomycin 1 g IV BD (trough pending), hydrocortisone 50 mg IV Q6H; lactate trend 4.2 to 2.8; urine output 30-40 mL/hr on CRRT standby. Please provide: (1) Situation paragraph, (2) Background with pertinent history and day-by-day trend, (3) Assessment with current vitals, ventilator settings, infusions, labs, lines, drains, pressure ulcer risk (Braden), (4) Recommendations and pending tasks, (5) Red flags for physician notification, (6) NABH-compliant handover sheet. Educational aid only.",
+      "tags": [
+        "sbar",
+        "handoff",
+        "icu",
+        "septic-shock",
+        "critical-care"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-019",
+      "title": "Heparin and LMWH Administration Safety Guide",
+      "prompt": "Act as a cardiothoracic unit clinical nurse specialist with 8 years of experience at a heart institute in India. I need you to create a high-alert medication safety guide for heparin and LMWH administration. Context: Unit uses Inj. Heparin 5000 U/mL vials, Inj. Clexane (enoxaparin) 40 mg and 60 mg prefilled syringes; patients often on PCI post-op, AF with anticoagulation, DVT prophylaxis; NABH high-alert med policy applies. Please provide: (1) Unfractionated heparin infusion preparation (25,000 U in 250 mL NS) with standard concentration, (2) aPTT-based titration nomogram sample, (3) LMWH subcutaneous technique (45-degree angle, air lock, no rub) with abdominal site rotation, (4) Double-check requirement and two-nurse verification for bolus doses, (5) Bleeding risk monitoring (puncture sites, gums, hematuria, drop in Hb), (6) Antidote readiness (protamine sulfate) and HIT awareness, (7) NABH documentation format and error-prevention tips. Educational aid only.",
+      "tags": [
+        "medication-administration",
+        "heparin",
+        "high-alert",
+        "anticoagulation",
+        "nabh"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-020",
+      "title": "NANDA Care Plan for Chronic Kidney Disease on HD",
+      "prompt": "Act as a nephrology ward nurse with 7 years of experience at a renal unit of a government medical college in India. I need you to create a NANDA-format nursing care plan for a 55-year-old male patient admitted with CKD Stage 5, on maintenance hemodialysis thrice weekly via left AV fistula, presenting with fluid overload, pulmonary edema, BP 180/110, pre-dialysis K+ 6.2 mEq/L, Hb 7.8, creatinine 9.4. On Tab. Nicardia 20 mg, Tab. Shelcal, Inj. Erythropoietin, IV Lasix. Please provide: (1) Six NANDA diagnoses (excess fluid volume, risk for electrolyte imbalance, risk for decreased cardiac output, imbalanced nutrition, risk for infection at AV access, deficient knowledge), (2) AV fistula care bundle (no BP, no IV, thrill/bruit check), (3) Pre/intra/post-dialysis nursing tasks, (4) Dietary restrictions using Indian foods (avoid banana, coconut water, tomato) in simple terms, (5) Hyperkalemia emergency nursing actions, (6) NABH documentation. Educational aid only.",
+      "tags": [
+        "nanda",
+        "care-plan",
+        "ckd",
+        "hemodialysis",
+        "fluid-balance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-021",
+      "title": "Pediatric Dosing and Administration Reference",
+      "prompt": "Act as a pediatric ward senior nurse with 6 years of experience at a children's hospital in Ahmedabad. I need you to create a pediatric medication administration reference card for commonly used drugs. Context: Ward admits children 1 month to 12 years with common Indian diagnoses like AGE, bronchiolitis, severe pneumonia, febrile seizures, dengue; weight-based dosing is essential; nurse-patient ratio 1:6. Please provide: (1) Weight-based dosing table for Inj. Paracetamol, Inj. Ceftriaxone, Inj. Amikacin, Syp. Ondansetron, Inj. Midazolam, Inj. Adrenaline (with safe max), (2) Volume calculation worksheet example for a 12 kg child, (3) IV fluid maintenance calculation using Holliday-Segar rule with examples, (4) Oral medication techniques for uncooperative toddlers, (5) Two-nurse independent double-check rule for pediatric high-alert meds per NABH, (6) Parent education in Hindi for home antibiotic completion, (7) Common dosing errors to avoid. Educational aid only — always verify with pediatrician order.",
+      "tags": [
+        "medication-administration",
+        "pediatric",
+        "dosing",
+        "nabh",
+        "high-alert"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-022",
+      "title": "Post-Natal Discharge Teaching for New Mother",
+      "prompt": "Act as a postnatal ward nurse with 7 years of experience at an obstetric unit of a tier-2 Indian city hospital. I need you to prepare a comprehensive discharge teaching packet for a first-time mother discharged on Day 3 after normal vaginal delivery of a healthy term baby. Context: 24-year-old primipara, exclusively breastfeeding, episiotomy healing well, mild anemia (Hb 10.2), joint family support. Please provide: (1) Exclusive breastfeeding education (positioning, latching, frequency, demand feeding) in simple Hindi and English, (2) Perineal hygiene and episiotomy care, (3) Warning signs for mother (heavy bleeding, fever, breast engorgement, mastitis, PPD symptoms) and baby (poor feeding, jaundice, fever, lethargy), (4) Immunization schedule per UIP (BCG, OPV-0, Hep-B birth dose already given; next at 6 weeks), (5) Iron and calcium supplementation continuation, (6) Family planning counselling (LAM, condoms, Cu-T timing) appropriate to patient, (7) Follow-up schedule. Format as bilingual illustrated booklet. Educational aid only.",
+      "tags": [
+        "discharge-teaching",
+        "postnatal",
+        "breastfeeding",
+        "patient-education",
+        "hindi"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-023",
+      "title": "NABH Incident Report for Medication Error",
+      "prompt": "Act as a ward in-charge nurse with 9 years of experience at a NABH-accredited 400-bed hospital in Delhi. I need you to draft a complete NABH-compliant medication error incident report and root cause analysis. Scenario: A staff nurse inadvertently administered Inj. Lasix 40 mg IV to a patient for whom Inj. Lanoxin 0.25 mg IV was ordered; error noticed within 10 minutes during MAR reconciliation; patient is a 70-year-old with CHF, vitals stable post-error, physician informed, no immediate harm noted but monitoring initiated. Please provide: (1) Full incident report template with mandatory NABH fields (patient details, order details, what was given, time, severity classification), (2) Fishbone (Ishikawa) root cause analysis with contributing factors (LASA look-alike names, shift workload, double-check bypass), (3) Immediate corrective actions for the patient, (4) System-level corrective and preventive actions (CAPA), (5) Disclosure and apology guidance to patient/family, (6) Learning points for ward in-service education. Educational aid only — follow institutional policy.",
+      "tags": [
+        "nabh",
+        "documentation",
+        "medication-error",
+        "incident-report",
+        "patient-safety"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-024",
+      "title": "OT Nurse Time-Out and Surgical Safety Checklist",
+      "prompt": "Act as an OT scrub nurse with 8 years of experience at a multispecialty operation theatre in Bengaluru. I need you to create a complete WHO Surgical Safety Checklist implementation guide adapted for Indian NABH OTs. Context: OT performs 15-20 cases daily across GS, Ortho, Gynec, ENT; team includes surgeon, anesthetist, scrub nurse, circulating nurse, technician. Please provide: (1) Sign-In checklist items (before induction) with who verifies what, (2) Time-Out script (before skin incision) with verbal role assignments, (3) Sign-Out checklist (before patient leaves OT), (4) Instrument, sponge, and needle count protocol with discrepancy action plan, (5) Specimen labelling and handover per NABH, (6) OT register documentation fields, (7) Indian-context challenges (high volume, staff rotation, language barriers) and mitigation tips. Format as laminated OT wall chart plus narrative SOP. Educational aid only.",
+      "tags": [
+        "nabh",
+        "ot-safety",
+        "who-checklist",
+        "documentation",
+        "patient-safety"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-025",
+      "title": "NANDA Care Plan for Severe Dengue Fever",
+      "prompt": "Act as a medical ward senior nurse with 6 years of experience at a government hospital in West Bengal during monsoon dengue surge. I need you to create a NANDA-format nursing care plan for an 18-year-old male patient with severe dengue (dengue hemorrhagic fever), Day 5 of illness, entering critical phase: platelet 22,000, hematocrit 48 (rising), BP 90/70 (narrow pulse pressure), cold extremities, restless, minor mucosal bleeding from gums. Context: Nurse-patient ratio 1:6, IV fluids per WHO/NVBDCP protocol. Please provide: (1) Six NANDA diagnoses (deficient fluid volume, risk for bleeding, ineffective tissue perfusion, hyperthermia, fatigue, anxiety), (2) Capillary refill, hematocrit, urine output monitoring plan every 1-2 hours, (3) Strict I/O charting with Indian standard fluid (RL/NS) titration cues, (4) Bleeding precautions and platelet transfusion readiness, (5) Family education on danger signs in Hindi/Bengali, (6) Avoidance of aspirin/NSAIDs, (7) NABH documentation samples. Educational aid only — follow NVBDCP dengue guidelines.",
+      "tags": [
+        "nanda",
+        "care-plan",
+        "dengue",
+        "fluid-balance",
+        "tropical-disease"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-026",
+      "title": "Pain Assessment and Management Protocol",
+      "prompt": "Act as a palliative care nurse with 10 years of experience at an oncology unit of Tata Memorial Hospital, Mumbai. I need you to create a nursing protocol for comprehensive pain assessment and management in adult oncology inpatients. Context: Ward has patients with mixed nociceptive and neuropathic pain, many are opioid-naive but some are on chronic morphine; WHO analgesic ladder is applied; medications available include Tab. Paracetamol, Tab. Tramadol, Tab. Gabapentin, Inj. Morphine, Tab. MST, Fentanyl patches. Please provide: (1) Pain assessment tools (NRS, FLACC for non-verbal, neuropathic component screening), (2) Reassessment timing after each intervention, (3) WHO ladder with Indian drug examples and equianalgesic doses, (4) Opioid safety (respiratory rate, sedation score, bowel care, naloxone availability), (5) Non-pharmacological adjuncts (positioning, relaxation, family presence), (6) Patient and family communication in simple Hindi, (7) NABH-compliant pain documentation chart. Educational aid only.",
+      "tags": [
+        "pain-management",
+        "palliative",
+        "opioid",
+        "nabh",
+        "oncology"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-027",
+      "title": "Central Line Care Bundle for ICU Nurses",
+      "prompt": "Act as an ICU infection prevention nurse champion with 9 years of experience at a quaternary care hospital in India. I need you to create a central line-associated bloodstream infection (CLABSI) prevention bundle protocol for bedside nurses. Context: ICU uses triple-lumen central venous catheters, commonly femoral and internal jugular; CLABSI rate targeted under NABH quality indicators. Please provide: (1) Daily line necessity review checklist, (2) Dressing change protocol (frequency, chlorhexidine gluconate prep, transparent semipermeable dressing) with aseptic technique steps, (3) Hub disinfection (scrub-the-hub 15 seconds with 70% alcohol before every access), (4) Tubing and cap change schedule, (5) Hand hygiene and PPE requirements, (6) Signs of infection and when to escalate, (7) NABH documentation in the central line care chart, (8) Nurse-led removal criteria discussion with intensivist. Format as printable bedside bundle sheet. Educational aid only.",
+      "tags": [
+        "infection-control",
+        "central-line",
+        "icu",
+        "nabh",
+        "care-bundle"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-028",
+      "title": "Hypoglycemia Emergency Nursing Protocol",
+      "prompt": "Act as a medical ward nurse preceptor with 7 years of experience at a teaching hospital in Jaipur. I need you to develop an emergency nursing protocol for managing adult inpatient hypoglycemia (CBG below 70 mg/dL). Context: Patients on insulin therapy, sulfonylureas, or post-dialysis; ward stock includes Inj. Dextrose 25% and 50%, Inj. Glucagon 1 mg, oral glucose. Please provide: (1) Recognition signs and symptoms including in sedated/elderly/diabetic-neuropathy patients, (2) Step-wise protocol for conscious vs unconscious patient (15-15 rule with ORS glucose, dextrose biscuits, and IV dextrose guidelines), (3) Specific IV push rates and re-check schedule, (4) Glucagon use indications, (5) Post-recovery meal and insulin adjustment communication with physician, (6) Root cause review (missed meal, dose error, drug interaction), (7) NABH documentation template, (8) Patient education in Hindi to prevent recurrence. Educational aid only — follow hospital hypoglycemia protocol.",
+      "tags": [
+        "emergency",
+        "hypoglycemia",
+        "medication-administration",
+        "nabh",
+        "diabetes"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-029",
+      "title": "Advanced NANDA Care Plan for Multi-Trauma ICU Patient",
+      "prompt": "Act as a trauma ICU nurse manager with 12 years of experience at a Level-1 trauma centre (AIIMS Trauma Centre, Delhi type). I need you to build an advanced, multi-system NANDA-format nursing care plan for a 30-year-old male polytrauma patient admitted post RTA (motorcycle vs truck), Day 2 post-damage-control laparotomy and external fixator application. Injuries: splenectomy, liver laceration Grade III, right femur fracture (ex-fix), bilateral lung contusion, GCS E2VtM5, intubated on PCV, on Inj. Noradrenaline, Inj. Fentanyl + Midazolam infusion, Inj. Piptaz 4.5 g Q8H, Inj. Tranexamic acid, massive transfusion history. Please provide: (1) Eight prioritized NANDA diagnoses across respiratory, cardiovascular, neurological, musculoskeletal, nutritional, infection, skin, psychological systems with PES, (2) Hourly monitoring bundle, (3) VAP, CLABSI, CAUTI, pressure injury prevention bundles, (4) Sedation and analgesia scale tracking (RASS, CPOT), (5) Family communication in regional language, (6) NABH documentation strategy. Educational aid only.",
+      "tags": [
+        "nanda",
+        "care-plan",
+        "trauma",
+        "icu",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-030",
+      "title": "Advanced Insulin Infusion Protocol for DKA Resolution",
+      "prompt": "Act as an endocrine ICU clinical nurse specialist with 10 years of experience at a tertiary hospital in India. I need you to create an advanced insulin infusion titration protocol for DKA resolution phase. Context: Adult patient weighing 70 kg, initial BG 480 mg/dL, pH 7.10, HCO3 9, K+ 3.3; insulin prepared as Human Actrapid 50 U in 50 mL NS (1 U/mL); potassium replacement per serum K+; transition to subcutaneous insulin planned. Please provide: (1) Safe preparation, labelling, and smart pump programming steps per NABH, (2) Bolus and starting infusion rate calculation, (3) Hourly CBG-based titration table with target glucose drop rate (50-75 mg/dL/hr), (4) Dextrose addition when BG under 250, (5) Potassium replacement triggers and nurse escalation criteria, (6) Criteria for resolution (pH over 7.30, HCO3 over 18, anion gap closed), (7) Overlap subcutaneous insulin transition protocol, (8) Documentation and double-check requirements. Educational aid only — follow hospital DKA protocol and physician orders.",
+      "tags": [
+        "medication-administration",
+        "insulin",
+        "dka",
+        "high-alert",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-031",
+      "title": "Advanced SBAR for Neonatal Resuscitation Handoff",
+      "prompt": "Act as a NICU senior nurse with 11 years of experience at a Level-III neonatal unit in a Chennai tertiary hospital. I need you to create an advanced SBAR handover for a complex preterm neonate. Patient: 28-week preterm baby girl, birth weight 980 g, Day 7 of life, on SIMV with FiO2 35%, on dopamine 5 mcg/kg/min, UVC and UAC in situ, on Inj. Ampicillin and Inj. Amikacin, TPN running, minimal trophic feeds via OG tube. Current issues: evolving NEC suspicion (abdominal distension, bilious aspirates), cultures sent, CRP rising. Please provide: (1) Comprehensive SBAR paragraph with gestational and day-wise history, (2) System-by-system assessment (respiratory, cardiovascular, GI, neuro, infection, skin, fluids and nutrition, family), (3) Line and tube inventory with tip positions, (4) Hourly care tasks and kangaroo care status, (5) Pending investigations and red flags for neonatologist notification, (6) Parent update points in simple Tamil/English, (7) NABH NICU documentation fields. Educational aid only.",
+      "tags": [
+        "sbar",
+        "handoff",
+        "nicu",
+        "neonatal",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-032",
+      "title": "Advanced NABH Root Cause Analysis for Sentinel Event",
+      "prompt": "Act as a nursing quality head with 14 years of experience at a NABH-accredited corporate hospital chain in India. I need you to conduct an advanced root cause analysis (RCA) and corrective action plan for a sentinel event. Event: A patient received the wrong blood group transfusion (A positive given to an O positive patient) resulting in an acute hemolytic transfusion reaction requiring ICU shift; error traced to cross-matching sample labelling at bedside. Please provide: (1) NABH-aligned sentinel event definition and reporting timeline, (2) Complete RCA using 5-Why and fishbone techniques covering people, process, equipment, environment, policy factors, (3) Timeline reconstruction table, (4) Contributing factor matrix, (5) CAPA plan with responsible owners, deadlines, and monitoring metrics, (6) Staff debriefing and second-victim support plan, (7) Patient/family disclosure script, (8) NABH CQI committee reporting summary, (9) Sustained improvement tracking KPIs. Format as a complete RCA report template. Educational aid only.",
+      "tags": [
+        "nabh",
+        "documentation",
+        "rca",
+        "sentinel-event",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-033",
+      "title": "Advanced Care Plan for Mechanically Ventilated ARDS",
+      "prompt": "Act as a critical care nurse educator with 13 years of experience at a medical ICU in a Bengaluru tertiary hospital. I need you to design an advanced NANDA-format nursing care plan for a patient with severe ARDS secondary to community-acquired pneumonia requiring lung-protective ventilation and prone positioning. Patient: 55-year-old female, BMI 32, intubated Day 3, on AC-VC with Vt 6 mL/kg IBW, PEEP 14, FiO2 70%, PaO2/FiO2 ratio 110, on Inj. Noradrenaline, Inj. Cisatracurium infusion, deep sedation with fentanyl-midazolam. Please provide: (1) Seven NANDA diagnoses across ventilation, oxygenation, hemodynamics, immobility, nutrition, skin, family coping, (2) Prone positioning bundle nursing protocol (team size, sequence, pressure injury prevention, endotracheal tube securing, line management), (3) Ventilator bundle (VAP prevention), (4) Sedation-paralysis monitoring (RASS, TOF), (5) Daily goals sheet, (6) NABH documentation sample, (7) Family communication script. Educational aid only — follow hospital protocols and intensivist orders.",
+      "tags": [
+        "nanda",
+        "care-plan",
+        "ards",
+        "ventilator",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-034",
+      "title": "Advanced Nursing Audit Protocol for NABH Re-Accreditation",
+      "prompt": "Act as a nursing services director with 15 years of experience leading NABH re-accreditation at a 600-bed multispecialty hospital in India. I need you to build an advanced nursing audit protocol for pre-assessment readiness. Context: Re-accreditation in 90 days, chapters to audit include AAC, COP, MOM, PRE, HIC, ROM, HRM. Please provide: (1) Nursing-specific chapter-wise audit checklist across all wards, ICUs, OT, OPD, dialysis, emergency, (2) Sampling strategy for chart audits (20 per area, tracer methodology), (3) Key performance indicators to track (medication error rate, fall rate, CLABSI, VAP, pressure injury prevalence, hand hygiene compliance, pain reassessment timeliness), (4) Mock survey day plan with assessor walk-through scripts, (5) Staff competency and training gap analysis, (6) Policy and SOP review matrix, (7) Action tracker with owner and deadline, (8) Executive dashboard for the CMS/COO. Format as complete readiness toolkit. Educational aid only.",
+      "tags": [
+        "nabh",
+        "audit",
+        "documentation",
+        "quality",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-035",
+      "title": "Advanced Chemotherapy Administration Safety Protocol",
+      "prompt": "Act as an oncology nurse specialist with 12 years of experience at a regional cancer centre in Ahmedabad. I need you to create an advanced chemotherapy administration safety protocol for ward nurses. Context: Day care oncology administers IV chemotherapy including cisplatin, carboplatin, paclitaxel, doxorubicin, 5-FU, oxaliplatin; hospital follows NABH and ONS safe handling guidelines. Please provide: (1) Pre-chemo nursing assessment (consent, labs, vitals, weight/BSA verification, allergy, prior reactions, vesicant risk mapping), (2) PPE and closed system transfer device (CSTD) use, (3) Two-nurse independent verification of drug, dose, diluent, rate, route, (4) Administration sequence and compatibility check, (5) Extravasation prevention, recognition, and antidote kit (dexrazoxane, DMSO, hyaluronidase) use, (6) Hypersensitivity reaction protocol, (7) Safe disposal of cytotoxic waste per BMWM rules 2016, (8) NABH high-alert documentation template. Educational aid only.",
+      "tags": [
+        "medication-administration",
+        "chemotherapy",
+        "high-alert",
+        "nabh",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-036",
+      "title": "Advanced Discharge Summary and Care Transition Plan",
+      "prompt": "Act as a nurse care coordinator with 11 years of experience at a tertiary cardiac hospital in Kerala leading transitions-of-care for complex patients. I need you to create an advanced nursing discharge summary and care transition plan for a 67-year-old male patient discharged after a 21-day stay for acute decompensated heart failure, AKI on CKD, and new atrial fibrillation. Discharge medications: Tab. Dytor plus, Tab. Carvedilol 6.25 mg BD, Tab. Entresto 50 mg BD, Tab. Dabigatran 110 mg BD, Tab. Cardarone 200 mg OD, Tab. Shelcal. Comorbidities include diabetes and CKD Stage 3b. Please provide: (1) Nursing discharge summary with hospital course, (2) Bilingual (Malayalam-English) medication schedule with warnings, (3) Symptom monitoring diary template (weight, BP, HR, edema), (4) Dietary plan (low salt Kerala cuisine examples), (5) Warning signs with clear action flow, (6) Follow-up appointment and home-based care handover to community nurse, (7) NABH-compliant transition documentation. Educational aid only.",
+      "tags": [
+        "discharge-teaching",
+        "care-transition",
+        "cardiac",
+        "nabh",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-037",
+      "title": "Vital Signs Monitoring and Early Warning Chart",
+      "prompt": "Act as a general medical ward staff nurse with 4 years of experience at a secondary care hospital in Nagpur. I need you to create a complete vital signs monitoring protocol and Modified Early Warning Score (MEWS) chart for adult ward patients. Context: Ward nurse-patient ratio 1:8, manual BP apparatus and digital pulse oximeters available, paper observation chart used. Please provide: (1) Frequency of vitals monitoring by patient acuity (stable, post-op, critical), (2) Correct technique for BP, HR, RR, SpO2, temperature, pain score, urine output, (3) MEWS scoring table with parameter ranges, (4) Action algorithm based on score (increase frequency, inform nurse in charge, inform MO, rapid response), (5) Sample completed chart for a CAP patient showing deterioration trigger, (6) Common errors (skipping RR, rounding BP, missing pain reassessment), (7) NABH-compliant observation chart template. Format as printable chart with legend. Educational aid only — follow hospital policy.",
+      "tags": [
+        "vital-signs",
+        "mews",
+        "monitoring",
+        "nabh",
+        "documentation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-038",
+      "title": "Hand Hygiene Teaching Module for New Nurses",
+      "prompt": "Act as an infection control nurse with 6 years of experience at a NABH-accredited hospital in Indore, responsible for training new GNM and BSc graduates. I need you to create a complete hand hygiene teaching module based on WHO Five Moments. Context: Orientation batch of 15 new staff nurses joining across medical and surgical wards. Please provide: (1) Brief rationale with Indian HAI burden statistics and cost impact, (2) WHO Five Moments of Hand Hygiene with ward-based examples (before touching patient, before aseptic task, after body fluid exposure, after touching patient, after touching patient surroundings), (3) Step-by-step handwashing technique (40-60 seconds) and hand rub technique (20-30 seconds), (4) When soap-water vs alcohol-based hand rub, (5) Glove use misconceptions, (6) NABH audit method (direct observation tool) and compliance targets, (7) Quiz with 10 MCQs and answers, (8) Simple Hindi-English job aid poster for ward pantry. Educational aid only.",
+      "tags": [
+        "infection-control",
+        "hand-hygiene",
+        "nabh",
+        "training",
+        "patient-safety"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-039",
+      "title": "IV Cannulation and Care Bundle for Ward Nurses",
+      "prompt": "Act as a vascular access nurse with 7 years of experience at a tertiary hospital in Kochi. I need you to create a peripheral IV cannulation and care bundle reference for ward nurses. Context: Wards use 18G, 20G, 22G cannulas (BD Venflon or equivalent), transparent dressings, NABH policies in force. Please provide: (1) Site selection guidance (avoid joints, avoid AV fistula arm, paralysed limb, lymphedema arm), (2) Cannula size choice by indication, (3) Step-by-step insertion technique with aseptic precautions and tourniquet use, (4) Securement and dressing with date/time labelling, (5) Daily inspection using VIP (Visual Infusion Phlebitis) score and action thresholds, (6) Replacement timing (clinically indicated vs 72-96 hours), (7) Common complications (phlebitis, infiltration, extravasation, hematoma) with management, (8) Patient education in Hindi, (9) NABH-compliant documentation template. Educational aid only — follow hospital vascular access policy.",
+      "tags": [
+        "iv-cannulation",
+        "nabh",
+        "infection-control",
+        "care-bundle",
+        "documentation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    },
+    {
+      "id": "medical-nurses-040",
+      "title": "Pressure Injury Prevention Nursing Protocol",
+      "prompt": "Act as a wound care nurse specialist with 8 years of experience at a rehabilitation unit of a tertiary hospital in India. I need you to create a pressure injury prevention nursing protocol for at-risk inpatients. Context: Bedridden, elderly, post-stroke, post-spinal surgery, ICU, and malnourished patients are common; air mattresses are limited in supply. Please provide: (1) Braden Scale assessment guide with subscore interpretation and Indian-context triggers, (2) Risk-stratified prevention bundle (repositioning every 2 hours, heel offloading, skin hygiene, moisture management, nutrition referral), (3) Pressure injury staging (Stage 1 to 4, unstageable, deep tissue injury) with photo description cues, (4) Early warning and daily skin check checklist, (5) Use of available resources (pillows, sheepskin, alternating pressure mattress prioritization), (6) Family/attendant involvement script in Hindi, (7) NABH-aligned daily documentation format, (8) Monthly prevalence audit method. Format as printable ward protocol. Educational aid only.",
+      "tags": [
+        "pressure-injury",
+        "braden-scale",
+        "nabh",
+        "care-bundle",
+        "skin-care"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "medical",
+      "subcategory": "nurses"
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "writers-technical-writers-001",
+      "title": "Write OpenAPI Endpoint Reference for Razorpay-Style Payments API",
+      "prompt": "Act as a senior technical writer with 6 years of experience documenting Indian fintech APIs (Razorpay, Cashfree, PhonePe). I need you to write a complete OpenAPI 3.0 endpoint reference for a POST /v1/orders endpoint used by an Indian SaaS payments platform. Context: The endpoint accepts amount in paise (INR), currency, receipt ID, notes, and optional partial_payment flag. Merchants are Indian businesses needing GST invoicing and RBI-compliant payment flows. Please provide: (1) A concise endpoint summary and description written in Diataxis reference style, (2) Full request body schema with field descriptions, Indian examples (amount 50000 = Rs 500), types, required flags, (3) Realistic cURL example with a live-looking test key format rzp_test_xxx, (4) 200, 400, 401, 429 response examples with Indian merchant data (Sharma Traders, Mumbai), (5) Error code table with RBI-style messaging, (6) Rate limit notes (requests/minute), (7) Idempotency key guidance, (8) A short changelog entry. Format the output as a single Markdown file ready to drop into a Mintlify or Docusaurus docs site, with YAML frontmatter (title, sidebarTitle, description, api). Keep voice active, second person, and avoid marketing fluff. Call out PCI-DSS and RBI tokenization requirements where relevant.",
+      "tags": [
+        "openapi",
+        "api-documentation",
+        "razorpay",
+        "fintech",
+        "reference-docs"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-002",
+      "title": "Draft Release Notes for Freshworks-Style SaaS Update",
+      "prompt": "Act as a technical writer with 5 years of experience writing release notes for Indian SaaS companies like Freshworks, Zoho, and Chargebee. I need you to draft customer-facing release notes for version 2026.4 of a helpdesk product used by Indian SMBs. Context: This release includes 3 new features (WhatsApp Business API integration for Indian customers, GST-compliant invoice export, Hindi language support for agent UI), 5 improvements (faster ticket search, better SLA reporting, Razorpay refund automation, improved mobile app for Android, Aadhaar-masked PII in logs), and 4 bug fixes. Audience: support managers at companies like Urban Company, Nykaa, and boAt. Please provide: (1) A short executive summary (2 sentences) highlighting the biggest win, (2) \"What's New\" section with each feature as a 60-80 word entry including use case and benefit, (3) \"Improvements\" as a bulleted list with one-line descriptions, (4) \"Bug fixes\" table (ID, area, description), (5) \"Breaking changes\" callout if any, (6) Upgrade instructions for on-prem vs cloud customers, (7) Links placeholder for docs and changelog. Format as Markdown with emoji-free section headers, Indian spelling (organisation, customise), and a friendly but professional tone. Include one quote-ready line suitable for a LinkedIn post by the product manager.",
+      "tags": [
+        "release-notes",
+        "saas",
+        "freshworks",
+        "product-updates",
+        "changelog"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-003",
+      "title": "Write Getting Started Guide for Indian Developer Onboarding",
+      "prompt": "Act as a technical writer with 4 years of experience writing developer onboarding docs for Indian API-first companies (Postman, Hasura, Razorpay). I need you to write a \"Getting Started in 10 Minutes\" guide for a new Indian SaaS SMS gateway API used by developers at companies like Meesho, CRED, and Zerodha. Context: Developers need to sign up, get an API key, send their first OTP SMS to an Indian mobile number (+91), and verify delivery. The API supports DLT-compliant templates (TRAI requirement), sender IDs, and regional language SMS (Hindi, Tamil, Telugu). Please provide: (1) Prerequisites section (Node.js 18+, a verified Indian mobile number, DLT registration link), (2) Step 1: Sign up and generate API key (with screenshot placeholder markers), (3) Step 2: Install SDK (npm install) with code block, (4) Step 3: Send first SMS with a complete working Node.js snippet using a test Indian number, (5) Step 4: Verify delivery via webhook or dashboard, (6) Common errors (DLT template mismatch, invalid sender ID, rate limit), (7) Next steps links. Format as a Diataxis tutorial in Markdown, use second person, include estimated time per step, and add a callout about TRAI DLT compliance. Keep each paragraph under 3 sentences.",
+      "tags": [
+        "getting-started",
+        "tutorial",
+        "developer-docs",
+        "sms-api",
+        "dlt-compliance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-004",
+      "title": "Create Troubleshooting Guide for Payment Gateway Failures",
+      "prompt": "Act as a technical writer with 5 years of experience documenting Indian payment gateway integrations. I need you to write a troubleshooting guide for merchants facing payment failures on a Razorpay-style checkout used by Indian D2C brands (Mamaearth, boAt, Sugar Cosmetics). Context: Common issues include UPI app timeouts, card 3D Secure failures at HDFC/ICICI/SBI, NetBanking redirect issues, and international cards being blocked due to RBI guidelines. Audience: merchant developers and support staff. Please provide: (1) A decision-tree style intro (is the failure 1% or 50% of transactions?), (2) Symptom-based sections: \"UPI payment stuck on processing\", \"Card declined with 3DS error\", \"NetBanking page not loading\", \"International card rejected\", \"Refund not credited in 5-7 days\", (3) For each symptom: likely causes, diagnostic steps (check dashboard, logs, error codes), fix steps, and when to contact support, (4) Error code reference table with Razorpay-style codes (BAD_REQUEST_ERROR, GATEWAY_ERROR), (5) A \"still stuck?\" section with support contact and SLA expectation. Format as Markdown using Diataxis how-to style, with collapsible details blocks where appropriate, and include one callout about RBI tokenization (mandatory since 2022). Use Indian merchant names in examples.",
+      "tags": [
+        "troubleshooting",
+        "payment-gateway",
+        "razorpay",
+        "how-to",
+        "diataxis"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-005",
+      "title": "Document Authentication Flow for Indian SaaS API",
+      "prompt": "Act as an API documentation specialist with 4 years of experience writing auth guides for Indian SaaS (Zoho, Chargebee, BrowserStack). I need you to write a comprehensive authentication guide for a B2B SaaS API that supports API keys, OAuth 2.0, and JWT bearer tokens. Context: The API is used by Indian enterprises (Infosys, TCS partners, Swiggy merchants) that need role-based access and SSO with Google Workspace and Microsoft Entra. Please provide: (1) Overview section explaining when to use API key vs OAuth vs JWT, with a comparison table, (2) API key section: how to generate from dashboard, rotation best practices, header format (Authorization: Bearer), example cURL, (3) OAuth 2.0 section: authorization code flow diagram description, redirect URI setup, scopes list (read:invoices, write:customers), token exchange example, refresh token handling, (4) JWT section: claims structure, signing algorithm (RS256), expiry recommendation (15 min access, 7 day refresh), (5) Security best practices: never commit keys, use env vars, IP allowlisting, webhook signature verification, (6) Revocation and rotation procedures. Format as a single Markdown page for a Docusaurus site, include Python and Node.js code samples, and add a callout about India DPDP Act 2023 compliance for token storage. Voice: authoritative, concise, developer-first.",
+      "tags": [
+        "authentication",
+        "oauth",
+        "api-docs",
+        "jwt",
+        "security"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-006",
+      "title": "Write Knowledge Base Article for GST Invoicing Setup",
+      "prompt": "Act as a knowledge base writer with 3 years of experience at Indian SaaS companies (Freshdesk, Zoho Desk). I need you to write a KB article answering \"How do I enable GST invoicing for my Indian customers?\" for an accounting SaaS used by CAs and SMBs in cities like Pune, Ahmedabad, and Coimbatore. Context: Users must enter their GSTIN, HSN/SAC codes for line items, state of supply (for IGST vs CGST+SGST), and place of business. The product supports B2B invoices with reverse charge and e-invoice generation via IRP for turnover above Rs 5 crore. Please provide: (1) A clear 10-15 word title and a 2-sentence summary at the top, (2) \"Before you begin\" prerequisites (active GSTIN, company address, HSN codes), (3) Step-by-step instructions with numbered steps and screenshot placeholders, (4) A section on CGST/SGST vs IGST logic based on buyer state, (5) How to enable e-invoicing with IRP, (6) Common issues (invalid GSTIN format, HSN code not found, state mismatch) with fixes, (7) Related articles section. Format as Markdown with frontmatter (title, category, tags, last_updated), keep reading level Class 10, avoid jargon, and add one \"Pro tip\" callout. The tone should feel like a helpful colleague in Mumbai walking you through it.",
+      "tags": [
+        "knowledge-base",
+        "gst",
+        "help-center",
+        "accounting",
+        "kb-article"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-007",
+      "title": "Write SDK Quickstart for Python Developers",
+      "prompt": "Act as a developer relations technical writer with 5 years of experience at Indian API companies (Postman, Hasura, Razorpay). I need you to write a Python SDK quickstart for an Indian logistics API (similar to Shiprocket or Delhivery) that helps D2C brands create shipments. Context: Developers will install the SDK via pip, authenticate with an API key, create a shipment from Bengaluru to Delhi, get a tracking number, and print the shipping label URL. The SDK handles retries, rate limits, and webhook signature verification. Please provide: (1) Install command and supported Python versions (3.9+), (2) \"Hello shipment\" minimal working example with an Indian pickup and drop address (realistic Bengaluru Koramangala and Delhi Connaught Place addresses), (3) Explanation of each code line, (4) How to list available couriers (Bluedart, DTDC, India Post), (5) Error handling with try/except for RateLimitError and ValidationError, (6) Webhook listener example using Flask to receive status updates, (7) Next steps with links to full reference. Format as Markdown ready for a Mintlify docs site, wrap all code in fenced blocks with python hint, use second person, and add a callout that COD orders require additional verification per RBI guidelines. Keep total length under 600 words excluding code.",
+      "tags": [
+        "sdk",
+        "python",
+        "quickstart",
+        "logistics",
+        "developer-docs"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-008",
+      "title": "Document Webhook Event Reference",
+      "prompt": "Act as a technical writer with 4 years of experience documenting webhook systems at Indian fintech and SaaS companies. I need you to write a webhook event reference page for a subscription billing product (Chargebee-style) used by Indian SaaS companies. Context: The product sends webhook events for subscription lifecycle (created, activated, renewed, cancelled), payment events (succeeded, failed, refunded), and invoice events (generated, paid, overdue). Customers use these to sync with their CRM (HubSpot, Freshsales) and accounting (Tally, Zoho Books). Please provide: (1) A short intro explaining webhook basics and HMAC signature verification, (2) A complete event catalog table with event name, trigger, typical use case, (3) For 5 key events (subscription.activated, invoice.generated, payment.failed, subscription.cancelled, payment.refunded), provide: full JSON payload example with Indian customer data (GSTIN, INR amounts, Indian names), field descriptions, and a short \"what to do\" section, (4) Retry policy (exponential backoff, 3 attempts), (5) IP allowlist, (6) How to test with ngrok or RequestBin, (7) Security checklist. Format as a Markdown page with tabbed JSON examples, code fences with json hint, and a callout on idempotency. Use Indian SaaS company names in use cases.",
+      "tags": [
+        "webhooks",
+        "api-reference",
+        "events",
+        "billing",
+        "chargebee"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-009",
+      "title": "Write Installation Guide for Self-Hosted Product",
+      "prompt": "Act as a technical writer with 4 years of experience writing installation docs for self-hosted developer tools (similar to Hasura, Appsmith, or Plaksha). I need you to write an installation guide for a self-hosted observability platform that Indian enterprises deploy on-prem due to data residency requirements (DPDP Act 2023). Context: Target users are DevOps engineers at banks like HDFC and ICICI, and government PSUs. Supported platforms: Ubuntu 22.04, RHEL 9, Docker, Kubernetes (EKS/AKS/GKE and on-prem). Please provide: (1) System requirements (CPU, RAM, disk, OS versions), (2) Pre-installation checklist (ports, firewall, TLS certs, DNS), (3) Docker Compose installation steps with a working docker-compose.yml snippet, (4) Kubernetes installation via Helm chart with values.yaml example, (5) Air-gapped installation notes (pulling images to private registry), (6) Post-install verification (health check endpoint, login test), (7) Common installation errors and fixes, (8) Uninstall steps. Format as Markdown with fenced code blocks, use second person, include estimated time for each section, and add a callout about DPDP Act data localization. Voice: precise, no fluff, DevOps-friendly.",
+      "tags": [
+        "installation",
+        "self-hosted",
+        "docker",
+        "kubernetes",
+        "on-prem"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-010",
+      "title": "Write FAQ Page for Developer Portal",
+      "prompt": "Act as a developer docs writer with 3 years of experience at Indian API platforms (Razorpay, Juspay, Cashfree). I need you to write a developer FAQ page for a payments API serving Indian merchants. Context: The FAQ should address the top 20 questions developers ask during integration, covering auth, environments (test vs live), webhooks, refunds, settlements, taxation (TDS, GST), and RBI compliance (tokenization, recurring mandates, UPI AutoPay). Please provide: (1) A short intro (2 sentences), (2) 20 Q&A pairs grouped into 5 sections: Getting Started, API and SDK, Payments and Refunds, Settlements and Taxation, Compliance and Security, (3) Each answer should be 40-80 words, link to deeper docs where relevant, and include code or CLI snippets when appropriate, (4) At least 5 questions must reference Indian specifics (GSTIN, T+1 settlement, RBI tokenization mandate, TCS under Section 206C(1H), UPI AutoPay limits), (5) A \"still have questions?\" CTA at the end. Format as Markdown with H3 per question, use second person, and keep tone helpful but concise. Avoid \"we\" references to the company; stay product-focused.",
+      "tags": [
+        "faq",
+        "developer-portal",
+        "payments",
+        "support-docs",
+        "rbi-compliance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-011",
+      "title": "Write Glossary for Technical Product",
+      "prompt": "Act as a technical writer with 4 years of experience building docs glossaries for Indian SaaS (Freshworks, Zoho, BrowserStack). I need you to create a 30-term glossary for a cloud testing platform used by QA engineers at Indian product companies (Flipkart, Swiggy, Dream11, CRED). Context: The product offers real device testing on Android and iOS, parallel test execution, visual regression, and integrations with Jenkins, GitHub Actions, and Bitrise. Please provide: (1) Alphabetical glossary of 30 terms covering: device cloud, parallel execution, flaky test, headless browser, visual regression, test runner, session, capability, emulator vs real device, Appium, Selenium Grid, WebDriver, shard, baseline, SLA, SRT, build, artifact, tunnel, local testing, network throttling, geolocation mocking, screen reader, WCAG, Lighthouse, CI runner, matrix, retry, quarantine, snapshot, (2) Each definition should be 25-45 words, written in plain English, and include one concrete example relevant to Indian QA teams, (3) Include \"See also\" cross-references where terms connect, (4) Add a short intro explaining how to use the glossary. Format as Markdown with H3 per term and a small anchor link. Sort alphabetically. Tone: clear, neutral, beginner-friendly without being condescending.",
+      "tags": [
+        "glossary",
+        "terminology",
+        "qa-testing",
+        "reference-docs",
+        "definitions"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-012",
+      "title": "Write Error Message Catalog with Fix Steps",
+      "prompt": "Act as a technical writer with 5 years of experience building error reference docs for Indian SaaS platforms. I need you to write an error message catalog for an Indian e-commerce order management system (similar to Unicommerce or Increff) used by D2C brands on Shopify and Amazon India. Context: The system returns errors for inventory sync, order routing, courier assignment, GST invoice generation, and returns. Please provide: (1) A short intro explaining error format (code, message, suggested_action), (2) A table of 15 errors grouped into 5 categories: Inventory (INV_001 to INV_003), Orders (ORD_001 to ORD_003), Shipping (SHP_001 to SHP_003), Invoicing (INV_GST_001 to INV_GST_003), Returns (RET_001 to RET_003), (3) For each error: code, human-readable message, likely cause, step-by-step fix, and a link to relevant how-to doc, (4) Use realistic Indian context (GSTIN mismatch, PIN code not serviceable by Bluedart, HSN code missing, COD limit exceeded per RBI Rs 50,000 rule), (5) A \"when to contact support\" section. Format as Markdown with one H2 per category and H3 per error. Keep fix steps numbered, actionable, and testable. Voice: calm, solution-oriented, no blame language.",
+      "tags": [
+        "error-messages",
+        "reference-docs",
+        "error-codes",
+        "ecommerce",
+        "troubleshooting"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-013",
+      "title": "Write CLI Reference for DevOps Tool",
+      "prompt": "Act as a technical writer with 4 years of experience writing CLI references for developer tools (similar to Hasura CLI, Vercel CLI, or Railway). I need you to write a CLI command reference for a deployment tool used by Indian startups to deploy Node.js and Python apps to AWS Mumbai region. Context: The CLI has 8 commands: login, init, deploy, logs, env, rollback, status, destroy. Target users are solo developers and small teams at Bengaluru and Pune startups. Please provide: (1) A short intro with install command (npm install -g) and version check, (2) For each of the 8 commands: synopsis (command signature with flags), description (1-2 sentences), required and optional flags with defaults, 2-3 example invocations with realistic outputs, and exit codes, (3) Global flags (--project, --region ap-south-1, --json, --verbose), (4) Environment variables (PV_TOKEN, PV_PROJECT), (5) A short \"common workflows\" section showing a typical deploy-logs-rollback sequence, (6) Autocomplete setup for bash and zsh. Format as Markdown with fenced code blocks (bash), H2 per command, and keep example outputs short. Voice: terse, factual, matches how-to of standard Unix man pages. Use ap-south-1 and Indian project names in examples.",
+      "tags": [
+        "cli",
+        "command-reference",
+        "devops",
+        "deployment",
+        "reference-docs"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-014",
+      "title": "Write Concept Guide Explaining Rate Limiting",
+      "prompt": "Act as a technical writer with 4 years of experience writing concept docs for Indian API platforms (Razorpay, MSG91, Cashfree). I need you to write a Diataxis-style concept/explanation page titled \"Understanding Rate Limits\" for developers integrating with an Indian SMS API. Context: The product enforces per-key, per-IP, and per-account rate limits, with different tiers (trial, startup, growth, enterprise). Indian developers often hit limits during Diwali and IPL campaign bursts. Please provide: (1) A 2-paragraph intro explaining what rate limiting is and why it exists, (2) The three limit dimensions (per-key, per-IP, per-account) with a comparison table, (3) Current limits by plan (trial: 10 req/min, startup: 100 req/min, growth: 1000 req/min, enterprise: custom), (4) How limits are communicated (response headers X-RateLimit-Limit, X-RateLimit-Remaining, Retry-After, HTTP 429), (5) Recommended client strategies: exponential backoff with jitter, request queuing, circuit breaker, (6) Real Indian example: \"Diwali campaign sending 1 lakh SMS in 10 minutes\", (7) When to request a limit increase, (8) Links to how-to guides. Format as Markdown, avoid step-by-step (this is explanation, not how-to per Diataxis), use second person sparingly, and include one diagram-placeholder describing a token bucket. Keep it educational.",
+      "tags": [
+        "concepts",
+        "diataxis",
+        "rate-limiting",
+        "explanation",
+        "api-docs"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-015",
+      "title": "Write How-To Guide for Setting Up SSO",
+      "prompt": "Act as a technical writer with 4 years of experience documenting enterprise SaaS features for Indian companies (Freshworks, Chargebee, Zoho). I need you to write a Diataxis-style how-to guide titled \"Set up SSO with Microsoft Entra ID\" for a B2B SaaS admin dashboard. Context: The target users are IT admins at Indian enterprises (Wipro, Infosys, HDFC Bank) who need to enable SAML 2.0 SSO for their employees. The SaaS product supports SAML and OIDC; this guide focuses on SAML with Entra ID. Please provide: (1) A short goal statement (1 sentence), (2) Prerequisites (Entra admin, SaaS admin role, verified domain), (3) Step-by-step instructions with numbered steps: create enterprise app in Entra, configure SAML settings, download federation metadata XML, upload to SaaS dashboard, map attributes (email, groups, department), test with one user, roll out to all, (4) How to configure SCIM for auto-provisioning, (5) Troubleshooting: common errors (AADSTS50105, signature validation, clock skew), (6) How to enforce SSO-only login, (7) Links to concept doc on SAML. Format as Markdown with numbered steps, inline callouts for warnings, and screenshot placeholders. Keep each step under 3 sentences. Voice: task-focused, no background theory. Mention DPDP Act for identity data handling.",
+      "tags": [
+        "how-to",
+        "sso",
+        "saml",
+        "entra-id",
+        "enterprise-docs"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-016",
+      "title": "Write README for Open Source Indian Project",
+      "prompt": "Act as a technical writer with 4 years of experience contributing to Indian open-source projects (Appsmith, Hasura, FrappeHR). I need you to write a README.md for a new open-source GST invoice generation library in Python, maintained by a small team in Bengaluru. Context: The library helps Indian SMBs and SaaS developers generate GST-compliant invoices with CGST/SGST/IGST, HSN codes, QR codes for e-invoicing (IRP integration), and PDF export. Target audience: Python developers building accounting or billing tools. Please provide: (1) Project title with a one-line tagline and badges (PyPI, build, license MIT, downloads), (2) \"Why this library\" section (3 bullet points), (3) Features list (10 items), (4) Installation (pip install), (5) Quickstart with a 15-line working code example creating an invoice for a Mumbai-based buyer, (6) Documentation link placeholder, (7) How to contribute (link to CONTRIBUTING.md), (8) Roadmap (4 items), (9) License, (10) Maintainers section with Indian names and handles, (11) Acknowledgements. Format as GitHub-flavored Markdown, use H2 section headers, include code fences with python hint, and keep total length under 500 words excluding code. Voice: welcoming, practical, community-first.",
+      "tags": [
+        "readme",
+        "open-source",
+        "github",
+        "gst",
+        "python"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-017",
+      "title": "Convert Legacy Word Docs to Docs-as-Code MDX",
+      "prompt": "Act as a senior technical writer with 7 years of experience migrating legacy documentation to docs-as-code at Indian enterprises. I need you to create a migration plan and a sample converted page for moving a 200-page Microsoft Word documentation set to MDX in a Docusaurus repository. Context: The original docs belong to an Indian ERP vendor (similar to Ramco or Tally) whose customers are manufacturing SMBs in Gujarat and Tamil Nadu. The current docs are in 40 .docx files with inline images, tables, and inconsistent formatting. Target: a versioned Docusaurus site with sidebar navigation, search, and English + Hindi locales. Please provide: (1) A migration strategy (8 phases from audit to cutover) with timeline estimates, (2) Tooling recommendations (pandoc, Mammoth.js, custom script, Vale for style linting), (3) A content inventory spreadsheet structure (column names and example rows), (4) Information architecture proposal using Diataxis (tutorials, how-tos, reference, explanation), (5) A sample MDX file converted from an imaginary \"Creating a Purchase Order\" Word doc, showing frontmatter, admonitions, tabs component, and image references, (6) Style guide rules (voice, terminology, Indian English conventions), (7) Translation workflow using Crowdin or Lokalise, (8) QA checklist before cutover. Format as Markdown with H2 phase headers and fenced MDX code. Assume team of 2 writers and 3-month deadline.",
+      "tags": [
+        "migration",
+        "docs-as-code",
+        "mdx",
+        "docusaurus",
+        "strategy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-018",
+      "title": "Design Diataxis Information Architecture for SaaS Docs",
+      "prompt": "Act as a documentation architect with 8 years of experience at Indian SaaS companies (Freshworks, Chargebee, Postman). I need you to design a complete Diataxis-based information architecture for an Indian HR tech SaaS (similar to Keka, GreytHR, or Darwinbox) used by mid-size Indian companies. Context: The product has modules for payroll (with PF, ESI, TDS), leave management, attendance, performance, and employee self-service. Users include HR managers, payroll admins, and 50,000+ employees across companies like Nykaa, Licious, and Meesho. Please provide: (1) A top-level IA diagram description with 4 Diataxis quadrants, (2) For each quadrant, list 15 planned pages with slugs and brief descriptions: Tutorials (learning-oriented), How-to guides (task-oriented), Reference (information-oriented), Explanation (understanding-oriented), (3) A cross-linking strategy showing how how-tos link to reference and explanation, (4) Versioning strategy (by product version vs evergreen), (5) Navigation sidebar structure as JSON, (6) Search taxonomy and tags (payroll, leave, PF, ESI, compliance), (7) Persona-to-content mapping (HR manager, payroll admin, employee, IT admin), (8) Page template patterns for each quadrant, (9) Metrics to measure IA effectiveness (task success rate, search exit rate). Format as Markdown with headed sections and a JSON block for the sidebar. Reference Indian payroll acts (PF Act 1952, ESI Act 1948, Income Tax Act).",
+      "tags": [
+        "information-architecture",
+        "diataxis",
+        "hr-tech",
+        "docs-strategy",
+        "ia"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-019",
+      "title": "Write OpenAPI 3.1 Spec for Complete CRUD Resource",
+      "prompt": "Act as an API documentation engineer with 6 years of experience writing OpenAPI specs for Indian fintech and SaaS (Razorpay, Cashfree, Juspay). I need you to write a complete OpenAPI 3.1 YAML spec for a /customers resource in an Indian subscription billing API. Context: The resource supports standard CRUD plus list with pagination and filtering. Each customer has GSTIN, PAN, billing address (with Indian PIN code), shipping address, email, phone (+91), and metadata. The API uses API key auth via header. Please provide: (1) Complete openapi.yaml with info, servers (sandbox and live with api.example.in URLs), security schemes (apiKey), (2) Paths: POST /customers, GET /customers, GET /customers/{id}, PATCH /customers/{id}, DELETE /customers/{id}, (3) Components/schemas for Customer, CustomerCreate, CustomerUpdate, CustomerList, Error, Address, with full property descriptions, validation (pattern for GSTIN 15-char, PAN 10-char, PIN 6-digit), examples with Indian data (Sharma Traders, 400001 Mumbai), (4) Reusable parameters (page, per_page, filter), (5) All response codes (200, 201, 400, 401, 404, 409, 429, 500) with examples, (6) Tags and operationId for each endpoint, (7) x-codeSamples extensions for cURL and Python. Format as valid YAML in a single fenced block. Ensure the spec validates against OpenAPI 3.1 and can be rendered by Redoc or Swagger UI. Use realistic Indian field examples throughout.",
+      "tags": [
+        "openapi",
+        "yaml",
+        "api-spec",
+        "crud",
+        "fintech"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-020",
+      "title": "Write User Guide for Complex SaaS Workflow",
+      "prompt": "Act as a senior technical writer with 6 years of experience writing user guides for Indian SaaS products. I need you to write a user guide titled \"Setting Up Your First Automated Drip Campaign\" for a marketing automation platform (similar to WebEngage or MoEngage) used by Indian D2C brands. Context: The user is a marketing manager at a Mumbai-based skincare brand (like Minimalist or Plum) who wants to nurture new signups with a 5-step email + WhatsApp sequence over 14 days, segmented by city and signup source. Please provide: (1) A clear goal statement and estimated time to complete, (2) Prerequisites (verified sender domain, WhatsApp Business API approval, audience of 1000+), (3) 7 main sections with step-by-step instructions: Define your goal and KPI, Create the segment (new signups, Mumbai/Delhi/Bengaluru), Design the drip timeline, Build the 5 messages (welcome, product guide, social proof, offer, reminder), Configure triggers and delays, Test with a seed list, Launch and monitor, (4) Screenshot placeholders at key steps, (5) A callout on DLT compliance and WhatsApp opt-in rules, (6) Common mistakes section, (7) How to measure success (open rate, CTR, conversion, revenue attribution in INR), (8) Next steps. Format as Markdown using Diataxis tutorial style, include a sample drip timeline table, and keep tone friendly and marketer-focused (not developer).",
+      "tags": [
+        "user-guide",
+        "tutorial",
+        "marketing-automation",
+        "d2c",
+        "diataxis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-021",
+      "title": "Write Architecture Overview Using C4 Model Level 1 and 2",
+      "prompt": "Act as a technical writer with 6 years of experience documenting system architecture at Indian product companies (Swiggy, Razorpay, CRED). I need you to write an architecture overview page for an Indian food delivery platform (similar to Zomato or Swiggy) using the C4 model (context and container diagrams). Context: The system connects customers (via mobile apps), restaurants (via partner app), and delivery partners, with real-time order tracking, payment via UPI/cards, and hyperlocal dispatch. The backend runs on AWS Mumbai with microservices. Please provide: (1) Introduction (2 paragraphs) explaining the purpose and audience (new engineers, SREs, auditors), (2) Level 1 System Context: describe the system and external actors (customer, restaurant, delivery partner, payment gateway, SMS provider, maps provider), written as a PlantUML C4 block, (3) Level 2 Container Diagram: list and describe 10 containers (mobile apps for 3 personas, API gateway, order service, restaurant service, dispatch service, payment service, notification service, analytics pipeline, data store layer), written as a PlantUML C4 block, (4) For each container: technology, responsibilities, key interactions, (5) Cross-cutting concerns (auth, observability, resilience), (6) Data residency and DPDP Act compliance notes, (7) Glossary of acronyms. Format as Markdown with fenced PlantUML blocks. Keep language accessible to mid-level engineers. Avoid internal implementation details better suited to lower C4 levels.",
+      "tags": [
+        "architecture",
+        "c4-model",
+        "plantuml",
+        "system-design",
+        "docs"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-022",
+      "title": "Write Sequence Diagram Documentation for Order Flow",
+      "prompt": "Act as a technical writer with 5 years of experience documenting distributed systems at Indian e-commerce and fintech companies. I need you to write a sequence diagram explanation page for the end-to-end order placement flow in an Indian e-commerce platform (similar to Meesho or Flipkart). Context: When a buyer places an order, the system must check inventory, reserve stock, calculate GST, initiate payment (UPI/card), create the order, notify the seller, and schedule a courier pickup. The flow involves 7 services (frontend, API gateway, cart, inventory, pricing/tax, payments, orders, logistics). Please provide: (1) A short intro (when to read this page, assumed knowledge), (2) A complete PlantUML sequence diagram showing all interactions including success path, (3) A numbered narrative walk-through of each step with expected latency (e.g., step 3: reserve inventory, 50ms p99), (4) Failure branches: out-of-stock, payment declined, inventory reservation timeout, and how they are handled (saga compensation, user messaging in Hindi/English), (5) Idempotency and retry strategy, (6) Observability: trace IDs, log fields, key metrics, (7) How to reproduce in staging, (8) Related runbooks. Format as Markdown with a fenced plantuml block and numbered step list. Use realistic Indian data (order value Rs 1299, PIN 560001 Bengaluru). Tone: engineer-to-engineer.",
+      "tags": [
+        "sequence-diagram",
+        "plantuml",
+        "distributed-systems",
+        "order-flow",
+        "architecture"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-023",
+      "title": "Create Style Guide for Technical Documentation Team",
+      "prompt": "Act as a lead technical writer with 8 years of experience at Indian SaaS companies (Freshworks, Zoho, BrowserStack). I need you to create a comprehensive documentation style guide for a 6-person docs team at a Bengaluru-based B2B SaaS startup. Context: The team writes for a global audience with a heavy Indian customer base. They want to standardize voice, terminology, Indian English vs US English conventions, and inclusive language. Please provide: (1) Purpose and scope of the style guide, (2) Voice and tone (principles: clear, direct, helpful, inclusive), with 5 do/don't examples, (3) Point of view and tense (second person, present tense) with examples, (4) Indian vs US English decision: pick one (suggest US English for global reach) and list top 20 spelling/word differences (organize vs organise, analyze vs analyse), (5) Terminology table with preferred terms (sign in not log in, customer not user in this context), (6) Numbers, dates, currency (Rs 1,23,456 Indian numbering vs 123,456 international), (7) Capitalization, punctuation (serial comma: yes), (8) Code samples (language tags, copy button, runnable), (9) Screenshots and alt text rules (WCAG 2.1 AA), (10) Inclusive language (avoid master/slave, blacklist), (11) Accessibility checklist, (12) Review and approval workflow. Format as Markdown with H2 sections and bulleted rules. Include 3 before/after examples.",
+      "tags": [
+        "style-guide",
+        "documentation-standards",
+        "writing-guidelines",
+        "accessibility",
+        "indian-english"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-024",
+      "title": "Write API Versioning and Deprecation Policy Docs",
+      "prompt": "Act as an API documentation strategist with 6 years of experience at Indian API platforms (Razorpay, Juspay, Setu). I need you to write a public-facing API versioning and deprecation policy page for an Indian open banking API used by fintechs (CRED, Jupiter, Fi). Context: The API has been live for 3 years, has v1 and v2 currently supported, and the team wants to set expectations for breaking vs non-breaking changes, sunset timelines, and communication channels. Please provide: (1) A short intro explaining why the policy exists, (2) Versioning scheme: URL-based (/v1/, /v2/), when a new major version is released vs minor, (3) What counts as a breaking change vs non-breaking (detailed list with 8 examples each), (4) Deprecation process: announcement (blog, email, dashboard banner), deprecation headers (Sunset, Deprecation), minimum notice period (12 months for enterprise, 6 months for standard), migration guide publication, (5) Currently supported versions table (v1 in maintenance until Dec 2026, v2 active, v3 planned Q2 2027), (6) How customers can subscribe to changelog (RSS, email, webhook), (7) Contact for migration support, (8) Commitment to Indian regulatory requirements (RBI Account Aggregator, ReBIT standards). Format as Markdown with a callout summarizing the policy in 3 bullets. Voice: authoritative, clear, trust-building.",
+      "tags": [
+        "api-versioning",
+        "deprecation",
+        "policy",
+        "governance",
+        "fintech"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-025",
+      "title": "Write Migration Guide from v1 to v2 API",
+      "prompt": "Act as a technical writer with 6 years of experience writing API migration guides at Indian fintech companies. I need you to write a migration guide from v1 to v2 of an Indian payments API. Context: The v2 API introduces breaking changes: amount is now in smallest currency unit (paise instead of rupees), webhook signature moved from MD5 to HMAC-SHA256, idempotency key is now required for POST, and the customer object separates billing_address and shipping_address. Indian merchants (like boAt, Mamaearth, Sugar Cosmetics) need to migrate before the v1 sunset date. Please provide: (1) Summary of why migrate (benefits, compliance), (2) Sunset timeline with key dates, (3) Breaking changes table: v1 behavior, v2 behavior, action required, (4) Step-by-step migration: update SDK version, update auth headers, refactor amount handling with a code diff, update webhook verification with new code sample in Node.js and Python, add idempotency keys, split addresses, (5) Non-breaking improvements in v2 (faster responses, new endpoints), (6) Testing strategy: run v1 and v2 in parallel in sandbox for 2 weeks, (7) Rollback plan, (8) Checklist of 12 items before going live, (9) Support contact and office hours IST. Format as Markdown with fenced diff and code blocks. Voice: reassuring, structured, urgency-aware. Use realistic Indian amounts and merchant examples.",
+      "tags": [
+        "migration-guide",
+        "api-upgrade",
+        "breaking-changes",
+        "versioning",
+        "payments"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-026",
+      "title": "Write Runbook for Production Incident Response",
+      "prompt": "Act as a technical writer embedded with an SRE team at an Indian unicorn (similar to Zerodha or CRED) with 5 years of experience writing operational runbooks. I need you to write a runbook for \"API 5xx error rate above 2%\" alerts on a payments service. Context: The service runs on AWS ap-south-1 (Mumbai) with EKS, PostgreSQL RDS, Redis ElastiCache, and depends on an upstream bank API. On-call engineers need a reliable step-by-step during Diwali peak or IPL traffic spikes. Please provide: (1) Alert summary (what it means, severity, expected response time per SLO), (2) Impact assessment checklist: check error rate dashboard, affected merchants, revenue loss rate in Rs/minute, (3) Step-by-step triage: confirm alert is real, check recent deploys (last 2 hours), check database CPU and connections, check Redis hit rate, check upstream bank API status page, check DDoS/WAF metrics, (4) Mitigation options: rollback deploy via kubectl rollout undo, scale out HPA, failover to secondary bank, enable circuit breaker, (5) Communication template for customer status page (English and Hindi), (6) Escalation matrix (L2 after 15 min, L3 after 30 min), (7) Post-incident: create incident ticket, schedule blameless postmortem, (8) Related dashboards and logs. Format as Markdown with numbered steps, kubectl and psql commands in code fences. Tone: calm, concise, actionable at 3 AM IST.",
+      "tags": [
+        "runbook",
+        "sre",
+        "incident-response",
+        "on-call",
+        "operations"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-027",
+      "title": "Write Docs for GraphQL API with Hasura",
+      "prompt": "Act as a technical writer with 5 years of experience documenting GraphQL APIs at Indian companies using Hasura. I need you to write a developer-facing documentation page for a Hasura-powered GraphQL API serving an Indian edtech platform (similar to Unacademy or PhysicsWallah). Context: The API exposes courses, lessons, enrollments, and progress tracking, with row-level permissions (students see only their data, teachers see their cohorts). Authentication uses JWT with custom claims. Please provide: (1) Intro to the GraphQL API, when to use it vs the REST API, (2) Endpoint URL, auth header format, example JWT claims (sub, role, cohort_id), (3) Schema overview with the 6 main types (Course, Lesson, Enrollment, Student, Teacher, Progress) and their relationships, (4) 5 common queries with full GraphQL query, variables, and JSON response: list my courses, get course with lessons, my progress, teacher dashboard, search courses, (5) 3 common mutations: enrol in course, update progress, submit assignment, (6) Subscription example for real-time progress updates, (7) Permissions explanation (how row-level rules work), (8) Rate limits and query cost analysis, (9) Common pitfalls (N+1 handled by Hasura, but avoid deeply nested queries). Format as Markdown with fenced graphql and json code blocks. Use realistic Indian student names and course titles (NEET, JEE, UPSC). Voice: developer-first, example-heavy.",
+      "tags": [
+        "graphql",
+        "hasura",
+        "api-docs",
+        "edtech",
+        "developer-docs"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-028",
+      "title": "Write Security Documentation for SaaS Product",
+      "prompt": "Act as a technical writer with 6 years of experience writing security and compliance docs for Indian B2B SaaS (Freshworks, Chargebee, Postman). I need you to write a \"Security at [Product]\" public page for an Indian HR tech SaaS targeting enterprise buyers. Context: The product processes sensitive employee data (Aadhaar masked, PAN, salary, bank account) and must meet DPDP Act 2023, ISO 27001, SOC 2 Type II, and VAPT requirements. Buyers include CISO and procurement teams at TCS, Wipro, and HDFC Bank. Please provide: (1) Opening statement on security philosophy (2 sentences), (2) Compliance and certifications section with badges/placeholders (ISO 27001, SOC 2, DPDP, CERT-In empaneled VAPT), (3) Data protection: encryption at rest (AES-256), in transit (TLS 1.3), key management (AWS KMS, ap-south-1), (4) Data residency: where data is stored (Mumbai AZ), backup locations, DPDP compliance, (5) Access controls: RBAC, SSO, MFA, just-in-time access for support, (6) Application security: SAST, DAST, dependency scanning, bug bounty, (7) Infrastructure security: VPC, WAF, DDoS protection, (8) Incident response: 72-hour breach notification per DPDP, (9) Employee security: background checks, training, NDA, (10) Customer controls: audit logs, data export, right to erasure, (11) Subprocessors list, (12) How to contact security team, report vulnerabilities. Format as Markdown with H2 per section. Voice: confident, concrete, audit-ready.",
+      "tags": [
+        "security",
+        "compliance",
+        "dpdp-act",
+        "iso-27001",
+        "soc-2"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-029",
+      "title": "Write Developer Onboarding Tutorial Series",
+      "prompt": "Act as a senior technical writer with 6 years of experience designing developer tutorial series at Indian API companies (Postman, Hasura, Razorpay). I need you to outline and write the first tutorial of a 5-part series titled \"Build an Indian D2C Checkout with [Product] in 5 Days\" for a payments and shipping API. Context: The target learner is a full-stack developer building a Shopify alternative for small Indian D2C brands. By the end of the series, they will have a working checkout with UPI, cards, COD, and automatic courier booking. Please provide: (1) Series overview: what will be built, who it is for, tech stack (Next.js, Node.js, Postgres), total time (15 hours), outcome, (2) 5-part outline: Day 1 setup and auth, Day 2 product catalog and cart, Day 3 payment flow with UPI and cards, Day 4 order creation and shipping, Day 5 webhooks and deployment, (3) Full Day 1 tutorial: prerequisites (Node 18, API key, Postgres, git), step 1 create project and install deps, step 2 environment variables with .env.example, step 3 auth middleware, step 4 health check endpoint, step 5 test with cURL, (4) Day 1 complete working code snippets, (5) What you will learn next. Format as Markdown with code fences. Use second person, keep steps under 3 sentences each, and make the learner succeed every 10 minutes. Include one Indian brand example (Boat Lifestyle). Tone: encouraging, concrete.",
+      "tags": [
+        "tutorial",
+        "developer-docs",
+        "onboarding",
+        "series",
+        "diataxis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-030",
+      "title": "Write Mobile SDK Integration Guide for Android",
+      "prompt": "Act as a technical writer with 5 years of experience documenting mobile SDKs at Indian companies (Razorpay, MoEngage, Truecaller). I need you to write an Android integration guide for an Indian analytics SDK used by mobile apps like Dream11, MPL, and Cred. Context: The SDK (available on Maven Central) tracks user events, crashes, and performance, supports Jetpack Compose, handles DPDP Act consent, and works on Android 7.0+. Please provide: (1) Overview and requirements (minSdk 24, Kotlin 1.9+, AGP 8.0+), (2) Step 1 add Maven dependency with exact coordinates and version, (3) Step 2 initialize in Application class (Kotlin code), (4) Step 3 configure with API key from env or BuildConfig, (5) Step 4 track first event with sample code, (6) Step 5 handle DPDP consent with consent dialog flow, (7) Step 6 test in debug vs release, (8) ProGuard/R8 rules, (9) Background behavior and battery considerations, (10) Privacy manifest for Play Store data safety form, (11) Troubleshooting (SDK not initialised, events not appearing, network on main thread), (12) Next steps links. Format as Markdown with fenced kotlin and groovy code blocks, include a \"complete Application.kt example\" at the end. Voice: mobile-developer-first, precise. Mention Indian regional Android OEM quirks (MIUI, OxygenOS battery optimisation) in a callout.",
+      "tags": [
+        "android",
+        "sdk",
+        "mobile-docs",
+        "integration-guide",
+        "kotlin"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-031",
+      "title": "Write Data Model Reference with ER Diagram",
+      "prompt": "Act as a technical writer with 6 years of experience documenting database schemas at Indian SaaS companies. I need you to write a data model reference page for a subscription billing product (similar to Chargebee) used by Indian SaaS companies. Context: The product stores customers, subscriptions, plans, invoices, payments, and credit notes. It is designed for Indian SaaS exporters who need USD and INR billing, GST compliance for domestic customers, and SEZ LUT handling. Please provide: (1) A short intro explaining the scope and audience (integration developers, data analysts), (2) A Mermaid ER diagram in a fenced code block showing 7 entities and their relationships (one customer has many subscriptions, one subscription has many invoices, etc.), (3) For each entity, a table with columns: field, type, constraints, description, example value (with Indian data where relevant: GSTIN, INR amounts, HSN codes), (4) Explanation of key relationships and foreign keys, (5) Indexing and query performance notes for common queries, (6) Soft delete behavior, (7) Multi-currency and taxation model (CGST/SGST/IGST/export with LUT), (8) Data retention rules (7 years per Indian tax law), (9) How to export via API or CSV. Format as Markdown with a fenced mermaid block. Voice: precise, analyst-friendly, no marketing language.",
+      "tags": [
+        "data-model",
+        "er-diagram",
+        "mermaid",
+        "schema-docs",
+        "billing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-032",
+      "title": "Write Localization Guide for Hindi and Regional Languages",
+      "prompt": "Act as a technical writer with 6 years of experience documenting localization features at Indian SaaS (Zoho, Freshworks, MoEngage). I need you to write a product localization guide explaining how admins can enable Hindi, Tamil, Telugu, and Marathi for a consumer-facing mobile app (like a banking app similar to Fi or Jupiter). Context: Localization affects UI strings, date/number formats, currency display (Rs 1,23,456 Indian format), notifications, and customer support routing. The app has 10 million MAU across India. Please provide: (1) Overview of supported locales and what each affects, (2) Prerequisites for admins, (3) How to enable new locales in the admin dashboard (step-by-step), (4) How to manage translations: upload XLIFF or use built-in editor, reviewer workflow, publishing, (5) How to preview on a test device, (6) Pluralization rules (Hindi has distinct plural forms), gender-sensitive translations, (7) RTL not applicable but script shaping notes for Devanagari, (8) Indian number formatting (lakh, crore) and date formats (DD/MM/YYYY), (9) Common pitfalls: string concatenation breaks translation, text expansion in Tamil, font support, (10) Quality checks before release. Format as Markdown with Diataxis how-to style, include one table of locale codes (hi-IN, ta-IN, te-IN, mr-IN), and add callouts about accessibility for screen readers in regional languages. Voice: practical, culturally aware.",
+      "tags": [
+        "localization",
+        "i18n",
+        "regional-languages",
+        "how-to",
+        "india"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-033",
+      "title": "Design Docs Portal IA and Governance for Multi-Product Suite",
+      "prompt": "Act as a principal technical writer with 10 years of experience leading documentation at large Indian SaaS companies (Freshworks, Zoho). I need you to design the information architecture, taxonomy, governance model, and tooling strategy for a unified docs portal covering 8 products in a B2B suite (CRM, helpdesk, marketing automation, billing, analytics, chat, knowledge base, AI assistant). Context: The company has 20 writers across Chennai, Bengaluru, and Hyderabad, plus 5 developer advocates. Current state: each product has its own Docusaurus site with inconsistent structure. Goal: a single portal at docs.example.com with shared search, SSO preview for enterprise customers, and per-product versioning. Please provide: (1) Current-state assessment template with 10 questions, (2) Target IA: top-level sections, per-product sub-IA using Diataxis, shared sections (API overview, security, status), (3) URL and slug strategy for SEO and stability (redirect plan for legacy URLs), (4) Taxonomy (product, audience, topic, difficulty, version), (5) Content governance: writer ownership, review SLAs, deprecation, style guide enforcement via Vale, (6) Tooling stack recommendation (Docusaurus monorepo vs Mintlify vs custom Next.js, with trade-offs and cost in INR), (7) CI/CD: PR preview, Algolia or Meilisearch index, broken link checks, (8) Metrics dashboard (time to publish, search success, NPS), (9) 6-month rollout plan with milestones, (10) Risks and mitigations. Format as a structured Markdown strategy doc with H2 per section. Voice: executive-ready but implementation-detailed.",
+      "tags": [
+        "docs-strategy",
+        "information-architecture",
+        "governance",
+        "multi-product",
+        "portal-design"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-034",
+      "title": "Write End-to-End OpenAPI and AsyncAPI Spec for Event-Driven System",
+      "prompt": "Act as an API documentation engineer with 8 years of experience at Indian API-first companies (Razorpay, Setu, Juspay). I need you to write both an OpenAPI 3.1 spec and an AsyncAPI 2.6 spec for a single Indian open banking product that exposes sync REST endpoints and async Kafka events for account aggregation under RBI's Account Aggregator framework. Context: The product provides consent management, financial information (FI) request, and FI fetch flows as defined by ReBIT. Consumers are lending fintechs (CRED, KreditBee, LendingKart). Please provide: (1) OpenAPI 3.1 YAML covering 6 endpoints: POST /consents, GET /consents/{id}, POST /fi/request, GET /fi/fetch/{sessionId}, POST /webhook, GET /heartbeat, with schemas referencing ReBIT data types, RBI-mandated fields, security (mTLS + JWS signature), sandbox and live servers (api.example.in), (2) AsyncAPI 2.6 YAML for Kafka topics: consent.created, consent.approved, consent.rejected, fi.ready, fi.failed, with message payloads and correlation IDs, (3) A short narrative explaining which spec covers which interaction and how they interoperate, (4) Security sections referencing RBI guidelines and NPCI certification, (5) Error code catalog aligned with ReBIT error taxonomy, (6) Versioning and deprecation notes. Format as two fenced YAML code blocks followed by a Markdown explainer. Ensure both specs are valid and renderable by standard tools (Redoc, AsyncAPI Studio).",
+      "tags": [
+        "openapi",
+        "asyncapi",
+        "account-aggregator",
+        "rbi",
+        "event-driven"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-035",
+      "title": "Write Comprehensive System Architecture Document with 4 C4 Levels",
+      "prompt": "Act as a staff technical writer with 10 years of experience documenting large-scale distributed systems at Indian companies (Flipkart, Swiggy, Paytm). I need you to write a comprehensive architecture document for an Indian ride-hailing platform (similar to Ola) using all 4 levels of the C4 model plus deployment and dynamic views. Context: The system handles 2 million rides/day across 150 Indian cities, integrates with UPI/wallets for payment, uses real-time geospatial matching, and must comply with DPDP Act and state-level transport regulations. Tech stack: Kubernetes on AWS ap-south-1, Cassandra, Redis, Kafka, Go, Java, React Native. Please provide: (1) Document purpose and audience, (2) C4 Level 1 System Context in PlantUML, (3) C4 Level 2 Container diagram in PlantUML with 12 containers, (4) C4 Level 3 Component diagram for the Matching Service (showing dispatcher, geohash indexer, supply-demand balancer, pricing engine), (5) C4 Level 4 Code-level description for the dispatcher component (key classes, patterns), (6) Deployment view (AWS services, availability zones, disaster recovery in Hyderabad region), (7) Dynamic view: sequence diagram for a ride request from tap to driver assignment in under 3 seconds, (8) Key architectural decisions as ADR-style entries (3 ADRs: why Cassandra, why event sourcing for trips, why Kafka Streams for fraud), (9) Non-functional requirements (availability 99.95%, p99 latency 300ms, cost per ride in INR), (10) Risks and open questions. Format as Markdown with fenced PlantUML blocks and clearly numbered ADRs. Voice: architect-to-architect, rigorous, no hand-waving.",
+      "tags": [
+        "system-architecture",
+        "c4-model",
+        "adr",
+        "distributed-systems",
+        "plantuml"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-036",
+      "title": "Build Docs-as-Code Pipeline with Vale, Linting, and CI",
+      "prompt": "Act as a docs engineering lead with 8 years of experience building docs-as-code pipelines at Indian SaaS companies (Postman, Hasura, BrowserStack). I need you to design and document a complete docs-as-code CI/CD pipeline for a Docusaurus monorepo with 8 product docs, maintained by 15 writers and 30 engineering contributors. Context: The team wants consistent style, fast PR previews, broken link detection, image optimization, accessibility checks, translation sync, and production deploys to CloudFront (ap-south-1 origin). Please provide: (1) Repository structure (monorepo layout with packages per product), (2) Toolchain selection: Vale for prose linting with a custom Indian-English-aware style, markdownlint, Prettier, remark-lint, (3) Full GitHub Actions workflow YAML: on PR run lint, build, link check (lychee), a11y check (pa11y-ci), preview deploy to Netlify or Vercel, (4) On merge to main: production build, Algolia DocSearch reindex, CloudFront invalidation, (5) Vale configuration: .vale.ini, custom styles for banned words, required passive voice threshold, and Indian-English spellings, (6) Pre-commit hooks with Husky and lint-staged, (7) Translation sync to Crowdin via separate nightly workflow, (8) Metrics: publish Lighthouse scores and link-check results to a dashboard, (9) Cost estimate in INR/month for CI minutes and hosting, (10) Rollout plan. Format as Markdown with fenced yaml and ini code blocks. Voice: practical, ops-aware, production-tested.",
+      "tags": [
+        "docs-as-code",
+        "ci-cd",
+        "vale",
+        "github-actions",
+        "automation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-037",
+      "title": "Write Complete API Reference Portal for Fintech Product",
+      "prompt": "Act as a principal API documentation writer with 10 years of experience at Indian fintech companies (Razorpay, Cashfree, Juspay). I need you to produce an end-to-end plan and sample content for a complete API reference portal covering a payments product with 40 endpoints. Context: The product serves Indian merchants from solo sellers on Instagram to enterprises like Zomato, and supports UPI, cards, NetBanking, wallets, recurring mandates (UPI AutoPay, e-NACH), settlements, refunds, and disputes. Please provide: (1) IA for the reference portal: groups (Core Resources, Payments, Subscriptions, Settlements, Disputes, Webhooks, Reports) and how they map to sidebar nav, (2) Page template for an endpoint reference (frontmatter, summary, auth, path params, query params, request body, responses, examples in 4 languages: cURL, Node.js, Python, PHP, error table, rate limit, idempotency, sandbox notes), (3) A fully written sample reference page for POST /payments/refunds with Indian-realistic data (merchant Sharma Electronics, refund Rs 2499, GSTIN), (4) A sidebar JSON structure showing all 40 endpoints, (5) Search and tagging strategy, (6) Code sample maintenance strategy (auto-generated from OpenAPI via Redocly or Mintlify codegen), (7) Versioning display (v1 and v2 tabs), (8) Changelog integration, (9) Link to try-it-out console, (10) Localisation plan (English now, Hindi and Tamil later), (11) Metrics: time to first successful API call (TTFC), search zero-results rate. Format as Markdown with an embedded fenced JSON sidebar and a complete sample endpoint page. Voice: senior, systematic, delivery-focused.",
+      "tags": [
+        "api-reference",
+        "fintech",
+        "portal-design",
+        "openapi",
+        "docs-strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-038",
+      "title": "Write Postmortem and Blameless Incident Report Template",
+      "prompt": "Act as a technical writer embedded with an SRE organisation at an Indian unicorn (similar to Zerodha or Dream11) with 8 years of experience writing postmortems. I need you to create a blameless postmortem template and a fully worked example for a Sev1 incident: \"UPI payments failed for 42 minutes during IPL final on 2026-05-24, affecting an estimated Rs 18 crore in transactions\". Context: Root cause was a misconfigured database connection pool limit after a deploy, compounded by a runbook gap. Affected service: payments gateway running on EKS ap-south-1. Please provide: (1) The reusable template with sections: title, authors, status, severity, summary, impact, timeline IST, detection, response, root cause, contributing factors, what went well, what went wrong, where we got lucky, action items with owners and due dates, lessons learned, appendix, (2) A fully written example postmortem for the IPL final incident with realistic times, metrics, customer-facing status page updates in English and Hindi, dashboards referenced, and a 12-entry timeline, (3) 8 concrete action items classified as prevent, detect, mitigate, process, with owners (team names, not individuals) and due dates, (4) A short reflection on blameless culture and what to avoid (no \"who deployed the bad change\"), (5) Publication rules: internal vs public, customer communication, regulatory reporting if RBI-relevant, (6) A checklist for the postmortem author. Format as Markdown with H2 template sections. Tone: honest, learning-focused, rigorous on facts.",
+      "tags": [
+        "postmortem",
+        "incident-report",
+        "sre",
+        "blameless",
+        "template"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-039",
+      "title": "Write RFC-Style Technical Design Document",
+      "prompt": "Act as a staff technical writer with 9 years of experience writing RFCs at Indian product companies (Razorpay, Swiggy, CRED). I need you to write a complete RFC-style technical design document for introducing a new \"Instant Refunds\" feature to an Indian payments platform, which would refund UPI transactions within 60 seconds instead of the standard T+2 days. Context: This requires integration with RBI-approved fund transfer rails (IMPS, UPI refund APIs), reserve balance management, reconciliation, fraud checks, and merchant opt-in. Audience: engineering leads, product managers, compliance, and finance. Please provide: (1) RFC metadata (title, author, status Draft, reviewers, created date 2026-04, last updated), (2) Context and problem statement with data: current refund SLA pain points, merchant complaints, churn risk, (3) Goals and non-goals, (4) Proposed solution with 2 alternatives considered and trade-offs, (5) Detailed design: new service \"instant-refund-orchestrator\", data model changes, API additions, sequence diagram of the refund flow in PlantUML, (6) Failure modes and fallbacks (what happens if IMPS is down), (7) Security and compliance considerations (RBI guidelines on refund timelines, DPDP for PII in logs), (8) Capacity and cost estimate (peak 500 refunds/sec, cost per refund in paise), (9) Rollout plan (shadow mode, 5% canary, 100%), (10) Migration and backwards compatibility, (11) Open questions and decision log, (12) Appendix with references. Format as Markdown with fenced PlantUML. Voice: rigorous, decision-oriented.",
+      "tags": [
+        "rfc",
+        "technical-design",
+        "payments",
+        "architecture",
+        "proposal"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    },
+    {
+      "id": "writers-technical-writers-040",
+      "title": "Build Complete Knowledge Base Taxonomy and Content Plan",
+      "prompt": "Act as a principal content strategist with 10 years of experience leading knowledge bases at Indian SaaS and consumer companies (Freshworks, Zomato, Flipkart). I need you to build a complete knowledge base taxonomy, content plan, and operating model for a new KB at a health tech startup (similar to Practo or PharmEasy) serving patients, doctors, and pharmacies across India. Context: The startup expects 10 million users in 18 months across English, Hindi, Tamil, and Bengali. Current state: no KB, 80% of support tickets are repetitive. Goal: reduce ticket volume by 40% in 12 months. Please provide: (1) KB goals and success metrics (ticket deflection rate, self-service rate, CSAT, time to find answer), (2) Audience personas (patient, doctor, pharmacy owner, delivery partner) with top 10 questions each from ticket data analysis, (3) Taxonomy: categories, subcategories, tags, content types (FAQ, how-to, video, troubleshooting, policy), (4) A 100-article launch content plan grouped by audience and priority, with suggested titles and target word counts, (5) Article template with standard sections (summary, steps, related, last updated), (6) Authoring and review workflow (SME, writer, editor, legal, publish), (7) Localisation strategy for 4 languages with prioritisation, (8) Tooling recommendation (Zendesk Guide vs Freshdesk KB vs custom Next.js + headless CMS) with INR cost comparison, (9) Search and AI answer assistant integration, (10) Governance: ownership, review cadence, deprecation, (11) Launch plan over 90 days with weekly milestones, (12) Post-launch measurement dashboard. Format as a structured Markdown strategy document with tables. Voice: senior, data-driven, execution-ready.",
+      "tags": [
+        "knowledge-base",
+        "content-strategy",
+        "taxonomy",
+        "kb-design",
+        "healthtech"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "technical-writers"
+    }
+  ]
+}

@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "hr-learning-development-001",
+      "title": "Training Needs Analysis for Indian IT Services Firm",
+      "prompt": "Act as a senior Learning & Development consultant with 12 years of experience working with Indian IT services companies like TCS, Infosys, and Wipro. I need you to design a comprehensive Training Needs Analysis (TNA) framework for a mid-sized Bengaluru-based IT services firm with 2,500 employees across delivery, sales, and support functions. The firm is pivoting from traditional application maintenance to cloud-native and AI engineering services over the next 18 months. Please provide: (1) A three-layered TNA approach covering organizational, operational, and individual levels, (2) A stakeholder interview guide with 15 questions for business heads, delivery managers, and HRBPs, (3) A survey template with 20 Likert-scale items for employees mapped to current and future-state competencies, (4) A skill gap heatmap template in table form with role families as rows and critical skills as columns, (5) A phased rollout plan over 8 weeks with responsibilities and milestones, (6) Estimated budget in INR for the TNA exercise including tools, consultant fees, and internal effort. Format the output as a structured consulting document with clear headings, tables, and a one-page executive summary for the CHRO. Consider Indian context: iEvolve/Lex-style internal LMS, NASSCOM FutureSkills Prime mapping, and the need to align with SEBI Business Responsibility and Sustainability Report (BRSR) human capital disclosures.",
+      "tags": [
+        "tna",
+        "skill-gap",
+        "it-services",
+        "competency-map"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-002",
+      "title": "ADDIE-Based Onboarding Program for BFSI New Joiners",
+      "prompt": "Act as an instructional designer with 10 years of experience in Indian BFSI L&D, having built onboarding programs for HDFC Bank, ICICI, and Bajaj Finserv. I need you to design a 30-day structured onboarding program for 120 management trainees joining a Mumbai-headquartered private bank across retail, wealth, and operations functions. Use the full ADDIE model. Please provide: (1) Analyze phase: learner personas, business goals, and 10 KPIs to measure onboarding success, (2) Design phase: day-by-day blueprint covering induction, RBI KYC/AML modules, product knowledge, core banking system walk-throughs, and branch visits, (3) Develop phase: a list of 15 learning assets with format (eLearning, ILT, simulation, job aid, podcast) and rough development effort in hours, (4) Implement phase: deployment plan using Darwinbox LMS with cohort structure, buddy assignments, and weekly check-ins, (5) Evaluate phase: Kirkpatrick Level 1-4 evaluation plan with specific instruments and target scores, (6) A first-week detailed timetable in a table format with timings, topics, facilitators, and logistics. Format the output as a program charter of 4-5 pages. Consider Indian context: RBI mandatory training requirements, POSH at workplace orientation, and the reality that 60% of joiners are from tier-2 campuses and need foundational Excel/PowerPoint uplift.",
+      "tags": [
+        "addie",
+        "onboarding",
+        "bfsi",
+        "instructional-design"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-003",
+      "title": "Beginner TNA Questionnaire for Small Business",
+      "prompt": "Act as a friendly HR consultant helping a 45-person D2C apparel startup in Jaipur conduct its first formal Training Needs Analysis. The founder has no prior L&D experience. I need you to create a simple, ready-to-use TNA questionnaire that managers and employees can complete in under 15 minutes. Please provide: (1) A 12-question employee self-assessment covering current skills, confidence levels, and learning preferences, (2) A 10-question manager assessment of their team's strengths and gaps, (3) A plain-language one-page instruction sheet for the founder on how to administer the survey, (4) A simple scoring guide that turns responses into a prioritized training list, (5) Three example prioritized training recommendations typical for a D2C apparel business such as inventory management on Unicommerce, WhatsApp Business catalog usage, and customer service on Freshdesk, (6) A follow-up action checklist with timelines. Format everything in simple tables and bullet points suitable for a Google Form and a Google Doc. Consider Indian context: Hindi-English mixed workforce, INR budget constraints under 50,000, and reliance on free tools like Google Workspace and YouTube Learning.",
+      "tags": [
+        "tna",
+        "beginner",
+        "startup",
+        "questionnaire"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-004",
+      "title": "Microlearning Path for Sales Executives",
+      "prompt": "Act as a microlearning specialist with experience designing bite-sized learning journeys for Indian FMCG and consumer durables sales teams. I need you to design a 4-week microlearning path for 300 field sales executives of a Pune-based consumer appliances company selling through modern trade and general trade channels. Each daily nugget must be under 7 minutes and consumable on mobile. Please provide: (1) A weekly theme plan covering product knowledge, objection handling, retailer relationship, and closing techniques, (2) 20 daily microlearning titles with format (video, scenario, quiz, infographic, audio), (3) A sample script for one 5-minute video on handling the objection \"Your price is higher than Bajaj and Havells\", (4) A spaced repetition reinforcement plan using WhatsApp broadcasts and LMS push notifications, (5) Engagement metrics and gamification with leaderboards, badges, and weekly contests with INR prizes, (6) Manager dashboard KPIs to monitor completion and application. Format the output with tables and a sample learner journey map. Consider Indian context: vernacular needs in Hindi and Marathi, low-bandwidth areas, and integration with Darwinbox or SAP SuccessFactors mobile apps.",
+      "tags": [
+        "microlearning",
+        "sales",
+        "mobile-learning",
+        "program-design"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-005",
+      "title": "Competency Framework for Mid-Level Managers",
+      "prompt": "Act as an OD and L&D consultant with 15 years of experience building competency frameworks for Indian conglomerates such as Mahindra, Aditya Birla Group, and Godrej. I need you to build a competency framework for mid-level managers (Grade M3-M4, typically 8-15 years of experience) at a Chennai-based engineering services company with 4,000 employees. Please provide: (1) A competency architecture with 4 clusters: Leading Self, Leading Others, Leading Business, Leading Change, (2) 16 competencies across these clusters with clear definitions, (3) Four-level behavioral indicators (Basic, Proficient, Advanced, Expert) for each competency with observable behaviors, (4) A mapping of each competency to critical roles such as Project Manager, Delivery Manager, and Practice Lead, (5) An assessment approach combining 360-degree feedback, assessment centers, and manager ratings, (6) A development menu linking each competency to recommended learning interventions including ISB executive programs, Harvard ManageMentor, internal mentoring, and stretch assignments. Format as a competency dictionary with tables. Consider Indian context: POSH compliance as a non-negotiable behavior, diversity and inclusion with specific focus on women in leadership, and alignment with the company's BRSR commitments.",
+      "tags": [
+        "competency-map",
+        "leadership",
+        "framework",
+        "assessment"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-006",
+      "title": "9-Box Grid Template for Succession Planning",
+      "prompt": "Act as a talent management expert with 10 years of experience running succession planning cycles at Indian pharma companies like Sun Pharma, Cipla, and Dr Reddy's. I need you to create a ready-to-use 9-box grid template and calibration guide for a Hyderabad-based pharmaceutical manufacturer with 1,800 employees. Please provide: (1) A clear 9-box grid with axes Performance (Low, Moderate, High) and Potential (Low, Moderate, High) with names and descriptions for each box such as Star, Core Player, Risk, (2) Performance rating criteria based on last 2 years of ratings with weightages, (3) Potential assessment criteria using learning agility, aspiration, and engagement, (4) A calibration meeting agenda for the leadership team with ground rules and bias checks, (5) Differentiated action plans for each of the 9 boxes including stretch roles, coaching, PIPs, and exits, (6) A confidential talent review deck outline with 10 slides for the CEO. Format everything in tables and bullet points. Consider Indian context: USFDA compliance roles as critical positions, family-owned business dynamics, and the tendency for regional and caste biases to seep into calibration discussions.",
+      "tags": [
+        "9-box",
+        "succession",
+        "talent-review",
+        "calibration"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-007",
+      "title": "Simple Skill Gap Assessment for a 20-Person Team",
+      "prompt": "Act as an L&D generalist helping a small accounting firm in Indore assess skill gaps in its 20-person team. The partner wants a practical, no-jargon approach that can be completed in one week. I need you to create an end-to-end skill gap assessment kit. Please provide: (1) A list of 12 core skills relevant to an Indian accounting firm such as Tally Prime, Zoho Books, GST return filing, TDS computation, MCA compliance, and client communication, (2) A simple 1-5 rating scale with clear descriptions for each level, (3) A Google Sheet layout with employees as rows and skills as columns, plus conditional formatting rules to highlight red and amber gaps, (4) A 20-minute self-assessment form for each team member, (5) A manager validation checklist, (6) A one-page action plan template listing top 3 skill gaps and recommended free or low-cost learning resources from ICAI, Tally Academy, and ClearTax Learning. Format everything as copy-paste ready tables and forms. Consider Indian context: recent GST and income tax changes for FY 2025-26, and the need to keep costs under 25,000 INR.",
+      "tags": [
+        "skill-gap",
+        "beginner",
+        "accounting",
+        "sme"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-008",
+      "title": "Blended Learning Program for Manufacturing Supervisors",
+      "prompt": "Act as a learning architect specializing in manufacturing capability building for Indian auto component and engineering firms. I need you to design a 12-week blended learning program for 80 shop floor supervisors at a Pune-based auto component supplier to Tata Motors and Mahindra. The goal is to build first-line leadership, 5S, Kaizen, and basic problem-solving skills. Please provide: (1) A blended learning blueprint mixing classroom (30%), on-the-job (50%), and digital (20%), (2) A week-by-week topic plan with learning outcomes, (3) A list of 10 digital assets on a mobile-first LMS with Hindi and Marathi audio, (4) Three Gemba walk assignments with structured observation sheets, (5) A capstone Kaizen project template with expected savings in INR, (6) Evaluation using before-after shop floor KPIs like OEE, rejection rate, and safety incidents. Format as a program blueprint document with visual flow. Consider Indian context: Industrial Disputes Act considerations, ITI-educated workforce, and the practical need to run batches during shift changes without disrupting production.",
+      "tags": [
+        "blended-learning",
+        "manufacturing",
+        "supervisors",
+        "program-design"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-009",
+      "title": "POSH Training Content Design for Annual Refresher",
+      "prompt": "Act as a POSH compliance and L&D expert with 8 years of experience designing Prevention of Sexual Harassment training for Indian corporates across IT, BFSI, and manufacturing. I need you to design an engaging 45-minute annual POSH refresher e-learning module for 6,000 employees of a Gurugram-based fintech. Please provide: (1) Learning objectives aligned with the POSH Act 2013 and 2024 amendments, (2) A storyboard with 12 screens including 4 scenario-based decisions reflecting realistic workplace situations, (3) Scripts for 3 scenarios covering remote work harassment, client-facing incidents, and bystander intervention, (4) A 10-question assessment with a passing score of 80%, (5) Manager briefing notes for 15 minutes team discussion post-module, (6) Compliance tracking dashboard fields for the Internal Committee. Format the output as a storyboard document with screen-by-screen detail. Consider Indian context: mandatory annual training for companies with 10+ employees, IC constitution requirements, and the cultural sensitivity needed when handling scenarios across North and South Indian settings.",
+      "tags": [
+        "posh",
+        "compliance",
+        "e-learning",
+        "storyboard"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-010",
+      "title": "Beginner Training Calendar for a New L&D Manager",
+      "prompt": "Act as a supportive L&D mentor guiding a first-time L&D manager at a 300-person logistics startup in Gurugram. She has no prior L&D experience and needs to publish her first annual training calendar. I need you to create a complete annual training calendar template and planning guide. Please provide: (1) A month-by-month calendar with 25 training events spanning behavioral, functional, and compliance topics typical for a logistics business, (2) For each event include: target audience, duration, mode, internal/external facilitator, and indicative cost in INR, (3) A priority framework to decide which 10 programs are non-negotiable for Year 1, (4) A communication plan for announcing the calendar to employees, (5) A simple RSVP and attendance tracker on Google Sheets, (6) Five tips on how to keep the calendar flexible as business needs change. Format as a downloadable calendar and a step-by-step guide. Consider Indian context: peak Diwali and wedding season logistics crunch in Oct-Nov when training attendance drops, and compliance training requirements under the Motor Vehicles Act for drivers.",
+      "tags": [
+        "training-calendar",
+        "beginner",
+        "logistics",
+        "planning"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-011",
+      "title": "Succession Planning for Family-Owned Business",
+      "prompt": "Act as a succession planning advisor with experience working with Indian family-owned mid-market companies in textiles, jewellery, and chemicals. I need you to design a 3-year succession planning roadmap for a Surat-based textile company with INR 900 crore revenue, where the promoter wants to professionalize the top team of 12 and prepare 3 potential successors (2 family, 1 non-family). Please provide: (1) A governance model including a Talent Council with family and external members, (2) Criteria for identifying critical positions using business impact and vacancy risk, (3) A 9-box calibration process adapted for small leadership teams, (4) Individual development plans for each of the 3 successors covering ISB/IIMA exec ed, board exposure, cross-functional stints, and external coaching, (5) A family charter extract on succession decisions, (6) Risk mitigation for scenarios like sudden promoter exit. Format as a consulting proposal with phased milestones and fees in INR. Consider Indian context: HUF structures, unspoken primogeniture expectations, and the tension between professional meritocracy and family harmony.",
+      "tags": [
+        "succession",
+        "family-business",
+        "leadership",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-012",
+      "title": "Quick Competency Map for Customer Support Team",
+      "prompt": "Act as an L&D executive creating a simple competency map for a 60-person customer support team at a Bengaluru-based edtech startup. The team handles calls, chat, and email from students and parents across India. I need you to create an easy-to-understand competency map. Please provide: (1) A list of 8 core competencies grouped into 3 buckets: customer skills, functional skills, and behavioral skills, (2) Clear definitions for each competency in plain English, (3) Three proficiency levels (Learning, Doing, Coaching Others) with observable behaviors, (4) A role-competency matrix for three levels: Executive, Senior Executive, and Team Lead, (5) A self-rating form for each team member, (6) A quarterly review template for managers. Format everything in simple tables that fit on a single page. Consider Indian context: multi-lingual support needs including Hindi, Tamil, Telugu, and Bengali, parent calls during exam season, and CRM tools like Freshdesk and Zoho Desk commonly used.",
+      "tags": [
+        "competency-map",
+        "customer-support",
+        "beginner",
+        "edtech"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-013",
+      "title": "Coursera for Business Rollout Plan",
+      "prompt": "Act as a digital learning lead at a large Indian GCC (Global Capability Centre) in Bengaluru with 8,000 employees. The company has just procured 3,000 Coursera for Business licenses for INR 4.5 crore. I need you to design a rollout and adoption strategy to maximize ROI. Please provide: (1) A segmentation strategy to allocate licenses across functions (Engineering, Data, Design, Ops) with justification, (2) Curated learning pathways for 6 priority job families such as Data Engineer, Full Stack Developer, and Product Manager, (3) A launch communication plan with teaser, launch, and sustenance phases, (4) Engagement mechanics including weekly nudges, learning circles, and recognition on the internal social platform, (5) KPIs and dashboards to track activation, completion, and skill certifications, (6) A quarterly governance review with business heads to reallocate licenses. Format as a rollout playbook with a Gantt chart. Consider Indian context: GCC parent-company alignment, integration with existing Darwinbox/Workday LMS, and the need to show measurable business outcomes to justify renewal.",
+      "tags": [
+        "coursera",
+        "digital-learning",
+        "gcc",
+        "rollout"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-014",
+      "title": "Individual Development Plan Template",
+      "prompt": "Act as an HR business partner at a Delhi-based consumer internet company. I need you to create a simple yet effective Individual Development Plan (IDP) template that managers and employees can co-create in a 45-minute conversation. Please provide: (1) A one-page IDP template with sections for career aspirations, strengths, development areas, and learning goals, (2) Guiding questions for employees to reflect before the meeting, (3) A 70-20-10 learning plan section with examples: 70% on-the-job assignments, 20% mentoring and coaching, 10% formal training, (4) SMART goal examples relevant to 3 common roles: Software Engineer, Product Manager, Marketing Executive, (5) Review checkpoints for 30, 60, 90 days, (6) A manager conversation guide with tips on avoiding common pitfalls. Format as a clean Word/Google Doc template with fillable fields. Consider Indian context: linkage to annual appraisal cycles (typically April), career aspirations often including overseas transfers to the US parent, and the cultural habit of avoiding direct feedback.",
+      "tags": [
+        "idp",
+        "career-development",
+        "beginner",
+        "template"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-015",
+      "title": "Learning Journey for First-Time People Managers",
+      "prompt": "Act as a leadership development expert with experience building first-time manager programs at Indian IT and ITES firms. I need you to design a 6-month blended learning journey for 50 newly promoted people managers at a Noida-based BPO with 5,000 employees. Please provide: (1) A learning journey map with 6 monthly themes: Self as Manager, Team Basics, Performance Conversations, Coaching, Change, and Leading Remotely, (2) For each month: pre-work, 1-day workshop, on-the-job assignment, peer coaching circle, and micro-assessment, (3) A sample 1-day workshop agenda for Month 3 on Performance Conversations with activities and timings, (4) A coaching circle facilitation guide for 6-member groups, (5) A capstone project where each manager solves a real team problem with measurable outcomes, (6) Evaluation using 360 feedback before and after the journey. Format as a journey blueprint with visuals described in text. Consider Indian context: 24x7 BPO shift dynamics, high attrition of 35% annually, and the need to position the program as a retention lever.",
+      "tags": [
+        "first-time-manager",
+        "leadership",
+        "journey",
+        "program-design"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-016",
+      "title": "Beginner Guide to Writing Learning Objectives",
+      "prompt": "Act as an instructional design coach helping an HR generalist who has never written learning objectives before. She works at a 150-person real estate firm in Hyderabad and needs to write objectives for 5 upcoming training sessions. I need you to create a beginner-friendly guide with examples. Please provide: (1) A simple explanation of Bloom's Taxonomy with Indian workplace examples, (2) The ABCD formula (Audience, Behavior, Condition, Degree) explained in 200 words, (3) 10 verbs each for remember, understand, apply, analyze, evaluate, create, (4) Five fully written learning objectives for sessions on RERA compliance, customer handling, Excel basics, negotiation, and POSH, (5) A before-and-after table showing weak vs strong objectives, (6) A 5-minute self-check quiz. Format as a printable 2-page cheat sheet. Consider Indian context: RERA 2016 rules for real estate professionals and the need to connect learning outcomes to stamp duty and registration processes that vary by state.",
+      "tags": [
+        "learning-objectives",
+        "beginner",
+        "instructional-design",
+        "bloom"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-017",
+      "title": "Assessment Centre Design for Hi-Pots",
+      "prompt": "Act as an assessment centre expert with 12 years of experience running development centres for Indian corporate houses. I need you to design a 2-day development assessment centre for 24 high-potential middle managers at a Mumbai-based diversified conglomerate spanning cement, paints, and retail. Please provide: (1) A competency framework with 8 competencies to be assessed, (2) A battery of 5 exercises including in-basket, group discussion, role play, business case presentation, and behavioral event interview, (3) Detailed instructions, observer rating sheets, and scoring rubrics for each exercise, (4) An observer training plan covering ORCE (Observe, Record, Classify, Evaluate) methodology, (5) An integration session agenda to consolidate ratings and produce individual development plans, (6) A feedback report template and one-on-one feedback conversation guide. Format as a facilitator handbook with timings. Consider Indian context: diverse business exposure requirements, bilingual group discussions in English and Hindi, and the need to minimize bias when participants come from different caste and regional backgrounds.",
+      "tags": [
+        "assessment-centre",
+        "hi-pot",
+        "advanced",
+        "development-centre"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-018",
+      "title": "LMS Vendor Evaluation Scorecard",
+      "prompt": "Act as an L&D technology advisor helping an Indian mid-size pharma company evaluate LMS vendors. Shortlisted vendors include Darwinbox LMS, SAP SuccessFactors Learning, Cornerstone, Paradiso, and Disprz. I need you to build a vendor evaluation scorecard. Please provide: (1) A weighted evaluation framework with 8 criteria: functionality, user experience, integration, content ecosystem, analytics, compliance tracking, vendor stability, and total cost, (2) Sub-criteria with weightages totaling 100%, (3) A scoring rubric from 1 to 5 for each sub-criterion, (4) 20 demo scenarios to request from vendors, (5) A 5-year total cost of ownership comparison template in INR with licensing, implementation, and AMC, (6) A risk assessment with top 10 risks and mitigation. Format as a scorecard spreadsheet described in tables. Consider Indian context: compliance with 21 CFR Part 11 for pharma, data residency under the DPDP Act 2023, and GST treatment of SaaS invoicing.",
+      "tags": [
+        "lms",
+        "vendor-evaluation",
+        "intermediate",
+        "technology"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-019",
+      "title": "Kirkpatrick Level 3 Evaluation Plan",
+      "prompt": "Act as a learning measurement expert with expertise in Kirkpatrick and Phillips ROI models. I need you to design a Level 3 (behavior change) evaluation plan for a negotiation skills program attended by 120 B2B sales managers at a Chennai-based industrial lubricants company. The program ran in 4 batches of 30 over 3 months. Please provide: (1) Clear behavior statements linked to 5 key negotiation practices taught in the program, (2) Data collection methods combining manager observation checklists, customer feedback, CRM data from Salesforce, and self-assessment, (3) Timing: data collection at 30, 60, 90 days post-program, (4) Sample size and control group considerations, (5) A dashboard template showing behavior adoption by cohort, (6) An executive summary format with storytelling case studies of two sales managers. Format as an evaluation plan document with timelines. Consider Indian context: industrial sales cycles of 2-4 months, MSME customer base, and the need to distinguish training impact from market price fluctuations in crude-linked products.",
+      "tags": [
+        "kirkpatrick",
+        "evaluation",
+        "sales-training",
+        "measurement"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-020",
+      "title": "Beginner Skill Matrix for a Restaurant Chain",
+      "prompt": "Act as an L&D consultant supporting a growing QSR chain in Mumbai with 18 outlets and 250 staff. The operations head wants a simple skill matrix to know who can do what across kitchen and front-of-house roles. I need you to create a ready-to-use skill matrix. Please provide: (1) A list of 20 skills grouped into Kitchen, Service, Cash & POS, and Hygiene & Safety, (2) A 4-level proficiency scale: Trainee, Independent, Trainer, Expert, (3) A Google Sheet template with staff names as rows and skills as columns, (4) Rules for cross-training staff to ensure every outlet has minimum coverage, (5) A monthly review checklist for outlet managers, (6) Ideas for rewarding multi-skilled staff with small INR incentives. Format everything as copy-paste ready tables with color-coding guidance. Consider Indian context: FSSAI hygiene mandates, Shops and Establishments Act working hour limits, and the reality of high attrition where staff often leave within 6 months.",
+      "tags": [
+        "skill-matrix",
+        "beginner",
+        "qsr",
+        "operations"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-021",
+      "title": "Leadership Pipeline Model Implementation",
+      "prompt": "Act as a senior talent development consultant with 18 years of experience implementing Ram Charan's Leadership Pipeline model at Indian conglomerates. I need you to design an implementation blueprint for a Kolkata-based 10,000-person engineering and construction group moving from functional silos to an integrated leadership pipeline. Please provide: (1) A mapping of the 6 passages (Manage Self to Enterprise Manager) to the company's 8 grades, (2) Work values, time applications, and skills required at each passage, (3) A transition assessment for people stuck in previous passages, (4) Targeted learning interventions for each passage with a mix of ISB, IIMA, and in-house programs, (5) A manager-of-managers coaching guide, (6) A 3-year implementation roadmap with quick wins and risks. Format as a strategic talent document. Consider Indian context: EPC project delivery pressures, legacy hierarchical culture, and the challenge of moving from project-based sahab leadership to enterprise thinking.",
+      "tags": [
+        "leadership-pipeline",
+        "advanced",
+        "talent-strategy",
+        "epc"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-022",
+      "title": "Mentoring Program Design for Women in Tech",
+      "prompt": "Act as a diversity, equity and inclusion L&D expert with experience designing women-in-leadership programs for Indian tech companies. I need you to design a 9-month structured mentoring program for 60 women software engineers at a Pune-based product company aiming to build the pipeline for technical leadership roles. Please provide: (1) Program objectives and success metrics, (2) Mentor selection criteria and training plan, (3) Matching methodology using aspirations, strengths, and chemistry, (4) A structured curriculum for the 9 one-on-one sessions with discussion guides, (5) Group cohort activities including 3 masterclasses by senior women leaders from companies like Microsoft India, Flipkart, and Razorpay, (6) Evaluation plan tracking promotion rates, retention, and engagement scores. Format as a program charter. Consider Indian context: return-to-work after maternity break concerns, in-law and family expectations that affect travel for leadership roles, and alignment with NASSCOM Diversity and Inclusion benchmarks.",
+      "tags": [
+        "mentoring",
+        "women-in-tech",
+        "diversity",
+        "program-design"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-023",
+      "title": "Basic Training Feedback Form Design",
+      "prompt": "Act as an L&D coordinator who needs to create a simple post-training feedback form (Kirkpatrick Level 1 reaction) for internal workshops at a 400-person NBFC in Chennai. I need you to create a clean, reusable feedback form. Please provide: (1) A 12-question feedback form with 8 Likert-scale and 4 open-ended questions covering content, trainer, logistics, and overall value, (2) A Google Form-ready version with clear instructions, (3) A summary report template showing average scores and qualitative themes, (4) Benchmark scores to aim for (for example, overall satisfaction above 4.2/5), (5) A follow-up email template thanking participants and sharing key takeaways, (6) Five tips to improve response rates above 70%. Format as a ready-to-deploy toolkit. Consider Indian context: NBFC sector RBI training mandates on KYC and fair practices code, and typical Indian politeness bias where participants tend to rate all items 4 or 5.",
+      "tags": [
+        "feedback",
+        "beginner",
+        "kirkpatrick-l1",
+        "nbfc"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-024",
+      "title": "Gamified Compliance Training Design",
+      "prompt": "Act as a gamification specialist designing compliance training for Indian corporates. I need you to design a gamified annual compliance training covering Code of Conduct, Anti-Bribery, Data Privacy (DPDP Act), and Insider Trading for 2,000 employees of a Mumbai-listed pharma company. Please provide: (1) An overarching game narrative with a protagonist journey through a fictional Indian pharma company, (2) Five gamified modules each 20 minutes with scenarios, points, and badges, (3) A leaderboard mechanic that runs for 4 weeks with team-based and individual rankings, (4) Sample scenarios such as an MR offering a free holiday to a government doctor and a whistleblower dilemma, (5) Rewards including INR vouchers, recognition from CEO, and CSR donations in the winner's name, (6) Completion dashboard and audit trail meeting SEBI LODR requirements. Format as a game design document. Consider Indian context: SEBI Prevention of Insider Trading Regulations, UCPMP code for pharma marketing, and the challenge of engaging field sales teams on mobile.",
+      "tags": [
+        "gamification",
+        "compliance",
+        "pharma",
+        "engagement"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-025",
+      "title": "Coaching Culture Rollout Plan",
+      "prompt": "Act as an executive coach and OD consultant with ICF-PCC credentials and 15 years of experience in Indian corporate coaching. I need you to design a 24-month roadmap to build a coaching culture at a Bengaluru-headquartered SaaS company with 3,500 employees. Please provide: (1) A definition of coaching culture for this company with 5 observable indicators, (2) A 3-tier coaching model: executive coaching for top 50, internal coach development for 100 managers, and coaching skills for all 500 people managers, (3) Selection criteria and curriculum for the internal coach cadre accredited through ICF, (4) A quarterly measurement framework using engagement scores, 360 data, and business outcomes, (5) Integration with performance management and IDP processes, (6) A change management plan with CEO sponsorship and middle manager enablement. Format as a transformation blueprint. Consider Indian context: Indian directive leadership norms, the tendency to confuse coaching with mentoring, and ICF India chapter resources.",
+      "tags": [
+        "coaching-culture",
+        "advanced",
+        "transformation",
+        "od"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-026",
+      "title": "TNA Interview Guide for Senior Leaders",
+      "prompt": "Act as an L&D consultant preparing for TNA discovery interviews with 10 senior leaders of a Jaipur-based hospitality chain with 12 properties. I need you to create a structured interview guide. Please provide: (1) An opening script of 2 minutes establishing context and confidentiality, (2) 15 open-ended questions grouped into business strategy, people capability, current learning experience, and future priorities, (3) Probing follow-up questions for each main question, (4) A note-taking template with columns for direct quotes, themes, and implications, (5) A synthesis framework to distill top 5 capability priorities across interviews, (6) An executive debrief outline for presenting findings to the CEO in 30 minutes. Format as an interviewer handbook. Consider Indian context: hospitality industry post-COVID recovery, high attrition at front-desk and F&B roles, FHRAI skill standards, and Rajasthan tourism seasonality.",
+      "tags": [
+        "tna",
+        "interview-guide",
+        "hospitality",
+        "discovery"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-027",
+      "title": "Starter Guide to Instructional Design",
+      "prompt": "Act as an instructional design mentor explaining the basics to an HR trainee in her first L&D role at a 200-person EPC firm in Vadodara. I need you to create a plain-English starter guide to instructional design. Please provide: (1) A 300-word introduction explaining what instructional design is and why it matters, (2) A one-page infographic described in text explaining the ADDIE model with Indian workplace examples, (3) A checklist of 15 things to consider before designing any training, (4) Five common mistakes first-time designers make with fixes, (5) A simple template to design a 2-hour session, (6) A list of 8 free resources including NPTEL courses, ATD India chapter events, and YouTube channels. Format as a friendly 4-page guide. Consider Indian context: EPC firm blue collar workforce mix, need to design in Hindi and Gujarati, and tight budgets under 10,000 INR per program.",
+      "tags": [
+        "instructional-design",
+        "beginner",
+        "addie",
+        "guide"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-028",
+      "title": "Functional Academy Design for Finance Team",
+      "prompt": "Act as a capability-building consultant with experience setting up corporate functional academies at Indian firms. I need you to design a Finance Academy for 350 finance professionals at a Mumbai-based conglomerate spanning real estate, infrastructure, and financial services. Please provide: (1) An academy charter with vision, mission, and governance, (2) A role-based curriculum across 4 job families: FP&A, Controllership, Treasury, and Tax with 5 levels each, (3) 60 learning modules mapped to roles and levels including external certifications like CA, CMA, CFA, FRM, (4) A blended delivery model mixing internal SMEs, ISB/IIM partnerships, and Coursera, (5) Annual budget estimate in INR with justification, (6) Year 1 quick wins and KPIs. Format as an academy charter document. Consider Indian context: Ind AS transitions, evolving GST rules, RBI External Commercial Borrowing rules, and SEBI LODR disclosure requirements.",
+      "tags": [
+        "functional-academy",
+        "finance",
+        "advanced",
+        "curriculum"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-029",
+      "title": "Intermediate Succession Bench Review",
+      "prompt": "Act as a talent management lead preparing for a half-yearly succession bench review with the CEO of a 1,200-person FMCG company in Ahmedabad. I need you to design a complete bench review process. Please provide: (1) A list of 25 critical positions chosen using business impact and vacancy risk, (2) For each position, a template capturing incumbent, ready-now, ready 1-2 years, and ready 3+ years successors, (3) Readiness criteria based on performance, potential, experience, and engagement, (4) A risk dashboard identifying positions with no ready successor, (5) Action plans for top 10 at-risk positions including external hiring, accelerated development, and retention actions, (6) A 60-minute CEO review agenda with decision points. Format as a talent review deck outline. Consider Indian context: family-business governance, FMCG seasonality around Diwali and summer, and the challenge of retaining talent when competitors like HUL and ITC offer 30% hikes.",
+      "tags": [
+        "succession",
+        "bench-review",
+        "fmcg",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-030",
+      "title": "Entry-Level Training Budget Template",
+      "prompt": "Act as a finance-savvy L&D executive helping a first-time L&D manager build her first annual training budget at a 250-person AgriTech startup in Bengaluru. I need you to create a simple training budget template and guide. Please provide: (1) A line-item budget template in INR with categories: external programs, internal facilitator costs, LMS subscriptions, certifications, travel and logistics, content development, and miscellaneous, (2) Benchmarks such as 1.5% of payroll as L&D spend for early-stage startups, (3) A monthly phasing template, (4) A business case narrative of 300 words to justify the budget to the CFO, (5) A cost optimization checklist with 10 ideas like leveraging NASSCOM FutureSkills Prime, Swayam, and free Google certifications, (6) A variance tracking sheet for monthly review. Format as a spreadsheet described in tables plus a one-page guide. Consider Indian context: Indian startup funding winter, importance of showing quarterly ROI, and GST input credit on training services.",
+      "tags": [
+        "training-budget",
+        "beginner",
+        "startup",
+        "finance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-031",
+      "title": "Learning Experience Platform Business Case",
+      "prompt": "Act as an L&D strategy consultant building a business case for procuring an LXP (Learning Experience Platform) like Disprz, Degreed, or EdCast at a 6,000-person Indian bank. I need you to create a CFO-ready business case document. Please provide: (1) Problem statement contrasting current LMS limitations with modern learner needs, (2) Strategic alignment with the bank's 3-year digital transformation and RBI digital banking guidelines, (3) Capability comparison of current LMS vs target LXP across 12 parameters, (4) 5-year financial model in INR including investment, expected benefits, and NPV with sensitivity analysis, (5) Risk assessment with top 8 risks and mitigation, (6) A phased implementation roadmap over 18 months. Format as a 10-slide board deck outline with speaker notes. Consider Indian context: RBI IT outsourcing guidelines, DPDP Act data residency, and integration needs with core banking platforms like Finacle or Flexcube.",
+      "tags": [
+        "lxp",
+        "business-case",
+        "bfsi",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-032",
+      "title": "Beginner Facilitator Skills Checklist",
+      "prompt": "Act as a train-the-trainer coach helping internal SMEs who are facilitating workshops for the first time at a Chennai-based automobile dealer network with 500 staff. I need you to create a beginner facilitator skills checklist and quick guide. Please provide: (1) A pre-session preparation checklist with 15 items, (2) An in-session facilitation checklist with 20 behaviors like eye contact, questioning, energy management, (3) A post-session reflection form, (4) Ten tips for handling difficult participants politely in an Indian workplace context, (5) Five icebreakers that work with mixed groups of workshop mechanics and showroom executives, (6) A one-page cheat sheet suitable for printing. Format as a friendly handbook. Consider Indian context: Tamil-English code switching, reverence-for-senior dynamics where junior trainees may hesitate to speak up, and practical needs like managing chai breaks and prayer timings respectfully.",
+      "tags": [
+        "facilitation",
+        "beginner",
+        "train-the-trainer",
+        "checklist"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-033",
+      "title": "Critical Role Mapping for Succession",
+      "prompt": "Act as a talent management expert helping the HR head of a Noida-based 2,500-person specialty chemicals manufacturer identify critical roles for succession planning. I need you to create an end-to-end critical role identification exercise. Please provide: (1) A clear definition of critical role using 4 lenses: strategic impact, operational continuity, scarcity of skills, and vacancy cost, (2) A scoring model with weightages and a 1-5 rating for each lens, (3) A list of 30 candidate roles with plausible initial scores to illustrate the methodology, (4) A workshop agenda for the leadership team to calibrate and finalize the critical roles list, (5) A final output: top 20 critical roles with rationale, (6) Next steps for succession depth assessment. Format as a consulting toolkit. Consider Indian context: PESO and MoEFCC compliance roles, plant safety officers, and the increasing criticality of sustainability and ESG roles under SEBI BRSR.",
+      "tags": [
+        "critical-roles",
+        "succession",
+        "intermediate",
+        "chemicals"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-034",
+      "title": "Annual L&D Strategy Document",
+      "prompt": "Act as a CHRO advisor helping the Head of L&D at a Mumbai-based 4,500-person insurance company draft the Annual L&D Strategy for FY 2026-27. I need you to create a comprehensive strategy document. Please provide: (1) An executive summary of 400 words, (2) Business context with 5 key priorities from the CEO's agenda such as embedded insurance and agent productivity, (3) Top 8 capability themes with rationale, (4) Budget allocation of INR 14 crore across categories with percentages, (5) A portfolio of 15 flagship programs with target audience, outcomes, and KPIs, (6) Governance, measurement, and risk plan, and (7) A one-page visual strategy-on-a-page. Format as a strategy document of 10-12 pages outlined clearly. Consider Indian context: IRDAI mandatory 25-hour training for insurance agents, Bima Sugam platform readiness, and the shift from traditional agents to bancassurance and digital partners.",
+      "tags": [
+        "strategy",
+        "advanced",
+        "insurance",
+        "annual-plan"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-035",
+      "title": "Basic Induction Checklist for New Joiners",
+      "prompt": "Act as an HR executive at a 120-person architectural firm in Kochi that hires 3-5 new joiners every month. I need you to create a simple, printable induction checklist that ensures every new joiner has a smooth first 15 days. Please provide: (1) A Day 0 checklist covering offer letter, joining kit, laptop, and workspace setup, (2) A Day 1 checklist covering welcome, introductions, policy overview, and buddy assignment, (3) A Week 1 checklist with tool access, role overview, and initial assignments, (4) A Week 2 checklist with first-project shadowing and manager check-in, (5) A 15-day feedback form for the new joiner, (6) A sign-off sheet between new joiner, HR, and manager. Format each section as printable checklists. Consider Indian context: Form 16 and PF/ESIC formalities, RERA and COA (Council of Architecture) registration requirements for architects, and Kerala-specific holiday schedules.",
+      "tags": [
+        "induction",
+        "beginner",
+        "onboarding",
+        "checklist"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-036",
+      "title": "Capability Maturity Assessment",
+      "prompt": "Act as an L&D maturity consultant with experience using ATD and Bersin maturity models. I need you to conduct a capability maturity assessment for the L&D function at a Gurugram-based 3,000-person consumer electronics company. Please provide: (1) A maturity model with 5 levels from Reactive to Transformational across 6 dimensions: strategy, learning design, delivery, technology, measurement, and talent, (2) A self-assessment questionnaire with 30 items, (3) Current state ratings (assumed as Level 2 in most areas) with evidence examples, (4) A future state target of Level 4 with rationale, (5) A 3-year roadmap with quarterly initiatives, (6) Investment requirements in INR and key risks. Format as a maturity assessment report. Consider Indian context: the jump from transactional training department to strategic learning function, need to justify every spend in INR to promoter-led boards, and benchmarking against Indian best-in-class learning organizations like Infosys and HUL.",
+      "tags": [
+        "maturity-model",
+        "intermediate",
+        "strategy",
+        "assessment"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-037",
+      "title": "Simple Competency-Based Interview Questions",
+      "prompt": "Act as an HR executive helping hiring managers at a 180-person boutique consulting firm in Bengaluru shift from unstructured interviews to competency-based interviewing. I need you to create a ready-to-use question bank. Please provide: (1) A list of 8 core competencies the firm hires for such as problem solving, client orientation, analytical thinking, teamwork, communication, and learning agility, (2) Three behavioral STAR-format questions per competency totaling 24 questions, (3) Probing follow-up questions for each, (4) A scoring rubric from 1 to 5 with anchor descriptions, (5) An interviewer guide of 2 pages with dos and don'ts including avoiding questions about marital status, caste, and religion which are illegal, (6) A consolidated feedback form. Format as an interviewer toolkit. Consider Indian context: preference for campus hiring from Tier 1 and 2 institutes, the cultural tendency to hire for culture fit which often masks bias, and the EEO guidance in the DPDP Act.",
+      "tags": [
+        "competency-based",
+        "interviewing",
+        "beginner",
+        "hiring"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-038",
+      "title": "Digital Upskilling Program for Mid-Career Employees",
+      "prompt": "Act as a workforce transformation consultant designing a digital upskilling program for 400 mid-career employees aged 35-50 at a Mumbai-based public-sector-style bank. Many are resistant to technology change and need sensitive but effective reskilling. I need you to design a 6-month program. Please provide: (1) A pre-program confidence and skill assessment, (2) A curriculum covering digital fundamentals, data literacy, AI awareness, and cyber hygiene, (3) A safe learning environment with small cohorts of 15 and dedicated coaches, (4) A blended delivery plan using in-person workshops on Saturdays and self-paced modules on Infosys Lex or Coursera, (5) A mentorship circle pairing digital natives with mid-career learners, (6) Change management to address fear and resistance. Format as a program design document. Consider Indian context: public sector union sensitivities, concerns about job replacement by automation, and the need for Hindi language content.",
+      "tags": [
+        "digital-upskilling",
+        "mid-career",
+        "intermediate",
+        "reskilling"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-039",
+      "title": "Training ROI Calculation Worksheet",
+      "prompt": "Act as a learning analytics specialist familiar with Jack Phillips ROI methodology. I need you to create a ROI calculation worksheet for a leadership development program that cost INR 1.2 crore and was attended by 80 senior managers at a Hyderabad-based pharma CRO. The business sponsor wants to see tangible returns. Please provide: (1) A step-by-step worksheet to isolate program effects using control group, trend analysis, and estimation, (2) A list of 6 potential benefit streams such as improved project delivery, reduced attrition, higher client NPS, and faster study startup, (3) A monetization guide for each benefit with Indian benchmarks, (4) A full cost calculation including direct, indirect, and opportunity cost, (5) ROI and BCR formulas with a worked example landing at approximately 180% ROI, (6) Caveats and sensitivity analysis. Format as a calculation workbook described in tables. Consider Indian context: USFDA and EMA regulated environment where quality metrics translate directly to revenue, and conservative boards that demand defensible numbers.",
+      "tags": [
+        "roi",
+        "phillips",
+        "measurement",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    },
+    {
+      "id": "hr-learning-development-040",
+      "title": "Enterprise Skills Taxonomy Build",
+      "prompt": "Act as a skills strategy architect with experience building enterprise skills taxonomies using frameworks like SFIA, Lightcast, and NASSCOM FutureSkills Prime. I need you to design a skills taxonomy project for a Bengaluru-based 15,000-person IT services firm that wants to become a truly skills-based organization. Please provide: (1) A taxonomy architecture with 4 layers: skill clusters, skills, sub-skills, and proficiency levels, (2) A methodology to harvest skills from job descriptions, project data, and external sources using NLP, (3) Governance with a Skills Council and role owners, (4) Integration touchpoints with workforce planning, learning, internal mobility, and performance management, (5) Technology stack options including Workday Skills Cloud, Eightfold, Gloat, and Darwinbox, (6) A 24-month implementation roadmap with milestones, investment in INR crore, and expected outcomes like 30% improvement in internal fill rate and 20% reduction in external hiring cost. Format as a transformation blueprint. Consider Indian context: IT services pyramid pressure, benching cost implications, and DPDP Act considerations when analyzing employee skills data.",
+      "tags": [
+        "skills-taxonomy",
+        "advanced",
+        "workforce-planning",
+        "transformation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "learning-development"
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "hr-employee-engagement-001",
+      "title": "Design Quarterly Pulse Survey for IT Services",
+      "prompt": "Act as an Employee Engagement Manager with 8 years of experience in Indian IT services companies like TCS, Infosys, and Wipro. I need you to design a quarterly pulse survey for a 2,500-person delivery organisation based in Bengaluru, Pune, and Hyderabad. Here is the context: Our eNPS dropped from +32 to +18 over the last two quarters, largely driven by mid-career engineers (4-8 years experience) in application development projects. We want a short, mobile-friendly pulse that we can run on Empuls by Xoxoday. Please provide: (1) A 12-question pulse survey covering manager effectiveness, workload, growth, recognition, and intent to stay, (2) The exact Likert scale (5-point) with India-friendly wording, (3) Two open-text questions that encourage honest feedback without fear, (4) Suggested segmentation cuts (band, tenure, project type, location, gender), (5) A communication plan including a pre-launch email from the CHRO and a WhatsApp reminder script, (6) Expected benchmark ranges for Indian IT services so we know what good looks like. Format the output as clearly labelled sections with the survey questions in a numbered table. Consider these constraints: the survey must take under 4 minutes to complete, respect anonymity for teams smaller than 8 people, and align with Great Place To Work India Trust Index themes so results can be compared externally.",
+      "tags": [
+        "engagement-survey",
+        "pulse-survey",
+        "enps",
+        "indian-it",
+        "empuls"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-002",
+      "title": "Plan Diwali Culture Week for Hybrid Team",
+      "prompt": "Act as a Culture and Employee Experience Lead with 6 years of experience running festival celebrations in Indian tech companies. I need you to plan a five-day Diwali Culture Week for a 400-person hybrid product engineering team split across Bengaluru HQ (60%) and fully remote (40%). Here is the context: Last year's Diwali event was an in-office-only lunch that made remote employees feel excluded, and our engagement survey flagged belongingness as a concern. Budget is INR 6 lakh. Please provide: (1) A day-by-day plan (Monday to Friday) with one marquee activity per day that works for both onsite and remote employees, (2) Specific activity names, formats, and durations, (3) Vendor suggestions for rangoli kits, sweets hampers, and virtual event platforms that deliver pan-India, (4) A per-employee gifting idea under INR 1,500 that is inclusive of dietary preferences (veg, Jain, diabetic-friendly), (5) A sample announcement email and Slack message in warm, inclusive tone, (6) A simple feedback form with 5 questions to measure impact post-event. Format as a table for the daily plan plus bullet sections for the rest. Consider these constraints: the plan must be religiously inclusive (reference the festival of lights theme rather than religious rituals), accessible for differently-abled employees, and avoid crackers or anything environmentally harmful.",
+      "tags": [
+        "culture",
+        "diwali",
+        "team-building",
+        "hybrid-work",
+        "festivals"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-003",
+      "title": "Draft Spot Recognition Program Guidelines",
+      "prompt": "Act as a Rewards and Recognition Manager with 7 years of experience designing R&R programs in Indian mid-size IT companies. I need you to draft guidelines for a new Spot Recognition program at a 900-person SaaS company headquartered in Gurugram. Here is the context: We currently only do annual awards, and managers say they have no way to recognise great work in the moment. We are rolling out Vantage Circle as the recognition platform. Please provide: (1) A one-paragraph program purpose statement, (2) Eligibility rules for nominators and recipients, (3) Four award tiers with INR values (ranging from INR 500 to INR 5,000) and the behaviours each tier rewards, (4) A simple nomination form with 5 fields, (5) Approval workflow (who approves what amount), (6) Frequency caps to prevent misuse, (7) Tax treatment note referencing Section 17(2) perquisite rules, (8) A sample recognition message template managers can personalise. Format as a policy document with numbered sections. Consider these constraints: the program must be budget-capped at INR 25 lakh per year, auditable for finance, and simple enough that a busy engineering manager can nominate someone in under 3 minutes.",
+      "tags": [
+        "rewards-recognition",
+        "spot-awards",
+        "vantage-circle",
+        "policy",
+        "indian-it"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-004",
+      "title": "Create Manager-to-IC Feedback Template",
+      "prompt": "Act as an HR Business Partner with 5 years of experience supporting engineering managers in Indian IT services. I need you to create a structured manager-to-IC feedback template that managers can use in monthly 1:1s. Here is the context: Our engagement survey showed that only 48% of individual contributors feel they receive regular, useful feedback, well below the Indian IT benchmark of 68%. Managers complain that they do not know how to give feedback without sounding harsh or vague. Please provide: (1) A 1-page feedback template with sections for strengths, growth areas, specific examples, and agreed next steps, (2) The SBI (Situation-Behaviour-Impact) framework explained with 2 India-workplace examples, (3) Five sample feedback scripts for common scenarios (missed deadline, great client call, low collaboration, great mentoring, scope creep pushback), (4) Three phrases to avoid that feel patronising in Indian work culture, (5) A closing check-in question that invites the IC to respond. Format as a template document with fill-in placeholders. Consider these constraints: feedback should be direct but respectful of hierarchy norms, usable in English or Hinglish, and take a manager no more than 10 minutes to prepare.",
+      "tags": [
+        "feedback",
+        "1on1",
+        "manager-enablement",
+        "sbi-framework",
+        "culture"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-005",
+      "title": "Plan Onam Celebration for Kochi Office",
+      "prompt": "Act as an Employee Experience Specialist with 4 years of experience running regional festival celebrations in Indian IT offices. I need you to plan an Onam celebration for a 220-person office in Kochi, Kerala. Here is the context: The office is part of a pan-India IT services firm, and leadership wants the Kochi celebration to feel authentic to Malayali culture while being welcoming to non-Malayali colleagues from Chennai and Bengaluru. Budget is INR 2.5 lakh. Please provide: (1) A half-day event agenda from 11am to 3pm, (2) A sadya lunch plan with vendor options in Kochi (Dhe Puttu, Saravana Bhavan, Grand Hotel) and a rough per-plate estimate, (3) Three cultural activities (pookalam contest, thiruvathira, vallamkali-themed game) with rules and prize structures, (4) A traditional dress code suggestion that is respectful and optional, (5) A short welcome script for the Office Head that explains Onam to non-Malayali colleagues, (6) Photo and social media plan for internal newsletter. Format as an event runbook with time markers. Consider these constraints: the plan must respect vegetarian-only norms for sadya, be inclusive of employees who do not celebrate Onam, and finish in time for afternoon client calls with US clients.",
+      "tags": [
+        "onam",
+        "culture",
+        "regional-festivals",
+        "team-building",
+        "kochi"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-006",
+      "title": "Write Peer-to-Peer Kudos Program Launch",
+      "prompt": "Act as an internal communications and R&R specialist with 6 years of experience in Indian tech companies. I need you to write a launch communication package for a new peer-to-peer Kudos program at a 1,200-person fintech company in Mumbai. Here is the context: The program will live inside Empuls by Xoxoday, allows any employee to send a Kudos card with INR 100, 250, or 500 attached, and is funded from a company-wide wallet topped up quarterly. Please provide: (1) A 250-word launch email from the CHRO with subject line options, (2) A 90-second town-hall script the CEO can read, (3) Three Slack channel announcement posts (for #general, #engineering, #sales) tailored to each audience, (4) A one-page FAQ answering 8 likely questions, (5) Two poster designs described in words for office printing, (6) A 30-60-90 day success metric plan (send rate, unique senders, coverage). Format as separate clearly labelled sections. Consider these constraints: tone should feel celebratory not corporate, avoid jargon, and clearly explain the tax note that Kudos under INR 5,000 per year are treated as gifts under income tax rules.",
+      "tags": [
+        "rewards-recognition",
+        "peer-recognition",
+        "empuls",
+        "launch-communications",
+        "fintech"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-007",
+      "title": "Build Virtual Team-Building Activity List",
+      "prompt": "Act as a Remote Culture Lead with 5 years of experience running virtual team-building for distributed Indian tech teams. I need you to build a curated list of 15 virtual team-building activities for a 60-person engineering org spread across Bengaluru, Pune, Noida, Coimbatore, and Guwahati. Here is the context: Our retros have become boring, and new joiners feel disconnected. Activities must work over Google Meet or Zoom, fit into 30 or 60 minute slots, and require zero or low cost. Please provide: (1) A table with 15 activities, each with name, duration, group size, materials needed, and a one-line description, (2) At least 3 India-flavoured activities (Bollywood dumb charades, regional food show-and-tell, cricket trivia), (3) At least 3 activities that work well for introverts, (4) A recommended rotation schedule showing which activity to use when (new joiner week, pre-release stress, post-go-live celebration, festival time, quarterly offsite), (5) Facilitation tips for the host in each case. Format as a well-structured table followed by bullet sections. Consider these constraints: activities must be inclusive across regions (no assumption of Hindi fluency), accessible for employees on shared home bandwidth, and respectful of diverse dietary and cultural backgrounds.",
+      "tags": [
+        "team-building",
+        "virtual-events",
+        "remote-work",
+        "culture",
+        "inclusion"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-008",
+      "title": "Draft New Joiner 30-Day Engagement Plan",
+      "prompt": "Act as an Onboarding and Engagement Lead with 6 years of experience in Indian IT services. I need you to draft a 30-day engagement plan for new joiners at a 3,000-person IT services company that hires 50 laterals a month across Chennai, Bengaluru, and Hyderabad. Here is the context: Our first-year attrition is 28%, well above the 18% Indian IT benchmark, and exit interviews cite weak early connection and unclear expectations. Please provide: (1) A day-by-day plan for weeks 1 through 4 with specific touchpoints (buddy coffee, skip-level intro, project shadow, values workshop, first feedback), (2) Owners for each touchpoint (buddy, manager, HRBP, L&D), (3) Three welcome gifts under INR 2,000 total, (4) A week-2 pulse survey with 6 questions, (5) A manager checklist for the 30-day check-in conversation, (6) Two red flags that should escalate to HRBP immediately. Format as a Gantt-style weekly table plus supporting sections. Consider these constraints: the plan must work for both WFH and in-office joiners, avoid overwhelming the new joiner with more than 1 hour of events per day, and align with the company's value pillars of Respect, Learning, and Ownership.",
+      "tags": [
+        "onboarding",
+        "engagement-plan",
+        "new-joiners",
+        "retention",
+        "indian-it"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-009",
+      "title": "Create Monthly Star Award Criteria",
+      "prompt": "Act as an R&R Program Manager with 7 years of experience in Indian BPO and IT services. I need you to create the criteria document for a new Monthly Star Award at a 600-person customer support center in Noida. Here is the context: The award recognises one employee per department (Voice, Chat, Back Office, Quality, Training) each month and comes with INR 7,500 cash plus a digital certificate on Advantage Club. Please provide: (1) A one-paragraph award philosophy, (2) Five weighted criteria (quality score, CSAT, adherence, peer collaboration, extra-mile behaviour) with exact weights totalling 100%, (3) Eligibility rules including minimum tenure and discipline status, (4) The nomination and selection process involving team lead, ops manager, and HR, (5) A sample scorecard for one nominee, (6) A month-end announcement template with space for a photo and citation, (7) A fairness check to ensure no single team lead wins more than twice a year. Format as a structured policy document. Consider these constraints: the program must feel fair to non-voice departments, comply with Shops and Establishments Act record-keeping, and drive measurable improvement in QA scores month-over-month.",
+      "tags": [
+        "rewards-recognition",
+        "monthly-awards",
+        "bpo",
+        "advantage-club",
+        "criteria"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-010",
+      "title": "Design Wellness Wednesday Initiative",
+      "prompt": "Act as an Employee Wellness Lead with 5 years of experience in Indian IT companies. I need you to design a weekly Wellness Wednesday initiative for a 500-person product company in Bengaluru. Here is the context: Post-pandemic, our absenteeism has increased and survey comments mention burnout, poor sleep, and back pain from WFH. We have a tie-up with YourDOST for counselling and Cult.fit for fitness. Please provide: (1) A 12-week rolling calendar of Wednesday themes (e.g., Mental Health, Back Care, Nutrition, Financial Wellness, Sleep Hygiene, Eye Care, Yoga), (2) One specific activity per theme (guest expert, workshop, challenge), (3) Vendor or internal-champion options for each, (4) A simple participation tracking method, (5) A pre-initiative teaser email to build excitement, (6) A success metric plan tracking participation, self-reported wellbeing, and sick-day trends. Format as a 12-week calendar table plus supporting sections. Consider these constraints: activities must be optional and non-mandatory, respect privacy around mental health, and be bookable in 45-minute lunch slots so they do not disrupt delivery work.",
+      "tags": [
+        "wellness",
+        "mental-health",
+        "culture",
+        "yourdost",
+        "initiative"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-011",
+      "title": "Write Exit Survey for Early Attrition",
+      "prompt": "Act as a People Analytics Manager with 6 years of experience in Indian IT services. I need you to write an exit survey targeted at employees who are leaving within 12 months of joining. Here is the context: Our 0-12 month attrition at a 4,500-person IT firm in Pune is 31%, and leadership wants sharper insight than our current generic exit form provides. Please provide: (1) An 18-question exit survey mixing multiple choice, Likert, and open text, covering recruitment accuracy, onboarding, manager, role clarity, compensation, and growth, (2) A leading question about the top 3 reasons for leaving, (3) A separate section asking about competitor offers (company, band, hike%), (4) A Net Promoter style question about recommending the company, (5) An ethical preamble explaining confidentiality and how data will be used, (6) A follow-up 20-minute interview guide for high-potential leavers with 10 questions. Format as a numbered survey document. Consider these constraints: survey must be completable in under 10 minutes, compliant with data privacy expectations under the DPDP Act, and designed so that responses can be aggregated to identify systemic issues rather than blame individuals.",
+      "tags": [
+        "exit-survey",
+        "attrition",
+        "people-analytics",
+        "dpdp",
+        "early-attrition"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-012",
+      "title": "Plan Cricket-Themed Team Offsite",
+      "prompt": "Act as a Team Events Planner with 5 years of experience organising corporate offsites in India. I need you to plan a one-day cricket-themed team offsite for a 75-person engineering team from a Gurugram startup. Here is the context: The team wants something fun and inclusive, not just for cricket fans. Budget is INR 4.5 lakh including venue, food, transport, and activities. Preferred location is a resort within 90 minutes of Gurugram. Please provide: (1) Three venue options (Heritage Village Manesar, Westin Sohna, Tikli Bottom) with rough per-head cost, (2) An hour-by-hour agenda from 8am pickup to 8pm return, (3) A box cricket tournament format with 6 teams, including a rule that every team must have at least one female player and one non-cricketer, (4) Non-cricket parallel activities (escape room, tambola, art jamming) for those who prefer, (5) Food menu balancing North Indian, South Indian, Jain, and Continental, (6) A post-offsite feedback survey with 5 questions. Format as a runbook with timings. Consider these constraints: the plan must be inclusive of non-sporty team members, safe in Delhi NCR summer heat if held April to June, and leave every attendee feeling the day was worth their Saturday.",
+      "tags": [
+        "team-building",
+        "offsite",
+        "cricket",
+        "inclusion",
+        "gurugram"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-013",
+      "title": "Draft Quarterly Town Hall Feedback Form",
+      "prompt": "Act as an internal communications manager with 5 years of experience in Indian tech companies. I need you to draft a quarterly town hall feedback form for a 1,500-person SaaS company. Here is the context: Town halls are run by the CEO in Bengaluru but streamed to employees in Hyderabad, Pune, and a small London office. Participation in Q&A has dropped to under 5%, and we want to understand why. Please provide: (1) A 10-question feedback form covering content clarity, relevance, Q&A experience, length, and overall satisfaction, (2) A 5-point scale with clear anchors, (3) Two open-text questions about what to cover next time, (4) A demographic question set (location, function, tenure) that is optional, (5) A one-line thank-you message at the end, (6) A plan for how results will be shared back to employees within 10 working days. Format as a survey document ready to paste into Google Forms. Consider these constraints: form must take under 3 minutes to fill, be fully anonymous, and explicitly invite dissenting views without fear of reprisal.",
+      "tags": [
+        "townhall",
+        "feedback",
+        "internal-communications",
+        "survey",
+        "voice-of-employee"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-014",
+      "title": "Create Holi Safety and Inclusion Guidelines",
+      "prompt": "Act as a Culture and DEI Lead with 6 years of experience in Indian corporates. I need you to create Holi celebration guidelines for a 700-person office in Mumbai. Here is the context: In past years, informal Holi celebrations have led to complaints ranging from non-consensual colour application to skin allergies and one POSH complaint. Leadership wants Holi to stay joyful but safe. Please provide: (1) A one-paragraph intent statement balancing celebration and safety, (2) Six clear do's and six don'ts for the day, (3) A consent norm that everyone can understand (\"Ask before colour, respect a No\"), (4) A list of safe herbal colour vendors in Mumbai, (5) A structured Holi event agenda from 11am to 2pm with food, music, and optional colour zones, (6) A clear statement that POSH rules apply throughout the celebration, (7) A manager briefing script for the day before. Format as a one-page guideline document. Consider these constraints: guidelines must be inclusive of employees who do not celebrate Holi, clearly worded to avoid ambiguity, and shared by HR at least 5 working days in advance.",
+      "tags": [
+        "holi",
+        "culture",
+        "posh",
+        "safety",
+        "inclusion"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-015",
+      "title": "Write Employee Referral Engagement Campaign",
+      "prompt": "Act as a Talent Acquisition and R&R specialist with 5 years of experience in Indian IT hiring. I need you to write a 6-week employee referral engagement campaign for a 2,000-person product company in Hyderabad. Here is the context: We have 180 open roles across engineering, product, and data, and referral conversion has fallen from 22% to 11% of hires. Referral bonuses are INR 35,000 to INR 1,20,000 depending on band. Please provide: (1) A week-by-week campaign theme plan (Week 1 launch, Week 2 spotlight, Week 3 success stories, Week 4 booster, Week 5 leaderboard, Week 6 finale), (2) One creative hook per week (e.g., 'Refer a Pongal-ready friend'), (3) Sample email and WhatsApp copy for each week, (4) A weekly leaderboard design showing top referrers, (5) Three tier-based incentives including non-cash perks (Zomato vouchers, extra leave, lunch with CEO), (6) A post-campaign retrospective template. Format as a week-wise plan table plus creative copy sections. Consider these constraints: all copy must be bilingual-friendly, referral bonuses must comply with Income Tax TDS norms, and the campaign must not pressure employees or feel spammy.",
+      "tags": [
+        "referral-campaign",
+        "talent-acquisition",
+        "engagement",
+        "rewards",
+        "indian-it"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-016",
+      "title": "Draft Sample 1:1 Meeting Agenda Template",
+      "prompt": "Act as a Leadership Development Coach with 7 years of experience coaching first-time managers in Indian IT and product companies. I need you to draft a reusable 1:1 meeting agenda template that managers can use every two weeks with their direct reports. Here is the context: Our new managers at a 800-person Pune product company admit they often skip 1:1s or turn them into status updates, and ICs report feeling unheard. Please provide: (1) A 30-minute 1:1 agenda split into 4 sections (check-in, progress, growth, support) with minutes allocated, (2) Five opening check-in questions that are warm without being intrusive, (3) Five growth questions that go beyond project status, (4) A simple action-tracker template for carrying items across meetings, (5) Three anti-patterns to avoid (making it a status call, cancelling repeatedly, only talking about weaknesses), (6) A manager self-check of 5 yes/no questions to evaluate 1:1 effectiveness each quarter. Format as a template document. Consider these constraints: template must be usable in English or Hinglish, work for both WFH video calls and in-person meetings, and fit into a busy delivery-led calendar.",
+      "tags": [
+        "1on1",
+        "manager-enablement",
+        "feedback",
+        "leadership",
+        "template"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-017",
+      "title": "Design Engagement Survey With Segmented Cuts",
+      "prompt": "Act as a People Analytics Lead with 9 years of experience running engagement surveys in Indian IT services and GCCs. I need you to design a full annual engagement survey for a 6,000-person global capability centre in Bengaluru and Chennai. Here is the context: Leadership wants results comparable to Gallup Q12 and Great Place To Work India Trust Index themes, plus India-specific modules on WFH-return sentiment, manager effectiveness, and career mobility. Please provide: (1) A 45-question survey organised into 8 thematic modules, (2) A mix of Gallup-style engagement items and GPTW trust dimensions (credibility, respect, fairness, pride, camaraderie), (3) Exact Likert scales and any yes/no demographic items, (4) A segmentation plan with 7 cuts (band, tenure, function, location, manager, gender, WFH preference) and anonymity thresholds, (5) A communication strategy including a CHRO launch video script, (6) A 6-week response driving plan with weekly targets, (7) A results-to-action governance model naming owners at org, function, and team level. Format the survey questions in a clean numbered table and the rest in labelled sections. Consider these constraints: the survey must be defensible to external benchmarking, DPDP-compliant in handling personal data, and actionable enough that every team with 8+ respondents gets its own report.",
+      "tags": [
+        "engagement-survey",
+        "gallup-q12",
+        "gptw",
+        "people-analytics",
+        "gcc"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-018",
+      "title": "Build Recognition Program ROI Model",
+      "prompt": "Act as an HR Finance Business Partner with 8 years of experience modelling people-cost ROI in Indian IT companies. I need you to build an ROI model for a proposed recognition program expansion at a 3,500-person IT services firm in Noida. Here is the context: CHRO wants to increase R&R spend from INR 1.2 crore to INR 2.4 crore annually via Vantage Circle and needs to justify it to the CFO with a quantitative model. Please provide: (1) A list of 6 input assumptions (headcount, average CTC, current attrition, target attrition reduction, replacement cost multiplier, productivity uplift), (2) A 3-year model projecting savings from lower attrition and higher productivity against incremental R&R cost, (3) Sensitivity analysis showing outcomes at -25%, base, and +25% assumptions, (4) A breakeven chart explanation, (5) A one-slide executive summary narrative for the CFO, (6) Three non-financial benefits to mention but not monetise, (7) Risks and counterarguments the CFO might raise with rebuttals. Format as a numbered model specification that a finance analyst can build in Excel. Consider these constraints: attrition savings must be conservatively estimated using Indian IT benchmark replacement cost of 1.2x annual CTC, productivity gains must cite credible sources, and the model must be auditable.",
+      "tags": [
+        "rewards-recognition",
+        "roi-model",
+        "people-analytics",
+        "cfo",
+        "business-case"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-019",
+      "title": "Craft WFH-Return Communication Strategy",
+      "prompt": "Act as an Internal Communications and Change Management Lead with 8 years of experience navigating hybrid policy changes in Indian IT. I need you to craft a communication strategy for rolling out a mandatory 3-days-a-week return to office at a 4,000-person IT company with campuses in Bengaluru, Pune, and Chennai. Here is the context: Leadership is concerned about backlash, given that 62% of employees strongly prefer WFH in the latest pulse. We have 8 weeks before go-live. Please provide: (1) A stakeholder map with 6 groups and their likely concerns, (2) An 8-week communication calendar with 3 touchpoints per week, (3) Three key messages that acknowledge trade-offs without sounding defensive, (4) A CEO town hall script of around 600 words, (5) A manager FAQ with 12 likely tough questions and model answers (commute, creche, ergonomics, exceptions, performance measurement), (6) A listening plan including focus groups and pulse surveys, (7) Risk escalation triggers that would warrant policy adjustment. Format as a structured playbook. Consider these constraints: communications must avoid legalese, be empathetic to dual-career Indian households, and clearly position the business rationale without sounding corporate.",
+      "tags": [
+        "change-management",
+        "wfh-return",
+        "hybrid-work",
+        "communications",
+        "indian-it"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-020",
+      "title": "Design Manager Effectiveness Feedback Tool",
+      "prompt": "Act as a Leadership Development Lead with 9 years of experience designing 360 and upward feedback tools in Indian IT. I need you to design an upward-feedback tool where ICs rate their managers, to be run twice a year at a 2,500-person product company in Hyderabad. Here is the context: We want the tool to be developmental, not evaluative, and must protect psychological safety for respondents. Please provide: (1) A 20-item manager effectiveness survey covering coaching, clarity, care, candour, and capability-building, (2) A 5-point scale with behavioural anchors, (3) Two open-text questions that elicit specific examples, (4) Anonymity rules (minimum 5 respondents, response aggregation, narrative redaction), (5) A clear report template showing strengths, blind spots, and a suggested action focus, (6) A pre-brief and de-brief coaching conversation guide for the HRBP and manager, (7) A communication plan that reassures respondents. Format as a full tool spec. Consider these constraints: tool must not be used for performance ratings or promotions, must be DPDP-compliant, and should drive measurable improvement in the next wave without becoming a gotcha exercise.",
+      "tags": [
+        "upward-feedback",
+        "manager-effectiveness",
+        "360-feedback",
+        "leadership",
+        "survey-design"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-021",
+      "title": "Plan Annual Recognition Gala",
+      "prompt": "Act as an Employee Experience Director with 10 years of experience running large R&R events in Indian corporates. I need you to plan an annual recognition gala for a 5,000-person IT services firm, to be held in Bengaluru. Here is the context: The gala celebrates 120 award winners across 12 categories (Innovator of the Year, Client Champion, Rising Star, Culture Carrier, DEI Champion, etc.) and their plus-ones. Budget is INR 1.8 crore. Please provide: (1) A venue shortlist of 3 options (Taj West End, ITC Gardenia, Leela Palace) with pros, cons, and rough costs, (2) A 3.5-hour event flow from 6:30pm to 10:00pm, (3) Award category descriptions and selection criteria, (4) An on-stage protocol for presenting 120 awards efficiently (under 60 minutes), (5) Entertainment options (Bollywood band, stand-up comic, dance troupe) with Indian vendor references, (6) A VIP management plan for 20 senior leaders and clients, (7) A post-event amplification plan on LinkedIn and internal channels. Format as an event masterplan. Consider these constraints: plan must be inclusive across dietary preferences, handle both in-person and live-streamed remote winners, and produce a short highlights video usable in next year's recruitment marketing.",
+      "tags": [
+        "rewards-recognition",
+        "annual-awards",
+        "gala",
+        "event-planning",
+        "indian-it"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-022",
+      "title": "Build DEI Engagement Roadmap",
+      "prompt": "Act as a Head of Diversity, Equity and Inclusion with 10 years of experience in Indian IT and financial services. I need you to build a 12-month DEI engagement roadmap for a 2,800-person IT company in Bengaluru. Here is the context: Gender representation is 29% overall and 11% at senior bands. We have no formal DEI programming, and leadership has committed to reaching 35% overall and 18% senior by year-end. Please provide: (1) A 12-month roadmap with quarterly themes and monthly initiatives across 5 pillars (hiring, progression, culture, allyship, voice), (2) Specific initiatives (returnee program, mentoring circles, bias interrupters training, parental transition coaching, ERG launch), (3) KPIs per pillar with baseline and target, (4) Budget allocation across pillars totalling INR 85 lakh, (5) A governance structure with a DEI council and executive sponsor, (6) External benchmarks (NASSCOM, Avtar Best Companies for Women, Working Mother and Avtar) to aim for, (7) Communication plan. Format as a structured roadmap document with a Gantt-style visual description. Consider these constraints: plan must address intersectionality beyond gender (LGBTQ+, PwD, region, background), avoid tokenism, and tie into performance goals of senior leaders.",
+      "tags": [
+        "dei",
+        "diversity",
+        "roadmap",
+        "women-in-tech",
+        "culture"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-023",
+      "title": "Draft Cross-Team Feedback Ritual",
+      "prompt": "Act as an Agile Coach and People Practices Lead with 8 years of experience in Indian product engineering. I need you to draft a lightweight cross-team feedback ritual between Product, Engineering, and Design teams at a 500-person SaaS company in Pune. Here is the context: Teams often complain about each other informally (engineering says PRDs are vague, product says engineering overestimates, design says it gets pulled in too late) but there is no structured way to surface and resolve these tensions. Please provide: (1) A monthly 60-minute cross-team feedback ritual agenda, (2) A simple pre-work template each team fills in (what worked, what did not, what we will try), (3) Facilitation norms to keep the conversation safe (blameless, evidence-based, time-boxed), (4) A 3-column action board format, (5) A follow-through mechanism that tracks actions across months, (6) Three sample scenarios with example inputs and model outcomes, (7) A quarterly retrospective on the ritual itself. Format as a facilitator playbook. Consider these constraints: ritual must take no more than 60 minutes per month, not turn into a blame session, and produce measurable improvements tracked via a quarterly pulse.",
+      "tags": [
+        "feedback",
+        "cross-team",
+        "ritual",
+        "agile",
+        "retrospective"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-024",
+      "title": "Analyse eNPS Drivers and Action Plan",
+      "prompt": "Act as a People Analytics Manager with 9 years of experience interpreting engagement data in Indian IT services. I need you to create a framework to analyse eNPS drivers and produce an action plan for a 4,500-person IT firm in Chennai. Here is the context: Current eNPS is +12, down from +28 last year, and the company wants to reach +25 within 9 months. We have raw data on 38 engagement items, demographics, and manager groupings. Please provide: (1) A step-by-step analysis approach (correlation with eNPS, top and bottom drivers, segment heatmaps, manager outliers), (2) A list of 8 likely drivers in Indian IT (career growth, manager, recognition, workload, compensation, learning, WFH flexibility, pride), (3) Interpretation tips for each driver, (4) A prioritisation matrix (impact vs effort) with the top 5 interventions, (5) A 9-month action plan with monthly milestones, (6) A measurement cadence using quarterly pulses, (7) A storyline for the CHRO to present to the board. Format as an analysis playbook. Consider these constraints: analysis must protect respondent anonymity, interventions must be feasible within an INR 60 lakh budget, and recommendations must distinguish systemic from team-specific issues.",
+      "tags": [
+        "enps",
+        "people-analytics",
+        "action-planning",
+        "engagement-drivers",
+        "indian-it"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-025",
+      "title": "Design CSR Volunteering Program",
+      "prompt": "Act as a CSR and Employee Engagement Lead with 8 years of experience running corporate volunteering in India. I need you to design an employee CSR volunteering program for a 1,800-person IT company headquartered in Mumbai. Here is the context: Company spends its Section 135 CSR mandate through an implementation partner but employees are not engaged. Leadership wants 40% of employees to volunteer at least 8 hours a year. Please provide: (1) A program brand name and 1-line purpose, (2) Four volunteering tracks (education, environment, skilling, health) each with 3 partner NGO types and example organisations (Akshaya Patra, Teach For India, Goonj, Smile Foundation), (3) A menu of time commitments (2-hour virtual, half-day onsite, weekend project, long-term mentor), (4) A volunteer-time-off policy (2 paid days per year), (5) A recognition plan linking volunteer hours to company values, (6) A measurement dashboard (participation rate, hours, NGO satisfaction, employee satisfaction), (7) A launch plan for Joy of Giving Week. Format as a program document. Consider these constraints: program must comply with Companies Act 2013 Section 135, respect NGO due diligence norms, and avoid white-savior framing.",
+      "tags": [
+        "csr",
+        "volunteering",
+        "section-135",
+        "culture",
+        "purpose"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-026",
+      "title": "Create Manager Skip-Level Meeting Guide",
+      "prompt": "Act as an Organisation Development consultant with 10 years of experience in Indian IT services. I need you to create a skip-level meeting guide for senior leaders at a 2,200-person product company in Bengaluru. Here is the context: The VP of Engineering wants to run 45-minute skip-level meetings with groups of 6 ICs each, cycling through the full 180-person org over 6 months, to hear unfiltered feedback. Please provide: (1) A pre-meeting invitation email that sets the right tone, (2) A 45-minute agenda with 5 sections, (3) 8 open-ended questions that surface real issues without trapping anyone, (4) Facilitation norms (Chatham House rule, no retaliation, no notes with attribution), (5) Three signals to watch for (silence, humour deflection, over-consensus), (6) A post-meeting synthesis template that groups themes and preserves anonymity, (7) A follow-through commitment with a 30-day feedback loop to participants, (8) Common pitfalls to avoid. Format as a leader playbook. Consider these constraints: guide must respect Indian hierarchy norms while encouraging candour, fit into a VP's 2-hour weekly ceremonial time budget, and produce actionable insights without bypassing the middle management layer.",
+      "tags": [
+        "skip-level",
+        "leadership",
+        "feedback",
+        "manager-enablement",
+        "culture"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-027",
+      "title": "Plan Pongal and Makar Sankranti Celebration",
+      "prompt": "Act as a Culture and Events Lead with 6 years of experience running regional festival celebrations in Indian tech companies. I need you to plan a combined Pongal and Makar Sankranti celebration for a 350-person office in Chennai and a 280-person office in Pune on the same day. Here is the context: Leadership wants to celebrate regional diversity while making each office feel locally authentic. Budget is INR 3 lakh per office. Please provide: (1) A 3-hour event plan for the Chennai office centered on Pongal traditions (pongal cooking, kolam, tamil poetry, payasam), (2) A 3-hour parallel event for the Pune office centered on Makar Sankranti traditions (tilgul exchange, kite flying, haldi-kumkum, puran poli), (3) A shared 20-minute virtual bridge where both offices connect and exchange greetings, (4) Inclusive opt-in participation rules for non-celebrating colleagues, (5) A food vendor shortlist for each city (Saravana Bhavan, Dakshin, Peshwa Pavilion, Chaitanya Paranthas), (6) A photo contest with 3 themes, (7) An internal newsletter write-up after the event. Format as a dual-office event runbook. Consider these constraints: celebrations must respect the religious sensitivities of diverse employees, comply with building fire safety for any cooking activity, and avoid mandatory costume or ritual participation.",
+      "tags": [
+        "pongal",
+        "makar-sankranti",
+        "culture",
+        "regional-festivals",
+        "team-building"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-028",
+      "title": "Design Career Conversation Framework",
+      "prompt": "Act as a Talent and Career Development Lead with 9 years of experience in Indian IT services. I need you to design a career conversation framework that managers can use with their ICs twice a year at a 3,200-person IT services firm in Hyderabad. Here is the context: Exit interviews show career growth is the #1 driver of voluntary attrition, yet managers say they do not know how to have career conversations beyond \"work hard and you will be promoted\". Please provide: (1) A 60-minute career conversation structure split into 4 parts (aspirations, strengths, gaps, plan), (2) A self-reflection pre-work sheet for the IC with 8 questions, (3) A manager preparation sheet with 5 questions, (4) A career paths map showing technical, managerial, and specialist tracks common in Indian IT, (5) A template IDP (Individual Development Plan) capturing goals, actions, owners, and dates, (6) A manager phrase-bank of 10 helpful things to say and 5 things to avoid, (7) A quarterly follow-through check-in format. Format as a manager toolkit. Consider these constraints: framework must avoid over-promising promotions, be usable even for ICs with unclear aspirations, and align with the company's existing career architecture.",
+      "tags": [
+        "career-development",
+        "idp",
+        "feedback",
+        "manager-enablement",
+        "retention"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-029",
+      "title": "Draft Mental Health Awareness Campaign",
+      "prompt": "Act as a Wellness and Culture Lead with 7 years of experience running mental health campaigns in Indian tech companies. I need you to draft a 4-week mental health awareness campaign leading up to World Mental Health Day (October 10) for a 1,400-person company in Bengaluru. Here is the context: We want to normalise conversations about mental health in a context where stigma is still strong, especially for men and senior managers. We have a tie-up with 1to1help and InnerHour. Please provide: (1) A week-by-week theme plan (Week 1 awareness, Week 2 stories, Week 3 tools, Week 4 action), (2) A CEO leadership letter sharing a personal vulnerability story, (3) Three employee storytelling formats (podcast, written, 2-minute video), (4) A manager mental health first-aid mini-training outline, (5) A self-assessment tool using PHQ-9 or WHO-5 with clear disclaimers, (6) A helpline and EAP resource card, (7) Three activities that build psychological safety without outing anyone, (8) A measurement plan tracking EAP usage and self-reported wellbeing. Format as a campaign plan document. Consider these constraints: all content must be trauma-informed, avoid triggering language, strictly preserve confidentiality, and be reviewed by a licensed mental health professional before launch.",
+      "tags": [
+        "mental-health",
+        "wellness",
+        "campaign",
+        "world-mental-health-day",
+        "culture"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-030",
+      "title": "Build Food-Based Team-Building Event",
+      "prompt": "Act as an Employee Experience Lead with 5 years of experience designing food-based team-building in India. I need you to build a food-themed team-building event called \"Flavours of Bharat\" for a 120-person cross-functional team in a Gurugram office. Here is the context: The team represents 14 Indian states and is looking for a team-building format that celebrates regional diversity and builds connection through food. Budget is INR 2.2 lakh. Please provide: (1) A 3-hour event flow (regional tasting stations, state trivia, chef-led masterclass, group storytelling), (2) Six regional station ideas (Punjabi, Bengali, South Indian, Gujarati, North East, Kashmiri) with specific dishes and vendor suggestions in Delhi NCR, (3) An inclusivity plan covering vegetarian, Jain, gluten-free, and halal, (4) A state pairing icebreaker where employees are randomly paired across regions, (5) Three conversation prompts per station to spark meaningful exchange, (6) A post-event photo wall and feedback form, (7) A small take-home (recipe card set) to extend the experience. Format as an event runbook. Consider these constraints: event must be fully onsite safe for food hygiene (FSSAI-certified vendors), finish within 3 hours so it doesn't derail the day, and leave every participant having tasted at least 3 new dishes.",
+      "tags": [
+        "team-building",
+        "food",
+        "regional-diversity",
+        "inclusion",
+        "flavours-of-bharat"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-031",
+      "title": "Design Cohort Engagement for Freshers",
+      "prompt": "Act as a Campus and Early Careers Engagement Lead with 8 years of experience at TCS, Infosys, or Wipro-scale Indian IT firms. I need you to design a 12-month cohort engagement program for 800 freshers joining at a single Bengaluru training centre. Here is the context: Freshers spend their first 4 months in training, then move into projects across India. Historically, cohort identity fades after training ends, and first-year attrition in project phase is high. Please provide: (1) A 12-month journey map with 8 key moments (joining day, training midpoint, graduation, project induction, first feedback, festival event, 6-month milestone, anniversary), (2) A digital cohort hub plan (Teams channel, monthly newsletter, alumni directory), (3) A peer buddy system with pairing logic, (4) Five cohort-exclusive rituals (cohort day, tech talks, hackathon, cricket cup, reunion), (5) A fresher council with elected representatives, (6) A measurement framework tracking cohort pride, project readiness, and early attrition, (7) A budget breakdown within INR 35 lakh. Format as a journey-map playbook. Consider these constraints: program must scale to a 800-person cohort, not rely on physical co-location after month 4, and create a stickiness strong enough to reduce first-year attrition by at least 5 percentage points.",
+      "tags": [
+        "freshers",
+        "cohort-engagement",
+        "indian-it",
+        "tcs-infosys-wipro",
+        "retention"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-032",
+      "title": "Build IC-to-Manager Feedback Framework",
+      "prompt": "Act as an HR Business Partner with 7 years of experience coaching engineering managers in Indian product companies. I need you to build a framework that helps ICs give upward feedback to their managers during regular 1:1s, not just in annual upward-feedback surveys. Here is the context: ICs at a 650-person startup in Bengaluru want to raise concerns about their manager's style but fear backlash. Please provide: (1) A 3-step upward feedback model (Observe, Own your impact, Ask for change), (2) Three sample scripts ICs can adapt for common scenarios (micromanagement, unclear priorities, public criticism), (3) A manager response guide that coaches managers to receive feedback non-defensively, (4) A psychological safety baseline that must exist before this framework is used, (5) An escalation path if upward feedback is met with retaliation, (6) A quarterly HRBP check-in with the IC to ensure safety, (7) A one-page handout summarising the model. Format as a dual-audience toolkit (for ICs and managers). Consider these constraints: framework must acknowledge power asymmetry in Indian workplaces, protect the IC from retaliation, and not replace formal grievance mechanisms for serious issues.",
+      "tags": [
+        "upward-feedback",
+        "ic-to-manager",
+        "psychological-safety",
+        "hrbp",
+        "feedback"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-033",
+      "title": "Architect Enterprise Engagement Strategy",
+      "prompt": "Act as a Chief People Officer with 15 years of experience leading large people organisations in Indian IT services, now advising a 15,000-person IT company listed on NSE. I need you to architect a 3-year enterprise engagement strategy that moves eNPS from +8 to +30 and reduces voluntary attrition from 21% to 14%. Here is the context: The board has sanctioned an investment of INR 45 crore over 3 years and wants a coherent strategy, not a list of initiatives. Please provide: (1) A guiding North Star with 3 strategic pillars (e.g., Grow Me, Hear Me, Reward Me), (2) A logic model linking interventions to business outcomes (revenue per employee, client CSAT, delivery quality), (3) A 3-year roadmap with phased investments (foundations, scaling, optimisation), (4) KPI cascade from CEO to team level, (5) Governance structure (people council, HRBP network, analytics team), (6) Build-vs-buy decisions for R&R, survey, and learning platforms (Empuls, Vantage Circle, CultureAmp, Glint), (7) A risk register with 6 key risks and mitigations, (8) Board-ready narrative on cultural transformation. Format as an executive strategy document. Consider these constraints: strategy must respect the firm's pyramid delivery model, differentiate by band and geography, comply with SEBI LODR disclosures around human capital, and be defensible to activist investors.",
+      "tags": [
+        "engagement-strategy",
+        "cpo",
+        "enterprise",
+        "enps",
+        "sebi-lodr"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-034",
+      "title": "Design Psychometric Engagement Analytics Model",
+      "prompt": "Act as a Principal People Analytics Scientist with 12 years of experience building engagement models for Indian IT and GCC populations. I need you to design an analytics model that predicts voluntary attrition 90 days in advance using engagement data. Here is the context: The company is a 8,000-person GCC in Bengaluru with quarterly pulse data, HRIS data, and compensation data. We want a defensible model that HRBPs can use to prioritise interventions. Please provide: (1) A feature set across 6 categories (engagement items, tenure and band, compensation position, manager quality, career movement, life events), (2) A choice of model family with rationale (logistic regression vs gradient boosting vs survival analysis) and why interpretability matters, (3) Train-test split strategy respecting time-ordering, (4) Fairness audit across gender, location, and tenure, (5) A precision-recall trade-off recommendation for operational use, (6) An HRBP-facing explanation UI with SHAP-style reasons, (7) A governance model covering DPDP compliance, model-drift monitoring, and an ethical review board, (8) Human-in-the-loop guardrails to prevent self-fulfilling labelling. Format as a technical design doc. Consider these constraints: model must not be used for PIPs, must be auditable, avoid protected-class features, and its outputs must be advisory not deterministic.",
+      "tags": [
+        "people-analytics",
+        "attrition-prediction",
+        "ml-model",
+        "dpdp",
+        "fairness"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-035",
+      "title": "Rebuild Recognition Ecosystem Post-Platform-Change",
+      "prompt": "Act as a Global Rewards and Recognition Director with 12 years of experience in Indian and APAC tech companies. I need you to rebuild the recognition ecosystem at a 9,000-person IT services company that is migrating from a home-grown recognition portal to Empuls by Xoxoday. Here is the context: The old portal had low adoption (22%) and the migration is an opportunity to redesign the program entirely. Please provide: (1) A diagnosis of the old program's 6 likely failure modes, (2) A new recognition architecture with 4 award layers (spot, monthly, quarterly, annual) and how they interlock, (3) Budget allocation across layers totalling INR 12 crore, (4) A platform configuration spec for Empuls (catalogs, wallets, approvers, nudges, analytics), (5) A change management plan with 10 stakeholder groups, (6) A manager-enablement curriculum of 3 modules, (7) A 90-day adoption target (60% active senders) with leading indicators, (8) A tax and compliance note on Section 17(2) and GST on vouchers, (9) A success scorecard. Format as a program redesign document. Consider these constraints: redesign must avoid inflating the old problems, work across 12 countries with India as the largest base, and demonstrate clear business ROI to the CFO within 12 months.",
+      "tags": [
+        "rewards-recognition",
+        "empuls",
+        "platform-migration",
+        "change-management",
+        "enterprise"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-036",
+      "title": "Design GPTW India Certification Playbook",
+      "prompt": "Act as a Culture Transformation Consultant with 12 years of experience helping Indian companies achieve Great Place To Work India certification and Top 100 ranking. I need you to design a 9-month GPTW India certification playbook for a 1,200-person mid-size IT company in Pune. Here is the context: The company has never been GPTW-certified, current Trust Index score is estimated at 62%, and leadership wants to cross 75% to earn the certification and target Top 100 in the following year. Please provide: (1) A gap analysis template across the 5 Trust Index dimensions (credibility, respect, fairness, pride, camaraderie), (2) A Culture Audit documentation plan covering the 9 high-trust leadership practices, (3) A 9-month intervention roadmap, (4) A leadership behaviours charter with 6 non-negotiables, (5) A storytelling engine that captures culture stories for the Culture Audit, (6) A survey-readiness communication plan in the 2 weeks before the Trust Index survey, (7) A post-certification amplification plan on LinkedIn, NASSCOM, and recruitment marketing, (8) Risk factors and mitigation. Format as a certification playbook. Consider these constraints: playbook must be authentic (no gaming the survey), respect GPTW independence, and drive real culture change that outlasts the certification year.",
+      "tags": [
+        "gptw",
+        "culture",
+        "certification",
+        "trust-index",
+        "indian-it"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-037",
+      "title": "Build Hybrid Culture Reinvention Playbook",
+      "prompt": "Act as a Future of Work Strategist with 12 years of experience advising Indian tech companies on hybrid culture. I need you to build a Hybrid Culture Reinvention Playbook for a 2,600-person product company in Bengaluru that is settling into a long-term 2-day-a-week office model. Here is the context: Leadership wants the 2 office days to feel intentional and high-value, while protecting deep work on WFH days, and engagement survey highlights risk of culture dilution. Please provide: (1) A hybrid operating principle statement, (2) A typology of 4 meeting types and where each belongs (WFH vs office), (3) Office-day design guidelines (collab blocks, no-meeting mornings, rituals, lunch culture), (4) WFH-day design guidelines (focus blocks, async protocols, wellbeing micro-breaks), (5) A manager playbook for leading hybrid teams with 6 practical tools, (6) A set of 5 new company rituals to replace lost water-cooler moments, (7) An evaluation framework measuring belonging, productivity, and office utilisation, (8) A 6-month rollout plan. Format as a playbook document. Consider these constraints: playbook must avoid forcing employees back unnecessarily, respect dual-career household constraints common in Indian metros, and produce evidence that hybrid is working within 2 quarters.",
+      "tags": [
+        "hybrid-work",
+        "culture",
+        "future-of-work",
+        "manager-enablement",
+        "playbook"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-038",
+      "title": "Architect Voice of Employee Listening System",
+      "prompt": "Act as a Voice of Employee Program Director with 12 years of experience building continuous listening systems in Indian IT and GCCs. I need you to architect a multi-channel Voice of Employee (VoE) listening system for a 11,000-person IT company headquartered in Mumbai with delivery in Pune, Bengaluru, Chennai, and Noida. Here is the context: Today we run one annual engagement survey and anecdotal feedback reaches leadership inconsistently. Leadership wants a system that listens continuously, triangulates signals, and closes the loop. Please provide: (1) A 6-channel listening architecture (annual engagement, quarterly pulse, onboarding survey, exit survey, skip-level meetings, always-on suggestion tool), (2) A cadence and ownership matrix for each channel, (3) A text-analytics plan for open comments using topic modelling with human oversight, (4) A triangulation framework that merges structured and unstructured signals, (5) An action governance model (team, function, org level) with SLA for response, (6) A closing-the-loop communication approach after each listening event, (7) A platform build-vs-buy evaluation (Qualtrics, Glint, CultureAmp, Empuls), (8) A 3-year maturity roadmap, (9) Privacy and DPDP compliance plan. Format as an architecture document. Consider these constraints: system must be additive not extractive, avoid survey fatigue (max 20 minutes of survey time per employee per quarter), and be defensible to board and statutory auditors.",
+      "tags": [
+        "voice-of-employee",
+        "continuous-listening",
+        "people-analytics",
+        "voe",
+        "architecture"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-039",
+      "title": "Design Culture Transformation for M&A Integration",
+      "prompt": "Act as an Organisation Development and M&A Integration consultant with 15 years of experience leading culture integrations in Indian tech M&A. I need you to design a 12-month culture transformation plan for the integration of a 450-person acquired product startup in Bengaluru into a 6,500-person IT services company in Chennai. Here is the context: The acquired team has a flat, fast-paced, product-driven culture and is worried about being swallowed. The acquirer has a hierarchical, process-driven, services culture. Retention of the acquired team's top 40 talents for 24 months is critical to deal value. Please provide: (1) A culture diagnostic approach using interviews, focus groups, and a Trust Index survey, (2) A cultural-differences map across 6 dimensions (pace, hierarchy, risk, communication, recognition, career), (3) A 12-month integration roadmap with phases (stabilise, connect, align, grow), (4) A retention package structure (retention bonus, RSU, career paths) for the top 40, (5) Integration rituals (town halls, leadership shadowing, culture swap visits), (6) Governance via a joint integration council, (7) Communication cadence, (8) Leading indicators (top-40 retention, eNPS, velocity) and red-flag triggers, (9) Exit criteria for \"integration complete\". Format as an integration playbook. Consider these constraints: plan must protect the acquired team's innovation edge, comply with Indian employment transfer rules, and avoid forcing premature cultural assimilation.",
+      "tags": [
+        "mergers-acquisitions",
+        "culture-integration",
+        "retention",
+        "change-management",
+        "od"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    },
+    {
+      "id": "hr-employee-engagement-040",
+      "title": "Build Board-Level Human Capital Report",
+      "prompt": "Act as a Chief People Officer reporting to the board of an NSE-listed Indian IT services company of 22,000 employees. I need you to build a quarterly board-level Human Capital Report that meets SEBI BRSR and LODR disclosure expectations while telling a compelling story about engagement and culture. Here is the context: The board's people and compensation committee wants consistent data, narrative, and forward-looking indicators, not a wall of HR metrics. Please provide: (1) A one-page executive summary structure, (2) A metric set across 6 themes (talent attraction, engagement and eNPS, diversity, learning, wellbeing, total rewards) with benchmarks for Indian IT, (3) A forward-looking risk dashboard with 5 people risks (attrition, talent concentration, leadership bench, reputational, regulatory), (4) A narrative template explaining variance against targets, (5) A BRSR-aligned disclosure mapping for the 9 principles with a focus on Principle 3 (employee wellbeing), (6) A slide for material people matters (policy changes, incidents, investigations), (7) A standing appendix for methodology, (8) A cadence for engagement deep-dives once a year, (9) A governance note on data assurance. Format as a board-pack template. Consider these constraints: report must comply with SEBI BRSR, be auditable by statutory and ESG auditors, avoid greenwashing, and give the board enough signal to hold management accountable without drowning them in HR jargon.",
+      "tags": [
+        "board-reporting",
+        "brsr",
+        "sebi",
+        "human-capital",
+        "cpo"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "hr",
+      "subcategory": "employee-engagement"
+    }
+  ]
+}

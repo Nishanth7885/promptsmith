@@ -1,0 +1,151 @@
+{
+  "category": "ngo",
+  "subcategory": "ngo-fundraising",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "ngo-ngo-fundraising-001",
+      "title": "Appeal Letter for Year-End Giving",
+      "prompt": "Act as a senior NGO fundraising head. Write a 350-word year-end appeal letter (Daan Utsav / 31-March-fiscal-close timing) to retail donors. Cover: (1) opening hook (one beneficiary's transformation), (2) program impact this year (3 numbers), (3) gap remaining + how donor's gift fills it, (4) concrete ask tiers (₹2,500 / ₹10,000 / ₹50,000 with what each unlocks), (5) tax benefit (80G certificate within 24 hrs), (6) easy giving (UPI, Razorpay, NEFT, monthly SIP), (7) gratitude + impact-report commitment. Constraints: warm storyteller tone; FCRA-cleared if foreign donors; consent + DPDP-aligned; bilingual.",
+      "category": "ngo",
+      "subcategory": "ngo-fundraising",
+      "tags": ["appeal-letter", "daan-utsav", "year-end", "80g", "razorpay"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true
+    },
+    {
+      "id": "ngo-ngo-fundraising-002",
+      "title": "Major-Donor Stewardship Email",
+      "prompt": "Act as a major-gift officer. Draft a 280-word stewardship email to a HNI donor who gave ₹25 lakh last year. Cover: (1) personalised thank-you with specific impact (their gift funded X), (2) progress update (last quarter), (3) field-visit invitation, (4) next-year ask soft-pre-buildup, (5) family inclusion (children's volunteering opportunity), (6) tax + planning conversation offer (CSR / endowment / planned giving), (7) personal sign-off from ED. Constraints: respect donor privacy; FCRA if foreign-source funds; warm not transactional; cite specific moment / interaction.",
+      "category": "ngo",
+      "subcategory": "ngo-fundraising",
+      "tags": ["major-donor", "stewardship", "hni", "fcra", "planned-giving"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true
+    },
+    {
+      "id": "ngo-ngo-fundraising-003",
+      "title": "Crowdfunding Campaign Plan",
+      "prompt": "Act as a digital fundraiser. Plan a 30-day crowdfunding campaign on Ketto / Milaap / GiveIndia for a ₹40L target — emergency hospital fund for 12 children with rare disease. Cover: (1) campaign narrative + hero stories (with ethical consent), (2) goals + stretch goals, (3) channels (Insta, FB, WhatsApp groups, LinkedIn, doctor networks), (4) UGC strategy (volunteer-amplified), (5) milestone celebrations, (6) match-funding partner, (7) live updates + transparency, (8) closure + thank-you, (9) tax + 80G receipts. Constraints: respect medical privacy + child consent; FCRA-cleared if needed; transparent fund-utilisation; align with AIIMS / CMC clinical guidance.",
+      "category": "ngo",
+      "subcategory": "ngo-fundraising",
+      "tags": ["crowdfunding", "ketto", "milaap", "rare-disease", "80g"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "ngo-ngo-fundraising-004",
+      "title": "CSR Pitch to Indian Corporate",
+      "prompt": "Act as a CSR fundraiser. Pitch to a ₹3,800 Cr Indian listed company for ₹1.5 Cr CSR engagement (3-year). Cover: (1) understanding company's CSR theme (Section 135 + Schedule VII alignment — education / health / livelihoods / environment), (2) proposed program tied to their geo-presence, (3) brand + employee-engagement value (volunteering, payroll giving), (4) impact metrics + media visibility, (5) governance + reporting (CSR-2 form), (6) due diligence package (FCRA, 80G, audited statements, FCRA-clearance, prior CSR), (7) MoU draft. Constraints: align with Companies Act Section 135 + CSR Rules 2014 + Schedule VII; honest gap; transparent.",
+      "category": "ngo",
+      "subcategory": "ngo-fundraising",
+      "tags": ["csr-pitch", "section-135", "schedule-vii", "csr-2", "fcra"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "ngo-ngo-fundraising-005",
+      "title": "Foundation Grant Proposal",
+      "prompt": "Act as a senior grants writer. Write a 2,000-word foundation grant proposal for a ₹3 Cr / 3-year ask to Azim Premji Foundation. Topic: improving learning outcomes in 200 government schools in Karnataka. Cover: (1) problem framing (NAS / ASER data), (2) proposed approach (teacher training + community + tech), (3) team + capacity, (4) timeline + milestones, (5) detailed budget (₹ break + cost head), (6) sustainability post-grant, (7) M&E framework, (8) risk + mitigation, (9) annexures. Constraints: align with APF focus on government school + system change; FCRA; honest gaps; cite strong comparators.",
+      "category": "ngo",
+      "subcategory": "ngo-fundraising",
+      "tags": ["foundation-grant", "azim-premji", "education", "ngovt-school", "fcra"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "ngo-ngo-fundraising-006",
+      "title": "Monthly Giving (SIP) Conversion Email",
+      "prompt": "Act as a digital fundraiser. Write 3-email sequence to convert one-time donors to monthly SIP donors. Email 1 (T+0 day): impact letter + monthly SIP ask + Razorpay autopay easy link. Email 2 (T+7 day): testimonial of monthly donor + tax-benefit reminder + ₹500 / ₹1500 / ₹3500 tier. Email 3 (T+14 day): final reminder + community + 'why monthly matters'. Each ≤200 words. Constraints: warm + non-pressure; UPI Autopay friendly; commit to opt-out anytime; transparent; bilingual.",
+      "category": "ngo",
+      "subcategory": "ngo-fundraising",
+      "tags": ["monthly-sip", "razorpay-autopay", "donor-conversion", "email-sequence", "upi"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "ngo-ngo-fundraising-007",
+      "title": "Diaspora Donor Outreach (NRI)",
+      "prompt": "Act as an NRI partnerships head. Build outreach plan for Indian-origin diaspora in US, UK, UAE, Singapore. Cover: (1) channel strategy (LinkedIn India-diaspora groups, GiveIndia / GlobalGiving / Indiaspora platforms), (2) story + program fit, (3) FCRA-cleared bank account + foreign currency receipt protocol, (4) tax-deduction (US 501(c)(3) equivalent + UK Gift Aid via partners), (5) annual diaspora giving event (Daan Utsav virtual + India Day fundraiser), (6) NRI community ambassadors, (7) follow-up + reporting. Constraints: align with FCRA 2010 + RBI FEMA; transparent reporting; respect timezones; bilingual.",
+      "category": "ngo",
+      "subcategory": "ngo-fundraising",
+      "tags": ["nri-fundraising", "fcra", "501c3", "diaspora", "globalgiving"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "ngo-ngo-fundraising-008",
+      "title": "Event-Based Fundraiser Plan",
+      "prompt": "Act as an events fundraiser. Plan a charity gala in Mumbai (250 attendees, ticket ₹15,000, target net-raise ₹1.2 Cr). Cover: (1) venue + date (Hotel ITC Grand Central / Trident BKC), (2) program (cocktails + dinner + auction + appeal), (3) auction lots (10 — Bollywood memorabilia, art, vacation, dinner-with-celebrity), (4) appeal-from-stage moment, (5) corporate table sponsors (₹2L per table for 10), (6) ROI analysis (₹85L cost vs ₹2.05 Cr gross raise), (7) marketing + RSVP, (8) post-event impact reporting. Constraints: align with FCRA; PPL/IPRS for music; transparent overhead %; respect attendee privacy.",
+      "category": "ngo",
+      "subcategory": "ngo-fundraising",
+      "tags": ["charity-gala", "event-fundraiser", "auction", "mumbai", "ppl-iprs"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "ngo-ngo-fundraising-009",
+      "title": "Annual Report Narrative for Donors",
+      "prompt": "Act as a senior communications officer. Write the donor-facing section of an annual report (1,200 words) — telling 3 transformation stories tied to 3 donor groups (retail, monthly SIP, major). Cover: (1) opening (gratitude + the year in 1 sentence), (2) story 1 (retail donors enabled X), (3) story 2 (monthly donors sustained Y), (4) story 3 (major donor catalysed Z), (5) financial integrity statement (overhead %, audit), (6) tax + transparency commitment, (7) ED's signature appeal for next year. Constraints: transparent; warm; FCRA-compliant; bilingual annexure; QR code to detailed report.",
+      "category": "ngo",
+      "subcategory": "ngo-fundraising",
+      "tags": ["annual-report", "donor-narrative", "transparency", "fcra", "stewardship"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "ngo-ngo-fundraising-010",
+      "title": "Pledge Form + Recurring Donation Setup",
+      "prompt": "Act as a donor relations manager. Design a pledge form for monthly recurring donations. Cover: (1) donor info (name, contact, address), (2) PAN (mandatory for 80G), (3) FCRA disclosure if NRI (passport + foreign address), (4) pledge amount (₹500 / ₹1,500 / ₹5,000 / custom), (5) frequency (monthly / quarterly / annual), (6) payment mode (UPI / NEFT / autopay / cheque), (7) duration (1-yr / 3-yr / lifetime), (8) earmark (general / specific program), (9) consent (DPDP compliant), (10) signature + nominee for legacy. Constraints: align with Income Tax Act 80G + FCRA + DPDP; bilingual; printable + e-form.",
+      "category": "ngo",
+      "subcategory": "ngo-fundraising",
+      "tags": ["pledge-form", "recurring-donation", "80g", "fcra", "dpdp"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "ngo-ngo-fundraising-011",
+      "title": "Donor Database Segmentation",
+      "prompt": "Act as a CRM analyst at an NGO. Segment a 12,000-donor database for personalised stewardship. Cover: (1) RFM analysis (recency, frequency, monetary), (2) lifecycle stages (first-time, lapsed, monthly, major, super-donor), (3) source attribution, (4) campaign response patterns, (5) demographic + giving-capacity inference, (6) communication preferences, (7) DPDP-aligned consent + opt-out, (8) recommended action per segment (tier-up, win-back, reduce-frequency, gratitude). Constraints: align with DPDP 2023; respect donor preferences; integrate with CRM (Zoho Donor / Salesforce NPSP / Donorbox); bilingual outreach.",
+      "category": "ngo",
+      "subcategory": "ngo-fundraising",
+      "tags": ["donor-segmentation", "rfm", "salesforce-npsp", "dpdp", "crm"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "ngo-ngo-fundraising-012",
+      "title": "Compliance + Audit Preparation",
+      "prompt": "Act as an NGO finance + compliance head. Prepare for the annual audit (FY26). Cover: (1) document checklist (vouchers, bills, MoUs, FCRA returns, audit committee minutes), (2) Form 10B + 10BB filing, (3) Form FC-4 (FCRA annual return), (4) Section 8 / Trust / Society annual returns, (5) Section 12A + 80G renewal, (6) bank account reconciliation (FCRA + non-FCRA strict separation), (7) statutory dues (PF, ESI, GST, TDS), (8) financial statements per ICAI Schedule III, (9) external auditor engagement, (10) board sign-off. Constraints: align with FCRA + Income Tax Act + Companies Act Section 8 + ICAI; cite recent FCRA amendments; document for renewal.",
+      "category": "ngo",
+      "subcategory": "ngo-fundraising",
+      "tags": ["compliance", "fcra", "form-10b", "audit", "section-12a"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    }
+  ]
+}

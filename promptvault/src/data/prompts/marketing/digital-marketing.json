@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "marketing-digital-marketing-001",
+      "title": "SEO Meta Description Generator for D2C Product Pages",
+      "prompt": "Act as a senior SEO copywriter with 8 years of experience optimizing D2C product pages for Indian brands like Mamaearth, boAt, and Sugar Cosmetics. I need you to write 10 distinct SEO meta descriptions for a product page. Here is the context: the product is a sulphate-free onion shampoo priced at ₹349, targeting urban Indian women aged 22-40 in Mumbai, Bangalore, Delhi, Pune, and Hyderabad. The primary keyword is \"onion shampoo for hair fall\" (monthly search volume 49K in India per Ahrefs) and secondary keywords include \"best shampoo for hair growth\" and \"ayurvedic shampoo India\". Please provide: (1) 10 meta descriptions, each strictly 150-160 characters with spaces, (2) primary keyword placement within first 120 characters, (3) an active voice CTA (Shop Now, Order Today, Try Free), (4) one USP per variant (COD available, free shipping above ₹499, 30-day money-back, dermatologically tested, paraben-free, made in India), (5) emotional trigger word labeled per variant (fear, aspiration, trust, urgency, social proof), (6) mobile SERP preview note flagging any truncation risk beyond 155 characters. Format the output as a markdown table with columns: Variant | Meta Description | Character Count | Primary KW Position | USP | Emotional Trigger. Consider these constraints: avoid superlatives banned by ASCI guidelines (\"best\", \"number one\") unless substantiated, comply with Indian advertising self-regulation, and keep tone conversational for Indian readers. End with a 3-line recommendation on which 3 variants to A/B test first.",
+      "tags": [
+        "seo-meta",
+        "d2c",
+        "product-page",
+        "ctr-optimization"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-002",
+      "title": "Google Ads RSA Copy for Indian SaaS",
+      "prompt": "Act as a Google Ads specialist with 6 years of experience running B2B SaaS campaigns for Indian companies like Zoho, Freshworks, and Razorpay. I need you to write a complete Responsive Search Ad (RSA) for a new campaign. Here is the context: the client is a Bangalore-based HRMS SaaS targeting Indian SMEs (50-500 employees) across Mumbai, Delhi NCR, Bangalore, Chennai, and Hyderabad. Monthly ad budget is ₹3 lakh, target CPL is ₹450, and primary keywords are \"HRMS software India\", \"payroll software for SME\", and \"attendance management system\". Please provide: (1) 15 headlines (max 30 characters each) with keyword insertion where relevant, (2) 4 headlines pinned to position 1 featuring brand and offer, (3) 4 descriptions (max 90 characters each) covering USPs: GST-compliant payroll, TDS auto-calc, biometric integration, 14-day free trial, (4) 2 path fields, (5) sitelink extensions (4 x 25-char titles + descriptions), (6) callout extensions (6 x 25-char), (7) structured snippet for \"Features\", (8) a rationale block explaining keyword density, Ad Strength prediction, and pinning logic. Format as a structured markdown document ready to paste into Google Ads Editor. Consider these constraints: comply with Google Ads editorial policies, avoid trademark terms of competitors (Keka, GreytHR, Zoho People), and localize currency to INR.",
+      "tags": [
+        "google-ads-rsa",
+        "saas",
+        "b2b",
+        "ppc"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-003",
+      "title": "Title Tag Variants for Category Pages",
+      "prompt": "Act as a technical SEO lead with 7 years of experience optimizing e-commerce category pages for Indian marketplaces and D2C brands. I need you to generate 12 title tag variants for a category page. Here is the context: the page is a \"Men's Running Shoes\" category on an Indian D2C sports brand competing with Campus, HRX, and Decathlon India. Primary keyword is \"men's running shoes\" (88K monthly searches in India) and the brand name is 14 characters. Please provide: (1) 12 title tag variants, each 50-60 characters including brand name at the end separated by pipe, (2) primary keyword at the start of the tag, (3) one modifier per variant (Buy Online, Under ₹2999, Free Shipping, COD, 2025, Sale, New Arrivals, Top Rated), (4) character count per variant, (5) pixel width estimate flagging any over 580px on mobile, (6) CTR uplift hypothesis for each variant (high/medium/low) with reasoning. Format as a markdown table. Consider these constraints: avoid keyword stuffing, maintain brand consistency, and ensure each title is unique to prevent Google deduplication. Add a final paragraph recommending which 3 variants to deploy via Google Search Console experiment.",
+      "tags": [
+        "title-tag",
+        "seo",
+        "ecommerce",
+        "ctr"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-004",
+      "title": "Google Ads PMax Asset Group Builder",
+      "prompt": "Act as a Google Ads Performance Max specialist with 5 years of experience scaling Indian D2C brands. I need you to build a complete asset group for a PMax campaign. Here is the context: the advertiser is an Indian skincare D2C brand similar to WOW Skin Science selling a vitamin C face serum at ₹599, monthly ad budget ₹8 lakh, target ROAS 4.0, targeting women 25-45 in tier-1 and tier-2 Indian cities. Please provide: (1) 5 headlines (max 30 chars), (2) 5 long headlines (max 90 chars), (3) 5 descriptions (max 90 chars), (4) 1 short description (max 60 chars), (5) a list of 10 image prompts for lifestyle creatives (square 1:1, landscape 1.91:1, portrait 4:5), (6) 5 video script hooks of 6 seconds each for YouTube Shorts, (7) audience signal suggestions (custom segments, in-market, demographics), (8) 15 search themes, (9) final URL expansion strategy. Format as a structured JSON block ready to import. Consider these constraints: ASCI-compliant skincare claims, avoid before-after comparisons without disclaimers, INR pricing, and Hinglish tone where appropriate.",
+      "tags": [
+        "google-ads-pmax",
+        "asset-group",
+        "d2c",
+        "roas"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-005",
+      "title": "A/B Test Hypothesis with ICE Prioritization",
+      "prompt": "Act as a CRO strategist with 9 years of experience running A/B tests for Indian e-commerce and SaaS companies. I need you to generate 10 A/B test hypotheses for a checkout flow and prioritize them using the ICE framework. Here is the context: the client is an Indian fashion D2C brand with 2.5 lakh monthly visitors, checkout drop-off of 68%, AOV ₹1,450, and traffic split 72% mobile Android, 18% iOS, 10% desktop. Current friction points include forced account creation, 4-step checkout, missing COD confirmation, and no UPI auto-fill. Please provide: (1) 10 hypotheses in the format \"Because we observed [data], we believe [change] will cause [outcome] measured by [metric]\", (2) ICE scores on a 1-10 scale (Impact, Confidence, Ease) with rationale for each score, (3) total ICE score and ranked priority, (4) minimum detectable effect and sample size calculation assuming 90% confidence and 80% power, (5) estimated test duration in days given current traffic, (6) guardrail metrics to monitor. Format as a detailed markdown table plus a prioritization summary. Consider these constraints: Indian payment preferences (UPI, COD, wallets), mobile-first behavior, and statistical rigor.",
+      "tags": [
+        "ab-test",
+        "ice-prioritization",
+        "cro",
+        "checkout"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-006",
+      "title": "Full Funnel Audit for D2C Brand",
+      "prompt": "Act as a growth marketing consultant with 10 years of experience auditing full-funnel performance for Indian D2C brands like The Whole Truth, Mamaearth, and boAt. I need you to conduct a funnel audit from awareness to conversion. Here is the context: the brand sells protein bars at ₹80/unit, monthly marketing spend ₹12 lakh split across Meta (60%), Google (30%), and influencer (10%), monthly revenue ₹45 lakh, blended ROAS 3.75, CAC ₹420, LTV ₹1,850. Funnel data: 48 lakh impressions, 2.4 lakh clicks, 96K product page views, 14K add-to-carts, 3,200 orders. Please provide: (1) conversion rates at each funnel stage vs Indian D2C benchmarks, (2) identification of 3 biggest leaks with hypothesized root causes, (3) specific tactical fixes for each leak with expected uplift, (4) revised funnel projection if fixes succeed, (5) recommended tracking events in GA4 and Meta CAPI to close measurement gaps, (6) 30-60-90 day action plan with owners. Format as a structured audit report with sections and tables. Consider these constraints: iOS 14.5+ tracking loss, India mobile network speeds, and UPI payment drop-off patterns.",
+      "tags": [
+        "funnel-audit",
+        "d2c",
+        "growth",
+        "cro"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-007",
+      "title": "GA4 Event Drop-Off Analysis",
+      "prompt": "Act as a GA4 analytics consultant with 6 years of experience diagnosing drop-offs for Indian e-commerce brands. I need you to interpret GA4 funnel exploration data and recommend fixes. Here is the context: the client is an Indian home decor D2C brand. GA4 funnel shows session_start 3.2L, view_item_list 2.8L, view_item 1.6L, add_to_cart 42K, begin_checkout 18K, add_payment_info 9.8K, purchase 5.4K over 30 days. Traffic source split: Google organic 38%, Meta paid 34%, direct 18%, email 10%. Please provide: (1) stage-by-stage conversion rates with colour-coded severity (red/amber/green) against Indian benchmarks, (2) top 3 drop-off stages ranked by absolute user loss, (3) hypothesized causes for each (UX, trust, payment, cost, creative mismatch), (4) 5 concrete GA4 Explorations or segments to run to confirm root cause, (5) suggested custom dimensions and events to add (e.g., payment_method_selected, pincode_entered, cod_eligible), (6) an impact-effort matrix for recommended fixes. Format as an analytical report with tables. Consider these constraints: Indian UPI failure rates (~10%), COD eligibility checks by pincode, and GA4 thresholding on low-traffic segments.",
+      "tags": [
+        "ga4",
+        "drop-off",
+        "analytics",
+        "funnel"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-008",
+      "title": "UTM Strategy Framework for Multi-Channel",
+      "prompt": "Act as a marketing analytics lead with 8 years of experience designing UTM taxonomies for Indian SaaS and D2C brands. I need you to build a UTM governance framework. Here is the context: the company is a Bangalore fintech SaaS running campaigns across Google Ads, Meta Ads, LinkedIn, email (WebEngage), WhatsApp Business, influencer affiliate, and offline QR codes. Monthly campaigns: 40+, marketing team: 6 people, reporting tool: GA4 + Looker Studio. Please provide: (1) a standardized UTM taxonomy with exact rules for utm_source, utm_medium, utm_campaign, utm_term, utm_content, (2) a naming convention using lowercase, hyphens, and date format YYYYMM, (3) example UTM strings for 8 representative campaigns, (4) a Google Sheet template structure (columns, validation, drop-downs) for campaign managers, (5) common pitfalls to avoid (case sensitivity, spaces, emoji, duplicate source-medium), (6) a QA checklist before launch, (7) a Looker Studio data blending approach to unify paid and organic. Format as a governance document with clear sections. Consider these constraints: GA4 default channel groupings, Hindi/English campaign names, and attribution window of 90 days.",
+      "tags": [
+        "utm-strategy",
+        "taxonomy",
+        "ga4",
+        "attribution"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-009",
+      "title": "Hinglish Ad Copy A/B Test for Meta",
+      "prompt": "Act as a Meta Ads creative strategist with 7 years of experience testing Hinglish copy for Indian consumer brands. I need you to design a copy A/B test for a Meta Ads campaign. Here is the context: the brand sells affordable ethnic wear at ₹799-₹1,999, targeting women 20-35 in tier-2 and tier-3 cities like Jaipur, Indore, Lucknow, Kanpur, and Bhopal. Monthly spend ₹2.5L, current CTR 0.9%, CPM ₹85. Hypothesis: Hinglish copy will outperform pure English for this audience. Please provide: (1) 6 English primary text variants (max 125 chars before truncation), (2) 6 Hinglish variants covering the same value props, (3) 4 headlines for each language (max 40 chars), (4) pairing matrix of 12 total ad variants, (5) test design: budget allocation, duration, KPIs (CTR, CPC, CVR, ROAS), (6) statistical plan: minimum 1,000 clicks per variant before calling, (7) cultural nuance notes on which Hinglish phrases resonate with tier-2/3 (jaldi, offer, sasta nahi, quality). Format as a campaign brief. Consider these constraints: Meta ad policy on claims, avoid Devanagari-only (use Roman script Hinglish), and festival calendar overlap with Navratri or Diwali.",
+      "tags": [
+        "ab-test",
+        "hinglish",
+        "meta-ads",
+        "tier-2"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-010",
+      "title": "SEO Meta Description for Blog Posts at Scale",
+      "prompt": "Act as an SEO content lead with 6 years of experience scaling blog SEO for Indian SaaS companies like Zoho and Freshworks. I need you to generate meta descriptions for 10 blog posts in one batch. Here is the context: the blog is on a fintech SaaS targeting Indian CAs and SME finance teams. Blog titles: (1) GST filing checklist for SMEs, (2) TDS rates for FY 2025-26, (3) How to reconcile 2A vs 2B, (4) Best invoicing software in India, (5) Section 44AD presumptive tax, (6) UPI vs NEFT for business, (7) MSME registration benefits, (8) ESOP taxation for startup employees, (9) Form 26AS guide, (10) GST on freelancers. Please provide: (1) meta description per post 150-160 chars, (2) primary keyword within first 120 chars, (3) action-oriented CTA, (4) current year reference \"2025\" or \"2026\" where relevant, (5) search intent classification (informational, transactional, navigational), (6) suggested secondary keyword to add to H2. Format as a markdown table. Consider these constraints: compliance language accuracy, avoid misleading tax claims, and maintain E-E-A-T signals for YMYL content.",
+      "tags": [
+        "seo-meta",
+        "blog",
+        "saas",
+        "fintech"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-011",
+      "title": "Google Ads Negative Keyword Discovery",
+      "prompt": "Act as a Google Ads account manager with 8 years of experience managing INR 10 lakh+ monthly budgets for Indian clients. I need you to audit a search terms report and recommend negative keywords. Here is the context: the client is a premium Indian ed-tech brand selling CAT coaching at ₹45,000. Campaign has spent ₹6 lakh in 30 days, generated 18K clicks, 140 conversions, CPA ₹4,285 (target ₹3,000). Search terms include \"free cat coaching\", \"cat coaching in hindi\", \"cat previous year papers\", \"byju's cat\", \"cat mock test free\", \"mba without cat\", \"cat syllabus pdf\", \"cat coaching fees comparison\", \"cat coaching ahmedabad\", \"cat 2024 result\". Please provide: (1) classification of each term as relevant, partially relevant, irrelevant, or brand-competitor, (2) recommended negative keyword list with match type (exact, phrase, broad), (3) separate lists for campaign-level vs ad-group-level negatives, (4) estimated wasted spend recovered if implemented, (5) positive keyword opportunities discovered, (6) a shared negative keyword list structure for future campaigns. Format as a markdown document with tables. Consider these constraints: avoid over-blocking informational queries that feed top-funnel remarketing, and maintain a geography-specific strategy for tier-1 vs tier-2.",
+      "tags": [
+        "google-ads",
+        "negative-keywords",
+        "search-terms",
+        "ppc"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-012",
+      "title": "Landing Page CRO Hypothesis Generator",
+      "prompt": "Act as a landing page CRO specialist with 7 years of experience optimizing Indian D2C and SaaS landing pages. I need you to generate 12 CRO hypotheses for a specific landing page. Here is the context: the page is a lead-gen form for a Mumbai-based health insurance aggregator, monthly visitors 1.8 lakh, current form completion rate 3.2%, form has 9 fields (name, mobile, email, DOB, pincode, gender, pre-existing conditions, income, consent). Traffic source: Google Ads 70%, Meta 25%, organic 5%. Mobile traffic 82%. Please provide: (1) 12 hypotheses grouped into categories: form design, trust signals, copy, social proof, urgency, mobile UX, (2) each hypothesis in \"If we [change] then [outcome] because [reasoning]\" format, (3) ICE prioritization scores, (4) suggested test variants (control vs treatment), (5) primary and secondary KPIs, (6) IRDAI regulation checkpoints to not violate during copy changes, (7) reference pattern from Indian competitors (Policybazaar, Acko, Digit). Format as a prioritized backlog. Consider these constraints: IRDAI disclosure norms, DND compliance for mobile numbers, and WhatsApp opt-in best practices.",
+      "tags": [
+        "cro",
+        "landing-page",
+        "ab-test",
+        "insurance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-013",
+      "title": "Attribution Model Comparison for GA4",
+      "prompt": "Act as a marketing measurement analyst with 9 years of experience evaluating attribution models for Indian D2C brands. I need you to compare attribution models in GA4 and recommend the best fit. Here is the context: the brand is an Indian sneaker D2C spending ₹18 lakh/month across Google Search, Google Shopping, Meta, YouTube, and affiliate. Average purchase path has 4.2 touches over 11 days. Model data in GA4: Last Click assigns Meta 42% credit, Google Ads 31%, Organic 18%, Email 9%. Data-Driven Attribution assigns Meta 28%, Google Ads 37%, Organic 22%, Email 13%. Please provide: (1) side-by-side comparison table across Last Click, First Click, Linear, Position-Based, Time Decay, and DDA, (2) strengths and weaknesses of each model for this brand, (3) recommended primary model with justification, (4) secondary model for cross-check, (5) budget reallocation implications if switching from Last Click to DDA, (6) data volume requirements for DDA eligibility in GA4, (7) executive summary in 5 bullets for CMO. Format as an analytical report. Consider these constraints: iOS 14.5+ signal loss, 90-day lookback window, and GA4 DDA thresholds (300 conversions and 3,000 interactions over 30 days).",
+      "tags": [
+        "attribution",
+        "ga4",
+        "measurement",
+        "ddm"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-014",
+      "title": "SEO Title Tag for Local Service Pages",
+      "prompt": "Act as a local SEO specialist with 6 years of experience ranking service pages for Indian home services brands like Urban Company and NoBroker. I need you to write title tags for 15 city-level service pages. Here is the context: the business offers AC repair services, cities include Mumbai, Delhi, Gurgaon, Noida, Bangalore, Hyderabad, Pune, Chennai, Kolkata, Ahmedabad, Jaipur, Lucknow, Chandigarh, Indore, and Kochi. Primary keyword pattern is \"AC repair in [city]\". Brand name is 12 characters. Please provide: (1) 15 title tags, one per city, 50-60 chars including brand, (2) primary keyword at start, (3) one unique modifier per title (Same Day, Expert Technicians, 30-Day Warranty, ₹299 Visit, 24/7, Book Online, Starts at ₹399), (4) character and pixel width count, (5) meta description companion (155 chars) for each city page, (6) local schema.org LocalBusiness suggestion, (7) intent alignment (transactional). Format as a markdown table. Consider these constraints: avoid duplicate content across city pages, use unique value propositions, and include city in H1 as well.",
+      "tags": [
+        "title-tag",
+        "local-seo",
+        "service-pages",
+        "cities"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-015",
+      "title": "Google Ads Budget Pacing Analyzer",
+      "prompt": "Act as a paid media strategist with 8 years of experience pacing INR budgets for Indian advertisers. I need you to analyze budget pacing and recommend adjustments. Here is the context: monthly Google Ads budget is ₹5 lakh, day 18 of 30, spent ₹3.4 lakh, conversions 142, CPA ₹2,394 (target ₹2,200), campaigns: Brand Search (₹60K), Non-Brand Search (₹2.1L), Shopping (₹70K), YouTube (₹50K), PMax (₹1.2L). Please provide: (1) pacing status per campaign (under, on, over), (2) daily spend rate needed for remainder of the month to hit target, (3) recommended budget reallocation to hit CPA target, (4) identification of best- and worst-performing campaigns by efficiency, (5) bid strategy review (Target CPA vs Max Conversions), (6) weekend vs weekday pacing adjustment, (7) end-of-month risk forecast. Format as an operations brief with tables and a decision tree. Consider these constraints: Google auction volatility around Indian festivals, month-end payroll release driving consumer spend, and GST impact on invoicing.",
+      "tags": [
+        "google-ads",
+        "budget-pacing",
+        "cpa",
+        "optimization"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-016",
+      "title": "Meta Ads Creative Fatigue Diagnosis",
+      "prompt": "Act as a Meta Ads creative analyst with 5 years of experience scaling Indian D2C brands. I need you to diagnose creative fatigue and recommend refreshes. Here is the context: the brand is an Indian men's grooming D2C with monthly Meta spend ₹7 lakh. Current account data: 12 active ads, frequency 4.8, CTR dropped from 1.8% to 0.7% over 21 days, CPM increased 38%, ROAS dropped from 3.4 to 1.9. Audience: men 22-35 in metros and tier-2. Please provide: (1) creative fatigue severity score (1-10) with reasoning, (2) top 3 metrics proving fatigue, (3) recommended refresh cadence for this spend tier, (4) 8 new creative concepts across formats (UGC, founder-led, product demo, before-after, testimonial, comparison, meme, Hinglish skit), (5) hook script outlines for the first 3 seconds of each, (6) audience expansion vs refresh trade-off, (7) budget split between refreshing creative and testing new angles. Format as a creative playbook. Consider these constraints: Meta disapproval risks on grooming claims, ASCI compliance, and avoid stereotypes in tier-2 depiction.",
+      "tags": [
+        "meta-ads",
+        "creative-fatigue",
+        "d2c",
+        "roas"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-017",
+      "title": "Keyword Gap Analysis vs Competitors",
+      "prompt": "Act as an SEO competitive analyst with 7 years of experience using Ahrefs and SEMrush for Indian markets. I need you to conduct a keyword gap analysis. Here is the context: the brand is a Bangalore-based edtech competing with Unacademy, PhysicsWallah, and Testbook for UPSC preparation. Our domain has 4,200 ranking keywords, DR 42. Competitors have 28K, 41K, and 36K ranking keywords respectively, DR 72, 68, 65. Please provide: (1) framework for identifying keywords competitors rank on but we don't, (2) prioritization criteria (search volume, keyword difficulty, commercial intent, topical relevance), (3) 30 example keyword gaps across categories: UPSC syllabus, previous year papers, current affairs, test series, mock interviews, (4) content type recommendation per keyword (blog, pillar page, landing page, tool), (5) internal linking strategy to pass authority, (6) expected traffic uplift over 6 months if top 30 are ranked in top 10, (7) backlink gap note. Format as a strategic document with tables. Consider these constraints: YMYL content quality requirements, Hindi and English bilingual queries, and seasonal UPSC notification spikes.",
+      "tags": [
+        "seo",
+        "keyword-gap",
+        "competitive-analysis",
+        "edtech"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-018",
+      "title": "UTM Builder for WhatsApp Campaigns",
+      "prompt": "Act as a lifecycle marketing specialist with 6 years of experience running WhatsApp Business campaigns for Indian brands via tools like WATI, AiSensy, and Interakt. I need you to design a UTM framework specifically for WhatsApp campaigns. Here is the context: the brand sends 8 WhatsApp broadcasts per month covering promotional offers, abandoned cart, order updates, feedback requests, loyalty programme, and re-engagement. Audience size 4 lakh opted-in contacts. Please provide: (1) UTM taxonomy tailored for WhatsApp (source, medium, campaign, term, content conventions), (2) distinction between Marketing Opt-in, Utility, and Authentication message categories, (3) example UTM strings for 8 use cases, (4) short link strategy using Bitly or Rebrandly to fit WhatsApp character limits, (5) tracking approach for button clicks vs link clicks, (6) GA4 custom channel grouping for WhatsApp traffic, (7) measurement limitation disclosure when WhatsApp strips UTMs. Format as a playbook. Consider these constraints: Meta WhatsApp Business Platform policy, 24-hour customer service window, DND and DLT compliance, and Indian regional language broadcast differences.",
+      "tags": [
+        "utm-strategy",
+        "whatsapp",
+        "ga4",
+        "lifecycle"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-019",
+      "title": "Google Ads Shopping Feed Optimization",
+      "prompt": "Act as a Google Shopping specialist with 6 years of experience optimizing feeds for Indian retailers. I need you to audit a shopping feed and recommend optimizations. Here is the context: the merchant is an Indian home furniture D2C with 1,200 SKUs, current feed has 380 disapprovals, 18% products missing GTIN, titles average 68 characters, descriptions 120 characters, and Google Merchant Center shows \"limited performance\" warning on 40% of SKUs. Monthly Shopping spend ₹2.5 lakh. Please provide: (1) feed health scorecard, (2) title optimization formula per product type (e.g., Brand + Product + Material + Colour + Size + Keyword), (3) 10 rewritten title examples for living room furniture, (4) description optimization template, (5) GTIN resolution approach for custom-made furniture (identifier_exists attribute), (6) custom labels strategy for bidding by margin and seasonality, (7) 5 disapproval reason fixes. Format as an audit report. Consider these constraints: Merchant Center policy for furniture, GST-inclusive pricing display, free shipping threshold compliance, and Indian availability/returns policy fields.",
+      "tags": [
+        "google-ads",
+        "shopping",
+        "feed-optimization",
+        "ecommerce"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-020",
+      "title": "Conversion Rate Lift Calculator",
+      "prompt": "Act as an experimentation analyst with 7 years of experience running statistical A/B tests for Indian e-commerce. I need you to calculate conversion rate lift and statistical significance for a test. Here is the context: an Indian fashion D2C ran a two-week test on product page CTA placement. Control: 48,200 visitors, 1,056 conversions. Treatment: 47,900 visitors, 1,214 conversions. AOV ₹1,680, traffic cost ₹1.2 lakh/day. Please provide: (1) conversion rates for control and treatment with 95% confidence intervals, (2) relative lift percentage and absolute lift in conversions, (3) z-score and p-value using two-proportion z-test, (4) statistical significance verdict at 95% confidence, (5) Bayesian posterior probability that treatment is better, (6) projected monthly revenue impact if winner is rolled out, (7) sample ratio mismatch check, (8) recommendation on whether to call the test, extend it, or re-run. Format as a statistical brief with formulas shown. Consider these constraints: INR revenue calculations, minimum sample size assumptions, novelty effect awareness, and peeking bias.",
+      "tags": [
+        "ab-test",
+        "statistics",
+        "cro",
+        "lift"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-021",
+      "title": "Full Funnel Content Mapping Awareness to Conversion",
+      "prompt": "Act as a content marketing strategist with 8 years of experience building funnels for Indian SaaS brands like Freshworks and Chargebee. I need you to map content to every funnel stage. Here is the context: the company is a Pune-based cybersecurity SaaS targeting Indian BFSI CISOs and CIOs, average deal size ₹24 lakh, sales cycle 90 days, current pipeline ₹3 crore. Please provide: (1) funnel stages defined as Awareness, Consideration, Decision, Retention, Advocacy, (2) primary buyer intent per stage, (3) 4 content formats per stage (total 20 assets) with titles: webinars, whitepapers, case studies, ROI calculator, RBI compliance checklist, etc., (4) distribution channel per asset (LinkedIn, Google Search, email, paid, events), (5) KPIs per stage (MQL, SAL, SQL, CW), (6) content gaps to fill first, (7) editorial calendar for next 90 days. Format as a funnel map with tables. Consider these constraints: RBI and SEBI cybersecurity circulars, DPDP Act 2023 mentions, and tier-1 CIO LinkedIn behaviour in India.",
+      "tags": [
+        "funnel",
+        "content-strategy",
+        "b2b",
+        "saas"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-022",
+      "title": "GA4 Custom Event Schema Design",
+      "prompt": "Act as a GA4 implementation specialist with 5 years of experience instrumenting Indian e-commerce sites via GTM. I need you to design a custom event schema. Here is the context: the client is an Indian jewellery D2C selling gold and silver ornaments, 90% mobile traffic, uses Shopify, average session duration 3:20, and needs granular tracking for video views, try-on AR, pincode checker, COD eligibility, EMI calculator, WhatsApp inquiry, and offline store locator. Please provide: (1) list of 15 custom events with event names in snake_case, (2) required and recommended parameters per event, (3) custom dimensions and metrics to register in GA4 admin, (4) GTM trigger and variable configuration outline, (5) data layer push schema in JSON, (6) debug and QA steps, (7) mapping to GA4 default events to avoid duplication, (8) reporting use cases and audience segments enabled by new events. Format as a technical spec document. Consider these constraints: GA4 50 custom dimension limit, PII avoidance per DPDP Act, consent mode v2, and Shopify Liquid templating.",
+      "tags": [
+        "ga4",
+        "custom-events",
+        "gtm",
+        "tracking"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-023",
+      "title": "SEO Meta for Programmatic City Pages",
+      "prompt": "Act as a programmatic SEO specialist with 6 years of experience launching large-scale city and category pages for Indian marketplaces. I need you to design a meta tag template for programmatic pages. Here is the context: the site is a rental marketplace launching 1,200 pages covering pattern \"[Property Type] for rent in [Locality], [City]\" across 18 Indian cities. Property types: 1BHK, 2BHK, 3BHK, PG, studio. Please provide: (1) a meta title template with dynamic variables and fallback logic, (2) a meta description template 150-160 chars with dynamic price range, listing count, and USP, (3) validation rules to prevent thin pages when listing count < 5, (4) duplicate content prevention strategy, (5) 10 example outputs across different city-locality-type combinations, (6) H1 and H2 templates coordinated with meta, (7) schema.org markup suggestion (ItemList, Place), (8) monitoring plan for Google Search Console impressions per template. Format as a template spec. Consider these constraints: NoBroker and MagicBricks SERP competition, Hindi locality name transliteration, and RERA registration display requirements.",
+      "tags": [
+        "seo-meta",
+        "programmatic-seo",
+        "real-estate",
+        "template"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-024",
+      "title": "Google Ads Competitor Conquesting Strategy",
+      "prompt": "Act as a search strategist with 8 years of experience running conquesting campaigns for Indian SaaS. I need you to build a competitor conquesting plan. Here is the context: the advertiser is an Indian CRM SaaS targeting Salesforce, HubSpot, and Zoho CRM customers. Monthly budget allocation ₹4 lakh, focus on decision makers in BFSI and D2C companies with 100-1,000 employees. Please provide: (1) list of 25 conquesting keywords including \"salesforce alternative\", \"hubspot vs\", \"zoho crm pricing\", (2) match types and bid strategy, (3) ad copy angles: price, ease of use, Indian support, GST-ready invoicing, (4) landing page design principles for comparison pages, (5) trademark policy compliance for Google Ads India (using competitor names in ad text), (6) negative keyword list to protect brand, (7) measurement plan including assisted conversions and view-through, (8) risk mitigation if competitors bid back on your brand. Format as a campaign playbook. Consider these constraints: Google Ads Indian trademark policy, avoid defamatory comparison, and focus on truthful differentiators.",
+      "tags": [
+        "google-ads",
+        "conquesting",
+        "competitor",
+        "saas"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-025",
+      "title": "Meta CAPI Event Match Quality Audit",
+      "prompt": "Act as a Meta Ads measurement specialist with 6 years of experience implementing Conversions API for Indian D2C brands. I need you to audit Event Match Quality (EMQ) and recommend improvements. Here is the context: the brand runs ₹15 lakh/month on Meta, EMQ score is 5.2/10 on Purchase event, 3.8/10 on InitiateCheckout, iOS attribution drop estimated 32%. Current setup: Pixel only, no CAPI, Shopify store, using Facebook app on Shopify. Please provide: (1) explanation of EMQ scoring and why it matters for ROAS, (2) list of customer information parameters to send (em, ph, fn, ln, ct, st, zp, country, external_id, client_ip, user_agent, fbp, fbc), (3) hashing requirements and Indian phone number formatting (+91 prefix), (4) server-side CAPI setup steps for Shopify, (5) deduplication between Pixel and CAPI using event_id, (6) expected EMQ lift and ROAS recovery, (7) consent management under DPDP Act 2023. Format as a technical audit. Consider these constraints: DPDP Act compliance, opt-in requirement, phone hash normalization, and Indian pincode format.",
+      "tags": [
+        "meta-capi",
+        "emq",
+        "measurement",
+        "tracking"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-026",
+      "title": "Landing Page Copy for Google Ads Traffic",
+      "prompt": "Act as a direct response copywriter with 9 years of experience writing landing pages for Indian Google Ads traffic. I need you to write a complete landing page for a paid campaign. Here is the context: the offer is a Bangalore-based dental clinic running Google Ads for \"invisible braces cost in Bangalore\" at ₹65/click, target CPL ₹900. The offer is a free consultation worth ₹1,500 and EMI starting ₹3,999/month. Please provide: (1) hero headline (under 12 words), (2) subheadline (under 20 words), (3) 3 value props with icons, (4) credibility block (certifications, patient count, years), (5) testimonial section (3 testimonials with Indian names, locations, before-after), (6) cost comparison vs traditional braces table, (7) EMI calculator copy, (8) FAQ (8 questions), (9) form copy with 4 fields only, (10) sticky CTA and exit-intent offer. Format as a full page wireframe with section copy. Consider these constraints: DCI and Clinical Establishments Act compliance, avoid medical guarantees, use AIDA structure, and mobile-first layout.",
+      "tags": [
+        "landing-page",
+        "copywriting",
+        "google-ads",
+        "healthcare"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-027",
+      "title": "Audience Segmentation from GA4",
+      "prompt": "Act as an audience strategist with 7 years of experience building GA4 audiences for Indian advertisers. I need you to design a segmentation strategy. Here is the context: the brand is an Indian food D2C selling healthy snacks, 6 lakh monthly users, 4% purchase rate, repeat rate 22%, uses GA4 + Meta + Google Ads. Please provide: (1) 12 GA4 audiences covering funnel stages: engaged users, add-to-cart abandoners, checkout abandoners, first-time purchasers, repeat purchasers, high-AOV, lapsed, loyalists, (2) exact GA4 audience definitions (conditions, sequences, time windows), (3) export destinations (Google Ads, Meta via Offline Conversions), (4) activation strategy per segment (ads, email, WhatsApp), (5) exclusion logic to avoid audience overlap, (6) refresh frequency, (7) privacy considerations under DPDP Act, (8) KPIs per segment. Format as an audience playbook. Consider these constraints: GA4 10 million user audience limit, 540-day membership duration, and Consent Mode v2.",
+      "tags": [
+        "ga4",
+        "audience",
+        "segmentation",
+        "targeting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-028",
+      "title": "Abandoned Cart Recovery Funnel",
+      "prompt": "Act as a lifecycle marketer with 6 years of experience recovering abandoned carts for Indian D2C brands via WebEngage and MoEngage. I need you to design a cart abandonment recovery flow. Here is the context: brand is Indian beauty D2C with 22K monthly cart abandons, AOV ₹1,250, current recovery rate 8%, available channels: email (40% open), WhatsApp (85% read), SMS (fallback), web push. Please provide: (1) multi-channel sequence design over 72 hours with exact send times, (2) copy for each touchpoint in English and Hinglish, (3) incentive ladder (no discount → free shipping → 10% off → 15% off), (4) segmentation rules: cart value, product category, new vs returning, (5) suppression rules if purchase happens mid-flow, (6) recovery rate projection model, (7) KPIs to monitor per channel, (8) control group carve-out for measuring incremental lift. Format as a flow diagram plus copy document. Consider these constraints: DND and DLT compliance for SMS, WhatsApp 24-hour window, Meta message template approval, and festival surge handling.",
+      "tags": [
+        "lifecycle",
+        "cart-abandonment",
+        "funnel",
+        "automation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-029",
+      "title": "SEO Content Brief for High-Intent Keyword",
+      "prompt": "Act as an SEO content strategist with 7 years of experience briefing writers for Indian B2B SaaS content. I need you to create a complete SEO content brief. Here is the context: the target keyword is \"best accounting software for small business in India\" (monthly volume 8,100, KD 42), intent is commercial investigation, SERP competitors include Tally, Zoho Books, Vyapar, ClearOne, Busy. Brand is a new cloud accounting SaaS. Please provide: (1) target word count with SERP analysis justification, (2) primary and 10 secondary keywords with volume and difficulty, (3) outline with H1, H2, H3 structure, (4) must-cover topics: GST compliance, TDS, e-invoicing threshold, multi-GSTIN, Hindi UI, (5) competitor gap analysis for 5 top results, (6) suggested comparison table including INR pricing, (7) internal and external link recommendations, (8) meta title and description, (9) FAQ section with 10 questions, (10) E-E-A-T signals to include. Format as a detailed content brief. Consider these constraints: GST Council updates, ICAI compliance, avoid unsubstantiated claims about competitors.",
+      "tags": [
+        "seo",
+        "content-brief",
+        "keyword",
+        "saas"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-030",
+      "title": "Google Search Console Opportunity Finder",
+      "prompt": "Act as an SEO analyst with 6 years of experience mining Google Search Console data for Indian sites. I need you to find quick-win SEO opportunities. Here is the context: the site is an Indian finance blog with 80K monthly clicks, 5.2M impressions, average position 18.4. GSC export shows 2,400 queries in positions 8-20 with CTR < 2%. Top underperforming queries include \"home loan emi calculator\", \"pan card apply online\", \"ppf interest rate 2025\", \"itr filing last date\". Please provide: (1) prioritization framework for quick wins (impressions × position gap × CTR gap), (2) top 15 opportunity queries identified, (3) on-page action per query (update content, add schema, improve title, internal links), (4) estimated click uplift if each query moves to position 5, (5) content refresh checklist, (6) tracking plan for 30-day impact, (7) cannibalization check process, (8) schema markup recommendations (FAQ, HowTo). Format as an opportunity backlog with tables. Consider these constraints: YMYL content E-E-A-T requirements, SEBI and RBI accuracy rules, and Hindi content opportunities.",
+      "tags": [
+        "seo",
+        "gsc",
+        "opportunity",
+        "quick-wins"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-031",
+      "title": "Multi-Touch Attribution Model Build",
+      "prompt": "Act as a marketing science lead with 10 years of experience building attribution models for Indian D2C unicorns. I need you to design a custom multi-touch attribution model. Here is the context: the brand spends ₹3 crore/month across Google, Meta, YouTube, Amazon Ads, influencer, email, WhatsApp, and offline. Typical customer journey has 6-8 touches over 14 days. Monthly purchases 48K. GA4 and Meta disagree on channel contribution by 30-40%. Please provide: (1) comparison of rule-based vs algorithmic vs Markov chain vs Shapley value attribution, (2) recommended approach and rationale, (3) data requirements and schema (touchpoints table, conversions table, costs table), (4) implementation stack (BigQuery + Python/R + Looker), (5) Markov chain removal effect methodology explained, (6) handling of offline touchpoints, (7) validation approach via geo-holdout or MMM triangulation, (8) executive dashboard design, (9) refresh cadence. Format as a technical design doc. Consider these constraints: DPDP Act, iOS signal loss, data freshness SLA, and BigQuery cost control.",
+      "tags": [
+        "attribution",
+        "mta",
+        "markov",
+        "advanced-analytics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-032",
+      "title": "JioAds Emerging Channel Test Plan",
+      "prompt": "Act as an emerging media strategist with 8 years of experience testing new ad platforms in India. I need you to design a pilot on JioAds. Here is the context: client is a mid-tier Indian FMCG snack brand, monthly digital budget ₹20 lakh, currently on Google (50%), Meta (40%), YouTube (10%). The CMO wants to test JioAds given its reach into 45 crore Jio subscribers in Bharat tier-2/3. Please provide: (1) JioAds inventory overview (MyJio, JioCinema, JioTV, JioMart, JioSaavn), (2) targeting capabilities unique to JioAds vs Meta/Google, (3) recommended pilot budget and duration, (4) creative formats per placement, (5) KPIs and measurement plan given limited cookie tracking, (6) incrementality test design via geo-holdout, (7) risks and mitigation (reporting transparency, brand safety, attribution), (8) success criteria to justify scale-up, (9) comparison framework vs Meta and YouTube for the same audience. Format as a pilot plan. Consider these constraints: Reliance Industries ecosystem data, TRAI advertising norms, and regional language creative requirements.",
+      "tags": [
+        "jioads",
+        "emerging-channels",
+        "bharat",
+        "pilot"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-033",
+      "title": "Conversion Tracking QA Checklist",
+      "prompt": "Act as an analytics engineer with 6 years of experience QA-ing conversion tracking for Indian advertisers. I need you to build a comprehensive QA checklist. Here is the context: the advertiser is a Mumbai-based fintech running Google Ads, Meta Ads, and LinkedIn Ads, uses GTM, GA4, Meta Pixel + CAPI, LinkedIn Insight Tag. Recent audit revealed duplicate purchases in Google Ads and missing revenue in GA4. Please provide: (1) pre-launch QA checklist covering GTM container, triggers, variables, (2) event-level validation for page_view, view_item, add_to_cart, begin_checkout, purchase, (3) cross-platform deduplication verification, (4) currency and value passing verification (INR, ex-GST vs inc-GST), (5) consent mode v2 signal firing under denied and granted states, (6) debug tools: GA4 DebugView, Tag Assistant, Meta Pixel Helper, GTM Preview, (7) automated monitoring via BigQuery scheduled queries, (8) release workflow from dev to staging to production, (9) incident runbook. Format as a QA runbook. Consider these constraints: DPDP Act consent, GST-inclusive transaction values, and refund event handling.",
+      "tags": [
+        "tracking",
+        "qa",
+        "gtm",
+        "analytics"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-034",
+      "title": "SEO Meta for Tier-2 City Targeting",
+      "prompt": "Act as a Bharat-focused SEO specialist with 5 years of experience ranking for tier-2 and tier-3 Indian search queries. I need you to write SEO meta tags targeting tier-2 cities. Here is the context: the site is a vernacular ed-tech platform offering vocational courses, target cities include Patna, Ranchi, Varanasi, Bhopal, Raipur, Dehradun, Jabalpur, and Guwahati. Key courses: tailoring, beautician, mobile repair, computer basics, spoken English. Please provide: (1) 10 title and meta description pairs combining course + city, (2) inclusion of Hinglish trigger words where appropriate (ghar baithe, asaan, sasta fees), (3) INR price mention in meta description, (4) hreflang consideration for Hindi vs English pages, (5) SERP feature targeting (people also ask, featured snippet), (6) character and pixel limits, (7) local trust signals (government recognition, NSDC certification). Format as a markdown table. Consider these constraints: NSDC and Skill India framework, ASCI education advertising guidelines, and regional script considerations.",
+      "tags": [
+        "seo-meta",
+        "tier-2",
+        "bharat",
+        "hinglish"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-035",
+      "title": "ROAS Decomposition Analysis",
+      "prompt": "Act as a performance marketing analyst with 8 years of experience decomposing ROAS for Indian D2C brands. I need you to decompose a declining ROAS trend. Here is the context: a skincare D2C's blended ROAS dropped from 4.2 to 2.8 over 8 weeks, monthly spend grew from ₹18L to ₹32L. Key metrics: CPM up 22%, CTR down 14%, CVR down 9%, AOV flat at ₹780, returning customer rate dropped from 28% to 19%. Please provide: (1) ROAS formula decomposition into Impressions × CTR × CVR × AOV / Spend, (2) factor-by-factor contribution to the ROAS decline, (3) likely root causes for each factor (scale inefficiency, creative fatigue, audience saturation, wrong products, seasonality), (4) prioritized diagnostic tests to run, (5) fix recommendations with expected ROAS recovery, (6) reforecast if recommendations are implemented, (7) CMO summary dashboard KPIs. Format as an analytical memo. Consider these constraints: festival season upcoming, INR ad rates, and the cost of over-scaling on Meta.",
+      "tags": [
+        "roas",
+        "analysis",
+        "decomposition",
+        "performance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-036",
+      "title": "PMax Search Themes and Audience Signals",
+      "prompt": "Act as a Google PMax specialist with 5 years of experience scaling campaigns for Indian retailers. I need you to build search themes and audience signals for a PMax campaign. Here is the context: the advertiser is a Delhi-based luggage brand selling premium suitcases at ₹3,500-₹12,000 competing with Safari, VIP, American Tourister. Monthly budget ₹6 lakh, target ROAS 5.0. Please provide: (1) 20 search themes organized into buckets (generic, category, feature, occasion, competitor), (2) 5 custom segments (websites visited, keywords searched, apps used), (3) 3 in-market audiences to signal, (4) 2 detailed demographics, (5) 1st party data segments (purchasers, cart abandoners, newsletter subscribers), (6) negative audience exclusions, (7) campaign structure: single PMax vs multiple by product category, (8) brand exclusion setup, (9) asset group split strategy. Format as a campaign build spec. Consider these constraints: Google's 25 search theme limit per asset group, DPDP Act on 1P data, and avoiding overlap with standard Shopping campaigns.",
+      "tags": [
+        "google-ads-pmax",
+        "search-themes",
+        "audience-signals",
+        "retail"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-037",
+      "title": "Awareness Stage Creative Brief",
+      "prompt": "Act as a brand creative strategist with 9 years of experience building awareness campaigns for Indian challenger brands. I need you to write a creative brief for an awareness-stage campaign. Here is the context: brand is a new Indian oat milk D2C entering the market, first launch, ₹10 lakh awareness budget across Meta, YouTube, and Instagram Reels over 6 weeks, target urban health-conscious Indians 24-38 in top 10 cities. Please provide: (1) single-minded proposition in one sentence, (2) audience persona with jobs-to-be-done, (3) cultural tension the brand is solving (Indian milk obsession, lactose intolerance stigma, climate concerns), (4) 3 big creative ideas with names and one-line pitch, (5) format and channel recommendations per idea, (6) KPIs: reach, video view rate, brand lift, branded search uplift, (7) measurement plan for brand lift study, (8) do's and don'ts list. Format as a classic creative brief. Consider these constraints: FSSAI labeling norms for plant-based milk, avoid disparaging dairy, and ASCI guidelines for health claims.",
+      "tags": [
+        "awareness",
+        "creative-brief",
+        "brand",
+        "d2c"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-038",
+      "title": "Growth Loop Design for Referral",
+      "prompt": "Act as a growth hacker with 7 years of experience designing growth loops for Indian consumer apps like CRED, Meesho, and Zerodha. I need you to design a referral growth loop. Here is the context: the product is an Indian personal finance app with 5 lakh MAU, current referral contributes 8% of new installs, viral coefficient 0.18. CAC from paid is ₹180, LTV ₹950. Please provide: (1) growth loop diagram: trigger, action, reward, output, (2) referrer and referee incentive economics in INR, (3) breakeven math linking viral coefficient to CAC payback, (4) 5 referral mechanics to test (share with friend, refer and earn cashback, leaderboard, milestone rewards, double-sided), (5) WhatsApp-first sharing flow design, (6) fraud prevention: duplicate device, self-referral, bot detection, (7) tracking schema in AppsFlyer or Branch, (8) success criteria to scale loop. Format as a growth loop blueprint. Consider these constraints: RBI KYC compliance, WhatsApp sharing behaviour in India, and DPDP Act on contact sharing.",
+      "tags": [
+        "growth-loop",
+        "referral",
+        "viral",
+        "product-marketing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-039",
+      "title": "Looker Studio Marketing Dashboard Spec",
+      "prompt": "Act as a marketing analytics engineer with 6 years of experience building Looker Studio dashboards for Indian CMOs. I need you to design a CMO-level marketing dashboard spec. Here is the context: the company is a ₹200 crore ARR Indian SaaS, marketing team of 12, data sources: GA4, Google Ads, Meta Ads, LinkedIn Ads, HubSpot CRM, WebEngage, Zoho Books. The CMO wants one dashboard to track performance weekly. Please provide: (1) KPI hierarchy: north star, input, leading, lagging metrics, (2) dashboard layout: summary, channel, funnel, cohort, experiments sections, (3) chart-by-chart spec with data source, metric, dimension, filter, and visualization type, (4) calculated fields (blended CAC, CAC payback, ROAS, CPL, MQL to SQL, win rate, pipeline velocity), (5) data blending strategy across sources, (6) refresh schedule and data freshness SLA, (7) permissions and row-level security, (8) comment and annotation workflow. Format as a dashboard specification document. Consider these constraints: INR currency formatting, GST-inclusive revenue, Looker Studio data blend limits, and GA4 sampling thresholds.",
+      "tags": [
+        "looker-studio",
+        "dashboard",
+        "analytics",
+        "cmo"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    },
+    {
+      "id": "marketing-digital-marketing-040",
+      "title": "Incrementality Testing via Geo Holdout",
+      "prompt": "Act as a marketing experimentation lead with 9 years of experience running incrementality tests for Indian D2C brands. I need you to design a geo-holdout incrementality test. Here is the context: the brand spends ₹25 lakh/month on YouTube awareness ads and wants to know if this is incremental beyond Meta and Google Search. Footprint across 24 Indian states, Meta ROAS 3.2, Google Search ROAS 6.1, YouTube reported ROAS 1.4. Please provide: (1) geo-holdout test design: treatment vs control geo selection, matched pair methodology, (2) test duration and budget required, (3) minimum detectable lift calculation, (4) power analysis assumptions, (5) data collection plan: sales by state, spend by state, external factors, (6) statistical analysis: difference-in-differences, synthetic control, Bayesian structural time series, (7) decision criteria to keep, cut, or scale YouTube, (8) bias risks and mitigations (spillover, market shocks, festivals), (9) CMO summary of expected learnings. Format as a test protocol. Consider these constraints: state-level festival asymmetry (Onam in Kerala, Durga Puja in West Bengal), regional language creative, and GST state-wise revenue.",
+      "tags": [
+        "incrementality",
+        "geo-holdout",
+        "measurement",
+        "experimentation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "digital-marketing"
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "developers-backend-001",
+      "title": "Design REST API for Indian E-commerce Checkout",
+      "prompt": "Act as a senior backend engineer with 8 years of experience building e-commerce platforms like Meesho and Flipkart. I need you to design a complete REST API specification for a checkout flow that handles cart management, address selection, payment initiation (Razorpay/UPI), and order confirmation. Here is the context: we're building a Node.js + Express + PostgreSQL backend serving 50,000 concurrent users from Tier-2 and Tier-3 Indian cities, with average cart value of INR 1,200 and 70% COD orders. Please provide: (1) Full OpenAPI 3.0 spec with endpoints, methods, path params, query params, request/response schemas, (2) HTTP status codes for each failure mode including network flakiness common on Jio/Airtel 4G, (3) Idempotency-Key header strategy for retries, (4) Sample curl requests with Indian address data (Bengaluru, Pune, Indore), (5) Rate limiting recommendations per endpoint. Format the output as a markdown document with YAML OpenAPI blocks. Consider these constraints: DPDP 2023 compliance for customer PII, GST invoice number in order response, support for pincode-based serviceability checks, and graceful degradation when Razorpay webhooks are delayed. Include versioning strategy (/v1/) and deprecation headers.",
+      "tags": [
+        "api-design",
+        "rest",
+        "openapi",
+        "ecommerce",
+        "razorpay"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": true,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-002",
+      "title": "PostgreSQL Schema for UPI Transaction Ledger",
+      "prompt": "Act as a database architect with 10 years of experience designing financial systems for Indian fintech companies like PhonePe and Razorpay. I need you to design a PostgreSQL schema for a UPI transaction ledger that records every debit/credit with full audit trail. Here is the context: we process 2 million UPI transactions daily, average ticket size INR 450, with NPCI reconciliation files arriving every 30 minutes. Please provide: (1) CREATE TABLE statements for accounts, transactions, ledger_entries, upi_mandates, reconciliation_batches with proper data types (NUMERIC(18,2) for amounts, UUID for IDs, TIMESTAMPTZ for timestamps), (2) Foreign keys, check constraints, and CHECK (debit_amount + credit_amount > 0), (3) Indexes including partial indexes for pending transactions and BRIN index on created_at for time-series queries, (4) Double-entry bookkeeping constraints using triggers or table-level checks, (5) Partitioning strategy by month for transactions table, (6) Sample queries for daily settlement reports. Format the output as runnable SQL with inline comments. Consider these constraints: RBI audit requirements (7-year retention), idempotency via NPCI RRN (Retrieval Reference Number), immutability of ledger entries (INSERT only, no UPDATE/DELETE), and Mumbai AWS region latency. Include a migration script using golang-migrate format.",
+      "tags": [
+        "postgres",
+        "database-schema",
+        "upi",
+        "fintech",
+        "ledger"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": true,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-003",
+      "title": "JWT Authentication Flow with Refresh Tokens",
+      "prompt": "Act as a backend security engineer with 6 years of experience at Indian SaaS companies like Zoho and Freshworks. I need you to implement a complete JWT-based authentication flow with access and refresh tokens for a Node.js/NestJS application. Here is the context: we're building a B2B dashboard used by Indian SMEs with ~5,000 daily active users, requiring 15-minute access tokens and 7-day refresh tokens stored in httpOnly cookies. Please provide: (1) NestJS module with AuthService, JwtStrategy, and RefreshTokenGuard code, (2) Signup and login endpoints validating Indian mobile numbers (+91 format) and email, (3) Password hashing with bcrypt (cost factor 12), (4) Refresh token rotation with Redis-backed blacklist for revoked tokens, (5) Logout endpoint clearing cookies and blacklisting tokens, (6) Sample unit tests using Jest. Format the output as TypeScript code blocks with file paths. Consider these constraints: DPDP 2023 data minimization (store only email, phone, hashed password), CSRF protection with SameSite=Strict cookies, device fingerprinting for suspicious login detection, and graceful handling of clock skew between Mumbai and Singapore regions. Include environment variable template and warn against common pitfalls like storing JWTs in localStorage.",
+      "tags": [
+        "jwt",
+        "authentication",
+        "nestjs",
+        "refresh-token",
+        "security"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-004",
+      "title": "Redis Caching Layer for Product Catalog",
+      "prompt": "Act as a backend performance engineer with 7 years of experience scaling Indian e-commerce backends like Nykaa and Ajio. I need you to design a Redis caching layer for a product catalog service that serves 100,000 RPS during festive sales. Here is the context: we have 500,000 SKUs in PostgreSQL, product data changes hourly via vendor feeds, and we run Redis 7 on AWS ElastiCache in ap-south-1 (Mumbai) with 3 nodes. Please provide: (1) Cache key naming convention (e.g., product:v2:{sku}, category:{slug}:page:{n}), (2) TTL strategy with jitter to prevent thundering herd during Flipkart Big Billion Days traffic spikes, (3) Cache-aside vs write-through analysis with recommendation, (4) Node.js code using ioredis showing GET with fallback to Postgres and SET with EX, (5) Cache invalidation via Redis pub/sub when vendor feed updates arrive, (6) Memory estimation (assume avg product JSON = 2KB). Format the output as a design document with TypeScript code snippets. Consider these constraints: p99 latency under 50ms for Bengaluru users, graceful degradation if Redis is down (circuit breaker), hot key detection for trending products during IPL season, and cost optimization (target under INR 40,000/month ElastiCache spend). Include Redis eviction policy recommendation (allkeys-lru vs volatile-lru).",
+      "tags": [
+        "redis",
+        "caching",
+        "performance",
+        "ecommerce",
+        "nodejs"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-005",
+      "title": "OTP-Based Mobile Login for Indian Users",
+      "prompt": "Act as a backend engineer with 5 years of experience building mobile-first Indian apps like Swiggy and Dream11. I need you to implement an OTP-based login flow for Indian mobile numbers using MSG91 or Gupshup SMS gateway. Here is the context: we're building a food delivery app targeting 10 million users, where 95% sign up via mobile OTP rather than email, and we must handle DND numbers and TRAI regulations. Please provide: (1) Express.js endpoints POST /auth/send-otp and POST /auth/verify-otp with request validation using Joi, (2) Rate limiting: max 3 OTPs per number per 10 minutes, max 5 verify attempts per OTP, (3) Redis storage for OTP with 5-minute expiry and hashed OTP values, (4) Integration code for MSG91 transactional SMS API with DLT template ID, (5) Fallback to voice OTP for non-smartphone users, (6) Post-verify JWT issuance and user creation/lookup logic. Format the output as Node.js code with .env template. Consider these constraints: TRAI DLT compliance (registered template), graceful handling of +91 country code variations (with/without 0 prefix), protection against SIM-swap attacks (device binding), cost per OTP (INR 0.15-0.25), and DPDP 2023 consent capture. Include a WhatsApp OTP fallback strategy using Meta Business API.",
+      "tags": [
+        "otp",
+        "authentication",
+        "sms",
+        "mobile",
+        "trai"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-006",
+      "title": "PostgreSQL Indexing Strategy for Search Queries",
+      "prompt": "Act as a PostgreSQL expert with 9 years of experience optimizing Indian marketplace databases like OLX and Quikr. I need you to design an indexing strategy for a classifieds search backend with complex filter combinations. Here is the context: we have a listings table with 20 million rows (columns: id, title, description, city, category_id, price, created_at, status, seller_id), and common queries filter by city + category + price range, ordered by created_at DESC. Please provide: (1) Analysis of current query patterns and EXPLAIN ANALYZE output interpretation, (2) CREATE INDEX statements for composite B-tree indexes (city, category_id, created_at DESC) and partial indexes for status='active', (3) GIN index on tsvector(title, description) for full-text search with Hindi and English stemming, (4) BRIN index on created_at for time-based analytics, (5) Index bloat monitoring queries, (6) VACUUM and REINDEX maintenance schedule. Format the output as SQL with psql \\d+ output examples. Consider these constraints: index size vs query speed tradeoff (target under 30% of table size for indexes), write amplification on high-volume INSERTs, connection pooling via PgBouncer in transaction mode, and Mumbai RDS db.r6g.2xlarge instance limits. Include pg_stat_statements queries to identify slow queries.",
+      "tags": [
+        "postgres",
+        "indexing",
+        "performance",
+        "search",
+        "query-optimization"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-007",
+      "title": "Idempotent Payment API for UPI Retries",
+      "prompt": "Act as a fintech backend engineer with 7 years of experience building payment systems at Razorpay or Cashfree. I need you to design an idempotent payment initiation API that handles UPI retry storms without creating duplicate charges. Here is the context: during IPL finals our UPI payment endpoint sees 20,000 RPS with 15% of requests being client retries due to flaky networks in Tier-2 cities. Please provide: (1) API design using Idempotency-Key header (client-generated UUID) stored in Redis with 24-hour TTL, (2) Go (Gin framework) handler code showing request hashing, response caching, and in-flight request locking, (3) Database schema for idempotency_keys table as fallback when Redis fails, (4) Handling of in-flight requests (return 409 Conflict or wait), (5) Testing strategy with concurrent retry simulation, (6) Observability hooks (Prometheus metrics for idempotency hit rate). Format the output as Go code with inline comments. Consider these constraints: NPCI UPI specification (T+1 settlement), RBI guidelines for payment aggregators, exactly-once semantics even if Redis fails over, handling of partial failures (bank debit succeeded, our DB write failed), and Mumbai region multi-AZ deployment. Include a state machine diagram showing transaction states (initiated, pending, success, failed, refunded).",
+      "tags": [
+        "idempotency",
+        "upi",
+        "payments",
+        "api-design",
+        "go"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-008",
+      "title": "Database Normalization for HR Management System",
+      "prompt": "Act as a data modeling consultant with 8 years of experience building HRMS platforms like Keka and Darwinbox. I need you to design a normalized database schema (3NF) for an Indian HR management system handling employees, payroll, leaves, and attendance. Here is the context: the system will serve 500 Indian SMEs with 50-2000 employees each, must handle Indian payroll components (Basic, HRA, Special Allowance, PF, ESI, PT, TDS), and track multi-state compliance. Please provide: (1) Entity-Relationship diagram described in text with 15+ tables, (2) CREATE TABLE DDL for employees, departments, designations, salary_components, payroll_runs, leave_balances, attendance_logs, (3) Junction tables for many-to-many relationships (employee_leaves, employee_salary_structures), (4) Computed columns or views for total CTC calculations, (5) Denormalization decisions with justification (e.g., caching current_salary on employees), (6) Sample queries for monthly payroll generation. Format the output as SQL with ER diagram in ASCII. Consider these constraints: Indian labor laws (Shops Act varies by state), PF/ESI percentages as of 2025 (12% PF, 0.75% ESI employee), TDS slabs FY 2024-25 new regime, multi-tenancy with tenant_id on every table, and audit columns (created_by, updated_at). Include data archival strategy for employees who left.",
+      "tags": [
+        "database-schema",
+        "normalization",
+        "hrms",
+        "payroll",
+        "postgres"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-009",
+      "title": "GraphQL API for Mobile Banking App",
+      "prompt": "Act as a GraphQL specialist with 5 years of experience at Indian neobanks like Jupiter and Fi Money. I need you to design a GraphQL schema for a mobile banking app showing accounts, transactions, and investments. Here is the context: we're building on Apollo Server + Node.js with a PostgreSQL backend, and need to support mobile clients on slow networks where over-fetching is costly. Please provide: (1) Complete SDL schema with types Account, Transaction, MutualFundHolding, User, (2) Query and Mutation definitions for getDashboard, getTransactions(accountId, filter, pagination), transferFunds, (3) DataLoader setup to prevent N+1 queries on Transaction.account resolver, (4) Field-level authorization using GraphQL Shield, (5) Pagination using Relay cursor spec, (6) Error handling with union types (TransferResult = TransferSuccess | InsufficientBalance | DailyLimitExceeded). Format the output as GraphQL SDL and TypeScript resolver code. Consider these constraints: RBI digital banking guidelines, masking of account numbers in responses (show last 4 digits), query complexity limits to prevent DoS, persisted queries for mobile clients on 2G/3G connections in rural areas, and DPDP 2023 for transaction narration PII. Include a depth limit and query cost analysis rule.",
+      "tags": [
+        "graphql",
+        "api-design",
+        "apollo",
+        "banking",
+        "fintech"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-010",
+      "title": "Session Management with Redis for Web App",
+      "prompt": "Act as a backend engineer with 6 years of experience at Indian EdTech companies like Unacademy and BYJU'S. I need you to implement server-side session management using Redis for a web application with 200,000 daily active users. Here is the context: we use Express.js, connect-redis, and ElastiCache in Mumbai region; sessions must persist across horizontal pod autoscaling events in EKS. Please provide: (1) express-session configuration with Redis store and secure cookie settings, (2) Session schema (userId, role, lastActivity, deviceInfo, csrfToken), (3) Sliding window expiry (30 min inactivity timeout, 8 hour absolute max), (4) Concurrent session handling (max 3 devices per user, kick oldest), (5) Session revocation on password change across all devices, (6) Monitoring via Redis INFO and session count metrics. Format the output as Node.js code with Redis commands. Consider these constraints: DPDP 2023 (no PII in session beyond userId), cookie SameSite=Lax for payment redirects, graceful handling during Redis failover (30-second read-only mode), GDPR-style session export for user data requests, and cost target under INR 15,000/month. Include load testing approach using k6 with 10k concurrent sessions.",
+      "tags": [
+        "sessions",
+        "redis",
+        "authentication",
+        "expressjs",
+        "scaling"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-011",
+      "title": "REST Error Handling Standards for Microservices",
+      "prompt": "Act as an API architect with 8 years of experience standardizing backends at Indian unicorns like CRED and Groww. I need you to define an error handling standard for REST APIs across 20+ microservices. Here is the context: our team uses Spring Boot (Java), FastAPI (Python), and NestJS (TypeScript), and we need a consistent error contract that mobile and web clients can parse. Please provide: (1) RFC 7807 Problem Details JSON format with Indian-specific extensions (trace_id, support_ticket_hint), (2) HTTP status code guidelines (when 400 vs 422, when 409 vs 412), (3) Error code taxonomy (e.g., PAYMENT_DECLINED_INSUFFICIENT_BALANCE, KYC_AADHAAR_MISMATCH), (4) Spring Boot @ControllerAdvice implementation with examples, (5) Sensitive data redaction rules (never leak PAN, Aadhaar, card numbers in error messages), (6) Localization strategy for Hindi/English error messages. Format the output as a specification document with code examples in 3 languages. Consider these constraints: DPDP 2023 (no PII in logs or error responses), retry-ability signals (Retry-After header), idempotency conflict reporting, observability (correlation ID propagation across services), and mobile client graceful degradation. Include a decision matrix for when to return error vs warning.",
+      "tags": [
+        "error-handling",
+        "rest",
+        "microservices",
+        "api-design",
+        "standards"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-012",
+      "title": "Pagination Strategies for Large Datasets",
+      "prompt": "Act as a senior backend engineer with 7 years of experience at Indian content platforms like ShareChat and Moj. I need you to implement three pagination strategies (offset, keyset, cursor) for a feed API serving 50 million users. Here is the context: our feed table has 2 billion rows in PostgreSQL partitioned by month, and offset pagination becomes unusable beyond page 100. Please provide: (1) SQL and Python (FastAPI) code for each strategy with trade-off analysis, (2) Keyset pagination using (created_at, id) composite cursor with base64 encoding, (3) Relay-style cursor connection format (edges, pageInfo, totalCount), (4) Handling of newly inserted rows during pagination (cursor stability), (5) Benchmark results comparing p50/p99 latency at page 1, 100, 1000, (6) Client-side usage examples with cURL. Format the output as a comparison document with code blocks. Consider these constraints: p99 under 100ms for Bengaluru users, mobile clients on 4G with limited memory (page size 20), support for 'jump to date' feature, infinite scroll UX requirements, and index design to support pagination queries. Include guidance on when to use offset (admin panels) vs keyset (infinite feeds) vs cursor (GraphQL).",
+      "tags": [
+        "pagination",
+        "postgres",
+        "api-design",
+        "performance",
+        "fastapi"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-013",
+      "title": "Webhook Receiver for Razorpay Payment Events",
+      "prompt": "Act as a backend engineer with 6 years of experience integrating Indian payment gateways at D2C brands like Mamaearth and boAt. I need you to build a robust webhook receiver for Razorpay payment events with signature verification and retry handling. Here is the context: we receive ~10,000 webhooks daily for events like payment.captured, payment.failed, refund.processed, and must update order state in PostgreSQL. Please provide: (1) Express.js endpoint with raw body parsing for HMAC-SHA256 signature verification using Razorpay webhook secret, (2) Idempotent event processing using event.id stored in processed_webhooks table, (3) Asynchronous processing via BullMQ queue with Redis, (4) Dead letter queue for events that fail 5 retries, (5) Reconciliation job that fetches missed events via Razorpay API, (6) Sample test payloads and verification script. Format the output as Node.js code with Postman collection. Consider these constraints: Razorpay's 5-second timeout requirement (return 200 immediately, process async), out-of-order event delivery, webhook replay attacks (timestamp validation), DPDP 2023 for customer email/phone in payloads, and monitoring via Datadog custom metrics. Include how to handle partial refunds and failed captures.",
+      "tags": [
+        "webhooks",
+        "razorpay",
+        "payments",
+        "nodejs",
+        "idempotency"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-014",
+      "title": "File Upload API with S3 Presigned URLs",
+      "prompt": "Act as a backend engineer with 5 years of experience at Indian SaaS platforms like Zerodha and Upstox. I need you to build a secure file upload API using AWS S3 presigned URLs for KYC document uploads (PAN, Aadhaar, bank statements). Here is the context: we handle 50,000 document uploads per day, average file size 2MB, stored in ap-south-1 S3 bucket with server-side encryption. Please provide: (1) FastAPI endpoint POST /documents/presign that returns a presigned PUT URL with 5-minute expiry, (2) Content-Type and file size constraints enforced via S3 conditions, (3) Virus scanning integration using ClamAV Lambda triggered by S3 event, (4) Database record creation upon S3 ObjectCreated event via SQS, (5) Presigned GET URL generation for document download with short expiry, (6) IAM policy minimizing S3 permissions. Format the output as Python code with CloudFormation snippets. Consider these constraints: RBI KYC master direction (document retention 10 years), DPDP 2023 (encryption at rest and in transit), file type validation (only PDF, JPG, PNG), malware scanning before downstream processing, S3 bucket policy blocking public access, and cost optimization via S3 Intelligent-Tiering. Include handling of failed uploads and orphaned objects cleanup.",
+      "tags": [
+        "s3",
+        "file-upload",
+        "fastapi",
+        "kyc",
+        "aws"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-015",
+      "title": "Rate Limiting Middleware with Redis",
+      "prompt": "Act as a backend platform engineer with 6 years of experience at Indian API-first companies like Setu and Decentro. I need you to implement a distributed rate limiting middleware using Redis for a public API platform. Here is the context: we expose 40 APIs to 500 client apps with tiered plans (Free: 100 req/min, Pro: 1000 req/min, Enterprise: 10000 req/min), running on NestJS behind an ALB. Please provide: (1) Token bucket algorithm implementation using Redis Lua script for atomicity, (2) NestJS guard reading API key from X-API-Key header and looking up tier, (3) Response headers X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset following RFC 6585, (4) 429 Too Many Requests response with Retry-After, (5) Burst handling (allow 2x rate for 10 seconds), (6) Bypass mechanism for internal services using allowlist. Format the output as TypeScript code with Lua scripts. Consider these constraints: clock skew across multi-AZ Redis replicas, graceful degradation if Redis is unreachable (fail-open vs fail-closed decision), per-endpoint vs global quotas, monitoring via Grafana dashboard, and protection against distributed key attacks (hashing API keys). Include load testing with Artillery showing 10k RPS handling.",
+      "tags": [
+        "rate-limiting",
+        "redis",
+        "nestjs",
+        "api-gateway",
+        "middleware"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-016",
+      "title": "Background Job Processing with BullMQ",
+      "prompt": "Act as a backend engineer with 5 years of experience at Indian logistics tech companies like Delhivery and Shiprocket. I need you to design a background job processing system using BullMQ and Redis for delayed and scheduled tasks. Here is the context: we process 200,000 shipment tracking updates daily, send OTP SMS, generate invoices, and run nightly reports, all from a Node.js/NestJS monolith. Please provide: (1) Queue architecture with named queues (notifications, reports, webhooks, reconciliation), (2) Job producer code showing addJob with priority, delay, and attempts, (3) Worker code with concurrency settings and graceful shutdown handling SIGTERM, (4) Retry strategy with exponential backoff (max 5 retries, 2s initial), (5) Job progress reporting and result storage, (6) Bull Board UI setup for monitoring. Format the output as TypeScript code with docker-compose.yml for Redis. Consider these constraints: Redis memory management (completed jobs cleanup), exactly-once semantics for financial jobs (invoice generation), cron-style scheduled jobs (daily at 2am IST), horizontal scaling of workers in Kubernetes, DLQ for permanently failed jobs, and observability via Prometheus metrics. Include guidance on choosing BullMQ vs Kafka vs SQS for Indian startups.",
+      "tags": [
+        "bullmq",
+        "redis",
+        "job-queue",
+        "nestjs",
+        "background-jobs"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-017",
+      "title": "OAuth2 Authorization Server for B2B SaaS",
+      "prompt": "Act as a security architect with 9 years of experience implementing identity systems at Indian B2B SaaS leaders like Freshworks and Zoho. I need you to implement an OAuth2 authorization server supporting authorization_code, client_credentials, and refresh_token grants. Here is the context: we're exposing APIs to 200 integration partners who need to access customer data on behalf of our mutual users, built on Go (Gin) with PostgreSQL for client storage. Please provide: (1) Database schema for oauth_clients, oauth_codes, oauth_tokens, oauth_scopes, (2) Authorization endpoint /oauth/authorize with PKCE support (S256), consent screen, and state parameter validation, (3) Token endpoint /oauth/token handling all three grant types, (4) JWT access tokens (RS256) with kid for key rotation, opaque refresh tokens, (5) Token introspection endpoint RFC 7662, (6) Scope-based authorization middleware. Format the output as Go code with OpenAPI spec. Consider these constraints: RFC 6749 and RFC 7636 compliance, DPDP 2023 consent logging (who consented, when, what scopes), refresh token rotation on use, revocation endpoint, protection against CSRF on authorize endpoint, and 15-minute access token TTL. Include JWKS endpoint for public key distribution and key rotation strategy every 90 days.",
+      "tags": [
+        "oauth2",
+        "authentication",
+        "authorization",
+        "go",
+        "jwt"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-018",
+      "title": "Saga Pattern for Distributed Order Processing",
+      "prompt": "Act as a distributed systems architect with 10 years of experience at Indian quick commerce companies like Zepto and Blinkit. I need you to implement the Saga pattern for order processing across inventory, payment, and delivery microservices. Here is the context: an order involves reserving inventory, charging the customer, assigning a rider, and updating warehouse stock; any step can fail and must compensate previous steps. Please provide: (1) Orchestration-based saga design with OrderOrchestrator service using a state machine (PENDING, INVENTORY_RESERVED, PAYMENT_CAPTURED, RIDER_ASSIGNED, COMPLETED, COMPENSATING, FAILED), (2) Event schema for each step and compensation (ReleaseInventory, RefundPayment, UnassignRider), (3) Kafka topics and partitioning by order_id for ordering guarantees, (4) Spring Boot code for orchestrator with idempotent event handlers, (5) Timeout handling (if payment service doesn't respond in 30s, compensate), (6) Observability with distributed tracing via OpenTelemetry. Format the output as Java code with sequence diagrams in text. Consider these constraints: exactly-once event processing, idempotent compensations, handling of partial failures during compensation, 10-minute delivery SLA requires fast rollback, RBI payment refund within T+3 days, and debugging via correlation IDs. Include comparison with choreography-based saga and when to prefer each.",
+      "tags": [
+        "saga",
+        "microservices",
+        "kafka",
+        "spring-boot",
+        "distributed-systems"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-019",
+      "title": "Circuit Breaker Pattern with Resilience4j",
+      "prompt": "Act as a reliability engineer with 8 years of experience at Indian fintech companies like Paytm and PhonePe. I need you to implement circuit breakers for downstream service calls using Resilience4j in a Spring Boot application. Here is the context: our payment service calls 8 external services (Razorpay, bank APIs, NPCI, KYC providers), and cascading failures during NPCI outages have caused 20-minute downtimes. Please provide: (1) Resilience4j configuration in application.yml with per-service circuit breaker settings (failure-rate-threshold 50%, sliding-window 100, wait-duration-open 30s), (2) @CircuitBreaker annotated service methods with fallback methods, (3) Combination with @Retry and @TimeLimiter for layered resilience, (4) Fallback strategies (cached response, degraded mode, queue for later), (5) Metrics export to Prometheus with Grafana dashboard JSON, (6) Integration tests using WireMock to simulate failures. Format the output as Java code with YAML configs. Consider these constraints: NPCI's occasional 500ms latency spikes, RBI requirement for payment attempt logging even on circuit open, avoiding thundering herd on circuit close, differentiating retryable vs non-retryable errors (400 vs 503), and user-facing error messages in Hindi/English. Include runbook for operators when circuits open frequently.",
+      "tags": [
+        "circuit-breaker",
+        "resilience4j",
+        "spring-boot",
+        "reliability",
+        "fintech"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-020",
+      "title": "Multi-Tenant Database Strategy for SaaS",
+      "prompt": "Act as a SaaS architect with 9 years of experience building multi-tenant platforms at Indian companies like Darwinbox and Chargebee. I need you to design and implement a multi-tenant database strategy in PostgreSQL supporting 5,000 tenants with varying data volumes. Here is the context: tenants range from 10-user SMBs to 5,000-user enterprises, data isolation is critical, and we use Django ORM. Please provide: (1) Comparison of three strategies (shared schema with tenant_id, schema-per-tenant, database-per-tenant) with trade-off table, (2) Recommended hybrid approach: shared schema for small tenants, dedicated schema for enterprises, (3) Django middleware setting PostgreSQL search_path per request based on tenant resolution (subdomain), (4) Row-level security policies as defense in depth, (5) Tenant onboarding and offboarding scripts, (6) Backup and restore strategy per tenant. Format the output as Python/Django code with SQL policies. Consider these constraints: DPDP 2023 data isolation and right to deletion, cross-tenant analytics without data leakage, connection pooling with PgBouncer challenges (search_path reset), noisy neighbor problem mitigation, tenant-specific backup for enterprise SLA, and migration strategy when a tenant grows. Include monitoring queries to detect accidental cross-tenant queries.",
+      "tags": [
+        "multi-tenancy",
+        "postgres",
+        "django",
+        "saas",
+        "architecture"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-021",
+      "title": "gRPC Service Design for Internal Microservices",
+      "prompt": "Act as a backend engineer with 7 years of experience at Indian unicorns like Meesho and Razorpay using gRPC for internal service communication. I need you to design a gRPC service for user profile management consumed by 15 internal microservices. Here is the context: we need sub-10ms p99 latency for profile lookups, and clients are written in Go, Java, and Python. Please provide: (1) Protocol Buffers schema (user.proto) with UserProfile message, request/response types, and pagination for batch operations, (2) Service definition with GetUser, BatchGetUsers, UpdateUser, StreamUserEvents (server streaming) RPCs, (3) Go server implementation with grpc-go, including interceptors for auth, logging, and metrics, (4) Client connection pooling and load balancing with DNS-based discovery, (5) Versioning strategy using reserved fields and proto package versioning, (6) Error handling using google.rpc.Status with localized details. Format the output as .proto files and Go code. Consider these constraints: backward compatibility across service versions, TLS with mTLS for internal calls, deadline propagation (ctx with timeout), field masks for partial updates, Mumbai region deployment in EKS, and cost of gRPC vs REST for mobile clients. Include buf.yaml for schema linting and breaking change detection.",
+      "tags": [
+        "grpc",
+        "protobuf",
+        "microservices",
+        "go",
+        "api-design"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-022",
+      "title": "Event Sourcing for Wallet Balance Service",
+      "prompt": "Act as a fintech backend architect with 10 years of experience at Indian wallet providers like Paytm and MobiKwik. I need you to design an event-sourced wallet service where the balance is computed from an immutable event log. Here is the context: we handle 5 million wallet users, each with recharge, transfer, cashback, and refund events, requiring exact balance reconciliation and full audit trail. Please provide: (1) Event schema (WalletCredited, WalletDebited, WalletFrozen, WalletRefunded) with version, aggregate_id, occurred_at, payload, (2) PostgreSQL events table with INSERT-only constraint and sequence numbering per aggregate, (3) Snapshot strategy every 1000 events to speed up rehydration, (4) Command handlers in Java/Spring Boot with optimistic concurrency control, (5) Read models (projections) updated via Kafka consumers for low-latency balance queries, (6) Temporal queries (balance at time T) for reconciliation. Format the output as Java code and SQL. Consider these constraints: RBI wallet guidelines (KYC-based limits), exactly-once projection updates, handling of event schema evolution (upcasting), PII in events (avoid storing card numbers), disaster recovery via event replay, and eventual consistency UX. Include CQRS pattern explanation and when event sourcing is overkill.",
+      "tags": [
+        "event-sourcing",
+        "cqrs",
+        "wallet",
+        "kafka",
+        "spring-boot"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-023",
+      "title": "Aadhaar eKYC Integration Flow",
+      "prompt": "Act as a KYC integration specialist with 6 years of experience at Indian fintech companies like Groww and Upstox. I need you to implement an Aadhaar-based eKYC flow using UIDAI's OTP-based authentication API via an authorized KYC User Agency (KUA). Here is the context: we onboard 20,000 users per day to open demat accounts, and must comply with SEBI and PMLA requirements. Please provide: (1) Flow diagram from user consent capture to KYC completion, (2) Node.js service integrating with AUA/KUA provider (like IDfy or Hyperverge) for OTP generation and verification, (3) XML request signing with digital certificate and XML encryption for Aadhaar data, (4) Secure storage of masked Aadhaar (last 4 digits only), consent artifact, and eKYC XML in encrypted S3, (5) Error handling for UIDAI failures (biometric mismatch, OTP timeout, service unavailable), (6) Audit logging for every API call. Format the output as TypeScript code with architecture diagram. Consider these constraints: UIDAI regulations (no storage of full Aadhaar number), DPDP 2023 consent management, offline eKYC fallback using Aadhaar Paperless KYC, RBI master direction on KYC, retention policies (10 years post account closure), and data residency (India-only). Include penetration testing checklist for eKYC endpoint.",
+      "tags": [
+        "aadhaar",
+        "kyc",
+        "uidai",
+        "compliance",
+        "fintech"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-024",
+      "title": "PostgreSQL JSONB for Dynamic Product Attributes",
+      "prompt": "Act as a database engineer with 7 years of experience at Indian marketplaces like Nykaa and FirstCry. I need you to design a PostgreSQL schema using JSONB columns for dynamic product attributes that vary across categories (electronics, apparel, beauty, baby). Here is the context: we have 2 million SKUs across 500 categories, and each category has 5-50 attributes; we need fast filtering and full-text search. Please provide: (1) Hybrid schema with fixed columns (id, name, price, category_id) and jsonb attributes column, (2) GIN index on attributes for containment queries (attributes @> '{\"brand\": \"Mamaearth\"}'), (3) Category-specific attribute validation using CHECK constraints or application-level JSON schema, (4) Example queries for filtering (WHERE attributes->>'color' = 'red' AND (attributes->>'ram_gb')::int >= 8), (5) Index strategy for path-specific queries using expression indexes, (6) Trade-offs vs EAV (entity-attribute-value) model. Format the output as SQL with Python validation code. Consider these constraints: query performance on 2M rows (target p99 under 50ms), schema evolution as new attributes are added, GST HSN code storage, multilingual attribute values (Hindi/English), and index bloat management. Include migration path from EAV if applicable and when to denormalize to fixed columns.",
+      "tags": [
+        "postgres",
+        "jsonb",
+        "database-schema",
+        "indexing",
+        "ecommerce"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-025",
+      "title": "Kafka Consumer with Exactly-Once Semantics",
+      "prompt": "Act as a streaming data engineer with 8 years of experience at Indian data-heavy companies like Flipkart and Swiggy. I need you to implement a Kafka consumer with exactly-once processing semantics for order events written to PostgreSQL. Here is the context: we produce 500,000 events/hour to an 'orders' topic with 20 partitions, and duplicate processing causes double-counted revenue. Please provide: (1) Kafka Streams or plain consumer approach analysis with recommendation, (2) Transactional outbox pattern using Debezium for producer side, (3) Go consumer code using confluent-kafka-go with manual offset commits after DB transaction, (4) Idempotency via event_id unique constraint in processed_events table, (5) Handling of rebalance events without duplicate processing, (6) Monitoring consumer lag with Burrow or Prometheus JMX exporter. Format the output as Go code with Kafka config. Consider these constraints: isolation.level=read_committed, enable.idempotence=true on producer, Kafka 3.x KRaft mode, Mumbai region MSK cluster, handling poison pills via DLT topic, consumer group rebalance during deployments, and at-least-once fallback if exactly-once impossible. Include a failure injection test plan using Chaos Monkey.",
+      "tags": [
+        "kafka",
+        "exactly-once",
+        "streaming",
+        "go",
+        "event-driven"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-026",
+      "title": "API Gateway with Kong for Microservices",
+      "prompt": "Act as a platform engineer with 7 years of experience deploying API gateways at Indian fintechs like CRED and Jupiter. I need you to configure Kong API Gateway for 30 microservices with authentication, rate limiting, and request transformation. Here is the context: we run Kong in DB-less mode on Kubernetes in Mumbai EKS, serving 50k RPS peak traffic, with backends in Go, Java, and Node.js. Please provide: (1) Kong declarative config (kong.yaml) with services, routes, and plugins, (2) JWT plugin for user authentication and key-auth plugin for partner APIs, (3) Rate limiting plugin with Redis backend (per-consumer quotas), (4) Request transformation plugin to inject X-User-Id header from JWT claims, (5) Response caching plugin for GET endpoints with 60s TTL, (6) Canary deployment using weighted routing. Format the output as YAML configs with kubectl commands. Consider these constraints: mTLS between Kong and backend services, CORS for web clients from multiple domains, WAF integration for OWASP Top 10, observability via Kong's Prometheus plugin, graceful degradation when a backend is down (5xx error handling), and cost vs AWS API Gateway comparison. Include blue-green deployment strategy for Kong upgrades.",
+      "tags": [
+        "kong",
+        "api-gateway",
+        "microservices",
+        "kubernetes",
+        "rate-limiting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-027",
+      "title": "Database Migration Strategy for Zero Downtime",
+      "prompt": "Act as a database reliability engineer with 8 years of experience at Indian scale-ups like Razorpay and Dream11. I need you to design a zero-downtime database migration strategy for adding columns, renaming tables, and backfilling data in PostgreSQL. Here is the context: we run a 500GB PostgreSQL 15 database on RDS Multi-AZ with 10,000 writes/sec, and migrations currently cause 2-minute downtimes. Please provide: (1) Expand-contract pattern for renaming a column (add new, dual-write, backfill, switch reads, drop old), (2) golang-migrate or Flyway migration scripts for each phase, (3) Backfill script using batched UPDATE with LIMIT and WHERE clause to avoid long locks, (4) Application code changes coordinated with migrations (feature flags), (5) pg_repack usage for reclaiming space without locks, (6) Rollback strategy for each phase. Format the output as SQL migrations with deployment runbook. Consider these constraints: avoiding ACCESS EXCLUSIVE locks, Mumbai region RDS instance limits, statement_timeout to prevent runaway queries, VACUUM ANALYZE after large backfills, replication lag monitoring on read replicas, and coordinating with CI/CD pipeline. Include a checklist for safe migrations and anti-patterns to avoid (like adding NOT NULL without default on large tables).",
+      "tags": [
+        "database-migration",
+        "postgres",
+        "zero-downtime",
+        "reliability",
+        "devops"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-028",
+      "title": "Elasticsearch for Product Search with Hindi Support",
+      "prompt": "Act as a search engineer with 6 years of experience at Indian e-commerce companies like Myntra and Ajio. I need you to design an Elasticsearch index for product search supporting English and Hindi queries with synonyms and typo tolerance. Here is the context: 1 million products, queries like 'lal saari' or 'red saree' should return the same results, and we run Elasticsearch 8.x on Elastic Cloud Mumbai region. Please provide: (1) Index mapping with multi-field for name (english analyzer, hindi analyzer, keyword), category, brand, attributes, (2) Custom analyzer using icu_normalizer and hindi stemmer, (3) Synonym file with mappings (saree,saari,sari; red,lal,laal), (4) Query DSL combining multi_match with fuzziness AUTO and bool filters for category/price, (5) Function score for popularity boost and recent additions, (6) Python client code (elasticsearch-py) with bulk indexing. Format the output as JSON mappings and Python code. Consider these constraints: Hindi transliteration challenges (Devanagari vs romanized), query response under 100ms p99, reindexing strategy without downtime using aliases, relevance tuning based on CTR data, memory sizing (heap under 30GB), and cost optimization with hot-warm architecture. Include A/B testing framework for ranking experiments.",
+      "tags": [
+        "elasticsearch",
+        "search",
+        "hindi",
+        "python",
+        "ecommerce"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-029",
+      "title": "Distributed Locking with Redis Redlock",
+      "prompt": "Act as a distributed systems engineer with 7 years of experience at Indian booking platforms like MakeMyTrip and BookMyShow. I need you to implement distributed locking using the Redlock algorithm for seat reservation during IPL ticket sales. Here is the context: 500,000 users try to book 60,000 seats in the first minute, and we must prevent double-booking while maintaining sub-200ms latency. Please provide: (1) Redlock implementation in Node.js using the redlock library with 5 independent Redis nodes, (2) Lock acquisition with 100ms TTL and automatic extension via watchdog, (3) Alternative approach using single Redis instance with SET NX EX (trade-offs explained), (4) Fencing tokens to prevent stale locks from causing issues, (5) Integration with seat reservation flow (acquire lock, check availability, reserve, release), (6) Handling of Redis failover during active locks. Format the output as TypeScript code with architecture diagram. Consider these constraints: Martin Kleppmann's criticism of Redlock (clock drift, GC pauses), alternatives like Zookeeper or etcd for stronger guarantees, observability (lock contention metrics), deadlock prevention via timeouts, user-facing error messages during contention, and cost vs correctness trade-offs. Include load testing results showing behavior under contention.",
+      "tags": [
+        "redis",
+        "distributed-locks",
+        "redlock",
+        "concurrency",
+        "nodejs"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-030",
+      "title": "CDN Caching Strategy with CloudFront",
+      "prompt": "Act as a performance engineer with 7 years of experience at Indian media companies like Hotstar and SonyLIV. I need you to design a CloudFront CDN caching strategy for static assets and dynamic API responses serving 10 million daily users. Here is the context: we stream video thumbnails, product images, and cache personalized homepage API responses for users in India, Southeast Asia, and the Middle East. Please provide: (1) Cache behavior configuration per path pattern (/static/*, /api/v1/feed/*, /api/v1/user/*), (2) Cache key customization with query strings and headers (Accept-Language, X-Region), (3) TTL strategy (static: 1 year immutable, dynamic: 60s with stale-while-revalidate), (4) Origin Request Policy forwarding only necessary headers, (5) Lambda@Edge or CloudFront Functions for A/B testing and request normalization, (6) Cache invalidation strategy (versioned URLs vs CreateInvalidation API). Format the output as CloudFormation/Terraform with explanation. Consider these constraints: Mumbai edge location availability, DPDP 2023 (no PII in cached responses), cache poisoning prevention, origin shield for fewer origin requests, cost optimization (CloudFront pricing per GB out in India), and handling of mobile client version fragmentation. Include monitoring via CloudWatch and cache hit ratio targets (above 85%).",
+      "tags": [
+        "cdn",
+        "cloudfront",
+        "caching",
+        "performance",
+        "aws"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-031",
+      "title": "Multi-Factor Authentication with TOTP",
+      "prompt": "Act as a security engineer with 6 years of experience at Indian fintech and healthtech companies like Policybazaar and Practo. I need you to implement TOTP-based multi-factor authentication (RFC 6238) for user logins using Google Authenticator or Microsoft Authenticator apps. Here is the context: we're adding MFA to a Python/Django application with 2 million users, required for accessing financial and health records per regulatory guidelines. Please provide: (1) Django models for UserMFASettings (secret, backup_codes, enabled_at, method), (2) Enrollment flow: generate TOTP secret, display QR code (otpauth URL), verify first code before enabling, (3) Login flow with MFA challenge after password verification, (4) 10 one-time backup codes (hashed storage) for device loss recovery, (5) Rate limiting on MFA attempts (5 per 5 minutes), (6) Recovery flow via identity verification. Format the output as Python/Django code using pyotp and qrcode libraries. Consider these constraints: DPDP 2023 (encrypt secrets at rest using Fernet), secure secret storage (never log or return after enrollment), clock skew tolerance (accept codes from previous/next 30s window), SMS OTP fallback for non-smartphone users, audit logging of MFA events, and compliance with RBI cybersecurity framework. Include end-to-end test cases and security review checklist.",
+      "tags": [
+        "mfa",
+        "totp",
+        "authentication",
+        "django",
+        "security"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-032",
+      "title": "Observability Stack with OpenTelemetry",
+      "prompt": "Act as a site reliability engineer with 8 years of experience at Indian unicorns like Razorpay and Zerodha. I need you to instrument a microservices architecture with OpenTelemetry for distributed tracing, metrics, and logs. Here is the context: we have 25 services in Go, Java, and Python deployed on EKS Mumbai, sending data to a self-hosted Grafana LGTM stack (Loki, Grafana, Tempo, Mimir). Please provide: (1) OpenTelemetry SDK setup for each language with automatic instrumentation for HTTP, gRPC, PostgreSQL, Redis, Kafka, (2) OTel Collector configuration (receivers, processors, exporters) as DaemonSet, (3) W3C traceparent header propagation across all services, (4) Custom span attributes (tenant_id, user_id with PII hashing), (5) Sampling strategy (head-based vs tail-based) to manage cost, (6) Grafana dashboard JSON with RED method (Rate, Errors, Duration). Format the output as YAML and code snippets. Consider these constraints: DPDP 2023 (scrubbing PII from spans and logs), high cardinality metric prevention, 15-day retention in Tempo, correlation between traces and logs via trace_id, cost target under INR 2 lakh/month, and onboarding runbook for new services. Include alert rules for SLO violations (p99 latency, error rate).",
+      "tags": [
+        "opentelemetry",
+        "observability",
+        "tracing",
+        "grafana",
+        "microservices"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-033",
+      "title": "CQRS Architecture for Order Management",
+      "prompt": "Act as a principal engineer with 12 years of experience architecting high-scale systems at Indian e-commerce giants like Flipkart and Myntra. I need you to design a CQRS (Command Query Responsibility Segregation) architecture for an order management system separating the write and read sides. Here is the context: we handle 10 million orders/month, writes go to PostgreSQL with strict consistency, and reads serve multiple projections (order history, analytics, recommendations) with eventual consistency acceptable. Please provide: (1) Architecture diagram in text showing command side (Aggregates, Command Handlers, Write DB), event bus (Kafka), and query side (projection workers, read stores like Elasticsearch and Redis), (2) Command handling in Spring Boot with aggregate versioning and optimistic locking, (3) Event publication using transactional outbox + Debezium CDC, (4) Three projection consumers (order_history in Postgres read replica, search index in Elasticsearch, dashboard cache in Redis), (5) Handling of replay and backfill for new projections, (6) Consistency guarantees and user-facing implications. Format the output as a design document with Java snippets. Consider these constraints: eventual consistency UX (show 'order placed' even before projections update), exactly-once projection updates, schema evolution of events, DPDP 2023 for PII in projections, operational complexity cost, and when CQRS is overkill (don't use for simple CRUD). Include rollout strategy from CRUD to CQRS incrementally.",
+      "tags": [
+        "cqrs",
+        "architecture",
+        "event-driven",
+        "spring-boot",
+        "microservices"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-034",
+      "title": "Geo-Distributed Database with Active-Active Replication",
+      "prompt": "Act as a database architect with 12 years of experience at Indian fintech and logistics companies like Delhivery and Razorpay. I need you to design an active-active multi-region database setup for low-latency reads and writes from Mumbai, Hyderabad, and Singapore regions. Here is the context: we serve 30 million users across India and SEA, need sub-50ms writes from all regions, and must handle conflicts on the same logical record. Please provide: (1) Comparison of CockroachDB, YugabyteDB, and Aurora Global Database with recommendation, (2) Schema design using region-aware tables (CockroachDB REGIONAL BY ROW), (3) Primary key strategy with region prefix to avoid cross-region writes for user-local data, (4) Conflict resolution approach (last-write-wins, CRDTs, application-level reconciliation), (5) Network topology and latency budget between regions, (6) Failover and split-brain handling. Format the output as a design document with SQL DDL. Consider these constraints: DPDP 2023 data residency for Indian PII, RBI data localization for payment data, cost of cross-region data transfer, 99.99% availability SLO, disaster recovery RTO under 5 minutes, handling of clock skew across regions using TrueTime-like mechanisms, and operational complexity vs benefits analysis. Include a fallback plan to single-region if active-active proves too complex.",
+      "tags": [
+        "distributed-database",
+        "multi-region",
+        "cockroachdb",
+        "architecture",
+        "replication"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-035",
+      "title": "Custom Protocol Buffers for High-Frequency Trading",
+      "prompt": "Act as a low-latency systems engineer with 10 years of experience at Indian stock brokerages like Zerodha and Upstox building trading infrastructure. I need you to design a custom binary protocol using Protocol Buffers for an order management system processing NSE/BSE market orders at 100,000 orders/second. Here is the context: we need sub-millisecond p99 serialization latency, connect to NSE NNF (Non-Neat Front End) protocol, and handle order modifications/cancellations. Please provide: (1) .proto schema for OrderRequest, OrderAck, OrderReject, MarketDataTick with optimized field ordering, (2) Use of fixed32/fixed64 for known-size fields, (3) Comparison with FlatBuffers and Cap'n Proto for zero-copy reads, (4) C++/Go benchmarking harness showing serialize/deserialize nanoseconds, (5) Schema versioning for forward compatibility during trading hours (no downtime), (6) Memory pool allocator to avoid GC pauses. Format the output as .proto files and Go code. Consider these constraints: SEBI algo trading regulations, NSE colocation latency budget (under 10 microseconds network), avoiding allocations in hot paths, Ring buffer for lock-free order queue, kernel bypass networking (DPDK/XDP) considerations, and trade reconciliation with exchange. Include a microbenchmark methodology and anti-patterns that hurt latency.",
+      "tags": [
+        "protobuf",
+        "low-latency",
+        "trading",
+        "performance",
+        "go"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-036",
+      "title": "Chaos Engineering for Payment Microservices",
+      "prompt": "Act as a resilience engineering lead with 10 years of experience at Indian fintechs like PhonePe and Razorpay. I need you to design a chaos engineering program to validate resilience of a payment processing microservices platform. Here is the context: we have 40 services on EKS Mumbai, and past incidents showed that RDS failover took 90 seconds and cascading failures caused 30-minute outages. Please provide: (1) Chaos experiment catalog using Chaos Mesh (pod kill, network latency, DNS failure, CPU stress, RDS failover), (2) Hypothesis template for each experiment (steady state, blast radius, rollback plan), (3) GameDay runbook for quarterly exercises simulating NPCI outage during IPL finals, (4) Integration with CI/CD to run chaos tests in staging before production, (5) Observability requirements (SLOs, dashboards, alerts) before running chaos, (6) Post-mortem template and learning loop. Format the output as a program document with YAML manifests. Consider these constraints: RBI payment availability requirements (99.95%), customer impact minimization via blast radius control, production chaos only during low-traffic windows (2-5 am IST), stakeholder buy-in process, regulatory reporting for payment incidents, and cost of engineer time vs outage prevention. Include a maturity model from Level 1 (staging chaos) to Level 5 (continuous production chaos).",
+      "tags": [
+        "chaos-engineering",
+        "resilience",
+        "microservices",
+        "sre",
+        "reliability"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-037",
+      "title": "Sharded MySQL for Billion-Row Messaging Table",
+      "prompt": "Act as a database scaling expert with 11 years of experience at Indian social/messaging platforms like ShareChat and Hike. I need you to design a sharding strategy for a MySQL messages table that has grown to 5 billion rows and is becoming unmanageable. Here is the context: 100 million users send 50 million messages/day, queries are always by conversation_id or user_id, and we run MySQL 8 on RDS. Please provide: (1) Shard key analysis (user_id vs conversation_id vs hash) with trade-offs, (2) Recommended approach: hash-sharded by conversation_id across 64 shards, (3) Vitess vs application-level sharding comparison, (4) Migration plan from single database using dual-writes and backfill, (5) Cross-shard query handling (user's message history across conversations) via aggregation service, (6) Rebalancing strategy when adding shards. Format the output as a design document with SQL DDL and Go code. Consider these constraints: online migration without downtime, 6-month timeline, maintaining foreign key integrity across shards (or accepting denormalization), backup strategy for 64 shards, operational tooling (shard-aware ORM), observability per shard, and cost vs NewSQL alternatives like TiDB. Include anti-patterns like sharding too early and when to prefer a document store.",
+      "tags": [
+        "sharding",
+        "mysql",
+        "scaling",
+        "architecture",
+        "database"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-038",
+      "title": "Zero-Trust Internal Service Authentication",
+      "prompt": "Act as a security architect with 12 years of experience at Indian fintech and healthtech companies. I need you to design a zero-trust authentication system for internal service-to-service communication replacing network-based trust. Here is the context: we have 60 microservices on EKS, historically trusted based on VPC, but a recent red team exercise exploited this assumption for lateral movement. Please provide: (1) SPIFFE/SPIRE architecture with workload identities (spiffe://company.in/ns/payments/sa/orders), (2) Istio service mesh with PeerAuthentication STRICT mTLS and AuthorizationPolicy, (3) Short-lived SVID certificates rotated every hour, (4) Policy-as-code using OPA for fine-grained authorization (orders service can call payments/charge but not payments/refund), (5) Bootstrap trust via node attestor (AWS EC2 instance identity), (6) Migration plan from network-based trust to zero-trust without downtime. Format the output as YAML manifests and architecture document. Consider these constraints: DPDP 2023 principle of least privilege, audit logging of all service-to-service calls, performance overhead of mTLS (target under 5% latency increase), disaster recovery when SPIRE server is down, compliance with RBI cybersecurity framework, and developer experience (avoid friction). Include threat model showing what attacks are mitigated and remaining residual risks.",
+      "tags": [
+        "zero-trust",
+        "mtls",
+        "spiffe",
+        "istio",
+        "security"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-039",
+      "title": "Custom Rate Limiter for UPI Transaction Bursts",
+      "prompt": "Act as a payments infrastructure engineer with 10 years of experience at NPCI-connected banks and PSPs. I need you to design a custom multi-dimensional rate limiter for UPI transactions handling bursty traffic during salary days and festivals. Here is the context: our UPI switch processes 5 million transactions/day with 10x spikes at month-end and Diwali, and we must enforce NPCI-mandated limits (20 transactions/day per VPA, INR 1 lakh/day) while handling organic bursts. Please provide: (1) Multi-dimensional sliding window limiter (per VPA, per bank, per merchant, global switch) using Redis sorted sets, (2) Hierarchical rate limiting (if VPA limit OK, check bank limit, check merchant limit), (3) Go implementation with Lua scripts for atomicity and sub-millisecond evaluation, (4) Soft limits vs hard limits (warn vs reject), (5) Real-time limit updates without restart via Redis config channel, (6) Fallback to local counter when Redis is unreachable (with reconciliation on recovery). Format the output as Go code with Lua scripts. Consider these constraints: NPCI specifications (strict compliance), exactly-correct counting (no under-counting during Redis failover), sub-10ms evaluation budget, handling of clock skew in distributed nodes, observability (rejected requests by dimension), and regulatory reporting of rate-limited transactions. Include capacity planning for IPL finals (20x baseline).",
+      "tags": [
+        "rate-limiting",
+        "upi",
+        "redis",
+        "go",
+        "fintech"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    },
+    {
+      "id": "developers-backend-040",
+      "title": "Event-Driven Architecture with Outbox Pattern",
+      "prompt": "Act as a distributed systems architect with 11 years of experience at Indian scale-ups like Meesho and Cred. I need you to design an event-driven architecture using the transactional outbox pattern to guarantee event delivery across microservices. Here is the context: we have 20 services that must publish events to Kafka whenever they update their PostgreSQL database, and lost events have caused data inconsistency bugs. Please provide: (1) Outbox table schema (id, aggregate_id, event_type, payload, occurred_at, published_at) with unique constraint on event_id, (2) Application-level outbox: write domain row + outbox row in same DB transaction, then background relay publishes to Kafka, (3) CDC-based outbox using Debezium Postgres connector watching outbox table, (4) Comparison of both approaches with recommendation per use case, (5) Handling of duplicate events on consumer side (idempotency via event_id), (6) Schema registry integration using Confluent Schema Registry with Avro. Format the output as SQL, YAML configs, and Java code. Consider these constraints: exactly-once publication (at-least-once with idempotent consumers), Kafka topic partitioning by aggregate_id for ordering, outbox table cleanup (delete published events after 7 days), monitoring relay lag, Debezium replication slot management (avoid WAL bloat), and rollout strategy for existing services. Include failure modes (Kafka down, Debezium crash, DB replica lag) and recovery procedures.",
+      "tags": [
+        "outbox-pattern",
+        "event-driven",
+        "kafka",
+        "debezium",
+        "microservices"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "backend"
+    }
+  ]
+}

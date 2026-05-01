@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "social-media-creators-twitter-x-001",
+      "title": "Viral Indian Finance Thread Writer",
+      "prompt": "Act as a senior Twitter/X thread writer with 7 years of experience growing finance creator accounts in India (similar to Akshat Shrivastava and Deepak Shenoy). I need you to write a 12-tweet thread on a personal finance topic I will provide (default: \"Why most Indian middle-class families are losing 8-12 lakhs to underperforming LIC endowment policies\"). Here is the context: my audience is 25-40 year old Indian professionals earning 8-30 LPA, mostly Tier-1 and Tier-2 cities, who follow CA Rachana Ranade and ET Money. Please provide: (1) A scroll-stopping hook tweet under 240 characters with a specific INR number, (2) Tweets 2-11 each under 270 characters with one insight per tweet, using Indian examples (HDFC, SBI, ICICI Pru), (3) Tweet 12 with a soft CTA to bookmark, (4) Three alternative hook variations A/B/C, (5) Suggested 2-3 emoji placements per tweet (sparingly), (6) A reply-bait final question. Format the output as numbered tweets with character counts in brackets. Consider these constraints: avoid SEBI-violation language like \"guaranteed returns\", use INR not USD, reference NPS/EPF/ELSS where relevant, and ensure the thread reads like Kunal Shah's style — punchy, observational, slightly contrarian. The hook MUST work without the rest of the thread.",
+      "tags": [
+        "thread",
+        "viral",
+        "finance",
+        "indian-creators"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-002",
+      "title": "Tweet Hook Generator with 10 Frameworks",
+      "prompt": "Act as a viral tweet copywriter who has studied 5,000+ Indian Twitter/X posts that crossed 10K likes. I need you to generate 20 hook tweets for a topic I provide (default: \"the hidden cost of working at an Indian unicorn startup\"). Here is the context: I'm an Indian creator with 8K followers, my audience is startup employees, founders, and VCs in Bengaluru, Mumbai, and Delhi NCR. Please provide hooks across these 10 proven frameworks (2 per framework): (1) Contrarian opinion (\"Everyone says X. They're wrong.\"), (2) Specific number reveal (\"I spent Rs 47 lakh learning this\"), (3) Personal confession, (4) Negative experience reframe, (5) Behind-the-scenes peek, (6) Comparison (Indian vs global), (7) List tease (\"7 things nobody tells you\"), (8) Question hook, (9) Story opener (\"In 2019, I...\"), (10) Pattern interrupt (\"Unpopular truth:\"). Format the output as a markdown table with columns: Framework, Hook Text, Character Count, Predicted Engagement (Low/Med/High), Reason it works. Consider these constraints: each hook must be under 270 characters, include INR figures where relevant, avoid generic \"motivational\" tone, and feel like it was written by someone who actually lived in India — reference EMIs, family pressure, layoffs at Indian startups, H1B return migration where natural.",
+      "tags": [
+        "tweet-hook",
+        "viral",
+        "frameworks",
+        "engagement"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-003",
+      "title": "Cricket Commentary Live-Tweet Pack",
+      "prompt": "Act as a cricket Twitter/X creator with 100K+ followers who live-tweets IPL and India matches in the style of accounts like @CricCrazyJohns. I need you to create a live-tweet pack of 25 tweets for an upcoming India vs Australia ODI/T20I match (specify: powerplay, middle overs, death overs, post-match). Here is the context: my audience is 18-35 year old Indian cricket fans, mix of Hindi-English code-switching, peaks engagement during wickets and sixes. Please provide: (1) 5 pre-match tweets (toss, playing XI takes, hot takes), (2) 10 in-match reaction tweets (template format with [PLAYER] and [EVENT] placeholders for fast typing), (3) 5 wicket/six celebration tweets, (4) 3 controversy/umpiring tweets, (5) 2 post-match hot takes. Format as a copy-paste-ready Notion-style list with category headers. Consider these constraints: each tweet under 270 characters, use cricket Twitter slang (\"GOAT\", \"abki baar\", \"finisher mode on\"), reference current Indian players (Rohit, Kohli, Bumrah, Gill, Surya, Hardik), include 2-3 Hinglish tweets, avoid offensive nationalism, and design each tweet to be quote-tweetable. Add a column showing which tweets work as memes vs analysis.",
+      "tags": [
+        "tweet-hook",
+        "cricket",
+        "engagement",
+        "live-content"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-004",
+      "title": "Indian Startup Founder Thread Repurposer",
+      "prompt": "Act as a content repurposing specialist for Indian startup founders on Twitter/X. I need you to convert one piece of long-form content (a podcast transcript, blog post, or YouTube video script that I'll paste) into 5 distinct Twitter/X formats. Here is the context: the founder is in the SaaS/D2C/fintech space, audience is Indian operators, VCs at Sequoia/Accel/Blume, and aspiring founders in Bengaluru. Please provide: (1) One 15-tweet teardown thread with a strong hook, (2) Three standalone tweets (under 270 chars) extracting the spiciest insights, (3) One \"4-image carousel\" tweet (describe each image), (4) One quote tweet template for boosting reach via founder peers, (5) One 250-char LinkedIn-style reflection tweet for the post-X-Premium long-form format. Format the output with clear section headers, character counts, and a \"posting schedule\" suggesting day/time (IST) for each piece across 5-7 days. Consider these constraints: maintain the founder's voice (provide a 3-line voice guide based on input), reference Indian context (Series A in INR not USD, GST, ESOP exits, Flipkart/Zerodha references), avoid jargon-heavy content, and ensure each piece can stand alone if someone only sees one. Include 2 \"reply guy\" comment templates for engaging influencers like @kunalb11 or @nikhilkamathcio.",
+      "tags": [
+        "repurposing",
+        "thread",
+        "startup",
+        "founder"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-005",
+      "title": "Election Cycle Hot Take Generator",
+      "prompt": "Act as a political commentator for Indian Twitter/X with deep understanding of Lok Sabha and state election cycles, similar in style to Sanjeev Sanyal but more accessible. I need you to generate 15 nuanced hot takes on a current political/policy event I'll specify (default: a Union Budget announcement). Here is the context: my audience is 28-45 year old urban Indians, policy-curious but not partisan, follow accounts like @LiveLawIndia and @ShashiTharoor. Please provide: (1) 5 \"data-driven\" takes citing specific numbers (CMIE, RBI, MoSPI), (2) 5 \"historical context\" takes referencing past 5-10 years, (3) 3 contrarian takes (steel-manning the opposite view), (4) 2 \"big picture\" takes connecting to global trends. Format as numbered tweets, under 280 characters each, with a 1-line note on which audience segment it appeals to. Consider these constraints: avoid Godi/Khan Market clichés, do not name-call any party, cite at least one verifiable statistic per tweet, write in dignified Tharoor-esque English (but accessible — no \"floccinaucinihilipilification\"), avoid communal angles entirely, and ensure each take could survive a quote-tweet pile-on from either side. Add a risk score (1-10) for controversy on each tweet.",
+      "tags": [
+        "tweet-hook",
+        "viral",
+        "politics",
+        "engagement"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-006",
+      "title": "First 90 Days X Premium Growth Plan",
+      "prompt": "Act as a Twitter/X growth strategist who has scaled 12 Indian creator accounts from 0 to 25K followers within 6 months in 2024-2025. I need you to build a 90-day content + growth plan for an Indian creator I describe (default: a 32-year-old CA from Pune wanting to grow a personal-finance audience and currently at 800 followers with X Premium subscribed). Here is the context: 5 hours per week available, no video, English + occasional Hindi, monetization goal of Rs 50,000/month via X Ads Revenue + brand deals + a Rs 999 cohort by month 4. Please provide: (1) Niche-narrowing exercise (3 sub-niches, pick one with rationale), (2) 30 starter content pillars (10 each: thread topics, tweet hooks, reply-guy bait), (3) Posting cadence (tweets/day, threads/week, replies/day) with IST time slots, (4) List of 50 Indian accounts to engage with daily (categorized: peers, mid, large), (5) Weekly metric targets for 12 weeks (followers, impressions, profile visits, link clicks), (6) Monetization milestones at day 30/60/90. Format as a complete playbook with weekly checklist tables. Consider these constraints: realistic for working professional, ICAI-compliant for CA, focus on long-term audience building over viral spikes, INR-denominated revenue projections, and include 3 \"avoid these mistakes\" warnings specific to Indian Twitter culture.",
+      "tags": [
+        "engagement",
+        "growth",
+        "strategy",
+        "x-premium"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-007",
+      "title": "Hinglish Thread for Tier-2 Audience",
+      "prompt": "Act as a Twitter/X creator who writes Hinglish threads with high engagement among Tier-2 and Tier-3 Indian audiences, similar in tone to @TheSkinDoctor13 or @gabbbarsingh. I need you to write a 10-tweet Hinglish thread on a topic I'll provide (default: \"Indian middle-class parents ke 7 financial blunders jo unke bachchon ki life barbaad kar dete hain\"). Here is the context: audience is 22-38 year old, mix of Hindi heartland (Lucknow, Indore, Jaipur, Patna) and Hindi-Marathi-Gujarati cities, comfortable with Roman-script Hindi. Please provide: (1) Hook tweet that triggers a strong family-relatable emotion (under 240 chars), (2) Tweets 2-9 each under 270 chars with one specific point and an example using common Indian names (Sharma uncle, Verma ji, Pinky aunty), (3) Final tweet with a soft CTA (RT karo / save karo), (4) Three alternative hooks for A/B testing, (5) Notes on which lines to bold/italicize for visual rhythm. Format as numbered tweets with character counts. Consider these constraints: maintain natural code-switching (don't force English words awkwardly), avoid over-Sanskritized Hindi or over-Urduized Hindi, no preachy tone, reference real Indian financial products (PPF, FD, LIC, chit funds, gold loans), and ensure the thread is screenshot-able for Instagram/WhatsApp forwards.",
+      "tags": [
+        "thread",
+        "hinglish",
+        "tier-2",
+        "viral"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-008",
+      "title": "Reply Guy Engagement Script Pack",
+      "prompt": "Act as a Twitter/X engagement strategist who has helped 30+ Indian creators get featured in replies under tweets by @nikhilkamathcio, @kunalb11, @deepakshenoy, @WarikooNaman, and @gauravsabnis. I need you to write 25 reply templates I can deploy across the next 30 days. Here is the context: I'm an Indian operator with 2K followers, niche is product/tech/business, want to be noticed by mid-and-large Indian accounts without sounding sycophantic. Please provide: (1) 5 \"add data point\" replies (with placeholders for stats), (2) 5 \"steel-man counter\" replies that disagree respectfully, (3) 5 \"personal anecdote\" replies (template with [INDUSTRY/CITY/INR] blanks), (4) 5 \"quick frame extension\" replies that take the OP's point further, (5) 5 \"specific question\" replies that invite a back-and-forth. Format as a markdown table with columns: Type, Template, When to use, Example use case. Consider these constraints: each reply under 270 characters, never start with \"Great point!\" or \"This!\", never use blue tick emoji or excessive emojis, do not pitch products or DMs, and assume the OP is busy and only replies to the most distinctive 1-2 comments. Add a 5-line guide on which tweets to ignore (engagement bait, controversy, low signal).",
+      "tags": [
+        "engagement",
+        "reply-strategy",
+        "growth",
+        "indian-creators"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-009",
+      "title": "Long-form X Premium Article Writer",
+      "prompt": "Act as a long-form Twitter/X writer optimizing for the X Premium long-post feature (up to 25,000 chars), with experience converting paid newsletter writers into Twitter natives. I need you to write a 1,500-1,800 word X long-post on a topic I'll specify (default: \"How India's UPI quietly became the most copied financial infrastructure in the world\"). Here is the context: my audience is global tech and finance Twitter that respects Balaji Srinivasan-style long takes but wants Indian primary sources. Please provide: (1) A hook tweet (the visible portion before \"Show more\") under 270 chars that earns the click, (2) The full long post with H2 subheadings every 250-350 words, (3) 4-6 specific data points with sources (NPCI, RBI, BIS, MeitY), (4) A \"key takeaways\" bullet list near the end, (5) A final CTA to follow + bookmark, (6) 3 quote-tweet-friendly excerpt suggestions. Format the post in Twitter-friendly short paragraphs (1-3 sentences each). Consider these constraints: cite verifiable Indian sources, contrast UPI with US/EU/SEA payment systems where helpful, avoid \"chest-thumping\" tone, include one counter-argument paragraph, and ensure the entire post is readable on mobile without thumb fatigue. Provide an SEO-aware title that also works as a tweet.",
+      "tags": [
+        "thread",
+        "long-form",
+        "x-premium",
+        "analysis"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-010",
+      "title": "30-Day Tweet Calendar for Founders",
+      "prompt": "Act as a personal-brand strategist for Indian startup founders on Twitter/X, with experience scaling accounts like @nithin0dha and @CaratLane founders. I need you to build a 30-day tweet calendar for a founder I describe (default: a Series A SaaS founder in Bengaluru, target audience is Indian SMB owners and global SaaS Twitter). Here is the context: founder has 4K followers, 20 mins/day, wants to position around \"Indian SaaS for the world\" narrative, ICP is HR/Finance heads at Indian mid-market companies. Please provide: (1) 5 content pillars with weighting (e.g., Build in public 30%, ICP pain points 25%, Frameworks 20%, Hot takes 15%, Personal 10%), (2) A day-by-day calendar (Day 1-30) with date, format (tweet/thread/poll/reply), pillar, hook line, and best post time IST, (3) 4 thread outlines fully fleshed out, (4) 8 tweet hooks ready to post, (5) Weekly review questions. Format as a markdown table with the calendar plus separate sections for thread outlines and hooks. Consider these constraints: 60% English / 40% Hinglish-English mix optional, avoid flexing fundraising amounts in INR/USD repeatedly, include 2 vulnerable founder posts, plan around 1 Indian holiday/cultural moment in the 30 days (Diwali/Holi/IPL final/Budget day), and protect the founder from controversial political topics.",
+      "tags": [
+        "engagement",
+        "calendar",
+        "founder",
+        "strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-011",
+      "title": "Viral Framework Decoder Thread",
+      "prompt": "Act as a Twitter/X content analyst who studies viral threads from Indian creators. I need you to write a meta-thread that decodes WHY a specific Indian thread went viral (provide thread text + likes/RTs; default: a 500K-impression thread by an Indian creator on Zerodha's bootstrapping). Here is the context: my audience is aspiring creators (1K-5K followers) who want to learn structure not just admire output. Please provide: (1) A 14-tweet thread that breaks down the viral piece, (2) Tweet 1 hook that earns the click without sounding click-baity, (3) Tweets 2-12 each isolating one structural element (hook, opening rhythm, specificity, payoff, social proof, controversy lever, CTA), (4) Tweet 13 with a templated framework readers can copy, (5) Tweet 14 CTA. Format as numbered tweets with character counts and a 2-line \"framework name\" suggestion at the end. Consider these constraints: don't mock the original creator, give credit clearly, include screenshots prompts (describe what to screenshot), use Indian creator examples (Akshat Shrivastava, Ankur Warikoo, Nitin Kamath, Sunil Kamath threads), and ensure the meta-thread itself follows the framework it teaches. Add a \"watch-out\" warning about cargo-culting frameworks without original insight.",
+      "tags": [
+        "thread",
+        "viral",
+        "frameworks",
+        "analysis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-012",
+      "title": "IPL Match Live-Tweet Engagement Engine",
+      "prompt": "Act as a sports Twitter/X strategist for Indian creators during IPL season. I need you to design a 4-hour live-tweet engagement engine for one IPL match (specify teams; default: CSK vs MI). Here is the context: my account has 12K followers, mostly cricket-loving 20-35 year old Indians, I want to go from 200 to 5,000 impressions/tweet during the match without spamming. Please provide: (1) Pre-match phase (T-2 hrs to toss): 6 tweets with toss predictions, playing XI takes, fantasy XI tip, (2) Powerplay phase: 8 reactive tweet templates with [BATSMAN], [BOWLER], [RUNS] placeholders, (3) Middle overs: 6 tweets including 1 poll, 1 quote-tweet of a big account, 2 stat-based tweets, (4) Death overs: 5 high-energy tweets, (5) Post-match: 4 tweets including MOTM take, fantasy review, and a thread teaser for next day. Format as a timeline (chronological), with character counts and 1-line \"why this works\" notes. Consider these constraints: each tweet under 270 chars, mix English/Hinglish 70/30, no team-bashing, reference real player stats (career strike rate, recent form), include 2 meme-friendly tweets, and design 1 tweet specifically for a likely viral moment (last-ball six, hat-trick, run-out controversy).",
+      "tags": [
+        "tweet-hook",
+        "cricket",
+        "engagement",
+        "live-content"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-013",
+      "title": "Indian Personal Story Thread Builder",
+      "prompt": "Act as a narrative Twitter/X writer specializing in personal-story threads that go viral in Indian creator circles, in the style of @WarikooNaman or @gauravsabnis. I need you to convert a personal experience I'll describe (default: \"I quit my Rs 42 LPA job at a US MNC to start a D2C brand and almost went broke in 14 months\") into a 14-tweet story thread. Here is the context: my audience is 25-40 year old Indian professionals weighing similar career decisions. Please provide: (1) A hook tweet that establishes stakes within 270 chars (include INR), (2) Tweets 2-13 building the story arc (set-up, inciting incident, attempt, low point, turn, resolution, lesson), each under 270 chars, (3) Tweet 14 with a generalized lesson and CTA to follow, (4) 2 alternative hook variants, (5) 3 \"micro-cliffhanger\" lines to embed at tweet ends to maintain reading momentum, (6) A list of 5 emotional beats to amplify. Format as numbered tweets with character counts. Consider these constraints: avoid hero narrative or finance-flexing, name Indian companies/cities specifically (Bangalore, Mumbai, MNC name optional), include 1-2 vulnerable lines (panic attack, parent disappointment, EMI fear), do not exaggerate, and end with a question that invites readers to share their own story.",
+      "tags": [
+        "thread",
+        "storytelling",
+        "viral",
+        "personal-brand"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-014",
+      "title": "Twitter Bio Optimizer for Indian Creators",
+      "prompt": "Act as a Twitter/X bio strategist who has rewritten profiles for 50+ Indian creators that subsequently 10x'd their follower-conversion rate. I need you to generate 8 bio variants for an Indian creator I'll describe (default: a 28-year-old product manager in Bengaluru sharing PM frameworks, currently at 1.2K followers). Here is the context: my profile-visit-to-follow rate is 2% and I want to push it past 8%. Please provide: (1) 8 bio variants under 160 characters each, across these styles: (a) Specific outcome promise, (b) Numbered credentials, (c) Curiosity gap, (d) Audience-named, (e) Personality-led, (f) Combo (work + side project), (g) Hinglish, (h) Tharoor-esque vocabulary, (2) For each, a predicted CTR rationale, (3) A matching \"pinned tweet\" suggestion, (4) Profile photo + banner direction, (5) Location field optimization (e.g., \"Bengaluru -> Worldwide\" experimentation), (6) Link strategy (Topmate vs Substack vs personal site). Format as a comparison table. Consider these constraints: include INR pricing if mentioning offerings (Topmate consults), avoid generic \"helping you grow\" filler, no recursive references (\"writing about writing\"), do not promise ROI numbers, and ensure each bio passes a 2-second \"would I follow this?\" gut test.",
+      "tags": [
+        "engagement",
+        "growth",
+        "profile",
+        "indian-creators"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-015",
+      "title": "Newsletter to Twitter Thread Repurposer",
+      "prompt": "Act as a content repurposing expert who turns Indian newsletter writers (Substack/Beehiiv) into Twitter/X powerhouses, similar to how @MarioGabriele or Indian writers like @PallaviAiyar convert essays. I need you to convert a newsletter essay I'll paste into 3 different Twitter formats. Here is the context: the essay is 1,800-2,500 words, audience overlap is 60% policy/business readers in India and 40% global. Please provide: (1) One 18-tweet thread with strong hook, mid-thread momentum, and CTA to subscribe, (2) Three standalone tweet \"highlight reels\" (under 270 chars each) extracting the most quotable ideas, (3) One X Premium long-post version (1,200 words) with 4 H2 subheadings, (4) A 30-day staggered posting schedule mixing all three formats with IST time slots, (5) 5 reply-template angles I can use to engage when others share my newsletter. Format with section headers, character counts, and a \"voice retention\" 3-line summary so the writer's signature style isn't lost. Consider these constraints: maintain analytical tone (no hype emojis), keep INR/Indian context where relevant, link to the newsletter only twice across the campaign (not in every tweet), avoid duplicate sentences across formats, and add one quote-tweet template for amplifying via 2-3 peer writers.",
+      "tags": [
+        "repurposing",
+        "thread",
+        "newsletter",
+        "long-form"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-016",
+      "title": "Polarizing Tweet Hook Lab",
+      "prompt": "Act as a Twitter/X hook strategist trained on the highest-engagement Indian creator tweets from 2023-2025. I need you to generate 15 polarizing-but-defensible tweet hooks on a topic I'll specify (default: \"the obsession with FAANG jobs among Indian engineering students\"). Here is the context: my audience is 22-32 year old Indian tech workers, I want strong engagement without becoming a rage-bait account. Please provide: (1) 15 hooks across 5 polarity levels (3 each: spicy-1 mild, spicy-2, spicy-3, spicy-4, spicy-5 max polarizing-but-true), (2) For each hook: character count, predicted controversy quotient (1-10), the strongest counterargument, and a 1-line follow-up tweet to defend the take, (3) 3 hooks that work as quote-tweets of trending tweets, (4) 2 reply-bait questions, (5) A list of 4 lines I should NOT post (too far). Format as a structured table. Consider these constraints: hooks must be defensible with at least 1 data point or lived experience, avoid attacking specific identities (caste, religion, region), use INR figures where relevant, do not target specific named individuals, and ensure each hook would pass a Shashi Tharoor-style debate test even if uncomfortable. Add a \"rate-limit\" note: do not post more than 1 spicy-4/5 tweet per week.",
+      "tags": [
+        "tweet-hook",
+        "viral",
+        "frameworks",
+        "engagement"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-017",
+      "title": "Twitter Poll Strategy for Engagement",
+      "prompt": "Act as a Twitter/X engagement specialist who has run 200+ polls for Indian B2B creators with 15-30% participation rates (vs 1-3% average). I need you to design a 12-poll engagement campaign for a creator I'll describe (default: an Indian freelance designer with 3K followers in the SaaS UI niche). Here is the context: polls are underused by serious creators but compound profile visits and notification triggers. Please provide: (1) 12 poll prompts with 4 options each, spanning these types: opinion (3), prediction (2), preference (2), this-or-that (2), self-categorization (3), (2) For each poll: ideal posting day/time IST, character count, the \"why this poll triggers shares\" reason, and a follow-up tweet template to post once results are in, (3) 3 controversial poll variants (use sparingly), (4) A 4-week posting cadence (3 polls/week), (5) A guide for converting poll responders into followers via reply engagement. Format as a calendar table. Consider these constraints: include Indian context in at least 6 polls (Bengaluru vs Mumbai, Razorpay vs Stripe, Notion vs Obsidian for Indian users, etc.), avoid yes/no polls (4 options always), do not use polls to fish for opinions you'll then mock, and ensure polls feel like genuine curiosity not engagement-farming.",
+      "tags": [
+        "engagement",
+        "polls",
+        "growth",
+        "interactive"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-018",
+      "title": "Quote Tweet Amplifier Templates",
+      "prompt": "Act as a Twitter/X amplification strategist who has helped Indian creators get noticed by accounts 100x their size via thoughtful quote tweets. I need you to write 20 quote-tweet templates I can use over the next 30 days. Here is the context: I'm an Indian operator with 1.5K followers in fintech, and I want to be in the QT mentions of accounts like @deepakshenoy, @nithin0dha, @sadhakaa, @Mihir_Shah, and other Indian fintech voices. Please provide templates for: (1) 5 \"add a layer\" QTs (extending the OP's idea), (2) 5 \"steel-man + extend\" QTs (agree but push further), (3) 5 \"data point add-on\" QTs (cite Indian source: NPCI, RBI, SEBI), (4) 3 \"frame challenge\" QTs (politely reframe), (5) 2 \"Indian context\" QTs (when global commentary misses India angle). Format as a table with: Template, Use case, When to deploy, Example with placeholder filled. Consider these constraints: each QT under 270 chars, never make the OP look bad, avoid \"+1\" or \"This!\" replies, do not piggy-back during the OP's controversies, do not QT the same account >2x/month, and add a 3-line guide on what to do AFTER the QT (engage replies in your own QT thoughtfully).",
+      "tags": [
+        "engagement",
+        "amplification",
+        "growth",
+        "indian-creators"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-019",
+      "title": "Indian Festival Tweet Pack Generator",
+      "prompt": "Act as a culturally-fluent Twitter/X copywriter who creates non-cringe festival content for Indian creators. I need you to generate a tweet pack for a specific Indian festival (specify: Diwali / Holi / Eid / Christmas / Onam / Pongal / Ganesh Chaturthi / Durga Puja; default: Diwali). Here is the context: I'm a B2B SaaS founder with 5K followers, want to post tasteful festival content that resonates without sounding like a brand-account marketer. Please provide: (1) 1 hero tweet for festival day (under 240 chars), (2) 5 lead-up tweets (3-5 days before) with stories, traditions, or reflections, (3) 3 \"work x festival\" angles (e.g., what Diwali teaches founders), (4) 2 customer/employee appreciation tweet templates, (5) 1 thread outline (8 tweets) on a deeper cultural angle, (6) 3 \"what NOT to post\" warnings specific to that festival. Format as a sequenced calendar with dates and IST times. Consider these constraints: avoid generic Hallmark wishes (\"Happy Diwali to all!\"), respect regional variations (Diwali differs in Maharashtra vs Bengal vs Tamil Nadu), no commercial hard-sell, no promo codes in lead tweets, include 1 Hinglish-friendly tweet, do not use AI-generated festival images uncritically, and ensure cultural references are accurate (e.g., correct Lakshmi Puja date for that year).",
+      "tags": [
+        "tweet-hook",
+        "festival",
+        "cultural",
+        "engagement"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-020",
+      "title": "Indian Budget Day Live-Thread Pack",
+      "prompt": "Act as an Indian finance Twitter/X commentator with experience covering Union Budget day in real-time, in the style of @LathaVenkatesh or @MihirShah. I need you to create a complete live-thread pack for India's next Union Budget (specify FY; default: FY26 Budget). Here is the context: I'm a finance creator with 8K followers, audience is retail investors, MFD distributors, and CAs. Please provide: (1) Pre-budget primer thread (10 tweets), (2) Live reaction tweet templates (15) with placeholders for [SECTOR/NUMBER/MINISTER QUOTE], categorized into: tax slabs, capex, fiscal deficit, sectoral allocations, market reactions, (3) Post-budget summary thread (12 tweets) with winners/losers, (4) 3 long-form X Premium post outlines (one each: tax angle, market angle, fiscal sustainability), (5) 5 contrarian hot takes for the days following, (6) Engagement strategy for the 6-hour live window. Format as a timeline document with character counts and IST timestamps. Consider these constraints: avoid partisan framing, cite numbers from Budget documents/economic survey, use INR crore/lakh crore appropriately, reference specific tax sections (80C, 80D, LTCG, STCG), maintain SEBI-compliant language for any market commentary, and include 2 visual prompts (suggest data tables to screenshot from budget documents).",
+      "tags": [
+        "thread",
+        "budget",
+        "finance",
+        "live-content"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-021",
+      "title": "Twitter Spaces Promotion Funnel",
+      "prompt": "Act as a Twitter/X Spaces marketer who has driven 1,000+ live listeners to Indian creator spaces. I need you to design a complete promotion funnel for an upcoming Space I'm hosting (default: \"How Indian SaaS founders are pricing for the US market in 2026\" with 3 founder guests). Here is the context: my account has 6K followers, target is 300+ live listeners and 2,000+ replays. Please provide: (1) 7-day pre-Space content calendar with 12 tweets (announcement, guest reveals, topic teases, polls, RT-ables for guests), (2) 3 hook tweet variants for the main announcement, (3) Day-of Space launch sequence (5 tweets in 2 hours), (4) Live Space content prompts (5 audience question seeds), (5) Post-Space replay marketing (10 tweets over 14 days including thread of insights, audio clips, quote graphics), (6) Guest amplification kit (templates guests can copy-paste). Format as a chronological campaign document. Consider these constraints: include IST times for India audience peak (9-10 PM weekdays), tag guests appropriately (don't over-tag), include 1 polling tweet 24 hours before to lock RSVPs, write CTA that emphasizes \"set a reminder\" not \"join now\", avoid pay-to-promote unless ROI clear, and include a 5-line post-mortem template to capture learnings.",
+      "tags": [
+        "engagement",
+        "spaces",
+        "live-content",
+        "growth"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-022",
+      "title": "D2C Brand Founder Tweet Voice Builder",
+      "prompt": "Act as a personal-brand voice coach for Indian D2C founders on Twitter/X (think @ghazalalagh, @suhailsameer, @namitathapar style ranges). I need you to build a tweet voice playbook for a D2C founder I'll describe (default: a 35-year-old skincare brand founder in Mumbai, Rs 25 cr ARR, target audience is Indian Gen Z+millennial women and beauty Twitter). Here is the context: founder is articulate but tweets sound corporate, want a distinct, authentic voice. Please provide: (1) A 5-dimension voice profile (formality, humor, vulnerability, conviction, regional flavor) with current vs target ratings, (2) 10 \"signature phrases\" the founder can repeat to build recognition, (3) 4 voice anti-patterns to avoid (with examples), (4) 15 sample tweets in the new voice across topics: brand-building, hiring, product, customer obsession, founder life, hot take, (5) A weekly \"voice check\" rubric (5 questions), (6) 3 reference creators to study with what to imitate vs avoid. Format as a playbook with sections. Consider these constraints: avoid \"thought leader\" jargon (no \"unlocking\", \"leveraging synergies\"), include 1-2 Hinglish phrases naturally, reference Indian D2C ecosystem (Mamaearth IPO, Boat, Sugar, Plum), keep INR-denominated metrics, and ensure the voice can scale across years without forced reinvention.",
+      "tags": [
+        "engagement",
+        "personal-brand",
+        "founder",
+        "d2c"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-023",
+      "title": "YouTube Video to Twitter Thread Adapter",
+      "prompt": "Act as a content repurposer who converts long YouTube videos by Indian creators (Ankur Warikoo, CA Rachana Ranade, Akshat Shrivastava, Varun Mayya) into high-performing Twitter/X threads. I need you to convert a 25-45 minute video transcript I'll paste into a complete Twitter package. Here is the context: video is in English or Hinglish, audience overlap is 70% Indian, and the goal is to drive both Twitter growth and YouTube views. Please provide: (1) One \"main idea\" 14-tweet thread, (2) One \"3 frameworks\" 10-tweet thread isolating tactical concepts, (3) Five standalone tweet \"highlights\" (each under 270 chars) that work without the video, (4) Two reaction-quote tweets pulling controversial or memorable lines (with timestamps), (5) One thread that purposely teases the video and links it (CTA at end), (6) 30-day staggered posting plan. Format with character counts and timestamp citations. Consider these constraints: never directly transcribe — always rewrite for Twitter rhythm, credit the creator if it's not yours, use INR figures from the video accurately, don't link to the video in every tweet (only 2-3 places), and add a 4-line voice note matching the creator's tone (e.g., Warikoo's empathetic-direct, Akshat's contrarian-data-driven).",
+      "tags": [
+        "repurposing",
+        "thread",
+        "youtube",
+        "indian-creators"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-024",
+      "title": "Tweet Performance Audit Framework",
+      "prompt": "Act as a Twitter/X analytics consultant who has audited 75+ Indian creator accounts. I need you to perform a structured performance audit on a creator's last 90 days of tweets I'll paste (top 30 tweets with impressions/likes/replies/profile visits/follows). Here is the context: creator wants to understand which content compounds vs spikes and where to focus next quarter. Please provide: (1) A pattern analysis across content type (thread vs tweet vs poll vs reply), topic, hook style, length, posting time, day of week, (2) Top 5 \"compounding\" winners (high follow conversion, not just likes), (3) Bottom 5 \"vanity\" performers (high likes, low follows), (4) 6 hypotheses for the next 30 days with success metrics, (5) A revised posting cadence and content mix recommendation, (6) 3 specific tweets to pin/unpin/repost. Format as a consultative report with sections, tables, and bullet recommendations. Consider these constraints: tie all recommendations to the creator's stated goal (e.g., newsletter signups, course sales in INR, brand deals, audience growth), use Indian creator benchmark data where possible (e.g., follow-conversion benchmarks), do not recommend chasing virality if monetization is the goal, and include 2 \"red flags\" to monitor (engagement-quality decline, niche drift).",
+      "tags": [
+        "engagement",
+        "analytics",
+        "audit",
+        "growth"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-025",
+      "title": "Education Twitter Creator Thread Builder",
+      "prompt": "Act as a Twitter/X content strategist for Indian education creators (UPSC, JEE, NEET, CAT, GATE, finance certifications). I need you to write a 12-tweet educational thread on a topic I'll specify (default: \"how to remember Modern Indian History timelines without rote memorization for UPSC Prelims\"). Here is the context: my audience is 19-26 year old aspirants from across India (Tier-1 to Tier-3), often Hindi-medium, looking for both motivation and substance. Please provide: (1) A hook that respects the aspirant's time (under 240 chars), (2) Tweets 2-10 with one technique each, including 1-2 specific examples (e.g., specific Mughal emperor, specific freedom-struggle event), (3) A \"common mistake\" tweet, (4) A summary tweet, (5) A CTA to bookmark + follow for more, (6) 2 alternate hooks targeting Hindi-medium and English-medium students respectively. Format as numbered tweets with character counts. Consider these constraints: cite NCERT/standard reference books, avoid coaching-institute-style overpromising, do not recommend paid courses, include 1 Hinglish-friendly tweet, respect aspirant emotional state (no \"struggling? you're doing it wrong\" tone), and ensure techniques are research-backed (spaced repetition, active recall, mnemonics) not anecdotal.",
+      "tags": [
+        "thread",
+        "education",
+        "viral",
+        "tier-2"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-026",
+      "title": "Tweet Series for Course Launch",
+      "prompt": "Act as a Twitter/X launch strategist who has helped Indian creators sell out cohort-based courses priced Rs 2,999 to Rs 24,999. I need you to design a 21-day launch tweet series for a course I'll describe (default: a Rs 9,999 4-week cohort on \"AI for Indian Marketers\" with 100 seats). Here is the context: creator has 10K followers, 60% potential buyers, prior course sold 70 seats. Please provide: (1) Pre-launch (Days 1-7): 14 tweets building credibility, surfacing the problem, social proof, (2) Launch (Days 8-14): 18 tweets with announcement, FAQ, testimonials, scarcity, behind-the-scenes, (3) Final push (Days 15-21): 12 tweets with last-72-hour urgency, deadline reminders, doors-closing, (4) 4 thread outlines fully fleshed (problem, framework, transformation, FAQ), (5) 3 tweet templates for past students to amplify, (6) An after-launch wrap-up plan. Format as a chronological calendar with IST times and tweet types. Consider these constraints: include Rs pricing transparently, mention GST treatment if applicable, avoid manufactured scarcity (real seat limits only), don't fake testimonials, include 1 \"who this is NOT for\" tweet to build trust, and ensure 60% of tweets are value-first (not promotional).",
+      "tags": [
+        "engagement",
+        "launch",
+        "monetization",
+        "course"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-027",
+      "title": "Indian Tech News Hot Take Generator",
+      "prompt": "Act as a Twitter/X commentator on Indian tech and startup news, similar in style to @gauravsabnis or @kunalb11 — informed, slightly contrarian, never breathless. I need you to generate 12 hot takes on a recent Indian tech development I'll specify (default: a major Indian unicorn announcing significant layoffs). Here is the context: my audience is operators, VCs, and engineers in the Indian tech ecosystem. Please provide: (1) 4 \"data-grounded\" takes citing public sources (Tracxn, Inc42, MoneyControl, company filings), (2) 3 \"systems thinking\" takes connecting to broader ecosystem trends (funding winter, AI disruption, govt policy), (3) 3 \"contrarian\" takes that challenge the consensus narrative, (4) 2 \"empathy-first\" takes for affected employees, (5) For each take: character count, anticipated detractor argument, and a 1-line follow-up rebuttal. Format as a numbered list with notes. Consider these constraints: avoid schadenfreude, do not name-shame individual founders, cite verifiable INR/USD numbers (use INR primarily), do not speculate beyond public information, include 1 \"what I might be wrong about\" tweet, and ensure each take could be defended in a podcast interview without retraction.",
+      "tags": [
+        "tweet-hook",
+        "viral",
+        "tech",
+        "engagement"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-028",
+      "title": "Beginner Twitter Account Setup Checklist",
+      "prompt": "Act as a Twitter/X onboarding coach for first-time Indian creators (lawyers, doctors, academics, mid-career professionals just starting). I need you to write a 15-tweet thread that doubles as a setup checklist for someone creating a serious Twitter account from scratch. Here is the context: my audience is 28-45 year old Indian professionals who feel intimidated by Twitter and don't know where to start. Please provide: (1) Hook tweet establishing why this matters (under 240 chars), (2) Tweets 2-14 each covering one setup step: handle choice, profile photo, banner, bio, location, link, pinned tweet, first 5 follows, first 5 lists, notification settings, X Premium decision, posting cadence, content pillars, audit cadence, (3) Tweet 15 with a CTA, (4) A printable companion checklist (10 lines), (5) Common mistakes Indian beginners make (5 items), (6) A 30-day \"first month\" mini-plan. Format as numbered tweets plus the checklist and mini-plan. Consider these constraints: respect that audience is busy with day jobs (max 30 mins/day), cover X Premium pricing in INR with rationale, include 5 Indian accounts beginners should follow first across niches, avoid Silicon Valley advice that doesn't apply (e.g., \"build in public\" when working at a bank with compliance constraints), and add 1 line on Twitter's risks (cancel culture, doomscrolling).",
+      "tags": [
+        "thread",
+        "beginner",
+        "growth",
+        "indian-creators"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-029",
+      "title": "Indian VC and Fund Manager Tweet Style",
+      "prompt": "Act as a Twitter/X coach for Indian VCs and PE/PMS fund managers who want to build credibility without breaching SEBI/AMFI regulations. I need you to design a tweet style guide and 30-day content plan for an investment professional I'll describe (default: a Series A VC at an Indian fund managing Rs 1,500 cr, 4K followers, audience is founders + LPs). Here is the context: VC wants to attract better deal-flow and signal thesis without sounding like a deal-maker chasing pitches. Please provide: (1) A 6-pillar content framework (thesis pieces, founder lessons, market commentary, portfolio love, ecosystem analysis, personal), (2) 18 tweet hooks ready to post across pillars, (3) 4 thread outlines on thesis topics (e.g., AI in Indian B2B SaaS, India consumer brands), (4) Compliance guardrails (what NOT to tweet — specific deal terms, valuations of private companies without consent, MNPI, investment advice), (5) A weekly cadence and IST posting times, (6) Engagement strategy with founders without it feeling like \"sourcing\". Format as a strategy document. Consider these constraints: cite credible Indian sources (Inc42, Tracxn, Bain India Reports, BCG India), avoid ranking founders publicly, do not give investment advice that violates SEBI Investment Advisers Regulations 2013, use INR for all numbers, and add 5 lines on managing controversy when a portfolio company has bad news.",
+      "tags": [
+        "engagement",
+        "vc",
+        "compliance",
+        "indian-creators"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-030",
+      "title": "Trending Topic Newsjack Framework",
+      "prompt": "Act as a Twitter/X newsjacking strategist with deep understanding of Indian news cycles (election results, RBI announcements, IPL controversies, Bollywood feuds, court verdicts, ISRO missions, India vs Pakistan/Australia matches). I need you to design a 5-step newsjacking framework with 15 worked examples for an Indian creator I'll describe (default: a HR/talent creator with 5K followers wanting to ride news without being tone-deaf). Here is the context: creator wants 2-3 newsjack moments per month, not daily, and wants to maintain dignity and niche relevance. Please provide: (1) The 5-step decision framework (relevance, speed, angle, dignity, authenticity test), (2) 15 worked examples across news types: election result, ISRO launch, sports moment, corporate scandal, RBI policy, Bollywood news, Supreme Court verdict, weather disaster, festival, budget, startup IPO, tech-CEO move, sports retirement, climate event, geopolitics, (3) For each: a creator's tweet (under 270 chars) tying news to creator's niche (HR), (4) 5 \"do NOT newsjack\" examples (e.g., terror attacks, deaths, disasters), (5) A 1-page \"30-second newsjack workflow\". Format as a structured guide. Consider these constraints: never trivialize tragedy, never use disaster language to sell products, avoid political party alignment, double-check facts before tweeting, and add 3 lines on dealing with backlash if a newsjack misfires.",
+      "tags": [
+        "tweet-hook",
+        "newsjack",
+        "viral",
+        "frameworks"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-031",
+      "title": "Tweet Hook A/B Test Generator",
+      "prompt": "Act as a Twitter/X experimentation specialist who has run 500+ tweet A/B tests for Indian creators. I need you to generate an A/B/C/D test set for a tweet idea I'll provide (default: \"launching a paid newsletter on Indian macro-economics at Rs 499/month\"). Here is the context: I want to learn which framing converts best for my audience of Indian working professionals. Please provide: (1) 4 hook variants targeting different psychological levers: A (loss aversion), B (curiosity gap), C (social proof), D (specific outcome promise), (2) For each: full tweet (under 270 chars), expected like:reply ratio, expected profile-visit conversion, audience segment most likely to respond, (3) A test plan: post each variant 3-5 days apart at the same IST time, baseline metrics to track, sample size needed for statistical significance, (4) A decision rubric for picking the winner (which metric matters: likes, profile visits, link clicks, follows, replies), (5) 2 \"meta-learnings\" template prompts to extract patterns over multiple tests. Format as a structured experiment document. Consider these constraints: keep INR pricing consistent across variants (test framing not price), don't fake testimonials, do not run more than 1 paid-product test per month, and include 3 lines on avoiding contamination (audience overlap between variant 1 and 2).",
+      "tags": [
+        "tweet-hook",
+        "experimentation",
+        "frameworks",
+        "growth"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-032",
+      "title": "Engagement Reply Battle Cards",
+      "prompt": "Act as a Twitter/X engagement coach who specializes in helping Indian creators handle difficult replies (trolls, bad-faith critics, genuine pushback, fame-seekers) without losing their audience or peace of mind. I need you to build a battle-card system with 12 reply scenarios. Here is the context: I'm an Indian creator at 8K followers, getting more pushback as I grow, want a system not improvisation. Please provide: (1) 12 scenarios with: trigger (what they said), psychological subtype (caste/region troll, mansplainer, niche purist, jealous peer, genuine critic, casual hater, joke that crossed line, etc.), (2) For each: 3 response options (engage politely, ignore, block — with criteria), (3) 8 reply templates I can copy when I do choose to engage, (4) A 5-line \"daily mental hygiene\" routine for managing reply notifications, (5) A weekly \"do not engage\" mute/block ritual, (6) 3 lines on when to escalate to platform reporting. Format as a battle-card document. Consider these constraints: never punch down at small accounts, never doxx critics, never share screenshots of DMs without consent, recognize Indian-specific harassment patterns (caste slurs, region-shaming, religious baiting), and include 2 lines on legal options (Sections 67/67A IT Act, IPC 354A, etc., where appropriate). Add a self-care reminder: limit to 30-min reply windows.",
+      "tags": [
+        "engagement",
+        "reply-strategy",
+        "mental-health",
+        "creator-care"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-033",
+      "title": "Twitter to LinkedIn Cross-Post Adapter",
+      "prompt": "Act as a cross-platform content adapter for Indian B2B creators who tweet first but want to repurpose to LinkedIn without sounding off-tone. I need you to convert one Twitter thread (which I'll paste) into a complete LinkedIn package. Here is the context: my audience overlap is 50% but tone is different — Twitter is punchy and cynical, LinkedIn is reflective and curated. Please provide: (1) One LinkedIn post (1,300 char limit) version of the thread, (2) One LinkedIn carousel outline (8 slides with headline + 30-word body each), (3) One LinkedIn article version (700-900 words) with H2 subheadings, (4) A first comment to drive engagement, (5) 3 \"bridge\" lines that work on both platforms, (6) A note on what to remove from Twitter version that won't work on LinkedIn (snark, swearing, in-jokes). Format with section headers and character counts. Consider these constraints: maintain author voice but soften 20%, replace Twitter-only references (\"this site\", \"BIRDAPP\"), keep Indian context (INR, GST, regulations) intact, link to original Twitter thread once at the end, use LinkedIn's algorithmic preferences (line breaks, no external links in body, hashtags at end), and include 1 \"polite hot take\" framing for LinkedIn — same idea as Twitter but warmer.",
+      "tags": [
+        "repurposing",
+        "linkedin",
+        "cross-platform",
+        "b2b"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-034",
+      "title": "Listicle Thread Builder",
+      "prompt": "Act as a listicle thread expert for Indian Twitter/X. I need you to build a high-engagement listicle thread on a topic I'll specify (default: \"11 free Indian government databases every founder, journalist, and analyst should bookmark\"). Here is the context: my audience is operators, journalists, students who appreciate utility content. Please provide: (1) A hook tweet that promises specificity (under 240 chars), (2) Tweets 2-12 each covering one list item with: name, what it offers, link, 1-line use case, (3) A summary tweet, (4) A CTA tweet, (5) 3 alternate hooks (curiosity, contrarian, FOMO), (6) An evergreen-vs-newsy classification of the topic. Format as numbered tweets with character counts and verified links. Consider these constraints: every link must be currently working (note that I should verify before posting), include only Indian-government / Indian-organization / India-specific resources unless the topic demands global, avoid \"cool tools\" that are paid without disclosure, do not include affiliate links without marking #ad, ensure each list item provides genuine signal, and if the topic is finance-related, ensure SEBI/IRDAI compliance for any tool recommendation.",
+      "tags": [
+        "thread",
+        "listicle",
+        "viral",
+        "utility"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-035",
+      "title": "Indian Author and Vocabulary Tweets",
+      "prompt": "Act as a Twitter/X writer for Indian intellectuals and authors aiming for a Tharoor-esque audience without parody. I need you to write 15 standalone tweets that combine elegant English vocabulary with substantive ideas about India. Here is the context: I'm a non-fiction author with 12K followers, audience values prose quality and historical depth. Please provide: (1) 5 \"observation\" tweets (a sharp paragraph about an Indian phenomenon — bureaucracy, monsoons, weddings, urban planning), (2) 5 \"historical micro-essay\" tweets (a 270-char condensed insight on Indian history, citing one specific fact), (3) 3 \"linguistic delight\" tweets using one elegant English word with definition embedded naturally, (4) 2 \"counterpoint\" tweets that disagree with prevailing narratives, (5) For each: a 1-line note on tone register and one quote-tweetable line. Format as a numbered list with character counts. Consider these constraints: never use vocabulary as flex without substance, avoid floccinaucinihilipilification clichés, cite specific Indian people/events accurately (verify dates/names), keep INR or rupee references where relevant, avoid sermonizing, ensure each tweet is complete in itself (no \"part 1 of 5\"), and include 1 tweet of warm humor about Indian life that lands across regions.",
+      "tags": [
+        "tweet-hook",
+        "writing",
+        "long-form",
+        "intellectual"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-036",
+      "title": "Twitter DM Outreach for Collaborations",
+      "prompt": "Act as a Twitter/X collaboration strategist who has helped Indian creators land podcast invites, panel speaking, and co-created threads with accounts 5-50x their size. I need you to design a DM outreach playbook for a creator I'll describe (default: an Indian dev-tools indie hacker at 4K followers wanting to collaborate with mid-tier Indian tech YouTubers and podcasters). Here is the context: cold DMs have 3-5% reply rate generally; goal is 15-20% via better targeting and craft. Please provide: (1) A 5-criteria target list (5 ideal collaborators with rationale), (2) 6 DM templates: cold intro, warm intro (after 30 days of replies), guest podcast pitch, co-thread proposal, beta-tester swap, cross-promotion offer, (3) For each template: subject line equivalent (first 50 chars matter), body, CTA, follow-up cadence (3 messages over 14 days max), (4) A spreadsheet structure for tracking outreach, (5) 5 red flags that mean \"do not pursue this collaboration\", (6) 3 collaboration ideas that don't require DM (public threading, mutual quote tweets, Spaces). Format as a complete playbook. Consider these constraints: never spam, never copy-paste identical DMs to multiple people, never lead with \"I love your content!\" without a specific reference, respect that bigger accounts get 100+ DMs/day, do not pitch immediately on first message, and include 1 line on Indian-specific norms (jaan-pehchaan culture, warm intros via Twitter mutuals).",
+      "tags": [
+        "engagement",
+        "outreach",
+        "growth",
+        "collaboration"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-037",
+      "title": "Twitter Lists Strategy for Insight",
+      "prompt": "Act as a Twitter/X researcher who teaches Indian creators to use Twitter Lists for daily intelligence rather than just doomscrolling. I need you to design a 7-list system for an Indian creator I'll describe (default: a fintech operator who wants to track Indian fintech regulations, founders, journalists, global fintech, and culture). Here is the context: creator spends 90 mins/day on Twitter and wants to extract more signal. Please provide: (1) 7 named lists with descriptions and 8-12 starter accounts each (Indian + global mix as relevant): Indian fintech founders, RBI/SEBI regulators and analysts, Indian fintech journalists, global fintech operators, Indian macro economists, contrarian thinkers, fellow indie operators, (2) A daily 30-min consumption ritual using lists, (3) A weekly \"signal extraction\" workflow that turns list scrolling into 2-3 tweets/threads, (4) A monthly list audit checklist (add, remove, reclassify), (5) 5 lists NOT to maintain (low signal, drama-attractors), (6) A 4-line note on private vs public lists. Format as a usable playbook. Consider these constraints: list accounts that are active in 2025-2026, include diverse voices (gender, region, language), include 2 Hindi/regional accounts, avoid listing only top-of-funnel celebrity accounts, suggest specific tools (Tweetdeck/X Pro alternatives), and add 1 line on how to filter list noise during peak news cycles.",
+      "tags": [
+        "engagement",
+        "research",
+        "growth",
+        "indian-creators"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-038",
+      "title": "Tweet Series for Book Launch India",
+      "prompt": "Act as a book-launch publicist for Indian non-fiction authors using Twitter/X (in the lineage of @Pallaviaiyar, @prataap_b, @KaranThapar). I need you to design a 60-day Twitter campaign for a book launch I'll describe (default: a non-fiction book on \"India's data economy\", Penguin India publication, MRP Rs 599). Here is the context: author has 6K followers, target is 5,000 pre-orders + bestseller list debut + festival circuit invitations. Please provide: (1) Phase 1 — 30 days pre-launch: 25 tweets across teasers, research stories, contrarian takes from the book, blurb reveals, cover reveal, (2) Phase 2 — Launch week: 18 tweets with availability links (Amazon India, Flipkart, Crossword, Bahrisons), bookstore visits, reading events, media coverage, (3) Phase 3 — 30 days post-launch: 22 tweets with reviews, reader photos, \"behind the scenes\" of writing, replying to critics, festival announcements, (4) 4 thread outlines drawn from key chapters, (5) 3 podcast pitch templates for Indian podcasts (The Seen and the Unseen, Cyrus Says, Maed in India), (6) 2 op-ed pitch templates (The Hindu, Mint, Indian Express). Format as a chronological campaign. Consider these constraints: include INR pricing transparently, mention Indian bookstores by name, respect publishing house's marketing calendar, do not pre-announce internal sales numbers, and avoid US-style hard-sell tactics that feel pushy in Indian author circles.",
+      "tags": [
+        "engagement",
+        "launch",
+        "book",
+        "long-form"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-039",
+      "title": "Tweet Pack for Hiring Announcement",
+      "prompt": "Act as a recruitment-marketing copywriter for Indian startups using Twitter/X to attract talent (in the style of @Razorpay, @Zerodha for India). I need you to write a complete tweet pack for an open role I'll describe (default: Senior PM role at a Series B fintech in Bengaluru, Rs 50-80 LPA + ESOPs). Here is the context: I want to attract high-quality Indian talent without paying LinkedIn ads. Please provide: (1) 1 \"hero\" announcement tweet from the founder/hiring manager (under 270 chars, with specifics: role, location, compensation band in INR, key responsibilities), (2) 5 follow-up tweets over 2 weeks: team intro, what we work on, why now, FAQ, deadline, (3) 3 thread variants: \"why this role\", \"day in the life\", \"founder's note\", (4) 5 employee-amplification tweet templates (for the team to share), (5) 3 reply templates for filtering (referral request, salary question, location question), (6) A 7-day promotion calendar. Format as a complete pack. Consider these constraints: be transparent about compensation in INR (lakhs and crores, not USD), include ESOP percentage if applicable, do not exclude Tier-2/Tier-3 candidates implicitly, avoid \"rockstar\" or \"ninja\" cliches, add notice-period flexibility note, mention DEI considerations sincerely (gender diversity in Indian tech), and include one tweet specifically about why someone should leave their current FAANG job to join.",
+      "tags": [
+        "engagement",
+        "hiring",
+        "founder",
+        "startup"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    },
+    {
+      "id": "social-media-creators-twitter-x-040",
+      "title": "Twitter Sabbatical and Digital Detox Plan",
+      "prompt": "Act as a creator-wellness coach who has helped 25+ Indian Twitter/X creators (with 5K-200K followers) take structured Twitter breaks without losing audience or revenue. I need you to design a sabbatical plan for a creator I'll describe (default: an Indian finance creator at 30K followers, currently posting 6 days/week, feeling burnout, wants a 30-day break). Here is the context: creator earns Rs 1.5-2 lakhs/month from X Ads + brand deals + a Rs 1,499 newsletter, dependents on income, can't fully disappear. Please provide: (1) Pre-sabbatical 14-day prep: announcement strategy, scheduled tweets queue (15-20 evergreen tweets posted 3x/week via Hypefury/Typefully), brand-deal communications, newsletter cadence adjustment, (2) During-sabbatical 30-day plan: notifications off, app deletion, recovery rituals, replacement activities (reading, exercise, family), (3) Re-entry 14 days: phased return (read-only week 1, light engage week 2), updated content calendar, voice check, (4) 3 announcement tweet templates (honest, professional, curiosity-inducing), (5) Financial protection: which revenue streams pause vs continue, (6) Lessons-learned thread template for after re-entry. Format as a complete playbook. Consider these constraints: respect Indian-cultural family discussions about \"taking a break\" (parents may not understand creator burnout), include 5 specific Indian therapy resources/apps (YourDOST, Wysa, MindPeers), maintain INR revenue projections during sabbatical, avoid recommending \"quit forever\" — the goal is sustainable creating, and add 3 lines on relapse warning signs after returning.",
+      "tags": [
+        "engagement",
+        "creator-care",
+        "mental-health",
+        "growth"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "twitter-x"
+    }
+  ]
+}

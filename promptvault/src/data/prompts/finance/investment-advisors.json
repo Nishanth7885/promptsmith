@@ -1,0 +1,683 @@
+{
+  "prompts": [
+    {
+      "id": "finance-investment-advisors-001",
+      "title": "Goal-Based Portfolio Review for HNI Client",
+      "prompt": "Act as a SEBI-registered Investment Adviser (RIA) with 12 years of experience serving HNI clients in Mumbai. I need you to prepare a comprehensive goal-based portfolio review for a client. Here is the context: Client is a 42-year-old IT director earning ₹48 lakh per annum, married with two children (ages 8 and 12). Current portfolio: ₹85 lakh in equity mutual funds (mix of large-cap and flexi-cap), ₹25 lakh in PPF, ₹18 lakh in EPF, ₹12 lakh in direct stocks, ₹15 lakh in FDs, ₹8 lakh in gold ETF. Goals: children's higher education (₹60 lakh in 8 years, ₹80 lakh in 10 years), retirement at 58 (target corpus ₹8 crore), and a ₹2 crore home upgrade in 5 years. Please provide: (1) current asset allocation breakdown with percentages, (2) gap analysis vs each goal with SIP requirements, (3) rebalancing recommendations with specific fund categories, (4) tax efficiency observations covering Section 80C, LTCG ₹1 lakh exemption and NPS 80CCD(1B), (5) three specific action items for the next 90 days. Format as a client-ready review document with tables. Consider 12% equity CAGR, 7% debt returns and 6% inflation assumptions in line with SEBI disclosure norms.",
+      "tags": [
+        "portfolio-review",
+        "goal-planning",
+        "asset-allocation",
+        "hni"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-002",
+      "title": "Beginner SIP Calculator Explanation for Client",
+      "prompt": "Act as a SEBI-registered Mutual Fund Distributor (MFD) with 6 years of experience explaining investments to first-time investors in Tier-2 Indian cities. I need you to draft a simple, jargon-free explanation of how SIPs work for a 28-year-old school teacher in Indore earning ₹45,000 per month who wants to start investing ₹5,000 monthly. Here is the context: She has never invested in mutual funds, has a ₹2 lakh emergency fund in savings account, no debt, and goal is to accumulate ₹25 lakh in 10 years for a house down payment. Please provide: (1) a 150-word plain Hindi-English explanation of what SIP is using a recurring deposit analogy, (2) calculation showing how ₹5,000/month grows at 12% CAGR over 10 years, (3) rupee cost averaging example using 3 months of NIFTY 50 movements, (4) three suggested index fund / large-cap fund categories (no specific scheme names), (5) a checklist of 5 documents needed for KYC via CAMS/KFintech or Zerodha Coin. Format as a WhatsApp-friendly message with clear sections and emojis allowed. Keep tone warm and encouraging, avoid technical jargon like alpha, beta, or standard deviation.",
+      "tags": [
+        "sip",
+        "beginner",
+        "mutual-fund",
+        "client-education"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-003",
+      "title": "CFP-Style Risk Profiling Questionnaire",
+      "prompt": "Act as a CFP CM (Certified Financial Planner) practicing in Bengaluru with 10 years of experience in risk profiling Indian retail clients. I need you to design a 15-question risk assessment questionnaire suitable for SEBI RIA compliance and onboarding new clients. Here is the context: The questionnaire will be used with salaried professionals aged 25-55 earning ₹10-50 lakh per annum. It must cover risk capacity (objective) and risk tolerance (subjective) separately. Please provide: (1) 8 risk capacity questions covering age, income stability, dependents, emergency fund, liabilities, insurance, investment horizon and net worth, (2) 7 risk tolerance questions covering volatility comfort, past reactions to market falls, loss aversion, knowledge level, (3) a scoring rubric (1-5 for each question) that maps total scores to five profiles: Conservative, Moderately Conservative, Moderate, Moderately Aggressive, Aggressive, (4) suggested asset allocation ranges for each profile using equity MF, debt MF, gold ETF, PPF/EPF, (5) one disclaimer paragraph referencing SEBI (Investment Advisers) Regulations 2013. Format as a ready-to-use PDF-style document with clear numbering. Use Indian examples like 2020 COVID crash or 2008 Lehman crisis in tolerance questions.",
+      "tags": [
+        "risk-profile",
+        "questionnaire",
+        "cfp",
+        "sebi-compliance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-004",
+      "title": "Monthly Market Commentary Newsletter Draft",
+      "prompt": "Act as the chief investment officer of a SEBI-registered RIA firm in Delhi with 15 years of experience writing market commentary for retail clients. I need you to draft a 600-word monthly market commentary for April 2026 that will be emailed to 2,000 clients. Here is the context: Assume NIFTY 50 returned +2.3%, Sensex +2.1%, Nifty Midcap 150 +4.1%, Nifty Smallcap 250 +5.8% during the month. 10-year G-Sec yield moved from 6.95% to 6.82%. RBI held repo rate at 6.25%. USD/INR at ₹83.40. Q4 FY26 earnings season just began with IT majors reporting mixed results. Brent crude at $78/bbl. Please provide: (1) a 3-line executive summary, (2) equity markets section with sector winners/losers, (3) debt and yields section, (4) global context paragraph (US Fed, China, crude), (5) what it means for your portfolio section with 3 actionable tips, (6) closing note on staying disciplined with SIPs. Format as a client newsletter with H2 headings. Tone: balanced, non-alarmist, educational. Include one disclaimer line stating mutual fund investments are subject to market risks.",
+      "tags": [
+        "market-commentary",
+        "newsletter",
+        "client-communication"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-005",
+      "title": "Retirement Corpus Calculation with Inflation",
+      "prompt": "Act as a retirement planning specialist and CFP India practitioner with 8 years of experience. I need you to build a retirement planning scenario for a 35-year-old client in Pune. Here is the context: Client is a software engineer earning ₹22 lakh per annum (post-tax ₹16 lakh), current monthly household expenses ₹65,000, wants to retire at 60 and expects to live till 85. Existing corpus: ₹8 lakh EPF, ₹3 lakh PPF, ₹12 lakh equity mutual funds, ₹2 lakh NPS Tier-1. Spouse is homemaker. Assume inflation 6.5%, pre-retirement equity return 11%, post-retirement conservative return 7%, post-retirement inflation 6%. Please provide: (1) inflation-adjusted monthly expense at age 60, (2) total retirement corpus required using the present-value-of-annuity method, (3) future value of existing investments at age 60, (4) the gap to be filled, (5) monthly SIP required with step-up of 10% per annum, (6) suggested asset allocation glide path from age 35 to 60, (7) role of NPS Tier-1 with 80CCD(1B) ₹50,000 additional deduction. Format as a one-page planning summary with calculations shown. Use Indian numbering (lakh/crore) throughout.",
+      "tags": [
+        "retirement-planning",
+        "corpus-calculation",
+        "nps",
+        "inflation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-006",
+      "title": "Simple Asset Allocation for New Investor",
+      "prompt": "Act as a friendly SEBI RIA based in Chennai with 5 years of experience onboarding young professionals. I need you to recommend a simple starter asset allocation for a 26-year-old junior doctor. Here is the context: She earns ₹9 lakh per annum, lives with parents, has no dependents, minimal expenses (₹20,000/month), has ₹1.5 lakh savings in bank, and wants to start investing ₹15,000 per month. She is comfortable with moderate risk and has a 15-20 year horizon. Please provide: (1) suggested split across equity MF, debt MF, PPF and gold ETF with percentages, (2) rationale for each allocation in 2-3 lines, (3) specific category suggestions (large-cap index, flexi-cap, short duration debt) without naming schemes, (4) tax benefits available via ELSS under Section 80C, (5) recommended investment platforms (Zerodha Coin, Groww, Kuvera) with one-line comparison, (6) a 5-point starter checklist including KYC, emergency fund, term insurance and health insurance. Format as a simple one-page advisor note. Keep language accessible and avoid any product-specific recommendations.",
+      "tags": [
+        "asset-allocation",
+        "beginner",
+        "mutual-fund",
+        "young-investor"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-007",
+      "title": "SIP vs Lumpsum Analysis for Windfall",
+      "prompt": "Act as a SEBI-registered Investment Adviser with 9 years of experience guiding clients on deployment of windfall gains. I need you to compare SIP (STP) versus lumpsum investing for a client who just received a ₹25 lakh bonus. Here is the context: Client is a 38-year-old marketing head in Gurugram with existing ₹60 lakh equity MF portfolio, moderate risk profile, 15-year horizon. Current market context: NIFTY 50 trading near all-time high at 23,500 with trailing P/E of 22.5. Please provide: (1) arguments for lumpsum investment with historical data on time-in-market, (2) arguments for 6-month or 12-month STP with behavioural risk mitigation, (3) a hybrid approach recommendation (e.g., 40% lumpsum + 60% STP), (4) illustrative returns table for three scenarios (market up 15%, flat, down 15%) over 1 year, (5) tax treatment under LTCG (10% above ₹1 lakh), (6) final recommendation with rationale considering current valuations. Format as a structured advisor memo with tables. Mention that past performance is not indicative of future returns.",
+      "tags": [
+        "sip",
+        "lumpsum",
+        "stp",
+        "windfall"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-008",
+      "title": "Portfolio Rebalancing Checklist",
+      "prompt": "Act as a portfolio manager and CFP practitioner with 11 years of experience running model portfolios for RIA clients. I need you to create a quarterly rebalancing checklist that advisors can apply to any client portfolio. Here is the context: Most client portfolios have target asset allocations like 60:30:10 (equity:debt:gold). Over time, allocations drift due to market movements. SEBI RIA compliance requires documented rebalancing rationale. Please provide: (1) a 12-point pre-rebalancing checklist covering allocation drift calculation, threshold bands (e.g., +/- 5%), tax impact, exit loads, (2) step-by-step rebalancing workflow, (3) decision matrix for when to rebalance via fresh inflows vs switching, (4) LTCG and STCG implications for equity and debt MF after Finance Act 2023 changes, (5) documentation template for client records, (6) communication script to explain rebalancing to a client who is reluctant to book profits. Format as an SOP document with numbered steps. Keep it practical for a solo RIA practice.",
+      "tags": [
+        "rebalancing",
+        "portfolio-review",
+        "sop",
+        "asset-allocation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-009",
+      "title": "Child Education Goal SIP Plan",
+      "prompt": "Act as a goal-based financial planner with 8 years of experience helping Indian parents plan children's higher education. I need you to create a complete plan for a newborn's undergraduate and postgraduate education. Here is the context: Parents are a 32-year-old couple in Hyderabad earning combined ₹28 lakh per annum. Baby is 6 months old. Goals: ₹35 lakh for undergraduate (in 18 years, today's cost ₹12 lakh) and ₹60 lakh for postgraduate abroad (in 22 years, today's cost ₹18 lakh). Assume education inflation 8%, equity return 11%, debt return 6.5%. Please provide: (1) future value of both goals with education-specific inflation, (2) SIP required for each goal assuming flat SIP vs 8% step-up SIP, (3) recommended asset allocation glide path (e.g., 80/20 now, 60/40 at year 12, 30/70 at year 16), (4) role of Sukanya Samriddhi Yojana if child is a girl, (5) alternatives like international MFs for foreign education hedge against INR depreciation, (6) a 3-scenario stress test (underperformance 9%, on-track 11%, outperformance 13%). Format as a planning report with tables.",
+      "tags": [
+        "goal-planning",
+        "child-education",
+        "sip",
+        "step-up-sip"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-010",
+      "title": "ELSS Section 80C Recommendation Note",
+      "prompt": "Act as a SEBI-registered MFD with 7 years of experience advising salaried clients on tax-saving investments. I need you to write a short client note explaining why ELSS is often the best Section 80C option. Here is the context: Client is a 30-year-old IT professional in Noida with annual income ₹14 lakh under the old tax regime, looking to invest ₹1.5 lakh to exhaust the 80C limit before 31 March. She already has ₹25,000 EPF contribution counted under 80C. Please provide: (1) comparison table of ELSS, PPF, NPS, tax-saving FD, ULIP covering lock-in, returns, liquidity, taxation, (2) calculation showing how ₹1.25 lakh invested in ELSS could grow in 3-year lock-in at 12% CAGR, (3) LTCG treatment post-lock-in (10% above ₹1 lakh), (4) suggestion to split the ₹1.25 lakh across 2 ELSS funds and avoid lumping in March, (5) caveat about the new tax regime and when ELSS is NOT beneficial, (6) a 3-sentence closing. Format as a client-ready email under 400 words.",
+      "tags": [
+        "elss",
+        "section-80c",
+        "tax-saving",
+        "mutual-fund"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-011",
+      "title": "Debt Mutual Fund Category Explainer",
+      "prompt": "Act as a fixed-income specialist working with a SEBI RIA firm in Mumbai with 10 years of experience. I need you to write a beginner-friendly explainer of SEBI's debt mutual fund categories. Here is the context: Clients often get confused between liquid, ultra-short, short duration, corporate bond, banking & PSU, gilt, and dynamic bond funds. Many clients also do not understand the April 2023 tax change where debt MF gains are taxed at slab rate regardless of holding period. Please provide: (1) a one-line definition of each of the 16 SEBI debt MF categories with typical Macaulay duration, (2) a mapping of client need to category (emergency fund, 1-year goal, 3-year goal, retiree income), (3) interest rate risk explanation using modified duration example, (4) credit risk explanation with AAA vs AA vs below comparison, (5) post-April-2023 tax treatment and impact on debt MF vs FD decision, (6) 3 red flags to avoid. Format as a reference document for new advisors. Keep each category explanation to 2-3 lines.",
+      "tags": [
+        "debt-mutual-fund",
+        "beginner",
+        "fixed-income",
+        "taxation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-012",
+      "title": "NPS vs PPF vs EPF Comparison for Retirement",
+      "prompt": "Act as a retirement planning advisor and CFP India practitioner with 9 years of experience. I need you to compare NPS, PPF and EPF as retirement vehicles for a government-unaided private sector employee. Here is the context: Client is 34 years old, earns ₹18 lakh per annum, EPF mandatory contribution already ₹1.8 lakh/year (employee + employer), has ₹1 lakh/year going into PPF, and is considering adding ₹50,000/year to NPS Tier-1 to claim the additional 80CCD(1B) deduction. Horizon till retirement: 26 years. Please provide: (1) feature-by-feature comparison table (lock-in, contribution limits, equity exposure, returns, taxation at withdrawal, liquidity), (2) illustrative corpus at age 60 for each instrument with reasonable return assumptions (EPF 8.25%, PPF 7.1%, NPS 9.5% auto moderate), (3) tax benefit stack including 80C, 80CCD(1), 80CCD(1B) and 80CCD(2), (4) withdrawal rules at 60 for each, (5) final recommendation on whether to add NPS ₹50,000 contribution, (6) one caution on NPS annuity requirement. Format as a structured advisory note.",
+      "tags": [
+        "nps",
+        "ppf",
+        "epf",
+        "retirement-planning"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-013",
+      "title": "Earnings Season Client Update",
+      "prompt": "Act as an equity research head at a SEBI RIA firm with 14 years of experience writing earnings commentary. I need you to draft a Q4 FY26 earnings season update for retail clients after the first 2 weeks of results. Here is the context: IT sector (TCS, Infosys, Wipro) reported revenue growth of 4-6% YoY with cautious FY27 guidance due to weak BFSI vertical. Private banks (HDFC Bank, ICICI Bank, Axis) posted 12-15% PAT growth with stable NIMs around 4%. Cement (UltraTech, Ambuja) showed volume growth of 7% but weak pricing. Auto (Maruti, M&M) reported mixed numbers with SUV segment strong. Please provide: (1) 100-word summary of the season so far, (2) sector-wise 3-line takeaways for IT, banking, cement, auto and consumer, (3) management commentary themes (capex, demand, margins), (4) portfolio implications for diversified equity MF holders, (5) what to avoid doing (e.g., not reacting to single quarter), (6) a chart suggestion (sector PAT growth bar chart). Format as a client email under 700 words. Include disclaimer.",
+      "tags": [
+        "market-commentary",
+        "earnings",
+        "equity-research",
+        "newsletter"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-014",
+      "title": "First Meeting Fact-Find Questionnaire",
+      "prompt": "Act as a SEBI-registered Investment Adviser with 6 years of experience onboarding new advisory clients. I need you to design a fact-find questionnaire to be used in the first 60-minute client meeting. Here is the context: The firm charges a flat fee of ₹25,000 per annum and onboards 10-15 new clients each quarter. Regulatory norms require documented KYC, risk profile, financial situation, needs and goals before giving any advice. Please provide: (1) personal details section (name, age, occupation, dependents, PAN, Aadhaar), (2) income and cash flow section (salary, bonus, rental, business income, monthly expenses), (3) balance sheet section (assets, liabilities, EPF, PPF, MF, stocks, RE, gold, debts, EMIs), (4) insurance section (term, health, motor, personal accident), (5) goals section with SMART format (description, amount today, target year, priority), (6) existing investments audit (fund names, units, date of purchase), (7) behavioural questions (past market experience, advisor history). Format as a structured form ready to be converted into a Google Form or PDF. Keep it under 40 questions total.",
+      "tags": [
+        "fact-find",
+        "onboarding",
+        "questionnaire",
+        "beginner"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-015",
+      "title": "Emergency Fund Planning for Young Family",
+      "prompt": "Act as a personal finance advisor with 7 years of experience helping young Indian families build financial resilience. I need you to create an emergency fund plan for a young couple. Here is the context: Couple is 29 and 31 years old, living in Bengaluru, combined monthly take-home ₹1.6 lakh, monthly expenses ₹85,000 including ₹35,000 home loan EMI, one child aged 2, spouse works in IT (moderately stable), husband is a salesperson (variable income). They currently have ₹1.2 lakh in savings account. Please provide: (1) target emergency fund amount (3-month vs 6-month vs 9-month argument), (2) reasoning for higher buffer given variable income, (3) suggested split across savings account, sweep-in FD and liquid mutual fund with percentages, (4) monthly allocation plan to reach the target in 12 months, (5) rules for when to use the emergency fund (3-point decision tree), (6) what NOT to keep emergency fund in (equity, ELSS, gold, long duration debt). Format as a client advisory note under 500 words with an action plan box at the end.",
+      "tags": [
+        "emergency-fund",
+        "beginner",
+        "cash-management",
+        "liquid-fund"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-016",
+      "title": "Simple Portfolio Health Check",
+      "prompt": "Act as a friendly financial advisor with 5 years of experience offering portfolio reviews to middle-income Indian salaried clients. I need you to design a quick 10-minute portfolio health check that an advisor can run with any walk-in client. Here is the context: Most walk-in clients are 28-45 years old, have 5-15 mutual fund schemes (often overlapping), some direct stocks and traditional products (ULIP, endowment, FD). Please provide: (1) a 7-point health check list covering overlap, category diversification, expense ratios, direct vs regular plan, star rating traps, tax efficiency and goal mapping, (2) scoring rubric (red/amber/green) for each point, (3) 3 common red flags (e.g., 10 funds all large-cap), (4) 2 sample recommendations an advisor can share on the spot, (5) a closing script offering a full paid review. Format as a 1-page advisor toolkit. Keep the language simple so junior advisors can use it without extensive training.",
+      "tags": [
+        "portfolio-review",
+        "health-check",
+        "beginner",
+        "mutual-fund"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-017",
+      "title": "Step-Up SIP Plan for Rising Income",
+      "prompt": "Act as a SEBI-registered MFD with 8 years of experience advising mid-career professionals on aggressive wealth accumulation. I need you to design a step-up SIP plan. Here is the context: Client is a 33-year-old product manager in Gurugram, current CTC ₹32 lakh with expected 10% annual hikes, existing SIPs of ₹40,000/month across 4 equity funds, wants to build ₹5 crore wealth corpus by age 50. Currently has ₹35 lakh in mutual funds and ₹12 lakh in stocks. Please provide: (1) gap analysis between current trajectory and ₹5 crore target at 11% CAGR, (2) step-up SIP schedule (starting ₹40,000 with 10% annual step-up for 17 years), (3) total invested vs maturity value calculation, (4) suggested fund category split (index, flexi-cap, mid-cap, international) without naming schemes, (5) behavioural tip on automating step-up through platform feature on Kuvera/ET Money, (6) a sensitivity table showing ending corpus at 9%, 11% and 13% CAGR. Format as a structured plan with a results table.",
+      "tags": [
+        "step-up-sip",
+        "sip",
+        "wealth-building",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-018",
+      "title": "Annual Client Review Meeting Agenda",
+      "prompt": "Act as a senior SEBI RIA with 13 years of experience running annual review meetings for retainer clients. I need you to draft a comprehensive agenda and talking points for a 60-minute annual review meeting. Here is the context: Client has been with the firm for 3 years, has a ₹1.2 crore portfolio across MFs, stocks, NPS and PPF, moderate risk profile, two goals (retirement in 20 years and daughter's education in 10 years). Please provide: (1) 8-part agenda with time allocation (life updates, portfolio performance vs benchmark, goal tracking, rebalancing, tax review, insurance review, estate planning touch, next 12 months plan), (2) key data points to prepare in advance, (3) conversation starters for sensitive topics (lifestyle inflation, spouse involvement, nomination), (4) 5 open-ended questions to uncover changes in circumstances, (5) a standard closing checklist (action items, next meeting date, document sign-offs), (6) a post-meeting email template. Format as a meeting playbook. Keep it usable for any mid-sized RIA practice.",
+      "tags": [
+        "client-review",
+        "annual-review",
+        "meeting-agenda",
+        "retention"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-019",
+      "title": "Retirement Drawdown Strategy for Retiree",
+      "prompt": "Act as a retirement income specialist and CFP CM with 11 years of experience structuring retirement withdrawals. I need you to design a drawdown strategy for a newly retired client. Here is the context: Client is 60 years old, just retired from a PSU job, has a corpus of ₹1.8 crore (₹60 lakh equity MF, ₹80 lakh debt MF and FDs, ₹30 lakh PPF extended, ₹10 lakh gold), ₹45,000/month pension, monthly expenses ₹85,000, wife aged 58, life expectancy 25 more years, medical inflation concern. Please provide: (1) sustainable withdrawal rate analysis (3.5% vs 4% vs 5%), (2) bucket strategy (bucket 1: 2 years expenses in liquid+FD, bucket 2: 5 years in short-duration debt, bucket 3: 10+ years in hybrid+equity), (3) SWP setup suggestions with specific monthly amount, (4) tax planning using LTCG ₹1 lakh exemption and senior citizen slab, (5) inflation adjustment mechanism, (6) longevity risk hedging via annuity or SWP continuation, (7) medical corpus earmarking. Format as a retiree playbook document.",
+      "tags": [
+        "retirement-planning",
+        "drawdown",
+        "swp",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-020",
+      "title": "Tax Loss Harvesting Note",
+      "prompt": "Act as a tax-aware portfolio advisor with 9 years of experience managing equity portfolios for HNI clients. I need you to write a client note on tax loss harvesting in Indian equity and equity mutual funds. Here is the context: Client has a ₹75 lakh equity MF portfolio with ₹4 lakh unrealised LTCG and ₹90,000 unrealised short-term losses on some mid-cap positions. Financial year is ending in 6 weeks. LTCG above ₹1 lakh is taxed at 10%, STCG at 15%. Please provide: (1) explanation of tax loss harvesting with Indian equity MF example, (2) step-by-step plan to book ₹1 lakh LTCG tax-free and set off ₹90,000 STCL against STCG or carry forward, (3) wash sale consideration (India does not have strict wash sale rule but advise caution), (4) implementation using same fund switch-out/switch-in within same AMC, (5) impact on expense ratios, exit loads and XIRR, (6) a 6-point annual tax harvesting checklist. Format as a structured client advisory under 600 words. Include a disclaimer to consult a CA.",
+      "tags": [
+        "tax-harvesting",
+        "ltcg",
+        "stcg",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-021",
+      "title": "Sector Rotation Commentary",
+      "prompt": "Act as a market strategist at a SEBI RIA with 12 years of experience writing sector commentary. I need you to draft a 500-word sector rotation piece for the April 2026 monthly newsletter. Here is the context: Over the past 12 months, Nifty PSU Bank is up 28%, Nifty Capital Goods up 35%, Nifty FMCG up only 4%, Nifty Pharma up 18%, Nifty IT down 2%. Valuations are stretched in capital goods (P/E 45) while IT looks reasonable (P/E 24). RBI rate cut expected in Q3 FY27. Government capex continues at high levels. Please provide: (1) 2-paragraph overview of sector rotation theme, (2) which sectors look overvalued and why (with P/E and earnings growth context), (3) which sectors offer value and why, (4) how sectoral/thematic mutual funds fit (with caveats about timing risk), (5) advice to diversified equity MF investors about NOT chasing sector funds, (6) 3 portfolio actions (neutral weighting, SIP continuation, avoid concentration). Format as a newsletter section with sub-headings. Include standard disclaimer.",
+      "tags": [
+        "market-commentary",
+        "sector-rotation",
+        "equity-research",
+        "newsletter"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-022",
+      "title": "Gold Allocation Strategy Note",
+      "prompt": "Act as a multi-asset advisor with 10 years of experience building all-weather portfolios for Indian clients. I need you to write a note on gold allocation for client portfolios. Here is the context: Gold has returned ~14% CAGR over the last 5 years in INR terms, currently at ₹72,000/10g. Clients are asking whether to increase gold exposure. Indian investors have options: physical gold, gold ETF, gold mutual funds, Sovereign Gold Bonds (SGB) and digital gold. Please provide: (1) strategic allocation recommendation (5-15% of portfolio), (2) role of gold as inflation and INR depreciation hedge, (3) comparison table of physical, gold ETF, gold MF, SGB and digital gold covering cost, liquidity, taxation, safety, (4) tax treatment of each (SGB interest, redemption exemption, LTCG on ETF), (5) recommended vehicle based on horizon (<3 yrs, 3-8 yrs, >8 yrs), (6) rebalancing rule when gold allocation drifts beyond +/- 3%. Format as a client advisory note under 600 words.",
+      "tags": [
+        "gold",
+        "asset-allocation",
+        "sgb",
+        "diversification"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-023",
+      "title": "Insurance vs Investment Separation Script",
+      "prompt": "Act as a fee-only SEBI RIA with 7 years of experience educating clients to separate insurance from investment. I need you to write a client conversation script for an advisor to use with a 35-year-old client currently holding 3 endowment policies and 1 ULIP with combined annual premium ₹1.8 lakh and total sum assured only ₹22 lakh. Here is the context: Client has a family (spouse, one child), home loan of ₹45 lakh and should ideally have term cover of at least ₹1.5 crore. Surrender values are low due to early years. Please provide: (1) empathetic opening line that does not shame the client, (2) explanation of why bundled products give neither good insurance nor good returns, (3) calculation showing 4-5% IRR of endowment vs 11% CAGR of equity MF, (4) framework to decide: surrender vs paid-up vs continue, (5) replacement strategy with ₹1.5 crore term plan (approx ₹18,000 premium) + equity MF SIP of remaining premium, (6) expected outcome over 20 years. Format as a two-column advisor script with talking points and client objections. Keep tone respectful.",
+      "tags": [
+        "insurance",
+        "ulip",
+        "client-education",
+        "term-insurance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-024",
+      "title": "Direct Equity Stock Screen Explainer",
+      "prompt": "Act as an equity advisor with 9 years of experience teaching retail clients about stock selection frameworks. I need you to build a beginner-friendly stock screening checklist for clients who insist on direct equity alongside mutual funds. Here is the context: Clients are Indian retail investors using Zerodha/Groww, tend to buy on tips. The firm wants to guide them towards a disciplined process focused on quality large-caps and mid-caps. Please provide: (1) a 10-point qualitative checklist covering business model, competitive advantage, management quality, corporate governance, promoter holding and pledging, (2) a 10-point quantitative checklist covering ROE >15%, ROCE >18%, debt/equity <0.5, sales CAGR, PAT CAGR, P/E vs industry, FCF positive, dividend history, (3) red flags list (related party transactions, auditor resignations, frequent equity dilution), (4) guidance that direct equity should be max 30% of equity allocation for retail clients, (5) warning on concentration risk, (6) a position sizing rule. Format as a printable checklist.",
+      "tags": [
+        "direct-equity",
+        "stock-screening",
+        "beginner",
+        "investor-education"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-025",
+      "title": "Young NRI Client Investment Plan",
+      "prompt": "Act as a SEBI RIA with 11 years of experience servicing NRI clients in the Gulf and Singapore. I need you to create an investment plan for a 34-year-old NRI in Dubai. Here is the context: Client earns AED 45,000/month tax-free, sends ₹1.5 lakh/month to India, has NRE/NRO accounts with HDFC Bank, wants to build retirement corpus in INR and return to India at 50, has ₹12 lakh in Indian FDs and ₹8 lakh in Indian equity MF. Married, one child aged 4. Please provide: (1) plan allocation between Indian equity MF, debt MF, NPS Tier-1 (NRI eligible), real estate and global equity, (2) NRE vs NRO taxation basics for mutual fund investments, (3) TDS implications on MF redemption for NRIs (10% LTCG, 15% STCG on equity), (4) repatriation rules for NRE-sourced investments, (5) FEMA compliance notes, (6) SIP plan of ₹1.2 lakh/month across 4 categories, (7) FATCA and CRS disclosure reminders. Format as a structured NRI advisory plan. Note KYC requires NRI-specific documentation via CAMS/KFintech.",
+      "tags": [
+        "nri",
+        "fema",
+        "mutual-fund",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-026",
+      "title": "Behavioural Coaching Script for Market Fall",
+      "prompt": "Act as a behavioural finance coach and CFP practitioner with 10 years of experience managing client emotions during market drawdowns. I need you to draft a conversation script for advisors to use when clients panic during a 15% NIFTY correction. Here is the context: Markets have fallen 15% over 4 weeks due to FII selling and global risk-off. Many clients are calling asking to redeem. Advisor needs to calm them without being dismissive. Please provide: (1) opening acknowledgment that validates client's concern, (2) historical context on Indian market drawdowns (2008, 2013, 2020) and subsequent recoveries, (3) reminder of the client's own goals and time horizon, (4) explanation of why stopping SIP is mathematically the worst action, (5) suggestion to temporarily hold rather than sell, (6) offer to review asset allocation if risk profile has genuinely changed, (7) 3 common objections and responses. Format as a 2-column script with advisor lines and likely client responses. Keep tone empathetic and non-patronising.",
+      "tags": [
+        "behavioural-finance",
+        "client-communication",
+        "market-correction",
+        "coaching"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-027",
+      "title": "Financial Plan for Single Mother",
+      "prompt": "Act as a compassionate financial planner and CFP India practitioner with 8 years of experience working with single-parent households. I need you to create a financial plan for a 38-year-old single mother. Here is the context: She is a senior HR manager in Pune, earning ₹22 lakh per annum, has an 11-year-old daughter, no spousal income, no financial support from ex-spouse, lives in a rented flat (₹35,000/month), has ₹18 lakh MF, ₹5 lakh PPF, ₹3 lakh FD, ₹2 lakh EPF, no term insurance, basic health cover ₹5 lakh from employer. Please provide: (1) risk assessment specific to single-income households, (2) urgent insurance recommendations (term ₹2 crore with MWPA, health ₹10 lakh family floater, critical illness ₹20 lakh), (3) emergency fund of 9 months ₹4.5 lakh, (4) daughter's education goal SIP (₹50 lakh in 7 years for undergrad), (5) retirement corpus estimate and monthly SIP, (6) nomination and guardian appointment for daughter, (7) will drafting recommendation. Format as a caring advisory plan under 700 words.",
+      "tags": [
+        "single-parent",
+        "life-planning",
+        "term-insurance",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-028",
+      "title": "Lumpsum Deployment Calendar",
+      "prompt": "Act as a SEBI RIA with 10 years of experience managing deployment of large cash amounts. I need you to create a 12-month deployment calendar for a client who sold property and received ₹1.1 crore. Here is the context: Client is a 45-year-old doctor in Chennai, moderate-to-aggressive risk profile, 15-year horizon, existing portfolio of ₹80 lakh (60% equity MF, 40% debt). Goal is long-term wealth accumulation. Market context: NIFTY near all-time high, valuation trailing P/E 22.5. Please provide: (1) parking plan for idle funds (arbitrage funds, liquid funds, short-duration debt), (2) 12-month STP schedule to equity with tranche sizes, (3) trigger rules for accelerating deployment if market falls >5%, >10%, >15%, (4) target final allocation (65% equity, 25% debt, 5% gold, 5% cash), (5) tax treatment of arbitrage and liquid funds during parking, (6) documentation and client review checkpoints at month 3, 6, 9, 12. Format as a month-by-month table with rationale.",
+      "tags": [
+        "lumpsum",
+        "stp",
+        "deployment",
+        "asset-allocation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-029",
+      "title": "Quarterly Client Portfolio Letter",
+      "prompt": "Act as the founder of a boutique RIA firm in Mumbai with 15 years of experience writing quarterly letters to clients. I need you to draft a Q4 FY26 portfolio letter for clients who follow the firm's model portfolio. Here is the context: Model portfolio returned 11.8% for FY26 vs NIFTY 500 TRI 13.2%, underperformance driven by lower mid-cap exposure and higher debt allocation. Debt portion returned 7.4% vs CRISIL Composite Bond Index 6.9%. Gold contributed 18% returns. Please provide: (1) warm 4-line opening, (2) performance summary table across equity, debt, gold with benchmarks, (3) honest explanation of equity underperformance (risk-adjusted context), (4) what worked and what did not, (5) portfolio changes made during the quarter, (6) outlook paragraph with humility about forecasting, (7) thank-you and invitation for review meeting. Format as a 2-page client letter. Avoid hype, maintain SEBI-compliant language.",
+      "tags": [
+        "client-letter",
+        "performance-review",
+        "newsletter",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-030",
+      "title": "Simple Money Talk for Teenagers",
+      "prompt": "Act as a youth-focused financial educator working with a RIA's CSR arm with 6 years of experience teaching money basics in Indian schools. I need you to draft a 30-minute workshop script for Class 11-12 students in Delhi on investing basics. Here is the context: Students are 16-18 years old, most have no exposure to stock markets, some have heard parents discuss mutual funds, curriculum is non-commercial and product-agnostic. Please provide: (1) 5-minute intro using pocket money and interest analogy, (2) 5-minute explanation of inflation using a pani-puri price 2010 vs 2026, (3) 5-minute explanation of compounding with Rakesh and Priya example starting at age 20 vs age 30, (4) 5-minute mutual fund explainer using a dabba analogy, (5) 5-minute discussion of SIP and goal linking, (6) 5-minute Q&A prompts, (7) 3 practical next steps (open PPF, start saving ₹500/month in own savings, read one book). Format as a teacher-ready slide/script outline.",
+      "tags": [
+        "financial-literacy",
+        "youth",
+        "beginner",
+        "education"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-031",
+      "title": "Goal Prioritisation Framework",
+      "prompt": "Act as a goal-based planner and CFP CM with 9 years of experience helping clients prioritise competing financial goals. I need you to build a goal prioritisation framework for a middle-class Indian family. Here is the context: Family has 5 goals: emergency fund ₹6 lakh (not ready), retirement at 58 (25 years, ₹5 crore), child's college education (12 years, ₹40 lakh), home purchase (5 years, ₹80 lakh down), international vacation (2 years, ₹6 lakh). Monthly investable surplus is ₹45,000. Please provide: (1) prioritisation logic using urgency, importance and reversibility, (2) recommended sequence and allocation split across the 5 goals, (3) which goals to fund in parallel vs sequentially, (4) what to drop or defer if surplus shrinks by 20%, (5) monthly SIP split across goals with fund category per goal, (6) a 3-scenario stress test (job loss, medical emergency, market downturn), (7) review cadence. Format as a structured planning note with a final allocation table.",
+      "tags": [
+        "goal-planning",
+        "prioritisation",
+        "sip",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-032",
+      "title": "Portfolio Overlap Analysis Workflow",
+      "prompt": "Act as a mutual fund analyst with 8 years of experience reviewing MF portfolios for RIA clients. I need you to design a workflow to identify portfolio overlap across equity mutual fund holdings. Here is the context: Clients often hold 8-12 equity schemes across large-cap, flexi-cap, focused and multi-cap categories that end up with 60-70% overlap in top holdings. Tools available: Value Research, Morningstar, Advisorkhoj and CAS from CAMS/KFintech. Please provide: (1) definition of overlap and why it matters for diversification, (2) step-by-step workflow to extract top 10 holdings of each fund, (3) overlap calculation method and acceptable thresholds (<30% between any two funds), (4) 3 typical overlap scenarios (all large-cap heavy, all flexi-cap tilt, theme duplication), (5) recommended action when overlap exceeds 50% between two funds (consolidate, shift category), (6) how to explain this to a client who loves all their funds, (7) a reusable Excel template structure. Format as an analyst SOP.",
+      "tags": [
+        "portfolio-overlap",
+        "mutual-fund",
+        "analysis",
+        "workflow"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-033",
+      "title": "Simple Budget and Savings Plan",
+      "prompt": "Act as a personal finance coach with 5 years of experience helping young Indian earners build budgeting habits. I need you to create a simple monthly budget template for a 25-year-old first-job professional in Bengaluru. Here is the context: Monthly take-home is ₹68,000, currently lives in PG (₹15,000), new job, no financial dependents, parents are self-sufficient, no EMIs yet. She wants to build an emergency fund, start investing and still enjoy a social life. Please provide: (1) 50-30-20 rule adaptation for Indian metro context with specific rupee splits, (2) line-by-line budget (rent, food, transport, subscriptions, entertainment, shopping, personal care), (3) savings allocation (emergency fund 10%, SIP 10%), (4) automation tips (auto-debit SIP on 5th, RD on 7th), (5) 3 common budget busters (weekend dining, online shopping, impulse travel), (6) monthly review checklist, (7) one encouraging closing message. Format as a one-page printable budget sheet.",
+      "tags": [
+        "budgeting",
+        "beginner",
+        "young-investor",
+        "savings"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-034",
+      "title": "International Fund Allocation Rationale",
+      "prompt": "Act as a global allocation specialist at a SEBI RIA with 10 years of experience advising on cross-border investing. I need you to write a rationale note for adding 10-15% international equity exposure to Indian client portfolios. Here is the context: Currently most Indian HNI clients are 100% India equity. Global funds available via MF route: US-focused, global-developed, emerging markets, and feeder funds. RBI LRS route also available for direct US stock buying via platforms like INDmoney or Vested. Please provide: (1) 3 reasons for global diversification (sector gaps in India tech/biotech, INR hedge, cycle diversification), (2) suggested 10-15% allocation with 70% US, 30% global-ex-US split, (3) taxation rules (international funds taxed as debt MF post-April 2023 with slab rate), (4) LRS route pros/cons including TCS of 20% above ₹7 lakh and compliance, (5) SEBI's periodic limits on MF international investment and its impact, (6) rebalancing considerations. Format as a client advisory note under 700 words.",
+      "tags": [
+        "international-equity",
+        "global-diversification",
+        "lrs",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-035",
+      "title": "Fee Justification Email to Prospect",
+      "prompt": "Act as a fee-only SEBI RIA with 8 years of experience converting prospects who question the ₹30,000 annual fee. I need you to draft a persuasive yet honest email explaining the value of fee-only advice vs commission-based distribution. Here is the context: Prospect is a 40-year-old banker with a ₹60 lakh portfolio, currently with a bank RM who does not charge but sells regular plan MFs. Prospect asked 'why should I pay you when my bank RM is free?'. Please provide: (1) warm acknowledgment of the question, (2) explanation of hidden cost in regular plans (0.8-1% higher TER = ₹48,000-60,000 per annum on ₹60 lakh), (3) conflict-of-interest comparison, (4) what ₹30,000 fee includes (plan, quarterly reviews, tax harvesting, insurance audit, goal tracking), (5) 20-year compounding difference between direct and regular plans, (6) soft close inviting a free 30-minute consultation, (7) SEBI RIA registration reference line. Format as a professional email under 450 words.",
+      "tags": [
+        "fee-only",
+        "client-acquisition",
+        "prospect-email",
+        "ria"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-036",
+      "title": "Small Business Owner Wealth Plan",
+      "prompt": "Act as a financial planner with 11 years of experience working with Indian MSME owners. I need you to create a wealth-building plan for a small business owner. Here is the context: Client is a 42-year-old owner of a packaging unit in Ahmedabad with annual business profit of ₹35 lakh (variable), takes ₹1.2 lakh/month as personal withdrawal, business value estimated ₹2 crore, personal liquid investments only ₹18 lakh (FD-heavy), no EPF since self-employed, no structured retirement plan. Wife manages household, two teenage children. Please provide: (1) personal vs business wealth separation advice, (2) retirement plan using NPS Tier-1 (self-contribution with 80CCD(1B)), PPF and equity MF SIP, (3) suggested investment surplus of ₹60,000-80,000/month, (4) emergency fund of 12 months due to business volatility, (5) adequate term insurance (₹3 crore) and key-man insurance for business, (6) succession planning question for business, (7) tax efficiency via spouse investments. Format as a business-owner advisory plan.",
+      "tags": [
+        "business-owner",
+        "self-employed",
+        "nps",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-037",
+      "title": "Mid-Year Portfolio Check-In Template",
+      "prompt": "Act as a SEBI-registered Investment Adviser with 7 years of experience running mid-year client check-ins. I need you to create a reusable template for a 30-minute mid-year review. Here is the context: Mid-year (September) check-ins are shorter than annual reviews but help catch drift and life changes. Target audience is retainer clients with ₹25 lakh - ₹2 crore portfolios. Please provide: (1) pre-call preparation checklist (pull CAS, run allocation, note benchmark YTD), (2) 6-section conversation outline (life updates, YTD performance, allocation drift, tax harvesting opportunities, goal tracking, next 6 months plan), (3) 5 trigger questions to surface hidden changes (job, dependents, EMIs, business, health), (4) 3 typical mid-year actions (STP continuation, partial profit booking, emergency fund top-up), (5) closing action items list, (6) 3-line follow-up email template. Format as a facilitator guide. Keep it practical for one-advisor practices.",
+      "tags": [
+        "client-review",
+        "check-in",
+        "template",
+        "beginner"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-038",
+      "title": "Risk Disclosure Document for Model Portfolio",
+      "prompt": "Act as a compliance-aware SEBI RIA with 10 years of experience drafting client-facing disclosure documents. I need you to draft a risk disclosure document for a balanced model portfolio offered to retail clients. Here is the context: Model portfolio has 60% equity MF (split across large-cap index, flexi-cap, mid-cap), 30% debt MF (short duration, corporate bond) and 10% gold ETF, rebalanced annually. Regulatory requirement under SEBI (IA) Regulations 2013. Please provide: (1) opening section stating the purpose, (2) general market risks (equity, interest rate, credit, liquidity, currency for global exposure), (3) specific risks of each asset class in plain language, (4) expected volatility and historical worst 1-year drawdown illustration (~20-25% for balanced), (5) expected return range with disclaimer that past performance does not guarantee future, (6) risks of rebalancing (tax impact, exit loads), (7) suitability statement and client acknowledgment line, (8) adviser fee and no-commission declaration. Format as a formal disclosure document under 800 words.",
+      "tags": [
+        "risk-disclosure",
+        "compliance",
+        "sebi",
+        "beginner"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-039",
+      "title": "Simple Explainer on Expense Ratio Impact",
+      "prompt": "Act as an investor educator at a SEBI RIA with 6 years of experience writing beginner explainers. I need you to write a short, clear explainer on how mutual fund expense ratios affect long-term returns. Here is the context: Many Indian retail clients do not realise the difference between regular and direct plans, nor the long-term drag of a 1% higher TER. Target audience is first-time investors. Please provide: (1) 50-word definition of expense ratio with Indian example (regular plan 1.8% vs direct plan 0.8%), (2) calculation showing ₹10,000/month SIP for 25 years at 12% in direct vs 11% in regular (due to TER drag) and the corpus difference, (3) why index funds have the lowest TER (0.1-0.3%), (4) 3 places to verify TER (AMC website, Value Research, scheme SID), (5) how to switch from regular to direct plan via MF Utilities or AMC website, (6) one caveat on switching (tax and exit load), (7) one-line closing. Format as a 400-word blog-style explainer.",
+      "tags": [
+        "expense-ratio",
+        "direct-plan",
+        "beginner",
+        "education"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    },
+    {
+      "id": "finance-investment-advisors-040",
+      "title": "Estate Planning Intro for Advisors",
+      "prompt": "Act as a wealth structuring specialist with 12 years of experience helping SEBI RIA clients integrate estate planning into their financial plan. I need you to write an intro document for advisors on when and how to bring up estate planning with clients. Here is the context: Most Indian clients avoid will-writing until crisis. Advisors are not lawyers but can initiate the conversation and refer to legal experts. The note will be used internally by junior advisors. Please provide: (1) why estate planning matters (intestate succession under Hindu Succession Act, Indian Succession Act for others, nomination vs legal heir confusion), (2) 5 client triggers to open the conversation (marriage, child, property, business, large corpus), (3) 3 essential documents (will, nomination updates across all investments and bank accounts, power of attorney), (4) when to recommend a private trust (>₹10 crore net worth, business continuity, special-needs child), (5) advisor's scope vs lawyer's scope, (6) 6-point client conversation opener, (7) referral protocol to estate lawyers. Format as an internal advisor briefing under 700 words.",
+      "tags": [
+        "estate-planning",
+        "will",
+        "nomination",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "investment-advisors"
+    }
+  ]
+}

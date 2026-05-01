@@ -1,0 +1,151 @@
+{
+  "category": "data-analytics",
+  "subcategory": "business-analysts",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "data-analytics-business-analysts-001",
+      "title": "Requirements Documentation (BRD)",
+      "prompt": "Act as a senior BA at an Indian IT services company (TCS / Infosys / LTIMindtree). Build a Business Requirements Document (BRD) for a new feature: 'Salary advance' in our HR-tech platform serving 200K Indian employees. Cover: (1) executive summary, (2) business objectives, (3) stakeholders, (4) functional requirements (employee, manager, HR, finance flows), (5) non-functional (security, performance, audit), (6) acceptance criteria, (7) integrations (payroll, banking, HRIS), (8) compliance (RBI lending, DPDP, TDS), (9) UX wireframe references, (10) sign-off matrix. Constraints: align with IIBA BABOK; bilingual; respect Indian salary structure norms.",
+      "category": "data-analytics",
+      "subcategory": "business-analysts",
+      "tags": ["brd", "iiba", "salary-advance", "rbi", "dpdp"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true
+    },
+    {
+      "id": "data-analytics-business-analysts-002",
+      "title": "User Story Writing (Agile)",
+      "prompt": "Act as a senior agile BA. Write 12 user stories for a feature: 'GST invoicing in B2B SaaS'. Use INVEST + 'As a / I want / So that' format. Each: (1) story statement, (2) acceptance criteria (Gherkin Given-When-Then), (3) priority (MoSCoW), (4) story points (Fibonacci), (5) dependencies, (6) DoR + DoD. Constraints: align with Indian GST e-invoice mandate (₹5 Cr threshold); cite IRP + GSTN; QA + dev + product agree; documented in Jira.",
+      "category": "data-analytics",
+      "subcategory": "business-analysts",
+      "tags": ["user-story", "agile", "gst-invoicing", "invest", "gherkin"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true
+    },
+    {
+      "id": "data-analytics-business-analysts-003",
+      "title": "Process Map (As-Is + To-Be)",
+      "prompt": "Act as a process consultant. Build As-Is + To-Be process maps for an Indian bank's home-loan origination (current 14 days, target 4 days). Cover: (1) As-Is swimlane (customer, branch, regional, credit, legal, valuation, disbursement), (2) pain points (handoffs, redundant verification, paper-based), (3) To-Be (digital application, e-KYC, automated CIBIL pull, e-sign, instant valuation), (4) tech enablers (Aadhaar, DigiLocker, Account Aggregator, MapMyIndia property), (5) RACI shifts, (6) capability gap, (7) change-management, (8) measurement (TAT, conversion). Constraints: align with RBI digital lending guidelines + DPDP + BIS standards.",
+      "category": "data-analytics",
+      "subcategory": "business-analysts",
+      "tags": ["process-mapping", "swimlane", "home-loan", "rbi", "digilocker"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-business-analysts-004",
+      "title": "Gap Analysis Document",
+      "prompt": "Act as a senior BA at an Indian retailer migrating from legacy ERP to SAP S/4HANA. Build gap analysis covering: (1) functional gaps (current SAP feature vs legacy customisation — 28 customisations identified), (2) data gaps (master + transactional + historical), (3) integration gaps (POS, payment, e-comm, GSTN, e-invoice), (4) reporting gaps, (5) user-experience gaps, (6) compliance gaps (GST, e-invoice, e-way), (7) effort estimate per gap, (8) gap-fix priority + 'live with' vs 'must-fix'. Constraints: align with SAP S/4HANA out-of-box + Indian localisation; INR effort transparent; respect change-management.",
+      "category": "data-analytics",
+      "subcategory": "business-analysts",
+      "tags": ["gap-analysis", "sap-s4hana", "erp-migration", "gst", "localisation"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-business-analysts-005",
+      "title": "Stakeholder Communication Brief",
+      "prompt": "Act as a senior BA. Write a 1-page stakeholder communication brief for a 4-month BFSI digital transformation project. Cover: (1) key stakeholder map (CIO, CFO, branch head, ops, IT, vendor, regulator), (2) communication plan per stakeholder (cadence, channel, content), (3) risk-comms framework, (4) escalation protocol, (5) decision rights (RAPID), (6) RACI for project deliverables, (7) tools (Slack channel + status email + dashboard), (8) sign-off cadence. Constraints: align with PMI + IIBA BABOK; bilingual; respect promoter / Indian leadership style; transparent.",
+      "category": "data-analytics",
+      "subcategory": "business-analysts",
+      "tags": ["stakeholder", "communication-brief", "rapid", "raci", "iiba"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-business-analysts-006",
+      "title": "Functional Specification Document (FSD)",
+      "prompt": "Act as a senior BA. Write FSD for a feature: 'Outpatient appointment booking' in a hospital chain's app. Cover: (1) screen-level wireframe + behaviour, (2) data model, (3) API contract (JSON request + response), (4) business rules (slot availability, doctor-on-leave, package check, insurance approval), (5) error states + handling, (6) security (PII handling), (7) integration (HMS, IVR, WhatsApp, payment gateway), (8) acceptance criteria. Constraints: align with NDHM (DPDP-aligned), Hospital Information System standards; bilingual UX; printable for vendor sign-off.",
+      "category": "data-analytics",
+      "subcategory": "business-analysts",
+      "tags": ["fsd", "appointment-booking", "ndhm", "hms", "api-contract"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-business-analysts-007",
+      "title": "UAT Test Case Bank",
+      "prompt": "Act as a UAT lead. Write 30 UAT test cases for a B2B SaaS feature: 'GSTN E-invoice generation'. Cover: (1) positive cases (single B2B invoice, B2C, export, SEZ, RCM, advances), (2) negative cases (invalid GSTIN, expired token, IRN duplicate), (3) edge cases (₹0 invoice, foreign currency, multi-line item, ITC reversal), (4) integration cases (cancel, amend, e-way bill linkage), (5) performance (1,000 invoices/min, IRP downtime). Per case: pre-condition, steps, expected, actual, pass/fail. Constraints: align with GSTN IRP API spec; documented for sign-off; bilingual screenshots.",
+      "category": "data-analytics",
+      "subcategory": "business-analysts",
+      "tags": ["uat", "test-cases", "gstn", "e-invoice", "irp"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-business-analysts-008",
+      "title": "Vendor RFP Evaluation",
+      "prompt": "Act as a senior BA on procurement panel. Evaluate 4 vendor RFP responses for an Indian government health-tech project (₹35 Cr, 24 months). Build evaluation matrix: (1) functional fit (30%), (2) technical capability + cloud (15%), (3) experience + references (15%), (4) team + skill (10%), (5) implementation methodology (10%), (6) commercials (15%), (7) compliance (DPDP, NDHM, MeitY) + (5%). Score each 1-5 with evidence; recommend top-2 with QCBS calculation. Constraints: align with GFR + GeM + e-procurement; transparent + appealable; INR + 18% GST; documented for audit.",
+      "category": "data-analytics",
+      "subcategory": "business-analysts",
+      "tags": ["rfp-evaluation", "qcbs", "gfr", "ndhm", "gem"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-business-analysts-009",
+      "title": "Backlog Grooming + Prioritisation",
+      "prompt": "Act as a product BA. Run backlog grooming session for a 110-item product backlog of an Indian D2C SaaS product. Cover: (1) re-prioritisation framework (RICE — Reach × Impact × Confidence ÷ Effort), (2) story breakdown for top 12 (decompose epic → stories → tasks), (3) story-point estimation + planning poker, (4) dependency mapping, (5) tech-debt budget allocation (20%), (6) regulatory items first (DPDP, GST, IT Rules), (7) sprint-allocation decision, (8) sign-off + JIRA update. Constraints: align with Scrum + LeSS scaling; honest about velocity; bilingual stand-ups; INR engineering capacity transparent.",
+      "category": "data-analytics",
+      "subcategory": "business-analysts",
+      "tags": ["backlog-grooming", "rice", "scrum", "story-points", "dpdp"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-business-analysts-010",
+      "title": "Data Migration Mapping",
+      "prompt": "Act as a senior data BA. Build data migration mapping for an Indian bank consolidating 4 legacy systems into a single core banking platform. Cover: (1) source system inventory (legacy → new), (2) field-level mapping (200+ fields with type / format / NULL / default), (3) data cleansing rules, (4) transformation logic (currency, date, customer-merge), (5) validation rules (count + sum + sample), (6) cutover strategy (big-bang vs phased), (7) reconciliation reporting, (8) rollback plan. Constraints: align with RBI data-protection + DPDP + data-residency; documented for audit; sign-off from CDO + CIO.",
+      "category": "data-analytics",
+      "subcategory": "business-analysts",
+      "tags": ["data-migration", "core-banking", "field-mapping", "rbi", "dpdp"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-business-analysts-011",
+      "title": "API Specification Document",
+      "prompt": "Act as a senior BA. Write API specification for a new endpoint: 'POST /api/v1/loan/preApproval' for an Indian fintech. Cover: (1) endpoint URL + HTTP method + auth (OAuth 2 + mTLS), (2) request payload (JSON schema with field types, required, validation), (3) response payload (success + error), (4) status codes (200, 400, 401, 403, 422, 500), (5) rate-limit (100/min), (6) IndiaStack integration (Aadhaar OKYC + Account Aggregator), (7) idempotency key, (8) example request + response, (9) versioning policy, (10) data classification + DPDP. Constraints: align with RBI digital lending guidelines + Account Aggregator + DPDP; OpenAPI 3.0 schema.",
+      "category": "data-analytics",
+      "subcategory": "business-analysts",
+      "tags": ["api-spec", "openapi", "rbi", "account-aggregator", "indiastack"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false
+    },
+    {
+      "id": "data-analytics-business-analysts-012",
+      "title": "Workshop Facilitation (Requirement Discovery)",
+      "prompt": "Act as a senior BA facilitator. Plan a 4-hour requirement discovery workshop with 12 stakeholders (CFO, CIO, branch head, ops, marketing, IT, vendor) for an Indian bank rolling out video-KYC. Cover: (1) opening (icebreaker + framing), (2) current-state walkthrough (45 min), (3) pain points + opportunities (60 min — affinity diagram), (4) desired-state visioning (60 min), (5) prioritisation (30 min), (6) commit + next-steps (15 min). Tools: brown paper, sticky notes, voting, MURAL / Miro. Constraints: respect Indian hierarchy; bilingual; document outputs in BRD; align with RBI video-KYC norms.",
+      "category": "data-analytics",
+      "subcategory": "business-analysts",
+      "tags": ["workshop", "requirement-discovery", "video-kyc", "rbi", "miro"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    }
+  ]
+}

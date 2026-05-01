@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "students-data-science-ai-001",
+      "title": "Choose ML Model for Swiggy Delivery ETA Prediction",
+      "prompt": "Act as a senior ML engineer with 8 years of experience at Indian food-tech companies like Swiggy and Zomato. I am a final-year B.Tech student working on a Kaggle-style project to predict food delivery ETA in Bengaluru using a dataset with 200k rows containing restaurant_id, pickup_lat, pickup_lon, drop_lat, drop_lon, weather, traffic_density, order_hour, rider_age, rider_rating, and actual_delivery_time_minutes. I need you to recommend the best ML model selection strategy. Please provide: (1) A ranked shortlist of 5 candidate algorithms (linear regression, Random Forest, XGBoost, LightGBM, CatBoost) with pros/cons for this tabular regression problem, (2) Feature engineering suggestions specific to Indian urban traffic (Haversine distance, peak-hour flags for 1-2pm and 8-10pm IST, monsoon month indicator), (3) A suggested train/validation/test split strategy considering time leakage, (4) Evaluation metrics (MAE in minutes, RMSE, MAPE) with target thresholds that would be considered production-ready at a Flipkart/Swiggy scale, (5) A scikit-learn + LightGBM starter code block using pandas. Format as markdown with headings. Consider constraints: my laptop has 8GB RAM, I cannot use GPU, and I need the final model to run inference in under 50ms per request. Highlight any risks of target leakage and class imbalance in Indian city traffic patterns.",
+      "tags": [
+        "model-selection",
+        "lightgbm",
+        "regression",
+        "swiggy",
+        "feature-engineering"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-002",
+      "title": "Pandas Data Cleaning Pipeline for NSSO Household Survey",
+      "prompt": "Act as a data engineer with 6 years experience working with Indian government datasets (NSSO, MoSPI, CMIE). I am an MSc Statistics student at ISI Kolkata cleaning an NSSO Household Consumer Expenditure Survey CSV (roughly 100k rows, 85 columns) for my dissertation. Columns include hh_id, state_code, district, sector (rural/urban), mpce, household_size, religion, social_group, education_head, and dozens of item-level expenditure columns with many missing values, inconsistent codes, and junk strings like \"NA\", \"-\", \"?\". I need you to write a production-ready pandas data cleaning pipeline. Please provide: (1) A single reusable function clean_nsso(df) that handles type coercion, standardizes missing values, strips whitespace, maps state_code to state names using a dictionary, (2) A strategy for imputing mpce outliers using winsorization at 1st and 99th percentile, (3) Creation of derived columns: per_capita_expenditure, log_mpce, quintile_group, (4) Validation assertions using pandera or simple asserts to catch bad rows, (5) A short EDA summary printed at the end (shape, dtypes, null counts, unique states). Format as a complete Python script with docstrings and type hints. Constraint: the script must run on 8GB RAM using chunked reading if needed and must be idempotent so I can re-run it safely.",
+      "tags": [
+        "pandas",
+        "data-cleaning",
+        "nsso",
+        "etl",
+        "python"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "claude",
+      "outputType": "code",
+      "isFree": true,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-003",
+      "title": "Classification Model for Paytm UPI Fraud Detection",
+      "prompt": "Act as a fraud analytics lead with 10 years at Paytm and NPCI. I am a pre-final-year IIIT Hyderabad student building a UPI fraud detection classifier on a synthetic dataset of 500k transactions with columns txn_id, payer_vpa, payee_vpa, amount_inr, txn_time, device_id, latitude, longitude, merchant_category, is_fraud. The fraud rate is 0.8 percent. I need you to design a complete classification approach. Please provide: (1) A recommended algorithm stack (Logistic Regression baseline, XGBoost, and an isolation-forest anomaly layer) with justification for imbalanced binary classification, (2) Sampling strategies (SMOTE, class_weight, under-sampling) and which to avoid for UPI-scale data, (3) Feature engineering for velocity features (txns per payer in last 1h, 24h), geo-hash bucketing, odd-hour flags for 1am-5am IST, (4) Evaluation metrics emphasizing PR-AUC, recall at 1 percent FPR, and cost-weighted loss where a missed fraud costs Rs 5000 and a false alarm costs Rs 20, (5) A scikit-learn pipeline code snippet with ColumnTransformer. Format as a structured tech-design doc with sections. Constraints: must comply with NPCI data localization, should avoid any PII leakage in features, and should be explainable using SHAP for RBI audit review.",
+      "tags": [
+        "classification",
+        "fraud-detection",
+        "xgboost",
+        "imbalanced-data",
+        "upi"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-004",
+      "title": "Time-Series Forecasting for Indian Monsoon Rainfall",
+      "prompt": "Act as a climate data scientist with 7 years of experience at IMD and IITM Pune. I am an MTech student forecasting monthly all-India rainfall using IMD historical data from 1901 to 2023 (columns: year, month, region, rainfall_mm). I need you to recommend a time-series modelling plan. Please provide: (1) A comparison of SARIMA, Prophet, ETS, and LSTM for seasonal monsoon data with strong June-September peaks, (2) Stationarity check steps using ADF and KPSS tests with expected interpretations, (3) A recommended train (1901-2010), validation (2011-2017), test (2018-2023) split with walk-forward CV, (4) Exogenous regressors to include such as ENSO/Nino 3.4 index, IOD index, and their lags, (5) A statsmodels SARIMAX starter script that fits, forecasts next 12 months, and plots with confidence intervals using matplotlib. Format as a Jupyter notebook outline with code cells and markdown explanations. Constraints: the notebook must be reproducible with a fixed random seed, must print RMSE and MAPE against a climatological baseline (long-term mean), and must flag any structural breaks around 1976 (known shift in Indian monsoon regime).",
+      "tags": [
+        "time-series",
+        "sarima",
+        "forecasting",
+        "monsoon",
+        "statsmodels"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-005",
+      "title": "K-Means Clustering on Flipkart Customer Segments",
+      "prompt": "Act as a customer analytics manager with 6 years at Flipkart and Myntra. I am a BSc Data Science student segmenting 80k Flipkart Big Billion Days customers using RFM features (recency_days, frequency, monetary_inr) plus category_preference and tier_city (Tier-1, Tier-2, Tier-3). I need you to design an unsupervised clustering workflow. Please provide: (1) Preprocessing steps including log transform for monetary, StandardScaler for numerics, one-hot for categoricals, and handling of outliers, (2) A method to pick optimal k using elbow method and silhouette score with code using sklearn, (3) Comparison of KMeans, MiniBatchKMeans, and Gaussian Mixture for this dataset size, (4) Cluster profiling code that prints mean RFM per cluster and suggests business persona labels like \"Tier-2 budget loyalists\", \"Metro premium occasional\", (5) A seaborn pairplot and 2D PCA scatter for cluster visualization. Format as a single runnable Python script under 120 lines. Constraints: random_state=42 everywhere, must export cluster assignments to a CSV for the marketing team, and must include a 3-sentence managerial summary for each persona explaining expected CAC and LTV in INR.",
+      "tags": [
+        "clustering",
+        "kmeans",
+        "rfm",
+        "segmentation",
+        "scikit-learn"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-006",
+      "title": "Hypothesis Testing for Zomato A/B Test Results",
+      "prompt": "Act as an experimentation scientist with 8 years at Zomato and Ola. I am an MSc Statistics student analysing an A/B test where Zomato tested a new restaurant-ranking algorithm on 50k users in Bengaluru. Control group conversion rate was 12.4 percent and treatment was 13.1 percent over 14 days. Average order value rose from Rs 420 to Rs 438. I need you to run a rigorous hypothesis test analysis. Please provide: (1) A correct formulation of null and alternative hypotheses for both conversion rate and AOV, (2) The right statistical test for each (two-proportion z-test for conversion, Welch t-test or Mann-Whitney for AOV with justification), (3) Full Python code using scipy.stats that computes test statistic, p-value, 95 percent CI, and Cohen h effect size, (4) A power analysis showing whether 50k was sufficient at alpha 0.05 and power 0.8, (5) A plain-English verdict for the Zomato PM explaining whether to ship, with caveats about novelty effect and multiple testing. Format as a markdown report with code blocks. Constraints: address Simpson paradox risk across Bengaluru pincodes, mention CUPED variance reduction as a future improvement, and explicitly state Type 1 and Type 2 error trade-offs.",
+      "tags": [
+        "hypothesis-testing",
+        "ab-testing",
+        "scipy",
+        "statistics",
+        "experimentation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-007",
+      "title": "Regression Diagnostics for Mumbai House Price Model",
+      "prompt": "Act as an econometrics professor with 15 years teaching at Delhi School of Economics. I am a final-year MA Economics student who fitted an OLS model predicting Mumbai flat prices (price_cr) on features: area_sqft, bhk, age_years, distance_bkc_km, floor, parking, and locality dummies for Andheri, Bandra, Powai, Thane. R-squared is 0.74. I need you to walk me through a full regression diagnostics checklist. Please provide: (1) Tests for linearity (residual plots), normality of residuals (Shapiro-Wilk, QQ plot), homoscedasticity (Breusch-Pagan, White test), multicollinearity (VIF for each feature), and autocorrelation (Durbin-Watson), (2) Python code using statsmodels to run each test and print a summary table, (3) Interpretation thresholds specific to real-estate data where price ranges span Rs 50 lakh to Rs 15 crore, (4) Recommended fixes if assumptions fail: log-transform price, robust standard errors, dropping high-VIF features, (5) A final reporting template suitable for an academic thesis. Format as a markdown tutorial with code and explanations. Constraints: use INR crore units throughout, flag that distance_bkc_km may have non-linear effect, and include a short note on whether OLS is even appropriate vs quantile regression for skewed Mumbai prices.",
+      "tags": [
+        "regression-diagnostics",
+        "statsmodels",
+        "ols",
+        "econometrics",
+        "real-estate"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-008",
+      "title": "ANOVA for Comparing IIT Branch Placement Packages",
+      "prompt": "Act as a biostatistician and placement analytics expert with 10 years experience. I am an MSc Statistics student comparing 2024 placement packages (CTC in LPA) across 5 branches at IIT Bombay: CSE, ECE, Mechanical, Civil, Chemical, with roughly 120 students each. I need you to design a one-way ANOVA analysis. Please provide: (1) Null and alternative hypotheses stated formally, (2) Assumption checks: independence, normality within each branch (Shapiro-Wilk), and homogeneity of variance (Levene test) with Python code, (3) One-way ANOVA using scipy.stats.f_oneway and interpretation of F-statistic and p-value, (4) If ANOVA is significant, Tukey HSD post-hoc test using statsmodels to identify which branch pairs differ, along with Bonferroni correction discussion, (5) A seaborn boxplot visualising CTC distribution per branch with mean markers. Format as a single Jupyter notebook. Constraints: handle likely outliers (students with international offers of Rs 2 crore plus), discuss whether Kruskal-Wallis is a better non-parametric alternative, and include a 5-line conclusion suitable for the IIT placement cell report.",
+      "tags": [
+        "anova",
+        "hypothesis-testing",
+        "tukey-hsd",
+        "placements",
+        "statsmodels"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-009",
+      "title": "Matplotlib Visualization of RBI Repo Rate History",
+      "prompt": "Act as a senior data visualization specialist with 7 years at a Mumbai fintech. I am a BBA Analytics student visualizing RBI repo rate changes from 2000 to 2024 downloaded from RBI DBIE as a CSV (columns: date, repo_rate, reverse_repo_rate, crr). I need you to generate publication-quality matplotlib code. Please provide: (1) A multi-line step plot showing repo rate and reverse repo over time with shaded recession bands for 2008-09 and 2020-21, (2) Annotations at major events: 2008 global crisis, 2013 taper tantrum, 2016 demonetization, 2020 COVID cut, 2022-23 inflation hikes, (3) Custom styling using a clean white grid, Roboto font fallback, figure size 12x6 inches, dpi 300, (4) A secondary axis showing CPI inflation overlay if the user loads a second CSV, (5) Export as PNG and SVG for a college magazine. Format as a complete Python script with inline comments. Constraints: use only matplotlib and pandas (no seaborn), y-axis must show percentages with 1 decimal, x-axis must show yearly ticks, and the title must read \"India Monetary Policy Stance: RBI Repo Rate (2000-2024)\". Include a short caption block explaining the chart for non-expert readers.",
+      "tags": [
+        "matplotlib",
+        "visualization",
+        "rbi",
+        "time-series-plot",
+        "python"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-010",
+      "title": "Seaborn EDA on Indian Startup Funding Dataset",
+      "prompt": "Act as an EDA expert with 5 years at Analytics Vidhya. I am a B.Tech CSE student exploring an Indian startup funding dataset (15k rows, columns: startup_name, city, industry_vertical, sub_vertical, investors, amount_usd, funding_round, date) scraped from Inc42. I need you to produce a comprehensive exploratory data analysis using seaborn. Please provide: (1) A reusable eda() function that prints shape, dtypes, null percentages, and basic statistics, (2) Six specific seaborn charts: countplot of top 10 cities, countplot of top 10 industry verticals, boxplot of log(amount_usd) by funding_round, histplot of funding amounts with log scale, heatmap of month-vs-year funding counts, and a scatterplot of funding amount vs investor count, (3) Conversion of amount_usd to INR crore using a conversion rate of Rs 83 per USD, (4) Top 10 most-funded startups sorted by total INR raised, (5) Three data-driven insights phrased as a LinkedIn-ready summary. Format as a Jupyter notebook with markdown and code cells. Constraints: use seaborn whitegrid theme, set figsize consistently to 10x6, and handle missing amount_usd values before log transform. Include Bengaluru, Gurgaon, Mumbai as the expected top cities.",
+      "tags": [
+        "eda",
+        "seaborn",
+        "startups",
+        "visualization",
+        "jupyter"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-011",
+      "title": "Plotly Dashboard for data.gov.in Crop Yield",
+      "prompt": "Act as a dashboard developer with 6 years experience at a Pune agritech startup. I am a final-year MSc student building an interactive Plotly dashboard on Indian crop yield data from data.gov.in (columns: state, district, crop, year, area_hectare, production_tonnes, yield). I need you to generate a complete Streamlit app using Plotly Express. Please provide: (1) App layout with sidebar filters for state, crop, and year range, (2) Four Plotly charts: choropleth map of India showing average yield per state, line chart of yield trend over years for the selected crop, bar chart of top 10 districts by production, and a sunburst of crop-state-production, (3) A summary KPI row showing total production, average yield, and number of districts covered, (4) Data caching using st.cache_data to avoid reloading the 1M-row CSV, (5) Deployment instructions for Streamlit Community Cloud. Format as a single app.py file with imports, functions, and layout. Constraints: the app must run under 200MB RAM, must gracefully handle missing districts, must show yield in tonnes per hectare, and must include a footer crediting data.gov.in as the source. Include rice, wheat, sugarcane, cotton, pulses as default crops.",
+      "tags": [
+        "plotly",
+        "streamlit",
+        "dashboard",
+        "agriculture",
+        "data-gov-in"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-012",
+      "title": "Summarize Attention Is All You Need Paper",
+      "prompt": "Act as an NLP researcher with a PhD from IIT Kharagpur and 5 years at Microsoft Research Bengaluru. I am a second-year MTech student preparing for placement interviews and I need a deep, exam-ready summary of Vaswani et al. 2017 \"Attention Is All You Need\". I need you to produce a structured research paper summary. Please provide: (1) A 3-sentence TL;DR in plain English, (2) Problem statement and prior art (RNN and CNN limitations in machine translation), (3) Key contributions bulleted (multi-head scaled dot-product attention, positional encoding, encoder-decoder stack), (4) Architecture walk-through with the math for Attention(Q,K,V) = softmax(QK^T / sqrt(d_k)) V explained step by step, (5) Experimental setup (WMT 2014 En-De, En-Fr), results (BLEU scores), and training cost, (6) Limitations and how later work (BERT, GPT, T5) built on this, (7) Five likely interview questions with model answers that a Flipkart or Google Bengaluru interviewer might ask. Format as markdown with headings and latex math. Constraint: keep total length under 1200 words, highlight any concept that typically trips up freshers, and end with a 2-line personal-notes section I can add to my Notion.",
+      "tags": [
+        "paper-summary",
+        "transformers",
+        "attention",
+        "nlp",
+        "interview-prep"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "claude",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-013",
+      "title": "Polars Data Pipeline for CMIE Consumer Pyramids",
+      "prompt": "Act as a big-data engineer with 8 years at CMIE and Tata iQ. I am an MSc Data Science student processing a 5GB CMIE Consumer Pyramids Household Survey parquet file on a 16GB laptop, and pandas keeps crashing. I need you to rewrite my workflow in Polars for speed. Please provide: (1) A Polars LazyFrame pipeline that reads the parquet, filters households in Maharashtra and Karnataka, groups by district and income_decile, aggregates monthly_income, monthly_expenditure, and savings_rate, (2) Use of lazy scanning with scan_parquet and streaming=True where applicable, (3) Equivalent pandas code side-by-side for the same operations so I can see the speedup, (4) Benchmarking snippet using time.perf_counter to compare both, (5) A final collect() into a smaller DataFrame exported to CSV. Format as a Python script with detailed comments. Constraints: do not load full file into memory, must handle nullable integers correctly, and must produce identical numeric results to pandas within floating-point tolerance. Include a short note on when Polars is preferred over Dask or PySpark for a student laptop workflow.",
+      "tags": [
+        "polars",
+        "big-data",
+        "cmie",
+        "performance",
+        "etl"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-014",
+      "title": "Chi-Square Test for Aadhaar Gender-Service Usage",
+      "prompt": "Act as an applied statistician with 6 years at UIDAI research wing. I am a B.Stat student at ISI testing whether there is an association between gender (Male, Female, Other) and type of Aadhaar-based service used (eKYC, DBT, Jan Dhan linking, PDS, SIM verification) in a sample of 20k citizens from Uttar Pradesh. I need you to run a full chi-square test of independence. Please provide: (1) Null and alternative hypotheses stated clearly, (2) A contingency table construction using pandas crosstab with plausible counts, (3) scipy.stats.chi2_contingency code that returns chi2 statistic, p-value, degrees of freedom, and expected frequencies, (4) Effect size using Cramer V and interpretation thresholds (small/medium/large), (5) Assumption check that all expected frequencies are at least 5, with fallback to Fisher exact or Monte Carlo permutation if violated. Format as a Jupyter notebook. Constraints: include a seaborn heatmap of standardized residuals to show which cells drive the effect, address privacy considerations under DPDP Act 2023 when working with Aadhaar data, and end with a 3-sentence policy implication for the NITI Aayog audience.",
+      "tags": [
+        "chi-square",
+        "hypothesis-testing",
+        "scipy",
+        "aadhaar",
+        "contingency-table"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-015",
+      "title": "PyTorch CNN for MNIST-Style Devanagari Digits",
+      "prompt": "Act as a deep learning instructor with 5 years teaching at IIIT Bangalore. I am a first-year MTech student building a CNN to classify Devanagari handwritten digits (0-9) using the DHCD dataset (46k train images, 32x32 grayscale). I need you to write a complete PyTorch training script. Please provide: (1) A compact CNN class with 2 conv blocks (Conv2d, BatchNorm, ReLU, MaxPool) followed by 2 fully connected layers with dropout 0.3, (2) A training loop using Adam optimizer, CrossEntropyLoss, StepLR scheduler, and tqdm progress bar for 15 epochs, (3) Data augmentation using torchvision transforms (RandomRotation, RandomAffine) appropriate for Devanagari script, (4) Validation accuracy logging and best-model checkpointing, (5) A confusion matrix plot at the end using matplotlib and sklearn. Format as a single train.py under 200 lines. Constraints: must run on CPU if CUDA is unavailable, must set torch.manual_seed(42), must reach at least 97 percent test accuracy, and must save the final model as devanagari_cnn.pth. Include a short comment about how this could extend to full Devanagari character recognition used in Hindi OCR systems.",
+      "tags": [
+        "pytorch",
+        "cnn",
+        "deep-learning",
+        "devanagari",
+        "computer-vision"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-016",
+      "title": "Feature Engineering for Ola Cab Demand Prediction",
+      "prompt": "Act as a principal data scientist with 9 years at Ola and Uber India. I am a final-year B.Tech student predicting hourly cab demand in Hyderabad using 6 months of data (columns: pickup_datetime, pickup_pincode, weather_condition, is_holiday, demand_count). I need you to design a complete feature engineering strategy for tabular ML. Please provide: (1) Temporal features: hour, day_of_week, month, is_weekend, is_festival (map Diwali, Dussehra, Eid, Christmas using an Indian holiday list), sin/cos encodings for cyclic hour and day, (2) Lag and rolling features: demand lag 1h, 24h, 168h and rolling means for 3h, 24h windows per pincode, (3) Weather interactions: rain_x_peakhour, temp_bucket, (4) Target encoding for pincode with smoothing and leakage-free out-of-fold computation, (5) A runnable pandas function build_features(df) that returns X and y ready for LightGBM. Format as Python code with docstrings. Constraints: handle DST-free IST timezone correctly, prevent leakage by computing rolling features only on past data, and include a short checklist of features to drop if correlation with target exceeds 0.98. Assume the model will be retrained weekly.",
+      "tags": [
+        "feature-engineering",
+        "time-series",
+        "demand-forecasting",
+        "pandas",
+        "ola"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-017",
+      "title": "SQL to Pandas Conversion for Myntra Sales Analysis",
+      "prompt": "Act as an analytics engineer with 6 years at Myntra. I am a BSc student preparing for a data analyst interview and I have 5 business SQL queries analysing Myntra sales that I need converted to equivalent pandas code for a coding round. The dataset has orders(order_id, user_id, city, order_date, amount_inr, category, brand, is_returned). I need you to teach me the SQL-to-pandas mapping through examples. Please provide: (1) Query 1: monthly GMV in INR crore for 2023, (2) Query 2: top 5 brands by revenue in Tier-1 cities (Mumbai, Delhi, Bengaluru, Chennai, Kolkata, Pune, Hyderabad, Ahmedabad), (3) Query 3: return rate by category with at least 1000 orders, (4) Query 4: 7-day rolling average of daily orders, (5) Query 5: customer cohort retention (users who ordered in Jan 2023 who ordered again in Feb 2023). For each query, show the SQL first, then pandas equivalent, then a 2-line explanation of the key pandas verb used (groupby, merge, pivot_table, rolling). Format as a markdown tutorial. Constraints: use only pandas (no pandasql), include the expected output shape, and end with a comparison table showing readability, speed, and maintainability trade-offs between SQL and pandas.",
+      "tags": [
+        "sql",
+        "pandas",
+        "interview-prep",
+        "myntra",
+        "analytics"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-018",
+      "title": "Bayesian A/B Test for CRED App Onboarding",
+      "prompt": "Act as a Bayesian statistician with 7 years at CRED and Razorpay. I am an MSc Applied Stats student analysing a CRED onboarding experiment where 10k users saw a new onboarding flow (treatment) and 10k saw the old one (control). Conversion to first credit-card-bill-payment was 22.3 percent vs 20.1 percent over 7 days. I need you to run a Bayesian A/B analysis instead of frequentist. Please provide: (1) Justification for Bayesian approach over classical z-test (direct probability statements, decision under uncertainty), (2) Choice of Beta prior (uninformative Beta(1,1) vs informative Beta(20, 80) based on historical CRED conversion), (3) Posterior computation using conjugate Beta-Binomial update, (4) PyMC or numpy code to sample from posteriors and estimate P(treatment > control) and expected lift distribution, (5) A seaborn plot of the two posterior densities with 94 percent HDI shaded. Format as a Jupyter notebook with markdown explanations. Constraints: include a decision rule (ship if P(treatment > control) exceeds 0.95), discuss expected loss if we ship the worse variant, and contextualise in CRED business terms (each extra conversion is worth roughly Rs 150 in LTV).",
+      "tags": [
+        "bayesian",
+        "ab-testing",
+        "pymc",
+        "posterior",
+        "cred"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-019",
+      "title": "Kaggle Titanic-Style Pipeline for Indian Bank Loan",
+      "prompt": "Act as a Kaggle Grandmaster with 10 years experience and active on Kaggle India forums. I am a B.Tech student entering a Analytics Vidhya hackathon predicting loan default for an Indian public sector bank (columns: applicant_id, age, gender, marital_status, education, self_employed, applicant_income_inr, coapplicant_income_inr, loan_amount, loan_term_months, credit_history, property_area, loan_status). I need you to build a full Kaggle-style baseline. Please provide: (1) A reproducible scikit-learn Pipeline with ColumnTransformer for numeric (median imputer + StandardScaler) and categorical (mode imputer + OneHotEncoder), (2) A LogisticRegression baseline and an XGBoost model with early stopping, (3) 5-fold StratifiedKFold cross-validation printing mean and std of ROC-AUC, (4) Hyperparameter tuning using Optuna with 30 trials for XGBoost (max_depth, learning_rate, subsample, colsample_bytree), (5) A feature importance plot and a submission.csv writer. Format as a single train.py file. Constraints: set seeds everywhere, target at least 0.80 ROC-AUC on validation, handle the imbalanced target (roughly 30 percent default), and include a short markdown section on fairness checks across gender and property_area to satisfy RBI responsible-AI guidelines.",
+      "tags": [
+        "kaggle",
+        "scikit-learn",
+        "xgboost",
+        "optuna",
+        "loan-default"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-020",
+      "title": "R ggplot2 Visualization of Indian Census Data",
+      "prompt": "Act as an R instructor with 12 years teaching at JNU and ISI Delhi. I am an MA Economics student visualizing Census 2011 data (columns: state, district, total_population, male_population, female_population, literacy_rate, sex_ratio) using R and ggplot2. I need you to generate publication-quality R code. Please provide: (1) A tidyverse pipeline (readr, dplyr) that loads and cleans the CSV, (2) A ggplot2 bar chart of top 15 districts by literacy rate with ordered bars and state-wise color fill, (3) A scatter plot of sex_ratio vs literacy_rate with a smooth loess line and state labels using ggrepel, (4) A faceted histogram of population by state using facet_wrap, (5) A final combined plot using patchwork. Format as an R Markdown file (.Rmd) with code chunks and narrative text. Constraints: use theme_minimal, set consistent fonts, export final figures at 300 dpi as PNG, and include a 5-sentence interpretation block highlighting Kerala and Mizoram as literacy leaders. Ensure code runs in under 10 seconds and include sessionInfo() at the end for reproducibility.",
+      "tags": [
+        "r",
+        "ggplot2",
+        "tidyverse",
+        "census",
+        "visualization"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-021",
+      "title": "Logistic Regression Interpretation for IPL Match Wins",
+      "prompt": "Act as a sports analytics consultant with 5 years experience with IPL franchises. I am a B.Stat student who fitted a logistic regression predicting win probability of the batting team using features: runs_scored_so_far, wickets_lost, overs_remaining, target_runs, run_rate_diff, venue_home_flag, powerplay_flag. I need you to interpret the model like a pro. Please provide: (1) How to read each coefficient as a log-odds and convert to odds ratio, (2) Python code using statsmodels Logit to fit and print a full summary with p-values and 95 percent CI, (3) A plain-English interpretation of the top 3 features using real IPL 2024 match scenarios (CSK vs MI at Wankhede), (4) Pseudo R-squared (McFadden) and classification metrics (accuracy, ROC-AUC) with discussion of what is realistic for live-cricket prediction, (5) Calibration plot to check if predicted probabilities match observed frequencies. Format as a markdown notebook. Constraints: address the non-linearity of chase pressure in the last 3 overs, suggest interaction terms like wickets_lost_x_overs_remaining, and note that a LightGBM non-linear model will usually beat LR here but is less interpretable for cricket commentary.",
+      "tags": [
+        "logistic-regression",
+        "statsmodels",
+        "interpretation",
+        "ipl",
+        "sports-analytics"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-022",
+      "title": "Summarize BERT Paper for Interview Prep",
+      "prompt": "Act as an NLP placement coach with 6 years mentoring IIT and IIIT students into Google, Amazon, and Microsoft Bengaluru roles. I am a final-year MTech student preparing for NLP interviews and need a crisp, interview-ready summary of Devlin et al. 2018 \"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\". I need you to produce a structured study guide. Please provide: (1) A 3-sentence TL;DR, (2) Motivation (limitations of left-to-right language models like GPT-1), (3) Key innovations (Masked Language Model, Next Sentence Prediction, WordPiece tokenization, [CLS] token for classification), (4) Architecture details (BERT-base 12 layers 110M params, BERT-large 24 layers 340M params) and training corpus (BooksCorpus + English Wikipedia), (5) Benchmark results on GLUE, SQuAD, SWAG with brief interpretation, (6) Practical fine-tuning recipe for an Indian student working on an IMDB-style sentiment dataset, (7) Eight probable interview questions with short answers covering masking ratio 15 percent, positional embeddings, and why NSP was later dropped in RoBERTa. Format as markdown with headings. Constraint: total under 1400 words, include one code snippet using HuggingFace transformers AutoTokenizer and AutoModel, and add a note on Indic-BERT and MuRIL for Indian languages.",
+      "tags": [
+        "bert",
+        "paper-summary",
+        "nlp",
+        "huggingface",
+        "interview-prep"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "claude",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-023",
+      "title": "Correlation Heatmap for NIFTY 50 Stock Returns",
+      "prompt": "Act as a quantitative analyst with 7 years at a Mumbai hedge fund. I am a PGDM Finance student analysing daily returns of NIFTY 50 stocks for calendar year 2023 using yfinance data. I need you to generate a correlation analysis workflow. Please provide: (1) Python code that downloads adjusted close prices for all 50 NIFTY constituents using yfinance, (2) Computation of daily log returns and a 50x50 Pearson correlation matrix, (3) A seaborn clustermap with hierarchical clustering that reveals sector groupings (IT, Banking, Pharma, FMCG, Auto), (4) Top 10 most-correlated pairs and top 10 most-negatively-correlated pairs printed as a table, (5) A discussion of why diversification across sectors reduces portfolio variance with a numeric example using two specific stocks (e.g., TCS and HDFC Bank). Format as a Jupyter notebook. Constraints: handle stocks with missing data by forward-fill and drop, compute correlations only on trading days, use figsize 14x12 for clustermap, and include a short SEBI-aware disclaimer that past correlations do not guarantee future co-movement.",
+      "tags": [
+        "correlation",
+        "seaborn",
+        "yfinance",
+        "nifty",
+        "finance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-024",
+      "title": "Decision Tree for Indian Engineering College Admission",
+      "prompt": "Act as an education analytics consultant with 8 years helping Indian ed-tech companies. I am a BSc CS student building a decision tree to predict admission chance (High, Medium, Low) to a top-30 engineering college based on JEE Mains percentile, JEE Advanced rank, board_marks_12, category (General, OBC, SC, ST, EWS), gender, and home_state. I need you to build and interpret a scikit-learn DecisionTreeClassifier end-to-end. Please provide: (1) Train/test split with stratification, (2) A DecisionTreeClassifier with max_depth=5, min_samples_leaf=50 to keep it readable, (3) Export of tree visualization using plot_tree from sklearn with class names and feature names, (4) Feature importance bar plot and Gini-based interpretation, (5) Comparison with a RandomForest baseline showing accuracy lift and discussion of interpretability trade-off. Format as Python code with comments. Constraints: handle categorical encoding carefully (category column has legal reservation implications, do not drop it), address class imbalance if High is rare, and include a final 5-bullet fairness note discussing how reservation policy interacts with the model predictions. This is an academic project, not a deployed system.",
+      "tags": [
+        "decision-tree",
+        "scikit-learn",
+        "classification",
+        "admissions",
+        "fairness"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-025",
+      "title": "Bootstrapping Confidence Interval for Mean Rent",
+      "prompt": "Act as a resampling methods expert and statistics professor with 15 years at IIM Bangalore. I am an MSc student estimating the mean monthly rent for 1BHK flats in Koramangala, Bengaluru, using a sample of 180 rental listings with a non-normal right-skewed distribution (range Rs 18k to Rs 75k, sample mean Rs 32500). I need you to teach me bootstrap confidence intervals. Please provide: (1) Theoretical motivation for using bootstrap over t-interval when normality is violated, (2) Python code implementing 10000 bootstrap resamples using numpy, computing the sampling distribution of the mean, (3) Three types of bootstrap CIs: percentile, basic, and BCa (bias-corrected and accelerated) using scipy.stats.bootstrap, (4) A histogram of the bootstrap distribution with the original point estimate and 95 percent CI bounds annotated, (5) Interpretation in plain language for a real-estate blog reader. Format as a tutorial-style notebook. Constraints: set rng seed for reproducibility, discuss when bootstrap fails (tiny samples, heavy tails), compare to a log-transformed t-interval as a sanity check, and end with a rule of thumb for how many resamples are enough (1000 vs 10000 vs 100000).",
+      "tags": [
+        "bootstrap",
+        "confidence-interval",
+        "scipy",
+        "numpy",
+        "resampling"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-026",
+      "title": "Text Classification for Hindi-English Tweets",
+      "prompt": "Act as an NLP engineer with 6 years at Sharechat and Koo building Indic-language models. I am a final-year MTech student building a sentiment classifier for code-mixed Hindi-English (Hinglish) tweets about Indian politics (30k labeled tweets, classes: positive, negative, neutral). I need you to design a baseline-to-advanced pipeline. Please provide: (1) Preprocessing for Hinglish: handling Devanagari+Roman mix, emoji normalization, username and URL removal, (2) A TF-IDF plus LogisticRegression baseline using scikit-learn, (3) An advanced model using HuggingFace transformers with MuRIL or IndicBERT pre-trained checkpoint, fine-tuned for 3 epochs, (4) Evaluation using macro-F1, per-class precision/recall, and a confusion matrix, (5) Error analysis code that prints 10 most confident wrong predictions for manual review. Format as Python code in a notebook. Constraints: the baseline must run in under 5 minutes on CPU, the transformer must work on a free Colab T4 GPU, include a note on code-mixing ambiguity (e.g., \"bahut bura hai\" in Roman script), and discuss ethics of political sentiment analysis under Indian IT Rules 2021. Target macro-F1 of 0.75 or higher.",
+      "tags": [
+        "nlp",
+        "sentiment-analysis",
+        "transformers",
+        "muril",
+        "hinglish"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-027",
+      "title": "Pandas GroupBy Cheatsheet for Indian Sales Data",
+      "prompt": "Act as a pandas tutor with 5 years teaching Analytics Vidhya bootcamps. I am a beginner BBA Analytics student who finds pandas groupby confusing. I have a DataFrame of Amazon India sales (columns: order_id, order_date, state, category, brand, quantity, price_inr, discount_pct, net_revenue_inr). I need you to create a hands-on groupby cheatsheet. Please provide: (1) Ten progressively harder groupby examples from single-column single-aggregation (total revenue per state) up to multi-column multi-aggregation with custom lambdas, (2) Use of agg() with a dictionary, transform() for group-level normalization, and filter() for keeping only states with more than 1000 orders, (3) Window-style operations using groupby + rolling for a 7-day moving average of revenue per state, (4) A comparison table of agg vs apply vs transform with when to use each, (5) Common beginner mistakes (forgetting reset_index, SettingWithCopyWarning, group order). Format as a single markdown tutorial with runnable code blocks that use a tiny synthetic DataFrame I can copy into Jupyter. Constraints: keep examples under 15 lines each, use INR formatting for money columns, and end with a 5-question self-check quiz answered at the bottom.",
+      "tags": [
+        "pandas",
+        "groupby",
+        "tutorial",
+        "cheatsheet",
+        "beginner"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-028",
+      "title": "Summarize ResNet Deep Residual Learning Paper",
+      "prompt": "Act as a computer vision researcher with 5 years at Qualcomm India and IISc Bengaluru. I am an MTech CSE student and need a deep yet accessible summary of He et al. 2015 \"Deep Residual Learning for Image Recognition\" (ResNet) for a paper-reading seminar. I need you to produce an interview-ready research summary. Please provide: (1) A 3-sentence TL;DR, (2) The degradation problem in very deep networks that motivated the work, (3) The residual block equation y = F(x, Wi) + x and why identity shortcuts help gradients flow, (4) Architecture variants (ResNet-18, 34, 50, 101, 152) with parameter counts and ImageNet top-1 accuracy, (5) Training details (SGD, momentum 0.9, weight decay 1e-4, batch size 256, color jittering augmentation), (6) Impact on downstream tasks (detection, segmentation) and how ResNet backbones are still used in Indian industry projects like Myntra visual search, (7) Six interview-style questions with crisp answers about bottleneck blocks, batch normalization placement, and why ResNet-50 is the industry default. Format as markdown with diagrams described in text. Constraint: total under 1300 words, include a PyTorch snippet showing a BasicBlock implementation, and highlight any concept that students commonly get wrong.",
+      "tags": [
+        "resnet",
+        "paper-summary",
+        "computer-vision",
+        "deep-learning",
+        "pytorch"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "claude",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-029",
+      "title": "Survival Analysis for Indian Telecom Churn",
+      "prompt": "Act as a survival analysis specialist with 7 years at Jio and Airtel analytics. I am an MSc Stats student modelling churn for a telecom provider in India with 100k subscribers (columns: subscriber_id, tenure_months, is_churned, age, plan_type, monthly_bill_inr, data_usage_gb, complaints_count, city_tier). I need you to teach me survival analysis end-to-end. Please provide: (1) Why survival analysis is more appropriate than plain logistic regression for time-to-churn, (2) Kaplan-Meier estimator code using lifelines library with log-rank test comparing prepaid vs postpaid plans, (3) A Cox Proportional Hazards model with feature interpretation (hazard ratios with 95 percent CI), (4) Assumption check using Schoenfeld residuals and fix if proportional hazards is violated (stratification or time-dependent coefficients), (5) A plot showing predicted survival curves for three example subscribers (low-risk, medium-risk, high-risk). Format as a Jupyter notebook. Constraints: explain censoring in plain English using an Airtel subscriber example, interpret hazard ratios in telecom business terms (e.g., \"each additional complaint raises churn hazard by 12 percent\"), and end with a 3-line retention strategy recommendation for the marketing team.",
+      "tags": [
+        "survival-analysis",
+        "lifelines",
+        "cox-regression",
+        "churn",
+        "telecom"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-030",
+      "title": "Power BI Alternative using Python for Exam Analytics",
+      "prompt": "Act as a BI developer with 6 years building dashboards for Indian ed-tech firms like BYJU and Unacademy. I am a BSc student analysing CBSE Class 12 exam results for a school of 400 students across streams (Science, Commerce, Arts) with subject-wise marks. I need you to build a lightweight Python dashboard that replaces Power BI. Please provide: (1) A Streamlit app that loads a CSV of (student_id, name, stream, subject, marks), (2) KPI cards showing overall pass percentage, top scorer name, average marks, and failure count, (3) A Plotly bar chart of average marks per subject, a box plot per stream, and a histogram of total marks with a normal curve overlay, (4) A search widget to look up a specific student by name and display a radar chart of their subject performance, (5) A download button for a PDF summary using reportlab. Format as a single app.py file. Constraints: must handle up to 5000 students, refresh in under 2 seconds, use only open-source libraries, and include a short setup guide (pip install, streamlit run) that even a first-year student can follow. Highlight all failed students (marks under 33) in red.",
+      "tags": [
+        "streamlit",
+        "plotly",
+        "dashboard",
+        "education",
+        "python"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-031",
+      "title": "Random Forest Hyperparameter Tuning with GridSearchCV",
+      "prompt": "Act as a machine learning practitioner with 8 years experience and a Kaggle Expert tier. I am a third-year B.Tech student training a Random Forest to predict term deposit subscription for an Indian bank (UCI Bank Marketing style dataset, 45k rows). I need you to run a rigorous hyperparameter tuning workflow. Please provide: (1) A scikit-learn Pipeline with preprocessing, (2) GridSearchCV tuning n_estimators (100, 300, 500), max_depth (5, 10, 20, None), min_samples_split (2, 5, 10), max_features (sqrt, log2) using 5-fold CV and scoring=\"roc_auc\", (3) A comparison with RandomizedSearchCV showing the time/quality trade-off for the same budget, (4) A validation_curve plot for max_depth to visualize overfitting, (5) Final model evaluation on a held-out test set with ROC curve, PR curve, and feature importance. Format as Python code with comments. Constraints: use n_jobs=-1 for parallelism, set random_state=42, discuss why GridSearch becomes impractical past 4-5 hyperparameters and when to prefer Optuna or HyperOpt, and log total training time. Target ROC-AUC above 0.92 on test set.",
+      "tags": [
+        "random-forest",
+        "hyperparameter-tuning",
+        "gridsearch",
+        "scikit-learn",
+        "banking"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-032",
+      "title": "Anomaly Detection on NPCI UPI Transaction Volume",
+      "prompt": "Act as a time-series anomaly detection specialist with 6 years at NPCI and BharatPe. I am a final-year MSc student detecting anomalies in daily UPI transaction volume from the NPCI public statistics page (columns: date, total_txns_crore, total_value_cr_inr) for 2020-2024. I need you to design a multi-method anomaly detection approach. Please provide: (1) Exploratory plot of the series showing COVID-era spikes and festival surges (Diwali, Dhanteras), (2) Rolling z-score method with a 30-day window and 3-sigma threshold, (3) Seasonal decomposition using statsmodels STL to isolate residuals, (4) Isolation Forest on the residuals using scikit-learn for unsupervised anomaly scoring, (5) A final plot highlighting detected anomalies with labels (likely festival, outage, or policy event like RBI UPI cap change). Format as a complete notebook. Constraints: handle daily frequency correctly, address holiday effects explicitly, avoid false alarms during predictable seasonal peaks by de-seasonalizing first, and end with a short writeup on how NPCI could use this in a real-time monitoring dashboard. Use matplotlib only (no seaborn) for the final plot.",
+      "tags": [
+        "anomaly-detection",
+        "isolation-forest",
+        "statsmodels",
+        "upi",
+        "time-series"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-033",
+      "title": "SHAP Values for Explaining XGBoost Loan Model",
+      "prompt": "Act as a responsible-AI engineer with 5 years at an RBI-regulated Indian NBFC. I am a final-year MTech student who trained an XGBoost model predicting personal loan default for an Indian NBFC and I need to explain predictions to a compliance officer using SHAP. The features include applicant_age, monthly_income_inr, existing_emi_inr, credit_score, employment_type, city_tier, loan_amount, tenure_months. I need you to build a complete SHAP explainability workflow. Please provide: (1) TreeExplainer setup from the shap library on the trained XGBoost booster, (2) Global explanations: summary_plot (beeswarm) and bar plot of mean absolute SHAP values, (3) Local explanations: waterfall plot and force plot for 3 example applicants (one likely approval, one borderline, one rejection), (4) A dependence plot for monthly_income_inr x credit_score to reveal interactions, (5) A short compliance-ready narrative for each of the 3 example applicants that a bank officer can show to the borrower under RBI fair-lending expectations. Format as a Jupyter notebook with code and markdown. Constraints: handle categorical features correctly, never expose PII, and end with a note on SHAP limitations (correlated features, computational cost on large datasets).",
+      "tags": [
+        "shap",
+        "explainable-ai",
+        "xgboost",
+        "compliance",
+        "nbfc"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-034",
+      "title": "Data Profiling Report using ydata-profiling",
+      "prompt": "Act as a senior data quality engineer with 7 years at Fractal and Mu Sigma. I am a first-year MSc Data Science student who just received a messy CSV (50k rows, 60 columns) from a Bengaluru D2C brand containing customer orders and need to understand it fast before any modelling. I need you to generate a complete automated profiling workflow. Please provide: (1) Installation and usage of ydata-profiling (formerly pandas-profiling) to produce an HTML EDA report with one line of code, (2) A manual pandas fallback function that replicates the essentials: shape, dtype summary, null percentage, cardinality, top 5 most-frequent values per column, and simple outlier detection using IQR, (3) Correlation matrix and warnings for high-cardinality, high-null, and constant columns, (4) A checklist of the first 10 questions I should ask the data owner after seeing the profile (e.g., \"is order_date always IST?\", \"why is city missing 22 percent?\"), (5) How to turn profile findings into concrete cleaning tasks for the next sprint. Format as a markdown guide with runnable code. Constraints: must work on a student laptop with 8GB RAM, suggest minimal_mode=True for large files, and end with a 5-line comparison of ydata-profiling vs sweetviz vs dtale for Indian internship projects.",
+      "tags": [
+        "data-profiling",
+        "eda",
+        "ydata-profiling",
+        "data-quality",
+        "pandas"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-035",
+      "title": "Multicollinearity Detection and VIF for Economic Data",
+      "prompt": "Act as an applied econometrician with 10 years teaching at IGIDR Mumbai. I am an MA Economics student modelling India GDP growth on macro variables (inflation_cpi, repo_rate, fiscal_deficit_pct, crude_oil_usd, usd_inr, forex_reserves_bn, manufacturing_pmi) from RBI DBIE and MoSPI over 2005-2023 quarterly. Several variables are clearly correlated. I need you to build a multicollinearity diagnostic workflow. Please provide: (1) A correlation heatmap using seaborn with annotations, (2) VIF computation for each feature using statsmodels variance_inflation_factor with interpretation thresholds (VIF below 5 fine, 5-10 moderate, above 10 severe), (3) Condition number and eigenvalue analysis of the design matrix, (4) Three remediation strategies with code: dropping the worst offender, ridge regression, and principal components regression, (5) A final comparison table showing OLS coefficients, ridge coefficients, and their standard errors across the three approaches. Format as a Jupyter notebook with markdown explanations. Constraints: use quarterly data correctly (not annual), address stationarity briefly, highlight that repo_rate and inflation_cpi are usually the tightest pair in Indian data, and conclude with a 4-line recommendation for which model to report in an MA thesis.",
+      "tags": [
+        "multicollinearity",
+        "vif",
+        "ridge-regression",
+        "statsmodels",
+        "macroeconomics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-036",
+      "title": "Build a Scikit-learn Pipeline for Custom Transformers",
+      "prompt": "Act as a senior ML engineer with 8 years at Tata 1mg and PharmEasy. I am a third-year B.Tech student learning to write production-grade scikit-learn pipelines with custom transformers. I am working on a medicine recommendation dataset (columns: patient_age, gender, weight_kg, symptoms_text, existing_conditions, prescribed_medicine). I need you to teach me BaseEstimator and TransformerMixin patterns. Please provide: (1) A custom transformer AgeBucketizer that converts age into buckets (child, adult, senior) with fit, transform, fit_transform methods and get_params/set_params via BaseEstimator, (2) A second custom transformer SymptomVectorizer that wraps sklearn TfidfVectorizer on the symptoms_text column, (3) A ColumnTransformer combining numeric scaling, categorical one-hot, the age bucketizer, and the symptom vectorizer, (4) A complete Pipeline chaining the ColumnTransformer with LogisticRegression, (5) A pytest-style unit test that validates fit/transform contract. Format as a complete Python module under 180 lines. Constraints: must be picklable using joblib, must support sklearn cross_val_score without errors, follow PEP 8, and include docstrings with usage examples. End with a note on why custom transformers are preferred over inline lambdas for MLOps.",
+      "tags": [
+        "scikit-learn",
+        "pipeline",
+        "custom-transformer",
+        "mlops",
+        "python"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-037",
+      "title": "Choose Clustering Algorithm for Geo-spatial Pickup Data",
+      "prompt": "Act as a geo-spatial analytics lead with 6 years at Dunzo and Zepto. I am a final-year MSc student clustering 200k Zepto dark-store pickup coordinates in Bengaluru (columns: pickup_lat, pickup_lon, timestamp) to recommend new micro-fulfillment locations. I need you to choose and justify a clustering algorithm. Please provide: (1) Why KMeans is suboptimal for geo-spatial data (assumes spherical clusters in Euclidean space, not great for lat-lon), (2) Comparison of DBSCAN, HDBSCAN, and OPTICS with recommended eps and min_samples values in degrees or meters using haversine distance, (3) Python code using sklearn DBSCAN with metric=\"haversine\" and eps converted from 300 meters to radians, (4) A folium map visualizing the clusters on an interactive Bengaluru map with different colors per cluster and noise points in gray, (5) Business recommendations: top 5 candidate dark-store locations as cluster centroids with nearest landmark names. Format as a Jupyter notebook. Constraints: handle large point counts efficiently, use ball_tree algorithm, address time-of-day clustering as a bonus (do morning and evening clusters differ?), and conclude with how this would scale to a 10-city Zepto rollout.",
+      "tags": [
+        "clustering",
+        "dbscan",
+        "geospatial",
+        "haversine",
+        "folium"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-038",
+      "title": "Linear Regression from Scratch using NumPy",
+      "prompt": "Act as a machine learning fundamentals instructor with 8 years teaching at Scaler and Coding Ninjas. I am a second-year B.Tech student who wants to implement linear regression from scratch in pure NumPy to truly understand gradient descent. I have a small dataset of Indian used car prices (100 rows, features: car_age_years, km_driven, predict price_inr_lakh). I need you to build it step by step. Please provide: (1) The mathematical derivation of the MSE loss function and its gradients with respect to weights and bias, (2) A LinearRegressionScratch class with fit(X, y, lr, epochs) and predict(X) methods using batch gradient descent, (3) Feature standardization code (zero mean, unit variance) applied before training, (4) A training loop that prints loss every 100 epochs and stores the loss history, (5) A matplotlib plot of the loss curve and a scatter of predicted vs actual prices with a y=x reference line, (6) A final comparison against sklearn LinearRegression to verify correctness within 1e-3 tolerance. Format as a single Python script under 120 lines. Constraints: use only numpy and matplotlib, set np.random.seed(42), include input validation, and end with a 4-line explanation of why the normal equation (closed form) can replace gradient descent for this small dataset.",
+      "tags": [
+        "numpy",
+        "linear-regression",
+        "gradient-descent",
+        "from-scratch",
+        "fundamentals"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-039",
+      "title": "Summarize XGBoost Paper for Kaggle Prep",
+      "prompt": "Act as a Kaggle Grandmaster with 10 years experience and a preferred reviewer for Analytics Vidhya articles. I am a B.Tech final-year student preparing to compete on Kaggle and Analytics Vidhya DataHack and I need a practitioner-focused summary of Chen and Guestrin 2016 \"XGBoost: A Scalable Tree Boosting System\". I need you to produce a practical study guide. Please provide: (1) A 3-sentence TL;DR on why XGBoost dominates tabular Kaggle competitions, (2) The regularized objective function with L1 and L2 on leaf weights explained intuitively, (3) Innovations over standard GBM: approximate split finding, weighted quantile sketch, sparsity-aware default direction for missing values, cache-aware access, out-of-core computation, (4) Hyperparameter map with typical Kaggle-winning ranges (eta, max_depth, subsample, colsample_bytree, min_child_weight, gamma, reg_alpha, reg_lambda), (5) How XGBoost compares to LightGBM and CatBoost on memory, speed, accuracy for Indian hackathon datasets (usually tabular with 10k-1M rows), (6) Five probable interview questions asked at Flipkart and Walmart Labs Bengaluru with short answers. Format as markdown. Constraint: total under 1400 words, include one code snippet showing early_stopping_rounds usage, and add a rule-of-thumb for when to even bother with XGBoost vs a simpler baseline.",
+      "tags": [
+        "xgboost",
+        "paper-summary",
+        "kaggle",
+        "boosting",
+        "interview-prep"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "claude",
+      "outputType": "text",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    },
+    {
+      "id": "students-data-science-ai-040",
+      "title": "Word Cloud and NLP Stats for Indian News Headlines",
+      "prompt": "Act as a text analytics instructor with 5 years at IIIT Delhi. I am a first-year MSc student who scraped 5000 headlines from Times of India, The Hindu, and Indian Express and needs a quick NLP exploration. I need you to build a beginner-friendly text analytics workflow. Please provide: (1) Data loading from a CSV (columns: source, date, headline) using pandas, (2) Preprocessing: lowercase, punctuation removal, stopword removal using NLTK English stopwords plus a custom Indian stopword list (said, told, mumbai, delhi used as news-filler), tokenization, (3) Basic stats: total headlines per source, average headline length in words, most common unigrams and bigrams using collections.Counter, (4) A wordcloud.WordCloud plot per news source saved as PNG, (5) A simple topic label per headline using keyword matching (politics, sports, business, entertainment, technology) and a seaborn bar chart of topic distribution per source. Format as a Jupyter notebook. Constraints: handle Unicode and special characters correctly, pip install requirements listed at the top (nltk, wordcloud, matplotlib, seaborn), download nltk resources inside a try/except, and end with a 4-sentence reflection on media bias hints visible in word frequencies. Include one bonus cell that extracts named entities using spaCy en_core_web_sm as a stretch goal.",
+      "tags": [
+        "nlp",
+        "wordcloud",
+        "nltk",
+        "text-analytics",
+        "news-analysis"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "students",
+      "subcategory": "data-science-ai"
+    }
+  ]
+}

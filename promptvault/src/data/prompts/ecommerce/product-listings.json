@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "ecommerce-product-listings-001",
+      "title": "Amazon.in Product Title Writer",
+      "prompt": "Act as an Amazon.in listing specialist with 8 years experience optimizing titles for Indian D2C brands like Mamaearth and boAt. I need you to write 5 high-converting product title variations for my product. Here is the context: I am selling a stainless steel insulated water bottle, 1 litre, leak-proof, 24-hour cold retention, priced at INR 899, brand name \"HydroMax India\", targeting fitness enthusiasts and office-goers in Tier 1 and Tier 2 cities. Please provide: (1) 5 title variations each under 200 characters following Amazon.in format [Brand + Model + Product Type + Key Feature + Size + Color], (2) primary keyword placement within first 80 characters, (3) rationale for each title choice including search intent, (4) a ranked recommendation for best title. Format as a numbered list with each title followed by character count and keyword density notes. Consider these constraints: Amazon.in title guidelines prohibit promotional language (\"best\", \"#1\", \"sale\"), must include brand name first, avoid ALL CAPS except brand, and should target Hinglish search terms like \"paani ki bottle\" and \"steel water bottle\" that Indian shoppers commonly use. Ensure compliance with Amazon India's 2024 style guide and include HSN code 9617 consideration for thermosware category.",
+      "tags": [
+        "amazon-title",
+        "listing-seo",
+        "amazon-india",
+        "product-titles"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-002",
+      "title": "Flipkart Bullet Points Generator",
+      "prompt": "Act as a Flipkart listing optimization expert with 6 years experience helping sellers achieve FK Assured status and top BSR rankings. I need you to write 5 benefit-led bullet points for my product listing. Here is the context: I am selling a cotton kurta set for women, brand \"Anokhi Weaves\", priced at INR 1,499, available in sizes S-XXL, colors maroon/navy/mustard, made in Jaipur, targeting women aged 25-45 for office wear and festive occasions like Diwali and Karva Chauth. Please provide: (1) 5 bullet points each 150-250 characters, (2) first bullet highlighting top USP, (3) benefit-first structure (not feature-first), (4) keywords naturally integrated including \"cotton kurta for women\", \"office wear kurti\", \"ethnic wear\", (5) one bullet addressing common Indian buyer concerns (fit, fabric shrinkage, wash care). Format as bulleted list with each point followed by target keyword and buyer pain point addressed. Consider these constraints: Flipkart allows up to 10 bullets but top 5 appear above fold, avoid trademark terms, include size chart reference, mention GST-inclusive pricing, and address return policy concerns common among Meesho/Flipkart shoppers who compare heavily before purchase.",
+      "tags": [
+        "flipkart",
+        "bullet-points",
+        "listing-seo",
+        "benefits-writing"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-003",
+      "title": "Myntra Product Description Writer",
+      "prompt": "Act as a Myntra fashion copywriter with 5 years experience writing descriptions for brands like The Souled Store and Bewakoof. I need you to write a complete product description for my listing. Here is the context: I am selling men's oversized graphic t-shirt, 100% cotton, 240 GSM, anime print, brand \"Desi Otaku\", INR 699, sizes S-XXL, targeting Gen Z males aged 18-28 in metro cities. Please provide: (1) an engaging 50-word opening hook, (2) 120-word product story emphasizing streetwear culture and Indian anime fandom, (3) 80-word material and fit description, (4) 60-word care instructions, (5) styling suggestion paragraph. Format as Myntra description structure with clear headers. Consider these constraints: Myntra description limit 2000 characters, must feel conversational and Gen-Z appropriate with light Hinglish, avoid over-promising, include fit guidance (true to size/oversized), reference Indian climate considerations, and align with Myntra's tone which is casual yet aspirational.",
+      "tags": [
+        "myntra",
+        "product-description",
+        "fashion",
+        "copywriting"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-004",
+      "title": "Meesho Listing for Reseller Market",
+      "prompt": "Act as a Meesho listing strategist with 4 years experience optimizing for reseller-driven sales in Tier 2 and Tier 3 Indian cities. I need you to create a complete listing for my product. Here is the context: I am selling a synthetic saree with blouse piece, floral print, INR 549, 5.5 metres, brand \"Saraswati Silks\", targeting resellers who sell to WhatsApp groups and small-town buyers. Please provide: (1) a 150-character title with reseller-friendly keywords, (2) 5 bullet points emphasizing margin potential and visual appeal, (3) a 200-word description resellers can copy-paste into WhatsApp broadcasts, (4) 10 relevant tags, (5) suggested photography angles. Format as complete listing brief. Consider these constraints: Meesho buyers are price-sensitive and shop primarily on mobile, description must work in Hindi/English mixed communication, highlight \"cash on delivery\" eligibility, mention easy returns, and avoid jargon. Include reseller talking points like \"perfect for Diwali gifting\" and \"fast-moving product\" that help them pitch to end buyers.",
+      "tags": [
+        "meesho",
+        "reseller",
+        "listing-seo",
+        "tier-2-cities"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-005",
+      "title": "Nykaa Beauty Product Listing",
+      "prompt": "Act as a Nykaa beauty listing expert with 7 years experience launching D2C brands like Plum and Sugar Cosmetics. I need you to write a beauty product listing. Here is the context: I am selling a vitamin C face serum, 30ml, 10% concentration, suitable for Indian skin and humid climate, brand \"GlowVeda\", INR 799, targeting women aged 22-40. Please provide: (1) a title with brand + product + key ingredient + skin concern + size, (2) 5 bullet points covering benefits, ingredients, skin type, usage, and results timeline, (3) a 250-word description with ingredient storytelling, (4) \"how to use\" section with morning/night routine, (5) 8 Nykaa-specific filter tags. Format as Nykaa listing template. Consider these constraints: Nykaa buyers research ingredients deeply, mention CDSCO compliance, dermatologically tested claims need substantiation, address Indian concerns like pigmentation and tan, avoid medical claims, and use Indian skin tone references (wheatish, dusky, fair). Include suitability for Indian weather from Mumbai humidity to Delhi pollution.",
+      "tags": [
+        "nykaa",
+        "beauty",
+        "product-description",
+        "d2c-brands"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-006",
+      "title": "Hinglish Keyword Research Generator",
+      "prompt": "Act as an Indian e-commerce SEO specialist with 6 years experience researching Hinglish and vernacular search terms on Amazon.in and Flipkart. I need you to generate a Hinglish keyword list for my product. Here is the context: I am selling a pressure cooker, 5 litre, stainless steel, induction compatible, brand \"Prestige Deluxe Plus\", INR 2,499, targeting Indian homemakers. Please provide: (1) 20 English keywords with estimated search volume tiers (high/medium/low), (2) 15 Hinglish transliterated keywords like \"cooker 5 litre\", \"pressure cooker induction ke liye\", (3) 10 Hindi-script keywords, (4) 10 long-tail buyer-intent phrases, (5) categorization into primary/secondary/backend keywords. Format as a table with columns: keyword, language, intent, suggested placement. Consider these constraints: Amazon.in backend keywords allow 250 bytes, avoid keyword stuffing in visible copy, prioritize terms Indian buyers actually type on mobile keyboards, consider voice search phrases (\"OK Google pressure cooker kitna ka hai\"), and include regional variations common in Northern vs Southern India.",
+      "tags": [
+        "keyword-research",
+        "hinglish",
+        "amazon-india",
+        "listing-seo"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-007",
+      "title": "JioMart Grocery Listing Writer",
+      "prompt": "Act as a JioMart listing specialist with 4 years experience in grocery and FMCG categories. I need you to create a listing for my grocery product. Here is the context: I am selling organic basmati rice, 5kg pack, aged 2 years, brand \"Himalayan Harvest\", INR 799, sourced from Dehradun, FSSAI certified. Please provide: (1) an SEO-optimized title under 150 characters, (2) 5 bullet points covering origin, quality, certifications, usage, and storage, (3) a 200-word description emphasizing purity and family usage, (4) nutritional info placement suggestions, (5) cross-sell product recommendations. Format as complete JioMart listing. Consider these constraints: JioMart shoppers prioritize trust and freshness, include FSSAI license mention, reference Indian cooking contexts (biryani, pulao, everyday dal-chawal), mention shelf life and packaging, address common concerns about authenticity of \"organic\" claims, and align with JioMart's family-oriented brand voice. Include HSN code 1006 for rice and GST rate considerations.",
+      "tags": [
+        "jiomart",
+        "grocery",
+        "fmcg",
+        "product-description"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-008",
+      "title": "BigBasket Listing for Pantry Products",
+      "prompt": "Act as a BigBasket category manager with 5 years experience in packaged foods. I need you to write a complete listing for my pantry product. Here is the context: I am selling cold-pressed virgin coconut oil, 500ml glass bottle, brand \"Kerala Kalpavriksha\", INR 449, edible and cosmetic grade, sourced from Kochi. Please provide: (1) a title following BigBasket format with brand + product + variant + size, (2) 6 feature bullets, (3) a 180-word description highlighting traditional extraction, (4) usage suggestions for cooking, hair, and skin, (5) suggested FAQ entries (5 questions). Format as BigBasket product page structure. Consider these constraints: BigBasket shoppers are quality-conscious urban families in metros like Bangalore, Mumbai, Delhi, highlight AGMARK and FSSAI certifications, mention traditional ghaani extraction, reference Ayurvedic uses without making medical claims, include cold-pressed vs refined comparison, and address shelf life concerns with proper storage instructions.",
+      "tags": [
+        "bigbasket",
+        "grocery",
+        "listing-seo",
+        "pantry"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-009",
+      "title": "Tata CLiQ Premium Listing Writer",
+      "prompt": "Act as a Tata CLiQ premium category listing writer with 5 years experience in luxury and mid-premium segments. I need you to create an aspirational listing. Here is the context: I am selling a leather wallet for men, genuine full-grain leather, 8 card slots, RFID protection, brand \"Bombay Leather Co\", INR 2,199, handcrafted in Kanpur. Please provide: (1) an elegant title under 150 characters, (2) 5 premium-tone bullets, (3) a 220-word description with brand story and craftsmanship narrative, (4) care and maintenance guide, (5) gift-worthiness section for occasions like birthdays and anniversaries. Format as Tata CLiQ premium product template. Consider these constraints: Tata CLiQ audience expects authenticity and quality assurance, emphasize heritage craftsmanship, mention genuine leather certification, reference Indian leather tradition from Kanpur and Chennai, avoid cheap-sounding language, include warranty details, and align with Tata Group's trust-based brand positioning. Price justification through material and craftsmanship storytelling is critical.",
+      "tags": [
+        "tata-cliq",
+        "premium",
+        "product-description",
+        "storytelling"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-010",
+      "title": "Feature-to-Benefit Converter",
+      "prompt": "Act as a conversion copywriter with 8 years experience in Indian e-commerce. I need you to convert product features into emotional benefits. Here is the context: I am selling a noise-cancelling wireless earbud with these features: 40-hour battery, IPX5 water resistance, ENC mic, bluetooth 5.3, touch controls, 13mm driver, brand \"boAt Airdopes competitor\" called \"SonicWave\", INR 1,299. Please provide: (1) each feature mapped to a primary benefit and emotional outcome, (2) a \"so what\" analysis for each feature, (3) rewritten bullet points in benefit-first format, (4) pain points each feature solves for Indian commuters and students, (5) ranked priority order for listing placement. Format as a table with columns: feature, benefit, emotion, pain point, bullet copy. Consider these constraints: Indian buyers respond to value framing and practical use cases (Mumbai local train commute, Delhi metro, online classes), avoid technical jargon, connect features to everyday Indian scenarios, and emphasize durability since Indian buyers prioritize product longevity.",
+      "tags": [
+        "bullet-points",
+        "benefits-writing",
+        "copywriting",
+        "listing-seo"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-011",
+      "title": "Amazon Backend Search Terms",
+      "prompt": "Act as an Amazon.in SEO expert with 7 years experience optimizing backend search term fields. I need you to generate backend keywords for my listing. Here is the context: I am selling a yoga mat, 6mm thick, anti-slip, eco-friendly TPE, 183cm x 61cm, brand \"YogaBharat\", INR 899, targeting fitness beginners and home workout enthusiasts. Please provide: (1) 250 bytes of backend search terms (count characters), (2) zero keyword repetition, (3) zero words already in title/bullets, (4) Hinglish variations like \"yoga chatai\", (5) common misspellings buyers type. Format as a single comma-separated string followed by character count and keyword list breakdown. Consider these constraints: Amazon.in 250-byte limit is strictly enforced, do not use punctuation or stop words, avoid brand names of competitors (trademark violation), include synonyms like \"exercise mat\", \"workout mat\", \"fitness mat\", include festival-related terms if relevant, and ensure all keywords align with product category Amazon browse nodes for Sports & Fitness.",
+      "tags": [
+        "amazon-title",
+        "keyword-research",
+        "backend-keywords",
+        "listing-seo"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-012",
+      "title": "Product Listing for Festive Season",
+      "prompt": "Act as an Indian e-commerce seasonal marketing expert with 6 years experience in Diwali, Raksha Bandhan, and Navratri sales. I need you to rewrite my listing for festive appeal. Here is the context: I am selling a decorative brass diya set, 12 pieces, handcrafted, brand \"DiyaCraft\", INR 599, targeting urban buyers for Diwali gifting. Please provide: (1) a festive-tuned title, (2) 5 bullets emphasizing gifting and tradition, (3) a 200-word description evoking festive emotions, (4) gifting-ready positioning copy, (5) bundle suggestions with complementary products. Format as complete listing with festive angle. Consider these constraints: Diwali search traffic peaks from September to November on Amazon.in and Flipkart, shoppers search terms like \"diwali gift\", \"brass diya\", \"pooja items\", include auspicious imagery in copy, respect religious sentiments, mention \"made in India\" craftsmanship, reference traditional Lakshmi pooja usage, and align with Flipkart Big Billion Days and Amazon Great Indian Festival themes.",
+      "tags": [
+        "festive",
+        "diwali",
+        "product-description",
+        "seasonal"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-013",
+      "title": "Size Chart and Fit Guide Writer",
+      "prompt": "Act as an Indian apparel listing specialist with 5 years experience reducing return rates on Myntra and Flipkart fashion categories. I need you to write a comprehensive size and fit section. Here is the context: I am selling men's slim-fit jeans, denim, stretchable, sizes 28-38 waist, brand \"Denim Dock\", INR 1,299. Please provide: (1) a size chart in both inches and centimetres, (2) a fit description (slim/regular/relaxed comparison), (3) body measurement guide with instructions, (4) fit guidance for Indian body types, (5) return reduction tips in listing copy. Format as a complete size and fit module for product page. Consider these constraints: Indian apparel returns are driven 60% by fit issues, include reference to common Indian body types, suggest buyers measure an existing well-fitting jean, mention shrinkage expectations after first wash, address waist-to-length ratio concerns common in Indian men, and provide model details (model is 5'10\", wearing size 32) as reference.",
+      "tags": [
+        "size-chart",
+        "fashion",
+        "fit-guide",
+        "returns-reduction"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-014",
+      "title": "Mobile-First Listing Optimization",
+      "prompt": "Act as a mobile UX writer with 5 years experience in Indian e-commerce where 85% of traffic is mobile. I need you to optimize my listing for mobile screens. Here is the context: I am selling a smartwatch, AMOLED display, BT calling, health tracking, brand \"Fire-Boltt competitor\" called \"PulseBeat\", INR 1,999. Please provide: (1) title truncation test (first 50, 80, 120 characters), (2) mobile-optimized bullets under 200 characters each, (3) scannable description with short paragraphs, (4) image caption copy for mobile carousels, (5) above-the-fold priority content hierarchy. Format as mobile wireframe with copy blocks. Consider these constraints: Amazon.in mobile app truncates titles at ~80 characters, bullets at first 2 lines, buyers scroll rapidly on mobile, copy must deliver value in first 3 seconds, avoid long paragraphs, use emoji sparingly where platform allows, and prioritize key info (price, features, warranty) above fold since Indian mobile buyers rarely scroll to full description.",
+      "tags": [
+        "mobile-first",
+        "listing-seo",
+        "ux-copywriting",
+        "amazon-title"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-015",
+      "title": "Home & Kitchen Category Listing",
+      "prompt": "Act as an Amazon.in Home & Kitchen category specialist with 6 years experience. I need you to write a complete listing for a kitchen product. Here is the context: I am selling a non-stick kadai, 26cm, 3mm thick, induction and gas compatible, brand \"Tawa Plus\", INR 1,199, PFOA-free coating. Please provide: (1) title with primary keywords, (2) 5 benefit bullets, (3) 200-word description, (4) comparison vs traditional iron kadai, (5) recipe suggestions that showcase the product. Format as complete listing. Consider these constraints: Indian kitchen buyers value durability and non-stick performance for Indian cooking (bhunna, tadka, deep frying), PFOA-free claims need substantiation, mention ISI mark if applicable, reference usage for biryani, sabzi, puri, address common complaints about coating peeling, and include care instructions specific to Indian cooking techniques.",
+      "tags": [
+        "home-kitchen",
+        "amazon-india",
+        "product-description",
+        "listing-seo"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-016",
+      "title": "Electronics Product Specs Formatter",
+      "prompt": "Act as an electronics category listing writer with 5 years experience on Amazon.in and Flipkart. I need you to format technical specifications into buyer-friendly content. Here is the context: I am selling a 43-inch 4K smart TV, Android TV, HDR10, 20W speakers, brand \"ViewMax\", INR 24,999. Please provide: (1) technical spec table in buyer-friendly language, (2) 5 feature bullets translating specs to benefits, (3) \"what's in the box\" section, (4) warranty and installation details, (5) comparison with lower/higher variants. Format as complete electronics listing with spec sheet. Consider these constraints: Indian TV buyers compare specs heavily across Flipkart and Amazon, mention BIS certification for electronics, include power consumption details, address installation concerns (wall mount, tabletop), mention OTT app availability (Hotstar, Prime, Netflix), reference Indian content support, and include warranty terms (comprehensive vs parts-only).",
+      "tags": [
+        "electronics",
+        "specs",
+        "product-description",
+        "listing-seo"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-017",
+      "title": "Amazon A+ Content Comparison Table",
+      "prompt": "Act as an Amazon.in A+ Content specialist with 6 years experience creating EBC for brands like Mamaearth and WOW Skin Science. I need you to design a product comparison table module. Here is the context: I have a product family of 4 hair oils under brand \"Kesh Kranti\": Onion Hair Oil (INR 349), Bhringraj Oil (INR 399), Almond Oil (INR 299), and Amla Oil (INR 279). I want to help buyers choose the right variant. Please provide: (1) a 4-column comparison table with 8 attribute rows (key ingredient, concern addressed, skin/hair type, usage frequency, key benefit, size, rating, price), (2) column headers with icons suggestions, (3) a recommendation matrix (\"choose X if you have Y\"), (4) cross-linking anchor copy, (5) A+ module specs for Amazon image dimensions. Format as complete A+ comparison module specification. Consider these constraints: Amazon A+ Content allows comparison chart module with up to 6 products, image dimensions must meet Amazon standards, copy must be factual without superlatives, highlight variant differentiation clearly, address common Indian hair concerns like hair fall and dandruff, and support cross-selling across the brand family.",
+      "tags": [
+        "a-plus",
+        "amazon-india",
+        "comparison-table",
+        "ebc"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-018",
+      "title": "Brand Story for A+ Content",
+      "prompt": "Act as a D2C brand storyteller with 7 years experience writing Amazon A+ Content brand story modules for Indian startups. I need you to write a compelling brand story. Here is the context: My brand \"Bharat Roots\" sells Ayurvedic skincare, founded in Jaipur in 2021 by two sisters, inspired by their grandmother's recipes, uses farm-sourced herbs, GMP certified, now on Amazon.in with 12 SKUs. Please provide: (1) a 100-word brand origin story, (2) founder's mission statement, (3) sourcing and quality commitment section, (4) 4 brand value pillars with one-line descriptions, (5) \"why choose us\" closing paragraph. Format as Amazon A+ Brand Story module copy. Consider these constraints: Amazon A+ Brand Story has 4 image slots with limited text per slot, story must feel authentic not corporate, connect to Indian heritage without stereotypes, mention GMP and Ayush compliance, avoid medical claims, reference traditional Indian skincare wisdom, and build trust with urban Indian buyers who value provenance and authenticity in D2C brands.",
+      "tags": [
+        "a-plus",
+        "brand-story",
+        "d2c-brands",
+        "storytelling"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-019",
+      "title": "Competitor Listing Analysis",
+      "prompt": "Act as an e-commerce competitive intelligence analyst with 7 years experience auditing Amazon.in and Flipkart listings. I need you to perform a competitor listing analysis. Here is the context: I am launching a stainless steel lunch box, 3 compartments, leak-proof, for office-goers, INR 699. My top 3 competitors on Amazon.in are Milton (INR 599), Cello (INR 549), and Signoraware (INR 649). Please provide: (1) a side-by-side title comparison noting keyword strategies, (2) bullet point patterns competitors use, (3) A+ content gaps I can exploit, (4) review themes (positive and negative) to address, (5) pricing and positioning differentiation opportunities. Format as a comprehensive audit report with actionable recommendations. Consider these constraints: I cannot copy competitor copy directly, must identify unique angles, price sensitivity is high in Indian lunchbox category, buyers prioritize leak-proof and durability claims, Milton dominates search results with strong brand equity, and my differentiation must be clearly articulated in first 3 bullet points to stand out in Amazon.in search results.",
+      "tags": [
+        "competitor-analysis",
+        "listing-seo",
+        "amazon-india",
+        "audit"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-020",
+      "title": "Helium 10 Keyword Strategy",
+      "prompt": "Act as an Amazon.in keyword researcher with 6 years experience using Helium 10 Cerebro and Magnet tools for Indian marketplace. I need you to build a keyword strategy. Here is the context: I am launching a neem face wash, 100ml, for acne-prone skin, brand \"PureNeem\", INR 249. Competitor ASINs I want to reverse-engineer: Mamaearth Tea Tree Face Wash and Himalaya Neem Face Wash. Please provide: (1) a 30-keyword master list categorized by search volume (estimated), (2) keyword intent mapping (discovery, comparison, purchase), (3) primary vs long-tail split, (4) placement strategy across title, bullets, backend, description, (5) tracking plan with weekly rank check cadence. Format as a structured keyword document. Consider these constraints: Helium 10 data for Amazon.in is less comprehensive than .com but Cerebro ASIN reverse lookup still works, factor in Hinglish queries that tools miss, include CDSCO-compliant terms since this is cosmetic category, avoid medical claims keywords (\"treats acne\", \"cures\"), and prioritize transactional intent over informational.",
+      "tags": [
+        "keyword-research",
+        "helium-10",
+        "amazon-india",
+        "strategy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-021",
+      "title": "A+ Content Feature Module Copy",
+      "prompt": "Act as an Amazon.in A+ Content copywriter with 6 years experience designing premium module layouts. I need you to write copy for a feature module. Here is the context: I am selling a robotic vacuum cleaner, laser navigation, 2700Pa suction, app controlled, brand \"CleanBot India\", INR 18,999. I want to highlight 4 key features in a 4-image-and-text module. Please provide: (1) a 50-character hero headline, (2) 4 feature blocks each with 60-character subheading and 100-character description, (3) image direction notes for each module, (4) alt text for accessibility, (5) CTA suggestion. Format as Amazon A+ module spec sheet. Consider these constraints: Amazon A+ image modules require minimum 300 DPI, text overlay on images is limited, descriptions must be scannable on mobile, highlight features that justify premium Indian pricing (Indian homes have unique layouts and floor types), reference usage on tiles, marble, and carpet common in Indian homes, and ensure module tells a cohesive product story.",
+      "tags": [
+        "a-plus",
+        "amazon-india",
+        "feature-module",
+        "ebc"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-022",
+      "title": "Conversion Rate Optimization Audit",
+      "prompt": "Act as a conversion optimization consultant with 8 years experience improving Amazon.in and Flipkart listing conversion rates. I need you to audit my listing and recommend CRO improvements. Here is the context: I sell a baby stroller, brand \"TinyTots\", INR 6,499, current conversion rate 3.2%, session count 4,200/month, category average CVR is 7%. Current assets: 5 images, 6 bullets, 800-word description, no A+ content, 120 reviews with 4.1 rating. Please provide: (1) a prioritized list of 10 CRO improvements ranked by impact, (2) specific copy rewrites for title and top 3 bullets, (3) image improvement recommendations, (4) review response strategy for negative reviews, (5) projected CVR lift estimates. Format as a CRO audit report with implementation roadmap. Consider these constraints: Indian baby product buyers are cautious and research-heavy, trust signals like safety certifications are critical, address common concerns (weight, portability, durability on Indian roads), reference Mumbai monsoon or Delhi dust as use cases, suggest A+ content as high-impact addition, and prioritize quick wins achievable within 1 week.",
+      "tags": [
+        "cro",
+        "listing-seo",
+        "audit",
+        "amazon-india"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-023",
+      "title": "Multi-Variant Listing Architecture",
+      "prompt": "Act as an Amazon.in catalog specialist with 7 years experience structuring parent-child variation listings. I need you to design a variation listing architecture. Here is the context: I am launching a bedsheet brand \"SleepSoft\" with 1 base product available in 3 sizes (single/double/king), 5 colors (white, blue, grey, beige, pink), and 2 fabrics (cotton, poly-cotton), priced INR 599-1,499. Please provide: (1) parent ASIN title template, (2) child ASIN title template with variable placeholders, (3) variation theme recommendation (size-color-material), (4) 5 shared bullets and variant-specific bullet, (5) image set strategy per variation. Format as a catalog architecture document. Consider these constraints: Amazon.in variation rules require consistent parent theme, reviews aggregate across child ASINs which is beneficial for new variants, buyers switch between variations easily so differentiation copy is important, Indian bedsheet market is size-confused (bed measurements vary), include size chart clarity, and ensure inventory tracking aligns with GST invoicing per variant.",
+      "tags": [
+        "amazon-india",
+        "variations",
+        "catalog",
+        "listing-seo"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-024",
+      "title": "Flipkart Rich Content Module",
+      "prompt": "Act as a Flipkart rich content specialist with 5 years experience creating enhanced brand content on Flipkart. I need you to design a rich content module. Here is the context: I am selling a gaming chair, ergonomic, lumbar support, brand \"GameThrone India\", INR 8,999. Please provide: (1) a rich content layout with 5 sections (hero, features, comparison, testimonials, CTA), (2) headline and subheadline copy for each section, (3) image brief with dimensions, (4) trust badge placement (FK Assured, warranty, EMI), (5) mobile and desktop variations. Format as Flipkart rich content module spec. Consider these constraints: Flipkart rich content differs from Amazon A+ in placement and approval process, mobile rendering is priority since 90% Flipkart traffic is mobile, highlight EMI options prominently (Bajaj Finserv, HDFC), Indian gaming audience values durability claims, mention FK Assured for trust, reference usage for long coding/gaming sessions common among Indian IT professionals and students.",
+      "tags": [
+        "flipkart",
+        "rich-content",
+        "listing-seo",
+        "ebc"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-025",
+      "title": "Cross-Sell and Upsell Bundle Copy",
+      "prompt": "Act as an Amazon.in merchandising strategist with 6 years experience in bundle and frequently-bought-together optimization. I need you to design bundle copy and strategy. Here is the context: I sell a DSLR camera bag, brand \"ShutterPro\", INR 1,499. I want to create bundles with cleaning kit (INR 299), memory card (INR 699), and tripod (INR 1,999). Please provide: (1) a 3-tier bundle strategy (starter/standard/premium), (2) bundle title formula, (3) bundle description copy for each tier, (4) savings communication (absolute INR and percentage), (5) upsell copy for product page. Format as bundle merchandising document. Consider these constraints: Amazon.in Virtual Bundles require ASIN-level coordination, price anchoring works well with Indian buyers who compare savings, show crossed-out MRP for psychological impact, reference photography enthusiast scenarios in India (weddings, travel to Rajasthan/Kerala), ensure bundle HSN code consistency for GST invoicing, and avoid overwhelming buyers with too many choices.",
+      "tags": [
+        "bundling",
+        "upsell",
+        "merchandising",
+        "amazon-india"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-026",
+      "title": "Review Mining for Listing Copy",
+      "prompt": "Act as a voice-of-customer researcher with 6 years experience mining Amazon.in and Flipkart reviews for listing insights. I need you to extract insights from reviews and convert to listing copy. Here is the context: I am optimizing my protein powder listing, brand \"FitFuel India\", INR 1,799 for 1kg, whey concentrate, chocolate flavor. I will provide 50 competitor reviews. Please provide: (1) a 5-theme analysis of positive reviews, (2) a 5-theme analysis of negative reviews, (3) top 10 phrases buyers use (for keyword mining), (4) rewritten bullets incorporating voice-of-customer language, (5) FAQs addressing recurring concerns. Format as a review mining report with copy output. Consider these constraints: Indian protein buyers worry about authenticity (fake whey concerns), taste (Indian palate preferences), digestion issues, value for money, and certifications, incorporate these concerns proactively in listing copy, use customer language not brand language, avoid medical claims about muscle building, reference FSSAI certification, and address common complaint about clumping in Indian humidity.",
+      "tags": [
+        "review-mining",
+        "voice-of-customer",
+        "listing-seo",
+        "research"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-027",
+      "title": "FBA Fee Optimization Listing Check",
+      "prompt": "Act as an Amazon.in FBA operations specialist with 6 years experience optimizing listings for fulfillment fees. I need you to audit my listing for FBA cost efficiency. Here is the context: I sell a set of 4 ceramic mugs, brand \"CuppaIndia\", INR 699, dimensions 25x25x12cm, weight 1.2kg, currently categorized as \"Home & Kitchen > Dinnerware\". Please provide: (1) FBA fee breakdown for standard-size vs oversize in India, (2) packaging optimization recommendations to reduce dimensional weight, (3) listing copy changes to reflect optimized packaging, (4) category classification review, (5) impact on margin at current INR 699 price. Format as an FBA optimization report. Consider these constraints: Amazon.in FBA fees vary by weight tier and product category, standard size thresholds matter for fee calculation, Indian fulfillment centers are in Delhi NCR, Mumbai, Bangalore, Chennai, storage fees increase during Q4, HSN code 6911/6912 applies for ceramics with GST 18%, include return processing fee estimates, and calculate break-even pricing to maintain healthy margins.",
+      "tags": [
+        "fba",
+        "fees",
+        "amazon-india",
+        "operations"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-028",
+      "title": "PDP Image Strategy and Captions",
+      "prompt": "Act as an Amazon.in product photography art director with 7 years experience creating image sets for D2C brands. I need you to design an image set strategy. Here is the context: I sell a air fryer, 4 litre, digital display, brand \"CrispyChef\", INR 3,499. I have 7 image slots. Please provide: (1) image concept for each of 7 slots (hero, lifestyle, feature callouts, size comparison, what's in box, infographic, social proof), (2) shot list with composition notes, (3) text overlay copy for each image (under 15 words), (4) mobile-optimized cropping advice, (5) Indian lifestyle context for lifestyle shots. Format as a photography brief. Consider these constraints: Amazon.in main image must be pure white background with product filling 85% frame, lifestyle images allow creative context, feature infographics boost conversions significantly, reference Indian kitchen settings (granite counters, Indian cookware), show Indian foods being prepared (samosa, tikka, nuggets), avoid text-heavy images as mobile users skip them, and ensure all images meet 1000x1000px minimum for zoom functionality.",
+      "tags": [
+        "photography",
+        "images",
+        "listing-seo",
+        "amazon-india"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-029",
+      "title": "Flipkart Listing Quality Score Audit",
+      "prompt": "Act as a Flipkart seller consultant with 6 years experience improving listing quality scores and FK Assured eligibility. I need you to audit my listing. Here is the context: I sell a bluetooth speaker, brand \"BassBoom\", INR 1,299, current listing has 3 images, 4 bullets, 300-word description, no variants, listing quality score 62/100. Please provide: (1) a point-by-point LQS audit across title, images, description, attributes, (2) specific improvements to reach 90+ score, (3) FK Assured eligibility checklist, (4) rewritten title and bullets to hit LQS targets, (5) attribute completeness review. Format as a detailed audit with action items. Consider these constraints: Flipkart LQS weights completeness heavily, minimum 5 images required for full score, attribute filling boosts discoverability, FK Assured requires rating thresholds and return rates, Indian buyers filter by FK Assured for trust, reference common audio category attributes (driver size, frequency response, battery life), and ensure all fields use Flipkart standardized values not free-text.",
+      "tags": [
+        "flipkart",
+        "quality-score",
+        "audit",
+        "fk-assured"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-030",
+      "title": "Search Term Report Analysis",
+      "prompt": "Act as an Amazon.in PPC and SEO analyst with 6 years experience using search term reports to optimize listings. I need you to analyze my search term report and recommend listing changes. Here is the context: I run a listing for electric kettle, brand \"BoilMaster\", INR 699. I have 60 days of search term data showing top performing terms, converting keywords, and wasted spend terms. Please provide: (1) a framework to categorize search terms (converting/browsing/irrelevant), (2) top 15 converting keywords to integrate into listing, (3) negative keywords to exclude, (4) listing copy revisions based on findings, (5) PPC-to-SEO bridging strategy. Format as an analysis report with listing revision recommendations. Consider these constraints: Amazon.in SQR data includes Hinglish search terms, prioritize keywords with high CTR and conversion rate, not just volume, identify low-competition long-tail opportunities, ensure listing matches paid traffic expectations to avoid bounces, reference seasonality in kitchen appliances (winter tea/coffee spike), and balance between new keyword integration and existing keyword retention.",
+      "tags": [
+        "search-terms",
+        "ppc",
+        "listing-seo",
+        "analysis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-031",
+      "title": "D2C Brand Differentiation Copy",
+      "prompt": "Act as a D2C brand strategist with 7 years experience positioning Indian brands against established competitors. I need you to craft differentiation copy. Here is the context: I am launching a deodorant brand \"FreshFuel\" in a market dominated by Fogg, Axe, and Wild Stone, INR 249 for 150ml, 24-hour protection, alcohol-free, cruelty-free. Please provide: (1) a positioning statement distinct from top 3 competitors, (2) 3 unique differentiation pillars, (3) bullet points highlighting each pillar, (4) comparison narrative (without naming competitors), (5) hero headline for A+ content. Format as a brand differentiation brief with listing copy. Consider these constraints: Indian deodorant market is saturated, Fogg dominates with \"no gas\" positioning, Axe owns premium fragrance, Wild Stone owns mass-market, find a meaningful gap (eg alcohol-free, natural, long-lasting), avoid making disparaging competitor comparisons per Amazon policy, highlight cruelty-free and clean beauty trend gaining traction in urban India, and reference usage by Indian gym-goers and professionals.",
+      "tags": [
+        "d2c-brands",
+        "positioning",
+        "differentiation",
+        "copywriting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-032",
+      "title": "Listing Localization for Regional India",
+      "prompt": "Act as a regional marketing specialist with 5 years experience adapting listings for non-metro Indian markets. I need you to localize my listing for Tier 2 and Tier 3 buyers. Here is the context: I sell a sewing machine, brand \"SilaiWali\", INR 2,999, targeting homemakers in cities like Indore, Nagpur, Kanpur, Coimbatore. Currently my listing is in English. Please provide: (1) a Hinglish title variation, (2) bullets in simpler English with regional references, (3) a 200-word description in conversational Hinglish, (4) usage scenarios relevant to small-town India (home tailoring, alteration business), (5) vernacular keyword suggestions for backend. Format as a localized listing. Consider these constraints: Tier 2/3 buyers often read Hindi mixed with English, value-for-money positioning is critical, highlight income-generation potential for women (home business angle), reference common local needs (school uniform stitching, saree falls, blouse fitting), ensure language is respectful and aspirational not condescending, and address concerns about product support in non-metro areas.",
+      "tags": [
+        "localization",
+        "hinglish",
+        "tier-2-cities",
+        "copywriting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-033",
+      "title": "Full Listing Launch Package",
+      "prompt": "Act as a senior Amazon.in launch strategist with 10 years experience bringing D2C brands to market, with past launches for brands like boAt and Wakefit. I need you to create a complete launch-ready listing package. Here is the context: I am launching a smart home security camera, 2MP, pan-tilt, SD card and cloud storage, brand \"SurakshaEye\", INR 2,499, targeting urban Indian homeowners and small shop owners. Please provide: (1) full listing with title, 5 bullets, 400-word description, (2) backend search terms 250 bytes, (3) A+ Content spec with 5 modules (hero, problem/solution, feature highlight, comparison chart, brand story), (4) image brief for 7 slots, (5) PPC launch keyword seed list, (6) review generation strategy within Amazon TOS. Format as a complete go-to-market listing package. Consider these constraints: Amazon.in launch traction requires first 30 days of velocity, new sellers face ranking disadvantages, security category has regulatory considerations (BIS certification, IT Act compliance for cloud storage), reference Indian use cases (home security during travel, shop monitoring, elderly parent care), address internet bandwidth concerns in Tier 2 cities, include GST HSN 8525 implications, and ensure launch listing can sustain aggressive PPC bid strategies without policy violations.",
+      "tags": [
+        "launch",
+        "listing-seo",
+        "amazon-india",
+        "go-to-market"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-034",
+      "title": "Multi-Marketplace Listing Adaptation",
+      "prompt": "Act as a multi-channel e-commerce strategist with 8 years experience adapting listings across Amazon.in, Flipkart, Myntra, Nykaa, and Meesho. I need you to adapt one product listing across 5 marketplaces with channel-specific optimization. Here is the context: My product is a facial cleansing brush, silicone, waterproof, rechargeable, brand \"GlowSpin\", INR 1,299. Please provide: (1) Amazon.in listing (title, 5 bullets, description), (2) Flipkart listing with LQS optimization, (3) Myntra listing with fashion-beauty tone, (4) Nykaa listing with ingredient storytelling, (5) Meesho listing with reseller-friendly copy. For each marketplace provide differentiation rationale. Format as a 5-channel listing comparison document. Consider these constraints: each marketplace has unique buyer personas and search behaviors, Amazon.in favors keyword density, Flipkart values attribute completeness, Myntra demands aspirational tone, Nykaa requires ingredient credibility, Meesho needs reseller-translatable copy, pricing may vary across channels for margin optimization, ensure product info consistency for trust, comply with each platform's content policy, and factor differential commission structures (Myntra higher, Meesho lower) into pricing.",
+      "tags": [
+        "multi-channel",
+        "marketplace-strategy",
+        "listing-seo",
+        "adaptation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-035",
+      "title": "Algorithm-First Listing Engineering",
+      "prompt": "Act as an Amazon A9/A10 algorithm expert with 9 years experience reverse-engineering search ranking factors for Amazon.in. I need you to engineer a listing for maximum algorithmic visibility. Here is the context: I am entering the hair dryer category with brand \"BlowPro\", 2000W, 3 heat settings, ionic technology, INR 1,199. Category is dominated by Philips, Havells, and Vega. Please provide: (1) a title engineered for A9 with keyword weighting analysis, (2) bullets structured for relevance scoring, (3) backend optimization with byte-level precision, (4) conversion signals to reinforce (CTR, stay time, add-to-cart), (5) ranking velocity strategy for first 14 days. Format as an algorithmic optimization brief. Consider these constraints: Amazon A9 weights exact match, phrase match, and broad match differently, click-through rate from search results impacts ranking, session-level engagement signals (time on page, bounce rate) matter, competitive density affects rank velocity, Indian haircare category has voltage specifications (230V) critical for listing accuracy, BIS registration required for electrical appliances, include IS 302 safety standard references, and balance keyword optimization against Amazon policy violations.",
+      "tags": [
+        "a9-algorithm",
+        "amazon-india",
+        "listing-seo",
+        "advanced-seo"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-036",
+      "title": "Category Leader Teardown",
+      "prompt": "Act as an e-commerce intelligence consultant with 10 years experience performing deep-dive teardowns of category leaders on Amazon.in. I need you to teardown the #1 best-seller in my category and extract replicable tactics. Here is the context: I want to compete in the yoga mat category where Strauss and Boldfit dominate. Boldfit's best-selling mat has 45,000+ reviews at INR 599. Please provide: (1) a complete teardown of title architecture, (2) bullet psychological analysis (which buyer triggers are activated), (3) A+ content module-by-module breakdown, (4) review sentiment analysis template, (5) 10 tactical takeaways I can replicate without copying, (6) gaps in leader's listing I can exploit. Format as a strategic intelligence report. Consider these constraints: I cannot copy copy verbatim due to IP and Amazon policy, focus on structural and strategic patterns, identify why leader converts at higher rate, analyze pricing psychology, review velocity, question-answer engagement, variation strategy, and image quality, reference Indian fitness category trends (home workout post-pandemic, WFH fitness), and provide actionable next steps for a new entrant with INR 5 lakh launch budget.",
+      "tags": [
+        "competitor-analysis",
+        "teardown",
+        "amazon-india",
+        "strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-037",
+      "title": "Compliance-Heavy Category Listing",
+      "prompt": "Act as a regulatory compliance specialist with 8 years experience listing products in highly regulated Indian categories. I need you to write a compliant listing for my product. Here is the context: I am selling a kids protein bar, cereal based, 25g, brand \"GrowKid\", INR 49, targeting children 5-12, FSSAI registered, sugar-free variant. Please provide: (1) a title that is FSSAI and ASCI compliant, (2) bullets avoiding prohibited health claims, (3) nutritional information compliant display, (4) ingredient disclosure per FSSAI labelling rules, (5) marketing-to-children compliance checklist, (6) claims substantiation matrix. Format as a compliance-first listing document. Consider these constraints: FSSAI regulations restrict health claims on child-targeted foods, ASCI has strict guidelines on food marketing to children, \"natural\", \"healthy\", \"nutritious\" claims need substantiation, cannot claim disease prevention, must display front-of-pack nutrition labelling per latest FSSAI draft, mention FSSAI license number, avoid celebrity endorsements to kids per ASCI code, and ensure packaging imagery doesn't depict aspirational body standards for children. Compliance failures risk delisting and legal action.",
+      "tags": [
+        "compliance",
+        "fssai",
+        "regulatory",
+        "listing-seo"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-038",
+      "title": "Private Label Launch Listing Blueprint",
+      "prompt": "Act as a private label strategist with 9 years experience launching unbranded products on Amazon.in against branded competition. I need you to create a private label launch blueprint. Here is the context: I am sourcing a silicone spatula set from a Guangzhou supplier, rebranding as \"KitchenNest\", landing cost INR 95, planning to sell at INR 399 on Amazon.in. Competition includes branded Prestige (INR 299) and unbranded imports (INR 199). Please provide: (1) a premium positioning listing strategy, (2) title and copy that justifies the INR 399 price, (3) trust-building elements (warranty, made-in claims, quality assurance), (4) review generation plan within Amazon TOS, (5) PPC launch budget allocation to reach page 1 in 45 days, (6) margin calculation after FBA fees, referral fees (15%), and GST (18%). Format as a private label playbook. Consider these constraints: private label success on Amazon.in depends on differentiation despite being generic product, Indian buyers often default to brand trust (Prestige, Milton), must create perceived premium value through packaging and listing quality, factor Amazon India referral fees for home and kitchen (15%), include HSN 3924 for plastic kitchenware, calculate unit economics transparently, and plan for review velocity that meets Amazon policy (no fake reviews).",
+      "tags": [
+        "private-label",
+        "launch",
+        "unit-economics",
+        "amazon-india"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-039",
+      "title": "Listing Experiments and A/B Testing",
+      "prompt": "Act as an Amazon.in experimentation specialist with 8 years experience running Manage Your Experiments (MYE) tests for D2C brands. I need you to design a listing A/B test program. Here is the context: I have a mature listing for a hair serum, brand \"SilkShine\", INR 549, 10,000 monthly sessions, current CVR 6.8%. I want to systematically test title, main image, A+ content, and price. Please provide: (1) a prioritized testing roadmap for 6 months, (2) hypothesis statements for each test, (3) test duration and sample size requirements for statistical significance, (4) copy variants for each test (control + 2 variants), (5) success metrics beyond CVR, (6) rollout criteria and guardrails. Format as an experimentation playbook. Consider these constraints: Amazon MYE requires minimum traffic thresholds (typically 1000 sessions per variant), brand-registered sellers only, cannot test price directly in MYE (requires external tool), statistical significance needs 95% confidence for decision-making, beauty category has seasonal effects (wedding season, summer humidity), factor review rating impact on test validity, and ensure tests don't disrupt Q4 sales velocity during Big Billion Days and Great Indian Festival.",
+      "tags": [
+        "a-b-testing",
+        "experiments",
+        "cro",
+        "amazon-india"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    },
+    {
+      "id": "ecommerce-product-listings-040",
+      "title": "Global Listing Adaptation for India",
+      "prompt": "Act as a global-to-India listing localization expert with 10 years experience adapting international brand listings for Amazon.in. I need you to adapt a US-origin listing for the Indian market. Here is the context: My client is a US supplement brand \"VitalCore\" selling a multivitamin currently live on Amazon.com for USD 29.99, entering India via Amazon.in at INR 1,499, FSSAI nutraceutical license obtained, Indian importer appointed. Please provide: (1) a full listing rewrite adapted for Indian buyers, (2) claims adjusted to FSSAI nutraceutical rules vs FDA, (3) cultural adaptations (vegetarian emphasis, Ayurvedic bridge), (4) pricing psychology adjustment for Indian buyers, (5) regulatory disclosures (importer details, MRP, country of origin, FSSAI license, mfg date), (6) trust-building for a new-to-India brand. Format as a localized listing with compliance checklist. Consider these constraints: FSSAI Nutraceutical Regulations 2022 are stricter than FDA on claims, imported products require MRP display with Indian importer name and address per Legal Metrology Act, country of origin is mandatory disclosure per Consumer Protection Act 2020, Indian buyers are skeptical of international supplements pricing, emphasize vegetarian/Jain-friendly certifications, reference Indian dietary gaps (B12, vitamin D deficiency common), and bridge Western supplement culture with Indian wellness tradition without misrepresentation.",
+      "tags": [
+        "localization",
+        "compliance",
+        "amazon-india",
+        "global-brands"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "ecommerce",
+      "subcategory": "product-listings"
+    }
+  ]
+}

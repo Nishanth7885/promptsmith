@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "finance-bookkeepers-001",
+      "title": "Categorize Vendor Bills in Tally with GST and TDS",
+      "prompt": "Act as a senior bookkeeper with 10 years experience handling Indian MSME accounts in Tally ERP 9 and Tally Prime. I need you to categorize a batch of 25 vendor bills and produce a voucher-ready posting sheet. Here is the context: I run a Bengaluru-based trading firm (turnover ₹8 cr, registered under GST regular scheme). The bills include office stationery from Reliance Retail, AWS cloud hosting (import of service), rent from a non-GST landlord, a CA professional fee bill, a freight bill from a GTA, and multiple raw-material purchases with IGST/CGST-SGST splits. For each bill provide: (1) correct ledger group (Indirect Expenses, Purchase Accounts, Fixed Assets, etc.), (2) GST treatment (ITC eligible, blocked u/s 17(5), RCM applicable, import of service), (3) TDS section and rate (194C, 194J, 194I, 194Q), (4) voucher type in Tally (Purchase, Journal, Payment), (5) narration template in under 15 words. Format as a markdown table with columns: Bill No, Party, Ledger, GST Treatment, TDS Section, Voucher Type, Narration. Flag any bill where GSTIN validation, place of supply, or RCM self-invoice is required. Consider these constraints: follow Schedule III grouping, CGST Rule 42 reversal where applicable, and ensure TDS thresholds (₹30k single / ₹1L aggregate for 194J) are applied.",
+      "tags": [
+        "tally",
+        "vendor-bills",
+        "gst",
+        "tds",
+        "categorization"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": true,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-002",
+      "title": "HDFC Bank Statement Reconciliation Workflow",
+      "prompt": "Act as a bookkeeper with 8 years experience reconciling Indian current accounts in Zoho Books and Tally Prime. I need you to build a step-by-step bank reconciliation workflow for an HDFC Bank current account of a Mumbai-based proprietorship (monthly volume ~180 transactions, ₹2.5 cr turnover). Here is the context: the March 2026 HDFC statement shows NEFT/RTGS inflows from B2B customers, UPI collections via HDFC Smarthub, auto-debits for GST challans, TDS challans, EMI on a term loan, bank charges with 18% GST, and a cheque return. Books show entries posted from sales invoices, purchase bills, and journal vouchers. Please provide: (1) pre-reconciliation checklist (opening balance tally, date range, missing vouchers), (2) matching rules for NEFT/UPI/IMPS by UTR, (3) treatment of bank charges and GST on charges (ITC claim), (4) handling unpresented cheques and uncredited deposits, (5) BRS statement format with reconciling items, (6) common red flags (duplicate entries, wrong narration, suspense postings), (7) month-end sign-off checklist. Format as a numbered procedure with a sample BRS table at the end. Consider these constraints: HDFC statement format quirks (narration field truncation), Indian cheque clearing cycles (CTS 2010), and the need to match GSTR-1 cash collections with bank credits.",
+      "tags": [
+        "bank-reconciliation",
+        "hdfc",
+        "brs",
+        "zoho-books",
+        "tally"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-003",
+      "title": "Month-End Close Checklist for Startup",
+      "prompt": "Act as an accounting manager with 9 years experience closing books for Indian DPIIT-recognised startups. I need you to draft a comprehensive month-end close checklist for a Gurugram SaaS startup (₹15 cr ARR, team of 60, Zoho Books + Razorpay + Stripe India). Here is the context: the startup bills Indian customers in INR with GST and overseas customers in USD under LUT (zero-rated export of services). Monthly activities include payroll, vendor payments, SaaS tool subscriptions, ESOP accounting, and prepaid AWS credits. Please provide: (1) day-wise close calendar (T+1 to T+7), (2) checklist grouped into Revenue, AP, Payroll, Bank, GST, TDS, Provisions, Fixed Assets, Inter-company, (3) specific journal entries for prepaid (AWS), accrued (electricity, rent), depreciation (Companies Act SLM), FX revaluation on USD receivables at RBI reference rate, (4) reconciliation items (GSTR-2B vs purchase register, TDS 26Q vs expense ledger, bank vs books), (5) review controls and maker-checker points, (6) deliverables to CFO (TB, P&L, BS, cash flow, MIS). Format as a markdown checklist with owner and due date columns. Consider these constraints: Ind AS 115 revenue recognition for SaaS subscriptions, MCA XBRL readiness, and startup runway MIS requirements.",
+      "tags": [
+        "month-end-close",
+        "startup",
+        "zoho-books",
+        "checklist",
+        "mis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-004",
+      "title": "GSTR-2B vs Purchase Register Matching",
+      "prompt": "Act as an indirect tax bookkeeper with 7 years experience doing 2B reconciliation for Indian manufacturers. I need you to design a matching procedure between GSTR-2B (JSON from GST portal) and the purchase register from Tally Prime for a Pune auto-component maker (monthly ITC ~₹35 lakh, 200+ vendors). Here is the context: some invoices appear in 2B but not in books (vendor billed but bill not received), some in books but not in 2B (vendor not filed GSTR-1), and some with mismatches in taxable value, tax amount, or invoice date. Please provide: (1) 4-way matching logic (GSTIN, Invoice No, Invoice Date, Taxable Value, Tax), (2) tolerance rules (₹1 rounding, date within same month), (3) bucket classification — Matched, Matched with Mismatch, Only in 2B, Only in Books, (4) action plan for each bucket including vendor follow-up email template, (5) ITC claim decision per Section 16(2)(aa) and Rule 36(4), (6) ineligible ITC flag (blocked credits, non-business use), (7) monthly 2B reco report format for management. Format as a procedure document followed by a sample reconciliation table. Consider these constraints: Section 16(4) time limit, vendor payment within 180 days rule, and auto-population in GSTR-3B Table 4.",
+      "tags": [
+        "gstr-2b",
+        "itc-reconciliation",
+        "purchase-register",
+        "tally",
+        "gst"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-005",
+      "title": "Indian Payroll Salary Sheet with Statutory Deductions",
+      "prompt": "Act as a payroll bookkeeper with 8 years experience processing salaries for Indian SMEs with 50-200 employees. I need you to prepare a monthly salary sheet template for a Chennai-based IT services firm (120 employees, offices in TN and Karnataka). Here is the context: salary structure includes Basic, HRA, Special Allowance, LTA, and Employer PF contribution. Deductions include Employee PF (12% on Basic capped at ₹15,000 for some, uncapped for others), ESI (0.75% employee, 3.25% employer on gross up to ₹21,000), Professional Tax (TN slab and Karnataka slab), TDS under 192, and voluntary deductions (advance, canteen). Please provide: (1) column structure of the salary sheet (Emp Code, Name, DOJ, PF No, UAN, ESI No, Basic, HRA, Gross, deductions, Net Pay), (2) formulae for each statutory component with the current thresholds, (3) state-wise PT slabs for TN and Karnataka, (4) TDS computation logic (projected annual, Old vs New regime), (5) rounding and loss-of-pay handling, (6) bank transfer file format for HDFC corporate net banking. Format as a table schema plus computation notes. Consider these constraints: EPFO Form 5/10/12A monthly return, ESIC challan due 15th, PT monthly for TN.",
+      "tags": [
+        "payroll",
+        "pf",
+        "esi",
+        "professional-tax",
+        "salary-sheet"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-006",
+      "title": "Accounts Receivable Aging Report in INR",
+      "prompt": "Act as an AR bookkeeper with 6 years experience managing receivables for Indian B2B wholesalers. I need you to prepare an accounts receivable aging report and collection action plan for a Delhi FMCG distributor (₹40 cr turnover, 85 active debtors, credit terms 30/45/60 days). Here is the context: receivables total ₹6.8 cr across retailers, modern trade, and e-commerce. Some accounts have disputed short-payments due to scheme claims, damaged stock, and TDS u/s 194Q deductions not reflected in books. Please provide: (1) aging bucket structure (0-30, 31-60, 61-90, 91-180, 180+ days), (2) party-wise summary with credit limit utilisation %, (3) top 10 overdue accounts with suggested action (reminder call, dunning letter, legal notice, stop supply), (4) provision for doubtful debts logic (1% on 90+, 50% on 180+, 100% on 1+ year), (5) 194Q TDS reconciliation with 26AS, (6) weekly collection target allocation to field sales, (7) dashboard KPIs (DSO, CEI, bad debt %). Format as a structured report with tables. Consider these constraints: MSME 45-day payment rule under Section 43B(h), Indian commercial practice of 2% cash discount for early payment, and festival-season credit extensions.",
+      "tags": [
+        "accounts-receivable",
+        "aging-report",
+        "dso",
+        "collections",
+        "msme"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-007",
+      "title": "Categorize Petty Cash and Office Expenses",
+      "prompt": "Act as a junior accountant with 3 years experience in Tally ERP 9 working under a CA firm. I need you to categorize 30 petty cash vouchers for a Jaipur trading proprietorship (monthly petty cash float ₹25,000). Here is the context: vouchers include tea/snacks for staff, Ola/Uber rides, courier (DTDC, Bluedart), printing and stationery, pooja expenses during Diwali, office repairs (plumber, electrician), newspaper subscription, mineral water, and employee reimbursement for client lunch. Please provide: (1) a standardized chart of accounts for petty cash under Indirect Expenses, (2) each voucher mapped to the correct ledger with amount, (3) GST treatment (most petty cash is from unregistered, so no ITC), (4) TDS applicability (only if single vendor crosses threshold), (5) supporting document requirement (bill, self-declaration for under ₹500), (6) cash payment limit under Section 40A(3) (₹10,000 per day per person), (7) month-end petty cash reconciliation format. Format as a posting sheet table. Consider these constraints: Income Tax Rule 6DD exceptions, proprietorship simplicity (no separate petty cashbook audit), and realistic narration style for a small office.",
+      "tags": [
+        "petty-cash",
+        "expense-categorization",
+        "tally",
+        "40a3",
+        "beginner"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-008",
+      "title": "Capex vs Revenue Expense Decision Guide",
+      "prompt": "Act as a bookkeeper with 7 years experience handling fixed asset accounting under Companies Act 2013 and Income Tax Act. I need you to build a decision guide to classify 20 borderline expenses as capital or revenue for a Hyderabad manufacturing Pvt Ltd. Here is the context: items include a ₹45,000 office chair, ₹1.2 lakh laptop, ₹8,000 RAM upgrade on existing laptop, ₹3 lakh factory floor repainting, ₹15 lakh new machinery foundation, AMC on DG set ₹60,000, ERP software licence ₹5 lakh, website redesign ₹2 lakh, ₹80,000 borewell deepening. Please provide: (1) classification for each item (Capex / Revenue / Deferred Revenue), (2) asset block under Income Tax (Plant & Machinery 15%, Computers 40%, Furniture 10%, Building 10%, Intangibles 25%), (3) depreciation under Companies Act Schedule II (useful life + SLM/WDV), (4) GST ITC eligibility and capital goods rule under Section 17, (5) Ind AS 16 componentization consideration, (6) journal entries for capitalization. Format as a table. Consider these constraints: ₹5,000 threshold historically used for immediate expensing (no longer mandatory), materiality by entity size, and the 180-day rule for half-year depreciation.",
+      "tags": [
+        "capex",
+        "depreciation",
+        "fixed-assets",
+        "schedule-ii",
+        "categorization"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-009",
+      "title": "Vendor Payment Run with TDS Deduction",
+      "prompt": "Act as an accounts payable executive with 5 years experience processing vendor payments in Zoho Books for Indian startups. I need you to prepare a weekly payment run for 18 vendor bills totalling ₹42 lakh for a Bengaluru D2C brand. Here is the context: vendors include a contract manufacturer (194C), a digital marketing agency (194J), office landlord (194I rent), a freelance photographer (194J), a logistics partner GTA (194C with RCM), and Amazon Seller Services (194-O already deducted by marketplace). Please provide: (1) bill-wise payable sheet (Vendor, GSTIN, Bill Amt, TDS Section, TDS Rate, TDS Amt, Net Payable), (2) TDS thresholds check, (3) verification of vendor bank details and IFSC, (4) beneficiary approval matrix (below ₹1 L maker, ₹1-5 L checker, above ₹5 L CFO), (5) HDFC corporate NetBanking bulk upload file format (CSV columns), (6) TDS challan 281 liability summary by section, (7) payment advice email template with UTR placeholder. Format as tables plus the email template. Consider these constraints: MSME 45-day rule prioritisation, 194Q buyer TDS on purchases above ₹50 L, and the ₹10,000 Section 40A(3) cash limit.",
+      "tags": [
+        "accounts-payable",
+        "vendor-payment",
+        "tds",
+        "zoho-books",
+        "payment-run"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-010",
+      "title": "Provisions and Prepaid Entries at Month End",
+      "prompt": "Act as a bookkeeper with 8 years experience in Indian SME accounting under accrual basis. I need you to prepare month-end provision and prepaid journal entries for a Mumbai trading Pvt Ltd (March 2026 close). Here is the context: recurring items include electricity bill (billed in next month), telephone/internet (Airtel, Jio), audit fees (accrued monthly), rent (paid in advance for the quarter), insurance premium (annual, paid in October), bank interest on CC (debited at month-end), employee bonus (provided monthly, paid at Diwali), and gratuity (actuarial). Please provide: (1) list of standard monthly provisions with estimated amounts and basis, (2) journal entries with Dr/Cr ledgers (Expense A/c Dr, Outstanding Expenses A/c Cr), (3) prepaid schedule showing opening, addition, amortisation, closing, (4) reversal logic in the next month (auto-reverse vs manual), (5) tax deductibility under Section 43B (only on payment basis for statutory dues), (6) Ind AS 37 recognition criteria for provisions vs contingent liabilities, (7) supporting working papers list. Format as a journal entry table plus a prepaid schedule. Consider these constraints: Section 43B(h) MSME payment, TDS on provision entries, and auditor documentation for subjective estimates.",
+      "tags": [
+        "provisions",
+        "prepaid",
+        "month-end-close",
+        "journal-entries",
+        "accruals"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-011",
+      "title": "Basic Sales Invoice Posting in Tally",
+      "prompt": "Act as a fresher bookkeeper with 1 year experience in Tally Prime handling a Surat textile wholesaler's daily entries. I need you to guide me through posting 15 sales invoices for the day with correct GST and ledger mapping. Here is the context: invoices are B2B with GSTIN captured, mix of intra-state (Gujarat buyers, CGST+SGST 5%) and inter-state (Maharashtra, Delhi buyers, IGST 5%), some with freight charged separately, some with discount. One invoice is B2C large (above ₹2.5 L) to an unregistered buyer in Rajasthan. Please provide: (1) voucher type selection (Sales) and invoice mode vs voucher mode, (2) ledger creation requirements (Sales A/c under Sales Accounts, IGST/CGST/SGST under Duties & Taxes), (3) party ledger setup (Sundry Debtors, state, GSTIN), (4) HSN code 5208 entry, (5) stock item linkage with UoM meters, (6) treatment of freight (composite vs mixed supply), (7) discount handling (trade discount reduces value, cash discount is expense), (8) e-invoice applicability check (turnover > ₹5 cr). Format as a step-by-step guide with sample voucher screenshot description. Consider these constraints: GSTR-1 Table 4/5/7 auto-mapping, and rounding in Tally using ledger rounding method.",
+      "tags": [
+        "tally-prime",
+        "sales-invoice",
+        "gst",
+        "hsn",
+        "beginner"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-012",
+      "title": "Credit Control and Dunning Letter Series",
+      "prompt": "Act as an AR manager with 10 years experience in credit control for Indian B2B firms. I need you to draft a 4-stage dunning letter series in English (with Hindi salutation option) for a Noida industrial supplies company. Here is the context: customer is a Faridabad auto-parts manufacturer with an overdue invoice of ₹4,75,000, credit terms Net 45, now 38 days past due. Previous relationship is 3 years, normally pays on time but last two invoices slipped. Please provide: (1) Stage 1 friendly reminder at 7 days overdue (email), (2) Stage 2 firm reminder at 21 days overdue with statement of account attached, (3) Stage 3 final notice at 45 days overdue threatening interest @18% p.a. and supply hold, (4) Stage 4 legal notice referral at 60 days overdue citing MSMED Act Section 15-16 and Negotiable Instruments Act if cheque bounced, (5) internal escalation note to sales team, (6) WhatsApp short reminder template (under 300 characters), (7) collection call script with objection handling. Format as ready-to-send email templates. Consider these constraints: Indian business etiquette (respectful tone, no aggressive language early), MSME 45-day statutory rule, and preservation of long-term relationship.",
+      "tags": [
+        "dunning-letter",
+        "credit-control",
+        "collections",
+        "msmed-act",
+        "templates"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-013",
+      "title": "Reconcile Razorpay Payout with Books",
+      "prompt": "Act as a bookkeeper with 5 years experience reconciling Indian payment gateway settlements. I need you to build a procedure to reconcile Razorpay daily settlements with sales booked in Zoho Books for a Bengaluru D2C skincare brand. Here is the context: Razorpay settles T+2 into an ICICI current account after deducting MDR (2% for cards, 0.9% for UPI above ₹2,000, 0% below), GST on MDR, and any refunds/chargebacks. Daily gross sales ₹8-12 lakh across 300+ orders. Some payments are auto-captured, some manual, some failed, some refunded next day. Please provide: (1) data extraction steps (Razorpay dashboard exports: Payments, Settlements, Refunds CSV), (2) mapping between order ID, payment ID, settlement ID, (3) journal template for daily settlement (Bank Dr, MDR Expense Dr, Input GST on MDR Dr, Refunds Dr, Sales Cr, Output GST Cr), (4) reconciliation items (in-transit payments, failed captures, pending refunds), (5) MDR vendor invoice treatment for ITC claim, (6) TCS under 194-O if applicable when Razorpay acts as operator, (7) daily reco report format. Format as procedure plus JE template. Consider these constraints: RBI settlement cycle, Razorpay invoice format for ITC, and matching against GSTR-1 B2C summary.",
+      "tags": [
+        "razorpay",
+        "payment-gateway",
+        "reconciliation",
+        "zoho-books",
+        "mdr"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-014",
+      "title": "Form 24Q TDS Return Working Sheet",
+      "prompt": "Act as a payroll bookkeeper with 7 years experience filing TDS returns for Indian SMEs. I need you to prepare a Q4 Form 24Q working sheet for a Pune Pvt Ltd with 80 employees. Here is the context: TDS under Section 192 was deducted monthly based on projected annual income. Q4 is the annual reconciliation quarter where actual investment proofs are considered. Employees have submitted proofs for 80C (LIC, PPF, ELSS, tuition fees), 80D (medical insurance), 80CCD(1B) (NPS ₹50k), HRA with landlord PAN (rent > ₹1 L p.a.), home loan interest under 24(b), and a few with Section 10(13A) computations across Mumbai and Pune. Please provide: (1) employee-wise annexure II structure (PAN, name, gross salary, exemptions, deductions, taxable income, tax liability, TDS deducted till Q3, TDS for Q4), (2) Old vs New regime comparison logic, (3) challan-wise payment details to map in Annexure I, (4) HRA exemption formula (least of three), (5) validation checks (PAN-Aadhaar link, TDS matched with 26Q/24Q cumulative), (6) common errors (PAN invalid, challan mismatch, short deduction interest u/s 201), (7) Form 16 Part B preparation inputs. Format as a working sheet schema plus validation checklist. Consider these constraints: Traces portal requirements, CPC processing, and late fee u/s 234E.",
+      "tags": [
+        "form-24q",
+        "tds-return",
+        "payroll",
+        "section-192",
+        "traces"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-015",
+      "title": "Inter-Company Reconciliation Between Group Entities",
+      "prompt": "Act as a group accounting bookkeeper with 9 years experience handling Indian corporate groups with 3-5 entities. I need you to design an inter-company reconciliation procedure for a Mumbai-headquartered group with a holding company, one manufacturing subsidiary in Gujarat, and one trading subsidiary in Karnataka. Here is the context: inter-company transactions include management fees (with GST and 194J TDS), loans from holding to subsidiaries (with interest per Section 186 and arm's length per 92BA), purchase of goods between subsidiaries with IGST, allocation of shared services (rent, IT), and dividend payment. At year-end the inter-company balances must match to zero for consolidation. Please provide: (1) ledger mapping: each entity must have mirror inter-co ledgers (IC-A/c-HoldCo, IC-A/c-MfgSub, IC-A/c-TradingSub), (2) monthly reco template showing each side's balance with timing differences, (3) common mismatch reasons (cut-off, GST treatment difference, FX on INR-INR absent but rounding), (4) inter-co invoice workflow with GST and e-invoice compliance, (5) specified domestic transaction disclosure in 3CEB if applicable, (6) consolidation elimination journal entry, (7) sign-off template by both entity accountants. Format as procedure with sample reco table. Consider these constraints: Section 188 related party approval, Ind AS 110 consolidation, and GST deemed supply between distinct persons.",
+      "tags": [
+        "inter-company",
+        "reconciliation",
+        "group-accounting",
+        "related-party",
+        "consolidation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-016",
+      "title": "Depreciation Schedule Under Companies Act",
+      "prompt": "Act as a bookkeeper with 6 years experience preparing fixed asset registers for Indian Pvt Ltd companies. I need you to build a FY2025-26 depreciation schedule under Companies Act Schedule II for a Chennai manufacturing company with 45 fixed assets. Here is the context: asset categories include factory building (30 years), plant & machinery general (15 years), computers (3 years), office equipment (5 years), furniture (10 years), electrical installations (10 years), and vehicles (8 years). Some assets were added mid-year (requiring pro-rata), some sold or scrapped, one revalued, and one impaired. Please provide: (1) FAR column structure (Asset Code, Description, Location, Date of Capitalization, Gross Block, Accumulated Dep Opening, Addition, Deletion, Dep for year, Accumulated Dep Closing, Net Block), (2) SLM computation formula with useful life from Schedule II, (3) pro-rata days calculation (actual days used), (4) treatment of assets costing under ₹5,000 (fully depreciated), (5) retirement/sale journal entry with profit or loss on sale, (6) reconciliation between Companies Act and Income Tax WDV block depreciation, (7) note for financials showing reconciliation of gross block. Format as a spreadsheet-ready table schema plus sample rows. Consider these constraints: componentisation for significant parts, residual value max 5%, and deferred tax on book-tax difference.",
+      "tags": [
+        "depreciation",
+        "fixed-assets",
+        "schedule-ii",
+        "far",
+        "companies-act"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-017",
+      "title": "Cash Book and Bank Book Entries Basics",
+      "prompt": "Act as a bookkeeping trainer with 12 years experience teaching Tally to freshers at a Kolkata coaching centre. I need you to create a tutorial for maintaining cash book and bank book in Tally Prime for a small kirana wholesaler. Here is the context: daily transactions include cash sales ₹35,000, cash purchases ₹12,000, bank deposit of cash ₹20,000, cheque received from debtor ₹50,000, cheque issued to creditor ₹30,000, bank charges ₹118, and proprietor's drawings ₹5,000. Please provide: (1) difference between single column, double column, triple column cash book concept, (2) voucher types in Tally (Contra for cash-to-bank, Receipt for inflows, Payment for outflows), (3) step-by-step posting of each transaction with Dr/Cr logic, (4) narration style examples, (5) contra voucher for cash deposit vs bank withdrawal, (6) daily closing cash balance check (physical count vs book), (7) bank book tallying with pass book, (8) Section 40A(3) ₹10,000 cash payment limit reminder. Format as a tutorial with numbered steps and a mini T-account example. Consider these constraints: fresher comprehension level, avoid jargon, use Bengali/Hindi-friendly English, and emphasise the importance of narration for audit trail.",
+      "tags": [
+        "cash-book",
+        "bank-book",
+        "tally-prime",
+        "beginner",
+        "voucher"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-018",
+      "title": "Expense Reimbursement Workflow for Employees",
+      "prompt": "Act as a bookkeeper with 5 years experience managing employee expense reimbursements in Indian startups. I need you to design an expense reimbursement policy and workflow for a Mumbai tech startup (80 employees, reimbursements via Zoho Expense). Here is the context: employees submit claims for client meeting meals, domestic travel (flight, train, Ola), hotel stays, internet top-up for WFH, coworking day pass, and training course fees. Some are corporate card transactions, some are personal out-of-pocket. Please provide: (1) expense categories and per-claim caps (e.g., client meal ₹1,500/person), (2) mandatory supporting documents (GST bill, boarding pass, hotel folio), (3) approval workflow (self, reporting manager, finance), (4) GST ITC eligibility rules (blocked for food u/s 17(5) unless mandatory, allowed for hotel within same state, hotel below ₹7,500/night), (5) TDS check for any vendor crossing threshold, (6) Zoho Expense to Zoho Books posting mapping, (7) reimbursement payment batch via HDFC NEFT, (8) FBT-style tax implications (most perquisite-style reimbursements are not taxable if business purpose). Format as a policy document plus workflow diagram description. Consider these constraints: Section 10(14) allowance vs reimbursement distinction, and avoidance of personal expenses.",
+      "tags": [
+        "expense-reimbursement",
+        "zoho-expense",
+        "policy",
+        "itc",
+        "workflow"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-019",
+      "title": "Busy Accounting Software Opening Balance Migration",
+      "prompt": "Act as a bookkeeper with 6 years experience migrating Indian SME books from Tally to Busy Accounting. I need you to create a step-by-step opening balance migration plan for an Ahmedabad textile trader switching software from 1 April 2026. Here is the context: the business has 350 ledger accounts, 180 stock items across 12 godowns, 60 debtors, 45 creditors, a CC account with ICICI Bank, and pending GST ITC of ₹6.8 lakh. Please provide: (1) pre-migration checklist (finalise FY25-26 books, reconcile all sub-ledgers, snapshot TB), (2) master data export from Tally (Groups, Ledgers, Stock, Units, GST details) and import format in Busy, (3) opening balance journal in Busy using Opening BS feature, (4) stock opening with item-wise qty, rate, value per FIFO/weighted average, (5) party-wise opening bills for debtors and creditors (to maintain bill-wise outstanding), (6) GST opening balance (Electronic Credit Ledger, Cash Ledger), (7) validation (trial balance match between old and new software to the rupee), (8) parallel run for one month. Format as a migration runbook. Consider these constraints: Busy's multi-godown and multi-currency quirks, GSTIN linkage carry-forward, and auditor requirement for data integrity certificate.",
+      "tags": [
+        "busy-accounting",
+        "migration",
+        "opening-balance",
+        "tally",
+        "data-migration"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-020",
+      "title": "RCM Self-Invoice and Payment Workflow",
+      "prompt": "Act as a GST bookkeeper with 6 years experience handling reverse charge in Indian Pvt Ltd books. I need you to build a workflow for reverse charge mechanism transactions for a Bengaluru logistics company. Here is the context: RCM applies on GTA freight (when GTA has not opted for FCM), legal fees from advocates, import of services (Google Ads, Meta Ads, AWS Singapore region), security services from unregistered agency, and sponsorship paid to unregistered event organisers. Monthly RCM liability averages ₹2.4 lakh. Please provide: (1) list of RCM notifications applicable (Notification 13/2017 for services), (2) self-invoice format under Rule 46 with all 16 mandatory fields including a unique self-invoice serial, (3) payment voucher under Rule 52 for cash payment to unregistered supplier, (4) journal entries (Expense Dr, RCM Input IGST Dr, RCM Output IGST Cr, Bank Cr), (5) cash payment of RCM liability (RCM cannot be paid via ITC), (6) next month ITC claim of the RCM paid, (7) GSTR-3B Table 3.1(d) and Table 4(A)(3) reporting, (8) foreign currency conversion at RBI reference rate for import of service. Format as procedure plus JE and self-invoice template. Consider these constraints: time of supply rules for RCM, 30-day invoice issue requirement, and audit trail.",
+      "tags": [
+        "rcm",
+        "reverse-charge",
+        "self-invoice",
+        "gst",
+        "import-of-service"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-021",
+      "title": "Simple Purchase Voucher Entry Guide",
+      "prompt": "Act as a Tally trainer with 8 years experience at a Pune accounting institute. I need you to write a beginner-friendly guide for entering purchase vouchers in Tally Prime for a stationery distributor. Here is the context: the student needs to post 5 purchase bills — one from a Delhi supplier (IGST 18%), one from a Pune supplier (CGST+SGST 18%), one with freight and packing charges, one with cash discount, and one of capital goods (printer ₹22,000). Please provide: (1) menu navigation (Gateway of Tally > Vouchers > F9 Purchase), (2) voucher mode vs invoice mode explanation, (3) ledger selection order (Party A/c Dr, Purchase A/c Cr conceptually flipped in Tally), (4) GST ledger auto-calculation tick, (5) stock item selection with quantity and rate, (6) additional charges posting (freight under Direct Expenses with GST), (7) discount handling (trade discount % field vs cash discount ledger), (8) capital goods booking under Fixed Assets group, (9) save and verify via Day Book. Format as a numbered walk-through with screenshot description. Consider these constraints: fresher-level language, common mistakes to avoid (wrong GST state, wrong rate), and GSTR-2 matching importance.",
+      "tags": [
+        "tally-prime",
+        "purchase-voucher",
+        "beginner",
+        "gst",
+        "tutorial"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-022",
+      "title": "ICICI Credit Card Statement to Expense Posting",
+      "prompt": "Act as a bookkeeper with 4 years experience posting corporate credit card expenses. I need you to convert an ICICI Business Credit Card statement (March 2026) into an expense voucher batch for a Delhi consulting firm. Here is the context: the monthly statement shows 42 transactions — Ola and Uber rides, Indigo flights, Taj Hotel stay, Zomato team lunch, AWS in USD, Google Workspace in USD, Amazon Business office supplies, LinkedIn Premium, and a fuel bill. Total outstanding ₹3,18,450. Please provide: (1) chart of accounts mapping for each merchant type, (2) GST ITC eligibility per transaction (blocked for food, eligible for hotel same state, for air travel economy class), (3) USD transactions converted at card billing rate with forex markup as bank charges, (4) TDS applicability (none since card is settled with bank, not directly with vendor), (5) Tally journal entry (Expenses Dr, Input GST Dr, ICICI Credit Card Payable Cr), (6) settlement entry when paid from HDFC current account, (7) month-end reconciliation of credit card liability ledger, (8) missing bill follow-up list for employees. Format as a mapped transaction table plus JE template. Consider these constraints: GST invoice in company name mandatory for ITC, foreign card spends need LRS disclosure if personal, and audit trail via original bills.",
+      "tags": [
+        "credit-card",
+        "icici",
+        "expense-posting",
+        "itc",
+        "reconciliation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-023",
+      "title": "PF and ESI Challan Preparation Procedure",
+      "prompt": "Act as a payroll bookkeeper with 7 years experience filing EPFO and ESIC returns for Indian SMEs. I need you to document the monthly PF and ESI challan preparation procedure for a Noida BPO with 150 employees. Here is the context: the company has EPFO and ESIC codes, salaries are processed on the last working day, and challans must be paid by the 15th of the next month. Some employees are excluded from PF (salary > ₹15k and opted out at joining), all with gross below ₹21k are ESI eligible. Please provide: (1) ECR (Electronic Challan cum Return) file preparation for PF with UAN-wise wages split into EPF Wages, EPS Wages (capped ₹15k), EDLI Wages, (2) employer contribution calculation (EPF 3.67%, EPS 8.33% capped, Admin 0.5%, EDLI 0.5%), (3) ESI contribution (employee 0.75%, employer 3.25% on gross up to ₹21k, cross the threshold mid-contribution-period rules), (4) upload to EPFO unified portal and ESIC portal, (5) challan generation and online payment via HDFC NetBanking, (6) posting entry in Tally (Salary Dr, PF Payable Cr, ESI Payable Cr), (7) late payment interest u/s 7Q and damages u/s 14B. Format as a step-by-step runbook. Consider these constraints: Supreme Court ruling on special allowance inclusion in PF wages, and ESIC contribution period Apr-Sep / Oct-Mar.",
+      "tags": [
+        "pf",
+        "esi",
+        "ecr",
+        "challan",
+        "payroll"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-024",
+      "title": "Bank Guarantee and Letter of Credit Accounting",
+      "prompt": "Act as a senior bookkeeper with 10 years experience in Indian manufacturing and trading accounts. I need you to document the accounting treatment for bank guarantees and letters of credit for a Chennai engineering company. Here is the context: the company has an ICICI BG of ₹50 lakh issued to a PSU customer as performance guarantee (margin ₹5 lakh FD pledged, commission 1.5% p.a.), and an HDFC usance LC of USD 2,00,000 opened for a Korean raw material import (margin 10%, LC commission ₹35,000, negotiation charges on acceptance). Please provide: (1) BG accounting at issue (contingent liability, no balance sheet impact, only disclosure), (2) margin money journal (Margin Money with Bank Dr, Bank Cr), (3) BG commission expense over tenure (prepaid → expense amortisation), (4) BG invocation accounting scenario, (5) LC at issue (contingent), (6) bill acceptance under LC (Creditor Dr, Bills Payable Cr), (7) FX revaluation on bills payable at month-end, (8) settlement on due date with FX gain/loss, (9) disclosure in notes to accounts under Ind AS 37. Format as a scenario walkthrough with journal entries at each stage. Consider these constraints: RBI A2 form for LC, GST on bank charges with ITC, and customs duty accounting on imported goods.",
+      "tags": [
+        "bank-guarantee",
+        "letter-of-credit",
+        "forex",
+        "contingent-liability",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-025",
+      "title": "Daily Sales Summary from Multiple Channels",
+      "prompt": "Act as a bookkeeper with 5 years experience handling omnichannel D2C brand accounts. I need you to consolidate daily sales from 6 channels into one journal entry for a Mumbai fashion brand. Here is the context: channels are own Shopify store (Razorpay settlement), Amazon.in (MTR report), Flipkart (commission report), Myntra (PPMP statement), Nykaa Fashion, and offline store at Phoenix Palladium (with Pine Labs POS). Each channel has different commission/fee structures, GST treatment, and settlement cycles. Please provide: (1) channel-wise data source (report name, frequency, file format), (2) gross sales, returns, commission, shipping, and net settlement per channel, (3) unified daily JE structure (Bank/Receivable Dr, Commission Expense Dr, Input GST on Commission Dr, Sales Cr, Output GST Cr, Shipping Cr), (4) TCS under Section 52 (1% by marketplace) tracking, (5) TDS under 194-O (0.1% by marketplace) tracking, (6) inventory relief entry (COGS Dr, Stock Cr) using avg cost, (7) reconciliation of channel AR balance to marketplace dashboard, (8) Ind AS 115 gross vs net revenue principal/agent evaluation. Format as procedure plus a consolidated JE template. Consider these constraints: GSTR-1 B2C reporting at state-of-buyer level, and commission invoice GSTIN for ITC.",
+      "tags": [
+        "d2c",
+        "marketplace",
+        "sales-consolidation",
+        "amazon",
+        "tcs-194o"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-026",
+      "title": "Outstanding Bills Follow-up Call Script",
+      "prompt": "Act as a collections executive with 6 years experience in Indian B2B AR. I need you to write a telephone follow-up script in English for calling a purchase head to recover an overdue bill. Here is the context: you represent a Mumbai packaging material supplier calling a Pune food processing customer regarding Invoice PKG/2025-26/0412 dated 10 Feb 2026 for ₹2,86,400, due date 27 Mar 2026, now 18 days overdue. Previous reminder email was sent 5 days ago with no response. The customer's accounts clerk said \"cheque is ready\" last week but nothing received. Please provide: (1) opening greeting and identification (respectful Hindi/English mix acceptable), (2) purpose statement without being aggressive, (3) verification of bill receipt and acceptance (any dispute, short supply, damage, GR copy missing), (4) handling 5 common objections: \"sir is out of station\", \"cheque in process\", \"funds tight, next week\", \"GR not received\", \"dispute in quantity\", (5) commitment closing with specific date and payment mode (NEFT preferred), (6) follow-up action note (set calendar reminder), (7) escalation trigger (if no commitment, escalate to sales manager). Format as a scripted dialogue with bracketed notes. Consider these constraints: preserve relationship, avoid legal threats in first call, and compliance with RBI fair collection practices.",
+      "tags": [
+        "collections",
+        "call-script",
+        "accounts-receivable",
+        "follow-up",
+        "b2b"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-027",
+      "title": "Chart of Accounts Setup for New Pvt Ltd",
+      "prompt": "Act as a bookkeeper with 8 years experience setting up books for newly incorporated Indian Pvt Ltd companies. I need you to design a chart of accounts for a newly incorporated Bengaluru SaaS Pvt Ltd using Zoho Books. Here is the context: the company has raised ₹3 cr seed funding, plans to hire 15 employees, will bill Indian customers with GST and US customers under LUT. Please provide: (1) account groups as per Schedule III of Companies Act (Equity, Non-Current Liabilities, Current Liabilities, Non-Current Assets, Current Assets, Revenue, Expenses), (2) sub-group structure under each (Share Capital, Reserves, Borrowings, Trade Payables, Statutory Dues, PPE, Intangibles, Investments, Trade Receivables, Cash & Bank), (3) ledger-level accounts (minimum 80 ledgers) covering typical SaaS P&L items (Hosting Costs, Tools Subscriptions, Customer Acquisition, R&D Salaries, G&A), (4) GST ledgers (Output CGST/SGST/IGST, Input ITC, RCM Payable, Electronic Cash/Credit Ledger), (5) TDS ledgers section-wise, (6) department/cost centre tagging, (7) import format for Zoho Books CSV. Format as a hierarchical COA list with account codes. Consider these constraints: XBRL tagging for MCA filing, Ind AS classification readiness, and SaaS metrics reporting (MRR, ARR).",
+      "tags": [
+        "chart-of-accounts",
+        "zoho-books",
+        "schedule-iii",
+        "saas",
+        "setup"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-028",
+      "title": "Stock Valuation and Closing Stock Entry",
+      "prompt": "Act as a bookkeeper with 7 years experience in Indian trading firm inventory accounting. I need you to prepare the closing stock valuation procedure for a Rajkot hardware wholesaler at 31 March 2026. Here is the context: the firm has 420 SKUs across 3 godowns, opening stock ₹1.2 cr, purchases ₹8.5 cr, sales ₹10.2 cr. Physical stock count was conducted on 31 March evening. Some items are slow-moving (over 180 days), some damaged, and some in transit (GR received, bill not accounted). Please provide: (1) physical count sheet format (SKU, Godown, UoM, Counted Qty, System Qty, Diff), (2) valuation method — weighted average vs FIFO — and formula, (3) Lower of Cost or NRV per AS 2 / Ind AS 2, (4) provision for slow-moving (10% on 90-180 days, 50% on 180-365, 100% above), (5) treatment of goods in transit (include if risk-rewards transferred), (6) excise-era carrying credits not applicable now but GST ITC on closing stock disclosure, (7) Tally closing stock JV entry, (8) variance investigation and adjustment JV (shortage to Stock Adjustment, excess to Other Income). Format as procedure plus entry templates. Consider these constraints: auditor observation on count attendance, Income Tax Section 145A inclusive method, and GST stock statement to banker for CC.",
+      "tags": [
+        "inventory",
+        "closing-stock",
+        "valuation",
+        "as-2",
+        "stock-count"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-029",
+      "title": "Form 16 Preparation Data Inputs",
+      "prompt": "Act as a payroll bookkeeper with 6 years experience issuing Form 16 to employees of Indian Pvt Ltd. I need you to prepare the data compilation working for Form 16 issue for FY2025-26 for a Hyderabad IT company with 60 employees. Here is the context: Form 16 Part A is auto-generated from TRACES after 24Q filing, but Part B is prepared by the employer from payroll data. Some employees joined mid-year, some left, some opted for New Regime, some for Old Regime. Please provide: (1) employee-wise annual salary summary (Gross Salary under Section 17(1), exemptions u/s 10, deductions u/s 16, taxable salary), (2) HRA exemption calculation per city (Hyderabad = non-metro 40%), (3) standard deduction ₹50,000 / ₹75,000 (New Regime FY25-26), (4) Chapter VI-A deductions (Old Regime only — 80C/80D/80CCD/80E), (5) tax computation under applicable regime, (6) previous employer salary inclusion (Form 12B), (7) relief u/s 89 for arrears, (8) TDS deducted and deposited challan-wise matching with 24Q Annexure II, (9) digital signature and Part A download from TRACES, (10) employee delivery checklist (email with password-protected PDF). Format as a working sheet schema. Consider these constraints: Section 203 due date 15 June, penalty for non-issue, and PAN-Aadhaar linkage check.",
+      "tags": [
+        "form-16",
+        "payroll",
+        "tds",
+        "part-b",
+        "annual"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-030",
+      "title": "Customer Master Data Cleanup Before Year-End",
+      "prompt": "Act as a bookkeeper with 5 years experience doing master data hygiene in Tally Prime. I need you to design a customer master cleanup procedure before year-end close for a Kolkata chemicals distributor (900 debtor ledgers, many inactive). Here is the context: the ledger list has grown over 10 years with duplicates (same party under two names), inactive customers (no transaction in 2 years), missing GSTIN/PAN, incorrect state tagging causing wrong GST in invoices, and some customers merged due to M&A. Please provide: (1) extraction of ledger list with last transaction date, total turnover, opening/closing balance, (2) duplicate detection logic (by PAN, by phone, by name fuzzy match), (3) inactive parties list for archival (not deletion — audit trail), (4) GSTIN validation via GST portal API or bulk tool, (5) state code correction procedure in Tally (ledger edit), (6) merge two ledgers workflow in Tally (via opening balance transfer), (7) write-off logic for small balances (below ₹100), (8) communication plan to customers for KYC refresh, (9) control report showing before/after counts. Format as a procedure with checklist. Consider these constraints: audit requirement for no deletion, GST e-invoice dependency on correct GSTIN, and Tally ledger alteration log.",
+      "tags": [
+        "master-data",
+        "tally",
+        "customer-ledger",
+        "cleanup",
+        "year-end"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-031",
+      "title": "Rent Payment with TDS and GST Treatment",
+      "prompt": "Act as a bookkeeper with 4 years experience posting rent entries for Indian corporate offices. I need you to document the correct accounting for monthly office rent payment for a Gurugram startup. Here is the context: the company rents office space at ₹3,50,000 per month plus 18% GST (registered landlord). The landlord is a Pvt Ltd so TDS u/s 194I at 10% applies on rent (not on GST portion). The lease also has a ₹10 lakh interest-free security deposit already paid. Additionally, the company separately rents a guest house at ₹75,000 per month from an individual (non-GST). Please provide: (1) monthly rent JE for office (Rent Dr, Input CGST/SGST Dr, TDS Payable 194I Cr, Landlord Cr, Bank Cr on payment), (2) TDS base — exclusive of GST per CBDT circular 23/2017, (3) threshold for 194I (₹2.4 lakh per annum), (4) guest house rent JE (individual landlord, 10% TDS, no GST, threshold check), (5) security deposit balance sheet presentation (Loans & Advances), (6) Ind AS 116 lease accounting (right-of-use asset, lease liability, depreciation and interest) if lease term > 12 months, (7) GST ITC eligibility on office rent (eligible), (8) quarterly 26Q TDS return. Format as JE templates plus notes. Consider these constraints: PAN of landlord mandatory else 20% TDS, and lease registration stamp duty.",
+      "tags": [
+        "rent",
+        "tds-194i",
+        "gst",
+        "lease-accounting",
+        "ind-as-116"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-032",
+      "title": "Cash Flow Statement Indirect Method Working",
+      "prompt": "Act as a bookkeeper with 8 years experience preparing financial statements for Indian Pvt Ltd. I need you to build a cash flow statement working (indirect method) for a Pune engineering company for FY2025-26. Here is the context: the company has PAT ₹1.85 cr, depreciation ₹62 lakh, interest expense ₹28 lakh, tax expense ₹65 lakh, and working capital movements (debtors up ₹45 lakh, inventory up ₹30 lakh, creditors up ₹22 lakh). Investing activities include purchase of machinery ₹1.2 cr and sale of old vehicle ₹4 lakh. Financing includes term loan availment ₹80 lakh, repayment ₹35 lakh, dividend paid ₹20 lakh. Please provide: (1) full cash flow statement structure as per AS 3 / Ind AS 7 indirect method, (2) reconciliation starting from PBT to Operating Profit before WC changes (add back non-cash and non-operating items), (3) working capital movement calculation from BS deltas, (4) income tax paid adjustment (P&L expense vs actual payment to govt), (5) interest paid classification (financing for corporates, operating for financial institutions), (6) investing section with gross purchase and sale proceeds, (7) financing section, (8) closing cash and cash equivalents reconciliation with BS, (9) supplementary non-cash disclosures. Format as a full statement plus working notes. Consider these constraints: Schedule III Division II format, and dividend classification choice.",
+      "tags": [
+        "cash-flow-statement",
+        "as-3",
+        "indirect-method",
+        "financials",
+        "year-end"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-033",
+      "title": "AP Aging and Vendor Payment Prioritisation",
+      "prompt": "Act as an AP manager with 7 years experience managing supplier payments for Indian SMEs. I need you to prepare an accounts payable aging and payment prioritisation plan for a Coimbatore textile mill facing a temporary cash crunch. Here is the context: total payables ₹4.2 cr across 120 vendors. Cash available this week ₹65 lakh. Vendor categories include MSMEs (protected under Section 43B(h) — must pay within 45 days else expense is disallowed), critical raw material suppliers (stopping supply will halt production), utilities (TNEB electricity, cannot delay beyond disconnection notice), statutory dues (GST, TDS, PF, ESI), salaries, and non-critical vendors. Please provide: (1) aging bucket summary (0-30, 31-45, 46-60, 60+), (2) MSME flag identification from Udyam certificates, (3) prioritisation matrix (Rank 1 statutory, Rank 2 MSME approaching 45 days, Rank 3 critical supply, Rank 4 utilities, Rank 5 others), (4) ₹65 lakh allocation by rank, (5) vendor communication for delayed ones (negotiated part-payment, revised schedule), (6) 43B(h) financial impact calculation for any MSME paid beyond 45 days, (7) weekly payment calendar for next 4 weeks, (8) CFO decision memo. Format as aging table + prioritisation + memo. Consider these constraints: no bounce of PF/ESI/TDS challans, and maintaining supply continuity.",
+      "tags": [
+        "accounts-payable",
+        "aging",
+        "msme",
+        "section-43b",
+        "cash-management"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-034",
+      "title": "Journal Voucher Basics and Narration Style",
+      "prompt": "Act as a Tally trainer with 10 years experience coaching commerce graduates in Lucknow. I need you to write a fresher tutorial explaining journal vouchers in Tally Prime with 10 real examples. Here is the context: students struggle with when to use Journal vs Payment/Receipt/Contra vouchers, and writing professional narrations. Please provide: (1) definition and use case of Journal Voucher (F7) — adjustments, provisions, depreciation, year-end entries, (2) difference from Payment/Receipt (which involve cash/bank), (3) 10 example journal entries with full Dr/Cr treatment and narration: (a) depreciation on furniture, (b) provision for audit fees, (c) prepaid insurance adjustment, (d) bad debt written off, (e) proprietor drawings via journal, (f) interest accrued on FD, (g) TDS deducted on professional fees, (h) outstanding salary, (i) income tax provision, (j) rectification of wrong ledger, (4) narration rules (who, what, why, reference doc, amount not needed), (5) examples of poor vs good narration, (6) audit trail requirement under Companies (Accounts) Rules 2014, (7) edit log verification. Format as a tutorial with numbered examples in JE format. Consider these constraints: fresher level language, Tally voucher screen references, and Hindi-comfortable English.",
+      "tags": [
+        "journal-voucher",
+        "tally-prime",
+        "narration",
+        "beginner",
+        "tutorial"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-035",
+      "title": "Director Remuneration and Sitting Fees Accounting",
+      "prompt": "Act as a bookkeeper with 6 years experience handling director-related accounting for Indian Pvt Ltd. I need you to document the accounting for director remuneration, sitting fees, and reimbursements for a Mumbai Pvt Ltd with 2 executive directors and 2 independent directors. Here is the context: executive directors get monthly salary (Basic + HRA + Allowances ₹3,50,000 each) with PF and TDS u/s 192. Independent directors get sitting fees ₹50,000 per board meeting (4 meetings a year) plus travel reimbursement. Please provide: (1) executive director salary JE (like employee payroll, Section 192 TDS), (2) independent director sitting fees JE — Section 194J TDS at 10%, GST under RCM if director is not registered, Section 17(3) CGST Notification 13/2017 reverse charge on non-executive director services, (3) self-invoice under Rule 46 for director services under RCM, (4) travel reimbursement treatment (not taxable as perquisite, pure reimbursement), (5) Schedule V Companies Act overall managerial remuneration cap (11% of net profit), (6) DIN and KYC documentation, (7) disclosure in financial statements under Section 197 and AOC-2 if applicable, (8) Board resolution reference in narration. Format as JE templates with explanatory notes. Consider these constraints: Section 188 related party, Schedule V approval for loss-making companies.",
+      "tags": [
+        "director-remuneration",
+        "sitting-fees",
+        "rcm",
+        "194j",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-036",
+      "title": "Simple Receipt Voucher for Customer Payment",
+      "prompt": "Act as a bookkeeping tutor with 6 years experience helping new accountants in Indore. I need you to write a beginner walkthrough for posting customer receipt vouchers in Tally Prime for a stationery trader. Here is the context: the trader received ₹1,85,000 today from three customers — Shree Ram Traders ₹50,000 by cheque (HDFC), Ganesh Book House ₹60,000 via NEFT to ICICI, and Sharma Stationers ₹75,000 in cash. All three are against specific outstanding bills from last month. Please provide: (1) Tally menu path (Gateway > Vouchers > F6 Receipt), (2) Account entry (HDFC Bank Dr or Cash Dr) and Particulars (Party Ledger Cr), (3) bill-wise allocation against the original invoices (Agst Ref vs On Account vs New Ref vs Advance), (4) mode of receipt tagging (cheque no, UTR, cash denomination note), (5) narration template for each receipt, (6) TDS on customer receipts if any (194Q buyer TDS check — not applicable here as purchases small), (7) verification steps (day book, outstanding statement should reduce), (8) common mistakes (posting to wrong bank, missing bill-wise, wrong date). Format as a step-by-step walkthrough with 3 worked examples. Consider these constraints: Indian banking practice of cheque clearing dates, and the ₹2 lakh cash receipt limit u/s 269ST.",
+      "tags": [
+        "receipt-voucher",
+        "tally-prime",
+        "bill-wise",
+        "beginner",
+        "customer-payment"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-037",
+      "title": "Professional Tax State-wise Compliance",
+      "prompt": "Act as a payroll bookkeeper with 7 years experience handling multi-state Indian payroll. I need you to prepare a state-wise Professional Tax compliance calendar for a Bengaluru SaaS company with employees working from Karnataka, Maharashtra, Tamil Nadu, West Bengal, and Telangana. Here is the context: PT is a state tax levied on salaries, with different slabs, rates, return frequency, and payment due dates per state. The company has registered under each state PT Act where it has employees. Please provide: (1) PT slab and max amount for each state (Karnataka ₹200/month above ₹15k, Maharashtra ₹200 + ₹300 Feb, Tamil Nadu half-yearly slab, West Bengal monthly, Telangana ₹200), (2) employer enrollment certificate and employee registration certificate requirement, (3) payment due date and return frequency per state (monthly/quarterly/half-yearly/annual), (4) payroll deduction entry JE, (5) challan payment workflow per state portal (Karnataka e-PT, Maharashtra Mahagst, TN commercial tax), (6) late payment interest and penalty per state, (7) consolidated PT tracker format, (8) WFH employee state determination logic. Format as a state-wise table plus JE template. Consider these constraints: 16th Finance Commission updates, and maximum ₹2,500 p.a. constitutional cap under Article 276.",
+      "tags": [
+        "professional-tax",
+        "payroll",
+        "multi-state",
+        "compliance",
+        "pt"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-038",
+      "title": "Purchase Return and Debit Note Entry",
+      "prompt": "Act as a bookkeeper with 3 years experience in Tally ERP 9. I need you to walk me through posting a purchase return for a Kanpur leather goods trader. Here is the context: the trader received 100 leather wallets at ₹450 each + 18% GST from a Delhi supplier (IGST applicable), total invoice ₹53,100. On inspection, 20 pieces were defective and returned. The supplier agreed to a debit note of ₹10,620 (20 × ₹450 + 18% IGST). Please provide: (1) voucher type — Debit Note (Ctrl+F9), (2) whether to use voucher mode or invoice mode, (3) ledger selection (Supplier Dr, Purchase Returns Cr or Purchase A/c Cr contra, IGST contra), (4) stock item quantity reduction, (5) link to original purchase bill (Agst Ref), (6) GST reporting — debit note issued BY supplier but for us it is a Credit Note RECEIVED (common confusion — sort out terminology), (7) impact on GSTR-2B in the month supplier files their CDNR, (8) ITC reversal timing (when credit note is reflected), (9) common error — posting to Sales Returns instead of Purchase Returns. Format as step-by-step with Tally voucher layout. Consider these constraints: Section 34 time limit for credit/debit notes (earlier of Sep of next FY or annual return), and GSTR-1 Table 9B reporting.",
+      "tags": [
+        "purchase-return",
+        "debit-note",
+        "tally",
+        "gst",
+        "beginner"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-039",
+      "title": "Loan Account and EMI Bifurcation",
+      "prompt": "Act as a bookkeeper with 5 years experience handling term loan accounting for Indian SMEs. I need you to document how to post monthly EMI of a business term loan for a Vadodara chemical unit. Here is the context: the company took a ₹1 cr term loan from HDFC Bank at 10.5% p.a. for 5 years with EMI of ₹2,14,939. The EMI is auto-debited on the 5th of every month. The bank sends a monthly statement showing principal and interest bifurcation. The loan is secured against plant & machinery with a processing fee of ₹1 lakh + GST paid upfront. Please provide: (1) loan disbursement JE (Bank Dr, HDFC Term Loan Cr), (2) processing fee treatment — Ind AS 109 amortised cost using EIR method (spreads fee over loan tenure) vs simple expense at start, (3) monthly EMI JE (HDFC Term Loan Dr for principal, Interest on Term Loan Dr for interest, Bank Cr for total), (4) how to get bifurcation from bank statement vs amortisation schedule, (5) year-end interest accrual for any unpaid days, (6) classification of loan into Current (next 12 months principal) and Non-Current portion for BS, (7) TDS on interest (not applicable for bank loans u/s 194A exception), (8) Schedule III disclosure of secured borrowings. Format as a 12-month amortisation table sample plus monthly JE template. Consider these constraints: Ind AS 109 EIR, and prepayment accounting.",
+      "tags": [
+        "term-loan",
+        "emi",
+        "ind-as-109",
+        "amortisation",
+        "interest"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    },
+    {
+      "id": "finance-bookkeepers-040",
+      "title": "Year-End Books Finalisation Handover Pack",
+      "prompt": "Act as a senior bookkeeper with 12 years experience handing over books to statutory auditors. I need you to prepare a year-end finalisation handover pack for the auditor of a Chennai trading Pvt Ltd (turnover ₹22 cr, FY2025-26). Here is the context: the company is audited by a mid-size CA firm and needs a clean file with all reconciliations and working papers ready before the audit kick-off on 15 May 2026. Please provide: (1) master index of the audit file (each section numbered), (2) final trial balance with prior year comparison, (3) ledger scrutiny notes for unusual items, (4) all reconciliations — bank (with BRS for all accounts), GSTR-2B vs purchase, GSTR-1 vs sales, 26AS vs TDS receivable, 26AS vs TDS payable, (5) debtor confirmations (top 10) and creditor confirmations (top 10), (6) fixed asset register with additions, deletions, depreciation working, (7) inventory list with valuation and NRV check, (8) statutory dues payment proofs (GST, TDS, PF, ESI, PT), (9) related party transactions summary with Section 188 compliance, (10) contingent liabilities list, (11) MSME vendor list with 43B(h) payment compliance, (12) Schedule III draft financials, (13) management representation letter draft. Format as an indexed checklist with document owner and status. Consider these constraints: CARO 2020 reporting requirements, and auditor independence in document sharing.",
+      "tags": [
+        "year-end",
+        "audit-handover",
+        "finalisation",
+        "caro",
+        "reconciliation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "bookkeepers"
+    }
+  ]
+}

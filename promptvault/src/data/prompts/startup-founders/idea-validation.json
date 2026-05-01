@@ -1,0 +1,647 @@
+{
+  "category": "startup-founders",
+  "subcategory": "idea-validation",
+  "count": 40,
+  "prompts": [
+    {
+      "id": "startup-founders-idea-validation-001",
+      "title": "Indian TAM SAM SOM Market Sizing Analysis",
+      "prompt": "Act as a market research analyst with 10 years of experience evaluating Indian startup opportunities for VCs like Peak XV (formerly Sequoia India) and Accel India. I need you to build a TAM-SAM-SOM analysis for my startup idea. Here is the context: I am building [DESCRIBE PRODUCT] targeting [CUSTOMER SEGMENT] in India. My pricing is approximately [INR PRICE POINT]. Please provide: (1) Total Addressable Market in INR crores using bottom-up calculation with verifiable Indian data sources (RBI, MOSPI, IBEF, Statista India, NASSCOM reports), (2) Serviceable Addressable Market filtered for English-speaking, smartphone-penetrated, UPI-enabled India (Tier 1, Tier 2, Tier 3 split), (3) Serviceable Obtainable Market for Year 1, Year 3, Year 5 with realistic capture assumptions, (4) Comparable benchmarks from CRED, Razorpay, Meesho, or Khatabook at similar stages, (5) Demographic and geographic segmentation with Bengaluru/Mumbai/Delhi-NCR/Hyderabad concentration data, (6) Risks that could shrink SAM (e.g., regulatory shifts, RBI guidelines, GST classification). Format as a structured report with calculation tables, citations, and a one-paragraph investor pitch summary. Include sensitivity analysis at +/- 20% on key assumptions. Constraints: Use only verifiable Indian sources, INR currency throughout, distinguish Bharat vs India consumption patterns.",
+      "tags": [
+        "market-research",
+        "tam-sam-som",
+        "investor-ready"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-002",
+      "title": "Hinglish Customer Discovery Interview Script",
+      "prompt": "Act as a customer development coach trained in The Mom Test methodology with 8 years of experience conducting user interviews across Indian Tier 1, Tier 2, and Tier 3 cities. I need you to design a 30-minute customer discovery interview script for validating my startup hypothesis. Here is the context: I am exploring whether [PROBLEM STATEMENT] is a real, painful, frequent problem for [TARGET PERSONA - e.g., Kirana store owners in Indore, D2C founders in Jaipur, gig workers in Bengaluru]. Please provide: (1) 15 open-ended Hinglish-friendly questions that avoid leading the witness, organized into Past Behavior, Current Workflow, and Workarounds sections, (2) Specific Hindi/Hinglish phrasings for sensitive topics like income, pricing willingness, and family decision-making, (3) A warm-up script respecting Indian conversational norms (e.g., asking about location, work, family before business questions), (4) Red-flag answers that indicate the interviewee is being polite rather than honest (a common Indian challenge), (5) Follow-up probes for vague answers like \"haan, problem to hai\", (6) Closing questions to get referrals to 3 more interviewees, (7) A note-taking template capturing quotes, emotions, and workarounds. Format as a printable interview guide with timing per section. Constraints: Avoid yes/no questions, never pitch the solution, focus on past behavior over hypothetical future intent.",
+      "tags": [
+        "customer-interview",
+        "the-mom-test",
+        "hinglish"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-003",
+      "title": "Indian Competitor Landscape Deep Dive",
+      "prompt": "Act as a competitive intelligence analyst with 12 years of experience tracking Indian startups for investors and corporate strategy teams. I need you to map the competitive landscape for my startup idea. Here is the context: I am building [PRODUCT] for [MARKET SEGMENT] in India, with primary differentiation around [DIFFERENTIATOR]. Please provide: (1) A list of 10-15 direct and indirect competitors spanning Indian-origin startups (Tracxn, Inc42, YourStory listed), global players entering India, and unorganized incumbents, (2) For each: founding year, total funding in INR crores, last round and lead investor (Peak XV, Accel, Lightspeed, Matrix, Blume, etc.), HQ city, employee count from LinkedIn, monthly traffic from SimilarWeb, (3) Pricing models in INR with freemium thresholds, (4) Strengths/weaknesses on a 2x2 matrix of Bharat-readiness vs feature depth, (5) Identified white spaces unaddressed by current players, (6) Acquisition or shutdown risk signals (down-rounds, layoffs reported in Moneycontrol/ET), (7) Likely M&A acquirers among Indian unicorns. Format as a comparison table plus a strategic narrative. Constraints: Cite Tracxn, Inc42, Crunchbase India where possible, distinguish between Series A Indian startups and bootstrapped competitors, flag any government-backed alternatives like ONDC sellers.",
+      "tags": [
+        "competitor-analysis",
+        "competitive-intelligence",
+        "market-mapping"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-004",
+      "title": "Lean Canvas for Indian Startup",
+      "prompt": "Act as a Lean Startup coach who has mentored 200+ Indian founders through Antler, 100X.VC, and Sequoia Surge cohorts. I need you to construct a complete Lean Canvas for my startup idea. Here is the context: My idea is [DESCRIBE]. Target customer is [SEGMENT in India]. I am at [PRE-PRODUCT/MVP/POST-LAUNCH] stage. Please provide all 9 Lean Canvas blocks with India-specific specificity: (1) Problem - top 3 problems with frequency data and existing alternatives Indians currently use (e.g., WhatsApp groups, Excel, agents, manual paperwork), (2) Customer Segments - early adopters defined precisely with city, age, income bracket in INR LPA, occupation, (3) Unique Value Proposition - one-liner plus high-concept pitch (\"X for Y\" format), (4) Solution - top 3 features only, (5) Channels - free and paid channels appropriate for Indian audience (WhatsApp, Instagram Reels, regional YouTube, ONDC, college campuses, BNI groups), (6) Revenue Streams in INR with realistic Indian willingness-to-pay, (7) Cost Structure including AWS/Razorpay/SMS/cloud telephony costs in INR, (8) Key Metrics aligned to AARRR for Indian context, (9) Unfair Advantage. Format as a filled canvas plus a 200-word narrative explanation. Constraints: Be ruthless about early adopters, avoid \"everyone in India\" answers, anchor in INR.",
+      "tags": [
+        "lean-canvas",
+        "business-model",
+        "lean-startup"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-005",
+      "title": "MVP Feature Prioritization for Indian B2B SaaS",
+      "prompt": "Act as a product manager with 10 years of experience launching B2B SaaS MVPs for Indian SMBs at companies like Zoho, Freshworks, and Khatabook. I need you to scope a true Minimum Viable Product. Here is the context: I am building [PRODUCT DESCRIPTION] for Indian SMBs in [INDUSTRY - e.g., textile traders in Surat, restaurants in Bengaluru, CA firms in Mumbai]. My target ARR for Year 1 is [INR X CRORE]. Please provide: (1) A prioritized backlog of 25 features scored using RICE (Reach, Impact, Confidence, Effort) tailored to Indian SMB usage patterns, (2) The MUST-HAVE 5-7 features that constitute the V1 MVP, (3) Features deliberately cut from MVP with rationale, (4) Indian Stack integrations to include or defer (UPI Autopay, GST API via Cleartax/Masters India, DigiLocker, eKYC via Aadhaar, ONDC connector, WhatsApp Business API), (5) Multilingual readiness - whether to support Hindi/regional languages at MVP or later, (6) A 12-week build roadmap with milestones, (7) Success criteria for graduating from MVP to V2 (activation rate, paid conversion, NPS thresholds). Format as a feature matrix table plus roadmap Gantt. Constraints: Indian SMBs are price-sensitive and WhatsApp-first, factor in offline reliability for Tier 2/3 connectivity.",
+      "tags": [
+        "mvp-scoping",
+        "product-management",
+        "b2b-saas"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-006",
+      "title": "Problem-Solution Fit Validation Plan",
+      "prompt": "Act as a Y Combinator-style startup advisor who has reviewed 500+ Indian applications and coached founders through Surge and Z Nation Lab. I need you to design a 4-week problem-solution fit validation sprint. Here is the context: My hypothesis is [PROBLEM] is faced by [PERSONA] and they would pay [INR PRICE] for [SOLUTION]. Please provide: (1) Week-by-week plan with daily tasks, (2) Specific quantitative validation gates - minimum 30 problem interviews, 10 paid LOIs in INR, 3 design partner agreements, (3) Falsifiable hypotheses written as \"We believe X. We will know we are wrong if Y happens by Z date\", (4) Channel tests for finding interviewees (LinkedIn outreach templates in Hinglish, IndiaMART scraping, college alumni networks, community Slacks like Tribe by Razorpay, NSRCEL, Headstart), (5) A landing page test plan with copy variations and target CTR/conversion benchmarks for Indian audiences, (6) WhatsApp pilot group structure with 50 Bharat-target users, (7) Decision tree at the end: pivot, persevere, or kill. Format as a project plan with milestones and a risk log. Constraints: Indian founders often confuse politeness for validation - include explicit anti-bias mechanisms, require cash collection or signed LOIs, not verbal interest.",
+      "tags": [
+        "problem-solution-fit",
+        "validation-sprint",
+        "yc-style"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-007",
+      "title": "Pricing Discovery Interview Framework",
+      "prompt": "Act as a pricing strategist who has set pricing for SaaS and consumer products at Razorpay, Zerodha, and Lenskart. I need you to design a pricing discovery research plan for the Indian market. Here is the context: My product is [DESCRIPTION] solving [PROBLEM] for [SEGMENT]. I am unsure whether to price at INR 99/month, INR 499/month, or INR 4,999/month. Please provide: (1) Van Westendorp Price Sensitivity Meter survey questions adapted to Hinglish, (2) Gabor-Granger pricing test methodology with INR price ladder, (3) 12 qualitative interview questions exploring willingness-to-pay, payment cadence preferences (monthly vs annual), and budget authority within Indian SMBs, (4) UPI vs card vs net banking vs invoice-based payment preferences by segment, (5) Anchoring strategies given Indian price sensitivity and \"discount expectation\" culture, (6) Free trial vs freemium vs paid pilot recommendations with rationale, (7) GST inclusive vs exclusive display considerations, (8) A go/no-go decision matrix for each price point based on response data. Format as a research playbook with sample size targets (n=50 quantitative, n=15 qualitative) and timeline. Constraints: Indian buyers negotiate by default, account for tier-based pricing, address whether the buyer is the user or a different stakeholder (HR, finance, founder).",
+      "tags": [
+        "customer-interview",
+        "pricing-research",
+        "willingness-to-pay"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-008",
+      "title": "Indian Stack Enabler Opportunity Analysis",
+      "prompt": "Act as a fintech and digital infrastructure analyst who has worked at NPCI, iSPIRT, and a Peak XV portfolio company. I need you to analyze how India Stack can be a competitive moat for my startup idea. Here is the context: My startup [DESCRIPTION] serves [SEGMENT]. Please provide: (1) Mapping of which India Stack layers apply: Aadhaar eKYC, UPI/UPI Autopay, DigiLocker, Account Aggregator (AA), ONDC, OCEN, GSTN, eSign, FASTag, Cowin/ABDM if relevant, (2) Specific use cases per layer with cost savings in INR vs traditional methods (e.g., eKYC at INR 5 vs in-person KYC at INR 200), (3) Regulatory considerations - RBI master directions, SEBI sandbox, MeitY guidelines, DPDP Act 2023 compliance, (4) Implementation complexity and partner ecosystem (Setu, Sahamati, Signzy, Karza, Digio), (5) Comparable case studies of Indian unicorns leveraging India Stack (PhonePe on UPI, CRED on AA, Khatabook on UPI), (6) Moat strength: is India Stack a true differentiator or table stakes for your category, (7) Risks of overdependence on government infrastructure. Format as a strategic memo with an India Stack architecture diagram described in text. Constraints: Cite RBI, NPCI, MeitY guidelines accurately, distinguish between regulated entities and aggregator licenses required.",
+      "tags": [
+        "market-research",
+        "india-stack",
+        "competitive-moat"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-009",
+      "title": "Bharat vs India Customer Segmentation",
+      "prompt": "Act as a consumer insights researcher who has led ethnographic studies for Meesho, ShareChat, and Dream11 in Tier 2/3/4 India. I need you to segment my potential customers along the Bharat vs India axis. Here is the context: My product [DESCRIPTION] could serve both English-speaking metro users and vernacular-speaking smaller-town users. Please provide: (1) Detailed personas - 3 India personas (English-speaking, INR 12-50 LPA, metro) and 3 Bharat personas (vernacular-first, INR 2-8 LPA household, Tier 2/3 cities), (2) Behavioral differences in app usage, payment preferences, trust signals, sharing patterns, (3) Acquisition channels per segment - Bharat skews WhatsApp forwards, Josh, Moj, ShareChat, regional YouTube while India skews Instagram, LinkedIn, Twitter, (4) Product implications: vertical scrolling, voice input, regional language, offline mode, lower data consumption, (5) Pricing tolerance per segment with examples from Hotstar Mobile vs Premium, Flipkart vs Meesho, (6) Recommendation: which segment to start with and rationale, (7) Sequencing plan to expand from one to the other. Format as a persona deck with side-by-side comparison tables. Constraints: Avoid stereotypes, ground in data from KANTAR, RedSeer, Bain India consumer reports.",
+      "tags": [
+        "market-research",
+        "bharat-india",
+        "customer-segmentation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-010",
+      "title": "First 100 Customer Acquisition Plan",
+      "prompt": "Act as a growth marketer who acquired the first 1,000 customers for an Indian D2C or SaaS brand (think Mamaearth, BoAt, Wakefit early days). I need you to plan how to get my first 100 paying customers. Here is the context: My product [DESCRIPTION] targets [SEGMENT in India] at [INR PRICE]. I have INR [BUDGET] in CAC budget. Please provide: (1) 10 unscalable channels in priority order with effort/return matrix - cold WhatsApp, founder LinkedIn DMs, IRL events at WeWork/91springboard, Reddit r/IndiaInvestments or r/IndianStartups, ProductHunt India launches, micro-influencer barter on Instagram Reels, (2) Cold outreach templates in Hinglish/English, (3) Friends-and-family seeding tactics ethical for India, (4) Founder content strategy on LinkedIn, X, and YouTube Shorts, (5) Community-led growth via Slack/Discord/Telegram with examples (Tribe, Microsaas Hub, IndieHackers India), (6) CAC ceiling per channel in INR and tracking sheet template, (7) When to graduate from manual to paid (Meta, Google, ONDC), (8) A weekly experiment cadence for 12 weeks. Format as a playbook with weekly OKRs. Constraints: Bootstrapped budget mindset, Indian customers need trust before purchase, leverage UPI for friction-less collection.",
+      "tags": [
+        "customer-interview",
+        "go-to-market",
+        "early-traction"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-011",
+      "title": "MVP Build vs Buy vs No-Code Decision",
+      "prompt": "Act as a technical co-founder advisor who has shipped 20+ MVPs for Indian startups using both code and no-code stacks. I need you to recommend the fastest, cheapest path to MVP. Here is the context: My idea is [DESCRIPTION], target users are [SEGMENT], expected MVP usage is [VOLUME] in first 90 days, my technical capability is [LEVEL]. My MVP budget is INR [AMOUNT]. Please provide: (1) Three architecture options - full code (React/Node/Postgres on AWS Mumbai), no-code (Bubble/Glide/Softr + Airtable + Zapier + Razorpay), hybrid (Webflow front + Supabase + custom API), (2) Cost in INR for each over 6 months including AWS Mumbai hosting, Razorpay fees, MSG91/Twilio India SMS, (3) Build time estimate, (4) Indian compliance requirements: data localization (RBI for fintech), DPDP Act 2023 PII handling, (5) Ceiling at which each stack breaks (e.g., no-code breaks at 10k users), (6) Hiring vs freelancer marketplaces: Toptal vs Outdefine vs Upwork vs Indian agencies, indicative INR rates, (7) Recommendation with rationale. Format as a decision matrix and a 30-60-90 day build plan. Constraints: Indian payment gateway integration is non-negotiable, factor GST invoicing, plan for monsoon-season connectivity issues if rural-facing.",
+      "tags": [
+        "mvp-scoping",
+        "tech-stack",
+        "build-vs-buy"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-012",
+      "title": "Investor-Ready Validation Memo",
+      "prompt": "Act as a former associate at Peak XV, Accel India, or Blume Ventures who has reviewed 2,000+ pre-seed memos. I need you to draft a 5-page validation memo summarizing my pre-seed thesis. Here is the context: I have completed [N] interviews, [N] LOIs worth INR [VALUE], built [WHAT], and learned [KEY INSIGHTS]. Please provide: (1) Executive summary - one paragraph, problem, solution, traction, ask in INR, (2) Problem section with quantified pain in INR lost or hours wasted by Indian customers, (3) Solution and product walkthrough, (4) Market sizing TAM/SAM/SOM in INR crores, (5) Competitive landscape with positioning vs Indian + global players, (6) Traction - validation interviews, LOIs, pilot revenue, retention, (7) Business model and unit economics in INR (CAC, LTV, payback period, gross margin), (8) Team - why us, prior exits or domain expertise, (9) Roadmap and use of funds, (10) Risks and mitigants including regulatory (RBI/SEBI/CCI). Format as a structured memo with one-line section headers and bullet sub-points. Constraints: Indian VCs care about path to profitability, not just growth - address it. Use INR throughout. Reference Indian comparables.",
+      "tags": [
+        "lean-canvas",
+        "investor-memo",
+        "fundraising"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-013",
+      "title": "Jobs-to-be-Done Customer Interview Guide",
+      "prompt": "Act as a JTBD researcher trained by the Re-Wired Group, with experience interviewing Indian consumers and SMBs. I need you to create a Jobs-to-be-Done switch interview guide. Here is the context: I am exploring why customers might switch from [CURRENT SOLUTION/STATUS QUO] to [NEW SOLUTION] in [INDIAN MARKET CONTEXT]. Please provide: (1) The 4-Forces Framework questions probing push of current situation, pull of new solution, anxiety of switching, habit/inertia of staying, (2) The Forces of Progress timeline reconstruction questions - first thought, passive looking, active looking, decision, first use, ongoing use, (3) Specific Indian context probes: family/spouse approval, festival/wedding triggers, salary cycle effects, GST/tax timing for B2B, (4) Anchor moments to identify (job loss, marriage, child birth, business expansion, regulatory change), (5) 8 sample interviews to conduct - mix of recent switchers, considerers, rejectors, (6) Output template to extract Job Statement (\"When [situation], I want to [motivation], so I can [outcome]\"), (7) Synthesis framework to find a non-obvious unmet job. Format as an interviewer playbook with role-play examples in Hinglish. Constraints: Focus on past behavior, not opinions, recreate the moment of decision in vivid detail.",
+      "tags": [
+        "customer-interview",
+        "jobs-to-be-done",
+        "behavioral-research"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-014",
+      "title": "ONDC Opportunity Validation",
+      "prompt": "Act as an e-commerce strategist with deep knowledge of Open Network for Digital Commerce (ONDC), having advised sellers and buyer apps from Bengaluru and Delhi. I need you to validate whether ONDC is a viable distribution channel for my product. Here is the context: My product/service is [DESCRIPTION]. Please provide: (1) Eligibility check - which ONDC domain (retail, mobility, food, B2B, agri, finance) applies and current network maturity, (2) Buyer app and seller app ecosystem mapped (Paytm, Magicpin, Pincode by PhonePe, eSamudaay, Mystore, etc.) with current GMV and category share, (3) Cost structure: ONDC commission vs Amazon/Flipkart vs direct D2C in INR, (4) Listing requirements, GST and FSSAI/BIS compliance per category, (5) Logistics and seller-side workflow, integration partners (Logistic Network Participants), (6) Realistic Year-1 GMV projection for an early seller in INR, (7) Risks - low buyer side liquidity in some categories, frequent protocol updates, (8) Whether to be ONDC-first, ONDC-also, or skip ONDC. Format as a strategic recommendation with a 90-day pilot plan if go. Constraints: Cite ONDC official documentation and RedSeer/Inc42 ONDC tracker numbers, do not over-promise on early stage network.",
+      "tags": [
+        "market-research",
+        "ondc",
+        "distribution-strategy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-015",
+      "title": "Switching Cost Analysis vs Incumbents",
+      "prompt": "Act as a competitive strategist who has worked at BCG India and a Series B Indian SaaS startup. I need you to analyze switching costs my customers will face when moving from incumbents to my product. Here is the context: My product [DESCRIPTION] competes with [INCUMBENTS - e.g., Tally, SAP, Excel, manual processes] for Indian customers. Please provide: (1) Switching cost taxonomy: financial (subscription overlap in INR), procedural (data migration, retraining staff), relational (CA/consultant lock-in - very Indian), psychological (familiarity, fear), (2) Quantified switching costs in INR and hours per customer segment, (3) Specific Indian-context switching frictions: GSTIN-linked invoicing continuity, accountant/CA preference, data export to Tally format, language and UI familiarity, (4) Switching triggers that overcome inertia: price hike by incumbent, regulatory change, business expansion, founder transition, (5) Onboarding and migration playbook to minimize switching cost, (6) Pricing tactics to absorb switching cost (3 months free, migration credits in INR), (7) Lighthouse customer strategy to break the dam. Format as a switching cost worksheet with INR figures and a customer-success migration runbook. Constraints: Indian SMBs are highly CA-influenced - account for that gatekeeper, and respect existing GST filing cycles.",
+      "tags": [
+        "competitor-analysis",
+        "switching-costs",
+        "go-to-market"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-016",
+      "title": "Validation Channel Test Matrix",
+      "prompt": "Act as a growth experimenter who has run pre-launch validation tests for Indian D2C and SaaS brands. I need you to design a 30-day landing page and ad test to validate demand. Here is the context: My idea is [DESCRIPTION], target persona is [SEGMENT in India], proposed price is INR [AMOUNT]. Please provide: (1) Three landing page concepts with distinct value propositions and conversion goals (waitlist, deposit in INR, demo booking), (2) Hero copy variations in English and Hinglish, (3) Meta Ads (Facebook + Instagram) campaign structure: 3 audiences x 2 creatives x 2 copy = 12 ad sets, with target CPC and CTR benchmarks for India, (4) Google Search ads keyword list with INR CPC estimates, (5) LinkedIn ads for B2B with InMail templates and CPL targets, (6) WhatsApp Business broadcast list growth tactics, (7) Decision criteria: minimum 5% CTR, 8% landing page conversion, INR 200 cost per qualified lead, (8) A test calendar and INR 50,000 budget allocation, (9) Killable hypotheses if metrics fail. Format as an experiment plan with a tracking spreadsheet template. Constraints: Indian Meta CPMs are lower but quality varies, exclude bot traffic, separate Tier 1 and Tier 2/3 audiences.",
+      "tags": [
+        "market-research",
+        "demand-validation",
+        "landing-page"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-017",
+      "title": "Persona Card Deck for Indian Segments",
+      "prompt": "Act as a UX researcher who has built personas for Razorpay, Khatabook, and Vedantu. I need you to create a persona card deck for my target customers. Here is the context: My product is [DESCRIPTION]. I have early signals that [SEGMENTS] could be customers. Please provide: 5 detailed persona cards each containing: (1) Name (Indian first name + surname), age, city (specific - Indore, Coimbatore, Patna, Pune, etc.), (2) Occupation, monthly income in INR or business turnover in INR lakhs, (3) Family structure (joint vs nuclear), languages spoken, devices used (Android model, ARPU bracket), (4) A day in their life narrative with specific Indian routines (morning chai, mandi visit, school drop, GST filing day), (5) Goals, pain points, and current workarounds, (6) Tech comfort level (UPI native? Excel power user? WhatsApp only?), (7) Trusted information sources (cousin, CA, YouTube creator, WhatsApp group), (8) Quote that captures their worldview, (9) Why my product matters / does not matter to them. Format as printable persona cards. Constraints: Avoid caricatures, ground in real census/NSSO/CMIE data, distinguish customer (decision maker) from user (daily operator) which often differ in Indian SMBs.",
+      "tags": [
+        "customer-interview",
+        "personas",
+        "user-research"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-018",
+      "title": "Concierge MVP Design for Validation",
+      "prompt": "Act as a product strategist who has launched concierge MVPs for Indian startups - human-in-the-loop services that pretend to be tech. I need you to design a concierge MVP to validate my idea before writing code. Here is the context: My eventual product is [DESCRIPTION] for [SEGMENT]. Please provide: (1) Concierge MVP design - what the customer sees vs what happens behind the scenes, (2) Tools to glue it together: Google Forms + WhatsApp Business + Razorpay payment links + Notion + Zapier + manual Excel, (3) Operations playbook for the founder doing the work manually, time per customer in minutes, (4) Pricing in INR to validate willingness to pay, (5) 10-customer pilot plan with specific Indian recruitment channels, (6) Metrics to capture: time saved, willingness to renew, NPS, referrals, (7) Decision criteria to graduate to a coded MVP, (8) Cautionary lessons - when to stop scaling concierge before founder burnout. Format as a 4-week pilot plan with daily checklist. Constraints: Founder is the product, do things that do not scale, charge real money in INR even at concierge stage to validate demand.",
+      "tags": [
+        "mvp-scoping",
+        "concierge-mvp",
+        "do-things-that-dont-scale"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-019",
+      "title": "Regulatory Validation for Indian Startup",
+      "prompt": "Act as a startup lawyer at a firm like Khaitan, Cyril Amarchand, or Indus Law specializing in Indian startup regulation. I need you to validate the regulatory feasibility of my idea. Here is the context: My startup [DESCRIPTION] operates in [INDUSTRY] in India. Please provide: (1) Applicable regulators and laws: RBI (if fintech/lending/payments), SEBI (if investments), IRDAI (insurance), TRAI (telecom), MeitY (DPDP Act 2023), CCI (competition), FSSAI (food), AYUSH (wellness), MoHFW (health), (2) License or registration requirements, indicative cost in INR and timeline, (3) FDI policy applicability if seeking foreign capital, (4) Data localization requirements, (5) Specific recent regulatory developments (e.g., RBI digital lending guidelines 2022, SEBI online bond platform regulations, MeitY DPDP rules), (6) Sandboxes available - RBI Regulatory Sandbox, IFSCA, SEBI Innovation Sandbox, (7) Founder compliance: incorporation type (LLP vs Pvt Ltd), DPIIT recognition, GST registration, MSME Udyam, (8) Top 5 regulatory risks that could kill the business and mitigants. Format as a legal feasibility memo. Constraints: Highlight grey areas honestly, cite specific circular numbers and act sections, recommend whether to pre-engage with regulators.",
+      "tags": [
+        "market-research",
+        "regulatory-compliance",
+        "legal-validation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-020",
+      "title": "Competitor Pricing Teardown",
+      "prompt": "Act as a pricing analyst who has reverse-engineered the pricing of 50+ Indian SaaS and consumer companies. I need you to do a deep pricing teardown of my top 5 competitors. Here is the context: My competitors in [CATEGORY] for Indian customers are [LIST]. Please provide: (1) Public pricing in INR for each tier including hidden GST/setup/onboarding fees, (2) Pricing model dissection: per-user, per-seat, per-transaction, percentage of GMV, freemium, (3) Annual vs monthly discount, prepay incentives, (4) Add-ons and upsells, (5) Effective per-customer ARPU estimated from public funding data and customer count, (6) Discounting behavior in Indian sales motion, BANT-stage discounts, end-of-quarter pushes, (7) Enterprise pricing signals from RFPs and Glassdoor sales rep accounts, (8) Pricing-related churn signals from Reddit and Trustpilot India reviews, (9) White space in the pricing landscape my product can occupy. Format as a comparison matrix with INR figures and a recommended pricing position. Constraints: Mark assumptions clearly, use Wayback Machine for historical pricing changes, separate list price from realized price.",
+      "tags": [
+        "competitor-analysis",
+        "pricing-teardown",
+        "market-positioning"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-021",
+      "title": "Lean Canvas for Indian D2C Brand",
+      "prompt": "Act as a D2C consultant who has scaled brands like Mamaearth, Sugar, BoAt, and Wakefit in their early years. I need you to fill a Lean Canvas optimized for an Indian D2C brand. Here is the context: My product idea is [DESCRIPTION], category is [BEAUTY/FOOD/APPAREL/HOME/PETS/etc.], target customer is [SEGMENT]. Please provide all 9 Lean Canvas blocks with D2C nuance: (1) Problem - top 3 with category-specific pain (e.g., chemical-laden products, ill-fitting Indian sizes, Western recipes not suited to Indian palate), (2) Customer Segments with city, age, income in INR LPA, channel of discovery, (3) UVP with hero ingredient or differentiation, (4) Solution with SKU range and price ladder in INR (entry INR 199 to premium INR 1499), (5) Channels - Amazon, Flipkart, Nykaa/BigBasket, Quick commerce (Blinkit, Zepto, Instamart), D2C website, Meesho, ONDC, offline (MBO, GT), (6) Revenue Streams - AOV, repeat rate, subscription option, (7) Cost Structure - COGS (typically 20-30%), packaging, fulfillment via Shiprocket/Delhivery, marketing CAC, (8) Key Metrics - CAC, ROAS, repeat rate, CM2 in INR, (9) Unfair Advantage - founder story, supply chain lock, IP. Format as a filled canvas plus a 90-day launch plan. Constraints: Quick commerce is changing the game, factor in 10-min delivery channel economics.",
+      "tags": [
+        "lean-canvas",
+        "d2c-brand",
+        "consumer-startup"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-022",
+      "title": "Stakeholder Map for B2B Validation",
+      "prompt": "Act as an enterprise B2B sales strategist who has closed deals at Indian companies like Freshworks, Postman, and Chargebee. I need you to map the buying committee for my B2B product. Here is the context: My product [DESCRIPTION] targets [TYPE OF COMPANY] in India with [REVENUE BAND]. Please provide: (1) Stakeholder map: Economic Buyer, Champion, User, Technical Evaluator, Influencer, Procurement, Legal, IT Security, Finance/CFO, (2) For each role: typical title in Indian companies, KPIs they care about, pain points, objections, what convinces them, (3) Indian-specific dynamics: CFO approval thresholds in INR, founder/promoter decision-making in promoter-led firms, IT department vs business unit budget battles, (4) Interview questions to ask each stakeholder during validation, (5) Buying process map: from awareness to PO, typical timeline in weeks for SMB vs Mid-Market vs Enterprise in India, (6) Sample LinkedIn outreach messages per role in professional Indian English, (7) Common landmines: GST/TDS confusions, MSME payment delays, year-end budget freeze in February-March. Format as a stakeholder grid plus an outreach playbook. Constraints: Indian B2B sales cycles are longer than US, payment terms are 60-90 days net, build the relationship before pitching.",
+      "tags": [
+        "customer-interview",
+        "b2b-stakeholders",
+        "enterprise-sales"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-023",
+      "title": "Market Trend Analysis Using Indian Sources",
+      "prompt": "Act as a market intelligence analyst familiar with Indian data sources - RedSeer, Bain India, BCG India, KPMG India, IBEF, NASSCOM, CRISIL, IMARC, Statista India. I need you to produce a trend analysis for my category. Here is the context: My startup operates in [CATEGORY/SECTOR] in India. Please provide: (1) Top 10 macro trends affecting the sector in India over 2024-2030 with quantified projections in INR crores, (2) Five tailwinds (e.g., rising disposable income, UPI ubiquity, Gen Z entering workforce, regulatory push), (3) Five headwinds (e.g., funding winter, regulatory tightening, talent costs), (4) Key data points: market size, growth rate (CAGR), penetration, ARPU in INR, (5) Adjacent categories converging into yours, (6) Five startups with notable funding rounds or exits in last 18 months, (7) Predictions for the next 24 months and what they mean for my idea, (8) Three contrarian bets where consensus is wrong. Format as a trend dossier with charts described in text, citations to specific reports. Constraints: Cite primary sources with publication date, distinguish between hype and structural trends, separate metro vs Tier 2/3 trend velocities.",
+      "tags": [
+        "market-research",
+        "trend-analysis",
+        "industry-intelligence"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-024",
+      "title": "Solution Demo Script for Validation Calls",
+      "prompt": "Act as a sales engineer who has delivered 1000+ product demos for Indian SaaS startups. I need you to script a 20-minute pre-product demo I can deliver using just Figma mockups or a clickable prototype to validate purchase intent. Here is the context: My product [DESCRIPTION] solves [PROBLEM] for [SEGMENT in India] at INR [PRICE]. Please provide: (1) 5-minute discovery opener with 3 qualifying questions, (2) 10-minute demo flow with Figma frame references and customer-language narration, (3) 3 \"wow\" moments engineered for Indian B2B audience (cost saved in INR, hours saved per week, GST/compliance time saved), (4) Objection handling script for top 8 objections (\"too expensive\", \"we use Excel\", \"need to ask my CA\", \"maybe next quarter\", \"is it customizable?\"), (5) Trial close at minute 15: \"If we built this in 8 weeks, would you commit to a paid pilot at INR X?\", (6) LOI capture flow with terms in INR, (7) Follow-up email template within 2 hours of demo, (8) Demo scoring rubric to grade lead temperature. Format as a demo runbook with timing markers. Constraints: This is validation, not selling - aim for honest feedback and real LOIs, not vanity wow.",
+      "tags": [
+        "customer-interview",
+        "demo-script",
+        "validation-calls"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-025",
+      "title": "Pivot Decision Framework Post-Validation",
+      "prompt": "Act as a startup coach who has guided 50+ Indian founders through pivot decisions, including some who became unicorns after pivoting. I need you to build a structured pivot decision framework. Here is the context: After [N] weeks of validation, my findings are [SUMMARIZE - which hypotheses confirmed/refuted]. Please provide: (1) Eric Ries pivot taxonomy applied to my situation: zoom-in, zoom-out, customer segment, customer need, platform, business architecture, value capture, engine of growth, channel, technology, (2) Honest assessment of which signals are real and which are noise, (3) Sunk cost analysis - what to keep vs throw away from current work, (4) 3 candidate pivot directions with hypotheses, target customer, and 2-week tests, (5) Founder energy and morale check - Indian founders often have family/societal pressure, factor that in, (6) Co-founder alignment exercise, (7) Investor/advisor communication template if pre-seed funded, (8) Persevere vs pivot vs kill decision matrix with criteria, (9) 30-day execution plan post-decision. Format as a workbook with reflection prompts and a final recommendation memo template. Constraints: Be honest, avoid sunk-cost bias, acknowledge that pivoting is a feature not a failure - Slack, Instagram, and Indian unicorns like Razorpay famously pivoted.",
+      "tags": [
+        "lean-canvas",
+        "pivot-decision",
+        "strategic-review"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-026",
+      "title": "Wizard of Oz MVP for Indian Marketplace",
+      "prompt": "Act as a marketplace startup operator who launched a two-sided marketplace in India (think early Urban Company, Dunzo, NoBroker). I need you to design a Wizard of Oz MVP to validate marketplace dynamics without building the full product. Here is the context: My marketplace connects [SUPPLY SIDE] with [DEMAND SIDE] for [SERVICE/PRODUCT] in [CITY]. Please provide: (1) Manual matchmaking workflow - WhatsApp groups, Google Sheets, founder-as-dispatcher model, (2) Supply-side recruitment plan with offline (mandi, salon, gym, society) and online (OLX, Quikr, Justdial) channels, (3) Demand-side recruitment with hyperlocal targeting (society WhatsApp groups, Apartment Adda, Nextdoor India alternatives), (4) Pricing experiment in INR including take-rate vs subscription vs lead-fee model test, (5) Quality control without algorithms - manual vetting, photo verification, rating sheets, (6) 50-transaction goal in 4 weeks with budget INR [AMOUNT], (7) Liquidity threshold to detect: under N matches/day, kill it, (8) Graduation criteria to a coded marketplace. Format as a 4-week pilot plan. Constraints: Marketplaces are hard - validate liquidity in one tight geo, do not over-extend, founder must respond to every WhatsApp ping personally.",
+      "tags": [
+        "mvp-scoping",
+        "marketplace-validation",
+        "wizard-of-oz"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-027",
+      "title": "Differentiation Statement Crafting",
+      "prompt": "Act as a positioning consultant trained in April Dunford's Obviously Awesome methodology, with experience positioning Indian startups for IPO and global expansion. I need you to craft a differentiation statement for my product. Here is the context: My product is [DESCRIPTION], it competes against [ALTERNATIVES] in India. Please provide: (1) Competitive alternatives mapped honestly - including \"do nothing\" and \"hire an intern\" and \"use Excel\", (2) Unique attributes my product has that competitors don't, (3) Value those attributes deliver to specific Indian customers, (4) Best-fit customer characteristics (firmographics for B2B, demographics + psychographics for B2C), (5) Market category I want to be considered in, (6) Three positioning options with trade-offs, (7) Recommended positioning statement: \"For [TARGET], who [PROBLEM/NEED], [PRODUCT] is a [CATEGORY] that [KEY BENEFIT]. Unlike [PRIMARY ALTERNATIVE], we [DIFFERENTIATOR]\", (8) Hindi/Hinglish translation if customer-facing, (9) 5 places this positioning shows up: website hero, sales pitch, ad copy, LinkedIn bio, investor pitch. Format as a positioning canvas. Constraints: Positioning is for the customer, not the founder ego, be ruthlessly specific about who is NOT the customer.",
+      "tags": [
+        "competitor-analysis",
+        "positioning",
+        "differentiation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-028",
+      "title": "Survey Design for Indian Quantitative Validation",
+      "prompt": "Act as a quantitative researcher who has fielded surveys across India through SurveyMonkey, Typeform, Google Forms, and panel partners like Kantar, Nielsen India, Toluna. I need you to design a 5-minute survey to validate my idea quantitatively. Here is the context: My hypothesis is [STATE]. Target respondents are [SEGMENT in India]. Please provide: (1) 12-15 questions with mix of multiple-choice, Likert (1-5), open-text, ranking, (2) Screening questions to filter to qualified respondents, (3) Behavioral questions about past actions, not future intentions, (4) Pricing sensitivity battery (Van Westendorp), (5) NPS-style intent question, (6) Indian-specific demographic block: city + tier classification, household income bracket in INR, education, language preference, (7) Distribution plan: LinkedIn, Reddit, WhatsApp, Twitter, paid panels with cost in INR per response, (8) Sample size calculation for 95% confidence, (9) Bias risks (acquiescence, social desirability common in Indian respondents) and mitigants, (10) Analysis plan with cross-tabs by city tier and income. Format as a survey doc with logic branching annotated. Constraints: Maximum 5 minutes to complete, mobile-first, available in Hindi for Tier 2/3 respondents.",
+      "tags": [
+        "customer-interview",
+        "survey-design",
+        "quantitative-research"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-029",
+      "title": "Founder-Market Fit Self-Assessment",
+      "prompt": "Act as a founder coach who has worked with batches at Antler India, Sequoia Surge, and Y Combinator from the Indian cohort. I need you to help me honestly assess founder-market fit. Here is the context: I am [BACKGROUND - years in industry, prior roles, education, network]. My idea is in [CATEGORY] for [SEGMENT in India]. Please provide: (1) Founder-market fit dimensions: domain expertise, customer empathy, distribution access, technical capability, financial runway, network in the space, (2) Honest self-rating prompts on each dimension 1-10 with calibration anchors, (3) Specific Indian advantages: alumni networks (IIT/IIM/BITS/NIT), regional/community ties, family business background, CA/CS spouse, (4) Gaps to fill - hiring or co-founder needed, (5) Story arc - what I uniquely know about this customer that nobody else does, (6) Founder narrative for investors and customers, (7) Risks if founder-market fit is weak, (8) 30-day plan to strengthen fit through immersion (riding shotgun with target customer for a week, taking a job in the customer's industry). Format as a self-assessment workbook with reflective questions. Constraints: Be brutally honest, founder-market fit is not optional in Indian seed market.",
+      "tags": [
+        "lean-canvas",
+        "founder-market-fit",
+        "self-assessment"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-030",
+      "title": "Validation Metrics Dashboard",
+      "prompt": "Act as a data-driven product manager who has built validation dashboards at Cred, Razorpay, and Meesho. I need you to design a weekly validation metrics dashboard. Here is the context: I am pre-launch, validating [HYPOTHESIS] for [SEGMENT in India], running [TYPE OF VALIDATION - landing page, concierge, MVP]. Please provide: (1) North Star Metric appropriate for validation stage (e.g., paid LOIs in INR, weekly active concierge users, repeat usage in week 2), (2) Input metrics that drive the NSM: outreach volume, response rate, demo book rate, demo show rate, conversion rate, (3) Quality metrics: NPS, qualitative quotes, willingness-to-pay, (4) Funnel breakdown from awareness to revenue with INR values, (5) Cohort retention by week, (6) Channel attribution with CAC in INR, (7) Goals for weeks 1-4-8-12 with red/amber/green thresholds, (8) Tools to instrument: Google Analytics, Mixpanel free tier, Hotjar, Notion + Sheets for low-budget, (9) Founder weekly review template - what worked, what didn't, what to test next, (10) Decision rules: if metric X stays below Y for 3 weeks, pivot. Format as a dashboard mockup described in text plus a Notion template. Constraints: Don't over-instrument, focus on 5-7 metrics that actually drive decisions.",
+      "tags": [
+        "mvp-scoping",
+        "validation-metrics",
+        "data-driven"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-031",
+      "title": "Indian Reseller and Distribution Channel Validation",
+      "prompt": "Act as a channel sales strategist who has built reseller networks for SaaS and fintech in India. I need you to validate whether channel partners are right for my distribution. Here is the context: My product [DESCRIPTION] targets [SEGMENT]. I am evaluating direct vs channel-led GTM. Please provide: (1) Channel partner archetypes in India: CAs and CSs (huge influence on SMB), system integrators, MSPs, freelance consultants, agency partners, regional distributors, (2) Margins/commissions expected by each in INR or percentage, (3) Recruitment plan: ICAI events, BNI chapters, regional CA bodies, GST Suvidha Provider networks, (4) Enablement: collateral, training, partner portal requirements, (5) Direct vs channel economics comparison in INR over 24 months, (6) Channel conflict risks and pricing protection, (7) 5 anchor partners to recruit first with named target firms, (8) Pilot plan: 3 partners, 90 days, success criteria 10 referred deals at INR X each. Format as a channel strategy memo. Constraints: Indian SMB trusts the CA more than the brand, leveraging that channel can 10x growth but margins must be attractive, avoid wholesale margin cuts that destroy unit economics.",
+      "tags": [
+        "market-research",
+        "channel-strategy",
+        "distribution"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-032",
+      "title": "Indian Unicorn Case Study Analysis",
+      "prompt": "Act as a startup historian who has documented the journey of Indian unicorns. I need you to analyze 3 Indian unicorns analogous to my idea and extract lessons. Here is the context: My startup is similar in category/business model to [PROPOSED ANALOGS - e.g., Razorpay if fintech, Meesho if commerce, Vedantu if edtech]. Please provide: (1) For each of 3 chosen Indian unicorns: founding story, original idea, pivots taken, key milestones (first 100 customers, INR 1Cr ARR, INR 10Cr ARR, Series A, profitability), (2) What they got right early: team, market timing, distribution insight, (3) What they got wrong and corrected: failed features, bad hires, wrong segments, (4) Funding journey: each round, lead investor, valuation, INR raised, dilution, (5) GTM evolution from founder-led to enterprise sales or scaled marketing, (6) Transferable patterns I can copy and pitfalls to avoid for my idea, (7) Key team members and their backgrounds, (8) Citations from Inc42, YourStory, founder podcasts, BharatPe Ke Founders Ki Kahaani-style content. Format as a comparative case study report. Constraints: Survivorship bias - acknowledge that copying tactics doesn't guarantee outcomes, but understanding decisions helps frame yours.",
+      "tags": [
+        "competitor-analysis",
+        "case-study",
+        "unicorn-lessons"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-033",
+      "title": "Risk Premortem for Startup Idea",
+      "prompt": "Act as a venture risk analyst who evaluates investment memos for an Indian VC like Blume, Lightspeed, Matrix, or Nexus. I need you to conduct a premortem - imagine my startup failed in 24 months and reverse-engineer why. Here is the context: My idea is [DESCRIPTION], target market is [SEGMENT in India], Year-2 ARR target is INR [AMOUNT]. Please provide: (1) 15 plausible failure modes ranked by likelihood: market risk (no real demand), competitive risk (incumbent crushes us), team risk (co-founder split), regulatory risk (RBI/SEBI/CCI action), financial risk (run out of runway), product risk (cannot build), GTM risk (cannot acquire), unit economics risk (CAC > LTV), (2) For each failure mode: leading indicators to watch, probability subjective rating, INR impact, mitigation tactics, (3) Indian-specific risks: monsoon/festival seasonality on cash flow, GST/income tax compliance failure, dependence on Aadhaar/UPI infra, dependence on key Bollywood/cricket cultural moment for marketing, (4) Black swan risks: pandemic, regulator changes, key team member emigrating, (5) Pre-mortem narrative: write the obituary in 300 words to make it visceral, (6) Top 3 risks to actively manage in next 90 days. Format as a risk register. Constraints: Be paranoid, the goal is to find weakness now, not after burning INR.",
+      "tags": [
+        "lean-canvas",
+        "risk-analysis",
+        "premortem"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-034",
+      "title": "Customer Advisory Board for Pre-Product",
+      "prompt": "Act as a founder who built a customer advisory board (CAB) before launching, used by Indian B2B startups like Postman and Innovaccer. I need you to design a CAB program to accelerate validation. Here is the context: My pre-product startup [DESCRIPTION] targets [B2B SEGMENT in India]. Please provide: (1) Charter and goals of the CAB - feedback frequency, depth, expectations both ways, (2) Ideal composition: 6-8 members, mix of size (SMB, Mid-Market, Enterprise), industry, region (Bengaluru, Mumbai, NCR, Pune, Chennai, Hyderabad), buyer vs user, (3) Recruitment pitch: what's in it for them - early access, founder access, free use for life or X years, peer network, (4) Honorarium or equity (1-5 bps each typical for advisors), legal/IP/NDA template considerations, (5) Cadence: monthly 60-min Zoom + WhatsApp group + annual offsite, (6) Agenda template per session: 10 min product update, 30 min topic deep-dive, 20 min open feedback, (7) Outputs to capture: feature requests prioritized, willingness to be reference customer, intros they can make, (8) How to evolve the CAB into design partners and lighthouse paying customers. Format as a CAB playbook. Constraints: Founders' biggest mistake is not asking for help - this is structured asking, respect their time.",
+      "tags": [
+        "customer-interview",
+        "advisory-board",
+        "design-partners"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-035",
+      "title": "Validation Synthesis and Insight Extraction",
+      "prompt": "Act as a research synthesis expert who has analyzed thousands of customer interview transcripts at firms like IDEO, Dalberg, and FinX Group in India. I need you to synthesize my validation research into insights and decisions. Here is the context: I have completed [N] interviews, [N] survey responses, [N] LOIs in INR [VALUE], landing page tests with [METRICS]. Raw data available. Please provide: (1) Affinity mapping framework to cluster qualitative findings into 5-7 themes, (2) Frequency-vs-intensity matrix to prioritize themes, (3) Top 3 confirmed hypotheses with quote evidence, (4) Top 3 refuted hypotheses with disconfirming evidence, (5) Top 3 surprising insights I did not anticipate, (6) Customer language dictionary - the exact words/phrases customers use (vital for marketing copy in Hindi/English), (7) Persona refinements based on data, (8) Decision recommendations: build, refine, pivot, kill - with rationale, (9) Open questions for Round 2 of validation, (10) Template for storytelling these findings to advisors and investors in 5 slides. Format as a research synthesis report. Constraints: Distinguish signal from noise, do not let confirmation bias drive synthesis - actively seek disconfirming evidence.",
+      "tags": [
+        "customer-interview",
+        "research-synthesis",
+        "insights"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-036",
+      "title": "Pricing Tier Architecture for Indian SaaS",
+      "prompt": "Act as a SaaS pricing architect who has designed monetization for Freshworks, Zoho, and Chargebee. I need you to architect a pricing tier structure. Here is the context: My SaaS product [DESCRIPTION] targets Indian businesses across SMB to Mid-Market. Please provide: (1) Three-tier structure (Starter, Growth, Pro) with INR pricing per month and per user, including annual discount of 15-20%, (2) Feature gating logic: which features are entry, which are upsell, which are usage-based, (3) Add-ons priced separately in INR, (4) Free tier vs free trial vs paid pilot decision, (5) Indian context: GST 18% inclusive vs exclusive display, payment cadence preferences (monthly via UPI Autopay, annual via bank transfer for tax), (6) Enterprise tier with \"Contact Sales\" gate and INR price band signals, (7) Discounting guardrails for sales reps in early stage, (8) Pricing page copy in English with CTA optimization, (9) Migration path from cheaper to more expensive tier, (10) A/B test plan for INR 999 vs INR 1499 vs INR 1999 starter price. Format as a pricing matrix plus pricing page wireframe described in text. Constraints: Indian SMB anchors at INR 1000/month threshold, mid-market at INR 10000/month, enterprise INR 1L+/month - design tiers to nudge across these psychological barriers.",
+      "tags": [
+        "mvp-scoping",
+        "pricing-architecture",
+        "saas-monetization"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-037",
+      "title": "Co-founder Hypothesis Alignment Worksheet",
+      "prompt": "Act as a founder coach specializing in co-founder relationships, having mediated splits and helped 100+ Indian co-founder pairs build aligned operating systems. I need you to facilitate a hypothesis alignment exercise with my co-founder. Here is the context: We are [N] co-founders, our backgrounds are [DESCRIBE], we are validating [IDEA]. Please provide: (1) 20 alignment questions covering vision (10-year exit aspirations - INR 1000Cr exit vs lifestyle vs IPO), customer hypothesis (who is the early adopter), problem hypothesis (which problem matters most), product hypothesis (must-have features), business model hypothesis, fundraising plan and dilution comfort, role split (CEO/CTO/CPO who decides what), equity split rationale, vesting (4-year cliff standard), (2) Conflict resolution protocol when we disagree, (3) Decision rights matrix (RACI) - which decisions are unilateral, which need consensus, (4) Indian-specific dynamics: family pressure, marriage/relocation timing, financial obligations to parents, religious/cultural fasting/festival commitments, (5) Quarterly co-founder retreat agenda template, (6) Red flags to address now vs later, (7) Founders' Agreement / SHA clauses to discuss with lawyer (drag, tag, pre-emption, ROFR). Format as a workbook to complete in a 4-hour session. Constraints: 65% of startup failures are co-founder issues - this is risk management, not optional.",
+      "tags": [
+        "lean-canvas",
+        "co-founder-alignment",
+        "team-building"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-038",
+      "title": "Adjacent Market Expansion Map",
+      "prompt": "Act as a corporate strategist who has built market expansion plans for Indian companies entering adjacent verticals. I need you to map adjacent markets to validate sequencing. Here is the context: My core idea is [DESCRIPTION] for [PRIMARY SEGMENT]. Please provide: (1) Ansoff matrix: market penetration (deeper in current segment), market development (same product, new segments), product development (new product, same segment), diversification, (2) Adjacency map with 5 candidate adjacencies ranked by strategic distance and INR opportunity size, (3) For each: customer overlap with core, distribution leverage, product effort to extend, regulatory complexity, (4) Indian-specific adjacencies: vernacular/regional expansion, B2B2C from B2C base, lending/insurance attach for fintech, education attach for parenting, (5) Sequencing logic - core first 24 months, adjacency 1 in months 24-36, etc., (6) Failure modes from premature diversification (Indian examples: Paytm spread too wide, Snapdeal chased Amazon and lost focus), (7) Trigger metrics: \"only expand to adjacency X when core has INR 50Cr ARR and 80% retention\", (8) Investor narrative for sequenced expansion vs diversified moonshots. Format as a strategic map with phased roadmap. Constraints: Focus discipline, do not chase adjacency before core is locked, but plant seeds early.",
+      "tags": [
+        "competitor-analysis",
+        "market-expansion",
+        "strategic-sequencing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-039",
+      "title": "Validation Outreach Templates Pack",
+      "prompt": "Act as a cold outreach copywriter who has booked 1000+ validation calls for Indian B2B startups via LinkedIn and email. I need you to write a pack of validation outreach templates. Here is the context: I am reaching out to [PERSONA] in Indian companies of [SIZE/INDUSTRY] to do 30-minute discovery calls about [PROBLEM AREA]. Please provide: (1) LinkedIn connection request (300 chars max) - non-pitchy, curiosity-driven, (2) LinkedIn follow-up DM after acceptance, (3) Cold email V1 - founder asking for help framing (high response rate in India), (4) Cold email V2 - peer learning framing, (5) Cold email V3 - research project framing for academic credibility, (6) WhatsApp message template (very effective in Indian B2B SMB), (7) Voice note script - 30-second WhatsApp voice in friendly Hinglish, (8) Reference-based intro request template to my network, (9) Calendly/Cal.com scheduling page copy with timezone IST, (10) Reminder email 24 hours before call, (11) No-show follow-up template, (12) Thank-you note post-call with specific takeaway and ask-for-referral. Format as a copy-paste pack with annotations on when to use each. Constraints: No selling, just learning, respect inbox, personalize first line per recipient.",
+      "tags": [
+        "customer-interview",
+        "cold-outreach",
+        "templates"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    },
+    {
+      "id": "startup-founders-idea-validation-040",
+      "title": "Go/No-Go Investment Decision Memo",
+      "prompt": "Act as my own internal investment committee evaluating whether to commit the next 24 months of my life and savings to this startup. I need you to draft a brutally honest go/no-go memo. Here is the context: After [N months] of validation work, my findings, traction, and runway are [SUMMARIZE]. My personal financial position is [INR savings and obligations]. Please provide: (1) Executive recommendation: go, conditional go, or no-go with one-line rationale, (2) Strength of evidence on the 5 critical questions: is the problem real, is my solution differentiated, can I reach customers profitably, can I build it, can I monetize sustainably, (3) Personal opportunity cost in INR - what salary I am foregoing, family/loan obligations, (4) Runway plan: bootstrapped (INR X savings = N months) vs angel-funded (INR Y target raise) vs institutional (Surge/Antler/100X path), (5) Conditions to satisfy before full-time commitment (e.g., quit-job triggers - 3 paying customers at INR X total), (6) Off-ramps and Plan B: return to job, freelance, FIRE plan, (7) 90-day kill criteria - explicit metrics that if not met, fold, (8) Family/spouse alignment conversation script (very Indian must-do), (9) Final reflection: founder's gut signal aligned with data?, (10) Sign-off template. Format as a one-page decision memo. Constraints: Honesty over optimism, sunk cost should not drive go decision, founder mental health and family stability are inputs, not afterthoughts.",
+      "tags": [
+        "lean-canvas",
+        "go-no-go",
+        "founder-decision"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "startup-founders",
+      "subcategory": "idea-validation"
+    }
+  ]
+}

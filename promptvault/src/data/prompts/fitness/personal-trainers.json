@@ -1,0 +1,687 @@
+{
+  "category": "fitness",
+  "subcategory": "personal-trainers",
+  "count": 40,
+  "prompts": [
+    {
+      "id": "fitness-personal-trainers-001",
+      "title": "12-Week Beginner Fat Loss Program for IT Professional",
+      "prompt": "Act as a K11-certified personal trainer with 8 years of experience training Indian IT corporate clients in Bangalore and Pune. I need you to design a 12-week fat loss program for a 32-year-old male software engineer, 5'8\", 84 kg, sedentary desk job, 10-12 hour workdays, training at an Anytime Fitness gym 4 days/week with 60-minute sessions. He has no lifting experience and mild lower back stiffness from prolonged sitting. Goal: lose 8-10 kg while preserving muscle. Please provide: (1) Weekly split (Upper/Lower or Full Body) with clear rationale for a beginner, (2) Week-by-week progression showing sets, reps, RPE and rest periods for weeks 1-4, 5-8, 9-12, (3) Exact exercise list with Indian gym equipment substitutions (e.g., if cable machine unavailable), (4) A 10-minute desk-mobility warm-up targeting hip flexors and thoracic spine, (5) Cardio prescription (LISS vs HIIT split) accounting for his recovery capacity, (6) Deload protocol at week 6, (7) Red flags to pause training. Format as a clean weekly table plus coaching notes. Consider: shift-based work fatigue, Indian commute stress, and that he travels to Hyderabad 2 days/month and will need a hotel-room alternative session.",
+      "tags": [
+        "fat-loss",
+        "beginner-program",
+        "it-professional",
+        "12-week-plan"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-002",
+      "title": "Vegetarian Macro Plan for Muscle Gain Client",
+      "prompt": "Act as an ACE-certified personal trainer and sports nutrition coach with 6 years of experience working with lacto-vegetarian Indian clients. I need you to build a muscle-gain nutrition plan for a 26-year-old female graphic designer in Mumbai, 55 kg, 5'4\", strict lacto-vegetarian (no eggs), training 4x/week at Cult.fit, budget INR 8,000/month for food above her normal groceries. Goal: gain 4-5 kg lean mass over 16 weeks. Please provide: (1) Target calories and macro split (protein/carbs/fat) with calculation shown, (2) Realistic protein strategy hitting 1.6-1.8 g/kg using paneer, dahi, milk, tofu, soya chunks, moong dal, rajma, and whey — list protein per 100 g for each, (3) A sample 5-meal day with Indian foods and grams (e.g., 2 chapati + 150 g paneer bhurji), (4) 3 quick high-protein vegetarian snacks under INR 60 each, (5) Hydration and micronutrient gaps (iron, B12, omega-3) with supplement suggestions and INR pricing, (6) How to adjust calories if weight stalls for 2 weeks, (7) A weekend eating-out strategy for North Indian and South Indian restaurants. Format as a structured plan with a food swap table. Note any client education points a beginner trainer should explain.",
+      "tags": [
+        "vegetarian",
+        "nutrition",
+        "muscle-gain",
+        "indian-diet"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-003",
+      "title": "Home Workout Plan with Minimal Equipment",
+      "prompt": "Act as a REPS India-certified personal trainer with 5 years of experience designing home workouts for Indian clients who cannot access gyms. Design an 8-week full-body home program for a 38-year-old homemaker in Jaipur, 68 kg, beginner, training 4 days/week in a 10x10 ft room. Available equipment: one pair of 4 kg dumbbells, a yoga mat, a sturdy dining chair, and a cotton dupatta for stretching. Goal: improve general strength, posture, and lose 4-5 kg. Please provide: (1) 4-day weekly split with warm-up, main work, and cool-down, (2) Full exercise list with sets/reps and a photo-description cue (since she cannot afford a trainer visit), (3) Progressive overload plan when only 4 kg dumbbells are available (tempo, pauses, unilateral work), (4) A 15-minute beginner HIIT finisher using bodyweight only, (5) How to measure progress without a gym scale, (6) Modifications if she has knee discomfort from sitting cross-legged on the floor. Format as a weekly schedule with daily session cards. Keep instructions in simple English suitable for a Hindi-primary speaker.",
+      "tags": [
+        "home-workout",
+        "beginner",
+        "minimal-equipment",
+        "weight-loss"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-004",
+      "title": "Client Onboarding Assessment Questionnaire",
+      "prompt": "Act as a senior personal trainer and gym manager at Gold's Gym India with 10 years of experience onboarding new clients. Create a comprehensive client intake and assessment form for a new personal training client. The client is a 45-year-old male banker in Delhi, first-time gym member, signing up for 3 months of 1-on-1 PT at INR 18,000. Please provide: (1) A 25-question health and lifestyle questionnaire covering medical history, medications, past injuries, sleep, stress, work schedule, dietary preferences (veg/non-veg/Jain), and goals, (2) PAR-Q+ based red-flag screening questions adapted for Indian context (diabetes, hypertension, thyroid are common), (3) A physical assessment protocol including resting HR, BP, body circumferences, posture screen, overhead squat assessment, and basic strength baseline, (4) A goal-setting worksheet using SMART framework with 3 short-term and 1 long-term goal, (5) Informed consent and liability waiver language suitable for Indian gyms, (6) A first-session script (15 minutes) to build rapport. Format as a ready-to-print form. Flag which items require physician clearance before training begins.",
+      "tags": [
+        "client-assessment",
+        "onboarding",
+        "intake-form",
+        "par-q"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-005",
+      "title": "Weekly Motivation Messages for WhatsApp Group",
+      "prompt": "Act as a personal trainer running a WhatsApp community of 40 Indian clients aged 25-50 in Chennai. Write 14 motivational messages (2 per day for 1 week) that I can schedule in my client WhatsApp broadcast. The messages should feel personal, not corporate. Please provide: (1) 7 morning messages (6:30 AM) that energize clients before work — each 40-60 words, (2) 7 evening messages (7:00 PM) that celebrate small wins and encourage recovery — each 40-60 words, (3) Mix of English and occasional Hinglish phrasing clients relate to, (4) Reference Indian realities — traffic, family dinners, festival season temptations, monsoon gym skipping, (5) Include 3 short client success micro-stories (fictional but realistic names like Rohan, Priya, Anand) I can adapt, (6) 2 messages with a gentle call-to-action to book a consultation, (7) A note on tone: warm, never shaming. Format each message on its own line with the suggested send time. Avoid generic quotes and cliches like 'no pain no gain'.",
+      "tags": [
+        "client-motivation",
+        "whatsapp",
+        "retention",
+        "communication"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-006",
+      "title": "Warm-up and Cool-down Library for Group Classes",
+      "prompt": "Act as a group fitness head trainer at Snap Fitness India with 7 years of experience. Build a warm-up and cool-down library for my 45-minute small-group PT sessions (6 clients, mixed beginners). Please provide: (1) 5 dynamic warm-ups (8 minutes each) targeted for different session types: leg day, push day, pull day, full-body HIIT, and mobility day, (2) Each warm-up broken into joint prep, activation, and neural priming with exact exercises, reps, and tempo cues, (3) 5 cool-downs (6 minutes each) matching each session type with static stretches and breath work, (4) Teaching cues in simple instructor language, (5) Common mistakes beginners make during each drill and how to correct, (6) Low-back-friendly alternatives since 60% of Indian desk-job clients complain of lower back pain, (7) How to lead a group of mixed fitness levels without leaving beginners behind. Format as 10 session cards I can print and laminate. Keep each card under one page.",
+      "tags": [
+        "warm-up",
+        "cool-down",
+        "group-training",
+        "session-library"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-007",
+      "title": "Beginner Strength Program for Female Client Over 40",
+      "prompt": "Act as an ACSM-certified personal trainer with 9 years of experience training perimenopausal Indian women. Design a 12-week beginner strength program for a 44-year-old female school teacher in Kolkata, 72 kg, 5'3\", no lifting experience, mild knee discomfort when squatting below parallel, training 3 days/week at a neighborhood gym. Goal: build strength, improve bone density, and manage perimenopause-related fatigue. Please provide: (1) 3-day full-body split with emphasis on posterior chain and hip stability, (2) Weeks 1-4 focused on movement quality — exercise list with tempo 3-1-1 and RPE 6, (3) Weeks 5-8 introducing moderate load progression with exact sets/reps, (4) Weeks 9-12 building to first working sets with progression rules, (5) Knee-friendly squat variations (box squat, goblet squat to bench, split squat), (6) A short 5-minute home mobility routine for non-training days, (7) Coaching notes on perimenopause: sleep, recovery, and realistic expectations around scale weight. Format as a 12-week calendar with daily workouts. Include client education talking points for the first session.",
+      "tags": [
+        "women-over-40",
+        "beginner-strength",
+        "perimenopause",
+        "12-week-plan"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-008",
+      "title": "Session Plan Template for 60-Minute PT Session",
+      "prompt": "Act as a personal trainer with 5 years of experience at Cult.fit centers in Hyderabad. Create a reusable 60-minute 1-on-1 personal training session plan template that I can fill in weekly for any client. Please provide: (1) A minute-by-minute breakdown: check-in (3 min), warm-up (8 min), skill/technique block (7 min), main strength block (25 min), conditioning finisher (10 min), cool-down (5 min), debrief (2 min), (2) Fields for exercise, sets, reps, rest, load, RPE, tempo, and coaching cue, (3) A session notes section capturing client mood, energy, sleep, nutrition adherence, and next-session focus, (4) A progress tracking row comparing this week to last week, (5) A 'what went well / what to change' reflection for the trainer, (6) A client homework box for 2 habits to work on until next session. Format as a clean one-page template in markdown table style. Also suggest a naming convention for saving session notes per client (e.g., priya_sharma_week04_session02).",
+      "tags": [
+        "session-template",
+        "planning",
+        "client-tracking",
+        "documentation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-009",
+      "title": "Hydration and Electrolyte Plan for Indian Summer",
+      "prompt": "Act as a sports nutrition-savvy personal trainer in Ahmedabad where summer temperatures reach 44-46 degrees Celsius. Create a hydration and electrolyte strategy for my clients training in non-AC gyms and early-morning outdoor sessions from April to June. Please provide: (1) Daily water intake recommendations by body weight (ml/kg) adjusted for Indian summer sweat rates, (2) Pre, intra, and post-workout hydration timing for a 60-minute session, (3) A DIY electrolyte mix recipe using salt, sugar, lemon, and optional mint — with exact grams and cost under INR 10 per serving, (4) Comparison of market options: ORS, Gatorade, Fast&Up, Electral — INR price per dose and sodium content, (5) Warning signs of dehydration and heat exhaustion a trainer must recognize, (6) Adjustments for clients who fast during Ramzan or observe Ekadashi, (7) A client handout (one page) summarizing the plan. Format output with clear sections, tables for product comparison, and a printable handout at the end.",
+      "tags": [
+        "hydration",
+        "electrolytes",
+        "indian-summer",
+        "client-handout"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-010",
+      "title": "Safe Progression Rules for Beginner Lifters",
+      "prompt": "Act as a K11-certified personal trainer with 7 years of experience coaching Indian beginners through their first 6 months of resistance training. Write a clear progression framework I can use across all beginner clients. Please provide: (1) A progression model (double progression vs linear) explained in plain English for trainers, (2) When to add weight, reps, or sets — exact decision rules (e.g., 'if client completes 3x10 at RPE 7 with perfect form, add 2.5 kg next session'), (3) Technique gates that must be passed before loading: squat to parallel, hinge with neutral spine, overhead press without rib flare, (4) A deload trigger list: 3 signs the client needs a lighter week, (5) How to handle a plateau in week 8 for a client eating in a deficit, (6) Common Indian beginner mistakes: half reps, ego loading, skipping warm-ups, (7) A simple 1-page 'lifting rules for your first 90 days' handout I can give new clients. Format as a coaching playbook with numbered rules and a final client handout section.",
+      "tags": [
+        "progression",
+        "beginner",
+        "programming-rules",
+        "coaching-playbook"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-011",
+      "title": "Stretching Routine for Desk-Bound IT Client",
+      "prompt": "Act as a corrective exercise specialist and personal trainer with 6 years experience treating Indian IT professionals with rounded shoulders and tight hips. Create a 15-minute daily stretching and mobility routine for a 29-year-old software developer in Gurgaon who sits 11 hours a day. Please provide: (1) A morning 5-minute wake-up routine to undo sleep stiffness, (2) A midday 5-minute desk routine he can do at his cubicle in office clothes without floor exercises, (3) An evening 5-minute wind-down routine before bed focused on hips, hamstrings, and thoracic spine, (4) Exact exercise names, hold times, reps, and breathing cues, (5) A how-to description for each exercise (2-3 sentences) since he'll follow it alone, (6) Progression options after 4 weeks, (7) 3 warning signs that signal he needs physiotherapy, not more stretching. Format as a daily schedule with 3 routine cards. Keep it doable — no exercise should require equipment or floor space larger than 2x2 feet.",
+      "tags": [
+        "mobility",
+        "stretching",
+        "desk-job",
+        "corrective-exercise"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-012",
+      "title": "Client Monthly Progress Report Template",
+      "prompt": "Act as a personal trainer managing 15 private clients in Bengaluru charging INR 2,500 per session. Build a monthly progress report template I can send clients to justify retention and upsells. Please provide: (1) A clean 2-page report structure: header with client name, month, photo (optional), coach note, (2) Objective metrics section: weight, body fat %, circumferences (chest, waist, hip, arm, thigh), strength benchmarks (squat, bench, deadlift or alternatives), cardio benchmarks, (3) Subjective metrics: sleep quality, energy, mood, adherence % — with a 1-5 scale, (4) Before/after comparison with last month's numbers and % change, (5) 3 wins this month (trainer picks), (6) 2 focus areas for next month, (7) A personal coach message (2-3 sentences, warm and specific), (8) Session count used vs remaining with renewal CTA. Format as a fillable markdown template I can copy into Google Docs. Include an example filled-in report for a fictional client 'Priya Nair' to show how it reads.",
+      "tags": [
+        "progress-report",
+        "client-retention",
+        "template",
+        "communication"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-013",
+      "title": "Sleep and Recovery Coaching Script",
+      "prompt": "Act as a personal trainer and recovery coach with 5 years experience working with stressed Indian corporate clients. Write a 20-minute client education session script on sleep and recovery. The audience is a 34-year-old marketing manager sleeping 5.5 hours a night and wondering why she is not losing fat despite training hard. Please provide: (1) An opening hook that acknowledges her reality (late client calls, kids, phone scrolling), (2) The 3 pillars of recovery — sleep, nutrition, stress — in simple language, (3) A 7-step sleep hygiene checklist tailored to Indian households (noise, humidity, AC usage, late dinners), (4) The cortisol-fat loss connection explained without jargon, (5) 3 evening wind-down options of 10, 15, and 20 minutes, (6) 2 honest trade-offs she will need to make, (7) A 14-day sleep experiment with a simple tracking sheet, (8) A closing commitment-ask. Format as a coach script with timing cues (e.g., 'minute 0-3: rapport building'). Keep language warm and non-judgmental.",
+      "tags": [
+        "sleep",
+        "recovery",
+        "client-education",
+        "stress"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-014",
+      "title": "First-Session Checklist for New PT Clients",
+      "prompt": "Act as a veteran personal trainer with 12 years experience at Anytime Fitness India who has onboarded over 400 new clients. Create a comprehensive first-session checklist I can follow on day one to build trust and set clients up for success. Please provide: (1) Pre-session prep: documents to have ready, playlist, water bottle, notepad, (2) First 10 minutes: greeting script, facility walkthrough, washroom/locker room orientation, safety rules, (3) Next 15 minutes: verbal re-confirmation of goals, expectations, session frequency, cancellation policy, payment schedule in INR, (4) Middle 25 minutes: a gentle movement screen and baseline workout (6 exercises, bodyweight and light DB only) with coaching emphasis on learning not intensity, (5) Final 10 minutes: debrief, next-session preview, assigning 2 micro-homework items (e.g., sleep 7 hours, 2L water), asking for 1 question, (6) Post-session: a WhatsApp follow-up message template sent within 2 hours. Format as a time-stamped checklist with trainer scripts in italics where dialogue matters.",
+      "tags": [
+        "first-session",
+        "onboarding",
+        "checklist",
+        "client-experience"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-015",
+      "title": "Quick 30-Minute Workout for Busy Clients",
+      "prompt": "Act as a personal trainer specializing in time-crunched Indian working parents. Build a library of 8 effective 30-minute full-body workouts for clients who can only train 3 days/week with 30 minutes per session. Each workout should leave them feeling accomplished and drive real progress. Please provide: (1) 4 strength-biased workouts using only barbell, dumbbell, or kettlebell equipment commonly found in Indian gyms, (2) 4 conditioning-biased workouts blending strength and metabolic work, (3) Each workout labeled A through H with a clear goal (e.g., 'Workout C: lower body strength + core'), (4) Warm-up (4 min), main block (22 min), cool-down (4 min), (5) Supersets and circuits used to maximize density, (6) Exact sets, reps, rest, and RPE targets, (7) A progression rule for repeating the library over 4 weeks, (8) Modifications for beginners and intermediates. Format as 8 one-page workout cards. Include a note explaining why 30 minutes, 3x/week can still produce results when intensity and consistency are high.",
+      "tags": [
+        "short-workouts",
+        "busy-clients",
+        "efficiency",
+        "workout-library"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-016",
+      "title": "Basic Form Cues for Compound Lifts",
+      "prompt": "Act as a strength coach and personal trainer with 10 years experience teaching barbell lifts to Indian beginners who have never touched a bar. Write a coaching cue cheat-sheet for the 5 foundational lifts: back squat, deadlift, bench press, overhead press, and barbell row. Please provide: (1) For each lift: setup checklist (5 items), execution cues (3-4 short verbal cues like 'spread the floor'), 3 most common beginner errors, and the corrective cue for each, (2) A safe starting load recommendation for a deconditioned male and female beginner, (3) Breathing and bracing instructions, (4) One regression (easier variation) and one progression, (5) A 'never do this' safety rule for each lift, (6) How to teach the lift in 3 minutes during a session. Format as 5 lift cards, one per page, each fitting on a single screen. Keep language simple — imagine explaining to a first-time lifter with no gym vocabulary.",
+      "tags": [
+        "form-cues",
+        "compound-lifts",
+        "beginner-coaching",
+        "technique"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-017",
+      "title": "12-Week Hypertrophy Program for Intermediate Lifter",
+      "prompt": "Act as a strength and hypertrophy coach with 10 years experience, including internships under international coaches and 5 years training Indian intermediate lifters. Design a 12-week hypertrophy program for a 28-year-old male investment banker in Mumbai, 5'10\", 74 kg, 2 years of lifting experience, current lifts: squat 100 kg x 5, bench 75 kg x 5, deadlift 130 kg x 5. He trains 5 days/week at Gold's Gym, 75 minutes/session. Goal: add 3-4 kg of lean mass with minimal fat gain. Please provide: (1) Upper/Lower/Push/Pull/Legs split justification and weekly layout, (2) Exercise selection using the SFR (stimulus-to-fatigue ratio) principle with primary compounds and 2-3 hypertrophy accessories per body part, (3) Volume landmarks per muscle group (MEV/MAV/MRV) with weekly set counts for weeks 1-4, 5-8, 9-12, (4) Intensity scheme using RIR (reps in reserve) progression, (5) Deload protocol at weeks 5 and 10, (6) Nutrition targets: 300-400 kcal surplus with 1.8 g/kg protein in an Indian veg-plus-egg diet, (7) A testing week 13 with predicted strength gains. Format as a full weekly training spreadsheet description plus coaching notes.",
+      "tags": [
+        "hypertrophy",
+        "intermediate",
+        "12-week-plan",
+        "muscle-gain"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-018",
+      "title": "Post-Natal 16-Week Return to Training Plan",
+      "prompt": "Act as a pre and post-natal certified personal trainer with 8 years experience working with Indian mothers after vaginal and C-section deliveries. Design a 16-week post-natal return-to-training plan for a 31-year-old woman in Pune, 12 weeks post-partum (C-section, cleared by OBGYN), currently 6 kg above pre-pregnancy weight, breastfeeding, exhausted, training 3 days/week from home with dumbbells and bands. Please provide: (1) Phase 1 weeks 1-4: diaphragmatic breathing, pelvic floor reconnection, TVA activation, walking — no loaded exercise, (2) Phase 2 weeks 5-8: bodyweight and light DB foundational movements, scar tissue mobility, glute reactivation, (3) Phase 3 weeks 9-12: progressive loading, split squats, RDLs, rows, pressing with strict diastasis recti screening, (4) Phase 4 weeks 13-16: return to compound patterns, intro of impact if ready, (5) Red flags to stop and refer (leaking, doming, pelvic pain), (6) Nutrition guidance supporting lactation (add 450-500 kcal, prioritize protein and iron with Indian foods), (7) Realistic expectations on weight and sleep. Format as a 4-phase plan with weekly workouts and a safety checklist. Include a referral network note (pelvic floor physio).",
+      "tags": [
+        "post-natal",
+        "women-health",
+        "16-week-plan",
+        "rehab"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-019",
+      "title": "Injury Modification for Lower Back Pain Client",
+      "prompt": "Act as a personal trainer with 9 years experience and a certification in corrective exercise. My client is a 40-year-old male in Delhi with recurring non-specific lower back pain (cleared by orthopedic doctor, no disc issue), who wants to continue training 4 days/week. Current program includes deadlifts and back squats which flare him up. Please provide: (1) A McGill-inspired back-friendly daily routine (Big 3: curl-up, side plank, bird-dog) with sets, reps, and progressions, (2) Exercise swap list — for each problematic lift, 2 safer alternatives (e.g., trap bar deadlift, landmine squat, hip thrust, goblet squat to box), (3) A 12-week reloading plan gradually reintroducing hip hinge patterns, (4) Warm-up protocol emphasizing hip mobility and glute activation, (5) Core stability progressions across 4 phases, (6) Pain scale rules: 0-3 train, 4-6 modify, 7+ stop and refer, (7) Client education points on flexion intolerance vs extension intolerance, (8) When to refer to a physiotherapist. Format as a coaching document the client and I can work from together.",
+      "tags": [
+        "lower-back-pain",
+        "injury-modification",
+        "corrective",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-020",
+      "title": "Corporate Wellness Program for IT Company",
+      "prompt": "Act as a head personal trainer partnering with a 300-employee IT company in Hyderabad to run an 8-week corporate wellness program. Budget: INR 4,50,000 total. Goal: measurable improvements in employee fitness and engagement. Please provide: (1) Program structure — 2 live group sessions/week at the office gym, 1 virtual session, daily 10-min desk mobility video, (2) Assessment day plan: screening 300 employees in 2 days with BMI, resting HR, BP, grip strength, overhead squat, (3) Content calendar for 8 weeks with session themes (strength, mobility, posture, stress, nutrition, etc.), (4) Tiered participation tracks: beginner, regular exerciser, advanced, (5) Nutrition workshops — 2 lunch-and-learn sessions on Indian office eating, cafeteria hacks, festival season, (6) Engagement mechanics — leaderboards, team challenges, small prizes (INR budget allocation), (7) Measurement and reporting plan — baseline, mid-point, final with KPIs the HR head cares about (attendance, NPS, sick days), (8) Proposal pricing breakdown and trainer team needed. Format as a client-ready program proposal document.",
+      "tags": [
+        "corporate-wellness",
+        "it-client",
+        "program-design",
+        "b2b"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-021",
+      "title": "Fat Loss Plateau Diagnostic and Fix Protocol",
+      "prompt": "Act as a physique coach with 8 years experience coaching Indian clients through fat loss plateaus. My intermediate female client, 34, has lost 6 kg over 14 weeks but has not moved for 3 weeks despite logging food and training 5x/week. Build a full diagnostic and fix protocol. Please provide: (1) A 12-item diagnostic checklist I can walk through with her — food logging accuracy, weekend drift, liquid calories, NEAT drop, sleep, stress, menstrual phase, medication, weigh-in timing, hormone signs, training intensity, adherence honesty, (2) The 'real reasons plateaus happen' explained (adaptive thermogenesis, measurement error, water retention), (3) 5 intervention options ranked from lowest to highest friction: tighten tracking, add 1,500 steps, diet break (7-14 days at maintenance), refeed day, 10% calorie cut, (4) Decision framework: which intervention for which finding, (5) A 2-week re-test plan, (6) What to say to a discouraged client without shaming her, (7) When to stop dieting altogether and enter maintenance. Format as a clinical-style protocol a mid-level trainer can follow.",
+      "tags": [
+        "plateau",
+        "fat-loss",
+        "diagnostic",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-022",
+      "title": "Knee Pain Modification for Runner Client",
+      "prompt": "Act as a personal trainer with a CES (corrective exercise specialist) certification and 7 years experience working with Indian recreational runners. My client is a 36-year-old male training for the Mumbai Marathon who developed patellofemoral pain (runner's knee) 4 weeks out. His ortho cleared him but said to modify training. Please provide: (1) A 4-week modified training plan reducing running mileage by 50% and substituting low-impact cardio (spin, elliptical, rowing), (2) A strength program targeting the kinetic chain weak links: VMO activation, glute medius, hip external rotators, calf endurance — with exact exercises, sets, reps, (3) Foam rolling and soft tissue work for IT band, quads, and calves with duration, (4) Pain scale training rules (0-3 green, 4-6 modify, 7+ stop), (5) Return-to-running progression from week 5: walk-run intervals to full running, (6) 3 red flags that mean stop and refer to physio, (7) Race-day strategy if pain is 80% resolved. Format as a week-by-week plan with a strength session schedule and a running schedule side-by-side.",
+      "tags": [
+        "knee-pain",
+        "runner",
+        "injury-modification",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-023",
+      "title": "Reverse Diet Plan After Fat Loss Phase",
+      "prompt": "Act as a sports nutrition coach with 6 years experience guiding Indian clients through reverse diets. My client finished a 20-week fat loss phase, dropped from 78 kg to 66 kg, and is currently eating 1,550 kcal. She is tired, cold, and her menstrual cycle is irregular. I want to build a 10-week reverse diet plan back to a healthy maintenance. Please provide: (1) Reverse diet rationale explained to the client in simple language, (2) Week-by-week calorie additions (start with +75 kcal/week, primarily from carbs), (3) Macro distribution strategy maintaining protein at 1.8 g/kg and increasing carbs before fats, (4) Indian food additions — add 1 roti, 1 bowl rice, 1 tbsp ghee, etc. with exact kcal, (5) Body metrics to monitor weekly: weight, waist, morning HR, sleep, mood, cycle, (6) Decision rules — when to hold, accelerate, or pause additions, (7) End-state target of 2,300-2,400 kcal with expected body weight drift of 1-2 kg, (8) Mindset coaching scripts for 'I'm afraid of gaining fat back'. Format as a 10-week table plus client-facing handout.",
+      "tags": [
+        "reverse-diet",
+        "nutrition",
+        "metabolic-recovery",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-024",
+      "title": "Strength Testing Session Protocol",
+      "prompt": "Act as a performance coach with 8 years experience assessing Indian gym clients. Create a standardized 75-minute strength testing session I can run every 8 weeks for intermediate clients to track real progression. Please provide: (1) Pre-test 48-hour guidelines for the client: sleep, food, caffeine, no novel training, (2) Equipment and safety setup requirements, (3) Warm-up protocol (12 min) — general, dynamic, ramp-up sets, (4) Testing order with rationale: vertical jump, grip strength, 5-rep max back squat, 5-rep max bench press, 5-rep max deadlift, max push-ups, 2-minute plank, (5) 1RM estimation formula from 5RM (Epley or Brzycki) with both shown, (6) Rest periods between tests (3-5 min between sets, 10 min between lifts), (7) Data capture template and how to share with client, (8) Safety abort criteria, (9) A client-friendly interpretation of results with benchmark percentiles for Indian adults. Format as a trainer protocol document plus a client results sheet.",
+      "tags": [
+        "strength-testing",
+        "assessment",
+        "benchmarks",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-025",
+      "title": "Shoulder Impingement Training Workaround",
+      "prompt": "Act as a personal trainer with a corrective exercise specialization and 7 years experience working with Indian desk-workers suffering shoulder impingement. My client is a 42-year-old male, recreational lifter for 4 years, recently flared shoulder impingement doing overhead press. Ortho cleared him for modified training. Please provide: (1) A 6-week shoulder-friendly upper body program avoiding overhead pressing, barbell bench from flat, and upright rows, (2) Safe substitutes: landmine press, low-incline DB bench, neutral-grip DB press, cable rows, face pulls — with exact sets/reps, (3) Scapular control and rotator cuff protocol 4x/week (band pull-aparts, YTW raises, external rotations, serratus work), (4) Mobility priorities: thoracic extension, pec minor release, posterior capsule stretch, (5) Pain-scale training rules, (6) Progression criteria to reintroduce overhead pressing in week 7-8, (7) Red flags requiring referral to orthopedic or physio, (8) Client education on posture, sleep position, and laptop ergonomics. Format as a structured 6-week plan with daily sessions and a corrective block.",
+      "tags": [
+        "shoulder-impingement",
+        "injury",
+        "rehab",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-026",
+      "title": "PT Business Pricing and Package Structure",
+      "prompt": "Act as a fitness business consultant with 10 years experience helping Indian personal trainers scale their practice. I am a trainer in Pune with 5 years experience, currently charging INR 1,200/session and running out of time. Help me redesign my pricing and packages to increase revenue by 50% in 6 months without burning out. Please provide: (1) A market rate analysis for Indian tier-1 city PTs (entry, mid, senior) with INR ranges, (2) A 4-tier package structure: starter (8 sessions), standard (16 sessions), premium (24 sessions), transformation (48 sessions) with INR pricing, inclusions, and % discount vs single session, (3) Add-on services and their pricing: nutrition plan (INR 3,000), monthly check-in call, WhatsApp support, progress photos review, (4) A semi-private training option (2 clients at once) priced at 65% each for higher per-hour revenue, (5) A policy document: cancellation, pause, refund, payment terms, (6) A sales script for objections ('too expensive', 'let me think', 'I have a gym membership'), (7) A realistic monthly revenue projection at different capacity levels. Format as a business playbook with tables.",
+      "tags": [
+        "pt-business",
+        "pricing",
+        "packages",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-027",
+      "title": "Ramadan Training and Nutrition Plan",
+      "prompt": "Act as a personal trainer with 6 years experience working with Indian Muslim clients who fast during Ramadan. My client is a 30-year-old male, intermediate lifter, 78 kg, wants to maintain muscle and not lose conditioning over the 30-day fasting period. Please provide: (1) Training schedule — best time to train (1 hour before iftar vs 2 hours after iftar) with pros and cons, (2) A reduced-volume, maintenance-focused 4-day split with key compounds only, (3) Suhoor meal strategy — high protein, slow carbs, healthy fats with Indian foods (oats, eggs, paneer, dates, nuts, banana), (4) Iftar to pre-dawn meal plan hitting daily protein and calorie targets across 3 meals, (5) Hydration strategy (minimum 2.5 L between iftar and suhoor), (6) Supplement timing (creatine, whey, multivitamin), (7) Realistic expectations — slight strength loss is okay, avoid trying to gain, (8) First week adaptation tips for irritability, sleep shifts, and training energy. Format as a daily schedule and a Ramadan-month training calendar.",
+      "tags": [
+        "ramadan",
+        "fasting",
+        "nutrition",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-028",
+      "title": "Group Training Class Design for Mixed Levels",
+      "prompt": "Act as a small-group training specialist running classes of 8 clients at a Snap Fitness franchise in Chennai. Design a 45-minute small-group workout that works for mixed fitness levels (2 beginners, 4 intermediate, 2 advanced) without leaving anyone behind or bored. Please provide: (1) Class flow: warm-up (6 min), skill teach (4 min), main block (25 min), finisher (6 min), cool-down (4 min), (2) Main block using 4 stations with 5 rounds, 45 sec work / 15 sec transition, (3) For each station, list 3 difficulty variations: beginner, intermediate, advanced (e.g., goblet squat vs KB front rack squat vs KB front rack reverse lunge), (4) Scaling cues trainers can shout during the set, (5) A 6-min EMOM finisher with two tracks, (6) How to position clients to watch the weakest, (7) Equipment list for 8 clients on a budget gym floor, (8) A playlist BPM suggestion for each block. Format as a trainer cheat sheet that fits on 2 pages.",
+      "tags": [
+        "group-training",
+        "small-group",
+        "class-design",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-029",
+      "title": "Client Motivation Message Playbook",
+      "prompt": "Act as a senior personal trainer with 10 years experience and a retention rate above 85% at a premium Mumbai gym. Build a motivation message playbook I can pull from when clients are struggling. Please provide: (1) 10 message templates for common scenarios: (a) missed 2 sessions, (b) post-cheat-day guilt, (c) scale went up despite adherence, (d) travel derailing them, (e) festival overeating, (f) feeling tired and unmotivated, (g) comparing themselves to others on Instagram, (h) plateau frustration, (i) 30-day win celebration, (j) quitting-sounding message from client, (2) Each message 50-80 words in warm, specific tone — not generic motivational quotes, (3) 3 follow-up questions per scenario to deepen the conversation, (4) A tone guide: when to be firm, when to be soft, when to ask a question instead of advising, (5) A reminder to never shame or use guilt, (6) 3 message templates for positive reinforcement (PR day, consistency streak, body comp win). Format as 13 message cards I can copy into WhatsApp.",
+      "tags": [
+        "client-motivation",
+        "retention",
+        "messaging",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-030",
+      "title": "Body Recomposition Plan for Skinny-Fat Client",
+      "prompt": "Act as a physique coach with 7 years experience training Indian intermediate clients. My client is a 25-year-old male IT professional, 5'9\", 70 kg, 24% body fat (skinny-fat — lean arms, soft midsection, weak glutes), 1 year of casual lifting, confused between bulking and cutting. Build a 20-week body recomposition plan. Please provide: (1) Recomp case rationale — why it works for intermediate skinny-fat clients, (2) Calorie target at maintenance with 2.0 g/kg protein, (3) Indian veg+egg meal structure hitting 140 g protein on INR 12,000/month food budget, (4) Training program: 4-day upper/lower split emphasizing posterior chain and push/pull symmetry, (5) Weekly sets per muscle (12-16 for most, 16-20 for glutes/back), (6) Progression rules using double progression, (7) Cardio prescription: 8,000 steps/day + 2x 20-min Zone 2, (8) Measurement plan — weight, waist, photos, strength every 2 weeks, (9) Expected results at weeks 10 and 20, (10) When to switch to lean bulk or cut. Format as a complete program document.",
+      "tags": [
+        "body-recomposition",
+        "skinny-fat",
+        "intermediate",
+        "program-design"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-031",
+      "title": "Mid-Program Client Review and Replan",
+      "prompt": "Act as a senior personal trainer reviewing mid-program progress for a client in week 6 of a 12-week fat loss program. Client: 38-year-old female, Bengaluru, started at 74 kg, current 71.5 kg (2.5 kg lost, expected 3.5-4 kg). Training adherence 90%, nutrition adherence 75%, sleep 6 hrs avg, stress high at work. Please provide: (1) A structured review assessing performance against plan: what is working, what is not, (2) A gap analysis — likely reason for slower-than-expected fat loss (nutrition drift, stress/cortisol, sleep, NEAT drop), (3) 3 hypotheses ranked by likelihood with supporting evidence, (4) A replan for weeks 7-12 with specific changes: tighten weekend tracking, add 2,000 steps, reduce training volume by 10%, add a 1-day diet break, (5) Expected outcome at week 12 under the new plan, (6) A difficult-conversation script to have with the client that is honest but supportive, (7) A check-in cadence — weekly mini-review for the next 6 weeks. Format as a client case review document a senior coach would submit to a mentor.",
+      "tags": [
+        "mid-program-review",
+        "replanning",
+        "coaching",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-032",
+      "title": "Hybrid Strength and Endurance Program",
+      "prompt": "Act as a hybrid athlete coach with 6 years experience training Indian clients preparing for obstacle races and half marathons while maintaining strength. My client is a 32-year-old male in Delhi registered for the Airtel Delhi Half Marathon (goal: sub 1:50) and wants to maintain his 120 kg squat. He has 16 weeks and can train 5 days/week. Please provide: (1) Periodization across 16 weeks: general prep, specific prep, peak, taper, (2) Weekly template: 3 runs (easy Z2, tempo, long) and 3 lifting sessions (1 lower, 2 upper) arranged to minimize interference, (3) Running paces by week with exact targets, (4) Lifting program maintaining 80% of current 1RMs with reduced volume, (5) Conflict resolution — what to cut when he is tired (hint: not runs), (6) Nutrition for dual demand — carbs 4-5 g/kg, protein 1.8 g/kg, (7) Recovery strategies for the Indian monsoon season, (8) Race week plan and taper, (9) Post-race return to lifting. Format as a 16-week calendar with weekly goals.",
+      "tags": [
+        "hybrid-training",
+        "half-marathon",
+        "strength",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-033",
+      "title": "Advanced 12-Week Hypertrophy Block for Competitor",
+      "prompt": "Act as a physique coach with 15 years experience preparing Indian natural bodybuilders for IBBFF state-level shows. Design an advanced 12-week specialization hypertrophy block for a 29-year-old male competitor, 76 kg offseason, 6 years lifting, bringing up lagging back width and hamstrings for his next show in 20 weeks. He trains 6 days/week, 90 min/session. Please provide: (1) Block periodization rationale — accumulation (weeks 1-5), intensification (6-9), peak (10-12), (2) Weekly split: Back (2x), Hamstrings (2x), Chest, Shoulders, Arms, Quads — sequenced for recovery, (3) Exercise selection targeting the width (lat pulldowns with wide-neutral grip, chest-supported rows, pull-overs) and hamstring lengthened-position work (Romanian deadlift, seated leg curl, Nordic), (4) Set volumes: MEV to MRV progression per week with exact set counts per muscle, (5) Intensity technique rotation: myo-reps, drop sets, lengthened partials, rest-pause — which to use when, (6) RIR progression from 3 to 0, (7) Deload at week 6 and 12, (8) Diet structure: 200 kcal surplus, 2.2 g/kg protein, Indian veg+eggs+whey, (9) Bloodwork and recovery markers to monitor. Format as a full coach program document.",
+      "tags": [
+        "advanced-hypertrophy",
+        "bodybuilding",
+        "specialization",
+        "competitor"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-034",
+      "title": "Advanced Contest Prep Peak Week Protocol",
+      "prompt": "Act as a natural bodybuilding coach with 12 years experience and 30+ show preps under Indian federations (IBBFF, IBFF). My male competitor is 7 days out from his state show, 72 kg, 4.5% estimated body fat, dry and flat. Design a full peak week protocol. Please provide: (1) Day-by-day plan from Day 7 to show morning: training, calories, macros, water, sodium, carbs, (2) Carb depletion (Day 7-4) and carb load strategy (Day 3-1) with exact gram targets, (3) Water manipulation: 6 L down to 500 ml with timing and warnings against diuretics, (4) Sodium: normal then cut then bring back, (5) Last meal before stage: timing, composition, (6) Training: last heavy session, then pump-up only, (7) Tan, posing, and mental prep schedule, (8) A contingency plan if he looks flat on Day 2 (small carb up), (9) Morning-of-show protocol hour-by-hour, (10) Post-show refeed guidance to prevent rebound binge. Format as a 7-day peak week document with a warning box about peak week being individual and prior rehearsal being mandatory.",
+      "tags": [
+        "peak-week",
+        "contest-prep",
+        "advanced",
+        "bodybuilding"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-035",
+      "title": "Advanced Programming for Powerlifter With Low Back Issue",
+      "prompt": "Act as a strength coach with 10 years experience programming for Indian raw powerlifters. My client is a 34-year-old male competing at 83 kg class, total 540 kg (S 180, B 120, D 240), with chronic L4-L5 disc bulge (MRI confirmed, conservatively managed by sports physio). He has an IPF-affiliated meet in 16 weeks. Design a back-protective 16-week peaking program. Please provide: (1) Block structure: hypertrophy (wk 1-6), strength (wk 7-12), peak (wk 13-16), (2) Squat programming using safety-bar squat and box squat to reduce spinal load for 4 weeks before returning to competition squat, (3) Deadlift substitution strategy — trap bar and block pulls in hypertrophy block, conventional from week 9, (4) Bench progression unchanged, (5) Back-specific daily routine: McGill Big 3, anti-rotation core, hip mobility, (6) Pain scale rules and modification triggers, (7) Weekly volume and intensity (%1RM) charts, (8) Deloads at weeks 6, 11, 15, (9) Meet week taper and warm-up attempts, (10) Communication with his physio — what to share, what to ask. Format as a full periodized plan with integrated rehab.",
+      "tags": [
+        "powerlifting",
+        "advanced-programming",
+        "back-injury",
+        "peaking"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-036",
+      "title": "Advanced Data Analysis of Client Training Logs",
+      "prompt": "Act as a data-driven strength coach with 8 years experience analyzing Indian clients' training logs to optimize programming. I have 12 weeks of log data for a client: session date, exercise, sets, reps, load, RPE, bodyweight, sleep, daily step count. Please provide: (1) The exact analysis framework I should run — weekly tonnage per muscle, average RPE per lift, volume-load trend, intensity distribution, (2) Key metrics to extract: e1RM trajectory per main lift (Epley formula), fatigue ratio (acute:chronic workload), RPE creep, (3) Red flags in the data suggesting under-recovery (RPE creeping up at same load, e1RM stagnating, bodyweight dropping unintentionally, sleep low), (4) A decision tree: if X, then Y programming change, (5) A sample spreadsheet structure (columns and formulas) I can set up in Google Sheets, (6) How to visualize trends for the client (simple line charts), (7) Monthly coach-review workflow: 30 min of analysis producing 3 programming decisions, (8) Common analysis mistakes (reading noise as signal). Format as a coach analytics playbook with formulas.",
+      "tags": [
+        "data-analysis",
+        "training-logs",
+        "advanced",
+        "analytics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-037",
+      "title": "Elite Female Athlete Periodization Around Menstrual Cycle",
+      "prompt": "Act as a female athlete performance coach with 10 years experience and certifications in female physiology. My client is a 27-year-old national-level CrossFit athlete in India with a regular 28-day cycle. Design a 12-week training program that periodizes intensity and volume around her cycle phases. Please provide: (1) A cycle-aware framework: follicular (day 1-14) favors high intensity and strength, luteal (day 15-28) favors volume and technique with reduced PR attempts, (2) Week-by-week plan showing heavy days, conditioning days, and deload mapped to cycle days, (3) Nutrition adjustments: slightly higher carbs in luteal phase, magnesium and iron around menses, (4) Sleep and recovery emphasis in late luteal, (5) PMS symptom management strategies, (6) Tracking template: cycle day, symptoms, energy, performance markers, (7) Red flags (missed cycles = RED-S risk) and referral protocol, (8) How to communicate this approach to a skeptical athlete and her male head coach, (9) Realistic expectations — this is optimization, not magic. Format as a 12-week plan with phase-specific coaching notes.",
+      "tags": [
+        "female-athlete",
+        "menstrual-cycle",
+        "advanced-periodization",
+        "performance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-038",
+      "title": "Building a PT Certification Bridge Course",
+      "prompt": "Act as a master trainer and educator with 15 years experience running trainer-education programs in India. Design a 6-week bridge course curriculum for certified trainers (K11, ACE, ACSM, REPS India) who want to become elite coaches working with high-paying Indian clients at INR 3,500-5,000/session. Please provide: (1) Learning outcomes — what a graduate can do that a newly certified trainer cannot, (2) Week 1: client assessment mastery (FMS, overhead squat, joint screens, interview), (3) Week 2: advanced programming (periodization, specialization blocks, peaking), (4) Week 3: nutrition coaching (not meal planning — behavior change, Indian diet navigation), (5) Week 4: injury modification and red flags (when to coach vs refer), (6) Week 5: business and sales (packages, retention, client lifetime value), (7) Week 6: case studies and final practical exam, (8) Weekly reading list (books, research papers), (9) Practical assignments, (10) Certification and pricing for the course (INR 25,000-35,000), (11) Expected ROI for the trainer within 6 months. Format as a course prospectus.",
+      "tags": [
+        "trainer-education",
+        "bridge-course",
+        "advanced",
+        "curriculum"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-039",
+      "title": "Advanced Return-to-Sport After ACL Reconstruction",
+      "prompt": "Act as a rehabilitation and sports performance coach with 10 years experience co-managing ACL recoveries alongside Indian sports physios. My client is a 24-year-old male amateur footballer, 7 months post ACL reconstruction (hamstring graft), cleared by surgeon to progress to sport-specific training, LSI (limb symmetry index) currently 78% on single-leg hop. Design a 12-week return-to-sport plan to reach 90% LSI and on-field return. Please provide: (1) Weekly structure: 4 strength sessions, 2 on-field sessions, 1 recovery day, (2) Strength block focused on posterior chain, hamstring eccentric (Nordics), single-leg work, (3) Plyometric progression: double leg to single leg, linear to lateral to rotational, volume by week, (4) Change-of-direction progression: 45-degree cuts, 90-degree cuts, reactive cutting, (5) Agility and sport-specific drills integrated from week 6, (6) Weekly LSI testing protocol (single hop, triple hop, crossover hop, Y-balance), (7) Go/no-go criteria for return to full training and match play, (8) Psychological readiness screening (ACL-RSI), (9) Re-injury risk factors and prevention, (10) Communication with physio. Format as a 12-week plan with phase milestones.",
+      "tags": [
+        "acl-rehab",
+        "return-to-sport",
+        "advanced",
+        "performance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    },
+    {
+      "id": "fitness-personal-trainers-040",
+      "title": "Advanced Menopause Strength and Longevity Protocol",
+      "prompt": "Act as a women's health and strength coach with 12 years experience working with menopausal and post-menopausal Indian women. My client is a 54-year-old post-menopausal female in Chennai, 65 kg, 5'2\", 2 years since last period, DEXA showing osteopenia (T-score -1.7 at spine), currently walks daily but no resistance training. Design a 24-week heavy resistance training and longevity protocol. Please provide: (1) Case rationale — why heavy loading is essential for bone density in post-menopausal women (reference LIFTMOR trial approach), (2) Weeks 1-6 technique and tissue prep — sub-maximal loads, movement mastery, (3) Weeks 7-12 moderate loading — 75-80% 1RM, 3-5 reps for squat, deadlift, overhead press, (4) Weeks 13-24 heavy loading — 85% 1RM, 3x5, with spotter and safety protocols, (5) Impact loading component: 10-20 heel drops daily (LIFTMOR protocol), (6) Protein target 1.6-2.0 g/kg with Indian veg+dairy strategy, (7) Vitamin D, calcium, and B12 supplementation with INR pricing, (8) Red flags: pain, falls, severe fatigue, (9) Retesting DEXA at 12 months, (10) Managing fear and hesitation in older female clients. Format as a clinical-style 24-week protocol with safety framework.",
+      "tags": [
+        "menopause",
+        "osteoporosis",
+        "longevity",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "personal-trainers"
+    }
+  ]
+}

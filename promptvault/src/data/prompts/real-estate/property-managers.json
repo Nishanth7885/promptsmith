@@ -1,0 +1,651 @@
+{
+  "prompts": [
+    {
+      "id": "real-estate-property-managers-001",
+      "title": "Draft Tenant Onboarding Welcome Email",
+      "prompt": "Act as a senior property manager with 10 years of experience managing residential societies in Mumbai, Pune, and Bengaluru. I need you to draft a warm, professional tenant onboarding welcome email for a new tenant moving into a 2BHK flat in a CHS (Cooperative Housing Society) in Powai, Mumbai. Here is the context: the tenant is a 28-year-old IT professional named Rohan Sharma, moving in on 1st May 2026, monthly rent is Rs 55,000, security deposit is Rs 1,65,000 (3 months), and the 11-month leave & license agreement is already registered. Please provide: (1) a friendly subject line, (2) a welcome paragraph, (3) a checklist of documents needed (police verification form, Aadhaar, PAN, employer letter, 2 photos), (4) society rules summary (visitor entry, garbage segregation, quiet hours 10 PM to 7 AM, parking slot B-14), (5) key handover logistics and utility meter readings, (6) emergency contacts (society secretary, plumber, electrician, DG backup operator), and (7) my contact info as property manager. Format as a ready-to-send email under 400 words. Keep tone polite but firm on compliance. Use Indian English conventions and rupee symbols.",
+      "tags": [
+        "tenant-comm",
+        "onboarding",
+        "chs",
+        "mumbai"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-002",
+      "title": "Polite Rent Reminder WhatsApp Message",
+      "prompt": "Act as a property manager handling 40 rental units across Gurgaon and Noida with 8 years of experience in tenant relations. I need you to draft three escalating WhatsApp rent reminder messages in a polite Indian English tone. Here is the context: tenant name is Priya Iyer, monthly rent is Rs 32,000 due on the 5th of every month via NEFT to my client's HDFC account, late fee is Rs 500 per day after 7-day grace period as per the registered leave & license agreement. Please provide: (1) Message 1 - gentle reminder on the 3rd (2 days before due date), (2) Message 2 - firm but courteous reminder on the 8th (3 days overdue), and (3) Message 3 - formal notice on the 12th (7 days overdue) mentioning late fee accrual and requesting immediate payment with UTR confirmation. Each message should be under 80 words, include the exact amount in INR, mention the bank transfer details placeholder, be respectful of Indian cultural norms (avoid aggressive language), and end with a thank you. Also suggest the best time windows to send (morning vs evening) based on Indian WhatsApp etiquette. Format output with clear headers for each message.",
+      "tags": [
+        "tenant-comm",
+        "rent-reminder",
+        "whatsapp"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-003",
+      "title": "Water Tanker Shortage Notice to Residents",
+      "prompt": "Act as an RWA-appointed property manager for a 120-flat apartment complex in Whitefield, Bengaluru, with 6 years of experience handling BWSSB water supply issues. I need you to draft a notice to all residents about a 3-day water tanker shortage due to a Cauvery supply disruption. Here is the context: society has 2 underground sumps (1 lakh litres each), borewell is running at 40% capacity, private tanker rates have spiked from Rs 1,200 to Rs 2,500 per 6000L load, and we need residents to ration usage. Please provide: (1) a clear subject line for the society noticeboard and WhatsApp group, (2) explanation of the shortage cause, (3) specific rationing guidelines (bathing, laundry, dishwashing, plants), (4) revised tanker delivery schedule for the 3 days, (5) estimated additional cost per flat (Rs 180) and how it will be adjusted in next maintenance bill, (6) emergency water point for drinking water, and (7) RWA committee contact for complaints. Keep tone empathetic but authoritative. Format as a formal notice under 300 words, suitable for printing and WhatsApp forwarding.",
+      "tags": [
+        "rwa",
+        "maintenance",
+        "tenant-comm",
+        "bengaluru"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-004",
+      "title": "Lift Breakdown Incident Communication",
+      "prompt": "Act as a property manager with 7 years of experience managing high-rise societies in Thane and Navi Mumbai. I need you to draft a communication to residents of Tower B (14 floors, 56 flats) about a lift breakdown. Here is the context: the Otis passenger lift failed at 6:30 AM today due to a control panel issue, AMC vendor has been called, estimated repair time is 18 hours, the service lift is operational but slower, and there are 4 senior citizens and 2 pregnant women on upper floors who need assistance. Please provide: (1) an immediate WhatsApp broadcast message (under 100 words), (2) a detailed notice for the tower lobby with timeline and workarounds, (3) specific assistance plan for elderly and pregnant residents (volunteer coordination, grocery delivery help), (4) AMC vendor details and expected resolution time, (5) apology and compensation note (waiver of that day's lift maintenance charge of Rs 50 per flat), and (6) a follow-up update template to send every 4 hours. Format with clear sections. Use respectful Indian English and avoid technical jargon.",
+      "tags": [
+        "maintenance",
+        "tenant-comm",
+        "lift",
+        "rwa"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-005",
+      "title": "Security Deposit Refund Statement",
+      "prompt": "Act as a property manager with 9 years of experience handling tenant exits in Hyderabad and Chennai. I need you to create a detailed security deposit refund statement for a tenant who is vacating a 3BHK flat in Gachibowli, Hyderabad. Here is the context: tenant name is Arjun Reddy, original security deposit was Rs 2,40,000 (4 months rent at Rs 60,000/month), lease duration was 22 months (two 11-month agreements), move-out inspection revealed painting needed (Rs 18,000), minor plumbing repair (Rs 2,500), deep cleaning (Rs 4,500), one broken geyser handle (Rs 800), electricity bill pending (Rs 3,200), and society NOC is obtained. Please provide: (1) a professional statement header with tenant and property details, (2) itemised deduction table in INR with justifications, (3) reference to relevant clauses from the leave & license agreement, (4) photos-required list for each deduction, (5) final refundable amount calculation, (6) NEFT transfer details request, and (7) a polite closing with handover confirmation. Format as a clean statement document with a table. Keep total under 350 words. Ensure fairness and compliance with Model Tenancy Act 2021 principles.",
+      "tags": [
+        "lease-review",
+        "security-deposit",
+        "tenant-comm"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-006",
+      "title": "Vacancy Listing for MagicBricks and 99acres",
+      "prompt": "Act as a property marketing specialist with 5 years of experience listing residential properties on MagicBricks, 99acres, Housing.com, and NoBroker. I need you to write a compelling vacancy listing for a 2BHK flat available for rent. Here is the context: property is in Koramangala 5th Block, Bengaluru, carpet area 1050 sqft, semi-furnished (modular kitchen, wardrobes, geysers, 2 ACs), 7th floor of 12, south-facing, 2 covered parking, society has gym/pool/clubhouse, monthly rent Rs 48,000, maintenance Rs 3,500, security deposit 10 months, 11-month agreement, veg-only preference, available from 15th May 2026. Please provide: (1) a punchy 8-word headline, (2) a 60-word hook paragraph highlighting location and lifestyle, (3) a detailed feature bullet list (amenities, fittings, connectivity to Forum Mall/Silk Board/ORR), (4) nearby landmarks (schools, metro, hospitals within 2 km), (5) tenant preferences disclosure, (6) pricing breakdown in INR, and (7) a call-to-action with site visit slots. Format as ready-to-paste listing text optimised for portal search (include keywords like 2BHK Koramangala rent). Keep under 300 words.",
+      "tags": [
+        "vacancy-marketing",
+        "listing",
+        "bengaluru"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-007",
+      "title": "Instagram Reel Script for Vacant Flat",
+      "prompt": "Act as a social media content creator specialising in Indian real estate with 4 years of experience running property manager Instagram accounts. I need you to write a 30-second Instagram Reel script to market a vacant 1BHK flat in Andheri West, Mumbai. Here is the context: rent is Rs 38,000/month, 550 sqft, 4th floor, walking distance to Andheri metro, fully furnished (bed, sofa, fridge, washing machine, AC), available immediately, ideal for young professionals or couples, building has 24/7 security and power backup. Please provide: (1) a hook line for the first 3 seconds (to stop the scroll), (2) a shot-by-shot breakdown with voiceover text for each 5-second segment, (3) on-screen text overlays (Hinglish-friendly), (4) suggested trending audio style (chill lofi vs upbeat), (5) 10 relevant hashtags mixing location and intent (#AndheriRent #MumbaiFlats etc.), (6) a strong CTA with DM instructions, and (7) caption text under 150 characters. Format as a numbered script with timecodes. Tone should be youthful, authentic, and avoid corporate jargon.",
+      "tags": [
+        "vacancy-marketing",
+        "social-media",
+        "mumbai"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-008",
+      "title": "Plumbing Complaint Acknowledgement",
+      "prompt": "Act as a property manager with 6 years of experience handling maintenance tickets for 200+ rental units in Pune. I need you to draft a professional acknowledgement response to a tenant plumbing complaint. Here is the context: tenant Neha Kulkarni reported a leaking kitchen sink pipe at 9:15 PM on a Tuesday, water is dripping into the cabinet below, she has placed a bucket temporarily, this is her first complaint in 6 months of tenancy, and the SLA for non-emergency plumbing is 24 hours. Please provide: (1) an acknowledgement WhatsApp message within 15 minutes of her complaint, (2) confirmation of ticket number and SLA commitment, (3) immediate temporary mitigation instructions (shut-off valve location, towel placement), (4) vendor dispatch timeline (plumber Suresh to visit between 10 AM and 12 noon next day), (5) cost responsibility clarification (landlord bears if pipe fault, tenant bears if misuse), (6) a request for 2 photos of the leak, and (7) a polite closing reassuring her. Format as a complete WhatsApp exchange under 250 words. Tone should be calm, professional, and tenant-centric.",
+      "tags": [
+        "maintenance",
+        "tenant-comm",
+        "plumbing",
+        "sla"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-009",
+      "title": "Monthly Rent Receipt Template",
+      "prompt": "Act as a property manager with experience serving NRI landlords who own rental properties in Delhi NCR. I need you to create a GST-compliant monthly rent receipt template that tenants can use for HRA claims under Section 10(13A) of the Income Tax Act. Here is the context: landlord is an NRI based in Dubai, property is a 3BHK in Dwarka Sector 19, monthly rent Rs 45,000, tenant is a salaried employee claiming HRA, PAN of landlord must be mentioned if annual rent exceeds Rs 1,00,000. Please provide: (1) a receipt header with landlord name, PAN, and property address, (2) tenant details section, (3) rent period and amount in words and figures, (4) payment mode (NEFT/UPI/cheque) with reference number, (5) revenue stamp placement note (Rs 1 for cash above Rs 5,000), (6) landlord signature block with authorised representative note, and (7) a footer disclaimer. Also provide usage notes explaining when PAN is mandatory and how tenants should file this with their employer. Format as a clean receipt layout plus a 100-word usage guide.",
+      "tags": [
+        "tenant-comm",
+        "compliance",
+        "hra"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-010",
+      "title": "DG Backup Outage Announcement",
+      "prompt": "Act as a property manager for a gated community of 80 villas in Sarjapur Road, Bengaluru, with 5 years of experience in facility management. I need you to draft a resident announcement about a scheduled DG (diesel generator) maintenance and the resulting backup outage. Here is the context: annual AMC service by Kirloskar is scheduled for Saturday 18th April 2026, duration 6 hours from 10 AM to 4 PM, during this window BESCOM grid power will be the only source (no DG failover), residents with medical equipment or WFH needs should plan ahead, and lifts and common area lighting will also be affected if a grid outage occurs. Please provide: (1) a clear subject line, (2) explanation of why the maintenance is necessary, (3) exact date, time, and duration, (4) list of affected services, (5) preparation checklist for residents (charge laptops, UPS for routers, medical device backup), (6) emergency contact during the window, and (7) apology and reassurance. Format as a formal circular under 300 words suitable for the community app and noticeboard.",
+      "tags": [
+        "maintenance",
+        "tenant-comm",
+        "dg-backup"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-011",
+      "title": "PG Accommodation Inquiry Response",
+      "prompt": "Act as a property manager running a chain of 6 PG accommodations for students and young professionals in Kota, Indore, and Jaipur. I need you to write a WhatsApp inquiry response template for prospective PG residents. Here is the context: a parent from Bhopal messaged asking about a single-occupancy room for their daughter who is preparing for NEET 2027, PG is in Mahaveer Nagar Kota, monthly charges Rs 12,500 including 3 meals (veg, Jain-friendly), laundry, Wi-Fi, RO water, study table, and 24/7 security with female warden. Please provide: (1) a warm greeting in respectful Hindi-English mix, (2) full fee structure breakdown with security deposit (Rs 10,000 refundable), (3) amenities list emphasising safety for female residents, (4) house rules (entry timing 9:30 PM, guest policy, quiet hours for study), (5) proximity to Allen, Resonance, and Motion coaching centres, (6) virtual tour link placeholder and physical visit booking, and (7) admission documents needed. Format as a ready-to-send WhatsApp response under 280 words. Tone should be reassuring to parents and respectful of Indian family values.",
+      "tags": [
+        "tenant-comm",
+        "pg-housing",
+        "student"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-012",
+      "title": "Society Maintenance Dues Follow-up",
+      "prompt": "Act as a property manager coordinating with RWAs across 15 societies in Greater Noida and Ghaziabad with 7 years of experience. I need you to draft a follow-up letter to a tenant whose landlord has instructed them to pay society maintenance directly. Here is the context: tenant Kabir Malhotra has not paid the quarterly maintenance of Rs 9,600 for 3 months, society is charging Rs 50 per day late penalty, society secretary has sent reminder to the landlord, and as per clause 14 of the leave & license agreement the tenant is responsible for monthly maintenance. Please provide: (1) a formal letter header with property and tenant details, (2) reference to the specific agreement clause, (3) a breakdown of dues and late fees in INR, (4) a 7-day payment deadline, (5) bank details for society account, (6) consequence warning (notice of breach, society facility access restriction), and (7) a respectful but firm closing. Format as a 300-word formal letter on letterhead. Tone should be firm, legally sound, and avoid emotional language.",
+      "tags": [
+        "tenant-comm",
+        "rwa",
+        "maintenance-dues"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-013",
+      "title": "Tenant Exit Checklist and Inspection Form",
+      "prompt": "Act as a property manager with 8 years of experience handling tenant move-outs in Mumbai metropolitan region. I need you to create a comprehensive tenant exit checklist and move-out inspection form. Here is the context: tenant is vacating a 2BHK furnished flat in Malad West, original furnishing list includes 1 double bed, 2 ACs, 1 fridge, 1 washing machine, 1 sofa set, 1 dining table with 4 chairs, 2 wardrobes, and a modular kitchen with chimney, rental was Rs 42,000/month for 11 months, security deposit Rs 2,10,000. Please provide: (1) a pre-exit checklist for tenant (7 days before move-out - utility bill clearance, society NOC, society RO token return, repainting intimation), (2) move-out day checklist (meter readings, key return, furniture count, cleanliness), (3) room-by-room inspection form with pass/fail and remarks columns, (4) photo documentation requirement, (5) damages assessment table with repair cost estimates, (6) handover confirmation signatures section, and (7) post-exit follow-up for deposit refund timeline. Format as a printable 2-page form. Keep it clear and dispute-proof.",
+      "tags": [
+        "lease-review",
+        "tenant-comm",
+        "exit"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-014",
+      "title": "Festive Society Decoration Budget Notice",
+      "prompt": "Act as a property manager for a 180-flat society in Sector 50 Noida with 6 years of RWA experience. I need you to draft a notice to residents proposing the Diwali 2026 decoration and celebration budget. Here is the context: proposed total budget is Rs 1,20,000 covering entrance rangoli, diya lighting across 3 towers, a cultural evening with DJ and snacks, prizes for best-decorated flat contest, and a safety-first no-firecracker policy, cost per flat works out to Rs 667, to be added to November maintenance bill, RWA committee needs approval via WhatsApp poll by 20th October. Please provide: (1) a festive but professional subject line, (2) greeting referencing the upcoming Diwali, (3) itemised budget breakdown in INR, (4) per-flat cost calculation, (5) celebration schedule for Diwali evening, (6) volunteer call-out for decoration committee, (7) voting instructions and deadline, and (8) safety reminders. Format as a warm community notice under 350 words. Tone should be inclusive, festive, and respectful of all residents.",
+      "tags": [
+        "rwa",
+        "tenant-comm",
+        "festivals"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-015",
+      "title": "Rent Escalation Intimation Letter",
+      "prompt": "Act as a property manager with 7 years of experience handling rent renewals across tier-1 Indian cities. I need you to draft a rent escalation intimation letter to a tenant whose 11-month leave & license agreement is up for renewal. Here is the context: tenant Meera Joshi has been renting a 1BHK in Bandra East, Mumbai, for 3 years, current rent is Rs 36,000/month, proposed new rent is Rs 39,600 (10% escalation as per clause 5 of the existing agreement), new maintenance is Rs 2,800, agreement renewal fee Rs 6,000 split equally, new effective date is 1st June 2026, she has been a timely-paying tenant. Please provide: (1) a warm opening acknowledging her good tenancy, (2) reference to the escalation clause, (3) justification using market comparables in Bandra East (mention 3 similar units in INR), (4) new rent and maintenance figures, (5) renewal logistics (agreement registration at sub-registrar, stamp duty Rs 500, notary), (6) a 15-day response window, and (7) a polite closing expressing desire to continue the tenancy. Format as a 320-word formal letter.",
+      "tags": [
+        "rent-adjustment",
+        "lease-review",
+        "tenant-comm"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-016",
+      "title": "Broken Intercom Vendor Coordination Note",
+      "prompt": "Act as a property manager responsible for 5 residential societies in Kharadi, Pune, with 4 years of facility coordination experience. I need you to draft a coordination note to the intercom AMC vendor about repair work across flats. Here is the context: 8 flats in Tower C are reporting intercom issues (static, no ring, no display), vendor is Matrix Telecom Systems with an annual AMC of Rs 24,000, SLA is 48 hours for multiple-unit complaints, preferred slot is weekday afternoon between 2 PM and 5 PM when most flats are accessible via housekeeping, society guards have master access for unoccupied flats. Please provide: (1) a formal email subject, (2) list of 8 affected flat numbers with reported symptoms, (3) requested inspection date and time window, (4) coordinator contact at the gate, (5) reference to AMC clause and SLA, (6) request for root cause analysis (wiring, main panel, or individual units), (7) ask for a written report post-visit, and (8) payment timeline for any out-of-AMC parts. Format as a professional email under 280 words.",
+      "tags": [
+        "maintenance",
+        "vendor-dispatch",
+        "sla"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-017",
+      "title": "Lease Clause Review for Escalation Rights",
+      "prompt": "Act as a property law specialist and senior property manager with 12 years of experience reviewing leave & license agreements in Maharashtra and Karnataka. I need you to review and improve the rent escalation clause in a draft 11-month leave & license agreement. Here is the context: the property is a 3BHK in Whitefield, Bengaluru, owned by an NRI landlord, the existing draft clause says \"Rent may be revised at the discretion of the Licensor\" which is vague and unenforceable, the landlord wants to ensure 8 to 10 percent annual escalation without disputes, and the Model Tenancy Act 2021 principles apply. Please provide: (1) an analysis of why the existing clause is weak, (2) a redrafted escalation clause with specific percentage (9 percent), base rent reference, trigger date, and notice period, (3) CPI-linked alternative wording as a backup, (4) a fallback mechanism if tenant refuses escalation (mutual termination with 60-day notice), (5) legal enforceability notes under Karnataka Rent Act considerations, (6) recommendations on stamp duty implications, and (7) 3 sample comparable clauses used by PropTiger and NoBroker Manage. Format as a legal review memo with headings.",
+      "tags": [
+        "lease-review",
+        "escalation",
+        "rent-adjustment"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-018",
+      "title": "Multi-Vendor SLA Scorecard",
+      "prompt": "Act as a property operations manager overseeing 12 residential properties in Delhi NCR with 9 years of vendor management experience. I need you to design a monthly multi-vendor SLA scorecard to evaluate maintenance vendors. Here is the context: current vendor panel includes a plumber (Ramesh Plumbing), electrician (Sparkx Electrical), carpenter (WoodWorks Delhi), pest control (HiCare), lift AMC (Schindler), and DG AMC (Sudhir Gensets), total monthly spend across all properties is Rs 2,45,000, SLA breaches have been increasing, and landlords are demanding accountability. Please provide: (1) 6 KPIs for each vendor (response time, resolution time, first-call fix rate, tenant satisfaction score, cost variance vs quote, rework rate), (2) a weighted scoring model out of 100, (3) a monthly scorecard template in table format, (4) a traffic light system (green above 85, amber 70 to 85, red below 70), (5) an escalation matrix for red-rated vendors, (6) a vendor review meeting agenda, and (7) recommendations for vendor replacement thresholds. Format as an actionable operations document with tables.",
+      "tags": [
+        "maintenance",
+        "vendor-dispatch",
+        "sla",
+        "operations"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-019",
+      "title": "Rent Comparables Analysis for Bandra",
+      "prompt": "Act as a real estate analyst and property manager with 10 years of experience in Mumbai rental markets. I need you to conduct a rent comparables analysis to justify a rent revision for a 2BHK flat. Here is the context: subject property is a 2BHK, 950 sqft, 5th floor, semi-furnished flat in Pali Hill, Bandra West, current rent Rs 85,000/month, landlord wants to revise to Rs 95,000 on renewal, tenant is pushing back citing cooling market, I need data-backed justification. Please provide: (1) a framework for selecting comparable properties (radius, size, floor, furnishing match), (2) a table of 6 hypothetical but realistic comparable listings in Pali Hill and Bandra West with rent per sqft, (3) adjustments methodology (plus for high floor, minus for unfurnished, etc.), (4) weighted average market rent calculation, (5) CPI inflation adjustment for Mumbai (use approximate 6 percent annual), (6) a final justified rent range with confidence level, (7) talking points for tenant conversation, and (8) data sources (MagicBricks, 99acres, Housing.com, NoBroker). Format as a 2-page market analysis report with tables.",
+      "tags": [
+        "rent-adjustment",
+        "comparables",
+        "mumbai"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-020",
+      "title": "Tenant Notice to Vacate Response",
+      "prompt": "Act as a property manager with 8 years of experience handling tenant exits and legal notices in Tamil Nadu. I need you to draft a professional response to a tenant's notice to vacate. Here is the context: tenant Vignesh Raman has given 45 days notice (required is 60 days per clause 8 of the leave & license agreement) to vacate a 2BHK in Adyar, Chennai, current rent Rs 40,000, security deposit Rs 2,00,000, reason cited is job relocation to Singapore, he has requested full security deposit refund and waiver of the extra 15 days notice shortfall, current date is 14th April 2026 and he wants to move out by 29th May 2026. Please provide: (1) an acknowledgement of his notice, (2) reference to the exact clause about notice period, (3) a reasonable compromise offer (either 15 days rent deduction of Rs 20,000 from deposit or help find a replacement tenant by 29th May), (4) move-out inspection scheduling, (5) security deposit refund process and timeline (within 30 days of exit per agreement), (6) documents needed for handover, and (7) wishes for his new role. Format as a 320-word professional email. Keep tone empathetic but legally sound.",
+      "tags": [
+        "tenant-comm",
+        "lease-review",
+        "exit"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-021",
+      "title": "Vacancy Marketing Campaign Plan",
+      "prompt": "Act as a digital marketing specialist focused on Indian residential rentals with 6 years of experience. I need you to build a 14-day vacancy marketing campaign plan for a 3BHK flat. Here is the context: property is in HSR Layout Sector 2, Bengaluru, rent Rs 62,000/month plus Rs 4,500 maintenance, 1450 sqft, fully furnished, 10th floor, east-facing with park view, available from 1st May 2026, target audience is tech professionals and young families, budget for paid promotion is Rs 8,000. Please provide: (1) a channel mix (MagicBricks premium, 99acres, NoBroker, Instagram, Facebook Marketplace, WhatsApp broker network, local society groups), (2) a 14-day content calendar with daily activities, (3) 3 creative angles (location premium, fully furnished convenience, family-friendly), (4) budget allocation per channel in INR, (5) lead qualification questions, (6) site visit funnel and conversion targets (50 leads to 12 visits to 1 closure), (7) a WhatsApp CRM workflow, and (8) weekly review metrics. Format as a structured marketing plan with tables and timelines.",
+      "tags": [
+        "vacancy-marketing",
+        "listing",
+        "social-media"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-022",
+      "title": "Maintenance SLA Framework Document",
+      "prompt": "Act as a property operations head for a property management firm with 11 years of experience, handling 500+ rental units across Mumbai, Pune, and Bengaluru. I need you to draft a complete maintenance SLA framework document that tenants and landlords can reference. Here is the context: we want standardised response and resolution times for different ticket categories, a clear escalation path, and penalties for SLA breaches that affect our management fee. Please provide: (1) ticket classification into 4 tiers (P1 emergency like major water leak or total power failure, P2 urgent like no hot water or lift down, P3 standard like minor plumbing or appliance issue, P4 cosmetic like paint touch-up), (2) response and resolution time targets for each tier, (3) communication protocol (WhatsApp acknowledgement within X minutes, vendor dispatch within Y hours), (4) vendor coordination workflow, (5) tenant update cadence, (6) escalation matrix to senior PM and then landlord, (7) cost approval thresholds (below Rs 3,000 auto-approved, Rs 3,000 to Rs 15,000 landlord consent, above Rs 15,000 written estimate), and (8) SLA breach remedies. Format as a 2-page framework with a summary table.",
+      "tags": [
+        "maintenance",
+        "sla",
+        "operations"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-023",
+      "title": "Security Deposit Dispute Resolution Letter",
+      "prompt": "Act as a property manager with 9 years of experience resolving landlord-tenant disputes in Gujarat and Maharashtra. I need you to draft a structured dispute resolution letter to a tenant contesting security deposit deductions. Here is the context: tenant Zainab Kothari vacated a 2BHK in Vastrapur, Ahmedabad, original deposit Rs 1,50,000, I deducted Rs 28,000 for painting (Rs 15,000), broken wardrobe shutter (Rs 6,000), deep cleaning (Rs 4,000), pest fumigation (Rs 3,000), she is disputing claiming normal wear and tear, I have photos and vendor quotations. Please provide: (1) a professional letter opening acknowledging her dispute, (2) reference to the relevant agreement clause on wear and tear vs damage, (3) itemised justification for each deduction with evidence references, (4) explanation of Model Tenancy Act 2021 principles on normal wear and tear, (5) an offer to share photos and vendor invoices via email, (6) a good-faith compromise (Rs 4,000 waiver on deep cleaning as goodwill), (7) a 10-day response window, and (8) mediation option before legal escalation. Format as a formal 400-word letter. Tone should be firm, evidence-based, and solution-oriented.",
+      "tags": [
+        "lease-review",
+        "security-deposit",
+        "dispute"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-024",
+      "title": "Tenant Screening Interview Script",
+      "prompt": "Act as a senior property manager with 8 years of experience in tenant screening for premium residential properties. I need you to design a structured tenant screening interview script for prospective tenants. Here is the context: property is a 3BHK in Jubilee Hills, Hyderabad, monthly rent Rs 75,000, landlord wants professional working couples or small families, no bachelors or parties, needs verifiable employment and rental history, and we want to assess cultural fit with the society. Please provide: (1) 5 opening rapport-building questions, (2) 8 qualification questions (occupation, family size, current residence, reason for shift, budget confirmation, pet ownership, dietary habits for veg-only society, duration of stay), (3) 5 red-flag questions (previous evictions, deposit disputes, police complaints, social media check consent), (4) a document verification checklist (employment letter, 3-month salary slips, Aadhaar, PAN, previous landlord reference), (5) a scoring rubric out of 50 with weightage, (6) tenant background verification steps via NoBroker or offline, (7) a follow-up email template post-interview, and (8) rejection script (polite and non-discriminatory). Format as a ready-to-use interview toolkit.",
+      "tags": [
+        "tenant-comm",
+        "screening",
+        "onboarding"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-025",
+      "title": "Quarterly Landlord Performance Report",
+      "prompt": "Act as a property management account executive at NoBroker Manage with 5 years of experience serving NRI and HNI landlords. I need you to create a quarterly performance report template for a landlord who owns 3 rental properties in Bengaluru. Here is the context: landlord is based in San Jose USA, owns a 3BHK in Indiranagar (rented Rs 68,000), 2BHK in HSR Layout (rented Rs 42,000), and 1BHK in Electronic City (vacant for 20 days). Please provide: (1) an executive summary for Q1 2026, (2) occupancy and rent collection table with gross collected vs billed, (3) maintenance ticket summary per property with cost breakdown in INR, (4) vendor spend analysis, (5) vacancy analysis for the 1BHK with marketing spend and leads, (6) key issues and resolutions log, (7) upcoming quarter priorities (renewals due, planned maintenance), (8) net amount remitted to landlord after management fee (8 percent) and TDS (31.2 percent for NRI under Section 195), and (9) recommendations for rent revision. Format as a 2-page report with tables and charts descriptions.",
+      "tags": [
+        "reporting",
+        "operations",
+        "nri"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-026",
+      "title": "Tenant Dispute Mediation Script",
+      "prompt": "Act as a property manager trained in conflict resolution with 7 years of experience mediating disputes between co-tenants in shared accommodations. I need you to create a mediation script for a common roommate dispute. Here is the context: two working professionals share a 2BHK in Koramangala, Bengaluru, rent Rs 45,000 split equally, tenant A (Ananya) complains about tenant B (Rohit) playing loud music till 2 AM, not cleaning common areas, and having frequent overnight guests, tenant B counters that Ananya is being overly controlling and threatens to move out, both approached me for resolution. Please provide: (1) a neutral opening statement setting ground rules for the mediation, (2) individual turn-by-turn questions to each tenant (3 per side), (3) identification of common ground, (4) a proposed house rules agreement (noise hours 10 PM to 7 AM, cleaning rota, guest policy max 2 nights per month), (5) a written commitment template both tenants sign, (6) follow-up check-in at 2 weeks and 1 month, and (7) escalation path if the dispute repeats (formal warning, move-out request). Format as a mediation playbook under 400 words.",
+      "tags": [
+        "tenant-comm",
+        "dispute",
+        "pg-housing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-027",
+      "title": "Property Tax Payment Reminder System",
+      "prompt": "Act as a property manager with 10 years of experience handling statutory compliance for 60+ rental properties across BBMP, PMC, and MCGM jurisdictions. I need you to design a property tax payment reminder system for landlords. Here is the context: property tax due dates vary by city (BBMP April 30, PMC June 30, MCGM March 31), discounts available for early payment (BBMP 5 percent if paid by April 30), penalties for late payment (2 percent per month), and landlords often miss deadlines leading to penalties. Please provide: (1) a 12-month compliance calendar per city, (2) reminder cadence (90 days, 30 days, 7 days before due date), (3) WhatsApp and email reminder templates for each stage, (4) a tracking spreadsheet structure (property, jurisdiction, PID/CTS number, last paid, next due, amount), (5) document collection checklist (previous receipt, khata, assessment copy), (6) online payment portal links and process steps, (7) escalation process for unresponsive landlords, and (8) monthly review meeting agenda. Format as an operations system document with templates and tables.",
+      "tags": [
+        "operations",
+        "compliance",
+        "reporting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-028",
+      "title": "Furnishing Depreciation Schedule",
+      "prompt": "Act as a property manager with accounting expertise and 8 years of experience handling fully-furnished rental properties in Pune and Mumbai. I need you to create a furnishing depreciation schedule to fairly assess deductions at lease end. Here is the context: a 2BHK furnished flat in Viman Nagar, Pune, has the following furnishings with original cost - 1 double bed Rs 25,000, 1 single bed Rs 15,000, 2 wardrobes Rs 30,000, sofa set Rs 40,000, dining set Rs 22,000, 2 ACs Rs 70,000, 1 fridge Rs 28,000, 1 washing machine Rs 24,000, 1 microwave Rs 8,000, 1 TV Rs 35,000, curtains and soft furnishings Rs 18,000, modular kitchen fittings Rs 60,000, total Rs 3,75,000, most items are 2 years old. Please provide: (1) industry-standard useful life in years per category, (2) straight-line depreciation rate per year, (3) current book value after 2 years per item, (4) a damage vs wear matrix (what qualifies for tenant deduction vs normal wear), (5) replacement cost reference, (6) a final depreciation table, and (7) notes on how to communicate this transparently to tenants. Format as a financial schedule with tables.",
+      "tags": [
+        "lease-review",
+        "security-deposit",
+        "operations"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-029",
+      "title": "Model Tenancy Act Compliance Audit",
+      "prompt": "Act as a property law consultant and senior property manager with 12 years of experience advising property management firms on regulatory compliance. I need you to conduct a Model Tenancy Act 2021 compliance audit for a property management firm operating in a state that has adopted the Act (Tamil Nadu). Here is the context: the firm manages 85 residential units in Chennai suburbs, current practices include 11-month leave & license agreements, deposits ranging from 5 to 10 months of rent, no rent authority registration, and ad-hoc dispute resolution. Please provide: (1) a compliance audit checklist covering all key MTA 2021 provisions, (2) analysis of the 2-month deposit cap for residential under MTA and whether it applies, (3) rent authority registration requirements, (4) written tenancy agreement standards, (5) eviction grounds and notice periods, (6) maintenance responsibility split between landlord and tenant, (7) gaps identified in the firm's current practices with risk ratings (high/medium/low), (8) a 90-day remediation roadmap, and (9) template clauses to add to standard agreements. Format as a compliance audit report with findings and recommendations.",
+      "tags": [
+        "lease-review",
+        "compliance",
+        "mta"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-030",
+      "title": "Emergency Water Leak Response Playbook",
+      "prompt": "Act as a property operations manager with 9 years of experience handling emergency maintenance incidents across high-rise buildings in Mumbai. I need you to create an emergency water leak response playbook for my team. Here is the context: water leaks are the #1 emergency ticket category, they often affect multiple flats (leak from flat above into flat below), can involve society infrastructure (common pipes, overhead tank), and require quick decision-making, we manage 200+ units. Please provide: (1) a severity classification (minor drip, moderate leak, major flooding), (2) first-60-minutes action checklist (tenant contact, shut-off valve, vendor dispatch, insurance documentation), (3) vendor contact tree (primary plumber, backup plumber, society-approved vendor), (4) affected flats coordination protocol, (5) documentation requirements (photos, videos, damage estimate), (6) cost allocation decision tree (tenant misuse vs landlord responsibility vs society common area vs upstairs flat liability), (7) tenant temporary accommodation protocol if flat is uninhabitable, (8) insurance claim initiation steps, and (9) post-incident report template. Format as an operations playbook with flowcharts described in text.",
+      "tags": [
+        "maintenance",
+        "plumbing",
+        "operations",
+        "sla"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-031",
+      "title": "Student PG Parent Engagement Program",
+      "prompt": "Act as a PG accommodation chain operations head with 7 years of experience managing student housing in Kota, Hyderabad, and Bengaluru. I need you to design a parent engagement program to build trust and improve retention. Here is the context: we operate 8 PGs for 400+ students preparing for JEE, NEET, UPSC, and working professionals, parents are the primary decision-makers and payers, average stay is 18 months, current complaints are around lack of visibility into student wellbeing, food quality, and safety. Please provide: (1) program objectives and success metrics, (2) a monthly parent newsletter structure (student activities, menu, health checks, academic updates), (3) a parent dashboard mockup description (attendance, meal opt-ins, visitor log, CCTV snippets, fee status), (4) quarterly virtual parent meeting agenda, (5) an emergency escalation protocol for health or safety issues, (6) a feedback collection mechanism with NPS scoring, (7) a parent-student video call slot booking system, and (8) a loyalty reward for 12-month renewals (Rs 2,000 discount). Format as a program document with phases and deliverables.",
+      "tags": [
+        "tenant-comm",
+        "pg-housing",
+        "operations"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-032",
+      "title": "Leave and License Agreement Full Review",
+      "prompt": "Act as a senior property lawyer and property manager with 15 years of experience drafting and reviewing leave & license agreements in Maharashtra. I need you to review a complete 11-month leave & license agreement for a residential property and flag all issues. Here is the context: the property is a 3BHK flat in Worli, Mumbai, monthly license fee Rs 1,20,000, deposit Rs 12,00,000 (10 months), landlord is represented by a power of attorney holder, licensee is a senior executive at a multinational, agreement is to be registered under the Maharashtra Rent Control Act and Registration Act 1908. Please provide a comprehensive review covering: (1) parties and capacity clauses (PoA validity), (2) premises description and schedule accuracy, (3) license fee, escalation, and payment mode clauses, (4) deposit clause (interest, refund timeline, deduction grounds), (5) maintenance split (who pays society charges, property tax, utilities), (6) termination and notice period, (7) lock-in period clause enforceability, (8) repair and alteration clauses, (9) force majeure and COVID-style contingency, (10) dispute resolution and governing jurisdiction, (11) stamp duty and registration compliance under Section 55 of Maharashtra Rent Control Act, and (12) 8 specific recommendations to strengthen landlord position without making it one-sided. Format as a legal review memo with section-by-section analysis.",
+      "tags": [
+        "lease-review",
+        "compliance",
+        "mumbai"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-033",
+      "title": "Rent Yield Optimisation Strategy",
+      "prompt": "Act as a real estate investment advisor and property manager with 14 years of experience advising HNI and NRI landlords on yield optimisation in Indian metros. I need you to build a 12-month rent yield optimisation strategy for a landlord portfolio. Here is the context: the portfolio has 5 properties - a 4BHK in DLF Phase 2 Gurgaon (current rent Rs 1,10,000, market Rs 1,35,000), 3BHK in Powai Mumbai (Rs 85,000, market Rs 95,000), 2BHK in Koramangala Bengaluru (Rs 50,000, market Rs 58,000), 2BHK in Gomti Nagar Lucknow (Rs 22,000, market Rs 28,000), and 1BHK in Kharghar Navi Mumbai (vacant 60 days, expected Rs 24,000), total capital employed Rs 18 crore, current annualised yield is 2.8 percent. Please provide: (1) a current vs market yield gap analysis per property, (2) root cause analysis of underperformance, (3) a 4-quarter action plan (Q1 minor cosmetic upgrades, Q2 rent revisions on renewals, Q3 tenant upgrades, Q4 vacancy refill), (4) capex recommendations with ROI per property (Rs amounts), (5) target yield post-optimisation (aim 3.6 percent), (6) risk mitigation for each action, (7) a monthly tracking dashboard structure, and (8) an exit recommendation for any property below 2 percent yield. Format as an investment strategy memo with tables.",
+      "tags": [
+        "rent-adjustment",
+        "operations",
+        "reporting"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-034",
+      "title": "Multi-City Maintenance Cost Benchmarking",
+      "prompt": "Act as a property operations director at a national property management firm (similar to NoBroker Manage or PropTiger) with 16 years of experience. I need you to build a multi-city maintenance cost benchmarking analysis to identify outliers and optimisation opportunities. Here is the context: we manage 1,200 rental units across 8 cities (Mumbai, Delhi NCR, Bengaluru, Pune, Hyderabad, Chennai, Kolkata, Ahmedabad), annual maintenance spend is Rs 4.8 crore, vendor panels differ per city, and we want to identify cost inefficiencies. Please provide: (1) a benchmarking framework with cost per unit per month by category (plumbing, electrical, carpentry, painting, pest control, deep cleaning, appliance repair), (2) a hypothetical cost table across the 8 cities showing variance, (3) outlier detection methodology (2 standard deviations from mean), (4) root cause analysis categories (vendor pricing, ticket volume, unit age, tenant behaviour), (5) 6 specific optimisation levers (vendor consolidation, preventive maintenance, tenant education, AMC negotiations, bulk procurement, inventory pooling), (6) expected savings Rs 48 lakh in year 1, (7) a 6-month rollout plan with milestones, and (8) a governance structure for ongoing benchmarking. Format as a strategic operations report with tables and recommendations.",
+      "tags": [
+        "maintenance",
+        "operations",
+        "reporting"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-035",
+      "title": "NRI Landlord Tax and Compliance Advisory",
+      "prompt": "Act as a chartered accountant and property manager hybrid with 12 years of experience serving NRI landlords with Indian residential properties. I need you to create a comprehensive tax and compliance advisory for an NRI landlord. Here is the context: the landlord is based in Singapore, PAN holder, owns 2 rental properties (3BHK in Bandra Mumbai rented Rs 1,20,000 and 2BHK in Whitefield Bengaluru rented Rs 55,000), earns rental income of Rs 21 lakh annually gross, has home loan EMI of Rs 65,000 on Bandra property, pays society maintenance and property taxes, wants to repatriate net rental income back to Singapore. Please provide: (1) TDS obligations under Section 195 for tenants paying rent to NRI landlord (31.2 percent) and Form 15CA/15CB requirements, (2) income tax computation under Section 24 with 30 percent standard deduction and interest on home loan, (3) GST applicability (nil for residential), (4) how tenant should deduct and deposit TDS with Form 16A, (5) DTAA benefits under India-Singapore treaty, (6) FEMA repatriation limits and NRO/NRE account structuring, (7) annual compliance calendar, (8) estimated net take-home in SGD, and (9) risk areas and audit triggers. Format as an advisory memo with computations.",
+      "tags": [
+        "compliance",
+        "nri",
+        "reporting"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-036",
+      "title": "Tenant Eviction Legal Notice Draft",
+      "prompt": "Act as a property lawyer and senior property manager with 13 years of experience handling eviction proceedings under state rent acts in India. I need you to draft a legally sound tenant eviction notice for a case of persistent rent default. Here is the context: tenant Rajesh Kumar has been renting a 2BHK in Indiranagar, Bengaluru, since March 2024, monthly rent Rs 38,000, he has not paid rent for 4 consecutive months (December 2025 to March 2026) totalling Rs 1,52,000 plus late fees Rs 18,000, multiple reminders and WhatsApp messages have been sent, landlord has instructed eviction, applicable law is Karnataka Rent Act 1999 read with Model Tenancy Act principles, agreement is a registered leave & license under clause 11 allowing termination for non-payment exceeding 2 months. Please provide: (1) a formal legal notice header with sender and recipient details, (2) recitation of facts and rent default history with dates and amounts, (3) reference to specific agreement clauses and applicable law sections, (4) a 30-day cure period demand for clearing dues, (5) consequences of non-compliance (termination, eviction, civil suit, interest at 18 percent per annum), (6) demand for vacant peaceful possession, (7) request for written response, (8) notice period calculation, and (9) signature block with advocate details placeholder. Format as a formal legal notice of 450 words.",
+      "tags": [
+        "lease-review",
+        "dispute",
+        "compliance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-037",
+      "title": "RWA Takeover and Handover Protocol",
+      "prompt": "Act as a facility management consultant and property manager with 15 years of experience advising newly-formed RWAs (Resident Welfare Associations) on builder-to-RWA handover processes. I need you to create a comprehensive takeover and handover protocol document. Here is the context: a 450-flat gated community in Noida Expressway is transitioning from builder-managed facility to RWA management, builder is Supertech-like developer, current corpus fund is Rs 1.8 crore, residents have complaints about deferred maintenance, common area defects are unresolved, RERA handover was completed 6 months ago, but actual ops handover is now due. Please provide: (1) a 60-day handover roadmap, (2) a 15-category handover checklist (legal documents, financial records, AMC contracts, staff handover, utility accounts, DG and lift records, fire safety, STP and WTP, security systems, landscape, parking allotment, NOCs, builder warranty claims, pending statutory dues, society formation documents), (3) a defects list compilation methodology under RERA Section 14(3) five-year warranty, (4) financial audit scope for the builder-held corpus, (5) a joint inspection protocol, (6) RWA committee formation and bank account opening, (7) staff retention vs replacement decision framework, (8) AMC renegotiation opportunities, and (9) dispute escalation with builder. Format as a handover playbook with checklists and timelines.",
+      "tags": [
+        "rwa",
+        "operations",
+        "compliance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-038",
+      "title": "CPI-Linked Rent Escalation Model",
+      "prompt": "Act as a real estate economist and property manager with 14 years of experience designing rent escalation structures for long-term leases in India. I need you to build a CPI-linked rent escalation model for a 5-year corporate lease. Here is the context: the property is a 4BHK villa in Whitefield, Bengaluru, leased to a multinational for expat housing, initial monthly rent Rs 1,80,000, lease term 60 months (5 years) as a single 60-month leave & license agreement (valid in Karnataka), lessee wants predictability, lessor wants protection against inflation, target is fair escalation linked to Indian CPI (average 6 percent last 5 years) with a floor and cap. Please provide: (1) a detailed escalation formula using CPI (Urban Bengaluru or All-India base, published by MoSPI), (2) annual review date and reference CPI month, (3) floor of 4 percent and cap of 8 percent per annum, (4) a year-by-year illustration showing rent progression under low, base, and high CPI scenarios, (5) calculation example for year 3 if CPI inflation is 7.2 percent, (6) clause wording that is legally enforceable and unambiguous, (7) dispute resolution for CPI data disputes, (8) tax implications under GST for commercial leasing (18 percent) if applicable, and (9) comparison with simple fixed 5 percent annual escalation showing landlord NPV difference. Format as a financial model memo with tables and the sample clause.",
+      "tags": [
+        "rent-adjustment",
+        "lease-review",
+        "escalation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-039",
+      "title": "Property Portfolio Risk Assessment",
+      "prompt": "Act as a property risk management specialist with 13 years of experience advising institutional landlords and family offices on residential rental portfolio risk. I need you to conduct a complete risk assessment on a 20-property residential rental portfolio. Here is the context: a family office owns 20 residential rental units valued at Rs 75 crore across Mumbai, Pune, and Bengaluru, annual rental income Rs 3.2 crore (4.3 percent yield), 3 properties are currently vacant, 2 tenants are in rent default, 1 property has a structural dispute with the builder, insurance coverage is patchy, some agreements have expired and are on holdover. Please provide: (1) a risk taxonomy (market, credit/tenant default, legal, physical/structural, regulatory, liquidity, operational, concentration, insurance), (2) a scoring rubric (impact 1-5, likelihood 1-5), (3) a risk register with 15 specific risks identified, scored, and owned, (4) top 5 risks requiring immediate action with mitigation plans and costs in INR, (5) insurance gap analysis (fire, earthquake, rental loss, landlord liability), (6) a concentration analysis (geographic, tenant type, rent range), (7) recommended portfolio diversification moves, (8) a quarterly risk review governance, and (9) expected risk-adjusted yield improvement post-mitigation. Format as a 3-page risk assessment report with a risk heat map described in text.",
+      "tags": [
+        "operations",
+        "reporting",
+        "compliance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    },
+    {
+      "id": "real-estate-property-managers-040",
+      "title": "End-to-End Property Management SOP Manual",
+      "prompt": "Act as a founding operations head at a new property management startup competing with NoBroker Manage and PropTiger with 16 years of industry experience. I need you to draft an end-to-end standard operating procedure manual covering the full tenant lifecycle for a property management firm. Here is the context: the startup will manage 300 units in the first year across Bengaluru and Hyderabad, team size is 12 (3 PMs, 4 field execs, 2 marketing, 2 accounts, 1 head), target is 95 percent occupancy and 98 percent on-time rent collection, Model Tenancy Act 2021 compliance required, tech stack includes a CRM and WhatsApp API. Please provide a comprehensive SOP manual covering: (1) property onboarding (landlord KYC, property inspection, photography, agreement signup), (2) vacancy marketing (portal listings, social campaigns, lead qualification), (3) tenant screening and agreement signup (document verification, police verification, registration), (4) tenant onboarding (welcome kit, key handover, meter readings), (5) ongoing tenant communication (monthly rent collection, receipts, grievances), (6) maintenance ticket management (SLA tiers, vendor dispatch, cost approvals), (7) renewals and escalations (comparables analysis, negotiation, re-registration), (8) tenant exit (notice, inspection, deposit refund, handover), (9) landlord reporting (monthly statements, TDS, remittance), (10) compliance (MTA, state rent acts, property tax, GST for commercial), (11) escalation matrix, and (12) 10 key KPIs with targets. Format as a structured SOP manual with sections, subsections, and process flows described. Aim for comprehensive but concise coverage.",
+      "tags": [
+        "operations",
+        "compliance",
+        "reporting",
+        "sla"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "property-managers"
+    }
+  ]
+}

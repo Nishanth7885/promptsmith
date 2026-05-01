@@ -1,0 +1,527 @@
+{
+  "category": "students",
+  "subcategory": "mba-business",
+  "count": 40,
+  "prompts": [
+    {
+      "id": "students-mba-business-001",
+      "title": "Porter's Five Forces Analysis for Indian Case",
+      "prompt": "Act as a strategy professor at IIM Ahmedabad with 15 years of experience teaching competitive strategy using HBS-style cases. I need you to run a rigorous Porter's Five Forces analysis on an Indian company case I am preparing for class discussion. Here is the context: I will paste the case facts below — company name, industry, geography, financials in INR crores, and the decision point the protagonist faces. The case is set in the Indian market where factors like Jio-led disruption, SEBI/CCI regulations, unorganised sector competition, and monsoon/festive demand cycles often matter. [PASTE CASE FACTS HERE]. Please provide: (1) A one-paragraph industry definition with Indian market size in INR crores and CAGR, (2) Each of the five forces rated Low/Medium/High with two sentences of India-specific evidence per force — threat of new entrants, bargaining power of suppliers, bargaining power of buyers, threat of substitutes, competitive rivalry, (3) A weighted average industry attractiveness score out of 10, (4) Three non-obvious strategic implications for the protagonist, (5) One contrarian view a classmate might raise and how to counter it. Format as a structured memo with headers, bullet points, and a summary table. Consider these constraints: cite real Indian competitors by name where relevant (Reliance, Tata, Adani, Flipkart, Amazon India, DMart, etc.), reference applicable CCI or sector regulator rules, and avoid generic textbook language — this must sound like a WAC submission at IIM-A."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["porter-five-forces", "case-analysis", "competitive-strategy", "iim-wac"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true
+    },
+    {
+      "id": "students-mba-business-002",
+      "title": "SWOT + TOWS Matrix for Live Company",
+      "prompt": "Act as a senior strategy consultant and visiting faculty at XLRI Jamshedpur with deep experience coaching first-year MBAs on live-company projects. I need you to build a SWOT analysis plus an actionable TOWS matrix for an Indian company I am studying. Here is the context: I am preparing a 10-minute class presentation on [COMPANY NAME — e.g., Nykaa, Zomato, Paytm, Tata Motors EV, Britannia]. I will paste the latest annual report highlights, stock price, and any news below. [PASTE COMPANY DATA HERE]. The audience expects India-specific nuance — not a Wikipedia rehash. Please provide: (1) 5 Strengths and 5 Weaknesses grounded in the latest INR financials, market share, and operating metrics, (2) 5 Opportunities and 5 Threats tied to Indian macro factors — GST changes, RBI rate cycle, PLI schemes, tier-2/3 penetration, Chinese imports, climate risk, (3) A full 2x2 TOWS matrix with one concrete SO, WO, ST, WT strategy each, with rough INR investment sizing, (4) The single highest-priority strategic move with a 90-day action plan, (5) Two KPIs the board should track monthly. Format the output as a clean report with a SWOT 2x2 grid, a TOWS 2x2 grid, and a final recommendation box. Consider these constraints: use only publicly verifiable facts, call out any assumptions, and write in the crisp, numbered style that IIM/XLRI professors reward. Do not hedge — take a clear position the way a consulting club mentor would."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["swot-analysis", "tows-matrix", "strategy", "live-project"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true
+    },
+    {
+      "id": "students-mba-business-003",
+      "title": "Case Cold-Call Prep Brief",
+      "prompt": "Act as a second-year student at ISB Hyderabad who topped the Competitive Strategy course and regularly mentors juniors on cold-call survival. I need you to turn a case I have been assigned into a tight cold-call prep brief so I can answer any opening question the professor throws at me. Here is the context: I will paste the full case text or a detailed summary below, including exhibits and INR financials. [PASTE CASE HERE]. Class is tomorrow 8:30 AM and the professor is known for opening with either 'What should the protagonist do Monday morning?' or 'Walk me through exhibit 4'. Please provide: (1) A 5-line situation summary — company, industry, protagonist, decision, deadline, (2) The three most likely opening questions with a 60-second spoken answer for each, (3) Top 5 quantitative facts from the exhibits I must memorise, with unit sanity checks in INR crores/lakhs, (4) The two framework lenses best suited to this case and why — e.g., 3C, Porter, VRIO, BCG, Ansoff, (5) My recommendation in PEEL format — Point, Evidence, Explanation, Link, (6) Three counter-arguments a sharp classmate could raise and my crisp rebuttals. Format as a single-page cheat sheet with bold headers and bullet lists I can glance at before class. Consider these constraints: keep every answer under 90 seconds spoken, use Indian market comparisons where possible, and flag any numbers I should not quote unless directly asked."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["case-prep", "cold-call", "isb", "peel-framework"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-004",
+      "title": "STP Marketing Plan for New Product",
+      "prompt": "Act as a brand manager with 12 years at HUL and Marico who now teaches marketing electives at SPJIMR Mumbai. I need you to draft a complete Segmentation-Targeting-Positioning plan for a new product launch I am proposing in my Marketing Management course. Here is the context: The product is [DESCRIBE PRODUCT — e.g., a ₹99 plant-based protein drink for tier-2 college students, or a ₹15,000 air purifier for Delhi NCR homes]. Target launch is the next festive season. I will add any extra constraints below. [ADD CONTEXT HERE]. Please provide: (1) Three segmentation bases — demographic, psychographic, behavioural — with at least 4 segments identified and sized in lakhs of households or individuals using Census 2011 projections and CMIE data, (2) The single target segment with a detailed persona named in Hindi/regional style (name, age, city tier, monthly household income in INR, media habits, pain point, JTBD), (3) A positioning statement in the classic 'For [target] who [need], [brand] is the [category] that [benefit] unlike [competitor] because [RTB]' format, (4) A perceptual map with 2 axes and 6 competitors plotted, (5) Top 3 marketing mix implications across 4Ps. Format as a structured brief with tables and the perceptual map described in ASCII. Consider these constraints: use realistic INR pricing, reference Indian retail realities (kirana vs modern trade vs quick commerce), and ensure the positioning would survive a Kotler-style critique."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["stp-marketing", "positioning", "product-launch", "4ps"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-005",
+      "title": "BCG Matrix for Diversified Indian Group",
+      "prompt": "Act as a Bain & Company engagement manager with extensive experience on Indian conglomerate portfolio reviews. I need you to build a BCG growth-share matrix for a diversified Indian business group I am analysing for a Strategy assignment. Here is the context: The group is [GROUP NAME — e.g., ITC, Tata Sons, Aditya Birla, Godrej, Mahindra, Reliance] and I need to classify at least 6 business units. I will paste the latest segment revenue and growth data from the annual report below. [PASTE SEGMENT DATA HERE]. Please provide: (1) A cleaned table with each BU — INR crore revenue, YoY growth %, relative market share vs largest Indian competitor, (2) Placement on the BCG matrix with justification — Star, Cash Cow, Question Mark, Dog, (3) Recommended strategic stance per BU — build, hold, harvest, divest — with 2-line rationale each, (4) Portfolio-level observations: cash flow balance, concentration risk, aging of cash cows, (5) Three specific M&A or divestment moves the group chairman should consider in the next 18 months given current Indian M&A climate and CCI scrutiny. Format as a report with the BCG grid described in ASCII, the BU table, and a recommendations section. Consider these constraints: use real segment data from the most recent annual report, flag any relative market share numbers as estimates, and keep the tone consistent with a board-level strategy offsite deck."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["bcg-matrix", "portfolio-strategy", "conglomerate", "indian-business-groups"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-006",
+      "title": "DCF Valuation Model Outline",
+      "prompt": "Act as a VP in Investment Banking at Kotak Mahindra Capital with 10 years of valuing Indian mid-cap companies. I need you to walk me through a complete DCF valuation model structure for an Indian listed company I am valuing in my Corporate Finance course. Here is the context: Company is [COMPANY NAME and NSE ticker], sector [SECTOR], current market cap [INR CRORE], last 3 years revenue and EBITDA I will paste below. [PASTE FINANCIALS HERE]. The professor wants a model that can be built in Excel by Sunday. Please provide: (1) A clean 5-year explicit forecast structure — revenue drivers, EBITDA margin assumptions, D&A, capex, working capital as % of sales, all tied to India-specific logic (capacity utilisation, PLI benefits, BS-VI or ESG capex), (2) WACC calculation with Indian risk-free rate from the latest 10-year G-Sec, equity risk premium suited to India (~7-8%), beta source, cost of debt post-tax at 25.17%, (3) Terminal value using both Gordon growth (g ~ India nominal GDP ~ 10-11%) and exit EV/EBITDA multiple, (4) A sensitivity table on WACC vs terminal growth showing implied share price, (5) Football-field comparison to trading and transaction comps, (6) Top 5 risks to the valuation. Format as a step-by-step model blueprint with formulas written in Excel notation. Consider these constraints: use INR crore throughout, stick to SEBI-disclosed numbers, and explain every assumption so I can defend it in viva."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["dcf-valuation", "corporate-finance", "wacc", "financial-modeling"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-007",
+      "title": "NPV vs IRR Capital Budgeting Memo",
+      "prompt": "Act as a CFO who has approved over 200 capex proposals at Indian manufacturing firms and now guest-lectures at FMS Delhi. I need you to evaluate a capital budgeting decision for my Financial Management assignment and produce a board-ready memo. Here is the context: My project involves [DESCRIBE PROJECT — e.g., a ₹180 crore new plant in Sanand, Gujarat with 8-year life, or a ₹45 crore automation retrofit in a Tirupur garment unit]. I will paste the cash flow assumptions below. [PASTE CASH FLOWS HERE]. Please provide: (1) A year-by-year free cash flow table in INR crore with tax at 25.17%, depreciation on WDV per Income Tax Act, working capital changes, and terminal value, (2) NPV computed at a cost of capital of 12% and sensitivity at 10%, 12%, 14%, (3) IRR and MIRR with interpretation, (4) Payback and discounted payback, (5) Profitability Index, (6) A reasoned recommendation — accept/reject — that handles the classic NPV vs IRR conflict if it arises, (7) Top 3 qualitative risks specific to Indian context — land acquisition, labour, GST refund delays, power cost, (8) Two real-options thoughts — option to expand, option to abandon. Format as a 2-page memo with tables and a clear recommendation box. Consider these constraints: use Indian tax depreciation rates, INR crore units, and write in the decisive tone of a CFO presenting to an investment committee."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["npv-irr", "capital-budgeting", "capex", "cfo-memo"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-008",
+      "title": "Working Capital Optimisation Diagnostic",
+      "prompt": "Act as a partner at EY India's Working Capital Advisory practice with 15 years of releasing cash for mid-market Indian firms. I need you to diagnose the working capital position of a company I am analysing for an Operations Finance project. Here is the context: Company is [COMPANY NAME], industry [INDUSTRY], revenue [INR CRORE]. I will paste the balance sheet and P&L extracts below. [PASTE FINANCIALS HERE]. Please provide: (1) Current and previous year DSO, DIO, DPO, and cash conversion cycle in days with sector benchmark comparison (pharma, FMCG, auto ancillary, IT services as relevant), (2) INR crore value of cash trapped per day of CCC improvement, (3) Root-cause analysis — credit policy, inventory norms, supplier terms, GST input credit leakage, channel financing gaps, (4) A prioritised list of 7 interventions with expected cash release in INR crore, effort (L/M/H), and time to impact, (5) A 90-day quick-win plan and a 12-month structural plan, (6) KPIs to track weekly in a CFO dashboard, (7) Red flags suggesting window dressing around 31 March. Format as a structured diagnostic report with tables and a waterfall of cash release. Consider these constraints: factor in Indian realities like 45-day MSME payment rule under MSMED Act, TReDS platforms, and typical channel credit of 21-45 days in distribution-heavy businesses."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["working-capital", "cash-conversion-cycle", "cfo-dashboard", "msme"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-009",
+      "title": "Break-Even and CVP Analysis",
+      "prompt": "Act as a management accounting professor at MDI Gurgaon known for tough CVP problem sets. I need you to build a complete Cost-Volume-Profit and break-even analysis for a small business scenario I am modelling. Here is the context: The business is [DESCRIBE — e.g., a cloud kitchen in Bengaluru HSR Layout selling 3 SKUs, or a D2C kurti brand on Myntra and Meesho]. Monthly fixed costs, variable cost per unit, and INR selling prices will be pasted below. [PASTE COST STRUCTURE HERE]. Please provide: (1) Contribution margin per unit and contribution margin ratio per SKU and weighted average, (2) Break-even in units and INR revenue, both single-product and multi-product with the sales mix assumption stated, (3) Margin of safety at current volume, (4) Degree of operating leverage and what a 10% sales swing does to profit, (5) Target profit volume to hit ₹5 lakh and ₹10 lakh monthly PAT, (6) A sensitivity table showing break-even across three raw material cost scenarios and two pricing scenarios, (7) Three pricing or cost levers with INR impact ranked by ease of execution. Format as a worked solution with tables, formulas shown, and a one-paragraph business recommendation at the end. Consider these constraints: include platform commissions (Zomato ~18-22%, Myntra ~25-35%), GST at applicable rate, and last-mile logistics cost as variable — typical traps students miss."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["cvp-analysis", "break-even", "management-accounting", "contribution-margin"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-010",
+      "title": "Ratio Analysis of Annual Report",
+      "prompt": "Act as an equity research analyst at Motilal Oswal with 8 years covering Indian mid-caps. I need you to perform a full ratio analysis on an Indian listed company's latest annual report for my Financial Statement Analysis course. Here is the context: Company is [COMPANY NAME, NSE TICKER], sector [SECTOR]. I will paste the last 3 years of P&L and balance sheet figures in INR crore below. [PASTE FINANCIALS HERE]. Please provide: (1) A clean ratio table covering liquidity (current, quick), solvency (D/E, interest coverage), profitability (GP, OP, NP, ROE, ROCE, ROIC), efficiency (asset turnover, inventory days, receivable days), and valuation (P/E, P/B, EV/EBITDA) for each of the 3 years, (2) DuPont decomposition of ROE into net margin x asset turnover x equity multiplier, (3) Year-on-year trend commentary — is the company compounding, or is ROE being goosed by leverage, (4) Peer comparison versus 2 named Indian competitors on the 5 most important ratios for this sector, (5) Three red flags — related party transactions, goodwill, contingent liabilities, auditor qualifications — worth digging into, (6) A one-line investment thesis. Format as a diagnostic report with tables and crisp analyst-style commentary. Consider these constraints: use Schedule III formats, adjust for Ind AS 116 lease impact where relevant, and write like a sell-side note that would pass an IIM Lucknow finance professor's red pen."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["ratio-analysis", "dupont", "equity-research", "financial-statements"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-011",
+      "title": "Go-to-Market Plan for D2C Brand",
+      "prompt": "Act as the ex-CMO of a successful Indian D2C brand (think boAt, Mamaearth, Sugar Cosmetics) who now advises SPJIMR PGP students on their entrepreneurship projects. I need you to build a 12-month go-to-market plan for a new D2C brand I am pitching in class. Here is the context: Brand concept is [DESCRIBE BRAND, PRODUCT CATEGORY, AND HERO SKU PRICE IN INR]. Founding team, INR seed budget, and target geography will be below. [PASTE CONTEXT HERE]. Please provide: (1) Target customer persona and JTBD in one tight paragraph, (2) Channel mix and weightage across own website (Shopify), Amazon, Flipkart, Nykaa, Myntra, quick commerce (Blinkit/Zepto), and offline — with pros, cons, typical take rates, and why this mix, (3) A month-by-month launch roadmap for months 0-12 with milestones, (4) Marketing budget split in INR lakhs across performance (Meta, Google), influencer (nano/micro), content, and PR with expected CAC and blended ROAS targets, (5) Unit economics table — AOV, COGS, logistics, packaging, returns, CAC, contribution margin, (6) Top 3 risks and mitigations, (7) Metrics to review weekly vs monthly. Format as a pitch-ready GTM deck outline with tables. Consider these constraints: reference Indian D2C benchmarks (CAC ₹250-800 depending on category, returns 15-25%, RTO in tier-2/3), and keep total seed burn realistic at ₹1.5-3 crore."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["go-to-market", "d2c", "unit-economics", "marketing-plan"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-012",
+      "title": "Pricing Strategy and Price Elasticity",
+      "prompt": "Act as a pricing strategy partner at Simon-Kucher India with deep experience in B2C pricing wars. I need you to recommend a pricing strategy for a product or service I am working on for my Marketing elective. Here is the context: The product is [DESCRIBE] currently priced at [INR PRICE] with monthly volume [UNITS] and variable cost [INR]. Competitors and their prices will be pasted below. [PASTE CONTEXT HERE]. Please provide: (1) The right pricing approach for this situation — cost-plus, value-based, competition-based, penetration, skimming, dynamic, psychological — with justification, (2) A Van Westendorp Price Sensitivity Meter explained and applied qualitatively with expected OPP, IPP, PMC, PME ranges in INR, (3) Elasticity estimate with reasoning, and what a 5% and 10% price hike/cut would do to volume and contribution, (4) Three price architecture options — Good/Better/Best, bundled, subscription — with INR prices, (5) Psychological tactics suited to Indian consumers — charm pricing at ₹499 vs ₹500, EMI framing on no-cost EMI, cashback vs discount, (6) Risks of cannibalisation and grey market, (7) A 90-day A/B test plan. Format as a pricing memo with tables and the recommended price with defense. Consider these constraints: reference Indian platform discounting norms, GST inclusive vs exclusive pricing rules, and the anchoring habits of Indian shoppers."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["pricing-strategy", "price-elasticity", "van-westendorp", "value-based-pricing"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-013",
+      "title": "Consumer Behaviour Research Design",
+      "prompt": "Act as a senior qualitative researcher at Kantar IMRB with 12 years designing consumer studies for Indian FMCG brands. I need you to design a consumer behaviour research plan for a Marketing Research assignment. Here is the context: The research question is [STATE QUESTION — e.g., why are urban millennials shifting from colas to healthier beverages, or how do SEC-B2 households decide on their first car]. Budget is ₹2-4 lakh, timeline 4 weeks. Please provide: (1) A sharpened research objective and 3-5 sub-questions, (2) The right methodology mix — secondary desk research, FGDs, in-depth interviews, ethnography, shop-alongs, survey, conjoint, with sample sizes and cities covering metros, tier-2, tier-3, (3) A screener with 6-8 qualifying questions including SEC NCCS classification, (4) A discussion guide outline for a 90-minute FGD broken into warm-up, category immersion, brand exploration, projective techniques, wrap, (5) Survey questionnaire structure with question types and a Likert scale example, (6) Analysis plan — thematic coding, cross-tabs, driver analysis, (7) Expected deliverables and cost split in INR across moderator, venue, incentives, transcription, analysis, (8) Ethical and PII considerations under DPDP Act 2023. Format as a research proposal. Consider these constraints: factor multilingual moderation (Hindi, Tamil, Marathi), recruitment realities in India, and biases like social desirability on income questions."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["market-research", "consumer-behaviour", "fgd-design", "research-methodology"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-014",
+      "title": "Integrated Marketing Communication Plan",
+      "prompt": "Act as a creative strategy director at Ogilvy Mumbai with multiple Effies for Indian brands. I need you to draft an Integrated Marketing Communication plan for a brand campaign I am creating for my Brand Management course. Here is the context: Brand is [BRAND], category [CATEGORY], brief is [COMMUNICATION OBJECTIVE — launch, reposition, festive push, category creation]. Budget is [INR CRORE], campaign window [MONTHS]. Please provide: (1) A sharpened single-minded proposition and campaign idea in one sentence, (2) A communication brief in the classic Ogilvy format — who we are talking to, what they think now, what we want them to think, why should they believe, tone, mandatories, (3) A touchpoint plan across TV, digital video (YouTube, Meta, Hotstar, JioCinema), OOH, radio, print, influencers, on-ground at festivals/IPL, PR, CRM, with INR budget split and reach/frequency logic, (4) A 12-week campaign calendar aligned to an Indian festive or cricket moment, (5) KPIs split into brand metrics (awareness, consideration, preference) and business metrics (sales lift, market share), (6) Measurement plan and brand track wave design, (7) Three creative routes named and described. Format as a campaign plan deck outline. Consider these constraints: tie at least one moment to Diwali, IPL, Independence Day, or Durga Puja; respect ASCI and MIB rules; and make the tonality resonant with Bharat, not just India."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["imc-plan", "brand-campaign", "communication-strategy", "media-planning"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-015",
+      "title": "Supply Chain Mapping and Bottleneck Analysis",
+      "prompt": "Act as a supply chain director with 18 years at Maruti Suzuki and Flipkart who now teaches Operations at IIM Bangalore. I need you to map and diagnose the supply chain of a company I am studying for my SCM project. Here is the context: Company is [COMPANY], product category [CATEGORY], key geographies served [CITIES/STATES]. I will paste any known supplier, plant, warehouse, and lead time data below. [PASTE DATA HERE]. Please provide: (1) An end-to-end supply chain map from tier-2 suppliers through tier-1, inbound logistics, manufacturing/assembly, finished goods warehousing, primary freight, secondary freight, last mile, to the end consumer — described in ASCII flow with nodes and lead times in days, (2) Identification of the three biggest bottlenecks using Theory of Constraints logic, (3) INR crore inventory by node and turns estimate, (4) Risk exposures — China dependency, port congestion (JNPT, Mundra), GST e-way bill compliance, monsoon disruption, driver shortages, (5) Three specific interventions — supplier consolidation, postponement, cross-dock, DC rationalisation, 3PL switch — with expected impact, (6) A target operating model in 12 months, (7) KPIs: OTIF, fill rate, freight as % of revenue, inventory turns. Format as a structured diagnostic with the ASCII map, tables, and a recommendations section. Consider these constraints: India specifics like 28 states with GST, inter-state e-way bills, rural last mile, and typical 3PL rate cards."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["supply-chain", "theory-of-constraints", "logistics", "operations-strategy"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-016",
+      "title": "Lean Six Sigma DMAIC Project Charter",
+      "prompt": "Act as a Master Black Belt in Lean Six Sigma with 15 years running process improvement projects at Tata Steel and Wipro. I need you to draft a DMAIC project charter for an operations improvement project I am proposing in my Operations Management course. Here is the context: The process pain point is [DESCRIBE — e.g., order fulfilment cycle time in a cloud kitchen, NPA claim processing in a PSU bank branch, defect rate on an auto-component line]. Baseline metrics and target will be pasted below. [PASTE BASELINE HERE]. Please provide: (1) A one-page project charter with problem statement, goal statement (SMART, in %, INR, days), business case with expected annual savings in INR lakh, scope (in/out), team, sponsor, timeline, (2) Define phase — SIPOC diagram described in ASCII, VOC and CTQ tree, (3) Measure phase — data collection plan, sample size, MSA consideration, baseline sigma level, (4) Analyse phase — fishbone (Ishikawa) with 6M causes, hypothesis tests to run, Pareto of defects, (5) Improve phase — 5 candidate solutions with effort/impact matrix and pilot design, (6) Control phase — control charts, SOPs, training, poka-yoke, handover checklist, (7) Risks and dependencies. Format as a formal charter with each phase as a clear section. Consider these constraints: keep all examples India-grounded, use INR lakh and % metrics, and write with the rigour expected on a Green Belt certification assessment."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["six-sigma", "dmaic", "process-improvement", "lean"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-017",
+      "title": "Inventory Management EOQ Model",
+      "prompt": "Act as an operations research professor at IIT Delhi DMS known for quantitative rigour. I need you to solve and explain an inventory management problem for my Operations course. Here is the context: I am managing inventory for [DESCRIBE ITEM — e.g., a fast-moving spare at a Royal Enfield dealership, packaging film at an FMCG plant]. Annual demand, ordering cost, holding cost %, unit cost in INR, lead time, and any quantity discounts will be pasted below. [PASTE DATA HERE]. Please provide: (1) Classic EOQ calculation with formula and numeric answer, (2) Total annual cost at EOQ vs current order quantity — ordering + holding + purchase, (3) Reorder point with safety stock for a given service level (95%, 98%), using standard deviation of demand during lead time, (4) If quantity discounts apply, the discounted EOQ evaluation and which break point to choose, (5) Newsvendor model application if the item is perishable/fashion with critical ratio, (6) Sensitivity: how EOQ and cost change if ordering cost halves, or holding cost rises by 20%, (7) Three practical adjustments for Indian reality — minimum order quantity from Chinese suppliers, e-way bill batching, GST invoice cycles, monsoon buffer. Format as a worked solution showing all formulas, substitutions, and final answers with units (nos, INR, days). Consider these constraints: use INR throughout, round sensibly, and end with a one-line managerial recommendation."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["inventory-management", "eoq", "safety-stock", "newsvendor"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-018",
+      "title": "Capacity Planning for Manufacturing Unit",
+      "prompt": "Act as a plant head with 20 years at Bajaj Auto and Ashok Leyland who now mentors SPJIMR Ops students. I need you to create a capacity plan for a manufacturing scenario I am solving for class. Here is the context: The plant makes [PRODUCT], has [NUMBER] of lines each with a theoretical capacity of [UNITS/HR], working [SHIFTS] of 8 hours for [DAYS] per year. OEE and scrap data, demand forecast in units per month, and any seasonality will be pasted below. [PASTE DATA HERE]. Please provide: (1) Effective capacity calculation — theoretical x availability x performance x quality (OEE) in units per year, (2) Capacity utilisation versus demand month-by-month with bottleneck identification, (3) Gap analysis — where demand exceeds capacity and by how much in units and INR revenue at risk, (4) Three options to close the gap — overtime, third shift, debottlenecking, outsourcing, new line capex in INR crore — with payback, (5) Decision framework using a weighted scorecard on cost, lead time, flexibility, quality risk, (6) A recommended capacity strategy and phased rollout timeline, (7) Implications for labour under Factories Act 1948 and state-specific shift rules. Format as a structured operations memo with tables and a clear recommendation. Consider these constraints: factor in Indian festivals causing 3-5 day plant shutdowns, monsoon absenteeism, and typical OEE benchmarks for Indian discrete manufacturing (55-70%)."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["capacity-planning", "oee", "manufacturing", "debottlenecking"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-019",
+      "title": "Quality Management TQM Roadmap",
+      "prompt": "Act as a quality director with Deming Prize experience at an Indian auto ancillary firm. I need you to draft a Total Quality Management transformation roadmap for a case I am preparing in my Operations Management course. Here is the context: The company is a [DESCRIBE — e.g., 400-crore auto component supplier to Maruti and Hyundai] facing customer complaints on PPM defects, 8D reports, and line rejections. Current state data will be pasted below. [PASTE DATA HERE]. Please provide: (1) A current-state diagnosis using 7 QC tools — check sheet, histogram, Pareto, cause-effect, scatter, control chart, flowchart — indicating what each would reveal, (2) A target quality vision with PPM, FTQ, COPQ as % of sales, (3) A 24-month TQM roadmap across 4 pillars — leadership and policy deployment (Hoshin Kanri), customer focus, process control (SPC, APQP, PPAP), people (QCC, Kaizen, suggestion scheme), (4) Investments required in INR lakh for training, measurement systems, software, (5) Governance cadence — daily gemba, weekly QRM, monthly QLT, (6) Expected benefits — warranty savings in INR crore, customer PPM, on-time delivery, (7) Cultural change risks and mitigation. Format as a transformation roadmap with swim lanes and milestones. Consider these constraints: align with IATF 16949 if auto, cite Deming's 14 points explicitly, and keep the tone consistent with a CII-Exim or JIPM presentation."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["tqm", "quality-management", "iatf-16949", "kaizen"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-020",
+      "title": "Organisational Structure Redesign",
+      "prompt": "Act as an OD consultant and ex-McKinsey Organisation practice leader with 15 years redesigning Indian companies through growth transitions. I need you to recommend an organisational structure redesign for a company scenario in my OB/HR course. Here is the context: The company is [DESCRIBE — e.g., a 250-crore family-owned textile firm scaling to 1000 crore, or a SaaS startup going from 80 to 300 employees post Series B]. Current structure pain points will be pasted below. [PASTE CONTEXT HERE]. Please provide: (1) A diagnosis of the current structure using Galbraith's Star Model — strategy, structure, processes, rewards, people — highlighting misalignments, (2) Three structure options — functional, divisional (by product/geography), matrix, front-back, network — with pros, cons, and fit to this company, (3) A recommended structure with reporting lines described in ASCII org chart, span of control norms (5-9 direct reports), and layers (ideally 5-6 for this size), (4) RACI for 5 critical cross-functional decisions, (5) Implications for succession, particularly moving from founder-centric to professional management in an Indian family business context, (6) Change management plan using Kotter's 8 steps, (7) Risks of attrition and talent flight mitigations. Format as an OD memo with the org chart and tables. Consider these constraints: acknowledge Indian realities of promoter family members on payroll, joint family succession politics, and the shift from jugaad to process rigour."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["org-design", "galbraith-star", "change-management", "kotter"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-021",
+      "title": "Performance Management System Design",
+      "prompt": "Act as a CHRO with 20 years at Infosys, HUL, and a unicorn startup, and visiting faculty at TISS Mumbai. I need you to design a performance management system for a company scenario in my HRM course. Here is the context: The company is [DESCRIBE company size, stage, sector]. Current pain points with the existing PMS will be below. [PASTE CONTEXT HERE]. Please provide: (1) A philosophy statement — is this a developmental, differentiating, or hybrid PMS, (2) Goal-setting framework — OKRs vs SMART KRAs vs MBO — with a worked example cascading from CEO to an individual contributor, (3) A competency framework with 5 core and 3 leadership competencies and behavioural anchors, (4) Rating methodology — 5-point scale, forced distribution vs absolute, calibration process, 9-box talent grid, (5) Review cadence — annual, mid-year, monthly 1:1s, continuous feedback tools, (6) Linkage to rewards — merit increase matrix, variable pay %, ESOP/RSU for startups, with typical Indian market ranges, (7) PIP process respecting Indian labour law and principles of natural justice, (8) Implementation plan over 6 months with communication and manager training. Format as a PMS design document with tables and examples. Consider these constraints: acknowledge India's bell-curve fatigue, legal caution around termination, and the cultural tension between harmony and direct feedback. Make it implementable, not aspirational."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["performance-management", "okr-design", "9-box", "hrm"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-022",
+      "title": "Compensation Benchmarking and Structure",
+      "prompt": "Act as a principal at Aon India Rewards Solutions with deep experience in Indian salary benchmarking. I need you to design a compensation structure and benchmark analysis for an HR case in my Compensation Management course. Here is the context: Company is [DESCRIBE size, sector, location]. I need to benchmark and restructure pay for [ROLES/LEVELS]. Current pay data will be pasted below. [PASTE DATA HERE]. Please provide: (1) Level architecture mapped to a recognised framework (Mercer IPE, Hay, or Aon GGS) with broad bands, (2) Benchmark findings — P25, P50, P75 total cash compensation in INR lakh per annum for each role using typical Aon/Mercer/Michael Page bands for the sector and city, (3) Fixed vs variable split by level — IC 85/15, manager 75/25, leadership 60/40 as starting norms, (4) Allowances structure tax-optimised under Indian IT Act — Basic, HRA capped at 40/50% city-wise, LTA, NPS employer contribution at 10%, Food coupons, Telephone, with a worked CTC to take-home example, (5) Long-term incentive plan design — ESOPs with vesting, cliff, exercise period, (6) Pay equity analysis by gender and tenure with remediation, (7) Implementation cost in INR crore and comms plan. Format as a rewards design note with tables. Consider these constraints: comply with Code on Wages 2019 definition of wages (at least 50% of CTC as basic for PF), factor Indian metros vs tier-2 differentials, and keep recommendations implementable within the firm's revenue realities."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["compensation", "benchmarking", "esop", "total-rewards"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-023",
+      "title": "Employee Engagement Survey Action Plan",
+      "prompt": "Act as a head of Employee Experience at a mid-size Indian IT services firm. I need you to turn a set of employee engagement survey results into a credible action plan for my OB course simulation. Here is the context: A Gallup Q12 or Glint-style survey was run for [NUMBER] employees across [LOCATIONS]. The top-line scores and 5 weakest items will be pasted below. [PASTE SCORES HERE]. Please provide: (1) An interpretation of scores vs the Indian IT benchmark, flagging 3 most critical gaps (manager effectiveness, growth, recognition, workload, inclusion), (2) Root cause hypotheses for each gap mapping to Herzberg's hygiene vs motivator split and Maslow where relevant, (3) A 90-day action plan with owner, INR budget, and measurable KPI for each action — 'we will measure success by a 10-point move on this item in the next pulse', (4) Manager enablement actions — coaching toolkit, one-on-one templates, (5) A communication plan: how to share results with employees without losing trust, (6) Governance: monthly ExCo review, quarterly pulse, (7) Risks — survey fatigue, tokenism, attrition spike. Format as an action memo with a RAG-coded tracker table. Consider these constraints: reference real Indian workplace issues — return-to-office resistance, long-hour culture, bench anxiety, tier-2 aspirations — and avoid HR jargon that employees see through. Keep it execution-grade, not slideware."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["employee-engagement", "herzberg", "gallup-q12", "action-planning"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-024",
+      "title": "Conflict Resolution OB Role Play",
+      "prompt": "Act as an organisational psychologist and XLRI HR professor who specialises in workplace conflict. I need you to coach me through an OB assignment where I must resolve a workplace conflict and submit a written approach plus role-play script. Here is the context: The conflict is [DESCRIBE — e.g., a senior regional sales manager refusing to work with a new analytics team imposed by HQ, or two co-founders disagreeing on a pivot]. Background will be pasted below. [PASTE BACKGROUND HERE]. Please provide: (1) A diagnosis using the Thomas-Kilmann conflict mode instrument — identifying each party's default style (competing, collaborating, compromising, avoiding, accommodating), (2) Underlying interests vs stated positions for each party using the Harvard Negotiation 'interests not positions' principle, (3) A structured conversation plan applying the GROW model or the 7-step mediation process, (4) A full role-play script of a 15-minute mediation meeting with realistic Indian-English dialogue, pauses, and reframing statements, (5) Expected outcomes and a follow-up 30-day commitment, (6) Red lines — when to escalate to HR or POSH committee, (7) Lessons linking to Lencioni's 5 Dysfunctions of a Team. Format as a role-play prep document with sections. Consider these constraints: respect Indian workplace norms around hierarchy and face-saving, avoid overly American confrontation style, and produce dialogue that a 25-year-old MBA could actually deliver in a viva."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["conflict-resolution", "thomas-kilmann", "mediation", "ob-roleplay"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-025",
+      "title": "Business Plan Executive Summary",
+      "prompt": "Act as a Sequoia India (now Peak XV) partner who has read thousands of Indian startup pitches. I need you to write a tight, investor-grade 2-page executive summary of a business plan I am developing for my Entrepreneurship course. Here is the context: The business idea is [DESCRIBE PROBLEM, SOLUTION, TARGET USER]. Founding team background, current traction, and capital ask will be pasted below. [PASTE CONTEXT HERE]. Please provide the executive summary in exactly this structure: (1) One-line pitch — 'We are [what] for [who], so they can [outcome]', (2) Problem — sized in INR crore TAM, SAM, SOM with sources and why now in India, (3) Solution — product in 3 sentences and the unfair advantage, (4) Business model — who pays, how much, unit economics (CAC, LTV, payback, contribution margin), (5) Market and competition — 4-6 named competitors and clear differentiation, (6) Go-to-market — first 3 channels and milestones for next 12 months, (7) Team — why this team wins, (8) Financial snapshot — 3-year revenue, EBITDA, burn in INR crore, (9) The ask — INR crore raise, use of funds in 4 buckets, valuation range, (10) Risks and mitigations — top 3. Format as plain text that fits 2 pages at 11pt. Consider these constraints: every number must be defensible, no adjectives without proof, and the tone should make a partner want to take the meeting."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["business-plan", "executive-summary", "pitch", "startup"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-026",
+      "title": "Financial Projections for Startup",
+      "prompt": "Act as a CA and startup CFO who has built models for 30+ Indian Series A rounds. I need you to help me structure 3-year financial projections for a startup business plan in my Entrepreneurship elective. Here is the context: The business is [DESCRIBE MODEL — e.g., SaaS, marketplace, D2C, services]. Key assumptions I already have will be pasted below. [PASTE ASSUMPTIONS HERE]. Please provide: (1) A driver-based revenue model: for SaaS — MRR cohorts, logo growth, ARPA, churn; for marketplace — GMV, take rate, repeat; for D2C — orders, AOV, RTO, returns — with formulas in Excel notation, (2) A cost model split into COGS, S&M (CAC-led), R&D, G&A, with headcount plan and average INR salary per role, (3) 36-month monthly P&L summarising to 3 annual columns in INR lakh, (4) Cash flow with working capital, capex, and runway calculation, (5) Key metrics dashboard — ARR, gross margin, burn multiple, CAC payback, LTV/CAC, magic number, Rule of 40, (6) Three scenarios — base, bull, bear — with triggers, (7) Funding need and dilution at target pre-money, (8) Common Indian founder traps — not costing ESOPs, ignoring 2% TDS on marketplace payouts, missing GST on cross-border SaaS. Format as a model blueprint with section tables and formulas. Consider these constraints: use INR lakh/crore, write formulas a non-finance founder can implement, and keep assumptions conservative enough to survive VC scrutiny."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["financial-projections", "startup-cfo", "saas-metrics", "burn-multiple"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-027",
+      "title": "Lean Canvas and Business Model Canvas",
+      "prompt": "Act as a startup coach at NSRCEL IIM Bangalore who has reviewed 500 Lean Canvases. I need you to build both a Lean Canvas (Ash Maurya) and a Business Model Canvas (Osterwalder) for a venture idea I am developing. Here is the context: The idea is [DESCRIBE IDEA AND CUSTOMER]. Early interviews or signals will be pasted below. [PASTE SIGNALS HERE]. Please provide: (1) A full Lean Canvas with Problem (top 3), Customer Segments (including early adopters), Unique Value Proposition with high-level concept (X for Y), Solution (top 3 features), Channels, Revenue Streams in INR, Cost Structure in INR lakh/month, Key Metrics (AARRR or North Star), Unfair Advantage, (2) A full Business Model Canvas with the nine blocks filled crisply and Indian specifics, (3) Side-by-side comparison highlighting where the two canvases diverge for this idea, (4) The single riskiest assumption and a ₹25,000 experiment to test it in 2 weeks (landing page, WhatsApp concierge, pre-order), (5) A map of the next 3 assumptions to test in order, (6) A pivot/persevere decision criterion with measurable threshold. Format as two canvases rendered in ASCII tables followed by the experiment plan. Consider these constraints: be brutally specific — no 'everyone' as a customer, no 'better UX' as an unfair advantage — and use Indian comparables for validation tactics."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["lean-canvas", "business-model-canvas", "assumption-testing", "entrepreneurship"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-028",
+      "title": "Investor Pitch Deck Outline",
+      "prompt": "Act as an ex-founder turned pitch coach who has helped 40+ Indian startups raise seed through Series B. I need you to turn a raw business idea into a 12-slide investor pitch deck outline for a pitching competition at my B-school. Here is the context: Startup is [STARTUP NAME, ONE-LINE PITCH]. Stage, traction, and team details will be pasted below. [PASTE DETAILS HERE]. Please provide the slide-by-slide outline with bullet points and speaker notes: (1) Cover — name, tagline, logo, contact, (2) Problem — pain sized for India, (3) Solution — product demo still, (4) Why now — macro tailwinds (UPI, Jio, PLI, D2C surge), (5) Market — TAM/SAM/SOM in INR crore with sources, (6) Product — 3 screens, (7) Business model — unit economics and take rate, (8) Traction — monthly revenue, cohorts, retention chart described, (9) Go-to-market — next 12 months, (10) Competition — 2x2 map, (11) Team — 3 founders with why-us, (12) Ask — ₹X crore for 18 months with use-of-funds split and key milestones. Also add: appendix slide list (financials, cap table, press), the 90-second verbal opening, and 5 toughest VC questions with crisp answers. Format as a slide-by-slide brief. Consider these constraints: follow the Guy Kawasaki 10/20/30 spirit, make every slide defensible, and ensure the deck survives a Peak XV or Accel partner's rapid-fire Q&A."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["pitch-deck", "vc-fundraising", "tam-sam-som", "startup-pitch"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-029",
+      "title": "Market Entry Strategy for India",
+      "prompt": "Act as a BCG India principal with 10 years advising global clients on India entry. I need you to draft a market entry strategy memo for a Strategy course case. Here is the context: A [GLOBAL COMPANY FROM WHICH COUNTRY] in the [SECTOR] industry is considering entering India. Their home market revenue, global presence, and strategic rationale for India will be pasted below. [PASTE CONTEXT HERE]. Please provide: (1) A crisp go/no-go recommendation in one sentence up front, (2) Market attractiveness — India TAM/SAM in INR crore, growth, structure, concentration, using IBEF or sector reports, (3) Entry mode evaluation — wholly owned subsidiary, JV with Indian partner, franchising, licensing, acquisition — with pros, cons, precedents (cite Walmart-Flipkart, Uber-Ola, Amazon, Starbucks-Tata), (4) Regulatory and FDI policy review — sector caps, automatic vs approval route, CCI, data localisation under DPDP, (5) Location choice — Delhi NCR vs Mumbai vs Bengaluru for HQ with rationale, (6) Localisation requirements — product, pricing, packaging, language, distribution, (7) Year 1-3 investment plan in INR crore and break-even timeline, (8) Top 5 risks and mitigations including Indianisation of leadership. Format as a partner-grade memo with sections and tables. Consider these constraints: cite real precedents from the past 10 years, be honest about cases where foreign firms struggled (Ford, GM, Carrefour), and end with board-ready conditions for success."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["market-entry", "india-strategy", "fdi", "localisation"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-030",
+      "title": "Competitor Intelligence Report",
+      "prompt": "Act as a competitive intelligence lead at a top Indian strategy consulting firm. I need you to create a competitor intelligence report on a named Indian player for a Strategy assignment. Here is the context: Client company is [CLIENT], and the target competitor to profile is [COMPETITOR]. Both operate in [SECTOR]. Any known facts will be pasted below. [PASTE FACTS HERE]. Please provide: (1) Company snapshot — founding, ownership, revenue in INR crore, EBITDA %, employees, key markets, (2) Strategy read — stated strategy (from annual report and earnings calls) and revealed strategy (from actions, hires, capex, M&A), (3) Portfolio and products with market share estimates, (4) Go-to-market footprint — distribution, digital share, channel strategy, (5) Cost and operations benchmarks — where they are advantaged or disadvantaged vs the client, (6) Recent moves in the last 12 months — launches, partnerships, leadership changes, regulatory tangles, (7) Predicted next 3 moves with probability and implications, (8) Recommended counter-moves for the client, (9) Sources list. Format as a 3-page intelligence brief with a one-page summary at top. Consider these constraints: use only open-source/public intelligence (annual reports, SEBI filings, LinkedIn, news, Glassdoor, Tracxn), clearly mark inferences as such, and maintain the crisp 'so what' tone of a consulting deliverable. No speculation presented as fact."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["competitor-intelligence", "strategy", "competitor-profiling", "osint"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-031",
+      "title": "CAT/XAT Decision Making Practice Problem",
+      "prompt": "Act as a CAT/XAT DI-LR and Decision Making coach with 12 years at TIME and IMS who has produced AIR-under-100 students. I need you to generate a high-quality XAT-style Decision Making caselet with questions for my practice session. Here is the context: I am preparing for XAT Decision Making where the passage is 250-350 words describing an ethical or managerial dilemma faced by a protagonist in an Indian business or social setting. Please provide: (1) One original caselet of 300 words set in a realistic Indian scenario (e.g., a procurement manager at a PSU facing a kickback offer, a startup founder deciding between laying off or pay cut, a professor dealing with a plagiarism case at an IIM), with 3-4 stakeholders and ambiguity, (2) 5 XAT-style 4-option MCQs — typically 'what should the protagonist do', 'which factor is MOST/LEAST relevant', 'which option best balances interests', with plausible distractors, (3) Detailed answer key with explanation for why each correct option wins AND why each distractor fails — the reasoning, not just the letter, (4) Tags: reasoning style used (utilitarian, deontological, stakeholder, long vs short term), (5) A 2-minute elimination strategy a test-taker should apply under time pressure. Format as a practice worksheet with caselet, questions, answer key. Consider these constraints: keep the dilemma genuinely non-obvious, avoid black-and-white answers, and mirror the XAT 2023-2024 difficulty level."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["xat-prep", "decision-making", "caselet", "cat-prep"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-032",
+      "title": "Guesstimate Structuring Framework",
+      "prompt": "Act as a McKinsey India Associate Partner who regularly interviews IIM A/B/C and ISB candidates for consulting roles. I need you to help me structure and solve a guesstimate the way a top consulting club member would. Here is the context: The guesstimate question is [STATE THE GUESSTIMATE — e.g., number of cars sold in Bengaluru in 2024, Maggi packets consumed in Mumbai daily, annual revenue of Indian Railways catering]. Please provide: (1) A clarifying question or two I should ask the interviewer first, (2) A clean top-down or bottom-up structure shown as an ASCII tree of drivers, (3) All base assumptions with Indian-specific numbers that are reasonable — India population 140 crore, urban 35%, households 30 crore, average HH size 4.5, SEC distribution, smartphone penetration ~70%, (4) The step-by-step arithmetic done in round numbers with units carried through, (5) A final answer with a range (low-base-high), (6) A sanity check using an alternate approach and comparison, (7) Three places my number could be off and how much, (8) A 30-second 'answer first' delivery suitable for a consulting interview. Format as a structured walkthrough mimicking what I would say aloud. Consider these constraints: keep numbers round and defensible, use Indian context for every assumption, and model the tone of a poised IIM-A consulting club cracker — confident but humble about ranges."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["guesstimate", "consulting-prep", "case-interview", "structuring"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-033",
+      "title": "Consulting Case Interview Walkthrough",
+      "prompt": "Act as a Bain & Company Case Team Leader who has coached IIM and ISB consulting club members for final-round interviews at Big 3. I need you to walk me through a profitability or market-entry case end-to-end as if we are in a live interview room. Here is the context: The case prompt is [PASTE CASE PROMPT — e.g., 'Our client is a leading Indian cement manufacturer whose profits have dropped 30% in the last 2 years. What is going wrong and what should they do?']. Please provide: (1) A 15-second clarifying question phase, (2) A MECE issue tree tailored to this case (profitability = revenue - cost; revenue = price x volume; cost = fixed + variable; further decomposed) shown in ASCII, (3) A prioritised hypothesis with reasoning, (4) The specific data I should ask the interviewer for at each branch, (5) Illustrative numbers the interviewer might give and how to do the math in INR crore aloud, (6) At least one chart read (exhibit) and one simple calculation, (7) A creative brainstorm of 6 ideas using 2x2 buckets, (8) The final synthesis in top-down 'recommendation - 3 reasons - risks - next steps' structure. Format as a live interview transcript with 'Me:' and 'Interviewer:' dialogue. Consider these constraints: mimic Indian consulting interview norms, avoid American jargon, use real Indian context (cement cycle, PLI, GST on under-construction flats), and show the structured poise expected at final rounds."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["case-interview", "consulting-prep", "mece-framework", "profitability"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-034",
+      "title": "Macroeconomic Analysis for Business Economics",
+      "prompt": "Act as Chief Economist at a large Indian private bank with 15 years of RBI and FICCI engagements. I need you to produce a macroeconomic brief linking current Indian macro conditions to business decisions, for my Business Economics course paper. Here is the context: The business decision under consideration is [DESCRIBE — e.g., an auto OEM planning a ₹1,500 crore capex, or a real-estate developer deciding on a new launch]. Any specific metrics I should use will be below. [PASTE CONTEXT HERE]. Please provide: (1) Current snapshot of India macro — GDP growth, CPI and core inflation, RBI repo rate stance, 10-year G-Sec yield, INR/USD, fiscal deficit %, current account deficit, IIP, PMI, (2) The transmission mechanism linking 2-3 of these variables to the specific business decision, (3) A scenario analysis — base, hawkish RBI, dovish RBI — with implications on cost of capital, demand, and INR exposure, (4) Key leading indicators to monitor monthly, (5) Policy risks — Union Budget, RBI MPC, global Fed, crude prices, monsoon, (6) A reasoned recommendation on go/delay/phase, (7) References to RBI bulletin, MOSPI, CMIE, IMF WEO. Format as a 2-page economist brief with charts described. Consider these constraints: use the most recent plausible numbers (noting 'as of latest available'), reason in Indian monetary transmission terms, and keep the tone consistent with an MPC minutes or Economic Survey excerpt."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["macroeconomics", "rbi-policy", "business-economics", "india-macro"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-035",
+      "title": "Business Ethics Dilemma Analysis",
+      "prompt": "Act as a Business Ethics professor at IIM Kozhikode trained in Aristotelian, Kantian, utilitarian, and stakeholder frameworks. I need you to help me write a rigorous ethics analysis for a case in my Business Ethics and Corporate Governance course. Here is the context: The dilemma is [DESCRIBE — e.g., a CFO discovers revenue recognition irregularities two weeks before IPO, a plant manager is offered to under-report an effluent breach to the state pollution board, a startup founder is pressured by an investor to fudge metrics]. Background details will be below. [PASTE BACKGROUND HERE]. Please provide: (1) A factual summary and identification of the core ethical issue in one sentence, (2) Stakeholder map — who is affected, what are their stakes, (3) Analysis through 4 ethical lenses — Utilitarian (greatest good), Kantian (categorical imperative/duty), Virtue ethics (what would a person of integrity do), Rights/Justice (Rawls), (4) Relevant Indian legal and regulatory angles — Companies Act 2013 director duties, SEBI LODR, IPC sections, POSH, whistleblower policy, (5) Three possible courses of action with consequences for each stakeholder and each framework, (6) A reasoned recommendation with a clear 'what I would do Monday morning' and how to defend it to the board, (7) Lessons for systems and culture that would prevent recurrence. Format as an academic-style essay with headers. Consider these constraints: avoid moral relativism, ground reasoning in named philosophers and named laws, and write at the standard IIM-K ethics exam answers are graded against."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["business-ethics", "stakeholder-analysis", "corporate-governance", "kantian"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-036",
+      "title": "CSR and ESG Strategy Memo",
+      "prompt": "Act as the Head of Sustainability at a NIFTY 100 Indian company with a CA and SASB/GRI training. I need you to draft a CSR and ESG strategy memo for a company I am analysing for my Sustainability elective. Here is the context: Company is [COMPANY], sector [SECTOR], net profit [INR CRORE for last 3 years], current CSR spend and focus areas will be pasted below. [PASTE DATA HERE]. Please provide: (1) Mandatory CSR computation under Section 135 of Companies Act 2013 — 2% of average net profit of last 3 FYs, with unspent amount treatment under 2021 amendment, (2) A recommended CSR thematic focus aligned to Schedule VII and SDGs with a 3-year programme logic model (inputs, activities, outputs, outcomes, impact), (3) Expected project portfolio across education, health, livelihoods, environment with INR crore allocation and implementation partner criteria, (4) ESG strategy on top of CSR — BRSR reporting under SEBI, material topics via double materiality, net-zero pathway with Science Based Targets, Scope 1/2/3 measurement plan, (5) Governance — board committees, RCO, internal audit, (6) Risks of greenwashing and how to avoid, (7) KPIs for annual report and integrated report. Format as a board-note memo with tables. Consider these constraints: comply strictly with Section 135, SEBI BRSR Core 2023, and CSR Rules 2014; cite real Indian corporate CSR benchmarks (TCS, Infosys, Tata Steel, HUL); and keep recommendations implementable."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["csr-strategy", "esg", "brsr", "section-135"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-037",
+      "title": "Negotiation Strategy and BATNA Prep",
+      "prompt": "Act as a Harvard PON-trained negotiation professor who teaches the Negotiation and Influence elective at ISB. I need you to prepare me for a live negotiation exercise in class. Here is the context: I am playing [ROLE — e.g., buyer for a Tata auto plant procuring steel, or a startup founder negotiating Series A term sheet with an investor]. Counterparty, issues under negotiation, my mandate, and any known facts will be pasted below. [PASTE CONTEXT HERE]. Please provide: (1) Interests vs positions analysis for both sides using the Harvard principled negotiation framework, (2) My BATNA and my estimate of their BATNA, with ZOPA identified in INR crore or other units, (3) Reservation point, target point, and opening offer for 3-5 key issues, (4) A tradeoff matrix showing which issues I can concede on cheaply in exchange for what I value highly, (5) A pre-scripted opening statement setting a collaborative tone, (6) 5 tactical moves I might use — anchoring, bracketing, logrolling, contingent contracts, MESO (multiple equivalent simultaneous offers), (7) 5 counter-tactics prepared against likely hardball moves — flinch, good cop bad cop, deadline pressure, (8) Red lines and walk-away triggers. Format as a negotiation prep sheet with tables. Consider these constraints: respect Indian business relationship norms, build long-term trust angles, and avoid hyper-aggressive Western scripts that fail in Indian contexts."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["negotiation", "batna", "zopa", "harvard-pon"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-038",
+      "title": "Digital Transformation Roadmap",
+      "prompt": "Act as a Partner in Accenture Strategy's India Digital practice with 15 years of large transformation programs. I need you to create a digital transformation roadmap for a company case in my Digital Strategy elective. Here is the context: Company is [DESCRIBE — e.g., a 2,000-crore legacy Indian pharma distributor, a cooperative bank in Maharashtra, a public-sector electricity utility]. Current digital maturity assessment will be pasted below. [PASTE ASSESSMENT HERE]. Please provide: (1) Current-state digital maturity scoring on 5 dimensions — strategy, customer, technology, operations, people — on a 1-5 scale, (2) Target state vision in 36 months linked to 3 concrete business outcomes (revenue uplift, cost takeout, customer NPS), (3) A portfolio of 8-12 initiatives ranked on value vs effort, mapping to core, adjacent, transformational horizons, with INR crore investment each, (4) A 3-horizon roadmap — Horizon 1 (0-6m quick wins), Horizon 2 (6-18m core modernisation), Horizon 3 (18-36m new business models) — with milestones, (5) Tech stack recommendation — cloud (AWS/Azure), ERP, CRM, data lake, analytics, AI/ML use cases, (6) Operating model — Digital PMO, squads, data office, CoE, (7) Change management and reskilling for 500-5000 employees, (8) Governance and KPIs. Format as a transformation roadmap document. Consider these constraints: respect Indian realities — DPDP Act, data localisation, legacy ERP baggage, promoter decision culture, skilled talent scarcity in tier-2 — and keep the INR ask within 3-5% of revenue per year."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["digital-transformation", "roadmap", "maturity-assessment", "change-management"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-039",
+      "title": "Harvard Case Write-Up (WAC Style)",
+      "prompt": "Act as a senior WAC (Written Analysis of Case) professor at IIM Ahmedabad known for tough grading on structure and argumentation. I need you to produce a model WAC answer for a Harvard case I have been assigned. Here is the context: The case is [CASE NAME AND AUTHORS], the WAC question is [QUESTION — e.g., 'Should the protagonist accept the acquisition offer?']. I will paste case facts and exhibits below. [PASTE CASE HERE]. The word limit is 1,500 words. Please provide the complete WAC in this exact structure: (1) Situation (100 words) — company, industry, protagonist, decision point, deadline, (2) Problem Statement (50 words) — crisp and singular, (3) Options (150 words) — 3-4 mutually exclusive options with one-line descriptions, (4) Criteria for Evaluation (150 words) — 4-6 weighted criteria with justification (financial, strategic, operational, stakeholder, risk, time), (5) Analysis (600 words) — each option scored against each criterion using case exhibits with explicit INR/percentage numbers and any calculations done, (6) Recommendation (200 words) — the chosen option with why, (7) Action Plan (150 words) — the first 90 days with owner, milestone, metric, (8) Contingencies (100 words). Format as flowing prose with headers. Consider these constraints: stay within 1,500 words, cite exhibit numbers explicitly, avoid passive voice and hedging, and sound decisive — the IIM-A WAC red pen punishes wooliness harder than wrong answers."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["wac", "case-writeup", "iim-ahmedabad", "harvard-case"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "students-mba-business-040",
+      "title": "M&A Synergy Valuation Framework",
+      "prompt": "Act as an M&A Director at JM Financial with 15 years structuring Indian deals like Walmart-Flipkart, HDFC-HDFC Bank, Tata-Air India. I need you to help me build a synergy valuation framework for a hypothetical M&A deal in my Corporate Restructuring course. Here is the context: Acquirer is [COMPANY A], Target is [COMPANY B], deal rationale is [RATIONALE — e.g., horizontal consolidation, vertical integration, market extension, capability buy]. Standalone financials for both in INR crore will be pasted below. [PASTE FINANCIALS HERE]. Please provide: (1) Standalone DCF value ranges for both firms using WACC appropriate to Indian listed peers, (2) Synergy decomposition — revenue synergies (cross-sell, pricing, channel), cost synergies (procurement, overhead, distribution, plant rationalisation), financial synergies (tax, cost of capital, debt capacity) — in INR crore per annum with realisation timeline and probability-weighting, (3) NPV of synergies net of integration costs and one-time charges, (4) Maximum bid price the acquirer can offer without destroying value, (5) Deal structure — cash vs stock vs mix, tax angles under Indian IT Act, stamp duty, SEBI Takeover Code trigger at 25%, CCI approval thresholds, (6) EPS accretion/dilution analysis for the acquirer in year 1-3, (7) Top 5 integration risks and Day-1/Day-100 plan, (8) Board recommendation. Format as an M&A memo with tables. Consider these constraints: reference real Indian precedents, apply SEBI SAST 2011 and CCI 2023 thresholds, and maintain the decisive tone expected at an IC meeting."
+      ,
+      "category": "students",
+      "subcategory": "mba-business",
+      "tags": ["mergers-acquisitions", "synergy-valuation", "sebi-takeover", "corporate-restructuring"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    }
+  ]
+}

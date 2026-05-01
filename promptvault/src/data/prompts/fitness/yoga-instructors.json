@@ -1,0 +1,727 @@
+{
+  "category": "fitness",
+  "subcategory": "yoga-instructors",
+  "count": 40,
+  "prompts": [
+    {
+      "id": "fitness-yoga-instructors-001",
+      "title": "Design 60-Minute Hatha Class for Beginners",
+      "prompt": "Act as a certified Hatha yoga instructor with 10 years of experience teaching at a studio in Pune, trained in the Iyengar lineage. I need you to design a complete 60-minute beginner Hatha yoga class sequence for a mixed group of 12 Indian office workers aged 25-45 who suffer from lower back pain and stiff shoulders from desk work. The class runs at 6:30 AM on weekdays. Please provide: (1) Opening centering and pranayama (5 min) with Sanskrit names and English instructions, (2) Warm-up sequence including Sukshma Vyayama and joint rotations (10 min), (3) Standing asana sequence with Tadasana, Trikonasana, Virabhadrasana I and II with alignment cues (20 min), (4) Seated and supine postures targeting back relief including Bhujangasana, Setu Bandhasana, Supta Padangusthasana (15 min), (5) Cool-down and Shavasana with guided relaxation (10 min). Format as a timed table with pose name (Sanskrit + English), duration, breath count, key alignment cues, and beginner modifications using blocks, bolsters, or wall support. Include one safety contraindication note per pose. Mention when to use props available at typical Indian studios. Keep language simple enough for students new to yoga terminology.",
+      "tags": [
+        "hatha-yoga",
+        "class-sequence",
+        "beginner-class",
+        "back-pain",
+        "iyengar"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-002",
+      "title": "Write 15-Minute Meditation Script in English and Sanskrit",
+      "prompt": "Act as a meditation teacher trained at the Bihar School of Yoga with 8 years of experience leading group meditation sessions in Rishikesh. I need you to write a complete 15-minute guided meditation script for Indian students aged 20-50 dealing with work stress and anxiety. The session should blend traditional Yoga Nidra principles with simple breath awareness suitable for beginners. Please provide: (1) Opening invocation with the Gayatri Mantra or Asato Ma Sadgamaya shloka with transliteration and meaning (2 min), (2) Body settling and Shavasana setup instructions (2 min), (3) Progressive body scan rotation of consciousness covering 20 body parts in the traditional Yoga Nidra order (5 min), (4) Breath awareness phase focused on natural Ujjayi-style breathing with counting (3 min), (5) Sankalpa (positive resolve) section with 3 sample sankalpas in English (2 min), (6) Gentle closing and re-entry with a shanti mantra (1 min). Format as a word-for-word script with stage directions in brackets, pause markers in seconds, voice tone cues, and Sanskrit terms italicized with English meaning in parentheses on first use. Keep tone calm and grounded, avoiding new-age language. Ensure cultural authenticity for Indian students.",
+      "tags": [
+        "meditation-script",
+        "yoga-nidra",
+        "bihar-school",
+        "sanskrit",
+        "anxiety-relief"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-003",
+      "title": "Create Themed Class on Surya Namaskar Variations",
+      "prompt": "Act as a Sivananda-trained yoga instructor with 6 years of experience teaching in Kerala. I need you to design a 60-minute themed yoga class built entirely around Surya Namaskar variations for intermediate students at a studio in Kochi. Class size is 15 students. Please provide: (1) Opening chant of the 12 Surya mantras with Sanskrit and Hindi translation (5 min), (2) Preparatory warm-up focused on wrists, shoulders, hips, and hamstrings (10 min), (3) Classical Sivananda 12-pose Surya Namaskar taught slowly with breath synchronization for 3 rounds (10 min), (4) Ashtanga-style Surya Namaskar A and B for 5 rounds each with vinyasa count (15 min), (5) Chandra Namaskar counter-balance sequence (10 min), (6) Cool-down seated twists, forward folds, and Shavasana (10 min). Format as a minute-by-minute lesson plan with breath cues, common alignment mistakes Indian students make, and modification options. Include teaching notes on the spiritual significance of saluting the sun in Indian tradition.",
+      "tags": [
+        "surya-namaskar",
+        "themed-class",
+        "sivananda",
+        "sun-salutation",
+        "vinyasa"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-004",
+      "title": "Plan Beginner Yoga for Seniors with Hypertension",
+      "prompt": "Act as a therapeutic yoga instructor with QCI Level 2 certification and 7 years of experience working with senior citizens in Bengaluru. I need you to design a safe 60-minute gentle yoga class for 10 Indian seniors aged 60-75 who have high blood pressure and mild joint stiffness. Most students have never practiced yoga before. Please provide: (1) Seated centering with Anulom Vilom pranayama avoiding breath retention (8 min), (2) Chair-supported warm-up for neck, shoulders, wrists, ankles (12 min), (3) Gentle standing poses using wall support including modified Tadasana, supported Trikonasana (15 min), (4) Floor sequence with supported Baddha Konasana, Viparita Karani against wall (15 min), (5) Guided relaxation in Shavasana with bolster under knees (10 min). Format as a detailed plan with exact duration, prop requirements, contraindications for each pose, verbal cues in simple Hindi and English, and warning signs to watch for (dizziness, chest tightness). Explicitly list poses to AVOID for hypertensive students like Sirsasana and Kapalabhati.",
+      "tags": [
+        "senior-yoga",
+        "hypertension",
+        "therapeutic",
+        "chair-yoga",
+        "beginner-class"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-005",
+      "title": "Write 10-Minute Breath Awareness Meditation",
+      "prompt": "Act as a meditation teacher trained in the Art of Living tradition with 5 years of experience in Mumbai. I need you to write a 10-minute guided breath awareness meditation script for corporate employees attending a lunchtime wellness session at an IT company in Gurugram. Students will be seated in office chairs. Please provide: (1) Opening settling with 3 rounds of deep Dirgha breath (2 min), (2) Introduction to natural breath observation without control (2 min), (3) Counting breath technique from 1 to 10 and back (3 min), (4) Awareness of breath sensations at nostrils (2 min), (5) Gentle closing with gratitude and Om shanti chant (1 min). Format as a complete script with word-for-word narration, pause durations in seconds, voice pacing cues, and 2 sample variations for longer or shorter timings. Use simple English accessible to non-yoga practitioners. Include a 2-sentence introduction explaining the benefit of the practice to skeptical corporate audiences.",
+      "tags": [
+        "breath-meditation",
+        "corporate-yoga",
+        "art-of-living",
+        "10-minute",
+        "pranayama"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-006",
+      "title": "Design 75-Minute Vinyasa Flow for Weight Loss",
+      "prompt": "Act as a Vinyasa yoga instructor with 200-hour YTT and 4 years of experience teaching at a Delhi studio. I need you to design a 75-minute beginner-friendly Vinyasa flow class targeted at weight loss for 20 Indian students aged 25-40. The class runs on Saturday mornings. Please provide: (1) Centering and intention setting (5 min), (2) Dynamic warm-up with cat-cow, shoulder rolls, and low lunges (10 min), (3) Surya Namaskar A for 5 rounds building heat (10 min), (4) Standing flow sequence with Warrior poses, Crescent Lunge, Chair pose held longer for calorie burn (25 min), (5) Core strengthening with Plank variations, Navasana, Boat pose flows (10 min), (6) Cool-down twists and hip openers (10 min), (7) Shavasana (5 min). Format as a pose-by-pose sequence with breath count, modifications for less fit students, and teaching cues. Include calorie estimate for the class and how to pair with Indian diet advice without giving medical nutrition counsel.",
+      "tags": [
+        "vinyasa",
+        "weight-loss",
+        "75-minute",
+        "flow-class",
+        "beginner"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-007",
+      "title": "Create Student Intake Assessment Form",
+      "prompt": "Act as a yoga studio owner in Chennai running a Krishnamacharya-lineage school with 9 years of experience. I need you to create a comprehensive student intake and assessment form for new students joining our beginner yoga program. The form must collect health information, experience, and goals to help instructors personalize teaching. Please provide: (1) Personal details section (name, age, occupation, contact), (2) Medical history checklist covering 20 common conditions relevant to Indian students (BP, diabetes, thyroid, PCOD, slipped disc, knee issues, etc.), (3) Current medications and surgeries section, (4) Yoga experience and previous styles practiced, (5) Physical assessment fields for flexibility, balance, and posture observations by instructor, (6) Lifestyle questions on sleep, stress, diet (vegetarian/non-veg), sedentary hours, (7) Goals and expectations section, (8) Informed consent and liability waiver paragraph compliant with Indian consumer law, (9) Instructor notes section for class recommendations. Format as a ready-to-print 2-page form with clear sections, checkboxes, and Hindi translations for key medical terms. Include a 1-page instructor guide on how to interpret responses.",
+      "tags": [
+        "student-assessment",
+        "intake-form",
+        "studio-management",
+        "medical-history",
+        "consent"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-008",
+      "title": "Plan 2-Hour Introduction to Yoga Workshop",
+      "prompt": "Act as a yoga teacher with Patanjali Yogpeeth certification and 5 years of experience leading community workshops in Haridwar. I need you to plan a 2-hour Introduction to Yoga workshop for 25 complete beginners at a community centre in Jaipur. The workshop must educate as well as practice. Please provide: (1) Welcome and philosophy overview covering the 8 limbs of Ashtanga Yoga from Patanjali Yoga Sutras (15 min), (2) Basic pranayama demonstration and practice with Anulom Vilom and Bhramari (15 min), (3) Foundation asana practice covering 10 essential beginner poses with alignment (45 min), (4) Introduction to meditation with a 10-minute guided session (15 min), (5) Q&A and home practice guidance (20 min), (6) Closing chant and distribution of printed handout (10 min). Format as a detailed workshop plan with timing, learning objectives, materials needed, participant handout content, and registration fee suggestion in INR (500-1500 range). Include 3 sample poses with photo reference descriptions and safety notes.",
+      "tags": [
+        "workshop-planning",
+        "intro-workshop",
+        "2-hour",
+        "patanjali",
+        "beginner-workshop"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-009",
+      "title": "Design Themed Class on Chakras for Beginners",
+      "prompt": "Act as a yoga instructor with training from Isha Foundation and 3 years of experience teaching at a Coimbatore ashram. I need you to design a 60-minute beginner-friendly themed class introducing the 7 chakras through asana. The class is for 15 Indian students who are curious about yoga philosophy. Please provide: (1) Opening explanation of the chakra system in simple language (5 min), (2) Muladhara grounding with Tadasana and Malasana (7 min), (3) Svadhisthana hip openers with Baddha Konasana (7 min), (4) Manipura core work with Navasana variations (7 min), (5) Anahata heart openers with Ustrasana and Setu Bandhasana (8 min), (6) Vishuddha throat and neck work with Matsyasana (6 min), (7) Ajna third-eye focus with Balasana and forehead awareness (5 min), (8) Sahasrara crown connection with seated meditation (5 min), (9) Closing chakra visualization in Shavasana (10 min). Format as a sequence with chakra name, location, bija mantra (LAM, VAM, RAM, YAM, HAM, OM, silence), associated color, pose, and teaching cue.",
+      "tags": [
+        "chakra-yoga",
+        "themed-class",
+        "isha",
+        "beginner",
+        "philosophy"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-010",
+      "title": "Write 20-Minute Body Scan Meditation Script",
+      "prompt": "Act as a Yoga Nidra instructor trained at the Bihar School of Yoga with 6 years of experience. I need you to write a complete 20-minute body scan meditation script suitable for beginners at a Rishikesh retreat centre. The audience is 20 international and Indian students in Shavasana. Please provide: (1) Settling phase with Shavasana setup instructions (3 min), (2) Initial relaxation with heaviness suggestions through the body (3 min), (3) Rotation of consciousness through 61 body points in the classical Yoga Nidra order starting from right thumb (10 min), (4) Whole-body awareness and breath synchronization (2 min), (5) Return to waking consciousness with gentle movement (2 min). Format as a word-for-word script with pause timings in seconds, voice tone notes (soft, monotone, unhurried), Sanskrit terms with English meaning, and stage directions. Include a 3-sentence teacher preparation note on room setup, lighting, and common student issues like falling asleep.",
+      "tags": [
+        "yoga-nidra",
+        "body-scan",
+        "20-minute",
+        "bihar-school",
+        "meditation-script"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-011",
+      "title": "Design Morning Yoga Class for Busy Professionals",
+      "prompt": "Act as a corporate yoga instructor with 5 years of experience teaching at tech parks in Hyderabad. I need you to design a 60-minute early morning yoga class (6 AM) for 15 IT professionals aged 28-38 who want energy for the workday. Focus on being time-efficient and accessible for beginners. Please provide: (1) Quick centering with 5 rounds of Kapalabhati (excluding BP cases) (5 min), (2) Dynamic joint mobility warm-up (10 min), (3) 3 rounds of Surya Namaskar A at moderate pace (10 min), (4) Standing sequence with Warrior I, II, Reverse Warrior, Triangle (15 min), (5) Seated forward folds and twists (10 min), (6) Inversions with Viparita Karani (5 min), (7) Quick Shavasana (5 min). Format as a detailed lesson plan with transitions, breath cues, and notes on how to keep energy up. Include 3 alternative poses for students with wrist or knee issues common in desk workers.",
+      "tags": [
+        "morning-yoga",
+        "corporate",
+        "busy-professionals",
+        "energy",
+        "beginner"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-012",
+      "title": "Plan Weekend Yoga Retreat Welcome Session",
+      "prompt": "Act as a retreat host at a Goa beach yoga centre with 4 years of experience leading weekend retreats. I need you to plan the complete Friday evening welcome session for a 3-day yoga retreat with 20 Indian participants arriving from Mumbai and Bengaluru. Please provide: (1) Check-in and room assignment process with welcome drink (tender coconut) (30 min), (2) Opening circle with introductions, name, city, intention (30 min), (3) Retreat overview covering daily schedule, meal timings, silence periods (15 min), (4) Gentle arrival yoga class focused on travel recovery with hip openers and twists (45 min), (5) Sunset meditation by the beach (15 min), (6) Welcome vegetarian sattvic dinner briefing with Ayurvedic principles (15 min). Format as a timed plan starting at 4 PM. Include a sample welcome speech of 200 words, printed welcome kit contents, and facilitator checklist. Address common first-day concerns like unfamiliar food and shared accommodation.",
+      "tags": [
+        "retreat-planning",
+        "weekend-retreat",
+        "goa",
+        "welcome-session",
+        "beginner"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-013",
+      "title": "Create Simple Pranayama Class for Anxiety Relief",
+      "prompt": "Act as a pranayama specialist trained in the Sri Sri Ravi Shankar tradition with 7 years of experience. I need you to design a 60-minute beginner pranayama-focused class specifically for Indian students dealing with anxiety and sleep issues. Class size is 12 students in a Mumbai studio. Please provide: (1) Opening centering with awareness of natural breath (5 min), (2) Warm-up gentle movements for ribcage and diaphragm (10 min), (3) Diaphragmatic breathing instruction and practice (10 min), (4) Anulom Vilom alternate nostril breathing with count 4-4-4-4 (10 min), (5) Bhramari humming bee breath for nervous system (10 min), (6) Sheetali cooling breath (5 min), (7) Guided relaxation in Shavasana (10 min). Format with detailed breath counts, contraindications for each technique, and simple language explanations. Emphasize poses to AVOID like Kapalabhati and Bhastrika for anxious students. Include a home practice handout.",
+      "tags": [
+        "pranayama",
+        "anxiety-relief",
+        "breathwork",
+        "sri-sri",
+        "beginner"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-014",
+      "title": "Design Kids Yoga Class for Ages 7-12",
+      "prompt": "Act as a certified kids yoga instructor with 3 years of experience teaching at schools in Pune. I need you to design a fun 45-minute yoga class for 20 Indian children aged 7-12 at a CBSE school's summer camp. Keep it playful and educational. Please provide: (1) Opening circle with a yoga name game and Namaste greeting (5 min), (2) Animal-themed warm-up with Cat, Cow, Dog, Cobra, Butterfly poses with storytelling (10 min), (3) Adventure sequence journeying through an Indian jungle meeting peacock, lion, tree poses (15 min), (4) Partner yoga games for balance and trust (8 min), (5) Quiet time with a short story and guided imagination Shavasana (5 min), (6) Closing with a mantra and high-fives (2 min). Format as a playful lesson plan with teaching scripts, behavior management tips, and 3 backup activities if kids get restless. Include a parent handout explaining benefits.",
+      "tags": [
+        "kids-yoga",
+        "children",
+        "school-program",
+        "playful",
+        "beginner"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-015",
+      "title": "Write Opening Invocation and Closing for Class",
+      "prompt": "Act as a traditional yoga teacher trained in Chennai in the Krishnamacharya lineage with 10 years of experience. I need you to write 5 different opening invocations and 5 closing chants that Indian yoga instructors can use for general classes. Each must be authentic, brief (under 2 minutes), and accessible to students unfamiliar with Sanskrit. Please provide for each: (1) Sanskrit text in Devanagari, (2) Roman transliteration with accent marks, (3) Word-by-word English meaning, (4) Overall translation, (5) Context and appropriate use (morning, evening, therapeutic, general). Include: Gayatri Mantra, Guru Stotram, Patanjali Invocation, Asato Ma Sadgamaya, Saha Navavatu for openings; Sarve Bhavantu Sukhinah, Om Shanti Shanti Shanti, Lokah Samastah, Twameva Mata, Purnamadah Purnamidam for closings. Format as a reference document that an instructor can print and use. Include pronunciation tips for common mispronunciations by Indian English speakers.",
+      "tags": [
+        "invocation",
+        "sanskrit-chants",
+        "opening-closing",
+        "krishnamacharya",
+        "beginner"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-016",
+      "title": "Plan First-Time Student Orientation Session",
+      "prompt": "Act as the head instructor at a mid-sized yoga studio in Bengaluru with 6 years of experience. I need you to design a 45-minute first-time student orientation that happens before their first group class. The goal is to make new Indian students comfortable and set them up for success. Please provide: (1) Warm welcome and studio tour including prop area, changing rooms, Shavasana area (10 min), (2) Studio etiquette briefing covering silence, phone policy, arrival time, shoe removal, hygiene (5 min), (3) Health intake review and goal setting conversation (10 min), (4) Basic pose demonstration of Tadasana, Balasana (child's pose as rest pose), Shavasana setup (10 min), (5) Introduction to 3 key breathing basics (5 min), (6) Q&A and class recommendation (5 min). Format as a facilitator script with exact talking points, common questions to address, and a one-page welcome handout listing 10 studio guidelines in English and Hindi.",
+      "tags": [
+        "student-orientation",
+        "new-student",
+        "studio-management",
+        "onboarding",
+        "beginner"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-017",
+      "title": "Design 75-Minute Iyengar Class with Props",
+      "prompt": "Act as an Iyengar yoga instructor certified from the Ramamani Iyengar Memorial Yoga Institute in Pune with 12 years of experience. I need you to design a precise 75-minute intermediate Iyengar class for 15 students focused on standing poses and their alignment. All students have 6+ months experience. Please provide: (1) Opening with Tadasana alignment check against wall (5 min), (2) Adho Mukha Svanasana with heels elevated on blocks (10 min), (3) Utthita Trikonasana with back heel to wall, front hand on block (12 min), (4) Utthita Parsvakonasana with deep knee alignment work (12 min), (5) Virabhadrasana I and II with strap around thighs for stability (15 min), (6) Ardha Chandrasana with block and wall support (10 min), (7) Supported Setu Bandha with bolster (8 min), (8) Shavasana with weighted eye pillow (3 min). Format as a detailed sequence with exact prop requirements per student, 5 alignment cues per pose, common misalignments with corrections, and BKS Iyengar teaching quotes where relevant.",
+      "tags": [
+        "iyengar-yoga",
+        "alignment",
+        "props",
+        "standing-poses",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-018",
+      "title": "Plan 3-Day Weekend Yoga Retreat Itinerary",
+      "prompt": "Act as a retreat director running retreats in Dharamshala with 8 years of experience. I need you to plan a complete 3-day weekend yoga retreat itinerary for 25 intermediate-level Indian participants (Friday evening to Sunday afternoon). Theme: Mountain Renewal. Please provide: (1) Friday schedule: arrival, welcome circle, gentle evening practice, dinner, early sleep, (2) Saturday schedule: 6 AM meditation, 7 AM asana class, breakfast, 10 AM philosophy workshop on Yoga Sutras, lunch, afternoon hike to local temple, 5 PM restorative class, satsang around bonfire, dinner, (3) Sunday schedule: 6 AM silent meditation, 7 AM dynamic Vinyasa, brunch, 11 AM karma yoga service activity, closing circle, departure by 2 PM. Format as a minute-by-minute itinerary table including meal menus with sattvic Indian vegetarian options, staff assignments, material requirements, and weather contingency plans. Include pricing breakdown in INR for a 12,000-18,000 per person package.",
+      "tags": [
+        "retreat-itinerary",
+        "3-day-retreat",
+        "dharamshala",
+        "weekend",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-019",
+      "title": "Create Backbend-Focused 75-Minute Class",
+      "prompt": "Act as an advanced Vinyasa instructor with 8 years of experience teaching at a Mumbai studio. I need you to design a 75-minute intermediate class themed around safe backbend practice for 18 students with at least 1 year of experience. Please provide: (1) Opening centering and intention (5 min), (2) Warm-up with cat-cow flows and thoracic mobility drills (10 min), (3) Sun Salutation B variations to open shoulders (10 min), (4) Standing backbend preparation with Crescent Lunge and low lunge twists (10 min), (5) Progressive backbend peak sequence building to Ustrasana, Dhanurasana, Urdhva Dhanurasana (20 min), (6) Counter poses with knee-to-chest, gentle twists, Paschimottanasana (10 min), (7) Supported restorative fish or Setu Bandha (5 min), (8) Shavasana (5 min). Format with detailed breath cues, spotting techniques for Urdhva Dhanurasana, common injury risks (lumbar compression, SI joint), and modifications for tight shoulders. Include teaching language for heart opening.",
+      "tags": [
+        "backbends",
+        "vinyasa",
+        "75-minute",
+        "peak-pose",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-020",
+      "title": "Write 15-Minute Mantra Meditation Script",
+      "prompt": "Act as a Vedic meditation teacher trained in South India with 9 years of experience. I need you to write a complete 15-minute mantra meditation script for intermediate students at a Chennai ashram. The script should use the So-Hum natural mantra technique suitable for all religions. Please provide: (1) Opening setup and posture check for Sukhasana or Ardha Padmasana (2 min), (2) Introduction to the meaning of So-Hum (I am That) in Vedantic tradition (2 min), (3) Breath synchronization with mental repetition of So on inhale and Hum on exhale (8 min), (4) Dealing with thoughts instruction (2 min), (5) Gentle closing with 3 Oms and Shanti mantra (1 min). Format as a word-for-word script with pause markers, voice tone cues, Sanskrit italicized with translations, and stage directions. Include a 5-sentence pre-meditation talk explaining mantra meditation and a 3-sentence post-meditation sharing prompt.",
+      "tags": [
+        "mantra-meditation",
+        "so-hum",
+        "vedantic",
+        "15-minute",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-021",
+      "title": "Design Half-Day Workshop on Hip Openers",
+      "prompt": "Act as a yoga anatomy specialist with 6 years of experience teaching workshops across India. I need you to design a 4-hour half-day workshop titled \"Open Hips, Open Mind\" for 20 intermediate students at a Bengaluru studio. Ticket price is INR 2500. Please provide: (1) Welcome and anatomy of hip joint presentation with diagrams (30 min), (2) Hip mobility assessment and partner work (20 min), (3) Warm-up practice with dynamic hip mobility drills (30 min), (4) Break with herbal tea (15 min), (5) External rotation peak sequence (Lotus, Pigeon, Fire Log) (45 min), (6) Internal rotation practice (Virasana, Hero) (30 min), (7) Hip flexor opening (low lunges, Anjaneyasana) (30 min), (8) Myofascial release with tennis balls (20 min), (9) Closing discussion and Q&A (20 min), (10) Take-home practice sheet distribution (10 min). Format with learning outcomes, materials list, handout design brief, and marketing blurb.",
+      "tags": [
+        "workshop-planning",
+        "hip-openers",
+        "half-day",
+        "anatomy",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-022",
+      "title": "Create Vinyasa Class for PCOD and Hormonal Balance",
+      "prompt": "Act as a women's wellness yoga instructor with AYUSH certification and 7 years of experience specialized in PCOD. I need you to design a 60-minute therapeutic Vinyasa class for 12 Indian women aged 22-38 with PCOD and hormonal imbalances at a Delhi studio. Please provide: (1) Grounding centering with Ujjayi breath (5 min), (2) Warm-up with gentle twists and hip circles (8 min), (3) Supta Baddha Konasana opening for pelvic circulation (7 min), (4) Standing sequence with Malasana, Goddess Squat, Trikonasana emphasizing pelvic floor (15 min), (5) Bhujangasana, Dhanurasana for stimulating ovaries and reproductive organs (10 min), (6) Paschimottanasana and Janu Sirsasana for endocrine balance (8 min), (7) Viparita Karani inversion (5 min), (8) Shavasana with focus on lower belly (2 min). Format with detailed cues, contraindications during menstruation, poses to AVOID during heavy flow, and evidence-based benefits. Include 3 questions the instructor should ask each student privately.",
+      "tags": [
+        "pcod-yoga",
+        "womens-health",
+        "hormonal-balance",
+        "therapeutic",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-023",
+      "title": "Plan Themed Class on Arm Balances",
+      "prompt": "Act as a power yoga instructor with 7 years of experience at a high-end Gurugram studio. I need you to design a 75-minute intermediate class themed on arm balances for 15 students who can hold Plank for 1 minute. Please provide: (1) Wrist warm-up and mobility (5 min), (2) Shoulder opening Sun Salutations (10 min), (3) Core activation with boat pose and hollow holds (10 min), (4) Preparatory poses: Malasana, Chaturanga hold, Dolphin (15 min), (5) Peak arm balance progressions: Bakasana (crow), Parsva Bakasana (side crow), Eka Pada Koundinyasana (25 min), (6) Cool-down forward folds and wrist releases (8 min), (7) Shavasana (2 min). Format with safety protocols including spotting techniques, wrist injury prevention cues, psychological fear-management tips, and modifications using blocks. Include encouraging Hindi-English hybrid teaching phrases for intimidated students.",
+      "tags": [
+        "arm-balances",
+        "power-yoga",
+        "peak-poses",
+        "bakasana",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-024",
+      "title": "Design Restorative Class for Stress Relief",
+      "prompt": "Act as a restorative yoga teacher trained at Sivananda Kerala with 8 years of experience. I need you to design a 75-minute deeply restorative class for 12 intermediate students at a Kochi wellness centre dealing with chronic stress and burnout. Each student gets 2 bolsters, 3 blankets, 2 blocks, an eye pillow, and a strap. Please provide: (1) Arrival and setup with Supta Baddha Konasana on bolster (10 min), (2) Supported Balasana with bolster under chest (10 min), (3) Supported Matsyasana with bolster along spine (12 min), (4) Supported Paschimottanasana with bolster on thighs (10 min), (5) Viparita Karani with bolster under hips (12 min), (6) Supported Jathara Parivartanasana twist (10 min), (7) Deep Shavasana with props (11 min). Format with exact prop placement instructions, verbal cues that promote deep relaxation, music suggestions (classical Indian instrumental), and lighting setup. Include notes on adjustments and hands-off teaching.",
+      "tags": [
+        "restorative-yoga",
+        "stress-relief",
+        "burnout",
+        "sivananda",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-025",
+      "title": "Create Post-Assessment Student Progress Report",
+      "prompt": "Act as a yoga studio owner with a teacher training program in Rishikesh with 10 years of experience. I need you to create a comprehensive student progress assessment template used quarterly to evaluate intermediate students and plan their advancement. Please provide: (1) Student information section with training duration, (2) Physical assessment across 10 key poses with scoring (1-5) on alignment, stability, breath integration, (3) Pranayama proficiency evaluation in 6 techniques, (4) Meditation consistency and depth self-report, (5) Philosophy knowledge quick-test on 8 Yoga Sutra concepts, (6) Instructor narrative observations covering 5 areas, (7) Personalized recommendations for next quarter with 3 focus areas, (8) Student goals and reflection section, (9) Sign-off and next assessment date. Format as a 3-page template with scoring rubrics and interpretation guide. Include 3 sample filled entries showing beginner-to-intermediate transition.",
+      "tags": [
+        "student-progress",
+        "assessment-template",
+        "evaluation",
+        "quarterly-review",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-026",
+      "title": "Write 20-Minute Chakra Meditation Script",
+      "prompt": "Act as an advanced meditation teacher with training from Isha and Bihar School with 10 years of experience. I need you to write a 20-minute guided chakra meditation script for intermediate students at a Coimbatore retreat. The script should systematically activate each of the 7 chakras. Please provide: (1) Settling into Sukhasana with spine alignment cues (2 min), (2) Grounding breath and initial awareness (2 min), (3) Sequential chakra visualization starting from Muladhara with bija mantra chanting (LAM, VAM, RAM, YAM, HAM, OM, silence) 2 min each (14 min), (4) Whole system awareness and energy integration (1 min), (5) Closing with Shanti chant and grounding (1 min). Format as a complete script with pause markers, chanting cues with Sanskrit pronunciation, stage directions, voice tone notes, and color visualization language. Include pre-meditation posture setup and a 3-sentence introduction to chakras.",
+      "tags": [
+        "chakra-meditation",
+        "bija-mantra",
+        "20-minute",
+        "energy-work",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-027",
+      "title": "Plan 7-Day Rishikesh Yoga Retreat Itinerary",
+      "prompt": "Act as a retreat operator based in Rishikesh with 9 years of experience running week-long retreats. I need you to plan a complete 7-day yoga retreat itinerary for 20 intermediate Indian and international participants. Package price is INR 45,000 per person. Please provide: (1) Day-by-day schedule from arrival Sunday to departure Saturday, (2) Daily structure with 6 AM meditation, 7-8:30 AM asana, breakfast, 10-11:30 AM workshop, lunch, afternoon activity, 5-6:30 PM practice, dinner, satsang, (3) Workshop themes: Yoga Sutras Day 2, Pranayama Day 3, Bandhas and Mudras Day 4, Meditation Day 5, Ayurveda basics Day 6, (4) Excursions: Ganga Aarti at Triveni Ghat, Beatles Ashram visit, Vashishta Gufa, (5) Full sattvic meal menu for 7 days, (6) Staff roster and responsibilities, (7) Emergency contacts and medical protocols. Format as a detailed planning document with INR cost breakdown per category.",
+      "tags": [
+        "rishikesh-retreat",
+        "7-day-retreat",
+        "itinerary",
+        "full-immersion",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-028",
+      "title": "Design Inversion-Focused 75-Minute Class",
+      "prompt": "Act as an Ashtanga yoga instructor with 8 years of experience teaching at a Mysore-style shala in Bengaluru. I need you to design a 75-minute intermediate class building toward safe inversions for 14 students who already practice Salamba Sarvangasana. Please provide: (1) Opening chant and centering (5 min), (2) Sun Salutations A and B (10 min), (3) Core strengthening with Navasana, Plank variations (10 min), (4) Shoulder and arm preparation with Dolphin and handstand prep at wall (15 min), (5) Peak inversion work: Salamba Sirsasana with wall support, free Sirsasana, Pincha Mayurasana (20 min), (6) Counter poses with Balasana, neck release (8 min), (7) Setu Bandha and Matsyasana (4 min), (8) Shavasana (3 min). Format with spotting protocols, neck safety cues, fear management language, and 3 progression paths based on student readiness. Include Ashtanga lineage teaching notes.",
+      "tags": [
+        "inversions",
+        "ashtanga",
+        "sirsasana",
+        "75-minute",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-029",
+      "title": "Create Themed Class on Yoga for Immunity",
+      "prompt": "Act as an integrative yoga therapist with AYUSH certification and 6 years of experience. I need you to design a 60-minute themed class on yoga for immunity for 15 intermediate students at a Pune studio, post-monsoon season. Please provide: (1) Opening Ujjayi breath and centering (5 min), (2) Warm-up with lymphatic drainage movements (8 min), (3) Sun Salutations to build heat and circulation (10 min), (4) Twisting sequence for digestion and detoxification with Ardha Matsyendrasana, Parivrtta Trikonasana (15 min), (5) Heart openers for thymus gland stimulation with Ustrasana, Bhujangasana (10 min), (6) Inversions for lymph flow with Viparita Karani (5 min), (7) Nadi Shodhana pranayama for balance (5 min), (8) Shavasana with immunity affirmations (2 min). Format with cues linking poses to immune system physiology, seasonal Ayurvedic recommendations, and turmeric-ginger herbal tea recipe for post-class.",
+      "tags": [
+        "immunity-yoga",
+        "ayush",
+        "themed-class",
+        "monsoon",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-030",
+      "title": "Plan Half-Day Workshop on Yoga Philosophy",
+      "prompt": "Act as a Yoga Sutra scholar with 10 years of teaching experience at a Vedanta institute in Chennai. I need you to design a 4-hour half-day workshop on Patanjali Yoga Sutras Chapter 1 for 25 intermediate practitioners. Ticket price is INR 2000. Please provide: (1) Welcome and opening chant of Patanjali invocation (15 min), (2) Historical context of Patanjali and Yoga Sutras (20 min), (3) Deep dive on Sutra 1.2 chitta vritti nirodhah with discussion (30 min), (4) Break (15 min), (5) Exploration of the 5 vrittis (modifications of mind) (30 min), (6) Abhyasa and vairagya (practice and detachment) (30 min), (7) Introduction to Isvara pranidhana (30 min), (8) Practical application discussion in small groups (20 min), (9) Q&A and closing (10 min). Format with Sanskrit quotes with translations, 5 discussion questions, handout contents, and reading list for 3 authentic commentaries.",
+      "tags": [
+        "yoga-philosophy",
+        "yoga-sutras",
+        "workshop",
+        "patanjali",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-031",
+      "title": "Design Yoga Class for Pregnant Women Second Trimester",
+      "prompt": "Act as a prenatal yoga specialist with RPYT certification and 7 years of experience. I need you to design a safe 60-minute yoga class for 10 second-trimester pregnant women at a Mumbai maternity clinic. All have medical clearance. Please provide: (1) Gentle centering with Ujjayi breath (5 min), (2) Cat-cow for spinal mobility and pelvic tilts (8 min), (3) Modified Sun Salutations with wide stance and no binding twists (10 min), (4) Standing poses: Warrior II, Goddess, Triangle with wall support (15 min), (5) Hip openers: Baddha Konasana, supported Malasana (10 min), (6) Side-lying rest and gentle back work (8 min), (7) Meditation for mother-baby bonding (4 min). Format with detailed safety protocols, poses to AVOID (deep twists, lying on belly, inversions, breath retention), modifications for each pose, and warning signs requiring immediate rest. Include mantra for positive birth preparation.",
+      "tags": [
+        "prenatal-yoga",
+        "second-trimester",
+        "pregnancy",
+        "therapeutic",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-032",
+      "title": "Create Student Assessment for Teacher Trainee",
+      "prompt": "Act as the lead trainer for a 200-hour Yoga Alliance and QCI-certified TTC program in Goa with 12 years of experience. I need you to create a mid-program assessment for teacher trainees at the 100-hour mark of a 200-hour course. Please provide: (1) Practical teaching test with 30-minute mock class evaluation rubric covering sequencing, cueing, demo, adjustments, presence (scored 1-10 per criterion), (2) Written exam with 20 questions covering anatomy, philosophy, teaching methodology, (3) Pose demonstration checklist for 25 key asanas with alignment points, (4) Self-reflection questionnaire with 10 deep questions, (5) Peer review form, (6) Lead trainer narrative feedback template, (7) Pass/fail criteria and remediation path for weak areas. Format as a complete assessment package with sample completed responses and scoring interpretation guide. Ensure alignment with Yoga Alliance and QCI standards.",
+      "tags": [
+        "teacher-training",
+        "ttc-assessment",
+        "200-hour",
+        "trainee-evaluation",
+        "intermediate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-033",
+      "title": "Design Advanced Ashtanga Second Series Class",
+      "prompt": "Act as a KPJAYI-authorized Ashtanga teacher with 15 years of Mysore experience. I need you to design a 90-minute advanced class working through the first half of Ashtanga Intermediate Series (Nadi Shodhana) for 8 advanced students who have a solid Primary Series practice. Please provide: (1) Opening chant (2 min), (2) Full Sun Salutations A (5 rounds) and B (3 rounds) (12 min), (3) Fundamental standing sequence abbreviated (10 min), (4) Second Series through Pasasana, Krounchasana, Shalabhasana, Bhekasana, Dhanurasana, Parsva Dhanurasana, Ustrasana, Laghu Vajrasana, Kapotasana (35 min), (5) Supta Vajrasana with partner (5 min), (6) Closing sequence backbends and finishing (15 min), (7) Shavasana (6 min). Format with exact vinyasa count, breath count per pose, traditional Sanskrit counting, hands-on adjustment cues for Kapotasana, and injury precautions for deep backbends. Include teaching notes on purification effects.",
+      "tags": [
+        "ashtanga-second-series",
+        "advanced",
+        "kpjayi",
+        "nadi-shodhana",
+        "traditional"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-034",
+      "title": "Plan 7-Day Advanced Sadhana Retreat",
+      "prompt": "Act as a traditional yoga master running advanced retreats at an ashram in Uttarkashi with 20 years of experience in the Himalayan tradition. I need you to design a 7-day intensive sadhana retreat for 12 advanced practitioners with 5+ years of daily practice. Package INR 60,000 per person. Please provide: (1) Daily schedule with 4 AM wake, 4:30-6 AM meditation, 6-8 AM asana and pranayama, 8:30 breakfast, 10-12 scripture study (Hatha Yoga Pradipika), lunch, 2-4 karma yoga, 4-6 advanced practice, 7 dinner, 8-9 satsang, 10 PM sleep, (2) Progressive asana curriculum culminating in advanced inversions and Kriya practices, (3) Pranayama progression through Nadi Shodhana, Bhastrika, Kumbhaka, (4) Introduction to Shatkarma: Jala Neti, Vaman Dhauti, Trataka, (5) Mouna (silence) periods on days 4-6, (6) Integration and return guidance on day 7. Format with daily plans, spiritual progression notes, and safety protocols for intense practices.",
+      "tags": [
+        "sadhana-retreat",
+        "7-day",
+        "advanced",
+        "himalayan-tradition",
+        "kriya"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-035",
+      "title": "Design Advanced Pranayama Teacher Workshop",
+      "prompt": "Act as a pranayama master trained at Kaivalyadhama Lonavla with 18 years of experience. I need you to design a full-day 6-hour advanced pranayama workshop for 15 experienced yoga teachers at a Pune institute. Ticket INR 4500. Please provide: (1) Opening and purpose statement (15 min), (2) Theory of prana, nadis, and chakras in the Hatha Yoga Pradipika (45 min), (3) Practice: Nadi Shodhana with progressive ratios 1:1:1, 1:2:2, 1:4:2 with Kumbhaka (60 min), (4) Lunch break sattvic meal (60 min), (5) Bhastrika technique with safety protocols and advanced rounds (45 min), (6) Bandhas integration: Mula, Uddiyana, Jalandhara (45 min), (7) Kapalabhati advanced variations (30 min), (8) Integration meditation and discussion (30 min), (9) Teaching methodology for instructors (30 min), (10) Q&A and closing (30 min). Format with scientific explanations, contraindications list, and teacher certification criteria.",
+      "tags": [
+        "advanced-pranayama",
+        "teacher-workshop",
+        "kaivalyadhama",
+        "bandhas",
+        "full-day"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-036",
+      "title": "Create Advanced Meditation Script for Antar Mouna",
+      "prompt": "Act as a Satyananda-tradition meditation master trained at Bihar School of Yoga with 15 years of experience teaching Antar Mouna. I need you to write a complete 20-minute advanced Antar Mouna (inner silence) meditation script for 10 experienced practitioners at a Mongyr-adjacent ashram. Please provide: (1) Preparation in Siddhasana with spine alignment (2 min), (2) Stage 1: Awareness of external sense perceptions (sound, smell, touch) (3 min), (3) Stage 2: Awareness of spontaneous thoughts without suppression (4 min), (4) Stage 3: Creation and disposal of thoughts at will (4 min), (5) Stage 4: Awareness of suppressed thoughts from subconscious (4 min), (6) Stage 5: Complete thoughtlessness and inner silence (2 min), (7) Gentle return to external awareness (1 min). Format as a word-for-word script with Sanskrit-accurate terminology, precise pause markers, advanced-level guidance, and teaching notes on common student experiences at each stage.",
+      "tags": [
+        "antar-mouna",
+        "advanced-meditation",
+        "satyananda",
+        "inner-silence",
+        "bihar-school"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-037",
+      "title": "Design Advanced Therapeutic Yoga Assessment",
+      "prompt": "Act as a senior yoga therapist with C-IAYT certification and 15 years of clinical experience at a yoga therapy centre in Bengaluru. I need you to create a comprehensive yoga therapy intake and assessment protocol for complex clients referred by physicians. Please provide: (1) Detailed medical history form covering 40 conditions with MRI/diagnosis attachments, (2) Ayurvedic dosha prakriti assessment, (3) Postural analysis protocol with photographs from 4 angles and 25 observation points, (4) Functional movement screening across 10 tests, (5) Breath pattern analysis including rate, depth, thoracic vs diaphragmatic, (6) Autonomic nervous system state assessment, (7) Psycho-emotional screening with validated scales, (8) Yoga prescription framework with 12-session progression plan, (9) Outcome measurement tools for re-assessment, (10) Referral-back criteria for medical issues beyond yoga scope. Format as a complete clinical protocol document aligned with C-IAYT scope of practice and Indian medical-legal considerations.",
+      "tags": [
+        "yoga-therapy",
+        "clinical-assessment",
+        "c-iayt",
+        "therapeutic",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-038",
+      "title": "Plan 90-Minute Advanced Mysore Self-Practice",
+      "prompt": "Act as a Level-2 authorized Ashtanga teacher running a Mysore program in Goa with 14 years of experience. I need you to design the curriculum and teacher's guide for a 90-minute advanced Mysore-style self-practice session for 15 students practicing Primary to Third Series simultaneously. Please provide: (1) Room setup and entry protocol (5 min buffer), (2) Teacher observation roster across 15 students with adjustment priorities, (3) Progression criteria for adding poses from one series to next, (4) Adjustment sequences for 10 key poses: Marichyasana D, Supta Kurmasana, Kapotasana, Karandavasana, (5) Handling injured students on the floor, (6) Conference points for common issues in each series, (7) Closing sequence choreography, (8) Post-practice student discussion protocol. Format as a teacher's operations manual with hands-on adjustment photographs described in detail, lineage teaching language, and KPJAYI-aligned protocols.",
+      "tags": [
+        "mysore-ashtanga",
+        "advanced-practice",
+        "self-practice",
+        "teacher-guide",
+        "kpjayi"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-039",
+      "title": "Design Weekend Workshop on Bandhas and Mudras",
+      "prompt": "Act as a Hatha Yoga Pradipika specialist with 16 years of teaching experience at traditional institutions. I need you to design a 2-day weekend workshop on bandhas and mudras for 20 advanced practitioners at a Rishikesh ashram. Package INR 8000. Please provide: (1) Day 1 morning: theory of bandhas from HYP with Sanskrit verses (2 hours), Mula Bandha isolation and integration practice (2 hours), (2) Day 1 afternoon: Uddiyana Bandha with Nauli progression (2 hours), Jalandhara Bandha and its safety (1 hour), integration in asana (1 hour), (3) Day 2 morning: Maha Bandha and Maha Mudra combined practice (2 hours), Shambhavi Mudra meditation (2 hours), (4) Day 2 afternoon: Hasta mudras (Chin, Jnana, Bhairava), tongue mudras (Khechari introduction), integration in pranayama (2 hours), Closing ceremony (1 hour). Format with pedagogical notes, contraindications, and a 200-word marketing description.",
+      "tags": [
+        "bandhas-mudras",
+        "weekend-workshop",
+        "hatha-pradipika",
+        "advanced",
+        "rishikesh"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    },
+    {
+      "id": "fitness-yoga-instructors-040",
+      "title": "Create Advanced Yoga Nidra Script with Sankalpa",
+      "prompt": "Act as a Yoga Nidra master trained directly in the Satyananda tradition with 18 years of experience. I need you to write a complete 45-minute advanced Yoga Nidra script following the classical 9-stage protocol for 15 experienced practitioners at a Mongyr-style retreat in Uttarakhand. Please provide: (1) Preparation and Shavasana setup (3 min), (2) Stage 1 Sankalpa affirmation (2 min), (3) Stage 2 Rotation of consciousness through 61 points (12 min), (4) Stage 3 Breath awareness with counting backwards (5 min), (5) Stage 4 Opposite sensations (heavy-light, hot-cold) (5 min), (6) Stage 5 Rapid visualization of 20 symbolic images (5 min), (7) Stage 6 Deep chidakasha inner space awareness (5 min), (8) Stage 7 Repetition of Sankalpa (2 min), (9) Stage 8 Externalization (3 min), (10) Stage 9 Closing (3 min). Format as a word-for-word script with precise pause markers, Sanskrit terminology, and deep inner voice pacing cues.",
+      "tags": [
+        "yoga-nidra",
+        "advanced-script",
+        "satyananda",
+        "45-minute",
+        "sankalpa"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "yoga-instructors"
+    }
+  ]
+}

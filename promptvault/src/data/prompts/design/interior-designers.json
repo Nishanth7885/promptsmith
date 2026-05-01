@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "design-interior-designers-001",
+      "title": "Mood Board Description for 2BHK Mumbai Flat",
+      "prompt": "Act as a senior interior designer with 10 years of experience working at firms like Livspace and DesignCafe in Mumbai. I need you to write a detailed mood board description for a 2BHK flat (850 sqft) in Powai for a young couple, Rohan and Priya Sharma, who want a \"modern Indian contemporary\" look with a budget of ₹12 lakh. Here is the context: they love warm neutrals, want subtle Indian motifs (jaali, brass accents), and need the space to work for everyday living plus festive gatherings of 15-20 relatives during Diwali. Please provide: (1) A 3-line overall design concept, (2) A color palette with 5 specific shades and hex codes (e.g., terracotta, ivory, forest green), (3) Material story covering flooring, walls, upholstery, and accents with Indian availability (Kota stone, Burma teak veneer, handloom cotton), (4) Lighting mood (warm 3000K vs cool 4000K zones), (5) 4 hero elements that anchor the space, (6) Styling props referencing Indian craft (Channapatna, Bidri, Jaipur blue pottery). Format as a structured mood board brief ready to share with the client over WhatsApp. Keep tone warm, confident, and aspirational.",
+      "tags": [
+        "mood-board",
+        "2bhk",
+        "mumbai",
+        "contemporary-indian",
+        "livspace"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-002",
+      "title": "Client Proposal with INR Breakup for 3BHK",
+      "prompt": "Act as an interior design project manager with 8 years of experience at HomeLane in Bangalore. I need you to draft a detailed client proposal for a 3BHK apartment (1350 sqft) in Whitefield for Mr. and Mrs. Iyer, a joint family of 6 including in-laws. The budget is ₹18-22 lakh and they want \"premium but practical\" interiors. Here is the context: scope includes modular kitchen (L-shape, 90 sqft), 3 wardrobes, 2 TV units, crockery unit, pooja unit, false ceiling in living/dining, and civil work for one wall demolition. Please provide: (1) A warm 4-line opening paragraph, (2) Scope of work table room-by-room, (3) INR cost breakup with these line items — modular carpentry (₹1,400/sqft), false ceiling (₹85/sqft), electrical (₹45,000 lump sum), painting (Asian Paints Royale, ₹28/sqft), civil (₹60,000), designer fee (8%), GST (18%), (4) Total with subtotal, GST, and grand total, (5) Payment milestones (10% booking, 50% material, 30% installation, 10% handover), (6) Timeline of 75 days, (7) Inclusions and exclusions. Format as a professional PDF-ready proposal in clean tables. Use Indian tax terms and keep language simple enough for non-design clients.",
+      "tags": [
+        "client-proposal",
+        "inr-estimate",
+        "3bhk",
+        "homelane",
+        "cost-breakup"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-003",
+      "title": "Material Specification Sheet for Indian Kitchen",
+      "prompt": "Act as an interior designer with 6 years of experience specifying materials for Indian modular kitchens at Interior Company. I need you to create a complete material specification sheet for an 85 sqft L-shaped kitchen in a 3BHK Pune flat, budget ₹3.5 lakh. Here is the context: the client is a working couple who cook Indian food daily (high heat, turmeric staining, heavy tadka usage) and want durability over aesthetics. Please provide: (1) Carcass material recommendation (BWR plywood 18mm vs HDHMR) with brand (Century, Greenply, Austin), (2) Shutter finish options (acrylic, laminate, PU) with pros and cons for Indian conditions, (3) Countertop comparison (quartz Kalinga stone vs granite Black Galaxy vs Corian) with per sqft INR pricing, (4) Backsplash tile spec (glossy ceramic 2x1 ft from Kajaria or Somany), (5) Hardware brands (Hettich, Hafele, Ebco) with soft-close hinges and tandem drawers, (6) Sink (Franke or Nirali stainless steel), (7) Chimney (Faber or Elica auto-clean 90cm). Format as a tabular spec sheet with columns: Item, Material, Brand, Size, Rate, Total. Include a footer note on 10-year warranty and anti-termite treatment.",
+      "tags": [
+        "material-spec",
+        "modular-kitchen",
+        "interior-company",
+        "specification",
+        "indian-brands"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-004",
+      "title": "Vastu-Compliant 2BHK Space Plan",
+      "prompt": "Act as an interior designer with 7 years of experience integrating vastu shastra into modern Indian apartments at Bonito Designs. I need you to analyze and suggest a vastu-compliant space plan for a 2BHK flat (780 sqft) in Chennai where the main door faces east. Here is the context: the family is a traditional Tamil Brahmin household with parents and one child; they want vastu compliance without sacrificing modern functionality. Please provide: (1) Ideal placement for master bedroom (southwest), kitchen (southeast), pooja room (northeast), kids room (west), living room (north/east), (2) 3 common vastu dosha risks in this flat layout and their remedies, (3) Color recommendations per direction (pale yellow for northeast, light green for east, earthy browns for southwest), (4) Furniture orientation for sleep (head south/east), (5) Mirror placement rules (never facing bed, north/east walls only), (6) Entrance styling for positive energy (rangoli area, brass bell, auspicious toran), (7) Storage placement in southwest. Format as a room-by-room advisory note with a simple ASCII floor plan sketch. Flag any non-negotiable vastu rules versus flexible ones.",
+      "tags": [
+        "vastu",
+        "space-planning",
+        "2bhk",
+        "chennai",
+        "bonito-designs"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-005",
+      "title": "Carpenter Instruction Note in Hinglish",
+      "prompt": "Act as a site supervisor with 5 years of experience managing carpenter teams at DesignCafe sites in Gurgaon. I need you to write a clear instruction note in simple Hinglish for the head carpenter, Rameshji, for a 2-door wardrobe job in a client's master bedroom. Here is the context: wardrobe is 7 ft wide x 8 ft tall x 2 ft deep, BWR ply carcass, Merino laminate shutters (code MR 12345 SF), 2 drawers, hanging rod, loft. Please provide: (1) Material list with exact quantities (ply sheets 8x4, edge banding meters, hinges, drawer channels, handles), (2) Cutting list with panel sizes in mm, (3) Assembly sequence step-by-step, (4) Quality checkpoints (shutter gap 2mm, level check, soft-close test), (5) Finishing instructions (sanding, lacquer for exposed edges), (6) Safety and site cleanliness rules, (7) Timeline (3 working days) with daily targets. Format the note in numbered Hinglish points that a carpenter with basic literacy can follow. Include a hand-over checklist at the end that Rameshji signs off on before payment is released.",
+      "tags": [
+        "carpenter-brief",
+        "hinglish",
+        "wardrobe",
+        "vendor-communication",
+        "site-execution"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-006",
+      "title": "False Ceiling Design Brief for Living Room",
+      "prompt": "Act as an interior designer with 6 years of experience designing false ceilings for Indian living rooms at Livspace Delhi. I need you to create a design brief for a POP false ceiling in a 180 sqft living-dining area of a 3BHK Noida flat. Here is the context: ceiling height is 10 ft, the client wants a \"minimalist with drama\" look, loves cove lighting, and has a budget of ₹45,000 all-in. Please provide: (1) Design concept (single-layer peripheral cove with central recess or multi-level), (2) Dimensions and drops (peripheral 9 inch drop, central flat), (3) Lighting plan with fixtures (12 nos 4-inch LED spots at ₹350 each, 15 meter cove LED strip warm white 3000K, 1 statement chandelier ₹8,000), (4) Material specs (gypsum board vs POP, Saint-Gobain Gyproc brand, 12.5mm thickness), (5) Painting finish (Asian Paints Tractor Emulsion, 2 coats), (6) Cost breakup in INR with labor (₹85/sqft) and material (₹95/sqft), (7) Execution timeline of 6 days. Format as a one-page design brief ready to share with the false ceiling vendor, Suresh Interiors. Include a simple top-view sketch description.",
+      "tags": [
+        "false-ceiling",
+        "living-room",
+        "lighting-design",
+        "pop-work",
+        "vendor-brief"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-007",
+      "title": "Color Palette for Festive Indian Home",
+      "prompt": "Act as a color consultant with 8 years of experience styling Indian homes for festive seasons at DesignCafe. I need you to suggest a versatile color palette for a 1200 sqft 3BHK in Jaipur that hosts Diwali, Holi, and Karwa Chauth gatherings every year. Here is the context: the homeowner, Mrs. Kavita Agarwal, wants a base palette that looks elegant daily but transforms dramatically with festive accessories. Please provide: (1) 6 base wall colors with Asian Paints or Berger codes (e.g., Asian Paints Ivory Cream 7945), (2) Accent wall recommendations for living room and master bedroom, (3) 3 swap-in festive accent palettes (Diwali gold/maroon, Holi coral/turquoise, Karwa Chauth red/ivory), (4) Fabric and curtain color pairings for each festive mode, (5) Flooring and ceiling color strategy, (6) Guidance on lighting (warm white daily, golden amber festive), (7) Budget-friendly festive swap items under ₹10,000 per festival. Format as a seasonal color strategy document with a day-to-festive transformation table. Include care tips for maintaining painted walls in Jaipur's dusty climate.",
+      "tags": [
+        "color-palette",
+        "festive-design",
+        "jaipur",
+        "asian-paints",
+        "seasonal-styling"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-008",
+      "title": "Client Discovery Questionnaire for Villa Project",
+      "prompt": "Act as a lead designer with 9 years of experience onboarding villa clients at Interior Company Bangalore. I need you to create a comprehensive discovery questionnaire for a 4BHK independent villa (3200 sqft) project in Sarjapur for the Menon family, budget ₹60 lakh. Here is the context: the family has grandparents, working parents, and two teenagers; they want a home that feels rooted in Kerala heritage but globally modern. Please provide: (1) 8 lifestyle questions (daily routine, entertaining frequency, cooking style, pets, hobbies), (2) 6 aesthetic preference questions with visual reference prompts (Pinterest, Instagram handles), (3) 5 functional must-haves per room, (4) Budget clarity questions (hard cap, flexibility, phased execution), (5) Vastu and religious preferences, (6) Timeline and possession date, (7) Deal-breakers and past regret questions (\"what would you never repeat from your last home?\"), (8) Decision-making structure (who approves what). Format as a branded client questionnaire with checkboxes, ratings, and open text fields. Keep total length to 3 pages so clients actually complete it. Add a warm closing note thanking them for choosing the studio.",
+      "tags": [
+        "client-discovery",
+        "questionnaire",
+        "villa",
+        "onboarding",
+        "interior-company"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-009",
+      "title": "Pooja Room Design for Apartment",
+      "prompt": "Act as an interior designer with 7 years of experience designing pooja rooms in Indian apartments at HomeLane Hyderabad. I need you to design a compact pooja room for a 3BHK flat (1100 sqft) where only a 4 ft x 3 ft alcove is available in the northeast corner of the living room. Here is the context: the family is a traditional Telugu household that does daily pooja plus Ganesh Chaturthi, Diwali Lakshmi pooja, and Varalakshmi vratam; they need storage for idols, lamps, and puja samagri. Please provide: (1) Design concept in 3 lines, (2) Material spec (Burma teak or sheesham wood mandir unit, marble base, brass bell), (3) Dimensions with back panel, jaali screen, shelving, and bottom storage, (4) Lighting plan (warm 2700K LED strip behind deity, 1 hanging diya, automatic sensor light), (5) Ventilation for camphor smoke (exhaust or open jaali), (6) Color and finish (ivory, gold leaf accents), (7) INR cost breakup (₹45,000-65,000 range). Format as a pooja room design sheet with sketch description, material list, and vendor recommendations for brass and wood work in Hyderabad.",
+      "tags": [
+        "pooja-room",
+        "apartment-design",
+        "traditional",
+        "homelane",
+        "space-optimization"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-010",
+      "title": "Kids Room for Shared Siblings Space",
+      "prompt": "Act as a children's interior designer with 6 years of experience at Livspace Pune. I need you to design a shared kids room (130 sqft) in a 3BHK for two siblings aged 8 and 12, one boy and one girl. Here is the context: the parents want privacy zones, study areas, and play space while keeping the room light, fun, and easy to update as the kids grow. Please provide: (1) Zoning plan (sleep, study, play, storage), (2) Bunk bed vs twin bed recommendation with rationale, (3) Study table design for two children with pinboards, (4) Wardrobe split (his and hers in one 6 ft unit), (5) Color scheme (gender-neutral base with swap accent panels), (6) Flooring (vinyl vs laminate, safety), (7) Wall decor (removable decals, chalkboard wall), (8) Safety features (rounded edges, anti-tip furniture, childproof sockets), (9) INR budget estimate of ₹2.5-3.5 lakh with breakup. Format as a parent-friendly design presentation with clear reasoning for each choice. Include a \"grows with them\" note on upgrade paths at age 14 and 16.",
+      "tags": [
+        "kids-room",
+        "shared-space",
+        "livspace",
+        "child-safe",
+        "space-planning"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-011",
+      "title": "Balcony Makeover for Mumbai 1BHK",
+      "prompt": "Act as an interior stylist with 5 years of experience transforming small Mumbai balconies at DesignCafe. I need you to design a balcony makeover for a 1BHK flat in Andheri where the balcony is only 5 ft x 3.5 ft. Here is the context: the resident is a 28-year-old working professional, Ananya, who wants a cozy morning chai corner that is also Instagram-worthy, on a tight budget of ₹25,000. Here is the constraint: the building committee bans drilling and heavy modifications. Please provide: (1) Concept in 2 lines, (2) Flooring solution (interlocking wooden deck tiles, no drilling), (3) Seating (1 foldable chair + cushioned stool from IKEA or Pepperfry), (4) Plant list with 6 low-maintenance species suitable for Mumbai humidity (money plant, snake plant, jasmine, tulsi), (5) Lighting (battery fairy lights, solar lantern), (6) Wall decor (hanging planters, macrame without drilling), (7) Monsoon protection strategy, (8) Full shopping list with links to Amazon India, Urban Ladder, or local nurseries and INR pricing. Format as a one-page DIY makeover guide. Keep instructions simple enough for a first-time renter.",
+      "tags": [
+        "balcony-makeover",
+        "1bhk",
+        "mumbai",
+        "budget-design",
+        "small-space"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-012",
+      "title": "Entryway Design for Joint Family Home",
+      "prompt": "Act as an interior designer with 8 years of experience at Bonito Designs Ahmedabad. I need you to design a welcoming entryway for a 4BHK duplex in Satellite for a Gujarati joint family of 9 members. Here is the context: the entryway is 8 ft x 5 ft, receives frequent guests during festivals, and needs to handle 10+ pairs of footwear at a time while reflecting the family's warm, traditional values. Please provide: (1) Concept brief, (2) Shoe storage solution (closed cabinet for 15 pairs plus open rack for 5 daily pairs), (3) Console table with mirror setup, (4) Key hooks, umbrella stand, and mail holder, (5) Traditional touches (brass toran, rangoli floor tile, Ganesh idol niche), (6) Flooring (easy-clean vitrified tile, dirt-trapping mat), (7) Lighting (1 pendant warm white, 1 wall sconce), (8) Storage-to-style ratio, (9) INR cost estimate ₹60,000-90,000. Format as a design brief with top-view sketch description and component list with brand suggestions from Pepperfry, Urban Ladder, and local carpenters. Include a note on festive decoration swap-ability.",
+      "tags": [
+        "entryway",
+        "joint-family",
+        "gujarati-home",
+        "traditional",
+        "storage-design"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-013",
+      "title": "WhatsApp Pitch Reply to Cold Lead",
+      "prompt": "Act as a design consultant with 4 years of experience converting leads at Livspace Bangalore. I need you to draft a WhatsApp reply to a cold lead, Mr. Arjun Reddy, who messaged \"Hi, interested in interiors for my 3BHK in Electronic City, pls share details\". Here is the context: Arjun has not shared budget, possession date, or preferences; you need to warm up the conversation and schedule a free discovery call without sounding pushy. Please provide: (1) Opening line that feels human and not copy-pasted, (2) Brief credibility line about the studio (500+ projects delivered, 10-year warranty), (3) 3 smart qualifying questions disguised as helpfulness (possession date, rough budget range, any Pinterest boards), (4) Soft CTA for a 20-minute free video consultation with calendar link, (5) One reassurance about transparent pricing and no hidden costs, (6) Warm sign-off with designer name and 2 photo thumbnails reference. Format as a ready-to-send WhatsApp message under 150 words, broken into 3-4 short paragraphs with emojis used sparingly and appropriately. Include a follow-up message to send 48 hours later if no reply.",
+      "tags": [
+        "lead-nurture",
+        "whatsapp-pitch",
+        "sales",
+        "livspace",
+        "client-acquisition"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-014",
+      "title": "TV Unit Design Brief for Living Room",
+      "prompt": "Act as an interior designer with 7 years of experience at HomeLane Chennai. I need you to create a design brief for a TV unit in a 200 sqft living room of a 3BHK flat. Here is the context: the client has a 55-inch Samsung QLED TV, a Denon soundbar, an Apple TV box, a PlayStation 5, and likes to display family photos, books, and 2 showpieces. The wall is 12 ft wide and 10 ft tall. Please provide: (1) Concept (full wall unit vs floating console), (2) Dimensions and zoning (TV zone, open display shelves, closed storage), (3) Material spec (18mm ply carcass, veneer shutters in walnut finish, back panel fluted MDF), (4) Cable management and power socket planning (5 sockets, HDMI routing), (5) Lighting (LED strip behind TV, spotlights on display), (6) Accessory list for styling (books, plants, art frames), (7) INR cost breakup ₹85,000-1.2 lakh, (8) Vendor instruction note for carpenter. Format as a complete design brief with a front-elevation sketch description and installation sequence. Include a note on dust management for Chennai humidity.",
+      "tags": [
+        "tv-unit",
+        "living-room",
+        "homelane",
+        "carpentry-brief",
+        "wall-design"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-015",
+      "title": "Beginner Guide to Wardrobe Planning",
+      "prompt": "Act as a senior designer with 8 years of experience training junior designers at Interior Company Mumbai. I need you to write a beginner-friendly guide to planning a wardrobe for a standard master bedroom in an Indian 3BHK. Here is the context: a fresher designer needs a checklist she can use for every client project without missing basics. Please provide: (1) Measurement basics (width, depth 22-24 inch, height ceiling hugger vs 8 ft), (2) Shutter type decision (swing vs sliding based on room width), (3) Internal partitioning rules (40% hanging, 30% drawers, 20% shelves, 10% accessories), (4) Must-have zones (long hanging for saris, short for shirts, laundry basket, vanity drawer for jewelry, locker), (5) Material options with Indian brands (Century BWR ply, Merino laminate, Greenlam acrylic), (6) Hardware spec (Hettich soft-close hinges, Hafele channels), (7) Common mistakes to avoid (no loft on low ceilings, no pull-out for short users), (8) Sample cost ₹1,100-1,600 per sqft. Format as a 1-page designer cheat sheet with checkboxes and a sample 7 ft wardrobe layout sketch description.",
+      "tags": [
+        "wardrobe-planning",
+        "beginner-guide",
+        "training",
+        "material-spec",
+        "bedroom"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-016",
+      "title": "Instagram Caption for Project Showcase",
+      "prompt": "Act as a content creator and interior designer with 5 years of experience managing social media for DesignCafe. I need you to write 5 Instagram carousel captions showcasing a just-completed 2BHK project in Koramangala, Bangalore. Here is the context: the 900 sqft flat was done in 55 days, budget ₹14 lakh, modern minimalist style with warm wood tones; the client is Mrs. Shreya Kapoor, a first-time home buyer. Please provide: (1) Caption 1 — hero shot reveal with emotional hook, (2) Caption 2 — before/after storytelling, (3) Caption 3 — material and vendor credits, (4) Caption 4 — client testimonial style, (5) Caption 5 — CTA for new leads with link-in-bio prompt. For each caption include: opening hook (first 2 lines visible before \"more\"), body (3-4 lines), 3 relevant emojis, and 15 strategic hashtags mixing local (#BangaloreInteriors), niche (#2BHKMakeover), and broad (#InteriorDesign). Format as 5 separate captions numbered and ready to paste. Keep tone warm, aspirational, and authentic; avoid clichés. End each with a clear next-action for the reader.",
+      "tags": [
+        "instagram-caption",
+        "social-media",
+        "project-showcase",
+        "content-marketing",
+        "designcafe"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-017",
+      "title": "Detailed BOQ for 4BHK Villa Interiors",
+      "prompt": "Act as a project costing specialist with 10 years of experience preparing BOQs at Bonito Designs Bangalore. I need you to build a detailed Bill of Quantities for a 4BHK independent villa (2800 sqft) in Sadashivanagar. Here is the context: client budget is ₹75 lakh for turnkey interiors including civil, carpentry, false ceiling, painting, electrical, plumbing, flooring upgrade, and loose furniture. Please provide: (1) Section-wise BOQ with these heads — civil and demolition, flooring (Italian marble ₹950/sqft for living, laminate ₹120/sqft for bedrooms), POP and false ceiling (₹95/sqft), carpentry (wardrobes, TV units, kitchen, crockery, study, vanity at ₹1,500/sqft), electrical (Havells or Legrand switches, 180 points at ₹450 each), plumbing (Jaquar or Kohler fittings), painting (Asian Paints Royale Aspira), loose furniture (sofas, beds, dining from West Elm or Pepperfry), (2) Quantity, unit, rate, and amount for each line, (3) Sub-totals per section, (4) Designer fee 10%, contingency 5%, GST 18%, (5) Grand total summary. Format as a professional BOQ spreadsheet with clear headers. Add a note on inclusions, exclusions, and escalation clause.",
+      "tags": [
+        "boq",
+        "villa",
+        "cost-estimation",
+        "bonito-designs",
+        "turnkey"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-018",
+      "title": "Space Planning for Narrow Mumbai 1BHK",
+      "prompt": "Act as a space planning specialist with 9 years of experience optimizing tight Mumbai flats at Livspace. I need you to redesign the layout of a challenging 1BHK (420 sqft carpet) in Dadar. Here is the context: the flat is long and narrow (30 ft x 14 ft), has one window on the short side, one bathroom, and currently feels cramped for a couple with one toddler. The budget is ₹7 lakh. Please provide: (1) Analysis of 4 layout constraints, (2) 2 alternative space plans with pros and cons (sliding partition studio vs conventional 1BHK optimized), (3) Recommended final plan with room-wise dimensions, (4) Multi-functional furniture list (sofa-cum-bed, Murphy bed, expandable dining), (5) Storage strategy (loft, underbed, wall-mounted, vertical kitchen), (6) Light and ventilation optimization, (7) Color and mirror tricks to expand perceived space, (8) INR cost estimate with per sqft rate ₹1,650, (9) 30-second pitch on why this plan works. Format as a space planning report with a top-view layout description and before/after flow comparison. Flag any structural wall constraints to verify on-site.",
+      "tags": [
+        "space-planning",
+        "1bhk",
+        "mumbai",
+        "small-space",
+        "layout-analysis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-019",
+      "title": "Marble vs Kota vs Vitrified Comparison",
+      "prompt": "Act as a material consultant with 11 years of experience specifying flooring for Indian homes at Interior Company. I need you to write a decision framework comparing Rajasthan marble, Kota stone, and vitrified tiles for a 1600 sqft 3BHK flat in Gurgaon. Here is the context: the client is confused and wants a data-backed recommendation balancing aesthetics, durability, maintenance, and cost. Please provide: (1) Detailed comparison table with these parameters — price per sqft installed (marble ₹180-450, Kota ₹65-120, vitrified ₹55-180), lifespan, hardness, stain resistance, slip resistance, maintenance effort, aesthetic appeal, resale value, eco-friendliness, Delhi NCR availability, (2) Best-use rooms for each material (marble for living, Kota for balcony, vitrified for bedroom), (3) Installation complexity and labor cost differences, (4) Common pitfalls (marble yellowing, Kota dullness, tile grout staining), (5) Final recommendation for this client with 3 combinations at different budget tiers ₹1.5L, ₹2.8L, ₹4.5L, (6) Care and maintenance schedule for 10 years. Format as a client-facing decision document with clear visual table and a personalized recommendation summary. Include brand names for vitrified (Kajaria, Somany, Nitco).",
+      "tags": [
+        "material-comparison",
+        "flooring",
+        "marble",
+        "kota-stone",
+        "vitrified"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-020",
+      "title": "Turnkey Project Timeline for 3BHK",
+      "prompt": "Act as a senior project manager with 12 years of experience delivering turnkey interior projects at HomeLane. I need you to create a detailed project timeline for a 3BHK (1400 sqft) turnkey interiors project in Pune, scope ₹20 lakh, start date 15 May 2026. Here is the context: the client has a strict 75-day deadline because in-laws are moving in; scope covers civil, electrical, plumbing, carpentry, false ceiling, painting, flooring upgrade, and loose furniture. Please provide: (1) Phase 1 — pre-production (design finalization, BOQ sign-off, material procurement) days 1-10, (2) Phase 2 — site prep and demolition days 11-15, (3) Phase 3 — civil, electrical first fix, plumbing first fix days 16-25, (4) Phase 4 — false ceiling and painting base days 26-35, (5) Phase 5 — flooring and carpentry installation days 36-55, (6) Phase 6 — finishing, electrical second fix, fixtures days 56-65, (7) Phase 7 — deep cleaning, styling, handover days 66-75, (8) Critical path dependencies flagged, (9) Buffer strategy for rain delays in Pune monsoon, (10) Vendor coordination touchpoints. Format as a Gantt-style weekly plan with deliverables and owner per phase. Highlight 5 highest-risk points in the schedule.",
+      "tags": [
+        "project-timeline",
+        "turnkey",
+        "gantt",
+        "homelane",
+        "project-management"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-021",
+      "title": "Lighting Plan for Open Living-Dining",
+      "prompt": "Act as a lighting designer with 8 years of experience working on premium Indian homes at DesignCafe. I need you to design a layered lighting plan for a 320 sqft open living-dining area in a 3BHK Bangalore flat. Here is the context: ceiling height is 10 ft, client wants distinct moods for daily family time, dinner parties, and Netflix nights; budget for lighting is ₹85,000. Please provide: (1) Ambient layer (false ceiling cove LED strip 25 meters, 4000K, dimmable), (2) Task layer (6 spotlights over dining, 2 focused reading spots near sofa), (3) Accent layer (wall washer on art wall, TV backlight, 1 floor lamp, 1 table lamp), (4) Decorative layer (1 statement pendant over dining, 1 chandelier over sofa coffee table), (5) Complete fixture list with brands (Philips Hue, Wipro Garnet, Havells, Fabbian, Jainsons Lights), (6) Smart control setup (3 scenes — daily, dinner, movie — via Alexa), (7) Wiring and circuit plan notes for electrician, (8) INR breakup fixture-wise, (9) Energy calculation in watts. Format as a lighting design brief with scene-wise mood description and a top-view lighting layout sketch description for the electrician to execute.",
+      "tags": [
+        "lighting-design",
+        "layered-lighting",
+        "smart-home",
+        "living-dining",
+        "designcafe"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-022",
+      "title": "Vendor Rate Negotiation Script",
+      "prompt": "Act as a procurement lead with 7 years of experience negotiating with vendors at Bonito Designs. I need you to draft a negotiation script and email template for reducing a false ceiling vendor quote from ₹1.2 lakh to a target of ₹95,000 for a 3BHK project in Chennai. Here is the context: the vendor Mr. Selvakumar has quoted ₹120 per sqft for 1000 sqft of gypsum false ceiling, but the market rate is ₹95-105 per sqft; you want to preserve the relationship while getting a fair rate. Please provide: (1) Opening rapport line, (2) Data-backed counter using 3 market rate references, (3) Volume leverage (3 upcoming projects this quarter), (4) Non-price concessions to offer (faster payment, bulk material supply from your side, case study credit), (5) Walk-away number and BATNA, (6) 3 objection handling responses (\"my labor has increased\", \"material costs are up\", \"I have better projects\"), (7) Close with a win-win framing, (8) Follow-up timeline. Format as a negotiation playbook with a ready-to-send Tamil-friendly English email. Keep tone respectful, firm, and relationship-preserving. Include a phone call script version alongside the email.",
+      "tags": [
+        "vendor-negotiation",
+        "procurement",
+        "false-ceiling",
+        "bonito-designs",
+        "cost-saving"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-023",
+      "title": "Concept Deck for Boutique Cafe Interior",
+      "prompt": "Act as a commercial interior designer with 9 years of experience at Interior Company's commercial vertical. I need you to build a concept deck for a 900 sqft boutique specialty coffee cafe in Jayanagar, Bangalore. Here is the context: the owner, Ms. Priya Das, wants a warm, minimalist, Instagram-friendly space with 22 covers, an open bar counter, retail shelf for beans and merchandise, and a small outdoor patio; budget is ₹28 lakh. Please provide: (1) Concept narrative (3 paragraphs on story and vibe), (2) Mood board description with 6 reference images, (3) Color and material palette (micro-cement floor, exposed brick accent, raw cedar wood, blackened steel), (4) Furniture plan (Muji-inspired wooden chairs, 2-top marble tables, bar stools), (5) Lighting plan for cafe ambiance, (6) Signage and branding touchpoints, (7) Space plan zoning with customer flow, (8) INR budget breakup across civil, MEP, furniture, and branding, (9) Execution timeline 50 days, (10) 3 Instagram-worthy hero moments. Format as a 12-slide pitch deck outline with slide-by-slide content. Include a footer with the studio credentials and next-step CTA.",
+      "tags": [
+        "concept-deck",
+        "cafe-design",
+        "commercial",
+        "bangalore",
+        "pitch-deck"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-024",
+      "title": "Scope Change Email to Client",
+      "prompt": "Act as a client relationship manager with 8 years of experience at Livspace handling mid-project scope changes. I need you to draft a professional scope change email to Mr. Rajeev Malhotra, client of a 3BHK project in Gurgaon. Here is the context: the client has asked to upgrade the master bedroom wardrobe from laminate to PU finish and add a study unit in the kids room, which adds ₹1.85 lakh to the original ₹18 lakh contract and extends timeline by 8 days. Please provide: (1) Warm acknowledgment of the request, (2) Clear summary of the requested changes with specifications, (3) Impact breakdown — cost delta with line items (PU shutter upgrade ₹1.2 lakh, study unit ₹65,000, GST, labor), (4) Timeline impact with new handover date, (5) Revised total contract value, (6) Payment adjustment schedule, (7) Sign-off confirmation request via a simple \"Reply YES\" mechanism, (8) Reassurance on quality and team effort. Format as a ready-to-send email with subject line, clean tables for the cost breakup, and a friendly closing. Attach a formal change order document reference number (CO-001). Keep tone professional yet warm to maintain trust.",
+      "tags": [
+        "scope-change",
+        "client-email",
+        "change-order",
+        "project-management",
+        "livspace"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-025",
+      "title": "Modular Kitchen Layout Comparison",
+      "prompt": "Act as a kitchen design specialist with 10 years of experience at HomeLane Mumbai. I need you to compare 3 modular kitchen layouts — L-shape, parallel, and island — for a 120 sqft kitchen in a 3BHK flat in Thane. Here is the context: the client cooks heavy North Indian meals daily with pressure cookers, tawa, kadai, and appliances including microwave, OTG, mixer, dishwasher, and fridge; budget ₹4 lakh. Please provide: (1) Layout 1 — L-shape analysis (work triangle, storage capacity, cost ₹3.5L, best for compact space), (2) Layout 2 — parallel analysis (circulation, storage, cost ₹3.8L, best for 2 cooks), (3) Layout 3 — island analysis (feasibility given 120 sqft, cost ₹4.5L, social cooking), (4) Comparative table on work triangle efficiency, storage in running feet, appliance fit, Indian cooking suitability, (5) Ventilation and chimney placement per layout, (6) Electrical point requirements, (7) Recommended layout with reasoning, (8) Full BOQ for the recommended layout, (9) Carpenter brief summary. Format as an analysis report with a sketch description of each layout and a final recommendation scorecard out of 10.",
+      "tags": [
+        "modular-kitchen",
+        "layout-comparison",
+        "homelane",
+        "kitchen-design",
+        "analysis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-026",
+      "title": "Site Visit Report for Handover",
+      "prompt": "Act as a quality and handover lead with 9 years of experience at DesignCafe. I need you to write a detailed site visit report for a pre-handover inspection of a 3BHK project in Kothrud, Pune. Here is the context: the project is a 1250 sqft turnkey interiors, budget ₹19 lakh, scheduled handover in 4 days; the report goes to both the client and the internal ops team. Please provide: (1) Project details header (client name, project code, visit date, attendees), (2) Room-by-room checklist with condition ratings (pass, minor rework, major rework) — covering carpentry, false ceiling, paint, flooring, electrical, plumbing, hardware, cleanliness, (3) Snag list with 15 realistic defects (paint touch-up in living, shutter alignment in wardrobe, loose socket in kitchen), (4) Photo log references, (5) Accountability assignment per snag (carpenter, painter, electrician, housekeeping), (6) Timeline for rectification before handover, (7) Risk items that may delay handover, (8) Client communication recommendation, (9) Final go or no-go recommendation. Format as a professional inspection report with tables, severity codes, and a sign-off section. Include a closing summary paragraph for the client.",
+      "tags": [
+        "site-report",
+        "quality-check",
+        "handover",
+        "snag-list",
+        "designcafe"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-027",
+      "title": "Sustainable Materials Proposal for Eco Client",
+      "prompt": "Act as a sustainable interior designer with 7 years of experience at a boutique studio in Bangalore. I need you to prepare a proposal for an eco-conscious client, Dr. Shalini Rao, who wants a fully sustainable interior for her 2BHK flat (950 sqft) in Indiranagar. Budget is ₹16 lakh. Here is the context: the client wants low-VOC, recycled, locally-sourced materials and is open to trade-offs on cost for impact. Please provide: (1) Sustainable material matrix for flooring (bamboo, cork, reclaimed Burma teak), walls (lime plaster, clay paint from Auroville), ceiling (jute panels), kitchen (BWR ply from FSC-certified Century Prowud), (2) Low-VOC paint brands (Asian Paints Royale Health Shield, Berger Breathe Easy), (3) Recycled and upcycled furniture sources (Phantom Hands, Jaipur Rugs, second-life antique vendors), (4) Energy-efficient lighting (LED, solar backup), (5) Water-saving fixtures (Jaquar dual-flush, Kohler low-flow), (6) Indoor plants for air purification, (7) Carbon footprint estimate and comparison to conventional interiors, (8) INR cost premium analysis (12-18% over standard), (9) Certifications to pursue (IGBC Green Home). Format as a sustainability-focused design proposal with impact metrics and source credits.",
+      "tags": [
+        "sustainable-design",
+        "eco-friendly",
+        "low-voc",
+        "green-home",
+        "material-sourcing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-028",
+      "title": "Home Office Setup in Small Bedroom",
+      "prompt": "Act as a designer with 6 years of experience designing WFH setups at Livspace post-pandemic. I need you to design a functional home office carved out of a 110 sqft guest bedroom in a 3BHK Noida flat. Here is the context: the user is a 35-year-old product manager, Varun, who takes 6+ video calls daily, needs dual monitors, ergonomic seating, good lighting for video, and a focused environment while keeping the room usable as a guest room on weekends. Budget ₹1.8 lakh. Please provide: (1) Dual-purpose zoning plan, (2) Desk specification (5 ft x 2 ft, cable management, standing-desk option), (3) Ergonomic chair recommendation (Featherlite or Nilkamal), (4) Dual monitor arm and accessories, (5) Video call lighting (ring light or softbox, window placement), (6) Acoustic treatment (soft panels, curtains, rug), (7) Storage and filing setup, (8) Murphy bed or daybed for guest conversion, (9) Wall styling and biophilia (plants, art), (10) INR cost breakup, (11) Electrical point plan (4 sockets, LAN, UPS). Format as a practical setup brief with a top-view sketch description. Include a 15-minute daily reset routine to keep the space tidy and guest-ready.",
+      "tags": [
+        "home-office",
+        "wfh-setup",
+        "dual-purpose",
+        "ergonomics",
+        "livspace"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-029",
+      "title": "Client Design Review Meeting Agenda",
+      "prompt": "Act as a design lead with 10 years of experience at Interior Company running client design reviews. I need you to prepare a structured agenda and talking points for a 90-minute design review meeting for a 4BHK villa project in Hyderabad. Here is the context: the client Mr. and Mrs. Krishnan will review 3D renders for the first time; scope is ₹52 lakh, and you need to drive sign-off on key decisions without over-running the meeting. Please provide: (1) Pre-meeting prep checklist (renders ready, material samples, BOQ printed), (2) Agenda with time blocks — welcome 5 min, recap 10 min, 3D walkthrough 30 min, material samples 15 min, BOQ review 15 min, open Q&A 10 min, next steps 5 min, (3) Key talking points per section, (4) Decision checklist the client must sign off on (colors, layouts, materials, budget), (5) Objection handling for 3 common concerns (\"too expensive\", \"not enough storage\", \"my mom won't like this\"), (6) Physical deliverables to hand over, (7) Post-meeting follow-up email template, (8) Risk escalation criteria. Format as a meeting playbook with a facilitator script. Include a silent observer note for the junior designer attending.",
+      "tags": [
+        "design-review",
+        "meeting-agenda",
+        "client-management",
+        "interior-company",
+        "sign-off"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-030",
+      "title": "Festive Diwali Home Makeover Guide",
+      "prompt": "Act as a festive styling expert with 6 years of experience at DesignCafe helping clients refresh homes for Diwali. I need you to write a 10-day Diwali home makeover guide for a 3BHK flat in Delhi, budget ₹40,000. Here is the context: the client Mrs. Neha Sharma wants to impress her extended family visiting for Lakshmi pooja and dinner without major renovation. Please provide: (1) Day-by-day action plan, (2) Deep cleaning and decluttering checklist (days 1-2), (3) Paint touch-up and minor repairs (day 3), (4) Entryway styling (toran, rangoli, diyas, marigold) (day 4), (5) Living room refresh (cushion covers, runners, art swap) (day 5), (6) Pooja room setup and deity decoration (day 6), (7) Dining table styling (brass thali, banana leaf runners) (day 7), (8) Lighting drama (string lights, lanterns, diya placement) (day 8), (9) Final styling and flowers (day 9), (10) Guest-ready walk-through (day 10), (11) Shopping list with Amazon India, FabIndia, Good Earth links, (12) INR breakup. Format as a warm, actionable guide with daily photo prompts for the client to share on Instagram. Include 3 safety tips for diyas and kids.",
+      "tags": [
+        "diwali-makeover",
+        "festive-styling",
+        "delhi",
+        "home-refresh",
+        "designcafe"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-031",
+      "title": "Bathroom Renovation Spec for Family of 5",
+      "prompt": "Act as a bathroom design specialist with 9 years of experience at HomeLane. I need you to write a renovation specification for the master bathroom of a 3BHK Chennai flat, 45 sqft, serving a family of 5. Budget ₹2.8 lakh. Here is the context: the current bathroom is 15 years old with leaking plumbing, outdated fixtures, and poor storage; the family includes elderly parents and wants safety plus modern aesthetics. Please provide: (1) Demolition scope, (2) Waterproofing spec (Dr. Fixit or Sika, 2 coats, 10-year warranty), (3) Flooring (anti-skid vitrified 2x2 ft tile from Kajaria) and wall tile (glossy ceramic up to ceiling) specification, (4) Sanitary ware (Kohler or Jaquar — wall-hung WC, single-lever basin mixer, rain shower, diverter), (5) Vanity unit (BWR ply, laminate, quartz top with under-mount basin), (6) Mirror cabinet with LED, (7) Shower partition (8mm toughened glass), (8) Elderly safety (grab bars, anti-skid mat, nightlight, threshold-free entry), (9) Exhaust and ventilation, (10) Electrical points (geyser, heater, shaver, lighting), (11) INR BOQ with line items, (12) Timeline 14 days. Format as a bathroom spec sheet for the plumbing and civil vendors.",
+      "tags": [
+        "bathroom-renovation",
+        "senior-safety",
+        "homelane",
+        "plumbing-spec",
+        "sanitary-ware"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-032",
+      "title": "Design Proposal Pitch for Developer Tie-Up",
+      "prompt": "Act as a business development lead with 11 years of experience signing builder tie-ups at Bonito Designs Mumbai. I need you to draft a B2B proposal pitch for a design service tie-up with Lodha Group for their upcoming 400-unit residential tower in Thane. Here is the context: you want to offer in-house design packages (starter ₹6 lakh, premium ₹12 lakh, luxury ₹20 lakh) to every buyer as a value-add at possession. Please provide: (1) Executive summary (1 paragraph), (2) Problem statement (buyers struggle with post-possession chaos), (3) Proposed solution — 3-tier package with scope, inclusions, and INR pricing, (4) Value proposition to Lodha (higher NPS, faster possession, add-on revenue share of 8%), (5) Operating model (design studio at site, dedicated team of 4, 60-day delivery), (6) Commercial structure and revenue split, (7) Brand and marketing integration, (8) Pilot proposal for first 20 units, (9) Case studies from DLF and Godrej tie-ups, (10) Call to action for a meeting with Lodha CXO. Format as a 10-slide pitch deck outline with slide titles, key points, and visual notes. Close with next-step timeline and contact details of the studio head.",
+      "tags": [
+        "b2b-pitch",
+        "builder-tie-up",
+        "business-development",
+        "bonito-designs",
+        "proposal"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-033",
+      "title": "Complex Layout Redesign for Irregular Plot Villa",
+      "prompt": "Act as a principal architect-interior designer with 15 years of experience redesigning irregular Indian plot villas at a boutique studio. I need you to analyze and redesign the floor plan of a 3500 sqft duplex villa on a triangular plot in Whitefield, Bangalore. Here is the context: the original builder layout wastes 18% of area on awkward corners, has poor natural light in the dining, and lacks vastu alignment; the client family of 8 (including 2 elderly grandparents, 2 working parents, 3 kids, 1 unmarried uncle) has a budget of ₹1.2 crore for interiors plus minor civil modifications. Please provide: (1) Analysis of 8 layout pain points, (2) Structural possibilities and limits (load-bearing walls, RCC columns), (3) Redesigned ground floor plan with rationale (formal living, dining, kitchen, guest bed, pooja), (4) Redesigned first floor (master suite with walk-in, 2 kids rooms, study, family lounge), (5) Vastu alignment strategy for 80% compliance, (6) Natural light and ventilation improvement plan, (7) Multi-generational zoning (elderly on ground, kids on first), (8) Detailed BOQ across civil, MEP, carpentry, flooring, finishes, (9) Phased execution plan across 110 days, (10) Risk matrix with mitigation. Format as a comprehensive design strategy report with plan descriptions, rationale, and a design philosophy manifesto for the family.",
+      "tags": [
+        "villa-redesign",
+        "irregular-plot",
+        "multi-generational",
+        "advanced-planning",
+        "vastu"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-034",
+      "title": "Luxury Penthouse Material Story Curation",
+      "prompt": "Act as a luxury interior design director with 16 years of experience curating high-end homes at a premium Mumbai studio. I need you to curate a complete material story for a 5500 sqft penthouse at Lodha World Towers, Lower Parel. Here is the context: the client, a 45-year-old hedge fund manager, wants \"quiet luxury\" that rivals global standards — think Axel Vervoordt meets Indian craft — with a material budget of ₹2.8 crore (₹5100 per sqft average) covering floors, walls, ceilings, kitchens, wardrobes, and baths. Please provide: (1) Design philosophy paragraph, (2) Flooring story (Italian Statuario marble for entertaining zones, Burma teak herringbone for family zones, Belgian linen rugs), (3) Wall story (Venetian lime plaster, hand-painted murals by Jaipur artisans, reclaimed wood paneling), (4) Ceiling treatment (coffered wood, metallic leaf accents), (5) Kitchen (Poliform or Boffi, Gaggenau appliances, Calacatta Oro counters), (6) Bath (Antonio Lupi, Dornbracht, onyx slab walls), (7) Metalwork story (patinated brass, bronze inlays), (8) Textile story (Rose Uniacke sheers, Good Earth silks), (9) Lighting story (Flos, Apparatus, custom Klove Studio chandeliers), (10) Full INR BOQ with sourcing countries and lead times, (11) Bespoke craft commissions from Indian artisans. Format as a tactile material story document fit for a high-value client presentation.",
+      "tags": [
+        "luxury-design",
+        "penthouse",
+        "material-curation",
+        "high-end",
+        "craft-commissions"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-035",
+      "title": "Design Dispute Resolution Letter",
+      "prompt": "Act as a senior client relations director with 14 years of experience resolving design disputes at Livspace. I need you to draft a formal dispute resolution letter for an escalated case where client Mr. Harish Menon is threatening a consumer complaint over a 3BHK Kochi project. Here is the context: the client alleges 5 deviations — wrong wardrobe laminate code, a TV unit 2 inches shorter, paint finish different from sample, 8-day delay, and an extra ₹48,000 invoice without approval; internal investigation confirmed 3 of 5 issues are partially valid. Project value is ₹17 lakh. Please provide: (1) Empathetic opening acknowledging frustration, (2) Point-by-point factual response to all 5 allegations with evidence references (sample approval, signed drawings, change order trail), (3) Accept-acknowledge-resolve framework for the 3 valid issues with specific remedies (laminate replacement, TV unit rework, paint touch-up at our cost), (4) Clarification on the 2 invalid allegations with documentary proof, (5) Goodwill gesture (₹25,000 credit toward styling, 2-year extended warranty), (6) Clear rectification timeline of 12 days, (7) Single-point escalation contact, (8) Closing that avoids admitting legal liability, (9) Legal review note. Format as a formal signed letter with annexures list. Also include a parallel 3-line WhatsApp version for the informal reply before the official letter.",
+      "tags": [
+        "dispute-resolution",
+        "client-escalation",
+        "legal",
+        "livspace",
+        "conflict-management"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-036",
+      "title": "Design Studio P&L Optimization Analysis",
+      "prompt": "Act as a studio operations head with 13 years of experience running P&L at Interior Company's Bangalore region. I need you to analyze and recommend optimization levers for a mid-sized design studio doing ₹12 crore annual revenue with 22% gross margin but only 4% EBITDA. Here is the context: the studio handles 85 projects a year, average ticket ₹14 lakh, team of 48 (designers, project managers, site supervisors, sales); overheads are bleeding profitability. Please provide: (1) Revenue quality audit (ticket size, project mix, rework cost), (2) Cost structure breakdown (material 58%, labor 22%, designer fee 8%, overhead 8%, marketing 4%), (3) 5 margin leverage opportunities (volume vendor rates, in-house factory, design standardization, upsell accessories, modularization), (4) 4 cost reduction levers (team utilization, site wastage, rework prevention, overhead right-sizing), (5) Pricing recalibration recommendation with 3 scenarios, (6) Target P&L 12 months out (revenue ₹15 Cr, GM 28%, EBITDA 12%), (7) Top 5 KPIs to track weekly, (8) Quick-win actions for the next 30 days, (9) Risk flags. Format as a CFO-ready analysis report with tables, assumptions, and a prioritized action plan. Include a one-slide executive summary for the founder.",
+      "tags": [
+        "studio-operations",
+        "p-and-l",
+        "financial-analysis",
+        "optimization",
+        "interior-company"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-037",
+      "title": "Heritage Home Restoration Brief Goa",
+      "prompt": "Act as a heritage conservation interior designer with 18 years of experience restoring Indo-Portuguese homes in Goa. I need you to prepare a restoration and adaptive reuse brief for a 150-year-old Portuguese villa in Saligao, 4000 sqft, to convert it into a private family home with 4 bedrooms while preserving heritage character. Budget ₹2.5 crore. Here is the context: the structure has laterite stone walls, Mangalore tile roofing, original Burma teak rafters, oyster-shell windows, and mosaic Athangudi floors — all in varying states of degradation. Please provide: (1) Heritage audit checklist, (2) Conservation-first restoration approach for walls, roof, floors, woodwork, and openings, (3) Material sourcing plan (reclaimed laterite, Mangalore tiles from original kiln, Athangudi floor specialists from Tamil Nadu, Burma teak from certified vendors), (4) MEP upgrade strategy (concealed wiring without damaging walls, plumbing on external chase, underfloor cooling), (5) Modern comfort integration (bathrooms, kitchen, AC) without visual disruption, (6) Furniture and decor sourcing (antique dealers in Mapusa, Phantom Hands, Good Earth), (7) Compliance with INTACH and Goa heritage guidelines, (8) Phase-wise execution over 10 months, (9) BOQ with heritage premium, (10) Risk register. Format as a heritage restoration brief for the client and conservation consultant review.",
+      "tags": [
+        "heritage-restoration",
+        "goa",
+        "indo-portuguese",
+        "conservation",
+        "adaptive-reuse"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-038",
+      "title": "Multi-Site Project Portfolio Resource Plan",
+      "prompt": "Act as a program manager with 12 years of experience at DesignCafe running multi-site portfolios. I need you to build a resource allocation plan for a portfolio of 14 active projects across Bangalore in July 2026. Here is the context: portfolio mix includes 6 turnkey 3BHK (₹15-22 lakh each), 4 kitchen-and-wardrobe jobs (₹4-6 lakh), 2 villa projects (₹50-70 lakh), 2 commercial cafes (₹25-30 lakh); team has 5 designers, 3 PMs, 6 site supervisors, 12 carpenters, 4 electricians, 3 painters. Please provide: (1) Project-wise phase status and critical milestones, (2) Weekly resource demand matrix (man-days per trade per project), (3) Resource supply availability matrix, (4) Conflict identification (over-allocation, skill gaps, travel time between sites), (5) Leveling strategy and reallocation recommendations, (6) Subcontracting plan for overflow carpentry, (7) Risk flags (monsoon, vendor delays, client changes), (8) Daily stand-up structure for site supervisors, (9) Escalation matrix, (10) Weekly KPI dashboard (schedule adherence, rework rate, vendor reliability). Format as a portfolio management plan with Gantt overview, resource heatmap description, and decision points for the operations head. Include 3 scenario simulations for 1-week delay on the villa projects.",
+      "tags": [
+        "portfolio-management",
+        "resource-planning",
+        "multi-site",
+        "designcafe",
+        "program-management"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-039",
+      "title": "Acoustic Design for Home Theater Room",
+      "prompt": "Act as an acoustic interior designer with 11 years of experience building high-end home theaters in Indian villas. I need you to design a 320 sqft dedicated home theater room for a Gurgaon villa client. Here is the context: client Mr. Vikram Sethi has a budget of ₹28 lakh including AV equipment; the room shape is 22 ft x 14 ft x 10 ft with one external wall, needs THX-level performance, 8 premium recliners, Dolby Atmos 7.2.4 setup, and cinematic ambiance. Please provide: (1) Room acoustic analysis (reverberation target RT60 = 0.3s, bass trap placement, first reflection points), (2) Wall treatment (fabric-wrapped acoustic panels, Rockwool 50mm fill, diffusers at rear), (3) Ceiling treatment (coffered with Atmos in-ceiling mounts), (4) Flooring (acoustic underlay plus commercial-grade carpet), (5) Door and window treatment for sound isolation (STC 55 target, double-door airlock), (6) HVAC silencing (low-velocity ducts, isolated AHU), (7) AV equipment spec (JBL Synthesis or Marantz AV receiver, Klipsch THX speakers, JVC 4K projector, 150-inch screen), (8) Seating (Elite HTS recliners), (9) Lighting (starlight ceiling, sconce wall wash, step lights), (10) Calibration and commissioning plan, (11) Full INR BOQ, (12) Vendor coordination checklist. Format as a technical design document for the AV integrator and civil contractor.",
+      "tags": [
+        "home-theater",
+        "acoustic-design",
+        "dolby-atmos",
+        "luxury",
+        "technical-design"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    },
+    {
+      "id": "design-interior-designers-040",
+      "title": "Design Standardization Playbook for Scale",
+      "prompt": "Act as a design operations director with 15 years of experience building standardization playbooks at HomeLane. I need you to create a design standardization playbook that will enable the studio to scale from 80 projects a year to 250 projects a year while preserving quality and reducing delivery time by 30%. Here is the context: current issues include inconsistent BOQs, rework from non-standard carpentry specs, long design cycles (22 days average), and vendor management chaos across 3 cities (Bangalore, Pune, Hyderabad). Please provide: (1) Playbook philosophy and goals, (2) Standardized design language (color palettes, 8 signature looks, 3 wardrobe templates, 4 kitchen templates, 3 TV unit templates), (3) BOQ standard library with SKU codes and locked vendor rates, (4) Modular detailing library (CAD blocks, joinery details, hardware specs), (5) Carpentry factory spec sheet for in-house manufacturing, (6) Vendor rate cards and panel, (7) Design delivery SLA framework (inquiry to BOQ in 7 days, sign-off in 14 days, delivery in 60 days), (8) Quality gates at design, procurement, site, and handover, (9) Training curriculum for designers (40 hours) and site supervisors (24 hours), (10) Tech stack (ERP, CRM, 3D, project tracker), (11) KPI dashboard (gross margin, delivery SLA, NPS, rework rate), (12) Rollout plan over 6 months with change management. Format as a scalable design operations playbook table of contents plus detailed sections 1-5 ready for the leadership team.",
+      "tags": [
+        "standardization",
+        "scaling",
+        "design-ops",
+        "playbook",
+        "homelane"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "design",
+      "subcategory": "interior-designers"
+    }
+  ]
+}

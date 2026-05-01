@@ -1,0 +1,645 @@
+{
+  "prompts": [
+    {
+      "id": "social-media-creators-instagram-001",
+      "title": "Hinglish Caption Writer for Fashion Reels",
+      "prompt": "Act as a Mumbai-based Instagram caption writer with 6 years of experience writing for fashion creators like Komal Pandey, Dolly Singh, and Aashna Shroff. I need you to write 5 unique caption variations for a single fashion reel that I will describe. Here is the context: I am a mid-tier fashion creator (180K followers) and just shot a reel styling one Zara dress in 4 ways for ₹2,999 budget styling content aimed at Tier-1 and Tier-2 Indian women aged 22-32. The reel is 28 seconds long with a transition every 7 seconds. My audience engages best with relatable Hinglish, mild humour, and practical takeaways. Please provide: (1) Caption 1 in pure Hinglish with a hook question, (2) Caption 2 in English-leaning copy targeting metro audiences, (3) Caption 3 storytelling-style about my own styling struggle, (4) Caption 4 listicle format with bullet emojis, (5) Caption 5 a CTA-heavy caption pushing saves and shares. Each caption must be 80-150 words, include 2 line breaks for readability, end with 8-12 strategic hashtags mixing niche (#indianfashionblogger) and broad tags (#reelsindia), and suggest one pinned comment to boost engagement. Avoid overused phrases like \"swipe up\" or \"link in bio\" unless contextually necessary.",
+      "tags": [
+        "caption",
+        "hinglish",
+        "fashion",
+        "reels"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-002",
+      "title": "30-Day Content Calendar for Lifestyle Creator",
+      "prompt": "Act as an Instagram content strategist with 8 years of experience managing calendars for Indian lifestyle creators in the 100K-500K range. I need you to build a complete 30-day content calendar for May 2026 for a Bengaluru-based lifestyle creator (250K followers) whose niche is \"slow living for working women\". Here is the context: she posts 4 reels, 2 carousels, and 5 stories per week, audience is 78% women aged 24-34 from Mumbai, Delhi, Bengaluru, Pune, and Hyderabad. Her engagement rate is 3.8%. Upcoming hooks for May: Mother's Day (May 10), Buddha Purnima (May 12), summer wellness, and the start of wedding season planning. Please provide: (1) A day-by-day table with date, content type, working title, hook line, primary CTA, and target metric, (2) Two pillar themes per week (e.g., \"Mindful Mornings\", \"Budget Wellness\"), (3) Three brand-collab-ready slots flagged for outreach to Mamaearth, Forest Essentials, and The Whole Truth, (4) Suggested posting times in IST based on Indian audience behaviour, (5) A simple weekly review checklist. Format the output as a markdown table followed by strategy notes. Keep all references Indian and avoid generic \"wellness Wednesday\" filler.",
+      "tags": [
+        "content-calendar",
+        "lifestyle",
+        "strategy"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-003",
+      "title": "Reel Hook Generator for Indian Finance Creators",
+      "prompt": "Act as a viral reel scriptwriter with 5 years of experience writing for Indian personal finance creators like CA Rachana Ranade and Pranjal Kamra. I need you to generate 15 first-three-second reel hooks for a finance creator targeting salaried Indians aged 25-35 earning ₹6L-₹25L per annum. Here is the context: the creator wants hooks that work even with sound off, written for a vertical 9:16 format with text overlay. Topics include ELSS vs PPF, HRA exemption, NPS Tier 1, SIP step-up strategy, and the new tax regime. Please provide: (1) 5 fear-based hooks (e.g., \"You are losing ₹47,000 every year and don't know it\"), (2) 5 curiosity-gap hooks, (3) 5 contrarian-statement hooks, (4) For each hook, suggest the exact on-screen text and the spoken voiceover line, (5) Tag each hook with the predicted retention curve (high/medium) and the audience pain point it solves. Format the output as a numbered list grouped by hook category. Keep numbers and references rooted in Indian tax laws (FY 2025-26), Indian banks, and Indian investment products. Avoid US-centric examples like 401(k) or Roth IRA.",
+      "tags": [
+        "reel-script",
+        "finance",
+        "hooks"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-004",
+      "title": "Bio Optimizer for Tier-2 Tech Creator",
+      "prompt": "Act as an Instagram profile optimization specialist with 7 years of experience helping Indian tech creators grow from 10K to 100K. I need you to rewrite the Instagram bio for a Jaipur-based tech reviewer (32K followers) who reviews smartphones under ₹30,000, headphones, and budget laptops in Hindi-Hinglish. Here is the context: his current bio is generic (\"Tech ka deewana | DM for collabs | Jaipur\"), conversion to follow on visit is 1.9%, and he wants to attract boAt, Realme, Mivi, and Noise for collabs. Please provide: (1) 5 bio variations within Instagram's 150-character limit, (2) Each variation must include a clear niche line, a credibility stat, and a CTA, (3) A name-field optimization suggestion using searchable keywords, (4) A category and pronouns suggestion, (5) A link-in-bio structure with 4 prioritized links (latest review, brand kit PDF, YouTube long-form, business email), (6) A pinned highlights plan with 6 covers and titles. Format the output as labelled sections. Reference real Indian tech audiences and avoid generic phrases like \"tech enthusiast\" or \"DM for paid promo\". The tone should feel confident, regional-friendly, and brand-safe.",
+      "tags": [
+        "bio-optimization",
+        "tech",
+        "growth"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-005",
+      "title": "Brand Collab Pitch Email to Mamaearth",
+      "prompt": "Act as a creator partnerships manager with 6 years of experience pitching Indian D2C brands like Mamaearth, Sugar, and MyGlamm. I need you to write a complete cold pitch email for a skincare-focused Instagram creator (85K followers, 5.2% engagement rate, 88% female audience aged 22-30) reaching out to Mamaearth's marketing team. Here is the context: the creator wants a paid 2-reel + 4-story package priced at ₹95,000 plus product, with usage rights for 30 days on Mamaearth's handle. Past collabs include Plum, WOW Skin Science, and Nat Habit. Please provide: (1) A subject line (under 60 characters) optimized for open rate, (2) A 4-paragraph email body with hook, credibility, deliverables, and CTA, (3) A clean media-kit-style stat block to paste into the email, (4) A polite follow-up email to send 5 days later, (5) Negotiation talking points if Mamaearth counter-offers ₹60,000. Format the output as ready-to-send email blocks. Use Indian context only — INR pricing, Indian audience demographics, Indian brand language. Avoid US-style \"influencer\" jargon and instead use \"creator\" or \"content partner\".",
+      "tags": [
+        "brand-collab",
+        "pitch-email",
+        "skincare"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-006",
+      "title": "Story Sequence for Product Launch Day",
+      "prompt": "Act as an Instagram story strategist with 5 years of experience planning launch-day takeovers for Indian creators. I need you to design a 14-frame story sequence for a Delhi-based fashion creator (140K followers) launching her own kurta line priced ₹1,499-₹3,999, dropping live at 12 PM IST. Here is the context: the creator wants to drive Shopify sales, capture emails, and build hype with FOMO without sounding salesy. Audience is mostly women 25-38 in metros and Tier-2 cities. Please provide: (1) Frame-by-frame plan with timing across 9 hours (8 AM to 5 PM IST), (2) Mix of countdown stickers, polls, quizzes, question boxes, and link stickers, (3) Exact text overlay for each frame in Hinglish where relevant, (4) Two BTS frames showing the manufacturing unit in Karol Bagh, (5) A reshare-ready frame to repost UGC from early customers, (6) A final \"sold out warning\" frame template. Format the output as a numbered story-by-story script with sticker recommendations and CTAs. Avoid using more than 2 stickers per frame to maintain visual cleanliness.",
+      "tags": [
+        "story-idea",
+        "product-launch",
+        "fashion"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-007",
+      "title": "Comedy Reel Script Like Kusha Kapila",
+      "prompt": "Act as a comedy scriptwriter with 7 years of experience writing for creators like Kusha Kapila, Dolly Singh, and Srishty Dixit. I need you to write a complete 45-second character-driven comedy reel script titled \"South Delhi Aunty Reviews Her Bahu's Reels\". Here is the context: the creator plays the aunty character with exaggerated accent, sitting on a sofa scrolling her phone. The reel must work for an Indian female audience aged 22-40 who finds satire on saas-bahu and millennial dynamics relatable. Please provide: (1) A scene-by-scene breakdown with timestamps (0-3s, 3-10s, 10-25s, 25-40s, 40-45s), (2) Spoken dialogue in Hinglish with stage directions in brackets, (3) On-screen text overlays for sound-off viewers, (4) A punchline at 38-42 seconds, (5) Two alternative endings — one wholesome, one savage, (6) Suggested trending audio or original audio direction, (7) Wardrobe and prop list (saree, gajra, big bindi, gold bangles). Format the output as a clean shooting script. Keep humour grounded in Indian middle-class household tropes and avoid stereotypes that punch down.",
+      "tags": [
+        "reel-script",
+        "comedy",
+        "character"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-008",
+      "title": "Carousel Caption for Devotional Creator",
+      "prompt": "Act as a spiritual content writer with 4 years of experience writing for Indian devotional creators with 200K-1M followers. I need you to write a 10-slide carousel caption and slide copy for a Varanasi-based devotional creator focused on Lord Shiva content, posting on a Monday before Mahashivratri. Here is the context: audience is 60% men 28-55 from Tier-2 and Tier-3 cities, who prefer Sanskrit shlokas with simple Hindi explanations. The post topic is \"5 lessons from Shiva for modern life\". Please provide: (1) Slide 1 hook with a powerful opening line, (2) Slides 2-6 each with a lesson, the relevant shloka in Devanagari, transliteration, and a 2-line modern application, (3) Slide 7 a reflective question for comments, (4) Slide 8 an aesthetic quote frame, (5) Slide 9 a CTA to save and share with family, (6) Slide 10 a soft credit/sources line, (7) Caption under the post (180-220 words) in Hindi-leaning Hinglish with 12 hashtags. Format the output slide by slide. Keep references authentic — cite actual scriptures (Shiva Purana, Linga Purana) and avoid fabricated shlokas.",
+      "tags": [
+        "caption",
+        "devotional",
+        "carousel"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-009",
+      "title": "Travel Reel Voiceover Script for Himachal",
+      "prompt": "Act as a travel reel scriptwriter with 6 years of experience writing for Indian travel creators with 100K-800K followers. I need you to write a 60-second voiceover script for a reel titled \"₹7,500 mein 4 din Kasol — full breakdown\" filmed by a Bengaluru creator who travelled solo in March 2026. Here is the context: the audience is budget travellers aged 22-30 from metros, the reel uses cinematic b-roll of Parvati Valley, Tosh, and a Manikaran night shot. The creator's tone is calm, slightly poetic, and informative. Please provide: (1) A second-by-second voiceover script with pacing notes, (2) A money breakdown overlaid on screen (Volvo bus, stay, food, sim, misc), (3) Three visual cues per 10-second block (e.g., \"hand on bus window with valley view\"), (4) A surprising fact at second 35 to retain viewers, (5) A clear CTA at the end driving viewers to a saved guide in highlights, (6) Suggested background music vibe and SFX moments. Format the output as a 3-column shot list (time | voiceover | visual). Avoid clichés like \"hidden gem\" and \"life-changing\".",
+      "tags": [
+        "reel-script",
+        "travel",
+        "voiceover"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-010",
+      "title": "Food Creator Hinglish Recipe Caption",
+      "prompt": "Act as a food content copywriter with 5 years of experience writing for Indian food creators like Shivesh Bhatia and Kabita's Kitchen. I need you to write a complete recipe caption for a reel featuring \"15-minute Maggi Korean style — under ₹80\". Here is the context: the creator targets college students and young working professionals 18-26 in Indian cities, posts in Hinglish, and the reel is 38 seconds with text overlays only. Please provide: (1) A scroll-stopping first line hook, (2) A 4-line emotional intro relating to hostel/PG life, (3) Ingredient list in INR with measurements (g, ml, tsp), (4) Step-by-step recipe in 7 short numbered points, (5) Three pro tips (one for spice level, one for vegetarians, one for storage), (6) An encouraging closing line, (7) 12 hashtags split between food (#indianfoodblogger), trending (#reelitfeelit), and niche (#desifusion), (8) A pinned comment teasing the next reel. Format the output as a ready-to-paste caption block. Total length 220-280 words. Use authentic Indian grocery brands (Maggi, Ching's, Veeba) and avoid generic Western substitutes.",
+      "tags": [
+        "caption",
+        "food",
+        "recipe"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-011",
+      "title": "Fitness Creator 7-Day Story Plan",
+      "prompt": "Act as an Instagram story strategist with 5 years of experience working with Indian fitness creators (50K-300K range). I need you to plan a 7-day story sequence for a Mumbai-based home-workout creator (95K followers) launching a free 21-day challenge for women in their 30s. Here is the context: the goal is to collect 2,000 WhatsApp signups via a link sticker leading to a Rzp payment-gated free group, posts 5-7 stories per day. Audience is 84% women 28-40 in metros and Tier-2. Please provide: (1) Day 1 to Day 7 themes (e.g., \"Pain Day\", \"Proof Day\", \"Pre-launch FOMO Day\"), (2) 4-6 story ideas per day with sticker types and copy, (3) Two daily polls and one daily question box prompt, (4) A countdown sticker plan, (5) UGC reshare slots from past challenge participants, (6) A WhatsApp signup story template that converts at 7%+, (7) A daily metric to track (replies, signups, link taps). Format the output as a 7-row plan with sub-bullets per day. Keep references Indian — use Mumbai, Pune, Hyderabad as audience cues. Avoid generic \"hustle\" gym-bro tone.",
+      "tags": [
+        "story-idea",
+        "fitness",
+        "launch"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-012",
+      "title": "Negotiation Reply to Lowball Brand Offer",
+      "prompt": "Act as a creator-side negotiation coach with 8 years of experience handling brand deals for Indian creators between 50K-500K followers. I need you to write a professional, firm but warm reply to a brand that offered ₹15,000 for 1 reel + 3 stories with full usage rights, when the creator's rate card is ₹65,000. Here is the context: the creator (140K followers, lifestyle niche, 4.6% ER) values the brand (a mid-size Indian skincare D2C) and wants to negotiate up to at least ₹45,000 without losing the deal. The brand emailed via Gmail, not via an agency. Please provide: (1) A 3-paragraph email reply, (2) A clear restatement of the rate card with itemized pricing in INR, (3) Three alternative deal structures (barter + cash hybrid, scaled-down deliverables, performance-bonus model), (4) A line addressing usage rights with a clear 30-day cap, (5) Suggested timing and tone, (6) A polite walk-away line if the brand insists on ₹15,000. Format the output as a copy-ready email plus a short \"why this works\" coaching note at the bottom. Use Indian creator-economy benchmarks and avoid aggressive language.",
+      "tags": [
+        "brand-collab",
+        "negotiation",
+        "email"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-013",
+      "title": "Reel Script for Shaadi Season Fashion",
+      "prompt": "Act as a fashion reel scriptwriter with 6 years of experience writing for Indian wedding-content creators. I need you to write a 35-second reel script titled \"3 sangeet outfits under ₹8,000 from Lajpat Nagar\". Here is the context: the creator is a Delhi-based fashion blogger (110K followers) shooting in a market setting and at home, audience is women 22-30 attending sibling/cousin weddings between November 2026 and February 2027. Please provide: (1) Second-by-second script across 35 seconds (0-3, 3-10, 10-22, 22-32, 32-35), (2) Three outfit combos with item-level pricing in INR, (3) Transition cues using clap, dupatta flick, and walk-into-frame, (4) On-screen text in Hinglish with emoji guidance, (5) Spoken VO lines (only 2-3 lines max for retention), (6) A strong final hook line teasing \"part 2: cocktail looks\", (7) Trending audio recommendation guidance. Format the output as a shot list and script block. Keep all locations and brands authentic to Delhi (Lajpat Nagar, Shahpur Jat, Sarojini, Anokhi) and avoid foreign brand references.",
+      "tags": [
+        "reel-script",
+        "fashion",
+        "wedding"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-014",
+      "title": "Bio Rewrite for Devotional Creator",
+      "prompt": "Act as an Instagram profile strategist with 5 years of experience optimizing devotional and spiritual creator profiles in India. I need you to rewrite the bio for a Haridwar-based Krishna devotional creator (78K followers) whose current bio is in pure Hindi but he wants to expand reach to NRI audiences in the US, UK, and UAE. Here is the context: the creator posts daily Bhagavad Gita verses, weekly bhajan reels, and aarti livestreams. He wants to drive bookings to his offline kirtan events and a paid Telegram channel (₹299/month). Please provide: (1) 4 bio variants — one Hindi-only, one Hinglish, one English with sanskrit transliteration, one minimalist, all under 150 characters, (2) Recommended display name for keyword search, (3) Category and contact options to enable, (4) A link-in-bio structure with 5 links prioritized, (5) Highlights plan with 8 covers (Bhajans, Gita, Events, Daily Darshan, Stories, NRI Sangat, Donate, FAQs), (6) Three pinned posts to improve first-visit conversion. Format the output as labelled sections. Use respectful tone aligned with Sanatan culture and avoid commercializing the spiritual angle.",
+      "tags": [
+        "bio-optimization",
+        "devotional",
+        "nri"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-015",
+      "title": "Quarterly Content Calendar for Tech Reviewer",
+      "prompt": "Act as a senior content strategist with 9 years of experience planning quarterly calendars for Indian tech creators. I need you to build a 12-week calendar (May-July 2026) for a Hyderabad-based tech reviewer (320K followers) who reviews phones, audio, and accessories under ₹50,000. Here is the context: the creator posts 5 reels and 2 carousels weekly, audience is 92% male aged 18-32, peak engagement at 8-10 PM IST. Confirmed brand integrations: 2 with boAt, 1 with Noise, 1 with Realme, 1 with CMF by Nothing. Indian tech moments to ride: Apple WWDC reactions (June), Samsung Unpacked (July), and OnePlus mid-year drop. Please provide: (1) Weekly themes for 12 weeks, (2) A grid showing reel/carousel slots with working titles, (3) Brand-integration slots flagged with deliverables, (4) Three series ideas (e.g., \"₹15K under challenge\", \"Phone vs Phone Friday\"), (5) A KPI table with weekly targets (reach, follower add, save rate), (6) A monthly review checklist. Format the output as week-by-week markdown blocks. Use INR pricing throughout and avoid US-only product launches that have no Indian SKU.",
+      "tags": [
+        "content-calendar",
+        "tech",
+        "quarterly"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-016",
+      "title": "Caption for Vulnerable Mental Health Reel",
+      "prompt": "Act as a mental health content writer with 5 years of experience writing for Indian creators in the wellness space (100K-400K followers). I need you to write 3 sensitive caption options for a 22-second reel where the creator opens up about therapy and burnout for the first time. Here is the context: the creator is a Bengaluru-based working professional turned full-time creator (185K followers, 70% female audience, 22-32). The reel uses slow cinematic b-roll, no spoken voice, only on-screen text revealed line by line. The creator wants to drive saves, shares, and DMs from people who feel seen — not pity. Please provide: (1) Caption 1 in long-form storytelling 220-280 words, (2) Caption 2 in poetic short-form 100-130 words, (3) Caption 3 in a list-style format with 5 reflections, (4) For each, a sensitive content note at the start, (5) A pinned comment offering a free Indian helpline (iCall, Vandrevala) and a paid therapy referral disclaimer, (6) 8 mindful hashtags (no #depression baits). Format the output as labelled blocks. Avoid romanticizing struggle, avoid medical claims, and never prescribe — keep tone caring and grounded in Indian context.",
+      "tags": [
+        "caption",
+        "mental-health",
+        "vulnerable"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-017",
+      "title": "Pitch Deck Outline for ₹5L Brand Deal",
+      "prompt": "Act as a creator-economy consultant with 7 years of experience pitching premium-tier deals for Indian creators between 500K-2M followers. I need you to outline a complete 12-slide media-kit pitch deck for a creator going after a ₹5,00,000 quarterly retainer with boAt for 6 reels and 12 stories. Here is the context: the creator is a Pune-based tech-lifestyle creator (740K followers, 5.1% ER, 70/30 male-female split, audience 62% Tier-1 metros). Past collabs include Mivi, Crossbeats, and Noise. Please provide: (1) Slide 1 cover with creator's positioning line, (2) Slide 2 audience snapshot with city, age, gender, language, (3) Slide 3 content sample grid, (4) Slide 4 performance benchmarks vs category average, (5) Slide 5 case study from Mivi campaign with ROI numbers, (6) Slide 6 why-boAt strategic alignment, (7) Slide 7 proposed campaign concepts (3 ideas), (8) Slide 8 deliverables and timeline, (9) Slide 9 pricing in INR with package break-up, (10) Slide 10 usage rights terms, (11) Slide 11 contact and payment details, (12) Slide 12 FAQs. Format the output as slide-by-slide bullet points with copy direction. Use Indian creator-economy benchmarks for comparison.",
+      "tags": [
+        "brand-collab",
+        "media-kit",
+        "premium"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-018",
+      "title": "Hinglish Reel Hook Bank for Comedy",
+      "prompt": "Act as a viral comedy scriptwriter with 6 years of experience writing for Indian comedy creators in the Bhuvan Bam, Slayy Point, and Niharica Raizada style. I need you to generate a 20-hook reel-hook bank for a comedy creator targeting Indian Gen-Z and millennials. Here is the context: the creator does observational comedy on Indian middle-class life — Indian mom WhatsApp forwards, autowala negotiations, family WhatsApp groups, summer Delhi heat, college canteen scenes. The hooks must work in the first 2 seconds of a reel for sound-on viewers. Please provide: (1) 20 hooks each 6-12 words long in Hinglish, (2) Tag each hook with one of these niches: \"family\", \"college\", \"office\", \"travel\", \"food\", (3) For each hook, suggest the visual setup (e.g., zoom-in face, walking-into-frame, split screen), (4) Suggested expression and tone (deadpan, exaggerated, sarcastic), (5) A retention-prediction note explaining why each hook will hold past 3 seconds. Format the output as a numbered table. All references must be uniquely Indian — Indian Railways, Big Bazaar, IRCTC, Maggi, Ola, Zomato — and avoid Western pop culture references that don't translate.",
+      "tags": [
+        "reel-script",
+        "comedy",
+        "hooks"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-019",
+      "title": "Story Quiz Series for Beauty Creator",
+      "prompt": "Act as an Instagram story engagement specialist with 5 years of experience running interactive series for Indian beauty creators. I need you to design a 5-day daily story quiz series for a Chennai-based beauty creator (210K followers) focused on \"skin science for Indian skin\". Here is the context: audience is 75% women 22-35 across South India and metros, the creator wants to drive 25% story completion rate, build a quiz-loving community, and seed the upcoming launch of her sunscreen review series. Please provide: (1) Day 1 to Day 5 quiz themes (e.g., \"SPF myths\", \"Vitamin C truths\", \"Acne triggers\", \"Indian skin tone palette\"), (2) 4-6 multi-choice quiz frames per day with options and reveal frames, (3) Correct answers grounded in dermatological consensus, (4) A \"streak counter\" sticker plan, (5) A leaderboard prompt at the end of Day 5 driving DMs, (6) A reshare CTA per day. Format the output as 5 day-blocks with frame-by-frame copy. Use Indian skin concerns (pigmentation, hyperpigmentation post-acne, monsoon humidity), and reference Indian sun-care products like Re'equil, Minimalist, and The Derma Co. Avoid medical advice claims.",
+      "tags": [
+        "story-idea",
+        "beauty",
+        "quiz"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-020",
+      "title": "Festive Caption Pack for Diwali",
+      "prompt": "Act as a festive content copywriter with 6 years of experience writing Diwali campaigns for Indian creators across niches. I need you to produce a 10-caption pack for a multi-niche creator (lifestyle, home decor, food) covering 10 different Diwali-week posts. Here is the context: the creator is a Kolkata-based creator (165K followers) posting daily during Dhanteras to Bhai Dooj, audience is 70% women 25-45 across Tier-1 and Tier-2 cities. Please provide: (1) Caption 1 — Dhanteras shopping reel, (2) Caption 2 — Home decor carousel, (3) Caption 3 — Diya DIY reel, (4) Caption 4 — Family rangoli BTS, (5) Caption 5 — Diwali outfit reel, (6) Caption 6 — Sweet recipe carousel, (7) Caption 7 — Diwali night reel with husband, (8) Caption 8 — Govardhan Puja short reel, (9) Caption 9 — Bhai Dooj sibling reel, (10) Caption 10 — A reflective post-Diwali carousel on what the festival meant. Each caption: 130-200 words, Hinglish-leaning, ending with 8-12 mixed hashtags and one strong CTA. Format the output as 10 numbered blocks. Avoid generic \"festival of lights\" lines and use specific Indian regional cues (Kolkata, Bengali traditions where relevant).",
+      "tags": [
+        "caption",
+        "diwali",
+        "festive"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-021",
+      "title": "Bio Audit Framework for Any Creator",
+      "prompt": "Act as an Instagram profile auditor with 8 years of experience running 1-on-1 audits for Indian creators (10K-1M range). I need you to build a complete bio audit framework that any creator can apply to themselves. Here is the context: the framework should help a creator self-diagnose why their visit-to-follow conversion is below 3% and produce a fixed bio in under 30 minutes. Please provide: (1) A 12-point audit checklist covering name field, username, profile pic, category, pronouns, bio copy, link, story highlights, pinned posts, contact buttons, action buttons, and overall first-impression test, (2) For each checkpoint, a \"red flag\" indicator and a \"green flag\" indicator, (3) A scoring system out of 60, (4) A 5-step bio rewrite sprint, (5) Two before/after examples — one fashion creator and one finance creator from India, (6) A diagnostic for niche clarity (the \"can your aunty understand it in 5 seconds\" test). Format the output as a checklist followed by examples. Use Indian creator examples (anonymised) and avoid Western influencer references. Make the framework usable without paid tools.",
+      "tags": [
+        "bio-optimization",
+        "audit",
+        "framework"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-022",
+      "title": "Carousel Script for Personal Finance",
+      "prompt": "Act as a personal finance carousel writer with 5 years of experience writing for Indian creators with 50K-500K followers. I need you to write a complete 9-slide carousel titled \"5 silent money leaks every salaried Indian has\". Here is the context: the creator targets 25-35 year-old salaried professionals earning ₹8L-₹20L per annum in Bengaluru, Pune, Mumbai, Hyderabad. The carousel should be educational, slightly punchy, save-worthy. Please provide: (1) Slide 1 hook with a stat or question, (2) Slides 2-6 each covering one money leak (auto-renew OTTs, credit card EMIs at 36% APR, idle savings account, ULIP gone wrong, food delivery overspend), (3) Each leak slide: leak headline, ₹ amount lost annually, why it happens, one-line fix, (4) Slide 7 a \"do this today\" 4-step action plan, (5) Slide 8 a strong save-and-share CTA, (6) Slide 9 a credibility/CTA card with the creator's free newsletter, (7) A 200-word caption to pair with the carousel, (8) Suggested design notes per slide (color, typography hierarchy). Format the output as slide-by-slide content. Use FY 2025-26 Indian context with realistic INR numbers and avoid US-style references.",
+      "tags": [
+        "caption",
+        "finance",
+        "carousel"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-023",
+      "title": "Brand Outreach DM for Micro Creator",
+      "prompt": "Act as a micro-creator growth coach with 6 years of experience helping Indian creators 5K-30K break into their first paid brand deals. I need you to write 3 cold DM templates for a Surat-based food micro-creator (12K followers, 6.8% ER) reaching out to 3 different Indian D2C brands: The Whole Truth, Slurrp Farm, and Open Secret. Here is the context: the creator wants product-only barter for the first deal, then a paid ₹8,000-₹15,000 deal for the second collab. The creator should use Instagram DMs, not email. Please provide: (1) DM 1 to The Whole Truth (60-90 words), (2) DM 2 to Slurrp Farm (60-90 words), (3) DM 3 to Open Secret (60-90 words), (4) For each DM: a personalised opener referencing a specific recent post by that brand, a clear deliverable proposal, and a CTA, (5) A follow-up DM template to send after 4 days, (6) Three key things to pin to the creator's profile before sending these DMs (a hero reel, a media-kit highlight, a social proof post). Format the output as ready-to-send DM blocks. Use casual but professional Indian tone, avoid emojis-heavy spam, and never start with \"Hii dear\".",
+      "tags": [
+        "brand-collab",
+        "dm-outreach",
+        "micro-creator"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-024",
+      "title": "Reel Series Idea Bank for Travel Couple",
+      "prompt": "Act as a series-format content strategist with 7 years of experience designing recurring formats for Indian travel creators. I need you to generate 12 reel-series concepts for a travel couple based in Goa (creators with 220K combined followers) who shoot across India and South-East Asia. Here is the context: the couple wants formats they can repeat 8-15 times each over 2026, audiences are 24-34 budget travellers from Indian metros. The formats must be cheap to film, low-prop, and build creator-audience parasocial loyalty. Please provide: (1) 12 series concepts with name, premise, episode structure, and ideal posting cadence, (2) For each series, 5 sample episode titles, (3) Three series anchored in INR-budget specifics (e.g., \"India in ₹500\"), (4) Three series leaning into culture (e.g., \"Eating with grandmas of India\"), (5) Three relationship-led series (e.g., \"Husband packs my bag\"), (6) Three growth-oriented series (e.g., \"DM picks the next destination\"), (7) Sample hook line for each series. Format the output as a 12-row table with columns. Keep references Indian — Hampi, Spiti, Coorg, Wayanad, Tawang — and avoid generic \"hidden gem\" framing.",
+      "tags": [
+        "reel-script",
+        "travel",
+        "series"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-025",
+      "title": "Sponsored Story Disclosure Pack",
+      "prompt": "Act as an ASCI-compliant influencer marketing consultant with 6 years of experience advising Indian creators on disclosure rules. I need you to produce a sponsored-story compliance pack for a creator running a paid 6-frame story sequence for a hair-care brand. Here is the context: the creator (180K followers) is doing a paid promotion for a sulfate-free shampoo (₹699), and ASCI guidelines require clear disclosures (#ad, #sponsored, paid partnership tag) on every frame. The audience is 75% women aged 22-38 in metros. Please provide: (1) The exact disclosure text and placement for each of the 6 frames, (2) A native-feeling hook on Frame 1 that does not sacrifice disclosure clarity, (3) A genuine product-experience flow across frames 2-5, (4) A frame 6 with a swipe-up link sticker and a disclosure refresher, (5) A boilerplate caption-style disclaimer for the brand pinned to a permanent highlight, (6) A \"do/don't\" cheat sheet of 8 ASCI rules creators commonly miss, (7) A short note on what changes if the deal is barter-only vs paid. Format the output as a frame-by-frame plan plus the cheat sheet. Use Indian regulatory references (ASCI 2022 guidelines, MoCA rules) and INR pricing.",
+      "tags": [
+        "story-idea",
+        "asci",
+        "disclosure"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-026",
+      "title": "Creator Bio Variants by Niche",
+      "prompt": "Act as an Instagram bio specialist with 7 years of experience writing high-converting bios for 200+ Indian creators across niches. I need you to produce 8 high-conversion bio variants — one for each of these niches: fashion, food, finance, fitness, travel, comedy, devotional, parenting. Here is the context: each bio should be under 150 characters, include a niche line, a credibility hook, a CTA, optimised for the Indian creator landscape and easy to localise to any city. Please provide: (1) 8 niche-specific bios, (2) For each, also produce a 30-character display name with searchable keywords, (3) A pronouns suggestion, (4) A 4-link link-in-bio structure, (5) A common mistake creators in that niche make (e.g., listing 5 niches when one would convert better), (6) A \"why this works\" 1-line note per bio. Format the output as 8 niche-blocks with sub-sections. Use Indian-first language, INR references where natural, and avoid clichés like \"creator | dreamer | wanderer\". Make sure each bio passes the 5-second test where a stranger can identify what the creator does and who they help.",
+      "tags": [
+        "bio-optimization",
+        "niche",
+        "templates"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-027",
+      "title": "Caption A/B Test Framework",
+      "prompt": "Act as a creator-data analyst with 6 years of experience running caption A/B tests for Indian creators. I need you to build a repeatable 4-week caption A/B testing framework that any creator with 50K+ followers can use without paid tools. Here is the context: the creator wants to test which caption style — storytelling, listicle, contrarian-statement, question-led — drives the most saves and shares for their reels. They post 5 reels per week. Please provide: (1) A 4-week test design with 2 variants per week and a hypothesis statement, (2) Metric definitions (save rate, share rate, comment rate, follow rate from reach), (3) A Google Sheet template structure (columns and formulas), (4) Statistical-thinking guidance for interpreting small sample sizes, (5) A weekly review prompt list, (6) An end-of-month synthesis report template, (7) Two example test cycles for a finance creator and a fashion creator with mock numbers in INR-realistic context, (8) Three biases to watch out for (timing, audio, thumbnail confounds). Format the output as a numbered framework plus a sample sheet. Use realistic Indian creator metrics (e.g., reach-to-follower ratios common for Indian Reels in 2026).",
+      "tags": [
+        "caption",
+        "ab-testing",
+        "analytics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-028",
+      "title": "Reel Script for Mom Influencer Hack",
+      "prompt": "Act as a parenting-niche reel scriptwriter with 5 years of experience writing for Indian mom creators. I need you to write a 25-second reel script titled \"3 lunch-box hacks Indian moms wish they knew sooner\". Here is the context: the creator is a Lucknow-based mom of a 7-year-old (95K followers, audience 88% women 28-42 across Tier-1, Tier-2, Tier-3). The reel must feel chaotic-real, shot in a real kitchen, no fancy props. Please provide: (1) Second-by-second script (0-3, 3-9, 9-16, 16-22, 22-25), (2) Three hacks with specific Indian foods (poha-cutlet sandwich, paratha pinwheel, idli bites), (3) Spoken VO in Hinglish kept under 6 lines, (4) On-screen text overlay for sound-off, (5) A relatable opening line that hooks moms within 2 seconds, (6) A pinned-comment idea collecting more hacks from the audience, (7) Suggested trending audio from Indian reel music charts, (8) Wardrobe/setting note (apron, kitchen mess). Format the output as a shooting script. Avoid sterile aesthetic shots that don't match how Indian moms actually cook in time-pressure mornings.",
+      "tags": [
+        "reel-script",
+        "parenting",
+        "hack"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-029",
+      "title": "Annual Content Pillars for Creator",
+      "prompt": "Act as a content strategist with 9 years of experience designing annual pillar systems for Indian creators with 200K-1M followers. I need you to design a 4-pillar yearly content plan for a Mumbai-based finance creator (480K followers) for the year 2026. Here is the context: the creator wants pillars that align with Indian financial calendar (March/April tax season, July budget, Diwali muhurat, December year-end review), each pillar feeding 30% of monthly output. Audience is 26-40 salaried Indians earning ₹10L-₹50L. Please provide: (1) 4 pillars named clearly (e.g., \"Tax Tactics\", \"Investing Basics\", \"Money Mindset\", \"India Macro\"), (2) For each pillar: target audience persona, top 5 content angles, top 10 keywords, content-format mix, KPIs, (3) A 12-month allocation grid showing which pillar dominates which month, (4) A 90-day kick-off plan with first 30 reels mapped, (5) Cross-pillar series ideas, (6) A guardrail list (SEBI compliance, no individual stock tips, no return promises), (7) A content-batching workflow assuming 1 shoot day/week. Format the output as pillar-by-pillar deep-dives plus the 12-month grid. Use INR, Indian tax, and SEBI context.",
+      "tags": [
+        "content-calendar",
+        "finance",
+        "pillars"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-030",
+      "title": "Festival Story Sticker Game",
+      "prompt": "Act as an Instagram interactive-story designer with 5 years of experience designing Indian festival story games. I need you to design a 6-frame Holi-themed sticker game for a Delhi creator (130K followers) that drives DMs and replies. Here is the context: the creator wants to use polls, sliders, quizzes, and emoji sliders in playful ways for 24 hours of Holi day. Audience is 22-35 Indian metro audiences. Please provide: (1) Frame 1 — \"Pick your gang\" poll with 2 fun group options, (2) Frame 2 — Color-slider \"How wild will your Holi be?\", (3) Frame 3 — \"Guess the bhang ke pakode count\" emoji slider, (4) Frame 4 — Quiz \"Match the Holi song to its decade\" with 4 options, (5) Frame 5 — Story prompt \"Describe your worst Holi memory\" with question box, (6) Frame 6 — Reshare-encouragement frame with a clever CTA, (7) For each frame: the visual concept, copy, sticker mechanics, and reshare-trigger logic, (8) A 4-frame next-day follow-up sharing the audience's funniest answers. Format the output as frame-by-frame design briefs. Use authentic Indian Holi cultural cues (gujiya, thandai, bhang, water guns) and avoid Hindi-misuse stereotypes.",
+      "tags": [
+        "story-idea",
+        "festival",
+        "interactive"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-031",
+      "title": "Caption Pack for Fitness Transformation",
+      "prompt": "Act as a fitness-niche caption writer with 5 years of experience writing for Indian transformation creators. I need you to write a 5-caption pack for a 6-month transformation reveal post by a Pune-based natural-fitness creator (95K followers). Here is the context: the creator went from 86kg to 71kg in 6 months without supplements, the audience is 75% women 25-40 in metros and Tier-2. The post is a side-by-side carousel showing month-1 to month-6, the creator wants captions that inspire without shaming bodies. Please provide: (1) Caption 1 — long-form storytelling 280-340 words, (2) Caption 2 — listicle with 7 lessons learnt, (3) Caption 3 — myth-busting on Indian diet myths (roti vs rice, ghee, paneer), (4) Caption 4 — emotional letter to past self, (5) Caption 5 — short and punchy 90-110 words, (6) For each, 8-10 mindful hashtags and a save-and-share CTA, (7) A pinned comment offering a free PDF (\"My weekly Indian meal plan\") with email capture, (8) Two lines of disclaimers about non-medical advice. Format the output as labelled blocks. Avoid weight-loss before-after triggers and stay rooted in Indian food and lifestyle.",
+      "tags": [
+        "caption",
+        "fitness",
+        "transformation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-032",
+      "title": "Brand Collab Term Sheet Drafter",
+      "prompt": "Act as a creator-side legal-savvy consultant with 7 years of experience drafting term sheets for Indian creator-brand deals (₹50K-₹15L range). I need you to draft a comprehensive term sheet for a one-time deal between a creator (250K followers) and Sugar Cosmetics for a 3-reel + 6-story package at ₹2,75,000. Here is the context: the deal includes 30 days of usage rights on Sugar's handle, no whitelisting on Meta Ads, exclusivity in the lipstick category for 21 days, and payment in 50/50 split (advance + post-publish). Please provide: (1) Parties and definitions block, (2) Scope of work with deliverable count, format, and runtime, (3) Timeline with shoot, draft submission, brand approval window (max 2 rounds), and go-live dates, (4) Compensation, GST clarity, TDS at 10% under 194R, payment terms, (5) Usage rights, exclusivity, and whitelisting clauses, (6) Approval and revision process, (7) Cancellation, kill-fee (40%), and dispute jurisdiction (Mumbai), (8) ASCI compliance clause, (9) Confidentiality and image-rights clause, (10) Signature block. Format the output as a clean term-sheet document. Use Indian regulatory anchors (GST, Section 194R TDS, ASCI 2022) and INR throughout. Note this is a draft, not legal advice.",
+      "tags": [
+        "brand-collab",
+        "term-sheet",
+        "contract"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-033",
+      "title": "Reel Hooks for Devotional Content",
+      "prompt": "Act as a devotional content scriptwriter with 5 years of experience writing reels for Indian spiritual creators with 300K-2M followers. I need you to generate 12 first-3-second reel hooks for a Krishna-devotion creator targeting Indian audiences 25-55. Here is the context: the creator's content blends Bhagavad Gita verses with daily-life applications, audience is 65% from Tier-2 and Tier-3 cities, prefers Hindi-leaning Hinglish. The hooks must work even with sound off because many viewers watch in offices. Please provide: (1) 12 hooks each 6-12 words, (2) Tag each hook to a Gita chapter or verse, (3) On-screen text overlay direction for each, (4) Voiceover direction (calm, contemplative, story-tone), (5) Visual setup suggestion (lit diya, flute, walking in temple courtyard, sitting at home), (6) Predicted retention curve note, (7) A respectfulness check line confirming each hook honors the source text. Format the output as a numbered table. Avoid clickbait hooks that distort scriptural meaning, avoid \"shocking truth about Krishna\" framing, and keep all references rooted in authentic Sanatan tradition.",
+      "tags": [
+        "reel-script",
+        "devotional",
+        "hooks"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-034",
+      "title": "Highlight Cover Strategy for Lifestyle Creator",
+      "prompt": "Act as an Instagram visual strategist with 6 years of experience designing highlight architectures for Indian lifestyle creators. I need you to design a 10-cover Instagram highlights system for a Bengaluru-based lifestyle creator (210K followers) whose niche is \"intentional living\". Here is the context: the creator wants highlights that double as a portfolio for brand collabs, drive new-visitor retention, and surface evergreen content. Audience is 70% women 26-38 in metros. Please provide: (1) 10 highlight names (max 12 characters each) with strategic order, (2) For each highlight: cover concept, color palette aligned with feed aesthetic, 4-7 stories to add, refresh cadence, (3) A \"new visitor flow\" mapping which 3 highlights convert best at first visit, (4) A \"brand kit\" highlight with PR-ready stats, deliverables, and rate teaser, (5) An \"FAQ\" highlight with 8 most-asked questions, (6) A \"Wins\" highlight repurposing UGC and audience replies, (7) A 30-day refresh checklist. Format the output as 10 numbered highlight blocks. Use Indian lifestyle references (Auroville, Coorg trip, monsoon journaling) and avoid Western minimalist clichés that look out-of-place for Indian audiences.",
+      "tags": [
+        "bio-optimization",
+        "highlights",
+        "lifestyle"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-035",
+      "title": "8-Week Calendar for New Comedy Creator",
+      "prompt": "Act as a content launch strategist with 6 years of experience launching new Indian comedy creators from 0 to 50K. I need you to build an 8-week launch content calendar for a brand-new Mumbai-based observational-comedy creator starting at 0 followers. Here is the context: the creator can shoot 3 reels per week, has a small camera setup at home, and wants to lock in a niche (\"Indian office life from the chai-walaa point of view\") within the first 8 weeks. Audience target: 22-30 working professionals. Please provide: (1) Week 1 to Week 8 themes with launch-narrative arc, (2) 24 reel concepts mapped to weeks (3 per week), (3) 4 carousel-format ideas to mix, (4) Two breakout-bet reel ideas designed to virally spike, (5) A weekly 10-comment engagement playbook in 5 niche-adjacent creator profiles, (6) A KPI table per week (reach, follower-add, save rate, profile visits), (7) A \"week 4 pivot\" decision rule if growth stalls, (8) Filming-day batching tips for 3 reels in 4 hours. Format the output as week-by-week blocks. Use Mumbai office cues (local trains, chai-walaa, Bandra cafes), avoid stale stand-up clichés.",
+      "tags": [
+        "content-calendar",
+        "comedy",
+        "launch"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-036",
+      "title": "Caption for Carousel on Indian Skincare",
+      "prompt": "Act as a beauty-niche carousel writer with 5 years of experience writing for Indian skincare creators with 70K-300K followers. I need you to write a complete carousel-paired caption for a 9-slide post titled \"Indian skincare in your 30s — what to keep, what to skip\". Here is the context: the creator is a Hyderabad-based skincare creator (140K followers, audience 80% women 28-40), positioning is anti-fad, science-backed but warm. The carousel covers retinol, sunscreen for melanin-rich skin, niacinamide, hyaluronic acid, and Indian seasons. Please provide: (1) A primary caption 250-300 words with hook, story, listicle, and CTA, (2) Three short alternative captions for cross-posting, (3) A pinned comment offering a free \"Indian-skin routine\" PDF via DM, (4) 12 carefully chosen hashtags, (5) A swipe-driver line on slide 1 of carousel, (6) A specific call-out to Indian climate (Delhi winter dryness, Chennai humidity, Bengaluru pollution), (7) Disclaimer guidance — no medical claims, recommend consultation with Indian dermatologist (DermNet, IADVL). Format the output as labelled blocks. Use Indian skin-tone-aware language and reference Indian sunscreen brands like Re'equil, Minimalist, and Foxtale.",
+      "tags": [
+        "caption",
+        "skincare",
+        "carousel"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-037",
+      "title": "Brand Collab Deck for Travel Couple",
+      "prompt": "Act as a creator-economy partnerships consultant with 7 years of experience pitching mid-tier travel collabs in India. I need you to design a 10-slide brand-collab deck for a Goa-based travel couple (220K combined followers, 4.7% ER) pitching a 3-month brand-ambassador deal with MakeMyTrip worth ₹6,50,000. Here is the context: the couple offers a package of 9 reels, 18 stories, 1 long-form YouTube video cross-promoted on Insta, 1 in-person event appearance, with 60-day usage rights and category exclusivity. Please provide: (1) Slide 1 cover with hook, (2) Slide 2 couple positioning and audience snapshot, (3) Slide 3 audience demographics with city, age, gender, languages, (4) Slide 4 content style and visual moodboard, (5) Slide 5 past brand wins (anonymised case studies with KPIs), (6) Slide 6 strategic fit with MakeMyTrip's 2026 campaigns, (7) Slide 7 3 campaign concept directions, (8) Slide 8 deliverables and timeline grid, (9) Slide 9 INR pricing breakdown with package logic, (10) Slide 10 contact, payment, and FAQs. Format the output slide-by-slide with copy direction. Use Indian travel-creator benchmarks and INR throughout.",
+      "tags": [
+        "brand-collab",
+        "travel",
+        "deck"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-038",
+      "title": "Reel Voiceover for Tech Unboxing",
+      "prompt": "Act as a tech-niche voiceover scriptwriter with 5 years of experience writing for Indian tech creators in the Mrwhosetheboss-meets-Trakin Tech style. I need you to write a 50-second VO script for an unboxing reel of the Nothing Phone (3a Pro) priced at ₹29,999. Here is the context: the creator is a Bengaluru-based tech creator (380K followers), the reel must blend the unboxing flow with 3 quick takeaways and end with a pre-order CTA via the creator's affiliate link. Audience is 18-32 male-skewed Indian metro audience. Please provide: (1) Second-by-second VO with pacing notes, (2) Visual cues per 5-second block (slow-pan box reveal, glyph close-up, camera test on Bengaluru evening sky), (3) Three takeaways at second 18, 30, and 42 (display, performance, camera), (4) A surprising-stat moment at second 25, (5) An honest \"watch out\" line addressing concerns at second 38, (6) A clean CTA at second 47 driving comments and link clicks, (7) On-screen text overlays in Hinglish, (8) Music vibe and SFX moments. Format the output as a 3-column shot list. Avoid US-centric pricing comparisons and reference Indian competitors (OnePlus 13R, Realme GT, Xiaomi 15).",
+      "tags": [
+        "reel-script",
+        "tech",
+        "unboxing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-039",
+      "title": "Caption Disclaimer Templates for Creators",
+      "prompt": "Act as an ASCI-compliant content review consultant with 6 years of experience auditing Indian creator captions across niches. I need you to produce a templated disclaimer pack covering 8 different post types: paid promo, gifted product, affiliate link, finance content, medical/wellness content, legal content, before/after fitness post, and AI-generated visual. Here is the context: the creator is a multi-niche lifestyle creator (260K followers) and wants reusable, ASCI- and SEBI-/RBI-aligned disclaimers ready to copy-paste at the top or bottom of captions. Please provide: (1) Template 1 — paid promo (#ad/#sponsored placement guidance), (2) Template 2 — gifted/PR product, (3) Template 3 — affiliate link with disclosure, (4) Template 4 — finance content (\"not SEBI registered, not investment advice\"), (5) Template 5 — wellness/medical (\"not medical advice, consult a doctor\"), (6) Template 6 — legal (\"not legal advice\"), (7) Template 7 — fitness transformation (\"results vary, no body shaming\"), (8) Template 8 — AI-generated image disclosure, (9) For each template: where to place, in what tone, and a 1-line risk summary, (10) A \"5 things never to claim\" red-flag list. Format the output as 8 templates plus the red-flag list. Use Indian regulators (ASCI, SEBI, RBI, ICMR) as anchors.",
+      "tags": [
+        "caption",
+        "compliance",
+        "disclaimer"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    },
+    {
+      "id": "social-media-creators-instagram-040",
+      "title": "30-Day Engagement Sprint for Stagnant Creator",
+      "prompt": "Act as a creator-growth coach with 8 years of experience reviving stagnant Instagram accounts in the 30K-150K range. I need you to design a 30-day engagement-revival sprint for a Chandigarh-based fashion creator (78K followers) whose engagement has dropped from 5.4% to 1.8% over 8 months. Here is the context: she posts 4 reels and 3 stories a week but engagement keeps falling, audience is 70% women 22-32 across North India. The sprint must cover content, community, and clarity. Please provide: (1) Week 1 — diagnostic: a 12-point audit of bio, last 30 posts, audience-fit, hook strength, hashtags, story usage, (2) Week 2 — niche-tightening sprint with 7 reel ideas designed for save-rate over reach, (3) Week 3 — community sprint: DM 30 followers, 60 thoughtful comments on niche peers, 2 collab reels, (4) Week 4 — momentum: 1 hero reel, 1 carousel education post, story-driven launch of a free downloadable, (5) Daily check-in habits (15 mins morning, 15 mins evening), (6) KPI dashboard with weekly targets (save rate, share rate, profile visits, follow-rate), (7) A \"stop doing\" list of 7 habits. Format the output as a 4-week roadmap with daily and weekly tasks. Use Indian creator benchmarks and avoid generic \"post consistently\" advice.",
+      "tags": [
+        "content-calendar",
+        "growth",
+        "engagement"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "instagram"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "category": "music-performing-arts",
+  "subcategory": "event-planners",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "music-performing-arts-event-planners-001",
+      "title": "Wedding Concept Description for Couple",
+      "prompt": "Act as a senior wedding planner (Vandana Mohan / Devika Narain school). Write a concept document for a 4-day Indian destination wedding in Udaipur (300 guests). Cover: (1) overall theme (e.g., 'Royal Mewar Spring'), (2) day-1 mehendi + sangeet, (3) day-2 cocktail + welcome dinner, (4) day-3 wedding ceremony + reception, (5) day-4 brunch + farewell. Per event: venue (Taj / Oberoi / Leela), decor mood, attire palette, F&B tone, music + entertainment, timing. Constraints: budget ₹3.8 Cr; align with Rajasthan tourism + venue rules; respect couple's families' traditions; bilingual.",
+      "category": "music-performing-arts",
+      "subcategory": "event-planners",
+      "tags": ["wedding-concept", "udaipur", "destination", "vandana-mohan", "decor"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true
+    },
+    {
+      "id": "music-performing-arts-event-planners-002",
+      "title": "Vendor Brief for Florist",
+      "prompt": "Act as a senior wedding planner. Draft a 1-page brief for the floral vendor for a Delhi wedding (350 guests, royal mughal theme). Cover: (1) date + venue (Taj Palace), (2) decor zones (entrance, mandap, dining, photo-op, valet drop-off), (3) flower preferences (rose, marigold, orchid, tuberose) + colour palette, (4) sustainable + biodegradable preference, (5) lighting integration, (6) timeline (T-2 day setup, T-0 freshness check, T+1 dismantling), (7) pricing per zone, (8) vendor sample-board approval. Constraints: align with Delhi venue rules; respect monsoon flower-availability; INR budget ₹14L; bilingual brief.",
+      "category": "music-performing-arts",
+      "subcategory": "event-planners",
+      "tags": ["floral-vendor", "wedding", "mughal", "taj-palace", "sustainable"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true
+    },
+    {
+      "id": "music-performing-arts-event-planners-003",
+      "title": "Run-of-Show for Sangeet",
+      "prompt": "Act as a senior production manager. Build minute-by-minute run-of-show for a 4-hour sangeet (180 guests, ITC Maurya New Delhi). Cover: (1) doors + cocktail (60 min), (2) family welcome + emcee, (3) bride + groom entry (with choreography), (4) family performances (5 acts × 5 min), (5) DJ + dance floor (90 min), (6) live band set (45 min), (7) cake + speeches, (8) after-party (60 min). Per beat: AV cue, lighting cue, food + bar service, photographer instruction. Constraints: respect noise + curfew norms; PPL/IPRS music license; bilingual emcee; backup plans.",
+      "category": "music-performing-arts",
+      "subcategory": "event-planners",
+      "tags": ["run-of-show", "sangeet", "itc-maurya", "av-cues", "ppl-iprs"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-event-planners-004",
+      "title": "Budget Narrative for Corporate Event",
+      "prompt": "Act as a corporate event planner. Build budget narrative for a 250-pax annual sales-conclave at Hyatt Regency Pune. Total ₹85 lakh. Cover: (1) venue + F&B (₹35L), (2) AV + production (₹14L), (3) travel + accommodation (₹16L), (4) entertainment (₹6L), (5) gifts + collateral (₹5L), (6) speakers + facilitators (₹4L), (7) misc + contingency (₹5L). Per item: 60-word rationale + vendor + savings opportunity. Constraints: align with corporate procurement (3 quotes per major item); 18% GST; transparency to client finance team.",
+      "category": "music-performing-arts",
+      "subcategory": "event-planners",
+      "tags": ["budget-narrative", "corporate-event", "hyatt", "sales-conclave", "procurement"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-event-planners-005",
+      "title": "Post-Event Report for Client",
+      "prompt": "Act as senior event manager. Write a 1,200-word post-event report for a 3-day product launch event we executed in Mumbai. Cover: (1) executive summary, (2) attendance (registered / actual / drop-off), (3) experience scorecard (NPS + qualitative quotes), (4) media + press coverage (clippings + reach), (5) social media metrics (reach, engagement, hashtag), (6) operational performance (AV, F&B, venue), (7) financial (final billing vs estimate), (8) lessons + recommendations, (9) testimonial pull quotes, (10) thank-you + retention CTA. Constraints: align with corporate reporting; transparent gaps; bilingual exec summary; signed sign-off.",
+      "category": "music-performing-arts",
+      "subcategory": "event-planners",
+      "tags": ["post-event-report", "product-launch", "nps", "media-coverage", "lessons"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-event-planners-006",
+      "title": "Permit + License Checklist (Outdoor)",
+      "prompt": "Act as a permits manager. Build permit + license checklist for an outdoor music festival (3,000 attendees) in Gurgaon. Cover: (1) Police NOC, (2) Fire NOC, (3) Excise (alcohol service), (4) PPL/IPRS music license, (5) Pollution NOC (sound + waste), (6) Traffic + parking, (7) MCG event tax, (8) BMC / Gram Panchayat permission, (9) electrical safety + DG-set permit, (10) ambulance + medical, (11) crowd insurance ₹5 Cr. Per: timeline + responsible authority + INR fee. Constraints: align with state event permit framework; documented; bilingual.",
+      "category": "music-performing-arts",
+      "subcategory": "event-planners",
+      "tags": ["permits", "noc", "music-festival", "ppl-iprs", "gurgaon"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-event-planners-007",
+      "title": "Concept Pitch for College Festival",
+      "prompt": "Act as an experiential design consultant. Build a concept pitch for IIT Bombay's Mood Indigo (8,000 attendees, 4 days). Cover: (1) overarching theme (e.g., 'Symphonies of the Subcontinent'), (2) anchor experiences (concert, comedy, art, tech, sports), (3) headliner ask (Indian + international), (4) sponsor activation (Coca-Cola, Asus, Spotify), (5) sustainable + waste-zero ambition, (6) inclusive accessibility (wheelchair, sensory-quiet zone), (7) student-led production credits, (8) revenue forecast ₹5.6 Cr. Constraints: align with college student-centric ethos; respect IIT campus rules; PPL / IPRS; bilingual stage banter.",
+      "category": "music-performing-arts",
+      "subcategory": "event-planners",
+      "tags": ["college-festival", "mood-indigo", "iit-bombay", "concept-pitch", "sustainable"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-event-planners-008",
+      "title": "Crisis Plan (Weather Disruption)",
+      "prompt": "Act as a senior event ops manager. Build a crisis plan for an outdoor 600-pax event in Goa during monsoon (Aug). Cover: (1) weather monitoring (IMD + AccuWeather), (2) decision tree (cancel / shorten / shift indoor / continue), (3) communication ladder (client + vendors + attendees), (4) refund + reschedule policy, (5) tarp + tent backup, (6) safety (no electrical near water, anti-slip), (7) ambulance + first-aid, (8) insurance event-cancellation, (9) post-crisis comms. Constraints: respect attendee safety > revenue; communicate transparently; bilingual; cite Sphere if humanitarian volume.",
+      "category": "music-performing-arts",
+      "subcategory": "event-planners",
+      "tags": ["crisis-plan", "monsoon", "goa", "decision-tree", "insurance"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-event-planners-009",
+      "title": "Tech Spec for Awards Show Stage",
+      "prompt": "Act as a stage + AV designer. Build technical specifications for a 1,200-pax awards show at JW Marriott Mumbai. Cover: (1) stage (40' × 24' main + ramp), (2) LED wall (4K, 12mm pitch, 24' × 12'), (3) lighting (moving heads, fresnel, profile, par cans, 4 truss towers, DMX), (4) audio (line-array L-Acoustics, monitors, lapel + handheld mics, comms), (5) cameras (3 PTZ + 1 jib), (6) graphics + scoreboards, (7) trophies + props handover, (8) cue-to-cue rehearsal. Constraints: load-in 14 hrs; bilingual MC scripts; UPS + DG-set redundancy; align with venue policy + PPL.",
+      "category": "music-performing-arts",
+      "subcategory": "event-planners",
+      "tags": ["awards-show", "led-wall", "l-acoustics", "stage-design", "ptz"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-event-planners-010",
+      "title": "Pre-Wedding Family Meeting Agenda",
+      "prompt": "Act as a wedding planner facilitating a pre-wedding family meeting (couple + both family heads + planner — 6 people, 3 hours). Build agenda: (1) introductions + planner role, (2) couple's vision (15 min), (3) guest count + budget alignment (45 min), (4) cultural traditions integration both sides (45 min), (5) vendor preferences (40 min), (6) decision rights matrix (RACI for couple vs families), (7) communication channel + cadence (WhatsApp + weekly check-in), (8) sign-off on next 30-day milestones. Constraints: respect family hierarchies + dignity; bilingual; document for reference; mediate disagreements diplomatically.",
+      "category": "music-performing-arts",
+      "subcategory": "event-planners",
+      "tags": ["family-meeting", "wedding", "raci", "facilitation", "vision"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-event-planners-011",
+      "title": "Menu Curation for Multi-Cultural Wedding",
+      "prompt": "Act as an F&B consultant for weddings. Curate a 3-day menu for a Tamil-Punjabi inter-state wedding (300 guests) in Bengaluru. Cover: (1) day 1 mehendi (south Indian breakfast + Punjabi snack mix), (2) day 2 sangeet (live cocktail counters + multi-regional dinner), (3) day 3 wedding (Tamil thali + Punjabi tikka + biryani), (4) per day: live counters, plated, bar (alcohol-free + alcohol options), (5) dietary tags (jain, vegan, gluten-free, halal), (6) allergen disclosure, (7) waste-reduction (donate surplus). Constraints: align with FSSAI + Bengaluru bar license; respect cultural priorities; bilingual menu cards.",
+      "category": "music-performing-arts",
+      "subcategory": "event-planners",
+      "tags": ["menu-curation", "tamil-punjabi", "wedding", "fssai", "dietary"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "music-performing-arts-event-planners-012",
+      "title": "Sustainability Pledge for Wedding",
+      "prompt": "Act as a sustainable wedding consultant (Eco-Wedding Network India). Draft a sustainability pledge for a 250-pax wedding. Cover: (1) zero-single-use-plastic (cutlery, water-bottle, decor), (2) flower upcycling (post-event compost / temple donation), (3) carbon-offset of guest travel (₹X / km), (4) sustainable F&B (local + seasonal + plant-forward, surplus to NGO), (5) digital invitations + e-RSVP, (6) eco-friendly favours, (7) ethical labour (vendor wages + hours + dignity), (8) measurement + reporting. Constraints: align with Goonj / DailyDump waste circular; INR cost premium 4-7%; transparent disclosure to guests.",
+      "category": "music-performing-arts",
+      "subcategory": "event-planners",
+      "tags": ["sustainability", "wedding", "zero-waste", "goonj", "eco-pledge"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    }
+  ]
+}

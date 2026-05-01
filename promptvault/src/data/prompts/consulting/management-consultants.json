@@ -1,0 +1,151 @@
+{
+  "category": "consulting",
+  "subcategory": "management-consultants",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "consulting-management-consultants-001",
+      "title": "Porter's Five Forces for Indian Industry",
+      "prompt": "Act as a senior MBB consultant (McKinsey / BCG / Bain India). Apply Porter's Five Forces to the Indian quick-commerce sector (Zepto, Blinkit, Swiggy Instamart). Cover: (1) supplier power, (2) buyer power, (3) threat of new entrants, (4) threat of substitutes, (5) competitive rivalry. For each: 80-word analysis + Indian-specific data + scoring (1-5). Conclude with strategic implications + 1 winning strategy. Constraints: cite latest Indian market data; INR figures; 1-page executive summary + 3-page detailed.",
+      "category": "consulting",
+      "subcategory": "management-consultants",
+      "tags": ["porter-five-forces", "quick-commerce", "mbb", "zepto", "strategy"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true
+    },
+    {
+      "id": "consulting-management-consultants-002",
+      "title": "Client Presentation Storyline (Pyramid)",
+      "prompt": "Act as a senior associate at McKinsey. Build the storyline (Minto Pyramid) for a 35-slide client presentation on cost-reduction at a ₹2,000 Cr Indian FMCG company. Provide: (1) governing thought, (2) 3 key arguments, (3) MECE supporting points per argument, (4) data anchors, (5) executive summary slide, (6) recommended next-step slide. Constraints: align with consulting house storyline standard; data-led; 1 message per slide; SCQA opener; client-CEO ready.",
+      "category": "consulting",
+      "subcategory": "management-consultants",
+      "tags": ["minto-pyramid", "storyline", "cost-reduction", "fmcg", "mece"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true
+    },
+    {
+      "id": "consulting-management-consultants-003",
+      "title": "Stakeholder Analysis (RACI Matrix)",
+      "prompt": "Act as a transformation lead. Build a stakeholder analysis + RACI matrix for an ERP transformation at a Tata Group manufacturing entity (1,400 employees). Cover: (1) stakeholder list (CFO, CIO, plant heads, supply chain, IT, HR, finance, operations, vendors), (2) interest-influence grid, (3) RACI per workstream (8 workstreams), (4) communication plan per stakeholder group, (5) resistance + mitigation, (6) governance forum. Constraints: align with PMI + Prosci ADKAR; document signed by sponsor; respect Tata legacy decision-making.",
+      "category": "consulting",
+      "subcategory": "management-consultants",
+      "tags": ["raci", "stakeholder", "erp", "tata", "adkar"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "consulting-management-consultants-004",
+      "title": "Implementation Roadmap (24 Months)",
+      "prompt": "Act as a transformation senior manager. Build a 24-month implementation roadmap for digital transformation at an Indian BFSI (mid-tier bank). Phases: (1) discover (M1-3), (2) design (M4-9), (3) build (M10-18), (4) scale (M19-24). For each: workstreams (data, customer, ops, risk, compliance, talent), milestones, KPIs, dependencies, capex. Total budget ₹220 Cr. Constraints: align with RBI digital banking guidelines + DPDP; capex realistic; respect change-management; risk-and-issue log.",
+      "category": "consulting",
+      "subcategory": "management-consultants",
+      "tags": ["implementation-roadmap", "bfsi", "digital-transformation", "rbi", "dpdp"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-management-consultants-005",
+      "title": "Change Management Communication Plan",
+      "prompt": "Act as a Prosci-certified change manager. Build a 6-month change communication plan for a 4,500-employee Indian IT services company adopting a hybrid-work policy after 4 years remote. Cover: (1) audience segmentation, (2) message architecture (the why, what, how, when), (3) channel mix (Town hall, Slack, video, MD email, manager talking points), (4) communication cadence per phase (awareness → desire → knowledge → ability → reinforcement), (5) feedback mechanisms, (6) leader-modelling, (7) resistance management. Constraints: respect employee autonomy; bilingual; transparent; change-readiness measurement.",
+      "category": "consulting",
+      "subcategory": "management-consultants",
+      "tags": ["change-management", "prosci", "adkar", "hybrid-work", "communication"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "consulting-management-consultants-006",
+      "title": "Cost Reduction Diagnostic (Zero-Based Budget)",
+      "prompt": "Act as a senior cost transformation consultant (Bain Cost Excellence). Apply zero-based budgeting to a ₹3,800 Cr Indian retailer. Cover: (1) baseline spend by category (HR, real-estate, technology, marketing, ops, working capital), (2) ZBB challenges + assumptions, (3) bottom-up rebuild per category, (4) opportunity sizing (savings range), (5) prioritisation (impact-effort grid), (6) governance model, (7) implementation timeline + risks, (8) ₹ Cr targeted savings (10-15% expected). Constraints: align with ZBB rigour; INR figures; respect operational risk; sustainable not one-time.",
+      "category": "consulting",
+      "subcategory": "management-consultants",
+      "tags": ["zbb", "cost-reduction", "bain", "retail", "savings"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-management-consultants-007",
+      "title": "Operating Model Design",
+      "prompt": "Act as an organisational design consultant. Design a target operating model for a ₹6,500 Cr Indian listed company expanding from 1 to 4 business units. Cover: (1) HQ-vs-BU role split (capital, talent, technology), (2) shared services (finance, HR, IT, legal — captive vs outsourced), (3) governance forums (board, ExCo, BU mgmt), (4) decision rights (RAPID), (5) talent (FTE per function), (6) capability gap, (7) transition plan, (8) KPIs per BU. Constraints: align with Companies Act + SEBI LODR; respect promoter-led culture; cite peer (Mahindra, ITC) operating models.",
+      "category": "consulting",
+      "subcategory": "management-consultants",
+      "tags": ["operating-model", "rapid", "shared-services", "lodr", "tom"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-management-consultants-008",
+      "title": "Hypothesis-Led Problem Tree",
+      "prompt": "Act as a senior associate. Apply MECE problem-tree decomposition to: 'Why is sales declining at our Indian retail chain?' Build: (1) main question, (2) Level-1 branches (volume × ticket vs cohort vs channel vs region), (3) Level-2 hypotheses with data needed, (4) prioritisation by impact + ease, (5) day-1 hypothesis (top 3), (6) data-collection plan + analysts allocated, (7) test-and-revise loop. Constraints: pure MECE; quantify impact; cite Indian retail data sources (Nielsen, Bizom); 1-week sprint.",
+      "category": "consulting",
+      "subcategory": "management-consultants",
+      "tags": ["hypothesis-tree", "mece", "problem-decomposition", "retail", "diagnostic"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-management-consultants-009",
+      "title": "Industry Research Framework",
+      "prompt": "Act as a knowledge analyst at MBB India. Build an industry research framework for 'Indian electric two-wheeler market 2026'. Cover: (1) definition + segmentation (price, urban/rural, B2B/B2C), (2) market size + growth rate (TAM/SAM/SOM), (3) value chain (battery, motor, OEM, dealer, fleet), (4) competitive landscape (Ola, Ather, TVS, Hero MotoCorp, Bajaj), (5) regulation (FAME-II, PLI, GST), (6) consumer insight, (7) tech disruption (battery swap, hub-and-spoke), (8) capital flow + M&A, (9) outlook 2027-2030. Constraints: cite ICRA, KPMG, EY, JMK Research, SMEV; INR; data-anchored; respect interview confidentiality.",
+      "category": "consulting",
+      "subcategory": "management-consultants",
+      "tags": ["industry-research", "ev-two-wheeler", "fame-ii", "ola", "tam"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-management-consultants-010",
+      "title": "Client Workshop Facilitation Plan",
+      "prompt": "Act as a senior facilitator. Plan a 6-hour leadership workshop for a 14-person CXO team of an Indian conglomerate to refine 5-year strategy. Cover: (1) pre-work (prefirm reading, individual interview), (2) opening (icebreaker + framing), (3) Module 1 (where-to-play), (4) Module 2 (how-to-win), (5) Module 3 (capabilities), (6) Module 4 (resource allocation), (7) commit + closing. Tools: brown paper, sticky note, breakout, voting. Constraints: respect cultural hierarchy; time-bound; concrete decisions; pre-summit follow-up.",
+      "category": "consulting",
+      "subcategory": "management-consultants",
+      "tags": ["facilitation", "workshop", "cxo", "strategy", "playing-to-win"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "consulting-management-consultants-011",
+      "title": "Post-Merger Integration (PMI) Plan",
+      "prompt": "Act as PMI lead at a Big-4 transaction services. Build PMI plan for an Indian acquisition (₹1,200 Cr deal — pharma midsize). Cover: (1) Day-1 readiness (legal, comms, leadership, payroll), (2) workstreams (commercial, R&D, ops, finance, IT, HR, legal), (3) synergy targets (revenue + cost), (4) integration governance (Steerco, IMO, workstream leads), (5) cultural integration, (6) talent retention (Top 50), (7) risk register, (8) milestones (Day-1, 30, 100, 200, year-1). Constraints: align with Companies Act + SEBI for listed; protect customer + supplier; honest synergy realisation; legal MoU before; document audit-ready.",
+      "category": "consulting",
+      "subcategory": "management-consultants",
+      "tags": ["pmi", "post-merger", "synergy", "imo", "cultural-integration"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-management-consultants-012",
+      "title": "Capability Maturity Assessment",
+      "prompt": "Act as a capability assessor. Assess data-and-analytics maturity at a ₹4,000 Cr Indian manufacturer. Use 5-stage maturity model (Reactive → Reactive-Reporting → Insight → Predictive → Embedded). Dimensions: (1) data infrastructure, (2) data governance, (3) talent, (4) tools, (5) decision-process integration, (6) culture. Score each dimension 1-5; identify gaps; build 24-month upskilling plan + investment ₹65 Cr. Constraints: align with DAMA-DMBoK + Gartner CDMA; cite peer benchmarks; honest gaps; quick-wins highlighted.",
+      "category": "consulting",
+      "subcategory": "management-consultants",
+      "tags": ["maturity-assessment", "data-analytics", "dama", "gartner", "manufacturing"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    }
+  ]
+}

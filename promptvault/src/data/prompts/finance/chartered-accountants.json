@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "finance-chartered-accountants-001",
+      "title": "Draft SA 315 Risk Assessment Memo for MSME Audit",
+      "prompt": "Act as a Chartered Accountant with 8 years of statutory audit experience at a mid-tier Indian firm. I need you to draft a risk assessment memorandum under SA 315 (Identifying and Assessing the Risks of Material Misstatement) for an MSME client in Pune engaged in auto-component manufacturing with turnover of INR 42 crore. Here is the context: the client has 3 plant locations, uses Tally Prime, and has had two GST notices in FY 2024-25. The promoter-director handles all banking and vendor approvals. Please provide: (1) entity-level risk factors including internal control weaknesses, (2) significant account balances and relevant assertions at risk, (3) identified fraud risks per SA 240, (4) preliminary materiality in INR (using 5% of PBT benchmark), (5) planned audit response linking each risk to an assertion. Format as a structured memo with headings, risk register table, and auditor conclusion. Consider constraints: ICAI audit documentation standards, single-promoter concentration risk, related-party transactions common to Indian family businesses, and working capital dependency on bank CC limits.",
+      "tags": [
+        "sa-315",
+        "risk-assessment",
+        "msme-audit",
+        "audit-memo",
+        "icai"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-002",
+      "title": "GST ITC Mismatch Reconciliation Query Response",
+      "prompt": "Act as a GST practitioner CA with 6 years of indirect tax advisory experience in India. I need you to draft a detailed client reply for an ITC mismatch query where GSTR-2B shows INR 18,45,230 but the client's books claim ITC of INR 21,02,870 for FY 2024-25. Here is the context: the client is a Bengaluru-based SaaS reseller with 140 vendors, uses Zoho Books, and 12 vendors have not filed GSTR-1 for Q3 FY25. The jurisdictional officer has raised a Section 61 scrutiny notice. Please provide: (1) vendor-wise reconciliation approach, (2) explanation of Rule 36(4) and Section 16(2)(aa) applicability, (3) treatment of invoices with defaulting suppliers, (4) sample language for professional reply citing CBIC circulars, (5) recommended corrective action including DRC-03 if required. Format as a client-ready advisory note with a reconciliation summary table in INR, statutory references, and an action checklist. Consider: recent CBIC clarifications, interest under Section 50, and reputational risk of reversal.",
+      "tags": [
+        "gst",
+        "itc-mismatch",
+        "gstr-2b",
+        "section-16",
+        "drc-03"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-003",
+      "title": "Salary Restructuring Tax Advisory for Senior Manager",
+      "prompt": "Act as a personal tax CA with 7 years of experience advising Indian corporate employees. I need you to prepare a salary restructuring memo for a senior manager at an IT services firm in Hyderabad earning a CTC of INR 28,00,000 under the old tax regime. Here is the context: the employee is 34 years old, has a home loan EMI of INR 42,000 (INR 3.5L interest, INR 1.8L principal annually), pays INR 24,000 monthly rent, has two children in school, and contributes INR 1,50,000 to PPF. Please provide: (1) current tax liability computation under old and new regimes, (2) optimal restructuring with HRA, LTA, NPS employer contribution under 80CCD(2), food coupons, and telephone reimbursement, (3) post-restructuring tax savings in INR, (4) Form 12BB documentation checklist, (5) recommendation on regime selection for AY 2025-26. Format as a client advisory memo with comparison tables, assumptions, and a one-page summary. Consider: Section 17(2) perquisite valuation, standard deduction, and Budget 2024 slab changes.",
+      "tags": [
+        "salary-structuring",
+        "old-vs-new-regime",
+        "hra",
+        "section-80c",
+        "form-12bb"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-004",
+      "title": "Form 3CD Tax Audit Checklist for Trading Entity",
+      "prompt": "Act as a tax audit CA with 5 years of experience conducting Section 44AB audits. I need you to prepare a working checklist for completing Form 3CD for a Delhi-based electronics trading LLP with turnover of INR 6.80 crore for FY 2024-25. Here is the context: the client has inventory across 2 warehouses, cash sales of INR 14 lakh, payments to 8 related parties, and has deducted TDS under Sections 194C, 194J, and 194Q. Please provide: (1) clause-wise documentation requirements for clauses 17 (transfer of land/building), 21(a) (personal expenses), 21(b) (disallowable expenses), 27(b) (CENVAT/ITC), 30C (GAAR), 31 (cash loans), 34(a) (TDS compliance), and 44 (break-up of expenses GST-registered vs not), (2) supporting schedule formats, (3) typical issues and auditor responses, (4) UDIN generation steps. Format as a structured checklist with columns for clause, requirement, documents, and status. Consider: ICAI Guidance Note on Tax Audit 2024 edition, recent CBDT amendments, and e-filing portal validations.",
+      "tags": [
+        "form-3cd",
+        "tax-audit",
+        "section-44ab",
+        "udin",
+        "checklist"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-005",
+      "title": "Draft Audit Engagement Letter for Listed Company",
+      "prompt": "Act as an audit partner at a mid-tier CA firm with 12 years of listed company audit experience. I need you to draft an audit engagement letter compliant with SA 210 for a BSE-listed mid-cap FMCG company in Mumbai with consolidated turnover of INR 1,240 crore. Here is the context: the engagement covers statutory audit under Companies Act 2013, limited review of quarterly results under SEBI LODR, IFC reporting under Section 143(3)(i), and CARO 2020 reporting. Please provide: (1) scope of audit including Ind AS applicability, (2) management and auditor responsibilities, (3) fees structure in INR with out-of-pocket expenses, (4) independence confirmation, (5) communication protocols with Audit Committee, (6) limitation of liability clause, (7) signatories. Format as a formal letter on firm letterhead style with all clauses numbered. Consider: NFRA oversight, peer review requirements, rotation under Section 139, and recent SEBI disclosure norms.",
+      "tags": [
+        "sa-210",
+        "engagement-letter",
+        "listed-company",
+        "caro-2020",
+        "ind-as"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-006",
+      "title": "LTCG Tax Computation on Equity and Property Sale",
+      "prompt": "Act as a capital gains specialist CA with 9 years of experience advising HNI clients. I need you to compute capital gains tax for an individual in Gurugram for AY 2025-26. Here is the context: the client sold listed equity shares (held 3 years) for INR 62,00,000 with cost INR 28,00,000, sold a flat in Noida (held 7 years) for INR 1,85,00,000 purchased in 2017 for INR 78,00,000 with INR 8,00,000 improvement cost, and reinvested INR 70,00,000 in a new residential property. Please provide: (1) indexed cost of acquisition and improvement using CII (post Budget 2024 rules), (2) LTCG on equity applying the INR 1.25 lakh exemption and 12.5% rate, (3) LTCG on property under revised 12.5% without indexation and comparison with 20% with indexation (grandfathering), (4) Section 54 exemption working, (5) net tax payable including cess and surcharge, (6) advance tax instalment plan. Format as a computation sheet with clear workings in INR. Consider: Finance (No. 2) Act 2024 amendments and HUF implications.",
+      "tags": [
+        "ltcg",
+        "section-54",
+        "capital-gains",
+        "indexation",
+        "budget-2024"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-007",
+      "title": "Ratio Analysis Report for MSME Bank Lending",
+      "prompt": "Act as a financial analyst CA with 6 years of experience preparing CMA data and MSME credit proposals. I need you to draft a ratio-based financial analysis report for a Coimbatore-based textile SME seeking a working capital enhancement from INR 4 crore to INR 7 crore from Canara Bank. Here is the context: FY25 turnover INR 48 crore, PAT INR 2.6 crore, current assets INR 22 crore, current liabilities INR 16 crore, total debt INR 14 crore, net worth INR 18 crore, inventory INR 9 crore, debtors INR 7.5 crore with average collection 68 days. Please provide: (1) computation of current ratio, quick ratio, DSCR, TOL/TNW, interest coverage, inventory turnover, debtor days, (2) peer benchmarking against textile industry averages, (3) comment on working capital cycle adequacy, (4) observations on covenant compliance, (5) risk flags and mitigants. Format as a banker-ready analysis with tables, commentary, and conclusion. Consider: RBI MSME classification norms and Udyam registration benefits.",
+      "tags": [
+        "ratio-analysis",
+        "msme-lending",
+        "cma-data",
+        "dscr",
+        "working-capital"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-008",
+      "title": "RCM Applicability Advisory for Logistics Payments",
+      "prompt": "Act as a GST advisor CA with 5 years of experience on reverse charge mechanism queries. I need you to draft an advisory note on RCM applicability for a Chennai-based manufacturing client making payments to GTAs, unregistered legal consultants, and director sitting fees. Here is the context: monthly GTA payments of INR 4,50,000 (mix of forward charge and RCM declared vendors), legal fees to an unregistered advocate of INR 1,20,000, director sitting fees of INR 3,00,000 per quarter, and import of design services from a US vendor worth USD 12,000. Please provide: (1) RCM applicability for each category citing Notification 13/2017-CT(R) and Section 9(3)/9(4), (2) GST rate and valuation rules, (3) ITC eligibility on RCM paid, (4) invoice and self-invoice requirements under Rule 46, (5) GSTR-3B reporting in Tables 3.1(d) and 4A(3), (6) place of supply for import of service. Format as a client advisory with a summary table. Consider: recent AAR rulings and CBIC FAQs.",
+      "tags": [
+        "rcm",
+        "reverse-charge",
+        "gta",
+        "import-of-service",
+        "section-9"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-009",
+      "title": "SA 500 Audit Evidence Testing for Revenue",
+      "prompt": "Act as an audit senior with 4 years of experience at a Big 4 India firm. I need you to design substantive procedures under SA 500 for testing revenue recognition of a SaaS company in Bengaluru with FY25 revenue of INR 186 crore. Here is the context: the company recognises revenue on a monthly subscription basis under Ind AS 115, has 2,400 active customers, multi-year contracts with upfront discounts, and uses Zoho and Salesforce integrated billing. Cut-off risk is high due to year-end sales push. Please provide: (1) sample selection strategy (MUS or random) with justification, (2) list of substantive procedures covering existence, accuracy, cut-off, and classification assertions, (3) cut-off testing approach for the last 10 days of March and first 10 days of April, (4) deferred revenue roll-forward test, (5) documentation requirements for working papers. Format as an audit programme with step, assertion, procedure, and expected evidence columns. Consider: ICAI Implementation Guide on Ind AS 115 and five-step model.",
+      "tags": [
+        "sa-500",
+        "revenue-audit",
+        "ind-as-115",
+        "cut-off",
+        "audit-procedures"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-010",
+      "title": "Form 15CA/CB Advisory for Foreign Remittance",
+      "prompt": "Act as an international tax CA with 6 years of experience on outbound remittances. I need you to prepare a Form 15CA/CB advisory for an Indian IT services company in Noida remitting USD 75,000 to a Singapore vendor for cloud infrastructure services. Here is the context: the vendor has no PE in India, has provided a TRC and Form 10F, the amount is covered under the India-Singapore DTAA Article 12 (royalty/FTS), and the client is unsure whether TDS is applicable. Please provide: (1) determination of taxability under Section 9(1)(vi)/(vii) and DTAA override, (2) TDS rate applicable under Section 195 and DTAA, (3) whether Part C or Part D of Form 15CA applies, (4) CA certificate format for Form 15CB including all mandatory fields, (5) documentation checklist (TRC, 10F, no-PE declaration, invoice), (6) reporting in SFT and consequences of non-compliance. Format as a professional advisory with a compliance workflow diagram in text. Consider: make-available clause and recent ITAT rulings.",
+      "tags": [
+        "form-15ca",
+        "form-15cb",
+        "section-195",
+        "dtaa",
+        "foreign-remittance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-011",
+      "title": "Internal Financial Controls Testing for Procure-to-Pay",
+      "prompt": "Act as an IFC consultant CA with 5 years of experience implementing Section 143(3)(i) frameworks. I need you to draft an IFC testing plan for the procure-to-pay cycle of a listed pharma company in Ahmedabad with annual procurement spend of INR 620 crore. Here is the context: the company uses SAP S/4HANA, has 1,800 vendors, three-way matching for POs above INR 5 lakh, DOA up to CFO for INR 50 lakh, and board approval above. Please provide: (1) key control identification across vendor master, PO, GRN, invoice, and payment, (2) control objective mapping to financial statement assertions, (3) test of design and test of operating effectiveness approach, (4) sample sizes per ICAI Guidance Note on IFC, (5) deficiency classification (significant/material weakness), (6) reporting format to Audit Committee. Format as a process-control-test matrix table. Consider: COSO 2013 framework alignment, segregation of duties, and automated vs manual controls.",
+      "tags": [
+        "ifc",
+        "procure-to-pay",
+        "section-143",
+        "coso",
+        "internal-controls"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-012",
+      "title": "GSTR-9 Annual Return Preparation Checklist",
+      "prompt": "Act as a GST compliance CA with 6 years of experience filing annual returns. I need you to prepare a GSTR-9 filing checklist for a Jaipur-based retail chain with aggregate turnover of INR 28 crore for FY 2024-25. Here is the context: the client has 14 stores across Rajasthan, makes both B2B and B2C supplies, has RCM inward supplies, claimed ITC of INR 2.4 crore, and had three amendments in GSTR-1 during the year. Please provide: (1) reconciliation steps between books, GSTR-1, GSTR-3B, and GSTR-2B, (2) table-wise data requirements for Tables 4, 5, 6, 7, 8, 9, 10-13 and 17, (3) treatment of ITC reversals under Rule 42/43, (4) HSN summary requirements (6-digit for above INR 5 crore), (5) common errors to avoid, (6) interest and late fee computation if applicable. Format as a step-by-step checklist with source documents and Tally/Excel pivot suggestions. Consider: whether GSTR-9C is applicable and recent CBIC Notification on table simplification.",
+      "tags": [
+        "gstr-9",
+        "annual-return",
+        "reconciliation",
+        "itc-reversal",
+        "hsn-summary"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-013",
+      "title": "TDS Compliance Review for Corporate Client",
+      "prompt": "Act as a direct tax CA with 5 years of experience on TDS compliance reviews. I need you to conduct a TDS compliance review for a Mumbai-based media production company with annual expenses of INR 95 crore for FY 2024-25. Here is the context: the client deducts under Sections 194C (contractors), 194J (professional fees), 194I (rent), 194Q (purchase of goods), 194O (e-commerce), and 195 (foreign payments). Quarterly TDS returns (24Q, 26Q, 27Q) were filed with three short deductions flagged. Please provide: (1) section-wise TDS rate and threshold summary post Budget 2024, (2) sample testing approach for 10% of high-value transactions, (3) consequences of short/non-deduction under Section 40(a)(ia) and 201(1A), (4) lower deduction certificate verification, (5) reconciliation of 26AS/AIS with books, (6) recommendations to avoid disallowance. Format as a review report with findings, root cause, and remediation table. Consider: TCS Section 206C interactions and TRACES portal corrections.",
+      "tags": [
+        "tds-review",
+        "section-194q",
+        "24q",
+        "26as",
+        "section-40a"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-014",
+      "title": "Reply to Section 143(2) Scrutiny Notice",
+      "prompt": "Act as a litigation CA with 7 years of experience handling income tax scrutiny. I need you to draft a preliminary reply to a Section 143(2) limited scrutiny notice received by an individual professional in Kolkata for AY 2023-24. Here is the context: the notice flags (i) large cash deposits of INR 38 lakh during demonetisation extension, (ii) mismatch between 26AS and ITR in professional receipts by INR 4.2 lakh, (iii) claim of Section 80G donation of INR 2,50,000. The client has bank statements, 80G receipts from a registered trust, and a reasonable cash explanation from practice collections. Please provide: (1) structured reply addressing each issue with documentary evidence list, (2) legal citations from ITAT/High Court where applicable, (3) draft paragraph for each query including computation reconciliation, (4) e-proceedings submission checklist, (5) follow-up action plan if case escalates to Section 142(1). Format as a formal reply with annexure index. Consider: faceless assessment scheme and time-bound responses.",
+      "tags": [
+        "section-143",
+        "scrutiny-notice",
+        "faceless-assessment",
+        "80g",
+        "itat"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-015",
+      "title": "Draft MD&A Section for Listed Company Annual Report",
+      "prompt": "Act as a financial reporting CA with 8 years of experience drafting annual reports for listed entities. I need you to draft the Management Discussion and Analysis section for a BSE-listed specialty chemicals company in Vadodara with FY25 consolidated revenue of INR 2,850 crore (up 14% YoY) and EBITDA margin of 18.2% (down 140 bps). Here is the context: the decline was driven by raw material inflation, Red Sea shipping disruptions, and price-led competition from China. Capex of INR 410 crore was spent on a new Dahej plant. Please provide: (1) industry structure and outlook (global and Indian specialty chemicals), (2) operational performance commentary, (3) segment-wise analysis, (4) financial review with key ratios, (5) risks and concerns, (6) internal control adequacy statement, (7) HR and ESG highlights, (8) forward-looking cautionary statement. Format as a polished MD&A narrative of 1,500 words with sub-headings. Consider: SEBI LODR Regulation 34, BRSR integration, and investor communication tone.",
+      "tags": [
+        "mda",
+        "annual-report",
+        "sebi-lodr",
+        "listed-company",
+        "brsr"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-016",
+      "title": "NPO 12A and 80G Compliance Documentation",
+      "prompt": "Act as a non-profit sector CA with 6 years of experience advising charitable trusts. I need you to prepare a compliance documentation pack for a Bengaluru-based educational NPO seeking renewal of 12A and 80G registrations under the post-2021 regime. Here is the context: the trust runs a school for underprivileged children, has annual receipts of INR 3.8 crore including CSR funding from three companies, corpus of INR 12 crore, and 85% applied to objects. Please provide: (1) Form 10A/10AB filing checklist, (2) books of account requirements per Rule 17AA, (3) Form 10B audit report prerequisites, (4) FCRA interaction if any foreign donations, (5) accumulation under Section 11(2) and Form 10 filing, (6) anonymous donations under Section 115BBC, (7) CSR receipt reporting per Companies Act Schedule VII. Format as a compliance binder structure with tabs and document list. Consider: recent amendments to Section 12AB, loss of exemption risks, and donor reporting.",
+      "tags": [
+        "12a",
+        "80g",
+        "npo",
+        "form-10b",
+        "csr"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-017",
+      "title": "SA 330 Responses to Assessed Risks for Inventory",
+      "prompt": "Act as an audit manager at a mid-tier Indian firm with 10 years of inventory audit experience. I need you to design SA 330 responses to assessed risks for inventory of a Ludhiana-based auto-ancillary manufacturer with FY25 inventory of INR 124 crore across raw materials, WIP, and finished goods at 4 locations. Here is the context: risk assessment identified high risk of existence (due to obsolete stocks), valuation (LCM under Ind AS 2), and cut-off (goods-in-transit). The client uses Oracle NetSuite and weighted average costing. Please provide: (1) overall responses at financial statement level, (2) detailed further procedures at assertion level, (3) physical verification plan including cycle counts and year-end observation, (4) NRV testing methodology with sample of 25 items, (5) obsolescence provision review, (6) goods-in-transit cut-off procedures, (7) documentation expected. Format as an audit strategy memo linking risk-response-procedure. Consider: SA 501 specific considerations for inventory and involvement of auditor's expert if needed.",
+      "tags": [
+        "sa-330",
+        "inventory-audit",
+        "ind-as-2",
+        "physical-verification",
+        "nrv"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-018",
+      "title": "Transfer Pricing Local File for Indian Subsidiary",
+      "prompt": "Act as a transfer pricing specialist CA with 9 years of experience preparing TP documentation. I need you to draft the structure and key sections of a Local File under Rule 10D for an Indian subsidiary of a German auto-parts MNC in Pune with related-party transactions of INR 680 crore in FY25. Here is the context: the subsidiary is a contract manufacturer earning a cost-plus mark-up, imports raw materials and capital goods from the German parent, exports finished goods, pays royalty at 2% of net sales, and receives management fees of INR 18 crore. Please provide: (1) executive summary of the entity and controlled transactions, (2) industry and functional analysis, (3) FAR analysis for each transaction category, (4) selection of most appropriate method (TNMM/CUP) with rationale, (5) economic analysis with comparable search strategy on Prowess/Capitaline, (6) arm's length range and PLI computation, (7) Form 3CEB cross-reference. Format as a TP documentation outline with content requirements per section. Consider: safe harbour rules, APA option, and BEPS Action 13 alignment.",
+      "tags": [
+        "transfer-pricing",
+        "local-file",
+        "tnmm",
+        "form-3ceb",
+        "rule-10d"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-019",
+      "title": "Ind AS 116 Lease Accounting Memo with Transition",
+      "prompt": "Act as an Ind AS technical CA with 7 years of financial reporting advisory experience. I need you to prepare a technical accounting memo for Ind AS 116 lease accounting for a listed retail company in Mumbai with 180 store leases averaging 9-year terms with escalation clauses. Here is the context: as on 1 April 2024, aggregate undiscounted lease payments are INR 1,680 crore, variable lease payments linked to store revenue, option to extend for 3 years in 60% of leases, and IBR estimated at 9.25%. Please provide: (1) scope and recognition exemptions for short-term and low-value leases, (2) lease term determination including extension options, (3) IBR determination methodology, (4) ROU asset and lease liability computation framework with sample calculation, (5) P&L impact (depreciation vs. lease rent, interest expense), (6) reassessment triggers, (7) disclosures under Ind AS 116 paragraphs 51-60. Format as a technical memo with references and illustrative journal entries. Consider: impact on EBITDA, lease modifications during the year, and auditor focus areas.",
+      "tags": [
+        "ind-as-116",
+        "lease-accounting",
+        "rou-asset",
+        "ibr",
+        "technical-memo"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-020",
+      "title": "Blocked ITC Analysis Under Section 17(5)",
+      "prompt": "Act as a senior GST consultant CA with 8 years of indirect tax experience. I need you to prepare a blocked credit analysis under Section 17(5) of the CGST Act for a Hyderabad-based pharmaceutical R&D company with FY25 expenses of INR 420 crore. Here is the context: expenses include employee canteen (INR 6 crore), company-owned passenger cars (INR 4.2 crore), staff insurance (INR 2.8 crore), construction of R&D lab (INR 85 crore), CSR spend (INR 3.5 crore), travel expenses (INR 12 crore), and club memberships (INR 40 lakh). Please provide: (1) clause-wise analysis of Sections 17(5)(a) to (i), (2) exceptions where ITC remains available, (3) impact of Safari Retreats judgment on construction-related ITC, (4) treatment of CSR ITC post 1 Oct 2023 amendment, (5) employee perquisite ITC post Circular 172/04/2022, (6) documentation to support claim/reversal, (7) quantification of ITC at risk in INR. Format as a technical analysis note with clause mapping table. Consider: recent AAR rulings and audit trail requirements.",
+      "tags": [
+        "blocked-credit",
+        "section-17-5",
+        "itc",
+        "safari-retreats",
+        "csr-itc"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-021",
+      "title": "ESOP Taxation Advisory for Startup Employee",
+      "prompt": "Act as an equity compensation CA with 6 years of experience advising startup employees and CFOs. I need you to draft an ESOP taxation advisory for an employee of a DPIIT-recognised Bengaluru startup who exercised 12,000 options at an exercise price of INR 50 when FMV was INR 380, and plans to sell 4,000 shares at INR 650 after 18 months of exercise. Here is the context: the employee is in the 30% slab, the company is eligible for deferred ESOP taxation under Section 192(1C), and exercise happened in July 2024. Please provide: (1) perquisite value computation at exercise and Section 17(2)(vi) treatment, (2) deferral benefit under Section 192(1C) timelines, (3) capital gains computation on sale with cost as FMV at exercise, (4) applicable LTCG/STCG rates post Budget 2024 for unlisted shares, (5) TDS liability for the employer, (6) ITR schedule reporting (Schedule CG, Schedule TR), (7) planning options. Format as a client advisory with timeline and computation tables in INR. Consider: Rule 3(8) valuation, eligible startup definition, and 48-month deferral cap.",
+      "tags": [
+        "esop",
+        "section-17-2",
+        "section-192",
+        "startup-taxation",
+        "ltcg-unlisted"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-022",
+      "title": "Going Concern Assessment Under SA 570",
+      "prompt": "Act as an audit partner with 15 years of experience on distressed client engagements. I need you to draft a going concern assessment working paper under SA 570 (Revised) for a Chennai-based textile exporter with FY25 loss of INR 42 crore, net worth erosion to INR 18 crore from INR 62 crore, and overdue bank facilities of INR 140 crore. Here is the context: management has submitted a revival plan involving fresh promoter infusion of INR 80 crore, OTS with consortium banks, and a new export contract with a European buyer worth INR 320 crore over 3 years. Please provide: (1) identification of events casting significant doubt, (2) management's assessment review, (3) evaluation of revival plan feasibility with key assumptions, (4) audit procedures including bank confirmations, board minutes review, and subsequent events, (5) material uncertainty disclosure draft, (6) auditor's report modification options (unmodified with MUGC, qualified, adverse, disclaimer), (7) Audit Committee communication. Format as a structured working paper with conclusion. Consider: IBC implications, NCLT filings, and NFRA scrutiny.",
+      "tags": [
+        "sa-570",
+        "going-concern",
+        "material-uncertainty",
+        "auditor-report",
+        "distressed"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-023",
+      "title": "E-Invoice and E-Way Bill Compliance Review",
+      "prompt": "Act as a GST technology advisor CA with 5 years of e-invoicing implementation experience. I need you to conduct a compliance review of e-invoicing and e-way bill processes for a Surat-based textile wholesale business with aggregate turnover of INR 68 crore and 22,000 B2B invoices monthly. Here is the context: the client was brought under e-invoicing w.e.f. August 2023, uses a GSP integration, has had IRN generation failures in 4% of invoices, and received notices for 12 e-way bill expiries. Please provide: (1) applicability confirmation under Notification 17/2022-CT and thresholds, (2) IRN/QR code validation checklist, (3) exceptions (B2C, exports, SEZ, RCM) and treatment, (4) e-way bill requirements under Rule 138 including distance, validity extension, Part A vs Part B, (5) penalty exposure under Section 122 and 129, (6) process automation recommendations, (7) reconciliation between e-invoice portal and GSTR-1. Format as a review report with findings and action plan. Consider: 30-day reporting mandate for turnover above INR 100 crore.",
+      "tags": [
+        "e-invoice",
+        "e-way-bill",
+        "irn",
+        "rule-138",
+        "gst-automation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-024",
+      "title": "Cash Flow Statement Preparation Under Ind AS 7",
+      "prompt": "Act as an Ind AS reporting CA with 7 years of experience preparing consolidated financial statements. I need you to prepare a detailed working to derive the cash flow statement under Ind AS 7 (indirect method) for a Mumbai-based listed infrastructure company with standalone PBT of INR 320 crore for FY25. Here is the context: major adjustments include depreciation INR 180 crore, finance cost INR 145 crore, forex loss INR 22 crore, share of JV profit INR 38 crore, working capital movements (debtors up INR 90 crore, creditors up INR 55 crore, inventory down INR 12 crore), capex INR 410 crore, proceeds from term loan INR 280 crore, and dividend paid INR 45 crore. Please provide: (1) operating activities reconciliation, (2) investing activities with classification rationale, (3) financing activities with lease liability treatment, (4) non-cash transactions disclosure, (5) reconciliation of cash and cash equivalents, (6) changes in liabilities arising from financing per para 44A. Format as a structured CFS working in INR crore. Consider: treatment of interest and dividend paid/received options.",
+      "tags": [
+        "ind-as-7",
+        "cash-flow",
+        "cfs",
+        "indirect-method",
+        "financial-reporting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-025",
+      "title": "Assessment of Fraud Risk Under SA 240",
+      "prompt": "Act as a forensic audit CA with 8 years of fraud investigation experience. I need you to draft a fraud risk assessment under SA 240 for a Delhi-based listed consumer electronics distributor with FY25 turnover of INR 1,950 crore. Here is the context: the engagement identified red flags including declining gross margins (from 14% to 9%), unusual journal entries near month-end, three whistle-blower complaints about channel stuffing, and a 22% increase in debtor days. Please provide: (1) understanding of fraud triangle for this client, (2) identification of fraud risk factors under incentives, opportunities, and rationalisations, (3) specific fraud risks at assertion level for revenue and receivables, (4) journal entry testing procedures using data analytics, (5) management override of controls testing, (6) inquiries of management, TCWG, and internal audit, (7) communication protocol if fraud suspected. Format as a fraud risk memo with risk register. Consider: SFIO thresholds, Section 143(12) reporting of fraud, and CAG referral for PSUs.",
+      "tags": [
+        "sa-240",
+        "fraud-risk",
+        "section-143-12",
+        "forensic",
+        "journal-entry-testing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-026",
+      "title": "Restructuring Advisory for LLP to Private Company",
+      "prompt": "Act as a corporate structuring CA with 9 years of experience on conversions and restructurings. I need you to prepare a tax and regulatory advisory on conversion of a profitable consulting LLP in Gurugram (7 partners, FY25 turnover INR 24 crore, accumulated profits INR 32 crore) into a private limited company to enable PE investment. Here is the context: partners want to retain share proportionate to capital, the LLP holds intangible assets worth INR 18 crore, and the PE investor plans to invest INR 60 crore for 25% stake post conversion. Please provide: (1) applicable provisions under Section 47(xiii) for tax-neutral conversion, (2) conditions for capital gains exemption and continuity of carry-forward losses, (3) stamp duty implications in Haryana, (4) GST impact on transfer of going concern, (5) FEMA compliance for PE inflow, (6) post-conversion compliance calendar (ROC, Section 42 private placement), (7) risk areas including Section 56(2)(viib) angel tax. Format as a structured advisory with decision tree. Consider: Section 79 loss carry-forward restrictions and MAT applicability.",
+      "tags": [
+        "llp-conversion",
+        "section-47",
+        "fema",
+        "angel-tax",
+        "restructuring"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-027",
+      "title": "IFRS to Ind AS GAAP Differences Memo",
+      "prompt": "Act as a GAAP conversion CA with 7 years of experience on group reporting packs. I need you to prepare a GAAP differences memo between IFRS (for UK parent reporting) and Ind AS (for Indian statutory filing) for an Indian subsidiary of a London-listed engineering firm with FY25 revenue of INR 520 crore. Here is the context: key areas of difference include revenue recognition on long-term contracts, employee benefits actuarial gains treatment, foreign currency translation reserve, impairment testing, and property revaluation. Please provide: (1) item-wise comparison table for 10 significant accounting policies, (2) quantification approach for each difference, (3) top-side adjustment journal entries for group reporting pack, (4) impact on EBITDA and net worth, (5) disclosure differences, (6) first-time adoption carve-outs under Ind AS 101 if applicable, (7) auditor coordination plan. Format as a technical accounting memo with worked examples in INR. Consider: IFRS 15/16/17 vs equivalent Ind AS and transition date elections.",
+      "tags": [
+        "ifrs",
+        "ind-as",
+        "gaap-differences",
+        "group-reporting",
+        "ind-as-101"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-028",
+      "title": "Cost Audit Report Review for Manufacturing Client",
+      "prompt": "Act as a CA with 6 years of experience coordinating cost audits for listed manufacturers. I need you to draft a review framework for the cost audit report of a listed cement company in Rajasthan with FY25 turnover of INR 4,200 crore covered under the Companies (Cost Records and Audit) Rules 2014. Here is the context: the cost auditor has submitted Form CRA-3 with observations on product-wise margin variance, abnormal idle capacity, and related-party raw material purchases. Please provide: (1) applicability assessment under Rule 3 and Rule 4, (2) cost records adequacy check as per Rule 5, (3) key cost audit observations review, (4) reconciliation between cost records and financial statements, (5) management comments draft on adverse observations, (6) CRA-4 filing checklist by management, (7) coordination points with statutory auditor. Format as a review memo with findings and action items. Consider: interaction with Section 143(12) reporting and board's comments to cost audit report.",
+      "tags": [
+        "cost-audit",
+        "cra-3",
+        "cra-4",
+        "cost-records",
+        "manufacturing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-029",
+      "title": "Deferred Tax Computation Under Ind AS 12",
+      "prompt": "Act as a tax accounting CA with 8 years of experience on Ind AS 12 deferred tax workings. I need you to prepare a deferred tax computation for a Pune-based listed engineering company with PBT of INR 240 crore for FY25. Here is the context: temporary differences include depreciation (book WDV INR 820 crore vs tax WDV INR 640 crore), provision for doubtful debts INR 18 crore, provision for gratuity INR 32 crore, unabsorbed business loss INR 45 crore, MAT credit entitlement INR 12 crore, and fair value gain on investments INR 26 crore routed through OCI. Corporate tax rate is 25.168% (Section 115BAA). Please provide: (1) temporary vs permanent difference classification, (2) deferred tax asset/liability computation at 25.168%, (3) recognition of DTA on losses with probability assessment, (4) MAT credit reassessment post Section 115BAA opt-in, (5) OCI vs P&L allocation, (6) disclosure per Ind AS 12 paras 79-82, (7) journal entries. Format as a structured deferred tax working in INR crore. Consider: recoverability test and rate change impact.",
+      "tags": [
+        "ind-as-12",
+        "deferred-tax",
+        "section-115baa",
+        "dta",
+        "mat-credit"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-030",
+      "title": "Due Diligence Report for SME Acquisition Target",
+      "prompt": "Act as a transaction services CA with 9 years of M&A due diligence experience. I need you to draft a financial and tax due diligence report structure for a proposed acquisition of a Nashik-based packaging SME with FY25 revenue of INR 180 crore and proposed deal value of INR 320 crore. Here is the context: the target is promoter-owned, has three subsidiaries, outstanding income tax litigation of INR 6 crore, GST demands of INR 2.4 crore, and unreconciled related-party loans of INR 14 crore. Please provide: (1) executive summary with key findings and deal breakers, (2) quality of earnings analysis with one-time/non-recurring adjustments, (3) working capital normalisation for locked-box mechanism, (4) debt-like items and cash-like items identification, (5) tax exposures including contingent liabilities, (6) accounting policy quality and Ind AS readiness, (7) purchase price adjustment recommendations, (8) SPA protection clauses. Format as a DD report outline with sample commentary. Consider: Section 281 certificate, indemnity scope, and escrow structure.",
+      "tags": [
+        "due-diligence",
+        "m-and-a",
+        "quality-of-earnings",
+        "locked-box",
+        "sme-acquisition"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-031",
+      "title": "GSTR-9C Reconciliation Statement for Large Taxpayer",
+      "prompt": "Act as a GST audit CA with 7 years of experience on reconciliation statements. I need you to prepare a Part A and Part B walkthrough of GSTR-9C for a Kolkata-based listed FMCG manufacturer with aggregate turnover of INR 1,820 crore for FY 2024-25. Here is the context: books show revenue of INR 1,845 crore while GSTR-9 reports INR 1,820 crore; the difference includes scrap sales (not in GST turnover), trade discounts post-supply, inter-branch stock transfers, and financial credit notes. ITC per books differs from GSTR-9 by INR 4.8 crore. Please provide: (1) Table 5 reconciliation of turnover with 15 reconciling items, (2) Table 7 reasons for unreconciled differences, (3) Table 9 rate-wise tax liability reconciliation, (4) Table 12-14 ITC reconciliation, (5) additional tax payable computation with DRC-03 workflow, (6) auditor certification format (self-certification post FY21), (7) documentation retained in file. Format as a structured reconciliation working with explanatory notes. Consider: materiality thresholds and scrutiny risk.",
+      "tags": [
+        "gstr-9c",
+        "reconciliation",
+        "drc-03",
+        "large-taxpayer",
+        "gst-audit"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-032",
+      "title": "Financial Projections for Startup Fundraise",
+      "prompt": "Act as a CFO-advisory CA with 7 years of experience supporting Series A startups. I need you to build a 5-year financial projection framework for a Bengaluru-based B2B SaaS startup raising a Series A of INR 60 crore at a pre-money valuation of INR 240 crore. Here is the context: current ARR is INR 18 crore, growing 12% MoM, gross margin 78%, CAC payback 14 months, net dollar retention 118%, burn rate INR 2.8 crore/month, runway 9 months. The founders target Rule of 40 compliance by Year 3. Please provide: (1) revenue build by customer cohort with churn assumptions, (2) opex build (sales, product, G&A) with hiring plan, (3) unit economics dashboard (CAC, LTV, payback), (4) P&L, balance sheet, and cash flow projections in INR, (5) funding utilisation plan and burn trajectory, (6) sensitivity on growth and churn, (7) key investor KPIs and Rule of 40 tracker. Format as a projection memo with assumption tables. Consider: ESOP pool dilution and milestone-linked tranches.",
+      "tags": [
+        "financial-projections",
+        "saas-metrics",
+        "series-a",
+        "unit-economics",
+        "rule-of-40"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-033",
+      "title": "SA 701 Key Audit Matters Drafting for Listed Company",
+      "prompt": "Act as an audit signing partner at a Big 4 India firm with 14 years of listed company audit experience. I need you to draft three Key Audit Matters under SA 701 for the auditor's report of an NSE-listed NBFC in Mumbai with FY25 AUM of INR 18,500 crore and PAT of INR 820 crore. Here is the context: significant areas requiring auditor attention include (i) expected credit loss under Ind AS 109 (INR 480 crore ECL provision with staging judgments), (ii) IT general controls given core loan management system migration during the year, and (iii) revenue recognition on securitisation transactions under Ind AS 109 derecognition criteria. Please provide: for each KAM (1) description of why the matter was of most significance, (2) how the matter was addressed in the audit including specific procedures, (3) reference to related disclosures, (4) use of auditor's expert for ECL model validation, (5) sample language aligned to SA 701 paragraphs 13-14, (6) Audit Committee communication linkage. Format as draft KAM paragraphs ready for inclusion in auditor's report. Consider: RBI inspection overlap, NFRA review, and specimen KAM library.",
+      "tags": [
+        "sa-701",
+        "kam",
+        "ecl",
+        "ind-as-109",
+        "nbfc-audit"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-034",
+      "title": "Master File and CbCR Compliance for MNC Group",
+      "prompt": "Act as a transfer pricing partner with 12 years of experience on BEPS documentation. I need you to prepare a Master File (Form 3CEAA) and Country-by-Country Reporting (Form 3CEAC/3CEAD) compliance strategy for the Indian subsidiary of a US headquartered pharma MNC with consolidated global revenue of USD 2.4 billion. Here is the context: the Indian entity has revenue of INR 1,620 crore, conducts contract R&D, holds no IP, and the US parent files CbCR with IRS. The Indian entity triggers Master File thresholds (consolidated group revenue above INR 500 crore and international transactions above INR 50 crore). Please provide: (1) applicability analysis under Section 92D(4) and Rule 10DA, (2) Master File content requirements across 5 sections with data sources, (3) CbCR notification (3CEAC) vs filing (3CEAD) determination, (4) secondary filing risk if parent jurisdiction lacks exchange agreement, (5) coordination with global TP team and local file linkage, (6) penalties for non-compliance under Section 271GB, (7) timeline and governance. Format as a compliance playbook. Consider: BEPS Action 13 and Indian safe harbour interactions.",
+      "tags": [
+        "master-file",
+        "cbcr",
+        "beps",
+        "form-3ceaa",
+        "section-271gb"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-035",
+      "title": "Ind AS 109 Expected Credit Loss Model Validation",
+      "prompt": "Act as a financial instruments technical CA with 10 years of banking audit experience. I need you to draft an ECL model validation framework under Ind AS 109 for a mid-sized NBFC in Mumbai with retail unsecured loans portfolio of INR 6,200 crore. Here is the context: the NBFC uses a 3-stage model with 12-month and lifetime PD, LGD of 45%, EAD based on drawn balance plus CCF, and forward-looking macroeconomic overlays tied to GDP growth and unemployment. Management overlay is INR 85 crore. Please provide: (1) staging criteria review (30 DPD, significant increase in credit risk), (2) PD model backtesting approach, (3) LGD benchmarking against recovery data, (4) EAD and CCF reasonableness, (5) forward-looking scenario weighting and plausibility, (6) management overlay governance and audit evidence, (7) disclosure adequacy under Ind AS 107, (8) auditor's expert engagement scope. Format as a model validation working paper outline with test procedures. Consider: RBI IRACP norms divergence and ICAI FAQ on ECL.",
+      "tags": [
+        "ind-as-109",
+        "ecl-model",
+        "nbfc",
+        "pd-lgd-ead",
+        "model-validation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-036",
+      "title": "Complex Indirect Transfer Taxation Analysis",
+      "prompt": "Act as an international tax partner with 15 years of experience on Section 9(1)(i) indirect transfer cases. I need you to prepare a technical opinion on the applicability of Indian indirect transfer tax on a proposed sale of shares of a Mauritius holding company by a Cayman fund, where the Mauritius entity holds 100% of an Indian infrastructure SPV with Indian assets worth INR 4,800 crore (80% of global group assets). Here is the context: consideration is USD 620 million, the Mauritius entity was set up in 2014, no grandfathering applies, the fund is a Category I FPI, and India-Mauritius DTAA is being considered. Please provide: (1) applicability of Explanation 5 to Section 9(1)(i), (2) substantial value test (50% and INR 10 crore threshold) computation, (3) small shareholder exemption analysis, (4) DTAA treaty benefit assessment post 2016 amendment, (5) withholding obligation on buyer under Section 195, (6) Form 49D reporting by the Indian concern, (7) procedural compliance and potential Rule 11UC valuation, (8) retrospective amendment repeal impact (Taxation Laws Amendment Act 2021). Format as a technical opinion memo with legal citations. Consider: Vodafone and Cairn precedents.",
+      "tags": [
+        "indirect-transfer",
+        "section-9-1-i",
+        "dtaa",
+        "vodafone",
+        "form-49d"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-037",
+      "title": "Business Combination Accounting Under Ind AS 103",
+      "prompt": "Act as a financial reporting technical CA with 11 years of M&A accounting experience. I need you to prepare a purchase price allocation memo under Ind AS 103 for the acquisition of a Chennai-based specialty food brand by a listed FMCG major for consideration of INR 1,450 crore (cash INR 1,200 crore plus contingent consideration up to INR 250 crore linked to 3-year revenue milestones). Here is the context: the acquiree's book net assets are INR 180 crore, identified intangibles include brand, customer relationships, and non-compete agreements, acquisition date is 1 October 2024, and there are transaction costs of INR 18 crore. Please provide: (1) acquisition date and acquirer identification, (2) consideration transferred measurement including contingent consideration at fair value, (3) identifiable assets and liabilities at fair value (brand valuation using relief from royalty, customer relationships using MPEEM), (4) deferred tax on fair value uplifts, (5) goodwill computation and allocation to CGUs, (6) measurement period adjustments framework, (7) disclosures under Ind AS 103 paragraphs 59-63, (8) subsequent contingent consideration remeasurement. Format as a PPA memo with valuation tables in INR crore. Consider: step acquisition and bargain purchase treatment.",
+      "tags": [
+        "ind-as-103",
+        "ppa",
+        "business-combination",
+        "contingent-consideration",
+        "goodwill"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-038",
+      "title": "GAAR and PPT Analysis for Cross-Border Structure",
+      "prompt": "Act as an international tax advisor CA with 12 years of experience on anti-avoidance rules. I need you to prepare a GAAR and Principal Purpose Test opinion on a proposed holding structure where an Indian promoter group plans to interpose a Singapore holding company to hold shares of a newly incorporated Indian operating company, with a future IPO planned on SGX. Here is the context: the structure offers claimed benefits including access to Singapore capital markets, tax-efficient dividend repatriation, and liquidity for promoters. GAAR applies from AY 2018-19 onwards, and the India-Singapore DTAA has an LOB clause. Please provide: (1) GAAR applicability and impermissible avoidance arrangement test under Chapter X-A, (2) commercial substance test (Section 97), (3) main purpose test evaluation, (4) PPT analysis under MLI overlay on India-Singapore DTAA, (5) LOB clause conditions (listed company, qualified person), (6) risk of treaty benefit denial and Indian tax consequences, (7) alternative structures and mitigations, (8) approaching GAAR Panel. Format as a technical opinion with risk rating. Consider: BEPS Action 6, Azadi Bachao Andolan, and Tiger Global ruling.",
+      "tags": [
+        "gaar",
+        "ppt",
+        "mli",
+        "lob-clause",
+        "chapter-x-a"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-039",
+      "title": "GST Classification Dispute Appeal Before AAAR",
+      "prompt": "Act as a GST litigation partner CA with 10 years of advance ruling experience. I need you to draft an appeal before the Appellate Authority for Advance Ruling (AAAR) against an adverse AAR ruling that classified a client's flavoured milk product under HSN 2202 (beverages at 12%) instead of HSN 0402 (milk and cream at 5%). Here is the context: the client is a Hyderabad-based dairy company with annual flavoured milk sales of INR 340 crore, and the classification dispute creates an exposure of INR 24 crore for the past two years. The AAR relied on FSSAI labelling and the addition of sugar/flavour. Please provide: (1) grounds of appeal structured around errors in AAR order, (2) legal arguments citing HSN Explanatory Notes, GST Tariff, and CBIC Circulars, (3) reliance on judicial precedents (Amrit Foods, Parle Agro, Nestle AAR outcomes), (4) commercial parlance test and trade understanding evidence, (5) alternative classification arguments, (6) prayer for ruling in favour of HSN 0402, (7) procedural compliance under Section 100 of CGST Act. Format as a formal appeal memorandum. Consider: cross-empowerment and binding nature on jurisdictional officer.",
+      "tags": [
+        "aaar",
+        "gst-classification",
+        "advance-ruling",
+        "hsn",
+        "litigation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    },
+    {
+      "id": "finance-chartered-accountants-040",
+      "title": "Group Audit Strategy Under SA 600 for Conglomerate",
+      "prompt": "Act as a group audit partner with 16 years of experience on conglomerate audits at a Big 4 India firm. I need you to prepare a group audit strategy under SA 600 (and harmonisation with ISA 600 Revised) for a listed Indian conglomerate with 42 subsidiaries, 8 JVs, and 6 associates across India, UAE, UK, Kenya, and Singapore. Consolidated FY25 revenue is INR 42,000 crore and PAT INR 3,200 crore. Here is the context: 12 components are significant (contributing 78% of consolidated revenue), component auditors include two Big 4 international network firms and three local non-network firms, and there are three high-risk areas (goodwill impairment, derivatives, and related-party transactions). Please provide: (1) component identification and significance assessment, (2) scoping of full-scope vs specific-scope audit procedures, (3) component auditor competence and independence evaluation, (4) group instructions content covering materiality, reporting, and timetable, (5) review of component auditor workpapers approach, (6) consolidation adjustment audit, (7) communication with group and component TCWG, (8) group auditor's report responsibility and KAM integration. Format as a group audit strategy document with appendices. Consider: NFRA group audit quality review expectations and revised SA 600 alignment.",
+      "tags": [
+        "sa-600",
+        "group-audit",
+        "consolidation",
+        "component-auditor",
+        "conglomerate"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "finance",
+      "subcategory": "chartered-accountants"
+    }
+  ]
+}

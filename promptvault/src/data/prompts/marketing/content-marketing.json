@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "marketing-content-marketing-001",
+      "title": "Pillar Blog Outline for Indian SaaS Keyword",
+      "prompt": "Act as a senior content strategist with 10 years experience building organic traffic for Indian SaaS companies like Freshworks, Zoho, and Razorpay. I need you to create a detailed pillar blog post outline targeting the transactional keyword \"best payment gateway for small business in India\" (monthly search volume ~8,100). Context: We are a D2C commerce enabler competing with Razorpay and Cashfree for SMB founders in tier-1 and tier-2 cities. The goal is to rank top 3 on Google India within 4 months and capture bottom-funnel intent. Please provide: (1) A working H1 with the primary keyword plus a power word, (2) Meta title (60 chars) and meta description (155 chars) with the keyword in Hinglish-friendly phrasing, (3) A 12-section H2/H3 outline covering setup fees, MDR comparison (include actual INR % ranges like 1.9% to 2.5%), UPI/Net Banking/Cards/Wallet support, RBI compliance, settlement time, and GST invoicing, (4) 6 LSI keywords to sprinkle, (5) 4 internal link anchor suggestions pointing to cluster posts, (6) A 3-bullet CTA block that offers a free MDR calculator. Format as a structured markdown brief a junior writer can execute without clarifications. Constraint: reference real RBI guidelines on payment aggregators and mention Hindi search variants.",
+      "tags": [
+        "pillar-content",
+        "seo-outline",
+        "blog-outline",
+        "saas"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-002",
+      "title": "Finshots-Style 400-Word Newsletter Draft",
+      "prompt": "Act as a newsletter writer in the style of Finshots and The Ken with 6 years experience making complex Indian business stories digestible for urban millennial subscribers. I need you to draft a 400-word email newsletter explaining the recent SEBI circular on finfluencer regulations to a list of 45,000 subscribers (mostly 25-35 year old salaried professionals in Bengaluru, Mumbai, Pune, Hyderabad). Context: Our newsletter is called \"MoneyMint Daily\" and our voice is conversational, witty, zero jargon, uses Indian analogies (chai tapri, IPL, Bollywood). We never use bullet points; we tell a story. Please provide: (1) A subject line under 45 characters with an emoji-free curiosity gap, (2) A preview text under 90 characters, (3) The full newsletter body in 4 short sections: Hook (50 words with a relatable scene), Background (100 words explaining the SEBI move), The Catch (150 words with the real business angle and who wins/loses), The Takeaway (100 words actionable insight), (4) A soft CTA line promoting our premium tier at Rs 99/month. Constraint: keep every sentence under 18 words, write at an 8th-grade reading level, and include at least one reference to a real Indian brand or person (Zerodha, Groww, CA Rachana Ranade, etc.). Format as plain text email ready to paste into Mailmodo or ConvertKit.",
+      "tags": [
+        "newsletter",
+        "finshots-style",
+        "email",
+        "copywriting"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-003",
+      "title": "Blog to Twitter Thread Repurposing",
+      "prompt": "Act as a content repurposing specialist with 5 years experience turning long-form Indian B2B blogs into viral Twitter/X threads for founders like Kunal Shah and Nithin Kamath. I need you to convert a 2,500-word pillar blog titled \"How Indian D2C Brands Hit Rs 100 Crore ARR Without VC Money\" into a 12-tweet thread optimized for Indian startup Twitter. Context: The original blog profiles boAt, Mamaearth (pre-IPO), and Wakefit with specific revenue, CAC, and retention data. Our handle is a content marketing agency targeting Indian D2C founders. Please provide: (1) A hook tweet under 260 characters using a pattern-interrupt statistic, (2) 10 body tweets each under 280 characters with one concrete number or Indian brand reference per tweet, (3) A closing CTA tweet linking to the full blog with a promise of a free Notion template, (4) 3 alt-text image suggestions for screenshot cards, (5) 5 relevant hashtags for Indian startup reach (#IndianStartups, etc.). Constraint: avoid em dashes, avoid generic advice, and weave in at least 3 Hinglish phrases that feel native not forced. Format as a numbered list with character count in parentheses after each tweet.",
+      "tags": [
+        "repurposing",
+        "twitter-thread",
+        "d2c",
+        "blog-to-social"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-004",
+      "title": "STAR Case Study Template for Indian Fintech Win",
+      "prompt": "Act as a B2B case study writer with 8 years experience documenting customer wins for Indian fintech companies like Razorpay, Cleartax, and Khatabook. I need you to create a case study template in STAR format (Situation, Task, Action, Result) for a fictional client: \"Gupta Sweets\", a 40-year-old mithai chain with 18 outlets across Delhi NCR that adopted our GST billing SaaS and grew B2B orders by 180% in 9 months. Context: We sell to SMB retailers at Rs 1,499/month. Target reader is another SMB owner evaluating us. Please provide: (1) A headline under 12 words with the result metric, (2) A 40-word subhead with client logo, industry, location, (3) Situation section (120 words painting the pre-solution pain: manual bahi-khata, GSTR filing chaos, reconciliation errors), (4) Task section (80 words stating the specific goal in Rs and percentage), (5) Action section (180 words with 4 concrete implementation steps and timeline in weeks), (6) Result section (150 words with 5 metrics: revenue, time saved, error rate, NPS, expansion), (7) A 30-word pull quote from the owner in authentic Indian English, (8) 3 CTA variants. Format as structured markdown ready for a Webflow CMS.",
+      "tags": [
+        "case-study",
+        "star-format",
+        "fintech",
+        "b2b"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-005",
+      "title": "Cluster Blog Outline Around EdTech Pillar",
+      "prompt": "Act as an SEO content strategist with 7 years experience building topic clusters for Indian edtech brands like Unacademy, PhysicsWallah, and Vedantu. I need you to create a cluster blog post outline for the supporting keyword \"how to prepare for JEE Main in 6 months from scratch\" (search volume 12,000/month in India). Context: This is a cluster page under a pillar titled \"Complete JEE Preparation Guide 2026\". Our audience is Class 12 students and parents in tier-2 cities like Kota, Patna, Nagpur. Please provide: (1) Search intent classification (informational/transactional), (2) H1 with keyword and benefit, (3) A 10-section outline covering NCERT vs coaching material, a sample weekly timetable in IST, mock test cadence, mental health breaks (very important for Indian parents), fee ranges for major coaching institutes (Allen, Aakash, FIITJEE) in INR, (4) 3 internal links upward to the pillar and sideways to sibling clusters, (5) FAQ schema with 6 PAA-style questions pulled from Google India, (6) A lead magnet idea (downloadable 6-month planner PDF). Constraint: include at least 2 references to NTA official guidelines and mention Hindi-medium student concerns. Format as a writer brief with word count targets per section totaling 2,200 words.",
+      "tags": [
+        "cluster-content",
+        "seo-outline",
+        "edtech",
+        "topic-cluster"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-006",
+      "title": "Blog Post to Instagram Reel Script",
+      "prompt": "Act as a short-form video scriptwriter with 4 years experience converting written content into reels for Indian creator brands like CRED, Zerodha Varsity, and Kuku FM. I need you to turn a 1,800-word blog titled \"5 Tax-Saving Mistakes Indian Salaried Employees Make Every March\" into a 45-second Instagram Reel script. Context: Our Instagram handle has 85,000 followers, mostly 24-34 year old IT employees in Bengaluru and Hyderabad who earn Rs 8 LPA to 25 LPA. Please provide: (1) A 3-second hook line spoken to camera with on-screen text overlay, (2) A scene-by-scene script with timestamps (0-3s, 3-10s, 10-25s, 25-40s, 40-45s), (3) B-roll suggestions for each scene (ITR portal, rupee notes, Bengaluru skyline, etc.), (4) On-screen text overlays for each section (max 6 words each), (5) A voiceover tone note (energetic, Hinglish 70-30), (6) Background music mood, (7) Caption under 150 characters plus 8 hashtags for Indian finance reach. Constraint: include one specific 80C section number and one real deadline (July 31). Format as a 2-column shot list table.",
+      "tags": [
+        "repurposing",
+        "instagram-reel",
+        "video-script",
+        "short-form"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-007",
+      "title": "White Paper Framework for Indian HRTech",
+      "prompt": "Act as a B2B white paper author with 9 years experience writing thought leadership for Indian HR tech companies like Darwinbox, Keka, and SpringVerify. I need you to create a white paper framework using the problem-solution-evidence structure on the topic \"The Hidden Cost of Attrition in Indian IT Services: A 2026 Benchmark\". Context: Our ICP is CHROs at 1,000+ employee IT services companies in Bengaluru, Pune, Chennai, Gurgaon. Please provide: (1) A working title and subtitle, (2) An executive summary outline (200 words target), (3) Section 1 Problem (outline with 4 subsections quantifying attrition cost in Rs Lakhs per exit, referencing NASSCOM data), (4) Section 2 Solution (outline with 4 pillars of retention: compensation benchmarks in INR, career pathing, manager training, L&D stipends), (5) Section 3 Evidence (outline with 3 anonymized case studies and 1 survey of 250 HR leaders), (6) A methodology note, (7) A call-to-action for a free attrition calculator demo, (8) Suggested visual assets (6 charts with specific data points). Total target length 4,500 words. Constraint: align with Indian labour code references and mention POSH Act relevance. Format as a detailed section-by-section brief.",
+      "tags": [
+        "white-paper",
+        "framework",
+        "hr-tech",
+        "b2b"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-008",
+      "title": "Content Repurposing Matrix for One Blog",
+      "prompt": "Act as a content operations lead with 6 years experience scaling output for Indian B2B SaaS teams with lean 3-person content squads. I need you to create a 10-asset repurposing matrix from a single 2,200-word pillar blog titled \"How Indian Manufacturing SMEs Can Use AI to Cut Inventory Costs by 30%\". Context: Our audience is ops heads at MSME manufacturers in Coimbatore, Rajkot, Ludhiana. We publish weekly and need to sweat every pillar. Please provide a table with 10 derivative assets, each with: (1) Asset type (LinkedIn post, carousel, Twitter thread, newsletter snippet, WhatsApp Business broadcast, Reddit r/IndiaBusiness post, YouTube short, podcast talking points, sales deck slide, case-study teaser), (2) Word/time length, (3) Primary hook angle, (4) CTA, (5) Owner role (writer/designer/video editor), (6) Publish sequence day (Day 0 to Day 14), (7) Success metric (saves, shares, replies, CTR). Constraint: ensure WhatsApp broadcast copy respects TRAI DLT rules and is under 1024 characters. Format as a markdown table a content calendar tool like Notion can ingest.",
+      "tags": [
+        "repurposing",
+        "content-ops",
+        "matrix",
+        "planning"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-009",
+      "title": "Varsity-Style Explainer Blog on Mutual Funds",
+      "prompt": "Act as an educational content writer in the style of Zerodha Varsity with 5 years experience breaking down Indian finance concepts for first-time retail investors. I need you to outline a 1,600-word explainer blog titled \"What is an ELSS Mutual Fund and Should You Buy One Before March 31?\". Context: Our audience is 22-30 year olds earning Rs 6-15 LPA who just started investing via Groww or Zerodha Coin. Please provide: (1) A conversational H1 and opening hook (50 words) using a relatable scenario (like a Pune techie scrambling for tax proof), (2) 8 H2 sections covering: what ELSS is, lock-in period, Section 80C link, historical CAGR ranges for top 5 Indian ELSS funds, tax on LTCG above Rs 1 lakh, SIP vs lump sum, when NOT to buy ELSS, a 3-step action plan, (3) 4 analogies to Indian daily life (kirana udhar, FD, PPF, chit fund), (4) 2 simple tables with real fund names and INR figures, (5) A disclaimer block per SEBI ad guidelines, (6) Meta title and description. Constraint: zero financial jargon without definition, mention AMFI and tag all claims with data source. Format as a writer outline with section word targets.",
+      "tags": [
+        "explainer",
+        "blog-outline",
+        "mutual-funds",
+        "beginner-finance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-010",
+      "title": "Monthly Newsletter Editorial Calendar",
+      "prompt": "Act as a newsletter editor with 7 years experience running subscriber newsletters for Indian media brands like The Ken, Morning Context, and Inc42. I need you to build a 4-week editorial calendar for a weekly B2B newsletter called \"CommerceCraft\" targeting 12,000 Indian D2C operators. Context: Each issue is 600 words, sent every Tuesday 8 AM IST, and must include 1 big story, 1 tactical tip, 1 tool, 1 hire alert. Please provide: (1) A spreadsheet-style table with columns for Issue Number, Send Date, Big Story topic + angle, Tactical Tip topic, Tool of the Week (real Indian SaaS only: WebEngage, CleverTap, Shiprocket, Unicommerce, etc.), Hire Alert company, Subject Line, Preview Text, CTA, (2) 4 issues mapped across a real Indian month aligned to festivals or GST filing cycles (e.g. Diwali prep, year-end inventory), (3) 2 interview subjects per month (real or archetype of Indian founders), (4) A repurposing note for each issue showing which LinkedIn post to spin off. Constraint: avoid overlap with topics covered by Finshots and The Ken in recent weeks. Format as a markdown table ready for Airtable import.",
+      "tags": [
+        "newsletter",
+        "editorial-calendar",
+        "planning",
+        "b2b"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-011",
+      "title": "Case Study Interview Question Bank",
+      "prompt": "Act as a customer marketing manager with 6 years experience sourcing case studies from Indian SaaS customers across BFSI, retail, and logistics. I need you to build an interview question bank to extract a compelling STAR-format case study from a happy customer: a 200-store South Indian grocery chain in Chennai that uses our inventory SaaS and reduced stockouts by 42%. Context: The interviewee is the COO, who has 60 minutes, speaks Tamil-accented English, and is camera-shy. Please provide: (1) 5 warm-up questions to build rapport (mention their festive season prep, Pongal rush), (2) 8 Situation questions unearthing the pre-solution pain in specific numbers (stockouts per week, revenue loss in Rs lakhs, shrinkage percentage), (3) 6 Task questions clarifying the goal and decision criteria, (4) 10 Action questions on implementation (timeline in weeks, training, change management, integrations with Tally/Marg ERP), (5) 8 Result questions pushing for 5 quantified metrics and a quote, (6) 4 closing questions on lessons and advice to peers, (7) A consent and legal approval checklist per Indian DPDP Act. Constraint: every question should be short, open-ended, and avoid yes/no traps. Format as a numbered interview script.",
+      "tags": [
+        "case-study",
+        "interview",
+        "customer-marketing",
+        "star-format"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-012",
+      "title": "Keyword-Led Blog Outline for Hinglish Search",
+      "prompt": "Act as a multilingual SEO strategist with 5 years experience ranking content for Hinglish and vernacular queries on Google India. I need you to write a blog outline for the transactional Hinglish keyword \"ghar baithe online paisa kaise kamaye 2026\" (search volume 40,000/month). Context: We run a gig-economy app onboarding delivery partners, tutors, and freelancers across tier-2 and tier-3 Indian cities. We need to rank top 5 and drive app installs. Please provide: (1) An H1 mixing Hindi script and English transliteration, (2) A 12-section H2/H3 outline covering 10 legitimate earning options with realistic INR monthly ranges (Rs 5,000 to Rs 50,000), skills required, time investment, and platform links (Urban Company, Meesho, Swiggy, Chegg, Preply, Rapido), (3) A scam warning section calling out common Telegram/WhatsApp fraud schemes, (4) A comparison table ranking options by effort-to-reward, (5) FAQ schema with 6 Hinglish questions, (6) Meta title and description optimized for both English and Devanagari searchers, (7) Internal links to app signup. Constraint: comply with Indian advertising standards (ASCI) on income claims and include a disclaimer. Format as a writer brief targeting 2,400 words total.",
+      "tags": [
+        "hinglish",
+        "seo-outline",
+        "vernacular",
+        "blog-outline"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-013",
+      "title": "LinkedIn Carousel from Newsletter Issue",
+      "prompt": "Act as a LinkedIn content specialist with 4 years experience repurposing long-form content into high-save carousels for Indian B2B audiences. I need you to turn a 500-word Finshots-style newsletter issue about \"Why Nykaa's Offline Play is Outpacing Online Growth\" into a 10-slide LinkedIn carousel. Context: Our company page targets DTC founders, retail investors, and marketing managers across India. Carousels are our highest-saved format. Please provide: (1) Slide 1 hook with a big number and curiosity gap, (2) Slides 2-8 each with a single insight, one data point in Rs Cr, and max 25 words, (3) Slide 9 a summary recap with 3 takeaways, (4) Slide 10 CTA inviting a newsletter subscribe and a book demo option, (5) Design notes for each slide (color, icon, layout type), (6) The LinkedIn post copy under 1,200 characters with a PS line hook, (7) 5 hashtags relevant to Indian retail commentary. Constraint: no clickbait, cite Nykaa's actual FY25 filings, and use a conversational Indian English tone. Format as a slide-by-slide brief.",
+      "tags": [
+        "repurposing",
+        "linkedin-carousel",
+        "d2c",
+        "b2b"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-014",
+      "title": "Pillar Page Content Brief for B2B SaaS",
+      "prompt": "Act as a head of content with 8 years experience building pillar pages that rank #1 on Google India for Indian B2B SaaS players. I need you to write a full content brief for a 4,000-word pillar page targeting \"customer engagement platform India\" (search volume 1,900/month, high commercial intent). Context: We compete with WebEngage, MoEngage, CleverTap for Indian e-commerce and BFSI customers. Our differentiator is pricing in INR and local support. Please provide: (1) Target persona and search intent, (2) SERP analysis summary noting top 5 ranking domains, (3) H1 and meta description, (4) An outline with 14 H2 sections covering definition, use cases by Indian vertical (e-commerce, BFSI, edtech, health), feature checklist, pricing tiers in INR, build-vs-buy, implementation timeline, 3 customer case study snippets, 6-step buyer guide, FAQ, (5) 15 semantic keywords, (6) 8 internal link opportunities, (7) 4 backlink outreach angles for Indian SaaS directories (G2, Cashfree Blog, Inc42), (8) 3 lead magnets. Constraint: mention DPDP Act compliance. Format as a structured brief in markdown, 1,200 words total.",
+      "tags": [
+        "pillar-content",
+        "content-brief",
+        "b2b-saas",
+        "seo-outline"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-015",
+      "title": "Welcome Email Sequence for Newsletter",
+      "prompt": "Act as an email marketing strategist with 6 years experience building onboarding sequences for Indian newsletter brands like Finshots and The Signal. I need you to draft a 5-email welcome sequence for new subscribers to \"TechBazaar Daily\", a newsletter covering Indian startups, funding, and product launches. Context: We just hit 20,000 subscribers with a 48% open rate and want new joiners to stick past day 14 (current drop-off point). Send cadence: Day 0, 1, 3, 5, 7. Please provide: (1) For each email, a subject line under 50 characters, preview text under 90 characters, and 200-word body, (2) Email 1 welcome with a \"what to expect\" list and one free archive piece, (3) Email 2 the founder story in first person, (4) Email 3 top 5 reader-favorite past issues, (5) Email 4 a subscriber-only free resource (download link placeholder), (6) Email 5 a soft upsell to a Rs 499/year premium tier with 3 benefit bullets, (7) CTA button copy for each. Constraint: no spammy language, one emoji max per subject, references to real Indian startups (Groww, Slice, Rupeek). Format as a ready-to-paste markdown doc.",
+      "tags": [
+        "newsletter",
+        "welcome-sequence",
+        "email",
+        "onboarding"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-016",
+      "title": "Quarterly Pillar Content Strategy Plan",
+      "prompt": "Act as a content strategy director with 10 years experience planning quarterly pillar and cluster roadmaps for Indian B2B brands. I need you to create a Q1 2026 (Jan-Mar) pillar content strategy for a Mumbai-based GST billing SaaS targeting CA firms and SMB founders. Context: Current organic traffic is 18,000/month, goal is 45,000/month by end of Q1. Budget: 3 pillar pages and 15 cluster posts. Please provide: (1) 3 pillar topic ideas each with primary keyword, search volume, difficulty, and rationale (tie to GST year-end, ITR season, Budget 2026 impact), (2) For each pillar, 5 cluster post titles with keywords, (3) A publishing cadence calendar (which week each piece goes live), (4) Topic authority score goal and internal linking map, (5) Promotion plan per piece (LinkedIn, CA WhatsApp groups, ICAI forum, email), (6) Success KPIs (traffic, keyword rankings, MQLs, CA firm signups), (7) Resource allocation across 2 writers, 1 designer, 1 SEO lead. Constraint: align with Union Budget date (Feb 1) and GST return deadlines. Format as a strategy doc in markdown with a Gantt-style table.",
+      "tags": [
+        "pillar-content",
+        "strategy",
+        "planning",
+        "quarterly"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-017",
+      "title": "Long-Form Case Study: Tata Transformation",
+      "prompt": "Act as a business journalist with 9 years experience writing deep-dive case studies for Indian business publications like Forbes India and Business Today. I need you to produce a 2,000-word long-form case study template analyzing the Tata Group's digital transformation through Tata Neu super-app (launched 2022). Context: We publish a weekly B2B newsletter read by 30,000 Indian enterprise executives and CTOs. We use STAR format with a narrative twist. Please provide: (1) A compelling headline under 14 words, (2) A 120-word lede establishing why this matters now, (3) Situation section (350 words) on Tata's fragmented consumer businesses (Croma, BigBasket, 1mg, IHCL, AirAsia, Titan) and the 2021 strategic rethink, (4) Task section (250 words) stating Ratan Tata and N Chandrasekaran's ambition in measurable terms, (5) Action section (600 words) detailing the super-app architecture, NeuPass loyalty program, tech stack choices, integration challenges, (6) Result section (450 words) with public metrics, MAU data, controversies, course corrections, (7) 3 takeaways for Indian enterprises, (8) 5 credible source links. Constraint: only cite publicly verified data and flag speculation. Format as structured longform markdown.",
+      "tags": [
+        "case-study",
+        "long-form",
+        "tata",
+        "enterprise"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-018",
+      "title": "SEO Content Audit for Indian SaaS Blog",
+      "prompt": "Act as a technical SEO consultant with 8 years experience auditing content portfolios for Indian SaaS companies. I need you to design a content audit framework for a 350-post blog belonging to a Pune-based HRtech SaaS that has plateaued at 60,000 organic visits/month. Context: The blog mixes top-funnel HR trend posts, product comparison pieces, and feature pages. Target: identify decay, cannibalisation, and pruning opportunities. Please provide: (1) A 6-step audit methodology using Google Search Console, Ahrefs, and GA4 for Indian traffic, (2) A scoring rubric (1-5) across 5 dimensions: traffic trend 12 months, keyword rank 1-20, backlinks, conversion to demo requests, topical fit, (3) 4 action buckets (keep-as-is, refresh, consolidate, redirect/delete) with decision rules, (4) A refresh template for decaying posts (4 tactics: add 2026 data, fix E-E-A-T signals, add schema, expand FAQ), (5) Prioritisation formula weighing traffic potential against effort hours, (6) A reporting dashboard spec with 8 metrics, (7) A 30-day execution timeline. Constraint: reference Google's Helpful Content guidelines and Indian market nuances. Format as a consultant-grade audit playbook with tables.",
+      "tags": [
+        "content-audit",
+        "seo-outline",
+        "saas",
+        "pruning"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-019",
+      "title": "Thought Leadership Ghost Post for Founder",
+      "prompt": "Act as a ghostwriter with 7 years experience crafting executive thought leadership for Indian startup founders published on YourStory, Inc42, and ET Prime. I need you to write a 1,200-word LinkedIn thought leadership article for a fictional founder: Meera Iyer, CEO of a Bengaluru climate-tech startup that helps Indian factories cut carbon emissions. Context: Meera wants to stake a position on why Indian manufacturers will leapfrog Western peers in sustainability by 2030 due to BEE norms and cheap solar. Her voice is data-driven, slightly contrarian, warm. Please provide: (1) A contrarian hook under 60 words, (2) A personal anecdote (150 words) from a recent factory visit in Surat or Coimbatore, (3) 3 supporting arguments each backed by real data (BEE ratings, SECI tenders, PLI schemes), (4) One counter-argument acknowledged and rebutted, (5) A call-to-action inviting MSME factory owners to a free carbon audit, (6) A closing line that lands on optimism, (7) 4 LinkedIn-native formatting tips (line breaks, emojis if any, no links in body). Constraint: avoid jargon, no corporate mush, cite at least 2 official Indian policy documents. Format as a ready-to-post LinkedIn article.",
+      "tags": [
+        "thought-leadership",
+        "ghostwriting",
+        "founder",
+        "linkedin"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-020",
+      "title": "Content Gap Analysis Against 3 Indian Competitors",
+      "prompt": "Act as a competitive intelligence analyst with 6 years experience benchmarking Indian SaaS content programs. I need you to create a content gap analysis framework comparing our fictional payroll SaaS blog against 3 real competitors: Keka, Zoho Payroll, and RazorpayX Payroll. Context: We have 120 published posts and rank for 420 keywords in India. We want to identify 30 high-opportunity topics we're missing. Please provide: (1) A 5-step methodology using Ahrefs Content Gap and SEMrush Topic Research filtered to google.co.in, (2) A spreadsheet schema with columns: keyword, volume, KD, competitor ranking, our ranking, intent, topical cluster, priority score, (3) 10 sample content gaps plausible for the Indian payroll niche (e.g. \"PF withdrawal rules for employees in India\", \"gratuity calculation formula India\", \"ESIC contribution 2026\"), (4) A scoring model weighting commercial intent 40%, volume 30%, difficulty 20%, strategic fit 10%, (5) 3 quick-win content formats to close gaps fast (comparison post, calculator page, free template), (6) Monthly tracking KPIs, (7) A 6-week sprint plan. Constraint: stay within Indian regulatory nomenclature (EPFO, ESIC, TDS). Format as a playbook markdown with tables.",
+      "tags": [
+        "content-gap",
+        "competitive-analysis",
+        "seo-outline",
+        "strategy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-021",
+      "title": "Vernacular Content Localisation Playbook",
+      "prompt": "Act as a vernacular content strategist with 6 years experience localising English blog content into Hindi, Tamil, and Marathi for Indian consumer brands like ShareChat, Khatabook, and Meesho. I need you to create a localisation playbook for a stock-market education blog that currently publishes only in English and wants to launch Hindi and Tamil versions to reach tier-2 and tier-3 investors. Context: Source material is 80 evergreen posts averaging 1,500 words. Please provide: (1) A 7-step localisation workflow (not word-for-word translation but trans-creation), (2) Cultural adaptation rules (examples using Indian festivals, local food metaphors, regional celebrities), (3) Currency and number formatting notes (Lakhs/Crores vs millions), (4) SEO guidance for Hindi Devanagari keywords vs transliterated Hindi, with 5 keyword examples for \"intraday trading kaise kare\", (5) A tooling stack (Reverie, Google Translate, native editors from Swarajya, Jagran), (6) QA checklist with 10 items, (7) Cost benchmarks in INR per 1,000 words for human vs AI-assisted, (8) Launch prioritisation (which 20 posts to translate first based on current traffic). Constraint: preserve SEBI compliance language exactly. Format as a director-ready playbook.",
+      "tags": [
+        "vernacular",
+        "localisation",
+        "hindi",
+        "tamil"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-022",
+      "title": "Blog to Podcast Episode Outline Repurposing",
+      "prompt": "Act as a podcast producer with 5 years experience adapting written content into audio episodes for Indian business podcasts like The Seen and The Unseen and Paisa Vaisa. I need you to convert a 2,800-word blog titled \"The Rise and Fall of Byju's: A Cautionary Tale for Indian EdTech\" into a 25-minute solo podcast episode outline. Context: Our podcast has 45,000 monthly listeners, mostly 28-45 year old Indian professionals who commute in Bengaluru and Mumbai. Please provide: (1) A cold open under 45 seconds (teaser + hook), (2) Episode title under 12 words and 150-word show description, (3) A timestamped segment outline: intro (0-2 min), origin story (2-6 min), growth phase (6-12 min), cracks appear (12-18 min), collapse and lessons (18-24 min), outro with CTA (24-25 min), (4) 5 talking point bullets per segment, (5) 3 pre-recorded sound bites or quotes to insert, (6) 2 sponsor ad slots (pre-roll and mid-roll) with script templates for an Indian brand like Zerodha, (7) Show notes with 6 timestamps and 4 reference links, (8) A tweet-sized teaser for release day. Constraint: balance fairness, cite court filings, avoid defamation risk. Format as a production-ready script outline.",
+      "tags": [
+        "repurposing",
+        "podcast",
+        "long-form",
+        "audio"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-023",
+      "title": "White Paper on D2C Growth in Bharat",
+      "prompt": "Act as a research-driven content marketer with 8 years experience producing gated white papers for Indian e-commerce enablers like Shiprocket, Unicommerce, and GoKwik. I need you to outline a 5,500-word white paper titled \"The Bharat D2C Playbook: How Tier-2 and Tier-3 India Will Drive the Next Rs 1 Lakh Crore in Online GMV\". Context: This is a lead-gen asset targeting D2C founders with Rs 5-50 Cr ARR who want to expand beyond metros. Please provide: (1) Executive summary bullets (200 words), (2) Section 1 Problem: metro saturation (600 words) with data on CAC inflation in Bengaluru/Mumbai/Delhi, (3) Section 2 The Bharat Opportunity (1,000 words) covering language, UPI penetration, vernacular search, cash-on-delivery economics, logistics to pin codes beyond 10,000, (4) Section 3 Solution Framework (1,500 words) with a 6-pillar playbook: pricing, vernacular creative, WhatsApp commerce, regional influencer networks, COD risk models, returns, (5) Section 4 Evidence (1,200 words) with 3 anonymised case studies + 1 proprietary survey of 200 D2C brands, (6) Section 5 Action plan (600 words), (7) Methodology and sources, (8) 8 chart specs with exact data asks. Constraint: cite public data from RedSeer, Bain, NASSCOM. Format as a research brief.",
+      "tags": [
+        "white-paper",
+        "framework",
+        "d2c",
+        "bharat"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-024",
+      "title": "Finshots-Style Explainer on Budget Announcement",
+      "prompt": "Act as a Finshots-style writer with 6 years experience explaining Union Budget announcements to retail Indian audiences. I need you to write a 450-word newsletter explainer on a fictional Budget 2026 announcement: a new 15% GST slab for luxury electric vehicles above Rs 40 lakh and removal of subsidy for EVs above Rs 25 lakh. Context: Our newsletter \"MoneyMint\" has 50,000 subscribers, 70% male, 25-40 years old, urban professionals. Voice: witty, story-first, zero jargon, Indian metaphors. Please provide: (1) Subject line under 48 characters with a curiosity hook, (2) Preview text under 90 characters, (3) The full body in 4 sections: Hook (60 words with a relatable scene of someone eyeing a Tata Harrier EV vs a Mercedes EQS), Backstory (100 words on current EV policy), The Twist (180 words explaining who wins: Tata, Mahindra; who loses: Mercedes, BMW, Volvo), Takeaway (110 words on what it means for buyers and the EV ecosystem), (4) A one-line PS with a soft CTA to a premium tier, (5) 3 alt subject line variants for A/B testing. Constraint: every sentence under 18 words, 8th-grade reading level, at least 3 concrete INR numbers. Format as plain text email.",
+      "tags": [
+        "newsletter",
+        "finshots-style",
+        "budget",
+        "explainer"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-025",
+      "title": "Pillar Page Internal Linking Architecture",
+      "prompt": "Act as a technical SEO with 7 years experience designing internal link architectures for content hubs at Indian publishers and SaaS companies. I need you to design an internal linking plan for a pillar page on \"Digital Marketing for Indian Small Businesses\" supported by 18 cluster posts. Context: The site is 2 years old, has decent DA 45, and the pillar currently ranks position 14. Goal: move to top 5 via internal link equity. Please provide: (1) A hub-and-spoke diagram description listing the pillar at centre and 18 clusters grouped into 4 sub-topics (SEO basics, Google Ads, WhatsApp marketing, Instagram for SMBs), (2) A link matrix table showing which cluster links to which (minimum 3 outbound internal links per cluster), (3) Exact anchor text recommendations (avoid over-optimised exact match), (4) A navigation UX suggestion for desktop and mobile, (5) A breadcrumb schema spec, (6) 5 contextual in-body link placements per cluster with anchor and target, (7) A 4-week implementation checklist, (8) Post-launch measurement plan (GSC queries, rank tracking tools). Constraint: respect Google's internal linking best practices and avoid footer link stuffing. Format as an SEO brief with tables.",
+      "tags": [
+        "pillar-content",
+        "internal-linking",
+        "seo-outline",
+        "architecture"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-026",
+      "title": "Case Study Template: Flipkart Supply Chain",
+      "prompt": "Act as a B2B case study writer with 8 years experience documenting enterprise transformation stories for Indian logistics and supply chain publications. I need you to create a 1,500-word STAR-format case study on Flipkart's Ekart logistics transformation and how it handles 1 billion+ shipments annually. Context: The piece will run in our supply chain SaaS newsletter read by 18,000 ops leaders at Indian D2C and retail companies. Please provide: (1) A headline under 12 words with a big number, (2) A 60-word lede positioning why Ekart matters in India's logistics story, (3) Situation section (300 words) on the pre-2015 challenge: third-party courier dependence, rural pin code gaps, COD risk, (4) Task section (200 words) on the goal: same-day for metros, 2-day for tier-2, COD under 2% fraud, (5) Action section (500 words) on Ekart's build: 2,800+ hubs, own delivery fleet, hyperlocal Kirana network, tech stack, AI routing, (6) Result section (300 words) on metrics like shipments/day, coverage pin codes, cost per shipment reduction, (7) 3 lessons for smaller D2C brands, (8) 5 verified sources. Constraint: use only publicly reported data and flag any estimates. Format as a ready-to-publish longform piece.",
+      "tags": [
+        "case-study",
+        "flipkart",
+        "logistics",
+        "star-format"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-027",
+      "title": "Content Distribution Flywheel Plan",
+      "prompt": "Act as a content distribution strategist with 7 years experience scaling owned-media flywheels for Indian B2B brands like Freshworks, Chargebee, and Postman. I need you to design a content distribution flywheel for a new 2,500-word pillar blog on \"How Indian SaaS Companies Can Crack the US Market in 2026\". Context: Our traffic sources today: 55% organic, 20% LinkedIn, 10% newsletter, 15% other. We want every pillar to get 15,000+ first-month reads. Please provide: (1) A distribution map covering 8 channels: SEO, LinkedIn (4 post variants), Twitter thread, newsletter (3 segments), WhatsApp for 12 Indian SaaS founder groups, podcast guest pitch list, syndication partners (Inc42, YourStory), email outreach to 30 peers, (2) A week-by-week publish plan (Day 0 to Day 21), (3) 3 paid amplification options under Rs 50,000 budget, (4) A conversion tracking plan with UTM taxonomy, (5) KPIs per channel (reads, saves, replies, MQLs), (6) A repurposing asset list tied to each channel, (7) An owner matrix across writer, designer, social lead, founder, (8) A post-mortem template. Constraint: stay within DPDP Act for outreach. Format as a strategy playbook with tables.",
+      "tags": [
+        "distribution",
+        "repurposing",
+        "flywheel",
+        "strategy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-028",
+      "title": "B2B Buyer Journey Content Map",
+      "prompt": "Act as a B2B content strategist with 9 years experience mapping content to long Indian buyer journeys (6-9 month sales cycles). I need you to build a content map for an Indian cybersecurity SaaS selling to CISOs and CTOs at BFSI and IT services companies in Mumbai, Bengaluru, Hyderabad, and Pune. Context: Average deal size is Rs 18 Lakhs ACV. Sales cycle is 7 months. Please provide: (1) A 5-stage buyer journey (Unaware, Problem-Aware, Solution-Aware, Vendor-Aware, Decision) with definitions, (2) 3 content assets per stage (total 15 assets) mapping title, format, length, channel, CTA, (3) Stage triggers (what signals a prospect moved stage), (4) A content-to-stage matrix showing assets like RBI cyber guidelines explainer (top funnel), CISO peer benchmark report (middle), demo comparison calculator (bottom), (5) Sales enablement pieces for BDRs to send post-demo, (6) 2 retargeting ad angles per stage, (7) Metrics dashboard with stage-exit rate and content-sourced pipeline, (8) A gap analysis showing which 5 assets don't exist today and need priority. Constraint: reference RBI, CERT-In, and SEBI cybersecurity directives. Format as a strategic map in markdown tables.",
+      "tags": [
+        "buyer-journey",
+        "b2b",
+        "content-map",
+        "strategy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-029",
+      "title": "Newsletter Growth Experiment Backlog",
+      "prompt": "Act as a growth marketer with 6 years experience scaling Indian newsletters from 10k to 100k subscribers. I need you to build a 15-experiment backlog to grow our B2B newsletter \"StartupStack India\" from 18,000 to 50,000 subscribers in 6 months. Context: Current growth channels: LinkedIn organic (60%), referral (20%), partner swaps (20%). Budget: Rs 2 Lakhs/month. Please provide: (1) A prioritised backlog of 15 experiments using the ICE framework (Impact 1-10, Confidence 1-10, Ease 1-10), (2) For each experiment: hypothesis, design, success metric, duration, owner, cost, (3) Experiments must cover: lead magnet upgrade (Indian SaaS salary report), LinkedIn newsletter cross-post, Twitter thread CTA tests, swap partnerships with Finshots/Inc42 newsletter, referral loop with Rs 100 Amazon voucher, exit-intent popup, SEO glossary pages, Quora India answers, podcast guesting, WhatsApp broadcast list, paid LinkedIn ads to CTO audience, (4) A monthly growth target curve (18k to 22k to 27k ...), (5) A learning doc template to capture wins and kills, (6) A churn reduction experiment set. Constraint: comply with TRAI DLT for WhatsApp. Format as a ranked backlog table.",
+      "tags": [
+        "newsletter",
+        "growth",
+        "experiments",
+        "ice-framework"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-030",
+      "title": "Competitive Content Teardown Framework",
+      "prompt": "Act as a content strategy analyst with 7 years experience doing competitive teardowns of Indian SaaS content programs. I need you to tear down a real competitor blog: Cleartax's tax resources hub. Context: We are a new GST-plus-ITR SaaS and want to enter the same content territory. Please provide: (1) A teardown framework with 8 dimensions: topical coverage, publishing cadence, avg word count, backlink profile, internal linking, content formats mix, CTA strategy, UX/design, (2) A SWOT for Cleartax content with 5 points per quadrant, (3) 5 underserved topical areas they don't cover well (look for gaps in specific GST sections, small business ITR, crypto taxation 2026), (4) 3 content format innovations they miss (interactive calculators, video walkthroughs, WhatsApp bots), (5) A differentiation positioning angle for our brand, (6) An entry-point content plan: 10 \"beachhead\" posts to publish in first 90 days, (7) A measurement baseline (what ranks we will track monthly), (8) Risks and response. Constraint: use only publicly observable data, no scraped proprietary info. Format as a strategy memo in markdown.",
+      "tags": [
+        "competitive-analysis",
+        "teardown",
+        "strategy",
+        "cleartax"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-031",
+      "title": "Enterprise Pillar Topic Cluster Architecture",
+      "prompt": "Act as a head of SEO with 12 years experience building topical authority for large Indian enterprise SaaS platforms competing globally. I need you to architect a full topic cluster hierarchy for a pillar on \"Enterprise Data Governance in India\" for a Bengaluru data-platform company selling to BFSI and pharma. Context: DPDP Act, RBI data localisation, and pharma regulations create unique Indian demands. Goal: become the #1 English-language authority on this topic for Indian buyers within 12 months. Please provide: (1) A 3-tier hierarchy: 1 mega-pillar (5,000 words), 6 sub-pillars (2,500 words each), 24 cluster posts (1,500 words each), (2) Keyword mapping for every node with volume and KD, (3) Semantic entity map using Google's Knowledge Graph relevant entities, (4) Internal linking rules between tiers, (5) Schema markup plan per page type (Article, FAQPage, HowTo, Dataset), (6) E-E-A-T signals strategy (author bios, expert quotes from Indian CISOs, case references), (7) A 12-month publishing roadmap aligned to DPDP Act implementation deadlines, (8) A measurement plan using Share of Voice, topical authority score, enterprise demo requests, (9) Budget estimate in INR Lakhs. Constraint: deep alignment with DPDP Act 2023 and RBI Master Direction on IT Outsourcing. Format as an enterprise SEO blueprint.",
+      "tags": [
+        "pillar-content",
+        "enterprise",
+        "topic-cluster",
+        "seo-outline"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-032",
+      "title": "Programmatic SEO Content Engine Plan",
+      "prompt": "Act as a programmatic SEO lead with 8 years experience building content engines that generate 10,000+ pages for Indian marketplaces and aggregators. I need you to design a programmatic SEO system for a fintech marketplace comparing personal loans across 40+ Indian banks and NBFCs. Context: Target is to launch 8,000 pages in 6 months covering loan-amount x city x tenure x bank combinations and rank for long-tail transactional queries like \"personal loan 5 lakh 3 years HDFC Mumbai\". Please provide: (1) A data model with 6 core variables and their value ranges, (2) A URL structure and canonicalisation rule, (3) A page template spec covering H1, intro, comparison table, EMI calculator, FAQ, disclaimer, internal links, schema (LoanOrFinancialProduct), (4) A content uniqueness strategy to avoid doorway-page penalties (dynamic snippets, city stats, branch counts), (5) A source data pipeline (RBI bank rates, bank websites, scraping ethics), (6) A crawl budget and indexing control plan using XML sitemaps and robots.txt, (7) Monitoring: GSC impressions, click-through, revenue attribution, (8) Regulatory review for RBI ad compliance. Constraint: avoid thin-content and spam signals. Format as an engineering-grade technical brief.",
+      "tags": [
+        "programmatic-seo",
+        "pillar-content",
+        "fintech",
+        "seo-outline"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-033",
+      "title": "Deep Research Report on Indian Creator Economy",
+      "prompt": "Act as a research editor with 10 years experience publishing original industry reports for Indian media like RedSeer, Inc42 Plus, and Bain-IVCA. I need you to design a 40-page deep research report titled \"The State of India's Creator Economy 2026\" with original survey data from 500 creators. Context: This report is the anchor content for our creator-monetisation SaaS and will be gated for lead capture. We have a Rs 15 Lakh budget and 10-week timeline. Please provide: (1) A research question hierarchy (3 primary, 9 secondary), (2) A 500-creator survey methodology covering YouTube, Instagram, LinkedIn, Podcasts, segmented by follower tiers, cities (metros vs tier-2), and verticals (finance, beauty, gaming, education), (3) 15 survey question examples with response types, (4) 5 qualitative interview archetypes (MrBeast-scale, mid-tier, micro, brand-safe, controversial), (5) Report structure: exec summary, market size in Rs Crores, monetisation mix, brand deal rates, creator burnout data, platform comparison, case studies, 2026 outlook, (6) 20 chart specs with exact data asks, (7) A PR and distribution plan (embargo strategy, 10 media partners like ET, Mint, YourStory), (8) Success metrics for the report (downloads, MQLs, backlinks, press mentions). Constraint: align with DPDP consent norms. Format as a report production brief.",
+      "tags": [
+        "research-report",
+        "white-paper",
+        "creator-economy",
+        "long-form"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-034",
+      "title": "Multi-Brand Reliance Transformation Case Study",
+      "prompt": "Act as a business writer with 12 years experience producing MBA-grade case studies used by IIM Ahmedabad and ISB. I need you to write a 3,500-word STAR-plus-analysis case study on Reliance Industries' transformation from a petchem conglomerate into a digital and retail giant via Jio and Reliance Retail (2016 to 2025). Context: The case will be used in our exec-ed newsletter for 8,000 Indian CXOs. Please provide: (1) A pedagogical title and tagline, (2) Opening vignette (200 words) set in 2016 Mumbai, (3) Company background and 2016 financials in Rs Crores (400 words), (4) Situation (500 words) on India's pre-Jio telecom landscape, petchem commoditisation, succession stakes, (5) Task (300 words) on Mukesh Ambani's stated ambition and board mandate, (6) Action (1,000 words) covering Jio's disruptive pricing strategy, spectrum auctions, fibre rollout, acquisition of Network18, Reliance Retail's store count and JioMart launch, (7) Result (600 words) with FY25 segment revenue, market cap trajectory, O2C vs Digital vs Retail mix, IPO plans, (8) Strategic analysis with 5 frameworks (Porter, Blue Ocean, platform economics), (9) 4 discussion questions for classroom use, (10) 12 verified sources. Constraint: publicly verifiable data only, neutral tone. Format as a teaching case.",
+      "tags": [
+        "case-study",
+        "reliance",
+        "long-form",
+        "strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-035",
+      "title": "E-E-A-T Author Authority Program",
+      "prompt": "Act as a content governance lead with 9 years experience building E-E-A-T author authority programs at Indian publishers and YMYL SaaS companies (health, finance, legal). I need you to design a 90-day E-E-A-T author authority program for a personal finance blog currently struggling with Google's Helpful Content updates. Context: The blog publishes 30 posts/month written by 8 freelancers with no bylines. Traffic dropped 38% after the March 2025 core update. Please provide: (1) A 6-pillar E-E-A-T framework mapped to Google's Quality Rater Guidelines, (2) An author bio template with 10 required fields (credentials, SEBI registration if advisor, LinkedIn, published works, image, schema Person markup), (3) A vetting process for hiring only credentialed Indian finance writers (CFA, CA, SEBI RIA, CFP), (4) A content review workflow with 4 checkpoints including a fact-check by a qualified reviewer, (5) On-page signals: author schema, reviewed-by bylines, last-updated dates, citations to RBI/SEBI sources, (6) Off-page authority: HARO-style quotes in Mint, ET, and CNBC TV18, guest posts, Wikipedia entities, (7) A measurement plan using GSC, Ahrefs Author Rank, and recovery milestones, (8) Risks and escalation. Constraint: SEBI investment advisor regulations must be respected. Format as a governance playbook.",
+      "tags": [
+        "eeat",
+        "governance",
+        "authority",
+        "finance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-036",
+      "title": "Vernacular Pillar Strategy for Bharat Tier-3",
+      "prompt": "Act as a vernacular content director with 10 years experience running Hindi, Tamil, Marathi, Bengali, and Telugu content engines for Indian consumer apps like ShareChat, Dailyhunt, and Khatabook. I need you to design a vernacular pillar content strategy for a gig-economy app onboarding blue-collar workers (delivery, drivers, domestic help) across 80+ tier-3 Indian cities. Context: English content does not work for this audience. We have Rs 40 Lakhs/month content budget and 12-person in-house vernacular team. Please provide: (1) A 5-language prioritisation matrix ranking Hindi, Tamil, Marathi, Bengali, Telugu by addressable market and platform SEO opportunity, (2) 4 pillar topics per language aligned to local earning desires and trust barriers, (3) Format mix per language (short video, WhatsApp voice notes, blog, Josh/Moj reels, FM radio snippets), (4) A content production workflow for native writers with editor review, (5) Distribution map per language: YouTube (dominant in Bharat), ShareChat, WhatsApp groups, regional news apps, (6) Measurement: app installs per language, CPI in INR, retention D30, (7) Cultural sensitivity and moderation guidelines, (8) A 6-month rollout calendar aligned to regional festivals (Pongal, Durga Puja, Ugadi). Constraint: ASCI compliance for income claims. Format as a director's strategic plan.",
+      "tags": [
+        "vernacular",
+        "bharat",
+        "pillar-content",
+        "strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-037",
+      "title": "Annual Content Marketing OKRs and Budget",
+      "prompt": "Act as a VP of content marketing with 12 years experience setting and defending annual content OKRs at Indian B2B SaaS companies with Rs 100-500 Cr ARR. I need you to create an FY2026-27 content marketing OKR and budget proposal for a Bengaluru-based vertical SaaS serving Indian CA firms. Context: Current content team: 5 people, Rs 2.8 Cr annual budget, delivering 12,000 MQLs/year. CEO wants 2x pipeline contribution. Please provide: (1) 3 annual objectives tied to business outcomes (pipeline, expansion, brand authority), (2) 4 measurable key results per objective with baselines and stretch targets, (3) A quarterly milestone breakdown across Q1-Q4, (4) A content initiative portfolio of 8 bets (pillar refresh, creator program, research report, conference content, podcast, customer marketing, vernacular Hindi, AI-assisted production), each with owner, budget, expected impact, (5) A line-item budget in Rs Lakhs across headcount, freelancers, tools (Ahrefs, Semrush, Clearscope), paid distribution, events, research, (6) A risk register with 5 risks and mitigations, (7) A CEO/CFO narrative slide explaining why 2x is achievable with 1.4x budget, (8) A monthly reporting cadence. Constraint: tie every KR to ARR or pipeline. Format as an executive planning document with tables.",
+      "tags": [
+        "okrs",
+        "strategy",
+        "budget",
+        "planning"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-038",
+      "title": "AI-Assisted Content Production Governance",
+      "prompt": "Act as a content operations director with 10 years experience running hybrid human-plus-AI content production pipelines at Indian SaaS companies producing 200+ pieces/month. I need you to design a governance framework for AI-assisted content production that protects quality, E-E-A-T, and brand safety while doubling output. Context: Team of 8 writers and editors, using Claude, ChatGPT, and Perplexity. We publish across SEO blog, newsletter, LinkedIn, and sales enablement. Please provide: (1) A 5-tier human-AI collaboration model from full-human to full-AI-with-review, (2) Use-case mapping: which content types can use which tier (e.g. SEO top-funnel tier-4, thought leadership tier-1), (3) A prompt library governance plan with version control and review, (4) A fact-checking and hallucination-detection workflow with 4 gates, (5) Plagiarism and AI-detection tooling (Originality, Copyleaks) thresholds, (6) Disclosure policy (when we tell readers content used AI), (7) IP and copyright rules under Indian Copyright Act, (8) Training plan for editors on prompt engineering, (9) Metrics: output volume, quality score, time saved, error rate, reader complaints, (10) Quarterly governance review cadence. Constraint: align with emerging Indian AI regulations and DPDP Act. Format as a governance policy document.",
+      "tags": [
+        "ai-governance",
+        "content-ops",
+        "quality",
+        "policy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-039",
+      "title": "Industry Benchmark Report Production Plan",
+      "prompt": "Act as a research content producer with 9 years experience creating original benchmark reports for Indian industry associations like NASSCOM, IAMAI, and FICCI. I need you to plan a first-of-its-kind benchmark report titled \"Indian SaaS Content Marketing Benchmark 2026\" surveying 300 Indian SaaS marketing leaders. Context: This will be our brand's flagship asset and PR magnet. Budget: Rs 25 Lakhs. Timeline: 14 weeks. Please provide: (1) Research objectives and 5 headline questions the report will answer, (2) Sampling strategy across company stage (seed, Series A/B/C, public), ARR bands (Rs 10 Cr to Rs 1000+ Cr), and verticals, (3) A 30-question survey draft covering budget, headcount, channels, AI usage, measurement, ROI, (4) Partnerships: 3 Indian ecosystem partners for distribution (SaaSBoomi, iSPIRT, Chargebee community), (5) Analysis plan (segmentation, cuts, statistical significance), (6) Report structure: 60 pages with 40 charts and 10 expert commentaries from real Indian marketing leaders, (7) A PR embargo strategy with 8 target media outlets, (8) Post-launch content repurposing into 15 derivative assets (webinars, podcasts, SlideShare, LinkedIn carousels, blog series), (9) KPIs: downloads, MQLs, backlinks, press mentions, (10) Budget allocation. Constraint: ethics board for DPDP consent. Format as a research project plan.",
+      "tags": [
+        "research-report",
+        "white-paper",
+        "benchmark",
+        "saas"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    },
+    {
+      "id": "marketing-content-marketing-040",
+      "title": "Integrated Content Repurposing Engine Blueprint",
+      "prompt": "Act as a content systems architect with 11 years experience building end-to-end repurposing engines that turn 1 master piece into 20 derivative assets for Indian B2B brands like Freshworks and Zoho. I need you to design a full repurposing engine blueprint mapping inputs, workflows, tools, owners, and outputs. Context: Our team produces 4 master pillars per month and wants each to yield at least 20 derivative assets published across 8 channels over 30 days with minimal manual overhead. Please provide: (1) An input definition of a \"master pillar\" (content brief standards, must-have elements like 3 data points, 2 quotes, 5 visual moments), (2) A 20-asset derivative map with exact asset types (LinkedIn post x3, carousel x2, Twitter thread x2, newsletter snippet x2, Instagram reel, YouTube short, podcast talking points, sales deck slide, webinar outline, blog TL;DR, WhatsApp broadcast, Reddit post, HN post, Quora answer, case-study teaser, SlideShare, email nurture), (3) A workflow diagram using tools (Notion, Descript, Canva, Buffer, Mailmodo, Riverside), (4) An owner matrix (writer, designer, editor, social lead, SDR), (5) A 30-day publish sequence calendar, (6) QA gates to avoid cannibalisation and fatigue, (7) A measurement system tracking asset-level reach, engagement, and pipeline attribution, (8) A 90-day rollout plan. Constraint: platform TOS compliance. Format as an operations blueprint.",
+      "tags": [
+        "repurposing",
+        "systems",
+        "content-ops",
+        "blueprint"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "content-marketing"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "category": "consulting",
+  "subcategory": "it-consultants",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "consulting-it-consultants-001",
+      "title": "Tech Stack Assessment for Mid-Size Bank",
+      "prompt": "Act as a senior IT advisor at TCS / Infosys / Wipro consulting. Assess the technology stack of a 200-branch Indian co-operative bank. Cover: (1) core banking (Finacle / FlexCube vintage), (2) channels (internet, mobile, IVR), (3) integration (UPI, BBPS, CKYC), (4) security (Cybersecurity framework — RBI), (5) data (warehouse, BI, MIS), (6) infra (on-prem vs cloud), (7) gaps + risks, (8) modernisation roadmap (24 months, INR 95 Cr). Constraints: align with RBI cybersecurity guidelines + DPDP; PCI-DSS where applicable; respect cooperative-bank constraints; vendor-agnostic.",
+      "category": "consulting",
+      "subcategory": "it-consultants",
+      "tags": ["tech-assessment", "core-banking", "rbi", "modernisation", "cooperative-bank"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true
+    },
+    {
+      "id": "consulting-it-consultants-002",
+      "title": "Vendor Comparison Matrix (ERP)",
+      "prompt": "Act as an ERP selection consultant. Build comparison for a ₹2,200 Cr Indian manufacturing company evaluating SAP S/4HANA, Oracle Fusion, Microsoft D365, Infor, Ramco. Criteria (with weight): functional fit (30%), implementation cost INR (15%), TCO 5-year (20%), Indian localisation (10%), local partner ecosystem (10%), references (10%), product roadmap (5%). Score each vendor 1-5; recommend top-2. Constraints: align with Indian GST + e-invoice + e-way; local partner mandatory; INR + 5-year TCO transparent; honest about gaps.",
+      "category": "consulting",
+      "subcategory": "it-consultants",
+      "tags": ["erp-selection", "sap-s4hana", "oracle-fusion", "tco", "vendor-comparison"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": true
+    },
+    {
+      "id": "consulting-it-consultants-003",
+      "title": "Cloud Migration Strategy",
+      "prompt": "Act as a cloud advisor. Build a migration strategy for an Indian healthcare provider (8 hospitals + 60 OPD) currently on-prem. Cover: (1) workload assessment (clinical, admin, analytics), (2) cloud target (AWS Mumbai / Azure South India / GCP Mumbai — pros/cons), (3) migration patterns (lift-shift, refactor, replatform), (4) data residency (DPDP + DISHA), (5) connectivity (MPLS + SD-WAN), (6) security + compliance (HIPAA-equivalent NDHM), (7) cost estimate (₹85 Cr, 18 months), (8) phased approach. Constraints: respect clinical uptime; backup + DR; vendor lock-in mitigated; INR realistic.",
+      "category": "consulting",
+      "subcategory": "it-consultants",
+      "tags": ["cloud-migration", "healthcare", "ndhm", "aws-mumbai", "dr"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-it-consultants-004",
+      "title": "Cybersecurity Audit (RBI-Aligned)",
+      "prompt": "Act as a CISO advisor. Conduct cybersecurity audit for an Indian NBFC. Frameworks: RBI Cybersecurity Framework + ISO 27001 + NIST CSF. Cover: (1) governance + risk management, (2) asset management + classification, (3) access control + IAM, (4) data security (DPDP + KYC), (5) network + endpoint, (6) vulnerability + patch, (7) incident detection + response (SOC), (8) BCP + DR, (9) third-party risk, (10) awareness + training. Maturity score per domain 1-5; gap-fix roadmap 12 months ₹14 Cr. Constraints: align with RBI Master Directions; SEBI cybersecurity for listed; CERT-In incident reporting <6 hrs.",
+      "category": "consulting",
+      "subcategory": "it-consultants",
+      "tags": ["cybersecurity", "rbi", "iso-27001", "nbfc", "cert-in"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-it-consultants-005",
+      "title": "Digital Transformation Roadmap (Retail)",
+      "prompt": "Act as a digital transformation consultant. Build 36-month roadmap for an Indian retail chain (₹1,800 Cr, 240 stores). Pillars: (1) customer (omnichannel, personalisation), (2) operations (PoS, inventory, supply chain), (3) data + AI (recommendation, demand sensing), (4) workforce (mobile-first apps), (5) infrastructure (cloud, security), (6) governance + culture. Phased: foundation (Y1), scale (Y2), differentiate (Y3). Budget ₹130 Cr; talent + partner ecosystem; KPI per pillar; benefit case. Constraints: align with DPDP + RBI for digital payments; ONDC integration; honest change-management; data-anchored.",
+      "category": "consulting",
+      "subcategory": "it-consultants",
+      "tags": ["digital-transformation", "retail", "omnichannel", "ondc", "ai"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-it-consultants-006",
+      "title": "API Strategy + Integration Architecture",
+      "prompt": "Act as an enterprise architect. Design an API + integration strategy for an Indian insurer (₹3,500 Cr GWP). Cover: (1) API taxonomy (system, process, experience), (2) gateway selection (Apigee / MuleSoft / Kong / WSO2), (3) standards (REST + JSON + OpenAPI), (4) IndiaStack integration (Aadhaar, DigiLocker, eSign, Account Aggregator), (5) data products (customer 360, claim 360), (6) security (OAuth 2 + mTLS), (7) governance + lifecycle, (8) developer portal + sandbox. Constraints: align with IRDAI Sandbox + DPDP; honest about legacy debt; vendor-neutral; CI/CD-friendly.",
+      "category": "consulting",
+      "subcategory": "it-consultants",
+      "tags": ["api-strategy", "indiastack", "apigee", "irdai-sandbox", "integration"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-it-consultants-007",
+      "title": "Data Governance Framework",
+      "prompt": "Act as a CDO advisor. Build data governance framework for a ₹2,400 Cr Indian conglomerate. Cover: (1) data council + roles (CDO, owners, stewards, custodians), (2) policy stack (data classification, quality, security, privacy, retention), (3) DPDP 2023 compliance (consent, deletion, breach), (4) data catalogue + lineage tools (Collibra / Alation), (5) MDM (customer + product), (6) DQ rules + KPIs, (7) issue management, (8) capability uplift. Constraints: respect business velocity; align with DAMA-DMBoK; integrate with cyber + legal; INR investment ₹22 Cr first 18 months.",
+      "category": "consulting",
+      "subcategory": "it-consultants",
+      "tags": ["data-governance", "dpdp", "collibra", "dama", "cdo"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-it-consultants-008",
+      "title": "DevOps Maturity Assessment",
+      "prompt": "Act as a DevOps assessor. Evaluate maturity for an Indian SaaS company (200-engineer team). Dimensions: (1) source control + branching, (2) CI/CD pipelines, (3) testing automation, (4) infrastructure-as-code, (5) observability + SLOs, (6) incident management + on-call, (7) security in pipeline (DevSecOps), (8) deployment frequency + lead time, (9) MTTR + change-failure rate. Score each 1-5 + gap-fix; benchmark to DORA Elite vs High vs Medium vs Low; 12-month upgrade plan. Constraints: realistic for Indian SaaS; Java + Python + React stack; respect engineer wellbeing.",
+      "category": "consulting",
+      "subcategory": "it-consultants",
+      "tags": ["devops", "dora", "ci-cd", "saas", "maturity"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-it-consultants-009",
+      "title": "AI/ML Use-Case Prioritisation",
+      "prompt": "Act as an AI strategy consultant. Help an Indian BFSI client prioritise 18 AI/ML use-cases. For each: (1) business problem, (2) value (revenue / cost / risk reduction), (3) feasibility (data, model, infra), (4) ethical risk (fairness, explainability), (5) regulatory (RBI, SEBI, IRDAI compliance), (6) prioritisation score (impact × feasibility ÷ risk), (7) ranked top 5. Constraints: align with RBI AI ethics + DPDP; cite real Indian use-cases (KYC, credit underwriting, fraud, churn, claims, recommendation); responsible-AI principles.",
+      "category": "consulting",
+      "subcategory": "it-consultants",
+      "tags": ["ai-strategy", "ml-prioritisation", "rbi", "responsible-ai", "bfsi"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-it-consultants-010",
+      "title": "Software Vendor Negotiation Framework",
+      "prompt": "Act as a procurement + IT advisor. Negotiate a 3-year SAP licensing renewal for an Indian conglomerate (₹65 Cr current annual spend). Cover: (1) baseline spend audit + over-licensing, (2) consumption forecast, (3) RAMP / RISE-with-SAP options vs on-prem perpetual, (4) negotiation levers (multi-year commit, indirect access, S/4HANA bundling), (5) BATNA (Oracle / Microsoft alternative), (6) total ask (35% reduction), (7) contractual safeguards (price-cap, audit clause, termination), (8) timeline. Constraints: align with GFR if PSU client; INR transparent; respect long-term partnership; MoU before final.",
+      "category": "consulting",
+      "subcategory": "it-consultants",
+      "tags": ["vendor-negotiation", "sap", "rise", "batna", "licensing"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-it-consultants-011",
+      "title": "Tech-Debt Inventory + Remediation",
+      "prompt": "Act as an enterprise architect. Build a tech-debt inventory + remediation plan for an Indian fintech (8-yr-old startup, ₹450 Cr ARR). Cover: (1) debt categories (architectural, code, data, infra, security, regulatory), (2) inventory (per system, severity, business risk, cost-of-delay), (3) prioritisation matrix, (4) remediation streams (refactor, replatform, replace, retire), (5) capacity allocation (20% sprint capacity), (6) executive reporting, (7) success metrics (incident rate drop, deploy frequency up). Constraints: respect product-roadmap pressure; honest about debt cost; align with DPDP + RBI fintech; document for audit.",
+      "category": "consulting",
+      "subcategory": "it-consultants",
+      "tags": ["tech-debt", "fintech", "remediation", "rbi", "architectural"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "consulting-it-consultants-012",
+      "title": "BCP + DR Plan for Indian Bank",
+      "prompt": "Act as a BCM consultant. Build a BCP + DR plan for an Indian PSU bank (1,800 branches). Cover: (1) BIA (process criticality), (2) RTO + RPO targets per process, (3) DR site (active-active vs active-passive — Mumbai + Hyderabad), (4) data replication + backup strategy, (5) crisis communication, (6) workforce continuity, (7) testing cadence (full DR drill annually + tabletop quarterly), (8) regulatory reporting (RBI, IRDAI). Constraints: align with RBI Master Direction on Outsourcing + Cybersecurity; cite recent cyber + flood incidents; document for board approval.",
+      "category": "consulting",
+      "subcategory": "it-consultants",
+      "tags": ["bcp", "dr", "psu-bank", "rbi", "rto-rpo"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "marketing-email-marketing-001",
+      "title": "Generate A/B Subject Lines for Indian SaaS Launch",
+      "prompt": "Act as a senior email marketing specialist with 8 years of experience running campaigns for Indian B2B SaaS companies on tools like Mailmodo and Netcore. I need you to generate 20 subject line variants for a product launch email announcing a new GST invoicing feature for a Bangalore-based accounting SaaS targeting Indian CA firms and SMB founders. Here is the context: the list has 45,000 subscribers (60% founders, 40% accountants), average open rate is 18%, and we want to beat 24%. We are running an A/B test split 50/50. Please provide: (1) 10 curiosity-driven subject lines (under 50 characters, no emoji), (2) 10 benefit-led subject lines (with one relevant emoji each), (3) predicted winner with reasoning based on Indian B2B inbox behavior, (4) preheader text (40-90 chars) for each winning pair, (5) send-time recommendation in IST accounting for Indian work patterns. Format the output as a markdown table with columns: Variant, Subject Line, Character Count, Hook Type, Preheader. Consider these constraints: avoid spam-trigger words flagged by Gmail India filters, respect Jio Mail deliverability quirks, keep tone professional but warm, and ensure subject lines work on mobile previews since 70% of Indian B2B readers open on phones.",
+      "tags": [
+        "subject-line",
+        "a-b-testing",
+        "saas",
+        "b2b",
+        "mailmodo"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-002",
+      "title": "Design 5-Email Welcome Drip for D2C Brand",
+      "prompt": "Act as a lifecycle email marketing manager with 6 years of experience building drip sequences for Indian D2C brands on WebEngage and MoEngage. I need you to design a 5-email welcome sequence for a Mumbai-based clean beauty D2C brand (price range Rs 499-1,999) targeting women aged 22-38 in metro and tier-1 Indian cities. Here is the context: new subscribers come from Instagram ads and first-order discount popups, average AOV is Rs 1,250, and the current welcome series has a 12% click-through rate we want to push to 25%. Please provide: (1) email-by-email breakdown with send delays in hours/days from signup, (2) subject line and preheader for each email, (3) core message, hero CTA, and secondary CTA for each, (4) segmentation logic (did they buy vs browse abandonment), (5) suggested personalization tokens using first name and city, (6) IST send-time for each email. Format the output as a structured sequence map with email 1 through 5 clearly labeled. Consider these constraints: respectful Hinglish-friendly tone, avoid aggressive discounting, incorporate one educational email about ingredients, reference Indian skin-type concerns, and ensure mobile-first design since 85% of Indian D2C opens happen on smartphones during 7-10 PM IST.",
+      "tags": [
+        "drip-sequence",
+        "welcome-series",
+        "d2c",
+        "webengage",
+        "lifecycle"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-003",
+      "title": "Write Cold Outreach Sequence to Indian CXOs",
+      "prompt": "Act as a B2B SDR leader with 10 years of experience running cold email outreach to Indian enterprise CXOs for SaaS products. I need you to write a 3-email cold outreach sequence targeting CFOs of mid-market Indian manufacturing companies (Rs 200-800 crore revenue) for a treasury management SaaS priced at Rs 8 lakh per year. Here is the context: ICP is CFOs in Pune, Chennai, and Ahmedabad industrial belts; pain point is manual forex hedging and MSME payment delays; average reply rate we want is 9%. Please provide: (1) email 1 (day 0) — pattern interrupt opener under 120 words, (2) email 2 (day 3) — case study bump referencing a fictional Indian peer, (3) email 3 (day 7) — breakup email with soft CTA, (4) subject lines for each (under 40 chars), (5) personalization variables to pull from LinkedIn. Format the output as three clearly separated email blocks with metadata. Consider these constraints: respectful tone without over-using \"Sir\" or \"Dear Sir\", zero jargon, one clear ask per email, compliant with Indian anti-spam norms, and send only between 9:30-11 AM IST Tuesday to Thursday.",
+      "tags": [
+        "cold-outreach",
+        "b2b",
+        "sdr",
+        "cxo",
+        "sequence"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-004",
+      "title": "Build RFM Segmentation Strategy for Edtech",
+      "prompt": "Act as a CRM and lifecycle strategist with 7 years of experience segmenting email databases for Indian edtech companies using MoEngage. I need you to build a complete RFM (Recency, Frequency, Monetary) segmentation framework for an Indian K-12 test-prep edtech with 1.2 million parent subscribers and average course price Rs 12,000. Here is the context: we sell JEE and NEET prep, subscribers span tier-1 to tier-3 cities, and current blast emails get 9% open rate. We want to move to segmented sends. Please provide: (1) RFM scoring grid (1-5 for each axis) with exact cutoffs in days and INR, (2) 8 named segments (e.g., Champions, At-Risk, Hibernating) with size estimates, (3) recommended email cadence per segment, (4) content angle per segment, (5) KPI targets per segment. Format the output as a segmentation playbook with a summary table. Consider these constraints: Indian exam calendar cycles (April-May board prep, August JEE Mains), parent decision-making psychology, tier-2/3 price sensitivity, and MoEngage segment builder constraints around nested filters.",
+      "tags": [
+        "rfm",
+        "segmentation",
+        "edtech",
+        "moengage",
+        "crm"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-005",
+      "title": "Re-engage Dormant SaaS Users With Win-Back Series",
+      "prompt": "Act as an email retention specialist with 6 years of experience running win-back campaigns for Indian SaaS products on Zoho Campaigns. I need you to design a 4-email win-back series for users of a Gurgaon-based HR SaaS who have not logged in for 90+ days. Here is the context: 18,000 dormant users, original pricing is Rs 2,499/month per company, churn risk is high, and the goal is to reactivate at least 12% within 21 days. Please provide: (1) email 1 (we miss you) with an empathetic hook, (2) email 2 (what's new) highlighting 3 feature releases, (3) email 3 (social proof + Indian customer quote), (4) email 4 (final offer with a time-bound incentive), (5) subject lines, preheaders, and IST send times for each, (6) suppression rules after the sequence ends. Format the output as a campaign brief with each email fully written. Consider these constraints: no guilt-tripping language, compliant with unsubscribe best practices, respectful tone suited to Indian HR managers, mobile-friendly copy under 150 words per email, and do not overlap with billing reminder streams.",
+      "tags": [
+        "winback",
+        "re-engagement",
+        "saas",
+        "retention",
+        "zoho"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-006",
+      "title": "Craft Emoji vs Plain Subject Line Test for D2C",
+      "prompt": "Act as a subject line copywriter with 5 years of experience optimizing open rates for Indian D2C brands on Mailmodo. I need you to craft an A/B test of 12 subject lines (6 with emoji, 6 plain) for a Diwali sale email from a Jaipur-based home decor D2C brand. Here is the context: list size 78,000, average open rate 22%, AOV Rs 2,800, sale is 25% off sitewide from Oct 20-Nov 5. Please provide: (1) 6 emoji-led subject lines (one emoji max, placed strategically), (2) 6 plain text lines using urgency or curiosity, (3) rationale for each variant, (4) predicted winner with confidence reasoning, (5) test sample size calculation using 95% confidence. Format the output as a testing brief with a decision framework. Consider these constraints: Gmail India emoji rendering issues, avoid fire and money-bag emoji clichés, use festive but not cluttered tone, respect character limits for iPhone and Samsung default mail apps which dominate Indian inboxes.",
+      "tags": [
+        "subject-line",
+        "a-b-testing",
+        "emoji",
+        "diwali",
+        "d2c"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-007",
+      "title": "Onboarding Drip for Indian Fintech App Users",
+      "prompt": "Act as a lifecycle marketing lead with 7 years of experience onboarding users on Indian fintech apps via WebEngage. I need you to design a 7-email onboarding drip for a Bangalore-based mutual fund investment app targeting first-time investors aged 25-35 in Indian metros. Here is the context: signup to first SIP conversion is currently 14%, goal is 22%, average first SIP amount is Rs 2,500. Please provide: (1) email sequence map with day-by-day triggers, (2) subject, preheader, and CTA per email, (3) educational angle for beginners (SIP vs lumpsum, risk profile, ELSS for tax), (4) behavioral branching logic (KYC done vs pending), (5) IST send windows aligned to salary cycles, (6) success metrics per email. Format as a lifecycle workflow document. Consider these constraints: SEBI compliance on investment disclaimers, avoid guaranteed-returns language, respectful beginner-friendly tone, Hindi-English hybrid acceptable in CTAs, and alignment to Indian tax-saving deadlines in Q4 (Jan-March).",
+      "tags": [
+        "drip-sequence",
+        "onboarding",
+        "fintech",
+        "webengage",
+        "sebi"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-008",
+      "title": "Behavioral Segmentation Playbook for Indian E-commerce",
+      "prompt": "Act as a CRM strategist with 8 years of experience segmenting e-commerce databases for Indian marketplaces on Netcore. I need you to build a behavioral segmentation playbook for a Delhi-based fashion e-commerce brand with 5 lakh subscribers. Here is the context: we track browse, cart-add, wishlist, purchase, and return events; AOV is Rs 1,850; goal is to double segmented email revenue in 6 months. Please provide: (1) 10 behavior-based segments (e.g., cart abandoners, category browsers, repeat buyers, high-returners), (2) trigger criteria and lookback windows in days, (3) email theme per segment, (4) send frequency caps to prevent fatigue, (5) expected incremental revenue per segment. Format the output as a segmentation matrix with a deployment roadmap. Consider these constraints: Indian festival peaks (Raksha Bandhan, Diwali, Republic Day sales), COD reliance in tier-2 cities, Netcore journey builder limitations, and respectful tone avoiding aggressive FOMO.",
+      "tags": [
+        "segmentation",
+        "behavioral",
+        "ecommerce",
+        "netcore",
+        "crm"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-009",
+      "title": "Cold Email Sequence for Indian SMB Outreach",
+      "prompt": "Act as a B2B growth marketer with 6 years of experience running cold email campaigns to Indian SMBs. I need you to write a 4-email cold sequence targeting founders of Indian D2C brands with Rs 5-25 crore ARR for a shipping logistics SaaS priced at Rs 999/month. Here is the context: ICP is D2C founders in Bangalore, Mumbai, and Hyderabad; pain point is high RTO rates and COD reconciliation; goal is 8% reply rate. Please provide: (1) email 1 — problem-aware opener, (2) email 2 — case study with fictional Indian D2C brand results, (3) email 3 — objection handler for pricing, (4) email 4 — soft breakup with value drop, (5) subject lines and send cadence (days 0, 4, 8, 12), (6) a personalization snippet pulled from Shopify store data. Format as a sequence brief with each email fully written. Consider these constraints: under 120 words per email, no jargon, acknowledge Indian SMB budget sensitivity, avoid generic compliments, and ensure all claims are verifiable.",
+      "tags": [
+        "cold-outreach",
+        "smb",
+        "d2c",
+        "sequence",
+        "founders"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-010",
+      "title": "Nurture Sequence for Indian B2B SaaS Leads",
+      "prompt": "Act as a demand generation manager with 7 years of experience building nurture tracks for Indian B2B SaaS on MoEngage. I need you to design a 6-email nurture sequence for MQLs who downloaded a whitepaper on GST automation but did not book a demo. Here is the context: 3,500 MQLs, ICP is finance controllers at Indian mid-market companies (Rs 100-500 crore revenue), average sales cycle is 45 days, demo-to-close is 22%. Please provide: (1) 6 emails spread across 21 days, (2) subject, preheader, CTA per email, (3) content mix (case study, ROI calculator, webinar, product video, customer quote, final demo ask), (4) lead scoring increments per open/click, (5) exit criteria to sales handoff. Format as a nurture workflow. Consider these constraints: respectful Indian professional tone, zero pushy language, accurate GST compliance references, IST Tuesday/Thursday 10:30 AM sends, and mobile-optimized previews.",
+      "tags": [
+        "drip-sequence",
+        "nurture",
+        "b2b",
+        "saas",
+        "moengage"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-011",
+      "title": "Curiosity vs Benefit Subject Line Framework",
+      "prompt": "Act as an email copywriter with 5 years of experience writing for Indian consumer brands. I need you to create 16 subject lines split between curiosity-driven and direct benefit angles for a weekly newsletter from a Mumbai-based personal finance creator with 85,000 Indian subscribers. Here is the context: current open rate is 34%, content covers SIPs, tax saving, and side hustles; audience is 25-40 year old salaried professionals. Please provide: (1) 8 curiosity subject lines with open loops, (2) 8 benefit subject lines with clear value, (3) the psychological hook each leverages, (4) character count for each, (5) which style to use when based on content type. Format as a comparison table with a decision guide. Consider these constraints: no clickbait, accurate to the content, respectful Indian conversational tone, avoid \"Rs\" symbol confusion in preheaders, and ensure mobile preview truncation at 35 characters still delivers the hook.",
+      "tags": [
+        "subject-line",
+        "curiosity",
+        "benefit",
+        "newsletter",
+        "framework"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-012",
+      "title": "Lifecycle Segmentation Map for Indian SaaS",
+      "prompt": "Act as a lifecycle marketing architect with 8 years of experience mapping customer stages for Indian B2B SaaS on Zoho Campaigns. I need you to build a complete lifecycle segmentation map for a Chennai-based project management SaaS with 12,000 paying customers and 40,000 free users. Here is the context: stages are Visitor, Lead, Trial, Active, Power User, At-Risk, Churned; monthly ARPU is Rs 1,800. Please provide: (1) definition and entry criteria for each stage, (2) exit criteria, (3) 2 primary email campaigns per stage, (4) KPI per stage, (5) time-in-stage benchmarks, (6) automation triggers in Zoho syntax. Format as a lifecycle playbook with a visual stage map described in text. Consider these constraints: Indian SME decision cycles, respectful tone, no spam traps, and Zoho Campaigns segment limits of 10 conditions per filter group.",
+      "tags": [
+        "segmentation",
+        "lifecycle",
+        "saas",
+        "zoho",
+        "architecture"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-013",
+      "title": "Win-Back Campaign for Dormant D2C Buyers",
+      "prompt": "Act as a retention marketing lead with 6 years of experience winning back dormant D2C customers on WebEngage. I need you to design a 3-email win-back campaign for a Pune-based organic food D2C brand targeting customers who haven't ordered in 120 days. Here is the context: 22,000 dormant buyers, average previous order value Rs 1,400, goal is to reactivate 10% within 14 days. Please provide: (1) email 1 — emotional reconnection with brand story, (2) email 2 — personalized product recommendations based on past orders, (3) email 3 — final offer with 20% off and free shipping, (4) subject lines and preheaders, (5) IST send times, (6) post-campaign suppression rules for non-responders. Format as a campaign brief with all copy written. Consider these constraints: respectful non-guilt tone, compliant unsubscribe, celebrate Indian health-conscious lifestyle, under 140 words per email, and include a clear single CTA.",
+      "tags": [
+        "winback",
+        "dormant",
+        "d2c",
+        "webengage",
+        "retention"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-014",
+      "title": "Cold Outreach to Indian Enterprise CTOs",
+      "prompt": "Act as an enterprise SDR manager with 9 years of experience running cold outreach to Indian CTOs at BFSI companies. I need you to write a 3-email cold sequence for a DevOps observability SaaS priced at Rs 15 lakh/year. Here is the context: ICP is CTOs at Indian private banks and NBFCs with 500+ engineering headcount; pain is mean time to resolution during UPI peak load; goal is 6% meeting booking rate. Please provide: (1) email 1 — specific trigger event opener, (2) email 2 — peer proof from fictional Indian bank, (3) email 3 — executive summary breakup, (4) subject lines under 45 chars, (5) LinkedIn touchpoints between emails, (6) research snippet template. Format as a multi-touch sequence. Consider these constraints: formal respectful tone suitable for senior Indian executives, avoid \"Hope you are doing well\" openers, RBI compliance awareness, and send windows Tuesday-Thursday 10-11 AM IST.",
+      "tags": [
+        "cold-outreach",
+        "enterprise",
+        "bfsi",
+        "cto",
+        "sequence"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-015",
+      "title": "Festive Subject Lines for Diwali Campaign",
+      "prompt": "Act as a festive campaign copywriter with 6 years of experience writing Diwali emails for Indian D2C brands on Mailmodo. I need you to generate 15 subject lines for a Diwali gifting campaign by a Bangalore-based premium candle brand. Here is the context: AOV Rs 1,800, list size 55,000, campaign window Oct 25-Nov 3, goal is 28% open rate. Please provide: (1) 5 gifting-angle subject lines, (2) 5 urgency-led subject lines, (3) 5 story-driven subject lines, (4) preheaders for each, (5) which to send on which day of the campaign window, (6) one recommended emoji variant per category. Format as a campaign calendar with copy. Consider these constraints: avoid cliches like \"Light up your Diwali\", respectful of all Indian communities celebrating, premium tone, mobile truncation at 35 chars, and align with IST evening engagement 7-9 PM.",
+      "tags": [
+        "subject-line",
+        "diwali",
+        "festive",
+        "d2c",
+        "gifting"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-016",
+      "title": "Onboarding Drip for Indian Edtech Parents",
+      "prompt": "Act as an edtech lifecycle marketer with 5 years of experience writing parent-focused emails on MoEngage. I need you to design a 6-email onboarding drip for parents who signed up for a free demo class on a Bangalore-based K-8 coding platform. Here is the context: demo-to-paid conversion is 11%, target 18%, course price Rs 18,000 for 48 sessions. Please provide: (1) 6 emails over 10 days, (2) subject, preheader, CTA per email, (3) content mix (welcome, child's progress report, parent testimonial, curriculum preview, limited seats, final call), (4) personalization using child's first name and grade, (5) IST evening send windows when parents check email. Format as a parent journey sequence. Consider these constraints: respectful tone to parents (avoid over-Sir/Madam), highlight career outcomes popular with Indian parents, NCERT alignment mention, and avoid pressure tactics.",
+      "tags": [
+        "drip-sequence",
+        "onboarding",
+        "edtech",
+        "parents",
+        "moengage"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-017",
+      "title": "Multi-Variant Subject Line Test With 6 Hypotheses",
+      "prompt": "Act as a senior growth marketer with 8 years of experience running statistically valid subject line tests on Netcore. I need you to design a 6-variant subject line test for a weekly promotion email from a Mumbai-based beauty marketplace with 2 lakh subscribers. Here is the context: baseline open rate 19%, AOV Rs 1,200, goal is to identify a winner with 95% confidence in 72 hours. Please provide: (1) 6 subject line variants each testing one hypothesis (personalization, urgency, question, social proof, discount-first, curiosity), (2) the hypothesis each tests, (3) sample size per variant with calculation, (4) success metric (OR or CTR), (5) decision framework if no clear winner, (6) rollout plan for the winner. Format as a test brief with a results template. Consider these constraints: Netcore A/B test limitations, Indian mobile inbox preview at 35 chars, respectful tone, and no dark patterns.",
+      "tags": [
+        "subject-line",
+        "a-b-testing",
+        "netcore",
+        "growth",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-018",
+      "title": "Re-engagement Drip for Lapsed Newsletter Readers",
+      "prompt": "Act as a newsletter growth specialist with 5 years of experience re-engaging lapsed readers for Indian media brands. I need you to design a 4-email re-engagement drip for subscribers of a Delhi-based business newsletter who have not opened an email in 60 days. Here is the context: 48,000 lapsed readers, free newsletter, goal is 15% reopen rate and reduce list bloat. Please provide: (1) email 1 — curiosity reopener with a bold claim, (2) email 2 — best-of content roundup, (3) email 3 — survey for content preferences, (4) email 4 — final confirm subscription or unsubscribe email, (5) subject lines, (6) automation logic to sunset non-responders. Format as a re-engagement workflow. Consider these constraints: protect sender reputation on Gmail India and Jio Mail, respectful tone, clear one-click resubscribe, and comply with inbox placement best practices.",
+      "tags": [
+        "re-engagement",
+        "winback",
+        "newsletter",
+        "deliverability",
+        "drip-sequence"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-019",
+      "title": "Advanced RFM Plus Predictive Segmentation",
+      "prompt": "Act as a data-driven CRM leader with 10 years of experience running advanced segmentation at Indian D2C unicorns on MoEngage. I need you to design an RFM + predictive LTV segmentation model for a Bangalore-based beauty D2C brand with 8 lakh customers. Here is the context: average AOV Rs 1,600, repeat rate 32%, goal is to identify top 5% customers and scale email LTV by 40% in 6 months. Please provide: (1) RFM scoring with 1-5 scale and cutoffs, (2) a predictive LTV bucket overlay (low, mid, high LTV), (3) 12 final segments combining RFM and LTV, (4) email themes and cadence per segment, (5) MoEngage implementation steps, (6) dashboard KPIs. Format as a strategic segmentation blueprint. Consider these constraints: data availability in MoEngage, respectful tone, Indian festive calendar alignment, and ethical personalization without creepiness.",
+      "tags": [
+        "rfm",
+        "segmentation",
+        "predictive",
+        "ltv",
+        "moengage"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-020",
+      "title": "Cold Email Copy for Indian SaaS to US Buyers",
+      "prompt": "Act as an outbound specialist with 7 years of experience helping Indian SaaS companies sell to US mid-market buyers. I need you to write a 3-email cold sequence for a Bangalore-based developer tools SaaS targeting US VP Engineering at 200-1000 person tech companies. Here is the context: product is a code review assistant priced at $99/user/month, goal is 5% reply rate, cultural gap is the challenge. Please provide: (1) email 1 — clear American direct-style opener, (2) email 2 — data-backed follow-up, (3) email 3 — breakup email, (4) subject lines under 40 chars, (5) timezone strategy (Pacific vs Eastern), (6) tone adjustments from Indian style to American directness. Format as an outbound sequence with cultural notes. Consider these constraints: no \"Dear Sir\" or flowery openings, use first names, short sentences, no compliance worries, and send Tuesday-Thursday 8-10 AM recipient local time.",
+      "tags": [
+        "cold-outreach",
+        "saas",
+        "us-market",
+        "cross-border",
+        "sequence"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-021",
+      "title": "Post-Purchase Drip for Indian D2C Electronics",
+      "prompt": "Act as a post-purchase email specialist with 5 years of experience writing drips for Indian D2C electronics brands on Netcore. I need you to design a 5-email post-purchase sequence for a Bangalore-based smart home brand where AOV is Rs 4,200 and primary product is a smart plug. Here is the context: goal is to drive 25% repeat purchase within 60 days and collect reviews. Please provide: (1) 5 emails over 45 days, (2) themes (order confirmation, setup help, usage tips, review request, cross-sell), (3) subject and preheader per email, (4) personalization tokens, (5) IST send times, (6) cross-sell logic for second product. Format as a post-purchase workflow. Consider these constraints: Indian unboxing culture, WhatsApp-like conversational friendliness, COD and prepaid segment differences, Hindi-English mix acceptable, and mobile-first design.",
+      "tags": [
+        "drip-sequence",
+        "post-purchase",
+        "d2c",
+        "netcore",
+        "cross-sell"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-022",
+      "title": "Subject Line Rewriter for Low Open Rate Campaigns",
+      "prompt": "Act as an email optimization expert with 6 years of experience diagnosing low open rate campaigns on Mailmodo. I need you to rewrite and optimize 10 failing subject lines from a Mumbai-based fintech brand whose emails are getting 8% opens against a benchmark of 20%. Here is the context: list size 1.5 lakh, audience is salaried professionals, product is credit score monitoring. Please provide: (1) each original subject line, (2) a diagnosed reason for poor performance, (3) a rewritten version with better hook, (4) alternative curiosity and urgency variants, (5) a scoring rubric (clarity, curiosity, relevance) rating old vs new, (6) one insight per line. Format as a before-after table. Consider these constraints: avoid spam trigger words like FREE, URGENT, CREDIT, respect Indian financial sensitivity, keep under 50 characters, and ensure mobile preview clarity.",
+      "tags": [
+        "subject-line",
+        "optimization",
+        "fintech",
+        "mailmodo",
+        "rewrite"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-023",
+      "title": "Welcome Series for Indian B2B Newsletter",
+      "prompt": "Act as a B2B content marketer with 7 years of experience growing Indian startup newsletters. I need you to design a 4-email welcome series for new subscribers to a Bangalore-based weekly newsletter on Indian SaaS trends. Here is the context: 600 new subscribers/week, ICP is founders and product managers, goal is 55% 4-week retention. Please provide: (1) email 1 — welcome with publication manifesto, (2) email 2 — best-of archive (top 5 past issues), (3) email 3 — author introduction and credibility, (4) email 4 — feedback survey with one question, (5) subject lines and preheaders, (6) send schedule (day 0, 2, 5, 9). Format as a welcome flow document. Consider these constraints: conversational founder-to-founder tone, respect Indian startup ecosystem references, under 250 words per email, and clear unsubscribe.",
+      "tags": [
+        "drip-sequence",
+        "welcome-series",
+        "newsletter",
+        "b2b",
+        "retention"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-024",
+      "title": "Abandoned Cart Recovery Sequence for D2C",
+      "prompt": "Act as a conversion optimization specialist with 6 years of experience recovering abandoned carts for Indian D2C brands on WebEngage. I need you to design a 3-email cart abandonment sequence for a Delhi-based fashion D2C brand with AOV Rs 2,100 and cart abandonment rate 68%. Here is the context: goal is to recover 14% of abandoned carts worth Rs 85 lakh monthly. Please provide: (1) email 1 (after 1 hour) — friendly reminder, (2) email 2 (after 24 hours) — social proof + size guide, (3) email 3 (after 48 hours) — 10% off incentive, (4) subject lines, preheaders, and dynamic product blocks, (5) WebEngage trigger logic, (6) suppression if purchase is completed. Format as a cart recovery blueprint. Consider these constraints: IST timing aligned to checkout time, COD vs prepaid messaging, respectful tone, mobile wallet reassurance, and clear return policy mention.",
+      "tags": [
+        "drip-sequence",
+        "cart-abandonment",
+        "d2c",
+        "webengage",
+        "recovery"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-025",
+      "title": "Persona-Based Segmentation for Indian Edtech",
+      "prompt": "Act as a segmentation strategist with 7 years of experience at Indian edtech companies using MoEngage. I need you to design a persona-based segmentation model for a Mumbai-based upskilling platform with 4 lakh learners. Here is the context: audience splits into working professionals, college students, and career switchers; courses range Rs 5,000-40,000. Please provide: (1) 6 detailed personas with demographics and motivations, (2) segmentation rules to auto-tag users, (3) email themes per persona, (4) campaign cadence per persona, (5) KPI targets per persona, (6) cross-persona upsell paths. Format as a persona playbook. Consider these constraints: authentic Indian names and city references in personas, salary-bracket realism, Indian career milestones, respectful tone, and MoEngage custom attribute limits.",
+      "tags": [
+        "segmentation",
+        "persona",
+        "edtech",
+        "moengage",
+        "upskilling"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-026",
+      "title": "Cold Outreach to Indian Marketing Heads",
+      "prompt": "Act as a founder-led sales expert with 6 years of experience cold-emailing Indian marketing heads. I need you to write a 3-email cold sequence targeting CMOs and marketing heads at Indian D2C brands with Rs 50-200 crore revenue for a performance marketing analytics SaaS priced at Rs 25,000/month. Here is the context: ICP companies in Bangalore, Mumbai, Gurgaon; pain is fragmented reporting across Meta, Google, Flipkart, Amazon; goal 7% reply rate. Please provide: (1) email 1 — specific observation about their ads, (2) email 2 — case study with real-feel Indian brand, (3) email 3 — soft breakup with a resource, (4) subject lines, (5) personalization checklist using public ad library, (6) follow-up cadence. Format as a sequence brief. Consider these constraints: warm peer-to-peer tone, no generic flattery, zero fluff, under 110 words per email, and acknowledge Indian marketing budget constraints.",
+      "tags": [
+        "cold-outreach",
+        "cmo",
+        "d2c",
+        "sequence",
+        "b2b"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-027",
+      "title": "Re-engagement for Dormant Fintech Users",
+      "prompt": "Act as a fintech retention marketer with 6 years of experience reactivating dormant users on WebEngage. I need you to design a 4-email re-engagement campaign for a Mumbai-based personal loan app where 30,000 users have gone quiet after KYC but never applied. Here is the context: average loan size Rs 75,000, goal is 18% reactivation in 21 days. Please provide: (1) email 1 — personalized KYC completion reminder, (2) email 2 — use case stories (medical, home repair, education), (3) email 3 — pre-approved offer with interest rate, (4) email 4 — limited window final call, (5) subject lines and preheaders, (6) IST send times and suppression rules. Format as a campaign plan. Consider these constraints: RBI lending guidelines, sensitive financial tone without shaming, accurate interest rate disclosures, and respectful language for tier-2 borrowers.",
+      "tags": [
+        "re-engagement",
+        "winback",
+        "fintech",
+        "webengage",
+        "rbi"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-028",
+      "title": "Event Invitation Email Sequence for Indian Webinar",
+      "prompt": "Act as a B2B event marketer with 5 years of experience driving webinar registrations for Indian SaaS companies on Zoho Campaigns. I need you to design a 4-email invitation sequence for a webinar on GST e-invoicing targeting Indian finance controllers. Here is the context: target 800 registrations from a list of 18,000 CFOs/controllers, webinar date in 14 days, goal 25% show-up rate. Please provide: (1) email 1 — save-the-date with speaker credentials, (2) email 2 — agenda and learning outcomes, (3) email 3 — registration reminder with social proof, (4) email 4 — last-call email day before, (5) subject lines, preheaders, CTAs, (6) day-of reminder timing. Format as a webinar campaign sequence. Consider these constraints: compliance with Zoho Campaigns event triggers, respectful corporate tone, clear calendar invite attachment, and IST morning send times.",
+      "tags": [
+        "drip-sequence",
+        "webinar",
+        "event",
+        "zoho",
+        "b2b"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-029",
+      "title": "IST Send-Time Optimization Guide",
+      "prompt": "Act as an email deliverability consultant with 8 years of experience optimizing send times for Indian brands on Mailmodo and Netcore. I need you to build a comprehensive IST send-time optimization guide for a Bangalore-based D2C brand with a 2 lakh subscriber list. Here is the context: current blast sends at 10 AM IST, open rate 18%, goal is to lift to 24% by optimizing timing. Please provide: (1) recommended send windows by audience segment (students, working professionals, homemakers), (2) day-of-week analysis for D2C in India, (3) hypothesis-driven tests to validate best time, (4) fallback times for list fatigue, (5) time-zone considerations for NRIs on list, (6) weekly cadence ceiling. Format as a send-time playbook. Consider these constraints: Jio Mail delay patterns, Gmail Indian tab placement, festival disruptions, and Indian commute patterns.",
+      "tags": [
+        "send-time",
+        "deliverability",
+        "ist",
+        "optimization",
+        "d2c"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-030",
+      "title": "Subject Line Bank for Monthly D2C Newsletter",
+      "prompt": "Act as a D2C content marketer with 5 years of experience writing Indian beauty brand newsletters. I need you to create a subject line bank of 25 reusable templates for a Mumbai-based skincare newsletter sent monthly to 90,000 subscribers. Here is the context: content mix is product tips, founder notes, customer stories, and sale announcements. Please provide: (1) 5 subject line templates per content type (5 types), (2) variables to plug in (product name, season, offer), (3) example filled-in version for each, (4) character count, (5) when NOT to use each template, (6) seasonal overlay for Holi, monsoon, Diwali. Format as a reusable subject line library. Consider these constraints: avoid cliche beauty jargon, respectful body positivity, Indian skin tone inclusivity, 40-50 char limit, and no misleading copy.",
+      "tags": [
+        "subject-line",
+        "template",
+        "d2c",
+        "newsletter",
+        "library"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-031",
+      "title": "Trial-to-Paid Conversion Drip for SaaS",
+      "prompt": "Act as a SaaS lifecycle marketer with 7 years of experience converting free trials to paid on MoEngage. I need you to design a 7-email trial conversion drip for a Bangalore-based design collaboration SaaS with a 14-day free trial. Here is the context: trial-to-paid conversion is 9%, target 16%, priced at Rs 1,200/user/month, ICP is Indian design teams. Please provide: (1) 7 emails mapped to days 1, 2, 4, 6, 9, 11, 13, (2) themes (setup, first value, power features, team invite, case study, testimonial, final call), (3) subject lines and CTAs, (4) personalization based on usage events, (5) in-trial milestones to unlock emails, (6) hand-off to sales trigger. Format as a trial conversion workflow. Consider these constraints: Indian team collaboration culture, respectful non-pushy tone, clear ROI in INR, and MoEngage event trigger syntax.",
+      "tags": [
+        "drip-sequence",
+        "trial-conversion",
+        "saas",
+        "moengage",
+        "conversion"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-032",
+      "title": "Cold Outreach Personalization Framework",
+      "prompt": "Act as a cold email researcher with 6 years of experience building personalization frameworks for Indian B2B outbound. I need you to build a personalization framework for cold emails targeting Indian startup founders. Here is the context: SDR team of 4 sends 200 emails/day, current reply rate 2%, goal 6%, ICP is Indian Series A to B SaaS founders. Please provide: (1) 10 personalization data points (LinkedIn, company blog, podcast, news, funding, job openings), (2) where to find each in under 90 seconds, (3) template snippets for each, (4) anti-patterns (what NOT to reference), (5) scoring rubric for strong vs weak personalization, (6) automation vs manual research boundary. Format as a research playbook. Consider these constraints: ethical data use, respectful referencing, no creepy stalker vibe, and under 2 minutes total research per prospect.",
+      "tags": [
+        "cold-outreach",
+        "personalization",
+        "research",
+        "b2b",
+        "framework"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-033",
+      "title": "Deliverability Audit for Indian Inbox Placement",
+      "prompt": "Act as an email deliverability consultant with 10 years of experience troubleshooting Indian inbox placement issues. I need you to run an audit framework for a Bangalore-based D2C brand whose Gmail India inbox rate dropped from 92% to 61% in 30 days. Here is the context: 3 lakh list, using Mailmodo, recent campaign caused spike in spam complaints. Please provide: (1) 12-point diagnostic checklist, (2) expected remediation for each finding, (3) specific Jio Mail and Gmail India quirks to check, (4) SPF, DKIM, DMARC verification steps, (5) sender reputation warm-up plan, (6) 30-day recovery roadmap with weekly checkpoints. Format as a deliverability audit report template. Consider these constraints: Mailmodo's shared IP behavior, India-specific sunrise/sunset spam filters, reputation repair realism, and list hygiene first principles.",
+      "tags": [
+        "deliverability",
+        "audit",
+        "gmail",
+        "jio",
+        "mailmodo"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-034",
+      "title": "Loyalty Program Launch Drip for D2C",
+      "prompt": "Act as a loyalty marketing specialist with 6 years of experience launching rewards programs for Indian D2C brands on WebEngage. I need you to design a 4-email launch drip announcing a new points-based loyalty program for a Mumbai-based coffee D2C brand. Here is the context: 1.1 lakh existing customers, AOV Rs 650, goal is 35% enrollment in 14 days. Please provide: (1) email 1 — program announcement, (2) email 2 — how to earn points, (3) email 3 — tier benefits and founding member bonus, (4) email 4 — last call, (5) subject lines, preheaders, CTAs, (6) segmentation for VIPs vs regular customers. Format as a launch campaign. Consider these constraints: clear simple point math, respectful non-gamified tone for older customers, mobile-first, under 130 words per email, and include T&C link.",
+      "tags": [
+        "drip-sequence",
+        "loyalty",
+        "d2c",
+        "webengage",
+        "launch"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-035",
+      "title": "Segmentation Audit for Indian SaaS Company",
+      "prompt": "Act as a CRM consultant with 9 years of experience auditing segmentation strategies for Indian SaaS companies on Netcore. I need you to audit the email segmentation of a Chennai-based accounting SaaS with 60,000 customers. Here is the context: current segments are just \"active\" vs \"inactive\", open rates are 14%, goal is to build a proper segmentation foundation. Please provide: (1) findings on current state with gaps, (2) recommended 12-segment model with rules, (3) migration plan from old to new segments, (4) Netcore implementation steps, (5) training plan for the marketing team, (6) 90-day success metrics. Format as a consultant audit report. Consider these constraints: Netcore journey builder constraints, data available in a typical Indian SaaS stack, respectful tone, and minimal disruption to existing campaigns.",
+      "tags": [
+        "segmentation",
+        "audit",
+        "saas",
+        "netcore",
+        "crm"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-036",
+      "title": "Cold Email for Indian Agency Outreach",
+      "prompt": "Act as an agency founder with 8 years of experience cold-emailing Indian businesses for agency services. I need you to write a 3-email cold sequence targeting marketing heads at Indian D2C brands for a performance creative agency with Rs 2.5 lakh/month retainer. Here is the context: ICP is brands spending Rs 10-50 lakh monthly on Meta ads, goal is 8% reply rate. Please provide: (1) email 1 — pattern-interrupt opener referencing their ad creatives, (2) email 2 — creative teardown mini-analysis, (3) email 3 — breakup with free resource, (4) subject lines, (5) agency differentiators to reference, (6) meeting-booking CTA. Format as a cold sequence. Consider these constraints: avoid generic agency speak, respectful peer tone, Indian D2C vernacular, under 130 words per email, and a clear thumbnail-sized value prop.",
+      "tags": [
+        "cold-outreach",
+        "agency",
+        "d2c",
+        "sequence",
+        "outbound"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-037",
+      "title": "Predictive Churn Email Campaign",
+      "prompt": "Act as a retention marketing lead with 8 years of experience building predictive churn campaigns for Indian SaaS on MoEngage. I need you to design an email campaign triggered by a predictive churn score for a Bangalore-based HR SaaS with 15,000 paying customers. Here is the context: ARPU Rs 3,500/month, churn score ranges 0-100, target is to reduce monthly churn from 4.5% to 3%. Please provide: (1) score thresholds for low/medium/high risk, (2) 3 email tracks (one per risk level) with 3 emails each, (3) themes (check-in, training invite, executive outreach), (4) subject lines and CTAs, (5) MoEngage campaign setup, (6) success metrics and attribution. Format as a churn intervention playbook. Consider these constraints: respectful empathetic tone, no desperation, concrete value offers, and escalation to CSM for highest risk.",
+      "tags": [
+        "winback",
+        "churn",
+        "predictive",
+        "saas",
+        "moengage"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-038",
+      "title": "Cross-Sell Drip for Indian Insurance Customers",
+      "prompt": "Act as a lifecycle marketer with 6 years of experience cross-selling insurance products on Netcore. I need you to design a 5-email cross-sell drip for existing term insurance customers of a Mumbai-based insurance aggregator, offering health insurance. Here is the context: 80,000 term customers, average health policy premium Rs 18,000/year, goal is 6% conversion in 45 days. Please provide: (1) 5 emails over 45 days, (2) themes (why health insurance, family coverage, tax benefit 80D, comparison tool, limited offer), (3) subject lines, CTAs, personalization, (4) segmentation by family status, (5) IRDAI-compliant disclaimers, (6) Netcore automation setup. Format as a cross-sell workflow. Consider these constraints: IRDAI regulations, no misleading claims, respectful tone for financial decisions, tier-1/2 audience, and accurate medical language.",
+      "tags": [
+        "drip-sequence",
+        "cross-sell",
+        "insurance",
+        "netcore",
+        "irdai"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-039",
+      "title": "B2B Account-Based Email Sequence",
+      "prompt": "Act as an ABM strategist with 8 years of experience running account-based email campaigns to Indian enterprises. I need you to design a 5-touch email sequence targeting 50 named Indian BFSI accounts for a cybersecurity SaaS priced at Rs 35 lakh/year. Here is the context: multi-contact ICP includes CISO, CTO, and Head of IT at each account, goal 20% meeting booking. Please provide: (1) role-specific email 1 for each persona (3 variants), (2) email 2 — executive brief referencing peer bank, (3) email 3 — threat report tailored to BFSI, (4) email 4 — executive dinner invite, (5) email 5 — breakup, (6) sequencing rules across contacts per account. Format as an ABM playbook. Consider these constraints: formal respectful tone for senior Indian executives, RBI compliance awareness, multi-threaded outreach ethics, and calendar invite best practices.",
+      "tags": [
+        "cold-outreach",
+        "abm",
+        "enterprise",
+        "bfsi",
+        "sequence"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    },
+    {
+      "id": "marketing-email-marketing-040",
+      "title": "Email KPI Dashboard for Indian D2C Brand",
+      "prompt": "Act as an email analytics lead with 7 years of experience building KPI dashboards for Indian D2C brands. I need you to design a comprehensive email KPI framework for a Bangalore-based home goods D2C brand with 2.5 lakh subscribers. Here is the context: currently only tracking open rate, goal is a full funnel dashboard for weekly leadership reviews. Please provide: (1) 15 core KPIs across deliverability, engagement, conversion, and revenue, (2) benchmark values for Indian D2C, (3) segmentation cuts (new vs repeat, tier-1 vs tier-2, cohort), (4) data sources in Mailmodo/Netcore/Shopify, (5) weekly review template with decisions, (6) alert thresholds. Format as a dashboard specification. Consider these constraints: realistic Indian D2C benchmarks, tie to revenue not vanity metrics, respectful Indian management reporting style, and actionable insights not just numbers.",
+      "tags": [
+        "analytics",
+        "kpi",
+        "dashboard",
+        "d2c",
+        "reporting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "marketing",
+      "subcategory": "email-marketing"
+    }
+  ]
+}

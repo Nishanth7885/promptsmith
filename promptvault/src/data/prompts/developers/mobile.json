@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "developers-mobile-001",
+      "title": "Flutter Login Form with Mobile OTP Validation",
+      "prompt": "Act as a senior Flutter developer with 6 years of experience building fintech apps for the Indian market. I need you to generate a complete Flutter login screen widget that accepts a 10-digit Indian mobile number followed by a 6-digit OTP. Here is the context: the app targets tier-2/tier-3 Android users on devices like Redmi 9A with 2GB RAM, unreliable Jio/Airtel 4G networks, and users who prefer Hinglish labels. The form must validate the number starts with 6, 7, 8, or 9, auto-format with a +91 prefix, show a \"Resend OTP in 30s\" timer, and gracefully handle SMS auto-read using the sms_autofill package. Please provide: (1) a complete StatefulWidget file with form validation, (2) a separate controller class using ChangeNotifier for state, (3) Hinglish error messages like \"Sahi mobile number daaliye\", (4) loading states with a CircularProgressIndicator, (5) dark mode support. Format the output as three code blocks with file names as headers, followed by a short usage note. Consider these constraints: minimize rebuilds for low-end devices, avoid heavy animations, keep the total widget tree under 15 nesting levels, and ensure the APK size impact stays under 50KB. Use Material 3 theming and follow Flutter 3.19+ syntax. Do not use any deprecated APIs.",
+      "tags": [
+        "flutter",
+        "otp",
+        "form-validation",
+        "hinglish"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": true,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-002",
+      "title": "Play Store Listing Copy for Indian Fintech App",
+      "prompt": "Act as an ASO (App Store Optimization) specialist with 5 years of experience launching fintech apps in India. I need you to write a complete Google Play Store listing for a UPI-based expense tracker app called \"PaisaBachao\" targeting salaried professionals aged 22-35 in Bengaluru, Mumbai, Pune, and Hyderabad. Here is the context: the app offers auto-categorization of UPI transactions, bill split with friends, monthly budget alerts, and CIBIL score checks. Primary competitors are Walnut, CRED, and Jupiter. Please provide: (1) a 30-character app title with a primary keyword, (2) a 80-character short description, (3) a 4000-character long description structured with emoji bullet headers, feature list, social proof placeholder, and a strong CTA, (4) 5 promotional graphic text taglines under 30 characters each in Hinglish and English variants, (5) a list of 25 ASO keywords ranked by relevance for the Indian market, (6) what\\'s new section for version 2.1.0. Format the output as clearly labeled sections with character counts shown in parentheses. Consider these constraints: follow Google Play policy for finance apps, avoid banned terms like \"guaranteed returns\", mention RBI-compliant UPI, and naturally include regional keywords like \"kharcha tracker\" and \"budget app India\".",
+      "tags": [
+        "aso",
+        "play-store",
+        "listing-copy",
+        "hinglish"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-003",
+      "title": "React Native FlatList for Low-End Android Devices",
+      "prompt": "Act as a React Native performance engineer with 7 years of experience optimizing apps for the Indian Android market. I need you to generate a production-ready FlatList component that renders 10,000 transaction rows smoothly on devices like Samsung Galaxy M11 with 3GB RAM. Here is the context: each row displays a merchant logo, UPI transaction amount in INR, timestamp in IST, and a category chip. Users in Jio 4G areas expect instant scroll without jank. Please provide: (1) the complete functional component with TypeScript, (2) memoized renderItem using React.memo, (3) getItemLayout implementation for fixed-height rows, (4) proper keyExtractor, (5) windowSize, maxToRenderPerBatch, and initialNumToRender tuned for low-RAM devices, (6) a skeleton loader while data loads, (7) pull-to-refresh with RefreshControl. Format the output as a single .tsx file with inline comments explaining each performance knob. Consider these constraints: avoid inline functions in renderItem, use FastImage for merchant logos cached to disk, handle empty and error states with Hinglish copy like \"Koi transaction nahi mila\", and ensure the component works on React Native 0.74+ with the new architecture (Fabric) enabled.",
+      "tags": [
+        "react-native",
+        "flatlist",
+        "performance",
+        "typescript"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-004",
+      "title": "FCM Push Notification Setup with Hinglish Copy",
+      "prompt": "Act as a mobile engineer with 5 years of experience integrating Firebase Cloud Messaging for Indian consumer apps. I need you to generate a complete FCM setup for a Flutter grocery delivery app called \"SabziMandi\" serving Delhi NCR. Here is the context: the app sends order updates, delivery OTPs, and promotional offers. Users speak Hinglish, live on flaky networks, and have notification fatigue. Please provide: (1) main.dart initialization code with firebase_messaging 14+, (2) a background handler function for data messages, (3) token refresh listener that sends the token to a /api/device-register endpoint, (4) 10 sample notification payloads in JSON with Hinglish titles like \"Aapka order aa raha hai!\" and bodies under 50 characters, (5) topic subscription logic for categories like \"offers_delhi\" and \"order_updates\", (6) permission request flow for Android 13+ POST_NOTIFICATIONS. Format the output as labeled Dart code blocks and a separate JSON block for payloads. Consider these constraints: respect Do Not Disturb hours (10 PM to 7 AM IST), deduplicate notifications by order_id, use notification channels for order vs promo, and ensure delivery on Xiaomi MIUI and Oppo ColorOS which aggressively kill background services.",
+      "tags": [
+        "fcm",
+        "push-notifications",
+        "flutter",
+        "hinglish"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-005",
+      "title": "UPI Deep Link Intent Handler in Android",
+      "prompt": "Act as an Android developer with 6 years of experience building payment apps compliant with NPCI UPI specifications. I need you to generate a Kotlin implementation that constructs and launches UPI intent deep links of the form upi://pay?pa=merchant@okhdfc&pn=Name&am=499&cu=INR&tn=Note. Here is the context: the merchant is a Pune-based bookstore called \"Granth Bhandar\" collecting payments via Razorpay. The app should open any installed UPI app (PhonePe, Google Pay, Paytm, BHIM) and handle success/failure callbacks. Please provide: (1) a PaymentHelper Kotlin class with a launchUpiPayment function, (2) URL encoding logic for the transaction note and merchant name, (3) an ActivityResultLauncher implementation that parses the response Status field, (4) error handling for \"no UPI app installed\" using a package query, (5) a sample usage in an Activity showing a 499 INR payment, (6) AndroidManifest.xml queries block for Android 11+ package visibility. Format the output as four code blocks: Kotlin helper, Activity usage, manifest snippet, and a sequence diagram in ASCII. Consider these constraints: follow NPCI UPI Linking Specification 2.0, validate the VPA format, handle the transaction reference ID (tr) uniquely per attempt, and ensure compatibility with Android 7 through Android 14.",
+      "tags": [
+        "upi",
+        "deep-link",
+        "android",
+        "kotlin"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-006",
+      "title": "Flutter BLoC State Management for Login Flow",
+      "prompt": "Act as a Flutter architect with 5 years of experience using the flutter_bloc package in production apps. I need you to generate a complete authentication BLoC for a ride-hailing app called \"AutoSawari\" serving auto-rickshaw bookings in Ahmedabad. Here is the context: the login flow involves entering a mobile number, receiving an OTP via MSG91, verifying it, and fetching a JWT from a /auth/verify endpoint. The app uses Dio for networking and flutter_secure_storage for token persistence. Please provide: (1) AuthEvent sealed class with MobileSubmitted, OtpVerified, LogoutRequested events, (2) AuthState sealed class with Initial, Loading, OtpSent, Authenticated, Error states, (3) AuthBloc class with event handlers, (4) a mock AuthRepository interface, (5) unit tests using bloc_test for three core flows, (6) a BlocBuilder widget usage example. Format the output as five separate Dart files with imports. Consider these constraints: handle network timeouts gracefully on slow Jio 4G, never store OTP in state, emit Loading before every async call, include Hinglish error messages, and follow the Bloc 8.x API with on<Event> handlers. Do not use the deprecated mapEventToState pattern.",
+      "tags": [
+        "flutter",
+        "bloc",
+        "state-management",
+        "auth"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-007",
+      "title": "Hive Offline Storage for Flutter Shopping Cart",
+      "prompt": "Act as a Flutter developer with 5 years of experience building offline-first apps for Bharat users. I need you to generate a Hive-based local storage layer for a shopping cart in a D2C fashion app called \"DesiThreads\". Here is the context: users in tier-3 towns like Varanasi browse products on unstable 2G/3G networks, add items to cart, and expect the cart to persist across app restarts and sync to the server when connectivity returns. Please provide: (1) a CartItem Hive TypeAdapter with fields productId, name, price in INR, quantity, size, addedAt, (2) build.yaml and build_runner setup instructions, (3) a CartRepository class with add, remove, update, clear, and getAll methods, (4) a connectivity_plus listener that triggers sync when online, (5) a sync function that POSTs to /api/cart/sync and handles conflicts using last-write-wins, (6) usage example inside a ChangeNotifierProvider. Format the output as labeled code blocks with file paths. Consider these constraints: keep the Hive box size under 2MB for low-storage devices, compact the box weekly, handle TypeAdapter versioning for schema migrations, encrypt the box using HiveAesCipher for sensitive fields, and return Hinglish error messages on sync failures.",
+      "tags": [
+        "flutter",
+        "hive",
+        "offline-first",
+        "sync"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-008",
+      "title": "App Store Listing Copy for iOS Education App",
+      "prompt": "Act as an ASO copywriter with 4 years of experience launching EdTech apps on the Indian App Store. I need you to write a complete Apple App Store listing for an iOS app called \"NEET Sarathi\" that helps Class 11-12 students prepare for the NEET medical entrance exam. Here is the context: the app offers 50,000+ MCQs, video lectures by AIIMS alumni, daily mock tests, and a doubt-solving community. Target users are students from Kota, Lucknow, Patna, and Chennai. Please provide: (1) a 30-character app name, (2) a 30-character subtitle, (3) a promotional text of 170 characters, (4) a full description under 4000 characters with feature bullets, teacher credentials, and a strong CTA, (5) 100 characters of keywords separated by commas optimized for App Store search, (6) what\\'s new text for version 3.5.0 highlighting a new AI doubt solver. Format the output as labeled sections showing character counts. Consider these constraints: comply with Apple guideline 2.1 (no misleading claims), avoid phrases like \"guaranteed selection\", mention NCERT alignment, include keywords like \"NEET 2027\", \"biology mcq\", \"physics class 12\", and balance English with one Hindi phrase for cultural warmth.",
+      "tags": [
+        "aso",
+        "app-store",
+        "ios",
+        "edtech"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-009",
+      "title": "React Native Form with Aadhaar and PAN Validation",
+      "prompt": "Act as a React Native developer with 6 years of experience building KYC flows for Indian fintech apps. I need you to generate a KYC form screen that collects a user\\'s full name, Aadhaar number, PAN number, and date of birth. Here is the context: the app is a P2P lending platform called \"UdhaarMitra\" regulated under RBI\\'s NBFC-P2P framework. Users are first-time digital borrowers from tier-2 cities. Please provide: (1) a functional component using React Hook Form and Yup validation, (2) Aadhaar validation that checks the 12-digit format and Verhoeff checksum, (3) PAN validation with the AAAPL1234C regex, (4) masked input for Aadhaar showing only last 4 digits after blur, (5) a date picker restricted to age 18-65, (6) Hinglish error messages, (7) a sticky Submit button disabled until all fields are valid. Format the output as a single .tsx file plus a yupSchemas.ts file. Consider these constraints: never log Aadhaar to console, use react-native-keyboard-aware-scroll-view for small screens, support Hindi and English input, and ensure the form works on React Native 0.73+ without any native module outside the core set.",
+      "tags": [
+        "react-native",
+        "kyc",
+        "form-validation",
+        "aadhaar"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-010",
+      "title": "Push Notification Segmentation by City and Language",
+      "prompt": "Act as a mobile growth engineer with 5 years of experience running push notification campaigns for Indian consumer apps at scale. I need you to design an FCM topic subscription strategy for a food delivery app called \"BhukkadBox\" operating in 40 Indian cities. Here is the context: the app wants to send targeted promos based on user city, preferred language (Hindi, English, Tamil, Telugu, Marathi, Bengali), and order history tier (new, regular, VIP). Please provide: (1) a topic naming convention document with examples like promo_mumbai_hi_vip, (2) the client-side subscription logic in Kotlin for Android, (3) a server-side FCM multicast example in Node.js targeting up to 500 tokens per call, (4) a quiet hours rule respecting IST 10 PM to 7 AM per user timezone, (5) a sample campaign plan for Diwali 2026 with 3 waves across topics, (6) metrics to track (open rate, conversion, unsubscribe). Format the output as a mix of markdown sections and code blocks. Consider these constraints: stay within FCM\\'s 2000-topic-per-device limit, support opt-out per category via user settings, log subscriptions to BigQuery for analytics, and handle topic migration when users change their city.",
+      "tags": [
+        "fcm",
+        "segmentation",
+        "push-notifications",
+        "growth"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-011",
+      "title": "Flutter SQLite Helper for Offline Product Catalog",
+      "prompt": "Act as a Flutter developer with 5 years of experience building offline catalogs for rural retail apps. I need you to generate a sqflite-based helper class for a B2B kirana ordering app called \"DukaanWala\" used by small shop owners in UP and Bihar. Here is the context: the app must store 5,000 SKUs with name, HSN code, MRP, GST rate, stock, and image URL so shopkeepers can browse the catalog on 2G or no network. Please provide: (1) a DatabaseHelper singleton class with onCreate and onUpgrade, (2) a Product model with fromMap and toMap methods, (3) CRUD methods plus a paginated search by name with LIKE queries, (4) a batch insert function that loads 5,000 products from a JSON asset on first launch, (5) an index on the name and hsn columns for fast lookup, (6) a version 2 migration that adds a \"category\" column. Format the output as separate Dart files with imports. Consider these constraints: keep DB size under 20MB using compressed image URLs (not blobs), use transactions for batch writes, handle sqflite exceptions gracefully, return Hinglish error messages, and ensure the DB works on Android 7+ and iOS 13+.",
+      "tags": [
+        "flutter",
+        "sqlite",
+        "offline-first",
+        "sqflite"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-012",
+      "title": "Android Deep Link for WhatsApp Share Intent",
+      "prompt": "Act as an Android developer with 5 years of experience building share flows for Indian social commerce apps. I need you to generate a Kotlin implementation that shares a product link and image to WhatsApp using an intent. Here is the context: the app is a reseller platform called \"MeriDukaan\" where users forward product cards to WhatsApp groups to earn commission. Each card includes a product name, MRP in INR, discounted price, a referral link, and a JPEG image from a URL. Please provide: (1) a ShareHelper Kotlin object with a shareToWhatsApp function, (2) logic to download the image to cache using OkHttp, (3) FileProvider setup for Android 7+ with a file_paths.xml, (4) intent construction with Intent.ACTION_SEND, type image/jpeg, EXTRA_STREAM, and EXTRA_TEXT containing Hinglish copy like \"Bhai ye dekho, sirf 299 me!\", (5) fallback when WhatsApp is not installed, (6) a usage example inside a ViewModel. Format the output as Kotlin code blocks plus the manifest and file_paths.xml. Consider these constraints: respect Android 13 scoped storage, handle WhatsApp Business package com.whatsapp.w4b as fallback, log share events to Firebase Analytics, and truncate captions to 1000 characters to avoid WhatsApp rejection.",
+      "tags": [
+        "android",
+        "whatsapp",
+        "deep-link",
+        "share-intent"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-013",
+      "title": "React Native Redux Toolkit Slice for Cart",
+      "prompt": "Act as a React Native developer with 5 years of experience using Redux Toolkit in production e-commerce apps. I need you to generate a cart slice for a fashion app called \"StyleGali\" targeting Gen-Z users in Mumbai and Bengaluru. Here is the context: the cart holds products with size, color, quantity, price in INR, and GST. Users can add, remove, update quantity, apply a coupon, and clear the cart. Please provide: (1) a cartSlice.ts using createSlice with typed initial state, (2) reducers for addItem, removeItem, updateQty, applyCoupon, clearCart, (3) a selector that computes subtotal, GST at 5 percent, delivery fee (free above 999 INR), and grand total, (4) an async thunk that syncs the cart to /api/cart on every change with debouncing, (5) a sample component using useSelector and useDispatch, (6) Jest tests for the reducers. Format the output as three TypeScript files with clear imports. Consider these constraints: use the Redux Toolkit 2.x API, avoid mutating state outside Immer, persist cart to AsyncStorage using redux-persist, handle network failures without losing local cart data, and include Hinglish toast messages on errors.",
+      "tags": [
+        "react-native",
+        "redux-toolkit",
+        "state-management",
+        "typescript"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-014",
+      "title": "Play Store Short Description Optimized for Bharat",
+      "prompt": "Act as an ASO strategist with 4 years of experience optimizing Play Store listings for Bharat-first apps. I need you to generate 10 variants of an 80-character Play Store short description for a vernacular news app called \"Khabar Express\" that publishes in Hindi, Marathi, Bengali, Tamil, and Telugu. Here is the context: the app targets 200 million vernacular readers in tier-2 and tier-3 cities who prefer reading local news over English papers. Competitors are Dainik Bhaskar, Dailyhunt, and Inshorts. Please provide: (1) 5 variants in English with primary keywords, (2) 5 variants in Hinglish emphasizing vernacular support, (3) a 3-sentence rationale for each variant explaining keyword density and emotional hook, (4) a ranking of variants by expected install uplift, (5) 2 A/B test plans using Play Store experiments. Format the output as a numbered list with character counts in parentheses. Consider these constraints: every variant must stay at or under 80 characters, include at least one of \"news\", \"samachar\", or \"khabar\" as a keyword, avoid emojis that break on older Android, follow Google Play policy (no superlatives like \"best\"), and clearly differentiate from competitors through unique value props.",
+      "tags": [
+        "aso",
+        "play-store",
+        "vernacular",
+        "bharat"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-015",
+      "title": "Flutter ListView with Pull to Refresh and Pagination",
+      "prompt": "Act as a Flutter developer with 4 years of experience building content feeds for Indian social apps. I need you to generate a reusable paginated ListView widget for a regional short-video app called \"DesiReels\" used by creators from Jaipur and Indore. Here is the context: the feed loads 20 videos per page from /api/feed?page=N, supports pull-to-refresh, infinite scroll, and shows a skeleton while loading. Please provide: (1) a PaginatedFeed StatefulWidget with a ScrollController, (2) a RefreshIndicator wrapper, (3) a load-more trigger when the user scrolls within 500px of the bottom, (4) a FeedItem model class, (5) a mock repository returning fake data, (6) empty state, error state, and loading state handlers with Hinglish copy, (7) a retry button on error. Format the output as a single Dart file with comments explaining each section. Consider these constraints: keep memory usage under 80MB for low-RAM devices, cancel pending requests when the widget unmounts, debounce the scroll listener to avoid duplicate fetches, cache the last page in memory, and ensure smooth scrolling at 60fps on entry-level phones.",
+      "tags": [
+        "flutter",
+        "pagination",
+        "listview",
+        "infinite-scroll"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-016",
+      "title": "Firebase Dynamic Link for Referral Campaign",
+      "prompt": "Act as a mobile growth engineer with 5 years of experience running referral campaigns on Indian consumer apps. I need you to generate a complete Firebase Dynamic Links setup for a referral campaign in a wealth-management app called \"NiveshGuru\" where users earn 200 INR per successful signup. Here is the context: the referral link should open the app if installed, redirect to Play Store or App Store if not, carry a referral code, and track installs via Firebase Analytics. Please provide: (1) a Kotlin function that creates a long dynamic link with parameters link, apn, ibi, amv, ofl, efr, st, sd, si, (2) a Kotlin listener that parses the incoming deep link in onCreate, (3) a short link generation snippet using the REST API, (4) 5 sample referral messages in Hinglish for WhatsApp sharing, (5) attribution logic that credits the referrer on first_open event, (6) a fallback web landing page URL scheme. Format the output as Kotlin code blocks and a short markdown note on the deprecation of Dynamic Links in August 2025 with a migration suggestion to App Links. Consider these constraints: comply with RBI advertising norms for investment apps, never promise returns, log referrals to a server endpoint, and handle the case where a user clicks the same link multiple times.",
+      "tags": [
+        "firebase",
+        "dynamic-links",
+        "referral",
+        "deep-link"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-017",
+      "title": "Flutter Riverpod 2.x Async Provider for API Data",
+      "prompt": "Act as a senior Flutter developer with 6 years of experience using Riverpod in production. I need you to generate a Riverpod 2.x AsyncNotifier implementation for fetching and caching a list of mutual funds in a wealth-tech app called \"SIPKaro\". Here is the context: the app calls /api/funds returning 2,000 funds with NAV, 1Y return, expense ratio, AMC name, and risk level. Users filter by category (equity, debt, hybrid) and sort by return. Please provide: (1) a FundsNotifier extending AsyncNotifier with a build method, (2) methods refresh, filterByCategory, sortByReturn, (3) a family provider fundsByAmc that takes an AMC name, (4) a FundsRepository class with Dio, (5) a consumer widget example using ref.watch and a when clause, (6) error handling that surfaces Hinglish messages like \"Data load nahi hua, dobara try karo\". Format the output as four Dart files. Consider these constraints: use riverpod_generator with the @riverpod annotation, handle cancellation on dispose, cache results for 5 minutes in memory, follow SEBI mutual fund disclaimer requirements, and ensure the providers are testable with ProviderContainer.",
+      "tags": [
+        "flutter",
+        "riverpod",
+        "async",
+        "state-management"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-018",
+      "title": "Offline-First Sync Engine with Conflict Resolution",
+      "prompt": "Act as a mobile architect with 8 years of experience designing offline-first systems for healthcare apps in India. I need you to design and implement a sync engine for a doctor\\'s appointment app called \"ClinicMitra\" used by private practitioners in tier-2 cities with flaky BSNL broadband. Here is the context: the app locally creates and edits patient records, prescriptions, and appointments using SQLite, and syncs bidirectionally with a REST API when online. Conflicts can occur when the same record is edited offline on two devices. Please provide: (1) a Dart SyncEngine class with enqueue, processQueue, and handleConflict methods, (2) a local outbox table schema, (3) a last-write-wins strategy with a fallback to manual resolution for prescriptions, (4) exponential backoff on network errors (1s, 2s, 4s, up to 60s), (5) a WorkManager task on Android that triggers sync every 15 minutes, (6) test cases for 5 conflict scenarios. Format the output as Dart code, SQL schema, and a markdown flowchart. Consider these constraints: comply with DPDP Act 2023 for patient data, encrypt the outbox using AES, never log PII, handle partial failures idempotently, and keep the sync payload under 1MB per request for slow networks.",
+      "tags": [
+        "offline-first",
+        "sync",
+        "sqlite",
+        "flutter"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-019",
+      "title": "React Native Universal Links for iOS Banking App",
+      "prompt": "Act as an iOS engineer with 6 years of experience building universal links for Indian banking apps. I need you to generate a complete universal links setup for a React Native neobank app called \"AasaanBank\". Here is the context: links like https://aasaan.bank/open/transfer?amount=5000&to=rahul@okhdfc should open the app directly to the transfer screen pre-filled. Please provide: (1) the apple-app-site-association JSON file to host at /.well-known/, (2) Xcode Associated Domains entitlement setup steps, (3) a RootNavigator.tsx that handles incoming URLs via Linking.getInitialURL and the url event, (4) a parser that validates the path and parameters, (5) routing logic to the TransferScreen with pre-filled values, (6) a fallback universal link interstitial web page HTML, (7) test steps using xcrun. Format the output as a mix of JSON, TypeScript, HTML, and numbered steps. Consider these constraints: validate the VPA format before navigating, never auto-initiate a transaction without user confirmation, comply with RBI digital lending guidelines, handle the case where the app is killed versus backgrounded, and ensure links work on iOS 15+.",
+      "tags": [
+        "react-native",
+        "universal-links",
+        "ios",
+        "deep-link"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-020",
+      "title": "FCM Rich Notification with Image and Action Buttons",
+      "prompt": "Act as an Android engineer with 6 years of experience designing rich FCM notifications. I need you to generate a complete implementation of a rich notification with a big picture, two action buttons, and a custom collapsed layout for a food delivery app called \"ThaliExpress\" in Chennai. Here is the context: when an order is out for delivery, the user should see the rider\\'s photo, ETA in minutes, \"Call Rider\" and \"Track Order\" action buttons. The notification must work on Android 8 through Android 14. Please provide: (1) a Kotlin NotificationBuilder class using NotificationCompat, (2) NotificationChannel setup for orders with HIGH importance, (3) BigPictureStyle with summary text, (4) two PendingIntents for the action buttons with FLAG_IMMUTABLE, (5) image download using Glide into a Bitmap, (6) a sample FCM data payload JSON, (7) handling for Xiaomi and Oppo OEM restrictions. Format the output as Kotlin code, XML channel setup, and JSON. Consider these constraints: respect POST_NOTIFICATIONS permission on Android 13+, handle Doze mode with setAllowWhileIdle, include a Hinglish title like \"Aapka khana aa raha hai!\", and test against notification cancellation on order completion.",
+      "tags": [
+        "fcm",
+        "android",
+        "rich-notification",
+        "kotlin"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-021",
+      "title": "Flutter Custom Razorpay Checkout Integration",
+      "prompt": "Act as a Flutter developer with 5 years of experience integrating payment gateways in Indian consumer apps. I need you to generate a complete Razorpay checkout integration for a subscription app called \"YogaGuru\" selling 999 INR monthly plans. Here is the context: the app uses the razorpay_flutter package, creates an order on the backend, opens the checkout, and verifies the signature on success. Please provide: (1) a PaymentService class with createOrder, openCheckout, and verifyPayment methods, (2) a Node.js Express endpoint that creates an order and returns the order_id, (3) checkout options including prefill, notes, theme color, and currency INR, (4) event handlers for PAYMENT_SUCCESS, ERROR, EXTERNAL_WALLET, (5) server-side signature verification using HMAC SHA256, (6) a Flutter UI that shows a loader during checkout and a success screen on completion. Format the output as labeled Dart and JavaScript code blocks. Consider these constraints: never expose the key_secret in the Flutter code, handle user cancellation gracefully with Hinglish copy, log failed payments to Firebase Crashlytics with payment_id, comply with RBI tokenization rules (no raw card storage), and support UPI, cards, netbanking, and wallets.",
+      "tags": [
+        "flutter",
+        "razorpay",
+        "payments",
+        "upi"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-022",
+      "title": "React Native Background Sync with WorkManager",
+      "prompt": "Act as a React Native engineer with 6 years of experience building background jobs for Indian field-force apps. I need you to generate a background sync solution using react-native-background-fetch for a sales tracking app called \"FieldForce Pro\" used by 5,000 FMCG reps across India. Here is the context: reps capture orders offline during shop visits, and the app must sync pending orders every 15 minutes when online, even when the app is killed. Please provide: (1) index.js bootstrap with BackgroundFetch.configure, (2) a headless task handler for Android, (3) a syncPendingOrders function that reads from AsyncStorage, POSTs to /api/orders/bulk, and clears synced items, (4) retry logic with exponential backoff, (5) battery-friendly constraints (requires network, requires charging false), (6) iOS Info.plist background modes setup. Format the output as JavaScript, native setup steps, and a markdown note on testing with adb. Consider these constraints: handle Android Doze mode, test on Xiaomi MIUI which kills background tasks aggressively, log sync events to a local SQLite table for audit, never drop failed orders, and ensure the sync respects data charges on metered Jio networks.",
+      "tags": [
+        "react-native",
+        "background-sync",
+        "offline-first",
+        "workmanager"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-023",
+      "title": "ASO Keyword Research Report for Fintech App",
+      "prompt": "Act as an ASO analyst with 5 years of experience researching keywords for Indian fintech apps on the Play Store and App Store. I need you to produce a complete ASO keyword research report for a credit score monitoring app called \"CreditGyaan\" launching in May 2026. Here is the context: the app offers free CIBIL checks, credit card recommendations, and personalized tips to improve scores. Competitors are CRED, OneScore, Paisabazaar, and IDFC First Bank. Please provide: (1) a table of 30 keywords with estimated monthly search volume, difficulty score, and relevance rating, (2) a breakdown of English vs Hinglish keywords, (3) the top 10 competitor apps with their primary keywords, (4) 5 long-tail keyword clusters like \"cibil score kaise check kare\", (5) a suggested primary keyword for the app title, (6) a 90-day ASO roadmap with 3 experiments. Format the output as markdown with tables. Consider these constraints: use realistic India-only data, note that Play Store has no direct keyword field so the focus must be on title, short description, and long description, comply with Google Play finance policy, and avoid any keyword implying guaranteed loan approval.",
+      "tags": [
+        "aso",
+        "keyword-research",
+        "fintech",
+        "analysis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-024",
+      "title": "Flutter Hive Type Adapter with Schema Migration",
+      "prompt": "Act as a senior Flutter developer with 6 years of experience evolving Hive schemas in production apps. I need you to generate a migration strategy and code for a notes app called \"DiaryDesi\" that must evolve its Note type adapter from v1 to v3 without losing user data. Here is the context: v1 has id, title, body; v2 adds tags (List<String>); v3 adds color (int) and pinnedAt (DateTime?). 500,000 installed users have data in v1 or v2. Please provide: (1) three Note classes NoteV1, NoteV2, NoteV3 with proper @HiveType and @HiveField annotations, (2) a MigrationManager class that reads the schema version from a metadata box and applies migrations sequentially, (3) v1-to-v2 migration code that sets default tags, (4) v2-to-v3 migration code that sets default color to 0xFFFFFF and null pinnedAt, (5) a rollback plan if migration fails, (6) unit tests using a temp box. Format the output as Dart code blocks with file paths. Consider these constraints: never break existing typeIds, run migrations on a background isolate to avoid UI jank, log migration progress to Firebase Analytics, handle partial failures by preserving the old box as a backup, and complete migration within 3 seconds for 10,000 notes.",
+      "tags": [
+        "flutter",
+        "hive",
+        "migration",
+        "offline-first"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-025",
+      "title": "Deep Link Routing with go_router and Auth Guard",
+      "prompt": "Act as a Flutter architect with 5 years of experience designing navigation for large apps. I need you to generate a go_router 14.x setup with deep link routing and an auth guard for a healthcare app called \"SehatSathi\" with 25 screens. Here is the context: the app must handle external deep links like /appointment/123, /doctor/42, /prescription/download?id=xyz, redirect unauthenticated users to /login, preserve the intended destination, and support nested ShellRoutes for a bottom navigation bar. Please provide: (1) a router.dart file with GoRouter configuration, (2) a redirect function that reads auth state from Riverpod and preserves the deep link, (3) three ShellRoutes for Home, Appointments, Profile tabs, (4) typed route classes using the go_router_builder package, (5) a handler for unknown routes with a 404 screen, (6) a test that verifies a deep link to /appointment/123 redirects to login and then back. Format the output as Dart files with imports. Consider these constraints: never leak protected route parameters in logs, comply with DPDP Act 2023 by not showing patient data on the 404 screen, handle hot-restart correctly, and ensure web URL compatibility for a future Flutter Web launch.",
+      "tags": [
+        "flutter",
+        "go-router",
+        "deep-link",
+        "navigation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-026",
+      "title": "FCM Quiet Hours Respecting IST Timezones",
+      "prompt": "Act as a backend engineer with 6 years of experience orchestrating FCM campaigns for Indian consumer apps. I need you to design a quiet-hours enforcement layer for a daily-deals app called \"HarRozOffer\" sending 10 million notifications per day. Here is the context: users are spread across IST (no DST), but NRI users in US, UK, Dubai also use the app. The rule is no promotional notifications between 10 PM and 7 AM in the user\\'s local timezone. Please provide: (1) a Node.js scheduler using node-cron that batches sends every 15 minutes, (2) a Redis-backed user profile lookup returning tz, (3) a function isQuietHours(tz, now) using date-fns-tz, (4) a queueing strategy that defers notifications falling in quiet hours to the next allowed window, (5) a priority override for transactional notifications like OTPs, (6) observability metrics including skipped_for_quiet_hours and deferred_count. Format the output as JavaScript code, a short architecture diagram in ASCII, and a markdown rationale. Consider these constraints: handle 100k writes per second at peak, never block the main queue, log every deferral to BigQuery, respect TRAI DND regulations by checking a do_not_disturb flag, and allow users to customize their quiet hours via /api/user/preferences.",
+      "tags": [
+        "fcm",
+        "quiet-hours",
+        "backend",
+        "push-notifications"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-027",
+      "title": "React Native Offline Queue with MMKV and NetInfo",
+      "prompt": "Act as a React Native developer with 6 years of experience building robust offline queues. I need you to generate an offline action queue using react-native-mmkv and @react-native-community/netinfo for a tele-medicine app called \"DocOnline\" serving rural Odisha. Here is the context: users on 2G networks submit symptoms, upload photos, and request consultations. Actions must queue locally, retry when online, and maintain order. Please provide: (1) an OfflineQueue TypeScript class with enqueue, dequeue, process methods, (2) action typing with a discriminated union (SubmitSymptom, UploadPhoto, RequestConsult), (3) a NetInfo listener that triggers processing on reconnect, (4) exponential backoff per action with a max of 5 retries, (5) progress callbacks for UI updates, (6) a hook useOfflineQueue for components. Format the output as three TypeScript files. Consider these constraints: never lose an action across app restarts, handle mid-upload interruptions with resumable uploads, encrypt the MMKV instance for patient data compliance with DPDP Act 2023, keep memory usage under 20MB, show Hinglish toast messages on retry, and ensure the queue processes at most 3 actions concurrently to conserve bandwidth.",
+      "tags": [
+        "react-native",
+        "offline-first",
+        "mmkv",
+        "queue"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-028",
+      "title": "App Store Optimization A/B Test Plan",
+      "prompt": "Act as an ASO manager with 6 years of experience running Play Store Experiments for Indian consumer apps. I need you to design a 90-day A/B testing plan for a cab aggregator called \"RideApna\" competing with Ola, Uber, and Rapido in Delhi NCR. Here is the context: the app currently gets 50k Play Store visits per day with a 3.2 percent install conversion rate. Management wants to raise conversion to 5 percent. Please provide: (1) 6 experiment hypotheses covering icon, feature graphic, screenshots, short description, long description, and video, (2) expected uplift for each based on ASO industry benchmarks, (3) statistical sample size requirements at 95 percent confidence, (4) a prioritization matrix using ICE scoring, (5) a testing calendar with 6 back-to-back experiments, (6) metrics to track (impression to install, bounce rate, uninstall rate). Format the output as a markdown report with tables. Consider these constraints: Play Store Experiments allow only 3 concurrent variants, winners must run at least 7 days, include one Hinglish copy test, comply with Google Play policy, and account for Indian festival traffic spikes around Diwali and Dussehra.",
+      "tags": [
+        "aso",
+        "ab-testing",
+        "play-store",
+        "analysis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-029",
+      "title": "Flutter Widget Tests for Payment Flow",
+      "prompt": "Act as a Flutter QA engineer with 5 years of experience writing widget and integration tests for fintech apps. I need you to generate a comprehensive widget test suite for a UPI payment screen in a money transfer app called \"SendMoney\". Here is the context: the screen accepts a recipient VPA, amount in INR, note, and launches a UPI intent via url_launcher. Please provide: (1) a widget_test.dart file with tests for rendering, VPA validation, amount validation (min 1, max 100000), button enable/disable logic, and Hinglish error messages, (2) mocks for url_launcher using mocktail, (3) a golden test for the success state, (4) an integration test that simulates entering data and tapping Pay, (5) test coverage goals of 85 percent, (6) a GitHub Actions workflow snippet that runs tests on every PR. Format the output as Dart code plus YAML. Consider these constraints: never hit real UPI endpoints, use pumpAndSettle with a 2-second timeout, handle async providers correctly, follow the arrange-act-assert pattern, and comply with NPCI UPI test VPA formats like test@success and test@failure.",
+      "tags": [
+        "flutter",
+        "testing",
+        "widget-tests",
+        "payments"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-030",
+      "title": "Android App Bundle Size Optimization Report",
+      "prompt": "Act as an Android performance engineer with 7 years of experience reducing APK sizes for Indian apps targeting Bharat users. I need you to produce an app bundle optimization plan for a social commerce app currently weighing 85MB. Here is the context: the target is under 25MB since users in tier-3 towns on 32GB phones with 3GB data packs refuse to install heavier apps. The app uses React Native 0.74, 40 native modules, and 6 fonts. Please provide: (1) a step-by-step audit plan using bundletool and APK Analyzer, (2) recommendations for Play Feature Delivery, on-demand modules, and asset packs, (3) a list of 10 common heavy libraries with lighter alternatives (e.g., Glide vs Coil, Moshi vs Gson), (4) ProGuard and R8 configuration for aggressive shrinking, (5) language resource stripping to keep only en, hi, mr, ta, (6) a target-by-target size budget (kotlin stdlib, native libs, assets, drawables). Format the output as a markdown report with tables. Consider these constraints: never break functionality, keep Play Core library mandatory, maintain Hindi and Marathi locale support, and ensure the base APK downloaded first is under 15MB.",
+      "tags": [
+        "android",
+        "apk-size",
+        "optimization",
+        "analysis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-031",
+      "title": "React Native Reanimated 3 Custom Bottom Sheet",
+      "prompt": "Act as a React Native animation specialist with 6 years of experience using Reanimated 3 and Gesture Handler. I need you to generate a performant custom bottom sheet component for a ride-booking app called \"NammaRide\" in Bengaluru. Here is the context: the bottom sheet shows ride options (auto, mini, prime), snaps to 3 heights (25 percent, 50 percent, 90 percent), supports pan gestures, and runs at 60fps on Redmi Note 11. Please provide: (1) a BottomSheet.tsx component using useSharedValue and useAnimatedStyle, (2) a pan gesture handler that tracks translationY, (3) spring animation with snap points, (4) a backdrop that fades based on sheet position, (5) a content area using a BottomSheetScrollView, (6) TypeScript props with onSnap callback. Format the output as a single .tsx file with concise inline comments. Consider these constraints: all calculations must run on the UI thread, avoid bridge traffic, handle Android back button by snapping down, support keyboard avoidance when an input is focused, and test against Reanimated 3.12+ with the new architecture enabled.",
+      "tags": [
+        "react-native",
+        "reanimated",
+        "bottom-sheet",
+        "animation"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-032",
+      "title": "Deep Link Analytics with Branch and Firebase",
+      "prompt": "Act as a mobile growth engineer with 6 years of experience instrumenting deep link attribution. I need you to design a hybrid Branch + Firebase Analytics setup for a marketplace app called \"BharatBazaar\" launching a WhatsApp-driven referral campaign. Here is the context: the goal is to track which WhatsApp groups drive the most installs and first purchases so marketing can double down on winners. Please provide: (1) a Branch dashboard event schema with custom events install, signup, first_purchase, (2) Flutter integration code using the flutter_branch_sdk, (3) a deferred deep link handler that opens the correct product page after install, (4) UTM parameter mapping to Branch links, (5) a BigQuery export schema to join Branch and Firebase data, (6) 5 example reports the marketing team would run daily. Format the output as Dart code, SQL, and a short markdown write-up. Consider these constraints: comply with DPDP Act 2023 by not sending PII to Branch, use Firebase Analytics as the ground truth for revenue, handle the Dynamic Links deprecation for apps previously on Firebase, and ensure the setup scales to 1 million link clicks per month.",
+      "tags": [
+        "deep-link",
+        "analytics",
+        "branch",
+        "firebase"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-033",
+      "title": "Modular Flutter Architecture with Clean Layers",
+      "prompt": "Act as a principal Flutter architect with 10 years of experience leading mobile teams at Indian unicorns. I need you to design a modular clean architecture for a super-app called \"EkApp\" consolidating payments, food, travel, and grocery into one codebase. Here is the context: the team has 40 engineers across Bengaluru and Gurugram, the codebase must support feature teams working in parallel without conflict, and deployments target Android and iOS with shared Dart code. Please provide: (1) a melos-based monorepo structure with packages for core, design_system, feature_payments, feature_food, feature_travel, feature_grocery, (2) dependency rules between packages enforced via import linter, (3) a clean architecture layer breakdown (presentation, domain, data) per feature, (4) a DI setup using get_it with scoped registration, (5) a feature-flag system for dark launches, (6) a CI matrix that tests each package independently. Format the output as a directory tree, YAML snippets, and a markdown rationale. Consider these constraints: keep the base app size under 30MB, support gradual migration from the current monolith, enforce zero cross-feature imports, comply with RBI tokenization for the payments module, and ensure each feature team can ship independently.",
+      "tags": [
+        "flutter",
+        "clean-architecture",
+        "monorepo",
+        "melos"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-034",
+      "title": "RBI Tokenization Flow for Card Payments",
+      "prompt": "Act as a payments architect with 8 years of experience implementing RBI card tokenization for Indian fintechs. I need you to design a mobile-side tokenization flow for a React Native app called \"SwiftPay\" complying with the RBI CoF (Card-on-File) tokenization guidelines effective October 2022. Here is the context: the app previously stored raw card details for recurring billing, and must migrate 2 million existing mandates to network tokens (Visa, Mastercard, RuPay) via a token service provider like Juspay or Razorpay. Please provide: (1) a sequence diagram of the tokenization handshake between app, gateway, network, and issuer, (2) a React Native screen that collects card details, sends them to the gateway SDK, and receives a token reference, (3) backend storage schema that stores only the token reference, not PAN, (4) a migration plan for existing mandates with user re-consent, (5) error handling for issuer-declined tokens, (6) a testing checklist using sandbox PANs. Format the output as a markdown document with code snippets. Consider these constraints: never touch the PAN in app memory, comply with PCI DSS SAQ A scope, follow RBI circular on CoF tokenization word-for-word, handle network token lifecycle events (update, delete, suspend), and plan for RuPay tokenization parity.",
+      "tags": [
+        "react-native",
+        "rbi-tokenization",
+        "payments",
+        "security"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-035",
+      "title": "End-to-End Encrypted Chat on Flutter with Signal Protocol",
+      "prompt": "Act as a mobile security engineer with 8 years of experience implementing end-to-end encryption in Indian messaging apps. I need you to design an E2EE chat module in Flutter using the Signal Protocol for a vernacular social app called \"DostiBox\" targeting 50 million tier-2 users. Here is the context: the app must provide forward secrecy, offline message delivery via FCM, multi-device support, and media encryption. Please provide: (1) a high-level architecture using libsignal-protocol-dart, (2) a key management strategy with identity keys, prekeys, signed prekeys stored in flutter_secure_storage, (3) a ratchet implementation for 1-1 chats, (4) a session establishment flow with X3DH, (5) a media encryption scheme using AES-GCM with per-message keys, (6) a key rotation policy, (7) compliance with Indian IT Rules 2021 traceability requirements including a discussion of the fundamental tension with E2EE. Format the output as a detailed markdown design doc with Dart snippets. Consider these constraints: never store plaintext on the server, handle device re-registration without key loss, support up to 4 devices per user, test against 1 million active users, and document the trade-offs with DPDP Act 2023.",
+      "tags": [
+        "flutter",
+        "e2ee",
+        "signal-protocol",
+        "security"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-036",
+      "title": "CRDT-Based Offline Collaboration on Mobile",
+      "prompt": "Act as a distributed systems engineer with 8 years of experience implementing CRDTs on mobile. I need you to design a Yjs-based collaborative document editor for a Flutter note-taking app called \"SaathiNotes\" targeting students in Kota and Chennai who study in groups. Here is the context: multiple students edit the same note simultaneously on 3G networks, sync via a central server when online, and merge edits without conflicts. Please provide: (1) an architecture diagram of Yjs on Flutter using a Dart port or an FFI binding to Rust yrs, (2) document schema using YMap and YText, (3) a WebSocket sync provider that reconnects with exponential backoff, (4) an offline persistence layer using Hive to store Yjs updates, (5) a presence awareness layer showing who is typing, (6) a conflict resolution demo with 3 concurrent edits. Format the output as a markdown design doc with Dart code blocks. Consider these constraints: sync payloads must stay under 10KB for slow networks, handle document size up to 100KB, never lose a keystroke, support 5 concurrent editors per document, comply with DPDP Act 2023 data localization, and plan for a future end-to-end encrypted sync layer.",
+      "tags": [
+        "flutter",
+        "crdt",
+        "offline-first",
+        "collaboration"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-037",
+      "title": "Mobile Observability with OpenTelemetry and Grafana",
+      "prompt": "Act as a mobile observability engineer with 7 years of experience instrumenting production React Native and Flutter apps. I need you to design an OpenTelemetry-based observability pipeline for a ride-hailing app called \"YatraGo\" with 10 million MAU across India. Here is the context: the team needs to trace a booking request from app tap to backend confirmation, measure cold start, screen render, and API latency, and visualize everything in Grafana Cloud. Please provide: (1) a Flutter SDK setup using opentelemetry-dart with auto-instrumentation for Dio, (2) a trace context propagation strategy across HTTP headers, (3) a mobile-specific span naming convention, (4) a sampling policy that captures 100 percent of errors and 5 percent of happy paths, (5) a Grafana dashboard JSON with panels for cold start P95, booking funnel, and API error rate by city, (6) alerting rules for P95 cold start above 3 seconds. Format the output as Dart code, JSON, and a markdown rationale. Consider these constraints: stay within a 5MB per day data budget for low-data users, never send PII in span attributes, comply with DPDP Act 2023, handle Android background restrictions, and integrate with the existing Firebase Crashlytics setup without duplication.",
+      "tags": [
+        "flutter",
+        "opentelemetry",
+        "observability",
+        "analysis"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-038",
+      "title": "Juspay SDK Integration for Native Payment Experience",
+      "prompt": "Act as a senior mobile developer with 7 years of experience integrating Juspay Hypercheckout into Indian consumer apps. I need you to generate a full Juspay HyperSDK integration for a travel booking app called \"SafarGo\" handling 500k transactions per day across UPI, cards, netbanking, EMI, and wallets. Here is the context: the app uses React Native 0.74 with native Android and iOS modules, and needs a fully native payment experience without a web view to reduce latency on Jio 4G. Please provide: (1) a TypeScript bridge interface for HyperSDK, (2) Android native module in Kotlin that implements initiate, process, and terminate, (3) iOS native module in Swift, (4) order creation call from the backend using Juspay\\'s /orders API, (5) event listeners for process_result, show_loader, hide_loader, (6) error handling for the 30 most common Juspay error codes with Hinglish messages, (7) PCI DSS scope analysis. Format the output as TypeScript, Kotlin, Swift, and markdown blocks. Consider these constraints: comply with RBI CoF tokenization, never log card PAN, handle UPI collect timeouts up to 5 minutes, support recurring mandates via NPCI e-mandate flow, and ensure the integration works on Android 8 to 14 and iOS 15 to 18.",
+      "tags": [
+        "react-native",
+        "juspay",
+        "payments",
+        "native-module"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "code",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-039",
+      "title": "Zero-Downtime Mobile Release Strategy with Feature Flags",
+      "prompt": "Act as a mobile release manager with 8 years of experience running staged rollouts for Indian consumer apps at unicorn scale. I need you to design a zero-downtime release strategy for a Flutter app called \"BigBazaarApp\" with 80 million installs. Here is the context: the team ships a weekly Friday release, has suffered 3 rollback incidents in the last quarter, and now wants a robust process combining Play Store staged rollouts, feature flags, and runtime kill switches. Please provide: (1) a release train calendar with code-freeze, QA, staged rollout phases, (2) a feature flag architecture using Firebase Remote Config with a flutter_firebase_remote_config setup, (3) kill switch patterns for high-risk features like a new payment method, (4) a Play Store staged rollout schedule (1 percent, 5 percent, 10 percent, 25 percent, 50 percent, 100 percent over 7 days), (5) automated rollback criteria based on Crashlytics crash-free rate below 99.5 percent, (6) a post-release observability checklist. Format the output as a markdown playbook with tables and code snippets. Consider these constraints: handle India\\'s high Android fragmentation, respect Play Store 2GB APK limit, comply with RBI tokenization and DPDP Act 2023, and coordinate releases around Diwali and Dussehra traffic peaks.",
+      "tags": [
+        "release-management",
+        "feature-flags",
+        "flutter",
+        "analysis"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    },
+    {
+      "id": "developers-mobile-040",
+      "title": "AI-Powered In-App Search with On-Device Embeddings",
+      "prompt": "Act as a mobile machine learning engineer with 7 years of experience shipping on-device ML for Indian apps. I need you to design an in-app semantic search feature for a recipe app called \"RasoiGhar\" with 200,000 Indian recipes, running entirely on-device for offline users in tier-3 towns. Here is the context: users type queries in Hinglish like \"jaldi banane wali sabzi\" and expect relevant recipes, even offline, without sending data to any server. Please provide: (1) an architecture using a quantized multilingual embedding model (e.g., paraphrase-multilingual-MiniLM-L12-v2) converted to TFLite, (2) an index build pipeline that generates embeddings for all 200k recipes offline and ships them as a 40MB asset, (3) a Flutter wrapper using tflite_flutter for query encoding, (4) a vector similarity search using HNSW or brute-force cosine on a Dart isolate, (5) a fallback BM25 keyword search for short queries, (6) a re-ranking step using recipe popularity. Format the output as a markdown design doc with Dart snippets. Consider these constraints: inference must run under 200ms on Redmi Note 11, RAM usage under 150MB, app size increase under 50MB, support Hindi, English, and Hinglish, and never leak user queries off device to comply with DPDP Act 2023.",
+      "tags": [
+        "flutter",
+        "on-device-ml",
+        "search",
+        "embeddings"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "developers",
+      "subcategory": "mobile"
+    }
+  ]
+}

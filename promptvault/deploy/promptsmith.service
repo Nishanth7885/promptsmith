@@ -1,0 +1,27 @@
+[Unit]
+Description=Prompt Smith (Next.js standalone)
+After=network.target
+
+[Service]
+Type=simple
+User=promptsmith
+Group=promptsmith
+WorkingDirectory=/opt/promptsmith/current
+EnvironmentFile=/etc/promptsmith.env
+ExecStart=/usr/bin/node .next/standalone/server.js
+Restart=on-failure
+RestartSec=2
+# Limits
+LimitNOFILE=65535
+# Hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/promptsmith /opt/promptsmith
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=promptsmith
+
+[Install]
+WantedBy=multi-user.target

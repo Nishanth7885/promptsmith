@@ -1,0 +1,151 @@
+{
+  "category": "banking-insurance",
+  "subcategory": "insurance-agents",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "banking-insurance-insurance-agents-001",
+      "title": "Term Insurance Need Assessment",
+      "prompt": "Act as an IRDAI-certified life insurance advisor (LIC + private). Conduct a term-insurance need assessment for a 32-yr-old IT professional in Bengaluru, married with 2 kids, monthly income ₹1.4L, home loan ₹65L. Cover: (1) Human Life Value (HLV) calculation, (2) family expense + future goals, (3) existing cover gap, (4) recommended sum assured ₹1.5 Cr term + ₹50L critical illness, (5) policy term till age 60, (6) premium-paying mode, (7) IRDAI grievance + free-look period, (8) nominee / MWP Act benefits. Constraints: align with IRDAI guidelines; transparent commission disclosure; document for audit; bilingual.",
+      "category": "banking-insurance",
+      "subcategory": "insurance-agents",
+      "tags": ["term-insurance", "hlv", "irdai", "mwp-act", "need-analysis"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true
+    },
+    {
+      "id": "banking-insurance-insurance-agents-002",
+      "title": "Health Insurance Comparison Table",
+      "prompt": "Act as a health-insurance broker (PolicyBazaar / Acko / Star Health-empanelled). Compare 5 family floater health policies (₹10L SI, family of 4 — couple + 2 kids) for a Pune resident. For each: (1) sum insured, (2) co-pay, (3) sub-limits (room rent, ICU, OPD, maternity), (4) cashless network in Pune, (5) claim ratio + complaint ratio (latest IRDAI data), (6) waiting periods (PED, specific illness), (7) premium ₹X/year, (8) day-care procedures. Recommend top-2 with reasoning. Constraints: cite IRDAI Annual Report; honest disclosure of broker commission; respect customer privacy; INR figures.",
+      "category": "banking-insurance",
+      "subcategory": "insurance-agents",
+      "tags": ["health-insurance", "comparison", "irdai", "family-floater", "cashless"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": true
+    },
+    {
+      "id": "banking-insurance-insurance-agents-003",
+      "title": "Claim Documentation for Hospitalization",
+      "prompt": "Act as a senior claim-processing executive at a TPA. Build a complete claim-documentation kit for a planned hospitalisation (knee replacement ₹3.8L) at a network hospital in Mumbai. Cover: (1) pre-authorisation form, (2) doctor's recommendation + diagnosis ICD-10 code, (3) policy + ID proof, (4) pre-existing disease declaration, (5) pre-admission diagnostics, (6) hospital empanelment confirmation, (7) cashless authorisation flow, (8) post-discharge documents (discharge summary, bills, payment receipt). Constraints: align with IRDAI claim turnaround; cashless SLA 1 hour pre-auth; deny-reason transparent; member rights brochure.",
+      "category": "banking-insurance",
+      "subcategory": "insurance-agents",
+      "tags": ["claim-documentation", "tpa", "cashless", "irdai", "icd-10"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-insurance-agents-004",
+      "title": "Policy Renewal Reminder Email",
+      "prompt": "Act as a Customer Service Manager at a private insurer. Draft a 200-word renewal reminder email for a customer whose health policy expires in 30 days. Cover: (1) policy details + expiry date, (2) renewal premium (₹X with no claim bonus 25%), (3) what continues + what improves on renewal, (4) auto-debit + grace period (15 days), (5) consequence of break (waiting period reset for PED + critical illness), (6) easy-renewal links (UPI, NEFT, web), (7) RM contact, (8) sign-off. Constraints: align with IRDAI renewal norms; bilingual; preserve NCB advantage messaging; reminder cascade T-30, T-15, T-3.",
+      "category": "banking-insurance",
+      "subcategory": "insurance-agents",
+      "tags": ["renewal", "ncb", "auto-debit", "irdai", "reminder"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-insurance-agents-005",
+      "title": "Motor Insurance Claim Handling",
+      "prompt": "Act as a senior motor-insurance claims officer. Walk me through claim handling for a comprehensive motor policy claim (own-damage ₹85K + third-party hit-claim ₹2.4L). Cover: (1) FIR + police intimation, (2) cashless garage assessment, (3) surveyor inspection, (4) repair estimate vs survey report, (5) third-party claim defence (Motor Vehicles Act), (6) IDV vs sum insured matter, (7) settlement timeline (IRDAI 30-day SLA), (8) deductible + IDV depreciation, (9) NCB protection. Constraints: align with IRDAI motor claim handling; cite Motor Vehicles Act 1988 + 2019; consumer protection rights; honest about depreciation.",
+      "category": "banking-insurance",
+      "subcategory": "insurance-agents",
+      "tags": ["motor-claim", "third-party", "ncb", "idv", "mva"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-insurance-agents-006",
+      "title": "Term-Plan Pitch to NRI Client",
+      "prompt": "Act as an NRI insurance specialist. Pitch a term plan to a 36-yr-old NRI in Dubai (Indian passport, plans to return in 8 yrs). Cover: (1) NRI eligibility (Indian residency, DOB, FATCA / CRS), (2) sum assured ₹2.5 Cr term till 65, (3) premium-paying in INR vs USD, (4) tax-deduction Section 80C eligibility, (5) repatriation of claim, (6) MWP Act + NRI nominee, (7) medical exam in India during home visit, (8) IRDAI cross-border consumer rights. Constraints: comply with IRDAI NRI norms + FEMA; coordinate with FATCA W-8 form; transparent INR/USD conversion; bilingual.",
+      "category": "banking-insurance",
+      "subcategory": "insurance-agents",
+      "tags": ["nri", "term-plan", "fema", "fatca", "section-80c"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-insurance-agents-007",
+      "title": "Claim Denial Appeal Letter",
+      "prompt": "Act as a senior claims advocate. Draft a 350-word appeal letter on behalf of a customer whose ₹2.6L claim was denied citing pre-existing condition non-disclosure. Cover: (1) factual contest (medical record shows first-diagnosis date post-policy issue), (2) cite IRDAI's 'genuine non-disclosure' jurisprudence, (3) attach evidence (medical records, prescription history, lab dates), (4) request reconsideration in 21 days, (5) escalation path (IRDAI IGMS, Insurance Ombudsman, Consumer Forum), (6) MICRO-PED clause invocation if applicable, (7) sign-off + customer ID + claim number. Constraints: align with IRDAI 2024 Master Circular on claim handling; cite consumer protection precedents; respectful firm tone.",
+      "category": "banking-insurance",
+      "subcategory": "insurance-agents",
+      "tags": ["claim-appeal", "ped", "irdai-igms", "ombudsman", "denial"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-insurance-agents-008",
+      "title": "Children's Education Plan Pitch",
+      "prompt": "Act as an LIC + private hybrid advisor. Pitch a child education plan for a 5-yr-old child of urban parents. Cover: (1) goal — corpus ₹85L by age 18 (engineering + abroad masters), (2) recommended product mix (Sukanya for daughter, PPF, mutual fund SIP, child-ULIP), (3) inflation rate 7% education, (4) annual investment ₹2.4L, (5) tax efficiency Section 80C + capital gains, (6) flexibility on policyholder demise (premium waiver), (7) periodic review at 8/12/15 yrs. Constraints: align with IRDAI child plan norms; cite cost-of-education reports (NIEPA / Edelweiss); respect 30-day cooling off; honest about ULIP fees.",
+      "category": "banking-insurance",
+      "subcategory": "insurance-agents",
+      "tags": ["child-plan", "sukanya", "ulip", "education-corpus", "80c"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-insurance-agents-009",
+      "title": "Group Mediclaim for Indian SME",
+      "prompt": "Act as a corporate insurance broker. Pitch a Group Mediclaim policy to an Indian SME (40 employees, ₹3.5 Cr turnover). Cover: (1) sum insured ₹5L floater per family, (2) inclusions (maternity, dental, OPD), (3) waiver of waiting period, (4) cashless network coverage, (5) premium ₹4,800/employee/year, (6) wellness add-on, (7) employee onboarding portal, (8) renewal ratio + claim ratio history. Constraints: align with IRDAI group health norms; respect ESIC overlap (only above ₹21K wage); transparent broker commission; INR transparent.",
+      "category": "banking-insurance",
+      "subcategory": "insurance-agents",
+      "tags": ["group-mediclaim", "sme", "irdai", "esic", "broker"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-insurance-agents-010",
+      "title": "Risk Inspection Report (Property)",
+      "prompt": "Act as a risk inspection officer. Inspect a ₹85 Cr factory premise (chemical-grade) for property + business interruption insurance. Cover: (1) location risk (flood, earthquake zone), (2) construction (RCC + steel mix, fire-resistant rating), (3) occupancy risk (chemical category, MSDS), (4) protection (sprinklers, hydrants, fire-detection, security guards), (5) housekeeping + maintenance, (6) loss-prevention recommendations, (7) recommended sum insured + extension covers, (8) premium adjustment factors, (9) deductible. Constraints: align with IRDAI Property + BI norms; cite Tariff Advisory Committee; PESO + Factories Act compliance; honest risk grading.",
+      "category": "banking-insurance",
+      "subcategory": "insurance-agents",
+      "tags": ["property-risk", "factory-insurance", "tariff-advisory", "peso", "bi"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-insurance-agents-011",
+      "title": "Cyber Insurance Pitch to IT Company",
+      "prompt": "Act as a cyber-insurance specialist. Pitch a cyber-insurance policy to a 200-person Indian IT services company (revenue ₹120 Cr). Cover: (1) covered events (data breach, ransomware, business interruption, third-party liability), (2) DPDP 2023 + IT Rules 2021 compliance need, (3) recommended sum insured ₹15 Cr, (4) sub-limits (forensic, regulatory penalty, PR cost), (5) waiting period + retroactive cover, (6) exclusions (war, prior breach), (7) premium ₹18L/year, (8) incident response + 24x7 hotline. Constraints: align with IRDAI cyber norms; cite recent Indian cyber-incidents; transparent broker commission; respect DPDP + IT Rules.",
+      "category": "banking-insurance",
+      "subcategory": "insurance-agents",
+      "tags": ["cyber-insurance", "dpdp", "ransomware", "irdai", "it-services"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    },
+    {
+      "id": "banking-insurance-insurance-agents-012",
+      "title": "Customer Onboarding KYC + Suitability",
+      "prompt": "Act as a senior insurance advisor. Build a 10-min onboarding conversation for a new customer (45-yr-old businessman). Cover: (1) discovery (income, dependents, existing cover, goals), (2) risk profiling, (3) need analysis (life, health, motor, property, cyber, travel), (4) priority + premium budget (₹1.2L/year), (5) product recommendation matrix, (6) IRDAI suitability declaration, (7) e-KYC (Aadhaar / Digilocker), (8) consent + DPDP. Constraints: align with IRDAI Suitability Norms 2024; do not push unsuitable products; documented in CRM; bilingual.",
+      "category": "banking-insurance",
+      "subcategory": "insurance-agents",
+      "tags": ["customer-onboarding", "suitability", "irdai", "ekyc", "dpdp"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "category": "construction",
+  "subcategory": "site-engineers",
+  "count": 12,
+  "prompts": [
+    {
+      "id": "construction-site-engineers-001",
+      "title": "Daily Progress Report Template",
+      "prompt": "Act as a senior site engineer with 10 years on Indian residential + commercial projects (L&T / Shapoorji Pallonji scale). Build a daily progress report (DPR) template for a 28-storey residential project in Mumbai. Cover: (1) date + weather + manpower (skilled + unskilled), (2) work executed today (per drawing reference), (3) materials received + consumed, (4) machinery deployed, (5) safety incidents, (6) quality checks done, (7) tomorrow's plan, (8) RFI / hold-points, (9) photos + signatures. Constraints: align with NBC + IS 4082; bilingual; mobile entry app friendly.",
+      "category": "construction",
+      "subcategory": "site-engineers",
+      "tags": ["dpr", "site-engineer", "rcc", "nbc", "mumbai"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": true
+    },
+    {
+      "id": "construction-site-engineers-002",
+      "title": "Material Estimation for RCC Slab",
+      "prompt": "Act as a senior QS / site engineer. Estimate materials for a 220 sqm RCC slab (M30 grade, 150mm thick, Fe500 reinforcement). Cover: (1) concrete volume + 5% wastage, (2) cement bags (per m³ design mix), (3) sand + 20mm aggregate + 10mm aggregate (in cum + tonnes), (4) steel reinforcement (kg/m² estimate + bar bending schedule cross-check), (5) shuttering (sqm), (6) labour man-days, (7) INR cost per item from local Mumbai mandi rates, (8) total INR. Constraints: align with IS 456 + IS 10262 mix design; respect M30 yield; document for billing.",
+      "category": "construction",
+      "subcategory": "site-engineers",
+      "tags": ["material-estimation", "rcc-slab", "is-456", "bbs", "mix-design"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": true
+    },
+    {
+      "id": "construction-site-engineers-003",
+      "title": "Safety Inspection Checklist for Site",
+      "prompt": "Act as a site safety officer. Build a daily safety inspection checklist for a high-rise residential project. Cover: (1) PPE (helmet, harness, shoes), (2) scaffolding + edge protection, (3) excavation safety, (4) hot work permit, (5) electrical (earthing, ELCB), (6) fire (extinguishers, hydrant, evacuation), (7) crane + lifting, (8) housekeeping, (9) chemical storage, (10) workers' welfare (drinking water, toilets, first-aid). Constraints: align with BOCW Act 1996 + Factories Act + IS 14489; bilingual signage; documented incident-zero culture.",
+      "category": "construction",
+      "subcategory": "site-engineers",
+      "tags": ["safety-checklist", "bocw", "ppe", "high-rise", "is-14489"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "construction-site-engineers-004",
+      "title": "Vendor Communication for Material Delay",
+      "prompt": "Act as a project engineer. Draft a 220-word firm-but-respectful email to my structural-steel vendor (Bhushan / Tata) about delayed delivery (7 days behind on a critical-path TMT bar consignment of 80 MT). Cover: (1) PO + invoice reference, (2) impact on slab pour schedule, (3) liquidated damages clause, (4) revised commitment ask (3-day window), (5) escalation to vendor leadership, (6) alternative-source warning, (7) sign-off + project manager copied. Constraints: align with contract terms; INR LD calculation; preserve relationship while protecting timeline.",
+      "category": "construction",
+      "subcategory": "site-engineers",
+      "tags": ["vendor-delay", "email", "tmt-bar", "ld", "critical-path"],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "construction-site-engineers-005",
+      "title": "Project Schedule (Microsoft Project / Primavera)",
+      "prompt": "Act as a planning engineer. Build an 18-month construction schedule (in Primavera / MS Project format) for a 30-villa luxury residential project in Goa. Cover: (1) WBS (excavation, foundation, superstructure, MEP, finishes, landscaping, handover), (2) per-task duration + dependencies (FS, SS, FF), (3) critical path identification, (4) resource assignment, (5) milestones (foundation OK, slab OK, structure OK, possession), (6) risk buffer, (7) S-curve. Constraints: align with NBC + IS; respect monsoon (June-Sept); skilled-labour shortage near festivals; cite IRC for road work if applicable.",
+      "category": "construction",
+      "subcategory": "site-engineers",
+      "tags": ["primavera", "wbs", "critical-path", "goa", "luxury-villas"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "construction-site-engineers-006",
+      "title": "Concrete Cube Test Result Interpretation",
+      "prompt": "Act as a quality engineer. Interpret 7-day + 28-day cube test results. Cubes from M30 mix poured for podium slab. 7-day strength avg: 22 N/mm² (target 22.5), 28-day avg: 36 N/mm² (target 33.5). Provide: (1) acceptance criteria per IS 456, (2) standard deviation analysis, (3) individual cube vs mean, (4) action if below acceptance, (5) report to client / consultant, (6) NDT correlation (rebound hammer), (7) corrective action if needed (core test, replacement). Constraints: align with IS 456 + IS 516; document in QA / QC log; signed by lab + engineer-in-charge.",
+      "category": "construction",
+      "subcategory": "site-engineers",
+      "tags": ["cube-test", "is-456", "ndt", "qa-qc", "concrete"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "construction-site-engineers-007",
+      "title": "Bar Bending Schedule (BBS)",
+      "prompt": "Act as a structural engineer + QS hybrid. Prepare BBS for an RCC beam (B1, 9m × 0.45m × 0.6m). Provide: (1) main reinforcement (bottom + top — diameter, length, hook + bend), (2) stirrups (8mm @ 150 c/c, 200 c/c), (3) cut-length per bar with bend allowance, (4) total weight per bar size, (5) total steel kg + INR cost, (6) wastage 3%, (7) drawing cross-check. Constraints: align with IS 2502 + IS 1786 for Fe500; column-beam joint detailing per IS 13920; document for vendor cutting.",
+      "category": "construction",
+      "subcategory": "site-engineers",
+      "tags": ["bbs", "is-2502", "is-13920", "fe500", "stirrups"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "construction-site-engineers-008",
+      "title": "RFI Drafting for Design Clarification",
+      "prompt": "Act as a senior site engineer. Draft an RFI to the structural designer for a discrepancy: GFC drawing shows a 200x600 column at gridline 7-A, but architectural plan shows a different shape. Cover: (1) RFI number + date + sender, (2) drawing reference, (3) discrepancy described factually, (4) implication on construction (already cast columns), (5) options (continue / re-design / approval), (6) urgency (3-day response — slab pour pending), (7) cost + schedule impact estimate. Constraints: align with FIDIC + Indian construction RFI norms; documented for variation order; cc'd to project manager.",
+      "category": "construction",
+      "subcategory": "site-engineers",
+      "tags": ["rfi", "design-clarification", "fidic", "variation-order", "discrepancy"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "construction-site-engineers-009",
+      "title": "Quantity Variation Statement (Billing)",
+      "prompt": "Act as a senior QS. Prepare quantity variation statement for monthly billing on a ₹85 Cr project. Cover: (1) item-wise BoQ vs executed quantity, (2) variations (excess / less), (3) reasons (drawing change, site condition, design alt), (4) variation %, (5) extra item additions, (6) deduction items, (7) variation approval status (consultant + client signatures), (8) financial impact INR. Constraints: align with CPWD DSR / SoR + IRC if road; cap variations at 25% per contract; document for arbitration if any.",
+      "category": "construction",
+      "subcategory": "site-engineers",
+      "tags": ["variation-statement", "billing", "cpwd-dsr", "boq", "arbitration"],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    },
+    {
+      "id": "construction-site-engineers-010",
+      "title": "Pour Card / Concrete Pour Sequence",
+      "prompt": "Act as a site engineer. Build a pour card for a 240 cum slab pour (podium level). Cover: (1) pre-pour checklist (reinforcement, formwork, cover, electrical conduits, plumber sleeves, MEP), (2) consultant approval signature, (3) RMC plant + supplier + truck schedule (15 trucks × 16 cum), (4) pour sequence (zone-by-zone), (5) sample collection (cubes, slump), (6) curing plan (28-day water + jute), (7) post-pour cleanup, (8) pour-card archival. Constraints: align with IS 456; respect monsoon contingency; site-mixed RMC compliance.",
+      "category": "construction",
+      "subcategory": "site-engineers",
+      "tags": ["pour-card", "rmc", "concrete-pour", "is-456", "slab"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
+    },
+    {
+      "id": "construction-site-engineers-011",
+      "title": "Subcontractor Performance Evaluation",
+      "prompt": "Act as a project manager. Evaluate 3 subcontractors (RCC, MEP, finishes) on a ₹120 Cr residential project. Criteria (with weight): quality 25%, on-time 25%, safety 15%, manpower mobilisation 10%, billing accuracy 10%, rework 10%, communication 5%. Score each 1-5 with evidence; recommend renew / retain-with-improvement / replace. Constraints: align with industry norms; transparent feedback to subcontractor; documented; INR penalty / bonus based on score.",
+      "category": "construction",
+      "subcategory": "site-engineers",
+      "tags": ["subcontractor", "evaluation", "rcc", "mep", "scorecard"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false
+    },
+    {
+      "id": "construction-site-engineers-012",
+      "title": "Snag List + Defect Liability",
+      "prompt": "Act as a senior site engineer at handover stage. Prepare a 100-point snag list across 4 categories: (1) civil (cracks, plastering, finishing), (2) plumbing + sanitary, (3) electrical (light fixtures, switches, MCB), (4) finishes (tiles, paint, doors, windows). For each: location, severity, action, responsible subcontractor, target closure date. Plus DLP (Defect Liability Period) framework — 12 months, 5% retention. Constraints: align with NBC + IS standards; signed by client + consultant; INR retention against bank guarantee.",
+      "category": "construction",
+      "subcategory": "site-engineers",
+      "tags": ["snag-list", "defect-liability", "handover", "dlp", "retention"],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false
+    }
+  ]
+}

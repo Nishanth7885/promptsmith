@@ -1,0 +1,647 @@
+{
+  "category": "journalism",
+  "subcategory": "broadcast-journalists",
+  "count": 40,
+  "prompts": [
+    {
+      "id": "journalism-broadcast-journalists-001",
+      "title": "Prime Time Anchor Intro for Top Story",
+      "prompt": "Act as a senior prime time news anchor with 12 years of experience at channels like NDTV, India Today and CNN-News18. I need you to write a powerful 45-second anchor intro (approximately 110-130 words) for the lead story of the 9 PM English news bulletin. Here is the context: today's lead story is the Supreme Court verdict on a major political case in Delhi that affects thousands of people across India. The story has just broken at 6 PM, and we have one ground reporter from outside the SC and two political analysts in the studio. Please provide: (1) A magnetic opening line that hooks the viewer in the first 5 seconds, (2) Three short punchy sentences setting up stakes and conflict, (3) A clear handoff line transitioning to the ground reporter, (4) An optional teaser line for what comes after the report, (5) Suggested pause points and emphasis words marked in CAPS. Format the output as a teleprompter-ready script with timing cues in square brackets like [PAUSE 1s] and [LOOK CAMERA 2]. Consider these constraints: avoid sensationalism that violates the NBSA code, keep language neutral and factual, ensure pronunciation guidance for any Hindi/regional names, and write at a pace of roughly 150 words per minute for clean delivery. Add a backup intro variant in case visuals are not ready in time.",
+      "tags": [
+        "anchor-intro",
+        "tv-script",
+        "prime-time"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-002",
+      "title": "Breaking News Ticker and Anchor Flash Template",
+      "prompt": "Act as an output editor with 10 years of experience handling breaking news on Hindi and English news channels like Aaj Tak, Times Now and ABP. I need you to create a complete breaking news package template for an unfolding event. Here is the context: a major train accident has occurred near Vijayawada at 3:45 PM with early reports of casualties; details are still emerging and we have only one stringer on the ground with a phone, no visuals yet, and the assignment editor wants us on air within 4 minutes. Please provide: (1) Six rotating breaking news ticker lines of maximum 70 characters each in English, (2) A 30-second anchor flash script with placeholders for unconfirmed numbers, (3) A holding script the anchor can stretch for 90 seconds while waiting for the stringer, (4) Three safe questions the anchor can ask the stringer over phono, (5) A correction template for when initial numbers change, (6) Lower-third super text and Astons. Format the output as a structured runsheet with sections labeled TICKER, FLASH, HOLDING, PHONO Qs, CORRECTION, GFX. Consider these constraints: follow Press Council and News Broadcasting Standards Authority guidelines on unverified information, avoid speculation about cause, never name victims before official confirmation, and use phrases like \"as per initial reports\" and \"this is yet to be confirmed\" wherever needed.",
+      "tags": [
+        "breaking-news",
+        "tv-script",
+        "ticker"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-003",
+      "title": "Two-Minute Package Script on Budget Day",
+      "prompt": "Act as a senior business journalist and TV package producer with 8 years of experience at CNBC-TV18 and ET Now. I need you to script a complete 2-minute (approximately 280-300 words of voice-over) news package on the Union Budget announcements affecting the middle class. Here is the context: Finance Minister has just announced changes in income tax slabs, capital gains tax and a new savings scheme; we have B-roll of FM in Parliament, market reactions from BSE, and one vox-pop bite each from a salaried professional in Mumbai, a homemaker in Pune and a small trader in Surat. Please provide: (1) A strong opening 15-second VO setting the human angle, (2) A clear three-act structure with sound bite cues marked SOT 1, SOT 2, SOT 3 with suggested in-out points, (3) Specific B-roll suggestions matched line-by-line to VO, (4) A clear standup or PTC line for the reporter, (5) A closing line that loops back to the opening hook. Format the output as a two-column TV package script with VIDEO on left and AUDIO on right, with running timecodes. Consider these constraints: keep numbers simple and rounded for tier-2 viewers, mention INR amounts in lakhs and crores not millions, ensure factual accuracy on tax slabs as per the latest budget, and write VO in a conversational tone that translates cleanly to Hindi voice-over.",
+      "tags": [
+        "package",
+        "tv-script",
+        "business-news"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-004",
+      "title": "Field Reporter PTC for Election Coverage",
+      "prompt": "Act as a senior political reporter with 10 years of field experience covering elections for channels like ABP News and India Today. I need you to write three variations of a 30-second piece-to-camera (PTC) for a field report from a polling booth in Lucknow during UP Assembly elections. Here is the context: voter turnout is unusually low at 11 AM, you are standing outside a government school polling booth in Hazratganj, there are visible queues at women's counters but men's counters are empty, and EVM glitches were reported earlier. Please provide: (1) A factual opening PTC variant focused on data and observation, (2) An atmospheric variant that paints the scene for the viewer, (3) A question-led variant that sets up the next part of the report, (4) Hand gesture and walking direction cues for the cameraperson, (5) Two backup lines if the cameraman needs to re-take. Format the output as numbered scripts with stage directions in italics and word counts noted at the end of each. Consider these constraints: maintain Election Commission of India model code of conduct neutrality, do not predict outcomes or quote unverified turnout figures, avoid naming any party or candidate favorably, keep ambient sound considerations in mind, and ensure each PTC ends with a clean handoff line back to the studio anchor.",
+      "tags": [
+        "field-report",
+        "tv-script",
+        "ptc"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-005",
+      "title": "Anchor Intro for Cricket Match Result",
+      "prompt": "Act as a sports anchor with 7 years of experience at channels like Star Sports and Sports Today. I need you to write a 35-second anchor intro for the late night sports bulletin leading into a cricket match report. Here is the context: India has just beaten Australia by 4 wickets in a tense ODI at the Wankhede Stadium with Virat Kohli scoring an unbeaten 87, the match ended at 11 PM, and we have highlights, post-match presentation and a one-minute reporter package ready. Please provide: (1) A high-energy opening line that captures the drama, (2) Two sentences summarizing the chase without spoiling the package, (3) A line acknowledging Kohli's contribution, (4) A clear handoff into the package, (5) An alternate calmer intro for the morning bulletin replay. Format the output as a teleprompter-ready script with energy markers like [HIGH ENERGY], [PAUSE], [SMILE]. Consider these constraints: avoid cliches like \"nail-biter\" and \"thriller\" overused on Indian TV, keep statistics accurate and current, do not editorialize on captaincy debates, and ensure the intro works for both live and replay broadcasts.",
+      "tags": [
+        "anchor-intro",
+        "tv-script",
+        "sports"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-006",
+      "title": "Breaking News Script for Stock Market Crash",
+      "prompt": "Act as a senior business news producer with 9 years of experience at CNBC Awaaz and ET Now. I need you to draft a breaking news script kit for a sudden stock market crash. Here is the context: the Sensex has fallen 1,800 points in 45 minutes due to a global cue, the Nifty is below a key technical level, and we need to break in with a special bulletin in under 3 minutes; we have live BSE/NSE feed, one analyst on Skype and a market editor in studio. Please provide: (1) A 20-second BREAKING flash for the anchor with INR figures clearly mentioned, (2) Three ticker lines under 70 characters each, (3) A 60-second walk-through script for the market editor with key index levels, top losers and rupee-dollar mention, (4) Three measured questions for the analyst that avoid panic creation, (5) A reassurance closing line citing historical recoveries without giving investment advice. Format the output as a structured runsheet with timecodes and SEBI compliance notes. Consider these constraints: SEBI guidelines prohibit specific buy/sell recommendations on air, avoid alarmist language, always say \"investors are advised to consult a financial advisor\" once, and use INR crore-format for all figures.",
+      "tags": [
+        "breaking-news",
+        "tv-script",
+        "markets"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-007",
+      "title": "Field Report Structure for Flood Coverage",
+      "prompt": "Act as a disaster-zone reporter with 12 years of field experience covering floods, cyclones and earthquakes for NDTV and Republic Bharat. I need you to design a complete field reporting structure for a 4-minute live hit from a flood-affected area in Assam. Here is the context: Brahmaputra has breached embankments near Dibrugarh, you are in an OB van about 200 metres from a relief camp, there are 4,000 displaced people, the army is conducting boat rescues, network is patchy 4G, and the anchor will throw to you twice in the bulletin. Please provide: (1) A walking opening sequence with 3 visual beats for the cameraperson, (2) The first 90-second live hit script with sensory detail, (3) Suggested questions for one rescued family member and one NDRF officer, (4) A 60-second update segment for the second hit with new information slot, (5) Safety and ethical guidelines you will follow on the ground. Format the output as a field reporting playbook with sections labeled OPENING SEQUENCE, FIRST HIT, INTERVIEWS, SECOND HIT, ETHICS. Consider these constraints: maintain dignity of victims as per NBSA guidelines, do not push microphones into grieving faces, avoid sensational language, get NDRF spokesperson permission before showing rescue ops up close, and account for satellite uplink delay of 2-3 seconds.",
+      "tags": [
+        "field-report",
+        "tv-script",
+        "disaster"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-008",
+      "title": "Package Script on Startup Funding Winter",
+      "prompt": "Act as a business journalist with 6 years of experience producing packages for channels like CNBC-TV18. I need you to write a 2 minute 30 second feature package script on the funding winter affecting Indian startups. Here is the context: funding has dropped 60 percent year on year, three major Bengaluru unicorns have done layoffs in the past month, you have interviews with one founder, one VC partner from a Mumbai fund, and one laid-off employee in Gurugram; available B-roll includes office shots, hiring boards, and stock charts. Please provide: (1) A 20-second hook opening that humanizes the story, (2) A clear three-act structure with timecodes, (3) Suggested SOT in/out points for all three interviews, (4) Specific B-roll matched to each VO line, (5) A reporter PTC in the middle of the package, (6) A closing line with forward-looking note. Format as a two-column VIDEO/AUDIO script with running timecodes and word count per section. Consider these constraints: use INR crore figures not USD millions for Indian audiences, avoid taking sides on layoffs, mention specific sectors like fintech, edtech and quick commerce, keep tone empathetic but balanced, and ensure VO writing supports a Hindi voice-over translation.",
+      "tags": [
+        "package",
+        "tv-script",
+        "business-news"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-009",
+      "title": "Hindi Anchor Intro for Crime Story",
+      "prompt": "Act as a Hindi prime time news anchor with 10 years of experience at Aaj Tak and ABP News. I need you to write a 40-second Hindi anchor intro for the lead crime story of the 8 PM bulletin. Here is the context: a high-profile cybercrime racket has been busted in Noida, the gang was duping senior citizens across India of crores using fake CBI calls, 14 arrests have been made, the police PRO has given a presser, and we have one reporter live from Noida Sector 58. Please provide: (1) A strong Hindi opening line that hooks viewers, (2) Three sentences of context in conversational Hindi suitable for tier-2 and tier-3 audiences, (3) A clear handoff to the live reporter, (4) An optional sting line for the second segment, (5) Pronunciation notes for any English technical terms used. Format the output as a teleprompter-ready Devanagari script with English transliteration in brackets and emphasis cues. Consider these constraints: follow legal guidelines on naming accused (use \"aaropi\" not \"mujrim\" until conviction), do not reveal victim identities, balance simplicity with credibility, avoid Bollywood-style melodrama, and keep sentences short for clean Hindi delivery at 140 words per minute.",
+      "tags": [
+        "anchor-intro",
+        "tv-script",
+        "hindi-news"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-010",
+      "title": "Breaking News Update Loop for Terror Incident",
+      "prompt": "Act as an experienced output editor with 15 years at major Indian news channels covering security incidents. I need you to design a 30-minute breaking news update loop for an evolving security situation. Here is the context: a low-intensity blast has been reported at a market in a metro city, casualties unconfirmed, security agencies have cordoned off the area, the home minister has been briefed, social media is flooded with unverified videos, and we need to stay live for 30 minutes with updates every 5 minutes. Please provide: (1) An anchor master script structured in six 5-minute blocks, (2) A list of verification protocols before any new information goes on air, (3) Suggested guest rotations including security expert, former IPS officer, and political analyst, (4) Ticker rotation logic with at least 10 lines, (5) Lower-third Aston copy variants, (6) A retraction template if anything turns out to be incorrect. Format the output as a 30-minute runsheet with timestamps, sources required, and compliance flags. Consider these constraints: strictly follow the Cable TV Networks Regulation Act and government advisories on terror coverage, do not show graphic visuals, never reveal operational details that could compromise live ops, attribute every claim, and keep an option for the channel to go silent for 60 seconds if instructed.",
+      "tags": [
+        "breaking-news",
+        "tv-script",
+        "security"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-011",
+      "title": "Field Report Walk-Through at a Protest Site",
+      "prompt": "Act as a senior field reporter with 9 years of experience covering protests and political movements for News18 and India Today. I need you to plan a 3-minute live field report from a major protest in Delhi. Here is the context: farmers from Punjab and Haryana are protesting at Singhu border, the crowd is in tens of thousands, there are tractors, langars and political banners, you are standing on a flyover above the crowd with a 360-degree view, and the anchor wants color, scale and political angle in one hit. Please provide: (1) An opening 30-second walk-through with three pointing-and-describing beats, (2) A protester voxpop section with 3 short questions, (3) A 45-second analytical segment connecting to policy, (4) A wrap line that handed back to the studio anchor, (5) Cameraperson cues for wide, mid and close-up shots. Format the output as a stage-directed live script with bracketed cues. Consider these constraints: maintain neutrality in reporting, do not characterize protesters with loaded adjectives, avoid amplifying provocative slogans, follow Election Commission and Supreme Court guidelines on protest coverage, and account for ambient noise affecting clean audio capture.",
+      "tags": [
+        "field-report",
+        "tv-script",
+        "protests"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-012",
+      "title": "Health Segment Anchor Intro for Heatwave",
+      "prompt": "Act as a health and lifestyle TV anchor with 6 years of experience at NDTV and CNN-News18. I need you to write a 35-second anchor intro for a special segment on heatwaves affecting north and central India. Here is the context: temperatures have crossed 47 degrees in cities like Delhi, Jaipur, Nagpur, and Lucknow; IMD has issued red alerts; hospitals report a 30 percent rise in heatstroke cases; and the segment will feature a doctor from AIIMS in studio plus a 1-minute explainer package. Please provide: (1) An opening 8-second hook with a striking statistic, (2) Two sentences of public service framing, (3) A clear handoff into the explainer package, (4) A bridge line back from package to the doctor in studio, (5) An empathetic sign-off line. Format the output as a teleprompter script with timing cues and emphasis in CAPS. Consider these constraints: stay factually accurate with IMD and Ministry of Health data, avoid scaremongering, include actionable advice for viewers in tier-2 and tier-3 cities without ACs, ensure Hindi-translation friendly phrasing, and follow public broadcasting health communication norms.",
+      "tags": [
+        "anchor-intro",
+        "tv-script",
+        "health"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-013",
+      "title": "Package on Metro Inauguration Across Cities",
+      "prompt": "Act as an urban affairs reporter with 7 years of experience producing packages for channels like Mirror Now and India Today. I need you to script a 2-minute feature package on the simultaneous inauguration of new metro lines in three Indian cities. Here is the context: PM has inaugurated metro extensions in Bengaluru, Pune and Kolkata on the same day; available footage includes inauguration ceremonies, train interiors, commuter interviews and senior citizen vox-pops; political optics and infrastructure milestones both matter. Please provide: (1) A 15-second hook opening connecting all three cities, (2) Three city-specific segments of about 30 seconds each with distinct angles, (3) A unifying analytical mid-segment on India's urban transit growth, (4) Reporter PTC at the studio standup desk, (5) A forward-looking closing line. Format the output as a two-column VIDEO/AUDIO script with timecodes and B-roll cues. Consider these constraints: keep ridership and INR cost figures accurate, avoid making it look like government PR, balance achievements with pending issues like last-mile connectivity, write VO compatible with Hindi and Bengali translations, and reference DMRC, BMRCL, KMRCL and Maha Metro by correct names.",
+      "tags": [
+        "package",
+        "tv-script",
+        "urban-affairs"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-014",
+      "title": "Breaking News Anchor Script for Cabinet Reshuffle",
+      "prompt": "Act as a political news anchor and producer with 11 years of experience at India Today and Times Now. I need you to write a 6-minute breaking news block for a sudden Union Cabinet reshuffle announced at 7 PM. Here is the context: 8 ministers have been dropped, 12 new faces inducted including 3 from a key alliance partner, key portfolios like Finance and Defence have changed hands, official Rashtrapati Bhavan list has just been released, and you have one political reporter outside PMO and two analysts in studio. Please provide: (1) A 60-second anchor flash announcing the reshuffle, (2) A name-by-name read-out structure for the new list, (3) Two analytical questions for each studio guest, (4) A handoff to the PMO reporter with three suggested questions, (5) A wrap segment summarizing political implications, (6) Ticker copy for parallel display. Format the output as a 6-minute runsheet with timecodes, GFX cues and SOT placeholders. Consider these constraints: maintain political neutrality, double-check name spellings and constituency data, do not speculate about reasons without sourcing, follow ministerial protocol in addressing leaders, and ensure both English and Hindi pronunciation guidance for regional names.",
+      "tags": [
+        "breaking-news",
+        "tv-script",
+        "politics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-015",
+      "title": "Field Report from a Religious Festival",
+      "prompt": "Act as a culture and human-interest reporter with 8 years of experience covering Indian festivals for travel and news channels. I need you to plan a 3-minute field report from the Kumbh Mela. Here is the context: it is the main snan day at Prayagraj, an estimated 2 crore pilgrims are present, you are at Sangam Nose with a OB van, there are sadhus, akhadas, families from across India and a few international visitors; security and crowd management are tight. Please provide: (1) A 30-second establishing opening describing scale, (2) Three short pilgrim interviews of 20 seconds each, (3) A 45-second mid-segment on logistics, sanitation and Kumbh administration, (4) A reflective PTC about cultural significance, (5) A closing handoff back to studio with a thematic line. Format the output as a structured field-report script with shot suggestions and ambient sound cues. Consider these constraints: respect religious sensitivities and avoid ridicule of any sect, use accurate names like \"Naga sadhus\" and \"akhadas\", do not interrupt rituals for footage, follow Mela administration's media protocol, and write VO that works equally well in Hindi voice-over.",
+      "tags": [
+        "field-report",
+        "tv-script",
+        "culture"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-016",
+      "title": "Anchor Intro for Court Verdict Special",
+      "prompt": "Act as a legal-affairs anchor with 8 years of experience at NDTV and Legally India TV. I need you to write a 40-second anchor intro for a special segment on a Supreme Court constitutional bench verdict. Here is the context: the SC has delivered a landmark judgment on a personal liberty matter affecting millions, the verdict is 4-1 with a strong dissent, you have legal expert in studio plus a court reporter live from outside the SC. Please provide: (1) A factual but compelling 8-second opening, (2) A two-sentence summary of the verdict in plain language, (3) A line acknowledging the dissenting opinion's significance, (4) A handoff to the live court reporter, (5) A bridge into the legal expert's analysis. Format the output as a teleprompter-ready script with timing cues and pronunciation notes for legal terms. Consider these constraints: do not editorialize on the verdict, paraphrase but never misquote the judgment, avoid contempt of court, use precise legal terminology like \"majority view\", \"dissent\" and \"obiter\", and ensure clarity for non-lawyer audiences in tier-2 and tier-3 markets.",
+      "tags": [
+        "anchor-intro",
+        "tv-script",
+        "legal"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-017",
+      "title": "Package Script on Indian EV Adoption",
+      "prompt": "Act as a senior auto and tech journalist with 10 years of experience producing packages for ET Now and Auto Today. I need you to write a 2-minute 15-second feature package on India's electric vehicle adoption story. Here is the context: monthly EV sales have crossed 1.5 lakh units, two-wheelers lead the segment, charging infrastructure is patchy outside metros, FAME II subsidy is winding down, and you have interviews with one OEM executive in Bengaluru, one delivery rider in Delhi using an electric scooter, and one charging-station operator in Pune. Please provide: (1) A 15-second human-interest opening, (2) Three thematic sub-sections (consumer, industry, infrastructure), (3) Specific B-roll suggestions like assembly lines, traffic, and charging plugs, (4) A reporter standup PTC at a charging station, (5) A future-looking closing tying back to the opening character. Format as a two-column VIDEO/AUDIO TV script with timecodes and SOT cues. Consider these constraints: use INR figures, mention FAME II and PM E-DRIVE schemes accurately, avoid taking sides between EV makers, ensure factual numbers from SIAM and VAHAN dashboard, write VO suitable for Hindi voice-over with rural reach.",
+      "tags": [
+        "package",
+        "tv-script",
+        "auto"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-018",
+      "title": "Breaking News Plan for Weather Disaster",
+      "prompt": "Act as an output editor with 12 years of experience handling weather emergencies for channels like Mathrubhumi News and TV9. I need you to design a 90-minute rolling breaking news plan for a cyclone making landfall on the east coast. Here is the context: Cyclone is expected to cross the Odisha-Andhra coast near Gopalpur with winds of 165 kmph, IMD has issued red alert, NDRF teams are positioned, fishermen warnings are out, and you have three OB units in Berhampur, Visakhapatnam and Bhubaneswar. Please provide: (1) A 90-minute master runsheet broken into 6 blocks of 15 minutes, (2) Anchor link scripts for each block transition, (3) A live hit rotation plan across the three OB locations, (4) A list of must-cover elements (IMD presser, NDRF, district admin, helpline numbers), (5) Crisis-communication guidelines including helpline display rules, (6) A retraction protocol for unverified casualty numbers. Format the output as a TV control-room runsheet with timecodes, sources and ticker copy. Consider these constraints: prioritize public safety information over sensational visuals, follow Disaster Management Act communication protocols, avoid showing distressed individuals without consent, run helpline numbers at least every 5 minutes, and align language with IMD's official advisories.",
+      "tags": [
+        "breaking-news",
+        "tv-script",
+        "weather"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-019",
+      "title": "Field Report Structure at Stock Exchange Closing",
+      "prompt": "Act as a markets reporter with 6 years of experience reporting from BSE for CNBC-TV18 and Bloomberg Quint. I need you to design a 2-minute live field report from outside the BSE building at the closing bell. Here is the context: Sensex has closed 750 points up at a record high, Nifty IT is the top sectoral gainer, FIIs were net buyers, and you are live from Dalal Street with a busy backdrop showing the bull statue. Please provide: (1) A 25-second walk-up opening using the bull statue as a visual anchor, (2) A 45-second numbers segment with key index closes and movers, (3) Two short trader voxpops of about 15 seconds each, (4) A 30-second analytical wrap on what to expect tomorrow, (5) A handoff to the studio anchor. Format the output as a live field script with stage directions and B-roll cues. Consider these constraints: SEBI rules disallow specific buy/sell tips on air, use accurate INR figures and percentages, mention global cues like Nasdaq close and Brent crude, follow exchange-released closing values strictly, and ensure VO maps cleanly to Hindi voice-over for regional feeds.",
+      "tags": [
+        "field-report",
+        "tv-script",
+        "markets"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-020",
+      "title": "Anchor Intro for Education Policy Story",
+      "prompt": "Act as an education sector anchor with 7 years of experience at channels like NDTV and Career360 TV. I need you to write a 35-second anchor intro for a segment on a major NCERT curriculum update. Here is the context: NCERT has revised Class 10 and 12 textbooks with significant changes in history and political science chapters; the announcement has triggered debate among educationists and parents; you have one academic in studio and a reporter outside the NCERT headquarters. Please provide: (1) An 8-second opening hook focusing on what changes for students, (2) Two sentences contextualizing the debate without taking sides, (3) A handoff to the live reporter outside NCERT, (4) A bridge to the studio expert, (5) An optional second-block teaser line. Format the output as a teleprompter script with pronunciation cues and emphasis markers. Consider these constraints: follow NEP 2020 references accurately, do not editorialize on political or ideological angles, mention CBSE and state boards correctly, ensure language works for parents in tier-2 and tier-3 cities, and keep the intro neutral and informative.",
+      "tags": [
+        "anchor-intro",
+        "tv-script",
+        "education"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-021",
+      "title": "Package on Rural Healthcare Reality",
+      "prompt": "Act as a senior public-affairs journalist with 10 years of experience producing rural-development packages for DD News and NDTV India. I need you to write a 2-minute 30-second feature package on the state of rural primary healthcare in India. Here is the context: you have shot in a Primary Health Centre in a Bundelkhand village, interviews include one auxiliary nurse midwife, one pregnant woman waiting for an ultrasound, and one district health officer; data shows 40 percent of PHCs are short of doctors. Please provide: (1) A 20-second human-character opening, (2) A three-act structure covering reality, data and policy response, (3) Four B-roll suggestions matched to specific VO lines, (4) A reporter PTC inside the PHC, (5) A closing line that returns to the opening character with hope or concern. Format as a two-column VIDEO/AUDIO script with timecodes and SOT cues. Consider these constraints: maintain dignity of subjects, get verbal consent on camera, follow PIB and Ministry of Health data accurately, avoid blame-game framing, use simple Hindi-friendly VO that works in voice-over, and reference Ayushman Bharat and PMJAY by correct names.",
+      "tags": [
+        "package",
+        "tv-script",
+        "public-affairs"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-022",
+      "title": "Breaking News Block for Aviation Incident",
+      "prompt": "Act as an aviation correspondent and breaking-news producer with 9 years of experience at News18 and CNBC-TV18. I need you to draft a 15-minute breaking news block for an aviation incident. Here is the context: an Indian carrier flight has made an emergency landing at Mumbai airport after a technical snag, all 180 passengers are safe, DGCA has launched a probe, and we have one airport reporter, one aviation expert in studio and access to the airline's official statement. Please provide: (1) A 45-second BREAKING anchor flash with verified facts only, (2) A walk-around script for the airport reporter at the gate, (3) Three measured questions for the aviation expert, (4) A passenger statement reading template if airline shares one, (5) Ticker copy variations of under 70 characters, (6) A closing wrap by the anchor. Format the output as a control-room runsheet with timecodes, SOT placeholders and compliance flags. Consider these constraints: follow DGCA media advisories and ICAO investigation norms, never speculate about pilot error or technical cause, do not name passengers without consent, attribute every claim to airline or DGCA, and write language that does not damage the carrier unfairly.",
+      "tags": [
+        "breaking-news",
+        "tv-script",
+        "aviation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-023",
+      "title": "Field Report at Indian Tech Park Layoffs",
+      "prompt": "Act as a business field reporter with 7 years of experience covering tech and IT sectors for Moneycontrol TV and ET Now. I need you to plan a 2-minute 30-second field report from outside a major Bengaluru tech park amid mass layoffs. Here is the context: a top IT services company has laid off 4,000 employees over two days, you are at the Embassy Tech Village gate, employees are leaving with cardboard boxes, and HR has issued a statement. Please provide: (1) A 30-second establishing walk-around opening, (2) Two laid-off employee voxpops with sensitive question framing, (3) A 40-second analytical segment on broader IT sector trends, (4) A reporter PTC linking to severance norms and government response, (5) A closing handoff to studio. Format the output as a structured field-report script with stage directions and B-roll cues. Consider these constraints: protect employee identity unless they consent on camera, do not show ID cards or office passes, comply with NBSA dignity guidelines, avoid amplifying rumors, attribute company statements precisely, and write VO that translates cleanly into Kannada and Hindi.",
+      "tags": [
+        "field-report",
+        "tv-script",
+        "tech"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-024",
+      "title": "Anchor Intro for Diwali Pollution Special",
+      "prompt": "Act as a city affairs anchor with 6 years of experience at Delhi-based channels like NDTV India and India Today. I need you to write a 35-second anchor intro for a special bulletin segment on Delhi's air pollution post-Diwali. Here is the context: AQI has hit 480 in several parts of Delhi-NCR, GRAP Stage 4 is in effect, schools are shut, a pollution scientist is in studio and a reporter is at Anand Vihar with a real-time AQI monitor. Please provide: (1) A striking 8-second opening with an AQI number, (2) Two sentences placing the data in human and policy context, (3) A handoff to the live reporter at Anand Vihar, (4) A bridge into the studio expert, (5) An optional sign-off line offering health advisories. Format the output as a teleprompter script with timing cues and emphasis. Consider these constraints: cite CPCB and SAFAR data accurately, do not single out one community for firecracker burning, follow Supreme Court guidelines on pollution coverage, ensure language is empathetic to those who must work outdoors, and write phrasing that translates well to Hindi.",
+      "tags": [
+        "anchor-intro",
+        "tv-script",
+        "environment"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-025",
+      "title": "Package on UPI Going Global",
+      "prompt": "Act as a fintech and digital economy journalist with 8 years of experience producing packages for CNBC Awaaz and Bloomberg Quint. I need you to write a 2-minute feature package on UPI's international expansion. Here is the context: UPI is now live in 7 countries including UAE, Singapore, France, and Bhutan; Indian travelers can now scan and pay abroad; you have an NPCI executive interview, a tourist using UPI in a Singapore hawker centre captured on phone, and a Bengaluru shopkeeper accepting payments from a Bhutanese tourist. Please provide: (1) A 15-second hook opening with a relatable consumer story, (2) Three sub-sections covering scale, technology, and what's next, (3) Specific B-roll cues including QR code shots, smartphones and global skylines, (4) A reporter PTC at a popular Indian payment hub, (5) A closing line tying to India's digital diplomacy. Format as a two-column VIDEO/AUDIO TV script with running timecodes and SOT placeholders. Consider these constraints: cite NPCI and RBI numbers accurately, use INR figures with USD equivalent only where required, avoid government PR tone, mention partner countries correctly, ensure VO suits a Hindi voice-over rendering, and follow RBI advisories on cross-border digital payments framing.",
+      "tags": [
+        "package",
+        "tv-script",
+        "fintech"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-026",
+      "title": "Breaking News Script for Political Resignation",
+      "prompt": "Act as a political news producer with 12 years of experience at India Today and Republic TV. I need you to write a complete 8-minute breaking news block for a sudden, high-profile political resignation. Here is the context: a sitting Union Minister has resigned at 5 PM citing personal reasons, the resignation letter is brief, party sources are silent, and there is intense speculation; you have one political reporter in Delhi, one Lok Sabha correspondent, and a senior political editor in studio. Please provide: (1) A 60-second BREAKING anchor flash, (2) A timeline rundown of the minister's career and recent controversies, (3) Three balanced questions for the political editor, (4) A reporter live hit script at the minister's residence, (5) A backup script if the minister appears for a live byte, (6) Ticker rotation copy. Format the output as a runsheet with timecodes, GFX cues and SOT placeholders. Consider these constraints: avoid speculation without sourcing, attribute every claim, do not air doctored audio or unverified WhatsApp leaks, maintain neutrality across parties, follow ECI model code if elections are near, and ensure language is respectful even when critical.",
+      "tags": [
+        "breaking-news",
+        "tv-script",
+        "politics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-027",
+      "title": "Field Reporter Script at Cricket Stadium",
+      "prompt": "Act as a sports reporter with 5 years of experience covering cricket for Star Sports and Sports Today. I need you to plan a 2-minute live field hit from outside Eden Gardens before an India vs Pakistan T20 World Cup match. Here is the context: gates open in two hours, fans in jerseys are gathering, ticket black-marketing has been reported, security is tight, and the anchor wants a colour piece plus match preview. Please provide: (1) A 25-second walk-around opening capturing fan energy, (2) Three short fan voxpops of 10 seconds each from different states, (3) A 30-second match preview segment focused on key players, (4) A reporter PTC near the gates, (5) A handoff back to studio for the toss. Format the output as a stage-directed live script with cameraperson cues. Consider these constraints: stay neutral in fan rivalry, do not amplify communal or jingoistic chants, follow BCCI and ICC media protocols, avoid disclosing security arrangements, and ensure VO works for English, Hindi and Bengali feeds.",
+      "tags": [
+        "field-report",
+        "tv-script",
+        "sports"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-028",
+      "title": "Anchor Intro for Climate Summit Outcome",
+      "prompt": "Act as an international affairs anchor with 9 years of experience at NDTV 24x7 and WION. I need you to write a 40-second anchor intro for a special segment on the outcomes of a global climate summit affecting India. Here is the context: COP outcomes have just been announced, India has pledged certain renewable targets, there is debate on climate finance from developed nations, and you have one foreign affairs expert in studio plus a reporter live from the venue via satellite. Please provide: (1) A 10-second opening that places India at the center of the story, (2) Two sentences summarizing the deal in plain English, (3) A handoff to the live reporter at the venue, (4) A bridge into the studio expert, (5) A teaser for the next segment. Format the output as a teleprompter script with pronunciation guidance for international names and emphasis cues. Consider these constraints: cite UNFCCC and Indian government statements precisely, avoid taking sides between developed and developing nations, distinguish between binding and non-binding commitments, write phrasing that translates cleanly to Hindi, and stay within MEA and PIB official framing where applicable.",
+      "tags": [
+        "anchor-intro",
+        "tv-script",
+        "international"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-029",
+      "title": "Package on Indian Women in STEM",
+      "prompt": "Act as a senior features journalist with 10 years of experience producing socially driven packages for NDTV and DD India. I need you to write a 2-minute 45-second feature package on Indian women breaking barriers in STEM. Here is the context: ISRO recently named several women scientists in a major mission, a Mumbai-based startup is led by an IIT Bombay woman engineer, and a rural government school in Rajasthan has launched a girls coding programme; you have B-roll and interviews from all three locations. Please provide: (1) A 20-second emotional opening using one character, (2) A three-character thread weaving across the package, (3) Specific B-roll cues for labs, code on screens and rural classrooms, (4) A reporter PTC at one of the three locations, (5) A closing montage line that ties all three stories together. Format as a two-column VIDEO/AUDIO TV script with running timecodes and SOT in/out points. Consider these constraints: avoid tokenism, do not reduce subjects to gender-only identity, use accurate STEM and ISRO terminology, ensure parents and minor students give consent, and write VO that translates cleanly to Hindi for tier-2 and tier-3 audiences.",
+      "tags": [
+        "package",
+        "tv-script",
+        "features"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-030",
+      "title": "Breaking News Setup for Defence Operation",
+      "prompt": "Act as a defence correspondent and senior producer with 14 years of experience at India Today and Republic. I need you to design a 20-minute breaking news block for an officially announced military operation. Here is the context: the government has officially confirmed an operation across the LoC, the DGMO has briefed the press, the Defence Ministry statement is out, and you have one defence expert (retired Lt General) in studio, one strategic affairs editor, and a Srinagar-based reporter. Please provide: (1) A 90-second BREAKING anchor flash with verified-only facts, (2) An anchor reading of the official statement, (3) Two carefully framed questions each for the two studio guests, (4) A live hit script with the Srinagar reporter, (5) A graphic GFX walk-through script for a map of the operation, (6) Ticker copy under 70 characters and Aston supers. Format the output as a runsheet with timecodes, GFX cues and compliance flags. Consider these constraints: strictly follow Defence Ministry and government advisories, do not air operational details that compromise security, attribute every claim to DGMO or MEA, avoid jingoistic language as per NBSA, no archival war footage as if it were current, and prepare a 60-second silent hold script if the channel must pause briefly.",
+      "tags": [
+        "breaking-news",
+        "tv-script",
+        "defence"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-031",
+      "title": "Field Report from Indian Border Town",
+      "prompt": "Act as a senior border-affairs reporter with 11 years of experience covering Punjab, Rajasthan and J&K for News18 and India Today. I need you to plan a 3-minute field report from a border village in Punjab. Here is the context: the village is 800 metres from the international border, there are concerns about smuggling and drone activity, families have lived here for generations, BSF has tightened patrols, and you have access to villagers, a sarpanch and a BSF officer. Please provide: (1) A 30-second walk-around opening showing border markers and fields, (2) Two villager interviews with respectful, non-leading questions, (3) A 30-second sarpanch byte segment, (4) A 45-second BSF officer interaction with security-cleared questions, (5) A reflective reporter PTC near the fence, (6) A handoff to studio. Format the output as a structured field-report script with shot suggestions and ambient sound cues. Consider these constraints: BSF media protocol must be followed, no operational positions or weapon details on camera, do not film children without parental consent, avoid jingoism, write phrasing that works for English and Punjabi feeds, and verify any smuggling claims with official sources.",
+      "tags": [
+        "field-report",
+        "tv-script",
+        "border"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-032",
+      "title": "Anchor Intro for Bollywood Awards Night",
+      "prompt": "Act as an entertainment news anchor with 6 years of experience at channels like Zoom and ETC. I need you to write a 35-second high-energy anchor intro for a primetime entertainment bulletin lead segment on a major Indian film awards night. Here is the context: the Filmfare Awards just concluded in Mumbai, three big winners are confirmed, red carpet was star-studded, and you have a reporter live from outside the venue plus a Bollywood analyst in studio. Please provide: (1) A glamorous 8-second opening hook, (2) Two sentences listing top winners without spoiling the package, (3) A handoff to the red-carpet reporter, (4) A bridge into the studio analyst, (5) A teaser for upcoming controversies segment. Format the output as a teleprompter script with energy markers like [HIGH ENERGY], [SMILE], [PAUSE]. Consider these constraints: spell film and actor names accurately, avoid invasive personal commentary, follow CBFC and entertainment-news ethics, use Hindi-Urdu phrasing only where it suits, do not amplify body-shaming or relationship rumours, and ensure script works equally well for the morning replay.",
+      "tags": [
+        "anchor-intro",
+        "tv-script",
+        "entertainment"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-033",
+      "title": "Package on India's Semiconductor Push",
+      "prompt": "Act as a senior tech and policy journalist with 9 years of experience producing packages for ET Now and Bloomberg Quint. I need you to write a 2-minute 30-second feature package on India's semiconductor manufacturing push. Here is the context: a major fab plant has been inaugurated in Gujarat, three more are in pipeline in Karnataka, Assam and UP, the government has approved INR 76,000 crore under the India Semiconductor Mission, and you have an industry expert interview, a worker training centre B-roll and a global supply-chain analyst over Skype. Please provide: (1) A 15-second hook opening connecting India's chip story to consumer devices, (2) A three-act structure covering policy, plants and people, (3) Specific B-roll cues including clean rooms, wafers and assembly lines, (4) A reporter PTC inside or outside a fab site, (5) A closing line on global positioning. Format as a two-column VIDEO/AUDIO TV script with running timecodes and SOT placeholders. Consider these constraints: cite INR figures and ISM scheme details accurately, avoid making the package look like government PR, balance ambition with execution risks, follow MeitY and PIB statements, mention partner companies correctly, and write VO that suits a Hindi voice-over translation.",
+      "tags": [
+        "package",
+        "tv-script",
+        "tech"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-034",
+      "title": "Breaking News Script for Major Rail Accident",
+      "prompt": "Act as a senior breaking-news producer with 13 years of experience handling rail and road disasters for Hindi and English channels like Aaj Tak and Times Now. I need you to draft a 25-minute breaking news block for a major train accident reported in Odisha. Here is the context: a passenger train has derailed near Balasore, early reports suggest casualties and dozens injured, NDRF is mobilising, Railway Minister has tweeted, and you have one stringer at the site, one Bhubaneswar reporter en route, and a former rail safety expert in studio. Please provide: (1) A 90-second BREAKING anchor flash with attribution-only facts, (2) A holding script the anchor can stretch for 5 minutes between updates, (3) A phono protocol with the stringer including 4 safe questions, (4) A 90-second segment on rail safety history with the studio expert, (5) A helpline display protocol with railway helpline numbers, (6) Ticker rotation copy and Aston supers, (7) A retraction and correction template. Format the output as a 25-minute control-room runsheet with timecodes, sources and compliance flags. Consider these constraints: never read out unconfirmed casualty numbers, do not show graphic visuals, follow Disaster Management Act communication protocols, run helpline numbers every 3 minutes, attribute every claim to Railways or NDRF, and provide both English and Hindi pronunciation guidance for place names.",
+      "tags": [
+        "breaking-news",
+        "tv-script",
+        "disaster"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-035",
+      "title": "Field Report at Indian Wedding Industry Boom",
+      "prompt": "Act as a features reporter with 5 years of experience producing lifestyle and economy field reports for India Today and CNBC TV18. I need you to plan a 2-minute field report from a luxury wedding venue in Udaipur during peak wedding season. Here is the context: India's wedding industry is estimated at INR 10 lakh crore, big-fat weddings are booming with destination format, you are at a heritage haveli where a Mumbai industrialist family wedding is on, and you have access to the wedding planner, a vendor and consenting guests. Please provide: (1) A 25-second visually rich establishing opening, (2) A 30-second wedding planner interview on costs and bookings, (3) A 30-second vendor segment covering florists, caterers and decorators, (4) A reporter PTC tying weddings to local economy, (5) A closing line back to studio. Format the output as a stage-directed field script with shot suggestions and ambient sound cues. Consider these constraints: get on-camera consent from family before featuring guests, avoid invasive shots of bride and groom rituals without permission, cite WedMeGood and CII data carefully, balance celebration with economic angle, and ensure phrasing works for English and Hindi feeds.",
+      "tags": [
+        "field-report",
+        "tv-script",
+        "lifestyle"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-036",
+      "title": "Anchor Intro for Monsoon Update Segment",
+      "prompt": "Act as a daily news anchor with 4 years of experience at a regional English news channel. I need you to write a 30-second anchor intro for a monsoon update segment in the 7 PM bulletin. Here is the context: IMD has declared the southwest monsoon to be 8 percent above normal, several states are reporting good rains, but Vidarbha and parts of Karnataka have a deficit, and you have a weather expert in studio plus map graphics. Please provide: (1) A 7-second opening with a striking IMD figure, (2) Two sentences contextualizing the impact on agriculture and reservoirs, (3) A handoff to the GFX walk-through, (4) A bridge into the weather expert, (5) An optional sign-off line. Format the output as a teleprompter script with timing cues and emphasis. Consider these constraints: cite IMD numbers exactly, avoid alarmism on deficit areas, balance crop and water angles, follow Ministry of Agriculture phrasing, ensure the script reads cleanly in Hindi voice-over, and keep tone informative for tier-2 viewers in farming districts.",
+      "tags": [
+        "anchor-intro",
+        "tv-script",
+        "weather"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-037",
+      "title": "Package Script on Indian Diaspora Story",
+      "prompt": "Act as a senior international affairs correspondent with 12 years of experience producing diaspora packages for NDTV and WION. I need you to write a 2-minute 30-second feature package on Indian-origin leaders shaping global business and politics. Here is the context: in the past year several Indian-origin executives have taken over Fortune 500 firms, two have become heads of state, and an Indian-origin mayor has won in a major UK city; you have file footage, archival speeches, and one foreign-policy expert interview in Delhi. Please provide: (1) A 20-second hook opening that places the story in Indian middle-class aspiration context, (2) A three-character profile thread, (3) Specific B-roll cues including boardrooms, parliaments and city halls, (4) A reporter PTC outside the Indian ministry of external affairs, (5) A closing line connecting back to home-country pride and policy implications. Format as a two-column VIDEO/AUDIO TV script with running timecodes and SOT cues. Consider these constraints: do not exaggerate India's role in foreign achievements, balance pride with humility, attribute biographical facts precisely, ensure language works for both English and Hindi audiences, and follow MEA communications and OCI/PIO terminology correctly.",
+      "tags": [
+        "package",
+        "tv-script",
+        "international"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-038",
+      "title": "Breaking News Script for Cricket Captaincy Change",
+      "prompt": "Act as a sports breaking-news producer with 8 years of experience at Star Sports and Sports Today. I need you to draft a 10-minute breaking news block on a sudden Indian cricket team captaincy change. Here is the context: BCCI has announced a new T20I captain in a press release at 6 PM, the previous captain is reportedly stepping down voluntarily, World Cup is six months away, and you have one cricket analyst in studio, one former player on Skype, and a reporter outside BCCI HQ in Mumbai. Please provide: (1) A 60-second BREAKING anchor flash with verified facts, (2) An anchor read of key BCCI release lines, (3) Three balanced questions for the studio analyst, (4) A live hit with the BCCI HQ reporter, (5) A 90-second former-player Skype segment, (6) Ticker copy and Aston supers. Format the output as a runsheet with timecodes, GFX cues and SOT placeholders. Consider these constraints: do not speculate about feuds without sourcing, avoid disrespectful language toward outgoing captain, follow BCCI media advisories, attribute every claim, write VO that translates cleanly to Hindi feeds, and prepare a backup script if a player issues a video statement.",
+      "tags": [
+        "breaking-news",
+        "tv-script",
+        "sports"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-039",
+      "title": "Field Report from Indian Farmer's Mandi",
+      "prompt": "Act as an agriculture-affairs reporter with 7 years of experience covering rural India for DD News and NDTV India. I need you to plan a 2-minute 30-second field report from a major APMC mandi in Punjab during the wheat procurement season. Here is the context: procurement is in full swing, MSP has been hiked recently, farmers are queueing with tractor trolleys, FCI officials are weighing, and you have access to two farmers, one arhtiya (commission agent) and one FCI official. Please provide: (1) A 30-second walk-around opening through the grain stacks, (2) Two farmer interviews with respectful, non-leading questions, (3) A 30-second arhtiya byte on payment timelines, (4) A 30-second FCI official segment with three policy questions, (5) A reporter PTC near a stacked grain pile, (6) A closing handoff to studio with a forward-looking line on rabi season. Format the output as a structured field-report script with shot suggestions and ambient sound cues. Consider these constraints: cite MSP and procurement numbers from FCI accurately, do not lead farmers into political statements, follow Punjab government media protocol at mandis, write phrasing that works for Punjabi and Hindi voice-over, and reference Rabi-Kharif terminology correctly.",
+      "tags": [
+        "field-report",
+        "tv-script",
+        "agriculture"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    },
+    {
+      "id": "journalism-broadcast-journalists-040",
+      "title": "Package on Indian Tier-2 Real Estate Boom",
+      "prompt": "Act as a senior real-estate and economy journalist with 11 years of experience producing packages for ET Now and CNBC-TV18. I need you to write a 2-minute 45-second feature package on the property boom in Indian tier-2 cities. Here is the context: cities like Indore, Coimbatore, Lucknow, Vizag and Kochi are seeing 20-30 percent annual price growth, work-from-home and infrastructure projects are key drivers, you have interviews with one developer in Indore, one IT professional buyer in Coimbatore, one CREDAI representative in Mumbai, plus B-roll of construction sites, sample flats and metro work. Please provide: (1) A 20-second human-interest opening following one buyer, (2) A three-act structure covering buyer, builder and big picture, (3) Specific B-roll cues matched line-by-line to VO, (4) A reporter PTC at a tier-2 construction site, (5) A closing line connecting tier-2 boom to India's urbanisation story. Format as a two-column VIDEO/AUDIO TV script with running timecodes and SOT placeholders. Consider these constraints: cite RERA, CREDAI and Knight Frank or ANAROCK numbers accurately, use INR figures in lakh and crore, avoid hard buy/sell recommendations, balance optimism with affordability concerns, write VO that works in Hindi voice-over for regional feeds, and reference local infrastructure projects like metros and expressways correctly.",
+      "tags": [
+        "package",
+        "tv-script",
+        "real-estate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "journalism",
+      "subcategory": "broadcast-journalists"
+    }
+  ]
+}

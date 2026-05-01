@@ -1,0 +1,686 @@
+{
+  "category": "social-media-creators",
+  "subcategory": "linkedin",
+  "count": 40,
+  "prompts": [
+    {
+      "id": "social-media-creators-linkedin-001",
+      "title": "Viral LinkedIn Hook Generator for Indian Creators",
+      "prompt": "Act as a LinkedIn growth strategist with 8 years of experience scaling Indian creator accounts like Ankur Warikoo and Akshat Shrivastava. I need you to generate 15 scroll-stopping LinkedIn hooks (first 2 lines of a post) for an Indian audience. Here is the context: I am a 32-year-old product manager at a Bengaluru SaaS company, building a personal brand around career growth, layoffs in Indian IT, and product thinking. My audience is mid-managers (5-12 years experience) at Infosys, TCS, Wipro, Flipkart, Zomato, and Indian startups. Target metric: 1L+ impressions per post. Please provide: (1) 5 contrarian hooks challenging Indian corporate norms (e.g., \"Why I rejected a 50 LPA offer at Google India\"), (2) 5 vulnerability hooks about career failures or layoffs, (3) 5 data-driven hooks using Indian salary, hiring, or Nasscom report data points. For each hook, include the emotional trigger (curiosity, anger, pride, FOMO) and the ideal post type that follows (story, listicle, framework). Format as a numbered list with hook text in bold, trigger in italics, and 1-line context on why it works for Indian LinkedIn. Avoid generic American hooks like \"I made $1M\" — use INR figures, Indian company names, and references to Hinglish phrases where natural.",
+      "tags": [
+        "linkedin-post",
+        "hook",
+        "viral-content",
+        "indian-creators"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-002",
+      "title": "LinkedIn Profile Optimization for Indian Professionals",
+      "prompt": "Act as a LinkedIn profile coach who has optimized 500+ profiles for Indian founders, CXOs, and senior managers. I need you to give me a complete profile makeover blueprint. Here is my context: I am a 38-year-old engineering manager at a Pune-based product startup, 14 years of experience across Cognizant, Microsoft India, and a Series-B fintech. I want to position myself as a thought leader in engineering leadership and attract VP-level offers from Indian unicorns. Please provide: (1) 5 headline variations under 220 characters, each targeting a different positioning (technical depth, leadership, hiring, mentorship, India-tech narrative), (2) An About section of 2,000 characters in first person with a hook, story arc, credibility markers (specific INR revenue or team-size impact), and CTA, (3) Featured section recommendations (3 posts, 2 articles, 1 newsletter), (4) Experience bullet rewrites for the current role using STAR format with India-specific metrics, (5) Top 5 skills to pin and why, (6) 3 recommendation requests templates to send to Indian colleagues. Format as a structured document with section headers. Use Indian hiring market language and avoid generic Silicon Valley phrasing.",
+      "tags": [
+        "profile-optimization",
+        "personal-branding",
+        "linkedin-profile"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-003",
+      "title": "Career Journey Storytelling Post for Indian Audience",
+      "prompt": "Act as a LinkedIn storytelling expert who has written 200+ viral career-journey posts for Indian creators with 100K+ followers. I need you to draft a 1,800-character LinkedIn post telling my career journey. Here is the context: I started as a 12,000 INR/month tester at a Noida service company in 2011, got rejected by 47 product companies, finally cracked Razorpay in 2017, and now lead a 40-person engineering team at a YC-backed Indian startup with 12 LPA to 80 LPA jump over 13 years. The audience is freshers and 2-5 year experience engineers from Tier-2/Tier-3 cities. Please provide: (1) A 3-line scroll-stopping hook, (2) A narrative body using the \"struggle to summit\" arc with 4 specific moments (rejection, breakthrough, doubt, payoff), (3) 3 concrete lessons that the reader can apply Monday morning, (4) A CTA that drives DMs or comments, (5) 5 hashtags mixing broad (#linkedinindia) and niche (#tier2tech) tags. Format the post with strategic line breaks every 1-2 sentences (LinkedIn mobile readability). Include 2-3 Hinglish phrases where authentic (like \"jugaad\" or \"sab chalta hai\") and reference Indian cultural touchstones (parents' expectations, government job pressure).",
+      "tags": [
+        "linkedin-post",
+        "storytelling",
+        "career-journey",
+        "viral-content"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-004",
+      "title": "LinkedIn Article Outline on Indian Tech Layoffs",
+      "prompt": "Act as a LinkedIn long-form content strategist who has co-authored newsletters with creators like Deepak Shenoy and Akshat Shrivastava. I need you to build a complete outline for a 1,500-word LinkedIn article. Here is the context: I am a HR leader at a Hyderabad IT services firm and want to write a definitive piece on \"The Real Reason Behind 2024-2025 Indian IT Layoffs (It's Not AI).\" My audience is mid-to-senior IT professionals at Infosys, TCS, Wipro, HCL, Tech Mahindra, and Capgemini India. Please provide: (1) 5 title variations using curiosity gap and contrarian framing, (2) A hook intro of 150 words, (3) 6 H2 sections with bullet sub-points covering: bench economics, US visa pressure, GCC growth in Bengaluru/Hyderabad, automation in maintenance projects, the pyramid problem, and what employees should do, (4) Specific data points to include (Nasscom report numbers, attrition data, average bench cost in INR), (5) 3 contrarian arguments to address skeptical comments, (6) A closing CTA driving newsletter subscriptions. Format as a structured outline with word count per section totaling 1,500 words. Cite at least 5 Indian sources (Nasscom, Mint, ET Tech, Moneycontrol, Inc42).",
+      "tags": [
+        "article-outline",
+        "long-form",
+        "thought-leadership",
+        "indian-it"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-005",
+      "title": "Engagement Bait Question Post for B2B Founders",
+      "prompt": "Act as a LinkedIn engagement specialist who runs a creator agency for Indian SaaS founders. I need you to write 10 engagement-driving question posts targeted at Indian B2B founders and CXOs. Here is the context: I am the founder of a Bengaluru-based 12-person devtools startup and want to grow my LinkedIn from 4,000 to 25,000 followers in 6 months by sparking comment-heavy debates. My audience is founders, CTOs, VPs of engineering at Indian SaaS companies (Freshworks, Postman, Chargebee, Zoho, BrowserStack, Zluri). Please provide 10 posts, each 600-900 characters, structured as: (1) A polarizing 1-line statement, (2) Context in 3-4 lines using a specific Indian SaaS scenario, (3) An open-ended question that forces a yes/no plus reasoning. Topics should include: hiring fresher vs experienced engineers in India, remote-first vs Bengaluru-office mandate, ESOP vesting standards in Indian startups, India-first vs US-first GTM, attending TiE Bengaluru vs SaaSBoomi, founder pay transparency. Format each post ready-to-publish with 3 hashtags. Avoid soft questions like \"What do you think?\" — make each question force a stance.",
+      "tags": [
+        "engagement",
+        "b2b-founders",
+        "linkedin-post",
+        "question-prompts"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-006",
+      "title": "Hiring Post Template for Indian Startups",
+      "prompt": "Act as a talent branding expert who has helped Indian startups like CRED, Razorpay, and Groww attract 10,000+ inbound applications via LinkedIn hiring posts. I need you to write a hiring post that goes viral. Here is the context: I am the head of engineering at a Series-A fintech startup in Bengaluru, hiring 4 senior backend engineers (6-10 years experience) at 45-70 LPA plus 0.05-0.15% ESOPs. The audience is engineers currently at Razorpay, PhonePe, Cred, Slice, Jupiter, Open, and big tech India. Please provide: (1) A 2-line hook that doesn't start with \"We are hiring\", (2) A 1,500-character body with: why this role exists, the actual problem they will solve (with a specific Indian fintech scenario like UPI reconciliation), 3 non-negotiable skills, 3 perks beyond salary (real ones, not foosball), the 4-step interview process with timelines, (3) A transparent salary band in INR with ESOP details, (4) A CTA that says how to apply (no Easy Apply), (5) 5 hashtags. Format the final post with mobile-friendly line breaks. Include a hiring manager personal note at the end (3 lines) that sounds human, not corporate.",
+      "tags": [
+        "linkedin-post",
+        "hiring",
+        "talent-branding",
+        "indian-startups"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-007",
+      "title": "Thought Leadership Framework for Indian CXOs",
+      "prompt": "Act as an executive ghostwriter who has built thought-leadership programs for Indian CXOs at companies like Tata, Reliance Jio, and Mahindra. I need you to design a 90-day thought leadership content framework. Here is the context: I am the Chief Product Officer at a Mumbai-based listed e-commerce company, 22 years of experience, and want to be recognized as one of the top 10 product voices in India by next year, opening doors to board roles and Nasscom keynotes. My audience is CEOs, CXOs, VCs (Sequoia India, Accel, Lightspeed), and top product talent. Please provide: (1) 3 pillar themes I should own (e.g., India-specific product principles, scaling for Bharat, product-led growth in regional markets), (2) A 12-week content calendar with one tentpole post per week mapped to a pillar, (3) 5 signature frameworks I can reuse and credit to myself (give me names and 3-bullet structure for each), (4) 3 conferences to speak at (Nasscom, TiE Global Summit, FICCI events) and how to convert each into 4 LinkedIn assets, (5) A measurement dashboard with 6 KPIs beyond likes. Format as a strategic document with sections, tables, and timelines.",
+      "tags": [
+        "thought-leadership",
+        "cxo-content",
+        "executive-branding",
+        "content-strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-008",
+      "title": "Company Page Content Calendar for Indian SaaS",
+      "prompt": "Act as a B2B social media manager who has run LinkedIn company pages for Indian SaaS unicorns. I need you to build a 30-day company page content calendar. Here is the context: I manage the LinkedIn company page for a 200-person Bengaluru SaaS company in the HR-tech space (similar to Darwinbox or Keka), with 18,000 page followers, targeting Indian HR leaders and CHROs at companies with 500-5,000 employees. Goal: 3x engagement, drive 200 demo requests/month from LinkedIn. Please provide: (1) A 30-day calendar table with Date, Post Type, Hook, Topic, CTA, Asset Required (carousel, video, image, text), (2) Content mix breakdown: 30% product education, 25% customer stories (Indian HR leaders), 20% thought leadership from CEO, 15% culture, 10% industry data, (3) 5 carousel ideas with slide-by-slide outlines (e.g., \"How HDFC ERGO automated 80% of L&D queries\"), (4) 4 employee advocacy posts to encourage team resharing, (5) Hashtag strategy with 10 branded plus topical tags, (6) Best posting times for Indian HR audience. Format as a publish-ready calendar with all copy drafted.",
+      "tags": [
+        "company-page",
+        "content-calendar",
+        "b2b-saas",
+        "linkedin-strategy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-009",
+      "title": "Hinglish LinkedIn Post for Mass Indian Reach",
+      "prompt": "Act as a content creator like Rajat Soni or Trupti Mehta who has cracked Hinglish content on LinkedIn India for mass relatability. I need you to write 5 Hinglish LinkedIn posts that feel authentic, not cringe. Here is the context: I am a 29-year-old finance professional in Delhi NCR, building a personal brand on personal finance for the Indian middle class (household income 8-25 LPA). I want my posts to reach Tier-2/Tier-3 audiences (Indore, Lucknow, Jaipur, Kanpur) who feel intimidated by English-only finance content. Please provide 5 posts of 1,000-1,400 characters each on these topics: (1) Why your parents' FD obsession is destroying your wealth, (2) The 50-30-20 rule won't work in India — try this instead, (3) Mutual fund SIPs that beat real estate over 10 years, (4) Health insurance lessons from a 4 lakh hospital bill, (5) The truth about \"life settle ho jayegi\" after government job. Format each post with mobile line breaks, mix Hindi and English organically (avoid forced \"Hindi-fication\"), use Indian examples (HDFC, SBI, Zerodha, Groww), and end with a question CTA. Provide 4 hashtags per post mixing English and Devanagari where appropriate.",
+      "tags": [
+        "linkedin-post",
+        "hinglish-content",
+        "personal-finance",
+        "tier-2-audience"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-010",
+      "title": "Carousel Post Builder for Indian Founders",
+      "prompt": "Act as a LinkedIn carousel design strategist who has produced viral carousels for Ankur Warikoo and other Indian creators averaging 500K+ impressions. I need you to design a complete 10-slide LinkedIn carousel. Here is the context: I am the founder of a Bengaluru bootstrapped SaaS hitting 1 Cr ARR in 18 months, and I want to share \"7 Mistakes That Cost Me 40 Lakhs Building My First SaaS in India.\" Audience: aspiring Indian founders, indie hackers, and side-hustlers in IT. Please provide: (1) Cover slide with hook headline plus subhead plus visual idea, (2) 7 mistake slides each with: mistake title, 1-line story, the actual INR cost, the lesson in 2 lines, (3) A summary slide with the 7 mistakes as a checklist, (4) A CTA slide driving newsletter signup or DM. For each slide, specify: headline (max 8 words), body copy (max 30 words), visual element (chart, illustration, screenshot, quote), and color/typography hints suitable for Canva. Add the LinkedIn post caption (1,200 characters) that goes with the carousel, optimized to drive saves and reshares. Include 5 hashtags.",
+      "tags": [
+        "linkedin-post",
+        "carousel",
+        "founders",
+        "viral-content"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-011",
+      "title": "Newsletter Article on Indian Startup Funding Winter",
+      "prompt": "Act as a long-form business writer who contributes to Indian publications like The Ken, Inc42, and YourStory. I need you to draft a 2,000-word LinkedIn newsletter issue. Here is the context: I run a 6,000-subscriber LinkedIn newsletter called \"India Startup Decoded\" for founders and operators, and the upcoming issue is on \"What Indian Founders Got Wrong About the 2022-2024 Funding Winter.\" Please provide: (1) A subject line under 60 characters, (2) A pre-header of 90 characters, (3) A 200-word intro hook with a specific anecdote (e.g., a Series-B founder doing 3 rounds of layoffs at a Bengaluru edtech), (4) 5 H2 sections covering: the down-round myth, runway math founders ignored, the bridge round trap, GCC competition for talent, and the 2025 reset, (5) Embedded data callouts (cite Tracxn, Inc42, VCCEdge with specific INR/USD numbers), (6) 3 founder quotes (you can fabricate plausible names and roles), (7) A closing 200-word personal POV, (8) A CTA driving paid cohort signups. Format with section headers, pull quotes, and bullet breakdowns. Indian context throughout — no generic SaaS framing.",
+      "tags": [
+        "article-outline",
+        "newsletter",
+        "long-form",
+        "startup-content"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-012",
+      "title": "Profile Headline Variations for Indian Job Seekers",
+      "prompt": "Act as a career coach specializing in Indian job seekers transitioning between IT services and product companies. I need you to generate 12 LinkedIn headline variations under 220 characters each. Here is the context: I am a 7-year experienced full-stack developer at TCS Bengaluru (currently 14 LPA), targeting senior engineer roles at Indian product startups (target 28-38 LPA) at companies like Razorpay, PhonePe, Meesho, Acko, and Rapido. My current headline is generic: \"Software Engineer at TCS.\" Please provide: (1) 3 headlines using the \"I help X do Y\" formula tuned for Indian recruiters, (2) 3 headlines using stack-plus-impact formula (e.g., \"React + Node engineer who shipped 12 features used by 4M Indian users\"), (3) 3 headlines using the transition narrative (services-to-product), (4) 3 headlines using contrarian or curiosity hooks (e.g., \"The TCS engineer Razorpay tried to hire 3 times\"). For each, include: character count, the searchable keyword recruiters from Indian product companies use, and which audience segment it appeals to (Indian recruiters vs founders vs peers). Format as a numbered table.",
+      "tags": [
+        "profile-optimization",
+        "headline",
+        "job-search",
+        "linkedin-profile"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-013",
+      "title": "Comment Strategy for Indian Creator Networking",
+      "prompt": "Act as a LinkedIn community-building expert who has helped Indian creators like Ankit Bhatia network into top creator circles via strategic commenting. I need you to design a 30-day commenting strategy. Here is the context: I am a 26-year-old marketing professional in Mumbai with 800 followers, trying to break into the Indian marketing creator circle (people like Manish Pandey, Karthik Srinivasan, Adlin Madhumathi). Goal: get noticed by 20 mid-tier Indian creators (10K-50K followers) who can amplify my content. Please provide: (1) A list of 25 Indian marketing creators to comment on with their content style, (2) 5 comment frameworks (the \"add data,\" the \"counter with experience,\" the \"summarize and extend,\" the \"share Indian context,\" and the \"ask sharper question\") with 2 examples each, (3) A weekly cadence (how many comments per day, on which creators), (4) 5 things to NEVER do in comments on Indian LinkedIn, (5) A 30-day tracker with metrics to monitor (creator replies, profile views, follow-backs). Format as a playbook document.",
+      "tags": [
+        "engagement",
+        "networking",
+        "linkedin-strategy",
+        "creator-growth"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-014",
+      "title": "Hook Bank: 50 Templates for Indian Audience",
+      "prompt": "Act as a LinkedIn copywriter who has studied 5,000+ viral posts from Indian creators across categories (finance, tech, HR, marketing). I need you to build a reusable hook template bank. Here is the context: I am a content marketer at a Pune EdTech startup, posting 5x/week, and I waste 2 hours every day staring at the cursor. I need plug-and-play hook formulas. Please provide 50 hook templates organized into 5 categories of 10 each: (1) Contrarian (e.g., \"Most Indian managers think X. The data shows Y\"), (2) Personal Stakes (e.g., \"I lost ___ INR before learning this about ___\"), (3) Curiosity Gap (e.g., \"The reason ___ Indian unicorns IPO at lower valuations than US peers\"), (4) Listicle Promise (e.g., \"___ things I wish I knew before joining a Bengaluru startup\"), (5) Question Bait (e.g., \"Would you take a 30% pay cut to join a Series-A startup with 0.2% ESOP?\"). For each template, include: the formula, 1 filled-in Indian example, and the best post type to follow it (story, list, framework). Format as a reference table I can copy into Notion.",
+      "tags": [
+        "hook",
+        "linkedin-post",
+        "templates",
+        "copywriting"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-015",
+      "title": "Post-Mortem Post on Indian Startup Failure",
+      "prompt": "Act as a startup storyteller in the league of Indian creators who write transparent failure post-mortems. I need you to draft a 1,800-character LinkedIn post sharing a startup shutdown story. Here is the context: I co-founded a D2C wellness brand in Gurugram in 2021, raised 2.3 Cr seed from Indian angels, hit 80 lakh ARR, and shut down in late 2024 after failing to raise Series A during the funding winter. I want to write a transparent post sharing 5 hard lessons. Audience: aspiring D2C founders, angel investors, and operators in the Indian startup ecosystem. Please provide: (1) A vulnerable hook that doesn't sound performative (avoid \"failure is the best teacher\" cliches), (2) A 4-act narrative: the bet, the early traction, the inflection that broke us, the wind-down, (3) 5 specific lessons with INR figures (e.g., \"We burnt 38 lakh on influencer marketing in Q2 2023 — here is what we should have done\"), (4) A line on what the team is doing now (closure for the reader), (5) A CTA inviting DMs from founders facing similar situations. Format with strong line breaks, 1 powerful pull-quote, 5 hashtags. Avoid victim or hero framing — aim for honest operator tone.",
+      "tags": [
+        "linkedin-post",
+        "storytelling",
+        "startup-content",
+        "thought-leadership"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-016",
+      "title": "Founder Voice Ghostwriting Brief for Indian CEO",
+      "prompt": "Act as a senior LinkedIn ghostwriter who has written for 12 Indian unicorn CEOs. I need you to capture a founder's voice in a written brief. Here is the context: I have just been hired to ghostwrite for the CEO of a Bengaluru-based logistics tech company (similar to Delhivery or Shiprocket), 250-person team, raised Series C, and the CEO is a 41-year-old IIT-Madras alum, ex-McKinsey, articulate but blunt. He wants to position himself as \"India's pragmatic logistics voice\" against more hype-driven peers. Please provide a complete voice and ghostwriting brief: (1) Core voice attributes (5 adjectives with examples), (2) Sentence structure preferences (short or long, technical or simple), (3) Vocabulary do/avoid list (10 words to use, 10 to never use), (4) 3 sample post archetypes (operations deep-dive, contrarian take, team appreciation) with 200-word draft each, (5) Topics he should own and topics to never touch, (6) 3 signature phrases that should recur in his posts, (7) A 6-month content arc roadmap. Format as a ghostwriter onboarding document.",
+      "tags": [
+        "thought-leadership",
+        "ghostwriting",
+        "executive-branding",
+        "founder-content"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-017",
+      "title": "Engagement Pod Strategy for Indian Creators",
+      "prompt": "Act as a LinkedIn algorithm specialist who advises Indian creators on engagement velocity. I need you to design an ethical engagement pod strategy. Here is the context: I am a finance creator with 12,000 followers in Bengaluru, posting 4x/week. My posts get strong organic reach in the first 30 minutes but die quickly. I want to build a 20-person engagement pod of fellow Indian creators in adjacent niches (personal finance, career, startup, productivity). Please provide: (1) Criteria for selecting 20 pod members (follower range, niche overlap, posting frequency, geography), (2) A list of 25 Indian creators to invite (real-feeling personas in adjacent niches), (3) Pod rules: response time, comment quality standards, no like-only spam, reciprocity tracking, (4) A WhatsApp-friendly daily protocol (since most Indian pods run on WhatsApp), (5) 5 high-quality comment frameworks pod members should use to avoid algorithmic flagging, (6) Red flags that the pod has become low-quality, (7) An exit strategy when pod is no longer needed. Format as a pod-launch playbook.",
+      "tags": [
+        "engagement",
+        "linkedin-strategy",
+        "creator-growth",
+        "algorithm"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-018",
+      "title": "About Section Rewrite for Indian Mid-Career Pivot",
+      "prompt": "Act as a personal branding expert specializing in Indian mid-career professionals making industry pivots. I need you to write a 2,000-character LinkedIn About section. Here is the context: I am a 36-year-old who spent 12 years in investment banking at Morgan Stanley Mumbai and JP Morgan Bengaluru, and I am pivoting into climate tech as a Head of Strategy at a Series-B Indian climate startup focused on carbon credits for Indian SMEs. My audience is climate VCs (Avaana, Theia Ventures), climate-tech founders, and ESG leaders at Indian corporates (Tata, Mahindra, ITC). Please provide: (1) A first-line hook that immediately establishes the pivot, (2) A 3-paragraph narrative connecting investment banking skills to climate tech (deal-making, financial modelling, capital allocation), (3) A specific Indian credibility anchor (e.g., advised on a 400 Cr renewable energy fundraise), (4) 3 concrete things I am building or thinking about now in climate, (5) A skills inventory paragraph with 8 transferable skills, (6) A CTA inviting climate-tech conversations. Format the section with line breaks, 2 emojis maximum, and ensure the keyword density supports searches like \"climate tech India\" and \"ESG Mumbai.\"",
+      "tags": [
+        "profile-optimization",
+        "personal-branding",
+        "career-pivot",
+        "linkedin-profile"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-019",
+      "title": "Polling Post Series on Indian Workplace Culture",
+      "prompt": "Act as a LinkedIn polling strategist who has run viral polls reaching 50K+ votes from Indian audiences. I need you to design a 12-poll series on Indian workplace culture. Here is the context: I am a HR thought leader at a Mumbai consulting firm, 16,000 followers, and I want to run a Tuesday Poll Series for 12 weeks to drive engagement and gather data I can later turn into a Nasscom report or LinkedIn newsletter. Audience: HR leaders, CHROs, founders, and senior managers at Indian companies. Please provide 12 polls, each with: (1) A polarizing question under 140 characters, (2) 4 well-balanced options (no obvious right answer), (3) A 600-character context post body that frames the poll without biasing it, (4) 3 hashtags, (5) The follow-up post angle to publish 3 days later analyzing results. Topics to cover: 9-9-6 work culture in Indian startups, moonlighting, return-to-office mandates, hiring freshers vs experienced, ESOP transparency, remote vs Bengaluru-office, 5-day vs 6-day work week, mental health leave, Diwali bonus norms, exit interview honesty, manager training, AI replacing analyst roles. Format as a 12-week publish-ready calendar.",
+      "tags": [
+        "engagement",
+        "polls",
+        "linkedin-post",
+        "workplace-culture"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-020",
+      "title": "Article Series: India's Product Management Playbook",
+      "prompt": "Act as a senior product leader and LinkedIn long-form writer in the league of Indian PM voices. I need you to outline a 6-part LinkedIn article series. Here is the context: I am a Senior Director of Product at a Bengaluru fintech with 13 years of experience across Flipkart, PhonePe, and CRED, and I want to publish a definitive series called \"India's Product Management Playbook\" to establish myself as the go-to product voice in India. Audience: Indian PMs at all levels, founders building product teams, and PM aspirants. Please provide: (1) Series-level positioning paragraph and target outcome (newsletter signups, speaking invites, advisor roles), (2) 6 article titles with 1-line promise each, covering: PM hiring in India, the Bharat product principle, building for UPI-native users, India-vs-global product trade-offs, PM career progression in Indian product cos, and PM-to-founder transitions, (3) For each article: 600-word outline with H2 sections, 3 case studies from Indian companies (e.g., Cred Mint, Zerodha Kite, Meesho's reseller flywheel), and 5 data points to include, (4) Cross-promotion plan tying articles into LinkedIn posts and a closing webinar.",
+      "tags": [
+        "article-outline",
+        "thought-leadership",
+        "long-form",
+        "product-management"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-021",
+      "title": "Featured Section Strategy for Indian Founders",
+      "prompt": "Act as a LinkedIn profile strategist who has redesigned Featured sections for Indian unicorn founders to drive specific business outcomes. I need you to design my Featured section. Here is the context: I am a 33-year-old founder of a Bengaluru-based B2B SaaS company at 4 Cr ARR, and my Featured section currently has 3 random old posts. I want it to drive 3 outcomes: (1) inbound demo requests, (2) candidate pipeline for senior hires, (3) credibility for upcoming Series A pitch to Indian VCs. Please provide: (1) A 5-asset Featured strategy with one asset per row plus the order, mapping each asset to a specific outcome, (2) For each of the 5 assets, recommend: type (post, article, link, document, media), title (under 70 characters), the 250-character description LinkedIn shows, and the cover image direction, (3) Sample assets to create if I do not have them yet (e.g., a 1-page pitch deck PDF, a customer story carousel, a hiring manifesto), (4) A 90-day refresh cadence indicating which assets to swap quarterly, (5) Tracking metrics for each asset.",
+      "tags": [
+        "profile-optimization",
+        "linkedin-profile",
+        "founder-content",
+        "personal-branding"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-022",
+      "title": "Conference Recap Post After Nasscom or TiE Event",
+      "prompt": "Act as an event content specialist who has helped Indian executives turn conference attendance into 100K+ impression LinkedIn posts. I need you to write a conference recap post. Here is the context: I just attended Nasscom Technology and Leadership Forum 2026 in Mumbai as a VP of Engineering, and I want to publish a recap that demonstrates thought leadership without sounding like a generic event-summary post. Audience: Indian tech leaders, peers who could not attend, and executives looking for India-specific tech insights. Please provide: (1) A non-generic hook that does not start with \"Just attended NTLF 2026,\" (2) A 1,600-character body with 3 specific takeaways (give plausible insights on AI adoption in Indian IT, GCC growth, and India-as-product-nation themes), (3) 1 contrarian observation that challenges a common conference narrative, (4) 2 named-creator shoutouts with specific value-additive context (not just \"loved meeting Naveen\"), (5) A practical action item the reader can take, (6) A CTA inviting a sub-thread of comments from people who attended TiE Global Summit, FICCI events, or SaaSBoomi for cross-pollination. Format with mobile-friendly breaks, 5 hashtags. Avoid the photo-with-speaker cliche framing.",
+      "tags": [
+        "linkedin-post",
+        "conference-content",
+        "thought-leadership",
+        "engagement"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-023",
+      "title": "Listicle Post: 10 Lessons from Indian Tech Career",
+      "prompt": "Act as a LinkedIn listicle expert in the style of Ankur Warikoo who has written 200+ viral lessons-style posts. I need you to draft a 1,500-character lessons post. Here is the context: I am a 39-year-old who spent 15 years in Indian tech (started at Wipro Bengaluru in 2010, moved to Amazon India, then to Razorpay, now a Director at a Series-D Indian startup). I want to publish \"15 Things My 24-Year-Old Self Should Have Known About Indian Tech.\" Audience: 22-30 year-olds working in Indian IT, both services and product. Please provide: (1) A nostalgia-plus-stakes hook that connects with their current life stage, (2) 15 lessons in a numbered list, each 1-2 lines, covering money (ESOPs, FDs, NPS), career (when to switch, IIT vs non-IIT myth), mental health (burnout in 9-9-6 culture), relationships (parents wanting government job), and craft (continuous learning vs MBA), (3) A specific INR figure or Indian-company-name in at least 6 of the 15 lessons for credibility, (4) A closing 2-line vulnerable note, (5) A CTA inviting readers to add their own lessons. Format with strategic line breaks, 4 hashtags. No generic motivational fluff.",
+      "tags": [
+        "linkedin-post",
+        "listicle",
+        "career-content",
+        "viral-content"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-024",
+      "title": "Company Page Crisis Communication Playbook",
+      "prompt": "Act as a corporate communications director who has handled LinkedIn crisis comms for Indian listed companies during high-visibility incidents. I need you to build a crisis communication playbook for our LinkedIn company page. Here is the context: I run social for a 1,200-person Bengaluru SaaS company that just had a 14-hour outage affecting 8,000 Indian B2B customers including 3 listed companies. The CEO needs to post within 6 hours, customers are tagging us angrily, and Indian tech publications (ET Tech, Inc42) have already reached out. Please provide: (1) A 5-step crisis response framework adapted for Indian B2B context, (2) A draft CEO post (1,400 characters) with: acknowledgement, what happened in plain language, what we are doing now, what we will share within 48 hours, personal accountability, (3) A draft company page post that complements (not duplicates) the CEO post, (4) A response-comment template for angry customers that does not sound legal-team-approved, (5) Internal employee comms note to align team members posting independently, (6) A 7-day follow-up content calendar to rebuild trust. Format as a publish-ready playbook.",
+      "tags": [
+        "company-page",
+        "crisis-communication",
+        "linkedin-strategy",
+        "corporate-content"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-025",
+      "title": "Daily Engagement Routine for Indian Creators",
+      "prompt": "Act as a LinkedIn productivity coach who has helped 100+ Indian creators build sustainable daily routines while holding full-time jobs. I need you to design my 30-minute daily LinkedIn routine. Here is the context: I am a 31-year-old senior consultant at a Big-4 firm in Gurugram (10-hour workdays), 4,000 followers, posting 3x/week, and I want to grow to 25,000 followers in 12 months without burning out. I can give 20 minutes in the morning (8:30-8:50 AM IST) and 10 minutes in the evening (9:30-9:40 PM IST). Please provide: (1) A morning 20-minute protocol broken into 4 blocks (e.g., 5 min commenting on top 5 Indian creators, 5 min responding to my own post comments, 5 min DM follow-ups, 5 min idea-capture), (2) An evening 10-minute protocol (writing seed for tomorrow's post, scheduling, metrics check), (3) A weekly schedule (Monday writing, Wednesday posting, etc.) factoring in Indian timezone audience peaks, (4) 5 tools to compress this (Taplio, Shield, Notion, Buffer, etc.) with the cheaper Indian-friendly alternatives, (5) Burnout warning signs to watch. Format as a daily playbook.",
+      "tags": [
+        "engagement",
+        "linkedin-strategy",
+        "creator-growth",
+        "productivity"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-026",
+      "title": "Ghostwriter Discovery Call Script for Indian Creators",
+      "prompt": "Act as a LinkedIn ghostwriting agency owner who has onboarded 80+ Indian executive clients at retainers between 80K-3.5L INR/month. I need you to draft a complete discovery call script. Here is the context: I am a freelance ghostwriter looking to land my third executive client (an Indian SaaS founder), and I have a 45-minute discovery call scheduled tomorrow. I need a structured call flow that helps me qualify the client, understand their voice, surface their goals, and pitch my retainer at 1.5L INR/month. Please provide: (1) A 7-section call agenda with timing, (2) 18 discovery questions split into 3 buckets: business goals, voice and personality, content history, (3) 4 questions to surface their pain (why they have not posted in 6 months, what previous attempts at ghostwriting failed, etc.), (4) A pricing reveal script that frames 1.5L INR as ROI not cost using Indian comparables (cost of one BD hire, one event sponsorship), (5) 5 common objections from Indian founders (\"Can you guarantee virality?\" \"Why not just hire an intern?\") with responses, (6) A clear next-step CTA. Format as a script with stage directions.",
+      "tags": [
+        "ghostwriting",
+        "linkedin-strategy",
+        "freelancing",
+        "creator-economy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-027",
+      "title": "Hook Test: A/B Variations for One Post Idea",
+      "prompt": "Act as a LinkedIn hook testing specialist who has run hook A/B tests on 1,000+ Indian creator posts. I need you to generate 8 hook variations for the same underlying post idea. Here is the context: My core post idea is about how I rejected a 1.2 Cr senior PM offer at a US-based company to join an Indian Series-B startup at 65 LPA plus ESOPs. The full post body is the story arc and 3 lessons. I need 8 different hooks so I can post the same story across different platforms or test which hook performs best. Audience: Indian product, tech, and senior managers contemplating offshore vs India career bets. Please provide 8 hook variations, each 2-3 lines, organized as: (1) Number-led hook (\"I rejected 1.2 Cr last week\"), (2) Contrarian hook (\"Joining a US company is overrated for Indian PMs\"), (3) Question hook, (4) Vulnerability hook, (5) Authority hook (\"After 12 years in Indian tech\"), (6) Curiosity-gap hook, (7) Listicle promise hook, (8) Story-in-medias-res hook. For each, predict expected impressions range (low/mid/high) and the audience segment most likely to engage. Add 1 line on which hook to use for which goal.",
+      "tags": [
+        "hook",
+        "linkedin-post",
+        "a-b-testing",
+        "copywriting"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-028",
+      "title": "Personal Newsletter Launch Plan on LinkedIn",
+      "prompt": "Act as a newsletter growth expert who has launched 25+ LinkedIn newsletters for Indian creators reaching 10K+ subscribers in under 6 months. I need you to design a newsletter launch plan. Here is the context: I am a marketing leader at a Bengaluru consumer brand with 9,000 LinkedIn followers, and I am launching a newsletter called \"Bharat Brand Decoded\" focused on building consumer brands for Indian markets beyond Tier-1 cities. My target: 5,000 subscribers in 90 days. Audience: brand managers, D2C founders, and CMOs at Indian consumer companies (Mamaearth, boAt, Wakefit, MapMyGenome, Slurrp Farm). Please provide: (1) A pre-launch 3-week content sequence (9 LinkedIn posts) building anticipation, (2) Launch-day post (1,500 characters) and the email-style first issue (1,800 words), (3) A 12-issue content calendar with topics and Indian case studies (Boat's Tier-2 push, Patanjali's distribution playbook), (4) 5 cross-promotion partners (real-feeling Indian creators in adjacent niches) and a co-promotion ask template, (5) Weekly metrics to track (subscriber growth, open rate, reply rate, share rate), (6) Monetization path after 5K subscribers. Format as a launch playbook.",
+      "tags": [
+        "newsletter",
+        "thought-leadership",
+        "linkedin-strategy",
+        "creator-growth"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-029",
+      "title": "Comment Reply Templates for Indian Creators",
+      "prompt": "Act as a community manager who has handled comment moderation for Indian creator accounts with 100K+ followers. I need you to give me reusable reply templates. Here is the context: I am a tech creator with 18,000 Indian followers, getting 200+ comments per post on viral days, and I waste 90 minutes daily replying. My replies sound robotic. I want templates that feel personal but scale. Please provide 20 reply templates organized into 5 buckets: (1) Encouragement comments (\"Great post!\") — 4 templates that nudge to a better engagement, (2) Disagreement or critical comments — 4 templates that engage without being defensive, (3) Question comments seeking advice — 4 templates that give value without writing a thesis, (4) Self-promotion comments by other creators — 4 templates that maintain boundaries gracefully, (5) DM-bait commenters wanting to sell — 4 templates that politely decline. For each template, include: a slot-fill structure, 2 filled-in Indian examples (using Indian first names like Priya, Rohit, Anjali), and the time-to-reply target. Format as a reference doc I can pin in Notion.",
+      "tags": [
+        "engagement",
+        "community-management",
+        "linkedin-strategy",
+        "templates"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-030",
+      "title": "Visual Banner and Profile Photo Brief for Indian CXO",
+      "prompt": "Act as a LinkedIn visual branding expert who has designed profile assets for 50+ Indian CXOs at listed companies. I need you to write a complete creative brief for a designer. Here is the context: I am the CHRO of a Mumbai-based listed pharma company (similar to Cipla or Sun Pharma), 24 years of experience, and I am refreshing my LinkedIn visuals to support a renewed thought leadership push on Indian workforce transformation. Please provide: (1) Profile photo brief: setting (corporate vs editorial), wardrobe (saree, kurta, blazer), expression, framing, lighting, post-production guidelines suitable for an Indian senior executive audience without looking dated, (2) Banner image brief: dimensions, 3 layout options (text-led, photography-led, abstract-led), color palette aligned with Indian pharma sector visual codes (without being literal), font pairings that work in both English and Devanagari script, key message overlay (under 10 words), (3) A version-history plan refreshing visuals every 6 months to stay current, (4) 3 reference creators (Indian) whose visual branding is best-in-class to benchmark. Format as a designer-ready brief I can paste into a Notion task.",
+      "tags": [
+        "profile-optimization",
+        "personal-branding",
+        "executive-branding",
+        "visual-content"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-031",
+      "title": "Cross-Platform Repurposing from LinkedIn to X and Instagram",
+      "prompt": "Act as a multi-platform creator strategist who has scaled Indian creators across LinkedIn, X (Twitter), and Instagram simultaneously. I need you to design a repurposing system from one LinkedIn post. Here is the context: I am a personal finance creator in Hyderabad with 22,000 LinkedIn followers, and I write one strong LinkedIn post per week (1,500 characters) that gets 50K+ impressions. I want to repurpose each into 5 derivative assets without sounding repetitive. Audience: Indian middle-class earners 25-45 years across all 3 platforms. Please provide a step-by-step repurposing playbook for one example LinkedIn post on \"Why most Indian families are over-insured and under-invested\": (1) An X (Twitter) thread of 8 tweets adapted for the Indian X audience (sharper, edgier, more contrarian), (2) An Instagram carousel of 8 slides with simpler language and visual hooks, (3) A 60-second Instagram Reel script with hook-body-CTA, (4) A 90-second YouTube Shorts script for a slightly older Indian audience, (5) A WhatsApp broadcast message for my finance group of 800 contacts. For each, specify the platform-specific tweaks (length, tone, visual treatment), and note what NOT to copy verbatim. Format as a checklist.",
+      "tags": [
+        "linkedin-strategy",
+        "repurposing",
+        "creator-growth",
+        "multi-platform"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-032",
+      "title": "Anniversary Post on Indian Career Milestone",
+      "prompt": "Act as a LinkedIn storytelling specialist who turns ordinary career anniversaries into 1L+ impression posts for Indian professionals. I need you to draft a work anniversary post. Here is the context: I am completing 5 years at my current company, a Bengaluru product startup that I joined as the 14th employee when it was at 50 lakh ARR; we are now 240 employees at 90 Cr ARR after Series C. I do not want a generic \"5 years and counting\" post. Audience: Indian startup operators, founders, and people considering joining early-stage Indian startups. Please provide: (1) A non-generic hook that does not start with \"5 years ago,\" (2) A 1,600-character body with: the original bet I made (with the specific INR salary cut I took from my previous job), 3 turning points in the company journey, what changed in me as a person (not just my title), the hardest moment I almost quit, what comes next, (3) A frank section on what the founder did right and wrong (be specific without being inflammatory), (4) A line for early-stage Indian operators considering similar bets, (5) Explicit acknowledgements of 3 colleagues by name (use plausible Indian names), (6) 4 hashtags. Format with strong line breaks. Avoid corporate gratitude clichés.",
+      "tags": [
+        "linkedin-post",
+        "storytelling",
+        "career-content",
+        "viral-content"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-033",
+      "title": "Industry Report Teaser Post for B2B Lead Generation",
+      "prompt": "Act as a B2B demand generation specialist who has driven 5,000+ MQLs from LinkedIn report-teaser posts for Indian SaaS companies. I need you to draft a report-teaser LinkedIn post. Here is the context: I am the head of marketing at a Bengaluru SaaS company, and we just published \"State of HR Tech in India 2026\" — a 40-page report based on a survey of 600 Indian HR leaders at companies with 500-10,000 employees. We want the report to drive 800 downloads in the first 30 days, with 30% converting to MQLs. Audience: Indian HR leaders, CHROs, talent ops at companies like Wipro, Infosys, Flipkart, Swiggy, and mid-market Indian conglomerates. Please provide: (1) A teaser post (1,500 characters) with: a striking statistic-led hook (give a plausible Indian HR data point), 3 surprising findings revealed in the post, 2 findings withheld with curiosity gap, a clear CTA to download with a single link, (2) A 6-slide carousel teaser to attach for higher dwell time, (3) 3 follow-up posts (one per week) drilling into specific findings to maintain interest, (4) A LinkedIn DM template for 50 senior HR leaders inviting a bespoke share. Format as a publish-ready bundle.",
+      "tags": [
+        "linkedin-post",
+        "lead-generation",
+        "b2b-saas",
+        "thought-leadership"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-034",
+      "title": "Founder POV Post Reacting to Indian Tech News",
+      "prompt": "Act as a LinkedIn newsjacking expert who has helped Indian founders ride breaking news cycles to 200K+ impressions. I need you to draft a reaction post for a current Indian tech news event. Here is the context: A major Indian tech news has broken (treat the prompt as a live exercise — the user will fill in the news; for this exercise assume Zomato has just announced a 1,200-person layoff in their quick-commerce arm Blinkit). I am the founder of a Series-B Bengaluru logistics startup, and I want to share a thoughtful POV that demonstrates business depth without sounding opportunistic. Audience: Indian tech operators, founders, and investors. Please provide: (1) A 1,400-character post with: a hook that signals POV without sensationalism, 3 specific business observations (unit economics, the quick-commerce category math, what this signals for adjacent categories), 1 contrarian or empathetic angle, an actionable insight for fellow operators, (2) Tone guardrails: how to avoid schadenfreude, victim-blaming, or generic \"thoughts and prayers,\" (3) 3 CTA options (open-comment debate, DM-driven, link to a longer take), (4) A 24-hour follow-up plan with 1 article and 2 reply posts to maintain momentum, (5) 4 hashtags. Format as a publish-ready post plus strategy note.",
+      "tags": [
+        "linkedin-post",
+        "thought-leadership",
+        "newsjacking",
+        "founder-content"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-035",
+      "title": "Employee Advocacy Toolkit for Indian Company Page",
+      "prompt": "Act as a employee advocacy program manager who has built advocacy programs at Indian IT services giants (TCS, Infosys, HCL) and product unicorns. I need you to design a 90-day employee advocacy launch toolkit. Here is the context: I run social and employer brand at a 1,800-person Pune-based product company, and we want to launch an employee advocacy program where 200 employees regularly share company content. Goal: 10x reach of company page in 90 days. Please provide: (1) A 3-tier employee participation model (champions, regulars, occasional) with clear expectations and incentives, (2) A 90-day rollout plan with weeks 1-4 (pilot with 30 champions), 5-8 (expand to 100), 9-12 (open to 200), (3) 5 share-ready post templates employees can personalize (product launch, culture moment, hiring, customer win, leader POV), (4) Indian-context guardrails: what employees can/cannot share publicly, IT Act compliance, SEBI restrictions for listed-company employees, (5) A gamification leaderboard mechanism with rewards (Amazon vouchers, ESOP top-ups, public recognition), (6) Metrics dashboard with 6 KPIs, (7) 5 reasons advocacy programs fail in Indian companies and how to avoid each. Format as a launch toolkit.",
+      "tags": [
+        "company-page",
+        "employee-advocacy",
+        "linkedin-strategy",
+        "employer-branding"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-036",
+      "title": "Speaker Pitch Post for Indian Conference Circuit",
+      "prompt": "Act as a personal branding consultant who has placed 30+ Indian operators on stages at Nasscom, TiE Global Summit, FICCI, SaaSBoomi, and India Internet Day. I need you to draft a LinkedIn speaker-pitch post that organically attracts conference invites. Here is the context: I am a Director of Engineering at a Bengaluru fintech, with deep expertise in scaling payments infrastructure (UPI, RuPay rails, recurring payments NACH). I want to position myself for 6-8 paid or invited speaking slots in 2026. Audience: conference organizers, community leads (Sequoia India, Lightspeed, Accel), and event curators in the Indian tech ecosystem. Please provide: (1) A 1,400-character LinkedIn post that signals speaker availability without saying \"please invite me,\" (2) 3 talk titles with 100-word abstracts each, (3) A speaker bio in 3 lengths (60, 120, 250 words) suitable for different event formats, (4) A 6-image carousel I can pin to my Featured section showcasing past talks (with mock specifications: cover image, slide screenshots, audience photo, takeaway tile), (5) A DM template to send to 15 specific Indian event curators (give plausible names and event roles), (6) A follow-up sequence after each talk to convert into LinkedIn content. Format as a publish-ready bundle.",
+      "tags": [
+        "thought-leadership",
+        "speaker-branding",
+        "personal-branding",
+        "linkedin-post"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-037",
+      "title": "Recommendation Request and Response Templates",
+      "prompt": "Act as a personal branding coach who has helped Indian professionals secure 1,000+ high-quality LinkedIn recommendations. I need you to give me ready-to-send templates. Here is the context: I am a 33-year-old senior product manager at a Bengaluru SaaS company, applying for VP-level roles at Indian unicorns and global product companies, and my profile has only 3 weak recommendations from former TCS managers. I want to add 8 strong recommendations in 30 days. Please provide: (1) A list of 8 ideal recommendation senders by relationship type (manager, peer, direct report, customer, founder, board member, vendor, mentor), (2) For each, a 200-word personalized request DM template that anchors a specific shared moment and proposes 3 talking points to make their job easy, (3) 4 follow-up nudges to send if they haven't responded in 7-10 days (without being pushy in the Indian relational context), (4) A reciprocity offer template (write theirs first), (5) For when I am asked to write recommendations: 5 templates by relationship type, each 150-200 words, that use specific anecdotes and Indian-context skills, (6) A spreadsheet template to track sent, received, and reciprocated recommendations. Format as a usable playbook.",
+      "tags": [
+        "profile-optimization",
+        "linkedin-profile",
+        "templates",
+        "personal-branding"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-038",
+      "title": "Quarterly Content Audit and Strategy Reset",
+      "prompt": "Act as a LinkedIn analytics consultant who has audited 200+ Indian creator accounts and reset their content strategies for 3-5x growth. I need you to design a quarterly content audit framework. Here is the context: I am a 6-month-old LinkedIn creator, 7,500 followers, posting 4x/week, but my growth has stalled at 200 new followers/month and engagement is dropping. I am a marketing consultant in Mumbai serving Indian D2C brands, and I need to reset before Q2. Please provide: (1) A pre-audit data collection checklist (12 data points to pull from LinkedIn analytics, Shield, or Taplio: top 10 posts, bottom 10 posts, follower demographics, dwell time, comment-to-like ratio, etc.), (2) A 6-step audit framework with diagnostic questions for each step (content-format mix, hook patterns, posting time, hashtag effectiveness, CTA conversion, audience-content fit), (3) A scoring rubric to grade each pillar 1-5, (4) 5 most common failure patterns for Indian B2B-adjacent creators and how to fix each, (5) A 90-day reset plan with weekly milestones, (6) The 3 metrics that matter most (and 5 vanity metrics to ignore). Format as a structured audit workbook.",
+      "tags": [
+        "linkedin-strategy",
+        "content-audit",
+        "creator-growth",
+        "analytics"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-039",
+      "title": "Founder Origin Story Post in 1,500 Characters",
+      "prompt": "Act as a startup storyteller who has crafted founding stories for Indian unicorns featured in YourStory, Inc42, and The Ken. I need you to draft a founder origin story post. Here is the context: I am the co-founder of a Bengaluru-based legal tech startup that just announced our public launch. We started in mid-2023 in a 1BHK in HSR Layout, bootstrapped 18 months on personal savings of 35 lakh, and just raised 12 Cr seed from Blume Ventures and Indian angels. The original idea came from my brother (a Mumbai lawyer at a top firm) wasting 4 hours daily on contract drafting. Audience: Indian founders, VCs, lawyers, legal-ops leaders, and aspiring founders. Please provide: (1) A non-cliched hook (no \"I started X in my bedroom\"), (2) A 1,500-character narrative with: the specific lived problem, the moment we decided to build, the first 100 days (with 1 humbling moment), the customer who taught us our product market fit, what changes now after seed, (3) Honest acknowledgement of luck and privilege without being self-flagellating, (4) Co-founder credit done elegantly, (5) A precise CTA (hiring, customer pilots, or DMs from Indian legal-ops leaders), (6) 5 hashtags. Format with strong line breaks.",
+      "tags": [
+        "linkedin-post",
+        "storytelling",
+        "founder-content",
+        "viral-content"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    },
+    {
+      "id": "social-media-creators-linkedin-040",
+      "title": "Annual Year-in-Review Post for Indian Professionals",
+      "prompt": "Act as a LinkedIn end-of-year content specialist who has helped Indian professionals craft viral year-in-review posts every December. I need you to draft a year-in-review post. Here is the context: I am a 34-year-old product leader at a Bengaluru SaaS company, just wrapping up 2026 — a year where I shipped 3 major products driving 18 Cr incremental ARR, lost a parent in March, took a 6-week sabbatical, became a first-time manager of 9 people, and started writing on LinkedIn (grew from 1,200 to 14,000 followers). Audience: Indian product, tech, and operator community plus 200+ peers I want to stay connected with. Please provide: (1) A non-cliched hook that does not start with \"What a year\" or \"2026 was a journey,\" (2) A 1,800-character body using a 4-act narrative (work wins, hardest moment, biggest lesson, what next), (3) Explicit acknowledgement of grief and sabbatical handled with Indian cultural sensitivity (parents, family expectations, Indian workplace norms around grief leave), (4) 3 specific quantified work outcomes in INR/users/team metrics, (5) 4 things I am committing to in 2027 (specific, not vague), (6) A CTA inviting reflective replies, (7) 4 hashtags. Format with strong line breaks. Avoid humblebrag and toxic positivity.",
+      "tags": [
+        "linkedin-post",
+        "year-in-review",
+        "career-content",
+        "storytelling"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "social-media-creators",
+      "subcategory": "linkedin"
+    }
+  ]
+}

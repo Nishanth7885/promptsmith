@@ -1,0 +1,727 @@
+{
+  "category": "engineering-manufacturing",
+  "subcategory": "quality-engineers",
+  "count": 40,
+  "prompts": [
+    {
+      "id": "engineering-manufacturing-quality-engineers-001",
+      "title": "Draft 8D CAPA Report for Auto Component Defect",
+      "prompt": "Act as a Senior Quality Engineer with 12 years of experience in Indian Tier-1 auto component manufacturing (similar to Bharat Forge, Sona Comstar, Motherson Sumi). I need you to draft a complete 8D CAPA report for a customer complaint. Here is the context: Maruti Suzuki has rejected 240 forged crankshafts from our Pune plant due to surface cracks found during their incoming inspection (rejection PPM: 12,500). The defect was found on 12-Apr-2026 on batch number BFL-CRK-2403. Our IATF 16949 customer-specific requirement mandates 8D closure within 10 working days. Please provide: (1) D1 team formation with suggested cross-functional members and designations, (2) D2 problem description using 5W2H, (3) D3 interim containment actions at our plant, in-transit, and at Maruti's Manesar line, (4) D4 root cause analysis with both occurrence and detection root causes, (5) D5 permanent corrective actions with owner and target dates, (6) D6 implementation and verification plan, (7) D7 preventive actions including read-across to similar parts, (8) D8 team recognition. Format as a formal 8D report table with sections clearly marked. Consider IATF 16949 clause 10.2.3 requirements, Maruti Suzuki supplier quality manual expectations, and include Hindi/English bilingual Gemba communication notes for shop-floor operators.",
+      "tags": [
+        "8d",
+        "capa",
+        "iatf-16949",
+        "auto-components",
+        "customer-complaint"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-002",
+      "title": "Create Internal Quality Audit Checklist ISO 9001:2015",
+      "prompt": "Act as a Lead Auditor certified in ISO 9001:2015 with 10 years of experience auditing Indian manufacturing MSMEs and large OEMs. I need you to create a comprehensive internal quality audit checklist for a 300-employee auto-ancillary plant in Chakan, Pune manufacturing sheet metal components for Tata Motors and Mahindra. Here is the context: The plant is preparing for its annual surveillance audit by TUV SUD in June 2026. Previous audit had 3 minor NCs in clauses 8.5.1 (production control), 9.1.3 (analysis of data), and 7.1.5 (monitoring resources calibration). Please provide: (1) Clause-wise checklist covering ISO 9001:2015 clauses 4 through 10, with at least 4 audit questions per clause, (2) Objective evidence to verify for each question, (3) Sampling approach for records (how many to check), (4) Process-based audit trail for order-to-delivery, (5) Risk-based thinking verification questions, (6) Specific follow-ups for the 3 previous NCs. Format as an Excel-ready table with columns: Clause, Audit Question, Evidence to Check, Sample Size, Auditor Notes, Finding (C/NC/OFI). Consider Indian realities like handwritten logs, vernacular work instructions, and multi-shift operations.",
+      "tags": [
+        "audit-checklist",
+        "iso-9001",
+        "internal-audit",
+        "manufacturing",
+        "tuv"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-003",
+      "title": "Conduct 5-Why Analysis on Paint Defect",
+      "prompt": "Act as a Quality Engineer with 6 years of experience in Indian two-wheeler manufacturing (similar to Bajaj Auto Chakan or Hero MotoCorp Haridwar). I need you to conduct a structured 5-Why root cause analysis. Here is the context: Our paint shop has reported 8.5% rework on fuel tanks in the last week due to orange peel defect on the top coat. Affected model is Pulsar NS200, line speed 45 JPH, paint used is PPG Asia Pacific solvent-based. The defect started on 07-Apr-2026 after a humidity spike in Pune (78% RH). Please provide: (1) Clear problem statement with quantified impact in INR (rework cost at Rs 420 per unit), (2) Two parallel 5-Why chains — one for occurrence, one for non-detection, (3) Identification of the true root cause versus symptoms, (4) Validation method to confirm each Why answer, (5) Countermeasure for each root cause with responsibility, (6) Poka-yoke suggestions. Format as a tree diagram in text form plus a summary table. Consider Indian monsoon humidity variation, paint-booth HVAC limitations common in Indian plants, and operator skill variability across shifts.",
+      "tags": [
+        "5-why",
+        "root-cause-analysis",
+        "paint-defect",
+        "two-wheeler",
+        "rca"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-004",
+      "title": "Build Ishikawa Fishbone Diagram for Weld Defects",
+      "prompt": "Act as a Quality Engineer with 5 years of experience in Indian fabrication and welding industries supplying to Indian Railways and Tata Steel. I need you to build a detailed Ishikawa fishbone diagram. Here is the context: Our MIG welding line in Jamshedpur is producing 6.2% porosity defects on structural brackets for Indian Railways LHB coaches. Current rejection cost is Rs 2.8 lakh per month. The defect was verified through radiographic testing as per AWS D1.1. Please provide: (1) A complete fishbone diagram with all 6M branches — Man, Machine, Material, Method, Measurement, Mother Nature (environment), (2) Minimum 4 potential causes per branch specific to Indian shop-floor conditions, (3) Prioritization of top 5 most probable causes using a weighted score (likelihood x impact), (4) Data collection plan to validate top causes, (5) Suggested quick wins versus long-term fixes. Format as a text-based fishbone (ASCII art acceptable) plus a prioritization matrix table. Consider Indian factors such as wire/gas supplier inconsistency from local vendors, contract workforce skill gaps, ambient dust, and power fluctuations affecting welding parameters.",
+      "tags": [
+        "ishikawa",
+        "fishbone",
+        "welding",
+        "6m",
+        "rca"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-005",
+      "title": "Draft Supplier Quality Audit Report Template",
+      "prompt": "Act as a Supplier Quality Engineer with 7 years of experience managing an Indian supplier base for an OEM like Bosch India or Schneider Electric India. I need you to draft a supplier quality audit report template. Here is the context: I am auditing a Tier-2 plastic injection moulding supplier in Faridabad on 20-Apr-2026. They supply connector housings and have had 2 field failures in the last quarter. They claim IATF 16949 certification via a small certification body. Please provide: (1) Audit cover sheet with supplier details, audit scope, and audit team, (2) Section-wise scoring on QMS, Process Control, Measurement System, Training, Traceability, and Sub-tier control, (3) Process walk observation template, (4) A scoring rubric (0-5) with narrative anchors, (5) Classification logic for Green/Yellow/Red supplier rating, (6) Exit meeting format and CAPA request format. Format as a structured report with clear headers, tables for scoring, and a summary dashboard. Consider Indian supplier realities such as informal labour, missing calibration records, family-run management, and documentation in Hindi/regional languages.",
+      "tags": [
+        "supplier-audit",
+        "sqe",
+        "iatf",
+        "plastic-moulding",
+        "tier-2"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-006",
+      "title": "Interpret Xbar-R Control Chart for Machining",
+      "prompt": "Act as a Quality Engineer with 8 years of experience in Indian precision machining (similar to Sundram Fasteners or Rane Group). I need you to interpret an Xbar-R control chart and suggest actions. Here is the context: We are machining gear shafts OD 25.00 +/- 0.02 mm on a CNC turning centre in Hosur. I am sharing 25 subgroups of 5 readings each collected over 2 shifts. The Xbar has drifted upward from the 20th subgroup onwards, with the 23rd subgroup exceeding UCL. R chart shows one point beyond the upper limit at subgroup 18. Please provide: (1) Step-by-step interpretation of the Xbar and R charts using Western Electric rules, (2) Identification of the out-of-control signals and their probable causes, (3) Calculation method for process capability Cp and Cpk if process is stabilised, (4) Recommendations for immediate action versus permanent fix, (5) SPC log entry format the operator should fill. Format as an analysis report with a section for chart reading, a section for cause analysis, and a section for actions. Consider Indian factors such as tool insert quality variation, coolant concentration drift, and operator-to-operator variation in measurement.",
+      "tags": [
+        "spc",
+        "xbar-r",
+        "control-chart",
+        "cnc-machining",
+        "cpk"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-007",
+      "title": "Create Layered Process Audit LPA Checklist",
+      "prompt": "Act as a Plant Quality Manager with 10 years of experience in Indian automotive manufacturing following IATF 16949 and Ford Q1 requirements. I need you to create a Layered Process Audit (LPA) checklist for a critical assembly line. Here is the context: My plant in Chennai assembles electric power steering (EPS) units for Hyundai i20 and Kia Sonet. The line runs 3 shifts with 18 stations. LPAs must be done daily by line leads, weekly by supervisors, monthly by managers, and quarterly by the plant head as per CQI-8. Please provide: (1) 20 audit questions covering safety, 5S, setup verification, poka-yoke functionality, critical parameter control, and FIFO, (2) Frequency for each question by audit level, (3) Pass/fail criteria with objective evidence required, (4) Escalation logic for findings, (5) A sample monthly summary dashboard. Format as a table with columns: Sr No, Audit Point, Level (L1/L2/L3/L4), Criteria, Method of Verification, Frequency. Consider Indian shop-floor realities like language barriers, contract operators, and tool-room handover issues.",
+      "tags": [
+        "lpa",
+        "layered-process-audit",
+        "cqi-8",
+        "automotive",
+        "assembly"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-008",
+      "title": "Write CAPA for Pharma USFDA 483 Observation",
+      "prompt": "Act as a QA Executive with 6 years of experience in Indian pharmaceutical manufacturing following Schedule M, WHO GMP, and USFDA 21 CFR Part 211. I need you to write a CAPA response to a USFDA Form 483 observation. Here is the context: A USFDA inspector visited our oral solid dosage facility in Hyderabad on 05-Apr-2026 and issued a 483 with observation: \"Data integrity concerns — HPLC audit trails were disabled on 2 out of 6 systems used for finished product testing, and 3 re-injections were found without documented justification.\" We have 15 business days to respond. Please provide: (1) A formal cover letter acknowledging the observation, (2) Immediate corrections taken, (3) Root cause analysis using 5-Why, (4) CAPA plan with timelines, owners, and verification method, (5) Data integrity governance strengthening (ALCOA+ principles), (6) Commitment matrix. Format as a formal regulatory response letter with numbered sections. Consider Indian pharma context including MHRA, CDSCO, and USFDA interactions, and reference specific guidance like MHRA GXP data integrity 2018 and PIC/S PI-041.",
+      "tags": [
+        "capa",
+        "usfda",
+        "483",
+        "data-integrity",
+        "pharma"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-009",
+      "title": "Review PPAP Level 3 Submission Package",
+      "prompt": "Act as a Customer Quality Engineer with 8 years of experience at an Indian OEM reviewing Tier-1 PPAP submissions as per AIAG PPAP 4th edition. I need you to review a PPAP Level 3 submission. Here is the context: A Tier-1 supplier in Manesar has submitted PPAP for a new plastic air-intake duct for our upcoming SUV launch in July 2026. Part number is AID-2508-MH, annual volume 1,80,000 pcs, PPAP due date is 30-Apr-2026. Please provide: (1) Complete 18-element PPAP checklist with acceptance criteria for each, (2) Key things to verify in DFMEA, PFMEA, Control Plan alignment, (3) Dimensional report sampling expectations and capability study Cpk targets (typically 1.67 for safety/regulatory, 1.33 for significant), (4) MSA requirements — GRR below 10%, (5) Sample red flags I should look for that indicate a weak PPAP, (6) Standard approval language for full, interim, or rejection status. Format as a structured review checklist with columns: Element, Requirement, Acceptance Criteria, Reviewer Notes, Status. Consider Indian supplier practices and typical gaps in PFMEA-to-Control Plan linkage.",
+      "tags": [
+        "ppap",
+        "aiag",
+        "control-plan",
+        "msa",
+        "tier-1"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-010",
+      "title": "Draft Non-Conformance Report NCR Template",
+      "prompt": "Act as a QMS Coordinator with 5 years of experience implementing ISO 9001 and IATF 16949 in Indian MSME manufacturing. I need you to draft a non-conformance report (NCR) template and workflow. Here is the context: My plant in Coimbatore manufactures pump castings for Kirloskar and Grundfos. We currently log NCs on paper, resulting in poor trend analysis. I want a standardised NCR format for internal rejections, customer complaints, and supplier issues. Please provide: (1) A single NCR template with fields covering source, part, quantity, defect description, responsible process, containment, disposition (rework/scrap/use-as-is/return), cost impact in INR, root cause, CAPA reference, and closure evidence, (2) Workflow from detection to closure with RACI, (3) Monthly NC trend analysis dashboard fields, (4) Linkage to Cost of Poor Quality (COPQ), (5) Naming convention and numbering logic. Format as a ready-to-print form template plus a workflow description. Consider Indian MSME context including limited digital tools, multilingual workforce, and preference for simple Excel-based systems.",
+      "tags": [
+        "ncr",
+        "non-conformance",
+        "copq",
+        "qms",
+        "msme"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-011",
+      "title": "Create np-Chart for Attribute Inspection",
+      "prompt": "Act as a Quality Engineer with 5 years of experience in Indian consumer durables manufacturing (similar to Havells India or Crompton Greaves). I need you to create and interpret an np-chart for attribute defects. Here is the context: My plant in Baddi inspects 500 ceiling fans per hour at final audit for any cosmetic or functional defect. Over 24 hours (24 samples of 500 each) the defective count ranged from 4 to 22 units. Please provide: (1) When to use np-chart versus p-chart (constant vs variable sample size), (2) Step-by-step calculation of np-bar, UCL, and LCL with formulas, (3) A worked example using plausible numbers, (4) Interpretation of special-cause signals, (5) Common attribute defect categories in fan assembly (wobble, noise, paint, wiring) and typical assignable causes, (6) Reaction plan hierarchy for operator, line lead, and supervisor, (7) Daily dashboard format. Format as a tutorial with calculations and a reaction matrix. Consider Indian summer seasonal demand spike, line speed increase, and contract labour induction impact on attribute quality.",
+      "tags": [
+        "np-chart",
+        "spc",
+        "attribute-control",
+        "consumer-durables",
+        "final-audit"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-012",
+      "title": "Write SOP for Final Inspection of Gensets",
+      "prompt": "Act as a QA Supervisor with 6 years of experience in Indian engineering goods manufacturing. I need you to write a Standard Operating Procedure (SOP) for final inspection. Here is the context: My plant in Rajkot manufactures diesel generator sets (5 kVA to 62.5 kVA) for domestic and export markets. Final inspection covers dimensional, electrical, performance load test, paint, and documentation before dispatch. Current practice is ad hoc and has led to customer complaints on missing accessories and paint scratches. Please provide: (1) SOP header with document number, revision, owner, and approval, (2) Scope, purpose, references, and definitions, (3) Step-by-step inspection stages with acceptance criteria, (4) Instruments and gauges required with calibration cross-reference, (5) Checklists (mechanical, electrical, documentation), (6) Rejection handling and segregation, (7) Records and retention, (8) Training and competency. Format as a controlled SOP document. Consider Indian export packaging norms, EN/IS standards marking, and bilingual labels on nameplate.",
+      "tags": [
+        "sop",
+        "final-inspection",
+        "qa",
+        "gensets",
+        "engineering-goods"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-013",
+      "title": "Prepare First Article Inspection FAI Report AS9102",
+      "prompt": "Act as a Quality Engineer with 5 years of experience in Indian aerospace manufacturing (similar to HAL, Tata Advanced Systems, or Dynamatic Technologies). I need you to prepare a First Article Inspection (FAI) report in AS9102 format. Here is the context: We have produced the first article of a machined titanium bracket for a Boeing 737 wing sub-assembly from our Bangalore facility. Part number TBR-7815, drawing revision C, 68 dimensional features of which 12 are critical. Customer is Boeing via a Tier-1 integrator. Please provide: (1) AS9102 Form 1 — Part Number Accountability with design and build information, (2) Form 2 — Product Accountability for raw material, processes, and functional testing, (3) Form 3 — Characteristic Accountability listing every feature with actual readings, measurement method, and pass/fail, (4) Methodology to balloon the drawing, (5) Handling of non-conformances inside FAI, (6) Reviewer sign-off flow. Format as ready-to-fill Form 1/2/3 tables. Consider AS9100D clause 8.5.1.3 requirements and Indian aerospace customer expectations.",
+      "tags": [
+        "fai",
+        "as9102",
+        "aerospace",
+        "as9100",
+        "first-article"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-014",
+      "title": "Plan Incoming Inspection for Electronics Components",
+      "prompt": "Act as an Incoming Quality Engineer with 4 years of experience in Indian EMS (similar to Dixon Technologies Noida). I need you to plan an incoming inspection strategy for electronic components. Here is the context: We assemble LED lighting drivers for Philips India. Components include MOSFETs, capacitors, inductors, ICs, connectors, and PCBs from 22 suppliers across India, China, and Taiwan. Current inspection is 100% visual plus sample electrical, causing a 2-day delay in production release. Please provide: (1) Component categorisation by risk (critical vs standard), (2) Sampling plan using ISO 2859-1 AQL (e.g., AQL 0.65 critical, 1.5 major, 4.0 minor), (3) Required tests per category (visual, electrical, dimensional, solderability, moisture level), (4) Skip-lot criteria based on supplier history and certifications, (5) Handling MSL components (J-STD-033) given Indian humidity, (6) Record format. Format as a procedure plus inspection matrix. Consider RoHS, REACH, counterfeit risk, and Indian customs documentation requirements.",
+      "tags": [
+        "iqc",
+        "electronics",
+        "aql",
+        "ems",
+        "counterfeit"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-015",
+      "title": "Draft Customer Complaint Acknowledgement Emails",
+      "prompt": "Act as a Customer Quality Engineer with 4 years of experience handling OEM complaints at an Indian Tier-1 supplier. I need you to draft a professional customer complaint acknowledgement email and interim response. Here is the context: Tata Motors Lucknow has logged a complaint on 13-Apr-2026 regarding 32 rejected steering knuckles from our Pithampur plant due to casting porosity found during their machining operation. Line stoppage risk if not contained within 6 hours. Our Tata customer-specific requirement is 24-hour containment confirmation and 48-hour 3D report. Please provide: (1) Immediate acknowledgement email (within 2 hours) with incident number, owner, and ETA, (2) Interim containment confirmation (within 6 hours) with actions at Tata's plant, in-transit, and our plant, (3) 3D report skeleton (D1 team, D2 problem, D3 containment), (4) Escalation matrix if line stops, (5) Tone guidelines — professional, accountable, non-defensive. Format as 3 ready-to-send emails with subject lines. Consider Indian OEM escalation culture and typical CSR breach penalty clauses.",
+      "tags": [
+        "customer-complaint",
+        "communication",
+        "containment",
+        "3d-report",
+        "email"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-016",
+      "title": "Create Visual Standards for Operator Training",
+      "prompt": "Act as a Quality Trainer with 5 years of experience developing shop-floor visual aids for Indian automotive plants. I need you to create a visual quality standards document for operators. Here is the context: My plant in Manesar assembles instrument clusters for Hero MotoCorp motorcycles. Current defect escape is high because operators are uncertain about acceptable cosmetic limits on dial-face printing, needle alignment, and bezel scratches. We need a limit-sample style visual standard. Please provide: (1) Structure of the visual standards document including purpose and revision control, (2) Photo-based OK/NOT-OK references for each defect type with measurement criteria, (3) Go/No-Go judgement ruler (acceptable, limit, reject), (4) Inspection distance and lighting specification, (5) Training and certification workflow for operators, (6) Update process when new defects are discovered, (7) Bilingual (English + Hindi) labels recommendation. Format as a document template the plant can populate with photos. Consider Indian shop-floor lighting constraints, colour-blindness checks, and contract operator turnover.",
+      "tags": [
+        "visual-standards",
+        "operator-training",
+        "cosmetic-defect",
+        "poka-yoke",
+        "limit-samples"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-017",
+      "title": "Build p-Chart for Assembly Line Defect Rate",
+      "prompt": "Act as a Quality Engineer with 6 years of experience in Indian electronics manufacturing services (similar to Dixon Technologies Noida or Foxconn India Sriperumbudur). I need you to build and interpret a p-chart for defect rate. Here is the context: I am monitoring the assembly defect rate on a smart TV PCBA line running 12,000 units per shift. Sample size varies between 800 and 1,200 units per hour. I have 30 hourly data points with defect counts ranging from 6 to 42. Please provide: (1) Step-by-step formula for calculating p-bar, UCL, and LCL with variable sample sizes, (2) Interpretation of out-of-control points using Nelson rules, (3) How to handle sample-size variation (individual limits vs averaging), (4) Common shift/drift patterns in electronics assembly and their causes, (5) Action plan if any hour crosses UCL, (6) Suggested daily review ritual with production team. Format as a step-by-step tutorial with formulas, a worked example, and a decision tree. Consider Indian EMS context including high operator turnover, multi-customer lines, and the pressure of OEM line-down penalties.",
+      "tags": [
+        "p-chart",
+        "spc",
+        "ems",
+        "pcba",
+        "defect-rate"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-018",
+      "title": "Design MSA Gage R&R Study Plan",
+      "prompt": "Act as a Measurement Systems Analysis (MSA) expert with 10 years of experience supporting Indian auto-component suppliers. I need you to design a complete Gage R&R study plan. Here is the context: My plant in Pithampur measures ring gear runout using a dedicated fixture with a 0.001 mm digital indicator. The specification is 0.025 mm max, and the measurement is a critical customer characteristic for Mahindra XUV700 transfer case. We need to qualify the gage as part of PPAP. Please provide: (1) Study design using 10 parts x 3 operators x 3 trials as per AIAG MSA 4th edition, (2) Part selection strategy to span the tolerance range, (3) Randomisation and blinding approach, (4) Formulas and ANOVA approach for GRR calculation, (5) Acceptance criteria — GRR below 10% acceptable, 10-30% conditionally acceptable, above 30% unacceptable, (6) NDC (number of distinct categories) target above 5, (7) Action plan for each failure mode (Repeatability failure vs Reproducibility failure). Format as a project plan with timelines, a data collection sheet template, and an interpretation guide. Consider Indian factors like operator temperature effects, fixture wear, and measurement of parts straight off the machine.",
+      "tags": [
+        "msa",
+        "gage-rr",
+        "ppap",
+        "measurement-system",
+        "anova"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-019",
+      "title": "Create Process FMEA for New Product Launch",
+      "prompt": "Act as a Core Tools Expert with 12 years of experience leading APQP and PFMEA workshops for Indian Tier-1 automotive suppliers. I need you to create a Process FMEA using AIAG-VDA 2019 format. Here is the context: We are launching a new aluminium die-cast housing for an EV motor at our Aurangabad plant. Customer is Ola Electric, volume is 3,00,000 per year, SOP is September 2026. The process involves die casting, deburring, machining, leak testing, and packaging. Please provide: (1) PFMEA for at least 6 process steps with function, failure mode, failure effect, severity (S), failure cause, prevention and detection controls, occurrence (O) and detection (D), and AP (Action Priority) per AIAG-VDA 2019, (2) At least 3 high-AP items with recommended actions, responsible, and target, (3) Linkage to Control Plan and operator work instruction, (4) FMEA review cadence post-SOP. Format as a full PFMEA table with AIAG-VDA columns. Consider Indian die-casting realities such as die temperature variation, metal chemistry from secondary aluminium, and monsoon-related porosity issues.",
+      "tags": [
+        "pfmea",
+        "aiag-vda",
+        "apqp",
+        "die-casting",
+        "ev"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-020",
+      "title": "Analyse Customer Complaint with Is/Is-Not Matrix",
+      "prompt": "Act as a Quality Engineer with 7 years of experience handling customer complaints at an Indian automotive supplier. I need you to perform an Is/Is-Not problem analysis on a field complaint. Here is the context: Tata Motors has reported that 18 commercial vehicle brake callipers from our Jamshedpur plant are leaking brake fluid at the bleed screw port. Complaint received 10-Apr-2026. Affected VINs span production weeks 12-14 of 2026. Same part from weeks 10-11 and 15 are not affected. Only the LH part numbers are failing; RH are clean. Please provide: (1) Complete Is/Is-Not matrix covering What, Where, When, Who, How much, and Extent, (2) Differentiation analysis to identify what changed, (3) Hypotheses ranked by likelihood, (4) Data/evidence needed to confirm or eliminate each hypothesis, (5) Recommended next investigation steps including traceability pulls and 4M change-point review, (6) Interim containment during investigation. Format as a Kepner-Tregoe style table plus a hypothesis tracker. Consider Indian manufacturing traceability limitations and 4M change boards typical on Indian shop-floors.",
+      "tags": [
+        "is-is-not",
+        "kepner-tregoe",
+        "customer-complaint",
+        "rca",
+        "4m"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-021",
+      "title": "Conduct Supplier Run-at-Rate Assessment",
+      "prompt": "Act as a Supplier Development Engineer with 9 years of experience at an Indian OEM like Bajaj Auto or TVS Motor. I need you to create a run-at-rate (R@R) assessment protocol for a new supplier part. Here is the context: A new Tier-1 supplier in Rajkot is producing a cast iron brake drum for our upcoming motorcycle platform. PPAP has been approved, but we need to validate capacity at customer-required quoted volume of 800 pcs per 8-hour shift before granting production green-light. R@R scheduled for 25-Apr-2026. Please provide: (1) R@R entry criteria including PPAP status, tooling readiness, training completion, and raw material availability, (2) 8-hour observation plan with data collection at every hour, (3) Metrics to capture: cycle time, downtime, OEE, FTT (first time through), scrap rate, containment occurrences, (4) Acceptance criteria for each metric, (5) Fail-to-pass remediation process, (6) Final R@R report structure and approval chain. Format as a procedure document with a data capture template and a summary scorecard. Consider Indian supplier context of mixed manual-automated operations, power outages, and contract labour absenteeism.",
+      "tags": [
+        "run-at-rate",
+        "supplier-development",
+        "capacity",
+        "oee",
+        "ppap"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-022",
+      "title": "Perform Process Capability Study Cp Cpk Pp Ppk",
+      "prompt": "Act as an SPC specialist with 10 years of experience in Indian precision engineering. I need you to perform a complete process capability study. Here is the context: My plant in Belgaum is grinding crankshaft journals with specification 45.000 +0.000/-0.015 mm. I have collected 125 readings across 25 subgroups of 5 from a newly commissioned grinding machine. Customer (an Indian tractor OEM) requires Cpk >= 1.67 for this critical to quality characteristic. Please provide: (1) Step-by-step calculation of Cp, Cpk, Pp, Ppk with formulas, (2) Difference between Cp/Cpk (short-term, within) and Pp/Ppk (long-term, overall), (3) Normality check using Anderson-Darling or probability plot and what to do if non-normal, (4) Confidence interval for Cpk at 95%, (5) Interpretation framework if Cpk is 1.80 but Ppk is 1.20 (what does this gap mean), (6) Recommended actions to close the gap, (7) Reporting format for customer. Format as a tutorial-plus-report hybrid with a worked example. Consider Indian realities including machine warm-up cycles, coolant management, and shift-to-shift dressing variation on grinding wheels.",
+      "tags": [
+        "cpk",
+        "ppk",
+        "process-capability",
+        "spc",
+        "grinding"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-023",
+      "title": "Draft Deviation and Change Control Pharma",
+      "prompt": "Act as a QA Manager with 11 years of experience in Indian pharma formulations (similar to Sun Pharma, Cipla, Dr Reddy's). I need you to draft a deviation and change control package. Here is the context: During a batch of metformin 500 mg tablets at our Baddi facility, the compression machine main motor tripped for 22 minutes mid-batch. Batch size 1.2 million tablets, batch number MT-2604-01. We need a planned deviation report and subsequent change control if any parameter change is required. Please provide: (1) Deviation report with classification (minor/major/critical), impact assessment on product quality and data integrity, investigation plan, and disposition recommendation, (2) Risk assessment using FMEA or risk matrix aligned with ICH Q9, (3) Link to batch manufacturing record (BMR) review and in-process controls, (4) Change control form if we decide to add an interlock for compression machine recovery, (5) CAPA with timelines and owners, (6) Regulatory reportability assessment for USFDA, WHO, MHRA. Format as formal GMP documents with controlled numbering. Consider Indian pharma context of Schedule M revision 2024, MHRA inspections, and CDSCO reporting timelines.",
+      "tags": [
+        "deviation",
+        "change-control",
+        "pharma",
+        "gmp",
+        "ich-q9"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-024",
+      "title": "Create Supplier Quality Scorecard System",
+      "prompt": "Act as a Supplier Quality Manager with 12 years of experience building vendor rating systems for Indian auto and white-goods OEMs. I need you to design a supplier quality scorecard. Here is the context: I manage 180 suppliers across India for a large appliance manufacturer in Noida. Current vendor rating is ad hoc. Leadership wants a monthly scorecard that drives supplier behaviour and supports annual business-share decisions. Please provide: (1) Weighted scoring model with dimensions: Quality PPM (35%), Delivery OTIF (25%), Cost competitiveness (15%), Responsiveness on 8Ds (15%), Systems and audits (10%), (2) Formulas with Indian examples (PPM under 100 = 100 score, 100-500 = 80, etc), (3) Monthly dashboard design with supplier name, category, score, trend, rating (A/B/C/D), and action, (4) Escalation matrix — C and D suppliers require business reviews, (5) Linkage to annual sourcing decisions, (6) Communication letter template to suppliers explaining ratings. Format as a system design document plus a sample Excel scorecard for 5 suppliers. Consider Indian supplier mix from Tier-1 MNCs to SME family businesses.",
+      "tags": [
+        "supplier-scorecard",
+        "vendor-rating",
+        "ppm",
+        "otif",
+        "supplier-quality"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-025",
+      "title": "Write 8D Report for Supplier Returned Lot",
+      "prompt": "Act as a Supplier Quality Engineer with 8 years of experience at a Tier-1 automotive supplier in India. I need you to draft a supplier-facing 8D report request. Here is the context: We received 5,000 M10x1.5 hex flange bolts from a fastener supplier in Ludhiana. Incoming inspection found 180 bolts with missing zinc plating on the head face (rejection rate 3.6%). The lot was quarantined on 11-Apr-2026. We need the supplier to submit an 8D within 7 working days and provide a containment certificate for next 3 lots. Please provide: (1) Formal 8D request letter to supplier in professional English, (2) Non-conformance details with photographs reference and defect map, (3) 8D template the supplier must fill including D0 through D8, (4) Specific questions for supplier on D4 (why did plating line escape) and D5 (what poka-yoke), (5) Quality clauses we will invoke — charge-back for sorting cost at Rs 1.40 per piece and premium freight if production is impacted, (6) Follow-up schedule. Format as an email plus attached 8D template. Consider Indian fastener supplier capabilities, barrel plating process variations, and contract plating job workers.",
+      "tags": [
+        "8d",
+        "supplier-quality",
+        "fasteners",
+        "plating",
+        "ncr"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-026",
+      "title": "Build Control Plan Aligned with PFMEA",
+      "prompt": "Act as an APQP Core Tools expert with 10 years of experience in Indian Tier-1 automotive supply. I need you to build a production Control Plan aligned with PFMEA. Here is the context: I am finalising control plan for a stamped steel bracket produced on a 400-ton press at our Gurgaon plant for Honda Cars India. Operations include blanking, piercing, forming, deburring, e-coating, and final inspection. Critical characteristics are hole position (+/- 0.1 mm) and bend angle (90 +/- 0.5 deg). Annual volume 6,50,000. Please provide: (1) Production phase control plan per AIAG format with columns: Part/Process Number, Process Description, Machine/Tool, Characteristic No, Product Characteristic, Process Characteristic, Special Char Class, Specification/Tolerance, Evaluation Technique, Sample Size, Frequency, Control Method, Reaction Plan, (2) At least 10 line items across all operations, (3) Special characteristic marking aligned to PFMEA S*O, (4) Reaction plan clarity for operator, (5) Linkage reference to WI and FMEA numbers. Format as a wide Excel-ready table. Consider Indian stamping factors: die wear, coil-to-coil variation, and operator rotation.",
+      "tags": [
+        "control-plan",
+        "apqp",
+        "stamping",
+        "aiag",
+        "pfmea"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-027",
+      "title": "Investigate Field Failure with Fault Tree Analysis",
+      "prompt": "Act as a Reliability and Quality Engineer with 10 years of experience in Indian EV and electronics manufacturing. I need you to conduct a fault tree analysis (FTA) on a field failure. Here is the context: An EV traction motor controller supplied by our Chennai plant to an Indian 2W EV maker has shown 0.38% field failure within 6 months of launch. Symptom is MOSFET burn leading to motor no-start. Field returns total 142 units. Please provide: (1) Top event definition and boundary conditions, (2) Complete fault tree with AND/OR gates down to basic events covering hardware, software, environmental, and manufacturing contributors, (3) Minimum cut set analysis highlighting single-point failures, (4) Qualitative probability assessment for each basic event (high/medium/low) based on Indian operating conditions like 45 deg C ambient, voltage fluctuations, and dust, (5) Recommendation on which 3 basic events to attack first for maximum field-failure reduction, (6) Linkage back to DFMEA and PFMEA for read-across. Format as a hierarchical text tree with a cut-set table. Consider Indian EV operating environment and consumer usage patterns including frequent fast charging.",
+      "tags": [
+        "fault-tree",
+        "fta",
+        "reliability",
+        "ev",
+        "field-failure"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-028",
+      "title": "Perform Pareto and Stratification on Defect Data",
+      "prompt": "Act as a Six Sigma Green Belt with 5 years of experience in Indian manufacturing problem-solving. I need you to perform Pareto and stratification analysis on defect data. Here is the context: My plant in Hosur injection-moulds dashboard panels for Royal Enfield. Last month we recorded 3,240 rejections across 12 defect types, 4 shifts, 3 machines, and 6 materials grades. Total production 72,000 pieces. Top management wants a data-driven focus list for this month's kaizen event. Please provide: (1) Pareto principle refresher and how to build a Pareto chart in text/table form, (2) Stratification by machine, shift, material, and defect type with worked examples, (3) Identification of the vital few defects (top 80%), (4) Cross-stratification to find hidden patterns (e.g., black specks only on Machine-2 in Shift-C), (5) 3 hypotheses generated from stratification, (6) Action plan for kaizen team. Format as an analysis report with tables. Consider Indian moulding realities: material contamination from open storage, hopper cross-contamination, and shift handover issues.",
+      "tags": [
+        "pareto",
+        "stratification",
+        "six-sigma",
+        "injection-moulding",
+        "kaizen"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-029",
+      "title": "Prepare IATF 16949 Stage 2 Audit Readiness Plan",
+      "prompt": "Act as a Management Representative with 14 years of experience achieving IATF 16949 certification for Indian auto-component plants. I need you to prepare a Stage 2 audit readiness plan. Here is the context: My plant in Ahmedabad is up for IATF 16949 certification Stage 2 audit by DNV in July 2026. Stage 1 flagged gaps in MAQMSR, embedded software audits, and manufacturing feasibility review records. We have 10 weeks to be ready. Please provide: (1) Week-by-week readiness plan with owners, (2) Document and record completeness checklist against IATF 16949 clauses and customer-specific requirements for our key customers (Maruti Suzuki, Tata Motors), (3) Mock audit plan with internal auditor assignments and random sampling approach, (4) Gap closure status dashboard, (5) Risk-based prioritisation of the Stage 1 findings, (6) Top management review agenda for readiness sign-off. Format as a project plan plus a tracker. Consider Indian realities of handling multiple customer-specific requirements simultaneously and the typical weakness in process approach auditing.",
+      "tags": [
+        "iatf-16949",
+        "certification",
+        "audit-readiness",
+        "qms",
+        "csr"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-030",
+      "title": "Analyse Warranty Data and Build Early Warning",
+      "prompt": "Act as a Quality Data Analyst with 7 years of experience supporting Indian auto OEMs. I need you to analyse warranty data and build an early warning approach. Here is the context: I have 18 months of warranty claim data for a commercial vehicle platform produced by our supplier base in Jamshedpur. Data includes VIN, date of sale, date of failure, months in service (MIS), km at failure, complaint code, part number, and cost in INR. Total warranty spend last year was Rs 9.6 crore. Please provide: (1) Methodology to compute R/1000, IPTV, and cost per unit sold by complaint code, (2) Maturity curve (MIS vs cumulative claim rate) interpretation for detecting emerging issues, (3) Weibull analysis hint for wear-out vs infant-mortality behaviour, (4) Early-warning thresholds that trigger containment, (5) Integration with dealer DMS and field quality alerts, (6) Monthly warranty review deck structure. Format as an analytics playbook with sample calculations. Consider Indian dealer data quality limitations, vernacular complaint descriptions, and fleet vs retail customer usage differences.",
+      "tags": [
+        "warranty",
+        "r1000",
+        "iptv",
+        "weibull",
+        "field-quality"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-031",
+      "title": "Write Calibration Management Procedure",
+      "prompt": "Act as a Metrology and Calibration Lead with 9 years of experience in Indian auto and electronics manufacturing. I need you to write a calibration management procedure meeting ISO 9001:2015 clause 7.1.5 and IATF 16949 clause 7.1.5.1.1. Here is the context: My plant in Chennai has 420 measuring instruments ranging from 0-25 mm micrometres to CMMs and torque wrenches. We are seeing recurring NCs in internal audits on calibration overdue and inadequate traceability. We use an external NABL-accredited lab in Chennai. Please provide: (1) Procedure scope, definitions, and responsibilities, (2) Master list format with instrument ID, type, range, LC, location, calibration frequency, last and next due, accuracy class, and status, (3) Decision rules for pass/fail based on measurement uncertainty (per ILAC G8), (4) Out-of-calibration handling and reverse traceability for previously measured parts, (5) In-house vs outsourced split logic, (6) Internal calibration competency and records, (7) Sample calibration label format. Format as a controlled procedure document. Consider NABL ISO/IEC 17025 requirements and typical Indian shop-floor abuse on instruments.",
+      "tags": [
+        "calibration",
+        "metrology",
+        "nabl",
+        "iso-17025",
+        "measurement"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-032",
+      "title": "Draft Quality Clauses for Purchase Order",
+      "prompt": "Act as a Supplier Quality Lead with 11 years of experience protecting Indian OEMs through robust PO quality clauses. I need you to draft standard quality clauses to be embedded in purchase orders. Here is the context: My organisation is a Tier-1 automotive supplier in Bangalore. We purchase castings, forgings, fasteners, rubber, and electronics from 120 suppliers. Legal has asked quality to provide a one-page clause set that every PO must reference. Please provide: (1) Clauses covering PPAP submission expectation per AIAG Level 3 and resubmission triggers, (2) Change notification (PCN) requirement minimum 60 days, (3) Containment and 8D response timelines, (4) Charge-back schedule for sorting, premium freight, line stoppage (with sample rates in INR), (5) Right of audit at supplier and sub-tier, (6) Sub-supplier IATF expectation, (7) Warranty and field failure cost recovery, (8) Counterfeit parts prohibition, (9) Data integrity and records retention (15 years for safety), (10) Applicable law and arbitration seat in India. Format as numbered legal-ready clauses. Consider Indian Contract Act and IATF 16949 customer-specific requirements.",
+      "tags": [
+        "po-clauses",
+        "supplier-quality",
+        "contracts",
+        "ppap",
+        "charge-back"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-033",
+      "title": "Perform Multi-Vari Study for Dimensional Variation",
+      "prompt": "Act as a Master Black Belt with 15 years of experience in advanced SPC and statistical problem-solving at Indian automotive and aerospace suppliers. I need you to design and analyse a multi-vari study. Here is the context: A honed cylinder bore on our engine block at our Pune plant is showing Cpk of 1.05 against a target of 1.67 on bore diameter 85.000 +0.010/-0.000. Variation sources suspected: positional (front/middle/rear bore in the block), piece-to-piece, and time-to-time across a shift. The honing machine is a Sunnen multi-spindle with 6 heads. Please provide: (1) Multi-vari study design spanning positional, cyclical, and temporal families of variation, (2) Sampling plan: 5 consecutive blocks, 3 times per shift, across 2 shifts, measuring all bore positions, (3) Data collection template, (4) Analysis approach using variance components or ANOVA to identify dominant family, (5) Interpretation guide for each dominant-family scenario with suggested countermeasures (e.g., positional means fixture issue, piece-to-piece means setup issue, time-to-time means thermal drift), (6) Re-verification Cpk plan. Format as a study protocol with a worked analysis example. Consider Indian shop-floor factors like coolant temperature and compressed-air quality to servo drives.",
+      "tags": [
+        "multi-vari",
+        "variance-components",
+        "six-sigma",
+        "honing",
+        "cpk"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-034",
+      "title": "Design DoE for Welding Parameter Optimisation",
+      "prompt": "Act as a Design of Experiments (DoE) expert with 12 years of experience at Indian Tier-1 suppliers. I need you to design a fractional factorial DoE. Here is the context: We laser-weld lithium-ion battery pack busbars at our Sriperumbudur plant for an Indian EV maker. Failure mode is weld penetration variation causing either burn-through (>0.35 mm) or cold weld (<0.15 mm). We suspect 5 factors influence penetration: laser power (1.8-2.4 kW), welding speed (60-100 mm/s), focus position (-0.5 to +0.5 mm), shielding gas flow (15-25 lpm), and joint gap (0.0-0.15 mm). Please provide: (1) DoE strategy selection rationale — why 2^(5-1) fractional factorial with centre points over full factorial, (2) Design matrix with 16 runs plus 4 centre points, randomised, (3) Response variables: penetration depth, weld width, tensile shear, visual quality, (4) Analysis plan including main effects, interaction plots, ANOVA, and regression model, (5) Optimisation via response surface if curvature is significant, (6) Confirmation run plan, (7) Integration into process window and control plan. Format as a DoE protocol with tables. Consider fixture repeatability and ambient particulate levels in Indian plants.",
+      "tags": [
+        "doe",
+        "design-of-experiments",
+        "fractional-factorial",
+        "laser-welding",
+        "ev-battery"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-035",
+      "title": "Build Cost of Poor Quality COPQ Dashboard",
+      "prompt": "Act as a Quality Controller with 13 years of experience deploying COPQ systems at Indian manufacturing groups. I need you to build a Cost of Poor Quality framework and dashboard. Here is the context: A 5-plant Indian auto-ancillary group with combined turnover Rs 1,800 crore wants to make COPQ visible to drive quality-led margin improvement. Currently quality costs are scattered across scrap, rework, warranty, sorting, premium freight, and goodwill without consolidation. Target is to reduce COPQ from an estimated 3.4% of sales to 2.0% in 18 months. Please provide: (1) COPQ taxonomy — Prevention, Appraisal, Internal Failure, External Failure (PAF model) with sub-categories and account-code mapping, (2) Monthly data capture template by plant, (3) Calculation rules and allocation of shared costs, (4) Plant-level and group-level dashboard with INR figures and % of sales, (5) Trend, benchmark, and gap analysis, (6) Linkage to annual operating plan and project pipeline, (7) Governance: monthly review chair, escalation, and incentives. Format as a design document plus a sample Excel dashboard. Consider Indian accounting practices, GST treatment of rework, and inter-plant material movement.",
+      "tags": [
+        "copq",
+        "cost-of-quality",
+        "paf-model",
+        "dashboard",
+        "finance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "data",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-036",
+      "title": "Develop Risk-Based Supplier Audit Program",
+      "prompt": "Act as a Supplier Quality Director with 16 years of experience at Indian OEMs such as Mahindra and Mahindra or Ashok Leyland. I need you to design a risk-based supplier audit programme. Here is the context: We have 850 active direct material suppliers supplying 14 plants pan-India. Current audit approach is uniform annual audits, which is unsustainable for the 28-member SQA team. We want to move to a risk-based approach aligned with IATF 16949 clause 8.4.2.4. Please provide: (1) Risk scoring model with dimensions: part criticality (safety/regulatory/fit-form-function), supplier performance (quality PPM, 8D timeliness, delivery), certification status (IATF, ISO, none), geographical and geopolitical risk, sub-tier complexity, (2) Scoring scale 0-100 with banding High/Medium/Low, (3) Audit frequency and depth by band (e.g., High = full system + process annually, Low = desktop every 2 years), (4) Audit type mix: system audit, process audit, manufacturing site audit, sub-tier audit, (5) Annual audit planning method and auditor competency matrix, (6) KPI and management review deck, (7) Transition plan from current state to risk-based state over 12 months. Format as a strategy document with templates. Consider Indian supplier diversity and limits on cross-border audits.",
+      "tags": [
+        "supplier-audit",
+        "risk-based",
+        "sqa",
+        "iatf",
+        "audit-programme"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-037",
+      "title": "Implement SPC System Across Multiple Plants",
+      "prompt": "Act as a Corporate Quality Head with 18 years of experience deploying enterprise SPC at Indian manufacturing conglomerates. I need you to design an SPC rollout programme across multiple plants. Here is the context: A large Indian auto-component group with 7 plants (Pune, Chennai, Pithampur, Manesar, Hosur, Rudrapur, Jamshedpur) wants a harmonised SPC system with connected real-time charts feeding into a central data lake. Current SPC is paper-based and inconsistent. Target is 100% critical-to-quality (CTQ) characteristics on live SPC within 12 months. Please provide: (1) CTQ identification methodology linked to PFMEA S*O and customer special characteristics, (2) Chart type selection logic (Xbar-R, Xbar-S, I-MR, p, np, c, u) with worked examples, (3) Data acquisition architecture — IIoT gauges, OPC-UA, MQTT, edge, and cloud, (4) Reaction protocol standardisation (OCAP — Out of Control Action Plan), (5) Operator training and certification plan, (6) Governance: daily Gemba review, weekly plant review, monthly corporate review, (7) Integration with MES, ERP (SAP), and customer portals, (8) Rollout plan in 3 waves over 12 months with owners and budget in INR. Format as a programme charter plus architecture diagram description. Consider Indian data localisation (MeitY), GST e-invoicing, and cyber security.",
+      "tags": [
+        "spc",
+        "enterprise-rollout",
+        "iiot",
+        "ocap",
+        "ctq"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-038",
+      "title": "Investigate Field Failure Using Shainin Red-X",
+      "prompt": "Act as a Shainin Red-X Apprentice with 10 years of experience solving chronic field failures at Indian Tier-1 automotive suppliers. I need you to apply Shainin's Red-X methodology to a field failure. Here is the context: A fuel pump module supplied by our Chennai plant is showing 0.22% warranty at 18 MIS on a popular Indian mid-size sedan. Returns are concentrated in Tamil Nadu coastal districts but not inland. Lab teardown shows terminal corrosion and intermittent electrical contact. Root cause remains unknown despite 4 months of investigation using traditional tools. Please provide: (1) Component search strategy to swap parts between a Best-of-Best and Worst-of-Worst unit, (2) Paired-comparison protocol with 6 BoB and 6 WoW samples, (3) Isoplot and tolerance parallelogram interpretation, (4) Multi-vari narrowing down to within-part and between-part families, (5) B vs C confirmation test with statistical significance threshold, (6) Countermeasure design and Taguchi-style robustness verification, (7) Closure criteria and field monitoring. Format as a case-flow document. Consider Indian coastal corrosive environments, humidity, and E20 fuel ethanol blend impact on terminal plating.",
+      "tags": [
+        "shainin",
+        "red-x",
+        "field-failure",
+        "paired-comparison",
+        "corrosion"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-039",
+      "title": "Prepare USFDA Pre-Approval Inspection Readiness",
+      "prompt": "Act as a Regulatory Quality Head with 20 years of experience preparing Indian pharmaceutical plants for USFDA pre-approval inspections (PAI). I need you to prepare a PAI readiness plan. Here is the context: A Hyderabad-based sterile injectables facility is expecting a USFDA PAI in August 2026 for a complex-generics ANDA. The facility has had 2 previous 483s in 2023 and 2024 related to aseptic behaviour and investigation robustness. Leadership wants zero 483 this time. Please provide: (1) PAI scope anticipation covering systems (QMS, facilities, materials, production, packaging, laboratory), (2) Gap analysis against 21 CFR 211, Annex 1 (2023), and recent USFDA warning letters for Indian sterile plants, (3) Mock inspection plan with external consultant, (4) Data integrity remediation covering audit trails, hybrid systems, CAL, (5) Aseptic process simulation (media fill) scrutiny, (6) Investigation file quality review for last 24 months, (7) SME readiness (tell-show-read methodology), (8) Front-room and back-room choreography, (9) Communication protocol including 483 response, (10) Risk register with mitigations. Format as a 90-day PAI readiness programme. Consider Indian pharma regulatory scrutiny and USFDA recent focus on data governance.",
+      "tags": [
+        "usfda",
+        "pai",
+        "sterile",
+        "pharma",
+        "483-prevention"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    },
+    {
+      "id": "engineering-manufacturing-quality-engineers-040",
+      "title": "Design Zero-Defect Strategy for Safety Part",
+      "prompt": "Act as a Chief Quality Officer with 22 years of experience at Indian Tier-1 automotive suppliers (Sona Comstar or Bosch India scale). I need you to design a zero-defect manufacturing strategy for a safety-critical part. Here is the context: Our Pune plant produces airbag igniters at 8 million pieces per year for multiple OEMs including Maruti Suzuki, Tata Motors, and Hyundai. Any field failure can injure or kill occupants and triggers product recalls. Current PPM is 8; target is 0 escapes and below 1 PPM by end of 2026. Please provide: (1) Zero-defect philosophy pillars — designed-in robustness, mistake-proofing, 100% verification, layered containment, traceability, (2) Design controls via robust DFMEA, DVP&R, and Weibull reliability targets, (3) Process controls via Cpk >= 2.0 on CTQs, poka-yoke on every station, and 100% vision/force/ER inspection, (4) Digital traceability down to sub-component batch and operator station, (5) Change management zero-tolerance gate, (6) Red-rabbit / yellow-rabbit challenge testing frequency, (7) Culture — operator empowerment, andon, stop-the-line authority, (8) Supplier extension of zero-defect, (9) Board-level KPI and review cadence, (10) 12-month roadmap with budget in INR. Format as a strategy deck outline with measurable OKRs. Consider Indian talent availability and recent BNCAP safety focus.",
+      "tags": [
+        "zero-defect",
+        "safety-critical",
+        "poka-yoke",
+        "traceability",
+        "airbag"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "engineering-manufacturing",
+      "subcategory": "quality-engineers"
+    }
+  ]
+}

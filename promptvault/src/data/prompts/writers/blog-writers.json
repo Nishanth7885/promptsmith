@@ -1,0 +1,684 @@
+{
+  "prompts": [
+    {
+      "id": "writers-blog-writers-001",
+      "title": "Curiosity-Gap Hook Generator for Indian Finance Blog",
+      "prompt": "Act as a senior content strategist with 8 years of experience writing for Indian personal finance blogs like Finshots, Zerodha Varsity, and Cleartax. I need you to generate 12 curiosity-gap opening hooks for a blog post titled \"Why Most Indians Lose Money in Mutual Funds Despite a Bull Market.\" Each hook must be 2-3 sentences, open with a pattern interrupt, and tease an insight without revealing it. Target audience is 25-40 year old salaried professionals in Tier-1 and Tier-2 cities earning INR 8-25 LPA. Please provide: (1) 4 hooks using a surprising Indian investor statistic, (2) 4 hooks using a relatable Mumbai/Bengaluru/Delhi scenario, (3) 4 hooks using a contrarian claim that challenges popular Dalal Street wisdom. For each hook, add a one-line rationale on why it works for Indian readers and which emotion it targets (FOMO, regret, curiosity, status anxiety). Format as a numbered markdown table with columns: Hook Number, Hook Text, Rationale, Target Emotion. Avoid cliches like \"Did you know?\" and \"Imagine this.\" Keep language at Grade 8 reading level, mix in one or two Hindi words where natural (paisa, bachat, nivesh) for authenticity without alienating English-first readers.",
+      "tags": [
+        "hook-writing",
+        "finance-blog",
+        "curiosity-gap",
+        "indian-audience"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-002",
+      "title": "SEO Blog Outline for Indian Search Intent",
+      "prompt": "Act as an SEO content strategist with 7 years of experience ranking Indian blogs on Google.co.in for high-intent keywords. I need you to build a complete long-form blog outline for the primary keyword \"best health insurance for parents in India\" (monthly search volume ~18k, KD 42). Target reader is a 28-38 year old working professional in India buying insurance for parents aged 55-70. Please provide: (1) SERP intent analysis in 3 bullets covering what currently ranks (Policybazaar, Acko, ET Money), (2) one H1 with the exact keyword, (3) 8-12 H2 sections in logical buying-journey order, (4) 2-4 H3 subpoints under each H2, (5) suggested featured-snippet paragraph (40-55 words) for the question \"Which health insurance is best for senior citizens in India?\", (6) 6 People-Also-Ask questions to answer, (7) 10 LSI and entity terms to include (IRDAI, pre-existing disease waiting period, co-pay, no-claim bonus, network hospitals, etc.), (8) suggested internal-link anchors to 4 related topics. Format as a clean markdown outline. Assume the blog is on a DA 45 Indian finance site.",
+      "tags": [
+        "outline",
+        "seo-writing",
+        "search-intent",
+        "insurance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": true,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-003",
+      "title": "Statistic-Led Hook Pack for Startup Blog",
+      "prompt": "Act as a B2B content writer with 6 years of experience writing for Inc42, YourStory, and The Ken. I need you to write 10 statistic-led opening hooks for a blog post titled \"Why 90% of Indian D2C Brands Plateau at INR 10 Crore ARR.\" Each hook must lead with a specific, credible-sounding Indian market statistic (you may generate plausible stats but label them clearly as \"illustrative\" in a footnote) and then pivot to a promise of insight in under 60 words total. Please provide: (1) 10 hooks using varied stat framings (percentage, ratio, absolute INR, year-over-year, comparison to China/SEA), (2) a source-suggestion note for each hook pointing to where a writer could verify the stat (Redseer, Bain, Inc42 Plus, RBI, DPIIT), (3) a ranked shortlist of the top 3 hooks with reasoning on emotional weight for founder-readers. Format as a markdown document with clear section headers. Tone should be confident but not hyperbolic, similar to The Ken's house style. Avoid overused framings like \"In today's fast-paced world\" and \"The Indian startup ecosystem is booming.\"",
+      "tags": [
+        "hook-writing",
+        "statistic-hook",
+        "d2c",
+        "startup-content"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-004",
+      "title": "Listicle Framework: X Tools for Indian Freelancers",
+      "prompt": "Act as a freelance content writer with 5 years of experience writing listicles for Indian audiences on platforms like YourStory, Medium India, and personal Substacks. I need you to draft a complete listicle titled \"11 Tools Every Indian Freelancer Earning Over INR 5 Lakh a Year Actually Uses in 2026.\" Target reader is a 24-35 year old freelance writer, designer, or developer in India. Please provide: (1) a 90-word intro hook that names a real pain (TDS confusion, client chasing, INR-USD conversion fees), (2) 11 tool entries, each with: tool name, one-line \"what it does\", Indian-specific use case, INR pricing tier, and an honest \"where it falls short\" note, (3) a comparison table summarizing the 11 tools by category (invoicing, tax, payments, productivity, client management), (4) a 70-word conclusion nudging the reader to pick 2-3 tools rather than all, (5) a suggested meta description under 155 characters. Include at least 3 India-native tools (Refrens, Khatabook, Razorpay, Zoho) and label Indian vs international clearly. Format as blog-ready markdown.",
+      "tags": [
+        "listicle",
+        "freelancing",
+        "tools-roundup",
+        "indian-market"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-005",
+      "title": "Contrarian Hook Generator for Career Blog",
+      "prompt": "Act as an opinion-column writer with 7 years of experience writing career content for Indian millennials on LinkedIn, Medium, and Inc42. I need you to generate 10 contrarian opening hooks for a blog post titled \"Why Quitting Your FAANG Job for an Indian Startup Might Be a Career Mistake in 2026.\" Each hook must challenge a widely held belief in the Indian tech community (startup > MNC, equity > salary, Bengaluru > Gurugram, founder path > IC path) without being clickbait or disrespectful. Please provide: (1) 10 hooks, each 40-70 words, (2) the specific belief each hook subverts, (3) a one-line note on which reader segment will feel called out (IIT grads, Tier-2 engineers, ex-Flipkart folks, returning NRIs), (4) a risk rating (low/medium/high) for how much backlash the hook might attract on Indian Twitter. Format as a markdown table. Tone should be firm but respectful; avoid dunking on specific companies or founders by name. The goal is to earn the reader's attention, not rage-bait.",
+      "tags": [
+        "hook-writing",
+        "contrarian-hook",
+        "career-blog",
+        "opinion"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-006",
+      "title": "Skyscraper Outline for Evergreen Indian Topic",
+      "prompt": "Act as a skyscraper-content specialist with 6 years of experience outranking established Indian blogs. I need you to analyze the top 5 ranking articles for \"how to file ITR for freelancers in India\" and produce a skyscraper outline that is 1.5x more comprehensive. Assume the top results are from Cleartax, Tax2Win, Razorpay Learn, ET Money, and a Quora thread. Please provide: (1) a gap analysis listing 8 topics the current top 5 miss or treat shallowly (presumptive taxation under 44ADA, foreign client invoicing, advance tax schedule, GST threshold crossing, etc.), (2) a full outline with H1, 10-14 H2s, and relevant H3s, (3) suggested unique assets the post should include (ITR-4 walkthrough screenshots, INR advance-tax calculator, downloadable checklist), (4) a 3-tier internal linking plan, (5) estimated word count per section totaling 2800-3400 words. Format as markdown. Assume the target site has DA 50 and can rank in 4-6 months with strong backlinks from CA blogs and Indian freelancer communities.",
+      "tags": [
+        "outline",
+        "skyscraper",
+        "seo-writing",
+        "tax-content"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-007",
+      "title": "Featured-Snippet Paragraph Rewriter",
+      "prompt": "Act as a featured-snippet optimization specialist with 5 years of experience winning position-zero for Indian search queries. I need you to rewrite 6 draft paragraphs from an existing blog post so that each one is structured to win the featured snippet for its target query. The blog is about \"starting a Private Limited company in India\" and targets first-time founders. The 6 target queries are: (1) how much does it cost to register a Pvt Ltd in India, (2) what is the minimum capital for Pvt Ltd in India, (3) how long does Pvt Ltd registration take, (4) difference between LLP and Pvt Ltd in India, (5) documents required for Pvt Ltd registration, (6) can a single person start a Pvt Ltd in India. For each query, please provide: the rewritten paragraph (40-58 words, definition-first or numeric-first), an alternative bulleted/numbered version if the SERP favors lists, the exact H2 or H3 question it should sit under, and a one-line rationale citing current SERP patterns. Format as a markdown table with columns: Query, Snippet Type, Rewritten Answer, Placement H-tag, Rationale. Use INR figures and MCA rules current to 2026.",
+      "tags": [
+        "seo-writing",
+        "featured-snippet",
+        "entity-seo",
+        "company-registration"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-008",
+      "title": "Research Synthesis from Founder Interviews",
+      "prompt": "Act as a research editor with 6 years of experience turning raw founder interviews into publishable blog posts for Inc42 and YourStory. I will describe 4 hypothetical interview transcripts with Indian SaaS founders (ARR INR 5-25 crore, based in Bengaluru, Pune, Chennai). Transcript summaries: Founder A built on SEO, Founder B on cold outbound, Founder C on partnerships, Founder D on community. I need you to synthesize these into a 1400-1700 word research-style blog post titled \"How 4 Indian SaaS Founders Got Their First 100 Paying Customers.\" Please provide: (1) a 90-word hook grounded in a shared struggle, (2) a 120-word methodology note explaining how the 4 were chosen and why their journeys matter, (3) 4 founder sections each with lesson, anecdote, and a pull-quote, (4) a cross-cutting patterns section listing 5 themes that repeat across founders, (5) a counter-intuitive finding, (6) a conclusion with 3 takeaways for early-stage Indian SaaS founders. Format as publish-ready markdown with H2s and pull-quote blockquotes. Tone: analytical, respectful, no hero-worship.",
+      "tags": [
+        "research-synthesis",
+        "interview-summary",
+        "saas",
+        "long-form"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-009",
+      "title": "Hinglish Hook Pack for Lifestyle Blog",
+      "prompt": "Act as a bilingual content writer with 5 years of experience writing Hinglish lifestyle content for urban Indian millennials on Instagram, Substack, and personal blogs. I need you to generate 12 opening hooks for a blog titled \"Small Money Habits That Helped Me Save INR 2 Lakh in One Year on a 40k Salary.\" The hooks should use natural code-mixed Hinglish (40% Hindi, 60% English) the way Mumbai or Delhi 22-28 year olds actually speak on WhatsApp and Instagram captions. Please provide: (1) 4 hooks using a confession frame (\"sach bataun to\"), (2) 4 hooks using a scene-setting frame (\"picture this: Sunday morning, Zomato app open\"), (3) 4 hooks using a direct challenge frame (\"agar aap bhi 40k kamate ho and bachat zero hai\"), (4) for each hook a note on which Indian city/culture it fits best (Mumbai, Delhi NCR, Bengaluru, Pune). Format as markdown. Avoid heavy Sanskritized Hindi, avoid pure Urdu, avoid English-only. Keep it conversational, not cringe.",
+      "tags": [
+        "hook-writing",
+        "hinglish",
+        "lifestyle-blog",
+        "urban-millennial"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-010",
+      "title": "Listicle Framework: X Myths About Investing",
+      "prompt": "Act as a personal finance writer with 6 years of experience writing myth-busting listicles for Groww, Kuvera, and ET Money blogs. I need you to draft a complete listicle titled \"9 Myths About Mutual Fund Investing in India That Are Costing You Lakhs.\" Target reader is a 26-40 year old salaried Indian with 2-8 years of investing experience. Please provide: (1) an 80-word hook that names the cost of believing these myths, (2) 9 myth entries, each with: the myth (one sentence as commonly said in Indian WhatsApp groups), the reality (3-4 sentences with an Indian example), the evidence (a stat, AMFI rule, or SEBI guideline), and a one-line action the reader should take today, (3) a 60-word conclusion that reframes the reader's identity from gambler to investor, (4) a 140-character tweet version of the post. Format as markdown with H2 per myth. Use real Indian fund house names (HDFC, Axis, Parag Parikh, Quant) only where relevant and neutrally. Stay SEBI-compliant: no direct buy/sell recommendations.",
+      "tags": [
+        "listicle",
+        "myth-busting",
+        "mutual-funds",
+        "personal-finance"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-011",
+      "title": "Opinion Piece Scaffold for Policy Debate",
+      "prompt": "Act as an opinion columnist with 8 years of experience writing policy commentary for The Ken, Moneycontrol, and Livemint. I need you to build a complete scaffold for an 1100-1300 word opinion piece titled \"India's New GST on Online Gaming Is a Tax on Aspiration, Not Addiction.\" Target reader is a policy-aware urban Indian professional. Please provide: (1) a 100-word hook that opens with a concrete scene, not a thesis, (2) a clearly stated thesis in one sentence, (3) 3 supporting arguments each with a sub-point and an Indian evidence anchor (revenue data, Dream11 user stats, MPL layoffs, Nazara earnings), (4) a steel-manned counter-argument (the strongest version of the government's position), (5) a nuanced rebuttal that concedes partial ground, (6) a 90-word conclusion that proposes a middle path, (7) 3 suggested pull-quotes. Format as markdown with clear section labels. Tone: firm but civil, no personal attacks on ministers or CBDT officials. Avoid outrage-bait and partisan framing.",
+      "tags": [
+        "opinion-piece",
+        "policy",
+        "argument-structure",
+        "gst"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-012",
+      "title": "Pillar Page Outline for EdTech Niche",
+      "prompt": "Act as a pillar-content strategist with 6 years of experience building topic clusters for Indian EdTech blogs. I need you to design a pillar page outline for the head-term \"UPSC preparation strategy\" (MSV ~60k in India). The pillar must anchor a cluster of 20+ supporting articles. Please provide: (1) a pillar-page outline 3000-3800 words long with H1, 12-16 H2 sections covering the full UPSC journey from prelims to interview, (2) a list of 20 cluster-article titles that should link upward to the pillar, grouped into 4 buckets (Prelims strategy, Mains strategy, Optional subjects, Interview and mental health), (3) for each cluster article, the exact anchor text it should use when linking up, (4) 8 entity terms to weave into the pillar (NCERT, PIB, Yojana, Kurukshetra, Laxmikant, Spectrum, PYQs, sectional cutoffs), (5) a suggested schema markup type. Format as a hierarchical markdown document. Assume the target site is a new EdTech blog at DA 25 aiming to rank in 12 months.",
+      "tags": [
+        "outline",
+        "pillar-page",
+        "topic-cluster",
+        "upsc"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-013",
+      "title": "Entity-SEO Blog Brief for Fintech Topic",
+      "prompt": "Act as an entity-SEO specialist with 5 years of experience writing for Indian fintech blogs. I need you to produce a detailed entity-aware content brief for the topic \"UPI for international payments in India.\" Please provide: (1) the primary entity (UPI) and 12 related entities to cover (NPCI, RBI, NRO, NRE, FEMA, NIPL, PayNow Singapore, LankaPay, rupee settlement, cross-border corridor, Bhim app, WhatsApp Pay), (2) a knowledge-graph style map showing how the entities relate, (3) a blog outline with 10 H2s that naturally covers those entities, (4) 6 questions Google's search generative experience is likely to ask about the topic, (5) 5 authoritative Indian sources to cite (RBI circulars, NPCI press releases, PIB), (6) a 50-word featured-snippet answer to \"Can I use UPI to send money abroad from India?\" Format as a structured markdown brief. Assume the writer is a generalist, not a fintech expert, so include definitions for technical terms.",
+      "tags": [
+        "seo-writing",
+        "entity-seo",
+        "content-brief",
+        "fintech"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-014",
+      "title": "Long-Form Outline for Narrative Blog",
+      "prompt": "Act as a long-form narrative editor with 7 years of experience shaping 3000-word stories for The Ken, FiftyTwo, and Longreads India. I need you to build an outline for a narrative blog post titled \"The Rise and Quiet Collapse of a Hyderabad Cloud Kitchen Empire.\" Assume the story follows a real founder archetype (not a real person) who scaled 40 kitchens across 6 Indian cities and then contracted to 9. Please provide: (1) a cold open scene in a single paragraph, (2) a narrative arc in 6 acts (setup, inciting incident, rising action, crisis, climax, resolution), (3) for each act: the scene, the stakes, the character decision, and the data point the reader learns, (4) a cast of 5 supporting characters (co-founder, investor, Swiggy account manager, kitchen manager in Hyderabad, ex-employee), (5) 6 pull-quotes spread across the piece, (6) a final meditation paragraph that generalizes the lesson without moralizing. Format as markdown. Tone: literary, observational, non-judgmental. Avoid hero-to-zero cliche.",
+      "tags": [
+        "outline",
+        "long-form",
+        "narrative",
+        "cloud-kitchen"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-015",
+      "title": "Hook Rewriter: Boring to Binge-Worthy",
+      "prompt": "Act as a content doctor with 6 years of experience rewriting dull blog openings for Indian publications. I will describe 5 boring opening paragraphs from Indian business blogs (topics: GST filing, cap tables, office leases in Gurugram, PF withdrawal, angel tax). For each, I need you to rewrite it into 3 stronger alternatives using different techniques: (1) a stat-led hook using a credible Indian number, (2) a story-led hook featuring a named but fictional Indian professional (use common names like Anjali, Rohan, Priya, Arjun), (3) a contrarian-claim hook that pushes back on conventional wisdom. For each rewrite, please provide: the rewritten hook (60-90 words), the technique used, the emotion it targets, and an estimate of how much longer the reader will stay compared to the original. Format as a markdown table grouped by original paragraph. Do not use AI cliches like \"In today's fast-paced world,\" \"Imagine this,\" or \"Picture a scenario.\" Every hook must be unique and Indian in texture.",
+      "tags": [
+        "hook-writing",
+        "rewriting",
+        "editing",
+        "indian-context"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-016",
+      "title": "Keyword Cluster Blog Brief for Travel Niche",
+      "prompt": "Act as an SEO content strategist with 5 years of experience ranking Indian travel blogs for high-intent queries. I need you to build a keyword-cluster content brief for the head topic \"weekend getaways from Bengaluru.\" Please provide: (1) the primary keyword with estimated MSV and KD, (2) 15 related cluster keywords grouped by intent (informational, commercial, navigational) with estimated volumes, (3) a hub-article outline 2200-2800 words with H1 and 10-12 H2s covering distance, cost in INR, best season, type of trip (solo, couple, family), (4) 8 supporting-article titles that should link into the hub, (5) a draft 150-character meta description, (6) 5 image alt-text ideas featuring real place names (Coorg, Chikmagalur, Hampi, Sakleshpur, Nandi Hills), (7) a distribution plan listing 4 Indian travel communities and subreddits where the post can be shared. Format as markdown. Assume the writer is based in Bengaluru and can add first-person travel notes for authenticity.",
+      "tags": [
+        "seo-writing",
+        "keyword-cluster",
+        "travel-blog",
+        "content-brief"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-017",
+      "title": "Argument-Evidence-Nuance Opinion Builder",
+      "prompt": "Act as a senior opinion editor with 10 years of experience shaping columns at The Hindu, Livemint, and Scroll. I need you to transform a rough opinion thesis into a fully structured 1500-word column. The thesis: \"Indian edtech's obsession with NEET and JEE is narrowing the country's talent pipeline.\" Target reader is an education-policy-curious Indian professional. Please provide: (1) a structured argument map with 3 main claims, each supported by 2 evidence pillars (NSDC data, NEP 2020, Byju's layoffs, IIT admission stats, private coaching economy size), (2) for each claim, the strongest steel-manned counter-argument, (3) a nuanced rebuttal that concedes specific points, (4) a narrative spine that braids the 3 claims into a single story, (5) 4 pull-quotes, (6) a conclusion that offers 2 concrete policy asks and 1 cultural ask. Format as a markdown document with an \"outline\" section and a \"draft paragraphs\" section showing the opening 250 words written out. Tone: erudite but accessible, no academic jargon, Grade 10 readability.",
+      "tags": [
+        "opinion-piece",
+        "argument-structure",
+        "education-policy",
+        "long-form"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-018",
+      "title": "Skyscraper Gap Analysis and Content Plan",
+      "prompt": "Act as a competitive content analyst with 7 years of experience beating Indian finance publishers at their own keywords. I need you to perform a skyscraper gap analysis for the query \"NPS vs PPF which is better in India.\" Assume the current top 10 results include Groww, ET Money, Cleartax, Paisabazaar, Policybazaar, and two Quora threads. Please provide: (1) a 10-row SERP snapshot table with columns URL, word count estimate, primary angle, content format, unique asset, and biggest weakness, (2) 12 content gaps categorized into Depth (where current posts are shallow), Freshness (stale tax rules, old Section 80CCD limits), Format (missing calculators, tables), and Entity coverage (Tier 1 vs Tier 2 NPS, PFRDA, EEE vs EET tax treatment), (3) a skyscraper outline 2500-3200 words that closes every gap, (4) 5 unique assets the new post should add (INR scenario calculator, age-based recommendation, retirement-corpus graph), (5) a backlink acquisition plan targeting 15 Indian finance blogs. Format as a structured markdown report.",
+      "tags": [
+        "outline",
+        "skyscraper",
+        "gap-analysis",
+        "seo-writing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-019",
+      "title": "Meta-Analysis Style Blog on Indian Layoffs",
+      "prompt": "Act as a data journalist with 8 years of experience writing research-heavy blog posts for The Ken and Moneycontrol. I need you to draft a meta-analysis-style blog titled \"What 14 Reports on Indian Tech Layoffs Since 2023 Actually Say.\" Assume the 14 reports come from Nasscom, Redseer, Bain, Teamlease, Unearthinsight, Inc42 Plus, and various news roundups. Please provide: (1) a 120-word hook that frames the confusion readers face when every report says something different, (2) a methodology section explaining how you would weigh and compare the 14 sources, (3) 5 convergent findings that show up across most reports with the source count for each, (4) 4 divergent findings where reports disagree, with possible reasons, (5) a reader's takeaway table with 6 rows (mid-senior impact, fresher hiring, geographic concentration, sector split, salary correction, rehire timeline), (6) 3 caveats about what these reports cannot tell us, (7) a 100-word conclusion. Format as structured markdown ready for publication. Tone: sober, not alarmist, no doom-framing.",
+      "tags": [
+        "research-synthesis",
+        "meta-analysis",
+        "tech-layoffs",
+        "data-journalism"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-020",
+      "title": "Entity-SEO Deep Brief for Healthcare Topic",
+      "prompt": "Act as an entity-SEO strategist with 6 years of experience writing YMYL content for Indian healthcare publishers like Practo, 1mg, and PharmEasy. I need you to produce a comprehensive entity-aware brief for the topic \"PCOS management for Indian women in their 20s.\" Please provide: (1) the primary entity (PCOS) and 15 secondary entities (insulin resistance, AMH, LH-FSH ratio, metformin, inositol, anti-mullerian, PCOD, endometrial thickness, NAFLD, HbA1c, TSH, prolactin, Indian diet, millet, refined carbs), (2) a knowledge-graph description of how entities relate, (3) a 2200-2600 word outline with 12 H2s organized by diagnosis, lifestyle, diet (Indian context), medication, mental health, fertility, (4) 8 People-Also-Ask targets, (5) 10 credible Indian sources (AIIMS, ICMR, PubMed Indian studies, FOGSI, Dr. Rebecca Pinto guidelines), (6) YMYL compliance notes on disclaimers, author credentials, and medical review, (7) a 55-word featured-snippet answer for \"Can PCOS be cured in Indian women naturally?\" Format as a structured markdown brief.",
+      "tags": [
+        "seo-writing",
+        "entity-seo",
+        "ymyl",
+        "healthcare"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-021",
+      "title": "Listicle with Original Framework: X Pricing Mistakes",
+      "prompt": "Act as a B2B SaaS content writer with 7 years of experience writing for Razorpay, Zoho, and Freshworks blogs. I need you to draft a 1800-word listicle titled \"7 Pricing Mistakes Indian SaaS Founders Make When Going Global.\" What makes this post different: each mistake must be classified under an original 3-part framework you will invent (e.g., \"Anchor, Arbitrage, Assumption\") that gives the post a memorable spine. Please provide: (1) a 100-word hook grounded in the INR-to-USD pricing paradox, (2) the 3-part framework with a clear definition of each part, (3) 7 mistake entries distributed across the 3 framework parts, each with the mistake, a mini case (fictional but plausible Indian SaaS named differently from real companies), the INR-to-USD conversion math showing the cost of the mistake, and a fix, (4) a framework recap diagram described in text, (5) 3 reflection questions for founders, (6) a 90-word conclusion, (7) 5 LinkedIn-carousel-ready snippets. Format as publish-ready markdown.",
+      "tags": [
+        "listicle",
+        "framework",
+        "saas-pricing",
+        "b2b"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-022",
+      "title": "Hook A/B Test Generator with Predictions",
+      "prompt": "Act as a conversion-focused blog editor with 6 years of experience running hook A/B tests on Indian finance and career blogs. I need you to generate 8 hook variants for a blog titled \"How I Paid Off INR 18 Lakh in Education Loan in 3 Years on a 14 LPA Salary.\" The hooks will be A/B tested on a DA 55 Indian personal finance site with ~40k monthly readers. Please provide: (1) 8 hook variants spanning 4 categories (2 each): curiosity-gap, stat-led, story-led, contrarian, (2) for each variant: headline (under 70 characters), opening paragraph (80-110 words), predicted CTR change vs baseline (with reasoning), predicted average-time-on-page change, risk of clickbait penalty, (3) a ranked recommendation with a clear winner and a safe fallback, (4) 3 test metrics the blog should track (scroll depth, email signup rate, comment rate), (5) a 2-week test plan. Format as a markdown document with tables. Assume Indian readers are sensitive to money-flex framing; recommend against \"I got rich\" language in favor of \"I paid off\" framing.",
+      "tags": [
+        "hook-writing",
+        "ab-testing",
+        "conversion",
+        "personal-finance"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-023",
+      "title": "Interview-Based Blog from Raw Transcript",
+      "prompt": "Act as a longform interview editor with 7 years of experience shaping founder interviews into readable blog posts for YourStory and Inc42. I will paste a raw 3500-word transcript (simulated) of an interview with a Delhi-based female founder who built a D2C ayurveda brand from INR 0 to INR 12 crore ARR in 4 years. I need you to turn it into a 1600-word blog post that reads like a story, not a Q&A. Please provide: (1) a narrative lead that starts in a specific scene from her life, (2) a pull-quote within the first 300 words, (3) 5 story beats: origin, first 100 customers, first crisis, product-market fit moment, current challenge, (4) 3 direct quotes per beat, woven into the prose not dumped as Q&A, (5) a sidebar box titled \"What's in her marketing stack\" listing 6 Indian-relevant tools (Shopify India, WebEngage, Meta Ads, Gokwik, Shiprocket, GA4), (6) a closing reflection paragraph, (7) a 140-character tweet. Format as publish-ready markdown. Preserve the founder's voice; do not sanitize her honest doubts.",
+      "tags": [
+        "research-synthesis",
+        "interview-summary",
+        "d2c",
+        "narrative"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-024",
+      "title": "Pillar and Cluster Map for Fintech Blog",
+      "prompt": "Act as a content architect with 8 years of experience designing topic clusters for Indian fintech sites. I need you to design a complete pillar-and-cluster content map around the head term \"credit score in India.\" The target site is a new fintech blog (DA 20) aiming for 100k monthly organic in 18 months. Please provide: (1) 1 pillar page outline (3000 words) covering CIBIL, Experian, Equifax, CRIF High Mark, how scores are calculated, how to improve, common myths, (2) 25 cluster article titles grouped into 5 themes (understanding the score, improving the score, disputes and errors, loan-specific impact, life-stage scenarios), (3) for each cluster article: target keyword, estimated MSV range, difficulty band, primary intent, (4) internal linking rules (exact anchor text per cluster back to pillar), (5) a 6-month publishing calendar with monthly themes aligned to Indian financial events (year-end tax, budget, wedding season, festive loans), (6) 3 KPIs to track monthly. Format as structured markdown with tables.",
+      "tags": [
+        "outline",
+        "pillar-page",
+        "topic-cluster",
+        "fintech"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-025",
+      "title": "Myth-vs-Reality Framework for Parenting Blog",
+      "prompt": "Act as a parenting content writer with 6 years of experience writing for Indian audiences on ParentCircle, Momspresso, and personal Substacks. I need you to draft a 1500-word blog titled \"8 Parenting Myths Indian Millennials Inherited From Their Boomer Parents (And Which Ones To Keep).\" Target reader is a 28-38 year old urban Indian parent. Please provide: (1) a 100-word hook grounded in a specific scene at a joint-family dinner in Pune or Jaipur, (2) 8 myth entries, each with: the myth (as commonly said in Hindi or English), the reality (what modern pediatric or psychological research actually says, citing Indian sources where possible), a nuance note (when the myth has partial validity), and a respectful reframe for explaining it to parents or in-laws, (3) a \"what to keep\" sidebar listing 3 traditional practices that actually hold up, (4) a closing paragraph that avoids generation-war framing, (5) 3 questions for a follow-up post. Format as publish-ready markdown. Tone: warm, not preachy, no anti-elder tone.",
+      "tags": [
+        "listicle",
+        "myth-busting",
+        "parenting",
+        "intergenerational"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-026",
+      "title": "Substack Post for Indian Creator Economy",
+      "prompt": "Act as a Substack newsletter editor with 5 years of experience writing for Indian creator-economy audiences. I need you to draft a 1400-word Substack post titled \"Why INR 50k MRR on Substack India Is Harder Than USD 5k MRR on Substack US.\" Target reader is an Indian writer with 500-3000 free subscribers trying to convert to paid. Please provide: (1) a 100-word personal-voice hook (first person, a specific Tuesday afternoon scene), (2) a data section with 4 comparison points (payment friction, Razorpay vs Stripe, GST compliance, willingness-to-pay, TDS on foreign income), (3) 3 structural reasons with evidence, (4) a counter-section titled \"What is working\" with 4 Indian Substackers who have cracked it (use anonymized archetypes), (5) a practical 5-step action plan the reader can start this weekend, (6) a closing CTA asking readers to reply with their paid-conversion rate, (7) a subject line and 2 preview-text variants under 110 characters. Format as Substack-ready markdown. Voice: honest, slightly tired, never bitter.",
+      "tags": [
+        "long-form",
+        "substack",
+        "creator-economy",
+        "newsletter"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-027",
+      "title": "Guest Post Pitch and Draft for Indian Blog",
+      "prompt": "Act as a guest-posting specialist with 6 years of experience placing articles on Indian business blogs (Inc42, YourStory, Entrepreneur India, SmallBizClub India). I need you to produce a complete guest-post pitch and 1500-word draft targeting Inc42's Startup Operations section. Topic: \"How Early-Stage Indian SaaS Founders Should Think About Their First Content Hire.\" Please provide: (1) a 150-word cold pitch email to the Inc42 editor with a specific subject line, 3 reasons the piece fits their audience, 3 proposed angles, author bio, and a respectful follow-up line, (2) the chosen angle with a 1-line thesis, (3) the full 1500-word draft with hook, 4 H2 sections, case mini-vignettes with Indian SaaS archetypes, a framework for the first hire decision (in-house vs agency vs freelancer with INR cost bands 40k-2L per month), and a conclusion, (4) an author bio block, (5) 3 internal-link suggestions to existing Inc42 articles, (6) a 140-character tweet for the editor to share. Format as markdown with clear sections.",
+      "tags": [
+        "long-form",
+        "guest-post",
+        "pitching",
+        "saas"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-028",
+      "title": "Contrarian Opinion with Steel-Man Counter",
+      "prompt": "Act as a contrarian opinion writer with 8 years of experience for The Ken and FiftyTwo. I need you to draft a 1600-word contrarian opinion titled \"India Doesn't Need More Unicorns, It Needs More INR 100 Crore Cashflow Businesses.\" The piece must steel-man the opposing view before rebutting it. Please provide: (1) a 120-word hook that opens with a specific scene at a Bengaluru startup demo day, (2) a one-sentence thesis, (3) 4 supporting arguments with Indian evidence (valuation vs cashflow math in INR, Zoho case, Zerodha case, bootstrapped Chennai SaaS, DPIIT data), (4) a full 300-word steel-man of the pro-unicorn view that would make a VC nod, (5) a 400-word nuanced rebuttal that concedes 2 specific points, (6) a proposal section with 3 concrete changes (media coverage, LP mandates, founder mindset), (7) a 100-word conclusion that avoids moralizing. Format as markdown with clear section headers and 3 pull-quotes. Tone: confident but not smug, no dunking on specific founders by name.",
+      "tags": [
+        "opinion-piece",
+        "contrarian",
+        "argument-structure",
+        "startup"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-029",
+      "title": "Evergreen Blog Refresh Audit",
+      "prompt": "Act as a content refresh specialist with 7 years of experience updating evergreen posts on Indian finance blogs. I will describe an existing 2500-word blog post from 2022 titled \"Complete Guide to Filing ITR-2 in India for Salaried Individuals with Capital Gains.\" I need you to produce a full refresh audit. Please provide: (1) a 12-item freshness checklist (new tax slabs, new capital gains regime effective 2024, changed STT, updated Section 87A rebate, new ITR-2 form fields, crypto VDA reporting), (2) a section-by-section edit plan with specific rewrite instructions, (3) 5 new sections to add based on 2025-2026 budget changes, (4) 6 sections to cut or consolidate because they are outdated, (5) 10 new internal links to point to, (6) an updated meta title and description, (7) a schema markup upgrade (FAQ and HowTo), (8) a post-refresh promotion plan with 3 channels (CA Twitter, r/IndiaInvestments, LinkedIn finance groups). Format as a structured markdown audit report ready to hand to a junior writer.",
+      "tags": [
+        "seo-writing",
+        "content-refresh",
+        "tax-content",
+        "editing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-030",
+      "title": "Listicle with Ranking Methodology",
+      "prompt": "Act as an editorial data writer with 6 years of experience producing ranked listicles for Indian readers. I need you to draft a 1700-word listicle titled \"Top 10 Cities in India for Remote Software Engineers in 2026, Ranked.\" The post must be defensible because readers will scrutinize the ranking. Please provide: (1) a 100-word hook that acknowledges the contested nature of such rankings, (2) a transparent methodology section explaining 6 weighted factors (cost of 2BHK rent in INR, internet reliability, coworking density, power-cut hours, airport connectivity, cafe-working culture) with clear weights totaling 100%, (3) a ranked table of 10 cities (Bengaluru, Pune, Hyderabad, Chennai, Gurugram, Mumbai, Kolkata, Ahmedabad, Indore, Goa or similar) with scores, (4) 10 city entries with 120 words each covering what it is great at, where it falls short, and a sample monthly budget in INR for a single engineer, (5) a \"surprise climber\" and a \"overrated\" callout, (6) a methodology FAQ, (7) a 90-word conclusion. Format as publish-ready markdown with a clear table.",
+      "tags": [
+        "listicle",
+        "ranking",
+        "remote-work",
+        "research-synthesis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-031",
+      "title": "SEO Brief with SERP Intent Mapping",
+      "prompt": "Act as a search-intent strategist with 7 years of experience writing for Indian commerce and fintech sites. I need you to produce a SERP-intent-first content brief for the keyword \"best credit card for amazon shopping in india\" (MSV ~12k). Please provide: (1) a SERP snapshot analysis of the top 10 results with intent labels (transactional, commercial, informational) and dominant format (listicle, calculator, comparison table, blog), (2) a dominant-intent call with reasoning, (3) a hybrid outline 1800-2200 words that serves the dominant intent while capturing secondary intents, (4) a mandatory comparison table of 8 cards with columns for card name, joining fee INR, reward rate on Amazon, cap per month, annual fee waiver, best-for-segment, (5) 6 entity terms (reward points, cashback, SBI Cashback, Amazon Pay ICICI, MCC code, fuel surcharge), (6) 5 People-Also-Ask targets, (7) a compliance note on RBI and card-issuer disclosure rules. Format as a structured markdown brief that a freelance writer charging INR 4 per word can execute in one day.",
+      "tags": [
+        "seo-writing",
+        "search-intent",
+        "content-brief",
+        "credit-cards"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-032",
+      "title": "Hook Pack Matched to Reader Personas",
+      "prompt": "Act as a reader-research specialist with 6 years of experience matching content hooks to audience personas for Indian blogs. I need you to generate hook packs for a single blog post titled \"How to Negotiate Your First Tech Salary in India\" targeted at 3 different personas. Please provide: (1) Persona A: 22 year old final-year engineering student from a Tier-2 NIT with no prior internships, (2) Persona B: 26 year old working at Infosys for 3 years trying to switch to a product company, (3) Persona C: 30 year old SDE-2 at a mid-size startup negotiating a counteroffer from FAANG. For each persona, provide: 4 hook variants (curiosity, stat, story, contrarian), the specific fear and aspiration the hook targets, INR salary bands relevant to that persona, and a one-line note on which platform the hook will work best (LinkedIn, WhatsApp group forwards, SEO blog, Reddit r/developersIndia). Format as 3 clearly labeled persona blocks in markdown. Avoid condescension toward any tier of engineering college.",
+      "tags": [
+        "hook-writing",
+        "persona-targeting",
+        "tech-career",
+        "salary"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-033",
+      "title": "Advanced Topical Authority Roadmap",
+      "prompt": "Act as a senior topical-authority strategist with 10 years of experience building Indian publisher sites from zero to 1 million monthly organic sessions. I need you to design an 18-month topical-authority roadmap for a new Indian blog in the \"personal finance for salaried professionals\" niche. Current state: DA 15, 4 thin posts, 200 monthly sessions. Please provide: (1) a topic hierarchy with 1 mother topic, 6 parent topics, and 36 child topics (covering taxes, investing, insurance, loans, retirement, family finance), (2) a sequencing logic explaining which parent to build first and why (pick the lowest-KD, highest-intent cluster), (3) a 6-phase roadmap (Phase 1: foundation, Phase 2: easy wins, Phase 3: depth, Phase 4: commercial, Phase 5: authority, Phase 6: moats) with monthly post counts, (4) a link-building plan for each phase with Indian-context tactics (CA blogs, r/IndiaInvestments, HARO India, CXO interviews), (5) E-E-A-T signals needed for YMYL compliance, (6) 5 KPI targets by month 6, 12, and 18, (7) a kill-criteria list for shutting down underperforming clusters. Format as a structured markdown playbook.",
+      "tags": [
+        "seo-writing",
+        "topical-authority",
+        "strategy",
+        "long-form"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-034",
+      "title": "Investigative Long-Form on Indian Edtech",
+      "prompt": "Act as an investigative long-form writer with 9 years of experience at The Ken, The Morning Context, and FiftyTwo. I need you to outline and partially draft a 4500-word investigative blog post on the topic \"How Indian EdTech Sales Teams Pressure Lower-Middle-Class Parents Into High-Ticket Loans.\" Assume you have spoken to 6 ex-sales-reps, 4 affected families (Lucknow, Patna, Bhopal, Coimbatore), 2 NBFC executives, and reviewed internal sales scripts. Please provide: (1) a 3-paragraph cold open featuring one specific family, (2) a nut-graph paragraph at 400 words in that states the thesis and stakes, (3) a 7-section narrative outline covering recruitment of sales reps, script training, NBFC partnerships, commission structures, complaints to consumer courts, regulatory gaps, and a path forward, (4) source-verification notes for each section, (5) 4 fully written paragraphs from the investigation section, (6) 3 sidebar boxes (how the loan math works in INR, list of regulators, what parents can do), (7) an ethics note on anonymization and right of reply. Format as markdown. Tone: rigorous, humane, no sensationalism.",
+      "tags": [
+        "long-form",
+        "investigative",
+        "edtech",
+        "research-synthesis"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-035",
+      "title": "AI-Era E-E-A-T Content System",
+      "prompt": "Act as an E-E-A-T content architect with 9 years of experience making Indian YMYL sites survive Google core updates. I need you to design a complete E-E-A-T production system for a health blog targeting Indian women's health topics (PCOS, thyroid, endometriosis, fertility, menopause). Please provide: (1) an author model with 3 author personas (MBBS, dietitian, lived-experience contributor) and required credentials, sign-off rules, and bio templates, (2) a medical-review workflow with 5 stages, responsible role at each, and SLA in hours, (3) a citation standard listing 8 acceptable Indian sources (AIIMS, ICMR, FOGSI, PubMed Indian authors, NIN Hyderabad) and 6 unacceptable ones, (4) an experience-signal framework to inject first-person patient voices without breaching privacy, (5) a content audit rubric with 20 checkpoints scored out of 100, (6) a disclosure and disclaimer template, (7) a 6-month rollout plan to retrofit 80 existing posts. Format as a structured markdown playbook with tables. Focus on making the system executable by a 4-person editorial team in Bengaluru.",
+      "tags": [
+        "seo-writing",
+        "eeat",
+        "ymyl",
+        "editorial-system"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-036",
+      "title": "Multi-Source Research Synthesis on GST",
+      "prompt": "Act as a senior research editor with 10 years of experience synthesizing policy and tax research into readable Indian business blogs. I need you to draft a 2500-word research synthesis titled \"Seven Years of GST in India: What 18 Studies Say About Who Gained and Who Lost.\" Assume the 18 sources include NIPFP papers, NCAER reports, RBI bulletins, CAG audits, PRS Legislative briefs, and academic papers. Please provide: (1) a 150-word hook that opens with a Surat textile trader's story, (2) a methodology section on how you weighted the 18 sources, (3) 5 convergent findings across most studies with source-count and effect-size notes, (4) 4 divergent findings with probable reasons, (5) a winners-and-losers matrix across 6 stakeholder groups (MSMEs, large corporates, states, consumers, logistics sector, informal sector), (6) 3 unresolved questions the research cannot answer, (7) a policy-proposal section with 4 recommendations, (8) a 150-word conclusion. Format as markdown with tables. Tone: sober, non-partisan, no ideology. Cite each finding with a bracketed source label like [NIPFP 2022].",
+      "tags": [
+        "research-synthesis",
+        "meta-analysis",
+        "gst",
+        "policy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-037",
+      "title": "Programmatic SEO Blueprint for Indian Niche",
+      "prompt": "Act as a programmatic-SEO strategist with 8 years of experience scaling Indian content sites to millions of indexed pages. I need you to design a programmatic-SEO blueprint for a blog in the niche \"stamp duty calculator and registration charges by Indian city and property type.\" Please provide: (1) a data-set design listing 4 axes (28 states plus 8 UTs, 120 Tier-1 to Tier-3 cities, 6 property types, 3 buyer categories including woman-buyer discounts) yielding an addressable matrix, (2) a template page outline 600-900 words with 6 dynamic modules (intro, calculator embed, city-specific rates table, document checklist, FAQ block, internal links to parent city), (3) a content-quality floor to avoid thin-content penalties (minimum unique words, mandatory human-reviewed city expert quote, locality-specific notes), (4) a data-sourcing plan for keeping rates current (state registrar websites, IGR portals, Magicbricks, 99acres), (5) a crawl-budget and indexation strategy, (6) a human-editorial layer on top of 5% of pages, (7) expected traffic ramp curve over 12 months. Format as a structured markdown blueprint.",
+      "tags": [
+        "seo-writing",
+        "programmatic-seo",
+        "real-estate",
+        "strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-038",
+      "title": "Long-Form Argument Essay with 3-Layer Nuance",
+      "prompt": "Act as a senior essayist with 10 years of experience writing long-form arguments for The Caravan, FiftyTwo, and The India Forum. I need you to draft a 3200-word argument essay titled \"The Quiet Case Against India's Obsession with 10 Percent GDP Growth.\" The essay must use a 3-layer nuance structure: surface argument, counter-argument, and a third synthesizing layer. Please provide: (1) a 250-word scene-based hook (a specific factory floor in Tiruppur or a Zomato delivery rider in Noida), (2) a one-sentence thesis that sounds moderate but is actually sharp, (3) Layer 1: the surface argument with 3 evidence pillars (inequality stats, ecological limits, employment elasticity), (4) Layer 2: the strongest possible counter (why high growth lifts absolute poverty, China comparison, demographic dividend math), (5) Layer 3: a synthesis that rejects the binary and proposes a different target metric (quality-adjusted growth, median household income in INR, time-use wellbeing), (6) 5 pull-quotes, (7) a closing paragraph that earns its weight. Format as markdown. Tone: literary, citationally dense without footnote overload, no partisan signaling.",
+      "tags": [
+        "opinion-piece",
+        "long-form",
+        "essay",
+        "argument-structure"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-039",
+      "title": "Content System for Indian Niche Authority Site",
+      "prompt": "Act as a content-operations lead with 9 years of experience running Indian niche authority sites. I need you to design a complete content system for a new authority blog in the niche \"Indian home cooks adapting global recipes to Indian kitchens.\" The site will publish 4 posts per week for 24 months, run by 1 editor plus 3 freelance writers paid INR 1.5-3 per word. Please provide: (1) a content taxonomy with 5 parent categories and 20 child tags, (2) a weekly editorial calendar template across 4 slots (recipe, technique, ingredient, cultural essay), (3) a brief template that every writer must fill before drafting, (4) a style guide covering measurement units (grams vs katori vs cup), spelling (Indian English), transliteration of Hindi ingredient names (haldi vs turmeric), and photography standards, (5) a quality-scoring rubric out of 100, (6) a freelancer onboarding pack with payment terms, TDS notes, and IP assignment, (7) a monetization plan blending AdSense, affiliate to Indian grocery ecommerce, and a paid recipe club at INR 199 per month. Format as a full markdown playbook.",
+      "tags": [
+        "editorial-system",
+        "content-ops",
+        "food-blog",
+        "niche-authority"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    },
+    {
+      "id": "writers-blog-writers-040",
+      "title": "Cross-Format Repurposing Engine for Blog Posts",
+      "prompt": "Act as a content-repurposing strategist with 8 years of experience turning Indian long-form blog posts into multi-format distribution assets. I need you to design a complete repurposing engine for a flagship 3000-word blog post titled \"The Complete 2026 Guide to Buying a Home in Bengaluru on a 25 LPA Salary.\" Please provide: (1) a dependency map showing how the blog becomes 11 downstream assets, (2) a LinkedIn carousel (10 slides with headline and body for each), (3) an Instagram reel script 60 seconds with visual cues and Hinglish voiceover, (4) a 5-email newsletter mini-course with subject lines, (5) a Twitter thread of 12 tweets with a strong hook tweet under 220 characters, (6) a YouTube long-form video outline 14 minutes, (7) a Reddit r/bangalore post that avoids self-promo red flags, (8) a WhatsApp broadcast snippet under 300 characters, (9) a Quora answer targeting a specific question, (10) a podcast talk-track 8 minutes, (11) a sequencing calendar over 3 weeks explaining when each asset drops, (12) attribution tags to track which format drives the most traffic back to the pillar. Format as structured markdown with clear asset blocks.",
+      "tags": [
+        "long-form",
+        "repurposing",
+        "distribution",
+        "content-strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "writers",
+      "subcategory": "blog-writers"
+    }
+  ]
+}

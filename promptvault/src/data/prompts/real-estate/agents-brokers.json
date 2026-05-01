@@ -1,0 +1,724 @@
+{
+  "prompts": [
+    {
+      "id": "real-estate-agents-brokers-001",
+      "title": "Write 99acres Listing for 2BHK Apartment",
+      "prompt": "Act as a senior real estate copywriter with 10 years experience writing listings for 99acres, MagicBricks, and Housing.com. I need you to write a compelling property listing description for a 2BHK apartment in Wakad, Pune. Here is the context: 1050 sqft carpet area, 8th floor of a 14-storey RERA-registered tower (MahaRERA P52100012345), semi-furnished, two covered parking spaces, east-facing, 7 years old, society has swimming pool, gym, and 24x7 security, walking distance from Hinjewadi IT park, asking price ₹85 lakh, monthly maintenance ₹3,200. Target audience is young IT professionals and small families. Please provide: (1) A catchy headline under 70 characters, (2) A 120-word main description highlighting location and lifestyle, (3) A bulleted amenities list, (4) Three connectivity highlights with distance in km, (5) A one-line call-to-action. Format as a copy-paste-ready 99acres listing. Keep the tone warm, aspirational, and factual. Avoid superlatives banned by RERA like \"best\" or \"guaranteed returns\", and do not promise appreciation. Mention the RERA number clearly at the bottom as required by the MahaRERA Act.",
+      "tags": [
+        "listing-description",
+        "99acres",
+        "pune",
+        "2bhk",
+        "rera"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": true,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-002",
+      "title": "Client Follow-up Email After Site Visit",
+      "prompt": "Act as a professional real estate agent in Gurgaon with 8 years experience handling NRI and HNI clients for Golf Course Road and Sohna Road properties. I need you to draft a warm, non-pushy follow-up email to a client named Mr. Rajeev Malhotra who visited a 3BHK apartment at M3M Golfestate yesterday. Here is the context: the unit is 1,850 sqft, 12th floor with golf course view, priced at ₹3.25 crore, ready to move in, HRERA registered. He seemed interested but was concerned about the floor rise charges and the brokerage. He is comparing this with a similar unit at DLF Crest. Please provide: (1) Subject line under 55 characters, (2) Personalised opening referencing his visit, (3) Three bullet points addressing his concerns with data, (4) A comparison snippet positioning M3M favourably without disparaging DLF, (5) A soft CTA suggesting a second visit with his wife, (6) Professional sign-off with mobile and RERA agent number placeholder. Format as a ready-to-send email under 220 words. Keep the tone consultative, confident, and Indian-professional — not American-pushy. Avoid pressure tactics; focus on helping him make an informed decision.",
+      "tags": [
+        "follow-up",
+        "email",
+        "gurgaon",
+        "client-communication",
+        "nri"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-003",
+      "title": "Builder Floor Listing Description for South Delhi",
+      "prompt": "Act as a real estate marketing specialist with deep knowledge of the South Delhi builder floor market (GK, Defence Colony, Safdarjung Enclave, Nizamuddin). I need you to write a premium listing for an independent 3BHK builder floor in Greater Kailash-II. Here is the context: second floor with terrace rights, 2,400 sqft super area, 3 bed + 3 bath + servant room, modular kitchen, Italian marble flooring, stilt parking for two cars, power backup, lift, freehold property, asking ₹5.75 crore negotiable, vastu-compliant north-east facing. Target buyers are established professionals and business families. Please provide: (1) A headline emphasising exclusivity, (2) A 150-word lifestyle-focused description, (3) An amenities and specifications table, (4) Three reasons to buy in GK-II with lifestyle and connectivity angles, (5) A closing line with agent contact placeholder. Format as a polished listing suitable for both MagicBricks premium and a printed flyer. Tone must be sophisticated, factual, and avoid clichés like \"dream home\" or \"heart of Delhi\". Mention freehold status and that documentation includes registered sale deed and mutation.",
+      "tags": [
+        "listing-description",
+        "builder-floor",
+        "delhi",
+        "luxury",
+        "freehold"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-004",
+      "title": "WhatsApp Broadcast Template for New Project Launch",
+      "prompt": "Act as a real estate agent running a WhatsApp-first lead generation system for new project launches in Bangalore. I need you to draft a WhatsApp broadcast message for a pre-launch offer on Prestige Lakeside Habitat Phase 2 in Varthur. Here is the context: launch price ₹1.15 crore for 2BHK (1,260 sqft) and ₹1.65 crore for 3BHK (1,750 sqft), 5% pre-launch discount valid for 15 days, KRERA approval applied, possession Dec 2027, 70% loan pre-approved with HDFC and SBI, site visits this Saturday and Sunday. My contact list includes past buyers, referrals, and Whitefield IT employees. Please provide: (1) A hook line with emoji under 60 characters, (2) Three short benefit bullets, (3) Pricing snippet with EMI starting figure at 8.75% for 20 years, (4) Clear CTA with a Google Form or call link placeholder, (5) A short compliance footer mentioning \"KRERA number on request\". Format as a ready-to-send WhatsApp message under 150 words with proper line breaks. Avoid spam triggers like \"guaranteed\" or \"limited time offer forever\"; keep it conversational and trustworthy.",
+      "tags": [
+        "whatsapp",
+        "broadcast",
+        "bangalore",
+        "pre-launch",
+        "lead-generation"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-005",
+      "title": "Cold Call Script for Resale Flat Enquiry",
+      "prompt": "Act as a field sales trainer for a Mumbai real estate brokerage specialising in resale flats in Andheri, Powai, and Chembur. I need you to create a cold call script for junior agents calling leads who enquired about a 2BHK resale flat on MagicBricks but did not pick up the first call. Here is the context: the property is a 2BHK in Hiranandani Powai, 950 sqft carpet, 14th floor, ₹2.85 crore, OC received, society has amenities, lead name is Priya Deshmukh who enquired yesterday evening. Please provide: (1) An opening line of 15 seconds that passes the \"am I a scammer\" test, (2) A permission-seeking question, (3) Three qualifying questions on budget, timeline, and loan status, (4) A hook about the Powai property with two unique points, (5) Objection handling for \"I will call back\", \"price too high\", and \"just browsing\", (6) A clear next-step CTA for a site visit. Format as a numbered script under 250 words with stage directions in brackets. Keep language simple Indian English, no jargon, and culturally appropriate politeness markers like \"ma'am\" without overdoing it.",
+      "tags": [
+        "cold-call",
+        "script",
+        "mumbai",
+        "resale",
+        "qualification"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-006",
+      "title": "Villa Listing for Hyderabad Gated Community",
+      "prompt": "Act as a luxury property copywriter with experience selling villas in Hyderabad's premium gated communities (My Home Avatar, Aparna Sarovar, Prestige Tranquil). I need you to write a listing for a 4BHK villa in Kokapet. Here is the context: 4,200 sqft built-up on 300 sq yd plot, triplex, 4 bed + 5 bath + study + home theatre, private garden, two-car garage, clubhouse access, TS-RERA registered, ready for registration, asking ₹4.5 crore, target buyers are senior IT leaders and US-returned families. Please provide: (1) An evocative headline, (2) A 160-word narrative description that walks the reader through the villa, (3) A specifications table, (4) Neighbourhood highlights mentioning Financial District, ORR, and international schools within 5 km, (5) Documentation readiness note covering sale deed, occupancy certificate, and HMDA approval. Format as a premium listing under 400 words. Tone should be aspirational but understated. Avoid American luxury clichés; use Indian references like vastu-compliance, puja room, and joint-family-friendly layouts where relevant.",
+      "tags": [
+        "listing-description",
+        "villa",
+        "hyderabad",
+        "luxury",
+        "ts-rera"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-007",
+      "title": "Open House Invitation for Weekend Event",
+      "prompt": "Act as an events-focused real estate agent in Chennai with experience running open houses in OMR and ECR. I need you to write an open house invitation for a 3BHK apartment at Casagrand Luxus, Thoraipakkam this Sunday 11 am to 4 pm. Here is the context: 1,580 sqft, 7th floor, semi-furnished, asking ₹1.85 crore, CMDA approved, TNRERA registered, I will serve filter coffee and snacks, provide a goody bag with a city infra map, and offer a free home loan eligibility check with my ICICI banker partner. Target invitees are 30 short-listed leads from my CRM plus walk-ins. Please provide: (1) A subject line for email and WhatsApp, (2) A 120-word invitation body highlighting date, time, address, and what to expect, (3) A bullet list of three perks for attendees, (4) A clear RSVP instruction with a Google Form placeholder, (5) A parking and entry note for the society gate. Format both an email version and a shorter WhatsApp version. Tone must be warm, inviting, and hospitality-driven — treat it like inviting them to a festive event, not a sales pitch.",
+      "tags": [
+        "open-house",
+        "invitation",
+        "chennai",
+        "event",
+        "rsvp"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-008",
+      "title": "Plot Listing for Outskirts of Bangalore",
+      "prompt": "Act as a land and plot specialist with 12 years experience selling BMRDA and BDA approved plots around Bangalore (Devanahalli, Chandapura, Sarjapur). I need you to write a listing for a 2,400 sqft plot in a gated layout near Devanahalli, 8 km from Kempegowda International Airport. Here is the context: east-facing, 40x60 dimensions, BMRDA approved, clear title, khata-A, asking ₹65 lakh (₹2,708 per sqft), layout has compound wall, internal roads, streetlights, water, and electricity connections, target buyers are investors and future home-builders. Please provide: (1) A headline focused on airport proximity, (2) A 140-word description mixing investment and end-use angles, (3) A documentation checklist showing khata, EC, tax paid receipts, and sale deed availability, (4) Three comparable rate references for nearby layouts, (5) A clear disclosure that brokerage is 1% plus GST. Format as a plot-focused listing under 350 words. Avoid promising specific appreciation percentages as RERA does not permit this, but mention historical area growth factually with sources like 99acres price trends.",
+      "tags": [
+        "listing-description",
+        "plot",
+        "bangalore",
+        "bmrda",
+        "investment"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-009",
+      "title": "Thank You Note After Property Handover",
+      "prompt": "Act as a relationship-focused real estate agent who prioritises referrals over transactions. I need you to write a thank you note for a client, Mrs. Kavita Iyer, who just completed registration for her new 2BHK flat in Kharghar, Navi Mumbai at ₹1.35 crore. Here is the context: she was a first-time buyer, took 4 months and 11 site visits to decide, had some anxiety about the loan documentation which I helped resolve with my SBI contact, and her housewarming (griha pravesh) is scheduled for next Sunday. Please provide: (1) A heartfelt opening acknowledging her journey, (2) A short paragraph reflecting on two memorable moments from the process, (3) A practical housewarming tip from an agent's perspective, (4) A soft request for a Google review and referrals to friends or family, (5) A gift mention — I am sending a small silver Ganesha idol as per Maharashtrian tradition. Format as a handwritten-style note under 220 words. Tone should feel personal, grateful, and culturally warm — not transactional. Avoid the word \"customer\" and use \"family\" or \"Iyer ji\" instead.",
+      "tags": [
+        "thank-you",
+        "client-retention",
+        "navi-mumbai",
+        "referrals",
+        "handover"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-010",
+      "title": "Simple Owner Negotiation Opening Script",
+      "prompt": "Act as a seasoned buyer-side agent who negotiates with Mumbai flat owners. I need you to write an opening negotiation script for speaking to an owner, Mr. Shah, who is selling a 2BHK in Mulund West for ₹1.95 crore (quoted). My buyer has a comfortable budget of ₹1.72 crore and is pre-approved with HDFC. The flat has been listed for 90 days on 99acres with no price change and two dropped offers. Please provide: (1) A warm rapport-building opening in Hindi-English mix appropriate for a Gujarati owner, (2) Three data-backed justification points using 90-day listing duration, two similar flats priced at ₹1.78 crore in the same tower, and current home loan interest rates, (3) A soft first offer of ₹1.65 crore with room to move up, (4) A response script if the owner gets defensive, (5) A face-saving closing line that keeps the door open. Format as a spoken script under 280 words with tone notes in brackets. Keep the culture right — respectful, patient, never confrontational, and allow the owner to feel in control while you anchor the price.",
+      "tags": [
+        "negotiation",
+        "owner",
+        "mumbai",
+        "script",
+        "buyer-agent"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-011",
+      "title": "Simple Price Trend Snapshot for a Locality",
+      "prompt": "Act as a junior real estate analyst preparing a simple 1-page price trend snapshot for clients. I need you to create a locality price trend report template for Hinjewadi Phase 1, Pune for a 2BHK apartment segment. Here is the context: I will provide the actual numbers separately, but I need the structure I can reuse for any locality. Please provide a template with: (1) A header with locality, segment, and date of report, (2) A price table showing current average ₹/sqft, 1-year change percentage, 3-year change percentage, and rental yield percentage, (3) A 3-line narrative interpretation slot, (4) A \"top 5 active projects\" table with project name, builder, price range, and RERA number, (5) A demand-supply indicator (High/Medium/Low) with a one-line rationale, (6) A disclaimer footer saying data is from 99acres, MagicBricks, and Housing.com price index, not investment advice. Format as a structured markdown template under 300 words that I can drop into Canva or Google Docs. Keep it clean, no fluff, easy for a buyer to read in 2 minutes.",
+      "tags": [
+        "price-trends",
+        "template",
+        "pune",
+        "market-snapshot",
+        "locality"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-012",
+      "title": "Instagram Caption for Property Reel",
+      "prompt": "Act as a real estate social media strategist who grew an Instagram page to 50,000 followers selling Gurgaon properties. I need you to write an Instagram caption for a 60-second walkthrough reel of a 3BHK apartment at DLF Park Place, Sector 54. Here is the context: 2,100 sqft, 15th floor, park-facing, semi-furnished, ₹4.25 crore, HRERA agent number is RC/HARERA/GGM/1234/2023, target audience is young entrepreneurs and senior corporate executives in Delhi-NCR. Please provide: (1) A scroll-stopping first line under 120 characters, (2) A 120-word caption with natural storytelling, (3) A bullet list of three key features, (4) A clear CTA directing to DM or link in bio, (5) Exactly 12 relevant hashtags mixing local, niche, and broad tags, (6) A compliance line with HRERA agent number. Format as a ready-to-post Instagram caption. Avoid overused phrases like \"dream home\" or \"book now\". Keep the voice confident, slightly aspirational, and Gen-Z friendly without being cringe. Emojis allowed but maximum four.",
+      "tags": [
+        "instagram",
+        "social-media",
+        "gurgaon",
+        "reel",
+        "caption"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-013",
+      "title": "Lead Qualification Questionnaire for Buyers",
+      "prompt": "Act as a senior buyer-side agent who has closed 200+ residential deals in Noida and Greater Noida. I need you to design a lead qualification questionnaire I can send as a Google Form to fresh enquiries to filter serious buyers from tyre-kickers. Here is the context: I work on properties from ₹60 lakh to ₹3 crore, both resale and new launches, and I want to spend time only on buyers ready to act within 90 days. Please provide: (1) A friendly intro paragraph explaining why I am asking these questions, (2) 12 questions covering budget range, loan pre-approval status, preferred locality, BHK configuration, move-in timeline, current housing situation, decision-makers involved, previous site visits, specific must-haves, vastu preferences, parking requirement, and contact preference, (3) Clear answer format for each (multi-choice, number, short text), (4) A closing thank-you with an expectation of my callback within 24 hours. Format as a numbered list under 350 words. Tone should feel consultative not interrogative. Avoid asking PAN or Aadhaar at this stage as it scares first-time buyers.",
+      "tags": [
+        "qualification",
+        "lead-capture",
+        "noida",
+        "questionnaire",
+        "buyer"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-014",
+      "title": "Open House Layout and Flow Plan",
+      "prompt": "Act as a staging and events specialist for residential real estate open houses in India. I need you to design the visitor flow and layout plan for an open house of a 3BHK apartment at Sobha Dream Acres, Panathur Road, Bangalore. Here is the context: 1,480 sqft, three bedrooms, two balconies, expected 25 visitors across a 4-hour window on Sunday. I want visitors to experience the flat in a guided but natural flow without feeling herded. Please provide: (1) A room-by-room flow sequence starting from entrance to exit, (2) A staging checklist for each room with two items each (cushions, fresh flowers, light music, etc.), (3) A welcome zone setup with brochure, water, and signing register, (4) An \"experience anchor\" in each room — one specific thing I point out (natural light, balcony view, storage), (5) A closing discussion corner with the floor plan printout and pricing sheet, (6) A visitor registration format to capture name, mobile, budget, and timeline. Format as a numbered plan under 320 words. Keep it practical — no American-style staging that Indian families find cold.",
+      "tags": [
+        "open-house",
+        "staging",
+        "bangalore",
+        "layout",
+        "flow"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-015",
+      "title": "Basic RERA Disclosure Block for Listings",
+      "prompt": "Act as a real estate compliance assistant familiar with RERA rules across Maharashtra, Karnataka, Telangana, Tamil Nadu, Haryana, and UP. I need you to create a reusable RERA disclosure block template that I can paste at the bottom of every listing I publish on 99acres, MagicBricks, Housing.com, and my own website. Here is the context: I am an individual agent registered separately in each state, and I advertise projects from multiple builders. Please provide: (1) A 4-line standard disclosure block with placeholders for project RERA number, agent RERA number, state authority URL, and \"images for representation only\", (2) A short data accuracy disclaimer, (3) A brokerage clarity line saying brokerage is collected as per industry standard 1% + GST (or as negotiated), (4) A privacy note for contact data, (5) A line clarifying that circulation of the listing does not constitute a legal offer. Format as a ready-to-paste compliance block under 200 words. Keep language simple, legally sound, and non-alarming for buyers. Avoid copy-pasting builder disclaimers verbatim since that can create liability.",
+      "tags": [
+        "rera",
+        "compliance",
+        "disclosure",
+        "template",
+        "legal"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-016",
+      "title": "Monthly Newsletter to Past Clients",
+      "prompt": "Act as a retention-focused real estate agent building a long-term referral engine in Kolkata. I need you to draft a monthly email newsletter to my past clients in New Town, Rajarhat, and Salt Lake. Here is the context: about 120 past clients, average ticket size ₹80 lakh, mix of end-users and investors, I want to stay top of mind without being salesy, newsletter goes out first Saturday of every month. Please provide: (1) A subject line that gets opens, (2) A 100-word market pulse section with placeholder bullets on price movement, new launches, and home loan rate changes, (3) A 120-word \"neighbourhood story\" section featuring one client success or locality highlight, (4) A \"tip of the month\" — a 60-word practical homeowner tip (e.g., renewing fire NOC, Khata mutation, monsoon maintenance), (5) A soft referral ask with a thank-you incentive mentioning a free home valuation, (6) Agent sign-off. Format as a complete newsletter template under 350 words with section headers. Tone: knowledgeable local friend, not corporate broker. Keep everything newsletter-appropriate, no hard selling.",
+      "tags": [
+        "newsletter",
+        "retention",
+        "kolkata",
+        "past-clients",
+        "referrals"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-017",
+      "title": "Comparable Market Analysis for Resale Flat",
+      "prompt": "Act as a real estate valuation analyst with 10 years experience building Comparable Market Analysis (CMA) reports for Mumbai brokers. I need you to create a structured CMA for a 2BHK resale flat in Lodha Amara, Thane West. Here is the context: subject flat is 980 sqft carpet, 18th floor, 4 years old, semi-furnished, owner quoting ₹1.65 crore. I will supply 6 comparable transactions from Magicbricks and 99acres. Please provide a template with: (1) Subject property profile card, (2) A 6-row comparable table with columns for tower, floor, carpet area, age, transaction date, ₹/sqft, and adjusted value, (3) Adjustment guidelines — how much to add or subtract per floor level, per view, per furnishing level, and per society age, (4) A weighted average calculation section showing raw average, median, and adjusted valuation, (5) A \"recommended listing price\" and \"minimum acceptable\" range with rationale, (6) A risk and liquidity note for this micro-market, (7) A 2-line conclusion for the owner. Format as a professional analysis template under 400 words. Keep numbers placeholder-style so it is reusable for any flat. Reference Thane sub-market specifics like Ghodbunder Road accessibility.",
+      "tags": [
+        "comparables",
+        "cma",
+        "thane",
+        "valuation",
+        "analysis"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-018",
+      "title": "Multi-Touch Drip Sequence for Cold Leads",
+      "prompt": "Act as a real estate CRM specialist who has designed drip sequences converting 18% of cold leads into site visits. I need you to design a 21-day multi-touch follow-up drip sequence for leads who filled my website form asking about 3BHK apartments in Whitefield, Bangalore but did not respond to my first two calls. Here is the context: lead cost is ₹450 per form fill, budget range ₹1.2 crore to ₹1.8 crore, I use WhatsApp, email, and SMS combined. Please provide: (1) A day-by-day schedule across 21 days with 9 touches, (2) For each touch: channel, time of day, message theme (value, social proof, scarcity, urgency, emotional, educational), and a draft message under 50 words, (3) Branching logic for \"opened but no reply\" vs \"no open at all\", (4) Exit criteria for marking lead as dead, (5) Escalation rule for hot leads, (6) A reusable subject/opening hook library with 5 lines. Format as a structured sequence table followed by message drafts under 400 words total. Avoid spam patterns. Be respectful of Indian cultural timings — no messages after 9 pm or during Sunday morning hours.",
+      "tags": [
+        "drip-sequence",
+        "crm",
+        "bangalore",
+        "nurture",
+        "follow-up"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-019",
+      "title": "Negotiation Playbook for Over-Priced Listing",
+      "prompt": "Act as a negotiation coach for real estate agents in Delhi-NCR. I need you to build a negotiation playbook for handling a buyer who has fallen in love with an over-priced 3BHK in Sector 50 Noida listed at ₹2.4 crore when the honest market value per CMA is ₹2.05 crore. Here is the context: owner is emotionally attached having lived there 15 years, buyer is a dual-income family who can stretch but should not overpay, I represent the buyer. Please provide: (1) A pre-negotiation preparation checklist covering comparable data, owner psychology read, and walk-away price, (2) A 4-step negotiation flow — anchoring, exploring owner motivations, reframing value, and closing, (3) Three specific phrases to reframe the ₹35 lakh gap without offending the owner, (4) A trade-off matrix where the buyer concedes on possession date or token amount in exchange for a price cut, (5) A written counter-offer template quoting ₹2.10 crore, (6) A post-negotiation checklist to lock terms in writing within 48 hours. Format as a playbook under 400 words with clear headers. Be honest — some deals should die; include a \"when to walk away\" section.",
+      "tags": [
+        "negotiation",
+        "playbook",
+        "noida",
+        "buyer-agent",
+        "over-priced"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-020",
+      "title": "Micro-Market Report for Kondapur, Hyderabad",
+      "prompt": "Act as a market research analyst specialising in Hyderabad residential micro-markets. I need you to produce a detailed 1-page micro-market report template for Kondapur that I can update quarterly and share with NRI clients. Here is the context: Kondapur is a mid-premium residential area near HITEC City, popular with IT professionals, average 2BHK price range ₹85 lakh to ₹1.3 crore, and I focus on resale and ready-to-move segments. Please provide: (1) A header section with market snapshot — average ₹/sqft for 2BHK and 3BHK, YoY change, inventory months, (2) A demand driver section with 4 bullets covering employment hubs, infrastructure, connectivity, and social amenities, (3) A supply section listing 5 active and 3 upcoming projects with TS-RERA numbers placeholder, (4) A rental yield and tenant profile subsection, (5) A risk factors subsection covering water issues, traffic, and any pending legal disputes, (6) A 3-line outlook for next 12 months, (7) A data sources and methodology footer. Format as a structured report template under 400 words. Tone: factual, NRI-friendly, no hype, usable for a client call or PDF export.",
+      "tags": [
+        "market-report",
+        "hyderabad",
+        "kondapur",
+        "nri",
+        "research"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-021",
+      "title": "Owner Listing Pitch to Win Exclusive Mandate",
+      "prompt": "Act as a listing-agent specialist who wins 7 out of 10 exclusive mandate pitches in Pune's premium resale segment. I need you to craft a listing pitch I will deliver in person to an owner, Mr. Deshpande, who is considering selling his 3BHK in Marvel Cerise, Kharadi for around ₹1.85 crore. Here is the context: he currently lists directly on MagicBricks without an agent and is frustrated with time-wasters, competition has two other agents pitching him next week. Please provide: (1) A 30-second opening that acknowledges his frustration and differentiates me, (2) A 3-pillar value proposition covering pricing strategy, qualified buyer access, and negotiation expertise, (3) A proposed 30-day marketing plan with specific activities — professional photoshoot, 99acres premium listing, WhatsApp broadcast, and two open houses, (4) A commission justification showing ROI on 2% + GST, (5) A closing ask for 60-day exclusive mandate with a \"performance promise\" of a minimum qualified viewings, (6) A handling script for \"I will think about it\" objection. Format as a pitch script under 380 words. Tone: confident, consultative, evidence-based. Avoid boasting; let numbers and process do the talking.",
+      "tags": [
+        "listing-pitch",
+        "exclusive-mandate",
+        "pune",
+        "owner",
+        "win-listing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-022",
+      "title": "Buyer Counter-Offer Response Template",
+      "prompt": "Act as a transaction-closing specialist for a real estate brokerage in Chennai. I need you to draft a written counter-offer response template for the owner's side when a buyer submits a lowball offer on a 3BHK villa in Neelankarai priced at ₹3.2 crore, and the buyer offered ₹2.75 crore citing \"market correction\". Here is the context: TNRERA registered, ready to move, the owner is not distressed, and we have two other warm leads in the pipeline. Please provide: (1) A formal letter opening acknowledging the offer, (2) Three data points justifying the current price — a recent comparable sale at ₹3.15 crore, rental yield of 3.2%, and replacement cost of similar construction, (3) A reasonable counter at ₹3.05 crore with a 7-day validity clause, (4) A list of included terms — car parking, piped gas, fittings and fixtures, (5) A soft \"we have other interest\" statement without sounding desperate, (6) A clear closing with next steps and document readiness. Format as a formal email under 320 words suitable for forwarding through WhatsApp or email. Tone: firm, respectful, data-backed, never combative. Keep it closeable — not a door-slam.",
+      "tags": [
+        "counter-offer",
+        "negotiation",
+        "chennai",
+        "owner",
+        "closing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-023",
+      "title": "Home Loan Eligibility Explainer for Clients",
+      "prompt": "Act as a real estate agent partnered with HDFC, SBI, and ICICI home loan teams, with practical knowledge of how banks assess Indian salaried and self-employed buyers. I need you to write a simple explainer email I can send to a first-time buyer, Mr. Anand Kumar, a software engineer in Bangalore earning ₹18 lakh CTC, asking what loan amount he can realistically get. Here is the context: he is 31 years old, has an existing car EMI of ₹12,000, credit score 765, no other liabilities, looking at a ₹1.1 crore flat in Electronic City. Please provide: (1) A plain-English explanation of the FOIR ratio (Fixed Obligation to Income Ratio) and how 40-50% is used, (2) An indicative eligibility calculation showing monthly take-home, allowable EMI, and maximum loan at 8.75% for 25 years, (3) An estimate of the down payment gap between loan and flat price including stamp duty and registration, (4) A list of 5 documents to get ready, (5) A note on insurance cross-sell pressure and how to politely decline, (6) A CTA offering a free call with my banker contact. Format as a complete email under 380 words. Tone: educational, brotherly, transparent.",
+      "tags": [
+        "home-loan",
+        "eligibility",
+        "bangalore",
+        "first-time-buyer",
+        "foir"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-024",
+      "title": "RERA Project Due Diligence Checklist",
+      "prompt": "Act as a property due diligence consultant with a legal background familiar with RERA, MahaRERA, K-RERA, and HRERA portals. I need you to create a due diligence checklist a buyer agent can run before recommending a new-launch or under-construction project to a client. Here is the context: I recommend properties in Pune, Bangalore, and Gurgaon across ₹80 lakh to ₹3 crore ticket sizes, and I want to protect clients from delayed or stuck projects. Please provide: (1) A 15-point RERA portal verification checklist covering registration number, promoter details, validity, quarterly progress updates, financial disclosures, and litigation status, (2) A 10-point documentation check — title deed, approved plan, commencement certificate, environment clearance, fire NOC, occupancy certificate, (3) A 5-point financial health check on the builder — number of delivered projects, past RERA complaints, escrow compliance, (4) A red-flag scoring system out of 30 with three tiers — green, amber, red, (5) A sample one-line recommendation statement for the client. Format as a structured checklist under 400 words with bullet points. Tone: protective, uncompromising on buyer safety, no marketing fluff. Mention that the checklist does not replace legal opinion.",
+      "tags": [
+        "rera",
+        "due-diligence",
+        "checklist",
+        "new-launch",
+        "legal"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-025",
+      "title": "Open House Follow-up Email Sequence",
+      "prompt": "Act as a conversion-focused agent running 2 open houses per month in Mumbai with an average of 20 visitors each. I need you to design a 3-email follow-up sequence I will send to all attendees of a recent open house at Lodha World Towers, Lower Parel. Here is the context: the property is a 4BHK, 2,800 sqft, ₹8.5 crore, and visitors included 5 serious buyers, 8 curious neighbours, and 7 information gatherers. I want to re-engage serious ones and politely archive the rest. Please provide: (1) Email 1 (sent same evening): a thank-you email with a photo highlights link, floor plan attachment, and a soft CTA for questions, (2) Email 2 (sent day 3): a value-add email sharing market context, recent Lower Parel transactions, and asking for a brief feedback reply, (3) Email 3 (sent day 7): a direct email inviting the top-tier interested buyers for a private second visit, plus a polite \"should I remove you from the list\" option for the rest, (4) Subject lines for each, (5) A tracking plan using open and click data. Format all three emails under 400 words total. Tone: gracious, helpful, never pushy.",
+      "tags": [
+        "open-house",
+        "follow-up",
+        "email-sequence",
+        "mumbai",
+        "conversion"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-026",
+      "title": "Rental Yield vs Capital Appreciation Advisor",
+      "prompt": "Act as an investment-focused real estate advisor for NRI clients from the Gulf and Singapore investing in Indian residential property. I need you to write a structured advisory note for a client, Mr. Venkatesh based in Dubai, who has ₹1.5 crore to deploy and is torn between buying a 2BHK in Whitefield Bangalore for ₹1.35 crore (rental yield 3.4%) versus a 3BHK in Kanakapura Road for ₹1.45 crore (rental yield 2.9% but higher appreciation potential). Here is the context: his horizon is 7 years, he needs some rental income for parents' maintenance, and he is taxed in UAE as NRI. Please provide: (1) A 5-year rental income projection for both options assuming 5% annual rent escalation, (2) A capital appreciation scenario modelling 6%, 8%, and 10% CAGR, (3) A total return (IRR) comparison after 7 years, (4) Tax treatment in India covering TDS on rent and capital gains, (5) A risk comparison — tenant risk, locality saturation, exit liquidity, (6) A clear recommendation with a 3-line rationale. Format as an advisory note under 400 words. Tone: analytical, balanced, no broker bias.",
+      "tags": [
+        "investment",
+        "rental-yield",
+        "nri",
+        "bangalore",
+        "advisory"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-027",
+      "title": "Broker Commission Explanation to Skeptical Client",
+      "prompt": "Act as a brokerage business coach for Indian real estate agents. I need you to write a talk-track I can use when a client, Mrs. Saxena, questions why she should pay 1% + GST brokerage when she found the flat on 99acres herself. Here is the context: the flat is in Sector 93 Noida at ₹1.25 crore, I helped her with 4 site visits, 2 rounds of negotiation, and home loan coordination, saving her approximately ₹8 lakh off the quoted price. Please provide: (1) A rapport-preserving opening acknowledging her perspective, (2) A value recap listing 6 specific things I did for her using concrete time estimates and outcomes, (3) A reframing that positions brokerage as less than 1% of the deal value versus the ₹8 lakh saved, (4) An industry standard reference showing typical resale brokerage ranges, (5) A handling script for \"the owner is already paying you\" objection, (6) A win-win close offering a receipt, GST invoice, and a small referral incentive. Format as a talk-track under 350 words with stage directions. Tone: confident, non-defensive, warm. Never apologise for charging brokerage; earn it with clarity.",
+      "tags": [
+        "commission",
+        "objection-handling",
+        "noida",
+        "client-communication",
+        "brokerage"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-028",
+      "title": "Weekly Social Media Content Calendar",
+      "prompt": "Act as a real estate social media content strategist who manages Instagram and LinkedIn for solo agents in India. I need you to create a 7-day content calendar for a Mumbai agent focusing on the Bandra-Khar-Santacruz West belt. Here is the context: I post both on Instagram (daily) and LinkedIn (3x/week), audience mix is HNI buyers and corporate professionals, average ticket size ₹3 crore to ₹15 crore, and I want to build authority rather than spam listings. Please provide: (1) A 7-day table with columns for day, platform, format (reel, carousel, story, post), content theme, hook line, and CTA, (2) Content theme mix: 2 educational, 2 listing, 1 client story, 1 market insight, 1 behind-the-scenes, (3) Specific hook examples for each post, (4) A reel concept for Saturday featuring a Bandra West rent vs buy comparison, (5) A LinkedIn long-form post idea on \"why Bandra West is still under-priced\", (6) A hashtag bank of 15 Mumbai real estate tags. Format as a structured calendar under 400 words. Avoid generic motivational content. Tone: local expert, data-savvy, slightly sophisticated for HNI audience.",
+      "tags": [
+        "social-media",
+        "content-calendar",
+        "mumbai",
+        "bandra",
+        "instagram"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-029",
+      "title": "Referral Request Script After Closing",
+      "prompt": "Act as a referral generation expert for Indian real estate agents. I need you to write a natural, non-awkward referral request script I can use during the post-registration handover meeting with a happy client, Mr. and Mrs. Nambiar, who just bought a 3BHK in Prestige Falcon City, Kanakapura Road Bangalore for ₹1.92 crore. Here is the context: the deal closed smoothly over 6 weeks, they are relocating from Chennai, and I helped them with school recommendations for their daughter in addition to the property. Please provide: (1) A conversational lead-in after handing over the keys and documents, (2) A specific ask for names of 3 people in their network who are also considering a move to Bangalore, (3) A memory trigger question like \"who from your Chennai office is also shifting?\", (4) A clear articulation of what kind of referrals I am looking for — buyer profile, budget range, timeline, (5) A thank-you incentive — a ₹5,000 voucher or a free home inspection for referred friends, (6) A closing line that reinforces relationship over transaction. Format as a script under 300 words with stage directions. Tone: relaxed, genuine, zero pressure.",
+      "tags": [
+        "referrals",
+        "script",
+        "bangalore",
+        "client-relationship",
+        "post-closing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-030",
+      "title": "Area Expert Positioning LinkedIn Article",
+      "prompt": "Act as a personal branding consultant helping real estate agents become the \"go-to expert\" for their micro-market. I need you to outline and draft a LinkedIn long-form article for an agent specialising in Sohna Road, Gurgaon, targeting corporate professionals in DLF Cyber City and Udyog Vihar. Here is the context: the agent has 9 years of experience, has sold 140+ units on Sohna Road, and wants to position as the category expert for anyone considering this belt. Please provide: (1) An attention-grabbing title under 80 characters, (2) A 3-sentence hook opening, (3) 5 article sections — Why Sohna Road Now, Infrastructure Pipeline (Dwarka Expressway, Southern Peripheral Road), Project Grid with 6 notable projects and price ranges, Rental Demand Data, and Who Should Buy Here, (4) A personal anecdote slot from the agent's experience, (5) A mild CTA offering a free 20-minute market call, (6) Three LinkedIn-native hashtags. Format as a near-ready article under 450 words with section headers. Tone: authoritative, data-forward, first-person, zero clickbait. Aim for the \"save this post\" reaction from readers.",
+      "tags": [
+        "linkedin",
+        "thought-leadership",
+        "gurgaon",
+        "sohna-road",
+        "positioning"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "creative",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-031",
+      "title": "Objection Handling Library for 10 Top Objections",
+      "prompt": "Act as a sales training director for a real estate brokerage with 120 agents across Mumbai, Pune, and Bangalore. I need you to build an objection handling library covering the 10 most common buyer objections in Indian residential real estate. Here is the context: objections include price too high, need to consult family, waiting for price drop, circle rate confusion, bad vastu, loan concerns, builder trust issues, locality doubts, possession delay fears, and \"let me think\". Please provide: (1) For each objection, a 3-part framework — acknowledge (Feel), validate (Felt), reframe (Found), (2) A specific scripted line under 40 words per objection using Indian cultural context, (3) A data or social proof anchor per objection, (4) A next-step question that moves the conversation forward, (5) A summary table showing which objection maps to which deal stage (enquiry, site visit, negotiation, closing), (6) Coaching notes on tone and body language. Format as a structured library under 450 words. Tone: practical, field-tested, never manipulative. Distinguish between real objections and politeness-objections (where the client just wants to end the call gracefully).",
+      "tags": [
+        "objection-handling",
+        "sales-training",
+        "library",
+        "scripts",
+        "closing"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-032",
+      "title": "Listing Photography and Walk-through Brief",
+      "prompt": "Act as a real estate visual content director who has briefed 500+ property photo and video shoots in India. I need you to write a shoot brief for a freelance photographer visiting a 3BHK apartment in Koramangala 4th Block, Bangalore priced at ₹2.4 crore. Here is the context: the shoot is 90 minutes, deliverables are 25 high-res photos, 1 reel (60 sec), and 1 walk-through video (2 min), budget ₹8,000 inclusive of GST. Please provide: (1) A pre-shoot preparation checklist for me as the agent — declutter, open curtains, turn on warm lights, hide wires, fresh flowers, (2) A mandatory shot list with 15 specific angles covering entrance, living room hero shot, kitchen detail, master bedroom wide, bathroom vanity, balcony view, society entrance, amenities, (3) A reel storyboard with 8 clips and transition notes, (4) Walk-through video narration points the photographer should capture voice over for, (5) Post-production instructions — aspect ratios for 99acres, Instagram, and YouTube Shorts, (6) A branding element note (logo placement, agent RERA number overlay). Format as a shoot brief under 400 words. Tone: precise, professional, no-guesswork. Include a delivery deadline of 48 hours.",
+      "tags": [
+        "photography",
+        "video",
+        "shoot-brief",
+        "bangalore",
+        "content"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-033",
+      "title": "Advanced CMA with Hedonic Adjustments",
+      "prompt": "Act as a quantitative real estate valuation expert who applies hedonic regression logic to Indian resale transactions. I need you to build a technically advanced Comparable Market Analysis methodology for a 3BHK apartment in Rustomjee Elita, Andheri West, Mumbai currently listed at ₹3.4 crore. Here is the context: subject is 1,420 sqft carpet, 22nd floor, sea-view partial, 6 years old, fully furnished. I have 10 comparable transactions from the same tower and nearby towers with varying attributes. Please provide: (1) A feature matrix identifying 8 hedonic variables — carpet area, floor level, view quality, age, furnishing, parking, facing direction, and amenities access, (2) Indicative adjustment coefficients as ₹/sqft deltas per variable based on Mumbai market conventions, (3) A step-by-step adjustment workflow showing raw comparable price, gross adjustments, net adjustments, and adjusted indicated value, (4) Outlier detection rules to discard non-representative trades, (5) A reconciliation formula producing a final value range (low, central, high) with confidence band, (6) A professional one-page client summary. Format as a structured methodology under 480 words. Tone: rigorous, analyst-grade, defensible in a negotiation. Acknowledge data limitations transparently.",
+      "tags": [
+        "cma",
+        "hedonic",
+        "mumbai",
+        "advanced-valuation",
+        "quantitative"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-034",
+      "title": "Deal Structuring for HNI with Tax Optimisation",
+      "prompt": "Act as a real estate deal structuring advisor working with CAs and wealth managers for HNI clients in India. I need you to design a deal structure for a HNI buyer, Mr. Kapoor, purchasing a ₹12 crore penthouse at Oberoi Three Sixty West, Worli Mumbai, while also planning to sell his ₹7 crore Bandra flat. Here is the context: he wants to minimise long-term capital gains tax via Section 54 rollover, manage cashflow via home loan leverage despite having liquidity, and protect the asset under his HUF and wife joint ownership. Please provide: (1) A tax analysis showing LTCG on the Bandra sale and the Section 54 rollover applicability, (2) An ownership structure recommendation — sole, joint, HUF, or family trust — with pros and cons, (3) A financing strategy balancing own funds, home loan (₹6 crore at 8.6%), and opportunity cost of liquidity, (4) A payment schedule aligned with RERA milestone norms, (5) A documentation sequence across sale deed, MoU, and transaction timing to satisfy Section 54 conditions, (6) Red flags that require a CA sign-off. Format as an advisory memo under 480 words. Tone: sophisticated, CA-compatible, not a substitute for legal advice. Mention stamp duty at Maharashtra 6% plus metro cess.",
+      "tags": [
+        "hni",
+        "tax-optimisation",
+        "mumbai",
+        "section-54",
+        "deal-structure"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-035",
+      "title": "Distressed Owner Negotiation Playbook",
+      "prompt": "Act as a specialist buyer-side agent who handles distressed sales — owners under financial stress, NRI liquidation, or bank-auction adjacent situations in Delhi-NCR. I need you to build a negotiation playbook for approaching an owner in Gurgaon Sector 57 whose 3BHK villa is listed at ₹3.5 crore but who is facing a personal loan default and needs cash within 45 days. Here is the context: I represent a ready cash buyer with ₹2.6 crore, the villa's fair market value is around ₹3.1 crore, and the owner is emotionally strained. Please provide: (1) An ethical framework I will NOT violate — no exploitation, full disclosure, fair compensation, (2) A 5-stage approach — empathetic rapport, honest needs discovery, problem-framing, solution-mapping, fair offer, (3) Three deal sweeteners beyond price — faster token, flexible possession, help with loan closure paperwork, (4) A fair offer range of ₹2.85-2.95 crore with justification, (5) Legal safeguards — title check, loan NOC, escrow mechanism, (6) Walk-away triggers if the owner's situation becomes unsafe to transact. Format as a playbook under 480 words. Tone: principled, compassionate, never predatory. This is sensitive territory — include a line on referring owner to a financial counsellor if needed.",
+      "tags": [
+        "distressed-sale",
+        "negotiation",
+        "gurgaon",
+        "ethics",
+        "buyer-agent"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-036",
+      "title": "360-Degree Market Report for Pre-Launch Pricing",
+      "prompt": "Act as a real estate market research head advising a Tier-1 builder on pre-launch pricing strategy for a new residential project in Wagholi, Pune. I need you to produce a 360-degree market report informing a go-to-market price for a 2BHK (950 sqft) segment. Here is the context: the project has 450 units across 5 towers, target segment is mid-premium IT families, MahaRERA registration pending, scheduled launch in 60 days, competition includes 3 active projects and 2 upcoming launches in a 2 km radius. Please provide: (1) A competitive pricing table with 5 competitors showing base price ₹/sqft, all-in price, absorption rate, and inventory status, (2) A demand gap analysis for the 2BHK segment showing quarterly sell-through, (3) A price elasticity scenario at 3 price points — ₹6,200, ₹6,500, ₹6,800 per sqft — with projected absorption velocity, (4) A launch strategy recommendation (pre-launch discount, EOI refundable, assured rental), (5) A sensitivity analysis on interest rate movements and competitor launches, (6) A final recommended launch price with defensible rationale. Format as a structured report under 480 words. Tone: institutional-grade, data-driven, board-room ready. State all assumptions upfront.",
+      "tags": [
+        "pre-launch",
+        "pricing-strategy",
+        "pune",
+        "market-research",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-037",
+      "title": "Portfolio Review for a Multi-Property HNI Client",
+      "prompt": "Act as a real estate portfolio advisor serving HNI clients with multiple residential and commercial properties. I need you to design a portfolio review framework I will present to a client, Dr. Mehta, who owns 6 properties: a Bandra flat, a Lonavala villa, two Pune rental apartments, a Noida commercial office, and a Bangalore plot, totalling approximately ₹42 crore in market value. Here is the context: he is 58, planning for retirement liquidity, and wants to consolidate underperformers and acquire stable yielding assets. Please provide: (1) A portfolio audit template with columns for property, current value, rental yield, appreciation CAGR (5-yr), liquidity score (1-5), maintenance hassle score, and strategic fit, (2) A concentration risk analysis by city, asset class, and tenant type, (3) An identification framework for 2 properties to divest and rationale, (4) A reallocation recommendation into commercial yielding assets or REITs, (5) A tax-efficient divestment sequence across 2 financial years, (6) A 3-line executive summary for the client call, (7) A governance checklist for the family to approve. Format as an advisory framework under 480 words. Tone: CFO-level, discreet, long-horizon.",
+      "tags": [
+        "portfolio-review",
+        "hni",
+        "advisory",
+        "retirement",
+        "rebalancing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-038",
+      "title": "Joint Venture Deal Memo for Landowner-Builder Tie-up",
+      "prompt": "Act as a real estate deal origination consultant who structures joint development agreements (JDA) between landowners and mid-tier builders in Bangalore. I need you to draft a deal memo for a JDA between a landowner holding a 2-acre parcel in Sarjapur Road and a reputed builder, to develop a residential project. Here is the context: land market value ₹48 crore, builder brings construction expertise and capital, project potential is 300 units of 2-3 BHK, estimated project revenue ₹360 crore, construction cost ₹180 crore, marketing and overheads ₹40 crore. Please provide: (1) A deal structure summary with revenue share or area share recommendation and rationale, (2) A waterfall showing landowner share, builder share, and residual, (3) A milestone-based obligation map across land contribution, approvals, construction, and registration, (4) Key risk allocation — cost overrun, approval delay, sales risk, RERA compliance, (5) An escrow and governance framework, (6) Exit and default clauses, (7) A headline commercial recommendation — 65% builder / 35% landowner revenue share with justification. Format as a deal memo under 480 words. Tone: commercial, crisp, IC-memo style. Flag that this is a commercial framework and not a legal drafting substitute.",
+      "tags": [
+        "joint-venture",
+        "jda",
+        "bangalore",
+        "deal-memo",
+        "landowner"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-039",
+      "title": "Multi-City Rent vs Buy Decision Model",
+      "prompt": "Act as a financial modelling expert who builds rent-vs-buy analyses for Indian urban professionals. I need you to build a decision model template for a transferable IT manager choosing between renting and buying a 2BHK in Pune (Baner), Bangalore (Whitefield), or Hyderabad (Gachibowli). Here is the context: target budget ₹1.1 crore purchase or ₹35,000-45,000 monthly rent, expected stay horizon 5 years, home loan at 8.75% for 20 years, alternative investment return 11% in equity index, stamp duty and registration 7-8% per city. Please provide: (1) A city-by-city input block capturing purchase price, rent, stamp duty, maintenance, property tax, rent escalation (7% annually), loan parameters, (2) A 5-year cashflow model for buy scenario — EMI, maintenance, tax benefits under Section 24 and 80C, (3) A 5-year cashflow for rent scenario — rent paid, opportunity cost of down payment invested in equity, (4) A net wealth comparison at year 5 including property sale at 6% CAGR appreciation, (5) A break-even horizon calculation, (6) A clear decision matrix showing which city favours rent vs buy for this horizon, (7) Sensitivity table on appreciation and rent escalation. Format as a structured model description under 480 words. Tone: quant, neutral, assumption-transparent.",
+      "tags": [
+        "rent-vs-buy",
+        "financial-model",
+        "multi-city",
+        "decision-support",
+        "advanced"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    },
+    {
+      "id": "real-estate-agents-brokers-040",
+      "title": "Annual Business Plan for a Solo Real Estate Agent",
+      "prompt": "Act as a real estate business coach who has helped 50+ solo agents scale from ₹15 lakh to ₹75 lakh annual GCI (gross commission income). I need you to build a 12-month business plan template for a solo agent based in Hyderabad targeting ₹60 lakh GCI in FY26 from residential resale and new-launch referrals. Here is the context: current year GCI is ₹28 lakh, working alone with one part-time assistant, average commission per deal ₹1.8 lakh, operating in Gachibowli, Kondapur, and Kokapet. Please provide: (1) A reverse-engineered target math — deals needed, leads needed, appointments needed based on conversion ratios (lead to appointment 25%, appointment to deal 15%), (2) A channel mix plan allocating marketing budget of ₹4 lakh across Google ads, 99acres premium, Instagram, referrals, and farming activities, (3) A monthly KPI dashboard with 7 metrics, (4) A team expansion decision point at what GCI level to hire a second agent, (5) A personal time audit allocating hours weekly across prospecting, showings, admin, learning, (6) Quarterly review milestones and go/no-go criteria, (7) A risk plan for market downturn scenario. Format as a business plan under 480 words. Tone: founder-CEO mindset, not employee mindset. Include a one-sentence north star goal.",
+      "tags": [
+        "business-plan",
+        "hyderabad",
+        "solo-agent",
+        "gci",
+        "growth-strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "analysis",
+      "isFree": false,
+      "category": "real-estate",
+      "subcategory": "agents-brokers"
+    }
+  ]
+}
