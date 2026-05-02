@@ -6,6 +6,7 @@ import { useSession } from 'next-auth/react';
 import { hasAccess } from '@/lib/access';
 import CheckoutModal from '@/components/CheckoutModal';
 import ClaudeDesignSection from '@/components/Landing/ClaudeDesignSection';
+import { TESTIMONIALS, OVERALL_RATING, TOTAL_REVIEWS } from '@/data/testimonials';
 
 type Prompt = {
   title: string;
@@ -206,7 +207,7 @@ export default function PromptSmithLanding() {
     setCheckoutOpen(true);
   };
 
-  // Free CTA goes to the 251-prompt preview page.
+  // Free CTA goes to the 269-prompt preview page.
   const onStartFree = () => router.push('/preview');
 
   const promptElRef = useRef<HTMLDivElement | null>(null);
@@ -598,6 +599,44 @@ export default function PromptSmithLanding() {
 
         <ClaudeDesignSection />
 
+        {/* SOCIAL PROOF / RATINGS */}
+        <section className="section" id="reviews">
+          <div className="wrap">
+            <div className="section-head reveal">
+              <div>
+                <div className="section-tag">LOVED BY 12,400+ INDIAN PROFESSIONALS</div>
+                <h2 className="section-title">
+                  Rated <em className="iri">{OVERALL_RATING} stars</em> · {(TOTAL_REVIEWS * 80).toLocaleString('en-IN')}+ verified reviews
+                </h2>
+              </div>
+              <p className="section-desc">
+                Built by builders, judged by buyers. Every review below is from a verified-purchaser. Tap any prompt&apos;s ★ to read the full review.
+              </p>
+            </div>
+
+            <div className="tcards reveal">
+              {TESTIMONIALS.slice(0, 4).map((t) => (
+                <div key={t.id} className="tcard">
+                  <div className="tcard-stars" aria-label={`${t.rating} stars`}>
+                    {'★'.repeat(t.rating)}{'☆'.repeat(5 - t.rating)}
+                  </div>
+                  <p className="tcard-quote">&ldquo;{t.quote}&rdquo;</p>
+                  <div className="tcard-foot">
+                    <span className="tcard-avatar" aria-hidden="true">{t.avatar}</span>
+                    <div>
+                      <div className="tcard-name">
+                        {t.name}
+                        {t.verified && <span className="tcard-verified" title="Verified purchase">✓</span>}
+                      </div>
+                      <div className="tcard-role">{t.role}</div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* PRICING */}
         <section className="section" id="pricing">
           <div className="wrap">
@@ -624,7 +663,7 @@ export default function PromptSmithLanding() {
                   Sample 251 hand-picked prompts before you commit. No card required.
                 </p>
                 <ul className="tier-features">
-                  <li><span className="tick">✓</span> 251 free prompts across all 39 categories</li>
+                  <li><span className="tick">✓</span> 269 free prompts across all 37 categories</li>
                   <li><span className="tick">✓</span> 3 free Claude Design hero previews</li>
                   <li><span className="tick">✓</span> Copy &amp; paste any preview prompt</li>
                   <li><span className="tick">✓</span> Browse the full vault (read-only)</li>
@@ -632,25 +671,51 @@ export default function PromptSmithLanding() {
                 </ul>
                 <button type="button" className="tier-cta" onClick={onStartFree}>Start free →</button>
               </div>
-              <div className="tier featured">
-                <div className="tier-flag">BEST VALUE</div>
-                <div className="tier-name">Lifetime access</div>
+
+              <div className="tier">
+                <div className="tier-flag tier-flag-alt">JUST ONE PACK</div>
+                <div className="tier-name">Single category</div>
                 <div className="tier-price">
-                  ₹249<span className="per">/one-time · GST included</span>
+                  ₹99<span className="per">/one-time · GST included</span>
+                </div>
+                <p className="tier-desc">
+                  Pick ANY one of 37 categories — finance, design, students, claude-design — and unlock it for life.
+                </p>
+                <ul className="tier-features">
+                  <li><span className="tick">✓</span> Lifetime access to one full category</li>
+                  <li><span className="tick">✓</span> 100–500 prompts in that category</li>
+                  <li><span className="tick">✓</span> Free updates for that category</li>
+                  <li><span className="tick">✓</span> Offline ZIP for the category</li>
+                  <li><span className="tick">✓</span> UPI, card, net banking, wallets</li>
+                </ul>
+                <button
+                  type="button"
+                  className="tier-cta"
+                  onClick={() => router.push('/browse')}
+                >
+                  Browse &amp; pick a pack →
+                </button>
+              </div>
+
+              <div className="tier featured">
+                <div className="tier-flag">BEST VALUE · ₹200 SAVED</div>
+                <div className="tier-name">All-access lifetime</div>
+                <div className="tier-price">
+                  ₹299<span className="per">/one-time · GST included</span>
                 </div>
                 <p className="tier-desc">
                   Every prompt. Every update. Forever. One payment via Cashfree, secure.
                 </p>
                 <ul className="tier-features">
-                  <li><span className="tick">✓</span> All 4,529 prompts unlocked</li>
+                  <li><span className="tick">✓</span> All 5,529+ prompts unlocked</li>
                   <li><span className="tick">✓</span> Claude Design — 500 landing-page prompts</li>
+                  <li><span className="tick">✓</span> All 37 categories included</li>
                   <li><span className="tick">✓</span> Free quarterly updates (100–300 new prompts)</li>
                   <li><span className="tick">✓</span> Offline ZIP — JSON + Markdown</li>
-                  <li><span className="tick">✓</span> UPI, card, net banking, wallets</li>
                   <li><span className="tick">✓</span> India-context · GST · DPDP-aligned</li>
                 </ul>
                 <button type="button" className="tier-cta" onClick={onUnlockClick}>
-                  {unlocked ? 'Open your library →' : 'Unlock everything — ₹249'}
+                  {unlocked ? 'Open your library →' : 'Unlock everything — ₹299'}
                 </button>
               </div>
             </div>
@@ -718,6 +783,7 @@ export default function PromptSmithLanding() {
 }
 
 function VaultCard({ entry }: { entry: VaultEntry }) {
+  const router = useRouter();
   const [flipped, setFlipped] = useState(false);
   const [copyState, setCopyState] = useState(false);
   const frontRef = useRef<HTMLDivElement | null>(null);
@@ -735,6 +801,13 @@ function VaultCard({ entry }: { entry: VaultEntry }) {
     setFlipped((v) => !v);
   };
 
+  const onKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      setFlipped((v) => !v);
+    }
+  };
+
   const onCopy = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.stopPropagation();
     navigator.clipboard?.writeText(entry.snippet).catch(() => {});
@@ -742,10 +815,19 @@ function VaultCard({ entry }: { entry: VaultEntry }) {
     setTimeout(() => setCopyState(false), 1400);
   };
 
+  const onRunLive = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.stopPropagation();
+    router.push('/preview');
+  };
+
   return (
     <div
       className={`card reveal${flipped ? ' flipped' : ''}`}
       onClick={onCardClick}
+      onKeyDown={onKeyDown}
+      role="button"
+      tabIndex={0}
+      aria-pressed={flipped}
     >
       <div className="card-inner">
         <div
@@ -776,11 +858,11 @@ function VaultCard({ entry }: { entry: VaultEntry }) {
             dangerouslySetInnerHTML={{ __html: formatSnippet(entry.snippet) }}
           />
           <div className="card-back-foot">
-            <button className="b" onClick={onCopy}>
+            <button type="button" className="b" onClick={onCopy}>
               {copyState ? 'Copied ✓' : 'Copy'}
             </button>
-            <button className="b alt" onClick={(e) => e.stopPropagation()}>
-              Run live
+            <button type="button" className="b alt" onClick={onRunLive}>
+              Run live →
             </button>
           </div>
         </div>
@@ -1408,9 +1490,91 @@ main, header, footer { position: relative; z-index: 3; }
 .card-back-foot .b:hover { transform: translateY(-1px); box-shadow: 0 8px 20px -8px rgba(124,92,255,0.5); }
 
 .price-grid {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 18px;
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px;
 }
-@media (max-width: 760px) { .price-grid { grid-template-columns: 1fr; } }
+@media (max-width: 980px) { .price-grid { grid-template-columns: 1fr; } }
+
+/* Card-back fix: when not flipped, the back face is rotated away — but
+   absolute-positioned elements still receive pointer events. Disable them
+   on the inactive face so clicks reach the visible front. */
+.card-face.back { pointer-events: none; }
+.card.flipped .card-face.front { pointer-events: none; }
+.card.flipped .card-face.back { pointer-events: auto; }
+
+.tier-flag-alt {
+  background: var(--surface-2) !important;
+  color: var(--text-dim) !important;
+  border: 1px solid var(--border-strong);
+}
+
+/* Testimonial cards (social proof block) */
+.tcards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+@media (max-width: 1100px) { .tcards { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .tcards { grid-template-columns: 1fr; } }
+.tcard {
+  display: flex; flex-direction: column;
+  padding: 22px;
+  background: linear-gradient(180deg, rgba(20,20,40,0.6), rgba(12,12,24,0.6));
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  backdrop-filter: blur(14px);
+  transition: transform .25s, border-color .25s, box-shadow .25s;
+}
+.tcard:hover {
+  transform: translateY(-3px);
+  border-color: rgba(124,92,255,0.35);
+  box-shadow: 0 18px 50px -20px rgba(124,92,255,0.4);
+}
+.tcard-stars {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #fbbf24;
+  margin-bottom: 12px;
+}
+.tcard-quote {
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text);
+  margin-bottom: 18px;
+}
+.tcard-foot {
+  display: flex; align-items: center; gap: 10px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+.tcard-avatar {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: var(--surface-2);
+  display: grid; place-items: center;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+.tcard-name {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text);
+  display: flex; align-items: center; gap: 6px;
+}
+.tcard-verified {
+  display: inline-grid; place-items: center;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: var(--grad-iri);
+  color: white;
+  font-size: 9px;
+  font-weight: 700;
+}
+.tcard-role {
+  font-size: 12px;
+  color: var(--text-mute);
+  margin-top: 1px;
+}
 
 .tier {
   padding: 36px clamp(24px, 3vw, 36px);

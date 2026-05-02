@@ -1,12 +1,20 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import type { Prompt } from '@/types';
 import { hasAccess } from '@/lib/access';
 import { copyToClipboard } from '@/lib/clipboard';
+import ReviewForm from '@/components/ReviewForm';
 
-export default function PromptDetail({ prompt }: { prompt: Prompt }) {
+interface PromptDetailProps {
+  prompt: Prompt;
+  // Server-rendered <ReviewsList /> passed in from the parent server page
+  // (we can't import a server component directly inside this client file).
+  reviewsList?: ReactNode;
+}
+
+export default function PromptDetail({ prompt, reviewsList }: PromptDetailProps) {
   const [unlocked, setUnlocked] = useState(false);
   const [copied, setCopied] = useState(false);
 
@@ -65,12 +73,16 @@ export default function PromptDetail({ prompt }: { prompt: Prompt }) {
                 Unlock to copy + use this prompt
               </p>
               <p className="mt-1 text-xs text-slate-600">
-                ₹299 one-time · Lifetime access · 4,529+ prompts
+                ₹299 one-time · Lifetime access · 4,929+ prompts
               </p>
             </div>
           </div>
         )}
       </div>
+
+      {/* Reviews — rendered above any related-prompts block in the page. */}
+      {reviewsList}
+      <ReviewForm promptId={prompt.id} />
     </section>
   );
 }

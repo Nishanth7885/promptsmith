@@ -28,7 +28,7 @@ export default function AboutPage() {
               <strong>{BUSINESS.brand}</strong> ({BUSINESS.domain}) is a digital prompt
               library that sells professionally-written AI prompts for ChatGPT, Claude,
               Gemini, and any other large language model. We focus on India-context
-              prompts across 39 categories and 174 sub-categories.
+              prompts across 37 categories and 178 sub-categories.
             </p>
             <p className="mt-3">
               {BUSINESS.brand} is operated as a sole proprietorship by{' '}
@@ -40,7 +40,7 @@ export default function AboutPage() {
           <section>
             <h2 className="text-xl font-semibold text-slate-900">What we sell</h2>
             <p className="mt-3">
-              A one-time-purchase, lifetime-access library of <strong>4,529 expert
+              A one-time-purchase, lifetime-access library of <strong>4,929 expert
               AI prompts</strong> with free quarterly updates. After payment the buyer
               gets:
             </p>

@@ -20,9 +20,10 @@ sqlite.pragma('foreign_keys = ON');
 const db = drizzle(sqlite);
 
 const defaults = [
-  ['price_inr', String(process.env.DEFAULT_PRICE_INR || '249')],
+  ['price_inr', String(process.env.DEFAULT_PRICE_INR || '299')],
+  ['price_inr_category', String(process.env.DEFAULT_PRICE_INR_CATEGORY || '99')],
   ['price_usd', String(process.env.DEFAULT_PRICE_USD || '2.99')],
-  ['product_name', 'Prompt Smith — 4,000+ Expert AI Prompts'],
+  ['product_name', 'Prompt Smith — 4,900+ Expert AI Prompts'],
   ['cross_border_enabled', 'false'],
 ];
 

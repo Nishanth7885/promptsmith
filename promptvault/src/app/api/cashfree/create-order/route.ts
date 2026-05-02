@@ -10,19 +10,38 @@ import {
   type CreateOrderInput,
 } from '@/lib/cashfree-server';
 import { appendOrderEvent } from '@/lib/order-log';
-import { resolvePrice } from '@/lib/pricing';
+import { getCategoryPrice, resolvePrice } from '@/lib/pricing';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 const PHONE_RE = /^\+?\d{10,15}$/;
 
-const bodySchema = z.object({
-  phone: z.string().regex(PHONE_RE, 'Enter a valid mobile number with country code.'),
-  name: z.string().trim().max(80).optional(),
-  currency: z.enum(['INR', 'USD']),
-  couponCode: z.string().trim().max(40).optional(),
-});
+const bodySchema = z
+  .object({
+    phone: z.string().regex(PHONE_RE, 'Enter a valid mobile number with country code.'),
+    name: z.string().trim().max(80).optional(),
+    currency: z.enum(['INR', 'USD']),
+    couponCode: z.string().trim().max(40).optional(),
+    orderType: z.enum(['ALL', 'CATEGORY']).optional().default('ALL'),
+    categorySlug: z.string().trim().min(1).max(80).optional(),
+  })
+  .superRefine((d, ctx) => {
+    if (d.orderType === 'CATEGORY' && !d.categorySlug) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: 'categorySlug is required when orderType is CATEGORY.',
+        path: ['categorySlug'],
+      });
+    }
+    if (d.orderType === 'CATEGORY' && d.currency !== 'INR') {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: 'Per-category checkout is INR-only at this stage.',
+        path: ['currency'],
+      });
+    }
+  });
 
 export async function POST(req: Request) {
   const session = await auth();
@@ -44,10 +63,22 @@ export async function POST(req: Request) {
       { status: 400 },
     );
   }
-  const { phone, name, currency, couponCode } = parsed.data;
+  const { phone, name, currency, couponCode, orderType, categorySlug } = parsed.data;
 
   // Resolve final price + coupon validity from DB.
+  // For per-category orders we override the subtotal with the category price
+  // (₹99 default) but still let the coupon flow through.
   const priced = await resolvePrice({ currency, couponCode });
+  if (orderType === 'CATEGORY') {
+    const catPrice = await getCategoryPrice('INR');
+    priced.subtotal = catPrice;
+    if (priced.couponCode) {
+      // Re-apply coupon math against the lower subtotal.
+      const ratio = priced.discount > 0 && priced.subtotal > 0 ? priced.discount / priced.subtotal : 0;
+      priced.discount = Math.min(catPrice, Math.round(catPrice * ratio));
+    }
+    priced.total = Math.max(0, priced.subtotal - priced.discount);
+  }
   if (priced.error) {
     return NextResponse.json({ error: priced.error }, { status: 400 });
   }
@@ -81,6 +112,8 @@ export async function POST(req: Request) {
       couponId: priced.couponId ?? null,
       status: 'PAID',
       paidAt: new Date(),
+      orderType,
+      categorySlug: orderType === 'CATEGORY' ? categorySlug ?? null : null,
     });
     if (priced.couponId) {
       await db.insert(schema.couponRedemptions).values({
@@ -134,6 +167,8 @@ export async function POST(req: Request) {
       couponId: priced.couponId ?? null,
       status: cf.status === 'PAID' ? 'PAID' : 'ACTIVE',
       paymentSessionId: cf.paymentSessionId,
+      orderType,
+      categorySlug: orderType === 'CATEGORY' ? categorySlug ?? null : null,
     });
 
     await appendOrderEvent({

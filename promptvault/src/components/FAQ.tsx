@@ -13,7 +13,7 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: 'How will I receive the prompts?',
-    a: 'Instantly after payment, you can browse all 4,529 prompts on this site and download a structured ZIP (JSON + Markdown + organised by category) for offline use.',
+    a: 'Instantly after payment, you can browse all 4,929 prompts on this site and download a structured ZIP (JSON + Markdown + organised by category) for offline use.',
   },
   {
     q: 'Do I get free updates?',
@@ -21,11 +21,11 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: 'Is there a free trial or preview?',
-    a: 'Yes — 251 prompts are marked free. Browse the Free Preview page or look for the green "FREE" badge on any category page.',
+    a: 'Yes — 269 prompts are marked free. Browse the Free Preview page or look for the green "FREE" badge on any category page.',
   },
   {
     q: 'What does the download include?',
-    a: 'A ZIP with all 4,529 prompts organised in: a single ALL-PROMPTS.json, a single ALL-PROMPTS.md, and 174 individual subcategory Markdown files for clean offline reading. Plus a README.',
+    a: 'A ZIP with all 4,929 prompts organised in: a single ALL-PROMPTS.json, a single ALL-PROMPTS.md, and 178 individual subcategory Markdown files for clean offline reading. Plus a README.',
   },
   {
     q: 'Refund policy?',

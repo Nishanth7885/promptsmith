@@ -120,6 +120,10 @@ export const orders = sqliteTable(
     paymentMode: text('payment_mode'),
     paymentSessionId: text('payment_session_id'),
     paidAt: integer('paid_at', { mode: 'timestamp_ms' }),
+    // 'ALL' = full all-access lifetime bundle (₹299).
+    // 'CATEGORY' = single-category lifetime unlock (₹99) — categorySlug is required.
+    orderType: text('order_type', { enum: ['ALL', 'CATEGORY'] }).notNull().default('ALL'),
+    categorySlug: text('category_slug'),
     createdAt: integer('created_at', { mode: 'timestamp_ms' })
       .notNull()
       .$defaultFn(() => new Date()),
@@ -128,6 +132,7 @@ export const orders = sqliteTable(
     byUser: index('orders_by_user').on(t.userId),
     byStatus: index('orders_by_status').on(t.status),
     byCreated: index('orders_by_created').on(t.createdAt),
+    byAccess: index('orders_by_access').on(t.userId, t.status, t.orderType, t.categorySlug),
   }),
 );
 
@@ -268,6 +273,40 @@ export const pageViews = sqliteTable(
   }),
 );
 
+// ---------- Reviews ----------
+//
+// Per-prompt star ratings + optional comments. `promptId` is the JSON-sourced
+// Prompt.id (prompts live in static JSON, not the DB), so it isn't a FK —
+// just an indexed text column. `verifiedPurchaser` is captured at write time
+// from the user's order history; it is NOT recomputed on read, so a later
+// refund will not retroactively un-verify. Uniqueness of (userId, promptId)
+// is enforced in the API layer via read-then-upsert, with a supporting index
+// for the lookup.
+
+export const reviews = sqliteTable(
+  'reviews',
+  {
+    id: text('id').primaryKey().$defaultFn(() => crypto.randomUUID()),
+    promptId: text('prompt_id').notNull(),       // matches Prompt.id from JSON, free-text not FK
+    userId: text('user_id')
+      .notNull()
+      .references(() => users.id, { onDelete: 'cascade' }),
+    rating: integer('rating').notNull(),         // 1-5
+    comment: text('comment'),                    // optional, max 500 chars enforced at API
+    verifiedPurchaser: integer('verified_purchaser', { mode: 'boolean' })
+      .notNull()
+      .default(false),
+    createdAt: integer('created_at', { mode: 'timestamp_ms' })
+      .notNull()
+      .$defaultFn(() => new Date()),
+  },
+  (t) => ({
+    byPrompt: index('reviews_by_prompt').on(t.promptId),
+    byUser: index('reviews_by_user').on(t.userId),
+    uniqByUserPrompt: index('reviews_uniq_user_prompt').on(t.userId, t.promptId), // soft unique via app logic
+  }),
+);
+
 // ---------- Type exports ----------
 
 export type User = typeof users.$inferSelect;
@@ -277,3 +316,5 @@ export type NewOrder = typeof orders.$inferInsert;
 export type Coupon = typeof coupons.$inferSelect;
 export type NewCoupon = typeof coupons.$inferInsert;
 export type Setting = typeof settings.$inferSelect;
+export type Review = typeof reviews.$inferSelect;
+export type NewReview = typeof reviews.$inferInsert;

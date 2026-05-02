@@ -20,7 +20,7 @@ export default function BrowsePage() {
             Browse {allPrompts.length.toLocaleString('en-IN')}+ prompts
           </h1>
           <p className="mt-3 text-sm text-slate-600">
-            {categories.length} categories · 174 subcategories · Indian context throughout
+            {categories.length} categories · 178 subcategories · Indian context throughout
           </p>
           <div className="mx-auto mt-6 max-w-2xl">
             <SearchBar />

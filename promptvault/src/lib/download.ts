@@ -1,6 +1,6 @@
 'use client';
 
-// Client-side ZIP builder. Bundles all 4,529 prompts into a structured archive
+// Client-side ZIP builder. Bundles all 4,929 prompts into a structured archive
 // that the customer can keep offline. Runs entirely in the browser using
 // JSZip, so we don't need a server-side download endpoint (which is helpful
 // because that lets the static-frontend deploy stay independent if we ever
@@ -25,8 +25,8 @@ prompt asks you to, and run.
 
 What's inside
 -------------
-- 36 categories (Students, Doctors, CAs, Software, Marketing, …)
-- 174 subcategories
+- 37 categories (Students, Doctors, CAs, Software, Marketing, …)
+- 178 subcategories
 - {COUNT} prompts total
 
 Updates

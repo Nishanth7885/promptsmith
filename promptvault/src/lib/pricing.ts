@@ -1,7 +1,7 @@
 import 'server-only';
 import { and, eq, gt, isNull, or, sql } from 'drizzle-orm';
 import { db, schema } from '@/db';
-import { getPricing } from './settings';
+import { getPricing, getSetting } from './settings';
 
 export type Currency = 'INR' | 'USD';
 
@@ -78,4 +78,18 @@ export async function incrementCouponUsage(couponId: string): Promise<void> {
 
 function round2(n: number): number {
   return Math.round(n * 100) / 100;
+}
+
+/**
+ * Per-category SKU price. INR-only at this stage — the per-category bundle is
+ * a Cashfree-domestic-only product because the price point doesn't justify
+ * cross-border fees.
+ */
+export async function getCategoryPrice(currency: Currency): Promise<number> {
+  if (currency !== 'INR') {
+    throw new Error('Per-category pricing is INR-only at this stage.');
+  }
+  const raw = await getSetting('price_inr_category');
+  const n = Number(raw);
+  return Number.isFinite(n) && n > 0 ? n : 99;
 }

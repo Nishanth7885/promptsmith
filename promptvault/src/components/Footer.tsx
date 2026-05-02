@@ -39,7 +39,7 @@ export default function Footer() {
           <FooterLink href="/browse">All categories</FooterLink>
           <FooterLink href="/claude-design">Claude Design — landing pages</FooterLink>
           <FooterLink href="/search">Search prompts</FooterLink>
-          <FooterLink href="/preview">Free 251-prompt preview</FooterLink>
+          <FooterLink href="/preview">Free 269-prompt preview</FooterLink>
           <FooterLink href="/#pricing">Pricing</FooterLink>
         </FooterCol>
         <FooterCol heading="Support">

@@ -1,368 +1,8 @@
 'use client';
 
+import Link from 'next/link';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-
-type NicheKey = 'saas' | 'edtech' | 'restaurant' | 'd2c' | 'yoga';
-
-interface NicheCopy {
-  key: NicheKey;
-  label: string;
-  emoji: string;
-  brand: string;
-  domain: string;
-  hero: {
-    eyebrow: string;
-    h1: string;
-    sub: string;
-    primaryCta: string;
-    secondaryCta: string;
-    trust: string;
-  };
-  features: { title: string; body: string; emoji: string }[];
-  pricing: {
-    tiers: { name: string; price: string; tagline: string; bullets: string[]; highlight: boolean }[];
-  };
-  faq: { q: string; a: string }[];
-  testimonials: { quote: string; name: string; role: string }[];
-  cta: { headline: string; sub: string; button: string };
-  brandVoice: { adjectives: string[]; sample: string };
-  seo: { title: string; url: string; description: string };
-  howItWorks: { step: string; title: string; body: string }[];
-  footer: { columns: { heading: string; links: string[] }[]; tagline: string };
-}
-
-const NICHES: NicheCopy[] = [
-  {
-    key: 'saas',
-    label: 'SaaS',
-    emoji: '🛠️',
-    brand: 'Loopback',
-    domain: 'loopback.app',
-    hero: {
-      eyebrow: 'AUTOMATION FOR PMs',
-      h1: 'Stop guessing what to ship next.',
-      sub: 'See which features your top 5 customers need most — synced from Slack, Linear, and your CRM. Saves PM teams 6+ hours/week.',
-      primaryCta: 'Start free trial — no card',
-      secondaryCta: 'Watch 2-min demo',
-      trust: 'Trusted by 1,200+ product teams · SOC 2 Type II',
-    },
-    features: [
-      { emoji: '⚡', title: 'Auto-cluster requests', body: 'GPT groups 4,000+ tickets into themes in under a minute.' },
-      { emoji: '🎯', title: 'Top-account weighting', body: 'Score features by ARR, not by who shouts loudest.' },
-      { emoji: '🔁', title: 'Two-way Linear sync', body: 'Push prioritised epics straight into your sprint.' },
-    ],
-    pricing: {
-      tiers: [
-        {
-          name: 'Starter',
-          price: '$49/mo',
-          tagline: 'For solo PMs',
-          bullets: ['1 product', '500 requests/mo', 'Slack + Intercom'],
-          highlight: false,
-        },
-        {
-          name: 'Growth',
-          price: '$199/mo',
-          tagline: 'For 5-30 person teams',
-          bullets: ['Unlimited products', 'CRM weighting', 'API + Linear sync'],
-          highlight: true,
-        },
-      ],
-    },
-    faq: [
-      { q: 'Do you train on our customer data?', a: 'Never. Your tickets stay in a dedicated tenant; we never train shared models on them.' },
-      { q: 'How long does setup take?', a: '12 minutes for the average team — Slack, Linear, and HubSpot connect with one click each.' },
-    ],
-    testimonials: [
-      { quote: 'We killed two roadmap items in week one. They had loud voices but only $14k ARR behind them.', name: 'Priya K.', role: 'Head of Product, Fingate' },
-      { quote: 'My PM standup went from 90 min to 25 min. The clustering is uncanny.', name: 'Marcus L.', role: 'Sr. PM, Verte Cloud' },
-    ],
-    cta: { headline: 'Ship the right thing next sprint.', sub: 'Free for 14 days. Cancel any time.', button: 'Connect Slack & start' },
-    brandVoice: { adjectives: ['Direct', 'Data-led', 'PM-native'], sample: 'We don\'t do "synergy". We do "your top 10 accounts asked for this 47 times last quarter."' },
-    seo: {
-      title: 'Loopback — Customer feedback intelligence for PMs',
-      url: 'https://loopback.app',
-      description: 'Auto-cluster Slack, Intercom, and CRM feedback into a weighted roadmap. Used by 1,200+ B2B SaaS teams.',
-    },
-    howItWorks: [
-      { step: '01', title: 'Connect your stack', body: 'Slack, Intercom, Linear, HubSpot — one click each.' },
-      { step: '02', title: 'See the themes', body: 'Loopback clusters every signal into ranked feature themes.' },
-      { step: '03', title: 'Sync to roadmap', body: 'Push the top three into Linear with full source-tickets attached.' },
-    ],
-    footer: {
-      columns: [
-        { heading: 'Product', links: ['Pricing', 'Changelog', 'API'] },
-        { heading: 'Company', links: ['About', 'Careers', 'Press'] },
-        { heading: 'Legal', links: ['Privacy', 'Terms', 'DPA'] },
-      ],
-      tagline: '© Loopback Labs Inc. Built in Bengaluru + Berlin.',
-    },
-  },
-  {
-    key: 'edtech',
-    label: 'EdTech',
-    emoji: '🎓',
-    brand: 'Mathlight',
-    domain: 'mathlight.in',
-    hero: {
-      eyebrow: 'CLASS 9–12 · CBSE & ICSE',
-      h1: 'Math, finally explained the way it clicks for your kid.',
-      sub: 'Live small-group classes with IIT-trained tutors. 6 students max. Doubt-clearing on WhatsApp. Plans from ₹1,499/mo.',
-      primaryCta: 'Book a free trial class',
-      secondaryCta: 'See sample lesson',
-      trust: 'Loved by 18,400+ parents · 4.8★ on Google',
-    },
-    features: [
-      { emoji: '👩‍🏫', title: 'Live, not recorded', body: 'Real teachers, real questions, real chalk-and-talk on a digital board.' },
-      { emoji: '📱', title: 'WhatsApp doubt help', body: 'Stuck on a sum at 10pm? Photograph it. We answer in under 20 minutes.' },
-      { emoji: '📊', title: 'Weekly parent report', body: 'Concept-wise mastery scores so you see exactly where the gaps are.' },
-    ],
-    pricing: {
-      tiers: [
-        {
-          name: 'Group',
-          price: '₹1,499/mo',
-          tagline: '6 students per class',
-          bullets: ['3 classes/week', 'Weekly report', 'WhatsApp doubts'],
-          highlight: false,
-        },
-        {
-          name: '1-on-1',
-          price: '₹4,999/mo',
-          tagline: 'Personal tutor',
-          bullets: ['Daily 1-on-1', 'Custom syllabus', 'Mock test bank'],
-          highlight: true,
-        },
-      ],
-    },
-    faq: [
-      { q: 'What if my child misses a class?', a: 'Every session is recorded with timestamped doubt-clears. Watch back any time during your subscription.' },
-      { q: 'Is this for boards or JEE prep?', a: 'Both — we run separate batches for boards-only and boards-plus-JEE. Choose during onboarding.' },
-    ],
-    testimonials: [
-      { quote: 'My daughter went from 62 to 91 in two terms. The weekly report showed exactly what to revise.', name: 'Sunita R.', role: 'Parent, Class 10 · Pune' },
-      { quote: 'Sir explains so calmly that I stopped panicking before tests.', name: 'Aarav M.', role: 'Student, Class 11 · Delhi' },
-    ],
-    cta: { headline: 'Try one class. No payment until you love it.', sub: 'Trial classes happen Mon–Sat at 5pm IST.', button: 'Book free trial' },
-    brandVoice: { adjectives: ['Warm', 'Parent-first', 'No-jargon'], sample: 'We don\'t say "synchronous learning". We say "live class — your child can raise their hand."' },
-    seo: {
-      title: 'Mathlight — Live online math classes for Class 9–12 (CBSE/ICSE)',
-      url: 'https://mathlight.in',
-      description: 'Small-group live math tuitions with IIT-trained teachers. Plans from ₹1,499/mo. Free trial class available.',
-    },
-    howItWorks: [
-      { step: '01', title: 'Book a free trial', body: 'Pick a slot, share your child\'s class & board.' },
-      { step: '02', title: 'Meet the teacher', body: '45-min live class. Your child asks questions, we listen.' },
-      { step: '03', title: 'Choose a plan', body: 'Continue group or upgrade to 1-on-1. Cancel anytime.' },
-    ],
-    footer: {
-      columns: [
-        { heading: 'Classes', links: ['Class 9', 'Class 10', 'Class 11', 'Class 12'] },
-        { heading: 'For parents', links: ['How it works', 'Pricing', 'Reviews'] },
-        { heading: 'Help', links: ['Contact', 'Refund policy', 'WhatsApp us'] },
-      ],
-      tagline: '© Mathlight Education Pvt. Ltd. Made with ♥ in Bengaluru.',
-    },
-  },
-  {
-    key: 'restaurant',
-    label: 'Restaurant',
-    emoji: '🍜',
-    brand: 'Banshi & Co.',
-    domain: 'banshiandco.com',
-    hero: {
-      eyebrow: 'CHEF\'S TABLE · BANDRA',
-      h1: 'Eight courses. Twelve seats. One unforgettable Tuesday.',
-      sub: 'Chef Banshi\'s seasonal tasting menu — sourced from the Konkan coast and the farms we\'ve cooked with for ten years. Reservations open Mondays at noon.',
-      primaryCta: 'Reserve a seat',
-      secondaryCta: 'See this week\'s menu',
-      trust: 'Featured in Condé Nast Traveller · Eater Mumbai\'s Best of 2025',
-    },
-    features: [
-      { emoji: '🐟', title: 'Coast to plate in 18hrs', body: 'Daily catch from Sindhudurg, on your fork the next evening.' },
-      { emoji: '🌾', title: '6 farms, no middlemen', body: 'Vegetables we\'ve farmed-to-table since 2015 — you can visit them.' },
-      { emoji: '🍷', title: 'Pairing by sommelier', body: 'Optional Indian wine flight from a 90+ bottle cellar.' },
-    ],
-    pricing: {
-      tiers: [
-        {
-          name: 'Tasting menu',
-          price: '₹4,800/guest',
-          tagline: '8 courses',
-          bullets: ['Welcome drink', 'Seasonal pacing', 'Chef\'s greeting'],
-          highlight: false,
-        },
-        {
-          name: 'With pairing',
-          price: '₹7,200/guest',
-          tagline: '8 courses + 5 pours',
-          bullets: ['Indian wine flight', 'Sommelier table-side', 'Take-home note card'],
-          highlight: true,
-        },
-      ],
-    },
-    faq: [
-      { q: 'Is the menu vegetarian-friendly?', a: 'Yes — flag preferences when booking and Chef will rebuild the entire 8-course flow around vegetables. No surcharge.' },
-      { q: 'Can we celebrate a birthday here?', a: 'We do, gladly. Mention it in the booking notes; we\'ll send out a small chef-signed dessert at course six.' },
-    ],
-    testimonials: [
-      { quote: 'The kokum sorbet between courses four and five made me cry. I am not a person who cries.', name: 'Nikita S.', role: 'Diner · March 2025' },
-      { quote: 'Best ₹4,800 I have ever spent on dinner in this city.', name: 'Rohan A.', role: 'Diner · February 2025' },
-    ],
-    cta: { headline: 'Tuesdays book out by Wednesday morning.', sub: 'Get the reservation link the moment it goes live.', button: 'Join the Monday list' },
-    brandVoice: { adjectives: ['Quiet', 'Honest', 'Coastal'], sample: 'We don\'t call it "elevated cuisine". We call it dinner cooked the way Chef\'s grandmother would, if she had a sommelier.' },
-    seo: {
-      title: 'Banshi & Co. — Konkan coast tasting menu in Bandra, Mumbai',
-      url: 'https://banshiandco.com',
-      description: 'An 8-course chef\'s tasting menu featuring Konkan coast seafood and partner-farm produce. 12 seats, Tuesdays only. Reserve from Mondays at noon IST.',
-    },
-    howItWorks: [
-      { step: '01', title: 'Join the Monday list', body: 'We text you the booking link the second seats open.' },
-      { step: '02', title: 'Reserve in seconds', body: 'Pick 1–4 seats. Confirm dietary notes. Pay 50% to hold.' },
-      { step: '03', title: 'Show up hungry', body: 'Arrive 7:30pm. We pour something cold. Then 8 courses begin.' },
-    ],
-    footer: {
-      columns: [
-        { heading: 'Visit', links: ['Address', 'Reservations', 'Private dining'] },
-        { heading: 'About', links: ['Chef Banshi', 'Our farms', 'Press'] },
-        { heading: 'Stay in touch', links: ['Newsletter', 'Instagram', 'WhatsApp'] },
-      ],
-      tagline: '© Banshi & Co. · Linking Road · Bandra West · Mumbai 400050',
-    },
-  },
-  {
-    key: 'd2c',
-    label: 'D2C Brand',
-    emoji: '🛍️',
-    brand: 'Gondola',
-    domain: 'gondola.co',
-    hero: {
-      eyebrow: 'VEG-TANNED LEATHER · ITALY → INDIA',
-      h1: 'A wallet that ages better than your Instagram aesthetic.',
-      sub: 'Hand-stitched in Florence with full-grain leather we cure ourselves. Lifetime free repair. Free 14-day try-on.',
-      primaryCta: 'Shop the bifold — ₹3,200',
-      secondaryCta: 'How we make it',
-      trust: '8,300+ wallets shipped · 4.9★ verified reviews',
-    },
-    features: [
-      { emoji: '🇮🇹', title: 'Florence-stitched', body: 'Each wallet hand-stitched by a 3-person atelier outside Florence.' },
-      { emoji: '♻️', title: 'Lifetime free repair', body: 'Stitching loose? Edge worn? Send it back. We repair, no questions.' },
-      { emoji: '📦', title: '14-day home try-on', body: 'Touch it, pocket it, walk around. Don\'t love it? Free return label.' },
-    ],
-    pricing: {
-      tiers: [
-        {
-          name: 'The Bifold',
-          price: '₹3,200',
-          tagline: 'Six card slots',
-          bullets: ['Veg-tanned hide', 'Hand-stitched', 'Lifetime repair'],
-          highlight: true,
-        },
-        {
-          name: 'The Cardholder',
-          price: '₹2,100',
-          tagline: 'Four card slots',
-          bullets: ['Slim profile', 'Single fold', 'Lifetime repair'],
-          highlight: false,
-        },
-      ],
-    },
-    faq: [
-      { q: 'Will it scratch?', a: 'Yes — and that\'s the point. Veg-tanned leather develops a patina that maps your life: train tickets, coat pockets, coffee. It only gets better.' },
-      { q: 'Do you ship outside India?', a: 'We ship to 14 countries. International orders are duty-paid at checkout — no surprise fees on your doorstep.' },
-    ],
-    testimonials: [
-      { quote: 'Three years in, mine looks like a small leather book of memories. I will never buy another wallet.', name: 'Vivaan P.', role: 'Verified buyer · Bengaluru' },
-      { quote: 'Stitching came loose at year two. They fixed it free in 8 days. That is the entire pitch.', name: 'Maya T.', role: 'Verified buyer · Pune' },
-    ],
-    cta: { headline: 'Carry one wallet for the next ten years.', sub: 'Free shipping over ₹2,000. Free returns, always.', button: 'Shop the Bifold' },
-    brandVoice: { adjectives: ['Slow', 'Tactile', 'Confident'], sample: 'We don\'t say "premium leather goods". We say "we cure the hide ourselves and we sign every wallet."' },
-    seo: {
-      title: 'Gondola — Hand-stitched leather wallets from Florence',
-      url: 'https://gondola.co',
-      description: 'Veg-tanned, full-grain leather wallets hand-stitched in a 3-person Florence atelier. Lifetime free repair. Free 14-day try-on in India.',
-    },
-    howItWorks: [
-      { step: '01', title: 'Pick a piece', body: 'Bifold or cardholder. Four leather colours.' },
-      { step: '02', title: 'Try it for 14 days', body: 'In-pocket, in-coat, in-real-life. Hate it? Free return.' },
-      { step: '03', title: 'Carry it forever', body: 'Stitching loose? Send it. We repair free, for life.' },
-    ],
-    footer: {
-      columns: [
-        { heading: 'Shop', links: ['Bifold', 'Cardholder', 'Gift card'] },
-        { heading: 'Care', links: ['Repair program', 'Leather guide', 'Returns'] },
-        { heading: 'Brand', links: ['Our atelier', 'Story', 'Journal'] },
-      ],
-      tagline: '© Gondola Goods Pvt. Ltd. · Made in Florence · Sold from Mumbai.',
-    },
-  },
-  {
-    key: 'yoga',
-    label: 'Yoga Studio',
-    emoji: '🧘',
-    brand: 'Anhad',
-    domain: 'anhad.studio',
-    hero: {
-      eyebrow: 'ASHTANGA · INDIRANAGAR',
-      h1: 'A morning practice you actually look forward to.',
-      sub: '60-minute Mysore-style Ashtanga, 6 days a week, in a sunlit shala. Beginners welcome. First class on us.',
-      primaryCta: 'Claim free first class',
-      secondaryCta: 'See class schedule',
-      trust: 'Established 2018 · 480 monthly practitioners',
-    },
-    features: [
-      { emoji: '☀️', title: '6am to 9am, every weekday', body: 'Roll in any time in the window. Practise at your own count.' },
-      { emoji: '🧑‍🏫', title: 'Two senior teachers, always present', body: 'Adjustments and modifications, never barked instructions.' },
-      { emoji: '🌱', title: 'No mirrors, no music', body: 'Just breath, mat, and the sound of the city waking up.' },
-    ],
-    pricing: {
-      tiers: [
-        {
-          name: 'Drop-in',
-          price: '₹650/class',
-          tagline: 'Single morning',
-          bullets: ['Any weekday', 'No commitment', 'Mat provided'],
-          highlight: false,
-        },
-        {
-          name: 'Monthly unlimited',
-          price: '₹4,800/mo',
-          tagline: 'All 26 classes',
-          bullets: ['Unlimited mornings', 'Free workshops', 'Mat storage'],
-          highlight: true,
-        },
-      ],
-    },
-    faq: [
-      { q: 'I have never done yoga. Is Mysore the right starting point?', a: 'It\'s actually the gentlest entry: you learn one posture at a time, at your own pace. We start every beginner with 6 postures and build from there.' },
-      { q: 'Do you have changing rooms and showers?', a: 'Yes — two changing rooms and two hot showers. We provide towels for monthly members.' },
-    ],
-    testimonials: [
-      { quote: 'I have tried four studios in this city. This is the only one I show up to at 6am, in the rain.', name: 'Aanya G.', role: 'Practitioner since 2023' },
-      { quote: 'No music, no instagram class. Just breath. I sleep better.', name: 'Karan V.', role: 'Practitioner since 2024' },
-    ],
-    cta: { headline: 'Try one morning. We promise nothing.', sub: 'First class is free. Walk in any weekday between 6 and 9am.', button: 'Book free first class' },
-    brandVoice: { adjectives: ['Still', 'Honest', 'Unhurried'], sample: 'We don\'t say "transformative wellness journey". We say "come on Tuesday, we\'ll show you sun salutation A."' },
-    seo: {
-      title: 'Anhad — Mysore-style Ashtanga shala in Indirangar, Bengaluru',
-      url: 'https://anhad.studio',
-      description: 'A traditional 6-day-a-week morning Mysore Ashtanga shala in Indiranagar. Beginners welcome. First class free. Monthly unlimited from ₹4,800.',
-    },
-    howItWorks: [
-      { step: '01', title: 'Walk in any weekday', body: 'Between 6 and 9am. We give you a mat.' },
-      { step: '02', title: 'Learn 6 postures', body: 'Senior teacher walks you through, at your pace.' },
-      { step: '03', title: 'Come back tomorrow', body: 'Add one posture each visit. Build your own practice.' },
-    ],
-    footer: {
-      columns: [
-        { heading: 'Practice', links: ['Schedule', 'Pricing', 'Workshops'] },
-        { heading: 'Studio', links: ['Teachers', 'Visit us', 'Photos'] },
-        { heading: 'Connect', links: ['Newsletter', 'Instagram', 'Email us'] },
-      ],
-      tagline: '© Anhad Yoga Shala · 12th Main · Indiranagar · Bengaluru 560038',
-    },
-  },
-];
+import { NICHES, type NicheCopy, type NicheKey } from './preview/_data';
 
 const AUTO_ROTATE_MS = 8000;
 
@@ -478,7 +118,7 @@ export default function PreviewClient() {
           Watch the same prompt build a different page for each niche.
         </h2>
         <p className="mt-3 text-sm text-slate-600">
-          Pick a niche. Scroll the page. The browser frame below shows what Claude generates with that pack — hero to footer.
+          Pick a niche to peek inside the browser frame — then open the full, scrollable page in a new tab.
         </p>
       </div>
 
@@ -536,11 +176,26 @@ export default function PreviewClient() {
               <span className="h-3 w-3 rounded-full bg-amber-400" />
               <span className="h-3 w-3 rounded-full bg-emerald-400" />
             </div>
-            <div className="mx-auto flex max-w-md items-center gap-2 rounded-md bg-white px-3 py-1 text-[11px] text-slate-500 ring-1 ring-slate-200">
+            <Link
+              href={`/claude-design/preview/${active.key}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mx-auto flex max-w-md items-center gap-2 rounded-md bg-white px-3 py-1 text-[11px] text-slate-500 ring-1 ring-slate-200 transition hover:text-rose-600 hover:ring-rose-300"
+              title={`Open ${active.brand} full landing page in a new tab`}
+            >
               <span aria-hidden>🔒</span>
               <span className="truncate">{active.domain}</span>
-            </div>
-            <div className="w-12" />
+              <span aria-hidden className="text-slate-400">↗</span>
+            </Link>
+            <Link
+              href={`/claude-design/preview/${active.key}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden rounded-full bg-slate-900 px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-white transition hover:bg-rose-600 sm:inline-flex"
+              title={`Open ${active.brand} full page`}
+            >
+              Open ↗
+            </Link>
           </div>
 
           {/* Inner viewport (scrolls via parallax) */}
@@ -551,9 +206,22 @@ export default function PreviewClient() {
             <InnerLanding niche={active} />
           </div>
         </div>
-        <p className="mt-3 text-center text-[11px] text-slate-400">
-          Scroll the page — the browser frame scrolls itself.
-        </p>
+
+        {/* Below-frame CTA: open the actual full landing page in a new tab. */}
+        <div className="mt-5 flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <Link
+            href={`/claude-design/preview/${active.key}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-rose-600 to-violet-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-rose-500/30 transition hover:shadow-rose-500/50"
+          >
+            Open the full {active.label} page
+            <span className="transition group-hover:translate-x-0.5" aria-hidden>↗</span>
+          </Link>
+          <span className="text-[12px] text-slate-500">
+            Real route · scrollable · parallax · niche-themed.
+          </span>
+        </div>
       </div>
     </section>
   );

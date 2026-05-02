@@ -4,14 +4,16 @@ import { db, schema } from '@/db';
 
 export type SettingKey =
   | 'price_inr'
+  | 'price_inr_category'
   | 'price_usd'
   | 'product_name'
   | 'cross_border_enabled';
 
 const DEFAULTS: Record<SettingKey, string> = {
-  price_inr: '249',
+  price_inr: '299',
+  price_inr_category: '99',
   price_usd: '2.99',
-  product_name: 'Prompt Smith — 4,000+ Expert AI Prompts',
+  product_name: 'Prompt Smith — 4,900+ Expert AI Prompts',
   cross_border_enabled: 'false',
 };
 

@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import BuyButton from '@/components/BuyButton';
 import PromptDetail from './PromptDetail';
 import RelatedPrompts from './RelatedPrompts';
+import ReviewsList from '@/components/ReviewsList';
 
 export function generateStaticParams() {
   return allPrompts.map((p) => ({ id: p.id }));
@@ -91,7 +92,10 @@ export default function PromptPage({ params }: { params: { id: string } }) {
             </div>
           </header>
 
-          <PromptDetail prompt={prompt} />
+          <PromptDetail
+            prompt={prompt}
+            reviewsList={<ReviewsList promptId={prompt.id} />}
+          />
 
           <section className="mt-8">
             <h3 className="text-sm font-semibold text-slate-700">Tags</h3>

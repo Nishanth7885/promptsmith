@@ -215,7 +215,7 @@ export default function ClaudeDesignSection() {
             <strong style={{ color: 'var(--text)' }}>500 battle-tested prompts</strong> across
             50 niches × 10 sections — hero, features, pricing, FAQ, testimonials, CTA, brand
             voice, SEO, how-it-works, footer. Paste into Claude. Get a complete landing page
-            back. <span className="iri">Bundled in your ₹249 all-access purchase.</span>
+            back. <span className="iri">Bundled in your ₹299 all-access purchase.</span>
           </p>
         </div>
 
@@ -424,7 +424,7 @@ export default function ClaudeDesignSection() {
           </a>
         </div>
         <p className="cd-cta-foot reveal">
-          One-time payment · Lifetime access · 39 categories · 4,529 prompts total
+          One-time payment · Lifetime access · 39 categories · 4,929 prompts total
         </p>
       </div>
     </section>

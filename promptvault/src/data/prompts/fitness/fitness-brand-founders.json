@@ -1,0 +1,857 @@
+{
+  "category": "fitness",
+  "subcategory": "fitness-brand-founders",
+  "count": 50,
+  "prompts": [
+    {
+      "id": "fitness-brand-founders-001",
+      "title": "Gym Member Satisfaction Survey for Quarterly NPS",
+      "prompt": "Act as the founder of a 3-branch independent gym chain in Indore, Bhopal and Nagpur with 1,800 active members paying ₹1,499-₹2,499/month. I need a quarterly member-satisfaction survey we can send via WhatsApp, Google Forms and on the gym Wi-Fi captive portal. Please provide: (1) A 15-question survey that takes under 4 minutes — covering NPS, equipment availability at peak hours (7-9 AM and 7-10 PM), trainer attentiveness, hygiene perception (changerooms, washrooms, towel service), AC and ventilation in summer, music volume, and class variety (Zumba, HRX, Strength), (2) 3 open-ended questions that surface specific cancellation risks before they churn, (3) Demographic capture (age band, goal, tenure, plan type) we can segment in Sheets, (4) Question phrasing in simple English with optional Hinglish for Tier-2 understanding, (5) A 'would you recommend us to a family member' question separate from generic NPS — Indian word-of-mouth weighs family endorsement heavily, (6) An incentive offer (1 free guest pass + ₹100 protein-shake voucher) for completion, (7) Logic on which scores trigger an automatic call-back from the floor manager within 24 hours, (8) A founder-signed cover note (60 words). Format as a ready-to-deploy Google Form structure with section breaks and conditional logic notes. Flag any questions that may bias responses upward.",
+      "tags": [
+        "member-survey",
+        "nps",
+        "retention",
+        "feedback"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-002",
+      "title": "Monthly Member Newsletter Template",
+      "prompt": "Act as the founder of a neighbourhood premium gym in Koramangala, Bangalore with 600 members paying ₹3,500-₹5,000/month. Write a complete monthly e-newsletter for May that we send via Mailchimp and reuse on WhatsApp Status. Please provide: (1) A subject line and preview text optimised for >35% open rate from an Indian fitness audience, (2) A 100-word founder note about adapting training for Bangalore's pre-monsoon humidity and a community win (e.g., 22 members finishing TCS World 10K), (3) A 'Member of the Month' feature template with 6 prompts to interview the member, (4) A 'Class Spotlight' section featuring the new Animal Flow class with timings and trainer bio, (5) A short nutrition tip from our in-house dietitian on summer hydration and electrolyte salts (no brand pushing), (6) A festival/seasonal hook — early Eid wishes and a 'post-feast 7-day reset' free PDF lead magnet, (7) A members-only referral offer (refer 1 friend, get a free Inbody scan worth ₹800), (8) Upcoming events: Saturday community trek to Nandi Hills, charity workout for a local school, (9) A clear CTA to renew expiring memberships with a 5-day grace window. Format as plain-text email blocks with image-placeholder notes. Keep total length 450-550 words for the email itself.",
+      "tags": [
+        "newsletter",
+        "email-marketing",
+        "member-engagement",
+        "content"
+      ],
+      "difficulty": "beginner",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-003",
+      "title": "Free-Trial-to-Paid Member Conversion Sales Script",
+      "prompt": "Act as the sales head and co-founder of a mid-premium gym chain in Pune with 4 branches and a 7-day free-trial offer that currently converts at 22%. I need to lift conversion to 38% within one quarter. Write a complete face-to-face conversion script for the floor sales executive (FSE) to use on Day 5 of the trial when the prospect is at the gym. Please provide: (1) A 90-second rapport-and-discovery opener that uncovers the real 'why now' (wedding, doctor warning, post-COVID weight, child's pre-school admission stress), (2) A 5-question needs-assessment that separates 'tyre-kickers' from buyers without feeling like an interrogation, (3) A 3-tier price presentation (₹1,799 monthly / ₹14,999 annual / ₹24,999 annual + 12 PT sessions) with anchor-and-drop framing, (4) Objection-handling responses for the top 6 Indian objections — 'too expensive', 'I'll think and tell', 'let me ask my husband/wife', 'gym near my office is cheaper', 'monsoon aa raha hai', 'I'll start after Diwali', (5) A founding-member-style scarcity close (only 18 annual slots left at this price this month) that is true and ethical, (6) Payment options including no-cost EMI on Bajaj Finserv, UPI autopay, and HR-payroll deduction for corporate tie-ups, (7) A graceful 'not today' exit that keeps the door open via a WhatsApp follow-up sequence, (8) A scoring rubric the FSE fills after each pitch so we can coach. Keep the entire conversation under 18 minutes. Format as a script with stage directions.",
+      "tags": [
+        "sales-script",
+        "free-trial",
+        "conversion",
+        "membership"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-004",
+      "title": "Instagram DM Funnel for Gym Lead Generation",
+      "prompt": "Act as the digital marketing lead and founder of a 2-branch women-only gym in Surat with 14k Instagram followers. Build a complete Instagram DM funnel that converts cold profile visitors into booked free-trial appointments. Please provide: (1) A pinned Story-highlight strategy with 6 covers (Trial / Trainers / Reviews / Before-After / Pricing / Visit-Us) and what each contains, (2) A keyword-trigger ManyChat / Wati flow — when a user comments 'TRIAL' on any reel, the bot DMs them, (3) The exact 5-message DM sequence that asks 4 qualifying questions (age, goal, area pin code, preferred slot) before presenting the offer, (4) Two reel hook ideas optimised to drive 'TRIAL' comments — one transformation-led, one myth-busting, (5) A polite ladies-safety reassurance message (women trainers, CCTV, separate entry) that converts hesitant first-time gym-goers, (6) A Saturday/Sunday 'mom-and-daughter' joint-trial promo CTA, (7) The handover trigger from bot to a human consultant when budget and slot are confirmed, (8) Daily and weekly KPIs to track (DM open rate, qualification rate, trial booking rate, show-up rate, paid conversion), (9) Two A/B test ideas for the opening DM. Tone: warm, sister-like, never pushy. Avoid phrases that feel sales-y to Indian women audiences. Format as a flow diagram description plus the verbatim DM copy.",
+      "tags": [
+        "instagram",
+        "dm-funnel",
+        "lead-generation",
+        "women-fitness"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-005",
+      "title": "Google My Business Optimisation for Multi-Branch Gym",
+      "prompt": "Act as the local SEO consultant and growth advisor for a 6-branch gym chain in Hyderabad currently ranking on page 2 of Google Maps for 'gym near me' in Madhapur, Gachibowli and Kondapur. Build a 60-day Google Business Profile (GBP) optimisation plan that lifts each branch into the top-3 map pack. Please provide: (1) A complete GBP audit checklist (NAP consistency, primary and secondary categories like 'Gym' + 'Personal Trainer' + 'Physical Fitness Program', service-area markup, attributes such as 'women-led', 'wheelchair accessible'), (2) A weekly Google Posts calendar (3 posts/week per branch) with topic mix — offers, transformations, classes, events, founder updates, (3) A photo strategy — 80+ photos per branch including 360-degree interior, equipment close-ups, women's-only zone, kids creche, parking — with EXIF GPS-tagging instructions, (4) A review-generation SOP that gets 25 new 5-star reviews per branch per month via QR codes at the locker rooms, post-class WhatsApp links, and trainer asks, (5) A polite review-response template library for 5-star, 3-star and 1-star reviews with India-specific tonal cues, (6) A Q&A seeding strategy — 12 commonly searched questions seeded by team and answered by owner profile, (7) UTM-tagged 'website' and 'appointment' links so we can attribute trial bookings in Google Analytics 4, (8) Local citation cleanup across Justdial, Sulekha, UrbanPro and Practo. Format as a 60-day Gantt with weekly milestones.",
+      "tags": [
+        "google-my-business",
+        "local-seo",
+        "gym-marketing",
+        "lead-generation"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-006",
+      "title": "Member Referral Program Design with WhatsApp Mechanics",
+      "prompt": "Act as the head of growth and co-founder of a 4-branch group-fitness studio brand in Bangalore (₹2,999/month unlimited classes) with 2,400 members. Design a referral program from scratch that contributes 35% of new joinings within 6 months. Please provide: (1) A reward economics model — referrer rewards (1 month free vs ₹1,500 cash credit vs branded merch), referee discount (₹500 off first month), with break-even maths assuming ₹4,200 LTV-to-CAC blended, (2) The full member-side messaging — a launch-day WhatsApp broadcast, a 30-second studio-floor announcement script for group-class instructors, an in-app push-notification, (3) A frictionless referral-link mechanic using a Wati or Interakt template message that auto-tracks attribution, (4) Tiered rewards (refer 1 = 1-month free, refer 3 = annual upgrade, refer 5 = 1-year membership free) to gamify, (5) A leaderboard mechanic published monthly in the studio TVs with consent, (6) A 'corporate champion' variant for members who bring 3+ colleagues from their company that opens a B2B conversation, (7) Anti-abuse rules (no self-referrals, must-attend 8 classes before reward unlocks), (8) A founder thank-you handwritten-style postcard sent home for top 10 referrers each quarter, (9) KPIs and dashboards. Format as a launch playbook with a Day-0, Day-30 and Day-90 view.",
+      "tags": [
+        "referral-program",
+        "growth",
+        "whatsapp-marketing",
+        "member-acquisition"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-007",
+      "title": "90-Day New Member Journey Map",
+      "prompt": "Act as the head of member experience at a Cult.fit-style group-fitness brand operating 12 studios in Mumbai and Pune. Design a 90-day new-member journey that pushes 90-day retention from 58% to 78%. Please provide: (1) A day-by-day touchpoint map for Day 0 (sign-up), Day 1 (welcome WhatsApp + InBody scan), Day 3, Day 7, Day 14, Day 21, Day 30, Day 45, Day 60, Day 75, Day 90 — with the exact channel, owner (FSE / Trainer / Founder bot), message intent, and call-to-action, (2) The verbatim copy for the Day 1 welcome message, Day 7 'how was your first week' check-in, Day 21 'first plateau is normal' reassurance, Day 60 'you've earned a milestone tee' reward, and Day 90 renewal-conversation opener, (3) An attendance-trigger logic — if a member misses 7 consecutive days, an automatic comeback sequence fires, (4) A buddy-pairing mechanic that auto-pairs new members with a 6-month-tenure 'fitness mentor' from the same area code, (5) Two micro-celebrations (first 10 classes, first 25 classes) including a free smoothie and Insta-tag-worthy moment, (6) A founder-recorded 45-second voice note delivered on Day 30, (7) Drop-out red flags the trainer must escalate, (8) A monthly cohort-retention dashboard. Acknowledge cultural nuances — work travel, joint-family priorities, festival skips. Format as a journey table plus the verbatim copy snippets.",
+      "tags": [
+        "retention",
+        "member-journey",
+        "onboarding",
+        "lifecycle-marketing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-008",
+      "title": "Plateau-Avoidance Member Check-in Conversation",
+      "prompt": "Act as the head coach and co-founder of an online coaching brand serving 1,200 paying clients across India at ₹4,500/month. Design a structured monthly check-in conversation framework specifically for the 'month 3 plateau' moment when 40% of clients consider cancelling. Please provide: (1) A 6-question diagnostic the coach runs over a 20-minute Google Meet — covering training compliance, sleep, NEAT, alcohol/social eating, weekend variance, and emotional state, (2) A scoring rubric that classifies the client into one of four buckets — adherence problem, programme-design problem, recovery problem, expectation problem — with a different intervention for each, (3) A scripted 'plateaus are biology, not failure' education segment (90 seconds) that resets expectations using the analogy of weight-loss step-curves, (4) A new 4-week mini-block recommendation per bucket — for adherence, halve the volume and double accountability; for programme, switch from full-body to upper/lower split, etc., (5) Two motivational anchors — non-scale wins (waist circumference, lifts, energy) and a re-photographed body scan, (6) A 'recommit contract' the client signs digitally to re-engage, (7) An escalation path if the client still wants to cancel — pause option (₹999/month maintenance) instead of full churn, (8) Coach-side notes captured in HubSpot for the next month. Format as a coach playbook with verbatim talking points.",
+      "tags": [
+        "retention",
+        "client-check-in",
+        "online-coaching",
+        "plateau"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-009",
+      "title": "Win-Back Sequence for Lapsed Gym Members",
+      "prompt": "Act as the CRM and lifecycle marketing lead for a 9-branch gym chain in Delhi NCR with 4,100 lapsed members in the last 18 months. Design a 21-day win-back sequence to reactivate 12% of them. Please provide: (1) A segmentation model — recent lapsers (0-3 months), medium (3-9 months), cold (9-18 months) — with a different message frequency and offer for each, (2) The 7-touch sequence across WhatsApp (Wati templates), email and a 60-second outbound call from the floor manager, (3) Verbatim copy — Day 1 'we miss you' WhatsApp, Day 4 'what changed' single-question survey, Day 7 a no-strings 3-day pass, Day 12 a price-anchored comeback offer (₹999 first month, no joining fee), Day 18 founder-signed email, Day 21 final reminder, (4) A bounce-back guarantee — pay one month, if you do not feel better in 30 days, refund, (5) An InBody-scan and goal-reset session as the in-branch reactivation hook, (6) Reasons-for-leaving capture so we can segment and feed product, (7) An 'alumni' soft-membership option for those who have moved cities — community-only WhatsApp at zero rupees, (8) KPIs — reactivation rate, cost per reactivation, 60-day stick rate, (9) Compliance — DLT-registered headers and opt-out language. Format as a sequence table with copy and triggers.",
+      "tags": [
+        "win-back",
+        "comeback-sequence",
+        "lapsed-members",
+        "retention"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-010",
+      "title": "Founding-Member Pricing Offer for New Branch Launch",
+      "prompt": "Act as the founder of a premium strength-and-conditioning gym about to open a new flagship branch in HSR Layout, Bangalore (8,500 sq ft, capacity 700 members, monsoon launch in July). Design a 45-day pre-launch 'Founding Member' pricing campaign that fills 250 annual memberships before doors open. Please provide: (1) A founding-member offer architecture — annual at ₹29,999 vs market rate ₹45,000, locked-in renewal price for 3 years, plus 12 PT sessions and a branded T-shirt, (2) Scarcity mechanics — only 250 founding slots, public counter visible at the construction-site billboard, (3) A 4-stage lead funnel — awareness (Meta ads, hyperlocal Whatsapp groups in HSR), consideration (site walk-through bookings), decision (founding-member dinner with the founder + head coach), conversion (secure with ₹2,000 refundable token), (4) A founder-led 6-minute video script that introduces the brand promise and the 'why HSR' story, (5) Partnership tie-ups — early-bird offer to residents of 8 named gated communities (Sobha, Brigade, Adarsh) and 3 corporate parks, (6) A founding-member perks list — name on the wall, first access to new classes, founder's-circle WhatsApp, (7) A risk-reversal — if we do not open by August 15, full refund + ₹2,000 inconvenience credit, (8) Daily sales report template, (9) A launch-day playbook. Format as a 45-day campaign Gantt with copy snippets.",
+      "tags": [
+        "founding-member",
+        "new-branch-launch",
+        "pricing",
+        "pre-launch"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-011",
+      "title": "Personal Training Upsell Script for Group Members",
+      "prompt": "Act as the PT sales coach at a CrossFit-style affiliate in Gurgaon with 380 monthly members at ₹3,499 and a PT product at ₹1,500/session (10-pack ₹13,500). Currently 11% of members buy PT. Lift this to 22%. Please provide: (1) A 'PT discovery moment' SOP — when and how the floor coach raises PT during a regular class without it feeling salesy (e.g., post-1RM week 6, post-injury return), (2) A 7-question diagnostic the coach runs in a free 15-minute clarity call to surface a high-stakes goal (wedding, surgery prep, marathon) that justifies PT spend, (3) A 4-tier PT pathway — single-session diagnostic ₹1,500, 4-pack form-fix ₹5,500, 10-pack transformation ₹13,500, 24-pack lifestyle ₹29,999 — and the right client profile for each, (4) Objection responses for 'I already pay for membership', 'I will join when my schedule clears', 'my husband/wife thinks PT is for beginners', (5) A spousal-PT-pair offer — 2 people, 1 trainer, ₹999 incremental — that doubles AOV, (6) A coach-incentive structure (15% on first pack, 8% on renewal) that aligns behaviour without making class coaching transactional, (7) A 30-day trial-pack with a satisfaction guarantee, (8) Tracking in Zoho CRM with a weekly stand-up review. Format as a coach-facing playbook plus a manager dashboard.",
+      "tags": [
+        "personal-training",
+        "upsell",
+        "pricing",
+        "sales"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-012",
+      "title": "Family-Pack Membership Pricing Strategy",
+      "prompt": "Act as the founder of a 5-branch full-service health club in Ahmedabad and Vadodara (currently ₹3,200/month individual). Design a family-pack membership product that lifts revenue per household by 60% and improves stickiness because families churn less than individuals. Please provide: (1) Pricing architecture — Couple ₹4,999/month, Family of 4 ₹6,999/month with 2 adult + 2 kids slots, multi-generational ₹8,999/month for parents-in-law inclusion (a Gujarati/Marwari joint-family hook), (2) The eligibility and proof rules (Aadhaar address match) plus the limit on simultaneous attendance to control floor capacity, (3) Class entitlements — adults full access, kids access to weekend Junior Fitness only (under 14), and a senior-citizen morning yoga slot for in-laws, (4) An onboarding-day 'family fitness profile' that sets shared 90-day goals, (5) A WhatsApp family-group automation that sends weekly attendance digests and gentle nudges, (6) A summer 'family transformation challenge' with a holiday voucher prize, (7) An upsell into family nutrition counselling at ₹1,499/session, (8) The annual prepay variant ₹74,999 with a 2-month free hook, (9) Risk modelling — if one family member drops, do we keep the family rate? Provide a fair-but-stingy rule. Format as a product-launch one-pager plus an FSE objection-handling card.",
+      "tags": [
+        "family-membership",
+        "pricing",
+        "household-revenue",
+        "retention"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-013",
+      "title": "Corporate Tie-Up Pitch Deck for B2B Sales",
+      "prompt": "Act as the head of corporate partnerships and co-founder of a multi-city fitness brand. We are pitching a 3-year corporate-wellness contract to a 4,200-employee Indian IT services company (TCS-tier). Build a complete 12-slide sales deck and a 1-page leave-behind. Please provide: (1) Slide-by-slide narrative — Cover, Why-Now (sedentary risk + insurance-claims data), Our Edge, The Programme (gym access + virtual coaching + on-site quarterly health camps), Outcomes Promised, Implementation Plan, Pricing, Case Study (similar IT client), Team, Risk-Reversal, Investment Summary, Next Steps, (2) The pricing model — ₹699/employee/month for the access tier, ₹1,199 for the access + coaching tier, with volume tiering, (3) Outcome metrics measurable in HRMS — participation rate, BMI shift, sick-leave reduction, eNPS lift, (4) Integration with their existing benefits stack (Pazcare / Plum / ICICI Lombard) and reimbursement workflows, (5) On-site activations — wellness Wednesday, Steptember challenge, World Heart Day camp, (6) Founder-led webinar for the leadership team to demonstrate gravitas, (7) A risk-reversal — first 90 days termless, (8) The verbatim 90-second elevator opener for the CHRO meeting, (9) The leave-behind one-pager. Format as slide-by-slide content cards with speaker notes and the one-pager copy.",
+      "tags": [
+        "corporate-tieup",
+        "b2b-sales",
+        "pitch-deck",
+        "wellness"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-014",
+      "title": "Instagram Carousel for 12-Week Transformation Story",
+      "prompt": "Act as the social media lead and co-founder of an online coaching brand whose Insta handle has 84k followers, average reach 22k per carousel. Write a complete 10-slide Instagram carousel that tells the 12-week transformation story of a real client — Priyanka, 34, banker in Mumbai, lost 11 kg vegetarian. Please provide: (1) Slide 1 — a strong hook with text-on-image idea ('I quit cardio and lost 11 kg. Here is how.'), (2) Slide 2 — Priyanka's starting point including the emotional 'I cried in the trial room' moment, (3) Slide 3 — what we changed in her training (3-day strength split, 8k steps NEAT goal), (4) Slide 4 — the vegetarian protein strategy (paneer, tofu, dahi, whey) with a daily example day in grams, (5) Slide 5 — what we did during her parents' visit and Diwali (the 'damage-control' protocol), (6) Slide 6 — the inflexion point (week 6 plateau and the deload that broke it), (7) Slide 7 — non-scale wins (waist −7 cm, energy, sleep), (8) Slide 8 — week-12 result with a Reels-friendly side-by-side and her quote, (9) Slide 9 — the 3-step framework anyone can copy, (10) Slide 10 — CTA to book a free clarity call with a comment-trigger 'COACH'. Include image-direction notes, on-image text, caption (180 words), 10 hashtags, and disclaimers. Avoid before-after that violates Meta's harm-reduction policy on weight-loss imagery.",
+      "tags": [
+        "instagram-carousel",
+        "transformation",
+        "content-marketing",
+        "storytelling"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-015",
+      "title": "Reel Script for Myth vs Reality on Indian Fitness",
+      "prompt": "Act as the head of content and co-founder of a fitness brand targeting 25-40-year-old Indians on Instagram and YouTube Shorts. Write 5 fully-shootable 45-60 second Reel scripts in the 'Myth vs Reality' format — punchy, punch-line-driven, and shareable inside Indian WhatsApp family groups. Please provide for each reel: (1) The myth headline as on-screen hook ('Ghee makes you fat', 'Lifting weights stunts height', 'Roti makes you gain weight', 'Whey is steroids', 'Cardio is enough for fat loss'), (2) A 7-second scroll-stopper opener, (3) A 25-second debunk with the actual physiology in plain Hindi-English, (4) A 12-second 'what to do instead' practical tip with on-screen B-roll suggestions (cooking ghee, deadlift, roti measure), (5) A 6-second CTA — comment 'GUIDE' to receive a free PDF, (6) The verbatim caption (60-80 words) optimised for saves, (7) 8 hashtags blending broad (#fitnessindia) and niche (#vegetarianfitness), (8) Trending-audio suggestions and shoot logistics (location, props), (9) Two thumbnail-cover frame ideas. Avoid medical claims that violate ASCI's celebrity endorsement rules and the 2024 Drug-and-Magic-Remedies tightening. Format as 5 ready-to-shoot scripts with shot-by-shot direction.",
+      "tags": [
+        "instagram-reels",
+        "content-creation",
+        "myth-busting",
+        "video-script"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-016",
+      "title": "LinkedIn Post for B2B Corporate Wellness Pitch",
+      "prompt": "Act as the founder of a corporate-wellness fitness brand pitching to CHROs and HR Heads of mid-sized Indian companies (500-3,000 employees). Write a pillar LinkedIn post that generates inbound demo requests from 6-8 CHROs in 14 days. Please provide: (1) A scroll-stopping first line that is a counter-intuitive data point ('Indian companies lose ₹5,200 crore annually to lifestyle disease absenteeism — and your wellness vendor is selling you yoga apps.'), (2) A second-line tension that names a CHRO frustration (low participation in current wellness benefits), (3) A 3-paragraph narrative — the broken status quo, why one-size-fits-all programmes fail in Indian offices (joint-family caregiving, joint stress, sweet-heavy festival cycles), and the model that works (hybrid in-person + on-demand + measurable outcomes), (4) A short proof element — a sanitised case study (28% participation in 90 days at a Bengaluru fintech), (5) A soft CTA inviting a 25-minute benchmarking call (no demo, just data), (6) Length — 220-280 words optimised for LinkedIn dwell time, (7) 3 hashtag suggestions, (8) A first comment that links to a freely downloadable 'CHRO Wellness Benchmark Report 2026' lead-magnet PDF, (9) Two engagement-priming reply templates for likely CHRO comments, (10) A weekly cadence of 2 such posts and a quarterly long-form newsletter on LinkedIn. Founder voice — confident, contrarian, evidence-based, no hustle-culture.",
+      "tags": [
+        "linkedin",
+        "b2b-content",
+        "corporate-sales",
+        "founder-brand"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-017",
+      "title": "Founder Story Article for Brand Trust Building",
+      "prompt": "Act as a brand storyteller and ghostwriter for the founder of an Indian D2C protein brand competing with MuscleBlaze and Wellbeing Nutrition. Write an 800-word founder-story article for the brand's blog and a condensed 280-word LinkedIn version. The founder is Arjun Mehta, ex-IIT-Bombay engineer, Type-2-diabetes-affected father lost weight under his guidance, started the brand in 2021 from his Pune kitchen, today does ₹14 cr ARR. Please provide: (1) A working headline that is emotional but not melodramatic, (2) An opening hook scene (the moment in 2019 when his father's HbA1c report changed his life path), (3) The 'why this brand' arc — the broken Indian whey market (counterfeits on Amazon, 50% adulteration as per labdoor-style audits), (4) The product origin — first 80 batches reformulated, sourcing whey from a Karnal dairy partner, third-party Eurofins testing, (5) The first 100 customers and the WhatsApp community that became the brand, (6) The hard moment (a viral negative review that nearly ended the company in 2022), (7) Where we are today (1.4 lakh repeat customers, 4.6 stars, FSSAI Schedule-3 licence), (8) A vision close that invites the reader to be part of the next chapter, (9) 3 SEO keyword targets, (10) A photography shot list (founder in factory, with father, with first customer). Avoid hagiography. Keep it human and specific.",
+      "tags": [
+        "founder-story",
+        "brand-narrative",
+        "d2c-supplements",
+        "content"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-018",
+      "title": "12-Week Beginner Programme for Sedentary Indians",
+      "prompt": "Act as the head of programming at an online coaching brand serving 1,800 absolute-beginner Indians (BMI 27-34, age 32-48, 80% lacto-vegetarian, 70% Tier-2 cities). Design a 12-week 'Start From Zero' programme deliverable via the brand's app, with low-equipment progressions for home or local gym. Please provide: (1) Weekly structure — Weeks 1-4 (movement competence + 6,000 daily steps + 1.4 g/kg protein), Weeks 5-8 (full-body strength 3x/week + 8,000 steps + simple cardio), Weeks 9-12 (4-day upper/lower split + conditioning + nutrition flexibility), (2) Day-1 exercise list with photo-cue and Hindi-English-name pairs (Squat — Uthak baithak, Hip Hinge — Kamar mod), (3) The exact session length cap — 35 minutes — to fit working-Indian schedules, (4) A vegetarian protein progression — Week 1 starts at 1.0 g/kg using only whole foods, ramps to 1.6 g/kg by Week 8 with optional whey, (5) Step-target guidance for monsoon and Delhi-AQI days (mall walking, indoor stair climbs), (6) Weekly check-in questions inside the app, (7) Habit-stacking using existing routines (after morning chai → 5 min mobility), (8) Festival weeks (Ganesh Chaturthi, Navratri, Diwali) — pre-built 'modaks-and-mithai' protocols, (9) Graduation milestone and the upsell into the next programme. Format as a 12-week Gantt plus the verbatim app micro-copy.",
+      "tags": [
+        "12-week-program",
+        "beginner",
+        "online-coaching",
+        "vegetarian"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-019",
+      "title": "Fat-Loss vs Muscle-Gain Decision Framework for New Clients",
+      "prompt": "Act as the head coach of an online coaching brand serving Indian clients aged 22-45. Many new clients ask 'should I cut or bulk first?' — your team's answers vary, and 30% switch goals within 6 weeks (kills results). Build a decision framework and a 1-page client-facing PDF that produces a single recommendation in under 10 minutes. Please provide: (1) A 9-question diagnostic — current body-fat estimate, training age, lifts vs bodyweight ratios, sleep, stress, time-availability, social calendar, photo-self-perception, deadline event, (2) A scoring rubric mapping answers to one of three paths — Fat Loss First, Recomp, Muscle Gain First — with thresholds, (3) The biological logic per path explained at a 9th-grade reading level, (4) A vegetarian-friendly week-1 macro split for each path with foods like dal-chawal, paneer-roti, dahi-rice, (5) Realistic 12-week outcomes (kg lost or kg gained) with photo evidence ranges, (6) Pitfall warnings (women under-eating; men chasing the scale on bulks), (7) A 'this is not the path for you if…' section to deter the wrong fit, (8) The coach-side conversation script that delivers the recommendation, (9) A re-evaluation rule (review at week 8 not earlier), (10) A 1-page printable client PDF layout. Format the output as a coach playbook plus the client PDF copy.",
+      "tags": [
+        "programming",
+        "fat-loss",
+        "muscle-gain",
+        "client-decision"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-020",
+      "title": "Vegetarian and Vegan Macro Templates for Indian Clients",
+      "prompt": "Act as the lead nutritionist at an online coaching brand. Build a complete macro-template system for the 4 most common Indian dietary profiles: lacto-vegetarian, lacto-ovo, pure vegan, and Jain (no onion-garlic-root). Each template covers fat-loss, maintenance and muscle-gain at three calorie tiers (1500, 1800, 2200 kcal). Please provide: (1) The protein, carb and fat split per goal with reasoning (1.6-2.2 g/kg protein, fats not below 0.6 g/kg), (2) A food-swap library showing 25 g protein servings from Indian foods — paneer, tofu, soya chunks, curd, milk, dal, rajma, chana, peanuts, tempeh, vegan protein blends — with cost per 25 g, (3) A Jain-friendly substitution table replacing onion-garlic-root and root vegetables, (4) Three sample-day plates per template (12 plates) with grams and approximate INR cost, (5) Hidden-calorie warnings (ghee, sweet chutneys, masala chai with sugar, fried snacks), (6) Micronutrient gap notes — B12, iron, omega-3, zinc — with food and supplement options sourced from Indian brands, (7) A vegan creatine and leucine note for the muscle-gain tier, (8) Festival-week swap (Karva Chauth fast, Navratri saatvik), (9) A coach-facing 'how to assign the right template in 4 minutes' SOP. Format as a downloadable client PDF and a coach reference sheet.",
+      "tags": [
+        "vegetarian-macros",
+        "vegan",
+        "jain-diet",
+        "nutrition-templates"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-021",
+      "title": "Post-Diwali 21-Day Reset Programme",
+      "prompt": "Act as the founder of an online coaching brand. Every November, you launch a paid 21-day post-Diwali reset that has historically converted 12% of free email subscribers at ₹2,499. Design this year's reset to convert 22% and feed long-term coaching subscriptions. Please provide: (1) The programme premise — undo Diwali bloat, reset blood sugar, restart training without crash dieting — positioned for 30-50-year-old urban Indians, (2) A day-by-day 21-day structure — Days 1-7 reset (16:8 IF window, 7,000 steps, 3 strength sessions, 3 L water), Days 8-14 rebuild (full-body 4x/week, 1.4 g/kg protein), Days 15-21 reignite (intensity + first measurement), (3) A daily Indian-friendly meal plan with mithai detox alternatives (besan ladoo with stevia, dates ladoo), (4) A 4-email pre-launch sequence (Day -7 to Day 0) that builds urgency without fear-mongering, (5) A WhatsApp accountability group structure for 200 participants with 6 daily prompts and a moderator role, (6) A live-cohort kickoff Zoom call script (45 minutes) and a Day-21 graduation call, (7) An upsell from the 21-day reset into the brand's flagship 12-week programme at ₹14,999, (8) Refund policy — 7-day no-questions-asked, (9) KPIs — sign-up, completion, NPS, upsell. Format as a launch playbook with the email and WhatsApp copy.",
+      "tags": [
+        "post-diwali",
+        "reset-program",
+        "festival-marketing",
+        "cohort"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-022",
+      "title": "Weekly Coach Check-in Script for Online Clients",
+      "prompt": "Act as the coach-experience lead at an online coaching brand with 60 coaches and 2,400 paying clients. Standardise the weekly check-in conversation that each coach must run on Sunday night for 12 minutes per client. Please provide: (1) A 5-minute pre-call review the coach does inside the app — log-ins, training compliance, meal-photo adherence, weight trend, sleep, comments, (2) A 12-minute call structure — 90 sec rapport, 4 min wins-and-frictions diagnosis, 4 min programming and nutrition adjustments, 2 min next-week commitments, 90 sec close and homework, (3) The verbatim opening line that avoids the dreaded 'how was your week' (which gets vague answers), (4) 8 high-leverage questions ranked by what to ask first if the client is high-compliance vs low-compliance, (5) A scripted reframing for missed sessions that preserves the client's self-efficacy, (6) A consistent recap WhatsApp template the coach sends within 30 minutes — wins, adjustments, focus, next check-in time, (7) A red-flag escalation — when to loop in the head coach (low mood, disordered-eating signals), (8) A monthly coach-quality audit using random recorded calls with consent, (9) A rubric that grades each call on a 1-5 scale across 6 dimensions. Format as a coach playbook plus the WhatsApp recap template.",
+      "tags": [
+        "coach-communication",
+        "weekly-checkin",
+        "online-coaching",
+        "sop"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-023",
+      "title": "Post-Class Voice-Note Templates for Group Instructors",
+      "prompt": "Act as the head of group fitness at a 14-studio HRX/Cult-style chain. Train your 80 instructors to send personalised 45-second voice notes after select classes to deepen member relationships and lift class attendance by 15%. Please provide: (1) The selection rule — which member gets a voice note (new joiner after class 3, member missing for 2 weeks back today, member who hit a personal best), (2) A 45-second voice-note template for each of 6 scenarios — first class, milestone class, return after gap, tough-class praise, birthday, frustrated-member empathy, (3) The verbatim opening 5 seconds that sounds personal not scripted (use the member's first name and a class-specific moment), (4) Tone and pacing rules — warm, slow, end with a single question to drive a reply, (5) Language flex — Hindi-English code-switching that feels natural for Mumbai/Pune audiences, (6) A 'do not record' list — never reference body, weight or appearance, (7) Time discipline — instructors send 5 voice notes per week within 90 minutes of class so it stays top of mind, (8) An audit and quality review using consenting members, (9) A leaderboard of voice-note response rates by instructor, (10) Manager incentives. Format as an instructor playbook with sample audio scripts and a post-class checklist.",
+      "tags": [
+        "voice-notes",
+        "instructor-training",
+        "engagement",
+        "group-fitness"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-024",
+      "title": "Accountability Ladder Messaging for Compliance Issues",
+      "prompt": "Act as the head coach at an online coaching brand. Build an 'accountability ladder' messaging framework for clients showing reduced compliance — from gentle nudge to programme pause — that protects both client outcomes and brand reputation. Please provide: (1) A 5-rung ladder — Rung 1 friendly observation, Rung 2 specific concern, Rung 3 structured re-commit, Rung 4 programme adjustment, Rung 5 pause-or-part-ways, (2) The trigger metric for each rung — Rung 1 at 60% compliance, Rung 5 at sub-25% over 14 days, (3) The verbatim WhatsApp message for each rung calibrated to Indian middle-class sensitivity (avoid public shame, preserve face), (4) A 'circumstances first' opener that asks before assuming (illness, work travel, family event), (5) A coach-side decision tree — when to escalate, when to pause, when to refund, (6) A pause-membership product (₹999/month maintenance) so we keep the relationship even when life happens, (7) A 'graceful goodbye' offboarding script if the client still cannot commit — preserves NPS and word-of-mouth, (8) A coach training module — empathy first, evidence second, action third, (9) A monthly review of how often each rung is used per coach to surface coaching-quality issues. Format as a playbook with verbatim message scripts and a flowchart.",
+      "tags": [
+        "accountability",
+        "client-compliance",
+        "coaching-communication",
+        "retention"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-025",
+      "title": "Trainer Hire Job Description and Interview Plan",
+      "prompt": "Act as the founder of a 6-branch gym chain hiring 14 floor trainers across Pune, Nashik and Aurangabad in the next 60 days. Build a complete hiring kit. Please provide: (1) A 1-page job description for 'Floor Trainer / Group Fitness Coach' specifying mandatory K11 / REPS India / ACE / NASM certification, minimum 1 year floor experience, conversational English plus the local language, willingness to work split-shifts (5:30-9:30 AM and 5-10 PM), (2) Salary band — ₹22,000-₹38,000 fixed + PT incentive 15% + group-class incentive ₹250/class, with progression milestones, (3) A sourcing plan — Apna, Naukri, K11 Academy alumni groups, trainer-WhatsApp networks, referral bonus ₹3,000, (4) A 4-stage interview — phone screen (15 min), in-person culture interview (30 min), practical assessment (run a real 30-min class as a demo), final founder round, (5) A scorecard for the practical assessment covering form correction, energy, member-name memorisation, safety cueing, music management, (6) A scenario-based question bank — 'A 55-year-old member with knee pain wants to deadlift, what do you do?', (7) A reference-check call script focusing on punctuality, ego and member complaints, (8) Day-1 onboarding checklist — uniform, RFID, payroll docs (PAN, Aadhaar, bank), CPR refresher, brand SOP. Format as a hiring kit document.",
+      "tags": [
+        "trainer-hiring",
+        "job-description",
+        "operations",
+        "interview"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": true,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-026",
+      "title": "Trainer Payroll and Incentive Structure Design",
+      "prompt": "Act as the COO and co-founder of a 9-branch fitness chain with 78 trainers (mix of fixed and freelance). Redesign the trainer payroll and incentive structure to reduce attrition from 42% to 22% annually and align trainer behaviour with client retention. Please provide: (1) A salary band matrix by certification (Level 1 K11/REPS India entry, Level 2 ACE/NASM, Level 3 Master trainer with 5+ years), city tier (Tier-1 Mumbai/Bangalore vs Tier-2 Indore/Nagpur), and shift type, (2) A fixed + variable split — 65% fixed, 35% variable, where the variable is split across PT-pack sales (15%), group-class headcount (10%), 90-day client retention bonus (10%), (3) A retention-aligned payout — trainer earns recurring 5% of any annual membership renewal of a member they directly coached, (4) Statutory components — PF, ESI thresholds, gratuity accrual, professional tax — and a clean salary slip template, (5) A 90-day probation pay structure, (6) A Tier-2 city differential that protects trainer migration but does not over-pay, (7) A 'Trainer of the Quarter' bonus (₹15,000 + paid 3-day workshop) judged on member NPS, (8) A clear path to a Studio Manager role at month 18, (9) A documented dispute-resolution process. Format as an HR policy document plus a trainer-facing 1-page summary that builds trust.",
+      "tags": [
+        "payroll",
+        "incentives",
+        "trainer-retention",
+        "operations"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-027",
+      "title": "Equipment Maintenance SOP for Multi-Branch Gyms",
+      "prompt": "Act as the operations head and co-founder of a 7-branch gym chain. Equipment downtime is hurting member experience — treadmills go offline for 3-7 days. Build a complete equipment-maintenance SOP that targets 99.2% uptime. Please provide: (1) A daily, weekly, monthly, quarterly preventive-maintenance checklist for each equipment family — cardio (treadmill, elliptical, bike, rower), pin-loaded selectorised machines, cable stations, free-weight racks, plates and dumbbells, flooring, AC and humidity control, (2) A named-owner system — every machine has a sticker with the floor coach who 'owns' weekly checks, (3) A WhatsApp-bot escalation flow — member or coach scans a QR on the machine, types the issue, ticket goes to ops with photo, ops triages within 4 hours, (4) Vendor SLA contracts with Cybex/Cosco/Powermax/Welcare — 24-hour response, 72-hour resolution, monthly preventive visit included, with penalty clauses, (5) A spare-parts inventory at each branch (belts, cables, pins, knobs) with reorder thresholds, (6) A 'down for maintenance' member-communication SOP that sends a WhatsApp 2 hours before any planned downtime, (7) Weekly ops review meeting agenda and a branch-uptime league table, (8) Annual deep-service contract budget allocation per branch (1.5% of revenue), (9) A safety-incident reporting protocol. Format as a 12-page SOP with QR-scannable QC sheets.",
+      "tags": [
+        "equipment-maintenance",
+        "operations",
+        "sop",
+        "uptime"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-028",
+      "title": "RFP for New Gym Facility in Tier-2 City",
+      "prompt": "Act as the head of expansion and co-founder of a regional gym chain expanding from Pune into 3 Tier-2 cities — Kolhapur, Nashik and Aurangabad — over the next 12 months. Each facility is 6,500-9,000 sq ft, ground or first floor only, parking-mandatory. Build a Request-for-Proposal (RFP) document we will send to 30 commercial real-estate landlords and brokers. Please provide: (1) Site requirements — minimum 6,500 sq ft carpet, ceiling 12 ft+, 70 KVA power, water 4,000 L/day, structural slab live-load 500 kg/sq m for free-weight area, dedicated DG backup, freight elevator if first floor, washroom-male-female ratio 2:1:1, kid-creche optionality, (2) Location rules — within 1.5 km of 3 named gated communities or a school cluster, no other premium gym within 1 km, ground-level visibility on a 2-way road, (3) Lease commercials — 9-year lock-in with mutual exit at year 5, rent ₹55-₹85 per sq ft Kolhapur, ₹70-₹110 Nashik, escalation 5% biennial not annual, fit-out period 75 days rent-free, security deposit 6 months, (4) Compliance — fire NOC, FYM (Fitness Y M, local municipal trade licence), pollution NOC for DG set, GST registration, (5) Submission format — landlord profile, property document, lease term sheet, photos, location map, (6) Decision timeline (45 days from RFP issue), (7) Evaluation rubric (40% location, 30% lease economics, 20% compliance readiness, 10% landlord track record). Format as a ready-to-issue RFP PDF.",
+      "tags": [
+        "rfp",
+        "facility-expansion",
+        "real-estate",
+        "tier-2"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-029",
+      "title": "Supplement Label-Claim Audit for D2C Whey Brand",
+      "prompt": "Act as the regulatory and quality lead for an Indian D2C whey-protein brand competing with MuscleBlaze, Wellbeing Nutrition and Avvatar. We are about to launch a 1 kg whey isolate at ₹2,899 and need a label-claim audit before printing. Please provide: (1) A side-by-side check of mandatory FSSAI claims under the Health Supplements, Nutraceuticals and Foods for Special Dietary Use Regulations — protein per serving, RDA percentage, allergens, batch and best-before, FSSAI logo and licence number, manufacturer and marketer addresses, (2) A protein-claim defensibility test — if we claim 27 g per 32 g scoop, what test method (Kjeldahl vs amino-acid spike-corrected) and which NABL lab signs off, (3) A 'no nitrogen-spiking' assurance statement and a third-party Eurofins certificate-of-analysis QR, (4) Heavy-metal and microbial limits per CODEX adopted by FSSAI, (5) A claims-to-avoid list — no 'cures', no 'doctor recommended', no celebrity testimonials post the 2024 ASCI tightening, no comparative claims like 'better than imported', (6) A truthful 'sweetened with sucralose' allergen and pregnancy disclosure, (7) A vegetarian green-dot verification, (8) The QR-traceability link to the batch's CoA, (9) A 'made-with-Indian-whey' provenance statement if sourced from Karnal or Anand. Format as an audit checklist with pass/fail per item and a redlined sample label.",
+      "tags": [
+        "label-audit",
+        "fssai",
+        "supplements",
+        "compliance"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-030",
+      "title": "FSSAI Schedule-3 Submission Narrative for Nutraceutical",
+      "prompt": "Act as the regulatory affairs consultant for a D2C founder launching a plant-based AYUSH-positioned protein blend (pea + brown rice + ashwagandha + shatavari). Draft the technical narrative to accompany the FSSAI Schedule-3 nutraceutical product approval submission. Please provide: (1) Product description — 30 g serving, 22 g protein, 600 mg KSM-66 ashwagandha, 300 mg shatavari, vegan, gluten-free, sweetened with monk-fruit, (2) Intended use — 'general wellness, muscle recovery and women's vitality' — phrased to comply with the 2022 FSSAI nutraceutical regulations and not cross into therapeutic claims regulated by CDSCO, (3) The ingredient-by-ingredient safety narrative referencing FSSAI's permitted nutraceutical ingredients list, AYUSH classical texts (Charaka, Sushruta), and published clinical trials with PMID references, (4) Maximum-RDA justification — KSM-66 at 600 mg is below the 1,000 mg upper limit cited in clinical literature, (5) A target-population statement — adults 18+, not for pregnant or lactating women without physician advice, (6) Manufacturing site details, GMP certification, allergen-control plan, (7) The label-claim file showing every on-pack claim mapped to its substantiation document, (8) A draft consumer 'common questions' that aligns with the dossier, (9) The submission pathway — Form B + Schedule-3 ingredient list + 90-day stability + amino-acid profile. Format as a regulator-ready dossier outline.",
+      "tags": [
+        "fssai",
+        "nutraceutical",
+        "ayush",
+        "regulatory-submission"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-031",
+      "title": "Influencer Collaboration Brief for D2C Supplement Launch",
+      "prompt": "Act as the head of marketing at a D2C protein-and-creatine brand launching a new 'Vegetarian Pre-Workout' SKU at ₹1,499. Build an influencer-collaboration brief for a campaign with 24 fitness creators across micro (10k-50k), mid (50k-250k) and macro (250k-1M) tiers in India. Please provide: (1) Campaign objective — 18,000 first-time-buyer units in 60 days, blended CAC under ₹420, (2) The creator selection rubric — engagement rate >4%, audience age 22-40, India-resident audience >70%, vegetarian or veg-positive content, no recent past-association with steroid-promoting accounts, (3) The brief structure — non-negotiable claims (FSSAI, no banned substances, lab-tested), forbidden claims (no curing, no comparative, no doctor wording), mandatory ASCI #ad disclosure for India, mandatory product-shot frame at 0:03, (4) 3 creative angles — 'why I switched from imported pre-workout', 'pre-workout for women that does not feel jittery', 'gym-day morning routine', (5) Compensation grid — flat fee per tier plus 8% revenue share via affiliate code valid for 60 days, (6) Deliverables — 1 reel, 3 stories, 1 static, with usage rights for paid amplification 90 days, (7) An exclusivity clause for 30 days post-launch, (8) A safety-and-claims sign-off step before the creator publishes, (9) A measurement and reporting workflow with a daily dashboard, (10) A creator off-ramp protocol if a controversy emerges. Format as a sendable PDF brief plus a contract addendum.",
+      "tags": [
+        "influencer-marketing",
+        "d2c-launch",
+        "supplements",
+        "asci"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-032",
+      "title": "Amazon and Flipkart Listing Copy for Whey Protein",
+      "prompt": "Act as the marketplace lead at an Indian D2C whey brand. Write the complete Amazon.in and Flipkart listing copy for our 1 kg Chocolate Whey Isolate at ₹3,299 (MRP ₹4,499). Please provide: (1) The 200-character title optimised for Amazon's A9 — brand name, flavour, size, USP, certifications — without keyword-stuffing penalties, (2) 5 bullet points (250 characters each) covering protein per serving (27 g), low-carb (1.2 g), low-fat, lab-tested with NABL CoA, vegetarian green-dot, BCAA and EAA breakdown, made-in-India provenance from a Karnal dairy partner, (3) A 1,400-character A+ Content / EBC narrative with 5 module ideas (founder story, third-party testing, side-by-side competitor comparison, customer reviews, FAQs), (4) A back-end search-term file (250 bytes) covering misspellings (whey protine, isolet) and Hindi transliterations, (5) FAQs covering 'is it pure', 'is it for women', 'will it cause acne', 'is it safe with thyroid', 'how to take', (6) Compliance — FSSAI logo and licence on every image, no celebrity claim, no banned-substance language, no medical claim per ASCI 2024, (7) Image brief for 7 slots — front pack, back pack, scoop and shake, lab certificate, made-in-India badge, lifestyle, comparison chart, (8) Pricing strategy and coupon ladder — 5% off + ₹200 cashback for first-time buyer, (9) A review-acquisition plan via post-purchase email and a polite Vine-equivalent. Format as a copy doc with pasted-ready blocks.",
+      "tags": [
+        "amazon-listing",
+        "marketplace",
+        "supplements",
+        "ecommerce-copy"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-033",
+      "title": "Online Course Launch Funnel for Fitness Programme",
+      "prompt": "Act as the head of online programmes and co-founder of a fitness brand launching a flagship 16-week 'Strong Indian Woman' online programme at ₹12,999. Design a complete launch funnel from cold traffic to paid sale. Please provide: (1) The 21-day pre-launch content calendar — 9 reels, 3 lives, 1 lead-magnet, 4 emails — that warms the audience, (2) The lead-magnet — a 'Vegetarian Protein Cheat-sheet for Indian Women' PDF that asks for name, email, WhatsApp opt-in, (3) A 3-part free-training series (each video 18-22 min) delivered over 5 days that teaches the framework and earns the right to pitch, (4) The 75-minute live launch webinar — promise, story, content (3 pillars), pitch (10 min), Q&A (15 min) — with a slide-by-slide outline, (5) The sales page — hero, problem, agitation, solution, who-it-is-for, who-it-is-not-for, modules and curriculum, coach bios, transformations, FAQ, guarantee, pricing tiers (₹12,999 self-paced, ₹19,999 with cohort, ₹39,999 with 1-on-1 coach), (6) A 5-email cart-open and 4-email cart-close sequence with India-specific objection handling, (7) A WhatsApp broadcast plan (3 messages during cart-open, 2 on the last 24 hours), (8) A 14-day refund policy and the precise wording, (9) Payment options — Razorpay UPI, no-cost EMI, instalments via Klub. Format as a launch playbook with all copy assets.",
+      "tags": [
+        "course-launch",
+        "online-program",
+        "funnel",
+        "webinar"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-034",
+      "title": "Evergreen vs Cohort Decision Framework for Online Programme",
+      "prompt": "Act as the strategy advisor to a founder of a 5-year-old online coaching brand at ₹3.2 cr ARR. The founder wants to know whether to convert the cohort-based 16-week flagship into an evergreen model. Build a decision framework and a 90-day pilot. Please provide: (1) A side-by-side scorecard — cohort (live energy, higher completion, higher price, lumpy revenue) vs evergreen (predictable MRR, scale without founder time, lower completion, refund risk), (2) A unit-economics model — cohort at ₹14,999 with 60% completion vs evergreen at ₹4,999/month with 4-month average tenure — including refund and churn assumptions, (3) The team and ops implications — number of coaches needed at each scale, content-refresh cadence, support ticket volume, (4) A hybrid recommendation — keep an annual flagship cohort (2 per year) at premium price for live energy, run evergreen 'always-on' at lower price as the funnel feeder, (5) A 90-day pilot to test the evergreen variant with 200 customers, with success criteria — 30-day completion >55%, 90-day churn <8%, NPS >55, refund <7%, (6) The needed product changes — auto-graded weekly check-ins, live group office hours twice a week, async coach DMs, (7) Pricing experiments — A/B between ₹3,999 and ₹5,499, (8) A roll-back plan if the pilot fails, (9) A founder-time-back model showing how this frees 12 hours/week for sales and partnerships. Format as a board-ready memo.",
+      "tags": [
+        "evergreen",
+        "cohort",
+        "online-program",
+        "business-model"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-035",
+      "title": "Refund Policy for Online Coaching Programme",
+      "prompt": "Act as the founder and legal-aware operator of an online coaching brand selling a ₹14,999 16-week programme to 4,200 customers/year. We have a 12% refund rate that is killing margins. Design a refund policy that is fair, legally clean, and reduces refunds to under 5% without trapping customers. Please provide: (1) A 3-tier policy — 7-day no-questions-asked, 8-30 days conditional refund (with proof of effort — at least 14 logged sessions), Day 31+ no refund but a 'pause' or 'transfer-to-friend' option, (2) The exact policy language as it will appear on the checkout page, the FAQ, the welcome email, and the terms-of-service — written in plain English, no legalese, (3) An 'effort-receipt' definition — what qualifies as logged effort (workout completion, weekly check-in attendance, food-photo uploads), (4) A 'switch don't quit' menu — downgrade to a self-paced version, pause for 60 days, transfer the slot to a family member, (5) A refund-request workflow — a Typeform that captures the real reason, a 24-hour coach call to address concerns, a 48-hour escalation to the head coach, (6) A refund-reasons taxonomy that the team analyses monthly to fix root causes (programming too hard, coach unresponsive, life event, expectation mismatch), (7) An ethical line — no dark patterns, no hiding the refund button, no shaming language, (8) A finance reconciliation — Razorpay refunds within 7 working days, GST handling, (9) A monthly refund-rate dashboard. Format as a policy doc plus implementation SOP.",
+      "tags": [
+        "refund-policy",
+        "online-program",
+        "customer-policy",
+        "operations"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-036",
+      "title": "Accountability Cohort Design for Online Programme",
+      "prompt": "Act as the head of community at an online coaching brand running 8-week paid accountability cohorts of 80 people at ₹4,999. Current completion is 41%; we want 65%. Redesign the cohort experience. Please provide: (1) A weekly rhythm — Monday programme drop, Tuesday live workout demo, Wednesday Q&A on WhatsApp, Thursday live coach office hour on Zoom, Friday accountability partner check, Saturday community win-share, Sunday weekly reflection, (2) Pod structure — 80 people split into 8 pods of 10 with a peer captain elected by each pod, (3) Scoring and gamification — daily points for sleep, steps, training, nutrition photo, weekly leaderboard with Insta-shareable cards, (4) An 'accountability buddy' algorithm that pairs members by city, age and goal — and the buddy weekly check-in script, (5) A founder-led mid-cohort live (week 4) that resets motivation, (6) A 'falling behind' early-warning system — if a participant misses 4 sessions, an automated coach reach-out, (7) A non-judgemental 'second-chance week' for participants who fell off in week 5 to rejoin in week 6, (8) A graduation ceremony with badges, certificates and an Insta wall of completers, (9) An upsell into the next 16-week programme at a graduate price, (10) Cohort-level KPIs — completion, NPS, upsell rate, organic referrals. Format as a 56-day playbook with verbatim WhatsApp scripts and Zoom slides.",
+      "tags": [
+        "cohort-design",
+        "accountability",
+        "online-program",
+        "community"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-037",
+      "title": "Women-Only Gym Brand Positioning Strategy",
+      "prompt": "Act as the founder of a new women-only gym brand opening its first flagship in Indore (8,000 sq ft, 7 AM-9 PM). Build a complete brand positioning document that we will use as the spine for everything from interiors to Insta. Please provide: (1) A one-line brand promise that is sharper than 'gym for women' (e.g., 'Your gym, your rules, your speed — strength training designed for Indian women'), (2) The audience definition — primary 28-45 working women and homemakers in Tier-2 cities who feel watched at co-ed gyms; secondary 18-25 college students; tertiary post-pregnancy mothers, (3) 5 brand pillars — safety, expertise (women S&C coaches), community, programming for hormonal cycles, no-judgement, (4) The brand voice — confident, sister-not-coach, never patronising, never shaming, (5) Visual language — colour palette away from the predictable pink, brand fonts, photo style (real members not stock models), (6) The competitor map — Cult, Gold's Gym Ladies wing, neighbourhood Curves-style — and what we will not do, (7) The 'must-have' physical features — separate entrance, women-only staff including security, locker rooms with hair-dryers and saree-folding bench, kid-watch zone, (8) The 30-day launch communication plan, (9) A founder manifesto (250 words) we will print on a wall and use in pitch decks, (10) Risk-and-objection map (husband/father objections, society perception). Format as a brand-book outline.",
+      "tags": [
+        "women-only-gym",
+        "brand-positioning",
+        "tier-2",
+        "founder-strategy"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-038",
+      "title": "Post-Pregnancy Fitness Programme Design",
+      "prompt": "Act as the head of women's programming at a fitness brand launching a 'Post-Pregnancy Strong' 16-week paid programme at ₹16,999, deliverable in-studio (8 cities) and online. Design the complete programme. Please provide: (1) Eligibility — minimum 6 weeks postpartum (vaginal) or 12 weeks (C-section), with mandatory gynaecologist clearance, plus a screening for diastasis recti, pelvic floor dysfunction and postpartum thyroid, (2) Phase 1 (weeks 1-4) — breath, deep core re-activation, posture restoration, walking 4,000-6,000 steps, no impact, (3) Phase 2 (weeks 5-8) — full-body strength with bodyweight and 4-8 kg loads, single-leg work, scapular retraction for breastfeeding-induced kyphosis, (4) Phase 3 (weeks 9-12) — progressive load, low-impact conditioning, return to compound lifts, (5) Phase 4 (weeks 13-16) — return-to-sport screening, hop tests, return to running protocol if cleared, (6) Nutrition that respects breastfeeding caloric needs — protein 1.6 g/kg, no aggressive deficit, micronutrient focus on iron, calcium, B12, vitamin D, (7) A weekly women-coach-led 30-min live community call covering sleep, husband-partner support, in-laws, returning to work, (8) A safety red-flag list (bleeding, pain, leakage), (9) A buddy mom pairing, (10) Pricing including a creche credit ₹2,500 for studio members. Format as a phase-by-phase clinical-ish programme guide.",
+      "tags": [
+        "post-pregnancy",
+        "women-fitness",
+        "specialised-program",
+        "postpartum"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-039",
+      "title": "Diabetic-Indian Weight-Loss Programme",
+      "prompt": "Act as the founder of an online programme targeting Type-2 diabetic Indians (HbA1c 6.8-9.5%) who want to lose 8-15 kg under medical guidance. Design a 24-week flagship programme at ₹24,999 that we co-deliver with empanelled MD-Diabetologists (referral fee). Please provide: (1) Onboarding — mandatory baseline panel (HbA1c, fasting insulin, lipid, LFT, KFT, vit D, B12, T3/T4/TSH), gynaecologist review for women, BP and ECG for over-45, (2) Medication-aware coaching protocol — for clients on metformin, SGLT2, GLP-1, insulin — what symptoms (hypos, dehydration) the coach must watch and escalate, (3) The training prescription — strength 3x/week prioritising compound lifts to improve insulin sensitivity, post-meal walks 10-15 min after lunch and dinner, Zone-2 cardio 2x/week, (4) The Indian-food carb-and-protein architecture — dal-chawal, roti-sabzi, dosa-sambhar — re-engineered with portion swaps (half bowl rice + extra dal + sabzi + curd) and a glycaemic-load logic, (5) A blood-glucose-feedback loop using CGM (Abbott Libre or Stelo) for 90 days with weekly review, (6) Sleep, stress and mindful-eating modules, (7) A 24-week milestone map with anticipated HbA1c drops at week 12 and week 24, (8) A clinical-coach handover SOP and the medical-disclaimer language, (9) An emergency contact protocol, (10) A graduation 'maintenance' tier at ₹2,499/month. Format as a clinically-disciplined programme dossier with a coach playbook.",
+      "tags": [
+        "diabetes",
+        "weight-loss",
+        "specialised-program",
+        "clinical"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-040",
+      "title": "Monsoon-Season Member Retention Plan",
+      "prompt": "Act as the head of retention at a 12-branch gym chain in Mumbai, Pune and Goa where July-September attendance drops 28% and cancellations spike 18%. Build a 90-day monsoon retention plan. Please provide: (1) The diagnostic — why members skip (commute waterlogging, gym-clothes drying, mood, illness, festival cluster Janmashtami-Onam-Ganesh) and which segment churns most (annual paid vs monthly), (2) A 'monsoon membership pause' product — pause up to 21 days inside the rainy quarter at no charge, instead of cancellation, (3) An indoor programming spike — 8 new monsoon-themed classes (Bollywood Cardio, Animal Flow, Mobility Lab, Dance Fitness) added at 6:30 AM and 8 PM slots, (4) A monsoon-day attendance bonus — every visit on a heavy-rain-warning day earns 50 points redeemable for protein shakes, (5) A 'pick-up-and-drop' tie-up with Rapido subsidised at ₹39 per ride within 3 km of the gym, (6) A 'wet-clothes locker' service with same-day laundry pick-up at ₹99, (7) A WhatsApp morning weather-and-menu broadcast that pre-commits members to the day's class, (8) A festival-week protocol — 3-day off-site mini-camps replace some classes, (9) A flu-shot tie-up with a local clinic for members at ₹399, (10) Communications — empathetic, never guilting. Format as a 90-day playbook with weekly tactics and KPIs.",
+      "tags": [
+        "monsoon-retention",
+        "seasonal",
+        "operations",
+        "retention"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-041",
+      "title": "Kids Fitness Summer-Camp Pitch and Curriculum",
+      "prompt": "Act as the founder of a fitness brand launching a 4-week 'Kids Athletic Summer Camp' for ages 7-13 in 6 cities at ₹8,999 per child (90-min sessions, 3 days/week). Design the complete pitch and the curriculum. Please provide: (1) A parent-facing 1-page pitch — outcomes (athletic skills, posture, screen-time replacement, confidence), safety (qualified coaches, child-protection policy, parent observation window), price-justification, (2) A 12-session curriculum spread across 4 themes — Week 1 Movement Fundamentals (locomotion, balance), Week 2 Sport Skills (catching, throwing, footwork), Week 3 Strength and Endurance (bodyweight, fun circuits), Week 4 Mini-Olympics (3-day showcase event), (3) An age-banded progression (7-9 vs 10-13) for each session, (4) A nutrition mini-module taught to kids and parents — protein for growth (paneer, dahi, eggs, dal), no sports-supplement push, (5) The coach training requirement — child-CPR, child-protection policy, code of conduct, parent communication SOP, (6) A safety policy — drop-off and pick-up SOP, written authorisation for who can pick up the child, (7) A WhatsApp group for parents with daily 1-photo and 30-second video update, (8) An end-of-camp parent-day showcase, (9) Testimonial-capture and re-enrolment offer for the next session, (10) A schools-partnership variant — bring the camp to the school for a fee per child. Format as a parent pitch + coach curriculum guide.",
+      "tags": [
+        "kids-fitness",
+        "summer-camp",
+        "specialised-program",
+        "schools"
+      ],
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-042",
+      "title": "Bollywood Celebrity Endorsement Brief and Contract",
+      "prompt": "Act as the brand director at a D2C protein-and-creatine company evaluating a 12-month endorsement deal with a B-tier Bollywood actor known for fitness transformations. Design the complete brief, financial model and contract guardrails. Please provide: (1) Selection criteria — actor's audience overlap with our 22-40 ICP, past brand-safety record, recent legal cases, social-media engagement quality (not just follower count), demonstrable use of the product before signing, (2) Financial model — flat fee ₹1.2 cr / year + 3% royalty on attributed revenue + ₹35 lakh in product, with break-even at 38,000 incremental units, (3) Deliverables — 12 reels, 4 long-form videos, 24 stories, 1 launch event, 2 brand-shoots, 4 fan-meet activations, (4) Mandatory ASCI compliance — every post #ad, every claim substantiated, no comparative claim, no medical claim, (5) Morality and exit clauses — termination rights for criminal indictment, drug controversy, hate-speech incident, with a 30-day cure period for ambiguous cases, (6) IP and usage rights — 12 months active + 6 months tail, geographic India + diaspora, with renewal terms, (7) Exclusivity — no competing supplement or pre-workout brand for 18 months, (8) The 2024 Drug-and-Magic-Remedies Act considerations for any therapeutic-adjacent claim, (9) A measurement plan — branded code attribution, brand-lift study, social-listening sentiment, (10) Two off-ramp scenarios. Format as a deal memo with a redlined contract clause sheet.",
+      "tags": [
+        "celebrity-endorsement",
+        "bollywood",
+        "supplements",
+        "contract"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-043",
+      "title": "Indian Whey Sourcing Strategy and Vendor Audit",
+      "prompt": "Act as the supply-chain head and co-founder of a D2C whey brand currently importing concentrate from EU at INR-volatile prices. We want to reduce import dependence to under 40% over 18 months by sourcing from Indian dairies. Build a sourcing strategy. Please provide: (1) A vendor map of credible Indian whey-protein sources — Amul (Anand), Mother Dairy, Parag (Lucknow), Schreiber Dynamix (Baramati), Tirumala (Andhra), private dairies in Karnal and Hisar — with capacity, certifications and protein-percent ranges, (2) A specification sheet — 80% concentrate vs isolate, lactose %, fat %, denatured-protein %, microbial limits, heavy-metal limits, (3) A vendor-audit checklist — FSSAI Schedule-3 compliance, GMP, HACCP, ISO 22000, ETP for waste, animal-welfare and milk traceability, third-party Eurofins/SGS testing of last 3 batches, (4) A pricing model — comparing landed cost of EU concentrate vs domestic across 12 months, including FX hedging on imports, (5) A risk-diversification rule — no single vendor >40%, geographic split across 2 states minimum, (6) A pilot — 3 vendors, 2 batches each, blind taste and analytical comparison vs incumbent, (7) A QC-at-receipt SOP — every batch CoA + in-house analytical, (8) An exit clause and slow ramp — 12-month annual volume with quarterly reviews, (9) A consumer-facing 'Indian dairy partner' marketing angle. Format as a sourcing playbook.",
+      "tags": [
+        "supply-chain",
+        "indian-whey",
+        "vendor-audit",
+        "sourcing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-044",
+      "title": "Weekly P&L Dashboard for Multi-Branch Gym",
+      "prompt": "Act as the CFO and finance partner to the founder of a 7-branch gym chain doing ₹11 cr ARR. Build a weekly Profit-and-Loss dashboard the founder reviews every Monday in 25 minutes. Please provide: (1) The 1-page dashboard layout — top-line revenue split (memberships, PT, supplements, café, corporate), gross margin, contribution margin per branch, EBITDA, cash position, (2) Per-branch KPIs — active members, ARPU, churn, joining-fee revenue, PT attach rate, freezes-and-pauses, (3) Lead and CAC metrics — leads from Insta/Google/walk-in/referral, cost per lead, trial bookings, trial-to-paid conversion, blended CAC, LTV/CAC ratio, (4) Operational cost benchmarks — rent as % of revenue (target sub 18%), payroll (target sub 32%), utilities (target sub 6%), marketing (target sub 9%), (5) Staffing efficiency — members per trainer, members per FSE, payroll per active member, (6) Working-capital signals — DSO on corporate, deferred revenue from annual memberships, GST liability, (7) Outliers and red-flag rules — any branch where churn >7% or rent >22% turns red, (8) A monthly addendum — cohort retention curves, renewal rate, pre-paid revenue runway, (9) The data sources — Excellgym/Glofox/Habitat HMS, Tally, HRMS — and a Looker Studio template, (10) A founder review agenda. Format as a dashboard spec plus the Monday review SOP.",
+      "tags": [
+        "finance",
+        "pnl-dashboard",
+        "operations",
+        "kpi"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-045",
+      "title": "Crisis Communication Plan for Gym Injury or Reputation Event",
+      "prompt": "Act as the brand-and-PR advisor to a fitness chain founder. A member has suffered a serious lower-back injury during a deadlift class at our Bandra branch and posted a viral Instagram reel with 280k views accusing the trainer of negligence. Build a 72-hour crisis communication and operational response plan. Please provide: (1) An immediate (0-2 hour) internal triage — chain of escalation, notify legal counsel, secure CCTV footage and class logs, sequester trainer for fact-finding, contact member with empathy and offer immediate medical-bill payment without admitting liability, (2) A 4-12 hour external response — a founder-signed Insta post (240 words), a Story sequence (5 frames), a press-ready statement, a member WhatsApp broadcast across all branches, (3) A 12-72 hour deeper response — an independent third-party safety audit announcement, a temporary class-pause for review, a hotline for any other members with concerns, (4) The do-not-do list — no defensiveness, no implying member fault, no DM-fights with influencers, no fake reviews, (5) A board and investor briefing memo, (6) A 30-day reputation-rebuild plan — proactive safety storytelling, a free certified-trainer-clinic for members, a transparent post-mortem published, (7) Media-relations holding statements for 4 likely outlets (TOI, ToI Mumbai, Mid-Day, fitness press), (8) A long-term policy update — class-coach ratios, beginner-deadlift screening, mandatory pre-class waiver refresh, insurance review with public-liability uplift, (9) A staff-comms script. Format as a 72-hour playbook with verbatim copy and a checklist.",
+      "tags": [
+        "crisis-communication",
+        "reputation",
+        "pr",
+        "safety"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-046",
+      "title": "Gym App and HMS Vendor Selection RFP",
+      "prompt": "Act as the operations lead for a 9-branch gym chain selecting a new gym management system to replace a 6-year-old legacy tool. Build an RFP and a vendor scoring rubric. Please provide: (1) Requirements — member CRM, biometric and RFID access control, billing and recurring payments via Razorpay/Cashfree, online class booking, trainer scheduling, PT pack utilisation, supplement POS, café POS, GST-compliant invoicing, Tally export, GA4 + Meta CAPI integration, WhatsApp via Wati, member-facing app on iOS/Android, (2) Vendor shortlist — Glofox, Mindbody, Excellgym, Habitat, Gymfluencer, BounceFit OS, with strengths-and-gaps notes for each, (3) Scoring rubric across 7 dimensions — functionality fit (25%), price including per-member and integration costs (20%), reliability and SLA (15%), data ownership and exportability (10%), India support quality (10%), security and DPDP-Act compliance (10%), product roadmap (10%), (4) A 30-day pilot at 1 branch with rollback plan, (5) Migration plan — 14 weeks across 9 branches with parallel-run for 30 days each, (6) Data-migration QC checklist — member, contracts, payment history, attendance, referrals, (7) Training plan for 90 staff and a member-facing change-comms sequence, (8) Contract terms — exit assistance, data export in machine-readable format, no-lock-in for member data, SLA penalties, (9) A vendor reference-check call script. Format as an RFP plus a scoring matrix.",
+      "tags": [
+        "gym-software",
+        "vendor-selection",
+        "operations",
+        "hms"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-047",
+      "title": "Founder Investor Update Email for Seed-Stage Fitness Brand",
+      "prompt": "Act as the founder of a 22-month-old D2C performance-nutrition brand at ₹4.6 cr ARR with ₹3.8 cr seed raised from 2 funds and 6 angels. Write the monthly investor update email for April 2026. Please provide: (1) Subject line and a 60-word TL;DR, (2) Headline metrics — MRR, MoM growth, gross margin, contribution margin, blended CAC, payback months, repeat rate, NPS, runway in months, (3) Wins of the month — a successful new SKU launch (Vegan Pre-Workout), a corporate channel deal with a Gurgaon-based IT services firm, a creator partnership that drove ₹38 lakh in attributed sales, FSSAI Schedule-3 approval received, (4) Misses — a stockout on the bestselling 1 kg whey for 11 days, refund spike on Amazon for a damaged-batch issue, a planned hire delayed, (5) Asks — 3 specific asks of investors (warm intro to a CHRO at a named conglomerate, candidate referral for a Head of Performance Marketing, intro to a credible packaging vendor in Baddi), (6) Quarterly priorities going forward, (7) A short P&L snapshot table, (8) A cash and runway view, (9) A founder reflection paragraph (90 words) that is honest about the hardest decision this month, (10) A note on team — new hires, departures, key promotions. Format as a clean, scannable email with bolded sub-heads. Tone — confident, candid, never spin.",
+      "tags": [
+        "investor-update",
+        "founder-comms",
+        "fundraising",
+        "d2c"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-048",
+      "title": "AYUSH-Ayurveda Protein Positioning Brief",
+      "prompt": "Act as the brand strategist for an Indian protein company launching a new line — 'Ayur-Protein' — combining whey or pea protein with classical Ayurvedic ingredients (ashwagandha, gokshura, shatavari, moringa). Build a brand-and-claims positioning brief that is differentiated, regulator-safe and consumer-credible. Please provide: (1) The 'why now' market context — global gut-health and adaptogen trend, Indian Ministry of AYUSH push, premium consumer willingness to pay 25% more for Ayurvedic provenance, (2) Three positioning territories to choose from — 'Ancient strength, modern protein', 'Performance plus calm', 'Daily protein for the Indian body' — with pros and cons of each, (3) The recommended single positioning and why, (4) Claims architecture — wellness-tier claims allowed under AYUSH and FSSAI nutraceutical rules (e.g., 'supports daily energy', 'helps recovery', 'traditionally used') vs forbidden therapeutic claims, (5) The ingredient-storytelling map — which Ayurvedic herb earns the right to which benefit anchor, with classical reference (Charaka Samhita, Sushruta Samhita) and modern PMID studies, (6) Visual language — earthy palette, sanskrit + english typography, never tacky 'tantric' aesthetics, (7) Pricing band ₹2,899-₹3,499 for 1 kg, (8) Channel mix — D2C-first, then Amazon, with offline through Ayurvedic-first retailers and Apollo Pharmacy, (9) A risk register — claim creep, ingredient sourcing transparency, AYUSH GMP audit, (10) A 12-month launch roadmap. Format as a brand brief with a sample pack-front layout.",
+      "tags": [
+        "ayush",
+        "ayurveda",
+        "brand-positioning",
+        "supplements"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-049",
+      "title": "Hyperlocal Meta Ads Campaign for Tier-2 Branch Launch",
+      "prompt": "Act as the performance-marketing lead for a fitness brand opening 4 new gyms in Tier-2 cities — Kanpur, Lucknow, Vijayawada, Coimbatore — over the next 90 days. Build a hyperlocal Meta (Facebook + Instagram) ads playbook that delivers blended CAC under ₹950 per paid member. Please provide: (1) Campaign architecture — 1 Awareness CBO (reach + reels view) + 1 Lead-gen CBO (Instant Form for trial booking) + 1 Conversion CBO (in-app sign-up) per branch, (2) Audience targeting — 4 km radius around each branch, age 22-45, interests in fitness and gym (broad), exclusions (existing members via custom audience and a pixel-based exclude), lookalikes from paid-member custom audience after first 1,000 events, (3) Creative — 5 reel-format ads per branch (founder intro, 360 facility tour, member transformation, trainer credentials, founding-member offer), 3 carousel ads, 2 single-image ads, all with vernacular subtitles (Hindi, Telugu, Tamil), (4) Landing — Instant Form with 4 fields (name, WhatsApp, locality, goal) and a thank-you page that redirects to a Calendly with branch slots, (5) Lead handover — Wati template DM within 60 seconds, FSE call within 30 minutes, no-show recovery sequence, (6) Daily budget — start ₹1,200/day per branch, scale on a 3-day rolling CAC trigger, (7) Creative-refresh cadence (every 7 days), (8) Reporting — daily WhatsApp digest to founder, weekly review with creative-fatigue scoring, (9) Compliance — Meta health-and-fitness ad-policy adherence (no before-after, no body-shame). Format as a 90-day playbook with launch checklists.",
+      "tags": [
+        "meta-ads",
+        "hyperlocal",
+        "tier-2",
+        "performance-marketing"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    },
+    {
+      "id": "fitness-brand-founders-050",
+      "title": "5-Year Strategic Plan and Vision Memo",
+      "prompt": "Act as the strategy advisor to the founder of an 8-branch regional gym chain currently at ₹19 cr ARR in 4 cities. The founder wants to grow to ₹150 cr ARR in 5 years through a combination of own-branch expansion, franchise, online programmes and a private-label supplement line. Write a complete 5-year strategic plan memo. Please provide: (1) A 1-page vision statement — what the brand stands for at ₹150 cr scale, who we serve, what we are famous for, what we will not do, (2) Year-by-year revenue and EBITDA projections with the 4 revenue lines split (own branches, franchise, online, supplements), (3) The branch expansion plan — 8 to 42 own branches over 5 years, with city sequencing (Pune, Indore, Nagpur, Surat, Coimbatore, Kochi) and a Tier-1-vs-Tier-2-vs-Tier-3 mix, (4) The franchise model — area development for 30 franchise units in 24 cities, with a ₹65 lakh fee + 8% royalty + 3% marketing pool, (5) The online programmes line — 3 flagship programmes targeting ₹35 cr at year 5, (6) The supplement line — 6 SKUs at ₹40 cr at year 5, with FSSAI, manufacturing partner, and channel mix, (7) The team build — CXO hires by year and quarter, total headcount target, (8) The capital plan — operational cash, growth equity rounds, debt for capex, (9) The risk register — talent, real estate, regulatory, competitive (Cult, Anytime), creator-driven brands, (10) The 90-day next-step actions. Format as a board-ready 8-page memo outline with an executive summary.",
+      "tags": [
+        "strategic-plan",
+        "5-year-vision",
+        "founder-strategy",
+        "expansion"
+      ],
+      "difficulty": "advanced",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false,
+      "category": "fitness",
+      "subcategory": "fitness-brand-founders"
+    }
+  ]
+}

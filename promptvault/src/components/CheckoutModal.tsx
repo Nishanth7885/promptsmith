@@ -8,7 +8,15 @@ import { useCurrency } from './CurrencyContext';
 interface Props {
   open: boolean;
   onClose: () => void;
+  /** SKU to checkout. 'ALL' = ₹299 all-access lifetime; 'CATEGORY' = ₹99 single category. */
+  orderType?: 'ALL' | 'CATEGORY';
+  /** Required when orderType === 'CATEGORY'. */
+  categorySlug?: string;
+  /** Pretty name shown in the modal heading for CATEGORY mode. */
+  categoryName?: string;
 }
+
+const CATEGORY_PRICE_INR = 99;
 
 interface PriceCheck {
   subtotal: number;
@@ -18,7 +26,13 @@ interface PriceCheck {
   error?: string;
 }
 
-export default function CheckoutModal({ open, onClose }: Props) {
+export default function CheckoutModal({
+  open,
+  onClose,
+  orderType = 'ALL',
+  categorySlug,
+  categoryName,
+}: Props) {
   const { data: session } = useSession();
   const currency = useCurrency();
   const email = session?.user?.email ?? '';
@@ -131,8 +145,11 @@ export default function CheckoutModal({ open, onClose }: Props) {
         body: JSON.stringify({
           phone: cleanedPhone,
           name: name.trim() || undefined,
-          currency: currency.currency,
+          // Per-category SKU is INR-only; CheckoutModal forces INR for that mode.
+          currency: orderType === 'CATEGORY' ? 'INR' : currency.currency,
           couponCode: priceCheck?.couponCode || undefined,
+          orderType,
+          categorySlug: orderType === 'CATEGORY' ? categorySlug : undefined,
         }),
       });
       const order = await res.json();
@@ -167,12 +184,14 @@ export default function CheckoutModal({ open, onClose }: Props) {
 
   // ---- Render ----
 
-  const total = priceCheck?.total ?? currency.defaultPrice();
-  const formatTotal = currency.currency === 'INR' ? `₹${total}` : `$${total.toFixed(2)}`;
-  const formatSub =
-    currency.currency === 'INR'
-      ? `₹${priceCheck?.subtotal ?? currency.defaultPrice()}`
-      : `$${(priceCheck?.subtotal ?? currency.defaultPrice()).toFixed(2)}`;
+  const isCategory = orderType === 'CATEGORY';
+  const fallbackBase = isCategory ? CATEGORY_PRICE_INR : currency.defaultPrice();
+  const total = priceCheck?.total ?? fallbackBase;
+  const subtotal = priceCheck?.subtotal ?? fallbackBase;
+  // Category mode is INR-only.
+  const isInr = isCategory || currency.currency === 'INR';
+  const formatTotal = isInr ? `₹${total}` : `$${(total as number).toFixed(2)}`;
+  const formatSub = isInr ? `₹${subtotal}` : `$${(subtotal as number).toFixed(2)}`;
 
   return (
     <div
