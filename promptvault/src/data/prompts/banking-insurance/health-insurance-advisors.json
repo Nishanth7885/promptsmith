@@ -7,306 +7,852 @@
       "id": "banking-insurance-health-insurance-advisors-001",
       "title": "First-Time Buyer Needs Discovery Script",
       "prompt": "Act as a senior IRDAI-licensed health insurance advisor in India onboarding a first-time buyer. Generate a 25-question structured needs-analysis script I can use over a 30-minute Zoom or in-person meeting with a 32-year-old IT professional based in [CITY] earning ₹[ANNUAL_CTC] with [SPOUSE/PARENTS/CHILDREN] dependents. Cover: (1) demographic and family medical history including any PED like diabetes, hypertension, thyroid; (2) current employer group cover sum-insured and gaps; (3) preferred hospital network in their pin-code (Apollo, Fortis, Manipal, Max, local Tier-2/3 nursing homes); (4) budget elasticity for annual premium; (5) lifestyle risks (travel, sports, family planning in next 3 years); (6) tax bracket and existing 80D utilisation; (7) understanding of co-pay, sub-limits, room-rent capping, PPN/non-PPN; (8) appetite for individual vs floater vs combo. After each question, add a one-line coaching note for me on what answer signals which product family (Star Comprehensive, HDFC Ergo Optima Secure, Niva Bupa Reassure, Care Supreme, ICICI Lombard Elevate, Aditya Birla Activ Health). End with a recommendation matrix template that maps client profile to top-3 product shortlist, ideal sum-insured (₹10L/25L/50L/1Cr), suggested super top-up structure, and rider stack. Include a free-look 30-day disclosure paragraph and a transparent commission/brokerage disclaimer aligned with IRDAI conduct rules. Output as a numbered playbook I can paste into Notion.",
-      "tags": ["needs-analysis", "first-time-buyer", "irdai", "discovery"],
-      "isFree": true
+      "tags": [
+        "needs-analysis",
+        "first-time-buyer",
+        "irdai",
+        "discovery"
+      ],
+      "isFree": true,
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text"
     },
     {
       "id": "banking-insurance-health-insurance-advisors-002",
       "title": "Floater vs Individual Decision Framework",
       "prompt": "You are a health insurance advisor explaining individual vs family floater to a salaried Indian client (age 38, wife 35, two kids aged 6 and 9, parents 65 and 62 in another city). Build a decision framework as a 1500-word advisory note. Cover: (1) actuarial logic of floater pricing for nuclear family vs separate individual policies for senior parents; (2) why bundling parents into the same floater is almost always sub-optimal due to age-band loading; (3) restoration benefit dynamics in Star Family Health Optima, HDFC Ergo Optima Restore, Niva Bupa ReAssure 2.0 — show how a single ₹10L floater can be exhausted by one parent claim leaving the children unprotected; (4) recommended structure: ₹15L floater for self+spouse+kids on HDFC Ergo Optima Secure plus separate ₹10L individual senior-citizen plan per parent on Star Red Carpet or Niva Bupa Senior First; (5) cost comparison table with realistic 2026 premiums; (6) tax angle — ₹25k 80D for self+family + ₹50k for senior parents = ₹75k deduction; (7) renewal portability flexibility. End with a one-page client handout in plain English plus a Hindi-translated key-points box for elder-parent buy-in. Include a script to handle the objection ‘But floater is cheaper, why should I split?’.",
-      "tags": ["floater", "individual", "framework", "advisory"],
-      "isFree": true
+      "tags": [
+        "floater",
+        "individual",
+        "framework",
+        "advisory"
+      ],
+      "isFree": true,
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text"
     },
     {
       "id": "banking-insurance-health-insurance-advisors-003",
       "title": "Super Top-Up vs Base Sum Hike Calculator",
       "prompt": "Act as a health insurance advisor with strong actuarial intuition. Build a written super top-up vs base-cover-hike comparison framework for a Mumbai-based 40-year-old client with existing ₹5L Star Comprehensive base. Two upgrade paths: Path A — port to ₹25L Niva Bupa Reassure 2.0 base (premium ~₹32,000); Path B — keep ₹5L base + add ₹20L super top-up with ₹5L deductible like Care Enhance or HDFC Ergo my:health Medisure Super Top-Up (combined premium ~₹18,000). Walk through: (1) deductible mechanics — single hospitalisation vs aggregate annual; (2) PED waiting reset risk on porting vs no reset on adding top-up to existing policy; (3) claim coordination headache between two insurers if same hospitalisation crosses deductible; (4) restoration, NCB, and OPD treatment differences; (5) when super top-up wins (high base already exists, want catastrophic cover cheaply) vs when base hike wins (no existing base, single-claim heavy family); (6) numerical example: ₹18L kidney transplant claim — show payout flow under both paths. Output: side-by-side matrix, recommendation logic tree, and a 200-word client-friendly summary with a clear ‘which one for whom’ verdict.",
-      "tags": ["super-top-up", "comparison", "calculator", "deductible"],
-      "isFree": true
+      "tags": [
+        "super-top-up",
+        "comparison",
+        "calculator",
+        "deductible"
+      ],
+      "isFree": true,
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text"
     },
     {
       "id": "banking-insurance-health-insurance-advisors-004",
       "title": "Four-Insurer Comparison Matrix Generator",
       "prompt": "You are a health insurance broker preparing an unbiased 4-insurer product comparison for a discerning client. Create a detailed matrix comparing HDFC Ergo Optima Secure ₹15L, Niva Bupa Reassure 2.0 ₹15L, Care Supreme ₹15L, and ICICI Lombard Elevate ₹15L for a 35-year-old self + 33-year-old spouse + one child aged 4. Columns: base premium (2026 rates), room-rent capping, ICU capping, co-pay clauses, PED waiting (3 vs 4 years), specific disease waiting (24 months for cataract/hernia/etc), restoration benefit (unlimited vs once vs same-illness), no-claim bonus structure (50% to 200%), maternity rider availability and waiting, OPD wallet, mental health cover post-2018 mandate, organ donor cover sub-limit, AYUSH cover, cashless network size, TPA (in-house vs Medi Assist/Heritage/Vidal), domiciliary, day-care list, free health check, claim settlement ratio (latest IRDAI handbook), incurred claims ratio, complaint volume, and unique USP. End with a weighted scoring rubric (assign weights to top-5 client priorities) and produce a final ranked recommendation with one-paragraph rationale per insurer. Include a disclosure that this is product-level comparison, not insurer-bashing, and that final choice depends on client priorities.",
-      "tags": ["comparison-matrix", "products", "insurers", "broker"],
-      "isFree": true
+      "tags": [
+        "comparison-matrix",
+        "products",
+        "insurers",
+        "broker"
+      ],
+      "isFree": true,
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text"
     },
     {
       "id": "banking-insurance-health-insurance-advisors-005",
       "title": "Cashless Pre-Authorisation Letter Walkthrough",
       "prompt": "Act as a health insurance advisor coaching a client through their first cashless hospitalisation in a network hospital. Write a step-by-step 20-step walkthrough document for a planned admission (e.g., gallbladder laparoscopic surgery at Apollo Bangalore) under their HDFC Ergo Optima Secure ₹10L policy. Cover: (1) check hospital is on the insurer’s PPN list, not just any network hospital; (2) call the TPA helpline (Medi Assist/Heritage/Vidal) 72 hours before admission; (3) submit pre-auth form signed by treating doctor with provisional diagnosis, ICD-10 code, line of treatment, expected length of stay, and estimated cost broken into room, ICU, surgeon, anaesthetist, OT, consumables, implants; (4) common reasons for pre-auth query — vague diagnosis, missing investigation reports, room-rent above eligible cap, exclusions like cosmetic/experimental; (5) how to respond to a query within 6 hours; (6) escalation matrix if pre-auth is denied — request reasons in writing, push for partial approval, fall back on reimbursement; (7) discharge process — final bill audit, deduction reasons (proportionate room-rent, non-medical items list per IRDAI), co-pay collection, settlement signature. End with a ready-to-send WhatsApp template the client can forward to me with admission details so I can run the pre-auth chase from my side.",
-      "tags": ["cashless", "pre-authorisation", "claims", "walkthrough"],
-      "isFree": true
+      "tags": [
+        "cashless",
+        "pre-authorisation",
+        "claims",
+        "walkthrough"
+      ],
+      "isFree": true,
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text"
     },
     {
       "id": "banking-insurance-health-insurance-advisors-006",
       "title": "Reimbursement Claim File Kit Builder",
       "prompt": "You are a health insurance advisor preparing a reimbursement claim file for a client whose father was hospitalised at a non-network nursing home in Coimbatore for 5 days (acute pancreatitis, total bill ₹1.85L). Policy: Star Senior Citizens Red Carpet ₹5L. Build a complete file-kit checklist with every document, the right format, page sequence, and common rejection trigger to avoid. List in order: (1) duly filled and signed claim form Part A (insured) and Part B (hospital/doctor); (2) original final hospital bill with break-up + numbered receipts; (3) discharge summary with date of admission, complaints, history, examination findings, investigations, treatment given, condition at discharge, advice; (4) all investigation reports — blood, USG, CT, biopsy — with original prescriptions; (5) pharmacy bills cross-mapped to in-patient prescription; (6) implant invoice and sticker if applicable; (7) consultation papers from treating doctor pre and post hospitalisation (pre 30 days, post 60 days); (8) KYC of the proposer and patient — Aadhaar, PAN, cancelled cheque for NEFT; (9) FIR and MLC if accident; (10) earlier policy schedule and previous year’s claim history. Add a covering letter template, a courier-tracking log, a TAT chart (insurer 30 days post complete docs per IRDAI), and a chase-call script for day 15 and day 25. End with three rejection-trigger landmines specific to senior-citizen claims (PED non-disclosure, room-rent proportionate deduction, non-medical items).",
-      "tags": ["reimbursement", "claims", "documents", "checklist"]
+      "tags": [
+        "reimbursement",
+        "claims",
+        "documents",
+        "checklist"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-007",
       "title": "PED Rejection Appeal Letter Drafter",
       "prompt": "Act as a senior health insurance grievance specialist. Draft a strongly worded but professional appeal letter for a client whose ₹4.2L claim under Niva Bupa ReAssure 2.0 was rejected on grounds of pre-existing disease non-disclosure. Background: client (age 46) was hospitalised for angioplasty 14 months after policy inception. Insurer alleges history of hypertension diagnosed 3 years before policy. Client claims he was never formally diagnosed and had no prescription. Build the letter in this structure: (1) policy reference, claim number, date of repudiation; (2) point-by-point rebuttal of each allegation with reference to the actual proposal form questions answered (was the question specific? was hypertension explicitly asked?); (3) burden of proof on insurer per IRDAI Protection of Policyholders’ Interests Regulations 2017 and the Manmohan Nanda vs United India SC judgment principle; (4) request for the medical opinion and underwriting note relied upon; (5) demand reconsideration within 15 days failing which escalation to insurer’s Grievance Redressal Officer, then IRDAI Bima Bharosa portal, then Insurance Ombudsman with claim amount under ₹50L jurisdiction. Add a parallel checklist for the client: collect treating cardiologist certificate stating de-novo presentation, pharmacy 5-year purchase history, prior health check reports showing normal BP. End with a 90-day timeline and a fallback Consumer Forum option.",
-      "tags": ["ped", "rejection", "appeal", "grievance", "ombudsman"]
+      "tags": [
+        "ped",
+        "rejection",
+        "appeal",
+        "grievance",
+        "ombudsman"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-008",
       "title": "Portability Pitch — Switch to Better Insurer",
       "prompt": "You are a health insurance advisor pitching portability to a client currently on Religare Care 5L (purchased 6 years ago) who is unhappy with claim experience and wants to move to HDFC Ergo Optima Secure ₹15L. Build a complete portability advisory covering: (1) IRDAI portability rights — must intimate existing insurer 45 to 60 days before renewal, new insurer must respond within 15 days; (2) carry-forward of PED waiting and time-bound exclusions already served — illustrate that 6 years of credit means PED waiting is fully served on port; (3) sum-insured upgrade trap — only the original sum is fully ported, the incremental ₹10L will have fresh waiting periods; (4) underwriting risk — new insurer can decline or load premium for declared health conditions; (5) documentation needed — portability form, last 4 years renewal certificates, claim history, fresh proposal with full medical disclosure; (6) timing — port at renewal not mid-term; (7) cooling-off and free-look 30 days on the new policy. Provide a side-by-side comparison of features lost vs gained. End with a 4-touchpoint email and WhatsApp drip sequence to walk the client through application, medicals, acceptance, and policy issuance over 45 days, plus a one-pager ‘what changes for you on day one’.",
-      "tags": ["portability", "switch", "renewal", "irdai"]
+      "tags": [
+        "portability",
+        "switch",
+        "renewal",
+        "irdai"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-009",
       "title": "Senior Citizen Parents Coverage Audit",
       "prompt": "Act as a health insurance advisor doing a coverage audit for a client’s parents — father 68 with controlled diabetes and hypertension, mother 64 with hypothyroidism and osteoarthritis, residing in Pune. Currently uninsured because earlier proposals were declined. Build a detailed action plan covering: (1) shortlist of senior-friendly products that accept 60+ first-time buyers — Star Senior Citizens Red Carpet, Niva Bupa Senior First, Care Senior, Aditya Birla Activ Care, ManipalCigna Prime Senior, HDFC Ergo my:health Suraksha senior variant; (2) realistic premiums at ₹5L, ₹7.5L, ₹10L sum insured per parent including PED loading; (3) co-pay structure (typically 20-30% on senior plans) and how to mitigate via super top-up; (4) waiting periods — PED 24-48 months, specific disease 24 months, dialysis/joint replacement specific clauses; (5) medical underwriting flow — pre-policy check at empanelled lab, blood, urine, ECG, TMT, sometimes 2D-Echo; (6) declaration of every condition with prescriptions and reports to avoid claim repudiation later; (7) tax benefit ₹50k under 80D for senior parents; (8) hospitalisation network in Pune — Ruby Hall, Jehangir, Sahyadri, Manipal. End with a parent-friendly explainer in simple Hindi/Marathi tone and a 12-month review reminder calendar.",
-      "tags": ["senior-citizen", "parents", "audit", "ped"]
+      "tags": [
+        "senior-citizen",
+        "parents",
+        "audit",
+        "ped"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-010",
       "title": "Maternity Rider Planning for Newlyweds",
       "prompt": "You are a health insurance advisor counselling a newly married couple (husband 29, wife 27) in Hyderabad planning a baby in 2-3 years. Create a 1500-word maternity-cover planning advisory. Cover: (1) why most base plans exclude maternity and require a maternity rider with a 24-36 month waiting period — hence start now; (2) shortlist of maternity-friendly products: Star Wedding Gift Insurance, HDFC Ergo Optima Secure with maternity add-on, Niva Bupa Aspire, Care Joy, Aditya Birla Activ Health Platinum Enhanced, ICICI Lombard Elevate maternity option; (3) sub-limits typically ₹50k normal / ₹1L caesarean and how that compares to actual Apollo/KIMS/Rainbow delivery costs of ₹1.5L to ₹4L in Hyderabad; (4) newborn cover from day 1 vs 91 days, vaccination cover, congenital internal vs external; (5) IVF and assisted reproduction inclusions in Aditya Birla and Star — typical ₹50k-₹2L sub-limit; (6) co-pay and proportionate room-rent traps; (7) plan B — combination of base ₹10L floater + dedicated maternity rider + corporate group cover top-up. Include a 36-month timeline showing waiting period maturity, premium projection, and switch points. End with a couple-friendly handout and an objection script for ‘we’ll buy when we plan the baby’.",
-      "tags": ["maternity", "rider", "newlyweds", "ivf"]
+      "tags": [
+        "maternity",
+        "rider",
+        "newlyweds",
+        "ivf"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-011",
       "title": "OPD Add-On Math and Worth-It Analysis",
       "prompt": "Act as a health insurance advisor doing an honest cost-benefit analysis on OPD add-ons. Build a written analysis for a client family of 4 in Bengaluru considering Aditya Birla Activ Health Platinum Enhanced OPD wallet vs HDFC Ergo Optima Secure with separate OPD rider vs ManipalCigna ProHealth Prime Active OPD vs standalone OPD products like Plum/Loop. Cover: (1) annualised actual OPD spend mapping — GP visits ₹500x12, paediatrician ₹800x6, dental ₹3000, eye ₹2000, pharmacy ₹15000, diagnostics ₹8000 — total ~₹40k; (2) typical OPD rider wallet ₹15-50k with sub-limits per visit and capped pharmacy; (3) premium loading of ₹8-25k for OPD vs out-of-pocket; (4) tele-consult and home diagnostic value-adds; (5) restrictions — empanelled doctor only, claim-by-claim documentation friction; (6) wellness reward and HRA-style discount mechanics in Aditya Birla’s Activ Days; (7) when OPD genuinely pays back (chronic illness families, young kids, senior parents) and when it’s a vanity buy. Provide a decision tree and a honest verdict — buy OPD if A and B and C, skip if D. End with a 200-word client summary and an invoice-tracker template they can use to measure actual OPD reimbursement value across the year.",
-      "tags": ["opd", "add-on", "math", "wellness"]
+      "tags": [
+        "opd",
+        "add-on",
+        "math",
+        "wellness"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-012",
       "title": "Critical Illness vs Health Insurance Clarifier",
       "prompt": "You are a health insurance advisor clearing a common client confusion — should they buy a critical illness (CI) policy in addition to indemnity health insurance? Build a 1500-word advisory comparing indemnity (Star Comprehensive ₹10L) vs benefit-based CI (HDFC Ergo Critical Illness Platinum ₹25L lump-sum, ICICI Pru iProtect Smart CI rider, Aditya Birla Activ Secure Critical Illness, Niva Bupa CritiCare). Cover: (1) fundamental difference — indemnity reimburses hospital bill, CI pays fixed lump-sum on diagnosis of listed conditions; (2) typical 30-50 listed illnesses — cancer of specified severity, MI, stroke, kidney failure, major organ transplant, multiple sclerosis, paralysis; (3) survival period (typically 14-30 days) and definitions trap — most early-stage cancers excluded; (4) why CI is income-replacement + lifestyle-modification money, not bill-paying money — supports loss of income during 1-2 year recovery; (5) ideal structure for a 35-year-old earning ₹25L: ₹15L floater indemnity + ₹50L term life + ₹25L CI standalone; (6) tax — CI premium 80D eligible up to ₹25k; (7) renewability and entry-age limits. End with a one-page comparison and a script to handle ‘my health insurance covers cancer, why CI?’.",
-      "tags": ["critical-illness", "ci", "comparison", "advisory"]
+      "tags": [
+        "critical-illness",
+        "ci",
+        "comparison",
+        "advisory"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-013",
       "title": "WhatsApp Drip Campaign for Cold Leads",
       "prompt": "Act as a health insurance advisor designing a 14-day WhatsApp drip nurture for cold leads collected from a Diwali housing-society health-camp in Gurgaon. Lead profile: 30-45 age band, ₹15-40L household income, mostly under-insured with employer-only cover. Build 14 daily WhatsApp messages of 60-120 words each, with the right mix of education, social proof, urgency, and soft CTA. Day 1 — ‘the ₹3.2L Apollo Gurgaon dengue bill that broke a family budget’ story; Day 2 — employer cover myth-busters (terminates on resignation, ₹3-5L is woefully inadequate); Day 3 — IRDAI free-look 30-day risk-reversal explainer; Day 4 — Star vs HDFC Ergo vs Niva Bupa quick comparison carousel; Day 5 — 80D tax savings calculator GIF; Day 6 — testimonial video from a real client; Day 7 — ‘parents over 60’ urgency angle; Day 8 — super top-up math; Day 9 — claim story (cashless approval in 2 hours); Day 10 — premium freeze before age-band jump at 35/40/45; Day 11 — limited-time advisor offer (free policy review); Day 12 — FAQ carousel; Day 13 — last-call urgency; Day 14 — soft goodbye + opt-down to monthly newsletter. For each message provide message text, recommended media (image/PDF/video), and click-tracking CTA link template. End with a Twilio/Wati-ready broadcast schedule.",
-      "tags": ["whatsapp", "drip", "cold-leads", "nurture"]
+      "tags": [
+        "whatsapp",
+        "drip",
+        "cold-leads",
+        "nurture"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-014",
       "title": "Hospitalisation-Incident Outreach Hook",
       "prompt": "You are a health insurance advisor with a referral source at a hospital who shares (with consent) names of patients discharged after a non-critical admission who paid out-of-pocket. Draft a respectful, empathetic outreach hook to convert these warm leads. Build: (1) a 90-second voice-note script in Hindi-English mix that opens with empathy (‘I hope your recovery is going well’), establishes the advisor’s credentials, and offers a free 15-minute policy gap-review without selling; (2) a follow-up WhatsApp message with a one-image infographic showing the average dengue/typhoid/appendicitis bill in their city vs typical insurance payout; (3) a sample case study of a similar patient who later bought ₹10L Niva Bupa Reassure and saved ₹2.4L on their next hospitalisation; (4) a meeting-booking calendar link; (5) a 3-day, 7-day, 14-day non-pushy follow-up cadence; (6) compliance guardrails — no false urgency, no insurer-bashing, IRDAI advertisement code adherence, data-privacy mention, opt-out instructions. End with a script to handle ‘I’m planning to buy through my CA/cousin/bank’ and a referral-fee disclosure paragraph in case the hospital expects one (which is illegal under IRDAI; coach the advisor to refuse and offer goodwill alternatives).",
-      "tags": ["outreach", "hospitalisation", "warm-leads", "ethics"]
+      "tags": [
+        "outreach",
+        "hospitalisation",
+        "warm-leads",
+        "ethics"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-015",
       "title": "Salary-Class Pitch Deck for IT Park Demos",
       "prompt": "Act as a health insurance advisor pitching a 20-minute lunch-and-learn session at an IT park in Pune-Hinjewadi. Audience: 50 mid-level engineers aged 28-40, household income ₹15-50L, mostly with employer floater of ₹3-5L only. Build a 12-slide pitch deck outline. Slide 1 — ‘Your employer cover ends the day you switch jobs’ hook; Slide 2 — real Pune hospital cost benchmarks (Ruby Hall vs Sahyadri ICU rates); Slide 3 — 5 truths about employer group cover (no PED waiting carry-over, no senior parents, low sum-insured, no portability of accumulated NCB); Slide 4 — the ‘job-to-job gap’ risk; Slide 5 — recommended 3-layer architecture (employer + ₹15L individual base + ₹50L super top-up); Slide 6 — product shortlist — Optima Secure, Reassure 2.0, Care Supreme, Activ Health; Slide 7 — premium math at age 30 vs 40 (lock-in early); Slide 8 — 80D tax savings ₹25k/₹50k/₹75k slabs; Slide 9 — claim-experience proof points and TPA explainer; Slide 10 — 30-day free-look risk reversal; Slide 11 — limited-time on-the-spot advisor offer (free medical, premium discount, EMI option); Slide 12 — QR code for 1-on-1 booking. For each slide provide headline, 3 bullets, speaker notes, and a designed-image suggestion. End with the post-event 48-hour follow-up sequence.",
-      "tags": ["pitch-deck", "it-park", "salaried", "lunch-learn"]
+      "tags": [
+        "pitch-deck",
+        "it-park",
+        "salaried",
+        "lunch-learn"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-016",
       "title": "80D Tax Optimisation Worksheet",
       "prompt": "You are a health insurance advisor doubling as a tax-aware planner for a 42-year-old client in Delhi paying premiums for self+spouse+2 kids and senior parents (father 68, mother 65). Build an 80D optimisation worksheet covering: (1) the 80D structure under the Old Tax Regime — ₹25k for self/family + ₹50k for senior parents + ₹5k preventive health check (within the limits) = up to ₹75k deduction; (2) how the new tax regime kills 80D, and the break-even calculation showing when old regime still wins; (3) worked example — base floater ₹22k + super top-up ₹6k + parents’ senior plan ₹38k + preventive check ₹4k = ₹70k actual vs ₹75k cap → optimisation suggestion; (4) lump-sum premium for multi-year policy spread proportionately across years; (5) GST 18% on premium — cannot be claimed separately, included in deduction; (6) ITR Schedule VIA reporting line by line, what to keep — premium receipt with policy number, insurer GSTIN, payment proof, age proof of senior parent; (7) HUF angle for paying parents’ premium; (8) corporate top-up in CTC and how it interacts. End with a fillable Excel-style worksheet template and a one-page CA-handover sheet.",
-      "tags": ["80d", "tax", "worksheet", "itr"]
+      "tags": [
+        "80d",
+        "tax",
+        "worksheet",
+        "itr"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-017",
       "title": "Mental Health Cover Educator (Post-2018 Mandate)",
       "prompt": "Act as a health insurance advisor educating a Gen-Z and millennial client base about the IRDAI mandate (post Mental Healthcare Act 2017 and IRDAI circular 2018) requiring all health insurers to cover mental illness on par with physical illness. Build a 1200-word educational post + a 90-second reel script. Cover: (1) what is now covered — in-patient psychiatric hospitalisation, ECT, suicide-attempt-related care, severe depression, bipolar, schizophrenia, anxiety disorders, OCD, PTSD; (2) what remains commonly excluded or sub-limited — out-patient therapy, counselling, rehab beyond stipulated days, addiction except alcohol-related liver complications; (3) insurer-by-insurer state — HDFC Ergo Optima Secure mental health up to full SI, ICICI Lombard Elevate, Niva Bupa ReAssure, Star Comprehensive (with sub-limits), Aditya Birla Activ Health (with OPD wellness wallet for therapy); (4) waiting period typically same as PED 36 months if pre-existing; (5) documentation needed — psychiatrist diagnosis, ICD-10 F-code, treatment plan; (6) destigmatising script for clients; (7) the ‘suicide attempt is now covered’ point that surprises most; (8) caution — self-inflicted under intoxication exclusions. End with a comparison table and a meeting-CTA for a free policy mental-health audit.",
-      "tags": ["mental-health", "irdai-mandate", "education", "millennials"]
+      "tags": [
+        "mental-health",
+        "irdai-mandate",
+        "education",
+        "millennials"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-018",
       "title": "HNI ₹1Cr+ Sum-Insured Architecture",
       "prompt": "You are a health insurance advisor designing a HNI health-cover architecture for a client (45-year-old promoter, family of 4, residence in South Mumbai, frequent international travel). Goal: ₹2 crore total sum-assured per family member with international cover for planned and emergency treatment. Build a 1500-word architecture document covering: (1) base layer — Niva Bupa Reassure 2.0 ₹50L floater with global cover rider, or HDFC Ergo Optima Secure Global Plus ₹50L with worldwide treatment, or Aditya Birla Activ One Max ₹1Cr; (2) super top-up layer — Care Enhance ₹50L over ₹50L deductible; (3) international add-on for planned treatment in Singapore/UK/USA — Tata AIG MediCare Plus, ManipalCigna Lifetime Global, Bajaj Allianz Global Personal Guard; (4) high-end PPN hospitals in Mumbai — Hinduja, Lilavati, Kokilaben, Nanavati, Jaslok and concierge-claim TPAs; (5) restoration unlimited, NCB cap, room-rent ‘any room’ including suite, no co-pay, no sub-limits; (6) wellness perks — international second opinion, executive health-check at Asian Heart Institute, air-ambulance; (7) total premium budget ₹3-5 lakh per year; (8) 80D ceiling vs actual outflow — explain that bulk premium is not deductible beyond cap; (9) trust/HUF structuring for premium payment. End with a one-page client architecture diagram and an annual-review SLA.",
-      "tags": ["hni", "high-sum", "global-cover", "architecture"]
+      "tags": [
+        "hni",
+        "high-sum",
+        "global-cover",
+        "architecture"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-019",
       "title": "NRI Health Insurance Talking Points",
       "prompt": "Act as a health insurance advisor for an NRI client (Indian passport, Dubai resident, family in Kochi). They want to insure their parents in India and also have a fallback cover for themselves when they visit India. Build a comprehensive talking-points document covering: (1) eligibility — NRI can purchase Indian health insurance for parents resident in India; for self, most insurers require Indian residency for >182 days/year, exceptions like Niva Bupa Reassure, HDFC Ergo Energy and Care Plus accept NRIs with conditions; (2) premium payment in INR from NRE/NRO account — fully repatriable from NRE basis, GST 18% applies; (3) claims while resident in India — cashless and reimbursement work; (4) global cover variants for NRIs visiting India — Aditya Birla Activ One Max global, Tata AIG MediCare Premier; (5) competitor international plans — Cigna Global, Allianz Worldwide Care, Bupa Global — pros and cons vs Indian product; (6) tax — premium paid by NRI for parents qualifies for 80D in parents’ ITR if parents are filing in India, not in NRI’s ITR if NRI has no Indian taxable income; (7) KYC — passport, OCI/PIO if applicable, foreign address proof, India correspondence address; (8) policy issuance flow remotely via DigiLocker and video-KYC. End with a Dubai-Kochi-specific 6-touchpoint email sequence and a free policy review CTA.",
-      "tags": ["nri", "international", "kyc", "tax"]
+      "tags": [
+        "nri",
+        "international",
+        "kyc",
+        "tax"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-020",
       "title": "No-Claim Bonus Optimisation Strategy",
       "prompt": "You are a health insurance advisor advising a client family with 5 claim-free years on Niva Bupa Reassure. Their NCB has accumulated to 100% (₹10L base + ₹10L NCB = effective ₹20L sum). Now there’s a small ₹40k OPD-able claim possibility. Build an NCB-management strategy document covering: (1) how each top insurer’s NCB structure works — HDFC Ergo Optima Secure up to 50%, Niva Bupa Reassure cumulative + ReAssure unlock, Star NCB 50% to 100%, Care multiplier benefit up to 150%, Aditya Birla cumulative 50% per year max 100%; (2) NCB protect rider — pay extra premium to preserve NCB even after a claim, available with HDFC Ergo, Care, and ManipalCigna; (3) the math of claiming a small ₹40k bill — losing 50% NCB next year ≈ losing ₹5L of effective cover — almost always not worth claiming; (4) threshold rule — claim only if expected reimbursement > 2 years of NCB loss equivalent; (5) restoration vs NCB confusion clarification; (6) when to add NCB protect — typically after first NCB step achieved and family has chronic-illness members; (7) what happens to NCB on portability — fully transferable per IRDAI; (8) NCB on floater claim impacts the whole family’s renewal. End with a decision tree and a client-facing infographic outline.",
-      "tags": ["ncb", "no-claim-bonus", "optimisation", "renewal"]
+      "tags": [
+        "ncb",
+        "no-claim-bonus",
+        "optimisation",
+        "renewal"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-021",
       "title": "Claim Settlement Ratio Storytelling",
       "prompt": "Act as a health insurance advisor turning the dry IRDAI claim-settlement-ratio data into a client-friendly story. Build a 1200-word explainer + a 60-second Instagram reel script. Cover: (1) IRDAI’s annual handbook publishes Claim Settlement Ratio (CSR), Incurred Claims Ratio (ICR), and complaint volume — explain each in plain English; (2) why CSR alone is misleading (a 99% CSR can hide that 50% were partial settlements with deductions); (3) the ‘claim experience’ trinity — speed (TAT in days), completeness (% of bill reimbursed), friction (number of queries raised); (4) latest CSR/ICR numbers for HDFC Ergo, Star, Niva Bupa, Care, ICICI Lombard, Aditya Birla, ManipalCigna with commentary; (5) why standalone health insurers (Star, Niva Bupa, Care, ManipalCigna, Aditya Birla) often beat general insurers on health-specific service; (6) two short anonymised real-life claim stories — one smooth cashless, one rough rejection-then-appeal-then-paid; (7) the IRDAI Bima Bharosa portal and Insurance Ombudsman as backstop; (8) a one-line takeaway — pick the insurer your hospital deals with most often and whose TPA your advisor knows by name. End with a downloadable insurer-scorecard PDF outline.",
-      "tags": ["csr", "claim-settlement-ratio", "storytelling", "trust"]
+      "tags": [
+        "csr",
+        "claim-settlement-ratio",
+        "storytelling",
+        "trust"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-022",
       "title": "Room-Rent Cap and Proportionate Deduction Trap",
       "prompt": "You are a health insurance advisor explaining the silent killer of Indian health claims — the room-rent capping clause. Build a 1000-word explainer with worked examples. Cover: (1) what room-rent cap is — typically 1% of SI per day for normal room and 2% for ICU on older/budget plans; (2) the proportionate deduction principle — if the actual room rent is 2x the cap, the insurer reduces every other charge (doctor visit, OT, investigations, medicines, nursing) by 50% as well, not just the room rent; (3) numerical example — ₹5L SI policy with 1% cap = ₹5000/day; client books ₹10000/day single AC room at Fortis Gurgaon; total bill ₹3.2L; insurer pays only ₹1.6L → out-of-pocket ₹1.6L; (4) which products today have ‘no room-rent cap’ — HDFC Ergo Optima Secure, Niva Bupa Reassure 2.0, Care Supreme, Aditya Birla Activ One, ICICI Lombard Elevate, Star Comprehensive (single private AC); (5) ICU sub-limit similar trap; (6) bed-category clause — single private AC is the eligibility, not deluxe/suite; (7) how to advise clients to upgrade old policies; (8) hospital-side hack — request standard eligible room at admission, upgrade later only if available without re-billing. End with a simple ‘ask your advisor’ checklist and a comparison table of room-rent terms across top 6 insurers.",
-      "tags": ["room-rent", "sub-limits", "proportionate", "trap"]
+      "tags": [
+        "room-rent",
+        "sub-limits",
+        "proportionate",
+        "trap"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-023",
       "title": "Cancer Patient Family — Specialised Cover Plan",
       "prompt": "Act as a health insurance advisor handling a sensitive case — a 38-year-old client whose wife (35) was diagnosed with stage-2 breast cancer 4 months ago and is mid-treatment. Existing cover: only ₹3L employer floater. Goal: maximise future protection within IRDAI rules. Build a compassionate, realistic plan covering: (1) reality check — wife’s cancer is now PED, no insurer will issue fresh individual cover for her without a 4-year waiting + likely permanent exclusion; (2) opportunities — port employer cover to retail at the next job-change, retain continuity benefit; (3) cover the husband and children aggressively now while they are healthy — ₹25L floater on Niva Bupa Reassure 2.0 or HDFC Ergo Optima Secure; (4) cancer-specific products that might consider acceptance after treatment-free survival period — HDFC Ergo iCanCare, Star Cancer Care, Aditya Birla CancerShield with conditions and waiting; (5) government schemes — PMJAY if eligible, state cancer schemes (Tamil Nadu CMCHIS, Karnataka Yashasvini); (6) NGO and pharma patient-assistance programs for high-cost drugs (trastuzumab, palbociclib); (7) tax angle — 80DDB deduction up to ₹40k/₹1L for specified disease treatment expenses; (8) emotional and financial counselling resources. End with a 12-month roadmap and a sensitive client-conversation script.",
-      "tags": ["cancer", "ped", "compassionate", "specialised"]
+      "tags": [
+        "cancer",
+        "ped",
+        "compassionate",
+        "specialised"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-024",
       "title": "Diabetic Day-1 Cover Product Finder",
       "prompt": "You are a health insurance advisor finding the right policy for a 45-year-old client with type-2 diabetes diagnosed 6 years ago, currently on metformin + glimepiride, HbA1c 7.2. Standard plans will impose 36-48 month PED waiting. Build a product-finder document covering: (1) day-1 PED cover options — Star Diabetes Safe, Care Freedom, Niva Bupa Diabetes & High BP, ManipalCigna ProHealth Prime Active with chronic-rider, Aditya Birla Activ Health Platinum Enhanced with chronic management; (2) typical loadings — 25-50% premium load and/or co-pay 20-30%; (3) product-by-product comparison on SI options ₹5L/₹7.5L/₹10L, sub-limits for diabetes complications (retinopathy, neuropathy, nephropathy, dialysis, amputation), maternity (often excluded for diabetes plans), restoration; (4) wellness reward systems that reduce premium for HbA1c improvement (Activ Days, ManipalCigna Healthy Rewards); (5) underwriting requirement — fasting + PP glucose, HbA1c, lipid, KFT, urine micro-albumin, ECG; (6) full disclosure script — list every prescription, every prior hospitalisation, every consult; (7) layering — base diabetes-day-1 plan + super top-up Care Enhance ₹15L for catastrophic; (8) 80D tax + 80DDB possibility for severe diabetic complications. End with a recommended product shortlist with pros/cons and a client-friendly summary.",
-      "tags": ["diabetes", "day-1-ped", "chronic", "product-finder"]
+      "tags": [
+        "diabetes",
+        "day-1-ped",
+        "chronic",
+        "product-finder"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-025",
       "title": "Restoration Benefit Demystifier",
       "prompt": "Act as a health insurance advisor decoding the marketing-heavy ‘restoration’ feature for clients. Build a 1200-word explainer and a 30-second video script. Cover: (1) what restoration does — refills the sum insured automatically when the original SI is exhausted within a policy year; (2) types — same-illness restoration, different-illness only, partial vs 100%, single-time vs unlimited, in-built vs optional rider; (3) feature-by-feature comparison — HDFC Ergo Optima Secure 100% restoration on partial or full exhaustion for unrelated illness, Niva Bupa Reassure 2.0 unlimited restoration even for same illness same person via ReAssure, Care Supreme unlimited refills, Star Comprehensive restoration once per year for unrelated illness, ICICI Lombard Elevate unlimited restore, Aditya Birla Activ One unlimited reset; (4) when restoration genuinely helps — multi-claim families, accidents in same year, mother and child both hospitalised; (5) the ‘same illness, same person’ trap in older policies; (6) restoration is not retroactive — it kicks in only after exhaustion; (7) sum-insured planning math — ₹10L base + unlimited restore ≈ ₹20L+ effective for most years; (8) why restoration is now table-stakes and shouldn’t cost extra. End with a one-line per insurer scorecard and a client one-pager.",
-      "tags": ["restoration", "feature", "comparison", "explainer"]
+      "tags": [
+        "restoration",
+        "feature",
+        "comparison",
+        "explainer"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-026",
       "title": "Annual Policy Review Call Script",
       "prompt": "You are a health insurance advisor calling existing clients for the mandatory annual policy review (a retention and upsell ritual). Build a 30-minute structured call script. Phase 1 (5 min) — health and life-event update: any hospitalisation, new chronic diagnosis, marriage, baby, parents’ change in city, change in income/employer. Phase 2 (10 min) — coverage adequacy audit: current SI vs healthcare inflation 12-14% YoY, family member additions, PED development, employer cover changes, geographic move impacting hospital network. Phase 3 (5 min) — policy feature obsolescence check: is the current plan still competitive on room-rent, restoration, NCB, OPD vs latest 2026 products like Optima Secure, Reassure 2.0, Care Supreme. Phase 4 (5 min) — claim-readiness drill: confirm TPA contact saved, hospital network checked for their pin-code, latest KYC and nominee updated. Phase 5 (5 min) — recommendations: super top-up addition, parents’ separate cover, port to better insurer, OPD rider, maternity rider, NCB protect; tax 80D optimisation. End with next-step booking and a 48-hour email summary. Provide objection-handling for ‘I’m too busy’ and ‘nothing has changed’. Add a CRM logging template (Notion/HubSpot/Zoho) capturing every data point captured.",
-      "tags": ["annual-review", "retention", "call-script", "upsell"]
+      "tags": [
+        "annual-review",
+        "retention",
+        "call-script",
+        "upsell"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-027",
       "title": "Tier-3 Town Coverage Strategy",
       "prompt": "Act as a health insurance advisor for clients in Tier-3 and Tier-4 towns (e.g., Dindigul, Bhilwara, Bilaspur, Hazaribagh). Build a coverage strategy document acknowledging unique constraints: limited cashless network, fewer multi-speciality hospitals, frequent referral to Tier-1 city for serious treatment, lower premium-paying capacity. Cover: (1) sum-insured logic — even though local costs are lower, plan must fund Tier-1 referral to Apollo Chennai/AIIMS Delhi/CMC Vellore — recommend ₹10-15L not ₹3L; (2) network density check — pick insurer whose nearest Tier-3 cashless hospital is within 30km, often Star and Care have deeper rural network than HDFC Ergo or ICICI Lombard; (3) reimbursement claim discipline — most Tier-3 hospitalisation will be reimbursement, train client on documentation; (4) emergency air-ambulance and second-opinion add-on relevance; (5) PMJAY Ayushman Bharat eligibility for low-income segment — ₹5L family floater free, list of empanelled hospitals; (6) state-government schemes — TN CMCHIS, Karnataka Yeshasvini, Maharashtra MJPJAY layered with private cover; (7) language and digital-onboarding considerations — vernacular policy wording, IVR-based renewal reminders; (8) advisor-led claim-assistance as differentiator. End with a Tier-3 specific 5-step sale playbook.",
-      "tags": ["tier-3", "rural", "pmjay", "strategy"]
+      "tags": [
+        "tier-3",
+        "rural",
+        "pmjay",
+        "strategy"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-028",
       "title": "Group Health Cover for SME Founders",
       "prompt": "You are a health insurance advisor pitching group health insurance to a 25-employee Bengaluru SaaS startup founder. Build a 1500-word advisory + a 6-slide pitch covering: (1) why group cover is now table-stakes for talent retention in 2026; (2) GMC structure — base ₹3-5L/employee floater including spouse + 2 kids + optional parents; (3) topping options — voluntary parental cover, OPD wallet, maternity waiver day-1, mental health, super top-up; (4) insurer shortlist for SME — ICICI Lombard, HDFC Ergo, Care, Niva Bupa, Star, Plum, Loop, Onsurity for tech-enabled experience; (5) pricing — typical ₹4000-12000 per employee per year for ₹5L floater depending on demographics; (6) underwriting — claims experience, age band, gender ratio, industry; (7) maternity day-1 cover and IVF inclusion negotiation; (8) employer tax deduction under business expense, GST input credit; (9) employee tax — premium paid by employer is not perquisite up to ₹15k limit (older rule, check current); (10) onboarding flow — HRMS integration, e-card issuance, dedicated TPA helpdesk, claim concierge; (11) renewal optimisation — claim ratio target <70%, wellness program ROI, year-on-year benchmark. End with a sample RFP template and an objection-handling for ‘too expensive for a startup’.",
-      "tags": ["group-cover", "gmc", "sme", "founder"]
+      "tags": [
+        "group-cover",
+        "gmc",
+        "sme",
+        "founder"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-029",
       "title": "Saral Suraksha Bima Standardised Pitch",
       "prompt": "Act as a health insurance advisor explaining the IRDAI-standardised products to clients confused by 100+ market options. Build a 1000-word explainer covering Arogya Sanjeevani Policy, Corona Kavach (legacy), Saral Suraksha Bima (personal accident standard), and the proposed standard health products. Cover: (1) why IRDAI mandated standardisation — uniform wording, easier comparison, no fine-print games; (2) Arogya Sanjeevani key features — ₹1L to ₹10L SI, 5% co-pay, room-rent 2% of SI, ICU 5%, PED 4 years, modern treatments included, AYUSH, cumulative bonus 5% per claim-free year capped 50%; (3) every insurer must offer it (Star Arogya Sanjeevani, HDFC Ergo, Niva Bupa, Care, etc.) — pricing varies by claims experience; (4) when Arogya Sanjeevani is right — first-time buyer with budget constraints, wants no-tricks plan; (5) when it’s wrong — co-pay and room-rent caps unsuitable for Tier-1 metro hospitals, ₹10L cap inadequate for HNI; (6) Saral Suraksha Bima — standardised personal-accident — death, permanent total disability, partial disability, hospitalisation, education benefit; positioned as floor-cover not ceiling; (7) how to layer Arogya Sanjeevani with Care Supreme or Optima Secure for affordability and adequacy; (8) Corona Kavach historical context. End with a comparison table and a 200-word client summary.",
-      "tags": ["saral-suraksha", "arogya-sanjeevani", "standardised", "irdai"]
+      "tags": [
+        "saral-suraksha",
+        "arogya-sanjeevani",
+        "standardised",
+        "irdai"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-030",
       "title": "PMJAY Ayushman Bharat Layering",
       "prompt": "You are a health insurance advisor working with low-to-middle income clients in semi-urban Uttar Pradesh. Build a strategy document on layering PMJAY Ayushman Bharat with private health insurance. Cover: (1) PMJAY basics — ₹5L family-floater per year, secondary and tertiary care, paperless cashless at empanelled hospitals, no premium for beneficiary, financed by govt; (2) eligibility — SECC 2011 deprivation criteria, e-KYC at CSC, Ayushman card download from beneficiary.nha.gov.in; (3) limitations — limited to listed packages with capped rates often below market, only empanelled hospitals (skewed to public + select private), no OPD, no cosmetic; (4) layering logic — PMJAY as base, add ₹5L Care Joy or Star Family Health Optima as private layer for non-empanelled hospital choice and OPD; (5) coordination at claim — if PMJAY pays ₹2L of ₹4L bill, private cover handles balance ₹2L; (6) state-scheme overlap — UP Mukhyamantri Jan Arogya Yojana extension; (7) ABHA health-ID and health-locker integration with private cover; (8) advisor’s role — even though PMJAY is free, hand-holding through enrollment, hospital empanelment lookup, and complementary private buy is value-creating; (9) commission economics for advisor when selling layered private. End with a 5-step rural sales playbook.",
-      "tags": ["pmjay", "ayushman-bharat", "layering", "rural"]
+      "tags": [
+        "pmjay",
+        "ayushman-bharat",
+        "layering",
+        "rural"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-031",
       "title": "Organ Donor Cover Sub-Limit Decoder",
       "prompt": "Act as a health insurance advisor decoding the organ donor cover clause that becomes critical for transplant cases. Build a 1000-word explainer for a client whose father needs a kidney transplant where the client (35-year-old son) will be the donor. Cover: (1) what organ donor cover is — pays the donor’s in-patient hospitalisation for organ harvesting surgery, separate from recipient’s cover; (2) typical sub-limits — Star ₹2L sub-cap, HDFC Ergo Optima Secure full SI, Niva Bupa Reassure full SI, Care Supreme up to SI, Aditya Birla Activ One full SI; (3) what is NOT covered — donor screening tests pre-confirmation, donor’s post-discharge complications beyond stated days, organ-purchase cost (illegal in India anyway under THOTA Act 1994); (4) the recipient’s claim mechanics — kidney transplant package at Apollo/Fortis ₹15-25L, surgeon, immunosuppressants, ICU; (5) coordination with state transplant authority and NOTTO for live-donor approval; (6) waiting period — most insurers cover transplant after PED waiting clears; (7) AYUSH and post-transplant immunosuppressant therapy continuity (often 12-24 months pharmacy reimbursement); (8) advisor’s role in pre-auth coordination — submit donor and recipient pre-auth simultaneously, cross-reference policy numbers; (9) tax angle — 80DDB up to ₹1L for transplant-related dependent expenses. End with a documents-checklist and a sensitive client-conversation script.",
-      "tags": ["organ-donor", "transplant", "sub-limit", "decoder"]
+      "tags": [
+        "organ-donor",
+        "transplant",
+        "sub-limit",
+        "decoder"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-032",
       "title": "Family Coverage Audit Template",
       "prompt": "You are a health insurance advisor doing a holistic family coverage audit for a 4-generation joint family in Ahmedabad — grandparents 78 and 75, parents 52 and 49, client 28 and spouse 27, infant 6 months. Build an audit template + a written advisory. Cover: (1) inventory current covers — list every policy, insurer, SI, premium, rider, NCB, room-rent terms, PED status, renewal date; (2) gap analysis — who is under-insured, who has no cover, who is covered through corporate that may terminate; (3) age-based product fit — grandparents on Star Red Carpet ₹5L + state senior scheme, parents on individual ₹10L Care Senior, client family on ₹25L Niva Bupa Reassure floater, infant covered as floater dependent + child-specific add-on; (4) consolidation opportunities — single multi-individual policy through HDFC Ergo Family Floater Plus to simplify renewal; (5) claim-pathway diagram for each member showing TPA, network hospital, advisor escalation; (6) emergency-fund layer — ₹5L liquid in MF for non-medical/rejected/co-pay portion; (7) tax optimisation across 80D for client (₹25k self) + senior parents (₹50k) + super-senior grandparents (₹50k via parents’ ITR); (8) annual review calendar with each renewal date; (9) digital vault — PDF policy copies in DigiLocker shared with two family members. End with an Excel/Notion template and a 90-minute family-meeting agenda.",
-      "tags": ["family-audit", "joint-family", "template", "consolidation"]
+      "tags": [
+        "family-audit",
+        "joint-family",
+        "template",
+        "consolidation"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-033",
       "title": "Free-Look Period 30-Day Risk Reversal Script",
       "prompt": "Act as a health insurance advisor leveraging the IRDAI 30-day free-look period as a sales risk-reversal lever. Build a 600-word explainer + a 90-second sales script. Cover: (1) free-look right — every health insurance policy comes with 30 days from receipt of policy document during which the policyholder can review terms, raise objections, or cancel for a full refund minus pro-rata risk premium and underwriting cost; (2) what to use the 30 days for — read every clause, especially exclusions, sub-limits, room-rent, PED definition, network hospital list, TPA contact, claim documentation list; (3) how to formally cancel — written request to insurer with reason, supporting bank details for refund, return policy document; (4) what gets refunded — premium minus risk-on-cover proportionate days minus stamp duty minus medical-test cost; (5) sales script — ‘There is zero downside to you signing today; you have 30 days at home to review, and if anything is unclear or unsatisfactory, I will personally process your full refund — that’s your IRDAI right, not my favour’; (6) ethical positioning — never weaponise free-look to mis-sell, but use it to remove decision paralysis; (7) digital free-look initiation through insurer self-service portal; (8) reality check — only 0.5% of policies are actually freed-up so the risk to advisor is minimal. End with a one-page client handout titled ‘Your 30-Day Risk-Free Review’.",
-      "tags": ["free-look", "30-day", "risk-reversal", "sales"]
+      "tags": [
+        "free-look",
+        "30-day",
+        "risk-reversal",
+        "sales"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-034",
       "title": "Renewal Reminder Sequence (15-Day Intimation)",
       "prompt": "You are a health insurance advisor designing an automated yet personal renewal-reminder sequence for clients. IRDAI grace period is 15-30 days post-due-date but PED waiting and continuity benefit reset if lapse. Build a sequence covering: (1) 60 days before — first email + WhatsApp ‘renewal reminder + opportunity to review and upgrade’; (2) 45 days before — phone call to discuss any health changes, sum-insured upgrade, port-out option; (3) 30 days before — premium quote with any loyalty discount, link to pay; (4) 15 days before — second WhatsApp + email with cashless network update, latest IRDAI changes, urgency note; (5) 7 days before — call from advisor; (6) 3 days before — final reminder + auto-debit setup option; (7) due date — payment confirmation, receipt forwarding, GST invoice; (8) day +1 if unpaid — grace period explanation and continuity-benefit-loss warning script; (9) day +15 if unpaid — last-chance call before lapse, port-out to another insurer if dissatisfied; (10) post-renewal — thank-you note + new policy schedule + e-card. Provide message text for each touchpoint, automation tool suggestions (Zoho Bigin, HubSpot, Wati), and CRM tags. Add an objection-handling matrix for ‘premium increased too much’, ‘planning to switch’, ‘had no claim, why pay’.",
-      "tags": ["renewal", "reminder", "sequence", "retention"]
+      "tags": [
+        "renewal",
+        "reminder",
+        "sequence",
+        "retention"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-035",
       "title": "Claim Rejection Rescue Plan",
       "prompt": "Act as a health insurance advisor offering a free ‘claim rejection rescue’ service to attract distressed leads in Indore. Build a 7-step rescue framework: (1) initial intake — collect rejection letter, claim form, hospital bills, discharge summary, prior policy schedules, full medical history; (2) diagnose rejection ground — categorise as PED non-disclosure, exclusion clause, room-rent capping, non-medical items, late intimation, fraud allegation, document insufficiency, or vague reason; (3) rebuttal strategy per ground — for PED, gather treating doctor certificate of de-novo presentation; for room-rent, request itemised deduction breakdown; for late intimation, cite force-majeure or hospital-emergency exception; (4) representation letter — draft formal appeal to insurer Grievance Officer within 30 days of rejection; (5) escalation matrix — IRDAI Bima Bharosa portal at bimabharosa.irdai.gov.in, Insurance Ombudsman for claims under ₹50L, Consumer Forum (District/State/National) for larger or fraud cases; (6) timeline — Grievance Officer 14 days, Ombudsman 90 days, Consumer Forum 6-24 months; (7) success-fee model for advisor — ₹5000 flat or 10% of recovered amount post-success, fully disclosed in writing. Add a marketing pitch — ‘90-day money-back rescue guarantee’ — and a website landing-page outline + 3 case-study templates from anonymised wins.",
-      "tags": ["rejection", "rescue", "ombudsman", "service"]
+      "tags": [
+        "rejection",
+        "rescue",
+        "ombudsman",
+        "service"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-036",
       "title": "Modern Treatments and Day-Care Procedure Educator",
       "prompt": "You are a health insurance advisor educating clients on the IRDAI-mandated modern-treatments cover and the 405+ day-care procedures list. Build a 1200-word explainer + a 10-image carousel for Instagram. Cover: (1) the IRDAI 2019/2020 circular requiring all health insurers to cover 12 modern treatments — uterine artery embolization, balloon sinuplasty, deep brain stimulation, oral chemotherapy, immunotherapy, intra-vitreal injections, robotic surgery, stereotactic radiosurgery, bronchial thermoplasty, vaporisation of prostate, IONM, stem cell therapy for haematological conditions; (2) what was historically excluded as ‘experimental’ now covered with sub-limits up to 50% of SI typically; (3) day-care procedures — 405+ procedures requiring under 24-hour hospitalisation, e.g., cataract, dialysis, chemo, lithotripsy, tonsillectomy, hernia, pacemaker insertion — fully covered without the 24-hour rule; (4) insurer-by-insurer day-care list comparison — Star, HDFC Ergo, Niva Bupa, Care often cover 540+; (5) AYUSH cover for in-patient Ayurveda/Unani/Siddha/Homoeopathy at govt-recognised hospitals up to SI; (6) tele-medicine and home healthcare emerging coverage; (7) what to ask the doctor pre-procedure — written advice that procedure qualifies as day-care, expected duration, sub-limit applicability; (8) claim documentation specifics for day-care. End with a one-pager and a 60-second reel script titled ‘Cataract is covered without 24-hour admission, here’s how’.",
-      "tags": ["modern-treatments", "day-care", "education", "irdai"]
+      "tags": [
+        "modern-treatments",
+        "day-care",
+        "education",
+        "irdai"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-037",
       "title": "Cross-Sell to Existing Term Insurance Clients",
       "prompt": "Act as a health insurance advisor cross-selling to your existing book of term-insurance clients. Build a 30-day cross-sell campaign for 200 clients who bought term life from you in the last 3 years but don’t hold health cover with you. Cover: (1) segmentation — by age, family size, employer-cover status, income; (2) opening message — ‘Quick health-cover audit on the house — 15 minutes, no obligation, your term plan covers death; what about hospitalisation that doesn’t kill?’; (3) the term + health combo math — average Indian critical hospitalisation ₹3-8L, term doesn’t pay until death, health protects ongoing wealth; (4) pitch products — Niva Bupa Reassure 2.0, HDFC Ergo Optima Secure, Care Supreme — at appropriate SI; (5) pricing bundle — combine term-renewal touchpoint with health onboarding for convenience; (6) digital onboarding — same KYC, Aadhaar e-sign, single video-medical; (7) advisor incentive — first-year health commission averages 15-25% vs term 35% trail, but health renews lifelong with predictable income; (8) referral hook — happy term clients refer 1.5x more for health; (9) measurement — target 25% conversion in 30 days, 40% in 90 days. Provide email + WhatsApp templates, a tracking dashboard, and a script for ‘I already have employer cover’.",
-      "tags": ["cross-sell", "term-insurance", "campaign", "existing-book"]
+      "tags": [
+        "cross-sell",
+        "term-insurance",
+        "campaign",
+        "existing-book"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-038",
       "title": "Pre-Existing Disease Disclosure Coaching",
       "prompt": "You are a health insurance advisor coaching a client through honest, complete PED disclosure on the proposal form — the single biggest cause of claim rejection in India. Build a 1000-word coaching guide. Cover: (1) why disclosure protects the client — non-disclosure of even minor history (one-off thyroid medication 5 years ago, gallstones detected on USG never operated, gestational diabetes) gives insurer grounds to repudiate at claim time; (2) what counts as PED per IRDAI — any condition diagnosed or treated in the 48 months prior to policy inception, including symptoms reported to a doctor; (3) the proposal form section-by-section walkthrough — past hospitalisation, current medication, hereditary conditions in family, lifestyle (smoking, alcohol, BMI), previous policy declines; (4) what to attach — last 3 years prescriptions, recent investigation reports, hospital discharge summaries; (5) outcome scenarios — clean acceptance, premium loading 25-50%, condition-specific exclusion (e.g., kidney-related claims excluded), policy decline; (6) negotiating loading — request co-pay alternative, offer pre-policy health check; (7) why ‘my agent told me to skip it’ is the worst mistake — courts side with insurer when proposal form is signed by client; (8) digital DigiLocker pull of medical records to make disclosure easier. End with a sample PED-disclosure annexure template and a script to handle the client question ‘Will it get rejected if I tell?’",
-      "tags": ["ped", "disclosure", "coaching", "underwriting"]
+      "tags": [
+        "ped",
+        "disclosure",
+        "coaching",
+        "underwriting"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-039",
       "title": "GST 18% on Premium — Client Explainer",
       "prompt": "Act as a health insurance advisor explaining the GST 18% on health insurance premium without losing the sale. Build a 600-word explainer + a 30-second video. Cover: (1) GST is mandatory across all general insurance including health — 18% applied on the base premium; (2) example — Niva Bupa Reassure 2.0 ₹15L floater base premium ₹22,000 + GST ₹3,960 = total ₹25,960; (3) where GST goes — central + state government, not insurer or advisor; (4) GST is NOT separately deductible — total amount paid (base + GST) is eligible under Section 80D within the cap; (5) GSTIN of the insurer is mentioned on the premium receipt for input-credit by businesses (corporate-paid GMC); (6) salaried individual cannot claim GST input credit; (7) the ongoing public discussion to reduce/remove GST on health insurance — current advocacy by IRDAI and consumer bodies; (8) selling angle — ‘GST is unavoidable for any insurer you choose, so focus on product fit not on GST avoidance’; (9) e-invoicing for corporate clients to enable input credit; (10) GST refund on free-look cancellation — proportionate refund of GST as well. End with a sample premium-receipt screenshot annotated and a one-line objection handle for ‘GST makes it too expensive’.",
-      "tags": ["gst", "premium", "tax", "explainer"]
+      "tags": [
+        "gst",
+        "premium",
+        "tax",
+        "explainer"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-040",
       "title": "Multi-Year Policy Pitch (2 or 3 Years)",
       "prompt": "You are a health insurance advisor pitching a 2-year or 3-year multi-year health policy to a client to lock in premium and avoid renewal hassle. Build a 1000-word advisory covering: (1) which insurers offer multi-year — Niva Bupa, HDFC Ergo Optima Secure, Care Supreme, ManipalCigna, Aditya Birla typically allow 2-3 year terms; (2) typical discount — 7.5% on 2-year, 10-12.5% on 3-year on aggregate premium; (3) premium freeze — current rates locked, immune to age-band jump at 35/40/45/50/55 thresholds during the term, immune to insurer-wide rate hikes; (4) cash-flow planning — single larger upfront payment, EMI options through Bajaj Finserv/HDFC Credit Card; (5) tax 80D — IRDAI allows the multi-year premium to be claimed proportionately across years (e.g., 3-year ₹75k = ₹25k per year); (6) cons — no portability mid-term, locked into one insurer’s service quality, partial refund mechanics on free-look or surrender; (7) scenarios where multi-year wins — young healthy clients with stable cash-flow, want to avoid annual sales-pitch friction; (8) when to skip — clients likely to port out, expecting major life changes; (9) sales script — ‘Lock today’s premium for 3 years, save 12%, skip the renewal anxiety, and if anything changes you have free-look on day 1’. End with a side-by-side annual vs 3-year cost-and-benefit table.",
-      "tags": ["multi-year", "premium-lock", "discount", "pitch"]
+      "tags": [
+        "multi-year",
+        "premium-lock",
+        "discount",
+        "pitch"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-041",
       "title": "Wellness and Discount Programs Decoder",
       "prompt": "Act as a health insurance advisor explaining wellness reward programs across insurers — a feature increasingly used to differentiate. Build a 1200-word decoder. Cover: (1) Aditya Birla Activ Days — earn HealthReturns up to 100% premium discount for daily walking 10k steps, gym, BMI improvement, vaccination; (2) HDFC Ergo my:health Active — wellness coach app, discounts on health checks; (3) ManipalCigna Healthy Rewards — 20% premium discount cap based on activity, biometric improvement; (4) Niva Bupa Health Coach — gamified wellness, partner gym discounts; (5) Care Health Heart Mediclaim wellness; (6) Star Comprehensive wellness rebate; (7) ICICI Lombard Elevate wellness wallet; (8) how to calculate true ROI — premium discount per year vs effort, often 5-10% real-world realisation; (9) data privacy concern — wellness apps collect health and activity data, advisor must disclose insurer use; (10) corporate wellness integration with GMC for employee health-score; (11) which client types benefit most — young, fitness-active, urban, gadget-friendly; (12) which to skip — senior, chronic-illness, less digital. Provide a comparison matrix scoring each program on real-world value, ease of use, privacy, premium discount potential. End with a 200-word client recommendation per profile.",
-      "tags": ["wellness", "rewards", "discount", "decoder"]
+      "tags": [
+        "wellness",
+        "rewards",
+        "discount",
+        "decoder"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-042",
       "title": "Insurance Ombudsman Filing Walkthrough",
       "prompt": "You are a health insurance advisor walking a client through filing a complaint with the Insurance Ombudsman after an insurer-level grievance failed. Build a step-by-step walkthrough covering: (1) jurisdiction — Insurance Ombudsman Centre (Mumbai/Delhi/Chennai/Kolkata/etc.) covers claims up to ₹50L for individual policyholders; (2) eligibility — must have first complained to insurer’s Grievance Redressal Officer and either received unsatisfactory reply or no reply within 30 days, must file Ombudsman within 1 year of insurer’s reply; (3) Form P-II application — case summary, parties, claim details, documents, reliefs sought; (4) supporting documents — policy schedule, proposal form, claim form, hospital bills, discharge summary, rejection letter, all correspondence; (5) hearing process — written submissions, optional in-person/video hearing, mediation attempt first then award; (6) timeline — typically 90-180 days; (7) award is binding on insurer if accepted by complainant within 30 days, complainant retains right to litigate; (8) no advocate fee, no court fee — designed for consumer access; (9) parallel options — Bima Bharosa portal for IRDAI grievance, Consumer Forum for higher claims or fraud allegations; (10) advisor’s role — assist in drafting, accompany to hearing, post-award follow-up. Provide a sample Ombudsman application template and a cover-letter draft.",
-      "tags": ["ombudsman", "filing", "grievance", "walkthrough"]
+      "tags": [
+        "ombudsman",
+        "filing",
+        "grievance",
+        "walkthrough"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-043",
       "title": "Star Comprehensive Deep-Dive Sales Sheet",
       "prompt": "Act as a health insurance advisor preparing a one-product deep-dive sales sheet for Star Comprehensive — Star Health’s flagship product. Build a 1500-word internal sales sheet covering: (1) target client — middle-class urban family ₹10-25L income, age 28-50, looking for sub-limit-free comprehensive cover at moderate premium; (2) SI options ₹5L to ₹1Cr, individual or floater; (3) signature features — automatic restoration once per policy year for unrelated claim, no room-rent capping (single AC), maternity sub-limit, newborn cover from day 1, hospital cash, road ambulance ₹2500/event, second medical opinion, AYUSH, day-care 540+; (4) waiting periods — initial 30 days, specific disease 24 months, PED 36 months (3 years — among the shortest); (5) typical premium illustration — 35-year-old self+spouse ₹15L floater approx ₹22,000+GST; (6) underwriting nuances — Star is friendlier on diabetes and hypertension acceptance; (7) where Star wins vs HDFC Ergo Optima Secure — shorter PED waiting, broader maternity, deeper Tier-2/3 hospital network particularly in South India; (8) where Star loses — restoration is once vs unlimited in Niva Bupa; (9) USP talking points for sales conversation; (10) common objections and rebuttals (Star CSR, claim service perception in North India). End with a 1-page printable client brochure outline and a 90-second elevator pitch script.",
-      "tags": ["star-comprehensive", "deep-dive", "sales-sheet", "product"]
+      "tags": [
+        "star-comprehensive",
+        "deep-dive",
+        "sales-sheet",
+        "product"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-044",
       "title": "HDFC Ergo Optima Secure Sales Sheet",
       "prompt": "You are a health insurance advisor preparing a deep-dive sales sheet for HDFC Ergo Optima Secure — currently one of the most-recommended retail products in India. Build a 1500-word sales sheet covering: (1) hero feature — secure benefit (2x SI from day 1 with no claim, no exhaustion needed), restore benefit (100% restore on partial or full exhaustion for unrelated illness), plus benefit (50% bonus per claim-free year up to 100% capped at 2x SI), protect benefit (zero deductions for non-medical items per IRDAI list); (2) effective sum-insured math — ₹10L base on day 1 = ₹20L (secure) + ₹10L restore + bonus = effective ₹30-50L within first 2 years; (3) no room-rent capping, no ICU sub-limit, no co-pay, AYUSH up to SI, mental healthcare full SI, modern treatments full SI; (4) global cover variant for planned and emergency international treatment; (5) waiting — initial 30 days, specific disease 24 months, PED 3 years; (6) premium 35-year-old self+spouse ₹10L approx ₹20,000+GST; (7) cashless network 13,000+ hospitals, in-house claims (no TPA dependency); (8) USP vs Niva Bupa Reassure 2.0 — protect-benefit non-medical-item zero deduction is unique; (9) where it loses — restoration not unlimited, OPD requires separate add-on; (10) three success-story templates. End with elevator pitch and objection-handling for ‘premium higher than competitors’.",
-      "tags": ["hdfc-ergo", "optima-secure", "deep-dive", "product"]
+      "tags": [
+        "hdfc-ergo",
+        "optima-secure",
+        "deep-dive",
+        "product"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-045",
       "title": "Niva Bupa Reassure 2.0 Sales Sheet",
       "prompt": "Act as a health insurance advisor preparing a deep-dive sales sheet for Niva Bupa Reassure 2.0 — known for unlimited restoration. Build a 1500-word sales sheet covering: (1) flagship feature — unlimited ReAssure restoration (refills SI multiple times in same year, even for same illness same person — unique in market); (2) booster benefit — 50% additional SI per claim-free year aggregated to 10x of SI cap, accumulates even with claims; (3) lock-the-clock — premium frozen at the entry-age until first claim, useful for young buyers locking 25-year-old premium; (4) other features — no room-rent cap, no co-pay, no sub-limits, modern treatments full SI, mental health, organ donor full SI, AYUSH; (5) waiting — 30 days initial, 24 months specific, 36 months PED; (6) premium 35-year-old self+spouse ₹10L approx ₹19,000+GST, competitive vs Optima Secure; (7) cashless network 10,000+ hospitals, Niva Bupa in-house claims; (8) USP vs HDFC Ergo Optima Secure — unlimited reset including same illness, lock-the-clock, booster aggregation; (9) where it loses — newer brand recall in Tier-3, no protect-benefit clause; (10) target client — young couple 28-35, planning long-tenure cover, high-claim-frequency family with seniors; (11) product variant — Reassure Bronze/Silver/Gold/Platinum tier explainer. End with three real-world claim stories and a 90-second pitch script.",
-      "tags": ["niva-bupa", "reassure", "deep-dive", "product"]
+      "tags": [
+        "niva-bupa",
+        "reassure",
+        "deep-dive",
+        "product"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-046",
       "title": "Care Supreme Sales Sheet (Care Health)",
       "prompt": "You are a health insurance advisor preparing a deep-dive sales sheet for Care Supreme by Care Health (formerly Religare Health). Build a 1500-word sales sheet covering: (1) flagship features — unlimited claims, unlimited restoration, no room-rent cap, no co-pay, no sub-limits, NCB super-bonus 50% per claim-free year up to 500% (one of the most aggressive bonuses in the market); (2) modular structure — Smart, Pro, Elite tiers with progressively richer benefits; (3) air-ambulance up to ₹5L, road ambulance, second opinion, AYUSH, mental health full SI, modern treatments full SI; (4) annual health check from day 1 for adults; (5) waiting — 30 days initial, 24 months specific, 36 months PED (Care has been bringing PED to 24 months on certain variants); (6) premium 35-year-old self+spouse ₹10L approx ₹17,000-19,000+GST, often most competitive in budget bracket; (7) cashless network 21,500+ hospitals — among the largest in India; (8) Care Joy maternity-friendly variant cross-sell; (9) USP vs Optima Secure and Reassure 2.0 — aggressive NCB cap (5x SI) makes Care Supreme the long-tenure compounding winner; (10) where it loses — historical brand-recall hangover from Religare, claim-experience perception in some pockets; (11) target client — long-tenure stable family, value-conscious, want maximum SI build-up over decade. End with elevator pitch and 3 success stories.",
-      "tags": ["care-supreme", "care-health", "deep-dive", "product"]
+      "tags": [
+        "care-supreme",
+        "care-health",
+        "deep-dive",
+        "product"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-047",
       "title": "ICICI Lombard Elevate and Aditya Birla Activ Health Comparison",
       "prompt": "Act as a health insurance advisor preparing a head-to-head comparison sheet for ICICI Lombard Elevate and Aditya Birla Activ Health Platinum Enhanced — both 2024-25 launches positioned for upper-middle-class urban buyers. Build a 1500-word comparison covering: (1) base features — both offer unlimited restoration, no room-rent cap, modern treatments, mental health full SI; (2) ICICI Lombard Elevate USP — claim-protect (non-deduction of room-rent proportionate even if upgraded), Power Booster up to 10x SI, jumpstart benefit (full SI from day 1 for accidents), GenAI-powered claim processing under 2 hours for cashless; (3) Aditya Birla Activ Health Platinum Enhanced USP — chronic management program (Activ Care for diabetes/hypertension/asthma with day-1 cover), Activ Days fitness-discount up to 100%, OPD wallet, super NCB, IVF and adoption cover; (4) waiting periods comparison; (5) premium 35-year-old self+spouse ₹15L floater — ICICI Lombard ~₹24,000, Aditya Birla ~₹26,000 +GST; (6) cashless network and TPA structure (ICICI Lombard has in-house GenAI engine, Aditya Birla uses Health First); (7) target client mapping — ICICI Lombard for tech-savvy claim-friction-averse buyer, Aditya Birla for chronic-illness or wellness-active buyer; (8) where each loses; (9) sales angle for the advisor. End with a side-by-side matrix and a 90-second elevator pitch for each.",
-      "tags": ["icici-lombard", "aditya-birla", "comparison", "products"]
+      "tags": [
+        "icici-lombard",
+        "aditya-birla",
+        "comparison",
+        "products"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-048",
       "title": "Personal Branding for Health Insurance Advisor on LinkedIn",
       "prompt": "You are a health insurance advisor building a personal brand on LinkedIn to attract quality urban leads. Build a 90-day content + posting strategy. Cover: (1) profile optimisation — headline ‘Helping Bengaluru families avoid the ₹5L hospital surprise | IRDAI-licensed health insurance advisor | 1200+ families served’, banner image with WhatsApp number and trust badges, About section with story arc; (2) content pillars — claim-story Mondays, product-comparison Tuesdays, IRDAI-news Wednesdays, client-testimonial Thursdays, family-friendly health-finance Fridays, weekend live Q&A; (3) post formats — carousel for product comparisons, document for claim-rejection rescue stories, video for client testimonials, poll for engagement; (4) sample post ideas — ‘How I helped a Hyderabad family recover ₹3.2L after Niva Bupa rejected their claim’, ‘5 things wrong with your employer health cover’, ‘Optima Secure vs Reassure 2.0 — which one for whom?’, ‘The 30-day free-look right nobody tells you about’; (5) hashtag strategy — #HealthInsuranceIndia #IRDAI #FinancialPlanning #HealthInsuranceAdvisor; (6) DM playbook for warm replies; (7) lead-magnet — ‘Free 5-page Health Cover Audit PDF’; (8) commenting strategy on adjacent finance-creators (Pranjal Kamra, Akshat Shrivastava, Rachana Phadke Ranade); (9) measurement — connections, profile views, leads, conversions monthly. End with 30 ready-to-post titles.",
-      "tags": ["personal-brand", "linkedin", "content", "lead-gen"]
+      "tags": [
+        "personal-brand",
+        "linkedin",
+        "content",
+        "lead-gen"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-049",
       "title": "Referral Program Design for Existing Clients",
       "prompt": "Act as a health insurance advisor designing a structured referral program for your existing 500-client book in Chennai. Build a 1500-word program design covering: (1) why referrals are the highest-LTV channel for health insurance — trust transfer overcomes the credibility barrier; (2) IRDAI conduct rule — advisors cannot pay direct cash referral fees to non-licensed individuals (rebating ban under Section 41 of Insurance Act); (3) compliant alternatives — gifting (Amazon vouchers ₹500-2000 within IRDAI permissible limits), donation in client’s name to charity, exclusive financial literacy webinar invites, free annual policy review for client + family, premium-feature unlocks like priority claim concierge; (4) structured 3-tier program — bronze (1 successful referral = ₹1000 voucher), silver (3 referrals = ₹5000 voucher + free annual review), gold (5+ referrals = wellness pack + featured in newsletter as ‘Champion Member’); (5) qualifying definition — referred lead converts to a paid policy and remains active 90 days; (6) communication cadence — quarterly reminder, year-end recap, ad-hoc thank-you; (7) tracking — CRM tag, unique referral link/code, dashboard for client to see status; (8) launch sequence — soft launch with top-50 NPS clients, full launch via WhatsApp broadcast, 60-day-momentum push, year-1 results review; (9) target — 0.5 referral per client per year. Provide a launch announcement template and a referrer welcome kit.",
-      "tags": ["referral", "compliance", "program", "growth"]
+      "tags": [
+        "referral",
+        "compliance",
+        "program",
+        "growth"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     },
     {
       "id": "banking-insurance-health-insurance-advisors-050",
       "title": "Annual Practice Review and Goal-Setting for Advisor",
       "prompt": "You are a senior health insurance advisor doing your own annual practice review going into FY 2026-27. Build a structured review and goal-setting framework. Cover: (1) practice metrics dashboard — number of active policies, total annualised premium, average premium per policy, client retention rate, claim assistance count, NPS score, complaint resolution time, IRDAI broker/agent regulatory CE hours completed; (2) revenue analysis — first-year commission vs renewal trail, mix by insurer (Star, HDFC Ergo, Niva Bupa, Care, ICICI Lombard, Aditya Birla, ManipalCigna), mix by product type (individual, floater, super top-up, senior, group), top-10 clients by lifetime value; (3) compliance checklist — POS/IRDAI license renewal date, mandatory training completion, GST filing, advisor code-of-conduct adherence, data-privacy under DPDP Act 2023; (4) gap analysis — under-served segments (NRI, HNI, Tier-3, senior parents, chronic-illness day-1), product gaps in shelf, technology gaps (no CRM, no WhatsApp automation); (5) goals for FY2026-27 — 30% premium growth, 95% retention, 40 new family acquisitions, 1 specialty (e.g., diabetic-day-1 advisory practice), 2 product certifications, 50 LinkedIn posts, 200 referrals; (6) team and infrastructure — hire one tele-caller, deploy Zoho Bigin CRM + Wati WhatsApp, dedicated claim-concierge service; (7) personal development — 40 CE hours, 2 industry conferences, 1 advanced underwriting course; (8) quarterly review cadence. End with a printable one-page dashboard template and a Jan-Dec milestone calendar.",
-      "tags": ["practice-review", "goal-setting", "advisor-growth", "annual"]
+      "tags": [
+        "practice-review",
+        "goal-setting",
+        "advisor-growth",
+        "annual"
+      ],
+      "category": "banking-insurance",
+      "subcategory": "health-insurance-advisors",
+      "difficulty": "intermediate",
+      "aiTool": "any",
+      "outputType": "text",
+      "isFree": false
     }
   ]
 }
