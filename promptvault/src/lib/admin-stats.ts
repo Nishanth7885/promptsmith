@@ -134,6 +134,57 @@ export async function getTopPaths(days = 7, limit = 10) {
   return rows.map((r) => ({ path: r.path, views: Number(r.views) }));
 }
 
+export async function getTopCountries(days = 30, limit = 20) {
+  const start = startOfDayMs(Date.now()) - (days - 1) * DAY;
+  const rows = await db
+    .select({
+      country: schema.pageViews.country,
+      views: sql<number>`count(*)`,
+      uniques: sql<number>`count(distinct ${schema.pageViews.ipHash})`,
+    })
+    .from(schema.pageViews)
+    .where(sql`${schema.pageViews.ts} >= ${start} AND ${schema.pageViews.country} IS NOT NULL`)
+    .groupBy(schema.pageViews.country)
+    .orderBy(sql`count(*) desc`)
+    .limit(limit);
+  return rows.map((r) => ({
+    country: r.country ?? '—',
+    views: Number(r.views),
+    uniques: Number(r.uniques),
+  }));
+}
+
+export async function getTopCities(days = 30, limit = 30) {
+  const start = startOfDayMs(Date.now()) - (days - 1) * DAY;
+  const rows = await db
+    .select({
+      city: schema.pageViews.city,
+      country: schema.pageViews.country,
+      views: sql<number>`count(*)`,
+      uniques: sql<number>`count(distinct ${schema.pageViews.ipHash})`,
+    })
+    .from(schema.pageViews)
+    .where(sql`${schema.pageViews.ts} >= ${start} AND ${schema.pageViews.city} IS NOT NULL AND ${schema.pageViews.city} != ''`)
+    .groupBy(schema.pageViews.city, schema.pageViews.country)
+    .orderBy(sql`count(*) desc`)
+    .limit(limit);
+  return rows.map((r) => ({
+    city: r.city ?? '—',
+    country: r.country ?? '—',
+    views: Number(r.views),
+    uniques: Number(r.uniques),
+  }));
+}
+
+export async function getUnknownGeoCount(days = 30) {
+  const start = startOfDayMs(Date.now()) - (days - 1) * DAY;
+  const row = await db
+    .select({ c: sql<number>`count(*)` })
+    .from(schema.pageViews)
+    .where(sql`${schema.pageViews.ts} >= ${start} AND ${schema.pageViews.country} IS NULL`);
+  return Number(row[0]?.c ?? 0);
+}
+
 function startOfDayMs(ms: number): number {
   const d = new Date(ms);
   d.setHours(0, 0, 0, 0);

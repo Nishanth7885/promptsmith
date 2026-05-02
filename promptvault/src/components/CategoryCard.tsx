@@ -24,6 +24,11 @@ export default function CategoryCard({ category }: { category: Category }) {
         <span className="font-medium" style={{ color: category.color }}>
           {category.totalPrompts.toLocaleString('en-IN')} prompts
         </span>
+        <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-semibold text-emerald-700">
+          From ₹99
+        </span>
+      </div>
+      <div className="mt-2 flex items-center justify-end text-xs">
         <span className="text-slate-400 transition group-hover:translate-x-0.5 group-hover:text-rose-600">
           Explore →
         </span>

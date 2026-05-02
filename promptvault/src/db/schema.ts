@@ -124,6 +124,10 @@ export const orders = sqliteTable(
     // 'CATEGORY' = single-category lifetime unlock (₹99) — categorySlug is required.
     orderType: text('order_type', { enum: ['ALL', 'CATEGORY'] }).notNull().default('ALL'),
     categorySlug: text('category_slug'),
+    // JSON-encoded array of category slugs covered by this order. Used for
+    // multi-category cart purchases. Single-category orders also populate
+    // this with [categorySlug] so access checks have one source of truth.
+    categorySlugs: text('category_slugs'),
     createdAt: integer('created_at', { mode: 'timestamp_ms' })
       .notNull()
       .$defaultFn(() => new Date()),
@@ -260,6 +264,7 @@ export const pageViews = sqliteTable(
     sessionId: text('session_id'),
     ipHash: text('ip_hash'),
     country: text('country'),
+    city: text('city'),
     referer: text('referer'),
     userAgent: text('user_agent'),
     ts: integer('ts', { mode: 'timestamp_ms' })
@@ -270,6 +275,7 @@ export const pageViews = sqliteTable(
     byTs: index('page_views_by_ts').on(t.ts),
     byPath: index('page_views_by_path').on(t.path),
     byUser: index('page_views_by_user').on(t.userId),
+    byCountry: index('page_views_by_country').on(t.country),
   }),
 );
 

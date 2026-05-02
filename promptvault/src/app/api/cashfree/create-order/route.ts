@@ -16,6 +16,7 @@ export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 const PHONE_RE = /^\+?\d{10,15}$/;
+const SLUG_RE = /^[a-z0-9-]{1,80}$/;
 
 const bodySchema = z
   .object({
@@ -24,13 +25,17 @@ const bodySchema = z
     currency: z.enum(['INR', 'USD']),
     couponCode: z.string().trim().max(40).optional(),
     orderType: z.enum(['ALL', 'CATEGORY']).optional().default('ALL'),
-    categorySlug: z.string().trim().min(1).max(80).optional(),
+    // Single-category SKU: legacy single-slug field. Either this OR categorySlugs.
+    categorySlug: z.string().trim().regex(SLUG_RE).optional(),
+    // Cart SKU: 1+ slugs charged at N × ₹99. Capped at 36 to stay under the
+    // ₹299 all-access SKU's economic break-even.
+    categorySlugs: z.array(z.string().trim().regex(SLUG_RE)).min(1).max(36).optional(),
   })
   .superRefine((d, ctx) => {
-    if (d.orderType === 'CATEGORY' && !d.categorySlug) {
+    if (d.orderType === 'CATEGORY' && !d.categorySlug && !d.categorySlugs) {
       ctx.addIssue({
         code: z.ZodIssueCode.custom,
-        message: 'categorySlug is required when orderType is CATEGORY.',
+        message: 'categorySlug or categorySlugs is required when orderType is CATEGORY.',
         path: ['categorySlug'],
       });
     }
@@ -63,21 +68,36 @@ export async function POST(req: Request) {
       { status: 400 },
     );
   }
-  const { phone, name, currency, couponCode, orderType, categorySlug } = parsed.data;
+  const { phone, name, currency, couponCode, orderType } = parsed.data;
+
+  // Normalize the slug list: prefer categorySlugs, fall back to single
+  // categorySlug. Dedupe + cap at 36 (max categories).
+  const slugList: string[] = (() => {
+    if (orderType !== 'CATEGORY') return [];
+    const fromArr = parsed.data.categorySlugs ?? [];
+    const fromOne = parsed.data.categorySlug ? [parsed.data.categorySlug] : [];
+    return [...new Set([...fromArr, ...fromOne])].slice(0, 36);
+  })();
+  const primarySlug = slugList[0] ?? null; // legacy column
+  const slugsJson = slugList.length > 0 ? JSON.stringify(slugList) : null;
 
   // Resolve final price + coupon validity from DB.
-  // For per-category orders we override the subtotal with the category price
-  // (₹99 default) but still let the coupon flow through.
+  // For per-category orders we override the subtotal with N × category price
+  // (₹99 default × number of categories) but still let the coupon flow through.
   const priced = await resolvePrice({ currency, couponCode });
   if (orderType === 'CATEGORY') {
     const catPrice = await getCategoryPrice('INR');
-    priced.subtotal = catPrice;
+    const subtotal = catPrice * Math.max(1, slugList.length);
+    priced.subtotal = subtotal;
     if (priced.couponCode) {
-      // Re-apply coupon math against the lower subtotal.
       const ratio = priced.discount > 0 && priced.subtotal > 0 ? priced.discount / priced.subtotal : 0;
-      priced.discount = Math.min(catPrice, Math.round(catPrice * ratio));
+      priced.discount = Math.min(subtotal, Math.round(subtotal * ratio));
     }
     priced.total = Math.max(0, priced.subtotal - priced.discount);
+    priced.productName =
+      slugList.length > 1
+        ? `Prompt Smith — ${slugList.length} categories`
+        : `Prompt Smith — ${slugList[0] ?? 'category'}`;
   }
   if (priced.error) {
     return NextResponse.json({ error: priced.error }, { status: 400 });
@@ -113,7 +133,8 @@ export async function POST(req: Request) {
       status: 'PAID',
       paidAt: new Date(),
       orderType,
-      categorySlug: orderType === 'CATEGORY' ? categorySlug ?? null : null,
+      categorySlug: orderType === 'CATEGORY' ? primarySlug : null,
+      categorySlugs: orderType === 'CATEGORY' ? slugsJson : null,
     });
     if (priced.couponId) {
       await db.insert(schema.couponRedemptions).values({
@@ -121,7 +142,6 @@ export async function POST(req: Request) {
         orderId,
         userId: session.user.id,
       });
-      // Bump used_count
       await db
         .update(schema.coupons)
         .set({ usedCount: ((await getCount(priced.couponId)) ?? 0) + 1 })
@@ -168,7 +188,8 @@ export async function POST(req: Request) {
       status: cf.status === 'PAID' ? 'PAID' : 'ACTIVE',
       paymentSessionId: cf.paymentSessionId,
       orderType,
-      categorySlug: orderType === 'CATEGORY' ? categorySlug ?? null : null,
+      categorySlug: orderType === 'CATEGORY' ? primarySlug : null,
+      categorySlugs: orderType === 'CATEGORY' ? slugsJson : null,
     });
 
     await appendOrderEvent({

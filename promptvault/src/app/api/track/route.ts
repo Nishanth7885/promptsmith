@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { createHash } from 'node:crypto';
 import { db, schema } from '@/db';
 import { auth } from '@/auth';
+import { lookupGeo } from '@/lib/geo';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -32,8 +33,9 @@ export async function POST(req: NextRequest) {
   const fwd = req.headers.get('x-forwarded-for') ?? '';
   const ip = fwd.split(',')[0]?.trim() || req.headers.get('x-real-ip') || '';
   const ipHash = ip ? createHash('sha256').update(ip).digest('hex').slice(0, 16) : null;
-  const country =
-    req.headers.get('cf-ipcountry') ?? req.headers.get('x-country-code') ?? null;
+  const geo = lookupGeo(req.headers);
+  const country = geo.country ?? req.headers.get('x-country-code') ?? null;
+  const city = geo.city;
 
   let userId: string | null = null;
   try {
@@ -50,6 +52,7 @@ export async function POST(req: NextRequest) {
       sessionId: String(body?.sessionId ?? '').slice(0, 64) || null,
       ipHash,
       country,
+      city,
       referer: referer.slice(0, 200) || null,
       userAgent: ua.slice(0, 200) || null,
     });

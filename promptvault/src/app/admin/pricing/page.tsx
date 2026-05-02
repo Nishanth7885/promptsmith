@@ -11,17 +11,22 @@ async function updatePricing(formData: FormData) {
   if (session?.user?.role !== 'admin') return;
 
   const inr = String(formData.get('price_inr') ?? '').trim();
+  const inrCategory = String(formData.get('price_inr_category') ?? '').trim();
   const usd = String(formData.get('price_usd') ?? '').trim();
   const productName = String(formData.get('product_name') ?? '').trim();
   const crossBorder = formData.get('cross_border_enabled') === 'on' ? 'true' : 'false';
 
   if (inr && !Number.isNaN(Number(inr))) await setSetting('price_inr', inr, session.user.id);
+  if (inrCategory && !Number.isNaN(Number(inrCategory)))
+    await setSetting('price_inr_category', inrCategory, session.user.id);
   if (usd && !Number.isNaN(Number(usd))) await setSetting('price_usd', usd, session.user.id);
   if (productName) await setSetting('product_name', productName, session.user.id);
   await setSetting('cross_border_enabled', crossBorder, session.user.id);
 
   revalidatePath('/admin/pricing');
   revalidatePath('/');
+  // Category pages snapshot the per-category price at render time.
+  revalidatePath('/category/[slug]', 'page');
 }
 
 export default async function PricingPage() {
@@ -37,7 +42,8 @@ export default async function PricingPage() {
       <form action={updatePricing} className="rounded-xl border border-slate-200 bg-white p-6 space-y-5">
         <div className="grid grid-cols-2 gap-4">
           <label className="block">
-            <span className="text-sm font-medium">Price INR (₹)</span>
+            <span className="text-sm font-medium">All-access INR (₹)</span>
+            <span className="block text-xs text-slate-500">Lifetime, every category.</span>
             <input
               name="price_inr"
               type="number"
@@ -48,7 +54,22 @@ export default async function PricingPage() {
             />
           </label>
           <label className="block">
+            <span className="text-sm font-medium">Single-category INR (₹)</span>
+            <span className="block text-xs text-slate-500">
+              Per-category SKU + cart line price (₹ × N).
+            </span>
+            <input
+              name="price_inr_category"
+              type="number"
+              step="1"
+              min="0"
+              defaultValue={pricing.inrCategory}
+              className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-slate-900"
+            />
+          </label>
+          <label className="block">
             <span className="text-sm font-medium">Price USD ($)</span>
+            <span className="block text-xs text-slate-500">All-access only (cross-border).</span>
             <input
               name="price_usd"
               type="number"

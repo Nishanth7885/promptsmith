@@ -8,12 +8,16 @@ import { useCurrency } from './CurrencyContext';
 interface Props {
   open: boolean;
   onClose: () => void;
-  /** SKU to checkout. 'ALL' = ₹299 all-access lifetime; 'CATEGORY' = ₹99 single category. */
+  /** SKU to checkout. 'ALL' = ₹299 all-access lifetime; 'CATEGORY' = ₹99 single category or N×₹99 cart. */
   orderType?: 'ALL' | 'CATEGORY';
-  /** Required when orderType === 'CATEGORY'. */
+  /** Single-category SKU (one slug). Use categorySlugs for cart purchases. */
   categorySlug?: string;
-  /** Pretty name shown in the modal heading for CATEGORY mode. */
+  /** Pretty name shown in the modal heading for single-category mode. */
   categoryName?: string;
+  /** Cart SKU: full slug list. Overrides categorySlug when provided. */
+  categorySlugs?: string[];
+  /** Cart subtotal display override (₹99 × N). Required when categorySlugs is set. */
+  cartTotalInr?: number;
 }
 
 const CATEGORY_PRICE_INR = 99;
@@ -32,7 +36,10 @@ export default function CheckoutModal({
   orderType = 'ALL',
   categorySlug,
   categoryName,
+  categorySlugs,
+  cartTotalInr,
 }: Props) {
+  const isCart = !!(categorySlugs && categorySlugs.length > 0);
   const { data: session } = useSession();
   const currency = useCurrency();
   const email = session?.user?.email ?? '';
@@ -149,7 +156,8 @@ export default function CheckoutModal({
           currency: orderType === 'CATEGORY' ? 'INR' : currency.currency,
           couponCode: priceCheck?.couponCode || undefined,
           orderType,
-          categorySlug: orderType === 'CATEGORY' ? categorySlug : undefined,
+          categorySlug: orderType === 'CATEGORY' && !isCart ? categorySlug : undefined,
+          categorySlugs: orderType === 'CATEGORY' && isCart ? categorySlugs : undefined,
         }),
       });
       const order = await res.json();
@@ -185,13 +193,24 @@ export default function CheckoutModal({
   // ---- Render ----
 
   const isCategory = orderType === 'CATEGORY';
-  const fallbackBase = isCategory ? CATEGORY_PRICE_INR : currency.defaultPrice();
+  const cartBase =
+    isCart && cartTotalInr != null ? cartTotalInr : (categorySlugs?.length ?? 0) * CATEGORY_PRICE_INR;
+  const fallbackBase = isCart
+    ? cartBase
+    : isCategory
+      ? CATEGORY_PRICE_INR
+      : currency.defaultPrice();
   const total = priceCheck?.total ?? fallbackBase;
   const subtotal = priceCheck?.subtotal ?? fallbackBase;
   // Category mode is INR-only.
   const isInr = isCategory || currency.currency === 'INR';
   const formatTotal = isInr ? `₹${total}` : `$${(total as number).toFixed(2)}`;
   const formatSub = isInr ? `₹${subtotal}` : `$${(subtotal as number).toFixed(2)}`;
+  const headingTitle = isCart
+    ? `Checkout · ${categorySlugs!.length} categories`
+    : isCategory && categoryName
+      ? `Unlock ${categoryName}`
+      : 'Get all 4,000+ prompts';
 
   return (
     <div
@@ -207,7 +226,7 @@ export default function CheckoutModal({
         <div className="flex items-start justify-between gap-3">
           <div>
             <h2 id="checkout-title" className="text-xl font-extrabold">
-              {waitlistMode ? 'Coming soon for you' : 'Get all 4,000+ prompts'}
+              {waitlistMode ? 'Coming soon for you' : headingTitle}
             </h2>
             <p className="mt-1 text-sm text-slate-600">
               {waitlistMode

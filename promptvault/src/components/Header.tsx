@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { auth, signOut } from '@/auth';
 import { CurrencyToggle } from './CurrencyToggle';
 import { HeaderPriceBadge } from './HeaderPriceBadge';
+import { CartLink } from './CartLink';
 
 export default async function Header() {
   const session = await auth();
@@ -43,6 +44,7 @@ export default async function Header() {
           <Link href="/preview" className="transition hover:text-[var(--text)]">Free Preview</Link>
           <CurrencyToggle />
           <HeaderPriceBadge />
+          <CartLink />
           {session?.user ? (
             <div className="flex items-center gap-3">
               <Link href="/account" className="transition hover:text-[var(--text)]">Account</Link>
@@ -83,6 +85,7 @@ export default async function Header() {
 
         <div className="flex items-center gap-2 md:hidden">
           <CurrencyToggle />
+          <CartLink />
           {session?.user ? (
             <Link
               href="/account"

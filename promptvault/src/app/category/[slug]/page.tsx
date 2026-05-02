@@ -3,12 +3,20 @@ import Link from 'next/link';
 import { categories, getPromptsByCategory } from '@/data/prompts';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import BuyButton from '@/components/BuyButton';
+import BuyCategoryButton from '@/components/BuyCategoryButton';
+import AddToCartButton from '@/components/AddToCartButton';
+import { getCategoryPrice } from '@/lib/pricing';
+import { getPricing } from '@/lib/settings';
 import CategoryView from './CategoryView';
 
 export function generateStaticParams() {
   return categories.map((c) => ({ slug: c.slug }));
 }
+
+// ISR: rebuild at most once a minute so admin pricing updates propagate without
+// a full deploy. The actual price charged at checkout is always the live DB
+// value — this snapshot only feeds the on-page display + cart line.
+export const revalidate = 60;
 
 export function generateMetadata({ params }: { params: { slug: string } }) {
   const category = categories.find((c) => c.slug === params.slug);
@@ -19,7 +27,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   };
 }
 
-export default function CategoryPage({ params }: { params: { slug: string } }) {
+export default async function CategoryPage({ params }: { params: { slug: string } }) {
   const category = categories.find((c) => c.slug === params.slug);
   if (!category) notFound();
 
@@ -29,6 +37,10 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
     counts[sc.slug] = prompts.filter((p) => p.subcategory === sc.slug).length;
   }
   const freeInCategory = prompts.filter((p) => p.isFree).length;
+  const [categoryPrice, pricing] = await Promise.all([
+    getCategoryPrice('INR'),
+    getPricing(),
+  ]);
 
   return (
     <>
@@ -76,8 +88,19 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
                 {category.description}
               </p>
             </div>
-            <div className="shrink-0">
-              <BuyButton />
+            <div className="flex shrink-0 flex-col items-stretch gap-2 sm:items-end">
+              <BuyCategoryButton categorySlug={category.slug} categoryName={category.name} />
+              <AddToCartButton
+                slug={category.slug}
+                name={category.name}
+                priceInr={categoryPrice}
+              />
+              <p className="text-center text-[11px] text-slate-500 sm:text-right">
+                Or get all {categories.length} categories for ₹{pricing.inr} —{' '}
+                <Link href="/#pricing" className="underline hover:text-rose-600">
+                  see all-access
+                </Link>
+              </p>
             </div>
           </div>
         </div>
