@@ -114,37 +114,63 @@ export default function ClaudeDesignPage() {
   return (
     <>
       <Header />
-      <main className="bg-gradient-to-b from-white via-rose-50/30 to-white">
+      <main className="relative" style={{ background: 'var(--bg-0)' }}>
+        {/* Ambient iridescent glow */}
+        <div
+          aria-hidden
+          className="pointer-events-none fixed inset-x-0 top-0 -z-0 h-[640px]"
+          style={{
+            background:
+              'radial-gradient(60% 60% at 50% 0%, rgba(124,92,255,0.22), rgba(217,70,239,0.14) 45%, transparent 75%)',
+          }}
+        />
+
         {/* HERO */}
         <section className="relative overflow-hidden">
-          <div
-            aria-hidden
-            className="pointer-events-none absolute inset-x-0 -top-24 h-[420px] bg-[radial-gradient(60%_60%_at_50%_0%,rgba(244,114,182,0.20),rgba(167,139,250,0.18)_45%,rgba(255,255,255,0)_75%)]"
-          />
           <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24">
             <div className="mx-auto max-w-3xl text-center">
-              <span className="inline-flex items-center gap-2 rounded-full border border-rose-200 bg-white/80 px-3 py-1 text-xs font-semibold tracking-wide text-rose-700 shadow-sm backdrop-blur">
-                <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-rose-500" />
+              <span
+                className="inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold tracking-wide backdrop-blur"
+                style={{
+                  background: 'rgba(124,92,255,0.12)',
+                  border: '1px solid rgba(124,92,255,0.35)',
+                  color: '#c4b5fd',
+                }}
+              >
+                <span className="h-1.5 w-1.5 animate-pulse rounded-full" style={{ background: 'var(--violet)' }} />
                 NEW · PACK
               </span>
-              <h1 className="mt-5 text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl md:text-6xl">
+              <h1
+                className="mt-5 text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl"
+                style={{ color: 'var(--text)' }}
+              >
                 Claude Design — 500 prompts to build{' '}
-                <span className="bg-gradient-to-r from-rose-600 via-fuchsia-600 to-violet-600 bg-clip-text italic text-transparent">
+                <span className="italic text-iri" style={{ fontFamily: '"Instrument Serif", serif', fontWeight: 400 }}>
                   any landing page
                 </span>
               </h1>
-              <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg">
+              <p
+                className="mx-auto mt-5 max-w-2xl text-base leading-relaxed sm:text-lg"
+                style={{ color: 'var(--text-dim)' }}
+              >
                 50 niches × 10 section types. Hero copy to footer. Bundled in your all-access purchase.
               </p>
 
-              <div className="mx-auto mt-7 inline-flex flex-wrap items-center justify-center gap-x-3 gap-y-1 rounded-full border border-slate-200 bg-white/70 px-5 py-2 text-xs font-medium text-slate-600 shadow-sm backdrop-blur sm:text-sm">
-                <span><strong className="text-slate-900">500</strong> prompts</span>
-                <span className="text-slate-300">·</span>
-                <span><strong className="text-slate-900">50</strong> niches</span>
-                <span className="text-slate-300">·</span>
-                <span><strong className="text-slate-900">10</strong> sections</span>
-                <span className="text-slate-300">·</span>
-                <span><strong className="text-slate-900">1</strong> price</span>
+              <div
+                className="mx-auto mt-7 inline-flex flex-wrap items-center justify-center gap-x-3 gap-y-1 rounded-full px-5 py-2 text-xs font-medium backdrop-blur sm:text-sm"
+                style={{
+                  background: 'var(--surface)',
+                  border: '1px solid var(--border)',
+                  color: 'var(--text-dim)',
+                }}
+              >
+                <span><strong style={{ color: 'var(--text)' }}>500</strong> prompts</span>
+                <span style={{ color: 'var(--text-mute)' }}>·</span>
+                <span><strong style={{ color: 'var(--text)' }}>50</strong> niches</span>
+                <span style={{ color: 'var(--text-mute)' }}>·</span>
+                <span><strong style={{ color: 'var(--text)' }}>10</strong> sections</span>
+                <span style={{ color: 'var(--text-mute)' }}>·</span>
+                <span><strong style={{ color: 'var(--text)' }}>1</strong> price</span>
               </div>
 
               <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -183,14 +209,26 @@ export default function ClaudeDesignPage() {
                 key={s.slug}
                 href={`#prompts?section=${s.slug}`}
                 data-section-link={s.slug}
-                className="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-rose-200 hover:shadow-md"
+                className="group rounded-2xl p-5 transition hover:-translate-y-0.5"
+                style={{
+                  background: 'linear-gradient(180deg, rgba(20,20,40,0.7), rgba(12,12,24,0.7))',
+                  border: '1px solid var(--border)',
+                  backdropFilter: 'blur(16px)',
+                }}
               >
                 <div className="text-2xl">{s.emoji}</div>
-                <div className="mt-3 text-sm font-bold text-slate-900">{s.name}</div>
-                <p className="mt-1 line-clamp-3 text-xs leading-relaxed text-slate-600">
+                <div className="mt-3 text-sm font-bold" style={{ color: 'var(--text)' }}>
+                  {s.name}
+                </div>
+                <p
+                  className="mt-1 line-clamp-3 text-xs leading-relaxed"
+                  style={{ color: 'var(--text-dim)' }}
+                >
                   {s.description}
                 </p>
-                <div className="mt-3 text-xs font-semibold text-rose-600 opacity-0 transition group-hover:opacity-100">
+                <div
+                  className="mt-3 text-xs font-semibold opacity-0 transition group-hover:opacity-100 text-iri"
+                >
                   View prompt →
                 </div>
               </a>
@@ -211,16 +249,24 @@ export default function ClaudeDesignPage() {
           <div className="relative overflow-hidden rounded-3xl p-[1.5px]">
             <div
               aria-hidden
-              className="absolute inset-0 rounded-3xl bg-[conic-gradient(from_120deg,rgba(244,114,182,0.7),rgba(167,139,250,0.7),rgba(56,189,248,0.7),rgba(244,114,182,0.7))] opacity-80"
+              className="absolute inset-0 rounded-3xl bg-[conic-gradient(from_120deg,rgba(124,92,255,0.7),rgba(217,70,239,0.7),rgba(34,211,238,0.7),rgba(124,92,255,0.7))] opacity-80"
             />
-            <div className="relative rounded-[calc(1.5rem-1.5px)] bg-white p-10 text-center sm:p-14">
-              <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+            <div
+              className="relative rounded-[calc(1.5rem-1.5px)] p-10 text-center sm:p-14"
+              style={{
+                background: 'linear-gradient(180deg, rgba(20,20,40,0.85), rgba(12,12,24,0.85))',
+                backdropFilter: 'blur(20px)',
+              }}
+            >
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl" style={{ color: 'var(--text)' }}>
                 Get Claude Design + 4,000+ other prompts.
-                <span className="block text-slate-500">One purchase, lifetime access.</span>
+                <span className="block" style={{ color: 'var(--text-dim)' }}>
+                  One purchase, lifetime access.
+                </span>
               </h2>
-              <p className="mx-auto mt-3 max-w-md text-sm text-slate-600">
+              <p className="mx-auto mt-3 max-w-md text-sm" style={{ color: 'var(--text-dim)' }}>
                 Already a member?{' '}
-                <Link href="/login" className="font-semibold text-rose-600 hover:text-rose-700">
+                <Link href="/login" className="font-semibold transition text-iri">
                   Sign in to access.
                 </Link>
               </p>
@@ -228,7 +274,8 @@ export default function ClaudeDesignPage() {
                 <BuyButton />
                 <Link
                   href="/browse"
-                  className="text-sm font-semibold text-slate-700 transition hover:text-rose-600"
+                  className="text-sm font-semibold transition"
+                  style={{ color: 'var(--text-dim)' }}
                 >
                   Browse the full vault →
                 </Link>

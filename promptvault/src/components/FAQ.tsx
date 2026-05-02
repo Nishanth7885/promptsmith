@@ -21,7 +21,7 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: 'Is there a free trial or preview?',
-    a: 'Yes — 348 prompts are marked free. Browse the Free Preview page or look for the green "FREE" badge on any category page.',
+    a: 'Yes — 251 prompts are marked free. Browse the Free Preview page or look for the green "FREE" badge on any category page.',
   },
   {
     q: 'What does the download include?',

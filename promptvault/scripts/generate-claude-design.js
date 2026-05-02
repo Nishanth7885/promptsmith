@@ -40,9 +40,19 @@ const SECTIONS = SECTION_ORDER.map((slug) => {
 
 if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
 
+// Free-preview allowlist. Exactly 3 prompts in the entire pack are free —
+// just enough to taste the format across very different niches; everything
+// else nudges the buyer to upgrade.
+const FREE_PREVIEW = new Set([
+  'saas-b2b/hero',
+  'edtech-app/hero',
+  'restaurant/hero',
+]);
+
 const allIds = new Set();
 let totalPrompts = 0;
 let totalFiles = 0;
+let totalFree = 0;
 
 for (const niche of NICHES) {
   const prompts = SECTIONS.map((section, idx) => {
@@ -53,6 +63,8 @@ for (const niche of NICHES) {
       throw new Error(`Duplicate prompt id: ${id}`);
     }
     allIds.add(id);
+    const isFree = FREE_PREVIEW.has(`${niche.slug}/${section.slug}`);
+    if (isFree) totalFree++;
     return {
       id,
       title: rendered.title,
@@ -63,7 +75,7 @@ for (const niche of NICHES) {
       difficulty: rendered.difficulty,
       aiTool: rendered.aiTool,
       outputType: rendered.outputType,
-      isFree: !!section.isFree,
+      isFree,
     };
   });
 
@@ -83,4 +95,6 @@ for (const niche of NICHES) {
 console.log(
   `[claude-design] wrote ${totalFiles} files / ${totalPrompts} prompts → ${path.relative(ROOT, OUT_DIR)}`,
 );
-console.log(`[claude-design] niches: ${NICHES.length}, sections per niche: ${SECTIONS.length}`);
+console.log(
+  `[claude-design] niches: ${NICHES.length}, sections per niche: ${SECTIONS.length}, free preview: ${totalFree}`,
+);

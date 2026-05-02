@@ -204,15 +204,18 @@ export default function ClaudeDesignSection() {
         <div className="section-head reveal cd-head" ref={titleRef}>
           <div>
             <div className="section-tag cd-tag">
-              CLAUDE DESIGN <span className="cd-tag-dot" /> NEW
+              CLAUDE DESIGN <span className="cd-tag-dot" /> NEW · FLAGSHIP PACK
             </div>
             <h2 className="section-title cd-title">
-              500 prompts to build any <em className="iri">landing page</em>
+              Skip the ₹50,000 copywriter.{' '}
+              <em className="iri">Ship the page tonight.</em>
             </h2>
           </div>
           <p className="section-desc cd-desc">
-            Hero. Features. Pricing. FAQ. Testimonials. CTA. Brand voice. SEO.
-            How-it-works. Footer. For 50+ niches. All bundled in your purchase.
+            <strong style={{ color: 'var(--text)' }}>500 battle-tested prompts</strong> across
+            50 niches × 10 sections — hero, features, pricing, FAQ, testimonials, CTA, brand
+            voice, SEO, how-it-works, footer. Paste into Claude. Get a complete landing page
+            back. <span className="iri">Bundled in your ₹249 all-access purchase.</span>
           </p>
         </div>
 
@@ -387,19 +390,42 @@ export default function ClaudeDesignSection() {
             ·
           </span>
           <div className="cd-stat cd-stat-bundled">
-            <span className="cd-stat-label">Bundled in your purchase</span>
+            <span className="cd-stat-label">Just ₹249 · Lifetime</span>
+          </div>
+        </div>
+
+        {/* VALUE STACK */}
+        <div className="cd-value reveal" aria-label="What's in the pack">
+          <div className="cd-value-item">
+            <span className="cd-value-check">✓</span>
+            <span><strong>3 free</strong> hero previews — paste, see Claude output, decide</span>
+          </div>
+          <div className="cd-value-item">
+            <span className="cd-value-check">✓</span>
+            <span>Each prompt is <strong>280–500 words</strong>, niche-tuned, India-aware</span>
+          </div>
+          <div className="cd-value-item">
+            <span className="cd-value-check">✓</span>
+            <span>SaaS, EdTech, restaurants, yoga studios, D2C — <strong>50 niches covered</strong></span>
+          </div>
+          <div className="cd-value-item">
+            <span className="cd-value-check">✓</span>
+            <span>Plus <strong>4,029 other expert prompts</strong> — same one-time payment</span>
           </div>
         </div>
 
         {/* CTA */}
         <div className="cd-cta-row reveal">
           <a className="cd-btn-primary" href="/claude-design">
-            Open the Claude Design pack <span aria-hidden="true">→</span>
+            Unlock all 500 — ₹249 <span aria-hidden="true">→</span>
           </a>
           <a className="cd-btn-ghost" href="#claude-design-demo">
-            See live demo
+            See live demo first
           </a>
         </div>
+        <p className="cd-cta-foot reveal">
+          One-time payment · Lifetime access · 39 categories · 4,529 prompts total
+        </p>
       </div>
     </section>
   );
@@ -819,6 +845,38 @@ const CD_STYLES = `
 .cd-stat-bundled .cd-stat-label { color: var(--text); font-weight: 500; }
 
 /* CTA */
+.cd-value {
+  margin: 36px auto 24px;
+  max-width: 760px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 32px;
+}
+@media (max-width: 720px) { .cd-value { grid-template-columns: 1fr; gap: 10px; } }
+.cd-value-item {
+  display: flex; align-items: flex-start; gap: 10px;
+  font-size: 14px; line-height: 1.55;
+  color: var(--text-dim);
+}
+.cd-value-item strong { color: var(--text); font-weight: 600; }
+.cd-value-check {
+  flex: 0 0 22px;
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  background: var(--grad-iri);
+  color: white;
+  display: grid; place-items: center;
+  font-size: 11px; font-weight: 700;
+  margin-top: 1px;
+  box-shadow: 0 4px 12px -2px rgba(124,92,255,0.5);
+}
+.cd-cta-foot {
+  margin-top: 14px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-mute);
+  letter-spacing: 0.02em;
+}
 .cd-cta-row {
   display: flex; flex-wrap: wrap; gap: 12px;
   justify-content: center;

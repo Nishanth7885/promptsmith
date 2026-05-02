@@ -206,7 +206,7 @@ export default function PromptSmithLanding() {
     setCheckoutOpen(true);
   };
 
-  // Free CTA goes to the 348-prompt preview page.
+  // Free CTA goes to the 251-prompt preview page.
   const onStartFree = () => router.push('/preview');
 
   const promptElRef = useRef<HTMLDivElement | null>(null);

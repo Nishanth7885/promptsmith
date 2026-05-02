@@ -19,7 +19,7 @@
       "difficulty": "intermediate",
       "aiTool": "any",
       "outputType": "creative",
-      "isFree": true
+      "isFree": false
     },
     {
       "id": "claude-design-adtech-002",
@@ -37,7 +37,7 @@
       "difficulty": "intermediate",
       "aiTool": "any",
       "outputType": "creative",
-      "isFree": true
+      "isFree": false
     },
     {
       "id": "claude-design-adtech-003",
