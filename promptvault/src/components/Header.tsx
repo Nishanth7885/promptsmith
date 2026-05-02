@@ -1,11 +1,14 @@
 import Link from 'next/link';
-import { auth, signOut } from '@/auth';
 import { CurrencyToggle } from './CurrencyToggle';
 import { HeaderPriceBadge } from './HeaderPriceBadge';
 import { CartLink } from './CartLink';
+import { HeaderAuthNav } from './HeaderAuthNav';
 
-export default async function Header() {
-  const session = await auth();
+// Server-component shell only — every auth-aware piece (Account/Admin/Login
+// links, sign-out button) lives in <HeaderAuthNav> as a client island that
+// reads useSession() so static-rendered pages don't ship stale logged-out
+// markup.
+export default function Header() {
   return (
     <header
       className="sticky top-0 z-30 border-b backdrop-blur"
@@ -45,64 +48,13 @@ export default async function Header() {
           <CurrencyToggle />
           <HeaderPriceBadge />
           <CartLink />
-          {session?.user ? (
-            <div className="flex items-center gap-3">
-              <Link href="/account" className="transition hover:text-[var(--text)]">Account</Link>
-              {session.user.role === 'admin' && (
-                <Link href="/admin" className="transition hover:text-[var(--text)]">Admin</Link>
-              )}
-              <form
-                action={async () => {
-                  'use server';
-                  await signOut({ redirectTo: '/' });
-                }}
-              >
-                <button
-                  className="transition hover:text-[var(--text)]"
-                  style={{ color: 'var(--text-mute)' }}
-                >
-                  Log out
-                </button>
-              </form>
-            </div>
-          ) : (
-            <div className="flex items-center gap-3">
-              <Link href="/login" className="transition hover:text-[var(--text)]">Log in</Link>
-              <Link
-                href="/signup"
-                className="rounded-full px-4 py-1.5 text-sm font-semibold transition"
-                style={{
-                  background: 'var(--grad-iri)',
-                  color: 'white',
-                  boxShadow: '0 6px 20px -8px rgba(124, 92, 255, 0.6)',
-                }}
-              >
-                Sign up
-              </Link>
-            </div>
-          )}
+          <HeaderAuthNav variant="desktop" />
         </nav>
 
         <div className="flex items-center gap-2 md:hidden">
           <CurrencyToggle />
           <CartLink />
-          {session?.user ? (
-            <Link
-              href="/account"
-              className="rounded-full px-3 py-1.5 text-xs font-semibold"
-              style={{ border: '1px solid var(--border)', color: 'var(--text)' }}
-            >
-              Account
-            </Link>
-          ) : (
-            <Link
-              href="/login"
-              className="rounded-full px-3 py-1.5 text-xs font-semibold"
-              style={{ border: '1px solid var(--border)', color: 'var(--text)' }}
-            >
-              Log in
-            </Link>
-          )}
+          <HeaderAuthNav variant="mobile" />
         </div>
       </div>
     </header>
