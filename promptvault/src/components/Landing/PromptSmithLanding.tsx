@@ -705,10 +705,12 @@ export default function PromptSmithLanding() {
             </div>
             <div>
               <h4>Company</h4>
-              <a href="mailto:hello@promptsmith.ink">Contact</a>
+              <a href="/about">About us</a>
+              <a href="/contact">Contact us</a>
+              <a href="/refund">Refund policy</a>
+              <a href="/return">Return policy</a>
               <a href="/privacy">Privacy</a>
               <a href="/terms">Terms</a>
-              <a href="/refund">Refund policy</a>
             </div>
           </div>
           <div className="footer-base">

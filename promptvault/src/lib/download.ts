@@ -34,7 +34,7 @@ Updates
 We refresh the library every quarter. Re-download from your account page on
 promptsmith.ink to grab the latest pack — your purchase covers lifetime updates.
 
-Need help? hello@promptsmith.ink
+Need help? digitalhub.admin@gmail.com · WhatsApp +91 73395 45363
 `;
 
 function escapeMd(s: string): string {

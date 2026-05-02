@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { BUSINESS } from '@/lib/business';
 
 export default function Footer() {
   return (
@@ -15,6 +16,9 @@ export default function Footer() {
             4,000+ copy-paste-ready AI prompts for every profession. Built for ChatGPT,
             Claude, Gemini and any LLM.
           </p>
+          <p className="mt-3 text-xs text-slate-500">
+            Operated by {BUSINESS.legalName}, Coimbatore, Tamil Nadu, India.
+          </p>
         </div>
         <div>
           <h4 className="mb-3 text-sm font-semibold text-slate-900">Explore</h4>
@@ -29,20 +33,32 @@ export default function Footer() {
           <h4 className="mb-3 text-sm font-semibold text-slate-900">Support</h4>
           <ul className="space-y-2 text-sm text-slate-600">
             <li><Link href="/#faq" className="hover:text-rose-600">FAQ</Link></li>
-            <li><a href="mailto:hello@promptsmith.ink" className="hover:text-rose-600">hello@promptsmith.ink</a></li>
-            <li><Link href="/refund" className="hover:text-rose-600">7-day refund policy</Link></li>
+            <li><Link href="/contact" className="hover:text-rose-600">Contact us</Link></li>
+            <li>
+              <a href={`mailto:${BUSINESS.email}`} className="hover:text-rose-600">
+                {BUSINESS.email}
+              </a>
+            </li>
+            <li>
+              <a href={`tel:${BUSINESS.phoneRaw}`} className="hover:text-rose-600">
+                {BUSINESS.phone}
+              </a>
+            </li>
           </ul>
         </div>
         <div>
           <h4 className="mb-3 text-sm font-semibold text-slate-900">Legal</h4>
           <ul className="space-y-2 text-sm text-slate-600">
+            <li><Link href="/about" className="hover:text-rose-600">About us</Link></li>
+            <li><Link href="/refund" className="hover:text-rose-600">Refund policy</Link></li>
+            <li><Link href="/return" className="hover:text-rose-600">Return policy</Link></li>
             <li><Link href="/privacy" className="hover:text-rose-600">Privacy</Link></li>
             <li><Link href="/terms" className="hover:text-rose-600">Terms of use</Link></li>
           </ul>
         </div>
       </div>
       <div className="border-t border-slate-200 py-5 text-center text-xs text-slate-500">
-        © {new Date().getFullYear()} Prompt Smith · promptsmith.ink
+        © {new Date().getFullYear()} Prompt Smith · {BUSINESS.domain}
       </div>
     </footer>
   );

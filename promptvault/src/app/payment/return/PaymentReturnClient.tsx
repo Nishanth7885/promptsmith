@@ -127,8 +127,8 @@ export default function PaymentReturnClient() {
         </div>
         <p className="mt-6 text-xs text-slate-500">
           A receipt is on the way to your email. Need help?{' '}
-          <a href="mailto:hello@promptsmith.ink" className="text-rose-600 underline">
-            hello@promptsmith.ink
+          <a href="mailto:digitalhub.admin@gmail.com" className="text-rose-600 underline">
+            digitalhub.admin@gmail.com
           </a>
         </p>
       </div>
@@ -156,7 +156,7 @@ export default function PaymentReturnClient() {
             Try again
           </Link>
           <a
-            href="mailto:hello@promptsmith.ink"
+            href="mailto:digitalhub.admin@gmail.com"
             className="rounded-full px-5 py-3 text-sm font-semibold text-slate-700 ring-2 ring-slate-300 hover:bg-slate-100"
           >
             Email support
@@ -172,8 +172,8 @@ export default function PaymentReturnClient() {
       <p className="mt-2 text-sm text-amber-800">{state.message}</p>
       <p className="mt-4 text-xs text-amber-700">
         If your bank confirmed the debit, email{' '}
-        <a href="mailto:hello@promptsmith.ink" className="underline">
-          hello@promptsmith.ink
+        <a href="mailto:digitalhub.admin@gmail.com" className="underline">
+          digitalhub.admin@gmail.com
         </a>{' '}
         with your order id and we’ll unlock manually within 24 hours.
       </p>

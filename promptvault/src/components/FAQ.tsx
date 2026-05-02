@@ -29,7 +29,7 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: 'Refund policy?',
-    a: 'If you are not happy in the first 7 days, email hello@promptsmith.ink for a full no-questions refund. Cashfree processes the refund to your original payment method in 5-10 working days.',
+    a: 'All sales are final. Prompt Smith is a digital, instantly-delivered product, so we do not offer refunds or returns once payment is complete. If you cannot access what you paid for, email digitalhub.admin@gmail.com within 7 days and we will re-grant access at no cost. Full terms on the Refund Policy page.',
   },
   {
     q: 'Is the payment secure?',

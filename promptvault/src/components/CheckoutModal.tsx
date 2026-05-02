@@ -323,8 +323,9 @@ export default function CheckoutModal({ open, onClose }: Props) {
                 className="mt-0.5 h-3.5 w-3.5 rounded border-slate-300 text-rose-600 focus:ring-rose-500"
               />
               <span>
-                I agree to the <a href="/terms" className="underline">terms</a> and the{' '}
-                <a href="/refund" className="underline">7-day refund policy</a>.
+                I agree to the <a href="/terms" className="underline">terms</a>,{' '}
+                <a href="/refund" className="underline">refund policy</a>, and{' '}
+                <a href="/return" className="underline">return policy</a>. All sales are final.
               </span>
             </label>
 

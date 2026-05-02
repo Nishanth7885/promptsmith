@@ -94,7 +94,7 @@ export default function PreviewPage({ searchParams }: { searchParams: { welcome?
             Loved the preview? Unlock all {allPrompts.length.toLocaleString('en-IN')}+ prompts.
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-sm text-slate-200">
-            Lifetime access · Free updates · Offline ZIP · 7-day money-back
+            Lifetime access · Free updates · Offline ZIP · Pay once
           </p>
           <div className="mt-6 flex justify-center">
             <BuyButton />
