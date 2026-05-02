@@ -73,21 +73,9 @@ export async function signupAction(_: ActionResult | null, formData: FormData): 
     .returning({ id: schema.users.id });
   await sendVerifyEmail(inserted[0].id, email, name || null);
 
-  // Auto-login + redirect. signIn throws NEXT_REDIRECT on success which Next
-  // catches; AuthError means credentials genuinely failed.
-  const callbackUrl = (formData.get('callbackUrl') as string) || '/preview?welcome=1';
-  try {
-    await signIn('credentials', { email, password, redirectTo: callbackUrl });
-  } catch (err) {
-    if (err instanceof AuthError) {
-      return {
-        ok: false,
-        error: 'Account created but auto-login failed. Please log in manually.',
-      };
-    }
-    throw err; // NEXT_REDIRECT bubbles up — framework handles the redirect.
-  }
-  return { ok: true };
+  // No auto-login — verification is required first. Send the user to the
+  // "check your inbox" page, with their email so the resend form is pre-filled.
+  redirect(`/verify-email?email=${encodeURIComponent(email)}&sent=1`);
 }
 
 async function sendVerifyEmail(userId: string, email: string, name: string | null): Promise<void> {

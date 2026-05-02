@@ -616,41 +616,41 @@ export default function PromptSmithLanding() {
 
             <div className="price-grid reveal">
               <div className="tier">
-                <div className="tier-name">Free</div>
+                <div className="tier-name">Free preview</div>
                 <div className="tier-price">
-                  $0<span className="per">/forever</span>
+                  ₹0<span className="per">/forever</span>
                 </div>
                 <p className="tier-desc">
-                  Everything you need to explore the vault and run the basics.
+                  Sample 251 hand-picked prompts before you commit. No card required.
                 </p>
                 <ul className="tier-features">
-                  <li><span className="tick">✓</span> Access to 600+ free prompts</li>
-                  <li><span className="tick">✓</span> Copy &amp; paste any prompt</li>
-                  <li><span className="tick">✓</span> Browse all 38 categories</li>
-                  <li><span className="tick">✓</span> 5 saves per month</li>
-                  <li><span className="tick">✓</span> Community ratings</li>
+                  <li><span className="tick">✓</span> 251 free prompts across all 39 categories</li>
+                  <li><span className="tick">✓</span> 3 free Claude Design hero previews</li>
+                  <li><span className="tick">✓</span> Copy &amp; paste any preview prompt</li>
+                  <li><span className="tick">✓</span> Browse the full vault (read-only)</li>
+                  <li><span className="tick">✓</span> No login required</li>
                 </ul>
                 <button type="button" className="tier-cta" onClick={onStartFree}>Start free →</button>
               </div>
               <div className="tier featured">
-                <div className="tier-flag">RECOMMENDED</div>
-                <div className="tier-name">Premium</div>
+                <div className="tier-flag">BEST VALUE</div>
+                <div className="tier-name">Lifetime access</div>
                 <div className="tier-price">
-                  $12<span className="per">/month</span>
+                  ₹249<span className="per">/one-time · GST included</span>
                 </div>
                 <p className="tier-desc">
-                  Every prompt. Every update. Every workflow that actually ships.
+                  Every prompt. Every update. Forever. One payment via Cashfree, secure.
                 </p>
                 <ul className="tier-features">
-                  <li><span className="tick">✓</span> All 2,847 prompts (+weekly drops)</li>
-                  <li><span className="tick">✓</span> Production-grade prompt chains</li>
-                  <li><span className="tick">✓</span> Version history &amp; A/B variants</li>
-                  <li><span className="tick">✓</span> Unlimited saves &amp; collections</li>
-                  <li><span className="tick">✓</span> Run prompts live in-browser</li>
-                  <li><span className="tick">✓</span> Priority requests &amp; private discord</li>
+                  <li><span className="tick">✓</span> All 4,529 prompts unlocked</li>
+                  <li><span className="tick">✓</span> Claude Design — 500 landing-page prompts</li>
+                  <li><span className="tick">✓</span> Free quarterly updates (100–300 new prompts)</li>
+                  <li><span className="tick">✓</span> Offline ZIP — JSON + Markdown</li>
+                  <li><span className="tick">✓</span> UPI, card, net banking, wallets</li>
+                  <li><span className="tick">✓</span> India-context · GST · DPDP-aligned</li>
                 </ul>
                 <button type="button" className="tier-cta" onClick={onUnlockClick}>
-                  {unlocked ? 'Open your library →' : 'Unlock premium →'}
+                  {unlocked ? 'Open your library →' : 'Unlock everything — ₹249'}
                 </button>
               </div>
             </div>
@@ -762,7 +762,7 @@ function VaultCard({ entry }: { entry: VaultEntry }) {
           <div className="card-meta">
             <span>{entry.tags}</span>
             <span className={`price${entry.tier === 'FREE' ? '' : ' pro'}`}>
-              {entry.tier === 'FREE' ? 'FREE' : '$0.99'}
+              {entry.tier === 'FREE' ? 'FREE' : '₹49'}
             </span>
           </div>
         </div>
