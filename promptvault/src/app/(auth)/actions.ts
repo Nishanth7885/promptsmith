@@ -73,14 +73,21 @@ export async function signupAction(_: ActionResult | null, formData: FormData): 
     .returning({ id: schema.users.id });
   await sendVerifyEmail(inserted[0].id, email, name || null);
 
-  // Auto-login (their access is gated by emailVerified anyway for sensitive
-  // actions; they can still browse).
+  // Auto-login + redirect. signIn throws NEXT_REDIRECT on success which Next
+  // catches; AuthError means credentials genuinely failed.
+  const callbackUrl = (formData.get('callbackUrl') as string) || '/preview?welcome=1';
   try {
-    await signIn('credentials', { email, password, redirect: false });
-  } catch {
-    // ignore — they can log in manually
+    await signIn('credentials', { email, password, redirectTo: callbackUrl });
+  } catch (err) {
+    if (err instanceof AuthError) {
+      return {
+        ok: false,
+        error: 'Account created but auto-login failed. Please log in manually.',
+      };
+    }
+    throw err; // NEXT_REDIRECT bubbles up — framework handles the redirect.
   }
-  return { ok: true, message: 'Account created. Check your inbox to verify your email.' };
+  return { ok: true };
 }
 
 async function sendVerifyEmail(userId: string, email: string, name: string | null): Promise<void> {
@@ -105,7 +112,7 @@ export async function loginAction(_: ActionResult | null, formData: FormData): P
     await signIn('credentials', {
       email: parsed.data.email,
       password: parsed.data.password,
-      redirectTo: (formData.get('callbackUrl') as string) || '/account',
+      redirectTo: (formData.get('callbackUrl') as string) || '/preview',
     });
   } catch (err) {
     if (err instanceof AuthError) {

@@ -28,7 +28,10 @@ export async function GET(req: NextRequest) {
 
 function inferFromAcceptLanguage(al: string | null): string | null {
   if (!al) return null;
+  // Confident match: explicit -IN locale → India.
   if (/-IN\b/i.test(al)) return 'IN';
-  if (/-(US|GB|CA|AU|NZ|SG|AE|DE|FR|ES|IT|NL|JP|KR|CN)\b/i.test(al)) return 'OTHER';
+  // Don't infer "non-IN" from US/GB defaults — many Indian users browse with
+  // Firefox/Chrome's default `en-US,en;q=0.9`. Defaulting them to USD is worse
+  // than defaulting to INR. Stay neutral; the caller's fallback ('IN') wins.
   return null;
 }

@@ -11,8 +11,9 @@ export const metadata = {
     'Try before you buy: 200+ free expert AI prompts across 35 professions. No login required.',
 };
 
-export default function PreviewPage() {
+export default function PreviewPage({ searchParams }: { searchParams: { welcome?: string } }) {
   const free = getFreePrompts();
+  const justSignedUp = searchParams?.welcome === '1';
   const grouped: Record<string, typeof free> = {};
   for (const p of free) {
     grouped[p.category] = grouped[p.category] || [];
@@ -23,9 +24,16 @@ export default function PreviewPage() {
     <>
       <Header />
       <main className="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-14">
+        {justSignedUp && (
+          <div className="mx-auto mb-8 max-w-2xl rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-900">
+            <strong>Welcome to Prompt Smith!</strong> Your account is ready — explore the free
+            prompts below. Check your inbox for a verification email so you don't miss receipts
+            and updates.
+          </div>
+        )}
         <div className="text-center">
           <span className="inline-flex rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold text-emerald-700">
-            🎁 100% Free · No login
+            🎁 Free tier · 248 prompts
           </span>
           <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
             {free.length} free preview prompts
@@ -35,7 +43,7 @@ export default function PreviewPage() {
             AI tool, and see the quality before unlocking all {allPrompts.length.toLocaleString('en-IN')}+ prompts.
           </p>
           <div className="mt-6 flex justify-center">
-            <BuyButton />
+            <BuyButton>Get full access</BuyButton>
           </div>
         </div>
 

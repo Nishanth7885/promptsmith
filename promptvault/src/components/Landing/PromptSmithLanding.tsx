@@ -417,9 +417,23 @@ export default function PromptSmithLanding() {
             <a href="#vault" onClick={() => setMenuOpen(false)}>Vault</a>
             <a href="#pricing" onClick={() => setMenuOpen(false)}>Pricing</a>
             <a href="/preview" onClick={() => setMenuOpen(false)}>Free preview</a>
-            <a href="/login" onClick={() => setMenuOpen(false)}>Sign in</a>
+            {session?.user ? (
+              <a href="/account" onClick={() => setMenuOpen(false)}>Account</a>
+            ) : (
+              <a href="/login" onClick={() => setMenuOpen(false)}>Sign in</a>
+            )}
           </nav>
-          <a className="nav-cta" href="/signup">Get access →</a>
+          {session?.user ? (
+            <button
+              type="button"
+              className="nav-cta"
+              onClick={onUnlockClick}
+            >
+              {unlocked ? 'Open library →' : 'Get access →'}
+            </button>
+          ) : (
+            <a className="nav-cta" href="/signup">Get access →</a>
+          )}
           <button
             className="menu-btn"
             aria-label="Menu"
