@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { useSession } from 'next-auth/react';
 import { getCashfree } from '@/lib/cashfree-client';
 import { useCurrency } from './CurrencyContext';
@@ -74,7 +75,21 @@ export default function CheckoutModal({
     }
   }, [open, currency.currency, currency.crossBorderEnabled]);
 
-  if (!open) return null;
+  // Lock body scroll while open + ensure we're client-side before portalling.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+  useEffect(() => {
+    if (!open) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = prev;
+    };
+  }, [open]);
+
+  if (!open || !mounted) return null;
 
   const applyCoupon = async () => {
     if (!coupon.trim()) {
@@ -212,12 +227,12 @@ export default function CheckoutModal({
       ? `Unlock ${categoryName}`
       : 'Get all 4,000+ prompts';
 
-  return (
+  return createPortal(
     <div
       role="dialog"
       aria-modal="true"
       aria-labelledby="checkout-title"
-      className="fixed inset-0 z-[100] grid place-items-center bg-black/70 p-4 backdrop-blur"
+      className="fixed inset-0 z-[2000] grid place-items-center bg-black/70 p-4 backdrop-blur"
       onClick={(e) => {
         if (e.target === e.currentTarget && !busy) onClose();
       }}
@@ -387,7 +402,8 @@ export default function CheckoutModal({
           </form>
         )}
       </div>
-    </div>
+    </div>,
+    document.body,
   );
 }
 
