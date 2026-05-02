@@ -2,22 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #f8fafc;
-  --foreground: #0f172a;
-}
+/* ================================================================
+   Prompt Smith — global dark theme
+   Single source of truth. Inner pages, the landing page, the
+   /claude-design route and all policy pages share these tokens.
+   ============================================================= */
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-  color: var(--foreground);
-  background: var(--background);
-  font-family:
-    'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  /* Base surfaces */
+  --bg-0: #07070d;
+  --bg-1: #0c0c18;
+  --bg-2: #12122a;
+  --surface: rgba(255, 255, 255, 0.04);
+  --surface-2: rgba(255, 255, 255, 0.06);
+  --surface-3: rgba(255, 255, 255, 0.09);
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.16);
+
+  /* Text */
+  --text: #f0eef7;
+  --text-dim: #a5a3b8;
+  --text-mute: #6c6a85;
+
+  /* Iridescent palette */
+  --violet: #7c5cff;
+  --magenta: #d946ef;
+  --cyan: #22d3ee;
+  --mint: #5eead4;
+  --rose: #fb7185;
+
+  --grad-iri: linear-gradient(135deg, #7c5cff 0%, #d946ef 50%, #22d3ee 100%);
+  --grad-iri-soft: linear-gradient(135deg, rgba(124, 92, 255, 0.85), rgba(217, 70, 239, 0.85), rgba(34, 211, 238, 0.85));
+  --grad-glow: radial-gradient(circle at 50% 50%, rgba(124, 92, 255, 0.5), transparent 60%);
+
+  --r-sm: 10px;
+  --r-md: 16px;
+  --r-lg: 24px;
+  --r-xl: 32px;
+  --r-pill: 999px;
+
+  --shadow-glow: 0 0 80px -20px rgba(124, 92, 255, 0.5), 0 0 160px -40px rgba(217, 70, 239, 0.3);
+
+  /* Tailwind compat aliases */
+  --background: var(--bg-0);
+  --foreground: var(--text);
 }
 
 * {
@@ -26,25 +54,175 @@ body {
   margin: 0;
 }
 
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  color: var(--text);
+  background: var(--bg-0);
+  font-family:
+    'Geist', 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
 ::selection {
-  background-color: #fda4af;
-  color: #881337;
+  background: rgba(124, 92, 255, 0.4);
+  color: white;
 }
 
-/* Smooth scrolling for in-page anchors */
-html {
-  scroll-behavior: smooth;
+/* ----------------------------------------------------------------
+   Inner-page Tailwind color remap.
+   The marketing pages (browse, preview, search, about, etc.) were
+   originally written with a light slate palette. Rather than rewrite
+   every file, we override the specific Tailwind classes that show up
+   in those pages so they render correctly on the new dark base.
+   --------------------------------------------------------------- */
+
+/* Surfaces */
+.bg-white { background-color: var(--surface) !important; backdrop-filter: blur(10px); }
+.bg-white\/85 { background-color: rgba(12, 12, 24, 0.65) !important; backdrop-filter: blur(18px) saturate(180%); }
+.bg-white\/80 { background-color: rgba(12, 12, 24, 0.6) !important; backdrop-filter: blur(14px); }
+.bg-white\/70 { background-color: rgba(12, 12, 24, 0.55) !important; backdrop-filter: blur(12px); }
+.bg-slate-50 { background-color: var(--surface-2) !important; }
+.bg-slate-100 { background-color: var(--surface-3) !important; }
+.bg-slate-200 { background-color: rgba(255, 255, 255, 0.12) !important; }
+
+/* Strong dark surfaces stay dark */
+.bg-slate-900 { background-color: var(--bg-1) !important; }
+.bg-slate-800 { background-color: var(--bg-2) !important; }
+
+/* Text */
+.text-slate-900 { color: var(--text) !important; }
+.text-slate-800 { color: var(--text) !important; }
+.text-slate-700 { color: var(--text-dim) !important; }
+.text-slate-600 { color: var(--text-dim) !important; }
+.text-slate-500 { color: var(--text-mute) !important; }
+.text-slate-400 { color: var(--text-mute) !important; }
+.text-slate-300 { color: var(--text-mute) !important; }
+
+/* Borders */
+.border-slate-200 { border-color: var(--border) !important; }
+.border-slate-300 { border-color: var(--border-strong) !important; }
+.border-slate-100 { border-color: var(--border) !important; }
+.divide-slate-200 > :not([hidden]) ~ :not([hidden]) { border-color: var(--border) !important; }
+
+/* Rose accents stay readable on dark */
+.text-rose-600 { color: #f472b6 !important; }
+.text-rose-700 { color: #f9a8d4 !important; }
+.text-rose-500 { color: #fb7185 !important; }
+.bg-rose-50 { background-color: rgba(244, 114, 182, 0.08) !important; }
+.bg-rose-100 { background-color: rgba(244, 114, 182, 0.15) !important; }
+.text-rose-200 { color: #fda4af !important; }
+.border-rose-200 { border-color: rgba(244, 114, 182, 0.3) !important; }
+.border-rose-300 { border-color: rgba(244, 114, 182, 0.4) !important; }
+.ring-rose-200 { --tw-ring-color: rgba(244, 114, 182, 0.3) !important; }
+
+/* Status accents */
+.bg-emerald-50 { background-color: rgba(94, 234, 212, 0.08) !important; }
+.bg-emerald-100 { background-color: rgba(94, 234, 212, 0.16) !important; }
+.text-emerald-700 { color: #5eead4 !important; }
+.text-emerald-900 { color: #99f6e4 !important; }
+.border-emerald-200 { border-color: rgba(94, 234, 212, 0.3) !important; }
+.bg-amber-50 { background-color: rgba(245, 158, 11, 0.08) !important; }
+.text-amber-700 { color: #fcd34d !important; }
+.text-amber-800 { color: #fde68a !important; }
+.text-amber-900 { color: #fef3c7 !important; }
+.border-amber-200 { border-color: rgba(245, 158, 11, 0.3) !important; }
+.bg-violet-100 { background-color: rgba(124, 92, 255, 0.16) !important; }
+.text-violet-700 { color: #c4b5fd !important; }
+.text-violet-600 { color: #a78bfa !important; }
+
+/* Form inputs */
+input:not([type='checkbox']):not([type='radio']),
+textarea,
+select {
+  background-color: var(--surface) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
 }
 
-/* Line-clamp helpers */
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-mute) !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--violet) !important;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(124, 92, 255, 0.25) !important;
+}
+
+/* ----------------------------------------------------------------
+   Reusable helpers (used by landing + inner pages)
+   --------------------------------------------------------------- */
+
+.iri,
+.text-iri {
+  background: var(--grad-iri);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.glass-card {
+  background: linear-gradient(180deg, rgba(20, 20, 40, 0.7), rgba(12, 12, 24, 0.7));
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+}
+
+/* Shadows under glass elements look better with violet tint */
+.shadow-sm { box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.6) !important; }
+.shadow-md { box-shadow: 0 12px 32px -12px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(124, 92, 255, 0.06) !important; }
+.shadow-xl { box-shadow: 0 30px 80px -20px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(124, 92, 255, 0.1) !important; }
+.shadow-2xl { box-shadow: 0 40px 100px -20px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(124, 92, 255, 0.15) !important; }
+
+/* Line-clamp helpers (kept from original) */
 .line-clamp-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Scroll-reveal helper used by the landing + claude-design components */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal.in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

@@ -179,7 +179,7 @@ export default function ClaudeDesignSection() {
       id="claude-design-demo"
       ref={sectionRef}
     >
-      <style>{CD_STYLES}</style>
+      <style dangerouslySetInnerHTML={{ __html: CD_STYLES }} />
 
       {/* TOP MARQUEE — niches scroll horizontally */}
       <div className="cd-marquee-wrap" aria-hidden="true">

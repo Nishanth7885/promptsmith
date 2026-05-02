@@ -216,18 +216,7 @@ export default function PromptSmithLanding() {
   const cycleTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const blobsRef = useRef<HTMLDivElement | null>(null);
 
-  // body bg/color override (layout body uses Tailwind `bg-slate-50 text-slate-900`)
-  useEffect(() => {
-    const body = document.body;
-    const prevBg = body.style.background;
-    const prevColor = body.style.color;
-    body.style.background = '#07070d';
-    body.style.color = '#f0eef7';
-    return () => {
-      body.style.background = prevBg;
-      body.style.color = prevColor;
-    };
-  }, []);
+  // body bg/color now lives in globals.css :root + body — no JS override needed.
 
   // typewriter console
   useEffect(() => {
