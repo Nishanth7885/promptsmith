@@ -6,9 +6,9 @@ import PromptCard from '@/components/PromptCard';
 import BuyButton from '@/components/BuyButton';
 
 export const metadata = {
-  title: 'Free 50-prompt preview — Prompt Smith',
+  title: 'Free 348-prompt preview — Prompt Smith',
   description:
-    'Try before you buy: 200+ free expert AI prompts across 35 professions. No login required.',
+    'Try before you buy: 348 free expert AI prompts across 36 categories. No login required.',
 };
 
 export default function PreviewPage({ searchParams }: { searchParams: { welcome?: string } }) {
@@ -33,7 +33,7 @@ export default function PreviewPage({ searchParams }: { searchParams: { welcome?
         )}
         <div className="text-center">
           <span className="inline-flex rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold text-emerald-700">
-            🎁 Free tier · 248 prompts
+            🎁 Free tier · 348 prompts
           </span>
           <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
             {free.length} free preview prompts

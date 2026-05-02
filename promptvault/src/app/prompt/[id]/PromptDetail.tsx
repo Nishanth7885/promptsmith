@@ -65,7 +65,7 @@ export default function PromptDetail({ prompt }: { prompt: Prompt }) {
                 Unlock to copy + use this prompt
               </p>
               <p className="mt-1 text-xs text-slate-600">
-                ₹299 one-time · Lifetime access · 4,029+ prompts
+                ₹299 one-time · Lifetime access · 4,529+ prompts
               </p>
             </div>
           </div>

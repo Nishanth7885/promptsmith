@@ -24,8 +24,9 @@ export default function Footer() {
           <h4 className="mb-3 text-sm font-semibold text-slate-900">Explore</h4>
           <ul className="space-y-2 text-sm text-slate-600">
             <li><Link href="/browse" className="hover:text-rose-600">All categories</Link></li>
+            <li><Link href="/claude-design" className="hover:text-rose-600">Claude Design — landing pages</Link></li>
             <li><Link href="/search" className="hover:text-rose-600">Search prompts</Link></li>
-            <li><Link href="/preview" className="hover:text-rose-600">Free 50-prompt preview</Link></li>
+            <li><Link href="/preview" className="hover:text-rose-600">Free 348-prompt preview</Link></li>
             <li><Link href="/#pricing" className="hover:text-rose-600">Pricing</Link></li>
           </ul>
         </div>

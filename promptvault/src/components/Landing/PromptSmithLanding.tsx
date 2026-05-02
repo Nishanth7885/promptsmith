@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { useSession } from 'next-auth/react';
 import { hasAccess } from '@/lib/access';
 import CheckoutModal from '@/components/CheckoutModal';
+import ClaudeDesignSection from '@/components/Landing/ClaudeDesignSection';
 
 type Prompt = {
   title: string;
@@ -205,7 +206,7 @@ export default function PromptSmithLanding() {
     setCheckoutOpen(true);
   };
 
-  // Free CTA goes to the 248-prompt preview page.
+  // Free CTA goes to the 348-prompt preview page.
   const onStartFree = () => router.push('/preview');
 
   const promptElRef = useRef<HTMLDivElement | null>(null);
@@ -605,6 +606,8 @@ export default function PromptSmithLanding() {
             </div>
           </div>
         </section>
+
+        <ClaudeDesignSection />
 
         {/* PRICING */}
         <section className="section" id="pricing">

@@ -105,7 +105,7 @@ export default function PaymentReturnClient() {
           Payment received. Welcome aboard!
         </h1>
         <p className="mt-2 text-sm text-slate-600">
-          You now have lifetime access to all 4,029 prompts on this device.
+          You now have lifetime access to all 4,529 prompts on this device.
         </p>
         <dl className="mx-auto mt-6 grid max-w-sm gap-2 text-left text-xs text-slate-600">
           <Row label="Order ID" value={state.orderId} />

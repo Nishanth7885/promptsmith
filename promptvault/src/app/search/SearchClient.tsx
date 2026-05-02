@@ -60,7 +60,7 @@ export default function SearchClient() {
       <div className="mb-6">
         <h1 className="text-3xl font-bold tracking-tight text-slate-900">Search prompts</h1>
         <p className="mt-2 text-sm text-slate-600">
-          Fuzzy search across all 4,029 prompts — title, tags, content, and category.
+          Fuzzy search across all 4,529 prompts — title, tags, content, and category.
         </p>
       </div>
 

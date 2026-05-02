@@ -260,3 +260,4 @@ sudo crontab -e
 | Google OAuth `redirect_uri_mismatch` | Authorized redirect URI in Google must be exactly `https://promptsmith.ink/api/auth/callback/google` (no trailing slash). |
 | Receipt email not arriving | Resend dashboard → Activity. Sender domain verified? Check `journalctl -u promptsmith` for `[receipt-email]` warnings. |
 | `database is locked` errors | Make sure only one process writes to the SQLite file. WAL is on, but parallel deploys still need to stop the old one first. |
+| `SqliteError: database is locked` during `next build` (Collecting page data) | A route module opened SQLite at import time and parallel page-data workers raced on `pragma journal_mode = WAL`. The connection in `src/db/index.ts` must stay lazy (opened on first property access, not at module load). |
