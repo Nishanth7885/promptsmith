@@ -656,9 +656,8 @@ export default function PromptSmithLanding() {
             <div className="price-grid reveal">
               <div className="tier">
                 <div className="tier-name">Free preview</div>
-                <div className="tier-price">
-                  ₹0<span className="per">/forever</span>
-                </div>
+                <div className="tier-price">₹0</div>
+                <div className="tier-per">Free forever</div>
                 <p className="tier-desc">
                   Sample 251 hand-picked prompts before you commit. No card required.
                 </p>
@@ -675,9 +674,8 @@ export default function PromptSmithLanding() {
               <div className="tier">
                 <div className="tier-flag tier-flag-alt">JUST ONE PACK</div>
                 <div className="tier-name">Single category</div>
-                <div className="tier-price">
-                  ₹99<span className="per">/one-time · GST included</span>
-                </div>
+                <div className="tier-price">₹99</div>
+                <div className="tier-per">One-time · GST included</div>
                 <p className="tier-desc">
                   Pick ANY one of 37 categories — finance, design, students, claude-design — and unlock it for life.
                 </p>
@@ -700,9 +698,8 @@ export default function PromptSmithLanding() {
               <div className="tier featured">
                 <div className="tier-flag">BEST VALUE · ₹200 SAVED</div>
                 <div className="tier-name">All-access lifetime</div>
-                <div className="tier-price">
-                  ₹299<span className="per">/one-time · GST included</span>
-                </div>
+                <div className="tier-price">₹299</div>
+                <div className="tier-per">One-time · GST included</div>
                 <p className="tier-desc">
                   Every prompt. Every update. Forever. One payment via Cashfree, secure.
                 </p>
@@ -1620,11 +1617,14 @@ main, header, footer { position: relative; z-index: 3; }
   -webkit-background-clip: text; background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.tier-price .per {
-  font-size: 14px; font-weight: 500;
-  margin-left: 8px; vertical-align: middle;
+.tier-per {
+  margin-top: 6px;
+  font-size: 13px; font-weight: 500;
   color: var(--text-mute);
-  -webkit-text-fill-color: var(--text-mute);
+  letter-spacing: 0.01em;
+}
+.tier.featured .tier-per {
+  color: rgba(255, 255, 255, 0.7);
 }
 .tier-desc {
   margin-top: 12px; font-size: 15px; line-height: 1.55;
