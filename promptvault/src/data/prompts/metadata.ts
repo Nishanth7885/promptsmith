@@ -115,6 +115,7 @@ export const categories: Category[] = [
       { slug: 'qa-testing', name: 'QA/Testing', description: 'Test case generation, bug report templates, automation scripts, performance test scenarios, API testing prompts', promptCount: PER_SUB, icon: '🐞' },
       { slug: 'ai-engineers', name: 'AI / ML Engineers', description: 'Production LLM apps — RAG, fine-tuning, agents, evals, vector DBs, cost optimization, India residency.', promptCount: 50, icon: '🤖' },
     ],
+  },
   {
     slug: 'finance',
     name: 'Finance & Accounting',
@@ -160,6 +161,7 @@ export const categories: Category[] = [
       { slug: 'linkedin-ghostwriters', name: 'LinkedIn Ghostwriters', description: 'Founder-voice posts, carousels, articles for B2B SaaS founders, VCs, and Indian-startup execs.', promptCount: 50, icon: '💼' },
       { slug: 'youtube-shorts-creators', name: 'YouTube Shorts Creators', description: 'Hindi/English Shorts hooks, scripts, retention tactics, monetization, ASCI-compliant brand deals.', promptCount: 50, icon: '📲' },
     ],
+  },
   {
     slug: 'hr',
     name: 'HR & People Management',
@@ -215,6 +217,7 @@ export const categories: Category[] = [
       { slug: 'photographers', name: 'Photographers/Videographers', description: 'Shot list creation, client questionnaires, editing style guides, portfolio description, pricing package copy', promptCount: PER_SUB, icon: '📷' },
       { slug: 'mehndi-bridal-artists', name: 'Mehndi & Bridal Artists', description: 'Henna, bridal makeup, hair stylists — wedding bookings, Karwa Chauth surge, ₹2k–₹50k packages.', promptCount: 50, icon: '🎨' },
     ],
+  },
   {
     slug: 'food-hospitality',
     name: 'Food & Hospitality',
@@ -266,6 +269,7 @@ export const categories: Category[] = [
       { slug: 'nutritionists', name: 'Nutritionists/Dietitians', description: 'Meal plan creation, client consultation notes, diet analysis, food substitution guides, nutrition education materials', promptCount: PER_SUB, icon: '🥗' },
       { slug: 'fitness-brand-founders', name: 'Fitness Brand Founders', description: 'Gym owners, online-coaching, supplement D2C — member acquisition, retention, content, FSSAI-compliant launches.', promptCount: 50, icon: '🏆' },
     ],
+  },
   {
     slug: 'social-media-creators',
     name: 'Social Media & Influencers',
@@ -279,6 +283,7 @@ export const categories: Category[] = [
       { slug: 'twitter-x', name: 'Twitter/X Creators', description: 'Thread writing, tweet hooks, viral content frameworks, community engagement, content repurposing', promptCount: PER_SUB, icon: '🐦' },
       { slug: 'instagram-reels-creators', name: 'Instagram Reels Creators', description: 'Hook + script + sound + brand-deal pack for India lifestyle, fashion, food, fitness creators.', promptCount: 50, icon: '🎞️' },
     ],
+  },
   {
     slug: 'startup-founders',
     name: 'Startup Founders & Entrepreneurs',
