@@ -29,8 +29,17 @@ export async function GET(req: Request) {
   }
 
   const rows = await db
-    .select()
+    .select({
+      id: schema.reviews.id,
+      rating: schema.reviews.rating,
+      comment: schema.reviews.comment,
+      verifiedPurchaser: schema.reviews.verifiedPurchaser,
+      createdAt: schema.reviews.createdAt,
+      authorName: schema.users.name,
+      authorEmail: schema.users.email,
+    })
     .from(schema.reviews)
+    .leftJoin(schema.users, eq(schema.users.id, schema.reviews.userId))
     .where(eq(schema.reviews.promptId, promptId))
     .orderBy(desc(schema.reviews.createdAt));
 

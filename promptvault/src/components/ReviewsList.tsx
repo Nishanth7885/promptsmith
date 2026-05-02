@@ -1,50 +1,58 @@
-// Server component — renders the aggregate stars + a list of reviews for
-// one prompt.
+'use client';
+
+// Reviews list — runs client-side after the prompt page is static-rendered.
+// Avoids DB access during `next build` prerender (which would either fail
+// because the local sqlite file does not exist yet, or contend with the
+// running production service for a SQLite write lock).
 //
-// Spec called for fetching GET /api/reviews?promptId=... over HTTP, but the
-// containing prompt page uses generateStaticParams (5,529 prompts), so a
-// runtime fetch to a relative URL during static generation would fail. We
-// hit the DB directly via the same query the API route uses; the API route
-// remains the public-HTTP entry point for clients (e.g. ReviewForm refresh).
-import 'server-only';
-import { desc, eq } from 'drizzle-orm';
-import { db, schema } from '@/db';
+// The /api/reviews GET handler is the public read endpoint and is also what
+// ReviewForm refreshes against after a POST.
+import { useEffect, useState } from 'react';
 import StarRating from './StarRating';
-import type { Review } from '@/db/schema';
 
 interface Props {
   promptId: string;
 }
 
-type ReviewWithAuthor = Review & {
-  authorName: string | null;
-  authorEmail: string | null;
-};
+interface ApiReview {
+  id: string;
+  rating: number;
+  comment: string | null;
+  verifiedPurchaser: boolean;
+  createdAt: string;
+  authorName?: string | null;
+  authorEmail?: string | null;
+}
 
-export default async function ReviewsList({ promptId }: Props) {
-  // Join reviews -> users for display name. Drizzle's leftJoin returns
-  // { reviews, users } shaped rows.
-  const rows = await db
-    .select({
-      review: schema.reviews,
-      userName: schema.users.name,
-      userEmail: schema.users.email,
+interface ApiResponse {
+  reviews: ApiReview[];
+  avgRating: number;
+  count: number;
+}
+
+export default function ReviewsList({ promptId }: Props) {
+  const [data, setData] = useState<ApiResponse | null>(null);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch(`/api/reviews?promptId=${encodeURIComponent(promptId)}`, {
+      cache: 'no-store',
     })
-    .from(schema.reviews)
-    .leftJoin(schema.users, eq(schema.users.id, schema.reviews.userId))
-    .where(eq(schema.reviews.promptId, promptId))
-    .orderBy(desc(schema.reviews.createdAt));
-
-  const reviews: ReviewWithAuthor[] = rows.map((r) => ({
-    ...r.review,
-    authorName: r.userName ?? null,
-    authorEmail: r.userEmail ?? null,
-  }));
-  const count = reviews.length;
-  const avgRating =
-    count === 0
-      ? 0
-      : Math.round((reviews.reduce((s, r) => s + r.rating, 0) / count) * 10) / 10;
+      .then(async (res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return (await res.json()) as ApiResponse;
+      })
+      .then((d) => {
+        if (!cancelled) setData(d);
+      })
+      .catch((e) => {
+        if (!cancelled) setError(e instanceof Error ? e.message : 'Failed to load reviews');
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [promptId]);
 
   return (
     <section className="mt-10">
@@ -52,30 +60,41 @@ export default async function ReviewsList({ promptId }: Props) {
         <h2 className="text-sm font-semibold uppercase tracking-widest text-slate-300">
           Reviews
         </h2>
-        {count > 0 && (
-          <StarRating rating={avgRating} size="lg" showNumber count={count} />
+        {data && data.count > 0 && (
+          <StarRating rating={data.avgRating} size="lg" showNumber count={data.count} />
         )}
       </header>
 
-      {count === 0 ? (
+      {!data && !error && (
+        <div className="glass-card mt-3 px-5 py-8 text-center">
+          <p className="text-sm text-slate-400">Loading reviews…</p>
+        </div>
+      )}
+
+      {error && (
         <div className="glass-card mt-3 px-5 py-8 text-center">
           <p className="text-sm text-slate-400">
-            Be the first to review this prompt.
+            Couldn&apos;t load reviews right now.
           </p>
         </div>
-      ) : (
+      )}
+
+      {data && data.count === 0 && (
+        <div className="glass-card mt-3 px-5 py-8 text-center">
+          <p className="text-sm text-slate-400">Be the first to review this prompt.</p>
+        </div>
+      )}
+
+      {data && data.count > 0 && (
         <ul className="mt-4 flex flex-col gap-3">
-          {reviews.map((r) => (
+          {data.reviews.map((r) => (
             <li key={r.id} className="glass-card p-4 sm:p-5">
               <div className="flex items-start justify-between gap-3">
                 <div className="flex items-center gap-3">
-                  <Avatar
-                    name={r.authorName}
-                    email={r.authorEmail}
-                  />
+                  <Avatar name={r.authorName ?? null} email={r.authorEmail ?? null} />
                   <div>
                     <p className="text-sm font-semibold text-slate-200">
-                      {displayName(r.authorName, r.authorEmail)}
+                      {displayName(r.authorName ?? null, r.authorEmail ?? null)}
                     </p>
                     <div className="mt-0.5 flex items-center gap-2">
                       <StarRating rating={r.rating} size="sm" />
@@ -94,10 +113,10 @@ export default async function ReviewsList({ promptId }: Props) {
                   </div>
                 </div>
                 <time
-                  dateTime={r.createdAt.toISOString()}
+                  dateTime={r.createdAt}
                   className="shrink-0 text-xs text-slate-500"
                 >
-                  {formatDate(r.createdAt)}
+                  {formatDate(new Date(r.createdAt))}
                 </time>
               </div>
 
@@ -121,20 +140,13 @@ function displayName(name: string | null, email: string | null): string {
 }
 
 function initialsFromEmail(email: string): string {
-  // For privacy, show only initials when no display name is set.
   const local = email.split('@')[0] ?? email;
   const parts = local.split(/[._-]/).filter(Boolean);
   if (parts.length === 0) return local.slice(0, 2).toUpperCase();
   return parts.slice(0, 2).map((p) => p[0]?.toUpperCase() ?? '').join('');
 }
 
-function Avatar({
-  name,
-  email,
-}: {
-  name: string | null;
-  email: string | null;
-}) {
+function Avatar({ name, email }: { name: string | null; email: string | null }) {
   const label = displayName(name, email);
   const initials =
     label
